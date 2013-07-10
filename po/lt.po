@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2013-05-28 11:42+0200\n"
-"PO-Revision-Date: 2013-05-15 06:28+0000\n"
+"POT-Creation-Date: 2013-06-06 17:40+0200\n"
+"PO-Revision-Date: 2013-07-04 06:51+0000\n"
 "Last-Translator: Mindaugas <embar@super.lt>\n"
 "Language-Team: Lithuanian <komp_lt@konferencijos.lt>\n"
 "Language: lt\n"
@@ -1178,8 +1178,8 @@ msgstr "iškodavimas"
 
 #: src/input/decoder.c:276 src/input/decoder.c:467
 #: modules/codec/avcodec/encoder.c:248 modules/codec/avcodec/encoder.c:256
-#: modules/codec/avcodec/encoder.c:290 modules/codec/avcodec/encoder.c:750
-#: modules/codec/avcodec/encoder.c:803 modules/stream_out/es.c:362
+#: modules/codec/avcodec/encoder.c:290 modules/codec/avcodec/encoder.c:763
+#: modules/codec/avcodec/encoder.c:816 modules/stream_out/es.c:362
 #: modules/stream_out/es.c:377
 msgid "Streaming / Transcoding failed"
 msgstr "Srauto siuntimo ar perkodavimo klaida"
@@ -1460,7 +1460,7 @@ msgstr "Garso takelis"
 
 #: src/input/var.c:210
 msgid "Subtitle Track"
-msgstr ""
+msgstr "Subtitrų takelis"
 
 #: src/input/var.c:273
 msgid "Next title"
@@ -1801,7 +1801,7 @@ msgstr "Išjungta"
 
 #: src/libvlc-module.c:182
 msgid "Stereo audio output mode"
-msgstr ""
+msgstr "Stereofoninio garso išvedimo veiksena"
 
 #: src/libvlc-module.c:194
 msgid "This adds audio post processing filters, to modify the sound rendering."
@@ -2663,7 +2663,7 @@ msgstr "Srauto garso takelio numeris (nuo 0 iki n)."
 
 #: src/libvlc-module.c:583 modules/gui/qt4/ui/open_disk.h:314
 msgid "Subtitle track"
-msgstr ""
+msgstr "Subtitrų takelis"
 
 #: src/libvlc-module.c:585
 msgid "Stream number of the subtitle track to use (from 0 to n)."
@@ -2706,7 +2706,7 @@ msgstr "Naudotino srauto garso takelio ID."
 
 #: src/libvlc-module.c:603
 msgid "Subtitle track ID"
-msgstr ""
+msgstr "Subtitrų takelio ID"
 
 #: src/libvlc-module.c:605
 msgid "Stream ID of the subtitle track to use."
@@ -3651,7 +3651,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1097 modules/gui/qt4/ui/sprefs_interface.h:523
 msgid "Enqueue items into playlist in one instance mode"
-msgstr ""
+msgstr "Kai leidžiama viena programa, naujus įrašus dėti į eilę grojaraštyje"
 
 #: src/libvlc-module.c:1099
 msgid ""
@@ -4374,7 +4374,7 @@ msgstr "Išvalyti grojaraštį"
 
 #: src/libvlc-module.c:1347
 msgid "Select the key to clear the current playlist."
-msgstr ""
+msgstr "Pasirinkite klavišą grojaraščio išvalymui."
 
 #: src/libvlc-module.c:1349
 msgid "Playlist bookmark 1"
@@ -10122,24 +10122,24 @@ msgstr "FFmpeg garso/vaizdo iškodavimas"
 msgid "Decoding"
 msgstr "Iškodavimas"
 
-#: modules/codec/avcodec/avcodec.c:153 modules/codec/omxil/omxil.c:87
+#: modules/codec/avcodec/avcodec.c:154 modules/codec/omxil/omxil.c:87
 #: modules/codec/schroedinger.c:370
 msgid "Encoding"
 msgstr "Įkodavimas"
 
-#: modules/codec/avcodec/avcodec.c:154
+#: modules/codec/avcodec/avcodec.c:155
 msgid "FFmpeg audio/video encoder"
 msgstr "FFmpeg garso/vaizdo įkodavimas"
 
-#: modules/codec/avcodec/avcodec.h:70
+#: modules/codec/avcodec/avcodec.h:69
 msgid "Direct rendering"
 msgstr "Tiesioginis atvaizdavimas"
 
-#: modules/codec/avcodec/avcodec.h:73
+#: modules/codec/avcodec/avcodec.h:72
 msgid "Error resilience"
 msgstr "Ištaisoma klaida"
 
-#: modules/codec/avcodec/avcodec.h:75
+#: modules/codec/avcodec/avcodec.h:74
 msgid ""
 "libavcodec can do error resilience.\n"
 "However, with a buggy encoder (such as the ISO MPEG-4 encoder from M$) this "
@@ -10147,11 +10147,11 @@ msgid ""
 "Valid values range from 0 to 4 (0 disables all errors resilience)."
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:80
+#: modules/codec/avcodec/avcodec.h:79
 msgid "Workaround bugs"
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:82
+#: modules/codec/avcodec/avcodec.h:81
 msgid ""
 "Try to fix some bugs:\n"
 "1  autodetect\n"
@@ -10165,12 +10165,12 @@ msgid ""
 "\"ump4\", enter 40."
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:93 modules/codec/avcodec/avcodec.h:204
+#: modules/codec/avcodec/avcodec.h:92 modules/codec/avcodec/avcodec.h:203
 #: modules/demux/rawdv.c:42 modules/stream_out/transcode/transcode.c:139
 msgid "Hurry up"
 msgstr "Skubėti"
 
-#: modules/codec/avcodec/avcodec.h:95
+#: modules/codec/avcodec/avcodec.h:94
 msgid ""
 "The decoder can partially decode or skip frame(s) when there is not enough "
 "time. It's useful with low CPU power but it can produce distorted pictures."
@@ -10179,20 +10179,20 @@ msgstr ""
 "Naudinga mažo galingumo procesoriams, bet tuomet gali būti rodomi sugadinti "
 "vaizdai."
 
-#: modules/codec/avcodec/avcodec.h:99
+#: modules/codec/avcodec/avcodec.h:98
 msgid "Allow speed tricks"
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:101
+#: modules/codec/avcodec/avcodec.h:100
 msgid ""
 "Allow non specification compliant speedup tricks. Faster but error-prone."
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:103
+#: modules/codec/avcodec/avcodec.h:102
 msgid "Skip frame (default=0)"
 msgstr "Praleisti kadrus (numatyta=0)"
 
-#: modules/codec/avcodec/avcodec.h:105
+#: modules/codec/avcodec/avcodec.h:104
 msgid ""
 "Force skipping of frames to speed up decoding (-1=None, 0=Default, 1=B-"
 "frames, 2=P-frames, 3=B+P frames, 4=all frames)."
@@ -10200,45 +10200,45 @@ msgstr ""
 "Priverstinai praleisti kadrus norint paspartinti iškodavimą (-1=ne, "
 "0=numatyta, 1=B kadrams, 2=P kadrams, 3=B+P kadrams, 4=visiems kadrams)."
 
-#: modules/codec/avcodec/avcodec.h:108
+#: modules/codec/avcodec/avcodec.h:107
 msgid "Skip idct (default=0)"
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:110
+#: modules/codec/avcodec/avcodec.h:109
 msgid ""
 "Force skipping of idct to speed up decoding for frame types (-1=None, "
 "0=Default, 1=B-frames, 2=P-frames, 3=B+P frames, 4=all frames)."
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:113
+#: modules/codec/avcodec/avcodec.h:112
 msgid "Discard cropping information"
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:114
+#: modules/codec/avcodec/avcodec.h:113
 msgid "Discard internal cropping parameters (e.g. from H.264 SPS)."
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:116
+#: modules/codec/avcodec/avcodec.h:115
 msgid "Debug mask"
 msgstr "Derinimo kaukė"
 
-#: modules/codec/avcodec/avcodec.h:117
+#: modules/codec/avcodec/avcodec.h:116
 msgid "Set FFmpeg debug mask"
 msgstr "Nustatyti FFmpeg derinimo kaukę"
 
-#: modules/codec/avcodec/avcodec.h:119
+#: modules/codec/avcodec/avcodec.h:118
 msgid "Codec name"
 msgstr "Kodavimo priemonės pavadinimas"
 
-#: modules/codec/avcodec/avcodec.h:120
+#: modules/codec/avcodec/avcodec.h:119
 msgid "Internal libavcodec codec name"
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:123
+#: modules/codec/avcodec/avcodec.h:122
 msgid "Visualize motion vectors"
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:125
+#: modules/codec/avcodec/avcodec.h:124
 msgid ""
 "You can overlay the motion vectors (arrows showing how the images move) on "
 "the image. This value is a mask, based on these values:\n"
@@ -10248,152 +10248,152 @@ msgid ""
 "To visualize all vectors, the value should be 7."
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:132 modules/gui/macosx/simple_prefs.m:215
+#: modules/codec/avcodec/avcodec.h:131 modules/gui/macosx/simple_prefs.m:215
 msgid "Skip the loop filter for H.264 decoding"
 msgstr "Praleisti ciklo filtrą iškoduojant H.264"
 
-#: modules/codec/avcodec/avcodec.h:133
+#: modules/codec/avcodec/avcodec.h:132
 msgid ""
 "Skipping the loop filter (aka deblocking) usually has a detrimental effect "
 "on quality. However it provides a big speedup for high definition streams."
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:137
+#: modules/codec/avcodec/avcodec.h:136
 msgid "Hardware decoding"
 msgstr "Aparatinis iškodavimas"
 
-#: modules/codec/avcodec/avcodec.h:138
+#: modules/codec/avcodec/avcodec.h:137
 msgid "This allows hardware decoding when available."
 msgstr "Tai įgalina naudoti aparatinį iškodavimą, jei tik įmanoma."
 
-#: modules/codec/avcodec/avcodec.h:140
+#: modules/codec/avcodec/avcodec.h:139
 msgid "VDA output pixel format"
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:141
+#: modules/codec/avcodec/avcodec.h:140
 msgid "The pixel format for output image buffers."
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:143
+#: modules/codec/avcodec/avcodec.h:142
 msgid "Threads"
 msgstr "Gijos"
 
-#: modules/codec/avcodec/avcodec.h:144
+#: modules/codec/avcodec/avcodec.h:143
 msgid "Number of threads used for decoding, 0 meaning auto"
 msgstr ""
 "Iškodavimo metu naudojamų gijų skaičius, 0 reiškia automatinį parinkimą."
 
-#: modules/codec/avcodec/avcodec.h:151
+#: modules/codec/avcodec/avcodec.h:150
 msgid "Ratio of key frames"
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:152
+#: modules/codec/avcodec/avcodec.h:151
 msgid "Number of frames that will be coded for one key frame."
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:155
+#: modules/codec/avcodec/avcodec.h:154
 msgid "Ratio of B frames"
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:156
+#: modules/codec/avcodec/avcodec.h:155
 msgid "Number of B frames that will be coded between two reference frames."
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:159
+#: modules/codec/avcodec/avcodec.h:158
 msgid "Video bitrate tolerance"
 msgstr "Vaizdo bitų dažnio tolerancija"
 
-#: modules/codec/avcodec/avcodec.h:160
+#: modules/codec/avcodec/avcodec.h:159
 msgid "Video bitrate tolerance in kbit/s."
 msgstr "Vaizdo bitų dažnio tolerancija, kbit/s."
 
-#: modules/codec/avcodec/avcodec.h:162
+#: modules/codec/avcodec/avcodec.h:161
 msgid "Interlaced encoding"
 msgstr "Perėjimo įkodavimas"
 
-#: modules/codec/avcodec/avcodec.h:163
+#: modules/codec/avcodec/avcodec.h:162
 msgid "Enable dedicated algorithms for interlaced frames."
 msgstr "Įgalinti paskirtą algoritmą pereinantiems kadrams."
 
-#: modules/codec/avcodec/avcodec.h:166
+#: modules/codec/avcodec/avcodec.h:165
 msgid "Interlaced motion estimation"
 msgstr "Judesio perėjimo numatymas"
 
-#: modules/codec/avcodec/avcodec.h:167
+#: modules/codec/avcodec/avcodec.h:166
 msgid "Enable interlaced motion estimation algorithms. This requires more CPU."
 msgstr ""
 "Įgalinti judesio perėjimo numatymo algoritmus. Tai reikalauja daugiau "
 "procesoriaus išteklių."
 
-#: modules/codec/avcodec/avcodec.h:170
+#: modules/codec/avcodec/avcodec.h:169
 msgid "Pre-motion estimation"
 msgstr "Judesio nuspėjimas"
 
-#: modules/codec/avcodec/avcodec.h:171
+#: modules/codec/avcodec/avcodec.h:170
 msgid "Enable the pre-motion estimation algorithm."
 msgstr "Įgalinti judesio nuspėjimo algoritmą."
 
-#: modules/codec/avcodec/avcodec.h:174
+#: modules/codec/avcodec/avcodec.h:173
 msgid "Rate control buffer size"
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:175
+#: modules/codec/avcodec/avcodec.h:174
 msgid ""
 "Rate control buffer size (in kbytes). A bigger buffer will allow for better "
 "rate control, but will cause a delay in the stream."
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:179
+#: modules/codec/avcodec/avcodec.h:178
 msgid "Rate control buffer aggressiveness"
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:180
+#: modules/codec/avcodec/avcodec.h:179
 msgid "Rate control buffer aggressiveness."
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:183
+#: modules/codec/avcodec/avcodec.h:182
 msgid "I quantization factor"
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:185
+#: modules/codec/avcodec/avcodec.h:184
 msgid ""
 "Quantization factor of I frames, compared with P frames (for instance 1.0 => "
 "same qscale for I and P frames)."
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:188 modules/codec/x264.c:360
+#: modules/codec/avcodec/avcodec.h:187 modules/codec/x264.c:360
 #: modules/demux/mod.c:78
 msgid "Noise reduction"
 msgstr "Trikdžių mažinimas"
 
-#: modules/codec/avcodec/avcodec.h:189
+#: modules/codec/avcodec/avcodec.h:188
 msgid ""
 "Enable a simple noise reduction algorithm to lower the encoding length and "
 "bitrate, at the expense of lower quality frames."
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:193
+#: modules/codec/avcodec/avcodec.h:192
 msgid "MPEG4 quantization matrix"
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:194
+#: modules/codec/avcodec/avcodec.h:193
 msgid ""
 "Use the MPEG4 quantization matrix for MPEG2 encoding. This generally yields "
 "a better looking picture, while still retaining the compatibility with "
 "standard MPEG2 decoders."
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:199
+#: modules/codec/avcodec/avcodec.h:198
 msgid "Quality level"
 msgstr "Kokybės lygis"
 
-#: modules/codec/avcodec/avcodec.h:200
+#: modules/codec/avcodec/avcodec.h:199
 msgid ""
 "Quality level for the encoding of motions vectors (this can slow down the "
 "encoding very much)."
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:205
+#: modules/codec/avcodec/avcodec.h:204
 msgid ""
 "The encoder can make on-the-fly quality tradeoffs if your CPU can't keep up "
 "with the encoding rate. It will disable trellis quantization, then the rate "
@@ -10401,110 +10401,110 @@ msgid ""
 "to ease the encoder's task."
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:211
+#: modules/codec/avcodec/avcodec.h:210
 msgid "Minimum video quantizer scale"
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:212
+#: modules/codec/avcodec/avcodec.h:211
 msgid "Minimum video quantizer scale."
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:215
+#: modules/codec/avcodec/avcodec.h:214
 msgid "Maximum video quantizer scale"
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:216
+#: modules/codec/avcodec/avcodec.h:215
 msgid "Maximum video quantizer scale."
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:219
+#: modules/codec/avcodec/avcodec.h:218
 msgid "Trellis quantization"
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:220
+#: modules/codec/avcodec/avcodec.h:219
 msgid "Enable trellis quantization (rate distortion for block coefficients)."
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:223
+#: modules/codec/avcodec/avcodec.h:222
 msgid "Fixed quantizer scale"
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:224
+#: modules/codec/avcodec/avcodec.h:223
 msgid ""
 "A fixed video quantizer scale for VBR encoding (accepted values: 0.01 to "
 "255.0)."
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:227
+#: modules/codec/avcodec/avcodec.h:226
 msgid "Strict standard compliance"
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:228
+#: modules/codec/avcodec/avcodec.h:227
 msgid ""
 "Force a strict standard compliance when encoding (accepted values: -2 to 2)."
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:231
+#: modules/codec/avcodec/avcodec.h:230
 msgid "Luminance masking"
 msgstr "Šviesumo slėpimas"
 
-#: modules/codec/avcodec/avcodec.h:232
+#: modules/codec/avcodec/avcodec.h:231
 msgid "Raise the quantizer for very bright macroblocks (default: 0.0)."
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:235
+#: modules/codec/avcodec/avcodec.h:234
 msgid "Darkness masking"
 msgstr "Tamsumo slėpimas"
 
-#: modules/codec/avcodec/avcodec.h:236
+#: modules/codec/avcodec/avcodec.h:235
 msgid "Raise the quantizer for very dark macroblocks (default: 0.0)."
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:239
+#: modules/codec/avcodec/avcodec.h:238
 msgid "Motion masking"
 msgstr "Judesio slėpimas"
 
-#: modules/codec/avcodec/avcodec.h:240
+#: modules/codec/avcodec/avcodec.h:239
 msgid ""
 "Raise the quantizer for macroblocks with a high temporal complexity "
 "(default: 0.0)."
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:243
+#: modules/codec/avcodec/avcodec.h:242
 msgid "Border masking"
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:244
+#: modules/codec/avcodec/avcodec.h:243
 msgid ""
 "Raise the quantizer for macroblocks at the border of the frame (default: "
 "0.0)."
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:247
+#: modules/codec/avcodec/avcodec.h:246
 msgid "Luminance elimination"
 msgstr "Šviesumo šalinimas"
 
-#: modules/codec/avcodec/avcodec.h:248
+#: modules/codec/avcodec/avcodec.h:247
 msgid ""
 "Eliminates luminance blocks when the PSNR isn't much changed (default: 0.0). "
 "The H264 specification recommends -4."
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:252
+#: modules/codec/avcodec/avcodec.h:251
 msgid "Chrominance elimination"
 msgstr "Spalvingumo šalinimas"
 
-#: modules/codec/avcodec/avcodec.h:253
+#: modules/codec/avcodec/avcodec.h:252
 msgid ""
 "Eliminates chrominance blocks when the PSNR isn't much changed (default: "
 "0.0). The H264 specification recommends 7."
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:257
+#: modules/codec/avcodec/avcodec.h:256
 msgid "Specify AAC audio profile to use"
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:258
+#: modules/codec/avcodec/avcodec.h:257
 msgid ""
 "Specify the AAC audio profile to use for encoding the audio bitstream. It "
 "takes the following options: main, low, ssr (not supported),ltp, hev1, hev2 "
@@ -10538,7 +10538,7 @@ msgid ""
 "Do not contact the VideoLAN project about this issue.\n"
 msgstr ""
 
-#: modules/codec/avcodec/encoder.c:751 modules/codec/avcodec/encoder.c:804
+#: modules/codec/avcodec/encoder.c:764 modules/codec/avcodec/encoder.c:817
 msgid "VLC could not open the encoder."
 msgstr "VLC negali atverti įkodavimo priemonės."
 
@@ -10890,7 +10890,7 @@ msgstr "Be įkodavimo priemonės"
 msgid "AAC audio decoder (using libfaad2)"
 msgstr "AAC garso iškodavimas (naudoja libfaad2)"
 
-#: modules/codec/faad.c:429
+#: modules/codec/faad.c:430
 msgid "AAC extension"
 msgstr "AAC prievardis"
 
@@ -13026,8 +13026,8 @@ msgstr "D-Bus valdymo sąsaja"
 #: modules/gui/qt4/main_interface.cpp:1158
 #: modules/gui/qt4/main_interface.cpp:1175
 #: modules/gui/qt4/main_interface.cpp:1183
-#: modules/gui/qt4/main_interface.cpp:1206 modules/notify/growl.m:281
-#: modules/video_output/xcb/window.c:313
+#: modules/gui/qt4/main_interface.cpp:1206 modules/lua/libs/httpd.c:80
+#: modules/notify/growl.m:281 modules/video_output/xcb/window.c:313
 msgid "VLC media player"
 msgstr "VLC leistuvė"
 
@@ -13610,7 +13610,7 @@ msgstr "| snapshot . . . . . . . . . . . .  padaryti nuotrauką"
 
 #: modules/control/rc.c:828
 msgid "| strack [X] . . . . . . . . .  set/get subtitle track"
-msgstr ""
+msgstr "| strack [X] . . .  sužinoti/nustatyti subtitrų takelį"
 
 #: modules/control/rc.c:829
 msgid "| key [hotkey name] . . . . . .  simulate hotkey press"
@@ -15394,7 +15394,7 @@ msgstr "Apie VLC leistuvę"
 
 #: modules/gui/macosx/about.m:95 modules/gui/qt4/dialogs/help.cpp:125
 msgid "Credits"
-msgstr ""
+msgstr "Padėkos"
 
 #: modules/gui/macosx/about.m:98 modules/gui/macosx/MainMenu.m:449
 #: modules/gui/qt4/dialogs/help.cpp:119
@@ -15758,7 +15758,7 @@ msgstr ""
 
 #: modules/gui/macosx/ControlsBar.m:456
 msgid "Click to mute or unmute the audio."
-msgstr ""
+msgstr "Norėdami įjungti/išjungti garsą, spragtelėkite."
 
 #: modules/gui/macosx/ControlsBar.m:458
 msgid "Full Volume"
@@ -15781,11 +15781,11 @@ msgstr ""
 
 #: modules/gui/macosx/ControlsBar.m:715 modules/gui/macosx/fspanel.m:408
 msgid "Click to go to the previous playlist item."
-msgstr ""
+msgstr "Norėdami pereiti prie ankstesnio kūrinio grojaraštyje – spragtelėkite."
 
 #: modules/gui/macosx/ControlsBar.m:726 modules/gui/macosx/fspanel.m:412
 msgid "Click to go to the next playlist item."
-msgstr ""
+msgstr "Norėdami pereiti prie tolesnio kūrinio grojaraštyje – spragtelėkite."
 
 #: modules/gui/macosx/ControlsBar.m:742 modules/gui/macosx/fspanel.m:409
 msgid "Click and hold to skip backward through the current media."
@@ -16505,7 +16505,7 @@ msgstr ""
 
 #: modules/gui/macosx/MainMenu.m:346
 msgid "Playlist Table Columns"
-msgstr ""
+msgstr "Grojaraščio lentelės stulpeliai"
 
 #: modules/gui/macosx/MainMenu.m:348
 msgid "Playback"
@@ -16582,7 +16582,7 @@ msgstr "Galutinis apdorojimas"
 
 #: modules/gui/macosx/MainMenu.m:413 modules/gui/macosx/MainMenu.m:1510
 msgid "Add Subtitle File..."
-msgstr ""
+msgstr "Įkelti subtitrų rinkmeną..."
 
 #: modules/gui/macosx/MainMenu.m:414 modules/gui/macosx/MainMenu.m:415
 msgid "Subtitles Track"
@@ -16968,7 +16968,7 @@ msgstr "Paveiklėlio aukštis"
 
 #: modules/gui/macosx/open.m:359
 msgid "Add Subtitle File:"
-msgstr ""
+msgstr "Įkelti subtitrų rinkmeną:"
 
 #: modules/gui/macosx/open.m:364
 msgid "Click to setup subtitle playback in full detail."
@@ -17526,6 +17526,15 @@ msgid ""
 "\n"
 "Are you sure you want to continue?"
 msgstr ""
+"Šiuo veiksmu atkursite numatytąsias VLC leistuvės parinktis.\n"
+"\n"
+"Atminkite, kad po to VLC pasileis iš naujo, tad dabartis grojaraštis dings, "
+"iškart sustos šiuo metu grojamas kūrinys, siunčiamas ar perkoduojamas "
+"srautas.\n"
+"\n"
+"Šis veiksmas neturi įtakos fonotekai.\n"
+"\n"
+"Norite tęsti?"
 
 #: modules/gui/macosx/simple_prefs.m:1058
 msgid "Choose the folder to save your video snapshots to."
@@ -17593,7 +17602,7 @@ msgstr "Subtitrai/Vaizdas"
 #: modules/gui/macosx/TrackSynchronization.m:66
 #: modules/gui/qt4/components/extended_panels.cpp:1479
 msgid "Subtitle track synchronization:"
-msgstr ""
+msgstr "Subtitrų takelių sinchronizavimas:"
 
 #: modules/gui/macosx/TrackSynchronization.m:68
 msgid "A positive value means that the subtitles are ahead of the video"
@@ -18476,7 +18485,7 @@ msgstr ""
 
 #: modules/gui/ncurses.c:868
 msgid " P                      Show/Hide playlist box"
-msgstr ""
+msgstr "P Rodyti/Slėpti grojaraštį"
 
 #: modules/gui/ncurses.c:869
 msgid " B                      Show/Hide filebrowser"
@@ -18520,7 +18529,7 @@ msgstr ""
 
 #: modules/gui/ncurses.c:883
 msgid " n, p                   Next/Previous playlist item"
-msgstr ""
+msgstr "n, p Tolesnis/Ankstesnis grojaraščio įrašas"
 
 #: modules/gui/ncurses.c:884
 msgid " [, ]                   Next/Previous title"
@@ -18542,7 +18551,7 @@ msgstr ""
 
 #: modules/gui/ncurses.c:889
 msgid " m                      Mute"
-msgstr ""
+msgstr "m Nutildyti"
 
 #. xgettext: You can use ↑ and ↓ characters
 #: modules/gui/ncurses.c:891
@@ -18569,7 +18578,7 @@ msgstr ""
 
 #: modules/gui/ncurses.c:902
 msgid " l                      Toggle Loop Playlist"
-msgstr ""
+msgstr "l Keisti kartojimo veikseną"
 
 #: modules/gui/ncurses.c:903
 msgid " R                      Toggle Repeat item"
@@ -18577,11 +18586,11 @@ msgstr ""
 
 #: modules/gui/ncurses.c:904
 msgid " o                      Order Playlist by title"
-msgstr ""
+msgstr "o Rikiuoti grojaraščio įrašus pagal pavadinimą"
 
 #: modules/gui/ncurses.c:905
 msgid " O                      Reverse order Playlist by title"
-msgstr ""
+msgstr "O Grojaraščio įrašus rikiuoti atvirkščiai pagal pavadinimą"
 
 #: modules/gui/ncurses.c:906
 msgid " g                      Go to the current playing item"
@@ -18614,11 +18623,11 @@ msgstr "[Rinkmenų naršyklė]"
 
 #: modules/gui/ncurses.c:918
 msgid " <enter>                Add the selected file to the playlist"
-msgstr ""
+msgstr "<įvesti> Įkelti pasirinktą rinkmeną į grojaraštį"
 
 #: modules/gui/ncurses.c:919
 msgid " <space>                Add the selected directory to the playlist"
-msgstr ""
+msgstr "<tarpas> Įkelti pasirinktą aplanką į grojaraštį"
 
 #: modules/gui/ncurses.c:920
 msgid " .                      Show/Hide hidden files"
@@ -18658,7 +18667,7 @@ msgstr " Padėtis : %s/%s"
 
 #: modules/gui/ncurses.c:1096
 msgid " Volume   : Mute"
-msgstr ""
+msgstr " Garsumas : nutildyta"
 
 #: modules/gui/ncurses.c:1097
 #, c-format
@@ -18789,11 +18798,11 @@ msgstr "Atverti garso/vaizdo kūrinį"
 
 #: modules/gui/qt4/components/controller.hpp:125
 msgid "Previous media in the playlist, skip backward when held"
-msgstr ""
+msgstr "Ankstesnis kūrinys grojaraštyje; jei užlaikoma – prasukama"
 
 #: modules/gui/qt4/components/controller.hpp:126
 msgid "Next media in the playlist, skip forward when held"
-msgstr ""
+msgstr "Tolesnis grojaraščio kūrinys; jei užlaikoma – prasukama"
 
 #: modules/gui/qt4/components/controller.hpp:127
 msgid "Toggle the video in fullscreen"
@@ -18809,7 +18818,7 @@ msgstr "Rodyti sudėtingesnes nuostatas"
 
 #: modules/gui/qt4/components/controller.hpp:128
 msgid "Toggle playlist"
-msgstr ""
+msgstr "Perjungti grojaraštį"
 
 #: modules/gui/qt4/components/controller.hpp:129
 msgid "Take a snapshot"
@@ -18842,7 +18851,7 @@ msgstr "Kitas grojaraščio kūrinys"
 #: modules/gui/qt4/components/controller.hpp:134
 #: modules/gui/qt4/components/open_panels.cpp:252
 msgid "Open subtitle file"
-msgstr ""
+msgstr "Atverti subtitrų rinkmeną"
 
 #: modules/gui/qt4/components/controller.hpp:135
 msgid "Dock/undock fullscreen controller to/from bottom of screen"
@@ -19359,29 +19368,32 @@ msgstr "Sumažinti"
 
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:281
 msgid "Playlist View Mode"
-msgstr ""
+msgstr "Grojaraščio rodymo būdas"
 
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:510
 msgid ""
 "Playlist is currently empty.\n"
 "Drop a file here or select a media source from the left."
 msgstr ""
+"Grojaraštis vis dar tuščias.\n"
+"Atitempkite kokį nors failą arba pasirinkite vieną iš kūrinių šaltinių "
+"kairėje."
 
 #: modules/gui/qt4/components/playlist/standardpanel.hpp:156
 msgid "Icons"
-msgstr ""
+msgstr "Ženkliukai"
 
 #: modules/gui/qt4/components/playlist/standardpanel.hpp:157
 msgid "Detailed List"
-msgstr ""
+msgstr "Išsamus sąrašas"
 
 #: modules/gui/qt4/components/playlist/standardpanel.hpp:158
 msgid "List"
-msgstr ""
+msgstr "Sąrašas"
 
 #: modules/gui/qt4/components/playlist/standardpanel.hpp:159
 msgid "PictureFlow"
-msgstr ""
+msgstr "Vėduoklė"
 
 #: modules/gui/qt4/components/preferences_widgets.cpp:304
 msgid "Select File"
@@ -19741,7 +19753,7 @@ msgstr ""
 #: modules/gui/qt4/dialogs/firstrun.cpp:61
 #: modules/gui/qt4/dialogs/firstrun.cpp:69
 msgid "Privacy and Network Access Policy"
-msgstr "Privatumas ir prieigos prie tinklo leidimai"
+msgstr "Privatumas ir prieiga prie tinklo"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:72
 msgid ""
@@ -19755,6 +19767,15 @@ msgid ""
 "entities. Therefore the <i>VLC</i> developers require your express consent "
 "for the media player to access the Internet automatically.</p>\n"
 msgstr ""
+"<p><i>VLC leistuvė</i> <b>nerenka</b> Jūsų asmeninių duomenų ir niekam jų "
+"perduoda, tame tarpe anoniminių duomenų. Tai daroma norint užtikrinti Jūsų "
+"privatumą.</p>\n"
+"<p>Tačiau <i>VLC</i> gali iš trečių šalių interneto šaltinių automatiškai "
+"parsisiųsti informaciją apie grojaraščio kūrinius. Informacija apima albumų "
+"viršelius, takelių pavadinimus, atlikėjus ir kitus meta duomenis.</p>\n"
+"Trečiosioms šalims tai leidžia sužinoti apie kai kuriuos Jūsų turimus "
+"kūrinius. Todėl <i>VLC</i> kūrėjai nori Jūsų atsiklausti, ar leistuvei "
+"galima automatiškai jungtis prie interneto.</p>\n"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:91
 msgid "Network Access Policy"
@@ -19762,7 +19783,7 @@ msgstr "Prieigos prie tinklo leidimai"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:98
 msgid "Automatically retrieve media infos"
-msgstr ""
+msgstr "Automatiškai parsisiųsti informaciją apie kūrinius"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:103
 msgid "Regularly check for VLC updates"
@@ -20070,7 +20091,7 @@ msgstr "Garso ir vaizdo rinkmenos"
 
 #: modules/gui/qt4/dialogs_provider.hpp:44
 msgid "Subtitle Files"
-msgstr ""
+msgstr "Subtitrų rinkmenos"
 
 #: modules/gui/qt4/dialogs_provider.hpp:45
 msgid "All Files"
@@ -20317,7 +20338,7 @@ msgstr "&Subtitrai"
 
 #: modules/gui/qt4/menus.cpp:335 modules/gui/qt4/menus.cpp:1067
 msgid "T&ools"
-msgstr ""
+msgstr "Įra&nkiai"
 
 #: modules/gui/qt4/menus.cpp:338 modules/gui/qt4/menus.cpp:1102
 msgid "V&iew"
@@ -20409,7 +20430,7 @@ msgstr "&Grojaraštis"
 
 #: modules/gui/qt4/menus.cpp:482
 msgid "Ctrl+L"
-msgstr "Ctrl+L"
+msgstr "Vald(Ctrl)+L"
 
 #: modules/gui/qt4/menus.cpp:485
 msgid "Docked Playlist"
@@ -20421,7 +20442,7 @@ msgstr "Mi&nimalistinė sąsaja"
 
 #: modules/gui/qt4/menus.cpp:497
 msgid "Ctrl+H"
-msgstr "Ctrl+H"
+msgstr "Vald(Ctrl)+H"
 
 #: modules/gui/qt4/menus.cpp:506
 msgid "&Fullscreen Interface"
@@ -20441,15 +20462,15 @@ msgstr "Vaizdinių parinkimas"
 
 #: modules/gui/qt4/menus.cpp:583
 msgid "&Increase Volume"
-msgstr ""
+msgstr "&Pagarsinti"
 
 #: modules/gui/qt4/menus.cpp:586
 msgid "&Decrease Volume"
-msgstr ""
+msgstr "Pa&tylinti"
 
 #: modules/gui/qt4/menus.cpp:589
 msgid "&Mute"
-msgstr ""
+msgstr "&Nutildyti"
 
 #: modules/gui/qt4/menus.cpp:606
 msgid "Audio &Track"
@@ -20461,7 +20482,7 @@ msgstr "&Garso įrenginys"
 
 #: modules/gui/qt4/menus.cpp:608
 msgid "&Stereo Mode"
-msgstr ""
+msgstr "&Stereofoninė veiksena"
 
 #: modules/gui/qt4/menus.cpp:611
 msgid "&Visualizations"
@@ -20469,11 +20490,11 @@ msgstr "&Vaizdiniai"
 
 #: modules/gui/qt4/menus.cpp:637
 msgid "Add &Subtitle File..."
-msgstr ""
+msgstr "Įkelti &subtitrų rinkmeną..."
 
 #: modules/gui/qt4/menus.cpp:639
 msgid "Sub &Track"
-msgstr ""
+msgstr "Subtitrų &takelis"
 
 #: modules/gui/qt4/menus.cpp:662
 msgid "Video &Track"
@@ -20951,16 +20972,11 @@ msgstr "Pasirinkite apipavidalinimą"
 msgid "Open skin ..."
 msgstr "Atverti apipavidalinimą ..."
 
-#: modules/lua/libs/httpd.c:64
+#: modules/lua/libs/httpd.c:75
 msgid ""
-"<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3."
-"org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n"
-"<html xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv="
-"\"Content-Type\" content=\"text/html;charset=utf-8\" /><title>VLC media "
-"player</title></head><body><p>Password for Web interface has not been set.</"
-"p><p>Please use --http-password, or set a password in </p><p>Preferences "
-"&gt; All &gt; Main interfaces &gt; Lua &gt; Lua HTTP &gt; Password.</p><!-- "
-"VLC_PASSWORD_NOT_SET --></body></html>"
+"<p>Password for Web interface has not been set.</p><p>Please use --http-"
+"password, or set a password in </p><p>Preferences &gt; All &gt; Main "
+"interfaces &gt; Lua &gt; Lua HTTP &gt; Password.</p>"
 msgstr ""
 
 #: modules/lua/vlc.c:48
@@ -26911,7 +26927,7 @@ msgstr "Kartojimas"
 
 #: share/lua/http/index.html:242
 msgid "Empty Playlist"
-msgstr ""
+msgstr "Grojaraštis tuščias"
 
 #: share/lua/http/index.html:243
 msgid "Queue Selected"
@@ -26923,7 +26939,7 @@ msgstr ""
 
 #: share/lua/http/index.html:245
 msgid "Refresh List"
-msgstr ""
+msgstr "Atnaujinti sąrašą"
 
 #: share/lua/http/index.html:252
 msgid "Loading flowplayer..."
@@ -26981,7 +26997,7 @@ msgstr "Langas"
 
 #: modules/gui/qt4/ui/about.h:254 modules/gui/qt4/ui/about.h:255
 msgid "Update"
-msgstr "Atnaujinti"
+msgstr ""
 
 #: modules/gui/qt4/ui/equalizer.h:133 modules/gui/qt4/ui/open_disk.h:297
 #: modules/gui/qt4/ui/open_net.h:97 modules/gui/qt4/ui/sprefs_audio.h:431
@@ -27140,7 +27156,7 @@ msgstr "Įkelti..."
 
 #: modules/gui/qt4/ui/open_file.h:171
 msgid "Add a subtitle file"
-msgstr ""
+msgstr "Įkelti subtitrų rinkmeną"
 
 #: modules/gui/qt4/ui/open_file.h:173
 msgid "Use a sub&title file"
@@ -27148,7 +27164,7 @@ msgstr ""
 
 #: modules/gui/qt4/ui/open_file.h:175
 msgid "Select the subtitle file"
-msgstr ""
+msgstr "Pasirinkite subtitrų rinkmeną"
 
 #: modules/gui/qt4/ui/open_net.h:98
 msgid "Network Protocol"
@@ -27812,24 +27828,12 @@ msgstr "AAAA; "
 msgid "Media Manager List"
 msgstr "Multimedijos tvarkytuvės sąrašas"
 
-#~ msgid "Subtitles/OSD"
-#~ msgstr "Subtitrai/ERP"
-
-#~ msgid "Subtitles codecs"
-#~ msgstr "Subtitrų kodavimas"
-
-#~ msgid "General Input"
-#~ msgstr "Bendra įvestis"
-
 #~ msgid ""
 #~ "SAP is a way to publically announce streams that are being sent using "
 #~ "multicast UDP or RTP."
 #~ msgstr ""
 #~ "SAP yra būdas viešai paskelbti srautą, kuris siunčiamas naudojant "
 #~ "daugiaabonentinį UDP ar RTP."
-
-#~ msgid "CPU features"
-#~ msgstr "Procesoriaus galimybės"
 
 #~ msgid ""
 #~ "You can choose to disable some CPU accelerations here. Use with extreme "
@@ -27838,27 +27842,8 @@ msgstr "Multimedijos tvarkytuvės sąrašas"
 #~ "Galite išjungti kai kuriuos kompiuterio darbą spartinančius procesus. "
 #~ "Naudokite ypač atsargiai!"
 
-#~ msgid "Chroma modules settings"
-#~ msgstr "Spalvų modulių nuostatos"
-
 #~ msgid "These settings affect chroma transformation modules."
 #~ msgstr "Šios nuostatos daro įtaką spalvų transformavimo moduliams."
-
-#~ msgid "Packetizer modules settings"
-#~ msgstr "Įpaketinimo modulių nuostatos"
-
-#~ msgid "Encoders settings"
-#~ msgstr "Įkodavimo nuostatos"
-
-#~ msgid ""
-#~ "These are general settings for video/audio/subtitles encoding modules."
-#~ msgstr "Bendri vaizdo, garso, subtitrų kodavimo moduliai."
-
-#~ msgid "Dialog providers settings"
-#~ msgstr "Dialogo tiekėjų nuostatos"
-
-#~ msgid "Subtitle demuxer settings"
-#~ msgstr "Subtitrų išpynimo metodų nuostatos"
 
 #~ msgid ""
 #~ "In this section you can force the behavior of the subtitle demuxer, for "
@@ -27867,57 +27852,12 @@ msgstr "Multimedijos tvarkytuvės sąrašas"
 #~ "Šiame skydelyje galite nurodyti priverstinį subtitrų išpynimo metodų "
 #~ "elgesį, pavyzdžiui, nustatyti subtitrų tipą ar rinkmenos pavadinimą."
 
-#~ msgid "No help available"
-#~ msgstr "Pagalba neprieinama"
-
-#~ msgid "There is no help available for these modules."
-#~ msgstr "Apie šiuos modulius nėra paaiškinimo."
-
-#~ msgid "Quick &Open File..."
-#~ msgstr "&Greitas rinkmenos atvėrimas..."
-
-#~ msgid "&Bookmarks"
-#~ msgstr "&Žymelės"
-
-#~ msgid "Fetch Information"
-#~ msgstr "Gauti informaciją"
-
-#~ msgid "Sort"
-#~ msgstr "Tipas"
-
-#~ msgid "No Repeat"
-#~ msgstr "Nekartoti"
-
-#~ msgid "Add to Media Library"
-#~ msgstr "Papildyti fonoteką"
-
-#~ msgid "Advanced Open..."
-#~ msgstr "Sudėtingesnis atvėrimas..."
-
-#~ msgid "Open Play&list..."
-#~ msgstr "Atverti g&rojaraštį..."
-
-#~ msgid "Search Filter"
-#~ msgstr "Paieškos filtras"
-
-#~ msgid "&Services Discovery"
-#~ msgstr "&Paslaugų aptikimas"
-
 #~ msgid ""
 #~ "Some options are available but hidden. Check \"Advanced options\" to see "
 #~ "them."
 #~ msgstr ""
 #~ "Kai kurios parinktys yra galimos, tačiau paslėptos. Norėdami juos matyti, "
 #~ "rinkitės „Sudėtingesnės nuostatos“."
-
-#~ msgid "Image clone"
-#~ msgstr "Paveikslo dubliavimas"
-
-#~ msgid "Clone the image"
-#~ msgstr "Dubliuoti paveikslą"
-
-#~ msgid "Magnification"
-#~ msgstr "Ryškinimas"
 
 #~ msgid ""
 #~ "Magnify a part of the video. You can select which part of the image "
@@ -27931,9 +27871,6 @@ msgstr "Multimedijos tvarkytuvės sąrašas"
 
 #~ msgid "\"Water surface\" video distortion effect"
 #~ msgstr "„Vandens paviršius“ – vaizdo keitimo efektas"
-
-#~ msgid "Image colors inversion"
-#~ msgstr "Negatyvas"
 
 #~ msgid "Split the image to make an image wall"
 #~ msgstr ""
@@ -27992,15 +27929,6 @@ msgstr "Multimedijos tvarkytuvės sąrašas"
 #~ "Galite patys išsirinkti norimą sąsajos kalbą. Sistemos kalba automatiškai "
 #~ "aptinkama nustačius „auto“."
 
-#~ msgid "Force mono audio"
-#~ msgstr "Priverstinai naudoti monofoninį garsą"
-
-#~ msgid "This will force a mono audio output."
-#~ msgstr "Garso išvestis priverstinai bus perkoduota į monofoninį"
-
-#~ msgid "Default audio volume"
-#~ msgstr "Numatytasis garsumas"
-
 #~ msgid ""
 #~ "You can set the default audio output volume here, in a range from 0 to "
 #~ "1024."
@@ -28011,9 +27939,6 @@ msgstr "Multimedijos tvarkytuvės sąrašas"
 #~ "The step size of the volume is adjustable using this option, in a range "
 #~ "from 0 to 1024."
 #~ msgstr "Garsumo žingsnio dydis tarp 0 ir 1024."
-
-#~ msgid "Audio output frequency (Hz)"
-#~ msgstr "Garso išvesties dažnumas (Hz)"
 
 #~ msgid ""
 #~ "You can force the audio output frequency here. Common values are 0 "
@@ -28034,37 +27959,12 @@ msgstr "Multimedijos tvarkytuvės sąrašas"
 #~ "kokybės garso ruošimas reikalauja didesnių procesoriaus ištekli. "
 #~ "Nepasirinkus šios parinkties, bus naudojamas paprastesnis algoritmas."
 
-#~ msgid "Audio output channels mode"
-#~ msgstr "Garso išvesties kanalų veiksena"
-
-#~ msgid "Audio visualizations "
-#~ msgstr "Garso vaizdiniai"
-
-#~ msgid "Subtitles track"
-#~ msgstr "Subtitrų takelis"
-
-#~ msgid "Subtitles track ID"
-#~ msgstr "Subtitrų takelio ID"
-
-#~ msgid ""
-#~ "This allow you to configure the initial caching amount for stream output  "
-#~ "muxer. This value should be set in milliseconds."
-#~ msgstr ""
-#~ "Leidžia keisti pradinio podėlio dydį srauto išvesties tankinimui. Ši "
-#~ "vertė turi būti nurodyta milisekundėmis."
-
-#~ msgid "Control SAP flow"
-#~ msgstr "Valdyti SAP srautą"
-
 #~ msgid ""
 #~ "These options allow you to enable special CPU optimizations. You should "
 #~ "always leave all these enabled."
 #~ msgstr ""
 #~ "Šios parinktys leidžia jums įgalinti specifinį procesoriaus optimizavimą. "
 #~ "Visuomet turėtumėte jas palikti įjungtas."
-
-#~ msgid "Memory copy module"
-#~ msgstr "Atimties kopijavimo modulis"
 
 #~ msgid ""
 #~ "You can select which memory copy module you want to use. By default VLC "
@@ -28080,62 +27980,14 @@ msgstr "Multimedijos tvarkytuvės sąrašas"
 #~ msgid "Data search path"
 #~ msgstr "Kelias duomenų paieškai"
 
-#~ msgid ""
-#~ "Allowing only one running instance of VLC can sometimes be useful, for "
-#~ "example if you associated VLC with some media types and you don't want a "
-#~ "new instance of VLC to be opened each time you double-click on a file in "
-#~ "the explorer. This option will allow you to play the file with the "
-#~ "already running instance or enqueue it."
-#~ msgstr ""
-#~ "Leidimas veikti tik vienai VLC programai tuo pačiu metu kartais gali būti "
-#~ "naudingas, pavyzdžiui, jei jūs VLC susiejote su kai kuriais garso ar "
-#~ "vaizdo rinkmenų tipais ir nenorite atverti naujo programos lango "
-#~ "kiekvieną kartą jums dukart spragtelėjus ant rinkmenos naršyklėje. Ši "
-#~ "parinktis leis jums groti rinkmeną su programa iš karto ar patalpinant į "
-#~ "eilę."
-
 #~ msgid "One instance when started from file"
 #~ msgstr "Tik viena programa kai paleista iš rinkmenos"
-
-#~ msgid "Allow only one running instance when started from file."
-#~ msgstr "Leisti tik vieną veikiančią programą kai paleidžiama iš rinkmenos."
-
-#~ msgid "Enqueue items to playlist when in one instance mode"
-#~ msgstr ""
-#~ "Kai leidžiama viena programa, naujus įrašus dėti į eilę grojaraštyje"
-
-#~ msgid "Leave fullscreen"
-#~ msgstr "Išeiti iš viso ekrano veiksenos"
-
-#~ msgid "Select the hotkey to use to leave fullscreen state."
-#~ msgstr "Pasirinkite spartųjį klavišą išėjimui iš viso ekrano veiksenos."
-
-#~ msgid "Increase scale factor."
-#~ msgstr "Priartinti rodomą vaizdą."
-
-#~ msgid "Decrease scale factor."
-#~ msgstr "Atitolinti rodomą vaizdą."
-
-#~ msgid "Cycle through deinterlace modes."
-#~ msgstr "Cikliškai eiti per perėjimo šalinimo veiksenas."
-
-#~ msgid "Show interface"
-#~ msgstr "Rodyti grafinę sąsają"
 
 #~ msgid "Raise the interface above all other windows."
 #~ msgstr "Sąsają kelti virš kitų langų."
 
-#~ msgid "Hide interface"
-#~ msgstr "Slėpti grafinę sąsają"
-
 #~ msgid "Lower the interface below all other windows."
 #~ msgstr "Sąsają slėpti po kitais lagais."
-
-#~ msgid "Normal/Repeat/Loop"
-#~ msgstr "Kartojimo veiksena"
-
-#~ msgid "Toggle Normal/Repeat/Loop playlist modes"
-#~ msgstr "Keisti normalaus grojaraščio atlikimo ir jo kartojimo veiksenas"
 
 #~ msgid "Highlight widget on the right"
 #~ msgstr "Pažymėti valdiklį dešinėje"
@@ -28149,18 +28001,6 @@ msgstr "Multimedijos tvarkytuvės sąrašas"
 #~ msgid "Highlight widget below"
 #~ msgstr "Pažymėti valdiklį apačioje"
 
-#~ msgid "Select current widget"
-#~ msgstr "Pasirinkti pažymėtą valdiklį"
-
-#~ msgid "CPU"
-#~ msgstr "Procesorius"
-
-#~ msgid "Greek, Modern ()"
-#~ msgstr "Graikų, šiuolaikinė ()"
-
-#~ msgid "Aspect-ratio"
-#~ msgstr "Santykis"
-
 #~ msgid "3D Now! memcpy"
 #~ msgstr "3D Now! memcpy"
 
@@ -28169,9 +28009,6 @@ msgstr "Multimedijos tvarkytuvės sąrašas"
 
 #~ msgid "PCM S8"
 #~ msgstr "PCM S8"
-
-#~ msgid "GSM Audio"
-#~ msgstr "GSM garsas"
 
 #~ msgid "PCM U16 LE"
 #~ msgstr "PCM U16 LE"
@@ -28221,44 +28058,8 @@ msgstr "Multimedijos tvarkytuvės sąrašas"
 #~ msgid "PCM F64 BE"
 #~ msgstr "PCM F64 BE"
 
-#~ msgid "ALSA audio capture input"
-#~ msgstr "ALSA garso įrašymo įvestis"
-
-#~ msgid "Blu-Ray Disc Input"
-#~ msgstr "Blu-Ray disko įvestis"
-
 #~ msgid "BluRay"
 #~ msgstr "BluRay"
-
-#~ msgid "Blu-Ray Disc support (libbluray)"
-#~ msgstr "Blu-Ray diskų palaikymas (libbluray)"
-
-#~ msgid "BluRay Disc is corrupted."
-#~ msgstr "Blu-Ray diskas yra sugadintas."
-
-#~ msgid "Blu-Ray error"
-#~ msgstr "Blu-Ray klaida"
-
-#~ msgid "dc1394 input"
-#~ msgstr "dc1394 įvestis"
-
-#~ msgid "Audio sampling rate in Hz"
-#~ msgstr "Garso elementų dažnis, Hz"
-
-#~ msgid ""
-#~ "Force the DirectShow video input to use a specific frame rate(eg. 0 means "
-#~ "default, 25, 29.97, 50, 59.94, etc.)"
-#~ msgstr ""
-#~ "DirectShow priverstinai naudos nurodytą vaizdo įvesties kadrų dažnį "
-#~ "(pvz.: 25, 29,97, 50, 59,94 ir kt.)"
-
-#~ msgid "Refresh list"
-#~ msgstr "Atnaujinti sąrašą"
-
-#~ msgid "VLC cannot open ANY capture device.Check the error log for details."
-#~ msgstr ""
-#~ "VLC negali atverti JOKIO įrašymo įrenginio. Daugiau detalių rasite "
-#~ "klaidos pranešime."
 
 #~ msgid "VLC cannot use the device \"%s\", because its type is not supported."
 #~ msgstr "VLC negali naudoti „%s“ įrenginio, nes jo tipas nepalaikomas."
@@ -28272,26 +28073,8 @@ msgstr "Multimedijos tvarkytuvės sąrašas"
 #~ msgid "expand"
 #~ msgstr "išplėsti"
 
-#~ msgid "Auto Connection"
-#~ msgstr "Automatinis sujungimas"
-
-#~ msgid "RTMP stream output"
-#~ msgstr "RTMP srauto išvestis"
-
 #~ msgid "RTMP"
 #~ msgstr "RTMP"
-
-#~ msgid "PVR video device"
-#~ msgstr "PVR vaizdo įrenginys"
-
-#~ msgid "PVR radio device"
-#~ msgstr "PVR radijo įrenginys"
-
-#~ msgid "Norm"
-#~ msgstr "Standartas"
-
-#~ msgid "Norm of the stream (Automatic, SECAM, PAL, or NTSC)."
-#~ msgstr "Srauto standartas (automatinis, SECAM, PAL arba NTSC)."
 
 #~ msgid "Width of the stream to capture (-1 for autodetection)."
 #~ msgstr "Nuskaitomo srauto plotis (-1 automatiniam aptikimui)."
@@ -28302,20 +28085,11 @@ msgstr "Multimedijos tvarkytuvės sąrašas"
 #~ msgid "Frequency to capture (in kHz), if applicable."
 #~ msgstr "įrašymo įrenginio dažnis (kHz), jei pritakoma."
 
-#~ msgid "Framerate"
-#~ msgstr "Kadrų dažnis"
-
 #~ msgid "Framerate to capture, if applicable (-1 for autodetect)."
 #~ msgstr "Įrašymo kadrų dažnis, jei pritaikoma (-1 automatiniam aptikimui)."
 
-#~ msgid "Key interval"
-#~ msgstr "Raktų intervalai"
-
 #~ msgid "Interval between keyframes (-1 for autodetect)."
 #~ msgstr "Intervalas tarp atraminių kadrų (-1 automatiniam aptikimui)."
-
-#~ msgid "B Frames"
-#~ msgstr "B kadrai"
 
 #~ msgid ""
 #~ "If this option is set, B-Frames will be used. Use this option to set the "
@@ -28327,31 +28101,16 @@ msgstr "Multimedijos tvarkytuvės sąrašas"
 #~ msgid "Bitrate to use (-1 for default)."
 #~ msgstr "Naudotinas bitų dažnis (-1 – numatytasis)."
 
-#~ msgid "Bitrate peak"
-#~ msgstr "Bitų dažnio pikas"
-
 #~ msgid "Peak bitrate in VBR mode."
 #~ msgstr "Piko bitų dažnis kintam. bitų dažn. (VBR) veiksenoje."
-
-#~ msgid "Bitrate mode"
-#~ msgstr "Bitų dažnio veiksena"
 
 #~ msgid "Bitrate mode to use (VBR or CBR)."
 #~ msgstr ""
 #~ "Naudotinas bitų dažnio veiksena (VBR – kintam. bitų dažnis – ar CBR – "
 #~ "pastov.)."
 
-#~ msgid "Audio bitmask"
-#~ msgstr "Garso bitų kaukė"
-
 #~ msgid "Bitmask that will get used by the audio part of the card."
 #~ msgstr "Bitų kaukė, kurią gauna garso plokštė."
-
-#~ msgid "Audio volume (0-65535)."
-#~ msgstr "Garsumo lygis (0-65535)."
-
-#~ msgid "Channel"
-#~ msgstr "Kanalas"
 
 #~ msgid ""
 #~ "Channel of the card to use (Usually, 0 = tuner, 1 = composite, 2 = svideo)"
@@ -28374,26 +28133,8 @@ msgstr "Multimedijos tvarkytuvės sąrašas"
 #~ msgid "cbr"
 #~ msgstr "past"
 
-#~ msgid "PVR"
-#~ msgstr "PVR"
-
 #~ msgid "IVTV MPEG Encoding cards input"
 #~ msgstr "IVTV MPEG įkodavimo plokštės įvestis"
-
-#~ msgid "RTMP input"
-#~ msgstr "RTMP įvestis"
-
-#~ msgid "SFTP user name"
-#~ msgstr "SFTP vartotojo vardas"
-
-#~ msgid "SFTP password"
-#~ msgstr "SFTP slaptažodis"
-
-#~ msgid "Pixel width of the frame buffer"
-#~ msgstr "Kadrų buferio taškelių plotis."
-
-#~ msgid "Pixel height of the frame buffer"
-#~ msgstr "Kadrų buferio taškelių aukštis."
 
 #~ msgid "Pixel depth of the frame buffer"
 #~ msgstr "Kadrų buferio taškelių gylis."
@@ -28414,12 +28155,6 @@ msgstr "Multimedijos tvarkytuvės sąrašas"
 #~ msgid "Use libv4l2"
 #~ msgstr "Naudoti libv4l2"
 
-#~ msgid "Tuner id"
-#~ msgstr "Radijo imtuvo ID"
-
-#~ msgid "Tuner id (see debug output)."
-#~ msgstr "Radijo imtuvo ID (žiūrėkite derinimo informaciją)"
-
 #~ msgid "Primary language (Analog TV tuners only)"
 #~ msgstr "Pirmoji kalba (tik analoginiams TV tiuneriams)"
 
@@ -28432,29 +28167,14 @@ msgstr "Multimedijos tvarkytuvės sąrašas"
 #~ msgid "Primary language left, Secondary language right"
 #~ msgstr "Pirmoji kalba kairėje, antroji kalba dešinėje"
 
-#~ msgid "Video4Linux2"
-#~ msgstr "Video4Linux2"
-
-#~ msgid "Video4Linux2 input"
-#~ msgstr "Video4Linux2 įvestis"
-
 #~ msgid "Video4Linux2 Compressed A/V"
 #~ msgstr "Video4Linux2 suspaustas G/V"
-
-#~ msgid "[vcd:][device][@[title][,[chapter]]]"
-#~ msgstr "[vcd:][įrenginys][@[takelis][,[skyrius]]]"
-
-#~ msgid "ARM NEON audio format conversions"
-#~ msgstr "ARM NEON garso formato konvertavimas"
 
 #~ msgid "TCP address to use (default localhost)"
 #~ msgstr "Naudotinas TCP adresas (numatytasis localhost)."
 
 #~ msgid "TCP port to use (default 12345)"
 #~ msgstr "Naudotinas TCP prievadas (numatytasis 12345)."
-
-#~ msgid "Float32 audio mixer"
-#~ msgstr "Float32 garso maišiklis"
 
 #~ msgid "3 Front 2 Rear"
 #~ msgstr "3 prieky, 2 gale"
@@ -28465,35 +28185,14 @@ msgstr "Multimedijos tvarkytuvės sąrašas"
 #~ msgid "A/52 over S/PDIF"
 #~ msgstr "A/52 vietoj S/PDIF"
 
-#~ msgid "Open Sound System"
-#~ msgstr "Atvira garso sistema (OSS)"
-
-#~ msgid "OSS DSP device"
-#~ msgstr "OSS DSP įrenginys"
-
 #~ msgid "Portaudio identifier for the output device"
 #~ msgstr "Portaudio identifikacija garso išvedimo įrenginiams"
-
-#~ msgid "PORTAUDIO audio output"
-#~ msgstr "PORTAUDIO garso išvestis"
 
 #~ msgid "5.1"
 #~ msgstr "5.1"
 
-#~ msgid "Audio device"
-#~ msgstr "Garso įrenginys"
-
-#~ msgid "Default Audio Device"
-#~ msgstr "Numatytasis garso įrenginys"
-
 #~ msgid "Win32 waveOut extension output"
 #~ msgstr "Win32 waveOut prievardžio išvestis"
-
-#~ msgid "FFmpeg deinterlace video filter"
-#~ msgstr "FFmpeg perėjimo šalinimo vaizdo filtras"
-
-#~ msgid "Low resolution decoding"
-#~ msgstr "Iškodavimas maža skiriamąja geba"
 
 #~ msgid ""
 #~ "Only decode a low resolution version of the video. This requires less "
@@ -28502,37 +28201,16 @@ msgstr "Multimedijos tvarkytuvės sąrašas"
 #~ "Iškoduoti tik mažos skiriamosios gebos vaizdus. Ši parinktis reikalauja "
 #~ "mažiau išteklių."
 
-#~ msgid "RealVideo library decoder"
-#~ msgstr "RealVideo bibliotekos iškodavimas"
-
-#~ msgid "Subtitles text encoding"
-#~ msgstr "Subtitrų teksto koduotė"
-
-#~ msgid "UTF-8 subtitles autodetection"
-#~ msgstr "UTF-8 subtitrų aptikimas"
-
 #~ msgid ""
 #~ "This enables automatic detection of UTF-8 encoding within subtitles files."
 #~ msgstr ""
 #~ "Įgalina automatinį unikodo UTF-8 koduotės aptikimą subtitrų rinkmenose."
 
-#~ msgid "Text subtitles decoder"
-#~ msgstr "Tekstinių subtitrų iškodavimas"
-
 #~ msgid "fast"
 #~ msgstr "greitai"
 
-#~ msgid "normal"
-#~ msgstr "vidutiniškai"
-
 #~ msgid "slow"
 #~ msgstr "lėtai"
-
-#~ msgid "all"
-#~ msgstr "visi"
-
-#~ msgid "spatial"
-#~ msgstr "erdvinis"
 
 #~ msgid "temporal"
 #~ msgstr "laikinas"
@@ -28540,29 +28218,11 @@ msgstr "Multimedijos tvarkytuvės sąrašas"
 #~ msgid "H.264/MPEG4 AVC encoder (x264)"
 #~ msgstr "H.264/MPEG4 AVC įkodavimas (x264)"
 
-#~ msgid "Subtitle position %i px"
-#~ msgstr "Subtitrų padėtis %i tšk."
-
-#~ msgid "Volume %d%%"
-#~ msgstr "Garsumas %d%%"
-
 #~ msgid "Use the rotate video filter instead of transform"
 #~ msgstr "Vietoj transformavimo filtro naudokite sukimo filtrą"
 
-#~ msgid "| adev [X] . . . . . . . . . . .  set/get audio device"
-#~ msgstr "| adev [X] . . . . . sužinoti/nustatyti garso įrenginį"
-
-#~ msgid "| strack [X] . . . . . . . . . set/get subtitles track"
-#~ msgstr "| strack [X] . . .  sužinoti/nustatyti subtitrų takelį"
-
 #~ msgid "| @name marq-marquee  STRING  . . overlay STRING in video"
 #~ msgstr "| @name marq-marquee  ŽODIS . . . . . rodyti ŽODĮ vaizde"
-
-#~ msgid "| @name marq-x X . . . . . . . . . . . .offset from left"
-#~ msgstr "| @name marq-x X . . . . . . . . .  poslinkis nuo kairės"
-
-#~ msgid "| @name marq-y Y . . . . . . . . . . . . offset from top"
-#~ msgstr "| @name marq-y Y . . . . . . . . . poslinkis nuo viršaus"
 
 #~ msgid "| @name marq-position #. . .  .relative position control"
 #~ msgstr "| @name marq-position #. . santykinės padėties valdiklis"
@@ -28570,35 +28230,11 @@ msgstr "Multimedijos tvarkytuvės sąrašas"
 #~ msgid "| @name marq-color # . . . . . . . . . . font color, RGB"
 #~ msgstr "| @name marq-color # . . . . . . . .  šrifto spalva, RGB"
 
-#~ msgid "| @name marq-opacity # . . . . . . . . . . . . . opacity"
-#~ msgstr "| @name marq-opacity # . . . . . . . . .  nepermatomumas"
-
-#~ msgid "| @name marq-timeout T. . . . . . . . . . timeout, in ms"
-#~ msgstr "| @name marq-timeout T. . . . . . . . . . užlaikymas, ms"
-
-#~ msgid "| @name marq-size # . . . . . . . . font size, in pixels"
-#~ msgstr "| @name marq-size # . . . . . . šrifto dydis, taškeliais"
-
 #~ msgid "| @name logo-file STRING . . .the overlay file path/name"
 #~ msgstr "| @name logo-file EILUTĖ . logotipo rinkm. kelias/pavad."
 
-#~ msgid "| @name logo-x X . . . . . . . . . . . .offset from left"
-#~ msgstr "| @name logo-x X . . . . . . . . .  poslinkis nuo kairės"
-
-#~ msgid "| @name logo-y Y . . . . . . . . . . . . offset from top"
-#~ msgstr "| @name logo-y Y . . . . . . . . . poslinkis nuo viršaus"
-
-#~ msgid "| @name logo-position #. . . . . . . . relative position"
-#~ msgstr "| @name logo-position #. . . . . . . . santykinė padėtis"
-
 #~ msgid "| @name logo-transparency #. . . . . . . . .transparency"
 #~ msgstr "| @name logo-transparency #. . . . . . . . .  skaidrumas"
-
-#~ msgid "| @name mosaic-height #. . . . . . . . . . . . . .height"
-#~ msgstr "| @name mosaic-height #. . . . . . . . . . . . . aukštis"
-
-#~ msgid "| @name mosaic-width # . . . . . . . . . . . . . . width"
-#~ msgstr "| @name mosaic-width # . . . . . . . . . . . . . .plotis"
 
 #~ msgid "| @name mosaic-xoffset # . . . .top left corner position"
 #~ msgstr "| @name mosaic-xoffset # .  viršut. kairio kampo padėtis"
@@ -28621,47 +28257,14 @@ msgstr "Multimedijos tvarkytuvės sąrašas"
 #~ msgid "| @name mosaic-position {0=auto,1=fixed} . . . .position"
 #~ msgstr "| @name mosaic-position {0=auto,1=fixed} . . . . padėtis"
 
-#~ msgid "| @name mosaic-rows #. . . . . . . . . . .number of rows"
-#~ msgstr "| @name mosaic-rows #. . . . . . . . .  eilučių skaičius"
-
-#~ msgid "| @name mosaic-cols #. . . . . . . . . . .number of cols"
-#~ msgstr "| @name mosaic-cols #. . . . . . . .  stulpelių skaičius"
-
 #~ msgid "| @name mosaic-order id(,id)* . . . . order of pictures "
 #~ msgstr "| @name mosaic-order id(,id)* . .paveikslėlių eiliškumas"
 
 #~ msgid "| @name mosaic-keep-aspect-ratio {0,1} . . .aspect ratio"
 #~ msgstr "| @name mosaic-keep-aspect-ratio {0,1} . . . .  santykis"
 
-#~ msgid "| longhelp . . . . . . . . . . . a longer help message"
-#~ msgstr "| longhelp . . . . . . . . . . . detalus žinyno pranešimas"
-
-#~ msgid "Playlist has only %d elements"
-#~ msgstr "Grojaraštis turi tik %d įrašus"
-
 #~ msgid "Please provide one of the following parameters:"
 #~ msgstr "Prašome nurodyti vieną iš šių parametrų:"
-
-#~ msgid "Classic rock"
-#~ msgstr "Klasikinis rokas"
-
-#~ msgid "Death metal"
-#~ msgstr "Mirties metalas"
-
-#~ msgid "Sound clip"
-#~ msgstr "Garso klipas"
-
-#~ msgid "Alternative rock"
-#~ msgstr "Alternatyvus rokas"
-
-#~ msgid "Instrumental pop"
-#~ msgstr "Instrumentinis popsas"
-
-#~ msgid "Instrumental rock"
-#~ msgstr "Instrumentinis rokas"
-
-#~ msgid "Southern rock"
-#~ msgstr "Pietietiškas rokas"
 
 #~ msgid "Christian rap"
 #~ msgstr "Krikščioniškas repas"
@@ -28669,130 +28272,17 @@ msgstr "Multimedijos tvarkytuvės sąrašas"
 #~ msgid "Pop/funk"
 #~ msgstr "Popsas/funk"
 
-#~ msgid "New wave"
-#~ msgstr "Naujoji banga"
-
 #~ msgid "Rock & roll"
 #~ msgstr "Rokenrolas"
 
 #~ msgid "Hard rock"
 #~ msgstr "Sunkusis rokas"
 
-#~ msgid "Text subtitles parser"
-#~ msgstr "Tekstinių subtitrų analizatorius"
-
-#~ msgid "Frames per second"
-#~ msgstr "Kadrai per sekundę"
-
-#~ msgid "Subtitles delay"
-#~ msgstr "Subtitrų vėlinimas"
-
-#~ msgid "Subtitles format"
-#~ msgstr "Subtitrų formatas"
-
-#~ msgid "Subtitles description"
-#~ msgstr "Subtitrų aprašymas"
-
-#~ msgid "Silent mode"
-#~ msgstr "Tyli veiksena"
-
-#~ msgid "CAPMT System ID"
-#~ msgstr "CAPMT sistemos ID"
-
-#~ msgid "Filename of dump"
-#~ msgstr "Atminties išklotinės rinkmenos pavadinimas"
-
 #~ msgid "Specify a filename where to dump the TS in."
 #~ msgstr "Nurodykite rinkmenos pavadinimą, kur įrašyti neapdorotą TS turinį."
 
-#~ msgid "Append"
-#~ msgstr "Prijungti"
-
-#~ msgid ""
-#~ "If the file exists and this option is selected, the existing file will "
-#~ "not be overwritten."
-#~ msgstr "Naudojant šią parinktį, esanti rinkmena nebus perrašyta."
-
-#~ msgid "Dump buffer size"
-#~ msgstr "Atminties išklotinės buferio dydis"
-
-#~ msgid "Video aspect ratio"
-#~ msgstr "Vaizdo santykis"
-
-#~ msgid ""
-#~ "Aspect ratio of the video image (4:3, 16:9). Default is square pixels."
-#~ msgstr ""
-#~ "Vaizdo paveikslėlių dydžio santykis (4:3, 16:9). Numatytuoju atveju "
-#~ "pikselis yra kvadratas."
-
-#~ msgid "Image file"
-#~ msgstr "Paveikslėlio rinkmena"
-
-#~ msgid "Transparency of the image"
-#~ msgstr "Paveikslo skaidrumas"
-
-#~ msgid "Render text or image"
-#~ msgstr "Vaizduojamas tekstas ar paveikslėlis"
-
-#~ msgid "Commands"
-#~ msgstr "Komandos"
-
-#~ msgid "Maemo hildon interface"
-#~ msgstr "Maemo hildon sąsaja"
-
-#~ msgid "Compiled by %@ with %@"
-#~ msgstr "Sukompiliavo %@ (su %@)"
-
 #~ msgid "VLC Debug Log (%s).rtfd"
 #~ msgstr "VLC derinimo žurnalas (%s).rtfd"
-
-#~ msgid "Automatically save the volume on exit"
-#~ msgstr "Automatiškai įrašyti garsą išeinant"
-
-#~ msgid "Capture Device"
-#~ msgstr "Įrenginys įrašymui"
-
-#~ msgid "Frames per Second:"
-#~ msgstr "Kadrai per sekundę:"
-
-#~ msgid "Subscreen left:"
-#~ msgstr "Poekranio kairė:"
-
-#~ msgid "Subscreen top:"
-#~ msgstr "Poekranio viršus:"
-
-#~ msgid "Subscreen width:"
-#~ msgstr "Poekranio plotis:"
-
-#~ msgid "Subscreen height:"
-#~ msgstr "Poekranio aukštis:"
-
-#~ msgid "Image width:"
-#~ msgstr "Paveikslėlio plotis:"
-
-#~ msgid "Image height:"
-#~ msgstr "Paveikslėlio aukštis:"
-
-#~ msgid "Load subtitles file:"
-#~ msgstr "Įkelti subtitrų rinkmeną:"
-
-#~ msgid "Subtitles encoding"
-#~ msgstr "Subtitrų koduotė"
-
-#~ msgid "Subtitles alignment"
-#~ msgstr "Subtitrų lygiuotė"
-
-#~ msgid "SAP announce"
-#~ msgstr "SAP anonsavimas"
-
-#~ msgid "RTSP announce"
-#~ msgstr "RTSP anonsavimas"
-
-#~ msgid "HTTP announce"
-#~ msgstr "HTTP anonsavimas"
-
-#~ msgid "HTML Playlist"
-#~ msgstr "HTML grojaraštis"
 
 #~ msgid ""
 #~ "Beware this will reset the VLC media player preferences.\n"
@@ -28801,129 +28291,24 @@ msgstr "Multimedijos tvarkytuvės sąrašas"
 #~ "Dėmesio, tai atstatys VLC leistuvės parinktis.\n"
 #~ "Ar tikrai norite tęsti?"
 
-#~ msgid "General Audio Settings"
-#~ msgstr "Garso bendrosios nuostatos"
-
-#~ msgid "General Video Settings"
-#~ msgstr "Vaizdo bendrosios nuostatos"
-
-#~ msgid "Subtitles & OSD"
-#~ msgstr "Subtitrai ir ERP"
-
-#~ msgid "Subtitles & On Screen Display Settings"
-#~ msgstr "Subtitrų ir ekrane rodomų pranešimų nuostatos"
-
-#~ msgid "Input & Codecs"
-#~ msgstr "Įvestis ir kodavimas"
-
-#~ msgid "Input & Codec settings"
-#~ msgstr "Įvesties ir kodavimo nuostatos"
-
-#~ msgid "Enable Audio"
-#~ msgstr "Įgalinti garsą"
-
-#~ msgid "HTTP Proxy"
-#~ msgstr "HTTP įgaliotasis serveris"
-
 #~ msgid "Password for HTTP Proxy"
 #~ msgstr "Slaptažodis skirtas HTTP įgaliotajam serveriui"
 
-#~ msgid "Font Color"
-#~ msgstr "Šrifto spalva"
-
-#~ msgid "Font Size"
-#~ msgstr "Šrifto dydis"
-
-#~ msgid "Subtitle Languages"
-#~ msgstr "Subtitrų kalba"
-
-#~ msgid "Preferred Subtitle Language"
-#~ msgstr "Pageidaujama subtitrų kalba"
-
 #~ msgid "Force Bold"
 #~ msgstr "Priverstinai paryškinti"
-
-#~ msgid "Enable Video"
-#~ msgstr "Įgalinti vaizdą"
-
-#~ msgid "Subtitle track syncronization:"
-#~ msgstr "Subtitrų takelių sinchronizavimas:"
-
-#~ msgid "Subtitles speed:"
-#~ msgstr "Subtitrų greitis:"
-
-#~ msgid "Subtitles duration factor:"
-#~ msgstr "Subtitrų trukmės koeficientas:"
-
-#~ msgid "SAP Announce"
-#~ msgstr "SAP skelbimas"
 
 #~ msgid "Minimal Mac OS X OpenGL video output (opens a borderless window)"
 #~ msgstr ""
 #~ "Minimali Mac OS X OpenGL vaizdo išvestis (atveriama lange be rėmelių)"
 
-#~ msgid "  [Incoming]"
-#~ msgstr "  [Gaunama]"
-
-#~ msgid " Volume   : %u%%"
-#~ msgstr " Garsumas : %u%%"
-
-#~ msgid "Previous media in the playlist, skip backward when keep-pressed"
-#~ msgstr "Ankstesnis kūrinys grojaraštyje; jei užlaikoma – prasukama"
-
-#~ msgid "Next media in the playlist, skip forward when keep-pressed"
-#~ msgstr "Kitas grojaraščio kūrinys; jei užlaikoma – prasukama"
-
-#~ msgid "Show playlist"
-#~ msgstr "Rodyti grojaraštį"
-
-#~ msgid "Open subtitles file"
-#~ msgstr "Atverti subtitrų rinkmeną"
-
-#~ msgid " dB"
-#~ msgstr " dB"
-
-#~ msgid "Enable spatializer"
-#~ msgstr "Įgalinti erdvės efektą"
-
-#~ msgid "Radio device name"
-#~ msgstr "Radijo įrenginio pavadinimas"
-
 #~ msgid "TV (digital)"
 #~ msgstr "TV (skaitmeninė)"
-
-#~ msgid "Add to playlist"
-#~ msgstr "Papildyti grojaraštį"
-
-#~ msgid "Clear playlist"
-#~ msgstr "Išvalyti grojaraštį"
 
 #~ msgid "Icon View"
 #~ msgstr "Rodyti ženkliukus"
 
-#~ msgid "Detailed View"
-#~ msgstr "Detali peržiūra"
-
-#~ msgid "List View"
-#~ msgstr "Rodyti sąrašą"
-
-#~ msgid "Select an action to change the associated hotkey"
-#~ msgstr "Pasirinkite veiksmą, kurio spartųjį klavišą norėtumėte keisti"
-
-#~ msgid "Hotkey for "
-#~ msgstr "Spartusis klavišas veiksmui "
-
-#~ msgid "Press the new keys for "
-#~ msgstr "Nuspauskite klavišą veiksmui: "
-
 #~ msgid "Warning: the key is already assigned to \""
 #~ msgstr "Perspėjimas: klavišas jau priskirtas prie \""
-
-#~ msgid "Subtitles && OSD"
-#~ msgstr "Subtitrai ir ERP"
-
-#~ msgid "Input && Codecs"
-#~ msgstr "Įvestis ir kodavimas"
 
 #~ msgid ""
 #~ "<p><i>VLC media player</i> does <b>not</b> send or collect any "
@@ -28943,15 +28328,6 @@ msgstr "Multimedijos tvarkytuvės sąrašas"
 #~ "<p><i>VideoLAN</i> (autoriai) norėtų, kad Jūs patys nuspręstumėte, ar VLC "
 #~ "turi teisę jungtis prie interneto.</p>\n"
 #~ "<p>Tad savo sprendimą išreikškite pažymėdami atitinkamą parinktį:</p>\n"
-
-#~ msgid "Allow downloading media information"
-#~ msgstr "Leisti parsiųsti informaciją apie kūrinius"
-
-#~ msgid "Allow checking for VLC updates"
-#~ msgstr "Leisti tikrinti, ar yra VLC atnaujinimų"
-
-#~ msgid "Save and Continue"
-#~ msgstr "Įrašyti ir tęsti"
 
 #~ msgid ""
 #~ "VLC media player is a free media player, encoder and streamer that can "
@@ -28975,9 +28351,6 @@ msgstr "Multimedijos tvarkytuvės sąrašas"
 #~ "Šią VLC versiją sukompiliavo:\n"
 #~ " "
 
-#~ msgid "Compiler: "
-#~ msgstr "Kompiliatorius: "
-
 #~ msgid ""
 #~ "You are using the Qt4 Interface.\n"
 #~ "\n"
@@ -28985,26 +28358,11 @@ msgstr "Multimedijos tvarkytuvės sąrašas"
 #~ "Jūs naudojate Qt4 sąsają.\n"
 #~ "\n"
 
-#~ msgid "Copyright (C) "
-#~ msgstr "Autorinės teisės (C)"
-
 #~ msgid " by the VideoLAN Team.\n"
 #~ msgstr " priklauso VideoLan komandai.\n"
 
-#~ msgid "&Codec"
-#~ msgstr "&Kodavimas"
-
-#~ msgid "&Convert"
-#~ msgstr "&Konvertuoti"
-
-#~ msgid "&Convert / Save"
-#~ msgstr "&Konvertuoti / Įrašyti"
-
 #~ msgid "Please enter the URL or path to the media you want to play"
 #~ msgstr "Prašome įvesti norimo kūrinio URL ar kelią"
-
-#~ msgid "Subtitles Files"
-#~ msgstr "Subtitrų rinkmenos"
 
 #~ msgid ""
 #~ "This dialog will allow you to stream or convert your media for use "
@@ -29017,36 +28375,6 @@ msgstr "Multimedijos tvarkytuvės sąrašas"
 #~ "Turėtumėte pradėti patikrindami, ar šaltinis atitinka tą, kurį Jūs ir "
 #~ "norite naudoti įvestyje, ir nuspausdami mygtuką „Toliau“.\n"
 
-#~ msgid "&Tools"
-#~ msgstr "Įra&nkiai"
-
-#~ msgid "&Open (advanced)..."
-#~ msgstr "At&verti (sudėtingiau)..."
-
-#~ msgid "Audio &Channels"
-#~ msgstr "Garso &kanalai"
-
-#~ msgid "&Subtitles Track"
-#~ msgstr "&Subtitrai"
-
-#~ msgid "&Navigation"
-#~ msgstr "Na&ršymas"
-
-#~ msgid "Tools"
-#~ msgstr "Įrankiai"
-
-#~ msgid "Hide VLC media player in taskbar"
-#~ msgstr "Slėpti VLC leistuvę užduočių juostoje"
-
-#~ msgid "Show VLC media player"
-#~ msgstr "Rodyti VLC leistuvę"
-
-#~ msgid "Advanced options"
-#~ msgstr "Sudėtingesnės parinktys"
-
-#~ msgid "Show all the advanced options in the dialogs."
-#~ msgstr "Skydeliuose rodyti visas sudėtingesnes parinktis."
-
 #~ msgid ""
 #~ "A single administration password is used to protect this interface. The "
 #~ "default value is \"admin\"."
@@ -29057,18 +28385,6 @@ msgstr "Multimedijos tvarkytuvės sąrašas"
 #~ msgid "Freebox TV"
 #~ msgstr "Freebox TV"
 
-#~ msgid "French TV"
-#~ msgstr "Prancūzijos televizija"
-
-#~ msgid "Filename of the SQLite database"
-#~ msgstr "SQLite duomenų bazės rinkmenos pavadinimas"
-
-#~ msgid "Path to the file containing the SQLite database"
-#~ msgstr "Kelias iki SQLite duomenų bazės rinkmenos"
-
-#~ msgid "Ignored extensions in the media library"
-#~ msgstr "Fonotekoje nepaisomi prievardžiai"
-
 #~ msgid ""
 #~ "Files with these extensions will not be added to the media library when "
 #~ "scanning directories."
@@ -29076,20 +28392,11 @@ msgstr "Multimedijos tvarkytuvės sąrašas"
 #~ "Rinkmenos, turinčios šiuos prievardžius, peržvelgiant katalogus nebus "
 #~ "įtraukiamos į fonoteką."
 
-#~ msgid "Subdirectory recursive scanning"
-#~ msgstr "Rekursyvus paaplankių peržvelgimas"
-
 #~ msgid "When scanning a directory, scan also all its subdirectories."
 #~ msgstr "Peržvelgiant katalogus, taip pat įtraukti ir pakatalogius."
 
 #~ msgid "Media Library based on a SQL based database"
 #~ msgstr "Fonoteka SQL duomenų bazės pagrindu"
-
-#~ msgid "Username for the database"
-#~ msgstr "Duomenų bazės naudotojo vardas"
-
-#~ msgid "Password for the database"
-#~ msgstr "Duomenų bazės slaptažodis"
 
 #~ msgid "Port for the database"
 #~ msgstr "Duomenų bazės prievadas"
@@ -29097,17 +28404,11 @@ msgstr "Multimedijos tvarkytuvės sąrašas"
 #~ msgid "Auto add new medias"
 #~ msgstr "Automatiškai įtraukti naujus kūrinius"
 
-#~ msgid "Automatically add new medias to ML"
-#~ msgstr "Į fonoteką automatiškai įtraukti naujus kūrinius"
-
 #~ msgid "Power Management Inhibitor"
 #~ msgstr "Energijos valdyklės blokavimas"
 
 #~ msgid "MCE"
 #~ msgstr "MCE"
-
-#~ msgid "X Screensaver disabler"
-#~ msgstr "X ekrano užsklanda išjungta"
 
 #~ msgid ""
 #~ "Specify the log format. Available choices are \"text\" (default) and "
@@ -29116,30 +28417,12 @@ msgstr "Multimedijos tvarkytuvės sąrašas"
 #~ "Nurodykite žurnalo formatą. galimi pasirinkimai: „text“ (numatytas) ir "
 #~ "„html“."
 
-#~ msgid "SQLite database module"
-#~ msgstr "SQLite duomenų bazės modulis"
-
-#~ msgid "Title format string"
-#~ msgstr "Pavadinimas formato kodas"
-
 #~ msgid ""
 #~ "Format of the string to send to MSN {0} Artist, {1} Title, {2} Album. "
 #~ "Defaults to \"Artist - Title\" ({0} - {1})."
 #~ msgstr ""
 #~ "Į MSN siunčiamo kodo formatas: {0} atlikėjas, {1} pavadinimas, {2} "
 #~ "albumas. Numatytasis „atlikėjas - pavadinimas“ ({0} - {1})."
-
-#~ msgid "MSN Now-Playing"
-#~ msgstr "MSN dabar grojama"
-
-#~ msgid "Flip vertical position"
-#~ msgstr "Apvertimo vertikaliai padėtis"
-
-#~ msgid "Display XOSD output at the bottom of the screen instead of the top."
-#~ msgstr "XOSD išvestį rodyti ekrano apačioje, o ne viršuje."
-
-#~ msgid "Vertical offset"
-#~ msgstr "Vertikalus nuotolis"
 
 #~ msgid ""
 #~ "Vertical offset between the border of the screen and the displayed text "
@@ -29148,81 +28431,24 @@ msgstr "Multimedijos tvarkytuvės sąrašas"
 #~ "Nuotolis vertikalioje ašyje nuo ekrano iki rodomo teksto (pikseliais, "
 #~ "numatytas 30 pikselių)."
 
-#~ msgid "Shadow offset"
-#~ msgstr "Šešėlio poslinkis"
-
 #~ msgid ""
 #~ "Offset between the text and the shadow (in pixels, defaults to 2 pixels)."
 #~ msgstr "Šešėlio poslinkis nuo teksto (pikseliais, numatytas 2 pikseliai)."
 
-#~ msgid "XOSD interface"
-#~ msgstr "XOSD sąsaja"
-
-#~ msgid "Blu-Ray"
-#~ msgstr "Blu-Ray"
-
-#~ msgid "Decompression"
-#~ msgstr "Išskleidimas"
-
-#~ msgid "Command UDP port"
-#~ msgstr "UDP prievadas komandoms"
-
 #~ msgid "Full paths of the files separated by colons."
 #~ msgstr "Dvitaškiais atskirti pilni rinkmenų keliai."
-
-#~ msgid "Sizes"
-#~ msgstr "Dydžiai"
 
 #~ msgid "List of sizes separated by colons (720x576:480x576)."
 #~ msgstr "Dvitaškiais atskirtų dydžių sąrašas (720x576:480x576)."
 
-#~ msgid "Aspect ratio (4:3, 16:9)."
-#~ msgstr "Santykiai (4:3, 16:9)."
-
 #~ msgid "UDP port to listen to for commands."
 #~ msgstr "UDP prievadas komandų klausymuisi."
-
-#~ msgid "Command"
-#~ msgstr "Komanda"
 
 #~ msgid "Initial command to execute."
 #~ msgstr "Vykdytina paleidimo komanda."
 
-#~ msgid "GOP size"
-#~ msgstr "GOP dydis"
-
-#~ msgid "Number of P frames between two I frames."
-#~ msgstr "P kadrų skaičius trap dviejų I kadrų."
-
-#~ msgid "Mute audio"
-#~ msgstr "Be garso"
-
 #~ msgid "Mute audio when command is not 0."
 #~ msgstr "Be garso kai komanda nėra 0."
-
-#~ msgid "MPEG2 video switcher stream output"
-#~ msgstr "MPEG2 vaizdo perjungimo srauito išvestis"
-
-#~ msgid "Audio Language"
-#~ msgstr "Garso kalba"
-
-#~ msgid "Subtitles encoder"
-#~ msgstr "Subtitrų įkodavimas"
-
-#~ msgid ""
-#~ "This is the subtitles encoder module that will be used (and its "
-#~ "associated options)."
-#~ msgstr ""
-#~ "Naudotinas subtitrų įkodavimo modulis (ir su juo susiję parametrai)."
-
-#~ msgid "Destination subtitles codec"
-#~ msgstr "Paskirties subtitrų kodavimas"
-
-#~ msgid "This is the subtitles codec that will be used."
-#~ msgstr "Naudotinas subtitrų kodavimas."
-
-#~ msgid "Filter Smoothness (in %)"
-#~ msgstr "Filtro glotnumas (%)"
 
 #~ msgid "Crop geometry (pixels)"
 #~ msgstr "Apkirpimo geometrija (pikseliais)"
@@ -29233,12 +28459,6 @@ msgstr "Multimedijos tvarkytuvės sąrašas"
 #~ msgstr ""
 #~ "Nustatyti apkirpimo srities dydį. Vertė nurodoma formatu  [plotis] x "
 #~ "[aukštis] + [poslinkis kairėje] + [poslinkis viršuje]."
-
-#~ msgid "Automatic cropping"
-#~ msgstr "Automatinis apkirpimas"
-
-#~ msgid "Automatically detect black borders and crop them."
-#~ msgstr "Automatiškai aptikti juodus kraštus ir juos apkirpti."
 
 #~ msgid "Ratio max (x 1000)"
 #~ msgstr "Didžiausias santykis (x1000)"
@@ -29252,43 +28472,10 @@ msgstr "Multimedijos tvarkytuvės sąrašas"
 #~ "neapkirps, kad paveikslėlio santykis būtų didesnis nei nurodyta. Vertė "
 #~ "x1000: 1333 reiškia 4/3."
 
-#~ msgid "Manual ratio"
-#~ msgstr "Santykis"
-
 #~ msgid "Force a ratio (0 for automatic). Value is x1000: 1333 means 4/3."
 #~ msgstr ""
 #~ "Priverstinai naudoti nurodytą santykį (0 automatinis). Vertė x1000: 1333 "
 #~ "reiškia 4/3."
-
-#~ msgid "Number of images for change"
-#~ msgstr "Kadrų skaičius pakeitimams"
-
-#~ msgid "Number of lines for change"
-#~ msgstr "Keičiamų linijų skaičius"
-
-#~ msgid "Number of non black pixels "
-#~ msgstr "Didžiausias ne juodų pikselių kiekis"
-
-#~ msgid "Luminance threshold "
-#~ msgstr "Skaisčio slenkstis"
-
-#~ msgid "Crop video filter"
-#~ msgstr "Vaizdo apkirpimo filtras"
-
-#~ msgid "Cropping failed"
-#~ msgstr "Apkirpimo klaida"
-
-#~ msgid "VLC could not open the video output module."
-#~ msgstr "VLC negali atverti vaizdo išvesties modulio."
-
-#~ msgid "Deinterlace method to use for local playback."
-#~ msgstr "Naudotinas perėjimo šalinimo būdas vietiniam grojimui."
-
-#~ msgid "Configuration file"
-#~ msgstr "Nuostatų rinkmena"
-
-#~ msgid "Menu position"
-#~ msgstr "Meniu padėtis"
 
 #~ msgid "Menu update interval"
 #~ msgstr "Memiu atnaujinimo intervalas"
@@ -29305,69 +28492,6 @@ msgstr "Multimedijos tvarkytuvės sąrašas"
 #~ msgid "One of '90', '180', '270', 'hflip' and 'vflip'"
 #~ msgstr "Viena iš „90“, „180f, „270“, „hflip“ ir „vflip“"
 
-#~ msgid "Enable desktop mode "
-#~ msgstr "Įgalinti darbastalio fono veikseną "
-
-#~ msgid "Windows GAPI video output"
-#~ msgstr "Windows GAPI vaizdo išvestis"
-
-#~ msgid "Stream Name"
-#~ msgstr "Srauto pavadinimas"
-
-#~ msgid "Video Codec"
-#~ msgstr "Vaizdo kodavimas"
-
-#~ msgid "Audio Codec"
-#~ msgstr "Garso kodavimas"
-
-#~ msgid "Subtitle Codec"
-#~ msgstr "Subtitrų kodavimas"
-
-#~ msgid "Output Method"
-#~ msgstr "Išvedimo būdas"
-
-#~ msgid "Video Bit Rate"
-#~ msgstr "Vaizdo bitų dažnis"
-
-#~ msgid "Audio Bit Rate"
-#~ msgstr "Garso bitų dažnis"
-
-#~ msgid "Audio Sample Rate"
-#~ msgstr "Garso elementų dažnis"
-
-#~ msgid "Output Port"
-#~ msgstr "Išvedimo prievadas"
-
-#~ msgid "Output Destination"
-#~ msgstr "Išvesties paskirtis"
-
-#~ msgid "Output File"
-#~ msgstr "Išvesties rinkmena"
-
-#~ msgid "Input Media"
-#~ msgstr "Įvesties kūrinys"
-
-#~ msgid "File Name"
-#~ msgstr "Rinkmena"
-
-#~ msgid "Rows:"
-#~ msgstr "Eilutės:"
-
-#~ msgid "x offset"
-#~ msgstr "x poslinkis"
-
-#~ msgid "width"
-#~ msgstr "plotis"
-
-#~ msgid "Columns:"
-#~ msgstr "stulpeliai:"
-
-#~ msgid "y offset"
-#~ msgstr "y poslinkis"
-
-#~ msgid "height"
-#~ msgstr "aukštis"
-
 #~ msgid ""
 #~ "We would like to thank the whole VLC community, the testers, our users "
 #~ "and the following people (and the missing ones...) for their "
@@ -29376,21 +28500,6 @@ msgstr "Multimedijos tvarkytuvės sąrašas"
 #~ "Norėtume padėkoti visai VLC bendruomenei, testuotojams, mūsų naudotojams "
 #~ "ir kitiems toliau išvardintiems žmonėms (ir tiems, kurie nepaminėti) už "
 #~ "jų indėlį kuriant geriausią programinę įrangą."
-
-#~ msgid "Licence"
-#~ msgstr "Licencija"
-
-#~ msgid "Verbosity:"
-#~ msgstr "Detalumo lygis:"
-
-#~ msgid "Add a subtitles file"
-#~ msgstr "Įkelti subtitrų rinkmeną"
-
-#~ msgid "Use a sub&titles file"
-#~ msgstr "Naudoti sub&titrų rinkmeną"
-
-#~ msgid "Select the subtitles file"
-#~ msgstr "Pasirinkite subtitrų rinkmeną"
 
 #~ msgid ""
 #~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
@@ -29426,92 +28535,11 @@ msgstr "Multimedijos tvarkytuvės sąrašas"
 #~ msgid "00000; "
 #~ msgstr "00000; "
 
-#~ msgid "Destinations"
-#~ msgstr "Paskirtys"
-
-#~ msgid "Group name"
-#~ msgstr "Grupės pavadinimas"
-
 #~ msgid "Use GPU accelerated decoding"
 #~ msgstr "Naudoti vaizdo plokštės spartinimo funkcijas iškodavimui"
 
-#~ msgid "Instances"
-#~ msgstr "VLC programų skaičius"
-
-#~ msgid "Enqueue files when in one instance mode"
-#~ msgstr "ir tuomet naujas rinkmenas įtraukti į grojimo eilę"
-
-#~ msgid "Menus language:"
-#~ msgstr "Meniu kalba:"
-
-#~ msgid "Systray popup when minimized"
-#~ msgstr "Jei suskleista, rodyti iškylantį pranešimą"
-
-#~ msgid "Subtitles Language"
-#~ msgstr "Subtitrų kalba"
-
-#~ msgid "Preferred subtitles language"
-#~ msgstr "Pageidaujama subtitrų kalba"
-
-#~ msgid "Subtitles effects"
-#~ msgstr "Subtitrų efektai"
-
 #~ msgid "Do you want to download it ?"
 #~ msgstr "Ar norėtumėte atsisiųsti?"
-
-#~ msgid "Black slot"
-#~ msgstr "Juoda detalė"
-
-#~ msgid "DVB"
-#~ msgstr "DVB"
-
-#~ msgid "Relaunch required"
-#~ msgstr "Reikia paleisti iš naujo"
-
-#~ msgid "Advance of subtitles over video:"
-#~ msgstr "Subtitrai pralenkia vaizdą:"
-
-#~ msgid "Speed of the subtitles:"
-#~ msgstr "Subtitrų greitis:"
-
-#~ msgid "Session groupname"
-#~ msgstr "Sesijos grupės pavadinimas"
-
-#~ msgid "Default Volume"
-#~ msgstr "Numatytasis garsumas"
-
-#~ msgid "Open a Media"
-#~ msgstr "Atverti kūrinį"
-
-#~ msgid "&Open a Media"
-#~ msgstr "&Atverti kūrinį"
-
-#~ msgid "Display on &Desktop"
-#~ msgstr "Rodyti dar&balaukyje"
-
-#~ msgid "Enable wallpaper mode"
-#~ msgstr "Įgalinti darbastalio fono veikseną"
-
-#~ msgid "Clear Menu"
-#~ msgstr "Išvalyti meniu"
-
-#~ msgid "RTSP host address"
-#~ msgstr "RTSP serverio adresas"
-
-#~ msgid "Library"
-#~ msgstr "Biblioteka"
-
-#~ msgid "Media Browser"
-#~ msgstr "Kūrinių naršyklė"
-
-#~ msgid "Close"
-#~ msgstr "Užverti"
-
-#~ msgid "Left rear"
-#~ msgstr "Užpakalyje kairėje"
-
-#~ msgid "Right rear"
-#~ msgstr "Užpakalyje dešinėje"
 
 #, fuzzy
 #~ msgid ""
@@ -29539,26 +28567,6 @@ msgstr "Multimedijos tvarkytuvės sąrašas"
 #~ "iš jų (0=kairysis, 1=dešinysis, 2=kairysis gale, 3=dešinysis gale, "
 #~ "4=centre, 5=kairysis priekyje)"
 
-#, fuzzy
-#~ msgid "Low Pass Ffilter"
-#~ msgstr "Logotipo sub filtras"
-
-#, fuzzy
-#~ msgid "Duration in second"
-#~ msgstr "Trukmė, ms"
-
-#~ msgid "yes: from %@ to %@ secs"
-#~ msgstr "taip: nuo %@ iki %@ s"
-
-#~ msgid "Previous/Backward"
-#~ msgstr "Atgal/prasukti"
-
-#~ msgid "Next/Forward"
-#~ msgstr "Toliau/prasukti"
-
-#~ msgid "Loop/Repeat mode"
-#~ msgstr "Kartojimo veiksena"
-
 #~ msgid ""
 #~ "Specify the log format. Available choices are \"text\" (default), \"html"
 #~ "\", and \"syslog\" (special mode to send to syslog instead of file."
@@ -29566,13 +28574,6 @@ msgstr "Multimedijos tvarkytuvės sąrašas"
 #~ "Nurodykite žurnalo formatą. galimi pasirinkimai: „text“ (numatytas), "
 #~ "„html“ ir „syslog“ (speciali veiksena siųsti pranešimus, nerašant į "
 #~ "rinkmeną)."
-
-#~ msgid ""
-#~ "This allows you to specify a group for the session, that will be "
-#~ "announced if you choose to use SAP."
-#~ msgstr ""
-#~ "Tai leidžia jums nurodyti sesijos grupę, kuri bus skelbiama, jei "
-#~ "pasirinkote naudojimui SAP."
 
 #, fuzzy
 #~ msgid "Satellite scanning config"
@@ -29817,9 +28818,6 @@ msgstr "Multimedijos tvarkytuvės sąrašas"
 #~ msgid "16VSB"
 #~ msgstr "16VSB"
 
-#~ msgid "1/2"
-#~ msgstr "1/2"
-
 #~ msgid "2/3"
 #~ msgstr "2/3"
 
@@ -29849,12 +28847,6 @@ msgstr "Multimedijos tvarkytuvės sąrašas"
 
 #~ msgid "8k"
 #~ msgstr "8k"
-
-#~ msgid "2"
-#~ msgstr "2"
-
-#~ msgid "4"
-#~ msgstr "4"
 
 #~ msgid "Satellite Polarisation [H/V/L/R]"
 #~ msgstr "Palydovo poliarizacija [H/V/L/R]"
@@ -30073,9 +29065,6 @@ msgstr "Multimedijos tvarkytuvės sąrašas"
 #~ msgid "VLC was brought to you by:"
 #~ msgstr "VLC kūrėjai:"
 
-#~ msgid "Rewind"
-#~ msgstr "Prasukti atgal"
-
 #~ msgid "Apply the equalizer filter twice. The effect will be sharper."
 #~ msgstr "Glodintuvo filtrą pritaikyti du kartus. Efektas bus stipresnis."
 
@@ -30129,9 +29118,6 @@ msgstr "Multimedijos tvarkytuvės sąrašas"
 
 #~ msgid "     <left>      Seek -1%%"
 #~ msgstr "     <kairėn>    Persukti -1%%"
-
-#~ msgid "     a           Volume Up"
-#~ msgstr "     a           Pagarsinti"
 
 #~ msgid "     D, <del>    Delete an entry"
 #~ msgstr "    D, <šalinti> Šalinti įrašą"
@@ -30647,6 +29633,1415 @@ msgstr "Multimedijos tvarkytuvės sąrašas"
 #~ msgid "Number of stars to draw with random effect."
 #~ msgstr "Žvaigždučių skaičius piešimui atsitiktiniu efektu."
 
+#~ msgid "Force IPv6"
+#~ msgstr "Priverstinai naudoti IPv6"
+
+#~ msgid "Force IPv4"
+#~ msgstr "Priverstinai naudoti IPv4"
+
+#~ msgid ""
+#~ "Channel of the card to use (Usually, 0 = tuner, 1 = composite, 2 = "
+#~ "svideo)."
+#~ msgstr ""
+#~ "Naudotinas plokštės kanalas (paprastai, 0 = tiuneris, 1 = sudėtinis, 2 = "
+#~ "svideo)."
+
+#~ msgid "Width of the stream to capture (-1 for autodetect)."
+#~ msgstr "Įrašomo srauto plotis (-1 automatiniam aptikimui)."
+
+#~ msgid "Height of the stream to capture (-1 for autodetect)."
+#~ msgstr "Įrašomo srauto aukštis (-1 automatiniam aptikimui)."
+
+#~ msgid "IO Method"
+#~ msgstr "IO metodas"
+
+#~ msgid "Dummy S/PDIF audio mixer"
+#~ msgstr "Tuščias S/PDIF garso maišiklis"
+
+#~ msgid "Crops a defined part of the image"
+#~ msgstr "Apkarpo nurodytas paveikslėlio dalis."
+
+#~ msgid "iSight Capture Input"
+#~ msgstr "iSight įrašymo įvestis"
+
+#~ msgid "On Screen Display/Subtitle Settings not saved"
+#~ msgstr "Subtitrų / ERP nuostatos neįrašytos"
+
+#~ msgid ""
+#~ "(c) 1996-2008 - the VideoLAN Team\n"
+#~ "\n"
+#~ msgstr ""
+#~ "(c) 1996-2008 - VideoLAN komanda\n"
+#~ "\n"
+
+#~ msgid "You can choose the default deinterlace mode"
+#~ msgstr "Galite pasirinkti numatytąją perėjimo šalinimo veikseną"
+
+#, fuzzy
+#~ msgid "Subtitles/OSD"
+#~ msgstr "Subtitrai / ERP"
+
+#, fuzzy
+#~ msgid "Subtitles codecs"
+#~ msgstr "Subtitrų kodavimas"
+
+#, fuzzy
+#~ msgid "General Input"
+#~ msgstr "Bendra"
+
+#, fuzzy
+#~ msgid "CPU features"
+#~ msgstr "Įrašymas"
+
+#, fuzzy
+#~ msgid "Chroma modules settings"
+#~ msgstr "Vaizdo bendrosios nuostatos"
+
+#, fuzzy
+#~ msgid "Packetizer modules settings"
+#~ msgstr "Vaizdo bendrosios nuostatos"
+
+#, fuzzy
+#~ msgid "Encoders settings"
+#~ msgstr "Keisti nuostatas"
+
+#, fuzzy
+#~ msgid ""
+#~ "These are general settings for video/audio/subtitles encoding modules."
+#~ msgstr "Garso išvesties modulių pagrindinės nuostatos."
+
+#, fuzzy
+#~ msgid "Dialog providers settings"
+#~ msgstr "Vaizdo bendrosios nuostatos"
+
+#, fuzzy
+#~ msgid "Subtitle demuxer settings"
+#~ msgstr "Subtitrai vėluoja %i ms"
+
+#, fuzzy
+#~ msgid "No help available"
+#~ msgstr "Geriausia galima"
+
+#, fuzzy
+#~ msgid "There is no help available for these modules."
+#~ msgstr "spausdinti galimų modulių sąrašą"
+
+#, fuzzy
+#~ msgid "Quick &Open File..."
+#~ msgstr "At&verti rinkmeną..."
+
+#, fuzzy
+#~ msgid "&Bookmarks"
+#~ msgstr "Žymelės"
+
+#, fuzzy
+#~ msgid "Fetch Information"
+#~ msgstr "&Kodavimo informacija"
+
+#, fuzzy
+#~ msgid "Sort"
+#~ msgstr "Rikiuoti pagal "
+
+#, fuzzy
+#~ msgid "No Repeat"
+#~ msgstr "Kartoti"
+
+#, fuzzy
+#~ msgid "Add to Media Library"
+#~ msgstr "Įkelti fonoteką"
+
+#, fuzzy
+#~ msgid "Advanced Open..."
+#~ msgstr "&Sudėtingesnis atvėrimas"
+
+#, fuzzy
+#~ msgid "Open Play&list..."
+#~ msgstr "Atverti grojaraštį..."
+
+#, fuzzy
+#~ msgid "Search Filter"
+#~ msgstr "Srauto filtrai"
+
+#, fuzzy
+#~ msgid "&Services Discovery"
+#~ msgstr "Paslaugų aptikimas"
+
+#, fuzzy
+#~ msgid "Image clone"
+#~ msgstr "Paveikslo spalva"
+
+#, fuzzy
+#~ msgid "Clone the image"
+#~ msgstr "Pelės žymeklio paveikslėlis"
+
+#, fuzzy
+#~ msgid "Magnification"
+#~ msgstr "Artinimas/Didinimas"
+
+#, fuzzy
+#~ msgid "Image colors inversion"
+#~ msgstr "Negatyvas"
+
+#, fuzzy
+#~ msgid "Force mono audio"
+#~ msgstr "Priverstinai kurti turinį"
+
+#, fuzzy
+#~ msgid "This will force a mono audio output."
+#~ msgstr "Išvestis į garso rinkmeną"
+
+#, fuzzy
+#~ msgid "Default audio volume"
+#~ msgstr "Garsumas"
+
+#, fuzzy
+#~ msgid "Audio output frequency (Hz)"
+#~ msgstr "Garso išvesties tankintuvas"
+
+#, fuzzy
+#~ msgid "Audio output channels mode"
+#~ msgstr "Garso išvesties priėjimo būdas"
+
+#, fuzzy
+#~ msgid "Audio visualizations "
+#~ msgstr "Garso vaizdiniai"
+
+#, fuzzy
+#~ msgid "Subtitles track"
+#~ msgstr "Subtitrų takelis"
+
+#, fuzzy
+#~ msgid "Subtitles track ID"
+#~ msgstr "Subtitrų takelio ID"
+
+#, fuzzy
+#~ msgid ""
+#~ "This allow you to configure the initial caching amount for stream output  "
+#~ "muxer. This value should be set in milliseconds."
+#~ msgstr ""
+#~ "RTP srautų podėlio numatytoji vertė. Ši vertė turi būti nurodyta "
+#~ "milisekundėmis."
+
+#, fuzzy
+#~ msgid "Control SAP flow"
+#~ msgstr "Valdymas"
+
+#, fuzzy
+#~ msgid "Memory copy module"
+#~ msgstr "Vaizdo išvesties modulis"
+
+#, fuzzy
+#~ msgid ""
+#~ "Allowing only one running instance of VLC can sometimes be useful, for "
+#~ "example if you associated VLC with some media types and you don't want a "
+#~ "new instance of VLC to be opened each time you double-click on a file in "
+#~ "the explorer. This option will allow you to play the file with the "
+#~ "already running instance or enqueue it."
+#~ msgstr ""
+#~ "Leidimas veikti tik vienai VLC programai tuo pačiu metu kartais gali būti "
+#~ "naudingas, pavyzdžiui, jei jūs VLC susiejote su kai kuriais garso ar "
+#~ "vaizdo rinkmenų tipais ir nenorite atverti naujo programos lango "
+#~ "kiekvieną kartą jums atveriant rinkmeną rinkmenų tvarkyklėje. Ši "
+#~ "parinktis leis jums groti rinkmeną su programa iš karto ar patalpinant į "
+#~ "eilę. Ši parinktis reikalauja aktyvios D-Bus sesijos tarnybos ir "
+#~ "paleistos VLC, naudojančios D-Bus valdymo sąsają."
+
+#, fuzzy
+#~ msgid "Allow only one running instance when started from file."
+#~ msgstr "Tik viena programa tuo pačiu metu"
+
+#, fuzzy
+#~ msgid "Enqueue items to playlist when in one instance mode"
+#~ msgstr ""
+#~ "Kai leidžiama viena programa, naujus įrašus dėti į eilę grojaraštyje"
+
+#, fuzzy
+#~ msgid "Leave fullscreen"
+#~ msgstr "Palikti viso ekrano veikseną"
+
+#, fuzzy
+#~ msgid "Select the hotkey to use to leave fullscreen state."
+#~ msgstr "Pasirinkite spartųjį klavišą persijungimui į viso ekrano veikseną."
+
+#, fuzzy
+#~ msgid "Increase scale factor."
+#~ msgstr "Priartinti vaizdą"
+
+#, fuzzy
+#~ msgid "Decrease scale factor."
+#~ msgstr "Atitolinti vaizdą"
+
+#, fuzzy
+#~ msgid "Cycle through deinterlace modes."
+#~ msgstr "Keisti perėjimo šalinimą"
+
+#, fuzzy
+#~ msgid "Show interface"
+#~ msgstr "Qt sąsaja"
+
+#, fuzzy
+#~ msgid "Hide interface"
+#~ msgstr "Qt sąsaja"
+
+#, fuzzy
+#~ msgid "Normal/Repeat/Loop"
+#~ msgstr "Kartojimo veiksena"
+
+#, fuzzy
+#~ msgid "Toggle Normal/Repeat/Loop playlist modes"
+#~ msgstr ""
+#~ "Keisti normalaus grojaraščio atlikimo ir jo kartojimo veiksenas: įprasta, "
+#~ "kartoti grojaraštį, kartoti kūrinį"
+
+#, fuzzy
+#~ msgid "Select current widget"
+#~ msgstr "Kartoti dabartinį kūrinį"
+
+#, fuzzy
+#~ msgid "CPU"
+#~ msgstr "TCP"
+
+#, fuzzy
+#~ msgid "Greek, Modern ()"
+#~ msgstr "Graikų, šiuolaikinė"
+
+#, fuzzy
+#~ msgid "Aspect-ratio"
+#~ msgstr "Santykis"
+
+#, fuzzy
+#~ msgid "GSM Audio"
+#~ msgstr "Garsas"
+
+#, fuzzy
+#~ msgid "ALSA audio capture input"
+#~ msgstr "ALSA garso įrašymas"
+
+#, fuzzy
+#~ msgid "Blu-Ray Disc Input"
+#~ msgstr "Blu-ray disko įvestis"
+
+#, fuzzy
+#~ msgid "Blu-Ray Disc support (libbluray)"
+#~ msgstr "Blu-ray diskų palaikymas (libbluray)"
+
+#, fuzzy
+#~ msgid "BluRay Disc is corrupted."
+#~ msgstr "Blu-ray diskas sugadintas."
+
+#, fuzzy
+#~ msgid "Blu-Ray error"
+#~ msgstr "Blu-ray meniu"
+
+#, fuzzy
+#~ msgid "dc1394 input"
+#~ msgstr "Garso įvestis"
+
+#, fuzzy
+#~ msgid "Audio sampling rate in Hz"
+#~ msgstr "Garso elementų dažnis (Hz)"
+
+#, fuzzy
+#~ msgid ""
+#~ "Force the DirectShow video input to use a specific frame rate(eg. 0 means "
+#~ "default, 25, 29.97, 50, 59.94, etc.)"
+#~ msgstr ""
+#~ "DirectShow priverstinai naudos nurodytą vaizdo įvesties spalvų formatą "
+#~ "(pavyzdžiui, I420 (numatytas), RV24 ir kt.)"
+
+#, fuzzy
+#~ msgid "Refresh list"
+#~ msgstr "Atnaujinti sąrašą"
+
+#, fuzzy
+#~ msgid "VLC cannot open ANY capture device.Check the error log for details."
+#~ msgstr ""
+#~ "VLC negali atverti JOKIO įrašymo įrenginio. Daugiau detalių rasite "
+#~ "klaidos pranešime."
+
+#, fuzzy
+#~ msgid "Auto Connection"
+#~ msgstr "Automatinis prisijungimas"
+
+#, fuzzy
+#~ msgid "RTMP stream output"
+#~ msgstr "RTP srauto išvestis"
+
+#, fuzzy
+#~ msgid "PVR video device"
+#~ msgstr "Vaizdo įrenginys"
+
+#, fuzzy
+#~ msgid "PVR radio device"
+#~ msgstr "Radijo įrenginys"
+
+#, fuzzy
+#~ msgid "Norm"
+#~ msgstr "Vidutinis"
+
+#, fuzzy
+#~ msgid "Norm of the stream (Automatic, SECAM, PAL, or NTSC)."
+#~ msgstr "Vaizdo standartas (numatytasis, SECAM, PAL ar NTSC)"
+
+#, fuzzy
+#~ msgid "Framerate"
+#~ msgstr "Kadrų dažnis"
+
+#, fuzzy
+#~ msgid "Key interval"
+#~ msgstr "PCR intervalas (ms)"
+
+#, fuzzy
+#~ msgid "B Frames"
+#~ msgstr "kadrai"
+
+#, fuzzy
+#~ msgid "Bitrate peak"
+#~ msgstr "Bitų dažnis"
+
+#, fuzzy
+#~ msgid "Bitrate mode"
+#~ msgstr "Priverstinis bitų dažnis"
+
+#, fuzzy
+#~ msgid "Audio bitmask"
+#~ msgstr "Garso bitų dažnis"
+
+#, fuzzy
+#~ msgid "Audio volume (0-65535)."
+#~ msgstr "Garsumas"
+
+#, fuzzy
+#~ msgid "Channel"
+#~ msgstr "Kanalas"
+
+#, fuzzy
+#~ msgid "PVR"
+#~ msgstr "VDR"
+
+#, fuzzy
+#~ msgid "RTMP input"
+#~ msgstr "FTP įvestis"
+
+#, fuzzy
+#~ msgid "SFTP user name"
+#~ msgstr "FTP vartotojo vardas"
+
+#, fuzzy
+#~ msgid "SFTP password"
+#~ msgstr "FTP slaptažodis"
+
+#, fuzzy
+#~ msgid "Pixel width of the frame buffer"
+#~ msgstr "Visuomet rašyti į tą pačią rinkmeną"
+
+#, fuzzy
+#~ msgid "Pixel height of the frame buffer"
+#~ msgstr "Pikų visas taškelių aukštis."
+
+#, fuzzy
+#~ msgid "Tuner id"
+#~ msgstr "Radijo imtuvas"
+
+#, fuzzy
+#~ msgid "Tuner id (see debug output)."
+#~ msgstr "Radijo imtuvo dažnis, Hz arba kHz (žiūrėkite derinimo informaciją)"
+
+#, fuzzy
+#~ msgid "Video4Linux2"
+#~ msgstr "Video4Linux įvestis"
+
+#, fuzzy
+#~ msgid "Video4Linux2 input"
+#~ msgstr "Video4Linux įvestis"
+
+#, fuzzy
+#~ msgid "[vcd:][device][@[title][,[chapter]]]"
+#~ msgstr "[cdda:][įrenginys][@[takelis]]"
+
+#, fuzzy
+#~ msgid "ARM NEON audio format conversions"
+#~ msgstr "ARM NEON vaizdo spalvų konvertavimas"
+
+#, fuzzy
+#~ msgid "Float32 audio mixer"
+#~ msgstr "Neapdoroto garso išpynimo metodas"
+
+#, fuzzy
+#~ msgid "Open Sound System"
+#~ msgstr "Atverti šaltinį"
+
+#, fuzzy
+#~ msgid "OSS DSP device"
+#~ msgstr "DVD įrenginys"
+
+#, fuzzy
+#~ msgid "PORTAUDIO audio output"
+#~ msgstr "ALSA garso išvestis"
+
+#, fuzzy
+#~ msgid "Audio device"
+#~ msgstr "Garso įrenginys"
+
+#, fuzzy
+#~ msgid "Default Audio Device"
+#~ msgstr "Pasirinkite garso įrenginį"
+
+#, fuzzy
+#~ msgid "FFmpeg deinterlace video filter"
+#~ msgstr "Perėjimą šalinantis vaizdo filtras"
+
+#, fuzzy
+#~ msgid "Low resolution decoding"
+#~ msgstr "Aparatinis iškodavimas"
+
+#, fuzzy
+#~ msgid "RealVideo library decoder"
+#~ msgstr "QuickTime bibliotekos iškodavimas"
+
+#, fuzzy
+#~ msgid "Subtitles text encoding"
+#~ msgstr "DVB subtitrų įkodavimas"
+
+#, fuzzy
+#~ msgid "UTF-8 subtitles autodetection"
+#~ msgstr "Keliai automatiniam subtitrų aptikimui"
+
+#, fuzzy
+#~ msgid "Text subtitles decoder"
+#~ msgstr "Teleteksto subtitrų iškodavimas"
+
+#, fuzzy
+#~ msgid "normal"
+#~ msgstr "Vidutinis"
+
+#, fuzzy
+#~ msgid "all"
+#~ msgstr "Siena – skaldymas į ekranus"
+
+#, fuzzy
+#~ msgid "spatial"
+#~ msgstr "Erdvės efektas"
+
+#, fuzzy
+#~ msgid "Subtitle position %i px"
+#~ msgstr "Subtitrus pakelti"
+
+#, fuzzy
+#~ msgid "Volume %d%%"
+#~ msgstr "Patylinti"
+
+#, fuzzy
+#~ msgid "| adev [X] . . . . . . . . . . .  set/get audio device"
+#~ msgstr "| volume [X] . . . . . . .  sužinoti/nustatyti garsumą"
+
+#, fuzzy
+#~ msgid "| strack [X] . . . . . . . . . set/get subtitles track"
+#~ msgstr "| strack [X] . . .  sužinoti/nustatyti subtitrų takelį"
+
+#, fuzzy
+#~ msgid "| @name marq-x X . . . . . . . . . . . .offset from left"
+#~ msgstr "| volume [X] . . . . . . .  sužinoti/nustatyti garsumą"
+
+#, fuzzy
+#~ msgid "| @name marq-y Y . . . . . . . . . . . . offset from top"
+#~ msgstr "| next . . . . . . . . . .  kitas įrašyje grojaraštyje"
+
+#, fuzzy
+#~ msgid "| @name marq-opacity # . . . . . . . . . . . . . opacity"
+#~ msgstr "| next . . . . . . . . . .  kitas įrašyje grojaraštyje"
+
+#, fuzzy
+#~ msgid "| @name marq-timeout T. . . . . . . . . . timeout, in ms"
+#~ msgstr "| snapshot . . . . . . . . . . . .  padaryti nuotrauką"
+
+#, fuzzy
+#~ msgid "| @name marq-size # . . . . . . . . font size, in pixels"
+#~ msgstr "| title_n  . . . . . . . . . . . . .  sekantis takelis"
+
+#, fuzzy
+#~ msgid "| @name logo-x X . . . . . . . . . . . .offset from left"
+#~ msgstr "| volume [X] . . . . . . .  sužinoti/nustatyti garsumą"
+
+#, fuzzy
+#~ msgid "| @name logo-y Y . . . . . . . . . . . . offset from top"
+#~ msgstr "| next . . . . . . . . . .  kitas įrašyje grojaraštyje"
+
+#, fuzzy
+#~ msgid "| @name logo-position #. . . . . . . . relative position"
+#~ msgstr "| logout . . . . . . . .  atsijungti (kai prisijungta)"
+
+#, fuzzy
+#~ msgid "| @name mosaic-height #. . . . . . . . . . . . . .height"
+#~ msgstr "| next . . . . . . . . . .  kitas įrašyje grojaraštyje"
+
+#, fuzzy
+#~ msgid "| @name mosaic-width # . . . . . . . . . . . . . . width"
+#~ msgstr "| next . . . . . . . . . .  kitas įrašyje grojaraštyje"
+
+#, fuzzy
+#~ msgid "| @name mosaic-rows #. . . . . . . . . . .number of rows"
+#~ msgstr "| faster . . . . . . . . . . . . srautą groti greičiau"
+
+#, fuzzy
+#~ msgid "| @name mosaic-cols #. . . . . . . . . . .number of cols"
+#~ msgstr "| normal . . . . . . . .  srautą groti įprastu greičiu"
+
+#, fuzzy
+#~ msgid "| longhelp . . . . . . . . . . . a longer help message"
+#~ msgstr "| help . . . . . . . . . . . . . . .  ši žinyno žinutė"
+
+#, fuzzy
+#~ msgid "Playlist has only %d elements"
+#~ msgstr "Grojaraščio lentelės stulpeliai"
+
+#, fuzzy
+#~ msgid "Classic rock"
+#~ msgstr "Klasika"
+
+#, fuzzy
+#~ msgid "Death metal"
+#~ msgstr "Datos metaduomenys"
+
+#, fuzzy
+#~ msgid "Sound clip"
+#~ msgstr "Garso užlaikymas"
+
+#, fuzzy
+#~ msgid "Alternative rock"
+#~ msgstr "Alternatyvi"
+
+#, fuzzy
+#~ msgid "Instrumental pop"
+#~ msgstr "Instrumentinė"
+
+#, fuzzy
+#~ msgid "Instrumental rock"
+#~ msgstr "Instrumentinė"
+
+#, fuzzy
+#~ msgid "Southern rock"
+#~ msgstr "Lengvas rokas"
+
+#, fuzzy
+#~ msgid "New wave"
+#~ msgstr "Naujasis amžius"
+
+#, fuzzy
+#~ msgid "Text subtitles parser"
+#~ msgstr "Vobsub subtitrų analizatorius"
+
+#, fuzzy
+#~ msgid "Frames per second"
+#~ msgstr "Kadrai per sekundę"
+
+#, fuzzy
+#~ msgid "Subtitles delay"
+#~ msgstr "Subtitrų vėlinimas"
+
+#, fuzzy
+#~ msgid "Subtitles format"
+#~ msgstr "Subtitrų takelis"
+
+#, fuzzy
+#~ msgid "Subtitles description"
+#~ msgstr "Srauto aprašas"
+
+#, fuzzy
+#~ msgid "Silent mode"
+#~ msgstr "Tyli veiksena"
+
+#, fuzzy
+#~ msgid "CAPMT System ID"
+#~ msgstr "Sistemos ID"
+
+#, fuzzy
+#~ msgid "Filename of dump"
+#~ msgstr "Rinkmenos pavadinimas"
+
+#, fuzzy
+#~ msgid "Append"
+#~ msgstr "Papildyti rinkmeną"
+
+#, fuzzy
+#~ msgid ""
+#~ "If the file exists and this option is selected, the existing file will "
+#~ "not be overwritten."
+#~ msgstr "Jei rinkmena jau yra, ji nebus perrašyta."
+
+#, fuzzy
+#~ msgid "Dump buffer size"
+#~ msgstr "Kadrų buferio rinkmena"
+
+#, fuzzy
+#~ msgid "Video aspect ratio"
+#~ msgstr "Išlaikyti santykį"
+
+#, fuzzy
+#~ msgid ""
+#~ "Aspect ratio of the video image (4:3, 16:9). Default is square pixels."
+#~ msgstr ""
+#~ "Pločio ir aukščio santykis (4:3, 16:9). Numatytuoju atveju pikselis yra "
+#~ "kvadratas."
+
+#, fuzzy
+#~ msgid "Image file"
+#~ msgstr "Paveikslo siena"
+
+#, fuzzy
+#~ msgid "Transparency of the image"
+#~ msgstr "Stulpelinės diagramos skaidrumas"
+
+#, fuzzy
+#~ msgid "Render text or image"
+#~ msgstr "Teleteksto puslapis"
+
+#, fuzzy
+#~ msgid "Commands"
+#~ msgstr "Komanda+"
+
+#, fuzzy
+#~ msgid "Maemo hildon interface"
+#~ msgstr "Pagrindinės sąsajos"
+
+#, fuzzy
+#~ msgid "Compiled by %@ with %@"
+#~ msgstr "Sukompiliavo %s su %s (%s)\n"
+
+#, fuzzy
+#~ msgid "Automatically save the volume on exit"
+#~ msgstr "Automatiškai priderinti paveikslėlio atspalvį."
+
+#, fuzzy
+#~ msgid "Capture Device"
+#~ msgstr "Įr&ašymo įrenginys"
+
+#, fuzzy
+#~ msgid "Frames per Second:"
+#~ msgstr "Kadrai per sekundę"
+
+#, fuzzy
+#~ msgid "Subscreen left:"
+#~ msgstr "Poekranio aukštis"
+
+#, fuzzy
+#~ msgid "Subscreen top:"
+#~ msgstr "Poekranio plotis"
+
+#, fuzzy
+#~ msgid "Subscreen width:"
+#~ msgstr "Poekranio plotis"
+
+#, fuzzy
+#~ msgid "Subscreen height:"
+#~ msgstr "Poekranio aukštis"
+
+#, fuzzy
+#~ msgid "Image width:"
+#~ msgstr "Paveikslėlio plotis"
+
+#, fuzzy
+#~ msgid "Image height:"
+#~ msgstr "Paveiklėlio aukštis"
+
+#, fuzzy
+#~ msgid "Load subtitles file:"
+#~ msgstr "Įkelti subtitrų rinkmeną"
+
+#, fuzzy
+#~ msgid "Subtitles encoding"
+#~ msgstr "Subtitrų kodavimas"
+
+#, fuzzy
+#~ msgid "Subtitles alignment"
+#~ msgstr "Vaizdo lygiuotė"
+
+#, fuzzy
+#~ msgid "SAP announce"
+#~ msgstr "SAP skelbimas"
+
+#, fuzzy
+#~ msgid "RTSP announce"
+#~ msgstr "SAP skelbimas"
+
+#, fuzzy
+#~ msgid "HTTP announce"
+#~ msgstr "SAP skelbimas"
+
+#, fuzzy
+#~ msgid "HTML Playlist"
+#~ msgstr "HTML grojaraštis"
+
+#, fuzzy
+#~ msgid "General Audio Settings"
+#~ msgstr "Garso bendrosios nuostatos"
+
+#, fuzzy
+#~ msgid "General Video Settings"
+#~ msgstr "Vaizdo bendrosios nuostatos"
+
+#, fuzzy
+#~ msgid "Subtitles & OSD"
+#~ msgstr "Subtitrai / ERP"
+
+#, fuzzy
+#~ msgid "Subtitles & On Screen Display Settings"
+#~ msgstr "Įgalinti Ekrane Rodomus Pranešimus (ERP)"
+
+#, fuzzy
+#~ msgid "Input & Codecs"
+#~ msgstr "Įvestis / kodavimas"
+
+#, fuzzy
+#~ msgid "Input & Codec settings"
+#~ msgstr "Įvesties ir kodavimo nuostatos"
+
+#, fuzzy
+#~ msgid "Enable Audio"
+#~ msgstr "Įgalinti garsą"
+
+#, fuzzy
+#~ msgid "HTTP Proxy"
+#~ msgstr "HTTP įgaliotasis serveris"
+
+#, fuzzy
+#~ msgid "Font Color"
+#~ msgstr "Šrifto spalva"
+
+#, fuzzy
+#~ msgid "Font Size"
+#~ msgstr "Šrifto dydis"
+
+#, fuzzy
+#~ msgid "Subtitle Languages"
+#~ msgstr "Subtitrų kalba"
+
+#, fuzzy
+#~ msgid "Preferred Subtitle Language"
+#~ msgstr "Pageidaujama garso kalba"
+
+#, fuzzy
+#~ msgid "Enable Video"
+#~ msgstr "Įgalinti vaizdą"
+
+#, fuzzy
+#~ msgid "Subtitle track syncronization:"
+#~ msgstr "Subtitrų takelių sinchronizavimas:"
+
+#, fuzzy
+#~ msgid "Subtitles speed:"
+#~ msgstr "Subtitrai"
+
+#, fuzzy
+#~ msgid "Subtitles duration factor:"
+#~ msgstr "Subtitrų takelis"
+
+#, fuzzy
+#~ msgid "SAP Announce"
+#~ msgstr "SAP skelbimas"
+
+#, fuzzy
+#~ msgid "  [Incoming]"
+#~ msgstr "+-[Gaunama]"
+
+#, fuzzy
+#~ msgid " Volume   : %u%%"
+#~ msgstr " Garsumas : nutildyta"
+
+#, fuzzy
+#~ msgid "Previous media in the playlist, skip backward when keep-pressed"
+#~ msgstr "Ankstesnis kūrinys grojaraštyje; jei užlaikoma – prasukama"
+
+#, fuzzy
+#~ msgid "Next media in the playlist, skip forward when keep-pressed"
+#~ msgstr "Tolesnis grojaraščio kūrinys; jei užlaikoma – prasukama"
+
+#, fuzzy
+#~ msgid "Show playlist"
+#~ msgstr "Rodyti arba slėpti grojaraštį"
+
+#, fuzzy
+#~ msgid "Open subtitles file"
+#~ msgstr "Atverti subtitrų rinkmeną"
+
+#, fuzzy
+#~ msgid " dB"
+#~ msgstr "dB"
+
+#, fuzzy
+#~ msgid "Enable spatializer"
+#~ msgstr "Erdvės efektas"
+
+#, fuzzy
+#~ msgid "Radio device name"
+#~ msgstr "Garso įrenginio pavadinimas"
+
+#, fuzzy
+#~ msgid "Add to playlist"
+#~ msgstr "Papildyti grojaraštį"
+
+#, fuzzy
+#~ msgid "Clear playlist"
+#~ msgstr "Išvalyti grojaraštį"
+
+#, fuzzy
+#~ msgid "Detailed View"
+#~ msgstr "Išsamus sąrašas"
+
+#, fuzzy
+#~ msgid "List View"
+#~ msgstr "Kūrinio rodymas"
+
+#, fuzzy
+#~ msgid "Select an action to change the associated hotkey"
+#~ msgstr "Pasirinkite veiksmą, kurio spartųjį klavišą keisite:"
+
+#, fuzzy
+#~ msgid "Hotkey for "
+#~ msgstr "Spartieji klavišai"
+
+#, fuzzy
+#~ msgid "Press the new keys for "
+#~ msgstr ""
+#~ "Nauja klavišų kombinacija\n"
+#~ "„%@“"
+
+#, fuzzy
+#~ msgid "Subtitles && OSD"
+#~ msgstr "Subtitrai / ERP"
+
+#, fuzzy
+#~ msgid "Input && Codecs"
+#~ msgstr "Įvestis / kodavimas"
+
+#, fuzzy
+#~ msgid "Allow downloading media information"
+#~ msgstr "Dukart spragtelėkite norėdami gauti kūrinio informaciją"
+
+#, fuzzy
+#~ msgid "Allow checking for VLC updates"
+#~ msgstr "Tikrinti, ar yra VLC atnaujinimų"
+
+#, fuzzy
+#~ msgid "Save and Continue"
+#~ msgstr "Tęsti"
+
+#, fuzzy
+#~ msgid "Compiler: "
+#~ msgstr "Kompiliatorius: %s\n"
+
+#, fuzzy
+#~ msgid "Copyright (C) "
+#~ msgstr "Autorinės teisės"
+
+#, fuzzy
+#~ msgid "&Codec"
+#~ msgstr "Kodavimas"
+
+#, fuzzy
+#~ msgid "&Convert"
+#~ msgstr "Konvertuoti"
+
+#, fuzzy
+#~ msgid "&Convert / Save"
+#~ msgstr "Ko&nvertuoti / įrašyti... "
+
+#, fuzzy
+#~ msgid "Subtitles Files"
+#~ msgstr "Subtitrų rinkmenos"
+
+#, fuzzy
+#~ msgid "&Tools"
+#~ msgstr "Įra&nkiai"
+
+#, fuzzy
+#~ msgid "&Open (advanced)..."
+#~ msgstr "At&verti rinkmeną..."
+
+#, fuzzy
+#~ msgid "Audio &Channels"
+#~ msgstr "Garso kanalai"
+
+#, fuzzy
+#~ msgid "&Subtitles Track"
+#~ msgstr "Subtitrų takelis"
+
+#, fuzzy
+#~ msgid "&Navigation"
+#~ msgstr "Navigacija"
+
+#, fuzzy
+#~ msgid "Tools"
+#~ msgstr "Įra&nkiai"
+
+#, fuzzy
+#~ msgid "Hide VLC media player in taskbar"
+#~ msgstr "Atnaujinti VLC leistuvę"
+
+#, fuzzy
+#~ msgid "Show VLC media player"
+#~ msgstr "VLC leistuvė"
+
+#, fuzzy
+#~ msgid "Advanced options"
+#~ msgstr "Sudėtingesnės nuostatos"
+
+#, fuzzy
+#~ msgid "Show all the advanced options in the dialogs."
+#~ msgstr "Rodyti sudėtingesnes nuostatas"
+
+#, fuzzy
+#~ msgid "French TV"
+#~ msgstr "Prancūzų"
+
+#, fuzzy
+#~ msgid "Filename of the SQLite database"
+#~ msgstr "Naudotino šrifto rinkmenos pavadinimas"
+
+#, fuzzy
+#~ msgid "Path to the file containing the SQLite database"
+#~ msgstr "Kelias iki kūrinio Zip archyve"
+
+#, fuzzy
+#~ msgid "Ignored extensions in the media library"
+#~ msgstr "Nepaisomi prievardžiai"
+
+#, fuzzy
+#~ msgid "Subdirectory recursive scanning"
+#~ msgstr "Paaplankių elgsena"
+
+#, fuzzy
+#~ msgid "Username for the database"
+#~ msgstr "Pageidaujamas įrašymo įrenginio kadrų dažnis."
+
+#, fuzzy
+#~ msgid "Password for the database"
+#~ msgstr "Paskirties įrenginio slaptažodis."
+
+#, fuzzy
+#~ msgid "Automatically add new medias to ML"
+#~ msgstr "Automatiškai parsisiųsti informaciją apie kūrinius"
+
+#, fuzzy
+#~ msgid "X Screensaver disabler"
+#~ msgstr "XDG ekrano užsklandos sustabdymas"
+
+#, fuzzy
+#~ msgid "SQLite database module"
+#~ msgstr "Srauto filtro modulis"
+
+#, fuzzy
+#~ msgid "Title format string"
+#~ msgstr "Pavadinimo šriftas"
+
+#, fuzzy
+#~ msgid "MSN Now-Playing"
+#~ msgstr "Dabar grojama"
+
+#, fuzzy
+#~ msgid "Flip vertical position"
+#~ msgstr "Apversti vertikaliai"
+
+#, fuzzy
+#~ msgid "Display XOSD output at the bottom of the screen instead of the top."
+#~ msgstr "Rodyti virš vaizdo įrašo rodyti jo pavadinimą."
+
+#, fuzzy
+#~ msgid "Vertical offset"
+#~ msgstr "Apversti vertikaliai"
+
+#, fuzzy
+#~ msgid "Shadow offset"
+#~ msgstr "Šešėlio dengiamumas"
+
+#, fuzzy
+#~ msgid "XOSD interface"
+#~ msgstr "Qt sąsaja"
+
+#, fuzzy
+#~ msgid "Blu-Ray"
+#~ msgstr "Blu-ray meniu"
+
+#, fuzzy
+#~ msgid "Decompression"
+#~ msgstr "Kompresorius"
+
+#, fuzzy
+#~ msgid "Command UDP port"
+#~ msgstr "TCP komandinė įvestis"
+
+#, fuzzy
+#~ msgid "Sizes"
+#~ msgstr "Dydis"
+
+#, fuzzy
+#~ msgid "Aspect ratio (4:3, 16:9)."
+#~ msgstr "Santykis: %s"
+
+#, fuzzy
+#~ msgid "Command"
+#~ msgstr "Komanda+"
+
+#, fuzzy
+#~ msgid "GOP size"
+#~ msgstr "Didžiausias GOP dydis"
+
+#, fuzzy
+#~ msgid "Number of P frames between two I frames."
+#~ msgstr "Dienų skaičius tarp dviejų atnaujinimo patikrinimų"
+
+#, fuzzy
+#~ msgid "Mute audio"
+#~ msgstr "Nutildyti."
+
+#, fuzzy
+#~ msgid "MPEG2 video switcher stream output"
+#~ msgstr "Įgalinti vaizdo srauto išvestį"
+
+#, fuzzy
+#~ msgid "Audio Language"
+#~ msgstr "Garso kalba"
+
+#, fuzzy
+#~ msgid "Subtitles encoder"
+#~ msgstr "DVB subtitrų įkodavimas"
+
+#, fuzzy
+#~ msgid ""
+#~ "This is the subtitles encoder module that will be used (and its "
+#~ "associated options)."
+#~ msgstr ""
+#~ "Tai naudotinas vaizdo įkodavimo modulis (ir su juo susijusios parinktys)."
+
+#, fuzzy
+#~ msgid "Destination subtitles codec"
+#~ msgstr "Paskirties vaizdo kodavimas"
+
+#, fuzzy
+#~ msgid "This is the subtitles codec that will be used."
+#~ msgstr "Naudotinas vaizdo kodavimas."
+
+#, fuzzy
+#~ msgid "Filter Smoothness (in %)"
+#~ msgstr "Filtro glotnumas (%)"
+
+#, fuzzy
+#~ msgid "Automatic cropping"
+#~ msgstr "Automatinis skaistis"
+
+#, fuzzy
+#~ msgid "Automatically detect black borders and crop them."
+#~ msgstr "Automatiškai tikrinti, ar yra atnaujinimų"
+
+#, fuzzy
+#~ msgid "Manual ratio"
+#~ msgstr "Sodrumas"
+
+#, fuzzy
+#~ msgid "Number of images for change"
+#~ msgstr "Garso kanalų skaičius "
+
+#, fuzzy
+#~ msgid "Number of lines for change"
+#~ msgstr "Garso kanalų skaičius "
+
+#, fuzzy
+#~ msgid "Number of non black pixels "
+#~ msgstr "Tuščių taškelių kiekis tarp dviejų dažnių stiprumų."
+
+#, fuzzy
+#~ msgid "Luminance threshold "
+#~ msgstr "Filtro slenkstis"
+
+#, fuzzy
+#~ msgid "Crop video filter"
+#~ msgstr "Vaizdo klonavimo filtras"
+
+#, fuzzy
+#~ msgid "Cropping failed"
+#~ msgstr "Ryšio klaida"
+
+#, fuzzy
+#~ msgid "VLC could not open the video output module."
+#~ msgstr "VLC negali atverti iškodavimo modulio."
+
+#, fuzzy
+#~ msgid "Deinterlace method to use for local playback."
+#~ msgstr "Vaizdo apdorojimui naudotinas perėjimo šalinimo būdas."
+
+#, fuzzy
+#~ msgid "Configuration file"
+#~ msgstr "VLM konfigūracijos rinkmena"
+
+#, fuzzy
+#~ msgid "Menu position"
+#~ msgstr "Teksto padėtis"
+
+#, fuzzy
+#~ msgid "Enable desktop mode "
+#~ msgstr "Įgalinti darbastalio fono veikseną"
+
+#, fuzzy
+#~ msgid "Windows GAPI video output"
+#~ msgstr "Windows GDI vaizdo išvestis"
+
+#, fuzzy
+#~ msgid "Stream Name"
+#~ msgstr "Srauto pavadinimas"
+
+#, fuzzy
+#~ msgid "Video Codec"
+#~ msgstr "Vaizdo kodavimas"
+
+#, fuzzy
+#~ msgid "Audio Codec"
+#~ msgstr "Garso kodavimas"
+
+#, fuzzy
+#~ msgid "Subtitle Codec"
+#~ msgstr "Subtitrų kodavimas"
+
+#, fuzzy
+#~ msgid "Output Method"
+#~ msgstr "išvesties priėjimo būdas"
+
+#, fuzzy
+#~ msgid "Video Bit Rate"
+#~ msgstr "Vaizdo bitų dažnis"
+
+#, fuzzy
+#~ msgid "Audio Bit Rate"
+#~ msgstr "Garso bitų dažnis"
+
+#, fuzzy
+#~ msgid "Audio Sample Rate"
+#~ msgstr "Garso elementų dažnis"
+
+#, fuzzy
+#~ msgid "Output Port"
+#~ msgstr "Išvesties formatas"
+
+#, fuzzy
+#~ msgid "Output Destination"
+#~ msgstr "Išvesties paskirtis"
+
+#, fuzzy
+#~ msgid "Output File"
+#~ msgstr "Išvesties rinkmena"
+
+#, fuzzy
+#~ msgid "Input Media"
+#~ msgstr "Įvesties srautas"
+
+#, fuzzy
+#~ msgid "File Name"
+#~ msgstr "Rinkmenos pavadinimas"
+
+#, fuzzy
+#~ msgid "Rows:"
+#~ msgstr "Eilutės"
+
+#, fuzzy
+#~ msgid "x offset"
+#~ msgstr "X poslinkis"
+
+#, fuzzy
+#~ msgid "width"
+#~ msgstr "Plotis"
+
+#, fuzzy
+#~ msgid "Columns:"
+#~ msgstr "Stulpeliai"
+
+#, fuzzy
+#~ msgid "y offset"
+#~ msgstr "X poslinkis"
+
+#, fuzzy
+#~ msgid "height"
+#~ msgstr "Aukštis"
+
+#, fuzzy
+#~ msgid "Licence"
+#~ msgstr "Licencija"
+
+#, fuzzy
+#~ msgid "Verbosity:"
+#~ msgstr "Detalumo lygis"
+
+#, fuzzy
+#~ msgid "Add a subtitles file"
+#~ msgstr "Įkelti subtitrų rinkmeną"
+
+#, fuzzy
+#~ msgid "Use a sub&titles file"
+#~ msgstr "Naudoti subtitrų rinkmeną"
+
+#, fuzzy
+#~ msgid "Select the subtitles file"
+#~ msgstr "Pasirinkite subtitrų rinkmeną"
+
+#, fuzzy
+#~ msgid "Destinations"
+#~ msgstr "Paskirtis"
+
+#, fuzzy
+#~ msgid "Group name"
+#~ msgstr "Grupuoti paketus"
+
+#, fuzzy
+#~ msgid "Instances"
+#~ msgstr "Įdiegti"
+
+#, fuzzy
+#~ msgid "Enqueue files when in one instance mode"
+#~ msgstr ""
+#~ "Kai leidžiama viena programa, naujus įrašus dėti į eilę grojaraštyje"
+
+#, fuzzy
+#~ msgid "Menus language:"
+#~ msgstr "Garso kalba"
+
+#, fuzzy
+#~ msgid "Systray popup when minimized"
+#~ msgstr "Jei suskleista, pristabdyti grojimą"
+
+#, fuzzy
+#~ msgid "Subtitles Language"
+#~ msgstr "Subtitrų kalba"
+
+#, fuzzy
+#~ msgid "Preferred subtitles language"
+#~ msgstr "Pageidaujama garso kalba"
+
+#, fuzzy
+#~ msgid "Subtitles effects"
+#~ msgstr "Subtitrų kodavimas"
+
+#, fuzzy
+#~ msgid "Black slot"
+#~ msgstr "Juoda detalė"
+
+#, fuzzy
+#~ msgid "DVB"
+#~ msgstr "DV"
+
+#, fuzzy
+#~ msgid "Relaunch required"
+#~ msgstr "Reikia SDP"
+
+#, fuzzy
+#~ msgid "Advance of subtitles over video:"
+#~ msgstr "Subtitrus rodyti ant rodomo vaizdo"
+
+#, fuzzy
+#~ msgid "Speed of the subtitles:"
+#~ msgstr "Teleteksto subtitrai"
+
+#, fuzzy
+#~ msgid "Session groupname"
+#~ msgstr "Sesijos pavadinimas"
+
+#, fuzzy
+#~ msgid "Default Volume"
+#~ msgstr "Visas garsas"
+
+#, fuzzy
+#~ msgid "Open a Media"
+#~ msgstr "Atverti kūrinį"
+
+#, fuzzy
+#~ msgid "&Open a Media"
+#~ msgstr "Atverti kūrinį"
+
+#, fuzzy
+#~ msgid "Display on &Desktop"
+#~ msgstr "Ekrano skiriamoji geba"
+
+#, fuzzy
+#~ msgid "Enable wallpaper mode"
+#~ msgstr "Įgalinti darbastalio fono veikseną"
+
+#, fuzzy
+#~ msgid "Clear Menu"
+#~ msgstr "Kūrinio meniu"
+
+#, fuzzy
+#~ msgid "RTSP host address"
+#~ msgstr "RTSP serverio adresas"
+
+#, fuzzy
+#~ msgid "Library"
+#~ msgstr "Fonoteka"
+
+#, fuzzy
+#~ msgid "Media Browser"
+#~ msgstr "Prasukti kūrinį į priekį"
+
+#, fuzzy
+#~ msgid "Close"
+#~ msgstr "&Užverti"
+
+#, fuzzy
+#~ msgid "Left rear"
+#~ msgstr "Kairėje"
+
+#, fuzzy
+#~ msgid "Right rear"
+#~ msgstr "Dešinėje"
+
+#, fuzzy
+#~ msgid "Low Pass Ffilter"
+#~ msgstr "Slaptažodžio rinkmena"
+
+#, fuzzy
+#~ msgid "Duration in second"
+#~ msgstr "Trukmė, sekundėmis"
+
+#, fuzzy
+#~ msgid "yes: from %@ to %@ secs"
+#~ msgstr "taip: %@ @ %@ kb/s"
+
+#, fuzzy
+#~ msgid "Previous/Backward"
+#~ msgstr "Atgal / prasukti"
+
+#, fuzzy
+#~ msgid "Next/Forward"
+#~ msgstr "Toliau / prasukti"
+
+#, fuzzy
+#~ msgid "Loop/Repeat mode"
+#~ msgstr "Kartojimo veiksena"
+
+#, fuzzy
+#~ msgid ""
+#~ "This allows you to specify a group for the session, that will be "
+#~ "announced if you choose to use SAP."
+#~ msgstr ""
+#~ "Galite nurodyti kontaktinį elektroninio pašto adresą susisiekimui dėl "
+#~ "srauto, kuris skelbsimas SDP (sesijos apraše)."
+
+#, fuzzy
+#~ msgid "1/2"
+#~ msgstr "F12"
+
+#, fuzzy
+#~ msgid "2"
+#~ msgstr "F2"
+
+#, fuzzy
+#~ msgid "4"
+#~ msgstr "F4"
+
+#, fuzzy
+#~ msgid "Rewind"
+#~ msgstr "Prasukti kūrinį atgal"
+
+#, fuzzy
+#~ msgid "     a           Volume Up"
+#~ msgstr "m Nutildyti"
+
 #, fuzzy
 #~ msgid "Video Filters..."
 #~ msgstr "Vaizdo rinkmenos"
@@ -30657,7 +31052,7 @@ msgstr "Multimedijos tvarkytuvės sąrašas"
 
 #, fuzzy
 #~ msgid "Front speakers"
-#~ msgstr "3 prieky, 2 gale"
+#~ msgstr "Šriftų savybės"
 
 #, fuzzy
 #~ msgid "Rear speakers"
@@ -30665,7 +31060,7 @@ msgstr "Multimedijos tvarkytuvės sąrašas"
 
 #, fuzzy
 #~ msgid "ALSA device"
-#~ msgstr "Garso įrenginys"
+#~ msgstr "DVD įrenginys"
 
 #, fuzzy
 #~ msgid "Elasped time"
@@ -30697,7 +31092,7 @@ msgstr "Multimedijos tvarkytuvės sąrašas"
 
 #, fuzzy
 #~ msgid "Seek Time"
-#~ msgstr "Pradžios laikas"
+#~ msgstr "Kūrinio laikas"
 
 #, fuzzy
 #~ msgid "Graphical Equalizer"
@@ -30721,7 +31116,7 @@ msgstr "Multimedijos tvarkytuvės sąrašas"
 
 #, fuzzy
 #~ msgid "Capture Screen"
-#~ msgstr "Įrenginys įrašymui"
+#~ msgstr "Įrašymas"
 
 #, fuzzy
 #~ msgid "Error!"
@@ -30759,672 +31154,831 @@ msgstr "Multimedijos tvarkytuvės sąrašas"
 #~ msgid "Enqueue"
 #~ msgstr "Į &Eilę"
 
+#, fuzzy
 #~ msgid "Quiet mode."
-#~ msgstr "Tyli veiksena."
+#~ msgstr "Tyli veiksena"
 
+#, fuzzy
 #~ msgid "Preload Directory"
-#~ msgstr "Iš anksto įkeliamas aplankas"
+#~ msgstr "Sukurti aplanką"
 
 #, fuzzy
 #~ msgid "Motion blue"
 #~ msgstr "Judesio suliejimas"
 
+#, fuzzy
 #~ msgid "Effect"
 #~ msgstr "Efektai"
 
+#, fuzzy
 #~ msgid "Zoom playlist"
-#~ msgstr "Keisti grojaraščio mastelį"
+#~ msgstr "grojaraštis"
 
+#, fuzzy
 #~ msgid "key"
-#~ msgstr "klavišas"
+#~ msgstr "Spartieji klavišai"
 
+#, fuzzy
 #~ msgid "Telnet Interface"
-#~ msgstr "Telnet Sąsaja"
+#~ msgstr "Sąsaja"
 
+#, fuzzy
 #~ msgid "Web Interface"
-#~ msgstr "Žiniatinklio sąsaja"
+#~ msgstr "Sąsaja"
 
+#, fuzzy
 #~ msgid "Audio output saved volume"
-#~ msgstr "Garso išvesties įsimena garsumą"
+#~ msgstr "Garso išvesties garsumo žingsnis"
 
+#, fuzzy
 #~ msgid ""
 #~ "X11 hardware display to use. By default VLC will use the value of the "
 #~ "DISPLAY environment variable."
 #~ msgstr ""
-#~ "Naudotinas X11 įrangos ekranas. Numatytuoju atveju VLC naudos "
-#~ "aplinkoskintamojo DISPLAY vertę."
+#~ "Naudotinas XVideo aparatinis ekranas. Numatytuoju atveju VLC naudos "
+#~ "aplinkos kintamojo DISPLAY reikšmę."
 
+#, fuzzy
 #~ msgid ""
 #~ "Hide mouse cursor and fullscreen controller after n milliseconds, default "
 #~ "is 3000 ms (3 sec.)"
-#~ msgstr ""
-#~ "Slėpti pelės žymeklį ir viso ekrano valdykę po n sekundžių, numatytoji "
-#~ "reikšmė 3000 ms (3 s)"
+#~ msgstr "Slėpti pelės žymeklį ir viso ekrano valdykę po n milisekundžių"
 
+#, fuzzy
 #~ msgid "Video output filter module"
-#~ msgstr "Vaizdo išvesties filtro moduliai"
+#~ msgstr "Vaizdo išvesties modulis"
 
+#, fuzzy
 #~ msgid "UDP port"
-#~ msgstr "UDP prievadas"
+#~ msgstr "SFTP prievadas"
 
+#, fuzzy
 #~ msgid "This is the default port used for UDP streams. Default is 1234."
-#~ msgstr "Pagrindinis UDP srauto naudojamas prievadas. Numatytasis 1234."
+#~ msgstr "Tai numatytasis naudojimui garso CD įrenginys."
 
+#, fuzzy
 #~ msgid "IPv4 multicast output interface address"
-#~ msgstr "IPv4 daugiaabonentinio transliavimo sąsajos adresas"
+#~ msgstr "Daugiaabonentinio transliavimo išvesties sąsaja"
 
+#, fuzzy
 #~ msgid ""
 #~ "IPv4 address for the default multicast interface. This overrides the "
 #~ "routing table."
 #~ msgstr ""
-#~ "IPv4 adresas numatytajai daugiaabonentinio transliavimo sąsajai. "
-#~ "Nepaisoma maršrutų lentelės."
+#~ "Numatytoji daugiaabonentinio transliavimo sąsaja. Ji nepaiso maršrutų "
+#~ "lentelės."
 
-#~ msgid "Force IPv6"
-#~ msgstr "Priverstinai naudoti IPv6"
-
+#, fuzzy
 #~ msgid "IPv6 will be used by default for all connections."
-#~ msgstr "IPv6 bus naudojamas visiems ryšiams numatytuoju atveju."
+#~ msgstr "Prisijungimui naudojamas slaptažodis."
 
-#~ msgid "Force IPv4"
-#~ msgstr "Priverstinai naudoti IPv4"
-
+#, fuzzy
 #~ msgid "IPv4 will be used by default for all connections."
-#~ msgstr "IPv4 bus naudojamas visiems ryšiams numatytuoju atveju."
+#~ msgstr "Prisijungimui naudojamas slaptažodis."
 
+#, fuzzy
 #~ msgid "Enable CPU MMX support"
-#~ msgstr "Įgalinti procesoriaus „MMX“ palaikymą"
+#~ msgstr "Įgalinti SPU srauto išvestį"
 
+#, fuzzy
 #~ msgid "Enable CPU 3D Now! support"
-#~ msgstr "Įgalinti procesoriaus „3D Now!“ palaikymą"
+#~ msgstr "Įgalinti SPU srauto išvestį"
 
+#, fuzzy
 #~ msgid "Enable CPU SSE support"
-#~ msgstr "Įgalinti procesoriaus „SSE“ palaikymą"
+#~ msgstr "Įgalinti SPU srauto išvestį"
 
+#, fuzzy
 #~ msgid "Enable CPU AltiVec support"
-#~ msgstr "Įgalinti procesoriaus „AltiVec“ palaikymą"
+#~ msgstr "Įgalinti SPU srauto išvestį"
 
+#, fuzzy
 #~ msgid ""
 #~ "Select the key to go back (to the previous media item) in the browsing "
 #~ "history."
 #~ msgstr ""
-#~ "Pasirinkite klavišą ėjimui atgal (į ankstesnį įrašą) naršymo istorijoje."
+#~ "Pasirinkite spartųjį klavišą perėjimui prie ankstesnio kūrinio "
+#~ "grojaraštyje."
 
+#, fuzzy
 #~ msgid ""
 #~ "Select the key to go forward (to the next media item) in the browsing "
 #~ "history."
 #~ msgstr ""
-#~ "Pasirinkite klavišą ėjimui pirmyn (į sekantį įrašą) naršymo istorijoje."
+#~ "Pasirinkite spartųjį klavišą perėjimui prie sekančio kūrinio grojaraštyje."
 
+#, fuzzy
 #~ msgid "Media dump access filter trigger."
-#~ msgstr "Garso ir vaizdo atimties išklotinės priėjimo filtro paleidiklis."
+#~ msgstr "Įrašymo filtro paleidimas/sustabdymas."
 
+#, fuzzy
 #~ msgid "Caching value in ms"
-#~ msgstr "Podėlio vertė, ms"
+#~ msgstr "Podėlio vertė (ms)"
 
+#, fuzzy
 #~ msgid ""
 #~ "Caching value for Alsa captures. This value should be set in milliseconds."
 #~ msgstr ""
-#~ "Podėlio vertė Alsa įrašymo įrenginiams. Ši vertė turi būti nurodyta "
+#~ "RTP srautų podėlio numatytoji vertė. Ši vertė turi būti nurodyta "
 #~ "milisekundėmis."
 
+#, fuzzy
 #~ msgid ""
 #~ "Caching value for DVB streams. This value should be set in milliseconds."
 #~ msgstr ""
-#~ "Podėlio vertė DVB srautams. Ši vertė turi būti nurodyta milisekundėmis."
+#~ "RTP srautų podėlio numatytoji vertė. Ši vertė turi būti nurodyta "
+#~ "milisekundėmis."
 
+#, fuzzy
 #~ msgid "LNB voltage"
-#~ msgstr "LNB įtampa"
+#~ msgstr "Aukšta LNB įtampa"
 
+#, fuzzy
 #~ msgid "DirectShow DVB input"
-#~ msgstr "DirectShow DVB įvestis"
+#~ msgstr "DirectShow įvestis"
 
+#, fuzzy
 #~ msgid ""
 #~ "Default caching value for Audio CDs. This value should be set in "
 #~ "milliseconds."
 #~ msgstr ""
-#~ "Garso CD podėlio numatytoji vertė. Ši vertė turi būti nurodyta "
+#~ "RTP srautų podėlio numatytoji vertė. Ši vertė turi būti nurodyta "
 #~ "milisekundėmis."
 
+#, fuzzy
 #~ msgid ""
 #~ "Caching value for DirectShow streams. This value should be set in "
 #~ "milliseconds."
 #~ msgstr ""
-#~ "DirectShow srautų podėlio vertė. Vertė turi būti nurodytamilisekundėmis."
+#~ "RTP srautų podėlio numatytoji vertė. Ši vertė turi būti nurodyta "
+#~ "milisekundėmis."
 
+#, fuzzy
 #~ msgid ""
 #~ "Caching value for DV streams. This value should be set in milliseconds."
 #~ msgstr ""
-#~ "DV srautų podėlio vertė. Ši vertė turi būti nurodyta milisekundėmis."
+#~ "RTP srautų podėlio numatytoji vertė. Ši vertė turi būti nurodyta "
+#~ "milisekundėmis."
 
+#, fuzzy
 #~ msgid "HTTP password"
-#~ msgstr "HTTP slaptažodis"
+#~ msgstr "FTP slaptažodis"
 
+#, fuzzy
 #~ msgid "Certificate file"
-#~ msgstr "Liudijimo rinkmena"
+#~ msgstr "Apversti vertikaliai"
 
+#, fuzzy
 #~ msgid "Private key file"
-#~ msgstr "Privačiojo rakto rinkmena"
+#~ msgstr "Sukurti naują profilį"
 
+#, fuzzy
 #~ msgid "Root CA file"
-#~ msgstr "Vyriausiosios LĮ rinkmena"
+#~ msgstr "Rinkmenos pasirinkimas"
 
+#, fuzzy
 #~ msgid "CRL file"
-#~ msgstr "ALS rinkmena"
+#~ msgstr "Pranešimai į rinkmeną"
 
+#, fuzzy
 #~ msgid "Input syntax is deprecated"
-#~ msgstr "Įvesties sintaksė yra prieštaringa"
+#~ msgstr "Įvestis pakeista"
 
+#, fuzzy
 #~ msgid "Invalid polarization"
-#~ msgstr "Netinkama poliarizacija"
+#~ msgstr "Negalima kombinacija"
 
+#, fuzzy
 #~ msgid "Caching value for DVDs. This value should be set in milliseconds."
-#~ msgstr "DVD podėlio vertė. Ši vertė turi būti nurodyta milisekundėmis."
+#~ msgstr ""
+#~ "RTP srautų podėlio numatytoji vertė. Ši vertė turi būti nurodyta "
+#~ "milisekundėmis."
 
+#, fuzzy
 #~ msgid ""
 #~ "Caching value for EyeTV captures. This value should be set in "
 #~ "milliseconds."
 #~ msgstr ""
-#~ "EyeTV nuskaitymo podėlio vertė. Ši vertė turi būti nurodyta "
+#~ "RTP srautų podėlio numatytoji vertė. Ši vertė turi būti nurodyta "
 #~ "milisekundėmis."
 
+#, fuzzy
 #~ msgid ""
 #~ "Caching value for fake streams. This value should be set in milliseconds."
 #~ msgstr ""
-#~ "Suklastotų srautų podėlio vertė. Ši vertė turi būti nurodyta "
+#~ "RTP srautų podėlio numatytoji vertė. Ši vertė turi būti nurodyta "
 #~ "milisekundėmis."
 
+#, fuzzy
 #~ msgid "Supplementary caching value for remote files, in milliseconds."
-#~ msgstr "Papildomo podėlio dydis nuotolinėms byloms, milisekundėmis."
+#~ msgstr "Podėlio vertė vietinėms rinkmenoms, milisekundėmis."
 
+#, fuzzy
 #~ msgid "Directory input"
-#~ msgstr "Aplanko įvestis"
+#~ msgstr "DirectShow įvestis"
 
+#, fuzzy
 #~ msgid ""
 #~ "Caching value for FTP streams. This value should be set in milliseconds."
 #~ msgstr ""
-#~ "FTP srautų podėlio vertė. Ši vertė turi būti nurodyta milisekundėmis."
+#~ "RTP srautų podėlio numatytoji vertė. Ši vertė turi būti nurodyta "
+#~ "milisekundėmis."
 
+#, fuzzy
 #~ msgid ""
 #~ "Caching value for GnomeVFS streams.This value should be set in "
 #~ "milliseconds."
 #~ msgstr ""
-#~ "GnomeVFS srautų podėlio vertė. Ši vertė turi būti nurodyta milisekundėmis."
+#~ "RTP srautų podėlio numatytoji vertė. Ši vertė turi būti nurodyta "
+#~ "milisekundėmis."
 
+#, fuzzy
 #~ msgid ""
 #~ "Caching value for HTTP streams. This value should be set in milliseconds."
 #~ msgstr ""
-#~ "HTTP srautų podėlio vertė. Ši vertė turi būti nurodyta milisekundėmis."
+#~ "RTP srautų podėlio numatytoji vertė. Ši vertė turi būti nurodyta "
+#~ "milisekundėmis."
 
+#, fuzzy
 #~ msgid "Max number of redirection"
-#~ msgstr "Didžiausias ryšių peradresavimų skaičius"
+#~ msgstr "Didžiausias ryšių skaičius"
 
+#, fuzzy
 #~ msgid ""
 #~ "Caching value for imem streams. This value should be set in milliseconds."
 #~ msgstr ""
-#~ "Imem srautų podėlio vertė. Ši vertė turi būti nurodyta milisekundėmis."
+#~ "RTP srautų podėlio numatytoji vertė. Ši vertė turi būti nurodyta "
+#~ "milisekundėmis."
 
+#, fuzzy
 #~ msgid ""
 #~ "Caching value for MMS streams. This value should be set in milliseconds."
 #~ msgstr ""
-#~ "MMS srautų podėlio vertė. Ši vertė turi būti nurodyta milisekundėmis."
+#~ "RTP srautų podėlio numatytoji vertė. Ši vertė turi būti nurodyta "
+#~ "milisekundėmis."
 
+#, fuzzy
 #~ msgid "Caching value for files. This value should be set in milliseconds."
 #~ msgstr ""
-#~ "Podėlio vertė rinkmenoms. Ši vertė turi būti nurodyta milisekundėmis."
+#~ "RTP srautų podėlio numatytoji vertė. Ši vertė turi būti nurodyta "
+#~ "milisekundėmis."
 
+#, fuzzy
 #~ msgid ""
 #~ "Caching value for OSS captures. This value should be set in milliseconds."
 #~ msgstr ""
-#~ "OSS įrašymo įrenginių podėlio vertė. Ši vertė turi būti nurodoma "
+#~ "RTP srautų podėlio numatytoji vertė. Ši vertė turi būti nurodyta "
 #~ "milisekundėmis."
 
+#, fuzzy
 #~ msgid ""
 #~ "Default caching value for PVR streams. This value should be set in "
 #~ "milliseconds."
 #~ msgstr ""
-#~ "PVR srautų podėlio numatytoji vertė. Ši vertė turi būti nurodyta "
+#~ "RTP srautų podėlio numatytoji vertė. Ši vertė turi būti nurodyta "
 #~ "milisekundėmis."
 
+#, fuzzy
 #~ msgid ""
 #~ "Caching value for RTMP streams. This value should be set in milliseconds."
 #~ msgstr ""
-#~ "RTMP srautų podėlio vertė. Ši vertė turi būti nurodyta milisekundėmis."
+#~ "RTP srautų podėlio numatytoji vertė. Ši vertė turi būti nurodyta "
+#~ "milisekundėmis."
 
+#, fuzzy
 #~ msgid "How long to wait for late RTP packets (and delay the performance)."
-#~ msgstr "Kaip ilgai laukti vėluojančio RTP paketo (ir užlaikyti vykdymą)."
+#~ msgstr "Kiek laiko laukti bet kokio paketo prieš atsijungiant nuo šaltinio."
 
+#, fuzzy
 #~ msgid ""
 #~ "Caching value for RTSP streams. This value should be set in milliseconds."
 #~ msgstr ""
-#~ "RTSP srautų podėlio vertė. Ši vertė turi būti nurodyta milisekundėmis."
+#~ "RTP srautų podėlio numatytoji vertė. Ši vertė turi būti nurodyta "
+#~ "milisekundėmis."
 
+#, fuzzy
 #~ msgid ""
 #~ "Caching value for screen capture. This value should be set in "
 #~ "milliseconds."
 #~ msgstr ""
-#~ "Ekrano vaizdo nuskaitymo podėlio vertė. Ši vertė turi būti nurodyta "
-#~ "mmilisekundėmis."
+#~ "RTP srautų podėlio numatytoji vertė. Ši vertė turi būti nurodyta "
+#~ "milisekundėmis."
 
+#, fuzzy
 #~ msgid ""
 #~ "Caching value for SFTP streams. This value should be set in milliseconds."
 #~ msgstr ""
-#~ "SFTP srautų podėlio vertė. Ši vertė turi būti nurodyta milisekundėmis."
+#~ "RTP srautų podėlio numatytoji vertė. Ši vertė turi būti nurodyta "
+#~ "milisekundėmis."
 
+#, fuzzy
 #~ msgid ""
 #~ "Caching value for SMB streams. This value should be set in milliseconds."
 #~ msgstr ""
-#~ "SMB srautų podėlio vertė. Ši vertė turi būti nurodyta milisekundėmis."
+#~ "RTP srautų podėlio numatytoji vertė. Ši vertė turi būti nurodyta "
+#~ "milisekundėmis."
 
+#, fuzzy
 #~ msgid ""
 #~ "Caching value for TCP streams. This value should be set in milliseconds."
 #~ msgstr ""
-#~ "TCP srautų podėlio vertė. Ši vertė turi būti nurodyta milisekundėmis."
+#~ "RTP srautų podėlio numatytoji vertė. Ši vertė turi būti nurodyta "
+#~ "milisekundėmis."
 
+#, fuzzy
 #~ msgid ""
 #~ "Caching value for UDP streams. This value should be set in milliseconds."
 #~ msgstr ""
-#~ "UDP srautų podėlio vertė. Ši vertė turi būti nurodyta milisekundėmis."
+#~ "RTP srautų podėlio numatytoji vertė. Ši vertė turi būti nurodyta "
+#~ "milisekundėmis."
 
+#, fuzzy
 #~ msgid ""
 #~ "Caching value for V4L captures. This value should be set in milliseconds."
 #~ msgstr ""
-#~ "V4L nuskaitymo podėlio vertė. Ši vertė turi būti nurodyta milisekuundėmis."
+#~ "RTP srautų podėlio numatytoji vertė. Ši vertė turi būti nurodyta "
+#~ "milisekundėmis."
 
+#, fuzzy
 #~ msgid ""
 #~ "Name of the video device to use. If you don't specify anything, no video "
 #~ "device will be used."
 #~ msgstr ""
-#~ "Naudotino vaizdo įrenginio pavadinimo. Jei nieko nenurodoma, joks vaizdo "
-#~ "įrenginys nebus naudojamas."
+#~ "DirectShow papildinio naudotino vaizdo įrenginio pavadinimas. Jei nieko "
+#~ "nenurodyta, bus naudojamas numatytasis įrenginys."
 
+#, fuzzy
 #~ msgid ""
 #~ "Force the Video4Linux video device to use a specific chroma format (eg. "
 #~ "I420 (default), RV24, etc.)"
 #~ msgstr ""
-#~ "Video4Linux vaizdo įrenginys priverstinai naudos nurodytą spalvų formatą "
-#~ "(pvz., I420 (numatytas), RV24 ar kitas)"
+#~ "DirectShow priverstinai naudos nurodytą vaizdo įvesties spalvų formatą "
+#~ "(pavyzdžiui, I420 (numatytas), RV24 ir kt.)"
 
-#~ msgid ""
-#~ "Channel of the card to use (Usually, 0 = tuner, 1 = composite, 2 = "
-#~ "svideo)."
-#~ msgstr ""
-#~ "Naudotinas plokštės kanalas (paprastai, 0 = tiuneris, 1 = sudėtinis, 2 = "
-#~ "svideo)."
-
+#, fuzzy
 #~ msgid "Audio Channel"
-#~ msgstr "Garso kanalas"
+#~ msgstr "Garso kanalai"
 
-#~ msgid "Width of the stream to capture (-1 for autodetect)."
-#~ msgstr "Įrašomo srauto plotis (-1 automatiniam aptikimui)."
-
-#~ msgid "Height of the stream to capture (-1 for autodetect)."
-#~ msgstr "Įrašomo srauto aukštis (-1 automatiniam aptikimui)."
-
+#, fuzzy
 #~ msgid "Brightness of the video input."
-#~ msgstr "Vaizdo įvesties ryškumas."
+#~ msgstr "Garso įvedimo garsumas"
 
+#, fuzzy
 #~ msgid "Color of the video input."
-#~ msgstr "Vaizdo įvesties spalva."
+#~ msgstr "Garso įvedimo garsumas"
 
+#, fuzzy
 #~ msgid "Tuner to use, if there are several ones."
-#~ msgstr "Naudotinas tiuneris, jei jų yra keli."
+#~ msgstr "Srauto naudojamas tankintuvas"
 
+#, fuzzy
 #~ msgid "Set this option if the capture device outputs MJPEG"
-#~ msgstr ""
-#~ "Pasirinkite šią parinktį, jei norite įrašymo įrenginio išvestis yra MJPEG"
+#~ msgstr "Pasirinkite įrašymo įrenginio tipą"
 
+#, fuzzy
 #~ msgid "Quality of the stream."
-#~ msgstr "Srauto kokybė"
+#~ msgstr "Srauto naudojamas tankintuvas"
 
+#, fuzzy
 #~ msgid "Video4Linux"
-#~ msgstr "Video4Linux"
+#~ msgstr "Video4Linux įvestis"
 
-#~ msgid "IO Method"
-#~ msgstr "IO metodas"
-
+#, fuzzy
 #~ msgid "Do white balance"
-#~ msgstr "Nustatyti baltumo pusiausvyrą"
+#~ msgstr "Raudonumo pusiausvyra"
 
+#, fuzzy
 #~ msgid "Horizontal centering"
-#~ msgstr "Horizontalus centravimas"
+#~ msgstr "Apversti horizontaliai"
 
+#, fuzzy
 #~ msgid "Vertical centering"
-#~ msgstr "Vertikalus centravimas"
+#~ msgstr "Apversti vertikaliai"
 
+#, fuzzy
 #~ msgid "Balance"
-#~ msgstr "Pusiausvyra"
+#~ msgstr "Mėlynumo pusiausvyra"
 
+#, fuzzy
 #~ msgid ""
 #~ "Caching value for V4L2 captures. This value should be set in milliseconds."
 #~ msgstr ""
-#~ "V4L2 nuskaitymo podėlio vertė. Ši vertė turi būti nurodyta milisekundėmis."
+#~ "RTP srautų podėlio numatytoji vertė. Ši vertė turi būti nurodyta "
+#~ "milisekundėmis."
 
+#, fuzzy
 #~ msgid "Caching value for VCDs. This value should be set in milliseconds."
-#~ msgstr "VCD podėlio vertė. Ši vertė turi būti nurodyta milisekundėmis."
+#~ msgstr ""
+#~ "RTP srautų podėlio numatytoji vertė. Ši vertė turi būti nurodyta "
+#~ "milisekundėmis."
 
-#~ msgid "Dummy S/PDIF audio mixer"
-#~ msgstr "Tuščias S/PDIF garso maišiklis"
-
+#, fuzzy
 #~ msgid "Trivial audio mixer"
-#~ msgstr "Paprastas garso maišiklis"
+#~ msgstr "Originalus garsas"
 
+#, fuzzy
 #~ msgid "default"
-#~ msgstr "numatyta"
+#~ msgstr "Numatytasis"
 
+#, fuzzy
 #~ msgid "No Audio Device"
-#~ msgstr "Nėra garsas įrenginio"
+#~ msgstr "Garso įrenginys"
 
+#, fuzzy
 #~ msgid "VLC could not open the ALSA device \"%s\" (%s)."
-#~ msgstr "VLC negali atverti „%s“ (%s) ALSA įrenginio."
+#~ msgstr "VLC negali atverti „%s“ rinkmenos. (%m)"
 
+#, fuzzy
 #~ msgid "Unknown soundcard"
-#~ msgstr "Nežinoma garso plokštė"
+#~ msgstr "Nežinoma kategorija"
 
+#, fuzzy
 #~ msgid "Roku HD1000 audio output"
-#~ msgstr "Roku HD1000 garso išvestis"
+#~ msgstr "DirectX garso išvestis"
 
+#, fuzzy
 #~ msgid "UNIX OSS audio output"
-#~ msgstr "UNIX OSS garso išvestis"
+#~ msgstr "OpenSLES garso išvestis"
 
+#, fuzzy
 #~ msgid "Reload image file"
-#~ msgstr "Iš naujo įkelti paveikslėlio rinkmeną"
+#~ msgstr "Sukti vaizdo filtrą"
 
+#, fuzzy
 #~ msgid ""
 #~ "Aspect ratio of the image file (4:3, 16:9). Default is square pixels."
 #~ msgstr ""
-#~ "Paveikslėlio rinkmenos pločio ir aukščio santykis (4:3, 16:9). "
-#~ "Numatytuoju atveju pikselis yra kvadratas."
+#~ "Pločio ir aukščio santykis (4:3, 16:9). Numatytuoju atveju pikselis yra "
+#~ "kvadratas."
 
+#, fuzzy
 #~ msgid "Deinterlace the image after loading it."
-#~ msgstr "Paveikslėlio vaizdo perėjimo šalinimas po jo įkėlimo."
+#~ msgstr "Šalinti vaizdo perėjimą prieš įkodavimą."
 
+#, fuzzy
 #~ msgid "Deinterlace module to use."
-#~ msgstr "Naudotinas perėjimo šalinimo modulis."
+#~ msgstr "Perėjimo šalinimo modulis"
 
+#, fuzzy
 #~ msgid "Fake video decoder"
-#~ msgstr "Suklastoto vaizdo iškodavimas"
+#~ msgstr "CDG vaizdo iškodavimas"
 
+#, fuzzy
 #~ msgid "Lock function"
-#~ msgstr "Užrakinti funkciją"
+#~ msgstr "Gauti funkciją"
 
+#, fuzzy
 #~ msgid "Unlock function"
-#~ msgstr "Atrakinti funkciją"
+#~ msgstr "Gauti funkciją"
 
+#, fuzzy
 #~ msgid "Memory video decoder"
-#~ msgstr "Vaizdo atmintinės iškodavimas"
+#~ msgstr "Theora vaizdo iškodavimas"
 
+#, fuzzy
 #~ msgid "Schroedinger video decoder"
-#~ msgstr "Schroedinger vaizdo iškodavimas"
+#~ msgstr "Theora vaizdo iškodavimas"
 
+#, fuzzy
 #~ msgid "Enable debug"
-#~ msgstr "Įjungti derinimą"
+#~ msgstr "Įgalinti vaizdą"
 
+#, fuzzy
 #~ msgid "Host address"
-#~ msgstr "Mazgo adresas"
+#~ msgstr "HTTP serverio adresas"
 
+#, fuzzy
 #~ msgid ""
 #~ "Address and port the HTTP interface will listen on. It defaults to all "
 #~ "network interfaces (0.0.0.0). If you want the HTTP interface to be "
 #~ "available only on the local machine, enter 127.0.0.1"
 #~ msgstr ""
-#~ "HTTP sąsajos, kurios bus klausomasi, adresas ir prievadas. Numatyta "
-#~ "visoms sąsajoms (0.0.0.0). Jei norite, kad HTTP sąsaja būtų prieinama tik "
-#~ "vietiniame kompiuteryje, įveskite 127.0.0.1"
+#~ "Tai kompiuteris, kurio sąsajos klausomasi. Numatyta visoms tinklų "
+#~ "sąsajoms (0.0.0.0). Jei norite, kad ši sąsaja būti pasiekiama tik "
+#~ "vietinėje mašinoje, įveskite „127.0.0.1“."
 
+#, fuzzy
 #~ msgid "HTTP"
-#~ msgstr "HTTP"
+#~ msgstr "HTTP(S)"
 
+#, fuzzy
 #~ msgid "HTTP remote control interface"
-#~ msgstr "HTTP nuotolinio valdymo sąsaja"
+#~ msgstr "Nuotolinio valdymo sąsaja"
 
+#, fuzzy
 #~ msgid "HTTP SSL"
-#~ msgstr "HTTP SSL"
+#~ msgstr "HTTP(S)"
 
+#, fuzzy
 #~ msgid "POSIX signals handling interface"
-#~ msgstr "POSIX signalų apdorojimo sąsaja"
+#~ msgstr "Pagrindinių sąsajų nuostatos"
 
+#, fuzzy
 #~ msgid "VLM remote control interface"
-#~ msgstr "VLM nuotolinio valdymo sąsaja"
+#~ msgstr "Nuotolinio valdymo sąsaja"
 
+#, fuzzy
 #~ msgid "ASF v1.0 demuxer"
-#~ msgstr "ASF v1.0 išpynimo metodas"
+#~ msgstr "SMF išpynimo metodas"
 
+#, fuzzy
 #~ msgid "FFmpeg demuxer"
-#~ msgstr "FFmpeg išpynimo metodas"
+#~ msgstr "AIFF išpynimo metodas"
 
+#, fuzzy
 #~ msgid "Ffmpeg mux"
-#~ msgstr "FFmpeg tank."
+#~ msgstr "FFmpeg"
 
+#, fuzzy
 #~ msgid "AVI Index"
-#~ msgstr "AVI turinys"
+#~ msgstr "Turinys"
 
+#, fuzzy
 #~ msgid "Don't repair"
-#~ msgstr "Netaisyti"
+#~ msgstr "Nesiųsti"
 
+#, fuzzy
 #~ msgid ""
 #~ "Allows you to modify the default caching value for RTSP streams. This "
 #~ "value should be set in millisecond units."
 #~ msgstr ""
-#~ "Leidžia keisti RTSP srautų numatytąją podėlio vertę. Ši vertė turi būti "
-#~ "nurodyta milisekundėmis."
+#~ "RTP srautų podėlio numatytoji vertė. Ši vertė turi būti nurodyta "
+#~ "milisekundėmis."
 
+#, fuzzy
 #~ msgid "Subtitles (asa demuxer)"
-#~ msgstr "Subtitrai (asa išpynimo metodas)"
+#~ msgstr "Subtitrai (sudėtingiau)"
 
+#, fuzzy
 #~ msgid "Fast Forward"
-#~ msgstr "Prasukti į priekį"
+#~ msgstr "Toliau"
 
+#, fuzzy
 #~ msgid "Extended controls"
-#~ msgstr "Išplėsti valdikliai"
+#~ msgstr "Atstatyti valdiklius"
 
+#, fuzzy
 #~ msgid "General editing filters"
-#~ msgstr "Bendri taisymo filtrai"
+#~ msgstr "Garso bendrosios nuostatos"
 
+#, fuzzy
 #~ msgid "Distortion filters"
-#~ msgstr "Iškraipymo filtrai"
+#~ msgstr "Paskirties rinkmena:"
 
+#, fuzzy
 #~ msgid "Image cropping"
-#~ msgstr "Paveikslėlio apkirpimas"
+#~ msgstr "Vaizdo apkirpimas"
 
-#~ msgid "Crops a defined part of the image"
-#~ msgstr "Apkarpo nurodytas paveikslėlio dalis."
-
+#, fuzzy
 #~ msgid "Inverts the colors of the image"
-#~ msgstr "Paveikslėlio spalvas pakeičia priešingomis"
+#~ msgstr "Apibūdinti garsumo slinkiklio spalvas "
 
+#, fuzzy
 #~ msgid "Rotates or flips the image"
 #~ msgstr "Pasuka arba apverčia paveikslėlį"
 
+#, fuzzy
 #~ msgid "Audio Filter"
 #~ msgstr "Garso filtras"
 
+#, fuzzy
 #~ msgid "About the video filters"
-#~ msgstr "Apie vaizdo filtrus"
+#~ msgstr "Sukti vaizdo filtrą"
 
+#, fuzzy
 #~ msgid "Controller..."
-#~ msgstr "Valdiklis..."
+#~ msgstr "Valdymas"
 
+#, fuzzy
 #~ msgid "Equalizer..."
-#~ msgstr "Glodintuvas..."
+#~ msgstr "Glodintuvas"
 
+#, fuzzy
 #~ msgid "Extended Controls..."
-#~ msgstr "Sudėtingesni valdikliai..."
+#~ msgstr "Išplėstas skydelis"
 
+#, fuzzy
 #~ msgid "Volume: %d%%"
-#~ msgstr "Garsumas: %d%%"
+#~ msgstr "Patylinti"
 
+#, fuzzy
 #~ msgid "Keep current Equalizer settings"
-#~ msgstr "Įsiminti dabartines glodintuvo nuostatas"
+#~ msgstr "Vaizdo bendrosios nuostatos"
 
+#, fuzzy
 #~ msgid ""
 #~ "By default, VLC keeps the last equalizer settings before termination. "
 #~ "This feature can be disabled here."
 #~ msgstr ""
-#~ "Numatytuoju atveju VLC glodintuvo nuostatas įsimena. Ši galimybė gali "
+#~ "Numatytuoju atveju VLC prisimena 10 vėliausių įrašų. Ši galimybė gali "
 #~ "būti išjungta čia."
 
+#, fuzzy
 #~ msgid "No device connected"
-#~ msgstr "Neprijungta jokių įrenginių"
+#~ msgstr "Įrenginys nepasirinktas"
 
+#, fuzzy
 #~ msgid "Screen Capture Input"
-#~ msgstr "Ekrano vaizdo įrašymas įvestis"
+#~ msgstr "Ekrano vaizdo įrašymas"
 
+#, fuzzy
 #~ msgid "No %@s found"
-#~ msgstr "Nerasta jokių %@s "
+#~ msgstr "Įvestis nerasta"
 
+#, fuzzy
 #~ msgid "Open VIDEO_TS Directory"
-#~ msgstr "Atverti VIDEO_TS aplanką"
+#~ msgstr "Atverti aplanką"
 
-#~ msgid "iSight Capture Input"
-#~ msgstr "iSight įrašymo įvestis"
-
+#, fuzzy
 #~ msgid "Add Folder to Playlist"
-#~ msgstr "Pridėti aplanką prie grojaraščio"
+#~ msgstr "Papildyti grojaraštį"
 
+#, fuzzy
 #~ msgid "1 item"
-#~ msgstr "1 įrašas"
+#~ msgstr "%i įrašai"
 
+#, fuzzy
 #~ msgid "Empty Folder"
-#~ msgstr "Tuščias aplankas"
+#~ msgstr "Atverti aplanką"
 
+#, fuzzy
 #~ msgid "Default Server Port"
-#~ msgstr "Numatytasis serverio prievadas"
+#~ msgstr "Numatytieji įrenginiai"
 
+#, fuzzy
 #~ msgid "Interface Settings not saved"
-#~ msgstr "Sąsajos nuostatos neįrašytos"
+#~ msgstr "Sąsajos nuostatos"
 
+#, fuzzy
 #~ msgid "Audio Settings not saved"
-#~ msgstr "Garso nuostatos neįrašytos"
+#~ msgstr "Garso nuostatos"
 
-#~ msgid "On Screen Display/Subtitle Settings not saved"
-#~ msgstr "Subtitrų / ERP nuostatos neįrašytos"
-
+#, fuzzy
 #~ msgid "Hotkeys not saved"
-#~ msgstr "Spartieji klavišai neįrašyti"
+#~ msgstr "Spartieji klavišai"
 
+#, fuzzy
 #~ msgid " State    : Paused %s"
-#~ msgstr " Būsena    : Pristabdyta %s"
+#~ msgstr "      %s: %s"
 
+#, fuzzy
 #~ msgid " Help "
-#~ msgstr " Žinynas "
+#~ msgstr "Pagalba"
 
+#, fuzzy
 #~ msgid "[Miscellaneous]"
-#~ msgstr "[Kita]"
+#~ msgstr "Kita"
 
+#, fuzzy
 #~ msgid " Information "
-#~ msgstr " Informacija "
+#~ msgstr "Informacija"
 
+#, fuzzy
 #~ msgid " Browse "
-#~ msgstr " Naršyti "
+#~ msgstr "Naršyti "
 
+#, fuzzy
 #~ msgid " Stats "
-#~ msgstr " Statistika "
+#~ msgstr "Statistika"
 
+#, fuzzy
 #~ msgid "\\ sending bitrate  :   %6.0f kb/s"
-#~ msgstr "\\ siunčiamas bitų dažnis  :   %6.0f kb/s"
+#~ msgstr "| siunč. bitų dažn.:   %6.0f kb/s"
 
+#, fuzzy
 #~ msgid " Playlist (By category) "
-#~ msgstr "Grojaraštis (pagal kategoriją)"
+#~ msgstr "Prenumeruojamos laidos subkategorija"
 
+#, fuzzy
 #~ msgid "DVB Type:"
-#~ msgstr "DVB tipas:"
+#~ msgstr "Tipas:"
 
+#, fuzzy
 #~ msgid "Input caching:"
-#~ msgstr "Įvesties podėlis:"
+#~ msgstr "Įvestis pakeista"
 
+#, fuzzy
 #~ msgid "Privacy and Network Warning"
-#~ msgstr "Privatumo ir tinklo įspėjimai"
+#~ msgstr "Privatumas / tinklo sąveika"
 
+#, fuzzy
 #~ msgid "&Extra Metadata"
-#~ msgstr "Kiti m&etaduomenys"
+#~ msgstr "Į&rašyti metaduomenis"
 
+#, fuzzy
 #~ msgid "&Codec Details"
-#~ msgstr "&Kodavimo detalės"
+#~ msgstr "Kodavimo detalės"
 
+#, fuzzy
 #~ msgid "&Statistics"
-#~ msgstr "&Statistika"
+#~ msgstr "Statistika"
 
+#, fuzzy
 #~ msgid "C&lear"
-#~ msgstr "Iš&valyti"
+#~ msgstr "Išvalyti"
 
+#, fuzzy
 #~ msgid "Verbosity Level"
 #~ msgstr "Detalumo lygis"
 
+#, fuzzy
 #~ msgid "Message filter"
-#~ msgstr "Pranešimų filtras"
+#~ msgstr "Scenos filtras"
 
+#, fuzzy
 #~ msgid "XSPF playlist (*.xspf)"
-#~ msgstr "XSPF grojaraštis (*.xspf)"
+#~ msgstr "XSPF grojaraščio eksportavimas"
 
 #, fuzzy
 #~ msgid "M3U8 playlist (*.m3u8)"
 #~ msgstr "M3U8 grojaraštis"
 
+#, fuzzy
 #~ msgid "M3U playlist (*.m3u)"
-#~ msgstr "M3U grojaraštis (*.m3u)"
+#~ msgstr "M3U grojaraštis"
 
+#, fuzzy
 #~ msgid "HTML playlist (*.html)"
-#~ msgstr "HTML grojaraštis (*.html)"
+#~ msgstr "HTML grojaraštis"
 
+#, fuzzy
 #~ msgid "&Streaming..."
-#~ msgstr "&Srautinis siuntimas..."
+#~ msgstr "&Srautas..."
 
+#, fuzzy
 #~ msgid "Direct3D Desktop mode"
-#~ msgstr "Direct3D darbastalio veiksena"
+#~ msgstr "Direct3D vaizdo išvestis"
 
+#, fuzzy
 #~ msgid "Sna&pshot"
-#~ msgstr "&Nuotrauka"
+#~ msgstr "Nuotrauka"
 
+#, fuzzy
 #~ msgid "Manage &bookmarks"
-#~ msgstr "Tvarkyti &Žymeles"
+#~ msgstr "Sukurti naują žymelę"
 
+#, fuzzy
 #~ msgid "Configure podcasts..."
-#~ msgstr "Konfigūruoti laidų prenumeratą"
+#~ msgstr "Nustatyti sparčiuosius klavišus"
 
+#, fuzzy
 #~ msgctxt "Tooltip|Clear"
 #~ msgid "Clear"
 #~ msgstr "Išvalyti"
 
+#, fuzzy
 #~ msgid "Dummy interface function"
-#~ msgstr "Tuščios sąsajos funkcija"
+#~ msgstr "Pseudo-sąsaja"
 
+#, fuzzy
 #~ msgid "Dummy demux function"
-#~ msgstr "Tuščia išpynimo metodo funkcija"
+#~ msgstr "Gauti funkciją"
 
+#, fuzzy
 #~ msgid "Dummy decoder function"
-#~ msgstr "Tuščia iškodavimo funkcija"
+#~ msgstr "Statistikos iškodavimo funkcija"
 
+#, fuzzy
 #~ msgid "Dump decoder function"
-#~ msgstr "Atminties išklotinės iškodavimo funkcija"
+#~ msgstr "Statistikos iškodavimo funkcija"
 
+#, fuzzy
 #~ msgid "Dummy encoder function"
-#~ msgstr "Tuščia įkodavimo funkcija"
+#~ msgstr "Statistikos įkodavimo funkcija"
 
+#, fuzzy
 #~ msgid "Dummy audio output function"
-#~ msgstr "Tuščia garso išvesties funkcija"
+#~ msgstr "Tuščia vaizdo išvestis"
 
+#, fuzzy
 #~ msgid "Dummy video output function"
-#~ msgstr "Tuščia vaizdo išvesties funkcija"
+#~ msgstr "Tuščia vaizdo išvestis"
 
+#, fuzzy
 #~ msgid "Stats video output function"
-#~ msgstr "Statistikos vaizdo išvesties funkcija"
+#~ msgstr "Statistikos iškodavimo funkcija"
 
+#, fuzzy
 #~ msgid "Font Effect"
-#~ msgstr "Šrifto efektai"
+#~ msgstr "Garso efektai"
 
+#, fuzzy
 #~ msgid "Lua Interface Module"
-#~ msgstr "Lua sąsajos modulis"
+#~ msgstr "Sąsajos modulis"
 
+#, fuzzy
 #~ msgid "Lua Interface Module (shortcuts)"
-#~ msgstr "Lua sąsajos modulis (nuorodos)"
+#~ msgstr "Įkeltinas Lua sąsajos modulis"
 
+#, fuzzy
 #~ msgid "Server"
-#~ msgstr "Serveris"
+#~ msgstr "Paslaugos"
 
+#, fuzzy
 #~ msgid "Growl UDP Notification Plugin"
-#~ msgstr "Growl UDP pranešimo papildinys"
+#~ msgstr "Growl pranešimo papildinys"
 
+#, fuzzy
 #~ msgid ""
 #~ "Format of the string to send to Telepathy.Defaults to \"Artist - Title"
 #~ "\" ($a - $t). You can use the following substitutions: $a Artist, $b "
@@ -31434,423 +31988,533 @@ msgstr "Multimedijos tvarkytuvės sąrašas"
 #~ "Title, $L Time Remaining, $N Name, $O Audio language, $P Position, $R "
 #~ "Rate, $S Sample rate, $T Time elapsed, $U Publisher, $V Volume"
 #~ msgstr ""
-#~ "Į Telepathy siunčiamo kodo formatas. Numatytasis „atlikėjas - "
-#~ "pavadinimas“ ($a - $t). Galite naudoti sekančius keitinius: $a Atlikėjas, "
-#~ "$b Albumas, $c Autorinės teisės, $d Aprašymas, $e Įkodavo, $g Stilius, $l "
-#~ "Kalba, $n numeris, $p Dabar grojama, $r Įvertinimas, $s Subtitrų kalba, "
-#~ "$t Pavadinimas, $A Data, $B Bitų dažnis, $C Skyrius, $D Trukmė, $F URI, "
-#~ "$I Vaizdo pavadinimas, $L Likęs laikas, $N pavadinimas, $O Garso kalba, "
-#~ "$P Padėtis, $R Dažnis, $S Garso elementų dažnis, $T Praėjęs laikas, $U "
-#~ "Paruošė, $V Dalis"
+#~ "Žymi rodomą tekstą. (Galimi kodo formatai: laiko: %Y = metai, %m = mėnuo, "
+#~ "%d = diena, %H = valanda, %M = minutė, %S = sekundė, ... Meta duomenys: "
+#~ "$a = atlikėjas, $b = albumas, $c = autorinės teisės, $d = aprašymas, $e = "
+#~ "įkodavusysis, $g = stilius, $l = kalba, $n = takelio numeris, $p = dabar "
+#~ "grojama, $r = įvertinimas, $s = subtitrų kalba, $t = pavadinimas, $u = "
+#~ "url, $A = data, $B = garso bitų dažnis (kb/s), $C = skyrius, $D = trukmė, "
+#~ "$F = pilnas rinkmenos pavadinimas su keliu, $I = pavadinimas, $L = likęs "
+#~ "laikas, $N = pavadinimas, $O = garso takelio kalba, $P = padėtis (%), $R "
+#~ "= dažnis, $S = garso elementų dažnis (kHz), $T = laikas, $U = paruošė, $V "
+#~ "= dalis, $_ = nauja linija) "
 
+#, fuzzy
 #~ msgid "Use SAP cache"
-#~ msgstr "Naudoti SAP podėlį"
+#~ msgstr "Naudoti papildinių podėlį"
 
+#, fuzzy
 #~ msgid ""
 #~ "X11 hardware display to use.\n"
 #~ "By default, VLC will use the value of the DISPLAY environment variable."
 #~ msgstr ""
-#~ "Naudotinas X11 aparatinės įrangos ekranas.\n"
-#~ "Numatytuoju atveju, VLC naudos „DISPLAY“ aplinkos kintamojo vertę."
+#~ "Naudotinas XVideo aparatinis ekranas. Numatytuoju atveju VLC naudos "
+#~ "aplinkos kintamojo DISPLAY reikšmę."
 
+#, fuzzy
 #~ msgid "HD1000 video output"
-#~ msgstr "HD1000 vaizdo išvestis"
+#~ msgstr "Tuščia vaizdo išvestis"
 
+#, fuzzy
 #~ msgid "OMAP Framebuffer device"
-#~ msgstr "OMAP kadrų buferio įrenginys"
+#~ msgstr "Kadrų buferio įrenginys"
 
+#, fuzzy
 #~ msgid "OMAP framebuffer"
-#~ msgstr "OMAP kadrų buferis"
+#~ msgstr "Kadrų buferio rinkmena"
 
+#, fuzzy
 #~ msgid "OMAP framebuffer video output"
-#~ msgstr "OMAP kadrų buferio vaizdo išvestis"
+#~ msgstr "GNU/Linux kadrų buferio vaizdo išvestis"
 
+#, fuzzy
 #~ msgid "OpenGL Provider"
-#~ msgstr "OpenGL tiekėjas"
+#~ msgstr "Atverti aplanką"
 
+#, fuzzy
 #~ msgid "Snapshot width"
-#~ msgstr "Nuotraukos plotis"
+#~ msgstr "Vaizdo nuotraukos plotis"
 
+#, fuzzy
 #~ msgid "Width of the snapshot image."
-#~ msgstr "Rodomo vaizdo nuotraukos plotis."
+#~ msgstr "Vaizdo nuotraukų formatas"
 
+#, fuzzy
 #~ msgid "Snapshot height"
-#~ msgstr "Nuotraukos aukštis"
+#~ msgstr "Vaizdo nuotraukos aukštis"
 
+#, fuzzy
 #~ msgid "Snapshot output"
-#~ msgstr "Nuotraukos išvestis"
+#~ msgstr "Nuotrauka"
 
+#, fuzzy
 #~ msgid "SVGAlib video output"
-#~ msgstr "SVGAlib vaizdo išvestis"
+#~ msgstr "YUV vaizdo išvestis"
 
+#, fuzzy
 #~ msgid "More bands for the spectrum analyzer : 80 if enabled else 20."
 #~ msgstr ""
-#~ "Daugiau dažnių stiprumų spektro analizatoriui: jei naudojamas – 80, kitu "
-#~ "atveju – 20."
+#~ "Daugiau dažnių stiprumų spektrometrui: jei naudojamas – 80, kitu atveju – "
+#~ "20."
 
+#, fuzzy
 #~ msgid "Enable peaks"
-#~ msgstr "Įgalinti pikus"
+#~ msgstr "Įgalinti garsą"
 
+#, fuzzy
 #~ msgid "Enable bands"
-#~ msgstr "Įgalinti dažnių stiprumo rodymą"
+#~ msgstr "Įgalinti garsą"
 
+#, fuzzy
 #~ msgid "Enable base"
-#~ msgstr "Leisti rodyti pagrindą"
+#~ msgstr "Įgalinti"
 
+#, fuzzy
 #~ msgid "Font size:"
-#~ msgstr "Šrifto dydis:"
+#~ msgstr "Šrifto dydis"
 
+#, fuzzy
 #~ msgid "Text alignment:"
-#~ msgstr "Teleteksto lygiuotė:"
+#~ msgstr "Teleteksto lygiuotė"
 
+#, fuzzy
 #~ msgid "Enter the URL of the network stream here."
-#~ msgstr "Čia įveskite tinklo srauto URL."
+#~ msgstr "Įveskite adresą kompiuterio, į kurį transliuoti srautą."
 
+#, fuzzy
 #~ msgid "Default port (server mode)"
-#~ msgstr "Numatytasis prievadas (serverio veiksena)"
+#~ msgstr "VoD serverio modulis"
 
+#, fuzzy
 #~ msgid "Refresh"
-#~ msgstr "Atnaujinti"
+#~ msgstr "Atnaujinimo dažnumas"
 
+#, fuzzy
 #~ msgid "Color fun"
-#~ msgstr "Spalvų žaismas"
+#~ msgstr "Spalva"
 
+#, fuzzy
 #~ msgid "Vout/Overlay"
-#~ msgstr "Skaldymas/Perdengimas"
+#~ msgstr "Perdangos"
 
 #, fuzzy
 #~ msgid "Subpicture filters"
 #~ msgstr "Srauto filtrai"
 
+#, fuzzy
 #~ msgid "Video filters"
-#~ msgstr "Vaizdo filtrai"
+#~ msgstr "Vaizdo filtras"
 
+#, fuzzy
 #~ msgid "Vout filters"
-#~ msgstr "Vout filtrai"
+#~ msgstr "Vaizdo filtras"
 
+#, fuzzy
 #~ msgid "Advanced video filter controls"
-#~ msgstr "Sudėtingesnis valdymas"
+#~ msgstr "&Sudėtingesnis valdymas"
 
 #, fuzzy
 #~ msgid "Automate picture coding mode"
 #~ msgstr "Paveikslėlių kodavimo veiksena"
 
+#, fuzzy
 #~ msgid ""
 #~ "Containers (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv)"
 #~ msgstr ""
-#~ "Talpykla (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv)"
+#~ "Talpykla (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv *."
+#~ "webm)"
 
 #, fuzzy
 #~ msgid "SessionManager"
 #~ msgstr "Sesijos pavadinimas"
 
+#, fuzzy
 #~ msgid "title"
-#~ msgstr "pavadinimas"
+#~ msgstr "Pavadinimas"
 
+#, fuzzy
 #~ msgid "Key"
-#~ msgstr "Raktas"
+#~ msgstr "Klavišas: "
 
+#, fuzzy
 #~ msgid "Set"
-#~ msgstr "Nustatyti"
+#~ msgstr "Išsiųsta"
 
+#, fuzzy
 #~ msgid "SDL video driver name"
-#~ msgstr "SDL vaizdo tvarkyklės pavadinimas"
+#~ msgstr "Vaizdo įrenginio pavadinimas"
 
+#, fuzzy
 #~ msgid "Select the protocol for the URL."
-#~ msgstr "Pasirinkite URL protokolą."
+#~ msgstr "Pasirinkti vieną spalvą vaizde"
 
+#, fuzzy
 #~ msgid "Select the port used"
-#~ msgstr "Pasirinkite prievadą"
+#~ msgstr "Pasirinkti prievadai:"
 
+#, fuzzy
 #~ msgid "Other codecs"
-#~ msgstr "Kiti kodekai"
+#~ msgstr "Skyriaus kodekai"
 
+#, fuzzy
 #~ msgid "Settings for audio+video and miscellaneous decoders and encoders."
-#~ msgstr "Garso ir vaizdo kodavimo nuostatos."
+#~ msgstr "Kodavimo ir dekodavimo nuostatos, susijusios tik su garsu."
 
+#, fuzzy
 #~ msgid "Random off"
-#~ msgstr "Nemaišyti"
+#~ msgstr "Atsitiktinis grojimas Išjungtas"
 
+#, fuzzy
 #~ msgid "Advanced open..."
-#~ msgstr "Sudėtingesnis atvėrimas..."
+#~ msgstr "&Sudėtingesnis atvėrimas"
 
+#, fuzzy
 #~ msgid "Fullscreen-only"
-#~ msgstr "Tik visame ekrane"
+#~ msgstr "Visas ekranas"
 
+#, fuzzy
 #~ msgid "Enable FPU support"
-#~ msgstr "Įgalinti FPU palaikymą"
+#~ msgstr "Įgalinti SPU srauto išvestį"
 
+#, fuzzy
 #~ msgid "save the current command line options in the config"
-#~ msgstr "dabartinę komandinę įrašyti į konfigūracijos rinkmeną"
+#~ msgstr "Įrašyti paskiausiai grotus kūrinius į meniu"
 
+#, fuzzy
 #~ msgid "%.1f kB"
-#~ msgstr "%.1f kB"
+#~ msgstr "%.1f GiB"
 
+#, fuzzy
 #~ msgid "CD reading failed"
-#~ msgstr "Skaitant CD įvyko klaida"
+#~ msgstr "Skaitant rinkmeną įvyko klaida"
 
+#, fuzzy
 #~ msgid "VLC could not get a new block of size: %i."
-#~ msgstr "VLC negali gauti naujo bloko, kurio dydis %i."
+#~ msgstr "VLC negali perskaityti rinkmenos (%m)."
 
+#, fuzzy
 #~ msgid "overlap"
-#~ msgstr "dalinai"
+#~ msgstr "Perdangos"
 
+#, fuzzy
 #~ msgid ""
 #~ "Caching value for CDDA streams. This value should be set in millisecond "
 #~ "units."
 #~ msgstr ""
-#~ "CDDA srautų podėlio vertė. Ši vertė turi būti nurodoma milisekundėmis."
+#~ "RTP srautų podėlio numatytoji vertė. Ši vertė turi būti nurodyta "
+#~ "milisekundėmis."
 
+#, fuzzy
 #~ msgid "cddax://[device-or-file][@[T]track]"
-#~ msgstr "cddax://[įrenginys-arba-rinkmena][@[T]takelis]"
+#~ msgstr "[cdda:][įrenginys][@[takelis]]"
 
+#, fuzzy
 #~ msgid "Audio Compact Disc"
-#~ msgstr "Garsas kompaktinis diskas"
+#~ msgstr "Garso išvesties kaištelis"
 
+#, fuzzy
 #~ msgid "Caching value in microseconds"
-#~ msgstr "Podėlio vertė milisekundėmis"
+#~ msgstr "Podėlio vertė vietinėms rinkmenoms, milisekundėmis."
 
+#, fuzzy
 #~ msgid "Format to use in playlist \"title\" field when no CDDB"
-#~ msgstr "Formatas naudojamas grojaraščio „pavadinimo“ lauke, kai nėra CDDB"
+#~ msgstr "Formatas, naudojamas grojaraščio laukelyje „pavadinimas“."
 
+#, fuzzy
 #~ msgid "Use CD audio controls and output?"
-#~ msgstr "Naudoti garso CD valdykles ir išvestį?"
+#~ msgstr "Įgalinti garso srauto išvestį"
 
+#, fuzzy
 #~ msgid "CDDB"
-#~ msgstr "CDDB"
+#~ msgstr "CDDB prievadas"
 
+#, fuzzy
 #~ msgid "Format to use in playlist \"title\" field when using CDDB"
-#~ msgstr ""
-#~ "Formatas, naudojamas grojaraščio „pavadinimas“ lauke, naudojant CDDB"
+#~ msgstr "Formatas, naudojamas grojaraščio laukelyje „pavadinimas“."
 
+#, fuzzy
 #~ msgid "CDDB server"
 #~ msgstr "CDDB serveris"
 
+#, fuzzy
 #~ msgid "CDDB server timeout"
-#~ msgstr "CDDB serverio atsako laukimas"
+#~ msgstr "VoD serverio modulis"
 
+#, fuzzy
 #~ msgid "Track %i"
-#~ msgstr "%i takelis"
+#~ msgstr "Takelis"
 
+#, fuzzy
 #~ msgid "Standard filesystem directory input"
-#~ msgstr "Įprasta rinkmenų sistemos aplanko įvestis"
+#~ msgstr "Srauto išvesties standartas"
 
+#, fuzzy
 #~ msgid "audio filter for simple channel mixing"
-#~ msgstr "garso filtras paprastam kanalų maišikliui"
+#~ msgstr "Garso filtras paprastam kanalų maišikliui"
 
+#, fuzzy
 #~ msgid "delay"
-#~ msgstr "užlaikymas"
+#~ msgstr "Užlaikymas"
 
+#, fuzzy
 #~ msgid "Max level"
 #~ msgstr "Didžiausias lygis"
 
+#, fuzzy
 #~ msgid "RealAudio library decoder"
-#~ msgstr "RealAudio bibliotekos iškodavimas"
+#~ msgstr "QuickTime bibliotekos iškodavimas"
 
+#, fuzzy
 #~ msgid "Tarkin decoder"
-#~ msgstr "Tarkin iškodavimas"
+#~ msgstr "Statistikos iškodavimas"
 
+#, fuzzy
 #~ msgid "MPEG I/II hw video decoder (using libmpeg2)"
-#~ msgstr "MPEG I/II aparatinis vaizdo iškodavimas (naudojamas libmpeg2)"
+#~ msgstr "MPEG I/II vaizdo iškodavimas (naudoja libmpeg2)"
 
+#, fuzzy
 #~ msgid "Deinterlace mode: %s"
-#~ msgstr "Perėjimo šalinimas: %s"
+#~ msgstr "Perėjimo šalinimo modulis"
 
+#, fuzzy
 #~ msgid "%.2fx"
-#~ msgstr "%.2fx"
+#~ msgstr "%.2f dB"
 
+#, fuzzy
 #~ msgid "Unknown command!"
-#~ msgstr "Nežinoma komanda!"
+#~ msgstr "Nežinoma kategorija"
 
+#, fuzzy
 #~ msgid "MPEG-4 video demuxer"
-#~ msgstr "MPEG-4 vaizdo demultiplekseris"
+#~ msgstr "MPEG-I/II vaizdo išpynimo metodas"
 
+#, fuzzy
 #~ msgid "MPEG-4 V"
-#~ msgstr "MPEG-4 V"
+#~ msgstr "MPEG 1"
 
+#, fuzzy
 #~ msgid "Prev Title"
-#~ msgstr "Ankstesnis takelis"
+#~ msgstr "Ankstesnis įrašas"
 
+#, fuzzy
 #~ msgid "Next Title"
-#~ msgstr "Sekantis takelis"
+#~ msgstr "Kitas įrašas"
 
+#, fuzzy
 #~ msgid "Go to Title"
-#~ msgstr "Eiti į takelį"
+#~ msgstr "Šokti į laiką"
 
+#, fuzzy
 #~ msgid "Go to Chapter"
-#~ msgstr "Eiti į dalį"
+#~ msgstr "Skyrius"
 
+#, fuzzy
 #~ msgid "Speed"
-#~ msgstr "Greitis"
+#~ msgstr "Speex"
 
+#, fuzzy
 #~ msgid "VLC media player: Open Media Files"
-#~ msgstr "VLC grotuvas: multimedijos rinkmenų atvėrimas"
+#~ msgstr "VLC leistuvės atnaujinimai"
 
+#, fuzzy
 #~ msgid "VLC media player: Open Subtitle File"
-#~ msgstr "VLC grotuvas: subtitrų rinkmenos atvėrimas"
+#~ msgstr "VLC leistuvės žinynas"
 
+#, fuzzy
 #~ msgid "Select None"
-#~ msgstr "Nieko nežymėti"
+#~ msgstr "Aplanko pasirinkimas"
 
+#, fuzzy
 #~ msgid "Sort Reverse"
 #~ msgstr "Rikiuoti atvirkščiai"
 
+#, fuzzy
 #~ msgid "Sort by Name"
-#~ msgstr "Rikiuoti pagal pavadinimą"
+#~ msgstr "Rikiuoti mazgą pagal pavadinimą"
 
+#, fuzzy
 #~ msgid "Sort by Path"
-#~ msgstr "Rikiuoti pagal aplanką"
+#~ msgstr "Rikiuoti pagal "
 
+#, fuzzy
 #~ msgid "Randomize"
-#~ msgstr "Atsitiktinai"
+#~ msgstr "Maišymo veiksena"
 
+#, fuzzy
 #~ msgid "Remove All"
-#~ msgstr "Viską pašalinti"
+#~ msgstr "Pašalinti"
 
+#, fuzzy
 #~ msgid "Defaults"
-#~ msgstr "Numatytieji"
+#~ msgstr "Numatytasis"
 
+#, fuzzy
 #~ msgid "Show Interface"
-#~ msgstr "Rodyti grafinę sąsają"
+#~ msgstr "Sąsaja"
 
+#, fuzzy
 #~ msgid "Vertical Sync"
-#~ msgstr "Verticali sinchr."
+#~ msgstr "Vertikali"
 
+#, fuzzy
 #~ msgid "Correct Aspect Ratio"
-#~ msgstr "Teisingas santykis"
+#~ msgstr "Priverstinai naudoti santykį"
 
+#, fuzzy
 #~ msgid "Stay On Top"
-#~ msgstr "Palikti viršuje"
+#~ msgstr "Visada &viršuje"
 
+#, fuzzy
 #~ msgid "Take Screen Shot"
-#~ msgstr "Padaryti ekrano nuotrauką"
+#~ msgstr "&Nuotrauka"
 
+#, fuzzy
 #~ msgid "Video On Demand"
-#~ msgstr "Vaizdas pagal pareikalavimą"
+#~ msgstr "Vaizdas pagal pareikalavimą (VOD)"
 
+#, fuzzy
 #~ msgid "QNX RTOS video and audio output"
-#~ msgstr "QNX RTOS vaizdo ir garso išvestis"
+#~ msgstr "Išvestis į garso rinkmeną"
 
+#, fuzzy
 #~ msgid "Show the current item"
-#~ msgstr "Rodyti aktyvų"
+#~ msgstr "Kartoti dabartinį kūrinį"
 
+#, fuzzy
 #~ msgid "Audio Port"
 #~ msgstr "Garso prievadas"
 
+#, fuzzy
 #~ msgid "Classic"
-#~ msgstr "Klasikinis"
+#~ msgstr "Klasika"
 
+#, fuzzy
 #~ msgid "Select play mode"
-#~ msgstr "Pasirinkite grojimo veikseną"
+#~ msgstr "Pasirinkite kartojimo veikseną"
 
+#, fuzzy
 #~ msgid "Processing"
-#~ msgstr "Vykdoma"
+#~ msgstr "Galutinis apdorojimas"
 
+#, fuzzy
 #~ msgid "Disc Devices"
-#~ msgstr "Diskų įrenginiai"
+#~ msgstr "Diskų įrenginys"
 
+#, fuzzy
 #~ msgid "Server default port"
-#~ msgstr "Pagrindinis serverio prievadas"
+#~ msgstr "Numatytoji teksto spalva"
 
+#, fuzzy
 #~ msgid "Post-Processing quality"
 #~ msgstr "Galutinio apdorojimo kokybė"
 
+#, fuzzy
 #~ msgid "Repair AVI files"
 #~ msgstr "Taisyti AVI rinkmenas"
 
+#, fuzzy
 #~ msgid ""
 #~ "\n"
 #~ "(WinCE interface)\n"
 #~ "\n"
-#~ msgstr ""
-#~ "\n"
-#~ "(WinCE sąsaja)\n"
-#~ "\n"
+#~ msgstr "Pagrindinės sąsajos"
 
-#~ msgid ""
-#~ "(c) 1996-2008 - the VideoLAN Team\n"
-#~ "\n"
-#~ msgstr ""
-#~ "(c) 1996-2008 - VideoLAN komanda\n"
-#~ "\n"
-
+#, fuzzy
 #~ msgid "Compiled by "
-#~ msgstr "Sukompiliavo "
+#~ msgstr "Kompiliatorius: %s\n"
 
+#, fuzzy
 #~ msgid "Open:"
-#~ msgstr "Atverti:"
+#~ msgstr "Atverti"
 
+#, fuzzy
 #~ msgid "Choose directory"
-#~ msgstr "Pasirinkite aplanką"
+#~ msgstr "Šaltinio aplankas"
 
+#, fuzzy
 #~ msgid "WinCE interface"
-#~ msgstr "WinCE sąsaja"
+#~ msgstr "Pagrindinės sąsajos"
 
+#, fuzzy
 #~ msgid "Old playlist export"
-#~ msgstr "Seno grojaraščio eksportavimas"
+#~ msgstr "M3U grojaraščio eksportavimas"
 
+#, fuzzy
 #~ msgid "HAL devices detection"
-#~ msgstr "HAL įrenginių aptikimas"
+#~ msgstr "Įrenginio pasirinkimas"
 
+#, fuzzy
 #~ msgid "Mac Text renderer"
-#~ msgstr "Mac teksto vaizdavimas"
+#~ msgstr "Teksto vaizdavimas"
 
+#, fuzzy
 #~ msgid "Quartz font renderer"
-#~ msgstr "Quartz šrifto vaizdavimas"
+#~ msgstr "CoreText šriftų vaizdavimas"
 
+#, fuzzy
 #~ msgid "SAP Announcements"
-#~ msgstr "SAP anonsai"
+#~ msgstr "SAP skelbimų intervalas"
 
+#, fuzzy
 #~ msgid "Filter mode"
-#~ msgstr "Filtro režimas"
+#~ msgstr "Stereofoninė veiksena"
 
+#, fuzzy
 #~ msgid "top"
-#~ msgstr "viršus"
+#~ msgstr "Stabdyti"
 
+#, fuzzy
 #~ msgid "bottom"
-#~ msgstr "apačia"
+#~ msgstr "Apačioje"
 
+#, fuzzy
 #~ msgid "Use built-in AtmoLight"
-#~ msgstr "Naudoti vidinį AtmoLight"
+#~ msgstr "Klasikinis AtmoLight"
 
+#, fuzzy
 #~ msgid "QT Embedded display"
-#~ msgstr "QT įtalpintas ekranas"
+#~ msgstr "Vaizdas pagrindiniame lange"
 
+#, fuzzy
 #~ msgid ""
 #~ "Qt Embedded hardware display to use. By default VLC will use the value of "
 #~ "the DISPLAY environment variable."
 #~ msgstr ""
-#~ "Naudotinas Qt įtalpintas aparatinės įrangos ekranas. Numatytuoju atveju "
-#~ "VLC naudos aplinkos kintamojo DISPLAY vertę."
+#~ "Naudotinas XVideo aparatinis ekranas. Numatytuoju atveju VLC naudos "
+#~ "aplinkos kintamojo DISPLAY reikšmę."
 
+#, fuzzy
 #~ msgid "X11 display name"
-#~ msgstr "X11 ekrano pavadinimas"
+#~ msgstr "X11 ekranas"
 
+#, fuzzy
 #~ msgid ""
 #~ "Specify the X11 hardware display you want to use. By default VLC will use "
 #~ "the value of the DISPLAY environment variable."
 #~ msgstr ""
-#~ "Nurodykite norimą naudoti X11 įrenginio ekraną. Numatytuoju atveju VLC "
-#~ "naudosaplinkos kintamojo DISPLAY vertę."
+#~ "Naudotinas XVideo aparatinis ekranas. Numatytuoju atveju VLC naudos "
+#~ "aplinkos kintamojo DISPLAY reikšmę."
 
+#, fuzzy
 #~ msgid "XVimage chroma format"
-#~ msgstr "XVimage spalvų formatas"
+#~ msgstr "Tuščias paveikslėlių spalvos formatas"
 
-#~ msgid "You can choose the default deinterlace mode"
-#~ msgstr "Galite pasirinkti numatytąją perėjimo šalinimo veikseną"
-
+#, fuzzy
 #~ msgid ""
 #~ "X11 hardware display to use. By default, VLC will use the value of the "
 #~ "DISPLAY environment variable."
 #~ msgstr ""
-#~ "Naudotinas X11 aparatinis ekranas. Numatytuoju atveju VLC naudos aplinkos "
-#~ "kintamojo DISPLAY reikšmę."
+#~ "Naudotinas XVideo aparatinis ekranas. Numatytuoju atveju VLC naudos "
+#~ "aplinkos kintamojo DISPLAY reikšmę."
 
+#, fuzzy
 #~ msgid "Satellite Polarisation"
-#~ msgstr "Palydovo poliarizacija"
+#~ msgstr "Palydovo azimutas"
 
+#, fuzzy
 #~ msgid "Open Subtitles"
 #~ msgstr "Atverti subtitrus"
 
+#, fuzzy
 #~ msgid "left"
-#~ msgstr "kairė"
+#~ msgstr "Užpakalyje kairėje"
