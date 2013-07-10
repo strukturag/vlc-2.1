@@ -709,6 +709,7 @@ ExtV4l2::ExtV4l2( intf_thread_t *_p_intf, QWidget *_parent )
       "Controls will automatically appear here.")
       , this );
     help->setAlignment( Qt::AlignHCenter | Qt::AlignVCenter );
+    help->setWordWrap( true );
     layout->addWidget( help );
     setLayout( layout );
 }
