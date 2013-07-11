@@ -4,7 +4,7 @@ Changes between 2.0.x and 2.1.0-pre1:
 Important changes:
  * The licenses of numerous modules have changed from GPLv2+ to LGPLv2.1+
  * Discontinued support for PowerPC-based and 32bit Intel-based Macs
-   VLC requires Mac OS X 10.6 or later now on 64bit hardware
+   VLC now requires Mac OS X 10.6 or later on 64bit hardware
  * The --with-tuning and --without-tuning options are removed. To tune
    compilation for a specific processor type, set CFLAGS manually.
 
@@ -19,6 +19,7 @@ Core:
  * Removed SQL support
  * Add an audio fingerprinter
  * Disabled and marked obsolete --language selection
+ * Port to Android
 
 Decoders:
  * Support for OPUS via libopus.
@@ -30,13 +31,16 @@ Decoders:
  * Support for Indeo Audio Coder, RealAudio Lossless
  * Add Hardware Acceleration support on OS X for H.264 based upon VDADecoder
  * Add Hardware Acceleration support on Android Jelly Bean using MediaCodec
+ * Add Hardware Acceleration support on Linux using VDPAU
  * Support for SCTE-27 subtitles
- * Support for VDPAU hardware video decoding acceleration on Linux
  * Split G.711 decoder from Araw decoder
+ * X Window system raster image dump pseudo-decoder
+ * Support for Webinar GoToMeeting 4 (G2M4)
 
 Encoders:
  * high10, high422 and high444 encoding support in h264
  * QuickSyncVideo Encoding (Intel Media SDK) support using Intel GPU on Windows
+ * AAC encoder using the fdk-aac library (non-free)
 
 Access:
  * Screen: add support for OS X Lion and later,
@@ -51,7 +55,8 @@ Access:
  * Add support for Remote Desktop/RDP in view only mode
  * Timecode: generate a clock/timecode as a subtitle track
    vlc video.mkv --input-slave timecode:// --timecode-fps 30/1001
- * New video capture module for OS X based on AVFoundation
+ * New video capture module for OS X based on AVFoundation, named AVcapture
+ * New shared memory framebuffer access module, named shm
 
 Demuxers:
  * MP4: partial support for fragmented MP4
@@ -65,22 +70,21 @@ Demuxers:
  * Support for more MJPEG streams
  * Add support for liveleak streams
  * Add support for Wave/RF64 files
- * Prevent numerous uncaught exceptions in MKV causing the 
-   program to terminate.
- * Add protection against several heap buffer overflow in libebml
+ * Prevent numerous uncaught exceptions in MKV
+ * Add protection against several potential heap buffer overflow in libebml
 
 Audio output:
  * Windows Audio Session API audio output support
  * OpenBSD sndio audio output support
- * Important improvements on the Android OpenSL ES module
+ * Important improvements on the Android OpenSL ES audio output
  * Android AudioTrack audio output support
  * OS X Auhal output support for 6.1, 7.1, 8.0 and 8.1 playback and layouts
  * Rewrite of OSS module to support OSSv4
  * OS X Auhal output support for multi-buffer output devices
    This fix was facilitated through a hardware lending by TEAC Europe GmbH
    distributing such devices under the brand "TASCAM" (US-122, US-144, etc.).
- * Rewrite of AudioQueue module for iOS (and OS X)
- * New, simplified AudioUnit output module for iOS
+ * Rewrite of the AudioQueue output for iOS (and OS X)
+ * New, simplified AudioUnit output for iOS
 
 Audio Filters:
  * New remapping channel filter
@@ -88,14 +92,15 @@ Audio Filters:
  * New VSXu visualization plugin
  * ARM NEON acceleration of volume filter
  * Rewrite of the simple downmixer filter
+ * New gain audio filter
 
 Video Outputs:
- * New module to output using Decklink Blackmagic cards
- * New module using OpenMAX IL to output video
+ * New output for Decklink Blackmagic cards
+ * New output using OpenMAX IL hardware acceleration API
  * OpenGL: use glsl instead of ARB to do the YUV->RGB conversions
  * OpenGLES: add support for color conversation shaders on Android and iOS
- * Fix and enable the OpenGL ES1 and ES2 modules
-   Also, subpictures now work in the OpenGL ES2 module
+ * Fix and enable the OpenGL ES1 and ES2 outputs
+ * Support for subpictures in the OpenGL ES2 output
  * Fix the power management issue on Windows for standby management
  * New output module for iOS using OpenGL ES2
 
@@ -138,7 +143,7 @@ OS X Interface:
    controller
  * Add a GUI to manage podcasts
  * Add a new panel for media conversation and streaming
- * Add a GUI for the QTSound access module to process audio captured locally
+ * Add a GUI for the QTSound access input to process audio captured locally
    - This also allows to capture input from a webcam and a mic at the same time.
  * Add a GUI to capture QTSound data along with the current screen content
  * Add an option to let the Apple Remote control the system volume instead of
