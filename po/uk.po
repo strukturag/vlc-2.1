@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2013-07-11 16:07+0200\n"
+"POT-Creation-Date: 2013-07-25 14:06+0200\n"
 "PO-Revision-Date: 2013-06-27 03:52+0000\n"
 "Last-Translator: Андрій Бандура <andriykopanytsia@gmail.com>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/projects/p/vlc-trans/"
@@ -78,12 +78,12 @@ msgstr "Установки інтерфейсів елементів керув�
 msgid "Hotkeys settings"
 msgstr "Установки гарячих клавіш"
 
-#: include/vlc_config_cat.h:53 src/input/es_out.c:2850 src/input/es_out.c:2891
+#: include/vlc_config_cat.h:53 src/input/es_out.c:2866 src/input/es_out.c:2907
 #: src/libvlc-module.c:1456 modules/access/imem.c:64
 #: modules/gui/macosx/ConvertAndSave.m:185 modules/gui/macosx/MainMenu.m:376
 #: modules/gui/macosx/output.m:161 modules/gui/macosx/playlistinfo.m:112
 #: modules/gui/macosx/simple_prefs.m:142 modules/gui/macosx/wizard.m:377
-#: modules/gui/qt4/components/info_panels.cpp:553
+#: modules/gui/qt4/components/info_panels.cpp:557
 #: modules/gui/qt4/components/simple_preferences.cpp:91
 #: modules/services_discovery/mediadirs.c:76 modules/stream_out/es.c:93
 #: modules/stream_out/transcode/transcode.c:191
@@ -128,7 +128,7 @@ msgid "General settings for audio output modules."
 msgstr "Загальні установки модулів виведення звуку."
 
 #: include/vlc_config_cat.h:67 src/libvlc-module.c:1962
-#: modules/gui/macosx/VideoEffects.m:86
+#: modules/gui/macosx/VideoEffects.m:85
 #: modules/stream_out/transcode/transcode.c:223
 msgid "Miscellaneous"
 msgstr "Інше"
@@ -137,13 +137,13 @@ msgstr "Інше"
 msgid "Miscellaneous audio settings and modules."
 msgstr "Інші модулі та установки звуку."
 
-#: include/vlc_config_cat.h:71 src/input/es_out.c:2853 src/input/es_out.c:2935
+#: include/vlc_config_cat.h:71 src/input/es_out.c:2869 src/input/es_out.c:2951
 #: src/libvlc-module.c:1510 modules/access/imem.c:64
 #: modules/gui/macosx/ConvertAndSave.m:175 modules/gui/macosx/MainMenu.m:389
 #: modules/gui/macosx/output.m:151 modules/gui/macosx/playlistinfo.m:102
 #: modules/gui/macosx/simple_prefs.m:144 modules/gui/macosx/simple_prefs.m:279
 #: modules/gui/macosx/wizard.m:378
-#: modules/gui/qt4/components/info_panels.cpp:554
+#: modules/gui/qt4/components/info_panels.cpp:558
 #: modules/gui/qt4/components/simple_preferences.cpp:93
 #: modules/services_discovery/mediadirs.c:69 modules/stream_out/es.c:101
 #: modules/stream_out/transcode/transcode.c:161
@@ -529,12 +529,12 @@ msgstr "Потік…"
 msgid "Save..."
 msgstr "Зберегти…"
 
-#: include/vlc_intf_strings.h:77 modules/gui/macosx/CoreInteraction.m:397
+#: include/vlc_intf_strings.h:77 modules/gui/macosx/CoreInteraction.m:404
 #: modules/gui/macosx/MainMenu.m:363 modules/gui/macosx/MainMenu.m:1463
 msgid "Repeat All"
 msgstr "Повторювати все"
 
-#: include/vlc_intf_strings.h:78 modules/gui/macosx/CoreInteraction.m:417
+#: include/vlc_intf_strings.h:78 modules/gui/macosx/CoreInteraction.m:424
 #: modules/gui/macosx/MainMenu.m:362 modules/gui/macosx/MainMenu.m:1458
 msgid "Repeat One"
 msgstr "Повторювати раз"
@@ -546,7 +546,7 @@ msgstr "Повторювати раз"
 msgid "Random"
 msgstr "Випадково"
 
-#: include/vlc_intf_strings.h:80 modules/gui/macosx/CoreInteraction.m:375
+#: include/vlc_intf_strings.h:80 modules/gui/macosx/CoreInteraction.m:382
 msgid "Random Off"
 msgstr "Підряд"
 
@@ -575,7 +575,7 @@ msgstr "Зберегти список відтворення у &файл…"
 msgid "Search"
 msgstr "Пошук"
 
-#: include/vlc_intf_strings.h:97 modules/gui/macosx/VideoEffects.m:160
+#: include/vlc_intf_strings.h:97 modules/gui/macosx/VideoEffects.m:159
 #: modules/gui/qt4/ui/video_effects.h:1399
 msgid "Waves"
 msgstr "Хвилі"
@@ -646,7 +646,7 @@ msgstr "Досягнуто максимальне число фільтрів (%
 
 #: src/audio_output/output.c:220 src/audio_output/output.c:267
 #: src/config/core.c:407 src/input/es_out.c:902 src/libvlc-module.c:540
-#: modules/gui/macosx/MainWindow.m:963 modules/video_filter/postproc.c:234
+#: modules/gui/macosx/MainWindow.m:962 modules/video_filter/postproc.c:234
 msgid "Disable"
 msgstr "Вимкнути"
 
@@ -667,7 +667,7 @@ msgid "Vu meter"
 msgstr "Vu-метр"
 
 #: src/audio_output/output.c:264 modules/audio_filter/equalizer.c:81
-#: modules/gui/macosx/AudioEffects.m:144 share/lua/http/index.html:219
+#: modules/gui/macosx/AudioEffects.m:143 share/lua/http/index.html:219
 msgid "Equalizer"
 msgstr "Еквалайзер"
 
@@ -700,8 +700,8 @@ msgstr "Стерео"
 #: modules/audio_filter/channel_mixer/mono.c:92
 #: modules/audio_filter/channel_mixer/remap.c:61 modules/codec/dvbsub.c:102
 #: modules/codec/subsdec.c:164 modules/codec/zvbi.c:78
-#: modules/control/gestures.c:83 modules/gui/macosx/VideoEffects.m:105
-#: modules/gui/macosx/VideoEffects.m:170 modules/gui/macosx/VideoEffects.m:192
+#: modules/control/gestures.c:83 modules/gui/macosx/VideoEffects.m:104
+#: modules/gui/macosx/VideoEffects.m:169 modules/gui/macosx/VideoEffects.m:191
 #: modules/video_filter/audiobargraph_v.c:74 modules/video_filter/logo.c:79
 #: modules/video_filter/marq.c:139 modules/video_filter/mosaic.c:170
 #: modules/video_filter/rss.c:173 modules/gui/qt4/ui/video_effects.h:1318
@@ -715,8 +715,8 @@ msgstr "Лівий"
 #: modules/audio_filter/channel_mixer/mono.c:92
 #: modules/audio_filter/channel_mixer/remap.c:61 modules/codec/dvbsub.c:102
 #: modules/codec/subsdec.c:164 modules/codec/zvbi.c:78
-#: modules/control/gestures.c:83 modules/gui/macosx/VideoEffects.m:106
-#: modules/gui/macosx/VideoEffects.m:172 modules/gui/macosx/VideoEffects.m:194
+#: modules/control/gestures.c:83 modules/gui/macosx/VideoEffects.m:105
+#: modules/gui/macosx/VideoEffects.m:171 modules/gui/macosx/VideoEffects.m:193
 #: modules/video_filter/audiobargraph_v.c:74 modules/video_filter/logo.c:79
 #: modules/video_filter/marq.c:139 modules/video_filter/mosaic.c:170
 #: modules/video_filter/rss.c:173 modules/gui/qt4/ui/video_effects.h:1319
@@ -1236,31 +1236,31 @@ msgstr "Скрембльований"
 msgid "Yes"
 msgstr "Так"
 
-#: src/input/es_out.c:1989
+#: src/input/es_out.c:2005
 #, c-format
 msgid "Closed captions %u"
 msgstr "Закриті заголовки %u"
 
-#: src/input/es_out.c:2840
+#: src/input/es_out.c:2856
 #, c-format
 msgid "Stream %d"
 msgstr "Потік %d"
 
-#: src/input/es_out.c:2856 src/input/es_out.c:2971 modules/access/imem.c:64
+#: src/input/es_out.c:2872 src/input/es_out.c:2987 modules/access/imem.c:64
 msgid "Subtitle"
 msgstr "Субтитр"
 
-#: src/input/es_out.c:2864 src/input/es_out.c:2891 src/input/es_out.c:2935
-#: src/input/es_out.c:2971 modules/gui/macosx/ConvertAndSave.m:196
+#: src/input/es_out.c:2880 src/input/es_out.c:2907 src/input/es_out.c:2951
+#: src/input/es_out.c:2987 modules/gui/macosx/ConvertAndSave.m:196
 #: modules/gui/macosx/output.m:144
 msgid "Type"
 msgstr "Тип"
 
-#: src/input/es_out.c:2867
+#: src/input/es_out.c:2883
 msgid "Original ID"
 msgstr "Оригінальний ID"
 
-#: src/input/es_out.c:2875 src/input/es_out.c:2878 modules/access/imem.c:67
+#: src/input/es_out.c:2891 src/input/es_out.c:2894 modules/access/imem.c:67
 #: modules/gui/macosx/ConvertAndSave.m:177
 #: modules/gui/macosx/ConvertAndSave.m:187 modules/gui/macosx/wizard.m:382
 #: modules/gui/qt4/ui/profiles.h:712 modules/gui/qt4/ui/profiles.h:738
@@ -1268,37 +1268,37 @@ msgstr "Оригінальний ID"
 msgid "Codec"
 msgstr "Кодек"
 
-#: src/input/es_out.c:2882 src/input/meta.c:66 modules/access/imem.c:71
+#: src/input/es_out.c:2898 src/input/meta.c:66 modules/access/imem.c:71
 #: modules/gui/macosx/MainMenu.m:76 modules/stream_out/setid.c:49
 msgid "Language"
 msgstr "Мова"
 
-#: src/input/es_out.c:2885 src/input/meta.c:61
+#: src/input/es_out.c:2901 src/input/meta.c:61
 #: modules/gui/macosx/bookmarks.m:97 modules/gui/macosx/MainMenu.m:74
 #: modules/gui/qt4/dialogs/bookmarks.cpp:75
 msgid "Description"
 msgstr "Опис"
 
-#: src/input/es_out.c:2894 modules/gui/macosx/ConvertAndSave.m:189
+#: src/input/es_out.c:2910 modules/gui/macosx/ConvertAndSave.m:189
 #: modules/gui/macosx/output.m:167 modules/gui/qt4/ui/profiles.h:740
 msgid "Channels"
 msgstr "Канали"
 
-#: src/input/es_out.c:2899 modules/access/alsa.c:39 modules/access/imem.c:75
+#: src/input/es_out.c:2915 modules/access/alsa.c:39 modules/access/imem.c:75
 #: modules/audio_output/amem.c:45 modules/codec/fluidsynth.c:62
 msgid "Sample rate"
 msgstr "Частота дискретизації"
 
-#: src/input/es_out.c:2899
+#: src/input/es_out.c:2915
 #, c-format
 msgid "%u Hz"
 msgstr "%u Гц"
 
-#: src/input/es_out.c:2909
+#: src/input/es_out.c:2925
 msgid "Bits per sample"
 msgstr "Біт на фрагмент"
 
-#: src/input/es_out.c:2914 modules/access_output/shout.c:92
+#: src/input/es_out.c:2930 modules/access_output/shout.c:92
 #: modules/demux/playlist/shoutcast.c:325
 #: modules/gui/macosx/ConvertAndSave.m:178
 #: modules/gui/macosx/ConvertAndSave.m:188 modules/gui/qt4/ui/profiles.h:713
@@ -1306,34 +1306,34 @@ msgstr "Біт на фрагмент"
 msgid "Bitrate"
 msgstr "Бітрейт"
 
-#: src/input/es_out.c:2914
+#: src/input/es_out.c:2930
 #, c-format
 msgid "%u kb/s"
 msgstr "%u кб/с"
 
-#: src/input/es_out.c:2926
+#: src/input/es_out.c:2942
 msgid "Track replay gain"
 msgstr "Автонормалізація гучності доріжки"
 
-#: src/input/es_out.c:2928
+#: src/input/es_out.c:2944
 msgid "Album replay gain"
 msgstr "Автонормалізація гучності альбому"
 
-#: src/input/es_out.c:2929
+#: src/input/es_out.c:2945
 #, c-format
 msgid "%.2f dB"
 msgstr "%.2f дБ"
 
-#: src/input/es_out.c:2938 modules/gui/macosx/ConvertAndSave.m:180
+#: src/input/es_out.c:2954 modules/gui/macosx/ConvertAndSave.m:180
 #: modules/gui/qt4/ui/profiles.h:733
 msgid "Resolution"
 msgstr "Роздільна здатність"
 
-#: src/input/es_out.c:2943
+#: src/input/es_out.c:2959
 msgid "Display resolution"
 msgstr "Роздільна здатність дисплея"
 
-#: src/input/es_out.c:2953 src/input/es_out.c:2956 modules/access/imem.c:93
+#: src/input/es_out.c:2969 src/input/es_out.c:2972 modules/access/imem.c:93
 #: modules/access/rdp.c:53 modules/access/screen/screen.c:42
 #: modules/access/screen/xcb.c:38 modules/access/shm.c:41
 #: modules/access/timecode.c:34 modules/access/vdr.c:82
@@ -1341,7 +1341,7 @@ msgstr "Роздільна здатність дисплея"
 msgid "Frame rate"
 msgstr "Частота кадрів"
 
-#: src/input/es_out.c:2964
+#: src/input/es_out.c:2980
 msgid "Decoded format"
 msgstr "Декодований формат"
 
@@ -1790,7 +1790,7 @@ msgstr ""
 "увімкнення цієї опції може поліпшити якість звуку, особливо за умови "
 "спільного використання з мікшером каналу навушників."
 
-#: src/libvlc-module.c:180 src/win32/thread.c:818
+#: src/libvlc-module.c:180 src/win32/thread.c:827
 #: modules/audio_output/kai.c:106 modules/codec/x264.c:434
 #: modules/gui/qt4/components/sout/profile_selector.cpp:566
 #: modules/video_output/kva.c:62 modules/video_output/xcb/xvideo.c:878
@@ -2004,7 +2004,7 @@ msgstr ""
 #: modules/audio_filter/channel_mixer/mono.c:94
 #: modules/audio_filter/channel_mixer/remap.c:61 modules/codec/dvbsub.c:102
 #: modules/codec/subsdec.c:164 modules/codec/zvbi.c:78
-#: modules/gui/macosx/VideoEffects.m:168 modules/gui/macosx/VideoEffects.m:190
+#: modules/gui/macosx/VideoEffects.m:167 modules/gui/macosx/VideoEffects.m:189
 #: modules/video_filter/audiobargraph_v.c:74 modules/video_filter/logo.c:79
 #: modules/video_filter/marq.c:139 modules/video_filter/mosaic.c:170
 #: modules/video_filter/rss.c:173
@@ -2012,8 +2012,8 @@ msgid "Center"
 msgstr "По центру"
 
 #: src/libvlc-module.c:286 src/libvlc-module.c:364 modules/codec/dvbsub.c:102
-#: modules/codec/zvbi.c:78 modules/gui/macosx/VideoEffects.m:104
-#: modules/gui/macosx/VideoEffects.m:174 modules/gui/macosx/VideoEffects.m:196
+#: modules/codec/zvbi.c:78 modules/gui/macosx/VideoEffects.m:103
+#: modules/gui/macosx/VideoEffects.m:173 modules/gui/macosx/VideoEffects.m:195
 #: modules/video_filter/audiobargraph_v.c:74 modules/video_filter/logo.c:79
 #: modules/video_filter/marq.c:139 modules/video_filter/mosaic.c:170
 #: modules/video_filter/rss.c:173 modules/gui/qt4/ui/video_effects.h:1316
@@ -2023,8 +2023,8 @@ msgid "Top"
 msgstr "Зверху"
 
 #: src/libvlc-module.c:286 src/libvlc-module.c:364 modules/codec/dvbsub.c:102
-#: modules/codec/zvbi.c:78 modules/gui/macosx/VideoEffects.m:107
-#: modules/gui/macosx/VideoEffects.m:176 modules/gui/macosx/VideoEffects.m:198
+#: modules/codec/zvbi.c:78 modules/gui/macosx/VideoEffects.m:106
+#: modules/gui/macosx/VideoEffects.m:175 modules/gui/macosx/VideoEffects.m:197
 #: modules/video_filter/audiobargraph_v.c:74 modules/video_filter/logo.c:79
 #: modules/video_filter/marq.c:139 modules/video_filter/mosaic.c:170
 #: modules/video_filter/rss.c:173 modules/gui/qt4/ui/video_effects.h:1320
@@ -2032,8 +2032,8 @@ msgid "Bottom"
 msgstr "Знизу"
 
 #: src/libvlc-module.c:287 src/libvlc-module.c:365 modules/codec/dvbsub.c:103
-#: modules/codec/zvbi.c:79 modules/gui/macosx/VideoEffects.m:178
-#: modules/gui/macosx/VideoEffects.m:200
+#: modules/codec/zvbi.c:79 modules/gui/macosx/VideoEffects.m:177
+#: modules/gui/macosx/VideoEffects.m:199
 #: modules/video_filter/audiobargraph_v.c:75 modules/video_filter/logo.c:80
 #: modules/video_filter/marq.c:140 modules/video_filter/mosaic.c:171
 #: modules/video_filter/rss.c:174
@@ -2041,8 +2041,8 @@ msgid "Top-Left"
 msgstr "Зверху зліва"
 
 #: src/libvlc-module.c:287 src/libvlc-module.c:365 modules/codec/dvbsub.c:103
-#: modules/codec/zvbi.c:79 modules/gui/macosx/VideoEffects.m:180
-#: modules/gui/macosx/VideoEffects.m:202
+#: modules/codec/zvbi.c:79 modules/gui/macosx/VideoEffects.m:179
+#: modules/gui/macosx/VideoEffects.m:201
 #: modules/video_filter/audiobargraph_v.c:75 modules/video_filter/logo.c:80
 #: modules/video_filter/marq.c:140 modules/video_filter/mosaic.c:171
 #: modules/video_filter/rss.c:174
@@ -2050,8 +2050,8 @@ msgid "Top-Right"
 msgstr "Зверху справа"
 
 #: src/libvlc-module.c:287 src/libvlc-module.c:365 modules/codec/dvbsub.c:103
-#: modules/codec/zvbi.c:79 modules/gui/macosx/VideoEffects.m:182
-#: modules/gui/macosx/VideoEffects.m:204
+#: modules/codec/zvbi.c:79 modules/gui/macosx/VideoEffects.m:181
+#: modules/gui/macosx/VideoEffects.m:203
 #: modules/video_filter/audiobargraph_v.c:75 modules/video_filter/logo.c:80
 #: modules/video_filter/marq.c:140 modules/video_filter/mosaic.c:171
 #: modules/video_filter/rss.c:174
@@ -2059,8 +2059,8 @@ msgid "Bottom-Left"
 msgstr "Знизу зліва"
 
 #: src/libvlc-module.c:287 src/libvlc-module.c:365 modules/codec/dvbsub.c:103
-#: modules/codec/zvbi.c:79 modules/gui/macosx/VideoEffects.m:184
-#: modules/gui/macosx/VideoEffects.m:206
+#: modules/codec/zvbi.c:79 modules/gui/macosx/VideoEffects.m:183
+#: modules/gui/macosx/VideoEffects.m:205
 #: modules/video_filter/audiobargraph_v.c:75 modules/video_filter/logo.c:80
 #: modules/video_filter/marq.c:140 modules/video_filter/mosaic.c:171
 #: modules/video_filter/rss.c:174
@@ -2592,19 +2592,20 @@ msgstr ""
 #: src/libvlc-module.c:540 src/video_output/vout_intf.c:96
 #: src/video_output/vout_intf.c:114 modules/access/dshow/dshow.cpp:92
 #: modules/access/dshow/dshow.cpp:99 modules/access/dshow/dshow.cpp:119
-#: modules/access/dshow/dshow.cpp:2032 modules/audio_output/directx.c:771
-#: modules/gui/macosx/AudioEffects.m:87 modules/gui/macosx/MainMenu.m:600
-#: modules/gui/macosx/prefs_widgets.m:1211
+#: modules/access/dshow/dshow.cpp:2032 modules/audio_output/directx.c:795
+#: modules/gui/macosx/AudioEffects.m:86 modules/gui/macosx/MainMenu.m:600
+#: modules/gui/macosx/prefs_widgets.m:1214
+#: modules/gui/macosx/prefs_widgets.m:1287
 #: modules/gui/macosx/simple_prefs.m:389 modules/gui/macosx/simple_prefs.m:530
-#: modules/gui/macosx/simple_prefs.m:780 modules/gui/macosx/VideoEffects.m:58
+#: modules/gui/macosx/simple_prefs.m:780 modules/gui/macosx/VideoEffects.m:57
 #: modules/gui/qt4/components/preferences_widgets.cpp:545
 #: modules/video_filter/marq.c:60 modules/video_filter/rss.c:71
 #: modules/video_filter/rss.c:184 modules/video_output/msw/directx.c:1456
 msgid "Default"
 msgstr "Стандартно"
 
-#: src/libvlc-module.c:540 modules/gui/macosx/AudioEffects.m:113
-#: modules/gui/macosx/MainWindow.m:961 modules/gui/macosx/wizard.m:351
+#: src/libvlc-module.c:540 modules/gui/macosx/AudioEffects.m:112
+#: modules/gui/macosx/MainWindow.m:960 modules/gui/macosx/wizard.m:351
 #: modules/gui/qt4/components/extended_panels.cpp:1024
 #: modules/gui/qt4/ui/equalizer.h:134 modules/gui/qt4/ui/vlm.h:290
 msgid "Enable"
@@ -3906,7 +3907,7 @@ msgstr ""
 "Ці налаштування відповідають за прив'язку глобальних комбінацій клавіш VLC "
 "(„гарячі клавіші“)."
 
-#: src/libvlc-module.c:1197 modules/gui/macosx/intf.m:1916
+#: src/libvlc-module.c:1197 modules/gui/macosx/intf.m:1923
 msgid "Ignore"
 msgstr "Ігнорувати"
 
@@ -4014,8 +4015,8 @@ msgid "Slower (fine)"
 msgstr "Повільніше (точно)"
 
 #: src/libvlc-module.c:1223 modules/control/hotkeys.c:208
-#: modules/gui/macosx/about.m:274 modules/gui/macosx/ControlsBar.m:724
-#: modules/gui/macosx/ControlsBar.m:725 modules/gui/macosx/fspanel.m:420
+#: modules/gui/macosx/about.m:274 modules/gui/macosx/ControlsBar.m:726
+#: modules/gui/macosx/ControlsBar.m:727 modules/gui/macosx/fspanel.m:420
 #: modules/gui/macosx/MainMenu.m:360 modules/gui/macosx/MainMenu.m:458
 #: modules/gui/macosx/MainMenu.m:466 modules/gui/macosx/MainMenu.m:1449
 #: modules/gui/macosx/wizard.m:306 modules/gui/macosx/wizard.m:318
@@ -4032,8 +4033,8 @@ msgstr ""
 "відтворення."
 
 #: src/libvlc-module.c:1225 modules/control/hotkeys.c:212
-#: modules/gui/macosx/about.m:275 modules/gui/macosx/ControlsBar.m:713
-#: modules/gui/macosx/ControlsBar.m:714 modules/gui/macosx/fspanel.m:416
+#: modules/gui/macosx/about.m:275 modules/gui/macosx/ControlsBar.m:715
+#: modules/gui/macosx/ControlsBar.m:716 modules/gui/macosx/fspanel.m:416
 #: modules/gui/macosx/MainMenu.m:359 modules/gui/macosx/MainMenu.m:459
 #: modules/gui/macosx/MainMenu.m:465 modules/gui/macosx/MainMenu.m:1448
 #: modules/gui/qt4/components/controller.hpp:120 modules/notify/notify.c:337
@@ -4060,8 +4061,8 @@ msgstr "Виберіть гарячу клавішу для зупинки ві�
 
 #: src/libvlc-module.c:1229 modules/gui/macosx/bookmarks.m:99
 #: modules/gui/macosx/bookmarks.m:108 modules/gui/macosx/ControlsBar.m:64
-#: modules/gui/macosx/fspanel.m:444 modules/gui/macosx/VideoEffects.m:166
-#: modules/gui/macosx/VideoEffects.m:188 modules/video_filter/marq.c:161
+#: modules/gui/macosx/fspanel.m:444 modules/gui/macosx/VideoEffects.m:165
+#: modules/gui/macosx/VideoEffects.m:187 modules/video_filter/marq.c:161
 #: modules/video_filter/rss.c:200 modules/gui/qt4/ui/sprefs_subtitles.h:290
 #: modules/gui/qt4/ui/video_effects.h:1367
 msgid "Position"
@@ -4902,8 +4903,8 @@ msgid "Downloading ..."
 msgstr "Триває завантаження…"
 
 #: src/misc/update.c:585 src/misc/update.c:712 modules/demux/avi/avi.c:2387
-#: modules/gui/macosx/AudioEffects.m:388 modules/gui/macosx/AudioEffects.m:403
-#: modules/gui/macosx/AudioEffects.m:640 modules/gui/macosx/AudioEffects.m:740
+#: modules/gui/macosx/AudioEffects.m:387 modules/gui/macosx/AudioEffects.m:402
+#: modules/gui/macosx/AudioEffects.m:641 modules/gui/macosx/AudioEffects.m:741
 #: modules/gui/macosx/bookmarks.m:105 modules/gui/macosx/controls.m:54
 #: modules/gui/macosx/ConvertAndSave.m:168
 #: modules/gui/macosx/ConvertAndSave.m:367
@@ -4913,8 +4914,8 @@ msgstr "Триває завантаження…"
 #: modules/gui/macosx/open.m:126 modules/gui/macosx/open.m:188
 #: modules/gui/macosx/prefs.m:208 modules/gui/macosx/simple_prefs.m:195
 #: modules/gui/macosx/simple_prefs.m:223 modules/gui/macosx/simple_prefs.m:283
-#: modules/gui/macosx/simple_prefs.m:698 modules/gui/macosx/VideoEffects.m:838
-#: modules/gui/macosx/VideoEffects.m:902 modules/gui/macosx/wizard.m:317
+#: modules/gui/macosx/simple_prefs.m:698 modules/gui/macosx/VideoEffects.m:879
+#: modules/gui/macosx/VideoEffects.m:943 modules/gui/macosx/wizard.m:317
 #: modules/gui/qt4/components/open_panels.cpp:1347
 #: modules/gui/qt4/components/preferences_widgets.cpp:1424
 #: modules/gui/qt4/components/sout/profile_selector.cpp:435
@@ -5672,7 +5673,7 @@ msgid "Scale factor"
 msgstr "Множник масштабування"
 
 #: src/video_output/vout_intf.c:218 modules/gui/macosx/MainMenu.m:401
-#: modules/gui/macosx/MainMenu.m:402 modules/gui/macosx/VideoEffects.m:83
+#: modules/gui/macosx/MainMenu.m:402 modules/gui/macosx/VideoEffects.m:82
 #: modules/video_filter/croppadd.c:86 modules/gui/qt4/ui/video_effects.h:1326
 msgid "Crop"
 msgstr "Обрізати"
@@ -6950,7 +6951,7 @@ msgstr "Введення з файлів"
 #: modules/audio_output/file.c:110 modules/gui/macosx/open.m:128
 #: modules/gui/macosx/open.m:591 modules/gui/macosx/output.m:133
 #: modules/gui/macosx/output.m:217 modules/gui/macosx/output.m:341
-#: modules/gui/qt4/dialogs/plugins.cpp:577 modules/gui/qt4/dialogs/sout.cpp:69
+#: modules/gui/qt4/dialogs/plugins.cpp:581 modules/gui/qt4/dialogs/sout.cpp:69
 #: modules/gui/qt4/dialogs/sout.cpp:118
 #: share/lua/http/dialogs/create_stream.html:204
 #: share/lua/http/dialogs/stream_config_window.html:36
@@ -7181,7 +7182,7 @@ msgid "Channels count of an audio elementary stream"
 msgstr "Число звукових каналів елементарного потоку"
 
 #: modules/access/imem.c:83 modules/access/v4l2/v4l2.c:65
-#: modules/demux/rawvid.c:48 modules/gui/macosx/AudioEffects.m:132
+#: modules/demux/rawvid.c:48 modules/gui/macosx/AudioEffects.m:131
 #: modules/gui/macosx/ConvertAndSave.m:182
 #: modules/gui/qt4/components/extended_panels.cpp:1402
 #: modules/video_filter/mosaic.c:94 modules/video_output/vmem.c:42
@@ -7250,7 +7251,7 @@ msgstr "Функція „release“"
 msgid "Address of the release callback function"
 msgstr "Адреса функції „release“ зворотнього виклику"
 
-#: modules/access/imem.c:113 modules/gui/macosx/AudioEffects.m:131
+#: modules/access/imem.c:113 modules/gui/macosx/AudioEffects.m:130
 #: modules/gui/qt4/components/extended_panels.cpp:1401
 msgid "Size"
 msgstr "Розмір"
@@ -7458,19 +7459,19 @@ msgstr "Порт тунелю HTTP"
 msgid "Port to use for tunneling the RTSP/RTP over HTTP."
 msgstr "Порт для тунелювання RTSP/RTP по HTTP."
 
-#: modules/access/live555.cpp:626
+#: modules/access/live555.cpp:630
 msgid "RTSP authentication"
 msgstr "Аутентифікація RTSP"
 
-#: modules/access/live555.cpp:627
+#: modules/access/live555.cpp:631
 msgid "Please enter a valid login name and a password."
 msgstr "Будь ласка, введіть правильне ім'я користувача та пароль."
 
-#: modules/access/live555.cpp:651
+#: modules/access/live555.cpp:655
 msgid "RTSP connection failed"
 msgstr "Сталася помилка з’єднання RTSP"
 
-#: modules/access/live555.cpp:652
+#: modules/access/live555.cpp:656
 msgid "Access to the stream is denied by the server configuration."
 msgstr "Доступ до потоку заборонено конфігурацією сервера."
 
@@ -8481,7 +8482,7 @@ msgstr "Перезапуск елементів керування"
 msgid "Reset controls to defaults."
 msgstr "Змінює налаштування елементів керування до стандартних значень."
 
-#: modules/access/v4l2/v4l2.c:84 modules/gui/macosx/VideoEffects.m:93
+#: modules/access/v4l2/v4l2.c:84 modules/gui/macosx/VideoEffects.m:92
 #: modules/video_filter/atmo/atmo.cpp:263
 #: modules/gui/qt4/ui/video_effects.h:1304
 msgid "Brightness"
@@ -8499,7 +8500,7 @@ msgstr "Автоматична яскравість"
 msgid "Automatically adjust the picture brightness."
 msgstr "Автоматично змінювати яскравість зображення."
 
-#: modules/access/v4l2/v4l2.c:89 modules/gui/macosx/VideoEffects.m:92
+#: modules/access/v4l2/v4l2.c:89 modules/gui/macosx/VideoEffects.m:91
 #: modules/gui/qt4/ui/video_effects.h:1306
 msgid "Contrast"
 msgstr "Контрастність"
@@ -8508,8 +8509,8 @@ msgstr "Контрастність"
 msgid "Picture contrast or luma gain."
 msgstr "Контрастність зображення або підсилення сигналу яскравості."
 
-#: modules/access/v4l2/v4l2.c:91 modules/gui/macosx/VideoEffects.m:95
-#: modules/gui/macosx/VideoEffects.m:135
+#: modules/access/v4l2/v4l2.c:91 modules/gui/macosx/VideoEffects.m:94
+#: modules/gui/macosx/VideoEffects.m:134
 #: modules/gui/qt4/ui/video_effects.h:1307
 #: modules/gui/qt4/ui/video_effects.h:1339
 msgid "Saturation"
@@ -8519,7 +8520,7 @@ msgstr "Насиченість"
 msgid "Picture saturation or chroma gain."
 msgstr "Насиченість зображення або підсилення сигналу насиченості."
 
-#: modules/access/v4l2/v4l2.c:93 modules/gui/macosx/VideoEffects.m:91
+#: modules/access/v4l2/v4l2.c:93 modules/gui/macosx/VideoEffects.m:90
 #: modules/gui/qt4/ui/video_effects.h:1303
 msgid "Hue"
 msgstr "Відтінок"
@@ -8572,7 +8573,7 @@ msgstr "Баланс синього"
 msgid "Blue chroma balance."
 msgstr "Баланс синього кольору."
 
-#: modules/access/v4l2/v4l2.c:111 modules/gui/macosx/VideoEffects.m:96
+#: modules/access/v4l2/v4l2.c:111 modules/gui/macosx/VideoEffects.m:95
 #: modules/gui/qt4/ui/video_effects.h:1308
 msgid "Gamma"
 msgstr "Гама"
@@ -8699,7 +8700,7 @@ msgstr "Виберіть ефект кольору."
 msgid "Black & white"
 msgstr "Чорно-білий"
 
-#: modules/access/v4l2/v4l2.c:164 modules/gui/macosx/VideoEffects.m:137
+#: modules/access/v4l2/v4l2.c:164 modules/gui/macosx/VideoEffects.m:136
 #: modules/video_filter/sepia.c:65 modules/gui/qt4/ui/video_effects.h:1341
 msgid "Sepia"
 msgstr "Сепія"
@@ -9503,7 +9504,7 @@ msgstr "Сухе змішування"
 msgid "Level of input signal"
 msgstr "Рівень вхідного сигналу"
 
-#: modules/audio_filter/compressor.c:155 modules/gui/macosx/AudioEffects.m:120
+#: modules/audio_filter/compressor.c:155 modules/gui/macosx/AudioEffects.m:119
 #: modules/gui/qt4/components/extended_panels.cpp:1379
 msgid "RMS/peak"
 msgstr "RMS/пік"
@@ -9536,7 +9537,7 @@ msgstr "Рівень порогу"
 msgid "Set the threshold level in dB (-30 ... 0)."
 msgstr "Установіть рівень порогу в дБ (-30…0)."
 
-#: modules/audio_filter/compressor.c:169 modules/gui/macosx/AudioEffects.m:124
+#: modules/audio_filter/compressor.c:169 modules/gui/macosx/AudioEffects.m:123
 #: modules/gui/qt4/components/extended_panels.cpp:1383
 msgid "Ratio"
 msgstr "Коефіцієнт"
@@ -9545,7 +9546,7 @@ msgstr "Коефіцієнт"
 msgid "Set the ratio (n:1) (1 ... 20)."
 msgstr "Установіть коефіцієнт (n:1) (1…20)."
 
-#: modules/audio_filter/compressor.c:172 modules/gui/macosx/AudioEffects.m:125
+#: modules/audio_filter/compressor.c:172 modules/gui/macosx/AudioEffects.m:124
 msgid "Knee radius"
 msgstr "Радіус вигину"
 
@@ -9553,7 +9554,7 @@ msgstr "Радіус вигину"
 msgid "Set the knee radius in dB (1 ... 10)."
 msgstr "Установіть радіус вигину в дБ (1…10)."
 
-#: modules/audio_filter/compressor.c:175 modules/gui/macosx/AudioEffects.m:126
+#: modules/audio_filter/compressor.c:175 modules/gui/macosx/AudioEffects.m:125
 msgid "Makeup gain"
 msgstr "Підсилення структури"
 
@@ -9561,7 +9562,7 @@ msgstr "Підсилення структури"
 msgid "Set the makeup gain in dB (0 ... 24)."
 msgstr "Установіть підсилення структури в дБ (0…24)."
 
-#: modules/audio_filter/compressor.c:179 modules/gui/macosx/AudioEffects.m:145
+#: modules/audio_filter/compressor.c:179 modules/gui/macosx/AudioEffects.m:144
 #: modules/gui/qt4/dialogs/extended.cpp:67
 msgid "Compressor"
 msgstr "Компресор"
@@ -9769,7 +9770,7 @@ msgid "Gain control filter"
 msgstr "Посилення контролю фільтра"
 
 #: modules/audio_filter/karaoke.c:35 modules/demux/xiph_metadata.h:49
-#: modules/gui/macosx/AudioEffects.m:141
+#: modules/gui/macosx/AudioEffects.m:140
 msgid "Karaoke"
 msgstr "Караоке"
 
@@ -9977,19 +9978,19 @@ msgid "Width of the virtual room"
 msgstr "Ширина віртуальної кімнати"
 
 #: modules/audio_filter/spatializer/spatializer.cpp:61
-#: modules/gui/macosx/AudioEffects.m:133
+#: modules/gui/macosx/AudioEffects.m:132
 #: modules/gui/qt4/components/extended_panels.cpp:1403
 msgid "Wet"
 msgstr "Вологість"
 
 #: modules/audio_filter/spatializer/spatializer.cpp:64
-#: modules/gui/macosx/AudioEffects.m:134
+#: modules/gui/macosx/AudioEffects.m:133
 #: modules/gui/qt4/components/extended_panels.cpp:1404
 msgid "Dry"
 msgstr "Сухість"
 
 #: modules/audio_filter/spatializer/spatializer.cpp:67
-#: modules/gui/macosx/AudioEffects.m:135
+#: modules/gui/macosx/AudioEffects.m:134
 #: modules/gui/qt4/components/extended_panels.cpp:1405
 msgid "Damp"
 msgstr "Пом’якшення"
@@ -9999,7 +10000,7 @@ msgid "Audio Spatializer"
 msgstr "Покращувач звуку"
 
 #: modules/audio_filter/spatializer/spatializer.cpp:72
-#: modules/gui/macosx/AudioEffects.m:146
+#: modules/gui/macosx/AudioEffects.m:145
 #: modules/gui/qt4/dialogs/extended.cpp:70
 msgid "Spatializer"
 msgstr "Покращувач"
@@ -11306,35 +11307,35 @@ msgstr "Декодер звуку AAC (через libfaad2)"
 msgid "AAC extension"
 msgstr "Розширення AAC"
 
-#: modules/codec/fdkaac.c:41
+#: modules/codec/fdkaac.c:67
 msgid "Encoder Profile"
 msgstr "Профіль кодера"
 
-#: modules/codec/fdkaac.c:42
+#: modules/codec/fdkaac.c:68
 msgid "Encoder Algorithm to use"
 msgstr "Алгоритм кодера для використання"
 
-#: modules/codec/fdkaac.c:44
+#: modules/codec/fdkaac.c:70
 msgid "Enable spectral band replication"
 msgstr "Увімнкути реплікацію смуг спектру"
 
-#: modules/codec/fdkaac.c:45
+#: modules/codec/fdkaac.c:71
 msgid "This is an optional feature only for the AAC-ELD profile"
 msgstr "Це додаткова функція тільки для профілю AAC-ELD"
 
-#: modules/codec/fdkaac.c:47
+#: modules/codec/fdkaac.c:73
 msgid "VBR Quality"
 msgstr "Якість VBR"
 
-#: modules/codec/fdkaac.c:48
+#: modules/codec/fdkaac.c:74
 msgid "Quality of the VBR Encoding (0=cbr, 1-5 constant quality vbr, 5 is best"
 msgstr "Якість кодування VBR (0=cbr, 1-5 сталі якості vbr, 5 - найкраща"
 
-#: modules/codec/fdkaac.c:50
+#: modules/codec/fdkaac.c:76
 msgid "Enable afterburner library"
 msgstr "Увімкнути бібліотеку afterburner"
 
-#: modules/codec/fdkaac.c:51
+#: modules/codec/fdkaac.c:77
 msgid ""
 "This library will produce higher quality audio at the expense of additional "
 "CPU usage (default is enabled)"
@@ -11342,41 +11343,41 @@ msgstr ""
 "Ця бібліотека створює якісніший звук за рахунок додаткового навантаження на "
 "процесор (типово увімкнена)"
 
-#: modules/codec/fdkaac.c:53
+#: modules/codec/fdkaac.c:79
 msgid "Signaling mode of the extension AOT"
 msgstr "Сигнальний режим розширення AOT"
 
-#: modules/codec/fdkaac.c:54
+#: modules/codec/fdkaac.c:80
 msgid ""
 "1 is explicit for SBR and implicit for PS (default), 2 is explicit "
 "hierarchical"
 msgstr "1 є явним для SBR та неявним для (типово), 2 є явним ієрархічним"
 
-#: modules/codec/fdkaac.c:71
+#: modules/codec/fdkaac.c:97
 msgid "AAC-LC"
 msgstr "AAC-LC"
 
-#: modules/codec/fdkaac.c:71
+#: modules/codec/fdkaac.c:97
 msgid "HE-AAC"
 msgstr "HE-AAC"
 
-#: modules/codec/fdkaac.c:71
+#: modules/codec/fdkaac.c:97
 msgid "HE-AAC-v2"
 msgstr "HE-AAC-v2"
 
-#: modules/codec/fdkaac.c:71
+#: modules/codec/fdkaac.c:97
 msgid "AAC-LD"
 msgstr "AAC-LD"
 
-#: modules/codec/fdkaac.c:71
+#: modules/codec/fdkaac.c:97
 msgid "AAC-ELD"
 msgstr "AAC-ELD"
 
-#: modules/codec/fdkaac.c:74
+#: modules/codec/fdkaac.c:100
 msgid "FDKAAC"
 msgstr "FDKAAC"
 
-#: modules/codec/fdkaac.c:75
+#: modules/codec/fdkaac.c:101
 msgid "FDK-AAC Audio encoder"
 msgstr "Кодер звуку FDK-AAC"
 
@@ -12302,7 +12303,7 @@ msgid "MP3 fixed point audio encoder"
 msgstr "Кодер звуку MP3 з фіксованою комою"
 
 #: modules/codec/speex.c:59 modules/codec/speex.c:799
-#: modules/gui/macosx/open.m:191 modules/gui/macosx/VideoEffects.m:141
+#: modules/gui/macosx/open.m:191 modules/gui/macosx/VideoEffects.m:140
 #: modules/gui/qt4/ui/sprefs_video.h:356
 #: modules/gui/qt4/ui/video_effects.h:1333
 msgid "Mode"
@@ -13815,7 +13816,7 @@ msgstr "Інтерфейс керування D-Bus"
 
 #: modules/control/dbus/dbus_root.c:81 modules/gui/macosx/MainWindow.m:202
 #: modules/gui/macosx/MainWindow.m:674 modules/gui/macosx/MainWindow.m:680
-#: modules/gui/macosx/MainWindow.m:1243 modules/gui/ncurses.c:1027
+#: modules/gui/macosx/MainWindow.m:1241 modules/gui/ncurses.c:1030
 #: modules/gui/qt4/dialogs/help.cpp:91 modules/gui/qt4/main_interface.cpp:1013
 #: modules/gui/qt4/main_interface.cpp:1017
 #: modules/gui/qt4/main_interface.cpp:1056
@@ -14232,290 +14233,290 @@ msgstr "RC"
 msgid "Remote control interface"
 msgstr "Інтерфейс дистанційного керування"
 
-#: modules/control/rc.c:349
+#: modules/control/rc.c:353
 msgid "Remote control interface initialized. Type `help' for help."
 msgstr "Інтерфейс віддаленого керування запущений. Введіть 'help' для довідки."
 
-#: modules/control/rc.c:761
+#: modules/control/rc.c:765
 #, c-format
 msgid "Unknown command `%s'. Type `help' for help."
 msgstr "Невідома команда `%s'. Введіть `help' для довідки."
 
-#: modules/control/rc.c:779
+#: modules/control/rc.c:783
 msgid "+----[ Remote control commands ]"
 msgstr "+----[ Команди дистанційного керування ]"
 
-#: modules/control/rc.c:781
+#: modules/control/rc.c:785
 msgid "| add XYZ  . . . . . . . . . . . . add XYZ to playlist"
 msgstr ""
 "| add XYZ  . . . . . . . . . . . . . . . . додати XYZ до списку відтворення"
 
-#: modules/control/rc.c:782
+#: modules/control/rc.c:786
 msgid "| enqueue XYZ  . . . . . . . . . queue XYZ to playlist"
 msgstr ""
 "| enqueue XYZ  . . . . . . . . . . помістити XYZ у чергу списку відтворення"
 
-#: modules/control/rc.c:783
+#: modules/control/rc.c:787
 msgid "| playlist . . . . .  show items currently in playlist"
 msgstr ""
 "| playlist . . . . . . . . . . показати поточні елементи списку відтворення"
 
-#: modules/control/rc.c:784
+#: modules/control/rc.c:788
 msgid "| play . . . . . . . . . . . . . . . . . . play stream"
 msgstr ""
 "| play . . . . . . . . . . . . . . . . . . . . . . . . . . відтворити потік"
 
-#: modules/control/rc.c:785
+#: modules/control/rc.c:789
 msgid "| stop . . . . . . . . . . . . . . . . . . stop stream"
 msgstr ""
 "| stop . . . . . . . . . . . . . . . . . . . . . . . . . . . зупинити потік"
 
-#: modules/control/rc.c:786
+#: modules/control/rc.c:790
 msgid "| next . . . . . . . . . . . . . .  next playlist item"
 msgstr ""
 "| next . . . . . . . . . . . . . . . . наступний елемент списку відтворення"
 
-#: modules/control/rc.c:787
+#: modules/control/rc.c:791
 msgid "| prev . . . . . . . . . . . .  previous playlist item"
 msgstr ""
 "| prev . . . . . . . . . . . . . . .  попередній елемент списку відтворення"
 
-#: modules/control/rc.c:788
+#: modules/control/rc.c:792
 msgid "| goto . . . . . . . . . . . . . .  goto item at index"
 msgstr ""
 "| goto . . . . . . . . . . . . . . . . . . .  перейти до елемента з номером"
 
-#: modules/control/rc.c:789
+#: modules/control/rc.c:793
 msgid "| repeat [on|off] . . . .  toggle playlist item repeat"
 msgstr ""
 "| repeat [on|off] . . . . перемкнути повторення елементу списку відтворення"
 
-#: modules/control/rc.c:790
+#: modules/control/rc.c:794
 msgid "| loop [on|off] . . . . . . . . . toggle playlist loop"
 msgstr ""
 "| loop [on|off] . . . . . . . . . перемкнути циклічність списку відтворення"
 
-#: modules/control/rc.c:791
+#: modules/control/rc.c:795
 msgid "| random [on|off] . . . . . . .  toggle random jumping"
 msgstr ""
 "| random [on|off] . . . . . . . . . . . . . . перемкнути випадковий перехід"
 
-#: modules/control/rc.c:792
+#: modules/control/rc.c:796
 msgid "| clear . . . . . . . . . . . . . . clear the playlist"
 msgstr ""
 "| clear . . . . . . . . . . . . . . . . . . . . очистити список відтворення"
 
-#: modules/control/rc.c:793
+#: modules/control/rc.c:797
 msgid "| status . . . . . . . . . . . current playlist status"
 msgstr ""
 "| status . . . . . . . . . . . . . . . . поточний статус списку відтворення"
 
-#: modules/control/rc.c:794
+#: modules/control/rc.c:798
 msgid "| title [X]  . . . . . . set/get title in current item"
 msgstr ""
 "| title [X]  . . . . . . . встановити/отримати заголовок поточного елемента"
 
-#: modules/control/rc.c:795
+#: modules/control/rc.c:799
 msgid "| title_n  . . . . . . . .  next title in current item"
 msgstr ""
 "| title_n  . . . . . . . . . . . . . наступний заголовок поточного елемента"
 
-#: modules/control/rc.c:796
+#: modules/control/rc.c:800
 msgid "| title_p  . . . . . .  previous title in current item"
 msgstr ""
 "| title_p  . . . . . . . . . . . .  попередній заголовок поточного елемента"
 
-#: modules/control/rc.c:797
+#: modules/control/rc.c:801
 msgid "| chapter [X]  . . . . set/get chapter in current item"
 msgstr ""
 "| chapter [X] . . . . . . . . встановити/отримати розділ поточного елемента"
 
-#: modules/control/rc.c:798
+#: modules/control/rc.c:802
 msgid "| chapter_n  . . . . . .  next chapter in current item"
 msgstr ""
 "| chapter_n  . . . . . . . . . . . . .  наступний розділ поточного елемента"
 
-#: modules/control/rc.c:799
+#: modules/control/rc.c:803
 msgid "| chapter_p  . . . .  previous chapter in current item"
 msgstr ""
 "| chapter_p  . . . . . . . . . . . . . попередній розділ поточного елемента"
 
-#: modules/control/rc.c:801
+#: modules/control/rc.c:805
 msgid "| seek X . . . seek in seconds, for instance `seek 12'"
 msgstr ""
 "| seek X . . . . . . . . . . . . . позиція в секундах, наприклад, «seek 12»"
 
-#: modules/control/rc.c:802
+#: modules/control/rc.c:806
 msgid "| pause  . . . . . . . . . . . . . . . .  toggle pause"
 msgstr ""
 "| pause  . . . . . . . . . . . . . . . . . . . . . . . . . перемкнути паузу"
 
-#: modules/control/rc.c:803
+#: modules/control/rc.c:807
 msgid "| fastforward  . . . . . . . .  .  set to maximum rate"
 msgstr ""
 "| fastforward  . . . . . . . . . . . .  встановити на максимальну швидкість"
 
-#: modules/control/rc.c:804
+#: modules/control/rc.c:808
 msgid "| rewind  . . . . . . . . . . . .  set to minimum rate"
 msgstr ""
 "| rewind  . . . . . . . . . . . . . . .  встановити на мінімальну швидкість"
 
-#: modules/control/rc.c:805
+#: modules/control/rc.c:809
 msgid "| faster . . . . . . . . . .  faster playing of stream"
 msgstr ""
 "| faster . . . . . . . . . . . . . . . . . . пришвидшене відтворення потоку"
 
-#: modules/control/rc.c:806
+#: modules/control/rc.c:810
 msgid "| slower . . . . . . . . . .  slower playing of stream"
 msgstr ""
 "| slower . . . . . . . . . . . . . . . . . . уповільнене відтворення потоку"
 
-#: modules/control/rc.c:807
+#: modules/control/rc.c:811
 msgid "| normal . . . . . . . . . .  normal playing of stream"
 msgstr ""
 "| normal . . . . . . . . . . . . . . . . . . . нормальне відтворення потоку"
 
-#: modules/control/rc.c:808
+#: modules/control/rc.c:812
 msgid "| frame. . . . . . . . . .  play frame by frame"
 msgstr ""
 "| frame . . . . . . . . . . . . . . . . . . . . відтворювати кадр за кадром"
 
-#: modules/control/rc.c:809
+#: modules/control/rc.c:813
 msgid "| f [on|off] . . . . . . . . . . . . toggle fullscreen"
 msgstr ""
 "| f [on|off] . . . . . . . . . . . . . . . . перемкнути повноекранний режим"
 
-#: modules/control/rc.c:810
+#: modules/control/rc.c:814
 msgid "| info . . . . .  information about the current stream"
 msgstr ""
 "| info . . . . . . . . . . . . . . . . . . .  інформація про поточний потік"
 
-#: modules/control/rc.c:811
+#: modules/control/rc.c:815
 msgid "| stats  . . . . . . . .  show statistical information"
 msgstr ""
 "| stats  . . . . . . . . . . . . . . . . .  показати статистичну інформацію"
 
-#: modules/control/rc.c:812
+#: modules/control/rc.c:816
 msgid "| get_time . . seconds elapsed since stream's beginning"
 msgstr ""
 "| get_time . . . . . . . показати секунди, що пройшли з початку відтворення"
 
-#: modules/control/rc.c:813
+#: modules/control/rc.c:817
 msgid "| is_playing . . . .  1 if a stream plays, 0 otherwise"
 msgstr ""
 "| is_playing . . . . . . . . . . . .  1, якщо потік відтворюється, інакше 0"
 
-#: modules/control/rc.c:814
+#: modules/control/rc.c:818
 msgid "| get_title . . . . .  the title of the current stream"
 msgstr ""
 "| get_title . . . . . . . . . . . . . . . . . .  заголовок поточного потоку"
 
-#: modules/control/rc.c:815
+#: modules/control/rc.c:819
 msgid "| get_length . . . .  the length of the current stream"
 msgstr ""
 "| get_length . . . . . . . . . . . . . . . . . . . довжина поточного потоку"
 
-#: modules/control/rc.c:817
+#: modules/control/rc.c:821
 msgid "| volume [X] . . . . . . . . . .  set/get audio volume"
 msgstr ""
 "| volume [X] . . . . . . . . . . . . . . встановити/отримати гучність звуку"
 
-#: modules/control/rc.c:818
+#: modules/control/rc.c:822
 msgid "| volup [X]  . . . . . . .  raise audio volume X steps"
 msgstr ""
 "| volup [X] . . . . . . . . . . . . .  збільшити гучність звуку на X кроків"
 
-#: modules/control/rc.c:819
+#: modules/control/rc.c:823
 msgid "| voldown [X]  . . . . . .  lower audio volume X steps"
 msgstr ""
 "| voldown [X] . . . .  . . . . . . . .  зменшити гучність звуку на X кроків"
 
-#: modules/control/rc.c:820
+#: modules/control/rc.c:824
 msgid "| adev [device]  . . . . . . . .  set/get audio device"
 msgstr "| adev [пристрій] . . . . . . . . задати / отримати аудіопристрій"
 
-#: modules/control/rc.c:821
+#: modules/control/rc.c:825
 msgid "| achan [X]. . . . . . . . . .  set/get audio channels"
 msgstr ""
 "| achan [X]. . . . . . . . . . . . . . . .  задати/отримати звукові канали"
 
-#: modules/control/rc.c:822
+#: modules/control/rc.c:826
 msgid "| atrack [X] . . . . . . . . . . . set/get audio track"
 msgstr ""
 "| atrack [X] . . . . . . . . . . . . . . . задати/отримати звукову доріжку"
 
-#: modules/control/rc.c:823
+#: modules/control/rc.c:827
 msgid "| vtrack [X] . . . . . . . . . . . set/get video track"
 msgstr ""
 "| vtrack [X] . . . . . . . . . . . . . . . встановити/отримати відеодоріжку"
 
-#: modules/control/rc.c:824
+#: modules/control/rc.c:828
 msgid "| vratio [X]  . . . . . . . set/get video aspect ratio"
 msgstr ""
 "| vratio [X]  . . . . . . . встановити/отримати співвідношення сторін відео"
 
-#: modules/control/rc.c:825
+#: modules/control/rc.c:829
 msgid "| vcrop [X]  . . . . . . . . . . .  set/get video crop"
 msgstr ""
 "| vcrop [X]  . . . . . . . . . . . . . .  встановити/отримати обрізку відео"
 
-#: modules/control/rc.c:826
+#: modules/control/rc.c:830
 msgid "| vzoom [X]  . . . . . . . . . . .  set/get video zoom"
 msgstr ""
 "| vzoom [X]  . . . . . . . . . . . . . .  встановити/отримати масштаб відео"
 
-#: modules/control/rc.c:827
+#: modules/control/rc.c:831
 msgid "| snapshot . . . . . . . . . . . . take video snapshot"
 msgstr ""
 "| snapshot . . . . . . . . . . . . . . . . . . . . . . . . .зняти стоп-кадр"
 
-#: modules/control/rc.c:828
+#: modules/control/rc.c:832
 msgid "| strack [X] . . . . . . . . .  set/get subtitle track"
 msgstr "| strack [X]. . . . . . . . . задати/отримати доріжку субтитрів"
 
-#: modules/control/rc.c:829
+#: modules/control/rc.c:833
 msgid "| key [hotkey name] . . . . . .  simulate hotkey press"
 msgstr ""
 "| key [hotkey name] . . . . . . . . . симулювати натиснення гарячої клавіші"
 
-#: modules/control/rc.c:830
+#: modules/control/rc.c:834
 msgid "| menu . . [on|off|up|down|left|right|select] use menu"
 msgstr ""
 "| menu . . . . . . . . [on|off|up|down|left|right|select] використання меню"
 
-#: modules/control/rc.c:832
+#: modules/control/rc.c:836
 msgid "| help . . . . . . . . . . . . . . . this help message"
 msgstr ""
 "| help . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ця довідка"
 
-#: modules/control/rc.c:833
+#: modules/control/rc.c:837
 msgid "| logout . . . . . . .  exit (if in socket connection)"
 msgstr ""
 "| logout . . . . . . . . . . . . . . . . вихід (якщо з’єднання через сокет)"
 
-#: modules/control/rc.c:834
+#: modules/control/rc.c:838
 msgid "| quit . . . . . . . . . . . . . . . . . . .  quit vlc"
 msgstr ""
 "| quit . . . . . . . . . . . . . . . . . . . . . . . . . . . .  вийти з vlc"
 
-#: modules/control/rc.c:836
+#: modules/control/rc.c:840
 msgid "+----[ end of help ]"
 msgstr "+----[ кінець довідки ]"
 
-#: modules/control/rc.c:963
+#: modules/control/rc.c:967
 msgid "Press menu select or pause to continue."
 msgstr "Натисніть вибір меню або паузу для продовження."
 
-#: modules/control/rc.c:1189 modules/control/rc.c:1443
-#: modules/control/rc.c:1487
+#: modules/control/rc.c:1193 modules/control/rc.c:1447
+#: modules/control/rc.c:1491
 msgid "Type 'menu select' or 'pause' to continue."
 msgstr "Введіть „menu select“ або „pause“ для продовження."
 
-#: modules/control/rc.c:1281
+#: modules/control/rc.c:1285
 msgid "Error: `goto' needs an argument greater than zero."
 msgstr "Помилка: „goto“ вимагає аргументу, більшого за нуль."
 
-#: modules/control/rc.c:1292
+#: modules/control/rc.c:1296
 #, c-format
 msgid "Playlist has only %u element"
 msgid_plural "Playlist has only %u elements"
@@ -14523,93 +14524,93 @@ msgstr[0] "Список відтворення має лише %u елемент
 msgstr[1] "Список відтворення має лише %u елементи"
 msgstr[2] "Список відтворення має лише %u елементів"
 
-#: modules/control/rc.c:1743 modules/gui/ncurses.c:802
+#: modules/control/rc.c:1747 modules/gui/ncurses.c:805
 msgid "+-[Incoming]"
 msgstr "+-[Вхідне]"
 
-#: modules/control/rc.c:1744 modules/gui/ncurses.c:804
+#: modules/control/rc.c:1748 modules/gui/ncurses.c:807
 #, c-format
 msgid "| input bytes read : %8.0f KiB"
 msgstr "| прочитано вхідних байтів          : %8.0f КіБ"
 
-#: modules/control/rc.c:1746 modules/gui/ncurses.c:806
+#: modules/control/rc.c:1750 modules/gui/ncurses.c:809
 #, c-format
 msgid "| input bitrate    :   %6.0f kb/s"
 msgstr "| вхідний бітрейт                   :   %6.0f кб/с"
 
-#: modules/control/rc.c:1748 modules/gui/ncurses.c:808
+#: modules/control/rc.c:1752 modules/gui/ncurses.c:811
 #, c-format
 msgid "| demux bytes read : %8.0f KiB"
 msgstr "| прочитано байтів демультиплексора : %8.0f КіБ"
 
-#: modules/control/rc.c:1750 modules/gui/ncurses.c:810
+#: modules/control/rc.c:1754 modules/gui/ncurses.c:813
 #, c-format
 msgid "| demux bitrate    :   %6.0f kb/s"
 msgstr "| бітрейт демультиплексора          :   %6.0f кб/с"
 
-#: modules/control/rc.c:1752
+#: modules/control/rc.c:1756
 #, c-format
 msgid "| demux corrupted  :    %5<PRIi64>"
 msgstr "| пошкоджено демультиплексованих    :    %5<PRIi64>"
 
-#: modules/control/rc.c:1754
+#: modules/control/rc.c:1758
 #, c-format
 msgid "| discontinuities  :    %5<PRIi64>"
 msgstr "| перерваних                        :    %5<PRIi64>"
 
-#: modules/control/rc.c:1758 modules/gui/ncurses.c:816
+#: modules/control/rc.c:1762 modules/gui/ncurses.c:819
 msgid "+-[Video Decoding]"
 msgstr "+-[Декодування відео]"
 
-#: modules/control/rc.c:1759 modules/gui/ncurses.c:818
+#: modules/control/rc.c:1763 modules/gui/ncurses.c:821
 #, c-format
 msgid "| video decoded    :    %5<PRIi64>"
 msgstr "| відео декодовано                  :    %5<PRIi64>"
 
-#: modules/control/rc.c:1761 modules/gui/ncurses.c:820
+#: modules/control/rc.c:1765 modules/gui/ncurses.c:823
 #, c-format
 msgid "| frames displayed :    %5<PRIi64>"
 msgstr "| показано кадрів                   :    %5<PRIi64>"
 
-#: modules/control/rc.c:1763 modules/gui/ncurses.c:822
+#: modules/control/rc.c:1767 modules/gui/ncurses.c:825
 #, c-format
 msgid "| frames lost      :    %5<PRIi64>"
 msgstr "| втрачено кадрів                   :    %5<PRIi64>"
 
-#: modules/control/rc.c:1767 modules/gui/ncurses.c:828
+#: modules/control/rc.c:1771 modules/gui/ncurses.c:831
 msgid "+-[Audio Decoding]"
 msgstr "+-[Декодування звуку]"
 
-#: modules/control/rc.c:1768 modules/gui/ncurses.c:830
+#: modules/control/rc.c:1772 modules/gui/ncurses.c:833
 #, c-format
 msgid "| audio decoded    :    %5<PRIi64>"
 msgstr "| звуку декодовано                  :    %5<PRIi64>"
 
-#: modules/control/rc.c:1770 modules/gui/ncurses.c:832
+#: modules/control/rc.c:1774 modules/gui/ncurses.c:835
 #, c-format
 msgid "| buffers played   :    %5<PRIi64>"
 msgstr "| відтворено буферів                :    %5<PRIi64>"
 
-#: modules/control/rc.c:1772 modules/gui/ncurses.c:834
+#: modules/control/rc.c:1776 modules/gui/ncurses.c:837
 #, c-format
 msgid "| buffers lost     :    %5<PRIi64>"
 msgstr "| втрачено буферів                  :    %5<PRIi64>"
 
-#: modules/control/rc.c:1776 modules/gui/ncurses.c:839
+#: modules/control/rc.c:1780 modules/gui/ncurses.c:842
 msgid "+-[Streaming]"
 msgstr "+-[Мовлення]"
 
-#: modules/control/rc.c:1777 modules/gui/ncurses.c:841
+#: modules/control/rc.c:1781 modules/gui/ncurses.c:844
 #, c-format
 msgid "| packets sent     :    %5<PRIi64>"
 msgstr "| відправлено пакетів               :    %5<PRIi64>"
 
-#: modules/control/rc.c:1779 modules/gui/ncurses.c:842
+#: modules/control/rc.c:1783 modules/gui/ncurses.c:845
 #, c-format
 msgid "| bytes sent       : %8.0f KiB"
 msgstr "| відправлено байтів                : %8.0f КіБ"
 
-#: modules/control/rc.c:1781 modules/gui/ncurses.c:844
+#: modules/control/rc.c:1785 modules/gui/ncurses.c:847
 #, c-format
 msgid "| sending bitrate  :   %6.0f kb/s"
 msgstr "| бітрейт надсилання                :   %6.0f кб/с"
@@ -15125,7 +15126,7 @@ msgstr "Музичний кліп"
 msgid "Gospel"
 msgstr "Євангеліє"
 
-#: modules/demux/mp4/id3genres.h:71 modules/gui/macosx/VideoEffects.m:139
+#: modules/demux/mp4/id3genres.h:71 modules/gui/macosx/VideoEffects.m:138
 msgid "Noise"
 msgstr "Шум"
 
@@ -15233,7 +15234,7 @@ msgstr "Кабаре"
 msgid "New Wave"
 msgstr "Нова хвиля"
 
-#: modules/demux/mp4/id3genres.h:99 modules/gui/macosx/VideoEffects.m:161
+#: modules/demux/mp4/id3genres.h:99 modules/gui/macosx/VideoEffects.m:160
 #: modules/video_filter/psychedelic.c:55
 #: modules/gui/qt4/ui/video_effects.h:1390
 msgid "Psychedelic"
@@ -15829,7 +15830,7 @@ msgid "ZPL playlist import"
 msgstr "Імпорт списку відтворення ZPL"
 
 #: modules/demux/playlist/podcast.c:194 modules/demux/playlist/podcast.c:206
-#: modules/demux/playlist/podcast.c:250 modules/demux/playlist/podcast.c:270
+#: modules/demux/playlist/podcast.c:266 modules/demux/playlist/podcast.c:286
 msgid "Podcast Info"
 msgstr "Інформація про подкаст"
 
@@ -15845,43 +15846,43 @@ msgstr "Авторські права на подкаст"
 msgid "Podcast Category"
 msgstr "Категорія подкасту"
 
-#: modules/demux/playlist/podcast.c:199 modules/demux/playlist/podcast.c:257
+#: modules/demux/playlist/podcast.c:199 modules/demux/playlist/podcast.c:273
 msgid "Podcast Keywords"
 msgstr "Ключові слова подкасту"
 
-#: modules/demux/playlist/podcast.c:200 modules/demux/playlist/podcast.c:258
+#: modules/demux/playlist/podcast.c:200 modules/demux/playlist/podcast.c:274
 msgid "Podcast Subtitle"
 msgstr "Субтитри подкасту"
 
-#: modules/demux/playlist/podcast.c:206 modules/demux/playlist/podcast.c:259
+#: modules/demux/playlist/podcast.c:206 modules/demux/playlist/podcast.c:275
 msgid "Podcast Summary"
 msgstr "Зведена інформація про подкаст"
 
-#: modules/demux/playlist/podcast.c:253
+#: modules/demux/playlist/podcast.c:269
 msgid "Podcast Publication Date"
 msgstr "Дата публікації подкасту"
 
-#: modules/demux/playlist/podcast.c:254
+#: modules/demux/playlist/podcast.c:270
 msgid "Podcast Author"
 msgstr "Автор подкасту"
 
-#: modules/demux/playlist/podcast.c:255
+#: modules/demux/playlist/podcast.c:271
 msgid "Podcast Subcategory"
 msgstr "Підкатегорія подкасту"
 
-#: modules/demux/playlist/podcast.c:256
+#: modules/demux/playlist/podcast.c:272
 msgid "Podcast Duration"
 msgstr "Тривалість подкасту"
 
-#: modules/demux/playlist/podcast.c:260
+#: modules/demux/playlist/podcast.c:276
 msgid "Podcast Type"
 msgstr "Тип подкасту"
 
-#: modules/demux/playlist/podcast.c:271
+#: modules/demux/playlist/podcast.c:287
 msgid "Podcast Size"
 msgstr "Розмір подкасту"
 
-#: modules/demux/playlist/podcast.c:272
+#: modules/demux/playlist/podcast.c:288
 #, c-format
 msgid "%s bytes"
 msgstr "%s байт"
@@ -16348,134 +16349,134 @@ msgstr "Допомога медіапрогравача VLC"
 msgid "Index"
 msgstr "Індекс"
 
-#: modules/gui/macosx/AudioEffects.m:114 modules/gui/qt4/ui/equalizer.h:135
+#: modules/gui/macosx/AudioEffects.m:113 modules/gui/qt4/ui/equalizer.h:135
 msgid "2 Pass"
 msgstr "2 проходи"
 
-#: modules/gui/macosx/AudioEffects.m:115
+#: modules/gui/macosx/AudioEffects.m:114
 #: modules/gui/qt4/components/extended_panels.cpp:1216
 #: modules/gui/qt4/ui/equalizer.h:137
 msgid "Preamp"
 msgstr "Попередній підсилювач"
 
-#: modules/gui/macosx/AudioEffects.m:118
+#: modules/gui/macosx/AudioEffects.m:117
 msgid "Enable dynamic range compressor"
 msgstr "Увімкнути компресор динамічного діапазону"
 
-#: modules/gui/macosx/AudioEffects.m:119 modules/gui/macosx/AudioEffects.m:130
+#: modules/gui/macosx/AudioEffects.m:118 modules/gui/macosx/AudioEffects.m:129
 #: modules/gui/macosx/TrackSynchronization.m:60
-#: modules/gui/macosx/VideoEffects.m:97
+#: modules/gui/macosx/VideoEffects.m:96
 #: modules/gui/qt4/dialogs/gototime.cpp:66
 msgid "Reset"
 msgstr "Перезапуск"
 
-#: modules/gui/macosx/AudioEffects.m:121
+#: modules/gui/macosx/AudioEffects.m:120
 #: modules/gui/qt4/components/extended_panels.cpp:1380
 msgid "Attack"
 msgstr "Наростання"
 
-#: modules/gui/macosx/AudioEffects.m:122
+#: modules/gui/macosx/AudioEffects.m:121
 #: modules/gui/qt4/components/extended_panels.cpp:1381
 msgid "Release"
 msgstr "Спадання"
 
-#: modules/gui/macosx/AudioEffects.m:123
+#: modules/gui/macosx/AudioEffects.m:122
 #: modules/gui/qt4/components/extended_panels.cpp:1382
 msgid "Threshold"
 msgstr "Поріг"
 
-#: modules/gui/macosx/AudioEffects.m:129
+#: modules/gui/macosx/AudioEffects.m:128
 msgid "Enable Spatializer"
 msgstr "Увімкнути покращувач"
 
-#: modules/gui/macosx/AudioEffects.m:138
+#: modules/gui/macosx/AudioEffects.m:137
 msgid "Headphone virtualization"
 msgstr "Ефект навушників"
 
-#: modules/gui/macosx/AudioEffects.m:139
+#: modules/gui/macosx/AudioEffects.m:138
 msgid "Volume normalization"
 msgstr "Нормалізація гучності"
 
-#: modules/gui/macosx/AudioEffects.m:140
+#: modules/gui/macosx/AudioEffects.m:139
 msgid "Maximum level"
 msgstr "Максимальний рівень"
 
-#: modules/gui/macosx/AudioEffects.m:147
+#: modules/gui/macosx/AudioEffects.m:146
 msgid "Filter"
 msgstr "Фільтр"
 
-#: modules/gui/macosx/AudioEffects.m:148
+#: modules/gui/macosx/AudioEffects.m:147
 #: modules/gui/qt4/dialogs/extended.cpp:73
 msgid "Audio Effects"
 msgstr "Звукові ефекти"
 
-#: modules/gui/macosx/AudioEffects.m:203 modules/gui/macosx/VideoEffects.m:232
+#: modules/gui/macosx/AudioEffects.m:202 modules/gui/macosx/VideoEffects.m:231
 msgid "Duplicate current profile..."
 msgstr "Дублювати поточний профіль…"
 
-#: modules/gui/macosx/AudioEffects.m:208
+#: modules/gui/macosx/AudioEffects.m:207
 #: modules/gui/macosx/ConvertAndSave.m:1053
 msgid "Organize Profiles..."
 msgstr "Організувати профілі…"
 
-#: modules/gui/macosx/AudioEffects.m:386 modules/gui/macosx/VideoEffects.m:836
+#: modules/gui/macosx/AudioEffects.m:385 modules/gui/macosx/VideoEffects.m:877
 msgid "Duplicate current profile for a new profile"
 msgstr "Дублювати поточний профіль у новий профіль"
 
-#: modules/gui/macosx/AudioEffects.m:387
+#: modules/gui/macosx/AudioEffects.m:386
 #: modules/gui/macosx/ConvertAndSave.m:366
-#: modules/gui/macosx/VideoEffects.m:837
+#: modules/gui/macosx/VideoEffects.m:878
 msgid "Enter a name for the new profile:"
 msgstr "Введіть ім'я нового профілю:"
 
-#: modules/gui/macosx/AudioEffects.m:389 modules/gui/macosx/AudioEffects.m:641
+#: modules/gui/macosx/AudioEffects.m:388 modules/gui/macosx/AudioEffects.m:642
 #: modules/gui/macosx/ConvertAndSave.m:368
 #: modules/gui/macosx/ConvertAndSave.m:400 modules/gui/macosx/output.m:457
 #: modules/gui/macosx/playlist.m:695 modules/gui/macosx/prefs.m:207
 #: modules/gui/macosx/simple_prefs.m:222 modules/gui/macosx/simple_prefs.m:285
-#: modules/gui/macosx/VideoEffects.m:839
+#: modules/gui/macosx/VideoEffects.m:880
 #: modules/gui/qt4/components/sout/profile_selector.cpp:432
 #: modules/gui/qt4/ui/vlm.h:302
 msgid "Save"
 msgstr "Зберегти"
 
-#: modules/gui/macosx/AudioEffects.m:400 modules/gui/macosx/AudioEffects.m:737
-#: modules/gui/macosx/VideoEffects.m:899
+#: modules/gui/macosx/AudioEffects.m:399 modules/gui/macosx/AudioEffects.m:738
+#: modules/gui/macosx/VideoEffects.m:940
 msgid "Remove a preset"
 msgstr "Вилучити установку"
 
-#: modules/gui/macosx/AudioEffects.m:401 modules/gui/macosx/AudioEffects.m:738
-#: modules/gui/macosx/VideoEffects.m:900
+#: modules/gui/macosx/AudioEffects.m:400 modules/gui/macosx/AudioEffects.m:739
+#: modules/gui/macosx/VideoEffects.m:941
 msgid "Select the preset you would like to remove:"
 msgstr "Виберіть установку, яку ви хочете видалити:"
 
-#: modules/gui/macosx/AudioEffects.m:402 modules/gui/macosx/AudioEffects.m:739
+#: modules/gui/macosx/AudioEffects.m:401 modules/gui/macosx/AudioEffects.m:740
 #: modules/gui/macosx/bookmarks.m:95 modules/gui/macosx/ConvertAndSave.m:380
-#: modules/gui/macosx/VideoEffects.m:901 modules/gui/qt4/ui/open_file.h:155
+#: modules/gui/macosx/VideoEffects.m:942 modules/gui/qt4/ui/open_file.h:155
 msgid "Remove"
 msgstr "Видалити"
 
-#: modules/gui/macosx/AudioEffects.m:462
+#: modules/gui/macosx/AudioEffects.m:461
 msgid "Add new Preset..."
 msgstr "Додати нову установку…"
 
-#: modules/gui/macosx/AudioEffects.m:467
+#: modules/gui/macosx/AudioEffects.m:466
 msgid "Organize Presets..."
 msgstr "Організувати установки…"
 
-#: modules/gui/macosx/AudioEffects.m:638
+#: modules/gui/macosx/AudioEffects.m:639
 msgid "Save current selection as new preset"
 msgstr "Зберегти поточне виділення як нову установку"
 
-#: modules/gui/macosx/AudioEffects.m:639
+#: modules/gui/macosx/AudioEffects.m:640
 msgid "Enter a name for the new preset:"
 msgstr "Введіть ім'я нової установки:"
 
-#: modules/gui/macosx/AudioEffects.m:704 modules/gui/macosx/VideoEffects.m:862
+#: modules/gui/macosx/AudioEffects.m:705 modules/gui/macosx/VideoEffects.m:903
 msgid "Please enter a unique name for the new profile."
 msgstr "Введіть унікальне ім'я нового профілю."
 
-#: modules/gui/macosx/AudioEffects.m:705 modules/gui/macosx/VideoEffects.m:863
+#: modules/gui/macosx/AudioEffects.m:706 modules/gui/macosx/VideoEffects.m:904
 msgid "Multiple profiles with the same name are not allowed."
 msgstr "Не дозволяється декілька профілів з однаковим іменем."
 
@@ -16531,7 +16532,7 @@ msgid "OK"
 msgstr "Гаразд"
 
 #: modules/gui/macosx/bookmarks.m:106 modules/gui/macosx/playlist.m:159
-#: modules/gui/qt4/dialogs/plugins.cpp:105
+#: modules/gui/qt4/dialogs/plugins.cpp:109
 msgid "Name"
 msgstr "Назва"
 
@@ -16599,7 +16600,7 @@ msgstr "Клацніть для відтворення чи призупинки
 msgid "Backward"
 msgstr "Назад"
 
-#: modules/gui/macosx/ControlsBar.m:57 modules/gui/macosx/ControlsBar.m:829
+#: modules/gui/macosx/ControlsBar.m:57 modules/gui/macosx/ControlsBar.m:831
 msgid ""
 "Click to go to the previous playlist item. Hold to skip backward through the "
 "current media."
@@ -16611,7 +16612,7 @@ msgstr ""
 msgid "Forward"
 msgstr "Вперед"
 
-#: modules/gui/macosx/ControlsBar.m:61 modules/gui/macosx/ControlsBar.m:830
+#: modules/gui/macosx/ControlsBar.m:61 modules/gui/macosx/ControlsBar.m:832
 msgid ""
 "Click to go to the next playlist item. Hold to skip forward through the "
 "current media."
@@ -16706,19 +16707,19 @@ msgstr ""
 "Клацніть, щоб відкрити панель аудіофільтрів, що включає еквалайзер і інші "
 "фільтри."
 
-#: modules/gui/macosx/ControlsBar.m:715 modules/gui/macosx/fspanel.m:416
+#: modules/gui/macosx/ControlsBar.m:717 modules/gui/macosx/fspanel.m:416
 msgid "Click to go to the previous playlist item."
 msgstr "Натисніть для переходу до попереднього елементу списку відтворення."
 
-#: modules/gui/macosx/ControlsBar.m:726 modules/gui/macosx/fspanel.m:420
+#: modules/gui/macosx/ControlsBar.m:728 modules/gui/macosx/fspanel.m:420
 msgid "Click to go to the next playlist item."
 msgstr "Натисніть для переходу до наступного елемента списку відтворення."
 
-#: modules/gui/macosx/ControlsBar.m:742 modules/gui/macosx/fspanel.m:417
+#: modules/gui/macosx/ControlsBar.m:744 modules/gui/macosx/fspanel.m:417
 msgid "Click and hold to skip backward through the current media."
 msgstr "Натисніть і утримуйте, щоб перемотати назад поточний медіафайл."
 
-#: modules/gui/macosx/ControlsBar.m:743 modules/gui/macosx/fspanel.m:419
+#: modules/gui/macosx/ControlsBar.m:745 modules/gui/macosx/fspanel.m:419
 msgid "Click and hold to skip forward through the current media."
 msgstr "Натисніть і утримуйте, щоб перемотати вперед поточний медіафайл."
 
@@ -16756,7 +16757,7 @@ msgstr "Виберіть розташування виводу"
 
 #: modules/gui/macosx/ConvertAndSave.m:161 modules/gui/macosx/open.m:136
 #: modules/gui/macosx/open.m:365 modules/gui/macosx/output.m:136
-#: modules/gui/macosx/prefs_widgets.m:1111
+#: modules/gui/macosx/prefs_widgets.m:1114
 #: modules/gui/macosx/simple_prefs.m:204 modules/gui/macosx/simple_prefs.m:272
 #: modules/gui/qt4/components/preferences_widgets.cpp:263
 #: modules/gui/qt4/components/simple_preferences.cpp:289
@@ -16944,7 +16945,7 @@ msgstr "Вибрано експорт SDP, але відповідну адре�
 
 #: modules/gui/macosx/ConvertAndSave.m:1051
 #: modules/gui/macosx/simple_prefs.m:566 modules/gui/macosx/simple_prefs.m:590
-#: modules/gui/macosx/simple_prefs.m:1141
+#: modules/gui/macosx/simple_prefs.m:1143
 #: modules/gui/qt4/components/simple_preferences.cpp:531
 msgid "Custom"
 msgstr "Довільно"
@@ -16966,11 +16967,11 @@ msgstr "Очистити"
 msgid "Show Details"
 msgstr "Показати деталі"
 
-#: modules/gui/macosx/CoreInteraction.m:367
+#: modules/gui/macosx/CoreInteraction.m:374
 msgid "Random On"
 msgstr "Випадковість увімкнена"
 
-#: modules/gui/macosx/CoreInteraction.m:437
+#: modules/gui/macosx/CoreInteraction.m:444
 msgid "Repeat Off"
 msgstr "Не повторювати"
 
@@ -16994,33 +16995,33 @@ msgstr "(нічого не відтворюється)"
 msgid "Click to exit fullscreen playback."
 msgstr "Натисніть для виходу з повноекранного відтворення."
 
-#: modules/gui/macosx/intf.m:835 modules/gui/qt4/dialogs/messages.cpp:77
+#: modules/gui/macosx/intf.m:842 modules/gui/qt4/dialogs/messages.cpp:77
 #: modules/gui/qt4/ui/messages_panel.h:139
 #: modules/gui/qt4/ui/messages_panel.h:143
 msgid "Messages"
 msgstr "Повідомлення"
 
-#: modules/gui/macosx/intf.m:836
+#: modules/gui/macosx/intf.m:843
 msgid "Open CrashLog..."
 msgstr "Відкрити журнал збоїв…"
 
-#: modules/gui/macosx/intf.m:837
+#: modules/gui/macosx/intf.m:844
 msgid "Save this Log..."
 msgstr "Зберегти цей журнал…"
 
-#: modules/gui/macosx/intf.m:840
+#: modules/gui/macosx/intf.m:847
 msgid "Send"
 msgstr "Надіслати"
 
-#: modules/gui/macosx/intf.m:841
+#: modules/gui/macosx/intf.m:848
 msgid "Don't Send"
 msgstr "Не надсилати"
 
-#: modules/gui/macosx/intf.m:842 modules/gui/macosx/intf.m:843
+#: modules/gui/macosx/intf.m:849 modules/gui/macosx/intf.m:850
 msgid "VLC crashed previously"
 msgstr "Перед цим VLC потерпів аварію"
 
-#: modules/gui/macosx/intf.m:844
+#: modules/gui/macosx/intf.m:851
 msgid ""
 "Do you want to send details on the crash to VLC's development team?\n"
 "\n"
@@ -17034,11 +17035,11 @@ msgstr ""
 "впав, заодно вкажіть іншу корисну інформацію: посилання на файл прикладу, "
 "URL мережевого потоку,…"
 
-#: modules/gui/macosx/intf.m:845
+#: modules/gui/macosx/intf.m:852
 msgid "I agree to be possibly contacted about this bugreport."
 msgstr "Я погоджуюся з тим, що зі мною можуть зв’язатися щодо цього звіту."
 
-#: modules/gui/macosx/intf.m:846
+#: modules/gui/macosx/intf.m:853
 msgid ""
 "Only your default E-Mail address will be submitted, including no further "
 "information."
@@ -17046,40 +17047,40 @@ msgstr ""
 "Буде відправлено лише вашу стандартну адресу електронної пошти без подальшої "
 "інформації."
 
-#: modules/gui/macosx/intf.m:847
+#: modules/gui/macosx/intf.m:854
 msgid "Don't ask again"
 msgstr "Не запитувати знову"
 
-#: modules/gui/macosx/intf.m:1491 modules/gui/macosx/intf.m:1508
+#: modules/gui/macosx/intf.m:1498 modules/gui/macosx/intf.m:1515
 msgid "VLC media playback"
 msgstr "Відтворення у VLC"
 
-#: modules/gui/macosx/intf.m:1870
+#: modules/gui/macosx/intf.m:1877
 msgid "No CrashLog found"
 msgstr "Журнал збою не знайдено"
 
-#: modules/gui/macosx/intf.m:1870 modules/gui/macosx/simple_prefs.m:699
+#: modules/gui/macosx/intf.m:1877 modules/gui/macosx/simple_prefs.m:699
 #: modules/gui/qt4/dialogs/firstrun.cpp:109
 msgid "Continue"
 msgstr "Продовжити"
 
-#: modules/gui/macosx/intf.m:1870
+#: modules/gui/macosx/intf.m:1877
 msgid "Couldn't find any trace of a previous crash."
 msgstr "Не можу знайти нічого від попереднього збою."
 
-#: modules/gui/macosx/intf.m:1914
+#: modules/gui/macosx/intf.m:1921
 msgid "Remove old preferences?"
 msgstr "Видалити старі параметри?"
 
-#: modules/gui/macosx/intf.m:1915
+#: modules/gui/macosx/intf.m:1922
 msgid "We just found an older version of VLC's preferences files."
 msgstr "Ми щойно виявили старі файли налаштувань VLC."
 
-#: modules/gui/macosx/intf.m:1916
+#: modules/gui/macosx/intf.m:1923
 msgid "Move To Trash and Relaunch VLC"
 msgstr "Перемістити до кошика та перезапустити VLC"
 
-#: modules/gui/macosx/intf.m:2042
+#: modules/gui/macosx/intf.m:2049
 #, c-format
 msgid "VLC Debug Log (%s).rtf"
 msgstr "Журнал налагодження VLC (%s).rtf"
@@ -17318,23 +17319,27 @@ msgstr "Призупинити iTunes"
 msgid "Pause and resume iTunes"
 msgstr "Призупинити та відновити iTunes"
 
-#: modules/gui/macosx/macosx.m:132
+#: modules/gui/macosx/macosx.m:131 modules/gui/qt4/qt4.cpp:178
+msgid "Maximum Volume displayed"
+msgstr "Межа регулятора гучності"
+
+#: modules/gui/macosx/macosx.m:135
 msgid "Mac OS X interface"
 msgstr "Інтерфейс Mac OS X"
 
-#: modules/gui/macosx/macosx.m:139
+#: modules/gui/macosx/macosx.m:142
 msgid "Appearance"
 msgstr "Зовнішній вигляд"
 
-#: modules/gui/macosx/macosx.m:148
+#: modules/gui/macosx/macosx.m:152
 msgid "Behavior"
 msgstr "Поведінка"
 
-#: modules/gui/macosx/macosx.m:158
+#: modules/gui/macosx/macosx.m:162
 msgid "Apple Remote and media keys"
 msgstr "Медіаклавіші та пульт Apple Remote"
 
-#: modules/gui/macosx/macosx.m:173
+#: modules/gui/macosx/macosx.m:177
 msgid "Video output"
 msgstr "Виведення відео"
 
@@ -17343,7 +17348,7 @@ msgid "Track Number"
 msgstr "Номер доріжки"
 
 #: modules/gui/macosx/MainMenu.m:70 modules/gui/macosx/playlist.m:160
-#: modules/gui/macosx/wizard.m:347 modules/gui/qt4/dialogs/plugins.cpp:553
+#: modules/gui/macosx/wizard.m:347 modules/gui/qt4/dialogs/plugins.cpp:557
 #: modules/mux/asf.c:58
 msgid "Author"
 msgstr "Автор"
@@ -18126,7 +18131,7 @@ msgid "Read at media"
 msgstr "Прочитано"
 
 #: modules/gui/macosx/playlistinfo.m:98
-#: modules/gui/qt4/components/info_panels.cpp:560
+#: modules/gui/qt4/components/info_panels.cpp:564
 msgid "Input bitrate"
 msgstr "Бітрейт вхідного потоку"
 
@@ -18196,15 +18201,15 @@ msgstr "Перезапуск усього"
 msgid "Show Basic"
 msgstr "Показати основне"
 
-#: modules/gui/macosx/prefs_widgets.m:1146
+#: modules/gui/macosx/prefs_widgets.m:1149
 msgid "Select a directory"
 msgstr "Виберіть каталог"
 
-#: modules/gui/macosx/prefs_widgets.m:1146
+#: modules/gui/macosx/prefs_widgets.m:1149
 msgid "Select a file"
 msgstr "Виберіть файл"
 
-#: modules/gui/macosx/prefs_widgets.m:1147
+#: modules/gui/macosx/prefs_widgets.m:1150
 msgid "Select"
 msgstr "Вибрати"
 
@@ -18512,15 +18517,15 @@ msgid "Choose the folder to save your video snapshots to."
 msgstr "Оберіть каталог, до якого зберігати стоп-кадри"
 
 #: modules/gui/macosx/simple_prefs.m:1064
-#: modules/gui/macosx/simple_prefs.m:1153
+#: modules/gui/macosx/simple_prefs.m:1155
 msgid "Choose"
 msgstr "Вибрати"
 
-#: modules/gui/macosx/simple_prefs.m:1151
+#: modules/gui/macosx/simple_prefs.m:1153
 msgid "Choose the directory or filename where the records will be stored."
 msgstr "Виберіть каталог або файл, куди зберігатимуться записи."
 
-#: modules/gui/macosx/simple_prefs.m:1270
+#: modules/gui/macosx/simple_prefs.m:1272
 msgid ""
 "Press new keys for\n"
 "\"%@\""
@@ -18528,20 +18533,20 @@ msgstr ""
 "Натисніть клавішу для\n"
 "\"%@\""
 
-#: modules/gui/macosx/simple_prefs.m:1347
+#: modules/gui/macosx/simple_prefs.m:1349
 msgid "Invalid combination"
 msgstr "Неправильна комбінація"
 
-#: modules/gui/macosx/simple_prefs.m:1348
+#: modules/gui/macosx/simple_prefs.m:1350
 msgid "Regrettably, these keys cannot be assigned as hotkey shortcuts."
 msgstr "На жаль, ці клавіші не можуть бути комбінацією гарячих клавіш."
 
-#: modules/gui/macosx/simple_prefs.m:1358
-#: modules/gui/macosx/simple_prefs.m:1362
+#: modules/gui/macosx/simple_prefs.m:1360
+#: modules/gui/macosx/simple_prefs.m:1364
 msgid "This combination is already taken by \"%@\"."
 msgstr "Ця комбінація вже зайнята \"%@\"."
 
-#: modules/gui/macosx/StringUtility.m:148
+#: modules/gui/macosx/StringUtility.m:150
 msgid "Not Set"
 msgstr "Не встановлено"
 
@@ -18621,22 +18626,22 @@ msgstr ""
 "на основі довжини слів і цього множника.\n"
 "0 не змінює її."
 
-#: modules/gui/macosx/VideoEffects.m:77
+#: modules/gui/macosx/VideoEffects.m:76
 #: modules/gui/qt4/dialogs/extended.cpp:84
 msgid "Video Effects"
 msgstr "Відеоефекти"
 
-#: modules/gui/macosx/VideoEffects.m:82
+#: modules/gui/macosx/VideoEffects.m:81
 msgid "Basic"
 msgstr "Основне"
 
-#: modules/gui/macosx/VideoEffects.m:84
+#: modules/gui/macosx/VideoEffects.m:83
 #: modules/gui/qt4/ui/video_effects.h:1355
 msgid "Geometry"
 msgstr "Геометрія"
 
-#: modules/gui/macosx/VideoEffects.m:85 modules/gui/macosx/VideoEffects.m:134
-#: modules/gui/macosx/VideoEffects.m:149 modules/gui/macosx/VideoEffects.m:152
+#: modules/gui/macosx/VideoEffects.m:84 modules/gui/macosx/VideoEffects.m:133
+#: modules/gui/macosx/VideoEffects.m:148 modules/gui/macosx/VideoEffects.m:151
 #: modules/video_filter/colorthres.c:54 modules/video_filter/marq.c:125
 #: modules/video_filter/rss.c:154 modules/gui/qt4/ui/video_effects.h:1328
 #: modules/gui/qt4/ui/video_effects.h:1334
@@ -18644,222 +18649,222 @@ msgstr "Геометрія"
 msgid "Color"
 msgstr "Колір"
 
-#: modules/gui/macosx/VideoEffects.m:90
+#: modules/gui/macosx/VideoEffects.m:89
 msgid "Image Adjust"
 msgstr "Параметри зображення"
 
-#: modules/gui/macosx/VideoEffects.m:94
+#: modules/gui/macosx/VideoEffects.m:93
 #: modules/gui/qt4/ui/video_effects.h:1305
 msgid "Brightness Threshold"
 msgstr "Поріг яскравості"
 
-#: modules/gui/macosx/VideoEffects.m:98 modules/video_filter/sharpen.c:67
+#: modules/gui/macosx/VideoEffects.m:97 modules/video_filter/sharpen.c:67
 #: modules/gui/qt4/ui/video_effects.h:1309
 msgid "Sharpen"
 msgstr "Чіткість"
 
-#: modules/gui/macosx/VideoEffects.m:99
+#: modules/gui/macosx/VideoEffects.m:98
 #: modules/gui/qt4/ui/video_effects.h:1310
 #: modules/gui/qt4/ui/video_effects.h:1397
 msgid "Sigma"
 msgstr "Сигма"
 
-#: modules/gui/macosx/VideoEffects.m:100
+#: modules/gui/macosx/VideoEffects.m:99
 #: modules/gui/qt4/ui/video_effects.h:1311
 msgid "Banding removal"
 msgstr "Видалення стиснення"
 
-#: modules/gui/macosx/VideoEffects.m:101 modules/video_filter/gradfun.c:49
+#: modules/gui/macosx/VideoEffects.m:100 modules/video_filter/gradfun.c:49
 #: modules/gui/qt4/ui/video_effects.h:1312
 msgid "Radius"
 msgstr "Радіус"
 
-#: modules/gui/macosx/VideoEffects.m:102
+#: modules/gui/macosx/VideoEffects.m:101
 #: modules/gui/qt4/ui/video_effects.h:1313
 msgid "Film Grain"
 msgstr "Зернистість плівки"
 
-#: modules/gui/macosx/VideoEffects.m:103 modules/video_filter/grain.c:53
+#: modules/gui/macosx/VideoEffects.m:102 modules/video_filter/grain.c:53
 #: modules/gui/qt4/ui/video_effects.h:1314
 msgid "Variance"
 msgstr "Дисперсія"
 
-#: modules/gui/macosx/VideoEffects.m:108
+#: modules/gui/macosx/VideoEffects.m:107
 #: modules/gui/qt4/ui/video_effects.h:1322
 msgid "Synchronize top and bottom"
 msgstr "Синхронізувати вгорі та знизу"
 
-#: modules/gui/macosx/VideoEffects.m:109
+#: modules/gui/macosx/VideoEffects.m:108
 #: modules/gui/qt4/ui/video_effects.h:1323
 msgid "Synchronize left and right"
 msgstr "Синхронізувати ліворуч та праворуч"
 
-#: modules/gui/macosx/VideoEffects.m:111
+#: modules/gui/macosx/VideoEffects.m:110
 #: modules/gui/qt4/ui/video_effects.h:1348
 msgid "Transform"
 msgstr "Трансформація"
 
-#: modules/gui/macosx/VideoEffects.m:113 modules/video_filter/transform.c:50
+#: modules/gui/macosx/VideoEffects.m:112 modules/video_filter/transform.c:50
 msgid "Rotate by 90 degrees"
 msgstr "Повернути на 90 градусів"
 
-#: modules/gui/macosx/VideoEffects.m:115 modules/video_filter/transform.c:51
+#: modules/gui/macosx/VideoEffects.m:114 modules/video_filter/transform.c:51
 msgid "Rotate by 180 degrees"
 msgstr "Повернути на 180 градусів"
 
-#: modules/gui/macosx/VideoEffects.m:117 modules/video_filter/transform.c:51
+#: modules/gui/macosx/VideoEffects.m:116 modules/video_filter/transform.c:51
 msgid "Rotate by 270 degrees"
 msgstr "Повернути на 270 градусів"
 
-#: modules/gui/macosx/VideoEffects.m:119 modules/video_filter/transform.c:52
+#: modules/gui/macosx/VideoEffects.m:118 modules/video_filter/transform.c:52
 msgid "Flip horizontally"
 msgstr "Відобразити по горизонталі"
 
-#: modules/gui/macosx/VideoEffects.m:121 modules/video_filter/transform.c:52
+#: modules/gui/macosx/VideoEffects.m:120 modules/video_filter/transform.c:52
 msgid "Flip vertically"
 msgstr "Відобразити по вертикалі"
 
-#: modules/gui/macosx/VideoEffects.m:123
+#: modules/gui/macosx/VideoEffects.m:122
 msgid "Magnification/Zoom"
 msgstr "Збільшення/масштаб"
 
-#: modules/gui/macosx/VideoEffects.m:124
+#: modules/gui/macosx/VideoEffects.m:123
 #: modules/gui/qt4/ui/video_effects.h:1351
 msgid "Puzzle game"
 msgstr "Гра „Пазл“"
 
-#: modules/gui/macosx/VideoEffects.m:125 modules/gui/macosx/VideoEffects.m:130
+#: modules/gui/macosx/VideoEffects.m:124 modules/gui/macosx/VideoEffects.m:129
 #: share/lua/http/dialogs/mosaic_window.html:96
 #: modules/gui/qt4/ui/video_effects.h:1346
 #: modules/gui/qt4/ui/video_effects.h:1352
 msgid "Rows"
 msgstr "Рядки"
 
-#: modules/gui/macosx/VideoEffects.m:126 modules/gui/macosx/VideoEffects.m:131
+#: modules/gui/macosx/VideoEffects.m:125 modules/gui/macosx/VideoEffects.m:130
 #: share/lua/http/dialogs/mosaic_window.html:114
 #: modules/gui/qt4/ui/video_effects.h:1347
 #: modules/gui/qt4/ui/video_effects.h:1353
 msgid "Columns"
 msgstr "Стовпці"
 
-#: modules/gui/macosx/VideoEffects.m:127 modules/video_filter/clone.c:57
+#: modules/gui/macosx/VideoEffects.m:126 modules/video_filter/clone.c:57
 #: modules/gui/qt4/ui/video_effects.h:1393
 msgid "Clone"
 msgstr "Клонування"
 
-#: modules/gui/macosx/VideoEffects.m:128 modules/video_filter/clone.c:39
+#: modules/gui/macosx/VideoEffects.m:127 modules/video_filter/clone.c:39
 #: modules/gui/qt4/ui/video_effects.h:1394
 msgid "Number of clones"
 msgstr "Кількість клонів"
 
-#: modules/gui/macosx/VideoEffects.m:129
+#: modules/gui/macosx/VideoEffects.m:128
 #: modules/gui/qt4/ui/video_effects.h:1345
 msgid "Wall"
 msgstr "Стіна"
 
-#: modules/gui/macosx/VideoEffects.m:133 modules/video_filter/colorthres.c:70
+#: modules/gui/macosx/VideoEffects.m:132 modules/video_filter/colorthres.c:70
 #: modules/gui/qt4/ui/video_effects.h:1336
 msgid "Color threshold"
 msgstr "Поріг кольору"
 
-#: modules/gui/macosx/VideoEffects.m:136
+#: modules/gui/macosx/VideoEffects.m:135
 #: modules/gui/qt4/ui/video_effects.h:1340
 msgid "Similarity"
 msgstr "Подібність"
 
-#: modules/gui/macosx/VideoEffects.m:138
+#: modules/gui/macosx/VideoEffects.m:137
 #: modules/gui/qt4/ui/video_effects.h:1342
 msgid "Intensity"
 msgstr "Інтенсивність"
 
-#: modules/gui/macosx/VideoEffects.m:140 modules/gui/macosx/VideoEffects.m:143
+#: modules/gui/macosx/VideoEffects.m:139 modules/gui/macosx/VideoEffects.m:142
 #: modules/video_filter/gradient.c:76 modules/video_filter/gradient.c:82
 #: modules/gui/qt4/ui/video_effects.h:1332
 msgid "Gradient"
 msgstr "Градієнт"
 
-#: modules/gui/macosx/VideoEffects.m:145 modules/video_filter/gradient.c:76
+#: modules/gui/macosx/VideoEffects.m:144 modules/video_filter/gradient.c:76
 msgid "Edge"
 msgstr "Межа"
 
-#: modules/gui/macosx/VideoEffects.m:147 modules/video_filter/gradient.c:76
+#: modules/gui/macosx/VideoEffects.m:146 modules/video_filter/gradient.c:76
 msgid "Hough"
 msgstr "Жижки"
 
-#: modules/gui/macosx/VideoEffects.m:150
+#: modules/gui/macosx/VideoEffects.m:149
 #: modules/gui/qt4/ui/video_effects.h:1335
 msgid "Cartoon"
 msgstr "Мультфільм"
 
-#: modules/gui/macosx/VideoEffects.m:151
+#: modules/gui/macosx/VideoEffects.m:150
 #: modules/gui/qt4/ui/video_effects.h:1327
 msgid "Color extraction"
 msgstr "Виділення кольору"
 
-#: modules/gui/macosx/VideoEffects.m:153
+#: modules/gui/macosx/VideoEffects.m:152
 msgid "Invert colors"
 msgstr "Інверсія кольорів"
 
-#: modules/gui/macosx/VideoEffects.m:154 modules/video_filter/posterize.c:68
+#: modules/gui/macosx/VideoEffects.m:153 modules/video_filter/posterize.c:68
 #: modules/gui/qt4/ui/video_effects.h:1331
 msgid "Posterize"
 msgstr "Постеризація"
 
-#: modules/gui/macosx/VideoEffects.m:155 modules/video_filter/posterize.c:60
+#: modules/gui/macosx/VideoEffects.m:154 modules/video_filter/posterize.c:60
 msgid "Posterize level"
 msgstr "Рівень постеризації"
 
-#: modules/gui/macosx/VideoEffects.m:156 modules/video_filter/motionblur.c:59
+#: modules/gui/macosx/VideoEffects.m:155 modules/video_filter/motionblur.c:59
 #: modules/gui/qt4/ui/video_effects.h:1387
 msgid "Motion blur"
 msgstr "Розмиття рухом"
 
-#: modules/gui/macosx/VideoEffects.m:157
+#: modules/gui/macosx/VideoEffects.m:156
 #: modules/gui/qt4/ui/video_effects.h:1388
 msgid "Factor"
 msgstr "Множник"
 
-#: modules/gui/macosx/VideoEffects.m:158
+#: modules/gui/macosx/VideoEffects.m:157
 #: modules/video_filter/motiondetect.c:49
 msgid "Motion Detect"
 msgstr "Визначення руху"
 
-#: modules/gui/macosx/VideoEffects.m:159
+#: modules/gui/macosx/VideoEffects.m:158
 #: modules/gui/qt4/ui/video_effects.h:1395
 msgid "Water effect"
 msgstr "Ефект води"
 
-#: modules/gui/macosx/VideoEffects.m:162 modules/video_filter/anaglyph.c:73
+#: modules/gui/macosx/VideoEffects.m:161 modules/video_filter/anaglyph.c:73
 msgid "Anaglyph"
 msgstr "Анагліф"
 
-#: modules/gui/macosx/VideoEffects.m:164
+#: modules/gui/macosx/VideoEffects.m:163
 #: modules/gui/qt4/ui/video_effects.h:1366
 msgid "Add text"
 msgstr "Додати текст"
 
-#: modules/gui/macosx/VideoEffects.m:165 modules/misc/logger.c:108
+#: modules/gui/macosx/VideoEffects.m:164 modules/misc/logger.c:108
 #: modules/video_filter/marq.c:87 modules/gui/qt4/ui/video_effects.h:1368
 msgid "Text"
 msgstr "Текст"
 
-#: modules/gui/macosx/VideoEffects.m:186
+#: modules/gui/macosx/VideoEffects.m:185
 #: modules/gui/qt4/ui/video_effects.h:1356
 msgid "Add logo"
 msgstr "Додати лого"
 
-#: modules/gui/macosx/VideoEffects.m:187
+#: modules/gui/macosx/VideoEffects.m:186
 #: modules/gui/qt4/ui/video_effects.h:1357
 msgid "Logo"
 msgstr "Лого"
 
-#: modules/gui/macosx/VideoEffects.m:208
+#: modules/gui/macosx/VideoEffects.m:207
 #: modules/stream_out/mosaic_bridge.c:128 modules/video_filter/mosaic.c:87
 #: modules/gui/qt4/ui/video_effects.h:1364
 msgid "Transparency"
 msgstr "Прозорість"
 
-#: modules/gui/macosx/VideoEffects.m:237
+#: modules/gui/macosx/VideoEffects.m:236
 msgid "Organize profiles..."
 msgstr "Організувати профілі…"
 
@@ -19492,258 +19497,258 @@ msgstr ""
 msgid "Ncurses interface"
 msgstr "Інтерфейс ncurses"
 
-#: modules/gui/ncurses.c:764
+#: modules/gui/ncurses.c:767
 #, c-format
 msgid "  [%s]"
 msgstr "  [%s]"
 
-#: modules/gui/ncurses.c:768
+#: modules/gui/ncurses.c:771
 #, c-format
 msgid "      %s: %s"
 msgstr "      %s: %s"
 
-#: modules/gui/ncurses.c:862
+#: modules/gui/ncurses.c:865
 msgid "[Display]"
 msgstr "[Дисплей]"
 
-#: modules/gui/ncurses.c:864
+#: modules/gui/ncurses.c:867
 msgid " h,H                    Show/Hide help box"
 msgstr " h,H                    показати/сховати довідку"
 
-#: modules/gui/ncurses.c:865
+#: modules/gui/ncurses.c:868
 msgid " i                      Show/Hide info box"
 msgstr " i                      показати/сховати інформацію"
 
-#: modules/gui/ncurses.c:866
+#: modules/gui/ncurses.c:869
 msgid " M                      Show/Hide metadata box"
 msgstr "M показати/сховати метадані"
 
-#: modules/gui/ncurses.c:867
+#: modules/gui/ncurses.c:870
 msgid " L                      Show/Hide messages box"
 msgstr " L                      показати/сховати повідомлення"
 
-#: modules/gui/ncurses.c:868
+#: modules/gui/ncurses.c:871
 msgid " P                      Show/Hide playlist box"
 msgstr " P                      показати/сховати список відтворення"
 
-#: modules/gui/ncurses.c:869
+#: modules/gui/ncurses.c:872
 msgid " B                      Show/Hide filebrowser"
 msgstr " B                      показати/сховати файловий браузер"
 
-#: modules/gui/ncurses.c:870
+#: modules/gui/ncurses.c:873
 msgid " x                      Show/Hide objects box"
 msgstr " x                      показати/сховати об’єкти"
 
-#: modules/gui/ncurses.c:871
+#: modules/gui/ncurses.c:874
 msgid " S                      Show/Hide statistics box"
 msgstr " S                      показати/сховати статистику"
 
-#: modules/gui/ncurses.c:872
+#: modules/gui/ncurses.c:875
 msgid " Esc                    Close Add/Search entry"
 msgstr " Esc                    закрити запис додавання/пошуку"
 
-#: modules/gui/ncurses.c:873
+#: modules/gui/ncurses.c:876
 msgid " Ctrl-l                 Refresh the screen"
 msgstr " Ctrl-l                 оновити екран"
 
-#: modules/gui/ncurses.c:877
+#: modules/gui/ncurses.c:880
 msgid "[Global]"
 msgstr "[Глобальне]"
 
-#: modules/gui/ncurses.c:879
+#: modules/gui/ncurses.c:882
 msgid " q, Q, Esc              Quit"
 msgstr " q, Q, Esc              вийти"
 
-#: modules/gui/ncurses.c:880
+#: modules/gui/ncurses.c:883
 msgid " s                      Stop"
 msgstr " s                      зупинити"
 
-#: modules/gui/ncurses.c:881
+#: modules/gui/ncurses.c:884
 msgid " <space>                Pause/Play"
 msgstr " <space>                призупинити/відтворити"
 
-#: modules/gui/ncurses.c:882
+#: modules/gui/ncurses.c:885
 msgid " f                      Toggle Fullscreen"
 msgstr " f                      перемкнути повноекранний режим"
 
-#: modules/gui/ncurses.c:883
+#: modules/gui/ncurses.c:886
 msgid " n, p                   Next/Previous playlist item"
 msgstr ""
 " n, p                   перейти до наступного/попереднього елемента списку "
 "відтворення"
 
-#: modules/gui/ncurses.c:884
+#: modules/gui/ncurses.c:887
 msgid " [, ]                   Next/Previous title"
 msgstr " [, ]                   перейти до наступного/попереднього заголовка"
 
-#: modules/gui/ncurses.c:885
+#: modules/gui/ncurses.c:888
 msgid " <, >                   Next/Previous chapter"
 msgstr " <, >                   перейти до наступного/попереднього розділу"
 
 #. xgettext: You can use ← and → characters
-#: modules/gui/ncurses.c:887
+#: modules/gui/ncurses.c:890
 #, c-format
 msgid " <left>,<right>         Seek -/+ 1%%"
 msgstr " <left>,<right>         позиціювати -/+ 1%%"
 
-#: modules/gui/ncurses.c:888
+#: modules/gui/ncurses.c:891
 msgid " a, z                   Volume Up/Down"
 msgstr " a, z                   збільшити/зменшити гучність"
 
-#: modules/gui/ncurses.c:889
+#: modules/gui/ncurses.c:892
 msgid " m                      Mute"
 msgstr "m Вимкнення звуку"
 
 #. xgettext: You can use ↑ and ↓ characters
-#: modules/gui/ncurses.c:891
+#: modules/gui/ncurses.c:894
 msgid " <up>,<down>            Navigate through the box line by line"
 msgstr " <up>,<down>            переглядати контейнер порядково"
 
 #. xgettext: You can use ⇞ and ⇟ characters
-#: modules/gui/ncurses.c:893
+#: modules/gui/ncurses.c:896
 msgid " <pageup>,<pagedown>    Navigate through the box page by page"
 msgstr " <pageup>,<pagedown>    переглядати контейнер сторінка за сторінкою"
 
 #. xgettext: You can use ↖ and ↘ characters
-#: modules/gui/ncurses.c:895
+#: modules/gui/ncurses.c:898
 msgid " <start>,<end>          Navigate to start/end of box"
 msgstr " <start>,<end>          перейти на початок або в кінець контейнера"
 
-#: modules/gui/ncurses.c:899
+#: modules/gui/ncurses.c:902
 msgid "[Playlist]"
 msgstr "[Список відтворення]"
 
-#: modules/gui/ncurses.c:901
+#: modules/gui/ncurses.c:904
 msgid " r                      Toggle Random playing"
 msgstr " r                      перемкнути випадкове відтворення"
 
-#: modules/gui/ncurses.c:902
+#: modules/gui/ncurses.c:905
 msgid " l                      Toggle Loop Playlist"
 msgstr " l                      перемкнути зациклювання списку відтворення"
 
-#: modules/gui/ncurses.c:903
+#: modules/gui/ncurses.c:906
 msgid " R                      Toggle Repeat item"
 msgstr " R                      перемкнути повторення елементу"
 
-#: modules/gui/ncurses.c:904
+#: modules/gui/ncurses.c:907
 msgid " o                      Order Playlist by title"
 msgstr " o                      сортувати список відтворення за заголовками"
 
-#: modules/gui/ncurses.c:905
+#: modules/gui/ncurses.c:908
 msgid " O                      Reverse order Playlist by title"
 msgstr ""
 " O                      зворотнє сортування списку відтворення за заголовками"
 
-#: modules/gui/ncurses.c:906
+#: modules/gui/ncurses.c:909
 msgid " g                      Go to the current playing item"
 msgstr " g                      перейти до поточного відтворюваного елемента"
 
-#: modules/gui/ncurses.c:907
+#: modules/gui/ncurses.c:910
 msgid " /                      Look for an item"
 msgstr " /                      шукати елемент"
 
-#: modules/gui/ncurses.c:908
+#: modules/gui/ncurses.c:911
 msgid " ;                      Look for the next item"
 msgstr "; Шукати наступний елемент"
 
-#: modules/gui/ncurses.c:909
+#: modules/gui/ncurses.c:912
 msgid " A                      Add an entry"
 msgstr " A                      додати запис"
 
 #. xgettext: You can use ⌫ character to translate <backspace>
-#: modules/gui/ncurses.c:911
+#: modules/gui/ncurses.c:914
 msgid " D, <backspace>, <del>  Delete an entry"
 msgstr " D, <backspace>, <del>  видалити запис"
 
-#: modules/gui/ncurses.c:912
+#: modules/gui/ncurses.c:915
 msgid " e                      Eject (if stopped)"
 msgstr " e                      витягнути (якщо зупинено)"
 
-#: modules/gui/ncurses.c:916
+#: modules/gui/ncurses.c:919
 msgid "[Filebrowser]"
 msgstr "[Файловий браузер]"
 
-#: modules/gui/ncurses.c:918
+#: modules/gui/ncurses.c:921
 msgid " <enter>                Add the selected file to the playlist"
 msgstr " <enter>                додати вибраний файл до списку відтворення"
 
-#: modules/gui/ncurses.c:919
+#: modules/gui/ncurses.c:922
 msgid " <space>                Add the selected directory to the playlist"
 msgstr " <space>                додати вибраний каталог до списку відтворення"
 
-#: modules/gui/ncurses.c:920
+#: modules/gui/ncurses.c:923
 msgid " .                      Show/Hide hidden files"
 msgstr " .                      показати/сховати приховані файли"
 
-#: modules/gui/ncurses.c:924
+#: modules/gui/ncurses.c:927
 msgid "[Player]"
 msgstr "[Програвач]"
 
 #. xgettext: You can use ↑ and ↓ characters
-#: modules/gui/ncurses.c:927
+#: modules/gui/ncurses.c:930
 #, c-format
 msgid " <up>,<down>            Seek +/-5%%"
 msgstr " <up>,<down>            позиціювати +/-5%%"
 
-#: modules/gui/ncurses.c:1047
+#: modules/gui/ncurses.c:1050
 msgid "[Repeat] "
 msgstr "[Повторювати] "
 
-#: modules/gui/ncurses.c:1048
+#: modules/gui/ncurses.c:1051
 msgid "[Random] "
 msgstr "[Випадково] "
 
-#: modules/gui/ncurses.c:1049
+#: modules/gui/ncurses.c:1052
 msgid "[Loop]"
 msgstr "[Цикл]"
 
-#: modules/gui/ncurses.c:1058
+#: modules/gui/ncurses.c:1061
 #, c-format
 msgid " Source   : %s"
 msgstr " Джерело      : %s"
 
-#: modules/gui/ncurses.c:1091
+#: modules/gui/ncurses.c:1094
 #, c-format
 msgid " Position : %s/%s"
 msgstr " Позиція      : %s/%s"
 
-#: modules/gui/ncurses.c:1096
+#: modules/gui/ncurses.c:1099
 msgid " Volume   : Mute"
 msgstr "Гучність: Вимкнути"
 
-#: modules/gui/ncurses.c:1097
+#: modules/gui/ncurses.c:1100
 #, c-format
 msgid " Volume   : %3ld%%"
 msgstr "Гучність: %3ld%%"
 
-#: modules/gui/ncurses.c:1097
+#: modules/gui/ncurses.c:1100
 msgid " Volume   : ----"
 msgstr "Гучність   : ----"
 
-#: modules/gui/ncurses.c:1103
+#: modules/gui/ncurses.c:1106
 #, c-format
 msgid " Title    : %<PRId64>/%d"
 msgstr " Заголовок    : %<PRId64>/%d"
 
-#: modules/gui/ncurses.c:1109
+#: modules/gui/ncurses.c:1112
 #, c-format
 msgid " Chapter  : %<PRId64>/%d"
 msgstr " Розділ       : %<PRId64>/%d"
 
-#: modules/gui/ncurses.c:1114
+#: modules/gui/ncurses.c:1117
 msgid " Source: <no current item> "
 msgstr " Джерело      : <немає поточного елемента>"
 
-#: modules/gui/ncurses.c:1116
+#: modules/gui/ncurses.c:1119
 msgid " [ h for help ]"
 msgstr " [ h для довідки ]"
 
-#: modules/gui/ncurses.c:1137
+#: modules/gui/ncurses.c:1140
 #, c-format
 msgid "Open: %s"
 msgstr "Відкрити: %s"
 
-#: modules/gui/ncurses.c:1139
+#: modules/gui/ncurses.c:1142
 #, c-format
 msgid "Find: %s"
 msgstr "Знайти: %s"
@@ -20116,89 +20121,89 @@ msgstr ""
 "Інформація про те, із чого зроблене ваше медіа чи потік.\n"
 "Показуються мультиплексор, кодеки звуку й відео, субтитри."
 
-#: modules/gui/qt4/components/info_panels.cpp:529
+#: modules/gui/qt4/components/info_panels.cpp:533
 msgid "Current media / stream statistics"
 msgstr "Поточна статистика медіа/потоку"
 
-#: modules/gui/qt4/components/info_panels.cpp:555
+#: modules/gui/qt4/components/info_panels.cpp:559
 msgid "Input/Read"
 msgstr "Ввід/прочитано"
 
-#: modules/gui/qt4/components/info_panels.cpp:556
+#: modules/gui/qt4/components/info_panels.cpp:560
 msgid "Output/Written/Sent"
 msgstr "Вивід/записано/надіслано"
 
-#: modules/gui/qt4/components/info_panels.cpp:558
+#: modules/gui/qt4/components/info_panels.cpp:562
 msgid "Media data size"
 msgstr "Розмір медіаданих"
 
-#: modules/gui/qt4/components/info_panels.cpp:564
+#: modules/gui/qt4/components/info_panels.cpp:568
 msgid "Demuxed data size"
 msgstr "Розмір демультиплексованих даних"
 
-#: modules/gui/qt4/components/info_panels.cpp:565
+#: modules/gui/qt4/components/info_panels.cpp:569
 msgid "Content bitrate"
 msgstr "Бітрейт вмісту"
 
-#: modules/gui/qt4/components/info_panels.cpp:567
+#: modules/gui/qt4/components/info_panels.cpp:571
 msgid "Discarded (corrupted)"
 msgstr "Відкинуто (пошкоджено)"
 
-#: modules/gui/qt4/components/info_panels.cpp:569
+#: modules/gui/qt4/components/info_panels.cpp:573
 msgid "Dropped (discontinued)"
 msgstr "Опущено (призупинено)"
 
-#: modules/gui/qt4/components/info_panels.cpp:572
-#: modules/gui/qt4/components/info_panels.cpp:585
+#: modules/gui/qt4/components/info_panels.cpp:576
+#: modules/gui/qt4/components/info_panels.cpp:589
 msgid "Decoded"
 msgstr "Декодовано"
 
-#: modules/gui/qt4/components/info_panels.cpp:573
-#: modules/gui/qt4/components/info_panels.cpp:586
+#: modules/gui/qt4/components/info_panels.cpp:577
+#: modules/gui/qt4/components/info_panels.cpp:590
 msgid "blocks"
 msgstr "блоків"
 
-#: modules/gui/qt4/components/info_panels.cpp:574
+#: modules/gui/qt4/components/info_panels.cpp:578
 msgid "Displayed"
 msgstr "Відображено"
 
-#: modules/gui/qt4/components/info_panels.cpp:575
-#: modules/gui/qt4/components/info_panels.cpp:577
+#: modules/gui/qt4/components/info_panels.cpp:579
+#: modules/gui/qt4/components/info_panels.cpp:581
 msgid "frames"
 msgstr "кадрів"
 
-#: modules/gui/qt4/components/info_panels.cpp:576
-#: modules/gui/qt4/components/info_panels.cpp:589
+#: modules/gui/qt4/components/info_panels.cpp:580
+#: modules/gui/qt4/components/info_panels.cpp:593
 msgid "Lost"
 msgstr "Втрачено"
 
-#: modules/gui/qt4/components/info_panels.cpp:579
-#: modules/gui/qt4/components/info_panels.cpp:580
+#: modules/gui/qt4/components/info_panels.cpp:583
+#: modules/gui/qt4/components/info_panels.cpp:584
 msgid "Sent"
 msgstr "Надіслано"
 
-#: modules/gui/qt4/components/info_panels.cpp:579
+#: modules/gui/qt4/components/info_panels.cpp:583
 msgid "packets"
 msgstr "пакетів"
 
-#: modules/gui/qt4/components/info_panels.cpp:582
+#: modules/gui/qt4/components/info_panels.cpp:586
 msgid "Upstream rate"
 msgstr "Бітрейт потоку"
 
-#: modules/gui/qt4/components/info_panels.cpp:587
+#: modules/gui/qt4/components/info_panels.cpp:591
 msgid "Played"
 msgstr "Відтворено"
 
-#: modules/gui/qt4/components/info_panels.cpp:588
-#: modules/gui/qt4/components/info_panels.cpp:589
+#: modules/gui/qt4/components/info_panels.cpp:592
+#: modules/gui/qt4/components/info_panels.cpp:593
 msgid "buffers"
 msgstr "буферів"
 
-#: modules/gui/qt4/components/info_panels.cpp:611
+#: modules/gui/qt4/components/info_panels.cpp:615
 msgid "Last 60 seconds"
 msgstr "Останні 60 секунд"
 
-#: modules/gui/qt4/components/info_panels.cpp:612
+#: modules/gui/qt4/components/info_panels.cpp:616
 msgid "Overall"
 msgstr "Повний"
 
@@ -20744,7 +20749,7 @@ msgstr "Видалити всі закладки"
 #: modules/gui/qt4/dialogs/mediainfo.cpp:79
 #: modules/gui/qt4/dialogs/messages.cpp:81
 #: modules/gui/qt4/dialogs/plugins.cpp:74
-#: modules/gui/qt4/dialogs/plugins.cpp:586
+#: modules/gui/qt4/dialogs/plugins.cpp:590
 #: modules/gui/qt4/dialogs/podcast_configuration.cpp:36
 #: modules/gui/qt4/dialogs/vlm.cpp:136
 msgid "&Close"
@@ -20871,7 +20876,7 @@ msgstr "Перейти"
 msgid "Go to time"
 msgstr "Перейти до часу"
 
-#: modules/gui/qt4/dialogs/help.cpp:86 modules/gui/qt4/dialogs/plugins.cpp:524
+#: modules/gui/qt4/dialogs/help.cpp:86 modules/gui/qt4/dialogs/plugins.cpp:528
 msgid "About"
 msgstr "Про програму"
 
@@ -21031,35 +21036,35 @@ msgstr ""
 msgid "Plugins and extensions"
 msgstr "Модулі та розширення"
 
-#: modules/gui/qt4/dialogs/plugins.cpp:105
+#: modules/gui/qt4/dialogs/plugins.cpp:109
 msgid "Capability"
 msgstr "Сумісність"
 
-#: modules/gui/qt4/dialogs/plugins.cpp:105
+#: modules/gui/qt4/dialogs/plugins.cpp:109
 msgid "Score"
 msgstr "Рахунок"
 
-#: modules/gui/qt4/dialogs/plugins.cpp:118
+#: modules/gui/qt4/dialogs/plugins.cpp:122
 msgid "&Search:"
 msgstr "Шукати:"
 
-#: modules/gui/qt4/dialogs/plugins.cpp:205
+#: modules/gui/qt4/dialogs/plugins.cpp:209
 msgid "Get more extensions from"
 msgstr "Отримати нові розширення з"
 
-#: modules/gui/qt4/dialogs/plugins.cpp:235
+#: modules/gui/qt4/dialogs/plugins.cpp:239
 msgid "More information..."
 msgstr "Більше інформації…"
 
-#: modules/gui/qt4/dialogs/plugins.cpp:243
+#: modules/gui/qt4/dialogs/plugins.cpp:247
 msgid "Reload extensions"
 msgstr "Перевантажити розширення"
 
-#: modules/gui/qt4/dialogs/plugins.cpp:547
+#: modules/gui/qt4/dialogs/plugins.cpp:551
 msgid "Version"
 msgstr "Версія"
 
-#: modules/gui/qt4/dialogs/plugins.cpp:567
+#: modules/gui/qt4/dialogs/plugins.cpp:571
 msgid "Website"
 msgstr "Вебсайт"
 
@@ -21706,7 +21711,7 @@ msgstr "&Показати медіапрогравач VLC"
 msgid "&Open Media"
 msgstr "&Відкрити медіа"
 
-#: modules/gui/qt4/menus.cpp:1615
+#: modules/gui/qt4/menus.cpp:1625
 msgid "&Clear"
 msgstr "Очистити"
 
@@ -21926,10 +21931,6 @@ msgstr ""
 "гучності на клавіатурі будуть завжди змінювати системну гучність. Якщо цю "
 "опцію вимкнути, вказані кнопки змінюватимуть гучність VLC, коли його обрано, "
 "та системну гучність, коли VLC не обрано."
-
-#: modules/gui/qt4/qt4.cpp:178
-msgid "Maximum Volume displayed"
-msgstr "Межа регулятора гучності"
 
 #: modules/gui/qt4/qt4.cpp:184
 msgid "Never"

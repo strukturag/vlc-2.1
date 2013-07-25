@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vlc\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2013-07-11 16:07+0200\n"
+"POT-Creation-Date: 2013-07-25 14:06+0200\n"
 "PO-Revision-Date: 2002-04-22 09:56+0200\n"
 "Last-Translator: Sam Hocevar <sam@zoy.org>\n"
 "Language-Team: \n"
@@ -88,12 +88,12 @@ msgstr "Settings for VLC’s control interfaces"
 msgid "Hotkeys settings"
 msgstr "Audio encoders settings"
 
-#: include/vlc_config_cat.h:53 src/input/es_out.c:2850 src/input/es_out.c:2891
+#: include/vlc_config_cat.h:53 src/input/es_out.c:2866 src/input/es_out.c:2907
 #: src/libvlc-module.c:1456 modules/access/imem.c:64
 #: modules/gui/macosx/ConvertAndSave.m:185 modules/gui/macosx/MainMenu.m:376
 #: modules/gui/macosx/output.m:161 modules/gui/macosx/playlistinfo.m:112
 #: modules/gui/macosx/simple_prefs.m:142 modules/gui/macosx/wizard.m:377
-#: modules/gui/qt4/components/info_panels.cpp:553
+#: modules/gui/qt4/components/info_panels.cpp:557
 #: modules/gui/qt4/components/simple_preferences.cpp:91
 #: modules/services_discovery/mediadirs.c:76 modules/stream_out/es.c:93
 #: modules/stream_out/transcode/transcode.c:191
@@ -142,7 +142,7 @@ msgid "General settings for audio output modules."
 msgstr "These are general settings for audio output modules."
 
 #: include/vlc_config_cat.h:67 src/libvlc-module.c:1962
-#: modules/gui/macosx/VideoEffects.m:86
+#: modules/gui/macosx/VideoEffects.m:85
 #: modules/stream_out/transcode/transcode.c:223
 msgid "Miscellaneous"
 msgstr "Miscellaneous"
@@ -152,13 +152,13 @@ msgstr "Miscellaneous"
 msgid "Miscellaneous audio settings and modules."
 msgstr "Help options"
 
-#: include/vlc_config_cat.h:71 src/input/es_out.c:2853 src/input/es_out.c:2935
+#: include/vlc_config_cat.h:71 src/input/es_out.c:2869 src/input/es_out.c:2951
 #: src/libvlc-module.c:1510 modules/access/imem.c:64
 #: modules/gui/macosx/ConvertAndSave.m:175 modules/gui/macosx/MainMenu.m:389
 #: modules/gui/macosx/output.m:151 modules/gui/macosx/playlistinfo.m:102
 #: modules/gui/macosx/simple_prefs.m:144 modules/gui/macosx/simple_prefs.m:279
 #: modules/gui/macosx/wizard.m:378
-#: modules/gui/qt4/components/info_panels.cpp:554
+#: modules/gui/qt4/components/info_panels.cpp:558
 #: modules/gui/qt4/components/simple_preferences.cpp:93
 #: modules/services_discovery/mediadirs.c:69 modules/stream_out/es.c:101
 #: modules/stream_out/transcode/transcode.c:161
@@ -545,13 +545,13 @@ msgstr "Stream info…"
 msgid "Save..."
 msgstr "Save As…"
 
-#: include/vlc_intf_strings.h:77 modules/gui/macosx/CoreInteraction.m:397
+#: include/vlc_intf_strings.h:77 modules/gui/macosx/CoreInteraction.m:404
 #: modules/gui/macosx/MainMenu.m:363 modules/gui/macosx/MainMenu.m:1463
 #, fuzzy
 msgid "Repeat All"
 msgstr "Random Off"
 
-#: include/vlc_intf_strings.h:78 modules/gui/macosx/CoreInteraction.m:417
+#: include/vlc_intf_strings.h:78 modules/gui/macosx/CoreInteraction.m:424
 #: modules/gui/macosx/MainMenu.m:362 modules/gui/macosx/MainMenu.m:1458
 #, fuzzy
 msgid "Repeat One"
@@ -564,7 +564,7 @@ msgstr "Random Off"
 msgid "Random"
 msgstr "Random"
 
-#: include/vlc_intf_strings.h:80 modules/gui/macosx/CoreInteraction.m:375
+#: include/vlc_intf_strings.h:80 modules/gui/macosx/CoreInteraction.m:382
 #, fuzzy
 msgid "Random Off"
 msgstr "Random Off"
@@ -599,7 +599,7 @@ msgstr "Save Playlist…"
 msgid "Search"
 msgstr ""
 
-#: include/vlc_intf_strings.h:97 modules/gui/macosx/VideoEffects.m:160
+#: include/vlc_intf_strings.h:97 modules/gui/macosx/VideoEffects.m:159
 #: modules/gui/qt4/ui/video_effects.h:1399
 #, fuzzy
 msgid "Waves"
@@ -646,7 +646,7 @@ msgstr ""
 
 #: src/audio_output/output.c:220 src/audio_output/output.c:267
 #: src/config/core.c:407 src/input/es_out.c:902 src/libvlc-module.c:540
-#: modules/gui/macosx/MainWindow.m:963 modules/video_filter/postproc.c:234
+#: modules/gui/macosx/MainWindow.m:962 modules/video_filter/postproc.c:234
 msgid "Disable"
 msgstr "Disable"
 
@@ -669,7 +669,7 @@ msgid "Vu meter"
 msgstr "Video title"
 
 #: src/audio_output/output.c:264 modules/audio_filter/equalizer.c:81
-#: modules/gui/macosx/AudioEffects.m:144 share/lua/http/index.html:219
+#: modules/gui/macosx/AudioEffects.m:143 share/lua/http/index.html:219
 msgid "Equalizer"
 msgstr "Equaliser"
 
@@ -704,8 +704,8 @@ msgstr "Stereo"
 #: modules/audio_filter/channel_mixer/mono.c:92
 #: modules/audio_filter/channel_mixer/remap.c:61 modules/codec/dvbsub.c:102
 #: modules/codec/subsdec.c:164 modules/codec/zvbi.c:78
-#: modules/control/gestures.c:83 modules/gui/macosx/VideoEffects.m:105
-#: modules/gui/macosx/VideoEffects.m:170 modules/gui/macosx/VideoEffects.m:192
+#: modules/control/gestures.c:83 modules/gui/macosx/VideoEffects.m:104
+#: modules/gui/macosx/VideoEffects.m:169 modules/gui/macosx/VideoEffects.m:191
 #: modules/video_filter/audiobargraph_v.c:74 modules/video_filter/logo.c:79
 #: modules/video_filter/marq.c:139 modules/video_filter/mosaic.c:170
 #: modules/video_filter/rss.c:173 modules/gui/qt4/ui/video_effects.h:1318
@@ -719,8 +719,8 @@ msgstr "Left"
 #: modules/audio_filter/channel_mixer/mono.c:92
 #: modules/audio_filter/channel_mixer/remap.c:61 modules/codec/dvbsub.c:102
 #: modules/codec/subsdec.c:164 modules/codec/zvbi.c:78
-#: modules/control/gestures.c:83 modules/gui/macosx/VideoEffects.m:106
-#: modules/gui/macosx/VideoEffects.m:172 modules/gui/macosx/VideoEffects.m:194
+#: modules/control/gestures.c:83 modules/gui/macosx/VideoEffects.m:105
+#: modules/gui/macosx/VideoEffects.m:171 modules/gui/macosx/VideoEffects.m:193
 #: modules/video_filter/audiobargraph_v.c:74 modules/video_filter/logo.c:79
 #: modules/video_filter/marq.c:139 modules/video_filter/mosaic.c:170
 #: modules/video_filter/rss.c:173 modules/gui/qt4/ui/video_effects.h:1319
@@ -1265,32 +1265,32 @@ msgstr "Scope"
 msgid "Yes"
 msgstr ""
 
-#: src/input/es_out.c:1989
+#: src/input/es_out.c:2005
 #, fuzzy, c-format
 msgid "Closed captions %u"
 msgstr "Vorbis audio encoder"
 
-#: src/input/es_out.c:2840
+#: src/input/es_out.c:2856
 #, c-format
 msgid "Stream %d"
 msgstr "Stream %d"
 
-#: src/input/es_out.c:2856 src/input/es_out.c:2971 modules/access/imem.c:64
+#: src/input/es_out.c:2872 src/input/es_out.c:2987 modules/access/imem.c:64
 msgid "Subtitle"
 msgstr ""
 
-#: src/input/es_out.c:2864 src/input/es_out.c:2891 src/input/es_out.c:2935
-#: src/input/es_out.c:2971 modules/gui/macosx/ConvertAndSave.m:196
+#: src/input/es_out.c:2880 src/input/es_out.c:2907 src/input/es_out.c:2951
+#: src/input/es_out.c:2987 modules/gui/macosx/ConvertAndSave.m:196
 #: modules/gui/macosx/output.m:144
 msgid "Type"
 msgstr "Type"
 
-#: src/input/es_out.c:2867
+#: src/input/es_out.c:2883
 #, fuzzy
 msgid "Original ID"
 msgstr "Float32 audio mixer"
 
-#: src/input/es_out.c:2875 src/input/es_out.c:2878 modules/access/imem.c:67
+#: src/input/es_out.c:2891 src/input/es_out.c:2894 modules/access/imem.c:67
 #: modules/gui/macosx/ConvertAndSave.m:177
 #: modules/gui/macosx/ConvertAndSave.m:187 modules/gui/macosx/wizard.m:382
 #: modules/gui/qt4/ui/profiles.h:712 modules/gui/qt4/ui/profiles.h:738
@@ -1298,37 +1298,37 @@ msgstr "Float32 audio mixer"
 msgid "Codec"
 msgstr "Codec"
 
-#: src/input/es_out.c:2882 src/input/meta.c:66 modules/access/imem.c:71
+#: src/input/es_out.c:2898 src/input/meta.c:66 modules/access/imem.c:71
 #: modules/gui/macosx/MainMenu.m:76 modules/stream_out/setid.c:49
 msgid "Language"
 msgstr "Language"
 
-#: src/input/es_out.c:2885 src/input/meta.c:61
+#: src/input/es_out.c:2901 src/input/meta.c:61
 #: modules/gui/macosx/bookmarks.m:97 modules/gui/macosx/MainMenu.m:74
 #: modules/gui/qt4/dialogs/bookmarks.cpp:75
 msgid "Description"
 msgstr "Description"
 
-#: src/input/es_out.c:2894 modules/gui/macosx/ConvertAndSave.m:189
+#: src/input/es_out.c:2910 modules/gui/macosx/ConvertAndSave.m:189
 #: modules/gui/macosx/output.m:167 modules/gui/qt4/ui/profiles.h:740
 msgid "Channels"
 msgstr "Channels"
 
-#: src/input/es_out.c:2899 modules/access/alsa.c:39 modules/access/imem.c:75
+#: src/input/es_out.c:2915 modules/access/alsa.c:39 modules/access/imem.c:75
 #: modules/audio_output/amem.c:45 modules/codec/fluidsynth.c:62
 msgid "Sample rate"
 msgstr "Sample rate"
 
-#: src/input/es_out.c:2899
+#: src/input/es_out.c:2915
 #, fuzzy, c-format
 msgid "%u Hz"
 msgstr "%d Hz"
 
-#: src/input/es_out.c:2909
+#: src/input/es_out.c:2925
 msgid "Bits per sample"
 msgstr "Bits per sample"
 
-#: src/input/es_out.c:2914 modules/access_output/shout.c:92
+#: src/input/es_out.c:2930 modules/access_output/shout.c:92
 #: modules/demux/playlist/shoutcast.c:325
 #: modules/gui/macosx/ConvertAndSave.m:178
 #: modules/gui/macosx/ConvertAndSave.m:188 modules/gui/qt4/ui/profiles.h:713
@@ -1336,36 +1336,36 @@ msgstr "Bits per sample"
 msgid "Bitrate"
 msgstr "Bitrate"
 
-#: src/input/es_out.c:2914
+#: src/input/es_out.c:2930
 #, fuzzy, c-format
 msgid "%u kb/s"
 msgstr "%d kb/s"
 
-#: src/input/es_out.c:2926
+#: src/input/es_out.c:2942
 #, fuzzy
 msgid "Track replay gain"
 msgstr "Sout stream"
 
-#: src/input/es_out.c:2928
+#: src/input/es_out.c:2944
 #, fuzzy
 msgid "Album replay gain"
 msgstr "Sout stream"
 
-#: src/input/es_out.c:2929
+#: src/input/es_out.c:2945
 #, c-format
 msgid "%.2f dB"
 msgstr ""
 
-#: src/input/es_out.c:2938 modules/gui/macosx/ConvertAndSave.m:180
+#: src/input/es_out.c:2954 modules/gui/macosx/ConvertAndSave.m:180
 #: modules/gui/qt4/ui/profiles.h:733
 msgid "Resolution"
 msgstr "Resolution"
 
-#: src/input/es_out.c:2943
+#: src/input/es_out.c:2959
 msgid "Display resolution"
 msgstr "Display resolution"
 
-#: src/input/es_out.c:2953 src/input/es_out.c:2956 modules/access/imem.c:93
+#: src/input/es_out.c:2969 src/input/es_out.c:2972 modules/access/imem.c:93
 #: modules/access/rdp.c:53 modules/access/screen/screen.c:42
 #: modules/access/screen/xcb.c:38 modules/access/shm.c:41
 #: modules/access/timecode.c:34 modules/access/vdr.c:82
@@ -1373,7 +1373,7 @@ msgstr "Display resolution"
 msgid "Frame rate"
 msgstr "Frame rate"
 
-#: src/input/es_out.c:2964
+#: src/input/es_out.c:2980
 #, fuzzy
 msgid "Decoded format"
 msgstr "Append to file"
@@ -1846,7 +1846,7 @@ msgid ""
 "your experience, especially when combined with the Headphone Channel Mixer."
 msgstr ""
 
-#: src/libvlc-module.c:180 src/win32/thread.c:818
+#: src/libvlc-module.c:180 src/win32/thread.c:827
 #: modules/audio_output/kai.c:106 modules/codec/x264.c:434
 #: modules/gui/qt4/components/sout/profile_selector.cpp:566
 #: modules/video_output/kva.c:62 modules/video_output/xcb/xvideo.c:878
@@ -2076,7 +2076,7 @@ msgstr ""
 #: modules/audio_filter/channel_mixer/mono.c:94
 #: modules/audio_filter/channel_mixer/remap.c:61 modules/codec/dvbsub.c:102
 #: modules/codec/subsdec.c:164 modules/codec/zvbi.c:78
-#: modules/gui/macosx/VideoEffects.m:168 modules/gui/macosx/VideoEffects.m:190
+#: modules/gui/macosx/VideoEffects.m:167 modules/gui/macosx/VideoEffects.m:189
 #: modules/video_filter/audiobargraph_v.c:74 modules/video_filter/logo.c:79
 #: modules/video_filter/marq.c:139 modules/video_filter/mosaic.c:170
 #: modules/video_filter/rss.c:173
@@ -2084,8 +2084,8 @@ msgid "Center"
 msgstr "Centre"
 
 #: src/libvlc-module.c:286 src/libvlc-module.c:364 modules/codec/dvbsub.c:102
-#: modules/codec/zvbi.c:78 modules/gui/macosx/VideoEffects.m:104
-#: modules/gui/macosx/VideoEffects.m:174 modules/gui/macosx/VideoEffects.m:196
+#: modules/codec/zvbi.c:78 modules/gui/macosx/VideoEffects.m:103
+#: modules/gui/macosx/VideoEffects.m:173 modules/gui/macosx/VideoEffects.m:195
 #: modules/video_filter/audiobargraph_v.c:74 modules/video_filter/logo.c:79
 #: modules/video_filter/marq.c:139 modules/video_filter/mosaic.c:170
 #: modules/video_filter/rss.c:173 modules/gui/qt4/ui/video_effects.h:1316
@@ -2095,8 +2095,8 @@ msgid "Top"
 msgstr ""
 
 #: src/libvlc-module.c:286 src/libvlc-module.c:364 modules/codec/dvbsub.c:102
-#: modules/codec/zvbi.c:78 modules/gui/macosx/VideoEffects.m:107
-#: modules/gui/macosx/VideoEffects.m:176 modules/gui/macosx/VideoEffects.m:198
+#: modules/codec/zvbi.c:78 modules/gui/macosx/VideoEffects.m:106
+#: modules/gui/macosx/VideoEffects.m:175 modules/gui/macosx/VideoEffects.m:197
 #: modules/video_filter/audiobargraph_v.c:74 modules/video_filter/logo.c:79
 #: modules/video_filter/marq.c:139 modules/video_filter/mosaic.c:170
 #: modules/video_filter/rss.c:173 modules/gui/qt4/ui/video_effects.h:1320
@@ -2104,8 +2104,8 @@ msgid "Bottom"
 msgstr ""
 
 #: src/libvlc-module.c:287 src/libvlc-module.c:365 modules/codec/dvbsub.c:103
-#: modules/codec/zvbi.c:79 modules/gui/macosx/VideoEffects.m:178
-#: modules/gui/macosx/VideoEffects.m:200
+#: modules/codec/zvbi.c:79 modules/gui/macosx/VideoEffects.m:177
+#: modules/gui/macosx/VideoEffects.m:199
 #: modules/video_filter/audiobargraph_v.c:75 modules/video_filter/logo.c:80
 #: modules/video_filter/marq.c:140 modules/video_filter/mosaic.c:171
 #: modules/video_filter/rss.c:174
@@ -2113,8 +2113,8 @@ msgid "Top-Left"
 msgstr ""
 
 #: src/libvlc-module.c:287 src/libvlc-module.c:365 modules/codec/dvbsub.c:103
-#: modules/codec/zvbi.c:79 modules/gui/macosx/VideoEffects.m:180
-#: modules/gui/macosx/VideoEffects.m:202
+#: modules/codec/zvbi.c:79 modules/gui/macosx/VideoEffects.m:179
+#: modules/gui/macosx/VideoEffects.m:201
 #: modules/video_filter/audiobargraph_v.c:75 modules/video_filter/logo.c:80
 #: modules/video_filter/marq.c:140 modules/video_filter/mosaic.c:171
 #: modules/video_filter/rss.c:174
@@ -2122,8 +2122,8 @@ msgid "Top-Right"
 msgstr ""
 
 #: src/libvlc-module.c:287 src/libvlc-module.c:365 modules/codec/dvbsub.c:103
-#: modules/codec/zvbi.c:79 modules/gui/macosx/VideoEffects.m:182
-#: modules/gui/macosx/VideoEffects.m:204
+#: modules/codec/zvbi.c:79 modules/gui/macosx/VideoEffects.m:181
+#: modules/gui/macosx/VideoEffects.m:203
 #: modules/video_filter/audiobargraph_v.c:75 modules/video_filter/logo.c:80
 #: modules/video_filter/marq.c:140 modules/video_filter/mosaic.c:171
 #: modules/video_filter/rss.c:174
@@ -2131,8 +2131,8 @@ msgid "Bottom-Left"
 msgstr ""
 
 #: src/libvlc-module.c:287 src/libvlc-module.c:365 modules/codec/dvbsub.c:103
-#: modules/codec/zvbi.c:79 modules/gui/macosx/VideoEffects.m:184
-#: modules/gui/macosx/VideoEffects.m:206
+#: modules/codec/zvbi.c:79 modules/gui/macosx/VideoEffects.m:183
+#: modules/gui/macosx/VideoEffects.m:205
 #: modules/video_filter/audiobargraph_v.c:75 modules/video_filter/logo.c:80
 #: modules/video_filter/marq.c:140 modules/video_filter/mosaic.c:171
 #: modules/video_filter/rss.c:174
@@ -2659,19 +2659,20 @@ msgstr ""
 #: src/libvlc-module.c:540 src/video_output/vout_intf.c:96
 #: src/video_output/vout_intf.c:114 modules/access/dshow/dshow.cpp:92
 #: modules/access/dshow/dshow.cpp:99 modules/access/dshow/dshow.cpp:119
-#: modules/access/dshow/dshow.cpp:2032 modules/audio_output/directx.c:771
-#: modules/gui/macosx/AudioEffects.m:87 modules/gui/macosx/MainMenu.m:600
-#: modules/gui/macosx/prefs_widgets.m:1211
+#: modules/access/dshow/dshow.cpp:2032 modules/audio_output/directx.c:795
+#: modules/gui/macosx/AudioEffects.m:86 modules/gui/macosx/MainMenu.m:600
+#: modules/gui/macosx/prefs_widgets.m:1214
+#: modules/gui/macosx/prefs_widgets.m:1287
 #: modules/gui/macosx/simple_prefs.m:389 modules/gui/macosx/simple_prefs.m:530
-#: modules/gui/macosx/simple_prefs.m:780 modules/gui/macosx/VideoEffects.m:58
+#: modules/gui/macosx/simple_prefs.m:780 modules/gui/macosx/VideoEffects.m:57
 #: modules/gui/qt4/components/preferences_widgets.cpp:545
 #: modules/video_filter/marq.c:60 modules/video_filter/rss.c:71
 #: modules/video_filter/rss.c:184 modules/video_output/msw/directx.c:1456
 msgid "Default"
 msgstr ""
 
-#: src/libvlc-module.c:540 modules/gui/macosx/AudioEffects.m:113
-#: modules/gui/macosx/MainWindow.m:961 modules/gui/macosx/wizard.m:351
+#: src/libvlc-module.c:540 modules/gui/macosx/AudioEffects.m:112
+#: modules/gui/macosx/MainWindow.m:960 modules/gui/macosx/wizard.m:351
 #: modules/gui/qt4/components/extended_panels.cpp:1024
 #: modules/gui/qt4/ui/equalizer.h:134 modules/gui/qt4/ui/vlm.h:290
 msgid "Enable"
@@ -3979,7 +3980,7 @@ msgstr ""
 msgid "These settings are the global VLC key bindings, known as \"hotkeys\"."
 msgstr ""
 
-#: src/libvlc-module.c:1197 modules/gui/macosx/intf.m:1916
+#: src/libvlc-module.c:1197 modules/gui/macosx/intf.m:1923
 #, fuzzy
 msgid "Ignore"
 msgstr "Codec"
@@ -4096,8 +4097,8 @@ msgid "Slower (fine)"
 msgstr ""
 
 #: src/libvlc-module.c:1223 modules/control/hotkeys.c:208
-#: modules/gui/macosx/about.m:274 modules/gui/macosx/ControlsBar.m:724
-#: modules/gui/macosx/ControlsBar.m:725 modules/gui/macosx/fspanel.m:420
+#: modules/gui/macosx/about.m:274 modules/gui/macosx/ControlsBar.m:726
+#: modules/gui/macosx/ControlsBar.m:727 modules/gui/macosx/fspanel.m:420
 #: modules/gui/macosx/MainMenu.m:360 modules/gui/macosx/MainMenu.m:458
 #: modules/gui/macosx/MainMenu.m:466 modules/gui/macosx/MainMenu.m:1449
 #: modules/gui/macosx/wizard.m:306 modules/gui/macosx/wizard.m:318
@@ -4112,8 +4113,8 @@ msgid "Select the hotkey to use to skip to the next item in the playlist."
 msgstr ""
 
 #: src/libvlc-module.c:1225 modules/control/hotkeys.c:212
-#: modules/gui/macosx/about.m:275 modules/gui/macosx/ControlsBar.m:713
-#: modules/gui/macosx/ControlsBar.m:714 modules/gui/macosx/fspanel.m:416
+#: modules/gui/macosx/about.m:275 modules/gui/macosx/ControlsBar.m:715
+#: modules/gui/macosx/ControlsBar.m:716 modules/gui/macosx/fspanel.m:416
 #: modules/gui/macosx/MainMenu.m:359 modules/gui/macosx/MainMenu.m:459
 #: modules/gui/macosx/MainMenu.m:465 modules/gui/macosx/MainMenu.m:1448
 #: modules/gui/qt4/components/controller.hpp:120 modules/notify/notify.c:337
@@ -4141,8 +4142,8 @@ msgstr ""
 
 #: src/libvlc-module.c:1229 modules/gui/macosx/bookmarks.m:99
 #: modules/gui/macosx/bookmarks.m:108 modules/gui/macosx/ControlsBar.m:64
-#: modules/gui/macosx/fspanel.m:444 modules/gui/macosx/VideoEffects.m:166
-#: modules/gui/macosx/VideoEffects.m:188 modules/video_filter/marq.c:161
+#: modules/gui/macosx/fspanel.m:444 modules/gui/macosx/VideoEffects.m:165
+#: modules/gui/macosx/VideoEffects.m:187 modules/video_filter/marq.c:161
 #: modules/video_filter/rss.c:200 modules/gui/qt4/ui/sprefs_subtitles.h:290
 #: modules/gui/qt4/ui/video_effects.h:1367
 msgid "Position"
@@ -5068,8 +5069,8 @@ msgid "Downloading ..."
 msgstr ""
 
 #: src/misc/update.c:585 src/misc/update.c:712 modules/demux/avi/avi.c:2387
-#: modules/gui/macosx/AudioEffects.m:388 modules/gui/macosx/AudioEffects.m:403
-#: modules/gui/macosx/AudioEffects.m:640 modules/gui/macosx/AudioEffects.m:740
+#: modules/gui/macosx/AudioEffects.m:387 modules/gui/macosx/AudioEffects.m:402
+#: modules/gui/macosx/AudioEffects.m:641 modules/gui/macosx/AudioEffects.m:741
 #: modules/gui/macosx/bookmarks.m:105 modules/gui/macosx/controls.m:54
 #: modules/gui/macosx/ConvertAndSave.m:168
 #: modules/gui/macosx/ConvertAndSave.m:367
@@ -5079,8 +5080,8 @@ msgstr ""
 #: modules/gui/macosx/open.m:126 modules/gui/macosx/open.m:188
 #: modules/gui/macosx/prefs.m:208 modules/gui/macosx/simple_prefs.m:195
 #: modules/gui/macosx/simple_prefs.m:223 modules/gui/macosx/simple_prefs.m:283
-#: modules/gui/macosx/simple_prefs.m:698 modules/gui/macosx/VideoEffects.m:838
-#: modules/gui/macosx/VideoEffects.m:902 modules/gui/macosx/wizard.m:317
+#: modules/gui/macosx/simple_prefs.m:698 modules/gui/macosx/VideoEffects.m:879
+#: modules/gui/macosx/VideoEffects.m:943 modules/gui/macosx/wizard.m:317
 #: modules/gui/qt4/components/open_panels.cpp:1347
 #: modules/gui/qt4/components/preferences_widgets.cpp:1424
 #: modules/gui/qt4/components/sout/profile_selector.cpp:435
@@ -5847,7 +5848,7 @@ msgid "Scale factor"
 msgstr "Scope"
 
 #: src/video_output/vout_intf.c:218 modules/gui/macosx/MainMenu.m:401
-#: modules/gui/macosx/MainMenu.m:402 modules/gui/macosx/VideoEffects.m:83
+#: modules/gui/macosx/MainMenu.m:402 modules/gui/macosx/VideoEffects.m:82
 #: modules/video_filter/croppadd.c:86 modules/gui/qt4/ui/video_effects.h:1326
 msgid "Crop"
 msgstr ""
@@ -7133,7 +7134,7 @@ msgstr "TCP input"
 #: modules/audio_output/file.c:110 modules/gui/macosx/open.m:128
 #: modules/gui/macosx/open.m:591 modules/gui/macosx/output.m:133
 #: modules/gui/macosx/output.m:217 modules/gui/macosx/output.m:341
-#: modules/gui/qt4/dialogs/plugins.cpp:577 modules/gui/qt4/dialogs/sout.cpp:69
+#: modules/gui/qt4/dialogs/plugins.cpp:581 modules/gui/qt4/dialogs/sout.cpp:69
 #: modules/gui/qt4/dialogs/sout.cpp:118
 #: share/lua/http/dialogs/create_stream.html:204
 #: share/lua/http/dialogs/stream_config_window.html:36
@@ -7390,7 +7391,7 @@ msgid "Channels count of an audio elementary stream"
 msgstr "File stream output"
 
 #: modules/access/imem.c:83 modules/access/v4l2/v4l2.c:65
-#: modules/demux/rawvid.c:48 modules/gui/macosx/AudioEffects.m:132
+#: modules/demux/rawvid.c:48 modules/gui/macosx/AudioEffects.m:131
 #: modules/gui/macosx/ConvertAndSave.m:182
 #: modules/gui/qt4/components/extended_panels.cpp:1402
 #: modules/video_filter/mosaic.c:94 modules/video_output/vmem.c:42
@@ -7475,7 +7476,7 @@ msgid "Address of the release callback function"
 msgstr ""
 "Give the default type of audio you want to use in a DVD. (Developers only)"
 
-#: modules/access/imem.c:113 modules/gui/macosx/AudioEffects.m:131
+#: modules/access/imem.c:113 modules/gui/macosx/AudioEffects.m:130
 #: modules/gui/qt4/components/extended_panels.cpp:1401
 #, fuzzy
 msgid "Size"
@@ -7692,21 +7693,21 @@ msgstr "TCP input"
 msgid "Port to use for tunneling the RTSP/RTP over HTTP."
 msgstr ""
 
-#: modules/access/live555.cpp:626
+#: modules/access/live555.cpp:630
 #, fuzzy
 msgid "RTSP authentication"
 msgstr "UDP/RTP input"
 
-#: modules/access/live555.cpp:627
+#: modules/access/live555.cpp:631
 msgid "Please enter a valid login name and a password."
 msgstr ""
 
-#: modules/access/live555.cpp:651
+#: modules/access/live555.cpp:655
 #, fuzzy
 msgid "RTSP connection failed"
 msgstr "Advanced options..."
 
-#: modules/access/live555.cpp:652
+#: modules/access/live555.cpp:656
 msgid "Access to the stream is denied by the server configuration."
 msgstr ""
 
@@ -8773,7 +8774,7 @@ msgstr "Text renderer settings"
 msgid "Reset controls to defaults."
 msgstr "Remote control interface"
 
-#: modules/access/v4l2/v4l2.c:84 modules/gui/macosx/VideoEffects.m:93
+#: modules/access/v4l2/v4l2.c:84 modules/gui/macosx/VideoEffects.m:92
 #: modules/video_filter/atmo/atmo.cpp:263
 #: modules/gui/qt4/ui/video_effects.h:1304
 #, fuzzy
@@ -8793,7 +8794,7 @@ msgstr "Video crop left"
 msgid "Automatically adjust the picture brightness."
 msgstr ""
 
-#: modules/access/v4l2/v4l2.c:89 modules/gui/macosx/VideoEffects.m:92
+#: modules/access/v4l2/v4l2.c:89 modules/gui/macosx/VideoEffects.m:91
 #: modules/gui/qt4/ui/video_effects.h:1306
 #, fuzzy
 msgid "Contrast"
@@ -8803,8 +8804,8 @@ msgstr "Codec"
 msgid "Picture contrast or luma gain."
 msgstr ""
 
-#: modules/access/v4l2/v4l2.c:91 modules/gui/macosx/VideoEffects.m:95
-#: modules/gui/macosx/VideoEffects.m:135
+#: modules/access/v4l2/v4l2.c:91 modules/gui/macosx/VideoEffects.m:94
+#: modules/gui/macosx/VideoEffects.m:134
 #: modules/gui/qt4/ui/video_effects.h:1307
 #: modules/gui/qt4/ui/video_effects.h:1339
 #, fuzzy
@@ -8815,7 +8816,7 @@ msgstr "Polarisation"
 msgid "Picture saturation or chroma gain."
 msgstr ""
 
-#: modules/access/v4l2/v4l2.c:93 modules/gui/macosx/VideoEffects.m:91
+#: modules/access/v4l2/v4l2.c:93 modules/gui/macosx/VideoEffects.m:90
 #: modules/gui/qt4/ui/video_effects.h:1303
 msgid "Hue"
 msgstr ""
@@ -8867,7 +8868,7 @@ msgstr ""
 msgid "Blue chroma balance."
 msgstr ""
 
-#: modules/access/v4l2/v4l2.c:111 modules/gui/macosx/VideoEffects.m:96
+#: modules/access/v4l2/v4l2.c:111 modules/gui/macosx/VideoEffects.m:95
 #: modules/gui/qt4/ui/video_effects.h:1308
 msgid "Gamma"
 msgstr ""
@@ -9007,7 +9008,7 @@ msgstr "Choose directory"
 msgid "Black & white"
 msgstr "Backwards"
 
-#: modules/access/v4l2/v4l2.c:164 modules/gui/macosx/VideoEffects.m:137
+#: modules/access/v4l2/v4l2.c:164 modules/gui/macosx/VideoEffects.m:136
 #: modules/video_filter/sepia.c:65 modules/gui/qt4/ui/video_effects.h:1341
 msgid "Sepia"
 msgstr ""
@@ -9846,7 +9847,7 @@ msgstr ""
 msgid "Level of input signal"
 msgstr "Options"
 
-#: modules/audio_filter/compressor.c:155 modules/gui/macosx/AudioEffects.m:120
+#: modules/audio_filter/compressor.c:155 modules/gui/macosx/AudioEffects.m:119
 #: modules/gui/qt4/components/extended_panels.cpp:1379
 msgid "RMS/peak"
 msgstr ""
@@ -9884,7 +9885,7 @@ msgstr "Enable interlaced encoding"
 msgid "Set the threshold level in dB (-30 ... 0)."
 msgstr "Set the global gain in dB (-20 … 20)"
 
-#: modules/audio_filter/compressor.c:169 modules/gui/macosx/AudioEffects.m:124
+#: modules/audio_filter/compressor.c:169 modules/gui/macosx/AudioEffects.m:123
 #: modules/gui/qt4/components/extended_panels.cpp:1383
 #, fuzzy
 msgid "Ratio"
@@ -9895,7 +9896,7 @@ msgstr "Rating"
 msgid "Set the ratio (n:1) (1 ... 20)."
 msgstr "Set the global gain in dB (-20 … 20)"
 
-#: modules/audio_filter/compressor.c:172 modules/gui/macosx/AudioEffects.m:125
+#: modules/audio_filter/compressor.c:172 modules/gui/macosx/AudioEffects.m:124
 msgid "Knee radius"
 msgstr ""
 
@@ -9904,7 +9905,7 @@ msgstr ""
 msgid "Set the knee radius in dB (1 ... 10)."
 msgstr "Set the global gain in dB (-20 … 20)"
 
-#: modules/audio_filter/compressor.c:175 modules/gui/macosx/AudioEffects.m:126
+#: modules/audio_filter/compressor.c:175 modules/gui/macosx/AudioEffects.m:125
 #, fuzzy
 msgid "Makeup gain"
 msgstr "Sout stream"
@@ -9914,7 +9915,7 @@ msgstr "Sout stream"
 msgid "Set the makeup gain in dB (0 ... 24)."
 msgstr "Set the global gain in dB (-20 … 20)"
 
-#: modules/audio_filter/compressor.c:179 modules/gui/macosx/AudioEffects.m:145
+#: modules/audio_filter/compressor.c:179 modules/gui/macosx/AudioEffects.m:144
 #: modules/gui/qt4/dialogs/extended.cpp:67
 #, fuzzy
 msgid "Compressor"
@@ -10135,7 +10136,7 @@ msgid "Gain control filter"
 msgstr "ffmpeg demuxer"
 
 #: modules/audio_filter/karaoke.c:35 modules/demux/xiph_metadata.h:49
-#: modules/gui/macosx/AudioEffects.m:141
+#: modules/gui/macosx/AudioEffects.m:140
 msgid "Karaoke"
 msgstr ""
 
@@ -10346,20 +10347,20 @@ msgid "Width of the virtual room"
 msgstr ""
 
 #: modules/audio_filter/spatializer/spatializer.cpp:61
-#: modules/gui/macosx/AudioEffects.m:133
+#: modules/gui/macosx/AudioEffects.m:132
 #: modules/gui/qt4/components/extended_panels.cpp:1403
 #, fuzzy
 msgid "Wet"
 msgstr "Resolution"
 
 #: modules/audio_filter/spatializer/spatializer.cpp:64
-#: modules/gui/macosx/AudioEffects.m:134
+#: modules/gui/macosx/AudioEffects.m:133
 #: modules/gui/qt4/components/extended_panels.cpp:1404
 msgid "Dry"
 msgstr ""
 
 #: modules/audio_filter/spatializer/spatializer.cpp:67
-#: modules/gui/macosx/AudioEffects.m:135
+#: modules/gui/macosx/AudioEffects.m:134
 #: modules/gui/qt4/components/extended_panels.cpp:1405
 #, fuzzy
 msgid "Damp"
@@ -10371,7 +10372,7 @@ msgid "Audio Spatializer"
 msgstr "visualiser filter"
 
 #: modules/audio_filter/spatializer/spatializer.cpp:72
-#: modules/gui/macosx/AudioEffects.m:146
+#: modules/gui/macosx/AudioEffects.m:145
 #: modules/gui/qt4/dialogs/extended.cpp:70
 #, fuzzy
 msgid "Spatializer"
@@ -11695,77 +11696,77 @@ msgstr "MPEG-I/II video demuxer"
 msgid "AAC extension"
 msgstr ""
 
-#: modules/codec/fdkaac.c:41
+#: modules/codec/fdkaac.c:67
 #, fuzzy
 msgid "Encoder Profile"
 msgstr "Stream "
 
-#: modules/codec/fdkaac.c:42
+#: modules/codec/fdkaac.c:68
 msgid "Encoder Algorithm to use"
 msgstr ""
 
-#: modules/codec/fdkaac.c:44
+#: modules/codec/fdkaac.c:70
 #, fuzzy
 msgid "Enable spectral band replication"
 msgstr "visualiser filter"
 
-#: modules/codec/fdkaac.c:45
+#: modules/codec/fdkaac.c:71
 msgid "This is an optional feature only for the AAC-ELD profile"
 msgstr ""
 
-#: modules/codec/fdkaac.c:47
+#: modules/codec/fdkaac.c:73
 msgid "VBR Quality"
 msgstr ""
 
-#: modules/codec/fdkaac.c:48
+#: modules/codec/fdkaac.c:74
 msgid "Quality of the VBR Encoding (0=cbr, 1-5 constant quality vbr, 5 is best"
 msgstr ""
 
-#: modules/codec/fdkaac.c:50
+#: modules/codec/fdkaac.c:76
 msgid "Enable afterburner library"
 msgstr ""
 
-#: modules/codec/fdkaac.c:51
+#: modules/codec/fdkaac.c:77
 msgid ""
 "This library will produce higher quality audio at the expense of additional "
 "CPU usage (default is enabled)"
 msgstr ""
 
-#: modules/codec/fdkaac.c:53
+#: modules/codec/fdkaac.c:79
 msgid "Signaling mode of the extension AOT"
 msgstr ""
 
-#: modules/codec/fdkaac.c:54
+#: modules/codec/fdkaac.c:80
 msgid ""
 "1 is explicit for SBR and implicit for PS (default), 2 is explicit "
 "hierarchical"
 msgstr ""
 
-#: modules/codec/fdkaac.c:71
+#: modules/codec/fdkaac.c:97
 msgid "AAC-LC"
 msgstr ""
 
-#: modules/codec/fdkaac.c:71
+#: modules/codec/fdkaac.c:97
 msgid "HE-AAC"
 msgstr ""
 
-#: modules/codec/fdkaac.c:71
+#: modules/codec/fdkaac.c:97
 msgid "HE-AAC-v2"
 msgstr ""
 
-#: modules/codec/fdkaac.c:71
+#: modules/codec/fdkaac.c:97
 msgid "AAC-LD"
 msgstr ""
 
-#: modules/codec/fdkaac.c:71
+#: modules/codec/fdkaac.c:97
 msgid "AAC-ELD"
 msgstr ""
 
-#: modules/codec/fdkaac.c:74
+#: modules/codec/fdkaac.c:100
 msgid "FDKAAC"
 msgstr ""
 
-#: modules/codec/fdkaac.c:75
+#: modules/codec/fdkaac.c:101
 #, fuzzy
 msgid "FDK-AAC Audio encoder"
 msgstr "Audio encoder"
@@ -12731,7 +12732,7 @@ msgid "MP3 fixed point audio encoder"
 msgstr "Vorbis audio encoder"
 
 #: modules/codec/speex.c:59 modules/codec/speex.c:799
-#: modules/gui/macosx/open.m:191 modules/gui/macosx/VideoEffects.m:141
+#: modules/gui/macosx/open.m:191 modules/gui/macosx/VideoEffects.m:140
 #: modules/gui/qt4/ui/sprefs_video.h:356
 #: modules/gui/qt4/ui/video_effects.h:1333
 #, fuzzy
@@ -14188,7 +14189,7 @@ msgstr "Remote control interface"
 
 #: modules/control/dbus/dbus_root.c:81 modules/gui/macosx/MainWindow.m:202
 #: modules/gui/macosx/MainWindow.m:674 modules/gui/macosx/MainWindow.m:680
-#: modules/gui/macosx/MainWindow.m:1243 modules/gui/ncurses.c:1027
+#: modules/gui/macosx/MainWindow.m:1241 modules/gui/ncurses.c:1030
 #: modules/gui/qt4/dialogs/help.cpp:91 modules/gui/qt4/main_interface.cpp:1013
 #: modules/gui/qt4/main_interface.cpp:1017
 #: modules/gui/qt4/main_interface.cpp:1056
@@ -14641,345 +14642,345 @@ msgstr "en_GB"
 msgid "Remote control interface"
 msgstr "Remote control interface"
 
-#: modules/control/rc.c:349
+#: modules/control/rc.c:353
 #, fuzzy
 msgid "Remote control interface initialized. Type `help' for help."
 msgstr "Remote control interface initialised, `h' for help\n"
 
-#: modules/control/rc.c:761
+#: modules/control/rc.c:765
 #, c-format
 msgid "Unknown command `%s'. Type `help' for help."
 msgstr ""
 
-#: modules/control/rc.c:779
+#: modules/control/rc.c:783
 msgid "+----[ Remote control commands ]"
 msgstr ""
 
-#: modules/control/rc.c:781
+#: modules/control/rc.c:785
 msgid "| add XYZ  . . . . . . . . . . . . add XYZ to playlist"
 msgstr ""
 
-#: modules/control/rc.c:782
+#: modules/control/rc.c:786
 msgid "| enqueue XYZ  . . . . . . . . . queue XYZ to playlist"
 msgstr ""
 
-#: modules/control/rc.c:783
+#: modules/control/rc.c:787
 msgid "| playlist . . . . .  show items currently in playlist"
 msgstr ""
 
-#: modules/control/rc.c:784
+#: modules/control/rc.c:788
 msgid "| play . . . . . . . . . . . . . . . . . . play stream"
 msgstr ""
 
-#: modules/control/rc.c:785
+#: modules/control/rc.c:789
 msgid "| stop . . . . . . . . . . . . . . . . . . stop stream"
 msgstr ""
 
-#: modules/control/rc.c:786
+#: modules/control/rc.c:790
 msgid "| next . . . . . . . . . . . . . .  next playlist item"
 msgstr ""
 
-#: modules/control/rc.c:787
+#: modules/control/rc.c:791
 msgid "| prev . . . . . . . . . . . .  previous playlist item"
 msgstr ""
 
-#: modules/control/rc.c:788
+#: modules/control/rc.c:792
 msgid "| goto . . . . . . . . . . . . . .  goto item at index"
 msgstr ""
 
-#: modules/control/rc.c:789
+#: modules/control/rc.c:793
 msgid "| repeat [on|off] . . . .  toggle playlist item repeat"
 msgstr ""
 
-#: modules/control/rc.c:790
+#: modules/control/rc.c:794
 msgid "| loop [on|off] . . . . . . . . . toggle playlist loop"
 msgstr ""
 
-#: modules/control/rc.c:791
+#: modules/control/rc.c:795
 msgid "| random [on|off] . . . . . . .  toggle random jumping"
 msgstr ""
 
-#: modules/control/rc.c:792
+#: modules/control/rc.c:796
 msgid "| clear . . . . . . . . . . . . . . clear the playlist"
 msgstr ""
 
-#: modules/control/rc.c:793
+#: modules/control/rc.c:797
 msgid "| status . . . . . . . . . . . current playlist status"
 msgstr ""
 
-#: modules/control/rc.c:794
+#: modules/control/rc.c:798
 msgid "| title [X]  . . . . . . set/get title in current item"
 msgstr ""
 
-#: modules/control/rc.c:795
+#: modules/control/rc.c:799
 msgid "| title_n  . . . . . . . .  next title in current item"
 msgstr ""
 
-#: modules/control/rc.c:796
+#: modules/control/rc.c:800
 msgid "| title_p  . . . . . .  previous title in current item"
 msgstr ""
 
-#: modules/control/rc.c:797
+#: modules/control/rc.c:801
 msgid "| chapter [X]  . . . . set/get chapter in current item"
 msgstr ""
 
-#: modules/control/rc.c:798
+#: modules/control/rc.c:802
 msgid "| chapter_n  . . . . . .  next chapter in current item"
 msgstr ""
 
-#: modules/control/rc.c:799
+#: modules/control/rc.c:803
 msgid "| chapter_p  . . . .  previous chapter in current item"
 msgstr ""
 
-#: modules/control/rc.c:801
+#: modules/control/rc.c:805
 msgid "| seek X . . . seek in seconds, for instance `seek 12'"
 msgstr ""
 
-#: modules/control/rc.c:802
+#: modules/control/rc.c:806
 msgid "| pause  . . . . . . . . . . . . . . . .  toggle pause"
 msgstr ""
 
-#: modules/control/rc.c:803
+#: modules/control/rc.c:807
 msgid "| fastforward  . . . . . . . .  .  set to maximum rate"
 msgstr ""
 
-#: modules/control/rc.c:804
+#: modules/control/rc.c:808
 msgid "| rewind  . . . . . . . . . . . .  set to minimum rate"
 msgstr ""
 
-#: modules/control/rc.c:805
+#: modules/control/rc.c:809
 msgid "| faster . . . . . . . . . .  faster playing of stream"
 msgstr ""
 
-#: modules/control/rc.c:806
+#: modules/control/rc.c:810
 msgid "| slower . . . . . . . . . .  slower playing of stream"
 msgstr ""
 
-#: modules/control/rc.c:807
+#: modules/control/rc.c:811
 msgid "| normal . . . . . . . . . .  normal playing of stream"
 msgstr ""
 
-#: modules/control/rc.c:808
+#: modules/control/rc.c:812
 msgid "| frame. . . . . . . . . .  play frame by frame"
 msgstr ""
 
-#: modules/control/rc.c:809
+#: modules/control/rc.c:813
 msgid "| f [on|off] . . . . . . . . . . . . toggle fullscreen"
 msgstr ""
 
-#: modules/control/rc.c:810
+#: modules/control/rc.c:814
 msgid "| info . . . . .  information about the current stream"
 msgstr ""
 
-#: modules/control/rc.c:811
+#: modules/control/rc.c:815
 msgid "| stats  . . . . . . . .  show statistical information"
 msgstr ""
 
-#: modules/control/rc.c:812
+#: modules/control/rc.c:816
 msgid "| get_time . . seconds elapsed since stream's beginning"
 msgstr ""
 
-#: modules/control/rc.c:813
+#: modules/control/rc.c:817
 msgid "| is_playing . . . .  1 if a stream plays, 0 otherwise"
 msgstr ""
 
-#: modules/control/rc.c:814
+#: modules/control/rc.c:818
 msgid "| get_title . . . . .  the title of the current stream"
 msgstr ""
 
-#: modules/control/rc.c:815
+#: modules/control/rc.c:819
 msgid "| get_length . . . .  the length of the current stream"
 msgstr ""
 
-#: modules/control/rc.c:817
+#: modules/control/rc.c:821
 msgid "| volume [X] . . . . . . . . . .  set/get audio volume"
 msgstr ""
 
-#: modules/control/rc.c:818
+#: modules/control/rc.c:822
 msgid "| volup [X]  . . . . . . .  raise audio volume X steps"
 msgstr ""
 
-#: modules/control/rc.c:819
+#: modules/control/rc.c:823
 msgid "| voldown [X]  . . . . . .  lower audio volume X steps"
 msgstr ""
 
-#: modules/control/rc.c:820
+#: modules/control/rc.c:824
 msgid "| adev [device]  . . . . . . . .  set/get audio device"
 msgstr ""
 
-#: modules/control/rc.c:821
+#: modules/control/rc.c:825
 msgid "| achan [X]. . . . . . . . . .  set/get audio channels"
 msgstr ""
 
-#: modules/control/rc.c:822
+#: modules/control/rc.c:826
 msgid "| atrack [X] . . . . . . . . . . . set/get audio track"
 msgstr ""
 
-#: modules/control/rc.c:823
+#: modules/control/rc.c:827
 msgid "| vtrack [X] . . . . . . . . . . . set/get video track"
 msgstr ""
 
-#: modules/control/rc.c:824
+#: modules/control/rc.c:828
 msgid "| vratio [X]  . . . . . . . set/get video aspect ratio"
 msgstr ""
 
-#: modules/control/rc.c:825
+#: modules/control/rc.c:829
 msgid "| vcrop [X]  . . . . . . . . . . .  set/get video crop"
 msgstr ""
 
-#: modules/control/rc.c:826
+#: modules/control/rc.c:830
 msgid "| vzoom [X]  . . . . . . . . . . .  set/get video zoom"
 msgstr ""
 
-#: modules/control/rc.c:827
+#: modules/control/rc.c:831
 msgid "| snapshot . . . . . . . . . . . . take video snapshot"
 msgstr ""
 
-#: modules/control/rc.c:828
+#: modules/control/rc.c:832
 msgid "| strack [X] . . . . . . . . .  set/get subtitle track"
 msgstr ""
 
-#: modules/control/rc.c:829
+#: modules/control/rc.c:833
 msgid "| key [hotkey name] . . . . . .  simulate hotkey press"
 msgstr ""
 
-#: modules/control/rc.c:830
+#: modules/control/rc.c:834
 msgid "| menu . . [on|off|up|down|left|right|select] use menu"
 msgstr ""
 
-#: modules/control/rc.c:832
+#: modules/control/rc.c:836
 msgid "| help . . . . . . . . . . . . . . . this help message"
 msgstr ""
 
-#: modules/control/rc.c:833
+#: modules/control/rc.c:837
 msgid "| logout . . . . . . .  exit (if in socket connection)"
 msgstr ""
 
-#: modules/control/rc.c:834
+#: modules/control/rc.c:838
 msgid "| quit . . . . . . . . . . . . . . . . . . .  quit vlc"
 msgstr ""
 
-#: modules/control/rc.c:836
+#: modules/control/rc.c:840
 msgid "+----[ end of help ]"
 msgstr ""
 
-#: modules/control/rc.c:963
+#: modules/control/rc.c:967
 #, fuzzy
 msgid "Press menu select or pause to continue."
 msgstr ""
 "\n"
 "Press the RETURN key to continue…\n"
 
-#: modules/control/rc.c:1189 modules/control/rc.c:1443
-#: modules/control/rc.c:1487
+#: modules/control/rc.c:1193 modules/control/rc.c:1447
+#: modules/control/rc.c:1491
 #, fuzzy
 msgid "Type 'menu select' or 'pause' to continue."
 msgstr ""
 "\n"
 "Press the RETURN key to continue…\n"
 
-#: modules/control/rc.c:1281
+#: modules/control/rc.c:1285
 msgid "Error: `goto' needs an argument greater than zero."
 msgstr ""
 
-#: modules/control/rc.c:1292
+#: modules/control/rc.c:1296
 #, fuzzy, c-format
 msgid "Playlist has only %u element"
 msgid_plural "Playlist has only %u elements"
 msgstr[0] "Playlist…"
 msgstr[1] "Playlist…"
 
-#: modules/control/rc.c:1743 modules/gui/ncurses.c:802
+#: modules/control/rc.c:1747 modules/gui/ncurses.c:805
 #, fuzzy
 msgid "+-[Incoming]"
 msgstr "Audio encoders settings"
 
-#: modules/control/rc.c:1744 modules/gui/ncurses.c:804
+#: modules/control/rc.c:1748 modules/gui/ncurses.c:807
 #, c-format
 msgid "| input bytes read : %8.0f KiB"
 msgstr ""
 
-#: modules/control/rc.c:1746 modules/gui/ncurses.c:806
+#: modules/control/rc.c:1750 modules/gui/ncurses.c:809
 #, c-format
 msgid "| input bitrate    :   %6.0f kb/s"
 msgstr ""
 
-#: modules/control/rc.c:1748 modules/gui/ncurses.c:808
+#: modules/control/rc.c:1752 modules/gui/ncurses.c:811
 #, c-format
 msgid "| demux bytes read : %8.0f KiB"
 msgstr ""
 
-#: modules/control/rc.c:1750 modules/gui/ncurses.c:810
+#: modules/control/rc.c:1754 modules/gui/ncurses.c:813
 #, c-format
 msgid "| demux bitrate    :   %6.0f kb/s"
 msgstr ""
 
-#: modules/control/rc.c:1752
+#: modules/control/rc.c:1756
 #, c-format
 msgid "| demux corrupted  :    %5<PRIi64>"
 msgstr ""
 
-#: modules/control/rc.c:1754
+#: modules/control/rc.c:1758
 #, fuzzy, c-format
 msgid "| discontinuities  :    %5<PRIi64>"
 msgstr "ffmpeg demuxer"
 
-#: modules/control/rc.c:1758 modules/gui/ncurses.c:816
+#: modules/control/rc.c:1762 modules/gui/ncurses.c:819
 #, fuzzy
 msgid "+-[Video Decoding]"
 msgstr "Video crop left"
 
-#: modules/control/rc.c:1759 modules/gui/ncurses.c:818
+#: modules/control/rc.c:1763 modules/gui/ncurses.c:821
 #, c-format
 msgid "| video decoded    :    %5<PRIi64>"
 msgstr ""
 
-#: modules/control/rc.c:1761 modules/gui/ncurses.c:820
+#: modules/control/rc.c:1765 modules/gui/ncurses.c:823
 #, c-format
 msgid "| frames displayed :    %5<PRIi64>"
 msgstr ""
 
-#: modules/control/rc.c:1763 modules/gui/ncurses.c:822
+#: modules/control/rc.c:1767 modules/gui/ncurses.c:825
 #, c-format
 msgid "| frames lost      :    %5<PRIi64>"
 msgstr ""
 
-#: modules/control/rc.c:1767 modules/gui/ncurses.c:828
+#: modules/control/rc.c:1771 modules/gui/ncurses.c:831
 #, fuzzy
 msgid "+-[Audio Decoding]"
 msgstr "Audio encoder"
 
-#: modules/control/rc.c:1768 modules/gui/ncurses.c:830
+#: modules/control/rc.c:1772 modules/gui/ncurses.c:833
 #, c-format
 msgid "| audio decoded    :    %5<PRIi64>"
 msgstr ""
 
-#: modules/control/rc.c:1770 modules/gui/ncurses.c:832
+#: modules/control/rc.c:1774 modules/gui/ncurses.c:835
 #, c-format
 msgid "| buffers played   :    %5<PRIi64>"
 msgstr ""
 
-#: modules/control/rc.c:1772 modules/gui/ncurses.c:834
+#: modules/control/rc.c:1776 modules/gui/ncurses.c:837
 #, c-format
 msgid "| buffers lost     :    %5<PRIi64>"
 msgstr ""
 
-#: modules/control/rc.c:1776 modules/gui/ncurses.c:839
+#: modules/control/rc.c:1780 modules/gui/ncurses.c:842
 #, fuzzy
 msgid "+-[Streaming]"
 msgstr "Codec setting"
 
-#: modules/control/rc.c:1777 modules/gui/ncurses.c:841
+#: modules/control/rc.c:1781 modules/gui/ncurses.c:844
 #, c-format
 msgid "| packets sent     :    %5<PRIi64>"
 msgstr ""
 
-#: modules/control/rc.c:1779 modules/gui/ncurses.c:842
+#: modules/control/rc.c:1783 modules/gui/ncurses.c:845
 #, c-format
 msgid "| bytes sent       : %8.0f KiB"
 msgstr ""
 
-#: modules/control/rc.c:1781 modules/gui/ncurses.c:844
+#: modules/control/rc.c:1785 modules/gui/ncurses.c:847
 #, c-format
 msgid "| sending bitrate  :   %6.0f kb/s"
 msgstr ""
@@ -15539,7 +15540,7 @@ msgstr "Dolby Surround"
 msgid "Gospel"
 msgstr ""
 
-#: modules/demux/mp4/id3genres.h:71 modules/gui/macosx/VideoEffects.m:139
+#: modules/demux/mp4/id3genres.h:71 modules/gui/macosx/VideoEffects.m:138
 #, fuzzy
 msgid "Noise"
 msgstr "Codec"
@@ -15658,7 +15659,7 @@ msgstr "Choose file"
 msgid "New Wave"
 msgstr "Audio encoder"
 
-#: modules/demux/mp4/id3genres.h:99 modules/gui/macosx/VideoEffects.m:161
+#: modules/demux/mp4/id3genres.h:99 modules/gui/macosx/VideoEffects.m:160
 #: modules/video_filter/psychedelic.c:55
 #: modules/gui/qt4/ui/video_effects.h:1390
 #, fuzzy
@@ -16308,7 +16309,7 @@ msgid "ZPL playlist import"
 msgstr "&Shuffle Playlist"
 
 #: modules/demux/playlist/podcast.c:194 modules/demux/playlist/podcast.c:206
-#: modules/demux/playlist/podcast.c:250 modules/demux/playlist/podcast.c:270
+#: modules/demux/playlist/podcast.c:266 modules/demux/playlist/podcast.c:286
 #, fuzzy
 msgid "Podcast Info"
 msgstr "Date"
@@ -16328,52 +16329,52 @@ msgstr "Copyright"
 msgid "Podcast Category"
 msgstr "Copy packetiser"
 
-#: modules/demux/playlist/podcast.c:199 modules/demux/playlist/podcast.c:257
+#: modules/demux/playlist/podcast.c:199 modules/demux/playlist/podcast.c:273
 #, fuzzy
 msgid "Podcast Keywords"
 msgstr "Copy packetiser"
 
-#: modules/demux/playlist/podcast.c:200 modules/demux/playlist/podcast.c:258
+#: modules/demux/playlist/podcast.c:200 modules/demux/playlist/podcast.c:274
 #, fuzzy
 msgid "Podcast Subtitle"
 msgstr "Subtitles Track"
 
-#: modules/demux/playlist/podcast.c:206 modules/demux/playlist/podcast.c:259
+#: modules/demux/playlist/podcast.c:206 modules/demux/playlist/podcast.c:275
 #, fuzzy
 msgid "Podcast Summary"
 msgstr "Copy packetiser"
 
-#: modules/demux/playlist/podcast.c:253
+#: modules/demux/playlist/podcast.c:269
 #, fuzzy
 msgid "Podcast Publication Date"
 msgstr "Polarisation"
 
-#: modules/demux/playlist/podcast.c:254
+#: modules/demux/playlist/podcast.c:270
 #, fuzzy
 msgid "Podcast Author"
 msgstr "Author"
 
-#: modules/demux/playlist/podcast.c:255
+#: modules/demux/playlist/podcast.c:271
 #, fuzzy
 msgid "Podcast Subcategory"
 msgstr "Copy packetiser"
 
-#: modules/demux/playlist/podcast.c:256
+#: modules/demux/playlist/podcast.c:272
 #, fuzzy
 msgid "Podcast Duration"
 msgstr "Polarisation"
 
-#: modules/demux/playlist/podcast.c:260
+#: modules/demux/playlist/podcast.c:276
 #, fuzzy
 msgid "Podcast Type"
 msgstr "Copy packetiser"
 
-#: modules/demux/playlist/podcast.c:271
+#: modules/demux/playlist/podcast.c:287
 #, fuzzy
 msgid "Podcast Size"
 msgstr "Copy packetiser"
 
-#: modules/demux/playlist/podcast.c:272
+#: modules/demux/playlist/podcast.c:288
 #, fuzzy, c-format
 msgid "%s bytes"
 msgstr "Group packets"
@@ -16855,152 +16856,152 @@ msgstr ""
 msgid "Index"
 msgstr "PS demuxer"
 
-#: modules/gui/macosx/AudioEffects.m:114 modules/gui/qt4/ui/equalizer.h:135
+#: modules/gui/macosx/AudioEffects.m:113 modules/gui/qt4/ui/equalizer.h:135
 msgid "2 Pass"
 msgstr ""
 
-#: modules/gui/macosx/AudioEffects.m:115
+#: modules/gui/macosx/AudioEffects.m:114
 #: modules/gui/qt4/components/extended_panels.cpp:1216
 #: modules/gui/qt4/ui/equalizer.h:137
 #, fuzzy
 msgid "Preamp"
 msgstr "Stream "
 
-#: modules/gui/macosx/AudioEffects.m:118
+#: modules/gui/macosx/AudioEffects.m:117
 msgid "Enable dynamic range compressor"
 msgstr ""
 
-#: modules/gui/macosx/AudioEffects.m:119 modules/gui/macosx/AudioEffects.m:130
+#: modules/gui/macosx/AudioEffects.m:118 modules/gui/macosx/AudioEffects.m:129
 #: modules/gui/macosx/TrackSynchronization.m:60
-#: modules/gui/macosx/VideoEffects.m:97
+#: modules/gui/macosx/VideoEffects.m:96
 #: modules/gui/qt4/dialogs/gototime.cpp:66
 #, fuzzy
 msgid "Reset"
 msgstr "Date"
 
-#: modules/gui/macosx/AudioEffects.m:121
+#: modules/gui/macosx/AudioEffects.m:120
 #: modules/gui/qt4/components/extended_panels.cpp:1380
 msgid "Attack"
 msgstr ""
 
-#: modules/gui/macosx/AudioEffects.m:122
+#: modules/gui/macosx/AudioEffects.m:121
 #: modules/gui/qt4/components/extended_panels.cpp:1381
 #, fuzzy
 msgid "Release"
 msgstr "HD1000 audio output"
 
-#: modules/gui/macosx/AudioEffects.m:123
+#: modules/gui/macosx/AudioEffects.m:122
 #: modules/gui/qt4/components/extended_panels.cpp:1382
 #, fuzzy
 msgid "Threshold"
 msgstr "Enable interlaced encoding"
 
-#: modules/gui/macosx/AudioEffects.m:129
+#: modules/gui/macosx/AudioEffects.m:128
 #, fuzzy
 msgid "Enable Spatializer"
 msgstr "visualiser filter"
 
-#: modules/gui/macosx/AudioEffects.m:138
+#: modules/gui/macosx/AudioEffects.m:137
 #, fuzzy
 msgid "Headphone virtualization"
 msgstr "headphone channel mixer with virtual spatialisation effect"
 
-#: modules/gui/macosx/AudioEffects.m:139
+#: modules/gui/macosx/AudioEffects.m:138
 #, fuzzy
 msgid "Volume normalization"
 msgstr "Visualisations"
 
-#: modules/gui/macosx/AudioEffects.m:140
+#: modules/gui/macosx/AudioEffects.m:139
 #, fuzzy
 msgid "Maximum level"
 msgstr "Video bitrate"
 
-#: modules/gui/macosx/AudioEffects.m:147
+#: modules/gui/macosx/AudioEffects.m:146
 #, fuzzy
 msgid "Filter"
 msgstr "Filters"
 
-#: modules/gui/macosx/AudioEffects.m:148
+#: modules/gui/macosx/AudioEffects.m:147
 #: modules/gui/qt4/dialogs/extended.cpp:73
 #, fuzzy
 msgid "Audio Effects"
 msgstr "Audio encoder"
 
-#: modules/gui/macosx/AudioEffects.m:203 modules/gui/macosx/VideoEffects.m:232
+#: modules/gui/macosx/AudioEffects.m:202 modules/gui/macosx/VideoEffects.m:231
 #, fuzzy
 msgid "Duplicate current profile..."
 msgstr "Destination video codec"
 
-#: modules/gui/macosx/AudioEffects.m:208
+#: modules/gui/macosx/AudioEffects.m:207
 #: modules/gui/macosx/ConvertAndSave.m:1053
 #, fuzzy
 msgid "Organize Profiles..."
 msgstr "Opening file…"
 
-#: modules/gui/macosx/AudioEffects.m:386 modules/gui/macosx/VideoEffects.m:836
+#: modules/gui/macosx/AudioEffects.m:385 modules/gui/macosx/VideoEffects.m:877
 msgid "Duplicate current profile for a new profile"
 msgstr ""
 
-#: modules/gui/macosx/AudioEffects.m:387
+#: modules/gui/macosx/AudioEffects.m:386
 #: modules/gui/macosx/ConvertAndSave.m:366
-#: modules/gui/macosx/VideoEffects.m:837
+#: modules/gui/macosx/VideoEffects.m:878
 #, fuzzy
 msgid "Enter a name for the new profile:"
 msgstr "Destination video codec"
 
-#: modules/gui/macosx/AudioEffects.m:389 modules/gui/macosx/AudioEffects.m:641
+#: modules/gui/macosx/AudioEffects.m:388 modules/gui/macosx/AudioEffects.m:642
 #: modules/gui/macosx/ConvertAndSave.m:368
 #: modules/gui/macosx/ConvertAndSave.m:400 modules/gui/macosx/output.m:457
 #: modules/gui/macosx/playlist.m:695 modules/gui/macosx/prefs.m:207
 #: modules/gui/macosx/simple_prefs.m:222 modules/gui/macosx/simple_prefs.m:285
-#: modules/gui/macosx/VideoEffects.m:839
+#: modules/gui/macosx/VideoEffects.m:880
 #: modules/gui/qt4/components/sout/profile_selector.cpp:432
 #: modules/gui/qt4/ui/vlm.h:302
 #, fuzzy
 msgid "Save"
 msgstr "Scope"
 
-#: modules/gui/macosx/AudioEffects.m:400 modules/gui/macosx/AudioEffects.m:737
-#: modules/gui/macosx/VideoEffects.m:899
+#: modules/gui/macosx/AudioEffects.m:399 modules/gui/macosx/AudioEffects.m:738
+#: modules/gui/macosx/VideoEffects.m:940
 #, fuzzy
 msgid "Remove a preset"
 msgstr "no input\n"
 
-#: modules/gui/macosx/AudioEffects.m:401 modules/gui/macosx/AudioEffects.m:738
-#: modules/gui/macosx/VideoEffects.m:900
+#: modules/gui/macosx/AudioEffects.m:400 modules/gui/macosx/AudioEffects.m:739
+#: modules/gui/macosx/VideoEffects.m:941
 msgid "Select the preset you would like to remove:"
 msgstr ""
 
-#: modules/gui/macosx/AudioEffects.m:402 modules/gui/macosx/AudioEffects.m:739
+#: modules/gui/macosx/AudioEffects.m:401 modules/gui/macosx/AudioEffects.m:740
 #: modules/gui/macosx/bookmarks.m:95 modules/gui/macosx/ConvertAndSave.m:380
-#: modules/gui/macosx/VideoEffects.m:901 modules/gui/qt4/ui/open_file.h:155
+#: modules/gui/macosx/VideoEffects.m:942 modules/gui/qt4/ui/open_file.h:155
 msgid "Remove"
 msgstr ""
 
-#: modules/gui/macosx/AudioEffects.m:462
+#: modules/gui/macosx/AudioEffects.m:461
 #, fuzzy
 msgid "Add new Preset..."
 msgstr "Open &File…\tCtrl-F"
 
-#: modules/gui/macosx/AudioEffects.m:467
+#: modules/gui/macosx/AudioEffects.m:466
 msgid "Organize Presets..."
 msgstr ""
 
-#: modules/gui/macosx/AudioEffects.m:638
+#: modules/gui/macosx/AudioEffects.m:639
 msgid "Save current selection as new preset"
 msgstr ""
 
-#: modules/gui/macosx/AudioEffects.m:639
+#: modules/gui/macosx/AudioEffects.m:640
 #, fuzzy
 msgid "Enter a name for the new preset:"
 msgstr "Destination video codec"
 
-#: modules/gui/macosx/AudioEffects.m:704 modules/gui/macosx/VideoEffects.m:862
+#: modules/gui/macosx/AudioEffects.m:705 modules/gui/macosx/VideoEffects.m:903
 #, fuzzy
 msgid "Please enter a unique name for the new profile."
 msgstr "Destination video codec"
 
-#: modules/gui/macosx/AudioEffects.m:705 modules/gui/macosx/VideoEffects.m:863
+#: modules/gui/macosx/AudioEffects.m:706 modules/gui/macosx/VideoEffects.m:904
 msgid "Multiple profiles with the same name are not allowed."
 msgstr ""
 
@@ -17059,7 +17060,7 @@ msgid "OK"
 msgstr ""
 
 #: modules/gui/macosx/bookmarks.m:106 modules/gui/macosx/playlist.m:159
-#: modules/gui/qt4/dialogs/plugins.cpp:105
+#: modules/gui/qt4/dialogs/plugins.cpp:109
 #, fuzzy
 msgid "Name"
 msgstr "Sample rate"
@@ -17131,7 +17132,7 @@ msgstr ""
 msgid "Backward"
 msgstr "&Backwards"
 
-#: modules/gui/macosx/ControlsBar.m:57 modules/gui/macosx/ControlsBar.m:829
+#: modules/gui/macosx/ControlsBar.m:57 modules/gui/macosx/ControlsBar.m:831
 msgid ""
 "Click to go to the previous playlist item. Hold to skip backward through the "
 "current media."
@@ -17142,7 +17143,7 @@ msgstr ""
 msgid "Forward"
 msgstr "Backwards"
 
-#: modules/gui/macosx/ControlsBar.m:61 modules/gui/macosx/ControlsBar.m:830
+#: modules/gui/macosx/ControlsBar.m:61 modules/gui/macosx/ControlsBar.m:832
 msgid ""
 "Click to go to the next playlist item. Hold to skip forward through the "
 "current media."
@@ -17235,23 +17236,23 @@ msgid ""
 "filters."
 msgstr ""
 
-#: modules/gui/macosx/ControlsBar.m:715 modules/gui/macosx/fspanel.m:416
+#: modules/gui/macosx/ControlsBar.m:717 modules/gui/macosx/fspanel.m:416
 #, fuzzy
 msgid "Click to go to the previous playlist item."
 msgstr "&Shuffle Playlist"
 
-#: modules/gui/macosx/ControlsBar.m:726 modules/gui/macosx/fspanel.m:420
+#: modules/gui/macosx/ControlsBar.m:728 modules/gui/macosx/fspanel.m:420
 #, fuzzy
 msgid "Click to go to the next playlist item."
 msgstr ""
 "When this is active, VLC will keep playing the current playlist item over "
 "and over again."
 
-#: modules/gui/macosx/ControlsBar.m:742 modules/gui/macosx/fspanel.m:417
+#: modules/gui/macosx/ControlsBar.m:744 modules/gui/macosx/fspanel.m:417
 msgid "Click and hold to skip backward through the current media."
 msgstr ""
 
-#: modules/gui/macosx/ControlsBar.m:743 modules/gui/macosx/fspanel.m:419
+#: modules/gui/macosx/ControlsBar.m:745 modules/gui/macosx/fspanel.m:419
 msgid "Click and hold to skip forward through the current media."
 msgstr ""
 
@@ -17295,7 +17296,7 @@ msgstr ""
 
 #: modules/gui/macosx/ConvertAndSave.m:161 modules/gui/macosx/open.m:136
 #: modules/gui/macosx/open.m:365 modules/gui/macosx/output.m:136
-#: modules/gui/macosx/prefs_widgets.m:1111
+#: modules/gui/macosx/prefs_widgets.m:1114
 #: modules/gui/macosx/simple_prefs.m:204 modules/gui/macosx/simple_prefs.m:272
 #: modules/gui/qt4/components/preferences_widgets.cpp:263
 #: modules/gui/qt4/components/simple_preferences.cpp:289
@@ -17503,7 +17504,7 @@ msgstr ""
 
 #: modules/gui/macosx/ConvertAndSave.m:1051
 #: modules/gui/macosx/simple_prefs.m:566 modules/gui/macosx/simple_prefs.m:590
-#: modules/gui/macosx/simple_prefs.m:1141
+#: modules/gui/macosx/simple_prefs.m:1143
 #: modules/gui/qt4/components/simple_preferences.cpp:531
 #, fuzzy
 msgid "Custom"
@@ -17529,11 +17530,11 @@ msgstr "Video bitrate"
 msgid "Show Details"
 msgstr "Codec Description"
 
-#: modules/gui/macosx/CoreInteraction.m:367
+#: modules/gui/macosx/CoreInteraction.m:374
 msgid "Random On"
 msgstr "Random On"
 
-#: modules/gui/macosx/CoreInteraction.m:437
+#: modules/gui/macosx/CoreInteraction.m:444
 #, fuzzy
 msgid "Repeat Off"
 msgstr "Random Off"
@@ -17557,38 +17558,38 @@ msgstr "&Shuffle Playlist"
 msgid "Click to exit fullscreen playback."
 msgstr ""
 
-#: modules/gui/macosx/intf.m:835 modules/gui/qt4/dialogs/messages.cpp:77
+#: modules/gui/macosx/intf.m:842 modules/gui/qt4/dialogs/messages.cpp:77
 #: modules/gui/qt4/ui/messages_panel.h:139
 #: modules/gui/qt4/ui/messages_panel.h:143
 #, fuzzy
 msgid "Messages"
 msgstr "Colour messages"
 
-#: modules/gui/macosx/intf.m:836
+#: modules/gui/macosx/intf.m:843
 #, fuzzy
 msgid "Open CrashLog..."
 msgstr "Open Disc…"
 
-#: modules/gui/macosx/intf.m:837
+#: modules/gui/macosx/intf.m:844
 #, fuzzy
 msgid "Save this Log..."
 msgstr "Save As…"
 
-#: modules/gui/macosx/intf.m:840
+#: modules/gui/macosx/intf.m:847
 #, fuzzy
 msgid "Send"
 msgstr "Append to file"
 
-#: modules/gui/macosx/intf.m:841
+#: modules/gui/macosx/intf.m:848
 #, fuzzy
 msgid "Don't Send"
 msgstr "Video title"
 
-#: modules/gui/macosx/intf.m:842 modules/gui/macosx/intf.m:843
+#: modules/gui/macosx/intf.m:849 modules/gui/macosx/intf.m:850
 msgid "VLC crashed previously"
 msgstr ""
 
-#: modules/gui/macosx/intf.m:844
+#: modules/gui/macosx/intf.m:851
 msgid ""
 "Do you want to send details on the crash to VLC's development team?\n"
 "\n"
@@ -17597,54 +17598,54 @@ msgid ""
 "URL of a network stream, ..."
 msgstr ""
 
-#: modules/gui/macosx/intf.m:845
+#: modules/gui/macosx/intf.m:852
 msgid "I agree to be possibly contacted about this bugreport."
 msgstr ""
 
-#: modules/gui/macosx/intf.m:846
+#: modules/gui/macosx/intf.m:853
 msgid ""
 "Only your default E-Mail address will be submitted, including no further "
 "information."
 msgstr ""
 
-#: modules/gui/macosx/intf.m:847
+#: modules/gui/macosx/intf.m:854
 msgid "Don't ask again"
 msgstr ""
 
-#: modules/gui/macosx/intf.m:1491 modules/gui/macosx/intf.m:1508
+#: modules/gui/macosx/intf.m:1498 modules/gui/macosx/intf.m:1515
 #, fuzzy
 msgid "VLC media playback"
 msgstr "Backwards"
 
-#: modules/gui/macosx/intf.m:1870
+#: modules/gui/macosx/intf.m:1877
 #, fuzzy
 msgid "No CrashLog found"
 msgstr "no input\n"
 
-#: modules/gui/macosx/intf.m:1870 modules/gui/macosx/simple_prefs.m:699
+#: modules/gui/macosx/intf.m:1877 modules/gui/macosx/simple_prefs.m:699
 #: modules/gui/qt4/dialogs/firstrun.cpp:109
 #, fuzzy
 msgid "Continue"
 msgstr "Interlingue"
 
-#: modules/gui/macosx/intf.m:1870
+#: modules/gui/macosx/intf.m:1877
 msgid "Couldn't find any trace of a previous crash."
 msgstr ""
 
-#: modules/gui/macosx/intf.m:1914
+#: modules/gui/macosx/intf.m:1921
 #, fuzzy
 msgid "Remove old preferences?"
 msgstr "VLC preferences"
 
-#: modules/gui/macosx/intf.m:1915
+#: modules/gui/macosx/intf.m:1922
 msgid "We just found an older version of VLC's preferences files."
 msgstr ""
 
-#: modules/gui/macosx/intf.m:1916
+#: modules/gui/macosx/intf.m:1923
 msgid "Move To Trash and Relaunch VLC"
 msgstr ""
 
-#: modules/gui/macosx/intf.m:2042
+#: modules/gui/macosx/intf.m:2049
 #, c-format
 msgid "VLC Debug Log (%s).rtf"
 msgstr ""
@@ -17873,25 +17874,30 @@ msgstr "Date"
 msgid "Pause and resume iTunes"
 msgstr ""
 
-#: modules/gui/macosx/macosx.m:132
+#: modules/gui/macosx/macosx.m:131 modules/gui/qt4/qt4.cpp:178
+#, fuzzy
+msgid "Maximum Volume displayed"
+msgstr "Video bitrate"
+
+#: modules/gui/macosx/macosx.m:135
 #, fuzzy
 msgid "Mac OS X interface"
 msgstr "XOSD interface"
 
-#: modules/gui/macosx/macosx.m:139
+#: modules/gui/macosx/macosx.m:142
 #, fuzzy
 msgid "Appearance"
 msgstr "Greyscale video output"
 
-#: modules/gui/macosx/macosx.m:148
+#: modules/gui/macosx/macosx.m:152
 msgid "Behavior"
 msgstr ""
 
-#: modules/gui/macosx/macosx.m:158
+#: modules/gui/macosx/macosx.m:162
 msgid "Apple Remote and media keys"
 msgstr ""
 
-#: modules/gui/macosx/macosx.m:173
+#: modules/gui/macosx/macosx.m:177
 #, fuzzy
 msgid "Video output"
 msgstr "Video output URL"
@@ -17902,7 +17908,7 @@ msgid "Track Number"
 msgstr "Title"
 
 #: modules/gui/macosx/MainMenu.m:70 modules/gui/macosx/playlist.m:160
-#: modules/gui/macosx/wizard.m:347 modules/gui/qt4/dialogs/plugins.cpp:553
+#: modules/gui/macosx/wizard.m:347 modules/gui/qt4/dialogs/plugins.cpp:557
 #: modules/mux/asf.c:58
 msgid "Author"
 msgstr "Author"
@@ -18766,7 +18772,7 @@ msgid "Read at media"
 msgstr ""
 
 #: modules/gui/macosx/playlistinfo.m:98
-#: modules/gui/qt4/components/info_panels.cpp:560
+#: modules/gui/qt4/components/info_panels.cpp:564
 #, fuzzy
 msgid "Input bitrate"
 msgstr "Sout stream"
@@ -18850,17 +18856,17 @@ msgstr "Date"
 msgid "Show Basic"
 msgstr "Backwards"
 
-#: modules/gui/macosx/prefs_widgets.m:1146
+#: modules/gui/macosx/prefs_widgets.m:1149
 #, fuzzy
 msgid "Select a directory"
 msgstr "Choose directory"
 
-#: modules/gui/macosx/prefs_widgets.m:1146
+#: modules/gui/macosx/prefs_widgets.m:1149
 #, fuzzy
 msgid "Select a file"
 msgstr "Next file"
 
-#: modules/gui/macosx/prefs_widgets.m:1147
+#: modules/gui/macosx/prefs_widgets.m:1150
 #, fuzzy
 msgid "Select"
 msgstr "Resolution"
@@ -19199,38 +19205,38 @@ msgid "Choose the folder to save your video snapshots to."
 msgstr ""
 
 #: modules/gui/macosx/simple_prefs.m:1064
-#: modules/gui/macosx/simple_prefs.m:1153
+#: modules/gui/macosx/simple_prefs.m:1155
 #, fuzzy
 msgid "Choose"
 msgstr "Choose file"
 
-#: modules/gui/macosx/simple_prefs.m:1151
+#: modules/gui/macosx/simple_prefs.m:1153
 #, fuzzy
 msgid "Choose the directory or filename where the records will be stored."
 msgstr ""
 "Allows you to modify the user name that will be used for the connection."
 
-#: modules/gui/macosx/simple_prefs.m:1270
+#: modules/gui/macosx/simple_prefs.m:1272
 msgid ""
 "Press new keys for\n"
 "\"%@\""
 msgstr ""
 
-#: modules/gui/macosx/simple_prefs.m:1347
+#: modules/gui/macosx/simple_prefs.m:1349
 #, fuzzy
 msgid "Invalid combination"
 msgstr "Resolution"
 
-#: modules/gui/macosx/simple_prefs.m:1348
+#: modules/gui/macosx/simple_prefs.m:1350
 msgid "Regrettably, these keys cannot be assigned as hotkey shortcuts."
 msgstr ""
 
-#: modules/gui/macosx/simple_prefs.m:1358
-#: modules/gui/macosx/simple_prefs.m:1362
+#: modules/gui/macosx/simple_prefs.m:1360
+#: modules/gui/macosx/simple_prefs.m:1364
 msgid "This combination is already taken by \"%@\"."
 msgstr ""
 
-#: modules/gui/macosx/StringUtility.m:148
+#: modules/gui/macosx/StringUtility.m:150
 #, fuzzy
 msgid "Not Set"
 msgstr "Add Interface"
@@ -19312,25 +19318,25 @@ msgid ""
 "Set 0 to disable."
 msgstr ""
 
-#: modules/gui/macosx/VideoEffects.m:77
+#: modules/gui/macosx/VideoEffects.m:76
 #: modules/gui/qt4/dialogs/extended.cpp:84
 #, fuzzy
 msgid "Video Effects"
 msgstr "Audio encoder"
 
-#: modules/gui/macosx/VideoEffects.m:82
+#: modules/gui/macosx/VideoEffects.m:81
 #, fuzzy
 msgid "Basic"
 msgstr "Backwards"
 
-#: modules/gui/macosx/VideoEffects.m:84
+#: modules/gui/macosx/VideoEffects.m:83
 #: modules/gui/qt4/ui/video_effects.h:1355
 #, fuzzy
 msgid "Geometry"
 msgstr "Spectrum"
 
-#: modules/gui/macosx/VideoEffects.m:85 modules/gui/macosx/VideoEffects.m:134
-#: modules/gui/macosx/VideoEffects.m:149 modules/gui/macosx/VideoEffects.m:152
+#: modules/gui/macosx/VideoEffects.m:84 modules/gui/macosx/VideoEffects.m:133
+#: modules/gui/macosx/VideoEffects.m:148 modules/gui/macosx/VideoEffects.m:151
 #: modules/video_filter/colorthres.c:54 modules/video_filter/marq.c:125
 #: modules/video_filter/rss.c:154 modules/gui/qt4/ui/video_effects.h:1328
 #: modules/gui/qt4/ui/video_effects.h:1334
@@ -19339,102 +19345,102 @@ msgstr "Spectrum"
 msgid "Color"
 msgstr "Stereo"
 
-#: modules/gui/macosx/VideoEffects.m:90
+#: modules/gui/macosx/VideoEffects.m:89
 #, fuzzy
 msgid "Image Adjust"
 msgstr "Next file"
 
-#: modules/gui/macosx/VideoEffects.m:94
+#: modules/gui/macosx/VideoEffects.m:93
 #: modules/gui/qt4/ui/video_effects.h:1305
 #, fuzzy
 msgid "Brightness Threshold"
 msgstr "Enable interlaced encoding"
 
-#: modules/gui/macosx/VideoEffects.m:98 modules/video_filter/sharpen.c:67
+#: modules/gui/macosx/VideoEffects.m:97 modules/video_filter/sharpen.c:67
 #: modules/gui/qt4/ui/video_effects.h:1309
 #, fuzzy
 msgid "Sharpen"
 msgstr "Scope"
 
-#: modules/gui/macosx/VideoEffects.m:99
+#: modules/gui/macosx/VideoEffects.m:98
 #: modules/gui/qt4/ui/video_effects.h:1310
 #: modules/gui/qt4/ui/video_effects.h:1397
 #, fuzzy
 msgid "Sigma"
 msgstr "Scope"
 
-#: modules/gui/macosx/VideoEffects.m:100
+#: modules/gui/macosx/VideoEffects.m:99
 #: modules/gui/qt4/ui/video_effects.h:1311
 msgid "Banding removal"
 msgstr ""
 
-#: modules/gui/macosx/VideoEffects.m:101 modules/video_filter/gradfun.c:49
+#: modules/gui/macosx/VideoEffects.m:100 modules/video_filter/gradfun.c:49
 #: modules/gui/qt4/ui/video_effects.h:1312
 msgid "Radius"
 msgstr ""
 
-#: modules/gui/macosx/VideoEffects.m:102
+#: modules/gui/macosx/VideoEffects.m:101
 #: modules/gui/qt4/ui/video_effects.h:1313
 #, fuzzy
 msgid "Film Grain"
 msgstr "Grey"
 
-#: modules/gui/macosx/VideoEffects.m:103 modules/video_filter/grain.c:53
+#: modules/gui/macosx/VideoEffects.m:102 modules/video_filter/grain.c:53
 #: modules/gui/qt4/ui/video_effects.h:1314
 #, fuzzy
 msgid "Variance"
 msgstr "Greyscale video output"
 
-#: modules/gui/macosx/VideoEffects.m:108
+#: modules/gui/macosx/VideoEffects.m:107
 #: modules/gui/qt4/ui/video_effects.h:1322
 #, fuzzy
 msgid "Synchronize top and bottom"
 msgstr "Choose audio track"
 
-#: modules/gui/macosx/VideoEffects.m:109
+#: modules/gui/macosx/VideoEffects.m:108
 #: modules/gui/qt4/ui/video_effects.h:1323
 #, fuzzy
 msgid "Synchronize left and right"
 msgstr "Choose audio track"
 
-#: modules/gui/macosx/VideoEffects.m:111
+#: modules/gui/macosx/VideoEffects.m:110
 #: modules/gui/qt4/ui/video_effects.h:1348
 #, fuzzy
 msgid "Transform"
 msgstr "Visualisations"
 
-#: modules/gui/macosx/VideoEffects.m:113 modules/video_filter/transform.c:50
+#: modules/gui/macosx/VideoEffects.m:112 modules/video_filter/transform.c:50
 msgid "Rotate by 90 degrees"
 msgstr ""
 
-#: modules/gui/macosx/VideoEffects.m:115 modules/video_filter/transform.c:51
+#: modules/gui/macosx/VideoEffects.m:114 modules/video_filter/transform.c:51
 msgid "Rotate by 180 degrees"
 msgstr ""
 
-#: modules/gui/macosx/VideoEffects.m:117 modules/video_filter/transform.c:51
+#: modules/gui/macosx/VideoEffects.m:116 modules/video_filter/transform.c:51
 msgid "Rotate by 270 degrees"
 msgstr ""
 
-#: modules/gui/macosx/VideoEffects.m:119 modules/video_filter/transform.c:52
+#: modules/gui/macosx/VideoEffects.m:118 modules/video_filter/transform.c:52
 msgid "Flip horizontally"
 msgstr ""
 
-#: modules/gui/macosx/VideoEffects.m:121 modules/video_filter/transform.c:52
+#: modules/gui/macosx/VideoEffects.m:120 modules/video_filter/transform.c:52
 msgid "Flip vertically"
 msgstr ""
 
-#: modules/gui/macosx/VideoEffects.m:123
+#: modules/gui/macosx/VideoEffects.m:122
 #, fuzzy
 msgid "Magnification/Zoom"
 msgstr "Description"
 
-#: modules/gui/macosx/VideoEffects.m:124
+#: modules/gui/macosx/VideoEffects.m:123
 #: modules/gui/qt4/ui/video_effects.h:1351
 #, fuzzy
 msgid "Puzzle game"
 msgstr "Choose file"
 
-#: modules/gui/macosx/VideoEffects.m:125 modules/gui/macosx/VideoEffects.m:130
+#: modules/gui/macosx/VideoEffects.m:124 modules/gui/macosx/VideoEffects.m:129
 #: share/lua/http/dialogs/mosaic_window.html:96
 #: modules/gui/qt4/ui/video_effects.h:1346
 #: modules/gui/qt4/ui/video_effects.h:1352
@@ -19442,7 +19448,7 @@ msgstr "Choose file"
 msgid "Rows"
 msgstr "Browse…"
 
-#: modules/gui/macosx/VideoEffects.m:126 modules/gui/macosx/VideoEffects.m:131
+#: modules/gui/macosx/VideoEffects.m:125 modules/gui/macosx/VideoEffects.m:130
 #: share/lua/http/dialogs/mosaic_window.html:114
 #: modules/gui/qt4/ui/video_effects.h:1347
 #: modules/gui/qt4/ui/video_effects.h:1353
@@ -19450,142 +19456,142 @@ msgstr "Browse…"
 msgid "Columns"
 msgstr "Number of threads"
 
-#: modules/gui/macosx/VideoEffects.m:127 modules/video_filter/clone.c:57
+#: modules/gui/macosx/VideoEffects.m:126 modules/video_filter/clone.c:57
 #: modules/gui/qt4/ui/video_effects.h:1393
 #, fuzzy
 msgid "Clone"
 msgstr "Codec"
 
-#: modules/gui/macosx/VideoEffects.m:128 modules/video_filter/clone.c:39
+#: modules/gui/macosx/VideoEffects.m:127 modules/video_filter/clone.c:39
 #: modules/gui/qt4/ui/video_effects.h:1394
 #, fuzzy
 msgid "Number of clones"
 msgstr "Number of threads"
 
-#: modules/gui/macosx/VideoEffects.m:129
+#: modules/gui/macosx/VideoEffects.m:128
 #: modules/gui/qt4/ui/video_effects.h:1345
 #, fuzzy
 msgid "Wall"
 msgstr "Scope"
 
-#: modules/gui/macosx/VideoEffects.m:133 modules/video_filter/colorthres.c:70
+#: modules/gui/macosx/VideoEffects.m:132 modules/video_filter/colorthres.c:70
 #: modules/gui/qt4/ui/video_effects.h:1336
 #, fuzzy
 msgid "Color threshold"
 msgstr "Enable interlaced encoding"
 
-#: modules/gui/macosx/VideoEffects.m:136
+#: modules/gui/macosx/VideoEffects.m:135
 #: modules/gui/qt4/ui/video_effects.h:1340
 #, fuzzy
 msgid "Similarity"
 msgstr "Enable interlaced encoding"
 
-#: modules/gui/macosx/VideoEffects.m:138
+#: modules/gui/macosx/VideoEffects.m:137
 #: modules/gui/qt4/ui/video_effects.h:1342
 #, fuzzy
 msgid "Intensity"
 msgstr "Interlingue"
 
-#: modules/gui/macosx/VideoEffects.m:140 modules/gui/macosx/VideoEffects.m:143
+#: modules/gui/macosx/VideoEffects.m:139 modules/gui/macosx/VideoEffects.m:142
 #: modules/video_filter/gradient.c:76 modules/video_filter/gradient.c:82
 #: modules/gui/qt4/ui/video_effects.h:1332
 msgid "Gradient"
 msgstr ""
 
-#: modules/gui/macosx/VideoEffects.m:145 modules/video_filter/gradient.c:76
+#: modules/gui/macosx/VideoEffects.m:144 modules/video_filter/gradient.c:76
 msgid "Edge"
 msgstr ""
 
-#: modules/gui/macosx/VideoEffects.m:147 modules/video_filter/gradient.c:76
+#: modules/gui/macosx/VideoEffects.m:146 modules/video_filter/gradient.c:76
 msgid "Hough"
 msgstr ""
 
-#: modules/gui/macosx/VideoEffects.m:150
+#: modules/gui/macosx/VideoEffects.m:149
 #: modules/gui/qt4/ui/video_effects.h:1335
 #, fuzzy
 msgid "Cartoon"
 msgstr "Next file"
 
-#: modules/gui/macosx/VideoEffects.m:151
+#: modules/gui/macosx/VideoEffects.m:150
 #: modules/gui/qt4/ui/video_effects.h:1327
 #, fuzzy
 msgid "Color extraction"
 msgstr "Stereo"
 
-#: modules/gui/macosx/VideoEffects.m:153
+#: modules/gui/macosx/VideoEffects.m:152
 #, fuzzy
 msgid "Invert colors"
 msgstr "ffmpeg demuxer"
 
-#: modules/gui/macosx/VideoEffects.m:154 modules/video_filter/posterize.c:68
+#: modules/gui/macosx/VideoEffects.m:153 modules/video_filter/posterize.c:68
 #: modules/gui/qt4/ui/video_effects.h:1331
 #, fuzzy
 msgid "Posterize"
 msgstr "Stereo"
 
-#: modules/gui/macosx/VideoEffects.m:155 modules/video_filter/posterize.c:60
+#: modules/gui/macosx/VideoEffects.m:154 modules/video_filter/posterize.c:60
 msgid "Posterize level"
 msgstr ""
 
-#: modules/gui/macosx/VideoEffects.m:156 modules/video_filter/motionblur.c:59
+#: modules/gui/macosx/VideoEffects.m:155 modules/video_filter/motionblur.c:59
 #: modules/gui/qt4/ui/video_effects.h:1387
 #, fuzzy
 msgid "Motion blur"
 msgstr "Choose file"
 
-#: modules/gui/macosx/VideoEffects.m:157
+#: modules/gui/macosx/VideoEffects.m:156
 #: modules/gui/qt4/ui/video_effects.h:1388
 #, fuzzy
 msgid "Factor"
 msgstr "Author"
 
-#: modules/gui/macosx/VideoEffects.m:158
+#: modules/gui/macosx/VideoEffects.m:157
 #: modules/video_filter/motiondetect.c:49
 #, fuzzy
 msgid "Motion Detect"
 msgstr "ffmpeg demuxer"
 
-#: modules/gui/macosx/VideoEffects.m:159
+#: modules/gui/macosx/VideoEffects.m:158
 #: modules/gui/qt4/ui/video_effects.h:1395
 #, fuzzy
 msgid "Water effect"
 msgstr "Next file"
 
-#: modules/gui/macosx/VideoEffects.m:162 modules/video_filter/anaglyph.c:73
+#: modules/gui/macosx/VideoEffects.m:161 modules/video_filter/anaglyph.c:73
 msgid "Anaglyph"
 msgstr ""
 
-#: modules/gui/macosx/VideoEffects.m:164
+#: modules/gui/macosx/VideoEffects.m:163
 #: modules/gui/qt4/ui/video_effects.h:1366
 #, fuzzy
 msgid "Add text"
 msgstr "Next file"
 
-#: modules/gui/macosx/VideoEffects.m:165 modules/misc/logger.c:108
+#: modules/gui/macosx/VideoEffects.m:164 modules/misc/logger.c:108
 #: modules/video_filter/marq.c:87 modules/gui/qt4/ui/video_effects.h:1368
 #, fuzzy
 msgid "Text"
 msgstr "Next file"
 
-#: modules/gui/macosx/VideoEffects.m:186
+#: modules/gui/macosx/VideoEffects.m:185
 #: modules/gui/qt4/ui/video_effects.h:1356
 #, fuzzy
 msgid "Add logo"
 msgstr "Audio encoder"
 
-#: modules/gui/macosx/VideoEffects.m:187
+#: modules/gui/macosx/VideoEffects.m:186
 #: modules/gui/qt4/ui/video_effects.h:1357
 #, fuzzy
 msgid "Logo"
 msgstr "Title"
 
-#: modules/gui/macosx/VideoEffects.m:208
+#: modules/gui/macosx/VideoEffects.m:207
 #: modules/stream_out/mosaic_bridge.c:128 modules/video_filter/mosaic.c:87
 #: modules/gui/qt4/ui/video_effects.h:1364
 msgid "Transparency"
 msgstr ""
 
-#: modules/gui/macosx/VideoEffects.m:237
+#: modules/gui/macosx/VideoEffects.m:236
 #, fuzzy
 msgid "Organize profiles..."
 msgstr "Opening file…"
@@ -20192,272 +20198,272 @@ msgstr ""
 msgid "Ncurses interface"
 msgstr "Skinnable interface"
 
-#: modules/gui/ncurses.c:764
+#: modules/gui/ncurses.c:767
 #, c-format
 msgid "  [%s]"
 msgstr ""
 
-#: modules/gui/ncurses.c:768
+#: modules/gui/ncurses.c:771
 #, c-format
 msgid "      %s: %s"
 msgstr ""
 
-#: modules/gui/ncurses.c:862
+#: modules/gui/ncurses.c:865
 #, fuzzy
 msgid "[Display]"
 msgstr "File stream output"
 
-#: modules/gui/ncurses.c:864
+#: modules/gui/ncurses.c:867
 msgid " h,H                    Show/Hide help box"
 msgstr ""
 
-#: modules/gui/ncurses.c:865
+#: modules/gui/ncurses.c:868
 msgid " i                      Show/Hide info box"
 msgstr ""
 
-#: modules/gui/ncurses.c:866
+#: modules/gui/ncurses.c:869
 #, fuzzy
 msgid " M                      Show/Hide metadata box"
 msgstr "&Shuffle Playlist"
 
-#: modules/gui/ncurses.c:867
+#: modules/gui/ncurses.c:870
 msgid " L                      Show/Hide messages box"
 msgstr ""
 
-#: modules/gui/ncurses.c:868
+#: modules/gui/ncurses.c:871
 msgid " P                      Show/Hide playlist box"
 msgstr ""
 
-#: modules/gui/ncurses.c:869
+#: modules/gui/ncurses.c:872
 msgid " B                      Show/Hide filebrowser"
 msgstr ""
 
-#: modules/gui/ncurses.c:870
+#: modules/gui/ncurses.c:873
 msgid " x                      Show/Hide objects box"
 msgstr ""
 
-#: modules/gui/ncurses.c:871
+#: modules/gui/ncurses.c:874
 msgid " S                      Show/Hide statistics box"
 msgstr ""
 
-#: modules/gui/ncurses.c:872
+#: modules/gui/ncurses.c:875
 msgid " Esc                    Close Add/Search entry"
 msgstr ""
 
-#: modules/gui/ncurses.c:873
+#: modules/gui/ncurses.c:876
 msgid " Ctrl-l                 Refresh the screen"
 msgstr ""
 
-#: modules/gui/ncurses.c:877
+#: modules/gui/ncurses.c:880
 #, fuzzy
 msgid "[Global]"
 msgstr "&Shuffle Playlist"
 
-#: modules/gui/ncurses.c:879
+#: modules/gui/ncurses.c:882
 msgid " q, Q, Esc              Quit"
 msgstr ""
 
-#: modules/gui/ncurses.c:880
+#: modules/gui/ncurses.c:883
 msgid " s                      Stop"
 msgstr ""
 
-#: modules/gui/ncurses.c:881
+#: modules/gui/ncurses.c:884
 msgid " <space>                Pause/Play"
 msgstr ""
 
-#: modules/gui/ncurses.c:882
+#: modules/gui/ncurses.c:885
 msgid " f                      Toggle Fullscreen"
 msgstr ""
 
-#: modules/gui/ncurses.c:883
+#: modules/gui/ncurses.c:886
 #, fuzzy
 msgid " n, p                   Next/Previous playlist item"
 msgstr "&Shuffle Playlist"
 
-#: modules/gui/ncurses.c:884
+#: modules/gui/ncurses.c:887
 #, fuzzy
 msgid " [, ]                   Next/Previous title"
 msgstr "&Shuffle Playlist"
 
-#: modules/gui/ncurses.c:885
+#: modules/gui/ncurses.c:888
 #, fuzzy
 msgid " <, >                   Next/Previous chapter"
 msgstr "&Shuffle Playlist"
 
 #. xgettext: You can use ← and → characters
-#: modules/gui/ncurses.c:887
+#: modules/gui/ncurses.c:890
 #, c-format
 msgid " <left>,<right>         Seek -/+ 1%%"
 msgstr ""
 
-#: modules/gui/ncurses.c:888
+#: modules/gui/ncurses.c:891
 msgid " a, z                   Volume Up/Down"
 msgstr ""
 
-#: modules/gui/ncurses.c:889
+#: modules/gui/ncurses.c:892
 #, fuzzy
 msgid " m                      Mute"
 msgstr "&Shuffle Playlist"
 
 #. xgettext: You can use ↑ and ↓ characters
-#: modules/gui/ncurses.c:891
+#: modules/gui/ncurses.c:894
 msgid " <up>,<down>            Navigate through the box line by line"
 msgstr ""
 
 #. xgettext: You can use ⇞ and ⇟ characters
-#: modules/gui/ncurses.c:893
+#: modules/gui/ncurses.c:896
 msgid " <pageup>,<pagedown>    Navigate through the box page by page"
 msgstr ""
 
 #. xgettext: You can use ↖ and ↘ characters
-#: modules/gui/ncurses.c:895
+#: modules/gui/ncurses.c:898
 msgid " <start>,<end>          Navigate to start/end of box"
 msgstr ""
 
-#: modules/gui/ncurses.c:899
+#: modules/gui/ncurses.c:902
 #, fuzzy
 msgid "[Playlist]"
 msgstr "&Shuffle Playlist"
 
-#: modules/gui/ncurses.c:901
+#: modules/gui/ncurses.c:904
 msgid " r                      Toggle Random playing"
 msgstr ""
 
-#: modules/gui/ncurses.c:902
+#: modules/gui/ncurses.c:905
 msgid " l                      Toggle Loop Playlist"
 msgstr ""
 
-#: modules/gui/ncurses.c:903
+#: modules/gui/ncurses.c:906
 msgid " R                      Toggle Repeat item"
 msgstr ""
 
-#: modules/gui/ncurses.c:904
+#: modules/gui/ncurses.c:907
 #, fuzzy
 msgid " o                      Order Playlist by title"
 msgstr "&Shuffle Playlist"
 
-#: modules/gui/ncurses.c:905
+#: modules/gui/ncurses.c:908
 #, fuzzy
 msgid " O                      Reverse order Playlist by title"
 msgstr "&Shuffle Playlist"
 
-#: modules/gui/ncurses.c:906
+#: modules/gui/ncurses.c:909
 msgid " g                      Go to the current playing item"
 msgstr ""
 
-#: modules/gui/ncurses.c:907
+#: modules/gui/ncurses.c:910
 msgid " /                      Look for an item"
 msgstr ""
 
-#: modules/gui/ncurses.c:908
+#: modules/gui/ncurses.c:911
 #, fuzzy
 msgid " ;                      Look for the next item"
 msgstr "&Shuffle Playlist"
 
-#: modules/gui/ncurses.c:909
+#: modules/gui/ncurses.c:912
 msgid " A                      Add an entry"
 msgstr ""
 
 #. xgettext: You can use ⌫ character to translate <backspace>
-#: modules/gui/ncurses.c:911
+#: modules/gui/ncurses.c:914
 msgid " D, <backspace>, <del>  Delete an entry"
 msgstr ""
 
-#: modules/gui/ncurses.c:912
+#: modules/gui/ncurses.c:915
 msgid " e                      Eject (if stopped)"
 msgstr ""
 
-#: modules/gui/ncurses.c:916
+#: modules/gui/ncurses.c:919
 #, fuzzy
 msgid "[Filebrowser]"
 msgstr "Filters"
 
-#: modules/gui/ncurses.c:918
+#: modules/gui/ncurses.c:921
 msgid " <enter>                Add the selected file to the playlist"
 msgstr ""
 
-#: modules/gui/ncurses.c:919
+#: modules/gui/ncurses.c:922
 msgid " <space>                Add the selected directory to the playlist"
 msgstr ""
 
-#: modules/gui/ncurses.c:920
+#: modules/gui/ncurses.c:923
 msgid " .                      Show/Hide hidden files"
 msgstr ""
 
-#: modules/gui/ncurses.c:924
+#: modules/gui/ncurses.c:927
 #, fuzzy
 msgid "[Player]"
 msgstr "Display resolution"
 
 #. xgettext: You can use ↑ and ↓ characters
-#: modules/gui/ncurses.c:927
+#: modules/gui/ncurses.c:930
 #, c-format
 msgid " <up>,<down>            Seek +/-5%%"
 msgstr ""
 
-#: modules/gui/ncurses.c:1047
+#: modules/gui/ncurses.c:1050
 #, fuzzy
 msgid "[Repeat] "
 msgstr "Random Off"
 
-#: modules/gui/ncurses.c:1048
+#: modules/gui/ncurses.c:1051
 #, fuzzy
 msgid "[Random] "
 msgstr "Random"
 
-#: modules/gui/ncurses.c:1049
+#: modules/gui/ncurses.c:1052
 #, fuzzy
 msgid "[Loop]"
 msgstr "Title"
 
-#: modules/gui/ncurses.c:1058
+#: modules/gui/ncurses.c:1061
 #, c-format
 msgid " Source   : %s"
 msgstr ""
 
-#: modules/gui/ncurses.c:1091
+#: modules/gui/ncurses.c:1094
 #, fuzzy, c-format
 msgid " Position : %s/%s"
 msgstr "Options"
 
-#: modules/gui/ncurses.c:1096
+#: modules/gui/ncurses.c:1099
 msgid " Volume   : Mute"
 msgstr ""
 
-#: modules/gui/ncurses.c:1097
+#: modules/gui/ncurses.c:1100
 #, c-format
 msgid " Volume   : %3ld%%"
 msgstr ""
 
-#: modules/gui/ncurses.c:1097
+#: modules/gui/ncurses.c:1100
 msgid " Volume   : ----"
 msgstr ""
 
-#: modules/gui/ncurses.c:1103
+#: modules/gui/ncurses.c:1106
 #, c-format
 msgid " Title    : %<PRId64>/%d"
 msgstr ""
 
-#: modules/gui/ncurses.c:1109
+#: modules/gui/ncurses.c:1112
 #, c-format
 msgid " Chapter  : %<PRId64>/%d"
 msgstr ""
 
-#: modules/gui/ncurses.c:1114
+#: modules/gui/ncurses.c:1117
 #, fuzzy
 msgid " Source: <no current item> "
 msgstr "Next file"
 
-#: modules/gui/ncurses.c:1116
+#: modules/gui/ncurses.c:1119
 msgid " [ h for help ]"
 msgstr ""
 
-#: modules/gui/ncurses.c:1137
+#: modules/gui/ncurses.c:1140
 #, fuzzy, c-format
 msgid "Open: %s"
 msgstr "Options:"
 
-#: modules/gui/ncurses.c:1139
+#: modules/gui/ncurses.c:1142
 #, fuzzy, c-format
 msgid "Find: %s"
 msgstr "Options:"
@@ -20846,107 +20852,107 @@ msgid ""
 "Muxer, Audio and Video Codecs, Subtitles are shown."
 msgstr ""
 
-#: modules/gui/qt4/components/info_panels.cpp:529
+#: modules/gui/qt4/components/info_panels.cpp:533
 #, fuzzy
 msgid "Current media / stream statistics"
 msgstr ""
 "This option allows you to specify an additional path for VLC to look for its "
 "modules."
 
-#: modules/gui/qt4/components/info_panels.cpp:555
+#: modules/gui/qt4/components/info_panels.cpp:559
 #, fuzzy
 msgid "Input/Read"
 msgstr "&Shuffle Playlist"
 
-#: modules/gui/qt4/components/info_panels.cpp:556
+#: modules/gui/qt4/components/info_panels.cpp:560
 msgid "Output/Written/Sent"
 msgstr ""
 
-#: modules/gui/qt4/components/info_panels.cpp:558
+#: modules/gui/qt4/components/info_panels.cpp:562
 #, fuzzy
 msgid "Media data size"
 msgstr "Title"
 
-#: modules/gui/qt4/components/info_panels.cpp:564
+#: modules/gui/qt4/components/info_panels.cpp:568
 msgid "Demuxed data size"
 msgstr ""
 
-#: modules/gui/qt4/components/info_panels.cpp:565
+#: modules/gui/qt4/components/info_panels.cpp:569
 #, fuzzy
 msgid "Content bitrate"
 msgstr "Sample rate"
 
-#: modules/gui/qt4/components/info_panels.cpp:567
+#: modules/gui/qt4/components/info_panels.cpp:571
 #, fuzzy
 msgid "Discarded (corrupted)"
 msgstr "ffmpeg demuxer"
 
-#: modules/gui/qt4/components/info_panels.cpp:569
+#: modules/gui/qt4/components/info_panels.cpp:573
 msgid "Dropped (discontinued)"
 msgstr ""
-
-#: modules/gui/qt4/components/info_panels.cpp:572
-#: modules/gui/qt4/components/info_panels.cpp:585
-#, fuzzy
-msgid "Decoded"
-msgstr "Append to file"
-
-#: modules/gui/qt4/components/info_panels.cpp:573
-#: modules/gui/qt4/components/info_panels.cpp:586
-#, fuzzy
-msgid "blocks"
-msgstr "Backwards"
-
-#: modules/gui/qt4/components/info_panels.cpp:574
-#, fuzzy
-msgid "Displayed"
-msgstr "File stream output"
-
-#: modules/gui/qt4/components/info_panels.cpp:575
-#: modules/gui/qt4/components/info_panels.cpp:577
-#, fuzzy
-msgid "frames"
-msgstr "Choose file"
 
 #: modules/gui/qt4/components/info_panels.cpp:576
 #: modules/gui/qt4/components/info_panels.cpp:589
 #, fuzzy
+msgid "Decoded"
+msgstr "Append to file"
+
+#: modules/gui/qt4/components/info_panels.cpp:577
+#: modules/gui/qt4/components/info_panels.cpp:590
+#, fuzzy
+msgid "blocks"
+msgstr "Backwards"
+
+#: modules/gui/qt4/components/info_panels.cpp:578
+#, fuzzy
+msgid "Displayed"
+msgstr "File stream output"
+
+#: modules/gui/qt4/components/info_panels.cpp:579
+#: modules/gui/qt4/components/info_panels.cpp:581
+#, fuzzy
+msgid "frames"
+msgstr "Choose file"
+
+#: modules/gui/qt4/components/info_panels.cpp:580
+#: modules/gui/qt4/components/info_panels.cpp:593
+#, fuzzy
 msgid "Lost"
 msgstr "Left"
 
-#: modules/gui/qt4/components/info_panels.cpp:579
-#: modules/gui/qt4/components/info_panels.cpp:580
+#: modules/gui/qt4/components/info_panels.cpp:583
+#: modules/gui/qt4/components/info_panels.cpp:584
 #, fuzzy
 msgid "Sent"
 msgstr "Resolution"
 
-#: modules/gui/qt4/components/info_panels.cpp:579
+#: modules/gui/qt4/components/info_panels.cpp:583
 #, fuzzy
 msgid "packets"
 msgstr "Group packets"
 
-#: modules/gui/qt4/components/info_panels.cpp:582
+#: modules/gui/qt4/components/info_panels.cpp:586
 #, fuzzy
 msgid "Upstream rate"
 msgstr "Video bitrate"
 
-#: modules/gui/qt4/components/info_panels.cpp:587
+#: modules/gui/qt4/components/info_panels.cpp:591
 #, fuzzy
 msgid "Played"
 msgstr "Rating"
 
-#: modules/gui/qt4/components/info_panels.cpp:588
-#: modules/gui/qt4/components/info_panels.cpp:589
+#: modules/gui/qt4/components/info_panels.cpp:592
+#: modules/gui/qt4/components/info_panels.cpp:593
 #, fuzzy
 msgid "buffers"
 msgstr "Choose file"
 
-#: modules/gui/qt4/components/info_panels.cpp:611
+#: modules/gui/qt4/components/info_panels.cpp:615
 #, fuzzy
 msgid "Last 60 seconds"
 msgstr "Advanced options..."
 
-#: modules/gui/qt4/components/info_panels.cpp:612
+#: modules/gui/qt4/components/info_panels.cpp:616
 msgid "Overall"
 msgstr ""
 
@@ -21545,7 +21551,7 @@ msgstr ""
 #: modules/gui/qt4/dialogs/mediainfo.cpp:79
 #: modules/gui/qt4/dialogs/messages.cpp:81
 #: modules/gui/qt4/dialogs/plugins.cpp:74
-#: modules/gui/qt4/dialogs/plugins.cpp:586
+#: modules/gui/qt4/dialogs/plugins.cpp:590
 #: modules/gui/qt4/dialogs/podcast_configuration.cpp:36
 #: modules/gui/qt4/dialogs/vlm.cpp:136
 #, fuzzy
@@ -21684,7 +21690,7 @@ msgstr "Group packets"
 msgid "Go to time"
 msgstr "Video title"
 
-#: modules/gui/qt4/dialogs/help.cpp:86 modules/gui/qt4/dialogs/plugins.cpp:524
+#: modules/gui/qt4/dialogs/help.cpp:86 modules/gui/qt4/dialogs/plugins.cpp:528
 #, fuzzy
 msgid "About"
 msgstr "_About…"
@@ -21861,39 +21867,39 @@ msgstr ""
 msgid "Plugins and extensions"
 msgstr ""
 
-#: modules/gui/qt4/dialogs/plugins.cpp:105
+#: modules/gui/qt4/dialogs/plugins.cpp:109
 msgid "Capability"
 msgstr ""
 
-#: modules/gui/qt4/dialogs/plugins.cpp:105
+#: modules/gui/qt4/dialogs/plugins.cpp:109
 #, fuzzy
 msgid "Score"
 msgstr "Scope"
 
-#: modules/gui/qt4/dialogs/plugins.cpp:118
+#: modules/gui/qt4/dialogs/plugins.cpp:122
 msgid "&Search:"
 msgstr ""
 
-#: modules/gui/qt4/dialogs/plugins.cpp:205
+#: modules/gui/qt4/dialogs/plugins.cpp:209
 #, fuzzy
 msgid "Get more extensions from"
 msgstr "Audio encoders settings"
 
-#: modules/gui/qt4/dialogs/plugins.cpp:235
+#: modules/gui/qt4/dialogs/plugins.cpp:239
 #, fuzzy
 msgid "More information..."
 msgstr "Visualisations"
 
-#: modules/gui/qt4/dialogs/plugins.cpp:243
+#: modules/gui/qt4/dialogs/plugins.cpp:247
 msgid "Reload extensions"
 msgstr ""
 
-#: modules/gui/qt4/dialogs/plugins.cpp:547
+#: modules/gui/qt4/dialogs/plugins.cpp:551
 #, fuzzy
 msgid "Version"
 msgstr "Codec Description"
 
-#: modules/gui/qt4/dialogs/plugins.cpp:567
+#: modules/gui/qt4/dialogs/plugins.cpp:571
 #, fuzzy
 msgid "Website"
 msgstr "Title"
@@ -22652,7 +22658,7 @@ msgstr ""
 msgid "&Open Media"
 msgstr "Codec setting"
 
-#: modules/gui/qt4/menus.cpp:1615
+#: modules/gui/qt4/menus.cpp:1625
 #, fuzzy
 msgid "&Clear"
 msgstr "Video bitrate"
@@ -22852,11 +22858,6 @@ msgid ""
 "unchecked, the volume buttons will change VLC's volume when VLC is selected "
 "and change the system volume when VLC is not selected."
 msgstr ""
-
-#: modules/gui/qt4/qt4.cpp:178
-#, fuzzy
-msgid "Maximum Volume displayed"
-msgstr "Video bitrate"
 
 #: modules/gui/qt4/qt4.cpp:184
 #, fuzzy
