@@ -332,7 +332,13 @@ block_t * DecodeAudio ( decoder_t *p_dec, block_t **pp_block )
 
     block_t *p_buffer = decoder_NewAudioBuffer( p_dec, p_block->i_nb_samples );
     if (!p_buffer)
+    {
+        block_Release( p_block );
+        if( av_sample_fmt_is_planar( ctx->sample_fmt )
+         && ctx->channels > AV_NUM_DATA_POINTERS )
+            free( frame.extended_data );
         return NULL;
+    }
     assert( p_block->i_nb_samples >= (unsigned)frame.nb_samples );
     assert( p_block->i_nb_samples == p_buffer->i_nb_samples );
     p_block->i_buffer = p_buffer->i_buffer; /* drop buffer padding */
