@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2013-07-25 14:06+0200\n"
+"POT-Creation-Date: 2013-08-05 13:45+0200\n"
 "PO-Revision-Date: 2013-07-07 16:40+0000\n"
 "Last-Translator: MehmetE <byscul@gmail.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/projects/p/vlc-trans/"
@@ -4041,7 +4041,7 @@ msgstr "Daha Yavaş (Hassas)"
 #: modules/gui/macosx/MainMenu.m:360 modules/gui/macosx/MainMenu.m:458
 #: modules/gui/macosx/MainMenu.m:466 modules/gui/macosx/MainMenu.m:1449
 #: modules/gui/macosx/wizard.m:306 modules/gui/macosx/wizard.m:318
-#: modules/gui/macosx/wizard.m:1561
+#: modules/gui/macosx/wizard.m:1559
 #: modules/gui/qt4/components/controller.hpp:120 modules/notify/notify.c:339
 #: modules/gui/qt4/ui/streampanel.h:182
 msgid "Next"
@@ -10117,11 +10117,11 @@ msgstr "Çevresel Ses 7.1"
 msgid "ALSA audio output"
 msgstr "ALSA ses çıkışı"
 
-#: modules/audio_output/alsa.c:388 modules/audio_output/auhal.c:358
+#: modules/audio_output/alsa.c:368 modules/audio_output/auhal.c:358
 msgid "Audio output failed"
 msgstr "Ses çıkışı hata verdi"
 
-#: modules/audio_output/alsa.c:389
+#: modules/audio_output/alsa.c:369
 #, c-format
 msgid ""
 "The audio device \"%s\" could not be used:\n"
@@ -16439,10 +16439,10 @@ msgstr "Zaman"
 #: modules/gui/macosx/open.m:378 modules/gui/macosx/output.m:129
 #: modules/gui/macosx/playlistinfo.m:361 modules/gui/macosx/simple_prefs.m:196
 #: modules/gui/macosx/wizard.m:592 modules/gui/macosx/wizard.m:653
-#: modules/gui/macosx/wizard.m:992 modules/gui/macosx/wizard.m:1074
-#: modules/gui/macosx/wizard.m:1081 modules/gui/macosx/wizard.m:1610
-#: modules/gui/macosx/wizard.m:1618 modules/gui/macosx/wizard.m:1790
-#: modules/gui/macosx/wizard.m:1801 modules/gui/macosx/wizard.m:1814
+#: modules/gui/macosx/wizard.m:992 modules/gui/macosx/wizard.m:1073
+#: modules/gui/macosx/wizard.m:1080 modules/gui/macosx/wizard.m:1608
+#: modules/gui/macosx/wizard.m:1616 modules/gui/macosx/wizard.m:1788
+#: modules/gui/macosx/wizard.m:1799 modules/gui/macosx/wizard.m:1812
 #: modules/gui/qt4/components/open_panels.cpp:1346
 msgid "OK"
 msgstr "Tamam"
@@ -16774,7 +16774,7 @@ msgstr "Kapı"
 
 #: modules/gui/macosx/ConvertAndSave.m:202 modules/gui/macosx/output.m:172
 #: modules/gui/macosx/wizard.m:400 modules/gui/macosx/wizard.m:432
-#: modules/gui/macosx/wizard.m:1800
+#: modules/gui/macosx/wizard.m:1798
 msgid "SAP Announcement"
 msgstr "SAP Duyurusu"
 
@@ -18969,7 +18969,7 @@ msgid "Back"
 msgstr "Geri"
 
 #: modules/gui/macosx/wizard.m:319 modules/gui/macosx/wizard.m:322
-#: modules/gui/macosx/wizard.m:1197
+#: modules/gui/macosx/wizard.m:1195
 msgid "Streaming/Transcoding Wizard"
 msgstr "Akış Gönderme/Biçim Dönüştürme Yardımcısı"
 
@@ -18995,11 +18995,11 @@ msgstr ""
 "özelliğe erişmenizi sağlar."
 
 #: modules/gui/macosx/wizard.m:332 modules/gui/macosx/wizard.m:491
-#: modules/gui/macosx/wizard.m:1609
+#: modules/gui/macosx/wizard.m:1607
 msgid "Stream to network"
 msgstr "Ağa yayınla"
 
-#: modules/gui/macosx/wizard.m:334 modules/gui/macosx/wizard.m:1617
+#: modules/gui/macosx/wizard.m:334 modules/gui/macosx/wizard.m:1615
 msgid "Transcode/Save to file"
 msgstr "Dönüştür/Dosyaya Kaydet"
 
@@ -19012,7 +19012,7 @@ msgid "Choose here your input stream."
 msgstr "Giriş akışınızı buradan seçin."
 
 #: modules/gui/macosx/wizard.m:340 modules/gui/macosx/wizard.m:529
-#: modules/gui/macosx/wizard.m:1642
+#: modules/gui/macosx/wizard.m:1640
 msgid "Select a stream"
 msgstr "Bir akış seçin"
 
@@ -19088,7 +19088,7 @@ msgstr "Sesi dönüştür"
 msgid "Transcode video"
 msgstr "Görüntüyü dönüştür"
 
-#: modules/gui/macosx/wizard.m:383 modules/gui/macosx/wizard.m:1744
+#: modules/gui/macosx/wizard.m:383 modules/gui/macosx/wizard.m:1742
 msgid ""
 "Enabling this allows transcoding the audio track if one is present in the "
 "stream."
@@ -19096,7 +19096,7 @@ msgstr ""
 "Bu seçeneği etkinleştirdiğinizde, varsa, akışın içindeki ses izinin "
 "dönüştürülmesi sağlanır."
 
-#: modules/gui/macosx/wizard.m:385 modules/gui/macosx/wizard.m:1761
+#: modules/gui/macosx/wizard.m:385 modules/gui/macosx/wizard.m:1759
 msgid ""
 "Enabling this allows transcoding the video track if one is present in the "
 "stream."
@@ -19124,12 +19124,12 @@ msgstr "Ek akış seçenekleri"
 msgid "In this page, a few additional streaming parameters can be set."
 msgstr "Bu sayfada bir kaç ek akış parametresini ayarlayabilirsiniz."
 
-#: modules/gui/macosx/wizard.m:398 modules/gui/macosx/wizard.m:1789
+#: modules/gui/macosx/wizard.m:398 modules/gui/macosx/wizard.m:1787
 msgid "Time-To-Live (TTL)"
 msgstr "Canlı Kalma Süresi (TTL)"
 
 #: modules/gui/macosx/wizard.m:402 modules/gui/macosx/wizard.m:412
-#: modules/gui/macosx/wizard.m:444 modules/gui/macosx/wizard.m:1813
+#: modules/gui/macosx/wizard.m:444 modules/gui/macosx/wizard.m:1811
 msgid "Local playback"
 msgstr "Yerelde oynat"
 
@@ -19233,15 +19233,15 @@ msgstr ""
 msgid "Select the directory to save to"
 msgstr "Kaydedilecek klasörü seçin"
 
-#: modules/gui/macosx/wizard.m:1073
+#: modules/gui/macosx/wizard.m:1072
 msgid "No folder selected"
 msgstr "Klasör seçilmedi"
 
-#: modules/gui/macosx/wizard.m:1075
+#: modules/gui/macosx/wizard.m:1074
 msgid "A directory where to save the files has to be selected."
 msgstr "Dosyaların kaydedileceği bir klasör seçmelisiniz."
 
-#: modules/gui/macosx/wizard.m:1077
+#: modules/gui/macosx/wizard.m:1076
 msgid ""
 "Enter either a valid path or use the \"Choose...\" button to select a "
 "location."
@@ -19249,54 +19249,54 @@ msgstr ""
 "Yeri belirlemek için geçerli bir yol yazabilir ya da \"Gözat...\" düğmesini "
 "kullanabilirsiniz."
 
-#: modules/gui/macosx/wizard.m:1080
+#: modules/gui/macosx/wizard.m:1079
 msgid "No file selected"
 msgstr "Dosya seçilmedi"
 
-#: modules/gui/macosx/wizard.m:1082
+#: modules/gui/macosx/wizard.m:1081
 msgid "A file where to save the stream has to be selected."
 msgstr "Akışın kaydedileceği bir dosya seçmelisiniz."
 
-#: modules/gui/macosx/wizard.m:1084
+#: modules/gui/macosx/wizard.m:1083
 msgid ""
 "Enter either a valid path or use the \"Choose\" button to select a location."
 msgstr ""
 "Yeri belirlemek için geçerli bir yol yazabilir ya da \"Gözat...\" düğmesini "
 "kullanabilirsiniz."
 
-#: modules/gui/macosx/wizard.m:1296
+#: modules/gui/macosx/wizard.m:1294
 msgid "Finish"
 msgstr "Bitti"
 
-#: modules/gui/macosx/wizard.m:1301
+#: modules/gui/macosx/wizard.m:1299
 #, c-format
 msgid "%i items"
 msgstr "%i öge"
 
-#: modules/gui/macosx/wizard.m:1309 modules/gui/macosx/wizard.m:1338
-#: modules/gui/macosx/wizard.m:1368
+#: modules/gui/macosx/wizard.m:1307 modules/gui/macosx/wizard.m:1336
+#: modules/gui/macosx/wizard.m:1366
 msgid "yes"
 msgstr "evet"
 
-#: modules/gui/macosx/wizard.m:1311 modules/gui/macosx/wizard.m:1321
-#: modules/gui/macosx/wizard.m:1334 modules/gui/macosx/wizard.m:1340
-#: modules/gui/macosx/wizard.m:1352 modules/gui/macosx/wizard.m:1371
+#: modules/gui/macosx/wizard.m:1309 modules/gui/macosx/wizard.m:1319
+#: modules/gui/macosx/wizard.m:1332 modules/gui/macosx/wizard.m:1338
+#: modules/gui/macosx/wizard.m:1350 modules/gui/macosx/wizard.m:1369
 msgid "no"
 msgstr "hayır"
 
-#: modules/gui/macosx/wizard.m:1317
+#: modules/gui/macosx/wizard.m:1315
 msgid "yes: from %@ to %@"
 msgstr "evet: %@ ile %@ arası"
 
-#: modules/gui/macosx/wizard.m:1327 modules/gui/macosx/wizard.m:1345
+#: modules/gui/macosx/wizard.m:1325 modules/gui/macosx/wizard.m:1343
 msgid "yes: %@ @ %@ kb/s"
 msgstr "evet: %@ @ %@ kb/s"
 
-#: modules/gui/macosx/wizard.m:1611
+#: modules/gui/macosx/wizard.m:1609
 msgid "This allows streaming on a network."
 msgstr "Bu seçenek, bir ağ üzerinden akış yapabilmenize izin verir."
 
-#: modules/gui/macosx/wizard.m:1619
+#: modules/gui/macosx/wizard.m:1617
 msgid ""
 "This allows saving a stream to a file. The can be reencoded on the fly. "
 "Whatever VLC can read can be saved.\n"
@@ -19309,15 +19309,15 @@ msgstr ""
 "unutmayın. Dönüştürme özellikleri, örneğin ağ akışlarını kaydetmek için "
 "kullanışlı olabilir."
 
-#: modules/gui/macosx/wizard.m:1739
+#: modules/gui/macosx/wizard.m:1737
 msgid "Select your audio codec. Click one to get more information."
 msgstr "Ses kodlayıcı/çözücüsünü seçin. Ayrıntılı bilgi için tıklayın."
 
-#: modules/gui/macosx/wizard.m:1756
+#: modules/gui/macosx/wizard.m:1754
 msgid "Select your video codec. Click one to get more information."
 msgstr "Görüntü kodlayıcı/çözücüsünü seçin. Ayrıntılı bilgi için tıklayın."
 
-#: modules/gui/macosx/wizard.m:1791
+#: modules/gui/macosx/wizard.m:1789
 msgid ""
 "This allows defining the TTL (Time-To-Live) of the stream. This parameter is "
 "the maximum number of routers your stream can go through. If you don't know "
@@ -19329,7 +19329,7 @@ msgstr ""
 "belirler. Bunun ne anlama geldiğinden emin değilseniz, ya da akışınızı "
 "yalnızca yerel ağınızda tutmak istiyorsanız, 1 değerinde bırakın."
 
-#: modules/gui/macosx/wizard.m:1802
+#: modules/gui/macosx/wizard.m:1800
 msgid ""
 "When streaming using UDP, the streams can be announced using the SAP/SDP "
 "announcing protocol. This way, the clients won't have to type in the "
@@ -19345,7 +19345,7 @@ msgstr ""
 "Akışınıza bir ad vermek istiyorsanız buraya yazın. Yazmazsanız varsayılan "
 "bir ad kullanılacaktır."
 
-#: modules/gui/macosx/wizard.m:1815
+#: modules/gui/macosx/wizard.m:1813
 msgid ""
 "When this option is enabled, the stream will be both played and transcoded/"
 "streamed.\n"

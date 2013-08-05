@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vlc\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2013-07-25 14:06+0200\n"
+"POT-Creation-Date: 2013-08-05 13:45+0200\n"
 "PO-Revision-Date: 2010-09-21 15:58+0400\n"
 "Last-Translator: Eduard Babayan <edo248@gmail.com>\n"
 "Language-Team: VLC Armenian <edo248@gmail.com>\n"
@@ -4410,7 +4410,7 @@ msgstr "Ավելի դանդաղ (չնչին)"
 #: modules/gui/macosx/MainMenu.m:360 modules/gui/macosx/MainMenu.m:458
 #: modules/gui/macosx/MainMenu.m:466 modules/gui/macosx/MainMenu.m:1449
 #: modules/gui/macosx/wizard.m:306 modules/gui/macosx/wizard.m:318
-#: modules/gui/macosx/wizard.m:1561
+#: modules/gui/macosx/wizard.m:1559
 #: modules/gui/qt4/components/controller.hpp:120 modules/notify/notify.c:339
 #: modules/gui/qt4/ui/streampanel.h:182
 msgid "Next"
@@ -11052,12 +11052,12 @@ msgstr "Շրջափակում"
 msgid "ALSA audio output"
 msgstr "ALSA աուդիո ելք"
 
-#: modules/audio_output/alsa.c:388 modules/audio_output/auhal.c:358
+#: modules/audio_output/alsa.c:368 modules/audio_output/auhal.c:358
 #, fuzzy
 msgid "Audio output failed"
 msgstr "Ձայնային ելքային ձախողվեց"
 
-#: modules/audio_output/alsa.c:389
+#: modules/audio_output/alsa.c:369
 #, fuzzy, c-format
 msgid ""
 "The audio device \"%s\" could not be used:\n"
@@ -18183,10 +18183,10 @@ msgstr "Ժամանակ"
 #: modules/gui/macosx/open.m:378 modules/gui/macosx/output.m:129
 #: modules/gui/macosx/playlistinfo.m:361 modules/gui/macosx/simple_prefs.m:196
 #: modules/gui/macosx/wizard.m:592 modules/gui/macosx/wizard.m:653
-#: modules/gui/macosx/wizard.m:992 modules/gui/macosx/wizard.m:1074
-#: modules/gui/macosx/wizard.m:1081 modules/gui/macosx/wizard.m:1610
-#: modules/gui/macosx/wizard.m:1618 modules/gui/macosx/wizard.m:1790
-#: modules/gui/macosx/wizard.m:1801 modules/gui/macosx/wizard.m:1814
+#: modules/gui/macosx/wizard.m:992 modules/gui/macosx/wizard.m:1073
+#: modules/gui/macosx/wizard.m:1080 modules/gui/macosx/wizard.m:1608
+#: modules/gui/macosx/wizard.m:1616 modules/gui/macosx/wizard.m:1788
+#: modules/gui/macosx/wizard.m:1799 modules/gui/macosx/wizard.m:1812
 #: modules/gui/qt4/components/open_panels.cpp:1346
 msgid "OK"
 msgstr "Հիշել"
@@ -18546,7 +18546,7 @@ msgstr "Պորտ"
 
 #: modules/gui/macosx/ConvertAndSave.m:202 modules/gui/macosx/output.m:172
 #: modules/gui/macosx/wizard.m:400 modules/gui/macosx/wizard.m:432
-#: modules/gui/macosx/wizard.m:1800
+#: modules/gui/macosx/wizard.m:1798
 #, fuzzy
 msgid "SAP Announcement"
 msgstr "SAP Հայտարարություններ"
@@ -20902,7 +20902,7 @@ msgid "Back"
 msgstr "Հետ"
 
 #: modules/gui/macosx/wizard.m:319 modules/gui/macosx/wizard.m:322
-#: modules/gui/macosx/wizard.m:1197
+#: modules/gui/macosx/wizard.m:1195
 #, fuzzy
 msgid "Streaming/Transcoding Wizard"
 msgstr "Հոսքի / Transcoding մոգ"
@@ -20933,11 +20933,11 @@ msgstr ""
 "հնարավորությունները \"."
 
 #: modules/gui/macosx/wizard.m:332 modules/gui/macosx/wizard.m:491
-#: modules/gui/macosx/wizard.m:1609
+#: modules/gui/macosx/wizard.m:1607
 msgid "Stream to network"
 msgstr "Հոսք դեպի ցանց"
 
-#: modules/gui/macosx/wizard.m:334 modules/gui/macosx/wizard.m:1617
+#: modules/gui/macosx/wizard.m:334 modules/gui/macosx/wizard.m:1615
 msgid "Transcode/Save to file"
 msgstr "Վերակոդավորել / Պահել ֆայլում"
 
@@ -20951,7 +20951,7 @@ msgid "Choose here your input stream."
 msgstr "Ընտրեք այստեղ ձեր ներդրման հոսքի\"."
 
 #: modules/gui/macosx/wizard.m:340 modules/gui/macosx/wizard.m:529
-#: modules/gui/macosx/wizard.m:1642
+#: modules/gui/macosx/wizard.m:1640
 msgid "Select a stream"
 msgstr "Ընտրել հոսք"
 
@@ -21038,7 +21038,7 @@ msgstr "տրանսկոդավորելու աուդիո"
 msgid "Transcode video"
 msgstr "տրանսկոդավորելու վիդեո"
 
-#: modules/gui/macosx/wizard.m:383 modules/gui/macosx/wizard.m:1744
+#: modules/gui/macosx/wizard.m:383 modules/gui/macosx/wizard.m:1742
 #, fuzzy
 msgid ""
 "Enabling this allows transcoding the audio track if one is present in the "
@@ -21047,7 +21047,7 @@ msgstr ""
 "թույլ է տրվում - թույլատրված է ընձեռում այդ թույլ է տալիս, տրանսկոդավորելու "
 "ձայնային են տանում, եթե մեկ է, որը ներկա էր հոսքի\"."
 
-#: modules/gui/macosx/wizard.m:385 modules/gui/macosx/wizard.m:1761
+#: modules/gui/macosx/wizard.m:385 modules/gui/macosx/wizard.m:1759
 #, fuzzy
 msgid ""
 "Enabling this allows transcoding the video track if one is present in the "
@@ -21080,12 +21080,12 @@ msgstr "Լրացուցիչ Հոսքային ընտրանքներ"
 msgid "In this page, a few additional streaming parameters can be set."
 msgstr "Այս էջը, մի քանի լրացուցիչ Հոսքային պարամետրերը կարող է սահմանել."
 
-#: modules/gui/macosx/wizard.m:398 modules/gui/macosx/wizard.m:1789
+#: modules/gui/macosx/wizard.m:398 modules/gui/macosx/wizard.m:1787
 msgid "Time-To-Live (TTL)"
 msgstr "Time-To-Live (TTL)"
 
 #: modules/gui/macosx/wizard.m:402 modules/gui/macosx/wizard.m:412
-#: modules/gui/macosx/wizard.m:444 modules/gui/macosx/wizard.m:1813
+#: modules/gui/macosx/wizard.m:444 modules/gui/macosx/wizard.m:1811
 msgid "Local playback"
 msgstr "Աշխատացնել տեղում"
 
@@ -21200,16 +21200,16 @@ msgstr ""
 msgid "Select the directory to save to"
 msgstr "Ընտրեք պանակ պահպանելու համար"
 
-#: modules/gui/macosx/wizard.m:1073
+#: modules/gui/macosx/wizard.m:1072
 msgid "No folder selected"
 msgstr "Ոչ մի պանակ ընտրված չէ"
 
-#: modules/gui/macosx/wizard.m:1075
+#: modules/gui/macosx/wizard.m:1074
 #, fuzzy
 msgid "A directory where to save the files has to be selected."
 msgstr "Ա պանակ, որտեղ փրկելու ֆայլերը պետք է ընտրել\"."
 
-#: modules/gui/macosx/wizard.m:1077
+#: modules/gui/macosx/wizard.m:1076
 #, fuzzy
 msgid ""
 "Enter either a valid path or use the \"Choose...\" button to select a "
@@ -21218,16 +21218,16 @@ msgstr ""
 "Մուտքագրեք կամ վավեր ճանապարհ կամ օգտագործել \" Ընտրիր ...  \"կոճակը, ընտրեք "
 "վայրը."
 
-#: modules/gui/macosx/wizard.m:1080
+#: modules/gui/macosx/wizard.m:1079
 msgid "No file selected"
 msgstr "Ոչ մի ֆայլ ընտրված չէ"
 
-#: modules/gui/macosx/wizard.m:1082
+#: modules/gui/macosx/wizard.m:1081
 #, fuzzy
 msgid "A file where to save the stream has to be selected."
 msgstr "Մի ֆայլ, որտեղ փրկելու հոսքի պետք է ընտրել\"."
 
-#: modules/gui/macosx/wizard.m:1084
+#: modules/gui/macosx/wizard.m:1083
 #, fuzzy
 msgid ""
 "Enter either a valid path or use the \"Choose\" button to select a location."
@@ -21235,42 +21235,42 @@ msgstr ""
 "Մուտքագրեք կամ վավեր ճանապարհ կամ օգտագործել \" Ընտրիր  \"կոճակը, ընտրեք "
 "վայրը."
 
-#: modules/gui/macosx/wizard.m:1296
+#: modules/gui/macosx/wizard.m:1294
 msgid "Finish"
 msgstr "Ավարտ"
 
-#: modules/gui/macosx/wizard.m:1301
+#: modules/gui/macosx/wizard.m:1299
 #, c-format
 msgid "%i items"
 msgstr "%i տարր"
 
-#: modules/gui/macosx/wizard.m:1309 modules/gui/macosx/wizard.m:1338
-#: modules/gui/macosx/wizard.m:1368
+#: modules/gui/macosx/wizard.m:1307 modules/gui/macosx/wizard.m:1336
+#: modules/gui/macosx/wizard.m:1366
 msgid "yes"
 msgstr "այո"
 
-#: modules/gui/macosx/wizard.m:1311 modules/gui/macosx/wizard.m:1321
-#: modules/gui/macosx/wizard.m:1334 modules/gui/macosx/wizard.m:1340
-#: modules/gui/macosx/wizard.m:1352 modules/gui/macosx/wizard.m:1371
+#: modules/gui/macosx/wizard.m:1309 modules/gui/macosx/wizard.m:1319
+#: modules/gui/macosx/wizard.m:1332 modules/gui/macosx/wizard.m:1338
+#: modules/gui/macosx/wizard.m:1350 modules/gui/macosx/wizard.m:1369
 msgid "no"
 msgstr "ոչ"
 
-#: modules/gui/macosx/wizard.m:1317
+#: modules/gui/macosx/wizard.m:1315
 #, fuzzy
 msgid "yes: from %@ to %@"
 msgstr "այո: - ից% @ դեպի% @ վրկ"
 
-#: modules/gui/macosx/wizard.m:1327 modules/gui/macosx/wizard.m:1345
+#: modules/gui/macosx/wizard.m:1325 modules/gui/macosx/wizard.m:1343
 #, fuzzy
 msgid "yes: %@ @ %@ kb/s"
 msgstr "այո:% @ @% @ kb / s"
 
-#: modules/gui/macosx/wizard.m:1611
+#: modules/gui/macosx/wizard.m:1609
 #, fuzzy
 msgid "This allows streaming on a network."
 msgstr "Սա թույլ է տրվում - թույլատրված է տալիս հոսք վրա ցանցի\"."
 
-#: modules/gui/macosx/wizard.m:1619
+#: modules/gui/macosx/wizard.m:1617
 #, fuzzy
 msgid ""
 "This allows saving a stream to a file. The can be reencoded on the fly. "
@@ -21285,20 +21285,20 @@ msgstr ""
 "transcoding. Դրա transcoding առանձնահատկությունները են, սակայն օգտակար "
 "փրկելու ցանցի հոսանքներին, օրինակ."
 
-#: modules/gui/macosx/wizard.m:1739
+#: modules/gui/macosx/wizard.m:1737
 #, fuzzy
 msgid "Select your audio codec. Click one to get more information."
 msgstr ""
 "Ընտրեք ձեր Աուդիո կոդեկ. Սեղմեք մեկ ստանալու ավելի շատ տեղեկատվություն\"."
 
-#: modules/gui/macosx/wizard.m:1756
+#: modules/gui/macosx/wizard.m:1754
 #, fuzzy
 msgid "Select your video codec. Click one to get more information."
 msgstr ""
 "Ընտրեք Ձեր տեսահոլովակը կոդեկ. Սեղմեք մեկ ստանալու ավելի շատ տեղեկատվություն"
 "\"."
 
-#: modules/gui/macosx/wizard.m:1791
+#: modules/gui/macosx/wizard.m:1789
 #, fuzzy
 msgid ""
 "This allows defining the TTL (Time-To-Live) of the stream. This parameter is "
@@ -21311,7 +21311,7 @@ msgstr ""
 "է գնալ միջոցով. Եթե դուք չգիտենք, թե ինչ է նշանակում, կամ եթե ուզում եք առու "
 "Ձեր լոկալ ցանցի միայն, թողնել այս ընդլայնված նիստ է 1 \"."
 
-#: modules/gui/macosx/wizard.m:1802
+#: modules/gui/macosx/wizard.m:1800
 #, fuzzy
 msgid ""
 "When streaming using UDP, the streams can be announced using the SAP/SDP "
@@ -21328,7 +21328,7 @@ msgstr ""
 " Եթե դուք ցանկանում եք տալ մի անուն Ձեր առու, մուտքագրեք այն այստեղ, այլ "
 "բան, մի լռությամբ անունը կարող են օգտագործվել \"."
 
-#: modules/gui/macosx/wizard.m:1815
+#: modules/gui/macosx/wizard.m:1813
 #, fuzzy
 msgid ""
 "When this option is enabled, the stream will be both played and transcoded/"

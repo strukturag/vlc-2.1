@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vlc\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2013-07-25 14:06+0200\n"
+"POT-Creation-Date: 2013-08-05 13:45+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Animesh Swar <animesh_swar@hotmail.co.uk>\n"
 "Language-Team: \n"
@@ -4074,7 +4074,7 @@ msgstr "ढिलो"
 #: modules/gui/macosx/MainMenu.m:360 modules/gui/macosx/MainMenu.m:458
 #: modules/gui/macosx/MainMenu.m:466 modules/gui/macosx/MainMenu.m:1449
 #: modules/gui/macosx/wizard.m:306 modules/gui/macosx/wizard.m:318
-#: modules/gui/macosx/wizard.m:1561
+#: modules/gui/macosx/wizard.m:1559
 #: modules/gui/qt4/components/controller.hpp:120 modules/notify/notify.c:339
 #: modules/gui/qt4/ui/streampanel.h:182
 msgid "Next"
@@ -10358,12 +10358,12 @@ msgstr "सराउन्ड"
 msgid "ALSA audio output"
 msgstr "ALSA अडियो निर्गत"
 
-#: modules/audio_output/alsa.c:388 modules/audio_output/auhal.c:358
+#: modules/audio_output/alsa.c:368 modules/audio_output/auhal.c:358
 #, fuzzy
 msgid "Audio output failed"
 msgstr "अडियो निर्गत पिन"
 
-#: modules/audio_output/alsa.c:389
+#: modules/audio_output/alsa.c:369
 #, c-format
 msgid ""
 "The audio device \"%s\" could not be used:\n"
@@ -16887,10 +16887,10 @@ msgstr "समय"
 #: modules/gui/macosx/open.m:378 modules/gui/macosx/output.m:129
 #: modules/gui/macosx/playlistinfo.m:361 modules/gui/macosx/simple_prefs.m:196
 #: modules/gui/macosx/wizard.m:592 modules/gui/macosx/wizard.m:653
-#: modules/gui/macosx/wizard.m:992 modules/gui/macosx/wizard.m:1074
-#: modules/gui/macosx/wizard.m:1081 modules/gui/macosx/wizard.m:1610
-#: modules/gui/macosx/wizard.m:1618 modules/gui/macosx/wizard.m:1790
-#: modules/gui/macosx/wizard.m:1801 modules/gui/macosx/wizard.m:1814
+#: modules/gui/macosx/wizard.m:992 modules/gui/macosx/wizard.m:1073
+#: modules/gui/macosx/wizard.m:1080 modules/gui/macosx/wizard.m:1608
+#: modules/gui/macosx/wizard.m:1616 modules/gui/macosx/wizard.m:1788
+#: modules/gui/macosx/wizard.m:1799 modules/gui/macosx/wizard.m:1812
 #: modules/gui/qt4/components/open_panels.cpp:1346
 msgid "OK"
 msgstr "ठीक छ"
@@ -17243,7 +17243,7 @@ msgstr "पोर्ट"
 
 #: modules/gui/macosx/ConvertAndSave.m:202 modules/gui/macosx/output.m:172
 #: modules/gui/macosx/wizard.m:400 modules/gui/macosx/wizard.m:432
-#: modules/gui/macosx/wizard.m:1800
+#: modules/gui/macosx/wizard.m:1798
 #, fuzzy
 msgid "SAP Announcement"
 msgstr "SAP घोषणा"
@@ -19547,7 +19547,7 @@ msgid "Back"
 msgstr "पछाडि"
 
 #: modules/gui/macosx/wizard.m:319 modules/gui/macosx/wizard.m:322
-#: modules/gui/macosx/wizard.m:1197
+#: modules/gui/macosx/wizard.m:1195
 msgid "Streaming/Transcoding Wizard"
 msgstr "प्रवाह/ट्रान्सकोडिङ विजार्ड"
 
@@ -19572,11 +19572,11 @@ msgstr ""
 "'बचत/प्रवाह' संवादले बढि सुविधामा पहुँच गर्न दिन्छ ।"
 
 #: modules/gui/macosx/wizard.m:332 modules/gui/macosx/wizard.m:491
-#: modules/gui/macosx/wizard.m:1609
+#: modules/gui/macosx/wizard.m:1607
 msgid "Stream to network"
 msgstr "सञ्जालमा प्रवाह"
 
-#: modules/gui/macosx/wizard.m:334 modules/gui/macosx/wizard.m:1617
+#: modules/gui/macosx/wizard.m:334 modules/gui/macosx/wizard.m:1615
 msgid "Transcode/Save to file"
 msgstr "फाइलमा ट्रान्सकोड/बचत गर्नुहोस्"
 
@@ -19589,7 +19589,7 @@ msgid "Choose here your input stream."
 msgstr "तपाईँको आगत प्रवाह यहाँ छनोट गर्नुहोस्"
 
 #: modules/gui/macosx/wizard.m:340 modules/gui/macosx/wizard.m:529
-#: modules/gui/macosx/wizard.m:1642
+#: modules/gui/macosx/wizard.m:1640
 msgid "Select a stream"
 msgstr "प्रवाह चयन गर्नुहोस्"
 
@@ -19667,7 +19667,7 @@ msgstr "ट्रान्सकोड अडियो"
 msgid "Transcode video"
 msgstr "ट्रान्सकोड भिडियो"
 
-#: modules/gui/macosx/wizard.m:383 modules/gui/macosx/wizard.m:1744
+#: modules/gui/macosx/wizard.m:383 modules/gui/macosx/wizard.m:1742
 #, fuzzy
 msgid ""
 "Enabling this allows transcoding the audio track if one is present in the "
@@ -19675,7 +19675,7 @@ msgid ""
 msgstr ""
 "यदि प्रवाहमा एउटा छ भने यसलाई सक्षम पार्दा अडियो ट्रयाक ट्रान्सकोड गर्न अनुमति दिन्छ ।"
 
-#: modules/gui/macosx/wizard.m:385 modules/gui/macosx/wizard.m:1761
+#: modules/gui/macosx/wizard.m:385 modules/gui/macosx/wizard.m:1759
 #, fuzzy
 msgid ""
 "Enabling this allows transcoding the video track if one is present in the "
@@ -19704,12 +19704,12 @@ msgstr "थप प्रवाह विकल्प"
 msgid "In this page, a few additional streaming parameters can be set."
 msgstr "यो पृष्ठमा, केहि थप प्रवाह परिमितिहरू सेट गर्न सकिन्छ ।"
 
-#: modules/gui/macosx/wizard.m:398 modules/gui/macosx/wizard.m:1789
+#: modules/gui/macosx/wizard.m:398 modules/gui/macosx/wizard.m:1787
 msgid "Time-To-Live (TTL)"
 msgstr "लाइभ हुने समय (TTL)"
 
 #: modules/gui/macosx/wizard.m:402 modules/gui/macosx/wizard.m:412
-#: modules/gui/macosx/wizard.m:444 modules/gui/macosx/wizard.m:1813
+#: modules/gui/macosx/wizard.m:444 modules/gui/macosx/wizard.m:1811
 msgid "Local playback"
 msgstr "स्थानिय प्लेब्याक"
 
@@ -19814,69 +19814,69 @@ msgstr ""
 msgid "Select the directory to save to"
 msgstr "यसमा बचत गर्न डाइरेक्टरी चयन गर्नुहोस्"
 
-#: modules/gui/macosx/wizard.m:1073
+#: modules/gui/macosx/wizard.m:1072
 msgid "No folder selected"
 msgstr "फोल्डर चयन गरिएको छैन"
 
-#: modules/gui/macosx/wizard.m:1075
+#: modules/gui/macosx/wizard.m:1074
 msgid "A directory where to save the files has to be selected."
 msgstr "फाइलहरू बचत गर्ने डाइरेक्टरी चयन गरिएको हुनुपर्दछ"
 
-#: modules/gui/macosx/wizard.m:1077
+#: modules/gui/macosx/wizard.m:1076
 msgid ""
 "Enter either a valid path or use the \"Choose...\" button to select a "
 "location."
 msgstr "वैध मार्ग प्रविष्ट गर्नु पर्दछ वा स्थान चयन गर्न \"Choose...\" बटन प्रयोग गर्नुहोस्"
 
-#: modules/gui/macosx/wizard.m:1080
+#: modules/gui/macosx/wizard.m:1079
 msgid "No file selected"
 msgstr "फाइल चयन गरिएको छैन"
 
-#: modules/gui/macosx/wizard.m:1082
+#: modules/gui/macosx/wizard.m:1081
 msgid "A file where to save the stream has to be selected."
 msgstr "प्रवाह बचत गर्ने फाइल चयन गर्नुपर्दछ"
 
-#: modules/gui/macosx/wizard.m:1084
+#: modules/gui/macosx/wizard.m:1083
 msgid ""
 "Enter either a valid path or use the \"Choose\" button to select a location."
 msgstr ""
 "वैध मार्ग प्रविष्ट गर्नुपर्दछ वा स्थान चयन गर्न \"Choose\" बटन प्रयोग गर्न सक्नुहुन्छ ।"
 
-#: modules/gui/macosx/wizard.m:1296
+#: modules/gui/macosx/wizard.m:1294
 msgid "Finish"
 msgstr "समाप्त"
 
-#: modules/gui/macosx/wizard.m:1301
+#: modules/gui/macosx/wizard.m:1299
 #, c-format
 msgid "%i items"
 msgstr "%i वस्तु"
 
-#: modules/gui/macosx/wizard.m:1309 modules/gui/macosx/wizard.m:1338
-#: modules/gui/macosx/wizard.m:1368
+#: modules/gui/macosx/wizard.m:1307 modules/gui/macosx/wizard.m:1336
+#: modules/gui/macosx/wizard.m:1366
 msgid "yes"
 msgstr "हो"
 
-#: modules/gui/macosx/wizard.m:1311 modules/gui/macosx/wizard.m:1321
-#: modules/gui/macosx/wizard.m:1334 modules/gui/macosx/wizard.m:1340
-#: modules/gui/macosx/wizard.m:1352 modules/gui/macosx/wizard.m:1371
+#: modules/gui/macosx/wizard.m:1309 modules/gui/macosx/wizard.m:1319
+#: modules/gui/macosx/wizard.m:1332 modules/gui/macosx/wizard.m:1338
+#: modules/gui/macosx/wizard.m:1350 modules/gui/macosx/wizard.m:1369
 msgid "no"
 msgstr "होइन"
 
-#: modules/gui/macosx/wizard.m:1317
+#: modules/gui/macosx/wizard.m:1315
 #, fuzzy
 msgid "yes: from %@ to %@"
 msgstr "हो: %@ बाट %@ से लाई"
 
-#: modules/gui/macosx/wizard.m:1327 modules/gui/macosx/wizard.m:1345
+#: modules/gui/macosx/wizard.m:1325 modules/gui/macosx/wizard.m:1343
 msgid "yes: %@ @ %@ kb/s"
 msgstr "हो: %@ @ %@ kb/s"
 
-#: modules/gui/macosx/wizard.m:1611
+#: modules/gui/macosx/wizard.m:1609
 #, fuzzy
 msgid "This allows streaming on a network."
 msgstr "यसले सञ्जालमा प्रवाह गर्न अनुमति दिन्छ"
 
-#: modules/gui/macosx/wizard.m:1619
+#: modules/gui/macosx/wizard.m:1617
 #, fuzzy
 msgid ""
 "This allows saving a stream to a file. The can be reencoded on the fly. "
@@ -19889,15 +19889,15 @@ msgstr ""
 "फाइलबाट फाइल ट्रान्सकोडिङका लागि VLC धेरै उपयुक्त हुदैन भन्ने याद राख्नुहोस् । यद्यपि "
 "सञ्जाल प्रवाह बचत गर्न ट्रान्सकोडिङ सुविधा उपयोगि हुन्छ ।"
 
-#: modules/gui/macosx/wizard.m:1739
+#: modules/gui/macosx/wizard.m:1737
 msgid "Select your audio codec. Click one to get more information."
 msgstr "तपाईँको अडियो कोडेक चयन गर्नुहोस् । बढि जानकारी प्राप्त गर्न एउटा क्लिक गर्नुहोस्"
 
-#: modules/gui/macosx/wizard.m:1756
+#: modules/gui/macosx/wizard.m:1754
 msgid "Select your video codec. Click one to get more information."
 msgstr "तपाईँको भिडियो कोडेक चयन गर्नुहोस् । बढि जानकारी प्राप्त गर्न एउटा क्लिक गर्नुहोस्"
 
-#: modules/gui/macosx/wizard.m:1791
+#: modules/gui/macosx/wizard.m:1789
 #, fuzzy
 msgid ""
 "This allows defining the TTL (Time-To-Live) of the stream. This parameter is "
@@ -19910,7 +19910,7 @@ msgstr ""
 "यदि तपाईँको स्थानिय सञ्जालमा मात्र प्रवाह गर्न चाहनुहुन्छ भने यो स्ट्रिङलाई १ मा छोड्नुहोस् "
 "।"
 
-#: modules/gui/macosx/wizard.m:1802
+#: modules/gui/macosx/wizard.m:1800
 msgid ""
 "When streaming using UDP, the streams can be announced using the SAP/SDP "
 "announcing protocol. This way, the clients won't have to type in the "
@@ -19925,7 +19925,7 @@ msgstr ""
 "यदि तपाईँको प्रवाहमा नाम दिन चाहनुहुन्छ भने यसलाई यहाँ प्रविष्ट गर्नुहोस्, अन्यथा "
 "पूर्वनिर्धारित नामको प्रयोग गरिन्छ ।"
 
-#: modules/gui/macosx/wizard.m:1815
+#: modules/gui/macosx/wizard.m:1813
 msgid ""
 "When this option is enabled, the stream will be both played and transcoded/"
 "streamed.\n"

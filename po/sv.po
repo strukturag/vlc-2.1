@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vlc\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2013-07-25 14:06+0200\n"
+"POT-Creation-Date: 2013-08-05 13:45+0200\n"
 "PO-Revision-Date: 2012-02-16 23:32+0100\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
@@ -4009,7 +4009,7 @@ msgstr "Långsammare (fin)"
 #: modules/gui/macosx/MainMenu.m:360 modules/gui/macosx/MainMenu.m:458
 #: modules/gui/macosx/MainMenu.m:466 modules/gui/macosx/MainMenu.m:1449
 #: modules/gui/macosx/wizard.m:306 modules/gui/macosx/wizard.m:318
-#: modules/gui/macosx/wizard.m:1561
+#: modules/gui/macosx/wizard.m:1559
 #: modules/gui/qt4/components/controller.hpp:120 modules/notify/notify.c:339
 #: modules/gui/qt4/ui/streampanel.h:182
 msgid "Next"
@@ -10102,12 +10102,12 @@ msgstr "Surround 7.1"
 msgid "ALSA audio output"
 msgstr "ALSA-ljudutmatning"
 
-#: modules/audio_output/alsa.c:388 modules/audio_output/auhal.c:358
+#: modules/audio_output/alsa.c:368 modules/audio_output/auhal.c:358
 #, fuzzy
 msgid "Audio output failed"
 msgstr "Paus"
 
-#: modules/audio_output/alsa.c:389
+#: modules/audio_output/alsa.c:369
 #, c-format
 msgid ""
 "The audio device \"%s\" could not be used:\n"
@@ -16344,10 +16344,10 @@ msgstr "Tid"
 #: modules/gui/macosx/open.m:378 modules/gui/macosx/output.m:129
 #: modules/gui/macosx/playlistinfo.m:361 modules/gui/macosx/simple_prefs.m:196
 #: modules/gui/macosx/wizard.m:592 modules/gui/macosx/wizard.m:653
-#: modules/gui/macosx/wizard.m:992 modules/gui/macosx/wizard.m:1074
-#: modules/gui/macosx/wizard.m:1081 modules/gui/macosx/wizard.m:1610
-#: modules/gui/macosx/wizard.m:1618 modules/gui/macosx/wizard.m:1790
-#: modules/gui/macosx/wizard.m:1801 modules/gui/macosx/wizard.m:1814
+#: modules/gui/macosx/wizard.m:992 modules/gui/macosx/wizard.m:1073
+#: modules/gui/macosx/wizard.m:1080 modules/gui/macosx/wizard.m:1608
+#: modules/gui/macosx/wizard.m:1616 modules/gui/macosx/wizard.m:1788
+#: modules/gui/macosx/wizard.m:1799 modules/gui/macosx/wizard.m:1812
 #: modules/gui/qt4/components/open_panels.cpp:1346
 msgid "OK"
 msgstr "OK"
@@ -16690,7 +16690,7 @@ msgstr "Port"
 
 #: modules/gui/macosx/ConvertAndSave.m:202 modules/gui/macosx/output.m:172
 #: modules/gui/macosx/wizard.m:400 modules/gui/macosx/wizard.m:432
-#: modules/gui/macosx/wizard.m:1800
+#: modules/gui/macosx/wizard.m:1798
 #, fuzzy
 msgid "SAP Announcement"
 msgstr "SAP-annonseringar"
@@ -18901,7 +18901,7 @@ msgid "Back"
 msgstr "Tillbaka"
 
 #: modules/gui/macosx/wizard.m:319 modules/gui/macosx/wizard.m:322
-#: modules/gui/macosx/wizard.m:1197
+#: modules/gui/macosx/wizard.m:1195
 msgid "Streaming/Transcoding Wizard"
 msgstr "Strömning/Omkodningsguide"
 
@@ -18928,11 +18928,11 @@ msgstr ""
 "ge dig tillgång till fler funktioner."
 
 #: modules/gui/macosx/wizard.m:332 modules/gui/macosx/wizard.m:491
-#: modules/gui/macosx/wizard.m:1609
+#: modules/gui/macosx/wizard.m:1607
 msgid "Stream to network"
 msgstr "Strömma till nätverk"
 
-#: modules/gui/macosx/wizard.m:334 modules/gui/macosx/wizard.m:1617
+#: modules/gui/macosx/wizard.m:334 modules/gui/macosx/wizard.m:1615
 msgid "Transcode/Save to file"
 msgstr "Omkodning/Spara till fil"
 
@@ -18945,7 +18945,7 @@ msgid "Choose here your input stream."
 msgstr "Välj din inmatningsström här."
 
 #: modules/gui/macosx/wizard.m:340 modules/gui/macosx/wizard.m:529
-#: modules/gui/macosx/wizard.m:1642
+#: modules/gui/macosx/wizard.m:1640
 msgid "Select a stream"
 msgstr "Välj en ström"
 
@@ -19016,7 +19016,7 @@ msgstr "Omkoda ljud"
 msgid "Transcode video"
 msgstr "Omkoda video"
 
-#: modules/gui/macosx/wizard.m:383 modules/gui/macosx/wizard.m:1744
+#: modules/gui/macosx/wizard.m:383 modules/gui/macosx/wizard.m:1742
 #, fuzzy
 msgid ""
 "Enabling this allows transcoding the audio track if one is present in the "
@@ -19024,7 +19024,7 @@ msgid ""
 msgstr ""
 "Aktivera denna för att omkoda ljudspåret om det finns något i strömmen."
 
-#: modules/gui/macosx/wizard.m:385 modules/gui/macosx/wizard.m:1761
+#: modules/gui/macosx/wizard.m:385 modules/gui/macosx/wizard.m:1759
 #, fuzzy
 msgid ""
 "Enabling this allows transcoding the video track if one is present in the "
@@ -19051,12 +19051,12 @@ msgid "In this page, a few additional streaming parameters can be set."
 msgstr ""
 "På denna sida kan ett antal ytterligare parametrar för strömmen ställas in."
 
-#: modules/gui/macosx/wizard.m:398 modules/gui/macosx/wizard.m:1789
+#: modules/gui/macosx/wizard.m:398 modules/gui/macosx/wizard.m:1787
 msgid "Time-To-Live (TTL)"
 msgstr "Livstid (TTL)"
 
 #: modules/gui/macosx/wizard.m:402 modules/gui/macosx/wizard.m:412
-#: modules/gui/macosx/wizard.m:444 modules/gui/macosx/wizard.m:1813
+#: modules/gui/macosx/wizard.m:444 modules/gui/macosx/wizard.m:1811
 msgid "Local playback"
 msgstr "Lokal uppspelning"
 
@@ -19151,15 +19151,15 @@ msgstr ""
 msgid "Select the directory to save to"
 msgstr "Välj katalogen att spara till"
 
-#: modules/gui/macosx/wizard.m:1073
+#: modules/gui/macosx/wizard.m:1072
 msgid "No folder selected"
 msgstr "Ingen mapp vald"
 
-#: modules/gui/macosx/wizard.m:1075
+#: modules/gui/macosx/wizard.m:1074
 msgid "A directory where to save the files has to be selected."
 msgstr "En katalog där filerna som har valts kommer att sparas."
 
-#: modules/gui/macosx/wizard.m:1077
+#: modules/gui/macosx/wizard.m:1076
 msgid ""
 "Enter either a valid path or use the \"Choose...\" button to select a "
 "location."
@@ -19167,55 +19167,55 @@ msgstr ""
 "Ange antingen en giltig sökväg eller använd \"Välj...\"-knappen för att "
 "välja en plats."
 
-#: modules/gui/macosx/wizard.m:1080
+#: modules/gui/macosx/wizard.m:1079
 msgid "No file selected"
 msgstr "Ingen fil vald"
 
-#: modules/gui/macosx/wizard.m:1082
+#: modules/gui/macosx/wizard.m:1081
 msgid "A file where to save the stream has to be selected."
 msgstr "En fil där strömmen som har valts kommer att sparas."
 
-#: modules/gui/macosx/wizard.m:1084
+#: modules/gui/macosx/wizard.m:1083
 msgid ""
 "Enter either a valid path or use the \"Choose\" button to select a location."
 msgstr ""
 "Ange antingen en giltig sökväg eller använd \"Välj\"-knappen för att välja "
 "en plats."
 
-#: modules/gui/macosx/wizard.m:1296
+#: modules/gui/macosx/wizard.m:1294
 msgid "Finish"
 msgstr "Färdig"
 
-#: modules/gui/macosx/wizard.m:1301
+#: modules/gui/macosx/wizard.m:1299
 #, c-format
 msgid "%i items"
 msgstr "%i objekt"
 
-#: modules/gui/macosx/wizard.m:1309 modules/gui/macosx/wizard.m:1338
-#: modules/gui/macosx/wizard.m:1368
+#: modules/gui/macosx/wizard.m:1307 modules/gui/macosx/wizard.m:1336
+#: modules/gui/macosx/wizard.m:1366
 msgid "yes"
 msgstr "ja"
 
-#: modules/gui/macosx/wizard.m:1311 modules/gui/macosx/wizard.m:1321
-#: modules/gui/macosx/wizard.m:1334 modules/gui/macosx/wizard.m:1340
-#: modules/gui/macosx/wizard.m:1352 modules/gui/macosx/wizard.m:1371
+#: modules/gui/macosx/wizard.m:1309 modules/gui/macosx/wizard.m:1319
+#: modules/gui/macosx/wizard.m:1332 modules/gui/macosx/wizard.m:1338
+#: modules/gui/macosx/wizard.m:1350 modules/gui/macosx/wizard.m:1369
 msgid "no"
 msgstr "nej"
 
-#: modules/gui/macosx/wizard.m:1317
+#: modules/gui/macosx/wizard.m:1315
 #, fuzzy
 msgid "yes: from %@ to %@"
 msgstr "ja: från %@ till %@ sek"
 
-#: modules/gui/macosx/wizard.m:1327 modules/gui/macosx/wizard.m:1345
+#: modules/gui/macosx/wizard.m:1325 modules/gui/macosx/wizard.m:1343
 msgid "yes: %@ @ %@ kb/s"
 msgstr "ja: %@ @ %@ kb/s"
 
-#: modules/gui/macosx/wizard.m:1611
+#: modules/gui/macosx/wizard.m:1609
 msgid "This allows streaming on a network."
 msgstr "Detta låter dig strömma på ett nätverk."
 
-#: modules/gui/macosx/wizard.m:1619
+#: modules/gui/macosx/wizard.m:1617
 #, fuzzy
 msgid ""
 "This allows saving a stream to a file. The can be reencoded on the fly. "
@@ -19229,15 +19229,15 @@ msgstr ""
 "omkodningsfunktioner är mer lämpliga för att, till exempel, spara "
 "nätverksströmmar."
 
-#: modules/gui/macosx/wizard.m:1739
+#: modules/gui/macosx/wizard.m:1737
 msgid "Select your audio codec. Click one to get more information."
 msgstr "Välj din ljudkodek. Klicka på en för att få mer information."
 
-#: modules/gui/macosx/wizard.m:1756
+#: modules/gui/macosx/wizard.m:1754
 msgid "Select your video codec. Click one to get more information."
 msgstr "Välj din videokodek. Klicka på en för att få mer information."
 
-#: modules/gui/macosx/wizard.m:1791
+#: modules/gui/macosx/wizard.m:1789
 msgid ""
 "This allows defining the TTL (Time-To-Live) of the stream. This parameter is "
 "the maximum number of routers your stream can go through. If you don't know "
@@ -19245,7 +19245,7 @@ msgid ""
 "this setting to 1."
 msgstr ""
 
-#: modules/gui/macosx/wizard.m:1802
+#: modules/gui/macosx/wizard.m:1800
 msgid ""
 "When streaming using UDP, the streams can be announced using the SAP/SDP "
 "announcing protocol. This way, the clients won't have to type in the "
@@ -19255,7 +19255,7 @@ msgid ""
 "name will be used."
 msgstr ""
 
-#: modules/gui/macosx/wizard.m:1815
+#: modules/gui/macosx/wizard.m:1813
 msgid ""
 "When this option is enabled, the stream will be both played and transcoded/"
 "streamed.\n"
