@@ -191,7 +191,7 @@ fi
     --disable-sdl \
     --disable-SDL_image \
     --disable-iconv \
-    --disable-zvbi \
+    --enable-zvbi \
     --disable-kate \
     --disable-caca \
     --disable-gettext \
