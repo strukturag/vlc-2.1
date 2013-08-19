@@ -54,6 +54,7 @@ vlc_module_begin ()
     add_shortcut( "ffmpeg", "avformat" )
     set_description( N_("Avformat muxer" ) )
     set_capability( "sout mux", 2 )
+    set_section( N_("Muxer"), NULL )
     add_string( "sout-avformat-mux", NULL, MUX_TEXT, MUX_LONGTEXT, true )
     add_obsolete_string("ffmpeg-mux") /* removed since 2.1.0 */
     add_string( "sout-avformat-options", NULL, AV_OPTIONS_TEXT, AV_OPTIONS_LONGTEXT, true )
