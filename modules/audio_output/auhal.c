@@ -349,6 +349,7 @@ static int Start(audio_output_t *p_aout, audio_sample_format_t *restrict fmt)
         err = AudioObjectGetPropertyData(kAudioObjectSystemObject, &defaultDeviceAddress, 0, NULL, &propertySize, &defaultDeviceID);
         if (err != noErr) {
             msg_Err(p_aout, "could not get default audio device [%4.4s]", (char *)&err);
+            vlc_mutex_unlock(&p_sys->var_lock);
             goto error;
         }
         else
@@ -357,6 +358,7 @@ static int Start(audio_output_t *p_aout, audio_sample_format_t *restrict fmt)
         p_sys->i_selected_dev = defaultDeviceID;
         p_sys->b_selected_dev_is_digital = var_InheritBool(p_aout, "spdif");
     }
+    vlc_mutex_unlock(&p_sys->var_lock);
 
     // recheck if device still supports digital
     b_start_digital = p_sys->b_selected_dev_is_digital;
@@ -410,7 +412,6 @@ static int Start(audio_output_t *p_aout, audio_sample_format_t *restrict fmt)
             b_success = true;
         }
     }
-    vlc_mutex_unlock(&p_sys->var_lock);
 
     if (b_success) {
         p_aout->play = Play;
@@ -422,7 +423,6 @@ static int Start(audio_output_t *p_aout, audio_sample_format_t *restrict fmt)
 
 error:
     /* If we reach this, this aout has failed */
-    vlc_mutex_unlock(&p_sys->var_lock);
     msg_Err(p_aout, "opening auhal output failed");
     return VLC_EGENERIC;
 }
@@ -1056,7 +1056,6 @@ static void Stop(audio_output_t *p_aout)
         verify_noerr(AudioComponentInstanceDispose(p_sys->au_unit));
     }
 
-    vlc_mutex_lock(&p_sys->var_lock);
     if (p_sys->b_digital) {
         /* Stop device */
         err = AudioDeviceStop(p_sys->i_selected_dev,
@@ -1118,8 +1117,6 @@ static void Stop(audio_output_t *p_aout)
         /* Be tolerant, only give a warning here */
         msg_Warn(p_aout, "failed to remove audio device life checker [%4.4s]", (char *)&err);
     }
-
-    vlc_mutex_unlock(&p_sys->var_lock);
 
     p_sys->i_bytes_per_sample = 0;
     p_sys->b_digital = false;
