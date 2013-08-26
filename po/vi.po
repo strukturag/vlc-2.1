@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-08-05 13:45+0200\n"
-"PO-Revision-Date: 2013-07-10 09:16+0000\n"
-"Last-Translator: thanhpk <thanhpk@live.com>\n"
+"PO-Revision-Date: 2013-08-18 11:14+0000\n"
+"Last-Translator: ppanhh <ppanhh@gmail.com>\n"
 "Language-Team: Vietnamese (http://www.transifex.com/projects/p/vlc-trans/"
 "language/vi/)\n"
 "Language: vi\n"
@@ -482,7 +482,7 @@ msgstr "&Thông điệp"
 
 #: include/vlc_intf_strings.h:58
 msgid "Jump to Specific &Time"
-msgstr "Nhảy tới thời &gian tự chọn"
+msgstr "Chọn lựa thời gian p&hát"
 
 #: include/vlc_intf_strings.h:59
 msgid "Custom &Bookmarks"
@@ -619,7 +619,8 @@ msgid ""
 msgstr ""
 "<html><head><meta http-equiv=\"Content-Type\" content=\"text/html; "
 "charset=utf-8\" /></head><body><h2>Chào mừng bạn đến phần trợ giúp của VLC</"
-"h2><h3>VLC hiện đã có trên Android - Hãy thử ngay!</h3><h3>VLC đang rất cần "
+"h2><h3>VLC được chuyển sang Việt Ngữ bởi Vietnamese Translation Software</"
+"h3><h3>VLC hiện đã có trên Android - Hãy thử ngay!</h3><h3>VLC đang rất cần "
 "sự trợ giúp của các bạn trong công tác Việt Hóa chương trình</h3><p>Hiện tại "
 "phiên bản dịch của VLC rất cần sự đóng góp về mặt dịch thuật, mong các bạn "
 "nào có thiện nguyện, hãy tham gia vào công tác chuyển ngữ cho VLC.</"
@@ -1803,7 +1804,7 @@ msgstr ""
 
 #: src/libvlc-module.c:152
 msgid "Audio desynchronization compensation"
-msgstr "Audio desynchronization compensation"
+msgstr "Bù trừ việc không đồng đều khi đồng bộ hóa Audio"
 
 #: src/libvlc-module.c:154
 msgid ""
@@ -4320,35 +4321,35 @@ msgstr "Chọn phím tắt để nhảy tới khung video tiếp theo."
 
 #: src/libvlc-module.c:1261
 msgid "Very short jump length"
-msgstr "Nhảy tới thời gian rất ngắn"
+msgstr "Chọn thời gian để phát rất ngắn"
 
 #: src/libvlc-module.c:1262
 msgid "Very short jump length, in seconds."
-msgstr "Nhảy tới thời gian rất ngắn, tính bằng giây."
+msgstr "Chọn thời gian để phát rất ngắn, tính bằng giây."
 
 #: src/libvlc-module.c:1263
 msgid "Short jump length"
-msgstr "Nhảy tới thời gian ngắn"
+msgstr "Chọn thời gian để phát ngắn"
 
 #: src/libvlc-module.c:1264
 msgid "Short jump length, in seconds."
-msgstr "Nhảy tới thời gian ngắn, tính bằng giây."
+msgstr "Chọn thời gian để phát ngắn, tính bằng giây."
 
 #: src/libvlc-module.c:1265
 msgid "Medium jump length"
-msgstr "Nhảy tới thời gian trung bình"
+msgstr "Chọn thời gian để phát trung bình"
 
 #: src/libvlc-module.c:1266
 msgid "Medium jump length, in seconds."
-msgstr "Nhảy tới thời gian trung bình, tính bằng giây."
+msgstr "Chọn thời gian để phát trung bình, tính bằng giây."
 
 #: src/libvlc-module.c:1267
 msgid "Long jump length"
-msgstr "Nhảy tới thời gian dài"
+msgstr "Chọn thời gian để phát dài"
 
 #: src/libvlc-module.c:1268
 msgid "Long jump length, in seconds."
-msgstr "Nhảy tới thời gian dài, tính bằng giây."
+msgstr "Chọn thời gian để phát dài, tính bằng giây."
 
 #: src/libvlc-module.c:1270 modules/control/hotkeys.c:159
 #: modules/gui/qt4/components/controller.hpp:119
@@ -8865,7 +8866,7 @@ msgstr ""
 
 #: modules/access/v4l2/v4l2.c:144
 msgid "Horizontal flip"
-msgstr "Đối xứng chiều ngang"
+msgstr "Đối xứng theo chiều ngang"
 
 #: modules/access/v4l2/v4l2.c:146
 msgid "Flip the picture horizontally."
@@ -8873,7 +8874,7 @@ msgstr "Đối xứng hình ảnh theo chiều ngang"
 
 #: modules/access/v4l2/v4l2.c:147
 msgid "Vertical flip"
-msgstr "Đối xứng chiều dọc"
+msgstr "Đối xứng theo chiều dọc"
 
 #: modules/access/v4l2/v4l2.c:149
 msgid "Flip the picture vertically."
@@ -10821,6 +10822,13 @@ msgid ""
 "4 - visualize backward predicted MVs of B frames\n"
 "To visualize all vectors, the value should be 7."
 msgstr ""
+"Bạn có thể đặt độ che phủ của hướng chuyển động (các mũi tên hiển thị hình "
+"ảnh được hiển thị) trên hình ảnh. Giá trị này có thể là một mặt nạ, dựa trên "
+"những giá trị sau:\n"
+"1 - hiệu ứng tiến từ khung hình P dựa trên MVs được dự đoán trước\n"
+"2 - hiệu ứng tiến từ khung hình B dựa trên MVs được dự đoán trước\n"
+"4 - hiệu ứng lùi từ khung hình B dựa trên MVs được dự đoán trước\n"
+"Để tạo hiệu ứng hướng chuyển động, nên đặt giá trị là 7."
 
 #: modules/codec/avcodec/avcodec.h:131 modules/gui/macosx/simple_prefs.m:215
 msgid "Skip the loop filter for H.264 decoding"
@@ -10831,6 +10839,9 @@ msgid ""
 "Skipping the loop filter (aka deblocking) usually has a detrimental effect "
 "on quality. However it provides a big speedup for high definition streams."
 msgstr ""
+"Bỏ qua bộ phận lọc của lặp lại (aka deblocking) sẽ tạo bất lợi đối với chất "
+"lượng dữ liệu. Tuy nhiên, thao tác bỏ qua này sẽ làm việc tải hay gửi các "
+"luồng dữ liệu có độ phân giải cao trở nên nhanh hơn."
 
 #: modules/codec/avcodec/avcodec.h:136
 msgid "Hardware decoding"
@@ -10842,11 +10853,11 @@ msgstr "Tùy chọn này cho phép giải mã phần cứng khi được chọn.
 
 #: modules/codec/avcodec/avcodec.h:139
 msgid "VDA output pixel format"
-msgstr ""
+msgstr "Định dạng điểm ảnh xuất ra của VDA"
 
 #: modules/codec/avcodec/avcodec.h:140
 msgid "The pixel format for output image buffers."
-msgstr ""
+msgstr "Định dạng điểm ảnh xuất ra dành cho bộ nhớ đệm của hình ảnh."
 
 #: modules/codec/avcodec/avcodec.h:142
 msgid "Threads"
@@ -10855,14 +10866,16 @@ msgstr "Các luồng"
 #: modules/codec/avcodec/avcodec.h:143
 msgid "Number of threads used for decoding, 0 meaning auto"
 msgstr ""
+"Số lượng tiến trình được dùng để giải mã, nếu để 0 chương trình sẽ tự động "
+"điều khiển"
 
 #: modules/codec/avcodec/avcodec.h:150
 msgid "Ratio of key frames"
-msgstr ""
+msgstr "Tỉ số khóa của khung hình"
 
 #: modules/codec/avcodec/avcodec.h:151
 msgid "Number of frames that will be coded for one key frame."
-msgstr ""
+msgstr "Số lượng khung hình sẽ được mã hóa cho mỗi khóa trong khung hình."
 
 #: modules/codec/avcodec/avcodec.h:154
 msgid "Ratio of B frames"
@@ -10874,11 +10887,11 @@ msgstr "Số khung B sẽ được mã hóa giữa hai hệ quy chiếu"
 
 #: modules/codec/avcodec/avcodec.h:158
 msgid "Video bitrate tolerance"
-msgstr ""
+msgstr "Độ chịu tải của bitrate video"
 
 #: modules/codec/avcodec/avcodec.h:159
 msgid "Video bitrate tolerance in kbit/s."
-msgstr ""
+msgstr "Độ chịu tải của bitrate video bằng đơn vị kbit/giây."
 
 #: modules/codec/avcodec/avcodec.h:161
 msgid "Interlaced encoding"
@@ -10886,51 +10899,58 @@ msgstr "Mã hóa hỗn hợp"
 
 #: modules/codec/avcodec/avcodec.h:162
 msgid "Enable dedicated algorithms for interlaced frames."
-msgstr ""
+msgstr "Bật các thuật toán chuyên trách cho việc quét mành khung hình."
 
 #: modules/codec/avcodec/avcodec.h:165
 msgid "Interlaced motion estimation"
-msgstr ""
+msgstr "Ước lượng độ chuyển động quét mành"
 
 #: modules/codec/avcodec/avcodec.h:166
 msgid "Enable interlaced motion estimation algorithms. This requires more CPU."
 msgstr ""
+"Bật thuật toán ước lượng chuyển động quét mành. Thao tác này sẽ chiếm dụng "
+"nhiều hiệu năng từ phía CPU."
 
 #: modules/codec/avcodec/avcodec.h:169
 msgid "Pre-motion estimation"
-msgstr ""
+msgstr "Ước lượng chuyển động trước"
 
 #: modules/codec/avcodec/avcodec.h:170
 msgid "Enable the pre-motion estimation algorithm."
-msgstr ""
+msgstr "Bật thuật toán ướng lượng chuyển động trước."
 
 #: modules/codec/avcodec/avcodec.h:173
 msgid "Rate control buffer size"
-msgstr ""
+msgstr "Kích thước đệm dành cho tỉ lệ điều khiển"
 
 #: modules/codec/avcodec/avcodec.h:174
 msgid ""
 "Rate control buffer size (in kbytes). A bigger buffer will allow for better "
 "rate control, but will cause a delay in the stream."
 msgstr ""
+"Kích thước đệm dành cho tỉ lệ điều khiển (tính bằng kbyte). Số đệm càng lớn "
+"sẽ cho phép tỉ lệ điều khiển tốt hơn, tuy nhiên sẽ gây ra độ trễ về việc "
+"truyền dẫn đối với luồng dữ liệu."
 
 #: modules/codec/avcodec/avcodec.h:178
 msgid "Rate control buffer aggressiveness"
-msgstr ""
+msgstr "Mức độ bộ đệm của tỉ lệ điều khiển"
 
 #: modules/codec/avcodec/avcodec.h:179
 msgid "Rate control buffer aggressiveness."
-msgstr ""
+msgstr "Mức độ bộ đệm của tỉ lệ điều khiển."
 
 #: modules/codec/avcodec/avcodec.h:182
 msgid "I quantization factor"
-msgstr ""
+msgstr "Hệ số lượng tử I"
 
 #: modules/codec/avcodec/avcodec.h:184
 msgid ""
 "Quantization factor of I frames, compared with P frames (for instance 1.0 => "
 "same qscale for I and P frames)."
 msgstr ""
+"Hệ số lượng tử của các khung hình I, được so sánh với các khung hình P (thí "
+"dụ 1.0 => cùng tỉ lệ đối với khung hình I và P)"
 
 #: modules/codec/avcodec/avcodec.h:187 modules/codec/x264.c:360
 #: modules/demux/mod.c:78
@@ -10942,10 +10962,12 @@ msgid ""
 "Enable a simple noise reduction algorithm to lower the encoding length and "
 "bitrate, at the expense of lower quality frames."
 msgstr ""
+"Bật thuật toán làm giảm các âm nhiễu dạng đơn giản để hạ thấp độ dài khi mã "
+"hóa cũng như lượng bitrate, điều này sẽ làm giẩm chất lượng khung hình."
 
 #: modules/codec/avcodec/avcodec.h:192
 msgid "MPEG4 quantization matrix"
-msgstr ""
+msgstr "Ma trận lượng tử MPEG4"
 
 #: modules/codec/avcodec/avcodec.h:193
 msgid ""
@@ -10953,6 +10975,9 @@ msgid ""
 "a better looking picture, while still retaining the compatibility with "
 "standard MPEG2 decoders."
 msgstr ""
+"Sử dụng ma trận lượng tử MPEG4 dành cho việc mã hóa MPEG2. Điều này mang lại "
+"chất lượng hình ảnh tốt hơn, nhưng vẫn duy trì tính tương thích với các "
+"trình giải mã dữ liệu theo chuẩn MPEG2."
 
 #: modules/codec/avcodec/avcodec.h:198
 msgid "Quality level"
@@ -10963,6 +10988,8 @@ msgid ""
 "Quality level for the encoding of motions vectors (this can slow down the "
 "encoding very much)."
 msgstr ""
+"Mức độ về chất lượng cho việc mã hóa các hướng chuyển động (phần này có thể "
+"làm giảm lại việc mã hóa rất nhiều)."
 
 #: modules/codec/avcodec/avcodec.h:204
 msgid ""
@@ -10971,6 +10998,11 @@ msgid ""
 "distortion of motion vectors (hq), and raise the noise reduction threshold "
 "to ease the encoder's task."
 msgstr ""
+"Trình mã hóa có thể hoạt động hết công suất có thể dẫu cho mức xử lý CPU của "
+"bạn không thể đáp ứng được nhu cầu xử lý tương đương. Phần tùy chọn này sẽ "
+"vô hiệu hóa các thuật toán tính lượng tử, tiếp sau đó là tỉ lệ độ méo của "
+"hướng chuyển động (hq), và tăng ngưỡng độ nhiễu để giảm bớt đi các tác vụ "
+"của trình mã hóa."
 
 #: modules/codec/avcodec/avcodec.h:210
 msgid "Minimum video quantizer scale"
@@ -10986,15 +11018,17 @@ msgstr "Dải lượng tử video cực đại"
 
 #: modules/codec/avcodec/avcodec.h:215
 msgid "Maximum video quantizer scale."
-msgstr ""
+msgstr "Tỉ lệ lượng tử hóa video tối đa."
 
 #: modules/codec/avcodec/avcodec.h:218
 msgid "Trellis quantization"
-msgstr ""
+msgstr "Lượng tử hóa kiểu mắt cáo"
 
 #: modules/codec/avcodec/avcodec.h:219
 msgid "Enable trellis quantization (rate distortion for block coefficients)."
 msgstr ""
+"Bật tính năng lượng tử hóa kiểu mắt cáo (giảm tỉ lệ biến dạng của hệ số các "
+"khối dữ liệu)."
 
 #: modules/codec/avcodec/avcodec.h:222
 msgid "Fixed quantizer scale"
@@ -11005,71 +11039,83 @@ msgid ""
 "A fixed video quantizer scale for VBR encoding (accepted values: 0.01 to "
 "255.0)."
 msgstr ""
+"Tỉ lệ lượng tử đã điều chỉnh của video dành cho việc mã hóa VBR (các giá trị "
+"được chấp nhận: từ 0.01 đến 255.0)."
 
 #: modules/codec/avcodec/avcodec.h:226
 msgid "Strict standard compliance"
-msgstr ""
+msgstr "Tuân thủ tiêu chuẩn nghiêm ngặt"
 
 #: modules/codec/avcodec/avcodec.h:227
 msgid ""
 "Force a strict standard compliance when encoding (accepted values: -2 to 2)."
 msgstr ""
+"Buộc theo chế độ tuân thủ tiêu chuẩn nghiêm ngặt khi đang mã hóa (các giá "
+"trị được chấp nhận: -2 đến 2)."
 
 #: modules/codec/avcodec/avcodec.h:230
 msgid "Luminance masking"
-msgstr ""
+msgstr "Mặt nạ cho độ chói"
 
 #: modules/codec/avcodec/avcodec.h:231
 msgid "Raise the quantizer for very bright macroblocks (default: 0.0)."
-msgstr ""
+msgstr "Tăng tỉ lệ lượng tử với các khối nhỏ sáng (mặc định: 0.0)."
 
 #: modules/codec/avcodec/avcodec.h:234
 msgid "Darkness masking"
-msgstr ""
+msgstr "Mặt nạ cho độ tối"
 
 #: modules/codec/avcodec/avcodec.h:235
 msgid "Raise the quantizer for very dark macroblocks (default: 0.0)."
-msgstr ""
+msgstr "Tăng tỉ lệ lượng tử cho khối nhỏ tối (mặc định: 0.0)."
 
 #: modules/codec/avcodec/avcodec.h:238
 msgid "Motion masking"
-msgstr ""
+msgstr "Mặt nạ cho chuyển động"
 
 #: modules/codec/avcodec/avcodec.h:239
 msgid ""
 "Raise the quantizer for macroblocks with a high temporal complexity "
 "(default: 0.0)."
 msgstr ""
+"Tăng tỉ lệ lượng tử cho khối nhỏ với độ phức tạp cao tạm thời (mặc định: "
+"0.0)."
 
 #: modules/codec/avcodec/avcodec.h:242
 msgid "Border masking"
-msgstr ""
+msgstr "Mặt nạ biên"
 
 #: modules/codec/avcodec/avcodec.h:243
 msgid ""
 "Raise the quantizer for macroblocks at the border of the frame (default: "
 "0.0)."
 msgstr ""
+"Tăng phần lượng tử cho các khối nhỏ ở phần viền của khung hình (mặc định "
+"0.0)."
 
 #: modules/codec/avcodec/avcodec.h:246
 msgid "Luminance elimination"
-msgstr ""
+msgstr "Khử độ chói"
 
 #: modules/codec/avcodec/avcodec.h:247
 msgid ""
 "Eliminates luminance blocks when the PSNR isn't much changed (default: 0.0). "
 "The H264 specification recommends -4."
 msgstr ""
+"Khử các khối dữ liệu chói khi PSNR vẫn không thay đổi nhiều (mặc định: 0.0). "
+"Định dạng dành cho H264 nên chọn là -4."
 
 #: modules/codec/avcodec/avcodec.h:251
 msgid "Chrominance elimination"
-msgstr ""
+msgstr "Khử độ màu"
 
 #: modules/codec/avcodec/avcodec.h:252
 msgid ""
 "Eliminates chrominance blocks when the PSNR isn't much changed (default: "
 "0.0). The H264 specification recommends 7."
 msgstr ""
+"Khử các khối có độ chói khi PSNR không có nhiều thay đổi (mặc định: 0.0). "
+"Thông số khuyến nghị cho H264 là 7."
 
 #: modules/codec/avcodec/avcodec.h:256
 msgid "Specify AAC audio profile to use"
@@ -11089,7 +11135,7 @@ msgstr ""
 
 #: modules/codec/avcodec/dxva2.c:58
 msgid "DirectX Video Acceleration (DXVA) 2.0"
-msgstr ""
+msgstr "Tăng tốc DirectX Video (DXVA) 2.0"
 
 #: modules/codec/avcodec/encoder.c:249
 #, c-format
@@ -11140,11 +11186,11 @@ msgstr "422YpCbCr8"
 
 #: modules/codec/avcodec/vda.c:50
 msgid "Video Decode Acceleration Framework (VDA)"
-msgstr ""
+msgstr "Video Decode Acceleration Framework (VDA)"
 
 #: modules/codec/avcodec/vdpau.c:47
 msgid "Video Decode and Presentation API for Unix (VDPAU)"
-msgstr ""
+msgstr "Giải mã Video và Presentation API cho Unix (VDPAU)"
 
 #: modules/codec/cc.c:55
 msgid "CC 608/708"
@@ -11160,7 +11206,7 @@ msgstr "Giải mã video CDG"
 
 #: modules/codec/crystalhd.c:90
 msgid "Crystal HD hardware video decoder"
-msgstr ""
+msgstr "Trình giải mã video thuộc phần cứng Crystal HD"
 
 #: modules/codec/cvdsub.c:50
 msgid "CVD subtitle decoder"
@@ -11179,22 +11225,24 @@ msgid ""
 "Save the raw codec data if you have selected/forced the dummy decoder in the "
 "main options."
 msgstr ""
+"Lưu các dữ liệu từ codec dạng thô nếu bạn đã chọn/bắt buộc thực thi trình "
+"giải mã dummy trong tùy chọn chính."
 
 #: modules/codec/ddummy.c:47
 msgid "Dummy decoder"
-msgstr ""
+msgstr "Trình giải mã dummy"
 
 #: modules/codec/ddummy.c:56 modules/codec/ddummy.c:57
 msgid "Dump decoder"
-msgstr ""
+msgstr "Trình giải mã Dump"
 
 #: modules/codec/dirac.c:61 modules/codec/schroedinger.c:109
 msgid "Constant quality factor"
-msgstr ""
+msgstr "Hệ số chất lượng không đổi"
 
 #: modules/codec/dirac.c:62
 msgid "If bitrate=0, use this value for constant quality"
-msgstr ""
+msgstr "Nếu bitrate=0, sử dụng giá trị này hằng số chất lượng"
 
 #: modules/codec/dirac.c:65 modules/codec/schroedinger.c:117
 msgid "CBR bitrate (kbps)"
@@ -11202,17 +11250,19 @@ msgstr "bitrate CBR (kbps)"
 
 #: modules/codec/dirac.c:66
 msgid "A value > 0 enables constant bitrate mode"
-msgstr ""
+msgstr "Nếu giá trị > 0 sẽ bật chế độ hằng số bitrate"
 
 #: modules/codec/dirac.c:69
 msgid "Enable lossless coding"
-msgstr ""
+msgstr "Bật chế độ mã hóa nguyên bản"
 
 #: modules/codec/dirac.c:70
 msgid ""
 "Lossless coding ignores bitrate and quality settings, allowing for perfect "
 "reproduction of the original"
 msgstr ""
+"Mã hóa nguyên bản sẽ bỏ qua các thiết lập về bitrate và chất lượng đối "
+"tượng, cho phép việc thể hiện tính nguyên vẹn so với bản gốc của đối tượng"
 
 #: modules/codec/dirac.c:74 modules/codec/schroedinger.c:134
 msgid "Prefilter"
@@ -11220,27 +11270,27 @@ msgstr "Lọc lại"
 
 #: modules/codec/dirac.c:75 modules/codec/schroedinger.c:135
 msgid "Enable adaptive prefiltering"
-msgstr ""
+msgstr "Bật tính năng lọic trước khi gắn kết"
 
 #: modules/codec/dirac.c:79 modules/codec/schroedinger.c:148
 msgid "Centre Weighted Median"
-msgstr ""
+msgstr "Trọng lượng trung bình ở giữa"
 
 #: modules/codec/dirac.c:80
 msgid "Rectangular Linear Phase"
-msgstr ""
+msgstr "Nét kẻ tuyến tính hình chữ nhật"
 
 #: modules/codec/dirac.c:80
 msgid "Diagonal Linear Phase"
-msgstr ""
+msgstr "Nét kẻ tuyến tính chéo"
 
 #: modules/codec/dirac.c:83 modules/codec/schroedinger.c:156
 msgid "Amount of prefiltering"
-msgstr ""
+msgstr "Số lượng các bộ lọc tiền xử lý"
 
 #: modules/codec/dirac.c:84 modules/codec/schroedinger.c:157
 msgid "Higher value implies more prefiltering"
-msgstr ""
+msgstr "Giá trị càng cao chỉ rõ mức độ nhiều bộ lọc tiền xử lý"
 
 #: modules/codec/dirac.c:87 modules/codec/schroedinger.c:54
 msgid "Chroma format"
@@ -11249,7 +11299,7 @@ msgstr "Định dạng màu sắc"
 #: modules/codec/dirac.c:88 modules/codec/schroedinger.c:55
 msgid ""
 "Picking chroma format will force a conversion of the video into that format"
-msgstr ""
+msgstr "Chọn lựa định dạng màu sắc sẽ buộc chuyển đổi video sang dạng đó"
 
 #: modules/codec/dirac.c:93 modules/codec/schroedinger.c:60
 msgid "4:2:0"
@@ -11280,34 +11330,39 @@ msgid ""
 "Field coding is where interlaced fields are coded separately as opposed to a "
 "pseudo-progressive frame"
 msgstr ""
+"Khung thông tin mã hóa là nơi các khung thông thin quét mành được viết mã "
+"độc lập để làm đối trọng trong khung hình liên tục dạng mã pseudo"
 
 #: modules/codec/dirac.c:110 modules/codec/schroedinger.c:166
 msgid "auto - let encoder decide based upon input (Best)"
 msgstr ""
+"auto - cho phep trinh ma hoa quyet dinh dua vao du lieu dau vao (Tot nhat)"
 
 #: modules/codec/dirac.c:111 modules/codec/schroedinger.c:167
 msgid "force coding frame as single picture"
-msgstr ""
+msgstr "buoc khung hinh duoc viet ma hien thi dang don hinh anh"
 
 #: modules/codec/dirac.c:112 modules/codec/schroedinger.c:168
 msgid "force coding frame as separate interlaced fields"
-msgstr ""
+msgstr "buoc khung hinh duoc viet ma tac biet khoi vung du lieu quet manh"
 
 #: modules/codec/dirac.c:116
 msgid "Width of motion compensation blocks"
-msgstr ""
+msgstr "Độ rộng của các khối bù trừ chuyển động"
 
 #: modules/codec/dirac.c:120
 msgid "Height of motion compensation blocks"
-msgstr ""
+msgstr "Độ cao của các khối bù trừ chuyển động"
 
 #: modules/codec/dirac.c:125
 msgid "Block overlap (%)"
-msgstr ""
+msgstr "Khóa phần chồng dữ liệu (%)"
 
 #: modules/codec/dirac.c:126
 msgid "Amount that each motion block should be overlapped by its neighbours"
 msgstr ""
+"Số lượng từng khối chuyển động được chồng lên nhau so với các khối chuyển "
+"động tương tự khác"
 
 #: modules/codec/dirac.c:131
 msgid "xblen"
@@ -11315,7 +11370,7 @@ msgstr "xblen"
 
 #: modules/codec/dirac.c:132
 msgid "Total horizontal block length including overlaps"
-msgstr ""
+msgstr "Tổng số chiều dài khối theo chiều ngang bao gồm phần chồng dữ liệu"
 
 #: modules/codec/dirac.c:136
 msgid "yblen"
@@ -11324,44 +11379,47 @@ msgstr "yblen"
 #: modules/codec/dirac.c:137
 msgid "Total vertical block length including overlaps"
 msgstr ""
+"Tổng số chiều dài khối theo chiều thẳng đứng bao gồm phần chồng dữ liệu"
 
 #: modules/codec/dirac.c:140
 msgid "Motion vector precision"
-msgstr ""
+msgstr "Độ chính xác vétơ chuyển động"
 
 #: modules/codec/dirac.c:141
 msgid "Motion vector precision in pels."
-msgstr ""
+msgstr "Độ chính xác vétơ chuyển động tính bằng pels."
 
 #: modules/codec/dirac.c:146
 msgid "Simple ME search area x:y"
-msgstr ""
+msgstr "Khu vực tìm kiếm ME dạng đơn giản x:y"
 
 #: modules/codec/dirac.c:147
 msgid ""
 "(Not recommended) Perform a simple (non hierarchical block matching motion "
 "vector search with search range of +/-x, +/-y"
 msgstr ""
+"(Not recommended) Perform a simple (non hierarchical block matching motion "
+"vector search with search range of +/-x, +/-y"
 
 #: modules/codec/dirac.c:152 modules/codec/schroedinger.c:214
 msgid "Three component motion estimation"
-msgstr ""
+msgstr "Ba yếu tố trong việc dự đoán chuyển động"
 
 #: modules/codec/dirac.c:153 modules/codec/schroedinger.c:215
 msgid "Use chroma as part of the motion estimation process"
-msgstr ""
+msgstr "Sử dụng màu sắc dưới dạng tiến trình dự đoán chuyển động"
 
 #: modules/codec/dirac.c:156 modules/codec/schroedinger.c:218
 msgid "Intra picture DWT filter"
-msgstr ""
+msgstr "Bộ lọc DWT dành cho hình ảnh Intra"
 
 #: modules/codec/dirac.c:160 modules/codec/schroedinger.c:221
 msgid "Inter picture DWT filter"
-msgstr ""
+msgstr "Bộ lọc DWT dành cho hình ảnh Inter"
 
 #: modules/codec/dirac.c:164 modules/codec/schroedinger.c:244
 msgid "Number of DWT iterations"
-msgstr ""
+msgstr "Số lần lặp lại DWT"
 
 #: modules/codec/dirac.c:165 modules/codec/schroedinger.c:245
 msgid "Also known as DWT levels"
@@ -11373,19 +11431,19 @@ msgstr "Kích hoạt nhiều bộ lượng tử hóa"
 
 #: modules/codec/dirac.c:170 modules/codec/schroedinger.c:251
 msgid "Enable multiple quantizers per subband (one per codeblock)"
-msgstr ""
+msgstr "Bật nhiều phần lượng tử cho mỗi băng con (mỗi khối lệnh)"
 
 #: modules/codec/dirac.c:174
 msgid "Enable spatial partitioning"
-msgstr ""
+msgstr "Bật tính phân cách phân vùng"
 
 #: modules/codec/dirac.c:178 modules/codec/schroedinger.c:255
 msgid "Disable arithmetic coding"
-msgstr ""
+msgstr "Tắt phần mã số học"
 
 #: modules/codec/dirac.c:179 modules/codec/schroedinger.c:256
 msgid "Use variable length codes instead, useful for very high bitrates"
-msgstr ""
+msgstr "Sử dụng biến số của độ dài codec, hữu dụng cho các bitrate cao"
 
 #: modules/codec/dirac.c:184
 msgid "cycles per degree"
@@ -11393,7 +11451,7 @@ msgstr "cycles per degree"
 
 #: modules/codec/dirac.c:206
 msgid "Dirac video encoder using dirac-research library"
-msgstr ""
+msgstr "Trình mã hóa video dạng Dirac sử dụng thư viện dirac-research"
 
 #: modules/codec/dmo/dmo.c:83
 msgid "DirectMedia Object decoder"
@@ -11471,7 +11529,7 @@ msgstr "Mã hóa phụ đề DVB"
 
 #: modules/codec/edummy.c:40
 msgid "Dummy encoder"
-msgstr ""
+msgstr "Trình mã hóa dummy"
 
 #: modules/codec/faad.c:52
 msgid "AAC audio decoder (using libfaad2)"
@@ -11487,11 +11545,11 @@ msgstr "Hồ sơ cho phần Mã hóa"
 
 #: modules/codec/fdkaac.c:68
 msgid "Encoder Algorithm to use"
-msgstr ""
+msgstr "Sử dụng thuật toán mã hóa"
 
 #: modules/codec/fdkaac.c:70
 msgid "Enable spectral band replication"
-msgstr ""
+msgstr "Bật tính năng tái tạo băng tần quang phổ"
 
 #: modules/codec/fdkaac.c:71
 msgid "This is an optional feature only for the AAC-ELD profile"
@@ -11504,26 +11562,31 @@ msgstr "Chất lượng VBR"
 #: modules/codec/fdkaac.c:74
 msgid "Quality of the VBR Encoding (0=cbr, 1-5 constant quality vbr, 5 is best"
 msgstr ""
+"Chất lượng mã hóa VBR (0=cbr, 1-5 chất lượng vbr liên tục, 5 là tốt nhất"
 
 #: modules/codec/fdkaac.c:76
 msgid "Enable afterburner library"
-msgstr ""
+msgstr "Bật thư viện hậu kỳ ghi dữ liệu lên đĩa"
 
 #: modules/codec/fdkaac.c:77
 msgid ""
 "This library will produce higher quality audio at the expense of additional "
 "CPU usage (default is enabled)"
 msgstr ""
+"Thư viẹn này sẽ tạo ra chất lượng audio cao hơn dựa vào tiến trình hoạt động "
+"bổ sung từ CPU (được bật theo mặc định)"
 
 #: modules/codec/fdkaac.c:79
 msgid "Signaling mode of the extension AOT"
-msgstr ""
+msgstr "Chế độ tín tạo tín hiệu của phần mở rộng AOT"
 
 #: modules/codec/fdkaac.c:80
 msgid ""
 "1 is explicit for SBR and implicit for PS (default), 2 is explicit "
 "hierarchical"
 msgstr ""
+"1 cho phần chi tiết của SBR và không chi tiết đối với PS (mặc định), 2 cho "
+"phần chi tiết theo nhánh"
 
 #: modules/codec/fdkaac.c:97
 msgid "AAC-LC"
@@ -11984,9 +12047,8 @@ msgid "PNG video decoder"
 msgstr "Giải mã video PNG"
 
 #: modules/codec/qsv.c:56
-#, fuzzy
 msgid "Enable software mode"
-msgstr "Bật chế độ Hình Nền"
+msgstr ""
 
 #: modules/codec/qsv.c:57
 msgid ""
@@ -11995,9 +12057,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/qsv.c:61
-#, fuzzy
 msgid "Codec Profile"
-msgstr "Chọn hồ sơ"
+msgstr ""
 
 #: modules/codec/qsv.c:63
 msgid ""
@@ -12007,9 +12068,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/qsv.c:67
-#, fuzzy
 msgid "Codec Level"
-msgstr "Tên codec"
+msgstr ""
 
 #: modules/codec/qsv.c:69
 msgid ""
@@ -12030,9 +12090,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/qsv.c:79
-#, fuzzy
 msgid "Group of Picture Reference Distance"
-msgstr "Tên của khoảng cách hiện tại"
+msgstr ""
 
 #: modules/codec/qsv.c:81
 msgid ""
@@ -12051,9 +12110,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/qsv.c:90
-#, fuzzy
 msgid "IDR interval"
-msgstr "Guard interval"
+msgstr ""
 
 #: modules/codec/qsv.c:92
 msgid ""
@@ -12066,9 +12124,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/qsv.c:100
-#, fuzzy
 msgid "Rate Control Method"
-msgstr "Phương pháp điều khiển tốc độ"
+msgstr ""
 
 #: modules/codec/qsv.c:102
 msgid ""
@@ -12077,9 +12134,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/qsv.c:105
-#, fuzzy
 msgid "Quantization parameter"
-msgstr "Thông số mã hóa"
+msgstr ""
 
 #: modules/codec/qsv.c:106
 msgid ""
@@ -12119,9 +12175,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/qsv.c:122
-#, fuzzy
 msgid "Maximum Bitrate"
-msgstr "Bitrate tối đa"
+msgstr ""
 
 #: modules/codec/qsv.c:123
 msgid ""
@@ -12153,9 +12208,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/qsv.c:139
-#, fuzzy
 msgid "Number of slices per frame"
-msgstr "Lát dọc trên một khung"
+msgstr ""
 
 #: modules/codec/qsv.c:140
 msgid ""
@@ -12169,9 +12223,8 @@ msgid "Number of reference frames"
 msgstr "Số lượng hệ quy chiếu"
 
 #: modules/codec/qsv.c:148
-#, fuzzy
 msgid "Number of parallel operations"
-msgstr "Số lượng dòng của trò giải đố"
+msgstr ""
 
 #: modules/codec/qsv.c:149
 msgid ""
@@ -12330,72 +12383,77 @@ msgstr "Bộ lọc dạng Low Pass"
 
 #: modules/codec/schroedinger.c:173
 msgid "Size of motion compensation blocks"
-msgstr ""
+msgstr "Kích thước của các khối bù trừ chuyển động"
 
 #: modules/codec/schroedinger.c:182 modules/codec/schroedinger.c:199
 #: modules/codec/schroedinger.c:297 modules/codec/schroedinger.c:338
 msgid "automatic - let encoder decide based upon input (Best)"
 msgstr ""
+"tự động - cho phép trình mã hóa quyết định dựa trên dữ liệu đầu vào (Tốt "
+"nhất)"
 
 #: modules/codec/schroedinger.c:183
 msgid "small - use small motion compensation blocks"
-msgstr ""
+msgstr "nhỏ - sử dụng cho các khối bù trừ chuyển động dạng nhỏ"
 
 #: modules/codec/schroedinger.c:184
 msgid "medium - use medium motion compensation blocks"
-msgstr ""
+msgstr "trung bình - sử dụng cho các khối bù trừ chuyển động dạng trung bình"
 
 #: modules/codec/schroedinger.c:185
 msgid "large - use large motion compensation blocks"
 msgstr ""
+"lớn - sử dụng các việc bù trừ cho các khối có chuyển động khối dạng lớn"
 
 #: modules/codec/schroedinger.c:190
 msgid "Overlap of motion compensation blocks"
-msgstr ""
+msgstr "Độ che phủ của các khối bù trừ chuyển động"
 
 #: modules/codec/schroedinger.c:200
 msgid "none - Motion compensation blocks do not overlap"
-msgstr ""
+msgstr "không - Các khối bù trừ chuyển động không thực hiện chức năng che phủ"
 
 #: modules/codec/schroedinger.c:201
 msgid "partial - Motion compensation blocks only partially overlap"
 msgstr ""
+"từng phần - Chỉ dựa vào độ che phủ từng phần đối với các khối bù trừ chuyển "
+"động"
 
 #: modules/codec/schroedinger.c:202
 msgid "full - Motion compensation blocks fully overlap"
-msgstr ""
+msgstr "đầy đủ - Hoàn toàn che phủ dựa vào các khối bù trừ chuyển động"
 
 #: modules/codec/schroedinger.c:207
 msgid "Motion Vector precision"
-msgstr ""
+msgstr "Dự đoán véttơ chuyển động"
 
 #: modules/codec/schroedinger.c:208
 msgid "Motion Vector precision in pels"
-msgstr ""
+msgstr "Độ chính xác vétơ chuyển động tính bằng pels."
 
 #: modules/codec/schroedinger.c:261
 msgid "perceptual weighting method"
-msgstr ""
+msgstr "phương pháp phụ trợ giác quan"
 
 #: modules/codec/schroedinger.c:272
 msgid "perceptual distance"
-msgstr ""
+msgstr "khoảng cách giác quan"
 
 #: modules/codec/schroedinger.c:273
 msgid "perceptual distance to calculate perceptual weight"
-msgstr ""
+msgstr "khoảng cách giác quan để tính toán giác quan phụ trợ"
 
 #: modules/codec/schroedinger.c:277
 msgid "Horizontal slices per frame"
-msgstr ""
+msgstr "Lát ngang trên một khung"
 
 #: modules/codec/schroedinger.c:278
 msgid "Number of horizontal slices per frame in low delay mode"
-msgstr ""
+msgstr "Số lượng các lát ngang mỗi khung trong chế độ trở ngại thấp"
 
 #: modules/codec/schroedinger.c:282
 msgid "Vertical slices per frame"
-msgstr "Lát dọc trên một khung"
+msgstr "Lát cắt dọc trên một khung"
 
 #: modules/codec/schroedinger.c:283
 msgid "Number of vertical slices per frame in low delay mode"
@@ -12403,7 +12461,7 @@ msgstr "Số lát dọc trên một khung trong chế độ trở ngại thấp"
 
 #: modules/codec/schroedinger.c:287
 msgid "Size of code blocks in each subband"
-msgstr ""
+msgstr "Kích thước khối mã lệnh cho mỗi băng con"
 
 #: modules/codec/schroedinger.c:298
 msgid "small - use small code blocks"
@@ -12419,19 +12477,21 @@ msgstr "lớn - sử dụng các khối mã lớn"
 
 #: modules/codec/schroedinger.c:301
 msgid "full - One code block per subband"
-msgstr ""
+msgstr "đầy đủ - Một khối mã lệnh cho mỗi băng con"
 
 #: modules/codec/schroedinger.c:306
 msgid "Enable hierarchical Motion Estimation"
-msgstr ""
+msgstr "Bật ước lượng chuyển động phân nhánh"
 
 #: modules/codec/schroedinger.c:310
 msgid "Number of levels of downsampling"
-msgstr ""
+msgstr "Số lượng các cấp độ của "
 
 #: modules/codec/schroedinger.c:311
 msgid "Number of levels of downsampling in hierarchical motion estimation mode"
 msgstr ""
+"Số lượng cấp độ các phần downsampling trong chế độ dự đoán chuyển động phân "
+"nhánh"
 
 #: modules/codec/schroedinger.c:315
 msgid "Enable Global Motion Estimation"
@@ -12439,11 +12499,11 @@ msgstr "Kích hoạt \"khảo sát chuyển động toàn cục\""
 
 #: modules/codec/schroedinger.c:319
 msgid "Enable Phase Correlation Estimation"
-msgstr ""
+msgstr "Bật Dự Đoán Chu Kỳ Liên Quan"
 
 #: modules/codec/schroedinger.c:323
 msgid "Enable Scene Change Detection"
-msgstr ""
+msgstr "Bật Phát Hiện Thay Đổi Cảnh Quan"
 
 #: modules/codec/schroedinger.c:327
 msgid "Force Profile"
@@ -12467,11 +12527,11 @@ msgstr "Hồ sơ chính"
 
 #: modules/codec/schroedinger.c:363
 msgid "Dirac video decoder using libschroedinger"
-msgstr ""
+msgstr "Trình giải mã video dạng Dirac sử dụng libschroedinger"
 
 #: modules/codec/schroedinger.c:371
 msgid "Dirac video encoder using libschroedinger"
-msgstr ""
+msgstr "Trình giải mã video dạng Dirac sử dụng libschroedinger"
 
 #: modules/codec/sdl_image.c:60
 msgid "SDL Image decoder"
@@ -12530,16 +12590,20 @@ msgid ""
 "Enforce a constant bitrate encoding (CBR) instead of default variable "
 "bitrate encoding (VBR)."
 msgstr ""
+"Bắt buộc sử dụng hằng số mã hóa bitrate (CBR) thay vì sử dụng biến số thay "
+"đổi mã hóa bitrate theo mặc định (VBR)."
 
 #: modules/codec/speex.c:80
 msgid "Voice activity detection"
-msgstr ""
+msgstr "Nhận dạng Phạm Vi Hoạt Động của Giọng Nói"
 
 #: modules/codec/speex.c:82
 msgid ""
 "Enable voice activity detection (VAD). It is automatically activated in VBR "
 "mode."
 msgstr ""
+"Bật tính năng Nhận dạng Phạm Vi Hoạt Động của Giọng Nói (VAD). Phần này được "
+"tự động kích hoạt trong chế độ VBR - biến số thay đổi mã hóa bitrate."
 
 #: modules/codec/speex.c:85
 msgid "Discontinuous Transmission"
@@ -12547,7 +12611,7 @@ msgstr "Bộ truyền thanh rời rạc"
 
 #: modules/codec/speex.c:87
 msgid "Enable discontinuous transmission (DTX)."
-msgstr ""
+msgstr "Bật truyền tải kết nối không liên tục (DTX)."
 
 #: modules/codec/speex.c:91
 msgid "Narrow-band (8kHz)"
@@ -12869,6 +12933,9 @@ msgid ""
 "autodetect from TS, 0 = autodetect from teletext, >0 = actual page number, "
 "usually 888 or 889)."
 msgstr ""
+"Xuất dữ liệu đè lên các trang đã được chỉ định, bật phần này nếu các phụ đề "
+"không hiển thị (-1 = tự động nhận dạng từ TS, 0 = tự động nhận dạng từ "
+"teletext, >0 = số trang thực tế, luôn luôn ở 888 hoặc 889)"
 
 #: modules/codec/telx.c:60
 msgid "Ignore subtitle flag"
@@ -12877,10 +12944,12 @@ msgstr "Bỏ qua báo hiệu phụ đề"
 #: modules/codec/telx.c:61
 msgid "Ignore the subtitle flag, try this if your subtitles don't appear."
 msgstr ""
+"Bỏ qua phần cờ đánh dấu của phụ đề, bật phần này nếu các phụ đề của bạn chọn "
+"không hiển thị."
 
 #: modules/codec/telx.c:64
 msgid "Workaround for France"
-msgstr ""
+msgstr "Chỉ được dùng tại Pháp"
 
 #: modules/codec/telx.c:65
 msgid ""
@@ -12888,34 +12957,43 @@ msgid ""
 "historical interpretation mistake. Try using this wrong interpretation if "
 "your subtitles don't appear."
 msgstr ""
+"Một số kênh phát từ Pháp không gắn cờ đánh dấu lên các trang phụ đề đúng vì "
+"lý do chuyển dịch sai. Bật phần này nếu việc chuyển dịch sai trong trường "
+"hợp phụ đề của bạn không hiển thị."
 
 #: modules/codec/telx.c:71
 msgid "Teletext subtitles decoder"
-msgstr ""
+msgstr "Trình giải mã phụ đề Teletext"
 
 #: modules/codec/theora.c:105 modules/codec/vorbis.c:173
 msgid ""
 "Enforce a quality between 1 (low) and 10 (high), instead of specifying a "
 "particular bitrate. This will produce a VBR stream."
 msgstr ""
+"Buộc sử dụng một chỉ số chất lượng giữa 1 (thấp nhất) và 10 (cao nhất), thay "
+"vì xác định dựa vào chỉ số bitrate. Phần này sẽ tạo ra các luồng dữ liệu đối "
+"với biến số thay đổi mã hóa bitrate - VBR."
 
 #: modules/codec/theora.c:112
 msgid "Theora video decoder"
-msgstr ""
+msgstr "Trình giải mã video Theora"
 
 #: modules/codec/theora.c:118
 msgid "Theora video packetizer"
-msgstr ""
+msgstr "Trình đóng gói video dạng Theora"
 
 #: modules/codec/theora.c:125
 msgid "Theora video encoder"
-msgstr ""
+msgstr "Trình mã hóa video dạng Theora"
 
 #: modules/codec/twolame.c:56
 msgid ""
 "Force a specific encoding quality between 0.0 (high) and 50.0 (low), instead "
 "of specifying a particular bitrate. This will produce a VBR stream."
 msgstr ""
+"Buộc xác định chất lượng mã hóa trong phạm vi giữa 0.0 (cao nhất) và 50.0 "
+"(thấp nhất), thay vì xác định dựa vào chỉ số bitrate. Phần này sẽ tạo ra các "
+"luồng dữ liệu dạng biến số thay đổi mã hóa bitrate - VBR."
 
 #: modules/codec/twolame.c:59
 msgid "Stereo mode"
@@ -12923,7 +13001,7 @@ msgstr "Chế độ Stereo"
 
 #: modules/codec/twolame.c:60
 msgid "Handling mode for stereo streams"
-msgstr ""
+msgstr "Chế độ thao tác với luồng dữ liệu dạng stereo"
 
 #: modules/codec/twolame.c:61
 msgid "VBR mode"
@@ -12932,64 +13010,69 @@ msgstr "Chế độ VBR"
 #: modules/codec/twolame.c:63
 msgid "Use Variable BitRate. Default is to use Constant BitRate (CBR)."
 msgstr ""
+"Sử dụng biến số Bitrate. Giá trị mặc định là sử dụng hằng số Bitrate (CBR)."
 
 #: modules/codec/twolame.c:64
 msgid "Psycho-acoustic model"
-msgstr ""
+msgstr "Mô hình Âm Học-Tâm Lý"
 
 #: modules/codec/twolame.c:66
 msgid "Integer from -1 (no model) to 4."
-msgstr ""
+msgstr "Số nguyên trong khoảng từ -1 (không áp dụng mô hình) đến 4."
 
 #: modules/codec/twolame.c:70
 msgid "Joint stereo"
-msgstr ""
+msgstr "Kết nối stereo"
 
 #: modules/codec/twolame.c:75
 msgid "Libtwolame audio encoder"
-msgstr ""
+msgstr "Trình giải mã audio dạng Libtwolame"
 
 #: modules/codec/uleaddvaudio.c:41
 msgid "Ulead DV audio decoder"
-msgstr ""
+msgstr "Trình giải mã audio dạng Ulead DV"
 
 #: modules/codec/vorbis.c:175
 msgid "Maximum encoding bitrate"
-msgstr ""
+msgstr "Mã hóa bitrate tối đa"
 
 #: modules/codec/vorbis.c:177
 msgid "Maximum bitrate in kbps. This is useful for streaming applications."
 msgstr ""
+"Số bitrate tối đa tính bằng kbps. Phần tính năng rất hữu dụng với các ứng "
+"dụng phân luồng dữ liệu."
 
 #: modules/codec/vorbis.c:178
 msgid "Minimum encoding bitrate"
-msgstr ""
+msgstr "Mã hóa bitrate tối thiểu"
 
 #: modules/codec/vorbis.c:180
 msgid ""
 "Minimum bitrate in kbps. This is useful for encoding for a fixed-size "
 "channel."
 msgstr ""
+"Bitrate tối thiểu tính bằng kbps. Phần này rất hữu ích với việc mã hóa dữ "
+"liệu đối với các kênh phát đã đượ chỉnh sửa về kích thước."
 
 #: modules/codec/vorbis.c:183
 msgid "Force a constant bitrate encoding (CBR)."
-msgstr ""
+msgstr "Buộc sử dụng chế độ mã hóa hằng số bitrate (CBR)."
 
 #: modules/codec/vorbis.c:187
 msgid "Vorbis audio decoder"
-msgstr ""
+msgstr "Trình giải mã audo dạng Vorbis"
 
 #: modules/codec/vorbis.c:198
 msgid "Vorbis audio packetizer"
-msgstr ""
+msgstr "Trình đóng gói audio dạng Vorbis"
 
 #: modules/codec/vorbis.c:205
 msgid "Vorbis audio encoder"
-msgstr ""
+msgstr "Trình mã hóa audio dạng Vorbis"
 
 #: modules/codec/wmafixed/wma.c:82
 msgid "WMA v1/v2 fixed point audio decoder"
-msgstr ""
+msgstr "Trình giải mã audio dạng WMA v1/v2 fixed point"
 
 #: modules/codec/x264.c:62
 msgid "Maximum GOP size"
@@ -13001,6 +13084,10 @@ msgid ""
 "improving quality for a given bitrate at the cost of seeking precision. Use "
 "-1 for infinite."
 msgstr ""
+"Thiết lập khoảng thời gian tối đa giữa các khung dạng IDR. Giá trị càng lớn "
+"sẽ lưu các bit nhiều hơn, điều này sẽ cải thiện chất lượng dành cho các "
+"bitrate đã được cung cấp cho phần dự đoán chi phí truyền. Sử dụng -1 cho số "
+"lượng lớn nhất."
 
 #: modules/codec/x264.c:67
 msgid "Minimum GOP size"
@@ -13017,10 +13104,19 @@ msgid ""
 "If scenecuts appear within this interval, they are still encoded as I-"
 "frames, but do not start a new GOP."
 msgstr ""
+"Chỉnh khoảng thời gian tối thiểu giữa các khung hình IDR. Trong h.264, khung "
+"hình-I không cần thiết bao bọc một GOP đã đóng vì có thể một khung hình-P "
+"cho phép được dự đoán từ các khùng hình hơn là chỉ dựa vào một khung trước "
+"đó (xem phần tham chiếu về tùy chọn khung hình). Bởi thế, khung hình-I không "
+"cần thiết phải lướt xem. Khung hình-IDR giới hạn các khung hình-P liên tiếp "
+"từ việc tham chiếu đến bất kỳ khung hình ưu tiên nào hơn khung hình-IDR.\n"
+"Nếu các cảnh bị cắt xuất hiện trong khoảng thời gian này, thì các cảnh đó "
+"vẫn được mã hóa dưới dạng khung hình-I, nhưng không thể bắt đầu tạo mới một "
+"GOP."
 
 #: modules/codec/x264.c:77
 msgid "Use recovery points to close GOPs"
-msgstr ""
+msgstr "Sử dụng điểm hồi phục để đóng lại GOPs"
 
 #: modules/codec/x264.c:79
 msgid ""
@@ -13028,14 +13124,19 @@ msgid ""
 "normal: use standard open GOPs\n"
 "bluray: use Blu-ray compatible open GOPs"
 msgstr ""
+"không: chỉ sử dụng GOP đã bị đóng.\n"
+"bình thường: sử dụng trong việc mở GOP theo dạng tiêu chuẩn\n"
+"bluray: sửd dụng tính năng tương thích mở của GOPs đối với đĩa Blu-ray"
 
 #: modules/codec/x264.c:83
 msgid "use open GOP, for bluray compatibility use also bluray-compat option"
 msgstr ""
+"sử dụng GOP dạng mở, dành cho tính tương thích với bluray đồng thời sử dụng "
+"tùy chọn bluray-compat"
 
 #: modules/codec/x264.c:86
 msgid "Enable compatibility hacks for Blu-ray support"
-msgstr ""
+msgstr "Bật phần hỗ trợ tính tương thích hack với Blu-ray"
 
 #: modules/codec/x264.c:87
 msgid ""
@@ -13043,10 +13144,13 @@ msgid ""
 "ray compatibility\n"
 "e.g. resolution, framerate, level"
 msgstr ""
+"Bật tính năng hỗ trợ hack cho Blu-ray, phần này không buộc bất kỳ tính tương "
+"thích nào liên quan đến Blu-ray\n"
+"ví dụ độ phân giả, tỉ lệ khung hình, cấp độ"
 
 #: modules/codec/x264.c:90
 msgid "Extra I-frames aggressivity"
-msgstr ""
+msgstr "Cường độ khung hình-I bổ sung"
 
 #: modules/codec/x264.c:91
 msgid ""
@@ -13058,6 +13162,14 @@ msgid ""
 "other keyint frames, which probably leads to ugly encoding artifacts. Range "
 "1 to 100."
 msgstr ""
+"Nhận dạng các phân cảnh cắt. Điều khiển cường độ của các khung hình-I bổ "
+"sung. Giá trị của phân cảnh cắt càng nhỏ, thì codec thường buộc khung hình-I "
+"khi vượt ngưỡng keyint. Giá trị tốt nhất dành cho phân cảnh cắt có thể được "
+"tìm thấy tại phần khung hình-I. Giá trị càng lớn thì khung hình-I càng cần "
+"xuất hiện, nhưng sẽ làm lãng phí bit dữ liệu. -1 để tắt phần nhận dạng phân "
+"cảnh cắt, khi làm thế thì các khung hình-I chỉ được chèn vào sau mỗi khung "
+"hình keyint, và có thể dẫn đến tình trạng mã hóa không được suôn sẻ. Giá trị "
+"nằm trong khoảng 1 đến 100."
 
 #: modules/codec/x264.c:102
 msgid "B-frames between I and P"
@@ -13066,30 +13178,36 @@ msgstr "khung B giữa I và P"
 #: modules/codec/x264.c:103
 msgid "Number of consecutive B-frames between I and P-frames. Range 1 to 16."
 msgstr ""
+"Sô slượng các khung hình-B giữa các khung hình-P và I. Phạm vi giá trị nằm "
+"trong khoảng từ 1 đến 16."
 
 #: modules/codec/x264.c:106
 msgid "Adaptive B-frame decision"
-msgstr ""
+msgstr "Quyết định chấp nhận khung hình-B"
 
 #: modules/codec/x264.c:107
 msgid ""
 "Force the specified number of consecutive B-frames to be used, except "
 "possibly before an I-frame.Range 0 to 2."
 msgstr ""
+"Buộc xác định số lượng liên tiếp các khung hình-B được sử dụng, ngoại trừ "
+"phía trước khung hình-I. Giá trị nằm trong khoảng từ 0 đến 2."
 
 #: modules/codec/x264.c:111
 msgid "Influence (bias) B-frames usage"
-msgstr ""
+msgstr "Sử dụng chuyên biệt (đường chéo) khung hình-B"
 
 #: modules/codec/x264.c:112
 msgid ""
 "Bias the choice to use B-frames. Positive values cause more B-frames, "
 "negative values cause less B-frames."
 msgstr ""
+"Đường chéo sử dụng cho khung hình-B. Giá trị dương sẽ tạo ra nhiều khung "
+"hình-B, giá trị âm tạo ra ít khung hình-B hơn."
 
 #: modules/codec/x264.c:116
 msgid "Keep some B-frames as references"
-msgstr ""
+msgstr "Giữ tham chiếu đối với một số khung hình-B"
 
 #: modules/codec/x264.c:117
 msgid ""
@@ -13100,16 +13218,24 @@ msgid ""
 " - strict: Strictly hierarchical pyramid\n"
 " - normal: Non-strict (not Blu-ray compatible)\n"
 msgstr ""
+"Cho phép khung hình-B được sử dụng dưới dạng tham chiếu để dự đoán các khung "
+"hình khác. Giữ phần trung bình khoảng 2+ đối với các khung hình-B liên tiếp "
+"dạng tham chiếu, và sắp lại trật tự các khung hình theo hướng hợp lý.\n"
+"- không: Vô hiệu hóa\n"
+"- nghiêm ngặt: Giữ chế độ phân nhánh kim tự tháp\n"
+"- bình thường: Không- nghiêm ngặt (không tương thích với định dạng Blu-ray)\n"
 
 #: modules/codec/x264.c:125
 msgid "Use fullrange instead of TV colorrange"
-msgstr ""
+msgstr "Sử dụng phạm vi hiển thị đầy đủ thay vì sử dụng phạm vi màu của TV"
 
 #: modules/codec/x264.c:126
 msgid ""
 "TV-range is usually used colorrange, defining this to true will enable "
 "libx264 to use full colorrange on encoding"
 msgstr ""
+"Phạm vi của TV thường được quy định theo phạm vi màu sắc, việc xác định giá "
+"trị này sẽ bật tính năng libx264 để có thể mã hóa phạm vi màu đầy đủ nhất"
 
 #: modules/codec/x264.c:129
 msgid "CABAC"
@@ -13120,6 +13246,9 @@ msgid ""
 "CABAC (Context-Adaptive Binary Arithmetic Coding). Slightly slows down "
 "encoding and decoding, but should save 10 to 15% bitrate."
 msgstr ""
+"CABAC (Thuật Toán Nhị Phân Dựa Theo-Ngữ Cảnh Context-Adaptive Binary "
+"Arithmetic Coding). Giảm độ mã hóa và giải mã đối với bitrate, có thể tiết "
+"kiệm từ 10 đến 15% lượng bitrate."
 
 #: modules/codec/x264.c:135
 msgid ""
@@ -13127,24 +13256,34 @@ msgid ""
 "but seems to make little difference in live-action source material. Some "
 "decoders are unable to deal with large frameref values. Range 1 to 16."
 msgstr ""
+"Số lượng các khung hình trước đó được sử dụng để dự đoán. Phần này rất tiện "
+"ích cho dạng phim hoạt hình Nhật Bản - Anime, nhưng sẽ tạo ra chút ít thay "
+"đổi đối với các chất liệu video bình thường. Một số trình giải mã không "
+"thích ứng được với các giá trị tham chiếu khung hình ở mức độ lớn. Vùng giá "
+"trị nằm trong khoảng từ 1 đến 16."
 
 #: modules/codec/x264.c:140
 msgid "Skip loop filter"
-msgstr ""
+msgstr "Bỏ qua phần lọc dữ liệu lặp"
 
 #: modules/codec/x264.c:141
 msgid "Deactivate the deblocking loop filter (decreases quality)."
 msgstr ""
+"Tắt trạng thái kích hoạt việc sử dụng bộ lọc lặp với các phần deblocking "
+"(giảm chất lượng)."
 
 #: modules/codec/x264.c:143
 msgid "Loop filter AlphaC0 and Beta parameters alpha:beta"
-msgstr ""
+msgstr "Bộ lọc lặp AlphaC0 và thông số alpha thử nghiệm:beta"
 
 #: modules/codec/x264.c:144
 msgid ""
 "Loop filter AlphaC0 and Beta parameters. Range -6 to 6 for both alpha and "
 "beta parameters. -6 means light filter, 6 means strong."
 msgstr ""
+"Bộ lọc lặp AlphaC0 và thông số Beta. Vùng giá trị nằm trong khoảng từ -6 đến "
+"6 đối với cả hai thống số alpha và beta. -6 có nghĩa là bộ lọc sáng, 6 có "
+"nghĩa là tăng cường độ."
 
 #: modules/codec/x264.c:148
 msgid "H.264 level"
@@ -13157,6 +13296,11 @@ msgid ""
 "the encoding options. Range 1 to 5.1 (10 to 51 is also allowed). Set to 0 "
 "for letting x264 set level."
 msgstr ""
+"Xác định mức độ H.264 (được xác định bởi Annex A theo tiêu chuẩn). Các mức "
+"độ không cần phải bắt buộc; điều này hoàn toàn tùy thuộc vào người dùng lựa "
+"chọn mức độ tương thích với những phần còn lại trong tùy chọn mã hóa. Vùng "
+"giá trị từ 1 đến 5.1 (cũng cho phép phạm vi từ 10 đến 51). Đặt giá trị 0 để "
+"lập mức độ x264."
 
 #: modules/codec/x264.c:154
 msgid "H.264 profile"
@@ -13168,15 +13312,15 @@ msgstr "Chọn hồ sơ H.264 sẽ giới hạn các thiết lập khác"
 
 #: modules/codec/x264.c:161
 msgid "Interlaced mode"
-msgstr ""
+msgstr "Chế độ quét mành"
 
 #: modules/codec/x264.c:162
 msgid "Pure-interlaced mode."
-msgstr ""
+msgstr "Chế độ quét mành-nguyên bản"
 
 #: modules/codec/x264.c:164
 msgid "Frame packing"
-msgstr ""
+msgstr "Đóng gói khung hình"
 
 #: modules/codec/x264.c:165
 msgid ""
@@ -13188,46 +13332,58 @@ msgid ""
 " 4: top bottom - L is on top, R on bottom\n"
 " 5: frame alternation - one view per frame"
 msgstr ""
+"Dành cho việc xác định sự sắp xếp khung hình đối với các video định dạng "
+"nổi:\n"
+"0: dạng ô cờ - các điểm ảnh thay thế từ L và R\n"
+"1: thay thế bằng cột - L và R được quét mành bằng cột\n"
+"2: thay thế bằng dòng - L và R được quét mành bằng dòng\n"
+"3: trượt ngang - L phía bên trái, R phía bên phải\n"
+"4: trên dưới - L phía trên cùng, R phía dưới cùng\n"
+"5: thay thế bằng khung hình - xem lần lượt mỗi khung hình"
 
 #: modules/codec/x264.c:173
 msgid "Use Periodic Intra Refresh"
-msgstr ""
+msgstr "Sử dụng Cập Nhật Hiển Thị Tuần Hoàn"
 
 #: modules/codec/x264.c:174
 msgid "Use Periodic Intra Refresh instead of IDR frames"
-msgstr ""
+msgstr "Sử dụng Cập Nhật Hiển Thị Tuần Hoàn của khung hình IDR"
 
 #: modules/codec/x264.c:176
 msgid "Use mb-tree ratecontrol"
-msgstr ""
+msgstr "Sử dụng tỉ lệ điều khiển dạng mb-tree"
 
 #: modules/codec/x264.c:177
 msgid "You can disable use of Macroblock-tree on ratecontrol"
-msgstr ""
+msgstr "Bạn đã vô hiệu hóa phần sử dụng Macroblock-tree trên tỉ lệ điều khiển"
 
 #: modules/codec/x264.c:179
 msgid "Force number of slices per frame"
-msgstr ""
+msgstr "Buộc sủ dụng số lượng lát cắt cho từng khung hình"
 
 #: modules/codec/x264.c:180
 msgid "Force rectangular slices and is overridden by other slicing options"
 msgstr ""
+"Buộc sử dụng lát cắt hình chữ nhật và bị chồng lên bởi các tùy chọn về lớp "
+"cắt khác"
 
 #: modules/codec/x264.c:182
 msgid "Limit the size of each slice in bytes"
-msgstr ""
+msgstr "Giới hạn kích thước của mỗi lát cắt tính bằng byte"
 
 #: modules/codec/x264.c:183
 msgid "Sets a maximum slice size in bytes, Includes NAL overhead in size"
 msgstr ""
+"Đặt thông số giới hạn kích thước lát cắt được tính bằng đơn vị byte, bao gồm "
+"cả phần kích thước NAL"
 
 #: modules/codec/x264.c:185
 msgid "Limit the size of each slice in macroblocks"
-msgstr ""
+msgstr "Giới hạn kích thước của mỗi lát cắt trong macroblock"
 
 #: modules/codec/x264.c:186
 msgid "Sets a maximum number of macroblocks per slice"
-msgstr ""
+msgstr "Đặt số lượng tối đa của macroblock cho từng lát cắt"
 
 #: modules/codec/x264.c:189
 msgid "Set QP"
@@ -13238,76 +13394,86 @@ msgid ""
 "This selects the quantizer to use. Lower values result in better fidelity, "
 "but higher bitrates. 26 is a good default value. Range 0 (lossless) to 51."
 msgstr ""
+"Phần này sẽ chọn các lượng tử được sử dụng. Kết quả giá trị càng nhỏ thì độ "
+"trung thực càng cao, nhưng đồng thời cũng làm tăng bitrate. Giá trị mặc định "
+"tốt nhất là 26. Phạm vi giá trị từ 0 (nguyên bản) đến 51."
 
 #: modules/codec/x264.c:194
 msgid "Quality-based VBR"
-msgstr ""
+msgstr "Chất lượng dựa trên VBR"
 
 #: modules/codec/x264.c:195
 msgid "1-pass Quality-based VBR. Range 0 to 51."
 msgstr ""
+"Chất lượng dựa trên VBR theo kiểu một chiều. Phạm vi giá trị từ 0 đến 51."
 
 #: modules/codec/x264.c:197
 msgid "Min QP"
-msgstr ""
+msgstr "QP tối thiểu"
 
 #: modules/codec/x264.c:198
 msgid "Minimum quantizer parameter. 15 to 35 seems to be a useful range."
 msgstr ""
+"Thông số lượng tử nhỏ nhất. 15 đến 35 là phạm vi giá trị hữu dụng nhất."
 
 #: modules/codec/x264.c:201
 msgid "Max QP"
-msgstr ""
+msgstr "QP tối đa"
 
 #: modules/codec/x264.c:202
 msgid "Maximum quantizer parameter."
-msgstr ""
+msgstr "Thông số lượng tử lớn nhất."
 
 #: modules/codec/x264.c:204
 msgid "Max QP step"
-msgstr ""
+msgstr "Bước QP tối đa"
 
 #: modules/codec/x264.c:205
 msgid "Max QP step between frames."
-msgstr ""
+msgstr "Bước QP tối đa giữa các khung hình."
 
 #: modules/codec/x264.c:207
 msgid "Average bitrate tolerance"
-msgstr ""
+msgstr "Độ chịu tải bitrate trung bình"
 
 #: modules/codec/x264.c:208
 msgid "Allowed variance in average bitrate (in kbits/s)."
-msgstr ""
+msgstr "Cho phép pbiến số ở dạng bitrate trung bình (đơn vị kbit/giây)."
 
 #: modules/codec/x264.c:211
 msgid "Max local bitrate"
-msgstr ""
+msgstr "Bitrate tối đa tại hệ thống hiện tại"
 
 #: modules/codec/x264.c:212
 msgid "Sets a maximum local bitrate (in kbits/s)."
 msgstr ""
+"Đặt chỉnh thông số bitrate tối đa tại hệ thống hiện tại (đơn vị kbit/giây)."
 
 #: modules/codec/x264.c:214
 msgid "VBV buffer"
-msgstr ""
+msgstr "Bộ nhớ đệm cho VBV"
 
 #: modules/codec/x264.c:215
 msgid "Averaging period for the maximum local bitrate (in kbits)."
 msgstr ""
+"Khoảng thời gian trung bình dành cho bitrate tối đa tại hệ thống hiện tại "
+"(đơn vị kbit)."
 
 #: modules/codec/x264.c:218
 msgid "Initial VBV buffer occupancy"
-msgstr ""
+msgstr "Thời gian chiếm đóng của bộ nhớ đệm VBV lúc ban đầu"
 
 #: modules/codec/x264.c:219
 msgid ""
 "Sets the initial buffer occupancy as a fraction of the buffer size. Range "
 "0.0 to 1.0."
 msgstr ""
+"Chỉnh thời gian chiếm đóng bộ nhớ đệm lúc bạn đầu dưới dạng tỉ số của kích "
+"thước bộ nhớ đệm. Vùng phạm vi giá trị từ 0.0 đến 1.0."
 
 #: modules/codec/x264.c:222
 msgid "How AQ distributes bits"
-msgstr ""
+msgstr "Cách phân bố các bit của AQ"
 
 #: modules/codec/x264.c:223
 msgid ""
@@ -13317,6 +13483,11 @@ msgid ""
 " - 2: uses log(var)^2 instead of log(var) and attempts to adapt strength per "
 "frame"
 msgstr ""
+"Xác định chế độ phân bố bit dữ liệu của AQ, mặc định là 1\n"
+"- 0: Vô hiệu hóa\n"
+"- 1: Sử dụng chế độ mặc định x264 hiện tại\n"
+"- 2: sử dụng log(var)^2 thay vì log(var) và cố gắng phỏng theo độ dài của "
+"từng khung hình"
 
 #: modules/codec/x264.c:228
 msgid "Strength of AQ"
@@ -13329,34 +13500,39 @@ msgid ""
 " - 0.5: weak AQ\n"
 " - 1.5: strong AQ"
 msgstr ""
+"Mức độ giảm khối dữ liệu và làm mờ những khu vực\n"
+"phẳng hay có họa tiết, mặc định là 1.0 khuyên nghị nên ở giữa 0..2\n"
+"- 0.5: AQ yếu\n"
+"- 1.5: AQ mạnh"
 
 #: modules/codec/x264.c:235
 msgid "QP factor between I and P"
-msgstr ""
+msgstr "Hệ số QP giữa I và P"
 
 #: modules/codec/x264.c:236
 msgid "QP factor between I and P. Range 1.0 to 2.0."
 msgstr ""
+"Hệ số QP giữa giữa I và P. Phạm vi giá trị nằm trong khoảng từ 1.0 đến 2.0."
 
 #: modules/codec/x264.c:239
 msgid "QP factor between P and B"
-msgstr ""
+msgstr "Hệ số QP giữa P và B"
 
 #: modules/codec/x264.c:240
 msgid "QP factor between P and B. Range 1.0 to 2.0."
-msgstr ""
+msgstr "Hệ số QP giữa P và B. Phạm vi giá trị trong khoảng từ 1.0 đến 2.0."
 
 #: modules/codec/x264.c:242
 msgid "QP difference between chroma and luma"
-msgstr ""
+msgstr "Điểm khác biệt về QP giữa sắc độ và sắc sáng"
 
 #: modules/codec/x264.c:243
 msgid "QP difference between chroma and luma."
-msgstr ""
+msgstr "Điểm khác biệt về QP giữa sắc độ và sắc sáng."
 
 #: modules/codec/x264.c:245
 msgid "Multipass ratecontrol"
-msgstr ""
+msgstr "Điều khiển tỉ lệ đa mật khẩu"
 
 #: modules/codec/x264.c:246
 msgid ""
@@ -13365,34 +13541,43 @@ msgid ""
 " - 2: Last pass, does not overwrite stats file\n"
 " - 3: Nth pass, overwrites stats file\n"
 msgstr ""
+"Điều khiển tỉ lệ đa mật khẩu:\n"
+"- 1: Mật khẩu đầu tiên, tạo trạng thái của tập tin\n"
+"- 2: Mật khẩu sau cùng, không viết dữ liệu đè lên tập tin trạng thái\n"
+"- 3: Các mật khẩu khác, viết dữ liệu đè lên tập tin trạng thái\n"
+"\n"
 
 #: modules/codec/x264.c:251
 msgid "QP curve compression"
-msgstr ""
+msgstr "Độ nén cong QP"
 
 #: modules/codec/x264.c:252
 msgid "QP curve compression. Range 0.0 (CBR) to 1.0 (QCP)."
-msgstr ""
+msgstr "Độ nén con QP. Vùng phạm vi giá trị từ 0.0 (CBR) đến 1.0 (QCP)."
 
 #: modules/codec/x264.c:254 modules/codec/x264.c:258
 msgid "Reduce fluctuations in QP"
-msgstr ""
+msgstr "Giảm độ dao động trong QP"
 
 #: modules/codec/x264.c:255
 msgid ""
 "This reduces the fluctuations in QP before curve compression. Temporally "
 "blurs complexity."
 msgstr ""
+"Phần này sẽ giảm đi độ dao động trong QP trước khi áp dụng độ nén cong. Tạm "
+"thời sẽ làm giảm đi tính phức tạp."
 
 #: modules/codec/x264.c:259
 msgid ""
 "This reduces the fluctuations in QP after curve compression. Temporally "
 "blurs quants."
 msgstr ""
+"Phần này sẽ giảmPhần này sẽ giảm đi độ dao động trong QP trước khi áp dụng "
+"độ nén cong. Tạm thời sẽ làm giảm đi tính phức tạp."
 
 #: modules/codec/x264.c:264
 msgid "Partitions to consider"
-msgstr ""
+msgstr "Các phân vùng cần xem xét"
 
 #: modules/codec/x264.c:265
 msgid ""
@@ -13404,14 +13589,21 @@ msgid ""
 " - all   : i4x4,p8x8,(i8x8),b8x8,p4x4\n"
 "(p4x4 requires p8x8. i8x8 requires 8x8dct)."
 msgstr ""
+"Các phân vùng cần xem xét trong chế độ phân tích:\n"
+"- không:\n"
+"- nhanh: i4x4\n"
+"- bình thường: i4x4,p8x8,(i8x8)\n"
+"- chậm: i4x4,p8x8,(i8x8),b8x8\n"
+"- tất cả: i4x4,p8x8,(i8x8),b8x8,p4x4\n"
+"(p4x4 yêu cầu cần có p8x8. i8x8 yêu cầu cần có 8x8dct)."
 
 #: modules/codec/x264.c:273
 msgid "Direct MV prediction mode"
-msgstr ""
+msgstr "Chế độ dự đoán MV trực tiếp"
 
 #: modules/codec/x264.c:276
 msgid "Direct prediction size"
-msgstr ""
+msgstr "Kích thước dự đoán trực tiếp"
 
 #: modules/codec/x264.c:277
 msgid ""
@@ -13419,18 +13611,21 @@ msgid ""
 " -  1: 8x8\n"
 " - -1: smallest possible according to level\n"
 msgstr ""
+"Kích thước dự đoán trực tiếp: - 0:4x4\n"
+"- 1: 8x8\n"
+"- -1: nhỏ nhất có thể dựa theo cấp độ\n"
 
 #: modules/codec/x264.c:282
 msgid "Weighted prediction for B-frames"
-msgstr ""
+msgstr "Dự đoán kích thước dành cho khung hình-B"
 
 #: modules/codec/x264.c:283
 msgid "Weighted prediction for B-frames."
-msgstr ""
+msgstr "Dự đoán kích thước dành cho các khung hình-B."
 
 #: modules/codec/x264.c:285
 msgid "Weighted prediction for P-frames"
-msgstr ""
+msgstr "Dự đoán kích thước các khung hình-P"
 
 #: modules/codec/x264.c:286
 msgid ""
@@ -13438,10 +13633,13 @@ msgid ""
 " - 1: Blind offset\n"
 " - 2: Smart analysis\n"
 msgstr ""
+"Dự đoán kích thước khung hình loại-P: - 0: Tắt\n"
+"- 1: Các offset không rõ\n"
+"- 2: Phân tích thông minh\n"
 
 #: modules/codec/x264.c:291
 msgid "Integer pixel motion estimation method"
-msgstr ""
+msgstr "Phương pháp dự đoán chuyển động điểm ảnh dựa vào số nguyên"
 
 #: modules/codec/x264.c:292
 msgid ""
@@ -13452,10 +13650,16 @@ msgid ""
 " - esa: exhaustive search (extremely slow, primarily for testing)\n"
 " - tesa: hadamard exhaustive search (extremely slow, primarily for testing)\n"
 msgstr ""
+"Chọn lựa thuật toán dự đoán chuyển động:  - dia: tìm kiếm dạng hình thoi, "
+"bán kính 1 (nhanh)\n"
+" - hex: tìm kiếm lục giác, bán kính 2\n"
+" - umh: tìm kiếm đa ngũ giác không đều (tốt hơn nhưng chậm hơn)\n"
+" - esa: tìm kiếm toàn diện (cực kỳ chậm, chủ yếu dành cho việc kiểm thử)\n"
+" - tesa: tìm kiếm toàn diện đầy đủ (chậm nhất, chủ yếu dành cho kiểm thử)\n"
 
 #: modules/codec/x264.c:299
 msgid "Maximum motion vector search range"
-msgstr ""
+msgstr "Phạm vi tìm kiếm của véctơ chuyển động tối đa"
 
 #: modules/codec/x264.c:300
 msgid ""
@@ -13463,29 +13667,37 @@ msgid ""
 "position(s). Default of 16 is good for most footage, high motion sequences "
 "may benefit from settings between 24 and 32. Range 0 to 64."
 msgstr ""
+"Khoảng cách tối đa để tìm kiếm trong phần dự đoán chuyển động, được tính từ "
+"(các) vị trí đã được dự tính trước. Mặc định là 16 tốt danh cho mọi đối "
+"tượng, các phân cảnh ở định dạng phân giải cao có thể hưởng lợi từ thiết lập "
+"giữa khoảng phạm vi từ 24 đến 32. Vùng giá trị từ 0 đến 64."
 
 #: modules/codec/x264.c:305
 msgid "Maximum motion vector length"
-msgstr ""
+msgstr "Độ dài véctơ chuyển động tối đa"
 
 #: modules/codec/x264.c:306
 msgid ""
 "Maximum motion vector length in pixels. -1 is automatic, based on level."
 msgstr ""
+"Độ dài véctơ chuyển động tối đa được tính bằng điểm ảnh. -1 là tự động, dựa "
+"trên mức độ."
 
 #: modules/codec/x264.c:309
 msgid "Minimum buffer space between threads"
-msgstr ""
+msgstr "Khoảng cách bộ nhớ đệm tối thiểu giữa các tiến trình"
 
 #: modules/codec/x264.c:310
 msgid ""
 "Minimum buffer space between threads. -1 is automatic, based on number of "
 "threads."
 msgstr ""
+"Khoảng cách bộ nhớ đệm tối thiểu giữa các tiến trình. -1 theo mức tự động, "
+"dựa trên số lượng các tiến trình."
 
 #: modules/codec/x264.c:313
 msgid "Strength of psychovisual optimization, default is \"1.0:0.0\""
-msgstr ""
+msgstr "Độ dài tùy chọn thuộc phần thị giác tâm lý, mặc định là \"1.0:0.0\""
 
 #: modules/codec/x264.c:314
 msgid ""
@@ -13493,10 +13705,13 @@ msgid ""
 "Second parameter controls if Trellis is used on psychovisual optimization, "
 "default off"
 msgstr ""
+"Điều khiển thông số đầu tiên nếu RD được bật (subme>=6) hoặc tắt.\n"
+"Điều khiển thông số thứ hai nếu Trellis được sử dụng trong phần tùy chọn thị "
+"giác tâm lý, mặc định là tắt"
 
 #: modules/codec/x264.c:318
 msgid "Subpixel motion estimation and partition decision quality"
-msgstr ""
+msgstr "Chất lượng quyết định dự đoán chuyển động và từng phần của subpixel"
 
 #: modules/codec/x264.c:320
 msgid ""
@@ -13504,44 +13719,51 @@ msgid ""
 "motion estimation decision process (lower = quicker and higher = better "
 "quality). Range 1 to 9."
 msgstr ""
+"Thông số này điều khiển chất lượng đối chọi lại với việc đánh đổi tốc độ bao "
+"gồm cả phần tiến trình quyết định dự đoán chuyển động (chậm hơn = nhanh hơn "
+"và cao hơn = chất lượng tốt hơn). Vùng phạm vi giá trị từ 1 đến 9."
 
 #: modules/codec/x264.c:324
 msgid "RD based mode decision for B-frames. This requires subme 6 (or higher)."
 msgstr ""
+"Quyết định chế độ dựa trên RD dành cho khung hình-B. Phần này đòi hỏi subme "
+"6 (hoặc cao hơn)."
 
 #: modules/codec/x264.c:327
 msgid "Decide references on a per partition basis"
-msgstr ""
+msgstr "Quyết định các tham chiếu trên mỗi phần phân vùng cơ bản"
 
 #: modules/codec/x264.c:328
 msgid ""
 "Allows each 8x8 or 16x8 partition to independently select a reference frame, "
 "as opposed to only one ref per macroblock."
 msgstr ""
+"Cho phép mỗi phân vùng 8x8 hoặc 16x8 chọn lựa độc lập một khung hình tham "
+"chiếu, nhằm tương phản mỗi khối tham chiếu nhỏ."
 
 #: modules/codec/x264.c:332
 msgid "Chroma in motion estimation"
-msgstr ""
+msgstr "Sắc độ trong phần dự đoán chuyển động"
 
 #: modules/codec/x264.c:333
 msgid "Chroma ME for subpel and mode decision in P-frames."
-msgstr ""
+msgstr "Chome ME dành cho subpel và chế độ quyết định trong khung hình-P."
 
 #: modules/codec/x264.c:336
 msgid "Joint bidirectional motion refinement."
-msgstr ""
+msgstr "Kết hợp việc lọc dữ liệu từ nhiều hướng."
 
 #: modules/codec/x264.c:338
 msgid "Adaptive spatial transform size"
-msgstr ""
+msgstr "Kích thước chuyển đổi phỏng theo chiều không gian"
 
 #: modules/codec/x264.c:340
 msgid "SATD-based decision for 8x8 transform in inter-MBs."
-msgstr ""
+msgstr "Quyết định dựa trên SATD đối vớic việc chuyển đổi 8x8 trong MBs-ẩn."
 
 #: modules/codec/x264.c:342
 msgid "Trellis RD quantization"
-msgstr ""
+msgstr "Nén RD Trellis"
 
 #: modules/codec/x264.c:343
 msgid ""
@@ -13551,54 +13773,68 @@ msgid ""
 " - 2: enabled on all mode decisions\n"
 "This requires CABAC."
 msgstr ""
+"Nén RD Trellis: \n"
+" - 0: vô hiệu hóa\n"
+" - 1: chỉ bật khi phần mã hóa cuối cùng của một MB\n"
+" - 2: bật trên mọi chế độ quyết định\n"
+"Phần này yêu cầu CABAC."
 
 #: modules/codec/x264.c:349
 msgid "Early SKIP detection on P-frames"
-msgstr ""
+msgstr "Nhận dạng bỏ qua sớm trên khung hình-P"
 
 #: modules/codec/x264.c:350
 msgid "Early SKIP detection on P-frames."
-msgstr ""
+msgstr "Nhận dạng bỏ qua sớm trên khung hình-P."
 
 #: modules/codec/x264.c:352
 msgid "Coefficient thresholding on P-frames"
-msgstr ""
+msgstr "Ngưỡng hệ số trên khung hình-P"
 
 #: modules/codec/x264.c:353
 msgid ""
 "Coefficient thresholding on P-frames.Eliminate dct blocks containing only a "
 "small single coefficient."
 msgstr ""
+"Ngưỡng hệ số trên khung hình-P. Loại bỏ các khối dct chỉ chứa các hệ số đơn "
+"nhỏ."
 
 #: modules/codec/x264.c:356
 msgid "Use Psy-optimizations"
-msgstr ""
+msgstr "Sử dụng tùy chọn-Tâm lý"
 
 #: modules/codec/x264.c:357
 msgid "Use all visual optimizations that can worsen both PSNR and SSIM"
 msgstr ""
+"Sử dụng tất cả các tùy chọn thị giác có thể làm giảm chất lượng PSNR và SSIM"
 
 #: modules/codec/x264.c:361
 msgid ""
 "Dct-domain noise reduction. Adaptive pseudo-deadzone. 10 to 1000 seems to be "
 "a useful range."
 msgstr ""
+"Giảm độ nhiễu trong Dct-domain. Phỏng theo pseudo-deadzone. Vùng giá trị hữu "
+"dụng từ 10 đến 1000."
 
 #: modules/codec/x264.c:364
 msgid "Inter luma quantization deadzone"
-msgstr ""
+msgstr "Độ nén deadzone của Inter luma"
 
 #: modules/codec/x264.c:365
 msgid "Set the size of the inter luma quantization deadzone. Range 0 to 32."
 msgstr ""
+"Chỉnh kích thước của Độ nén deadzone của Inter luma. Vùng phạm vi giá trị từ "
+"0 đến 32."
 
 #: modules/codec/x264.c:368
 msgid "Intra luma quantization deadzone"
-msgstr ""
+msgstr "Độ nén deadzone của sắc hiển thị"
 
 #: modules/codec/x264.c:369
 msgid "Set the size of the intra luma quantization deadzone. Range 0 to 32."
 msgstr ""
+"Chỉnh kích thước độ nén deadzone của sắc hiển thị. Vùng phạm vi giá trị từ 0 "
+"đến 32."
 
 #: modules/codec/x264.c:374
 msgid "Non-deterministic optimizations when threaded"
@@ -13607,14 +13843,16 @@ msgstr ""
 #: modules/codec/x264.c:375
 msgid "Slightly improve quality of SMP, at the cost of repeatability."
 msgstr ""
+"Tăng độ hoàn thiện chất lượng chất lượng của SMP, dựa theo chi phí cho việc "
+"lặp lại."
 
 #: modules/codec/x264.c:378
 msgid "CPU optimizations"
-msgstr ""
+msgstr "Tùy chọn hóa CPU"
 
 #: modules/codec/x264.c:379
 msgid "Use assembler CPU optimizations."
-msgstr ""
+msgstr "Sử dụng tùy chọn hóa CPU mã máy."
 
 #: modules/codec/x264.c:381
 msgid "Filename for 2 pass stats file"
@@ -13627,23 +13865,27 @@ msgstr ""
 
 #: modules/codec/x264.c:384
 msgid "PSNR computation"
-msgstr ""
+msgstr "Điện toán PSNR"
 
 #: modules/codec/x264.c:385
 msgid ""
 "Compute and print PSNR stats. This has no effect on the actual encoding "
 "quality."
 msgstr ""
+"Tính toán và in ra trạng thái PSNR. Phần này không gây tác động lên chất "
+"lượng mã hóa thực tế."
 
 #: modules/codec/x264.c:388
 msgid "SSIM computation"
-msgstr ""
+msgstr "Điện toán SSIM"
 
 #: modules/codec/x264.c:389
 msgid ""
 "Compute and print SSIM stats. This has no effect on the actual encoding "
 "quality."
 msgstr ""
+"Tính toán và in ra trạng thái SSIM. Phần này không gây tác động lên chất "
+"lượng mã hóa thực tế."
 
 #: modules/codec/x264.c:392
 msgid "Quiet mode"
@@ -13656,47 +13898,53 @@ msgstr "Thống kê"
 
 #: modules/codec/x264.c:395
 msgid "Print stats for each frame."
-msgstr ""
+msgstr "In ra trạng thái của từng khung hình."
 
 #: modules/codec/x264.c:397
 msgid "SPS and PPS id numbers"
-msgstr ""
+msgstr "Chỉ số thứ tự của SPS và PPS"
 
 #: modules/codec/x264.c:398
 msgid ""
 "Set SPS and PPS id numbers to allow concatenating streams with different "
 "settings."
 msgstr ""
+"Chỉnh chỉ số thứ tự của SPS và PPS để cho phép việc kết nối các luồng dữ "
+"liệu với các thiết lập khác nhau."
 
 #: modules/codec/x264.c:401
 msgid "Access unit delimiters"
-msgstr ""
+msgstr "Đơn vị giới hạn truy cập"
 
 #: modules/codec/x264.c:402
 msgid "Generate access unit delimiter NAL units."
-msgstr ""
+msgstr "Tạo ra các đơn vị giới hạn truy cập dạng NAL."
 
 #: modules/codec/x264.c:404
 msgid "Framecount to use on frametype lookahead"
-msgstr ""
+msgstr "Đếm số khung hình để sự dụng cho các loại khung hình phía trước"
 
 #: modules/codec/x264.c:405
 msgid ""
 "Framecount to use on frametype lookahead. Currently default can cause sync-"
 "issues on unmuxable output, like rtsp-output without ts-mux"
 msgstr ""
+"Đếm số khung hình để sự dụng cho các loại khung hình phía trước. Hiện tại "
+"nếu theo mặc định có thể gây ra vấn đề liên quan đến việc đồng bộ hóa với "
+"các dữ liệu xuất ra dạng không trộn tín hiệu, giống kiểu xuất dữ liệu rtsp "
+"mà không có phần ts-mux"
 
 #: modules/codec/x264.c:408
 msgid "HRD-timing information"
-msgstr ""
+msgstr "Thông tin về thời gian HRD"
 
 #: modules/codec/x264.c:409
 msgid "Default tune setting used"
-msgstr ""
+msgstr "Thiết lập giai điệu đã sử dụng theo mặc định"
 
 #: modules/codec/x264.c:410
 msgid "Default preset setting used"
-msgstr ""
+msgstr "Thiết lập điều khiển đã sử dụng theo mặc định"
 
 #: modules/codec/x264.c:412
 msgid "x264 advanced options."
@@ -13724,7 +13972,7 @@ msgstr "esa"
 
 #: modules/codec/x264.c:418
 msgid "tesa"
-msgstr ""
+msgstr "băng dính"
 
 #: modules/codec/x264.c:429
 msgid "Fast"
@@ -13753,39 +14001,39 @@ msgstr ""
 
 #: modules/codec/x264.c:439
 msgid "checkerboard"
-msgstr ""
+msgstr "bàn cờ"
 
 #: modules/codec/x264.c:439
 msgid "column alternation"
-msgstr ""
+msgstr "cột đan xen"
 
 #: modules/codec/x264.c:439
 msgid "row alternation"
-msgstr ""
+msgstr "dòng đan xen"
 
 #: modules/codec/x264.c:439
 msgid "side by side"
-msgstr ""
+msgstr "từng phía một"
 
 #: modules/codec/x264.c:439
 msgid "top bottom"
-msgstr ""
+msgstr "tận cùng bên dưới"
 
 #: modules/codec/x264.c:439
 msgid "frame alternation"
-msgstr ""
+msgstr "khung hình đan xen"
 
 #: modules/codec/x264.c:443
 msgid "H.264/MPEG-4 Part 10/AVC encoder (x264 10-bit)"
-msgstr ""
+msgstr "H.264/MPEG-4 Phần 10/AVC trình mã hóa (x264 10-bit)"
 
 #: modules/codec/x264.c:446
 msgid "H.264/MPEG-4 Part 10/AVC encoder (x264)"
-msgstr ""
+msgstr "H.264/MPEG-4 Phần 10/AVC trình mã hóa (x264)"
 
 #: modules/codec/xwd.c:36
 msgid "XWD image decoder"
-msgstr ""
+msgstr "Trình giải mã hình ảnh XWD"
 
 #: modules/codec/zvbi.c:58
 msgid "Teletext page"
@@ -13793,11 +14041,11 @@ msgstr "Trang Teletext"
 
 #: modules/codec/zvbi.c:59
 msgid "Open the indicated Teletext page.Default page is index 100"
-msgstr ""
+msgstr "Mở các trang Teletext được chỉ định. Trang mặc định là chỉ số 100"
 
 #: modules/codec/zvbi.c:62 modules/gui/qt4/dialogs/toolbar.cpp:421
 msgid "Teletext transparency"
-msgstr ""
+msgstr "Độ mờ của Teletext"
 
 #: modules/codec/zvbi.c:63
 msgid "Setting vbi-opaque to false makes the boxed text transparent."
@@ -14013,11 +14261,11 @@ msgstr "Cắt bỏ: %s"
 
 #: modules/control/hotkeys.c:841
 msgid "Zooming reset"
-msgstr ""
+msgstr "Cài đặt lại phần hiển thị phóng to"
 
 #: modules/control/hotkeys.c:848
 msgid "Scaled to screen"
-msgstr ""
+msgstr "Canh tỉ lệ vừa với màn hình"
 
 #: modules/control/hotkeys.c:850
 msgid "Original Size"
@@ -14030,11 +14278,11 @@ msgstr "Chế độ phóng to: %s"
 
 #: modules/control/hotkeys.c:934 modules/control/hotkeys.c:991
 msgid "Deinterlace off"
-msgstr ""
+msgstr "Tắt chế độ chống quét mành"
 
 #: modules/control/hotkeys.c:953 modules/control/hotkeys.c:986
 msgid "Deinterlace on"
-msgstr ""
+msgstr "Mở chế độ chống quét mành"
 
 #: modules/control/hotkeys.c:1016
 msgid "Subtitle position: no active subtitle"
@@ -14043,7 +14291,7 @@ msgstr "Vị trí phụ đề: hiện chưa kích hoạt phụ đề"
 #: modules/control/hotkeys.c:1028
 #, c-format
 msgid "Subtitle position %d px"
-msgstr ""
+msgstr "Vị trí hiển thị phụ đề %d px"
 
 #: modules/control/hotkeys.c:1162
 #, c-format
@@ -14053,17 +14301,19 @@ msgstr "Âm lượng %ld%%"
 #: modules/control/hotkeys.c:1167
 #, c-format
 msgid "Speed: %.2fx"
-msgstr ""
+msgstr "Tốc độ: %.2fx"
 
 #: modules/control/lirc.c:46
 msgid "Change the lirc configuration file"
-msgstr ""
+msgstr "Thay đổi tập tin cấu hình lirc"
 
 #: modules/control/lirc.c:48
 msgid ""
 "Tell lirc to read this configuration file. By default it searches in the "
 "users home directory."
 msgstr ""
+"Thông báo lirc về việc đọc dư liệu từ tập tin cấu hình này. Theo mặc định "
+"thì phần này sẽ tìm kiếm trong thư mục gốc của người dùng."
 
 #: modules/control/lirc.c:58
 msgid "Infrared"
@@ -14249,15 +14499,17 @@ msgstr "Giao diện điều khiển từ xa"
 #: modules/control/rc.c:353
 msgid "Remote control interface initialized. Type `help' for help."
 msgstr ""
+"Đã thiết lập giao diện điều khiển từ xa. Gõ `trợ giúp' để nhận thông tin về "
+"trợ giúp."
 
 #: modules/control/rc.c:765
 #, c-format
 msgid "Unknown command `%s'. Type `help' for help."
-msgstr ""
+msgstr "Không rõ lệnh `%s'. Gõ `trợ giúp' để nhận trợ giúp."
 
 #: modules/control/rc.c:783
 msgid "+----[ Remote control commands ]"
-msgstr ""
+msgstr "+----[ Cac lenh dieu khien tu xa ]"
 
 #: modules/control/rc.c:785
 msgid "| add XYZ  . . . . . . . . . . . . add XYZ to playlist"
@@ -14266,54 +14518,61 @@ msgstr "| them XYZ  . . . . . . . . . . . . them XYZ to danh sach"
 #: modules/control/rc.c:786
 msgid "| enqueue XYZ  . . . . . . . . . queue XYZ to playlist"
 msgstr ""
+"| enqueue XYZ  . . . . . . . . . dua XYZ vao hang doi trong danh sach phat"
 
 #: modules/control/rc.c:787
 msgid "| playlist . . . . .  show items currently in playlist"
-msgstr ""
+msgstr "| playlist . . . . .  hien thi cac doi tuong trong danh sach phat"
 
 #: modules/control/rc.c:788
 msgid "| play . . . . . . . . . . . . . . . . . . play stream"
-msgstr ""
+msgstr "| play . . . . . . . . . . . . . . . . . . phat luong du lieu"
 
 #: modules/control/rc.c:789
 msgid "| stop . . . . . . . . . . . . . . . . . . stop stream"
-msgstr ""
+msgstr "| stop . . . . . . . . . . . . . . . . . . dung lai luong du lieu"
 
 #: modules/control/rc.c:790
 msgid "| next . . . . . . . . . . . . . .  next playlist item"
 msgstr ""
+"| next . . . . . . . . . . . . . .  doi tuong tiep theo trong danh sach phat"
 
 #: modules/control/rc.c:791
 msgid "| prev . . . . . . . . . . . .  previous playlist item"
 msgstr ""
+"| prev . . . . . . . . . . . .  doi tuong truoc do trong danh sach phat"
 
 #: modules/control/rc.c:792
 msgid "| goto . . . . . . . . . . . . . .  goto item at index"
-msgstr ""
+msgstr "| goto . . . . . . . . . . . . . .  di den doi tuong tai phan chi muc"
 
 #: modules/control/rc.c:793
 msgid "| repeat [on|off] . . . .  toggle playlist item repeat"
 msgstr ""
+"| repeat [on|off] . . . .  chuyen doi viec lap lai hay khong lap lai cac doi "
+"tuong trong danh sach phat"
 
 #: modules/control/rc.c:794
 msgid "| loop [on|off] . . . . . . . . . toggle playlist loop"
 msgstr ""
+"| loop [on|off] . . . . . . . . . chuyen doi viec lap lai hoac khong lap lai "
+"trong danh sach phat"
 
 #: modules/control/rc.c:795
 msgid "| random [on|off] . . . . . . .  toggle random jumping"
-msgstr ""
+msgstr "| random [on|off] . . . . . . .  chuyen doi che do phat ngau nhien"
 
 #: modules/control/rc.c:796
 msgid "| clear . . . . . . . . . . . . . . clear the playlist"
-msgstr ""
+msgstr "| clear . . . . . . . . . . . . . . lam rong phan danh sach phat"
 
 #: modules/control/rc.c:797
 msgid "| status . . . . . . . . . . . current playlist status"
-msgstr ""
+msgstr "| status . . . . . . . . . . . trang thai hien tai cua danh sach phat"
 
 #: modules/control/rc.c:798
 msgid "| title [X]  . . . . . . set/get title in current item"
-msgstr ""
+msgstr "| title [X]  . . . . . . chinh/nhan tieu de cua doi tuong hien tai"
 
 #: modules/control/rc.c:799
 msgid "| title_n  . . . . . . . .  next title in current item"
@@ -16023,8 +16282,8 @@ msgstr "Bổ sung PMT"
 #: modules/demux/ts.c:96
 msgid "Allows a user to specify an extra pmt (pmt_pid=pid:stream_type[,...])."
 msgstr ""
-"Cho phép người dùng xác định các pmt bổ sung  (pmt_pid=pid:"
-"stream_type[,...])."
+"Cho phép người dùng xác định các pmt bổ sung  (pmt_pid=pid:stream_type"
+"[,...])."
 
 #: modules/demux/ts.c:98
 msgid "Set id of ES to PID"
@@ -18698,7 +18957,7 @@ msgstr "Quay 270 độ"
 
 #: modules/gui/macosx/VideoEffects.m:118 modules/video_filter/transform.c:52
 msgid "Flip horizontally"
-msgstr "Đối xứng ngang"
+msgstr "Đối xứng theo chiều ngang"
 
 #: modules/gui/macosx/VideoEffects.m:120 modules/video_filter/transform.c:52
 msgid "Flip vertically"
@@ -19469,43 +19728,43 @@ msgstr "[Hien Thi]"
 
 #: modules/gui/ncurses.c:867
 msgid " h,H                    Show/Hide help box"
-msgstr ""
+msgstr " h,H                    Hien thi/An hop thoai tro giup"
 
 #: modules/gui/ncurses.c:868
 msgid " i                      Show/Hide info box"
-msgstr ""
+msgstr " i                      Hien thi/An hop thoai thong tin"
 
 #: modules/gui/ncurses.c:869
 msgid " M                      Show/Hide metadata box"
-msgstr ""
+msgstr " M                      Hien thi/An hop thoai thong tin chi tiet"
 
 #: modules/gui/ncurses.c:870
 msgid " L                      Show/Hide messages box"
-msgstr ""
+msgstr " L                      Hien thi/An hop thoai thong bao"
 
 #: modules/gui/ncurses.c:871
 msgid " P                      Show/Hide playlist box"
-msgstr ""
+msgstr " P                      Hien thi/An hop thoai danh sach phat"
 
 #: modules/gui/ncurses.c:872
 msgid " B                      Show/Hide filebrowser"
-msgstr ""
+msgstr " B                      Hien thi/An trinh duyet tap tin"
 
 #: modules/gui/ncurses.c:873
 msgid " x                      Show/Hide objects box"
-msgstr ""
+msgstr " x                      Hien thi/An hop thoai doi tuong"
 
 #: modules/gui/ncurses.c:874
 msgid " S                      Show/Hide statistics box"
-msgstr ""
+msgstr " S                      Hien thi/An hop thoai thong ke"
 
 #: modules/gui/ncurses.c:875
 msgid " Esc                    Close Add/Search entry"
-msgstr ""
+msgstr " Esc                    Dong lai khung thong tin Them vao/Tim kiem"
 
 #: modules/gui/ncurses.c:876
 msgid " Ctrl-l                 Refresh the screen"
-msgstr ""
+msgstr " Ctrl-l                 Cap nhat lai man hinh"
 
 #: modules/gui/ncurses.c:880
 msgid "[Global]"
@@ -19513,27 +19772,28 @@ msgstr "[Toàn chương trình]"
 
 #: modules/gui/ncurses.c:882
 msgid " q, Q, Esc              Quit"
-msgstr ""
+msgstr " q, Q, Esc              Thoat"
 
 #: modules/gui/ncurses.c:883
 msgid " s                      Stop"
-msgstr ""
+msgstr " s                      Dung lai"
 
 #: modules/gui/ncurses.c:884
 msgid " <space>                Pause/Play"
-msgstr ""
+msgstr " <space>                Tam dung/Phat"
 
 #: modules/gui/ncurses.c:885
 msgid " f                      Toggle Fullscreen"
-msgstr ""
+msgstr " f                      Chuyen doi sang che do toan man hinh"
 
 #: modules/gui/ncurses.c:886
 msgid " n, p                   Next/Previous playlist item"
 msgstr ""
+" n, p                   Doi tuong tiep theo/truoc do trong danh sach phat"
 
 #: modules/gui/ncurses.c:887
 msgid " [, ]                   Next/Previous title"
-msgstr ""
+msgstr " [, ]                   Tieu de tiep theo/truoc do"
 
 #: modules/gui/ncurses.c:888
 msgid " <, >                   Next/Previous chapter"
@@ -19543,7 +19803,7 @@ msgstr " <, >                   Chương Tiếp theo/Trước đó"
 #: modules/gui/ncurses.c:890
 #, c-format
 msgid " <left>,<right>         Seek -/+ 1%%"
-msgstr ""
+msgstr " <left>,<right>         Luot -/+ 1%%"
 
 #: modules/gui/ncurses.c:891
 msgid " a, z                   Volume Up/Down"
@@ -19557,16 +19817,20 @@ msgstr "m Tat am thanh"
 #: modules/gui/ncurses.c:894
 msgid " <up>,<down>            Navigate through the box line by line"
 msgstr ""
+" <up>,<down>            Dieu huong thong qua hop thoai dong theo dang tung "
+"dong"
 
 #. xgettext: You can use ⇞ and ⇟ characters
 #: modules/gui/ncurses.c:896
 msgid " <pageup>,<pagedown>    Navigate through the box page by page"
 msgstr ""
+" <pageup>,<pagedown>    Dieu huong thong qua hop thoai trang theo tung trang"
 
 #. xgettext: You can use ↖ and ↘ characters
 #: modules/gui/ncurses.c:898
 msgid " <start>,<end>          Navigate to start/end of box"
 msgstr ""
+" <start>,<end>          Dieu huong toi phan bat dau/ket thuc cua hop thoai"
 
 #: modules/gui/ncurses.c:902
 msgid "[Playlist]"
@@ -19574,48 +19838,49 @@ msgstr "[Danh sách]"
 
 #: modules/gui/ncurses.c:904
 msgid " r                      Toggle Random playing"
-msgstr ""
+msgstr " r                      Chuyen doi che do phat ngau nhien"
 
 #: modules/gui/ncurses.c:905
 msgid " l                      Toggle Loop Playlist"
-msgstr ""
+msgstr " l                      Chuyen doi viec lap lai danh sach"
 
 #: modules/gui/ncurses.c:906
 msgid " R                      Toggle Repeat item"
-msgstr ""
+msgstr " R                      Chuyen doi viec lap lai mot doi tuong"
 
 #: modules/gui/ncurses.c:907
 msgid " o                      Order Playlist by title"
-msgstr ""
+msgstr " o                      Sap xep trat tu danh sach theo tieu de"
 
 #: modules/gui/ncurses.c:908
 msgid " O                      Reverse order Playlist by title"
 msgstr ""
+" O                      Dao nguoc doi tuong trong danh sach phat theo tieu de"
 
 #: modules/gui/ncurses.c:909
 msgid " g                      Go to the current playing item"
-msgstr ""
+msgstr " g                      Truy cap den doi tuong hien dang duoc phat"
 
 #: modules/gui/ncurses.c:910
 msgid " /                      Look for an item"
-msgstr ""
+msgstr " /                      Tim kiem doi tuong"
 
 #: modules/gui/ncurses.c:911
 msgid " ;                      Look for the next item"
-msgstr ""
+msgstr " ;                      Tim doi tuong tiep theo"
 
 #: modules/gui/ncurses.c:912
 msgid " A                      Add an entry"
-msgstr ""
+msgstr " A                      Them vao khung thong tin"
 
 #. xgettext: You can use ⌫ character to translate <backspace>
 #: modules/gui/ncurses.c:914
 msgid " D, <backspace>, <del>  Delete an entry"
-msgstr ""
+msgstr " D, <backspace>, <del>  Xoa mot khung thong tin"
 
 #: modules/gui/ncurses.c:915
 msgid " e                      Eject (if stopped)"
-msgstr ""
+msgstr " e                      Thoat o dia ra ngoai (Neu da dung)"
 
 #: modules/gui/ncurses.c:919
 msgid "[Filebrowser]"
@@ -19623,15 +19888,15 @@ msgstr "[Quan ly tap tin]"
 
 #: modules/gui/ncurses.c:921
 msgid " <enter>                Add the selected file to the playlist"
-msgstr ""
+msgstr " <enter>                Them cac tap tin duoc chon vao danh sach phat"
 
 #: modules/gui/ncurses.c:922
 msgid " <space>                Add the selected directory to the playlist"
-msgstr ""
+msgstr " <space>                Them thu muc da chon vao danh sach phat"
 
 #: modules/gui/ncurses.c:923
 msgid " .                      Show/Hide hidden files"
-msgstr ""
+msgstr " .                      Hien thi/An cac tap tin bi an"
 
 #: modules/gui/ncurses.c:927
 msgid "[Player]"
@@ -19641,7 +19906,7 @@ msgstr "[Trình chơi nhạc]"
 #: modules/gui/ncurses.c:930
 #, c-format
 msgid " <up>,<down>            Seek +/-5%%"
-msgstr ""
+msgstr " <up>,<down>            Di den +/-5%%"
 
 #: modules/gui/ncurses.c:1050
 msgid "[Repeat] "
@@ -19892,7 +20157,7 @@ msgstr "Dừng việc lặp lại từ A đến B"
 
 #: modules/gui/qt4/components/controller_widget.cpp:274
 msgid "Aspect Ratio"
-msgstr ""
+msgstr "Tỉ lệ đồng dạng"
 
 #: modules/gui/qt4/components/extended_panels.cpp:423
 #: modules/video_filter/logo.c:48
@@ -20837,7 +21102,7 @@ msgstr "Đi đến thời gian"
 
 #: modules/gui/qt4/dialogs/help.cpp:86 modules/gui/qt4/dialogs/plugins.cpp:528
 msgid "About"
-msgstr "Thông tin - phiên dịch bởi Phan Anh"
+msgstr "Thông tin - chuyển ngữ bởi Vietnamese Translation Software"
 
 #: modules/gui/qt4/dialogs/help.cpp:214
 msgid "&Recheck version"
@@ -21365,7 +21630,7 @@ msgstr "&Tập tin"
 
 #: modules/gui/qt4/menus.cpp:330
 msgid "P&layback"
-msgstr "P&hát lại"
+msgstr "Chế Đ&ộ Phát"
 
 #: modules/gui/qt4/menus.cpp:331 modules/gui/qt4/menus.cpp:1038
 msgid "&Audio"
@@ -21661,7 +21926,7 @@ msgstr "Thoát khỏi toàn màn hình"
 
 #: modules/gui/qt4/menus.cpp:1056
 msgid "&Playback"
-msgstr "P&hát lại"
+msgstr "&Chế Độ Phát"
 
 #: modules/gui/qt4/menus.cpp:1145
 msgid "&Hide VLC media player in taskbar"
@@ -22895,7 +23160,7 @@ msgstr "Hình ảnh của tôi"
 
 #: modules/services_discovery/mtp.c:43
 msgid "MTP devices"
-msgstr "Thiết bị MTP"
+msgstr "Các thiết bị MTP"
 
 #: modules/services_discovery/mtp.c:189
 msgid "MTP Device"
@@ -25851,7 +26116,7 @@ msgstr ""
 msgid ""
 "Defines orientation of the mirror splitting.     Can be vertical or "
 "horizontal"
-msgstr ""
+msgstr "Xác định việc phân tách đối xứng theo hướng. Có thể dọc hoặc ngang"
 
 #: modules/video_filter/mirror.c:68
 msgid "Vertical"
@@ -26159,12 +26424,12 @@ msgstr "Tên của bộ lọc thời gian thuộc OpenCV được dùng"
 msgid ""
 "Select the number of horizontal video windows in which to split the video"
 msgstr ""
-"Chọn số lượng của các cửa sổ video theo chiều dọc thuộc video bị chia cắt"
+"Chọn số lượng của các cửa sổ video theo chiều ngang thuộc video bị chia cắt"
 
 #: modules/video_filter/panoramix.c:65
 msgid "Select the number of vertical video windows in which to split the video"
 msgstr ""
-"Chọn số lượng của các cửa sổ video theo chiều ngang thuộc video bị chia cắt"
+"Chọn số lượng của các cửa sổ video theo chiều dọc thuộc video bị chia cắt"
 
 #: modules/video_filter/panoramix.c:68 modules/video_filter/wall.c:54
 msgid "Active windows"
@@ -27048,11 +27313,11 @@ msgstr ""
 
 #: modules/video_filter/wall.c:47
 msgid "Number of horizontal windows in which to split the video."
-msgstr "Số lượng của các cửa sổ theo chiều dọc khi chia video ra."
+msgstr "Số lượng của các cửa sổ theo chiều ngang khi chia video ra."
 
 #: modules/video_filter/wall.c:51
 msgid "Number of vertical windows in which to split the video."
-msgstr "Số lượng của các cửa sổ theo chiều ngang khi chia video ra."
+msgstr "Số lượng của các cửa sổ theo chiều dọc khi chia video ra."
 
 #: modules/video_filter/wall.c:58
 msgid "Element aspect ratio"
@@ -28955,9 +29220,6 @@ msgstr "AAAA; "
 msgid "Media Manager List"
 msgstr "Danh sách quản lý tập tin"
 
-#~ msgid "Add a subtitle file"
-#~ msgstr "Thêm tập tin phụ đề"
-
 #~ msgid ""
 #~ "SAP is a way to publically announce streams that are being sent using "
 #~ "multicast UDP or RTP."
@@ -29378,12 +29640,6 @@ msgstr "Danh sách quản lý tập tin"
 #~ msgid "     c           Switch color on/off"
 #~ msgstr "     c           Đổi màu tắt/mở"
 
-#~ msgid "     <left>      Seek -1%%"
-#~ msgstr "     <trái>      Đi đến -1%%"
-
-#~ msgid "     D, <del>    Delete an entry"
-#~ msgstr "     D, <phím delete>    Xóa một entry"
-
 #~ msgid "[Boxes]"
 #~ msgstr "[Các hộp]"
 
@@ -29663,9 +29919,6 @@ msgstr "Danh sách quản lý tập tin"
 #~ msgid "WMV2"
 #~ msgstr "WMV loại 2"
 
-#~ msgid "Bitrate Tolerance:"
-#~ msgstr "Độ chênh lệch Bitrate:"
-
 #~ msgid "Keyframe Interval:"
 #~ msgstr "Khoảng thời gian của từng khung:"
 
@@ -29882,6 +30135,22 @@ msgstr "Danh sách quản lý tập tin"
 
 #~ msgid "%d Hz"
 #~ msgstr "%d Hz"
+
+#, fuzzy
+#~ msgid "Add a subtitle file"
+#~ msgstr "Sử dụng tập t&in phụ đề"
+
+#, fuzzy
+#~ msgid "     <left>      Seek -1%%"
+#~ msgstr " <left>,<right>         Luot -/+ 1%%"
+
+#, fuzzy
+#~ msgid "     D, <del>    Delete an entry"
+#~ msgstr " D, <backspace>, <del>  Xoa mot khung thong tin"
+
+#, fuzzy
+#~ msgid "Bitrate Tolerance:"
+#~ msgstr "Độ chịu tải của bitrate video"
 
 #, fuzzy
 #~ msgid "Subtitles/OSD"
@@ -30143,7 +30412,7 @@ msgstr "Danh sách quản lý tập tin"
 
 #, fuzzy
 #~ msgid "Load subtitles file:"
-#~ msgstr "Thêm tập tin phụ đề"
+#~ msgstr "Sử dụng tập tin phụ đề"
 
 #, fuzzy
 #~ msgid "SAP announce"
@@ -30803,11 +31072,11 @@ msgstr "Danh sách quản lý tập tin"
 
 #, fuzzy
 #~ msgid "Horizontal centering"
-#~ msgstr "Đối xứng chiều ngang"
+#~ msgstr "Đối xứng theo chiều ngang"
 
 #, fuzzy
 #~ msgid "Vertical centering"
-#~ msgstr "Đối xứng chiều dọc"
+#~ msgstr "Đối xứng theo chiều dọc"
 
 #, fuzzy
 #~ msgid "Balance"
@@ -30837,7 +31106,7 @@ msgstr "Danh sách quản lý tập tin"
 
 #, fuzzy
 #~ msgid "Memory video decoder"
-#~ msgstr "Giải mã video Pseudo raw"
+#~ msgstr "Trình giải mã video Theora"
 
 #, fuzzy
 #~ msgid "Enable debug"
