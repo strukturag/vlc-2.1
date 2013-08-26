@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-08-05 13:45+0200\n"
-"PO-Revision-Date: 2013-06-07 20:30+0000\n"
+"PO-Revision-Date: 2013-07-16 20:29+0000\n"
 "Last-Translator: mhikanik <mhikanik@users.sourceforge.net>\n"
 "Language-Team: Slovak (http://www.transifex.com/projects/p/vlc-trans/"
 "language/sk/)\n"
@@ -11943,20 +11943,20 @@ msgid "PNG video decoder"
 msgstr "Video-dekodér PNG"
 
 #: modules/codec/qsv.c:56
-#, fuzzy
 msgid "Enable software mode"
-msgstr "Zapnúť režim prehrávania na pozadí"
+msgstr "Zapnúť softvérový režim"
 
 #: modules/codec/qsv.c:57
 msgid ""
 "Allow the use of the Intel Media SDK software implementation of the codecs "
 "if no QuickSync Video hardware acceleration is present on the system."
 msgstr ""
+"Umožniť používanie softvérovej implementácie kodekov Intel Media SDK, ak nie "
+"je v systéme prítomná žiadna hardvérová akcelerácia."
 
 #: modules/codec/qsv.c:61
-#, fuzzy
 msgid "Codec Profile"
-msgstr "Vyberte profil"
+msgstr "Profil kodeku"
 
 #: modules/codec/qsv.c:63
 msgid ""
@@ -11964,11 +11964,13 @@ msgid ""
 "the correct profile from other sources, such as resolution and bitrate. E.g. "
 "'high'"
 msgstr ""
+"Špecifikujte explicitný profil kodeku. Ak to neurobíte, bude kodek zisťovať "
+"správny profil z iných zdrojov, ako je napríklad rozlíšenie a dátový tok. "
+"Napríklad 'high'"
 
 #: modules/codec/qsv.c:67
-#, fuzzy
 msgid "Codec Level"
-msgstr "Meno kodeku"
+msgstr "Úroveň kodeku"
 
 #: modules/codec/qsv.c:69
 msgid ""
@@ -11976,10 +11978,13 @@ msgid ""
 "the correct profile from other sources, such as resolution and bitrate. E.g. "
 "'4.2' for mpeg4-part10 or 'low' for mpeg2"
 msgstr ""
+"Špecifikujte explicitnú úroveň kodeku. Ak to neurobíte, bude kodek zisťovať "
+"správny profil z iných zdrojov, ako je napríklad rozlíšenie a dátový tok. "
+"Napríklad '4.2' pre mpeg4-part10 alebo 'low' pre mpeg2"
 
 #: modules/codec/qsv.c:73
 msgid "Group of Picture size"
-msgstr ""
+msgstr "Skupina veľkosti obrázkov"
 
 #: modules/codec/qsv.c:75
 msgid ""
@@ -11987,32 +11992,38 @@ msgid ""
 "GopPicSize=0, then the GOP size is unspecified. If GopPicSize=1, only I-"
 "frames are used."
 msgstr ""
+"Počet obrázkov v rámci aktuálnej GOP (skupiny obrázkov); ak GopPicSize=0, "
+"tak veľkosť GOP nie je špecifikovaná. Ak GopPicSize=1, používajú sa iba I-"
+"snímky."
 
 #: modules/codec/qsv.c:79
-#, fuzzy
 msgid "Group of Picture Reference Distance"
-msgstr "Názov aktuálnej inštancie"
+msgstr "Skupina obrázkov - referenčná vzdialenosť"
 
 #: modules/codec/qsv.c:81
 msgid ""
 "Distance between I- or P- key frames; if it is zero, the GOP structure is "
 "unspecified. Note: If GopRefDist = 1, there are no B- frames used. "
 msgstr ""
+"Vzdialenosť medzi I alebo P kľúčovými snímkami; ak je hodnota nulová, "
+"štruktúra GOP nie je špecifikovaná. Poznámka: ak GopRefDist = 1, nepoužívajú "
+"sa žiadne B-snímky."
 
 #: modules/codec/qsv.c:85
 msgid "Target Usage"
-msgstr ""
+msgstr "Cieľové použitie"
 
 #: modules/codec/qsv.c:86
 msgid ""
 "The target usage allow to choose between different trade-offs between "
 "quality and speed. Allowed values are : 'speed', 'balanced' and 'quality'."
 msgstr ""
+"Cieľové použitie umožňuje výber medzi rôznymi pomermi medzi kvalitou a "
+"rýchlosťou. Povolené hodnoty sú 'speed', 'balanced' a 'quality'."
 
 #: modules/codec/qsv.c:90
-#, fuzzy
 msgid "IDR interval"
-msgstr "Ochranný interval"
+msgstr "Interval IDR"
 
 #: modules/codec/qsv.c:92
 msgid ""
@@ -12023,22 +12034,29 @@ msgid ""
 "the sequence header before every Nth I-frame. If IdrInterval=0 (default), "
 "SDK inserts the sequence header once at the beginning of the stream. "
 msgstr ""
+"Pre H.264, špecifikuje parameter IdrInterval interval snímky IDR v "
+"podmienkach  I-snímok; ak IdrInterval=0, tak každý I-snímok je snímkom IDR. "
+"Ak IdrInterval=1, tak každý druhý I-snímok je snímkom IDR a podobne. Pre "
+"MPEG2, definuje parameter IdrInterval interval hlavičky sekvencie, v "
+"podmienkach I-snímok. Ak IdrInterval=N, SDK vloží hlavičku sekvencie pred "
+"každý N-tý I-snímok. Ak IdrInterval=0 (predvolená hodnota), SDK vloží "
+"hlavičku sekvencie len raz na začiatku streamu. "
 
 #: modules/codec/qsv.c:100
-#, fuzzy
 msgid "Rate Control Method"
-msgstr "Metóda kontroly rýchlosti"
+msgstr "Metóda funkcie Rate Control"
 
 #: modules/codec/qsv.c:102
 msgid ""
 "The rate control method to use when encoding. Can be one of 'crb', 'vbr', "
 "'qp', 'avbr'. 'qp' mode isn't supported for mpeg2"
 msgstr ""
+"Metóda funkcie rate control, ktorá sa použije pri kódovaní. Platné hodnoty "
+"sú 'crb', 'vbr', 'qp', 'avbr'. Režim 'qp' nie je podporovaný pre mpeg2"
 
 #: modules/codec/qsv.c:105
-#, fuzzy
 msgid "Quantization parameter"
-msgstr "Kvantizačný faktor pre I-snímky"
+msgstr "Parameter kvantizácie"
 
 #: modules/codec/qsv.c:106
 msgid ""
@@ -12046,39 +12064,50 @@ msgid ""
 "qpp and qpp. It has less precedence than the forementionned parameters. Used "
 "only if rc_method is 'qp'."
 msgstr ""
+"Parameter kvantizácie pre všetky typy snímkov. Tento parameter nastavuje "
+"qpi, qpp a qpp. Má menšiu prednosť ako parametre uvedené predtým. Používa sa "
+"iba ak je nastavená voľba rc_method na hodnotu 'qp'."
 
 #: modules/codec/qsv.c:110
 msgid "Quantization parameter for I-frames"
-msgstr ""
+msgstr "Parameter kvantizácie pre I-snímky"
 
 #: modules/codec/qsv.c:111
 msgid ""
 "Quantization parameter for I-frames. This parameter overrides any qp set "
 "globally. Used only if rc_method is 'qp'."
 msgstr ""
+"Parameter kvantizácie pre I-snímky. Tento parameter globálne potlačí "
+"akékoľvek nastavenie qp. Používa a iba ak je voľba rc_method nastavená na "
+"možnosť 'qp'."
 
 #: modules/codec/qsv.c:114
 msgid "Quantization parameter for P-frames"
-msgstr ""
+msgstr "Parameter kvantizácie pre P-snímky"
 
 #: modules/codec/qsv.c:115
 msgid ""
 "Quantization parameter for P-frames. This parameter overrides any qp set "
 "globally. Used only if rc_method is 'qp'."
 msgstr ""
+"Parameter kvantizácie pre P-snímky. Tento parameter globálne potlačí "
+"akékoľvek nastavenie qp. Používa a iba ak je voľba rc_method nastavená na "
+"možnosť 'qp'."
 
 #: modules/codec/qsv.c:118
 msgid "Quantization parameter for B-frames"
-msgstr ""
+msgstr "Parameter kvantizácie pre B-snímky"
 
 #: modules/codec/qsv.c:119
 msgid ""
 "Quantization parameter for B-frames. This parameter overrides any qp set "
 "globally. Used only if rc_method is 'qp'."
 msgstr ""
+"Parameter kvantizácie pre B-snímky. Tento parameter globálne potlačí "
+"akékoľvek nastavenie qp. Používa a iba ak je voľba rc_method nastavená na "
+"možnosť 'qp'."
 
 #: modules/codec/qsv.c:122
-#, fuzzy
 msgid "Maximum Bitrate"
 msgstr "Maximálny dátový tok"
 
@@ -12088,10 +12117,13 @@ msgid ""
 "method. If not set, this parameter. is computed from other sources such as "
 "bitrate, profile, level, etc."
 msgstr ""
+"Definuje maximálny dátový tok v Kpbs (1000 bitov/s) pre metódu kontroly "
+"hodnotenia VBR. Ak nie je táto voľba natavená, je tento parameter "
+"vypočítavaný z iných zdrojov, ako je dátový tok, profil, úroveň a podobne."
 
 #: modules/codec/qsv.c:127
 msgid "Accuracy of RateControl"
-msgstr ""
+msgstr "Presnosť funkcie RateControl"
 
 #: modules/codec/qsv.c:128
 msgid ""
@@ -12100,21 +12132,28 @@ msgid ""
 "880 kpbs and under  730 kpbs. The targeted accuracy is only reached after a "
 "certained  convergence period. See the convergence parameter"
 msgstr ""
+"Percentuálna tolerancia metódy 'avbr' (Average Variable BitRate). (Napríklad "
+"hodnota 10 s dátovým tokom 800 kpbs znamená, že kodér sa pokúsi neprekročiť "
+"880 kpbs, avšak dosiahnuť viac ako 730 kpbs. Cieľová presnosť je dosiahnutá "
+"až po uplynutí určitého času konvergencie. Pozrite si parameter pre "
+"konvergenciu."
 
 #: modules/codec/qsv.c:134
 msgid "Convergence time of 'avbr' RateControl"
-msgstr ""
+msgstr "Čas konvergencie funkcie 'avbr' RateControl"
 
 #: modules/codec/qsv.c:135
 msgid ""
 "Number of 100 frames before the 'avbr' rate control method reaches the "
 "requested bitrate with the requested accuracy. See the accuracy parameter. "
 msgstr ""
+"Počet 100 snímkov predtým, než metóda rate control 'avbr' dosiahne "
+"požadovaný dátový tok s požadovanou presnosťou. Pozrite si parameter pre "
+"presnosť."
 
 #: modules/codec/qsv.c:139
-#, fuzzy
 msgid "Number of slices per frame"
-msgstr "Vynútiť si počet výrezov na jednu snímku"
+msgstr "Počet pruhov na snímok"
 
 #: modules/codec/qsv.c:140
 msgid ""
@@ -12122,15 +12161,17 @@ msgid ""
 "block rows. If numslice is not set, the encoder may choose any slice "
 "partitioning allowed by the codec standard."
 msgstr ""
+"Počet pruhov v každom snímku videa; každý pruh obsahuje jeden alebo viac "
+"riadkov s makro-blokom. Ak nie je počet pruhov nastavený, kodér si môže "
+"zvoliť akékoľvek členenie na pruhy, ktoré povoľuje štandard daného kodeku."
 
 #: modules/codec/qsv.c:145 modules/codec/qsv.c:146 modules/codec/x264.c:134
 msgid "Number of reference frames"
 msgstr "Počet referenčných snímok"
 
 #: modules/codec/qsv.c:148
-#, fuzzy
 msgid "Number of parallel operations"
-msgstr "Počet iterácií DWT"
+msgstr "Počet paralelných operácií"
 
 #: modules/codec/qsv.c:149
 msgid ""
@@ -12138,10 +12179,13 @@ msgid ""
 "result. Higher  may result on better throughput depending on hardware. MPEG2 "
 "needs at least 1 here."
 msgstr ""
+"Defineuje počas paralelných operácii pri kódovaní predtým, než sa bude "
+"výsledok synchronizovať. Väčšia hodnota môže vyvolať lepšiu priepustnosť, čo "
+"však závisí od konkrétneho hardvéru. MPEG2 si vyžaduje hodnotu aspoň 1."
 
 #: modules/codec/qsv.c:193
 msgid "Intel QuickSync Video encoder for MPEG4-Part10/MPEG2 (aka H.264/H.262)"
-msgstr ""
+msgstr "Kodér Intel QuickSync Video pre MPEG4-Part10/MPEG2 (H.264/H.262)"
 
 #: modules/codec/quicktime.c:66
 msgid "QuickTime library decoder"
@@ -29602,9 +29646,6 @@ msgstr "AAAA; "
 msgid "Media Manager List"
 msgstr "Zoznam správcov médií"
 
-#~ msgid "Add a subtitle file"
-#~ msgstr "Pridať súbor s titulkami"
-
 #~ msgid ""
 #~ "SAP is a way to publically announce streams that are being sent using "
 #~ "multicast UDP or RTP."
@@ -31573,6 +31614,10 @@ msgstr "Zoznam správcov médií"
 #~ msgstr "Vstup pre zvukové záznamy ALSA"
 
 #, fuzzy
+#~ msgid "Add a subtitle file"
+#~ msgstr "Použiť súbor s ti&tulkami"
+
+#, fuzzy
 #~ msgid "Subtitles/OSD"
 #~ msgstr "Titulky / OSD"
 
@@ -32701,7 +32746,7 @@ msgstr "Zoznam správcov médií"
 
 #, fuzzy
 #~ msgid "Load subtitles file:"
-#~ msgstr "Pridať súbor s titulkami"
+#~ msgstr "Použiť súbor s titulkami"
 
 #, fuzzy
 #~ msgid "Subtitles encoding"
@@ -33300,7 +33345,7 @@ msgstr "Zoznam správcov médií"
 
 #, fuzzy
 #~ msgid "Number of lines for change"
-#~ msgstr "Počet zvukových kanálov"
+#~ msgstr "Počet pruhov na snímok"
 
 #, fuzzy
 #~ msgid "Number of non black pixels "
@@ -33401,7 +33446,7 @@ msgstr "Zoznam správcov médií"
 
 #, fuzzy
 #~ msgid "Enable desktop mode "
-#~ msgstr "Zapnúť efekt Megabass."
+#~ msgstr "Zapnúť softvérový režim"
 
 #, fuzzy
 #~ msgid "Try to use hardware acceleration for subtitles/OSD blending."
@@ -33535,7 +33580,7 @@ msgstr "Zoznam správcov médií"
 
 #, fuzzy
 #~ msgid "Add a subtitles file"
-#~ msgstr "Pridať súbor s titulkami"
+#~ msgstr "Použiť súbor s ti&tulkami"
 
 #, fuzzy
 #~ msgid "Use a sub&titles file"
