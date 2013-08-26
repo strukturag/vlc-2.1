@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-08-05 13:45+0200\n"
-"PO-Revision-Date: 2013-06-08 09:05+0000\n"
+"PO-Revision-Date: 2013-07-13 14:19+0000\n"
 "Last-Translator: law <exclusion@gmail.com>\n"
 "Language-Team: Russian (http://www.transifex.com/projects/p/vlc-trans/"
 "language/ru/)\n"
@@ -11784,20 +11784,20 @@ msgid "PNG video decoder"
 msgstr "Видеодекодер PNG"
 
 #: modules/codec/qsv.c:56
-#, fuzzy
 msgid "Enable software mode"
-msgstr "Видео на рабочем столе"
+msgstr "Включить программный режим"
 
 #: modules/codec/qsv.c:57
 msgid ""
 "Allow the use of the Intel Media SDK software implementation of the codecs "
 "if no QuickSync Video hardware acceleration is present on the system."
 msgstr ""
+"Включить программную реализацию кодеков Intel Media SDK, если в системе "
+"отсутствует аппаратное ускорение QuickSync Video."
 
 #: modules/codec/qsv.c:61
-#, fuzzy
 msgid "Codec Profile"
-msgstr "Выберите профиль"
+msgstr "Профиль кодека"
 
 #: modules/codec/qsv.c:63
 msgid ""
@@ -11805,11 +11805,13 @@ msgid ""
 "the correct profile from other sources, such as resolution and bitrate. E.g. "
 "'high'"
 msgstr ""
+"Укажите явно профиль кодека (например, 'high'). Если этого не сделать, кодек "
+"попытается выбрать подходящий профиль по таким характеристикам, как "
+"разрешение и битрейт."
 
 #: modules/codec/qsv.c:67
-#, fuzzy
 msgid "Codec Level"
-msgstr "Название кодека"
+msgstr "Уровень кодека"
 
 #: modules/codec/qsv.c:69
 msgid ""
@@ -11817,10 +11819,13 @@ msgid ""
 "the correct profile from other sources, such as resolution and bitrate. E.g. "
 "'4.2' for mpeg4-part10 or 'low' for mpeg2"
 msgstr ""
+"Укажите явно уровень кодека (например: '4.2' для mpeg4-part10 или 'low' для "
+"mpeg2). Если этого не сделать, кодек попытается выбрать подходящий профиль "
+"по таким характеристикам, как разрешение и битрейт."
 
 #: modules/codec/qsv.c:73
 msgid "Group of Picture size"
-msgstr ""
+msgstr "Размер группы изображений (GOP)"
 
 #: modules/codec/qsv.c:75
 msgid ""
@@ -11828,32 +11833,38 @@ msgid ""
 "GopPicSize=0, then the GOP size is unspecified. If GopPicSize=1, only I-"
 "frames are used."
 msgstr ""
+"Число изображений в текущей группе изображений (GOP). При GopPicSize равном "
+"0 размер GOP не определён; если GopPicSize равно 1, используются только I-"
+"кадры."
 
 #: modules/codec/qsv.c:79
-#, fuzzy
 msgid "Group of Picture Reference Distance"
-msgstr "Имя данного экземпляра"
+msgstr "Интервал группы изображений"
 
 #: modules/codec/qsv.c:81
 msgid ""
 "Distance between I- or P- key frames; if it is zero, the GOP structure is "
 "unspecified. Note: If GopRefDist = 1, there are no B- frames used. "
 msgstr ""
+"Интервал между ключевыми I- или P-кадрами. Если равен 0, структура GOP не "
+"определена. Примечание: если GopRefDist = 1, B-кадры не будут применяться. "
 
 #: modules/codec/qsv.c:85
 msgid "Target Usage"
-msgstr ""
+msgstr "Ориентир оптимизации"
 
 #: modules/codec/qsv.c:86
 msgid ""
 "The target usage allow to choose between different trade-offs between "
 "quality and speed. Allowed values are : 'speed', 'balanced' and 'quality'."
 msgstr ""
+"Ориентир оптимизации позволяет выбрать вариант кодирования, оптимальный с "
+"точки зрения скорости или качества. Допустимые значения: 'speed', 'balanced' "
+"и 'quality'."
 
 #: modules/codec/qsv.c:90
-#, fuzzy
 msgid "IDR interval"
-msgstr "Защитный интервал"
+msgstr "Интервал IDR"
 
 #: modules/codec/qsv.c:92
 msgid ""
@@ -11864,22 +11875,29 @@ msgid ""
 "the sequence header before every Nth I-frame. If IdrInterval=0 (default), "
 "SDK inserts the sequence header once at the beginning of the stream. "
 msgstr ""
+"Для H.264 IdrInterval определяет интервал IDR-кадров через I-кадры; если "
+"IdrInterval=0, каждый I-кадр считается IDR-кадром. Если IdrInterval=1, IDR-"
+"кадром считается каждый второй I-кадр и т.д. Для MPEG2 IdrInterval "
+"определяет через I-кадры интервал между заголовками последовательности. Если "
+"IdrInterval=N, SDK вставляет заголовок последовательности перед каждым N-ым "
+"I-кадром. Если IdrInterval=0 (по умолчанию), SDK вставляет заголовок "
+"последовательности один раз в начале потока. "
 
 #: modules/codec/qsv.c:100
-#, fuzzy
 msgid "Rate Control Method"
-msgstr "Метод выбора битрейта"
+msgstr "Метод управления скоростью"
 
 #: modules/codec/qsv.c:102
 msgid ""
 "The rate control method to use when encoding. Can be one of 'crb', 'vbr', "
 "'qp', 'avbr'. 'qp' mode isn't supported for mpeg2"
 msgstr ""
+"Метод управления скоростью потока при кодировании. Может принимать значения "
+"'crb', 'vbr', 'qp' и 'avbr'. Режим 'qp' для mpeg2 не поддерживается."
 
 #: modules/codec/qsv.c:105
-#, fuzzy
 msgid "Quantization parameter"
-msgstr "Фактор квантования I-кадров"
+msgstr "Параметр квантования"
 
 #: modules/codec/qsv.c:106
 msgid ""
@@ -11887,39 +11905,46 @@ msgid ""
 "qpp and qpp. It has less precedence than the forementionned parameters. Used "
 "only if rc_method is 'qp'."
 msgstr ""
+"Параметр квантования для кадров всех типов. Определяет qpi, qpp и qpp, но "
+"имеет меньший приоритет. Используется, только если rc_method равен 'qp'."
 
 #: modules/codec/qsv.c:110
 msgid "Quantization parameter for I-frames"
-msgstr ""
+msgstr "Параметр квантования для I-кадров"
 
 #: modules/codec/qsv.c:111
 msgid ""
 "Quantization parameter for I-frames. This parameter overrides any qp set "
 "globally. Used only if rc_method is 'qp'."
 msgstr ""
+"Параметр квантования для I-кадров. Этот параметр переопределяет qp, заданный "
+"глобально. Используется, только если rc_method равен 'qp'."
 
 #: modules/codec/qsv.c:114
 msgid "Quantization parameter for P-frames"
-msgstr ""
+msgstr "Параметр квантования для P-кадров"
 
 #: modules/codec/qsv.c:115
 msgid ""
 "Quantization parameter for P-frames. This parameter overrides any qp set "
 "globally. Used only if rc_method is 'qp'."
 msgstr ""
+"Параметр квантования для P-кадров. Этот параметр переопределяет qp, заданный "
+"глобально. Используется, только если rc_method равен 'qp'."
 
 #: modules/codec/qsv.c:118
 msgid "Quantization parameter for B-frames"
-msgstr ""
+msgstr "Параметр квантования для B-кадров"
 
 #: modules/codec/qsv.c:119
 msgid ""
 "Quantization parameter for B-frames. This parameter overrides any qp set "
 "globally. Used only if rc_method is 'qp'."
 msgstr ""
+"Параметр квантования для B-кадров. Этот параметр переопределяет qp, заданный "
+"глобально. Используется, только если rc_method равен 'qp'."
 
 #: modules/codec/qsv.c:122
-#, fuzzy
 msgid "Maximum Bitrate"
 msgstr "Максимальный битрейт"
 
@@ -11929,10 +11954,13 @@ msgid ""
 "method. If not set, this parameter. is computed from other sources such as "
 "bitrate, profile, level, etc."
 msgstr ""
+"Определяет максимальный битрейт в Кбит/сек (1000 бит/сек) для режима "
+"переменного битрейта. Если этот предел не задан, он вычисляется из таких "
+"характеристик, как битрейт, профиль, уровень и т.п."
 
 #: modules/codec/qsv.c:127
 msgid "Accuracy of RateControl"
-msgstr ""
+msgstr "Точность управления скоростью"
 
 #: modules/codec/qsv.c:128
 msgid ""
@@ -11941,19 +11969,25 @@ msgid ""
 "880 kpbs and under  730 kpbs. The targeted accuracy is only reached after a "
 "certained  convergence period. See the convergence parameter"
 msgstr ""
+"Допустимый процент отклонения скорости для метода 'avbr' (средний переменный "
+"битрейт) (например, при значении 10 и битрейте 800 Кбит/с кодировщик будет "
+"стремиться не выходить за рамки 730..880 Кбит/с. Требуемая точность "
+"достигается только после определённого времени сходимости. См. "
+"соответствующий параметр."
 
 #: modules/codec/qsv.c:134
 msgid "Convergence time of 'avbr' RateControl"
-msgstr ""
+msgstr "Время сходимости в режиме 'avbr'"
 
 #: modules/codec/qsv.c:135
 msgid ""
 "Number of 100 frames before the 'avbr' rate control method reaches the "
 "requested bitrate with the requested accuracy. See the accuracy parameter. "
 msgstr ""
+"Число кадров из 100, после обработки которых метод 'avbr' достигает "
+"запрошенного битрейта с заданной точностью. См. параметр точности. "
 
 #: modules/codec/qsv.c:139
-#, fuzzy
 msgid "Number of slices per frame"
 msgstr "Число срезов на кадр"
 
@@ -11963,15 +11997,17 @@ msgid ""
 "block rows. If numslice is not set, the encoder may choose any slice "
 "partitioning allowed by the codec standard."
 msgstr ""
+"Число срезов в каждом кадре видео; каждый срез содержит одну или несколько "
+"строк макроблоков. Если этот параметр не задан, кодировщик может выбрать "
+"любое разбиение, допустимое стандартом кодека."
 
 #: modules/codec/qsv.c:145 modules/codec/qsv.c:146 modules/codec/x264.c:134
 msgid "Number of reference frames"
-msgstr "Количество референсных кадров"
+msgstr "Число референсных кадров"
 
 #: modules/codec/qsv.c:148
-#, fuzzy
 msgid "Number of parallel operations"
-msgstr "Количество повторений ДВП"
+msgstr "Число параллельных операций"
 
 #: modules/codec/qsv.c:149
 msgid ""
@@ -11979,10 +12015,13 @@ msgid ""
 "result. Higher  may result on better throughput depending on hardware. MPEG2 "
 "needs at least 1 here."
 msgstr ""
+"Задаёт число операций кодирования, выполняемых одновременно до синхронизации "
+"результата. Чем выше это число, тем больше скорость (в зависимости от "
+"оборудования). Для MPEG2 значение должно быть не меньше 1."
 
 #: modules/codec/qsv.c:193
 msgid "Intel QuickSync Video encoder for MPEG4-Part10/MPEG2 (aka H.264/H.262)"
-msgstr ""
+msgstr "Кодировщик Intel QuickSync Video для MPEG4-Part10/MPEG2 (H.264/H.262)"
 
 #: modules/codec/quicktime.c:66
 msgid "QuickTime library decoder"
@@ -12197,7 +12236,7 @@ msgstr "Вертикальных срезов на кадр"
 
 #: modules/codec/schroedinger.c:283
 msgid "Number of vertical slices per frame in low delay mode"
-msgstr "Число вертикальных срезов на кадр в режиме минимально задержки"
+msgstr "Число вертикальных срезов на кадр в режиме минимальной задержки"
 
 #: modules/codec/schroedinger.c:287
 msgid "Size of code blocks in each subband"
@@ -12834,7 +12873,7 @@ msgid ""
 msgstr ""
 "Минимальный интервал между IDR-кадрами. В H.264 I-кадры не обязательно "
 "ограничиваются GOP (Group Of Pictures - группа изображений), возможна "
-"ситуация когда P-кадр будет получен из нескольких кадров, а не только из "
+"ситуация, когда P-кадр будет получен из нескольких кадров, а не только из "
 "одного кадра перед ним (см. референсные кадры). Отсюда следуют, что I-кадры "
 "не обязательно могут быть ключевыми для позиционирования. P-кадры не могут "
 "ссылаться на кадры за IDR-кадрами.\n"
@@ -22691,7 +22730,7 @@ msgid ""
 msgstr ""
 "Нарезает поток на отдельные элементы заданной длительности и устанавливает "
 "постоянный битрейт между границами этих элементов. Это позволяет избежать "
-"больший скачков битрейта, особенно для референсных кадров."
+"больших скачков битрейта, особенно для референсных кадров."
 
 #: modules/mux/mpeg/ts.c:129
 msgid "Use keyframes"
@@ -29197,9 +29236,6 @@ msgstr "AAAA; "
 msgid "Media Manager List"
 msgstr "Список настроек медиаменеджера"
 
-#~ msgid "Add a subtitle file"
-#~ msgstr "Добавить файл субтитров"
-
 #~ msgid ""
 #~ "SAP is a way to publically announce streams that are being sent using "
 #~ "multicast UDP or RTP."
@@ -31133,6 +31169,10 @@ msgstr "Список настроек медиаменеджера"
 #~ msgstr "Ввод для захвата iSight"
 
 #, fuzzy
+#~ msgid "Add a subtitle file"
+#~ msgstr "Использовать файл суб&титров"
+
+#, fuzzy
 #~ msgid "Subtitles/OSD"
 #~ msgstr "Субтитры / экранное меню"
 
@@ -32241,7 +32281,7 @@ msgstr "Список настроек медиаменеджера"
 
 #, fuzzy
 #~ msgid "Load subtitles file:"
-#~ msgstr "Добавить файл субтитров"
+#~ msgstr "Использовать файл субтитров"
 
 #, fuzzy
 #~ msgid "Subtitles encoding"
@@ -32842,7 +32882,7 @@ msgstr "Список настроек медиаменеджера"
 
 #, fuzzy
 #~ msgid "Number of lines for change"
-#~ msgstr "Количество аудиоканалов"
+#~ msgstr "Число срезов на кадр"
 
 #, fuzzy
 #~ msgid "Number of non black pixels "
@@ -32936,7 +32976,7 @@ msgstr "Список настроек медиаменеджера"
 
 #, fuzzy
 #~ msgid "Enable desktop mode "
-#~ msgstr "Включить режим супербаса"
+#~ msgstr "Включить программный режим"
 
 #, fuzzy
 #~ msgid "Try to use hardware acceleration for subtitles/OSD blending."
@@ -33070,7 +33110,7 @@ msgstr "Список настроек медиаменеджера"
 
 #, fuzzy
 #~ msgid "Add a subtitles file"
-#~ msgstr "Добавить файл субтитров"
+#~ msgstr "Использовать файл суб&титров"
 
 #, fuzzy
 #~ msgid "Use a sub&titles file"
