@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-08-05 13:45+0200\n"
-"PO-Revision-Date: 2013-06-27 03:52+0000\n"
+"PO-Revision-Date: 2013-07-17 17:45+0000\n"
 "Last-Translator: Андрій Бандура <andriykopanytsia@gmail.com>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/projects/p/vlc-trans/"
 "language/uk/)\n"
@@ -7033,9 +7033,9 @@ msgid ""
 "HTTP proxy to be used It must be of the form http://[user@]myproxy.mydomain:"
 "myport/ ; if empty, the http_proxy environment variable will be tried."
 msgstr ""
-"Використовуваний HTTP-проксі. Припустимий формат: «http://"
-"[користувач@]проксі.домен:порт/». Якщо поле пусте, використовуватиметься "
-"змінна оточення «http_proxy»."
+"Використовуваний HTTP-проксі. Припустимий формат: «http://[користувач@]"
+"проксі.домен:порт/». Якщо поле пусте, використовуватиметься змінна оточення "
+"«http_proxy»."
 
 #: modules/access/http.c:70
 msgid "HTTP proxy password"
@@ -11802,20 +11802,20 @@ msgid "PNG video decoder"
 msgstr "Відеодекодер PNG"
 
 #: modules/codec/qsv.c:56
-#, fuzzy
 msgid "Enable software mode"
-msgstr "Відео на робочому столі "
+msgstr "Увімкнути програмний режим"
 
 #: modules/codec/qsv.c:57
 msgid ""
 "Allow the use of the Intel Media SDK software implementation of the codecs "
 "if no QuickSync Video hardware acceleration is present on the system."
 msgstr ""
+"Дозволяє використовувати програмну реалізацію кодеків Intel Media SDK, якщо "
+"в системі відсутнє апаратне прискорення QuickSync Video."
 
 #: modules/codec/qsv.c:61
-#, fuzzy
 msgid "Codec Profile"
-msgstr "Вибрати Профіль"
+msgstr "Профіль кодеку"
 
 #: modules/codec/qsv.c:63
 msgid ""
@@ -11823,11 +11823,13 @@ msgid ""
 "the correct profile from other sources, such as resolution and bitrate. E.g. "
 "'high'"
 msgstr ""
+"Вкажіть явно профіль кодека. Наприклад, 'high'. Якщо цього не зробити, кодек "
+"спробує вибрати відповідний профіль за такими характеристиками, як "
+"роздільність і бітрейт."
 
 #: modules/codec/qsv.c:67
-#, fuzzy
 msgid "Codec Level"
-msgstr "Назва кодека"
+msgstr "Рівень кодеку"
 
 #: modules/codec/qsv.c:69
 msgid ""
@@ -11835,10 +11837,13 @@ msgid ""
 "the correct profile from other sources, such as resolution and bitrate. E.g. "
 "'4.2' for mpeg4-part10 or 'low' for mpeg2"
 msgstr ""
+"Вкажіть явно рівень кодека. Наприклад: '4.2' для mpeg4-part10 або 'low' для "
+"mpeg2. Якщо цього не зробити, кодек спробує вибрати відповідний профіль за "
+"такими характеристиками, як роздільність і бітрейт."
 
 #: modules/codec/qsv.c:73
 msgid "Group of Picture size"
-msgstr ""
+msgstr "Розмір групи зображень"
 
 #: modules/codec/qsv.c:75
 msgid ""
@@ -11846,32 +11851,39 @@ msgid ""
 "GopPicSize=0, then the GOP size is unspecified. If GopPicSize=1, only I-"
 "frames are used."
 msgstr ""
+"Число зображень у поточній групі зображень (GOP). При GopPicSize рівному 0 "
+"розмір GOP не визначено; якщо GopPicSize дорівнює 1, використовуються тільки "
+"I-кадри."
 
 #: modules/codec/qsv.c:79
-#, fuzzy
 msgid "Group of Picture Reference Distance"
-msgstr "Ім’я поточної копії"
+msgstr "Інтервал групи зображень"
 
 #: modules/codec/qsv.c:81
 msgid ""
 "Distance between I- or P- key frames; if it is zero, the GOP structure is "
 "unspecified. Note: If GopRefDist = 1, there are no B- frames used. "
 msgstr ""
+"Інтервал між ключовими I- або P-кадрами. Якщо дорівнює 0, то структура GOP "
+"не визначена. Примітка: якщо GopRefDist = 1, то B-кадри не будуть "
+"застосовуватися."
 
 #: modules/codec/qsv.c:85
 msgid "Target Usage"
-msgstr ""
+msgstr "Цільове використання"
 
 #: modules/codec/qsv.c:86
 msgid ""
 "The target usage allow to choose between different trade-offs between "
 "quality and speed. Allowed values are : 'speed', 'balanced' and 'quality'."
 msgstr ""
+"Цільове використання дозволяє вибрати варіант кодування, оптимальний з точки "
+"зору швидкості або якості. Допустимі значення: 'speed', 'balanced' й "
+"'quality'"
 
 #: modules/codec/qsv.c:90
-#, fuzzy
 msgid "IDR interval"
-msgstr "Захисний інтервал"
+msgstr "Інтервал IDR"
 
 #: modules/codec/qsv.c:92
 msgid ""
@@ -11882,9 +11894,15 @@ msgid ""
 "the sequence header before every Nth I-frame. If IdrInterval=0 (default), "
 "SDK inserts the sequence header once at the beginning of the stream. "
 msgstr ""
+"Для H.264 IdrInterval визначає інтервал IDR-кадрів через I-кадри; при "
+"IdrInterval = 0 кожен I-кадр вважається IDR-кадром. При IdrInterval = 1 IDR-"
+"кадром вважається кожен другий I-кадр і т.д. Для MPEG2 IdrInterval визначає "
+"через I-кадри інтервал між заголовками послідовності. При IdrInterval=N SDK "
+"вставляє заголовок послідовності перед кожним N-им I-кадром. При IdrInterval "
+"= 0 (за замовчуванням) SDK вставляє заголовок послідовності один раз на "
+"початку потоку."
 
 #: modules/codec/qsv.c:100
-#, fuzzy
 msgid "Rate Control Method"
 msgstr "Метод контролю частоти"
 
@@ -11893,11 +11911,12 @@ msgid ""
 "The rate control method to use when encoding. Can be one of 'crb', 'vbr', "
 "'qp', 'avbr'. 'qp' mode isn't supported for mpeg2"
 msgstr ""
+"Метод керування частотою при кодуванні. Може приймати значення 'crb', 'vbr', "
+"'qp' й 'avbr'. Режим 'qp' для mpeg2 не підтримується."
 
 #: modules/codec/qsv.c:105
-#, fuzzy
 msgid "Quantization parameter"
-msgstr "Фактор квантування I-кадрів"
+msgstr "Параметр квантування"
 
 #: modules/codec/qsv.c:106
 msgid ""
@@ -11905,39 +11924,47 @@ msgid ""
 "qpp and qpp. It has less precedence than the forementionned parameters. Used "
 "only if rc_method is 'qp'."
 msgstr ""
+"Параметр квантування для кадрів усіх типів. Визначає qpi, qpp і qpp, але має "
+"менший пріоритет попередньо згадані параметри. Використовується тільки якщо "
+"rc_method дорівнює 'qp'."
 
 #: modules/codec/qsv.c:110
 msgid "Quantization parameter for I-frames"
-msgstr ""
+msgstr "Параметр квантування для I-кадрів"
 
 #: modules/codec/qsv.c:111
 msgid ""
 "Quantization parameter for I-frames. This parameter overrides any qp set "
 "globally. Used only if rc_method is 'qp'."
 msgstr ""
+"Параметр квантування для I-кадрів. Цей параметр перевизначає qp, заданий "
+"глобально. Використовується, тільки якщо rc_method дорівнює 'qp'."
 
 #: modules/codec/qsv.c:114
 msgid "Quantization parameter for P-frames"
-msgstr ""
+msgstr "Параметр квантування для P-кадрів"
 
 #: modules/codec/qsv.c:115
 msgid ""
 "Quantization parameter for P-frames. This parameter overrides any qp set "
 "globally. Used only if rc_method is 'qp'."
 msgstr ""
+"Параметр квантування для P-кадрів. Цей параметр перевизначає qp, заданий "
+"глобально. Використовується, тільки якщо rc_method дорівнює 'qp'."
 
 #: modules/codec/qsv.c:118
 msgid "Quantization parameter for B-frames"
-msgstr ""
+msgstr "Параметр квантування для B-кадрів"
 
 #: modules/codec/qsv.c:119
 msgid ""
 "Quantization parameter for B-frames. This parameter overrides any qp set "
 "globally. Used only if rc_method is 'qp'."
 msgstr ""
+"Параметр квантування для B-кадрів. Цей параметр перевизначає qp, заданий "
+"глобально. Використовується, тільки якщо rc_method дорівнює 'qp'."
 
 #: modules/codec/qsv.c:122
-#, fuzzy
 msgid "Maximum Bitrate"
 msgstr "Максимальний бітрейт"
 
@@ -11947,10 +11974,13 @@ msgid ""
 "method. If not set, this parameter. is computed from other sources such as "
 "bitrate, profile, level, etc."
 msgstr ""
+"Визначає максимальний бітрейт в Кбіт/с (1000 біт/с) для методу контролю "
+"частоти VBR. Якщо ця межа не задана, то він обчислюється з таких "
+"характеристик, як бітрейт, профіль, рівень тощо."
 
 #: modules/codec/qsv.c:127
 msgid "Accuracy of RateControl"
-msgstr ""
+msgstr "Точністю управління частотою"
 
 #: modules/codec/qsv.c:128
 msgid ""
@@ -11959,19 +11989,24 @@ msgid ""
 "880 kpbs and under  730 kpbs. The targeted accuracy is only reached after a "
 "certained  convergence period. See the convergence parameter"
 msgstr ""
+"Допустимий відсоток відхилення частоти для методу 'avbr' (середній змінний "
+"бітрейт) (наприклад, при значенні 10 і бітрейті 800 Кбіт/с кодер прагнутиме "
+"не виходити за рамки 730-880 Кбіт/с. Необхідна точність досягається тільки "
+"після певного часу збіжності. Див. параметр збіжності."
 
 #: modules/codec/qsv.c:134
 msgid "Convergence time of 'avbr' RateControl"
-msgstr ""
+msgstr "Час збіжності в режимі 'avbr'"
 
 #: modules/codec/qsv.c:135
 msgid ""
 "Number of 100 frames before the 'avbr' rate control method reaches the "
 "requested bitrate with the requested accuracy. See the accuracy parameter. "
 msgstr ""
+"Число кадрів з 100, після обробки яких метод контролю частоти 'avbr' досягає "
+"запитаного бітрейта із заданою точністю. Див. параметр точності."
 
 #: modules/codec/qsv.c:139
-#, fuzzy
 msgid "Number of slices per frame"
 msgstr "Число частин на кадр"
 
@@ -11981,15 +12016,17 @@ msgid ""
 "block rows. If numslice is not set, the encoder may choose any slice "
 "partitioning allowed by the codec standard."
 msgstr ""
+"Число частин в кожному кадрі відео; кожна частина містить одну або кілька "
+"рядків макроблоків. Якщо цей параметр не заданий, кодер може вибрати будь-"
+"яке розбиття, допустиме стандартом кодека."
 
 #: modules/codec/qsv.c:145 modules/codec/qsv.c:146 modules/codec/x264.c:134
 msgid "Number of reference frames"
 msgstr "Число референсних кадрів"
 
 #: modules/codec/qsv.c:148
-#, fuzzy
 msgid "Number of parallel operations"
-msgstr "Число кроків фільтру дискретного перетворення Уолша"
+msgstr "Число паралельних операцій"
 
 #: modules/codec/qsv.c:149
 msgid ""
@@ -11997,10 +12034,13 @@ msgid ""
 "result. Higher  may result on better throughput depending on hardware. MPEG2 "
 "needs at least 1 here."
 msgstr ""
+"Задає число операцій кодування, виконуваних одночасно до синхронізації "
+"результату. Чим вище це число, тим більша швидкість залежно від "
+"устаткування. Для MPEG2 значення повинно бути не менше 1."
 
 #: modules/codec/qsv.c:193
 msgid "Intel QuickSync Video encoder for MPEG4-Part10/MPEG2 (aka H.264/H.262)"
-msgstr ""
+msgstr "Кодер Intel QuickSync Video для MPEG4-Part10/MPEG2 (H.264/H.262)"
 
 #: modules/codec/quicktime.c:66
 msgid "QuickTime library decoder"
@@ -29266,9 +29306,6 @@ msgstr "AAAA; "
 msgid "Media Manager List"
 msgstr "Список медіаменеджеру"
 
-#~ msgid "Add a subtitle file"
-#~ msgstr "Додати файл субтитрів"
-
 #~ msgid ""
 #~ "SAP is a way to publically announce streams that are being sent using "
 #~ "multicast UDP or RTP."
@@ -31896,6 +31933,10 @@ msgstr "Список медіаменеджеру"
 #~ msgstr "Ви можете обрати режим деінтерлейсу за змовчуванням"
 
 #, fuzzy
+#~ msgid "Add a subtitle file"
+#~ msgstr "Використовувати файл суб&титрів"
+
+#, fuzzy
 #~ msgid "Subtitles/OSD"
 #~ msgstr "Субтитри/OSD"
 
@@ -33037,7 +33078,7 @@ msgstr "Список медіаменеджеру"
 
 #, fuzzy
 #~ msgid "Load subtitles file:"
-#~ msgstr "Додати файл субтитрів"
+#~ msgstr "Використовувати файл субтитрів"
 
 #, fuzzy
 #~ msgid "Subtitles encoding"
@@ -33637,7 +33678,7 @@ msgstr "Список медіаменеджеру"
 
 #, fuzzy
 #~ msgid "Number of lines for change"
-#~ msgstr "Число звукових каналів"
+#~ msgstr "Число частин на кадр"
 
 #, fuzzy
 #~ msgid "Number of non black pixels "
@@ -33732,7 +33773,7 @@ msgstr "Список медіаменеджеру"
 
 #, fuzzy
 #~ msgid "Enable desktop mode "
-#~ msgstr "Увімкнути режим мегабасу"
+#~ msgstr "Увімкнути програмний режим"
 
 #, fuzzy
 #~ msgid "Try to use hardware acceleration for subtitles/OSD blending."
@@ -33868,7 +33909,7 @@ msgstr "Список медіаменеджеру"
 
 #, fuzzy
 #~ msgid "Add a subtitles file"
-#~ msgstr "Додати файл субтитрів"
+#~ msgstr "Використовувати файл суб&титрів"
 
 #, fuzzy
 #~ msgid "Use a sub&titles file"
