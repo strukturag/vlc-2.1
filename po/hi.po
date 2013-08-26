@@ -10,7 +10,7 @@
 # Sayan Chowdhury <sayan.chowdhury2012@gmail.com>, 2012
 # Shambhu Kumar <shambhuray.sam@gmail.com>, 2013
 # Shantanu Sarkar <shantanusarkar.me@gmail.com>, 2013
-# Shashi Ranjan <rshashi906@gmail.com>, 2012
+# shashiranjan <rshashi906@gmail.com>, 2012
 # sheeshmohsin <sheeshmohsin@gmail.com>, 2013
 # Tarsem Singh <tarsemsinghtarsemsingh@gmail.com>, 2013
 msgid ""
@@ -18,8 +18,8 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-08-05 13:45+0200\n"
-"PO-Revision-Date: 2013-07-04 06:54+0000\n"
-"Last-Translator: Shantanu Sarkar <shantanusarkar.me@gmail.com>\n"
+"PO-Revision-Date: 2013-07-30 14:48+0000\n"
+"Last-Translator: Avinash Kumar Dasoundhi <avi.avinash3008@gmail.com>\n"
 "Language-Team: Hindi (http://www.transifex.com/projects/p/vlc-trans/language/"
 "hi/)\n"
 "Language: hi\n"
@@ -1565,6 +1565,8 @@ msgid ""
 "This enables colorization of the messages sent to the console Your terminal "
 "needs Linux color support for this to work."
 msgstr ""
+"यह आपका टर्मिनल काम करने के लिए लिनक्स रंग समर्थन की जरूरत है दिलासा देने के लिए भेजे गए "
+"संदेशों की colorization सक्षम बनाता है"
 
 #: src/libvlc-module.c:103
 msgid "Show advanced options"
@@ -1575,6 +1577,8 @@ msgid ""
 "When this is enabled, the preferences and/or interfaces will show all "
 "available options, including those that most users should never touch."
 msgstr ""
+"इस सक्षम करते हैं, वरीयताओं को और / या इंटरफेस अधिकांश उपयोगकर्ताओं को स्पर्श नहीं करना "
+"चाहिए कि उन सहित सभी उपलब्ध विकल्पों दिखाएगा"
 
 #: src/libvlc-module.c:109
 msgid "Interface interaction"
@@ -1585,6 +1589,7 @@ msgid ""
 "When this is enabled, the interface will show a dialog box each time some "
 "user input is required."
 msgstr ""
+"यह सक्षम है, इंटरफ़ेस एक संवाद बॉक्स कुछ उपयोगकर्ता इनपुट की आवश्यकता है हर बार दिखाएगा."
 
 #: src/libvlc-module.c:121
 msgid ""
@@ -1593,6 +1598,10 @@ msgid ""
 "(spectrum analyzer, etc.). Enable these filters here, and configure them in "
 "the \"audio filters\" modules section."
 msgstr ""
+"ये विकल्प आप ऑडियो उपतंत्र के व्यवहार को संशोधित करने के लिए, और पोस्ट प्रोसेसिंग या दृश्य "
+"प्रभाव (स्पेक्ट्रम विश्लेषक, आदि) के लिए इस्तेमाल किया जा सकता है, जो ऑडियो फिल्टर जोड़ने "
+"के लिए अनुमति देते हैं. यहाँ इन फिल्टर सक्षम करें, और \"ऑडियो फिल्टर\" में उन्हें विन्यस्त "
+"अनुभाग मॉड्यूल."
 
 #: src/libvlc-module.c:127
 msgid "Audio output module"
@@ -1616,10 +1625,12 @@ msgid ""
 "You can completely disable the audio output. The audio decoding stage will "
 "not take place, thus saving some processing power."
 msgstr ""
+"आप पूरी तरह से ऑडियो आउटपुट निष्क्रिय कर सकते हैं. ऑडियो डिकोडिंग चरण इस प्रकार कुछ "
+"प्रसंस्करण शक्ति की बचत, जगह नहीं ले जाएगा."
 
 #: src/libvlc-module.c:138
 msgid "Audio gain"
-msgstr ""
+msgstr "ऑडियो लाभ"
 
 #: src/libvlc-module.c:140
 msgid "This linear gain will be applied to outputted audio."
@@ -1631,16 +1642,18 @@ msgstr "ऑडियो आउटपुट मॉड्यूल"
 
 #: src/libvlc-module.c:144
 msgid "The step size of the volume is adjustable using this option."
-msgstr ""
+msgstr "मात्रा के कदम आकार इस विकल्प का उपयोग समायोज्य है."
 
 #: src/libvlc-module.c:147
 msgid "Remember the audio volume"
-msgstr ""
+msgstr "ऑडियो मात्रा याद रखें"
 
 #: src/libvlc-module.c:149
 msgid ""
 "The volume can be recorded and automatically restored next time VLC is used."
 msgstr ""
+"मात्रा वीएलसी प्रयोग किया जाता है अगली बार दर्ज की गई है और स्वचालित रूप से बहाल "
+"किया जा सकता है"
 
 #: src/libvlc-module.c:152
 msgid "Audio desynchronization compensation"
@@ -1651,6 +1664,8 @@ msgid ""
 "This delays the audio output. The delay must be given in milliseconds. This "
 "can be handy if you notice a lag between the video and the audio."
 msgstr ""
+"इस ऑडियो आउटपुट देरी. देरी मिलीसेकेंड में दिया जाना चाहिए. आप वीडियो और ऑडियो के बीच "
+"एक अंतराल नोटिस अगर यह काम किया जा सकता है."
 
 #: src/libvlc-module.c:157
 msgid "Audio resampler"
@@ -1666,6 +1681,8 @@ msgid ""
 "possible (ie. if your hardware supports it as well as the audio stream being "
 "played)."
 msgstr ""
+"यह संभव है जब डिफ़ॉल्ट रूप से उपयोग किया जाएगा कि ऑडियो आउटपुट चैनल मोड सेट (यानी अपने "
+"हार्डवेयर के रूप में अच्छी तरह से ऑडियो स्ट्रीम खेला जा रहा है के रूप में यह समर्थन करता है)."
 
 #: src/libvlc-module.c:166 modules/gui/macosx/simple_prefs.m:187
 #: modules/gui/qt4/ui/sprefs_audio.h:429
@@ -1689,6 +1706,10 @@ msgid ""
 "actually encoded with Dolby Surround, turning on this option might enhance "
 "your experience, especially when combined with the Headphone Channel Mixer."
 msgstr ""
+"आप अपनी धारा (या नहीं है) Dolby चारों ओर के साथ इनकोडिंग है, लेकिन इस तरह के रूप में "
+"पता लगाया जा करने में विफल रहता है पता है जब इसका प्रयोग करें. धारा वास्तव में Dolby "
+"चारों ओर के साथ इनकोडिंग नहीं है, भले ही इस विकल्प पर बदल फोन्स चैनल मिक्सर के साथ संयुक्त "
+"है, खासकर जब अपने अनुभव को बढ़ाने सकता है."
 
 #: src/libvlc-module.c:180 src/win32/thread.c:827
 #: modules/audio_output/kai.c:106 modules/codec/x264.c:434
@@ -1712,11 +1733,11 @@ msgstr "रुक"
 
 #: src/libvlc-module.c:182
 msgid "Stereo audio output mode"
-msgstr ""
+msgstr "स्टीरियो ऑडियो आउटपुट मोड"
 
 #: src/libvlc-module.c:194
 msgid "This adds audio post processing filters, to modify the sound rendering."
-msgstr ""
+msgstr "इस ध्वनि प्रतिपादन संशोधित करने के लिए, ऑडियो पोस्ट प्रोसेसिंग फिल्टर कहते हैं."
 
 #: src/libvlc-module.c:199
 msgid "This adds visualization modules (spectrum analyzer, etc.)."
@@ -1739,6 +1760,8 @@ msgid ""
 "This allows you to change the default target level (89 dB) for stream with "
 "replay gain information"
 msgstr ""
+"यह आपको फिर से खेलना लाभ जानकारी के साथ धारा के लिए तयशुदा लक्ष्य स्तर (89 DB) बदलने "
+"के लिए अनुमति देता है"
 
 #: src/libvlc-module.c:212
 msgid "Default replay gain"
@@ -1746,7 +1769,7 @@ msgstr ""
 
 #: src/libvlc-module.c:214
 msgid "This is the gain used for stream without replay gain information"
-msgstr ""
+msgstr "यह फिर से खेलना लाभ जानकारी के बिना धारा के लिए इस्तेमाल किया हासिल है"
 
 #: src/libvlc-module.c:216
 msgid "Peak protection"
@@ -1754,7 +1777,7 @@ msgstr ""
 
 #: src/libvlc-module.c:218
 msgid "Protect against sound clipping"
-msgstr ""
+msgstr "ध्वनि क्लिपिंग के खिलाफ की रक्षा"
 
 #: src/libvlc-module.c:221
 msgid "Enable time stretching audio"
@@ -1765,6 +1788,7 @@ msgid ""
 "This allows playing audio at lower or higher speed without affecting the "
 "audio pitch"
 msgstr ""
+"इस ऑडियो पिच को प्रभावित किए बिना कम या अधिक गति से ऑडियो खेलने की अनुमति देता है"
 
 #: src/libvlc-module.c:230 modules/access/dshow/dshow.cpp:2034
 #: modules/access/dtv/access.c:107 modules/access/dtv/access.c:141
@@ -1787,16 +1811,22 @@ msgid ""
 "\"video filters\" modules section. You can also set many miscellaneous video "
 "options."
 msgstr ""
+"ये विकल्प आप वीडियो उत्पादन उपतंत्र के व्यवहार को संशोधित करने के लिए अनुमति देते हैं. आप "
+"उदाहरण के लिए वीडियो फिल्टर (deinterlacing, छवि समायोजन, आदि) सक्षम कर सकते हैं. "
+"यहाँ इन फिल्टर सक्षम और \"वीडियो फिल्टर\" मॉड्यूल अनुभाग में उन्हें विन्यस्त. तुम भी कई "
+"विविध वीडियो विकल्प सेट कर सकते हैं."
 
 #: src/libvlc-module.c:244
 msgid "Video output module"
-msgstr ""
+msgstr "वीडियो आउटपुट मॉड्यूल"
 
 #: src/libvlc-module.c:246
 msgid ""
 "This is the the video output method used by VLC. The default behavior is to "
 "automatically select the best method available."
 msgstr ""
+"वीएलसी द्वारा इस्तेमाल किया वीडियो आउटपुट विधि है. डिफ़ॉल्ट व्यवहार को स्वचालित रूप से "
+"उपलब्ध सर्वोत्तम विधि का चयन करने के लिए है."
 
 #: src/libvlc-module.c:249 modules/gui/macosx/simple_prefs.m:265
 #: modules/stream_out/display.c:42 modules/gui/qt4/ui/sprefs_video.h:340
@@ -1808,19 +1838,23 @@ msgid ""
 "You can completely disable the video output. The video decoding stage will "
 "not take place, thus saving some processing power."
 msgstr ""
+"आप पूरी तरह से ऑडियो आउटपुट निष्क्रिय कर सकते हैं. ऑडियो डिकोडिंग चरण इस प्रकार कुछ "
+"प्रसंस्करण शक्ति की बचत, जगह नहीं ले जाएगा."
 
 #: src/libvlc-module.c:254 modules/stream_out/mosaic_bridge.c:109
 #: modules/stream_out/transcode/transcode.c:66
 #: modules/visualization/projectm.cpp:62
 #: modules/visualization/visual/visual.c:50 modules/visualization/vsxu.cpp:55
 msgid "Video width"
-msgstr ""
+msgstr "वीडियो चौड़ाई"
 
 #: src/libvlc-module.c:256
 msgid ""
 "You can enforce the video width. By default (-1) VLC will adapt to the video "
 "characteristics."
 msgstr ""
+"आप वीडियो चौड़ाई को लागू कर सकते हैं. डिफ़ॉल्ट रूप से (-1) वीएलसी वीडियो विशेषताओं के "
+"लिए अनुकूल होगा."
 
 #: src/libvlc-module.c:259 modules/stream_out/mosaic_bridge.c:112
 #: modules/stream_out/transcode/transcode.c:69
@@ -1843,7 +1877,7 @@ msgstr ""
 msgid ""
 "You can enforce the position of the top left corner of the video window (X "
 "coordinate)."
-msgstr ""
+msgstr "आप वीडियो विंडो के ऊपरी बाएँ कोने (एक्स समन्वय) की स्थिति लागू कर सकते हैं."
 
 #: src/libvlc-module.c:269
 msgid "Video Y coordinate"
@@ -1853,7 +1887,7 @@ msgstr ""
 msgid ""
 "You can enforce the position of the top left corner of the video window (Y "
 "coordinate)."
-msgstr ""
+msgstr "आप वीडियो विंडो (वाई निर्देशांक) के शीर्ष बाएं कोने की स्थिति लागू कर सकते हैं."
 
 #: src/libvlc-module.c:274
 msgid "Video title"
@@ -1863,7 +1897,7 @@ msgstr ""
 msgid ""
 "Custom title for the video window (in case the video is not embedded in the "
 "interface)."
-msgstr ""
+msgstr "वीडियो विंडो के लिए कस्टम शीर्षक (मामले में वीडियो इंटरफेस में एम्बेडेड नहीं है)."
 
 #: src/libvlc-module.c:279
 msgid "Video alignment"
@@ -1945,11 +1979,11 @@ msgstr "तल-दक्षिण"
 
 #: src/libvlc-module.c:289
 msgid "Zoom video"
-msgstr ""
+msgstr "ज़ूम वीडियो"
 
 #: src/libvlc-module.c:291
 msgid "You can zoom the video by the specified factor."
-msgstr ""
+msgstr "आप निर्दिष्ट कारक द्वारा वीडियो ज़ूम कर सकते हैं."
 
 #: src/libvlc-module.c:293
 msgid "Grayscale video output"
@@ -1967,15 +2001,15 @@ msgstr ""
 
 #: src/libvlc-module.c:300
 msgid "Embed the video output in the main interface."
-msgstr ""
+msgstr "मुख्य अंतरफलक में वीडियो आउटपुट शामिल करें."
 
 #: src/libvlc-module.c:302
 msgid "Fullscreen video output"
-msgstr ""
+msgstr "पूर्ण स्क्रीन वीडियो आउटपुट"
 
 #: src/libvlc-module.c:304
 msgid "Start video in fullscreen mode"
-msgstr ""
+msgstr "फुल स्क्रीन मोड में स्विच करें"
 
 #: src/libvlc-module.c:306
 msgid "Overlay video output"
@@ -1986,6 +2020,8 @@ msgid ""
 "Overlay is the hardware acceleration capability of your video card (ability "
 "to render video directly). VLC will try to use it by default."
 msgstr ""
+"ओवरले अपने वीडियो कार्ड के हार्डवेयर त्वरण क्षमता (सीधे वीडियो प्रस्तुत करने की क्षमता) है. "
+"वीएलसी डिफ़ॉल्ट रूप से इसका इस्तेमाल करने की कोशिश करेंगे."
 
 #: src/libvlc-module.c:311 src/video_output/vout_intf.c:274
 #: modules/gui/macosx/simple_prefs.m:268 modules/gui/qt4/ui/sprefs_video.h:347
@@ -1994,24 +2030,25 @@ msgstr "सदैव शीर्ष पर"
 
 #: src/libvlc-module.c:313
 msgid "Always place the video window on top of other windows."
-msgstr ""
+msgstr "हमेशा अन्य विंडोज़ के शीर्ष पर वीडियो खिड़की जगह है."
 
 #: src/libvlc-module.c:315
 msgid "Enable wallpaper mode "
-msgstr ""
+msgstr "वॉलपेपर मोड सक्षम"
 
 #: src/libvlc-module.c:317
 msgid ""
 "The wallpaper mode allows you to display the video as the desktop background."
 msgstr ""
+"वॉलपेपर मोड आप डेस्कटॉप पृष्ठभूमि के रूप में वीडियो प्रदर्शित करने के लिए अनुमति देता है."
 
 #: src/libvlc-module.c:320
 msgid "Show media title on video"
-msgstr ""
+msgstr "वीडियो पर दिखाएँ मीडिया शीर्षक"
 
 #: src/libvlc-module.c:322
 msgid "Display the title of the video on top of the movie."
-msgstr ""
+msgstr "फिल्म के शीर्ष पर वीडियो का शीर्षक प्रदर्शित करें."
 
 #: src/libvlc-module.c:324
 msgid "Show video title for x milliseconds"
@@ -2027,15 +2064,15 @@ msgstr ""
 
 #: src/libvlc-module.c:330
 msgid "Place on video where to display the title (default bottom center)."
-msgstr ""
+msgstr "जहां शीर्षक (डिफ़ॉल्ट नीचे केंद्र) प्रदर्शित करने के लिए वीडियो पर रखें."
 
 #: src/libvlc-module.c:332
 msgid "Hide cursor and fullscreen controller after x milliseconds"
-msgstr ""
+msgstr "एक्स मिसे के बाद कर्सर और फुल स्क्रीन नियंत्रक छुपाएं"
 
 #: src/libvlc-module.c:335
 msgid "Hide mouse cursor and fullscreen controller after n milliseconds."
-msgstr ""
+msgstr "माउस कर्सर और n मिसे के बाद फुल स्क्रीन नियंत्रक छुपाएं."
 
 #: src/libvlc-module.c:338 src/libvlc-module.c:340
 #: src/video_output/interlacing.c:180 modules/gui/macosx/MainMenu.m:405
@@ -2103,6 +2140,8 @@ msgid ""
 "Inhibits the power management daemon during any playback, to avoid the "
 "computer being suspended because of inactivity."
 msgstr ""
+"क्योंकि निष्क्रियता से निलंबित किया जा रहा है कंप्यूटर से बचने के लिए, किसी भी प्लेबैक के "
+"दौरान ऊर्जा प्रबंधन डेमॉन को रोकता है."
 
 #: src/libvlc-module.c:374 modules/gui/macosx/simple_prefs.m:267
 #: modules/gui/qt4/ui/sprefs_video.h:343
@@ -2121,7 +2160,7 @@ msgstr ""
 
 #: src/libvlc-module.c:381
 msgid "This adds video splitters like clone or wall"
-msgstr ""
+msgstr "यह क्लोन या दीवार की तरह वीडियो splitters के लिए कहते हैं"
 
 #: src/libvlc-module.c:383
 msgid "Video filter module"
@@ -10937,9 +10976,8 @@ msgid "PNG video decoder"
 msgstr ""
 
 #: modules/codec/qsv.c:56
-#, fuzzy
 msgid "Enable software mode"
-msgstr "डेस्कटॉप मोड सक्रिय करें"
+msgstr ""
 
 #: modules/codec/qsv.c:57
 msgid ""
@@ -10959,9 +10997,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/qsv.c:67
-#, fuzzy
 msgid "Codec Level"
-msgstr "कोडेक"
+msgstr ""
 
 #: modules/codec/qsv.c:69
 msgid ""
@@ -11002,9 +11039,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/qsv.c:90
-#, fuzzy
 msgid "IDR interval"
-msgstr "VNC चुनाव अंतराल"
+msgstr ""
 
 #: modules/codec/qsv.c:92
 msgid ""
@@ -11068,9 +11104,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/qsv.c:122
-#, fuzzy
 msgid "Maximum Bitrate"
-msgstr "बिटरेट"
+msgstr ""
 
 #: modules/codec/qsv.c:123
 msgid ""
@@ -11102,9 +11137,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/qsv.c:139
-#, fuzzy
 msgid "Number of slices per frame"
-msgstr "शीर्ष पर क्षेत्रों की संख्या"
+msgstr ""
 
 #: modules/codec/qsv.c:140
 msgid ""
@@ -11118,9 +11152,8 @@ msgid "Number of reference frames"
 msgstr ""
 
 #: modules/codec/qsv.c:148
-#, fuzzy
 msgid "Number of parallel operations"
-msgstr "पहेली पंक्तियों की संख्या"
+msgstr ""
 
 #: modules/codec/qsv.c:149
 msgid ""
@@ -27424,9 +27457,6 @@ msgstr "मीडिया प्रबंधन सूची"
 #~ msgid "Try to use hardware acceleration for subtitles/OSD blending."
 #~ msgstr "उपशीर्षक / OSD मिश्रण के लिए हार्डवेयर त्वरण का उपयोग करने के लिए प्रयास करें."
 
-#~ msgid "Video Bit Rate"
-#~ msgstr "वीडियो बिट दर"
-
 #~ msgid "Input Media"
 #~ msgstr "इनपुट मीडिया"
 
@@ -27990,6 +28020,10 @@ msgstr "मीडिया प्रबंधन सूची"
 #~ msgstr "बांये"
 
 #, fuzzy
+#~ msgid "Video Bit Rate"
+#~ msgstr "वीडियो चौड़ाई"
+
+#, fuzzy
 #~ msgid "Subtitles/OSD"
 #~ msgstr "उपशीर्षक/ओएसडी"
 
@@ -28517,7 +28551,7 @@ msgstr "मीडिया प्रबंधन सूची"
 
 #, fuzzy
 #~ msgid "Audio Channel"
-#~ msgstr "चैनलें"
+#~ msgstr "ऑडियो लाभ"
 
 #, fuzzy
 #~ msgid "Decimation"
@@ -28833,7 +28867,7 @@ msgstr "मीडिया प्रबंधन सूची"
 
 #, fuzzy
 #~ msgid "Screen for fullscreen mode."
-#~ msgstr "पूर्ण स्क्रीन मोड में नियंत्रण दिखाएँ"
+#~ msgstr "फुल स्क्रीन मोड में स्विच करें"
 
 #, fuzzy
 #~ msgid "(Experimental) XCB video output"
@@ -28897,7 +28931,7 @@ msgstr "मीडिया प्रबंधन सूची"
 
 #, fuzzy
 #~ msgid "aRts audio output"
-#~ msgstr "सांख्यिकी वीडियो उत्पादन"
+#~ msgstr "स्टीरियो ऑडियो आउटपुट मोड"
 
 #, fuzzy
 #~ msgid "Cinepak video decoder"
@@ -29111,7 +29145,7 @@ msgstr "मीडिया प्रबंधन सूची"
 
 #, fuzzy
 #~ msgid "Video canvas width"
-#~ msgstr "वीडियो स्केलिंग फिल्टर"
+#~ msgstr "वीडियो चौड़ाई"
 
 #, fuzzy
 #~ msgid "Video canvas height"
