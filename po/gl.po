@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-08-05 13:45+0200\n"
-"PO-Revision-Date: 2013-06-23 19:00+0000\n"
+"PO-Revision-Date: 2013-07-23 23:12+0000\n"
 "Last-Translator: Gonçalo Cordeiro <gzcordeiro@gmail.com>\n"
 "Language-Team: Galician (http://www.transifex.com/projects/p/vlc-trans/"
 "language/gl/)\n"
@@ -11929,20 +11929,20 @@ msgid "PNG video decoder"
 msgstr "Descodificador de vídeo PNG"
 
 #: modules/codec/qsv.c:56
-#, fuzzy
 msgid "Enable software mode"
-msgstr "Activar o modo de imaxe de fondo "
+msgstr "Activar o modo de software"
 
 #: modules/codec/qsv.c:57
 msgid ""
 "Allow the use of the Intel Media SDK software implementation of the codecs "
 "if no QuickSync Video hardware acceleration is present on the system."
 msgstr ""
+"Permitir o uso a implementación de software Intel Media SDK dos códecs se a "
+"aceleración por hardware QuickSync Video non está presente no sistema."
 
 #: modules/codec/qsv.c:61
-#, fuzzy
 msgid "Codec Profile"
-msgstr "Seleccionar un perfil"
+msgstr "Perfil do códec"
 
 #: modules/codec/qsv.c:63
 msgid ""
@@ -11950,11 +11950,13 @@ msgid ""
 "the correct profile from other sources, such as resolution and bitrate. E.g. "
 "'high'"
 msgstr ""
+"Especifique expresamente o perfil do códec (por exemplo: «alto»). Se non o "
+"fai, será o códec o que determine o perfil correcto a partir doutras fontes, "
+"tales como a resolución ou a taxa de bits."
 
 #: modules/codec/qsv.c:67
-#, fuzzy
 msgid "Codec Level"
-msgstr "Nome do códec"
+msgstr "Nivel do códec"
 
 #: modules/codec/qsv.c:69
 msgid ""
@@ -11962,10 +11964,14 @@ msgid ""
 "the correct profile from other sources, such as resolution and bitrate. E.g. "
 "'4.2' for mpeg4-part10 or 'low' for mpeg2"
 msgstr ""
+"Especifique expresamente o nivel do códec (por exemplo, «4.2» para mpeg4-"
+"part10 ou «baixo» para mpeg2). Se non o fai, será o códec o que determine o "
+"perfil correcto a partir doutras fontes, tales como a resolución ou a taxa "
+"de bits."
 
 #: modules/codec/qsv.c:73
 msgid "Group of Picture size"
-msgstr ""
+msgstr "Tamaño do grupo de imaxes"
 
 #: modules/codec/qsv.c:75
 msgid ""
@@ -11973,32 +11979,39 @@ msgid ""
 "GopPicSize=0, then the GOP size is unspecified. If GopPicSize=1, only I-"
 "frames are used."
 msgstr ""
+"O número de imaxes no grupo de imaxes actual (GOP). Se GopPicSize=0, entón o "
+"tamaño fica sen especificar. Se GopPicSize=1, entón só se usarán os "
+"fotogramas I."
 
 #: modules/codec/qsv.c:79
-#, fuzzy
 msgid "Group of Picture Reference Distance"
-msgstr "Nome da instancia actual"
+msgstr "Distancia de referencia do grupo de imaxes"
 
 #: modules/codec/qsv.c:81
 msgid ""
 "Distance between I- or P- key frames; if it is zero, the GOP structure is "
 "unspecified. Note: If GopRefDist = 1, there are no B- frames used. "
 msgstr ""
+"A distancia entre os fotogramas chave I ou P. Se for cero, a estrutura do "
+"grupo de imaxes (GOP) fica sen especificar. Nota: se GopRefDist = 1 non se "
+"usarán fotogramas B."
 
 #: modules/codec/qsv.c:85
 msgid "Target Usage"
-msgstr ""
+msgstr "Uso obxectivo"
 
 #: modules/codec/qsv.c:86
 msgid ""
 "The target usage allow to choose between different trade-offs between "
 "quality and speed. Allowed values are : 'speed', 'balanced' and 'quality'."
 msgstr ""
+"O obxectivo de uso permite escoller entre diferentes equilibrios entre "
+"calidade e velocidade. Os valores permitidos son: «speed», «balanced» e "
+"«quality»."
 
 #: modules/codec/qsv.c:90
-#, fuzzy
 msgid "IDR interval"
-msgstr "Intervalo de seguranza (GI)"
+msgstr "Intervalo IDR"
 
 #: modules/codec/qsv.c:92
 msgid ""
@@ -12009,9 +12022,16 @@ msgid ""
 "the sequence header before every Nth I-frame. If IdrInterval=0 (default), "
 "SDK inserts the sequence header once at the beginning of the stream. "
 msgstr ""
+"No estándar H.264, «IdrInterval» especifica o intervalo do fotograma IDR en "
+"termos de fotogramas I. Se IdrInterval=0, entón todos os fotogramas I serán "
+"un fotograma IDR; se IdrInterval=1, entón todos os outros fotogramas I serán "
+"un fotograma IDR etc. No estándar MPEG2, «IdrInterval» define o intervalo da "
+"secuencia de cabeceira en termos de fotogramas I. Se IdrInterval=N, SDK "
+"insire unha secuencia de cabeceira antes de cada -n- fotogramas I. Se "
+"IdrInterval=0 (predeterminado), SDK insire unha secuencia de cabeceira unha "
+"soa vez ao comezo do fluxo."
 
 #: modules/codec/qsv.c:100
-#, fuzzy
 msgid "Rate Control Method"
 msgstr "Método de control de taxa"
 
@@ -12020,11 +12040,13 @@ msgid ""
 "The rate control method to use when encoding. Can be one of 'crb', 'vbr', "
 "'qp', 'avbr'. 'qp' mode isn't supported for mpeg2"
 msgstr ""
+"O método de control de taxa que se usará para codificar. Pode ser un dos "
+"seguintes: «crb», «vbr», «qp» ou «avbr». O modo «qp» non é compatíbel  con "
+"MPEG2."
 
 #: modules/codec/qsv.c:105
-#, fuzzy
 msgid "Quantization parameter"
-msgstr "Factor de cuantización I"
+msgstr "Parámetro de cuantización"
 
 #: modules/codec/qsv.c:106
 msgid ""
@@ -12032,39 +12054,47 @@ msgid ""
 "qpp and qpp. It has less precedence than the forementionned parameters. Used "
 "only if rc_method is 'qp'."
 msgstr ""
+"O parámetro de cuantización que se usará en todos os tipos de fotogramas. "
+"Este parámetro define «qpi», «qpp» e «qpp». Ten unha precedencia menor do "
+"que os parámetros mencionados antes. Só se usa se «rc_method» é «qp»."
 
 #: modules/codec/qsv.c:110
 msgid "Quantization parameter for I-frames"
-msgstr ""
+msgstr "Parámetro de cuantización para fotogramas I"
 
 #: modules/codec/qsv.c:111
 msgid ""
 "Quantization parameter for I-frames. This parameter overrides any qp set "
 "globally. Used only if rc_method is 'qp'."
 msgstr ""
+"O parámetro de cuantización para fotogramas I. Este parámetro sobreponse a "
+"calquera «qp» definido globalmente. Só se usa se «rc_method» é «qp»."
 
 #: modules/codec/qsv.c:114
 msgid "Quantization parameter for P-frames"
-msgstr ""
+msgstr "Parámetro de cuantización para os fotogramas P"
 
 #: modules/codec/qsv.c:115
 msgid ""
 "Quantization parameter for P-frames. This parameter overrides any qp set "
 "globally. Used only if rc_method is 'qp'."
 msgstr ""
+"O parámetro de cuantización para fotogramas P. Este parámetro sobreponse a "
+"calquera «qp» definido globalmente. Só se usa se «rc_method» é «qp»."
 
 #: modules/codec/qsv.c:118
 msgid "Quantization parameter for B-frames"
-msgstr ""
+msgstr "Parámetro de cuantización para os fotogramas B"
 
 #: modules/codec/qsv.c:119
 msgid ""
 "Quantization parameter for B-frames. This parameter overrides any qp set "
 "globally. Used only if rc_method is 'qp'."
 msgstr ""
+"O parámetro de cuantización para fotogramas B. Este parámetro sobreponse a "
+"calquera «qp» definido globalmente. Só se usa se «rc_method» é «qp»."
 
 #: modules/codec/qsv.c:122
-#, fuzzy
 msgid "Maximum Bitrate"
 msgstr "Taxa máxima de bits"
 
@@ -12074,10 +12104,13 @@ msgid ""
 "method. If not set, this parameter. is computed from other sources such as "
 "bitrate, profile, level, etc."
 msgstr ""
+"Define a taxa de bits máxima en Kpbs (1000 bits/s) para o método de control "
+"de taxa VBR. Se non se define entón será computado a partir doutras fontes, "
+"tales como a taxa de bits, o perfil ou o nivel."
 
 #: modules/codec/qsv.c:127
 msgid "Accuracy of RateControl"
-msgstr ""
+msgstr "Precisión do control de taxa"
 
 #: modules/codec/qsv.c:128
 msgid ""
@@ -12086,21 +12119,28 @@ msgid ""
 "880 kpbs and under  730 kpbs. The targeted accuracy is only reached after a "
 "certained  convergence period. See the convergence parameter"
 msgstr ""
+"A tolerancia como porcentaxe do método «avbr» (Average Variable BitRate). "
+"Por exemplo, un valor de «10» cunha taxa de bits de 800 kbps implica que o "
+"codificador tentará non superar os 880 kbps nin ficar por baixo dos 730 "
+"kbps. A precisión pretendida só se atinxe despois dun período de "
+"converxencia seguro. Vexa o parámetro de converxencia."
 
 #: modules/codec/qsv.c:134
 msgid "Convergence time of 'avbr' RateControl"
-msgstr ""
+msgstr "Tempo de converxencia do control de taxa «avbr»"
 
 #: modules/codec/qsv.c:135
 msgid ""
 "Number of 100 frames before the 'avbr' rate control method reaches the "
 "requested bitrate with the requested accuracy. See the accuracy parameter. "
 msgstr ""
+"O número de 100 fotogramas antes de que o método de control de taxa «avbr» "
+"atinxa a taxa de bits pretendida coa precisión solicitada. Vexa o parámetro "
+"de precisión."
 
 #: modules/codec/qsv.c:139
-#, fuzzy
 msgid "Number of slices per frame"
-msgstr "Forzar o número de fragmentos por fotograma"
+msgstr "Número de fragmentos por fotograma"
 
 #: modules/codec/qsv.c:140
 msgid ""
@@ -12108,15 +12148,18 @@ msgid ""
 "block rows. If numslice is not set, the encoder may choose any slice "
 "partitioning allowed by the codec standard."
 msgstr ""
+"O número de fragmentos por fotograma en cada fotograma de vídeo. Cada "
+"fragmento contén unha ou máis filas de macrobloques. Se non se define "
+"«numslice», o codificador podería escoller calquera unha forma de "
+"particionamento dos fragmentos que estea permitida polo estándar do códec. "
 
 #: modules/codec/qsv.c:145 modules/codec/qsv.c:146 modules/codec/x264.c:134
 msgid "Number of reference frames"
 msgstr "Número de fotogramas de referencia"
 
 #: modules/codec/qsv.c:148
-#, fuzzy
 msgid "Number of parallel operations"
-msgstr "Número de iteracións DWT"
+msgstr "Número de operacións en paralelo"
 
 #: modules/codec/qsv.c:149
 msgid ""
@@ -12124,10 +12167,15 @@ msgid ""
 "result. Higher  may result on better throughput depending on hardware. MPEG2 "
 "needs at least 1 here."
 msgstr ""
+"Define o número de operacións paralelas de codificación antes de sincronizar "
+"o resultado. Un valor maior podería conducir a un mellor rendemento, "
+"dependendo do hardware. MPEG2 precisa definir cando menos 1."
 
 #: modules/codec/qsv.c:193
 msgid "Intel QuickSync Video encoder for MPEG4-Part10/MPEG2 (aka H.264/H.262)"
 msgstr ""
+"Codificador de vídeo Intel QuickSync para MPEG4-Part10/MPEG2 (tamén coñecido "
+"como H.264/H.262)"
 
 #: modules/codec/quicktime.c:66
 msgid "QuickTime library decoder"
@@ -13555,9 +13603,9 @@ msgid ""
 "position(s). Default of 16 is good for most footage, high motion sequences "
 "may benefit from settings between 24 and 32. Range 0 to 64."
 msgstr ""
-"Distancia máxima para buscar estimación de movemento medida desde a "
-"posición(s) previstas. A opción predeterminada é 16 está ben para a maioría "
-"das secuencias, secuencias de movemento altas podería beneficiarse das "
+"Distancia máxima para buscar estimación de movemento medida desde a posición"
+"(s) previstas. A opción predeterminada é 16 está ben para a maioría das "
+"secuencias, secuencias de movemento altas podería beneficiarse das "
 "definicións entre 24 e 32. Intervalo de 0 a 64."
 
 #: modules/codec/x264.c:305
@@ -16205,8 +16253,8 @@ msgstr "PMT extra"
 #: modules/demux/ts.c:96
 msgid "Allows a user to specify an extra pmt (pmt_pid=pid:stream_type[,...])."
 msgstr ""
-"Permite que o usuario especifique un punto extra pmt (pmt_pid=pid:"
-"stream_type[,…])."
+"Permite que o usuario especifique un punto extra pmt (pmt_pid=pid:stream_type"
+"[,…])."
 
 #: modules/demux/ts.c:98
 msgid "Set id of ES to PID"
@@ -29558,9 +29606,6 @@ msgstr "AAAA; "
 msgid "Media Manager List"
 msgstr "Lista do xestor multimedia"
 
-#~ msgid "Add a subtitle file"
-#~ msgstr "Engadir un ficheiro de subtítulos"
-
 #~ msgid ""
 #~ "SAP is a way to publically announce streams that are being sent using "
 #~ "multicast UDP or RTP."
@@ -31564,6 +31609,10 @@ msgstr "Lista do xestor multimedia"
 #~ msgstr "Entrada de capturas iSight"
 
 #, fuzzy
+#~ msgid "Add a subtitle file"
+#~ msgstr "Usar un ficheiro de sub&títulos"
+
+#, fuzzy
 #~ msgid "Subtitles/OSD"
 #~ msgstr "Subtítulos/OSD"
 
@@ -32695,7 +32744,7 @@ msgstr "Lista do xestor multimedia"
 
 #, fuzzy
 #~ msgid "Load subtitles file:"
-#~ msgstr "Engadir un ficheiro de subtítulos"
+#~ msgstr "Usar o ficheiro de subtítulo"
 
 #, fuzzy
 #~ msgid "Subtitles encoding"
@@ -33297,7 +33346,7 @@ msgstr "Lista do xestor multimedia"
 
 #, fuzzy
 #~ msgid "Number of lines for change"
-#~ msgstr "Número de canles de audio"
+#~ msgstr "Número de fragmentos por fotograma"
 
 #, fuzzy
 #~ msgid "Number of non black pixels "
@@ -33397,7 +33446,7 @@ msgstr "Lista do xestor multimedia"
 
 #, fuzzy
 #~ msgid "Enable desktop mode "
-#~ msgstr "Activar o modo Mega Bass"
+#~ msgstr "Activar o modo de software"
 
 #, fuzzy
 #~ msgid "Try to use hardware acceleration for subtitles/OSD blending."
@@ -33531,7 +33580,7 @@ msgstr "Lista do xestor multimedia"
 
 #, fuzzy
 #~ msgid "Add a subtitles file"
-#~ msgstr "Engadir un ficheiro de subtítulos"
+#~ msgstr "Usar un ficheiro de sub&títulos"
 
 #, fuzzy
 #~ msgid "Use a sub&titles file"
