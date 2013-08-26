@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-08-05 13:45+0200\n"
-"PO-Revision-Date: 2013-06-24 12:47+0000\n"
+"PO-Revision-Date: 2013-08-11 12:31+0000\n"
 "Last-Translator: Fumio Nakayama <fumio.n6a@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/vlc-trans/"
 "language/ja/)\n"
@@ -7538,7 +7538,7 @@ msgstr "同期書き込み"
 
 #: modules/access_output/file.c:75
 msgid "Open the file with synchronous writing."
-msgstr "同期書き込みでファイルをオープンします。"
+msgstr "同期書き込みでファイルを開きます。"
 
 #: modules/access_output/file.c:78
 msgid "File stream output"
@@ -7832,8 +7832,8 @@ msgid ""
 "Pass pulse:// to open the default PulseAudio source, or pulse://SOURCE to "
 "open a specific source named SOURCE."
 msgstr ""
-"PulseAudioのデフォルトをオープンする場合は、pulse:// 、または特定のソース(名"
-"前: SOURCE)をオープンする場合は pulse://SOURCE を指定します。"
+"デフォルトのPulseAudioのソースを開く場合は、pulse:// 、または特定のソース(名"
+"前: SOURCE)を開く場合は pulse://SOURCE を指定します。"
 
 #: modules/access/pulse.c:42
 msgid "PulseAudio"
@@ -10024,8 +10024,8 @@ msgid ""
 "through is active."
 msgstr ""
 "オーディオ出力に利用可能なチャンネル。出力チャンネルよりも入力チャンネルが多"
-"い場合、ダウンミックスされます。デジタルパススルーが有効な場合、このオプショ"
-"ンは無視されます。"
+"い場合、ダウンミックスされます。デジタルパススルーが有効な場合、このパラメー"
+"ターは無視されます。"
 
 #: modules/audio_output/alsa.c:76
 msgid "Surround 4.0"
@@ -10231,7 +10231,7 @@ msgstr "KAIで使用される適切なオーディオデバイスを選択しま
 
 #: modules/audio_output/kai.c:98
 msgid "Open audio in exclusive mode."
-msgstr "排他モードでオーディオをオープン"
+msgstr "排他モードでオーディオを開く"
 
 #: modules/audio_output/kai.c:100
 msgid ""
@@ -10493,7 +10493,7 @@ msgstr "クロッピング情報を廃棄"
 
 #: modules/codec/avcodec/avcodec.h:113
 msgid "Discard internal cropping parameters (e.g. from H.264 SPS)."
-msgstr "内部のクロッピングパラメータを廃棄します。 (例: H.264 SPS)"
+msgstr "内部のクロッピングパラメーターを廃棄します。 (例: H.264 SPS)"
 
 #: modules/codec/avcodec/avcodec.h:115
 msgid "Debug mask"
@@ -11724,20 +11724,20 @@ msgid "PNG video decoder"
 msgstr "PNGビデオデコーダー"
 
 #: modules/codec/qsv.c:56
-#, fuzzy
 msgid "Enable software mode"
-msgstr "壁紙モードの有効化"
+msgstr "ソフトウェアモードの有効化"
 
 #: modules/codec/qsv.c:57
 msgid ""
 "Allow the use of the Intel Media SDK software implementation of the codecs "
 "if no QuickSync Video hardware acceleration is present on the system."
 msgstr ""
+"QuickSyncのビデオハードウェアアクセラレーションがシステムにない場合には、コー"
+"デックのソフトウェア実装としてIntel Media SDKを使用することを許可します。"
 
 #: modules/codec/qsv.c:61
-#, fuzzy
 msgid "Codec Profile"
-msgstr "プロファイルの選択"
+msgstr "コーデックプロファイル"
 
 #: modules/codec/qsv.c:63
 msgid ""
@@ -11745,11 +11745,13 @@ msgid ""
 "the correct profile from other sources, such as resolution and bitrate. E.g. "
 "'high'"
 msgstr ""
+"コーデックプロファイルを明示的に指定してください。指定しない場合、解像度や"
+"ビットレートなど他のソース、例えば 'high' などから現在のプロファイルを決定し"
+"ます。"
 
 #: modules/codec/qsv.c:67
-#, fuzzy
 msgid "Codec Level"
-msgstr "コーデック名"
+msgstr "コーデックレベル"
 
 #: modules/codec/qsv.c:69
 msgid ""
@@ -11757,10 +11759,13 @@ msgid ""
 "the correct profile from other sources, such as resolution and bitrate. E.g. "
 "'4.2' for mpeg4-part10 or 'low' for mpeg2"
 msgstr ""
+"コーデックレベルを明示的に指定してください。指定しない場合、解像度やビット"
+"レートなど他のソース、例えば mpeg4-part10 には '4.2', mpeg2 には 'low'  など"
+"から現在のプロファイルを決定します。"
 
 #: modules/codec/qsv.c:73
 msgid "Group of Picture size"
-msgstr ""
+msgstr "画像サイズのグループ"
 
 #: modules/codec/qsv.c:75
 msgid ""
@@ -11768,32 +11773,37 @@ msgid ""
 "GopPicSize=0, then the GOP size is unspecified. If GopPicSize=1, only I-"
 "frames are used."
 msgstr ""
+"現在のGOP (Group of Pictures) 中の画像数; GopPicSize=0の場合、GOPサイズは未設"
+"定となり、GopPicSize=1の場合、Iフレームのみが使用されます。"
 
 #: modules/codec/qsv.c:79
-#, fuzzy
 msgid "Group of Picture Reference Distance"
-msgstr "現在のインスタンス名"
+msgstr "Group of Picture基準距離"
 
 #: modules/codec/qsv.c:81
 msgid ""
 "Distance between I- or P- key frames; if it is zero, the GOP structure is "
 "unspecified. Note: If GopRefDist = 1, there are no B- frames used. "
 msgstr ""
+"Iまたは、Pキーフレーム間の距離; 0の場合、GOP構造は未設定となります。メモ: "
+"GopRefDist=1の場合、Bフレームは使用されません。"
 
 #: modules/codec/qsv.c:85
 msgid "Target Usage"
-msgstr ""
+msgstr "ターゲット利用量"
 
 #: modules/codec/qsv.c:86
 msgid ""
 "The target usage allow to choose between different trade-offs between "
 "quality and speed. Allowed values are : 'speed', 'balanced' and 'quality'."
 msgstr ""
+"ターゲット利用量は異なるトレードオフ、品質および、速度を選択することが可能と"
+"なります。使用可能な値は: 'speed', 'balanced'および、'quality'のいずれかで"
+"す。"
 
 #: modules/codec/qsv.c:90
-#, fuzzy
 msgid "IDR interval"
-msgstr "保護間隔"
+msgstr "IDRインターバル"
 
 #: modules/codec/qsv.c:92
 msgid ""
@@ -11804,9 +11814,16 @@ msgid ""
 "the sequence header before every Nth I-frame. If IdrInterval=0 (default), "
 "SDK inserts the sequence header once at the beginning of the stream. "
 msgstr ""
+"IDRインターバルはH.264のために、ＩフレームによってIDRフレームインターバルを指"
+"定します。IDRインターバルが0の場合、すべてのIフレームはIDRフレームとなりま"
+"す。IDRインターバルが1の場合、Iフレーム以外のすべてがIDRフレームなどになりま"
+"す。\n"
+"MPEG2のためには、IDRインターバルはIフレームによってシーケンスヘッダーインター"
+"バルを定義します。IDRインターバルがNの場合、SDKはN番目ごとのIフレームの前に"
+"シーケンスヘッダーを挿入します。IDRインターバルが0(デフォルト)の場合、SDKはス"
+"トリームの最初に一度だけシーケンスヘッダーを挿入します。"
 
 #: modules/codec/qsv.c:100
-#, fuzzy
 msgid "Rate Control Method"
 msgstr "レート制御メソッド"
 
@@ -11815,11 +11832,13 @@ msgid ""
 "The rate control method to use when encoding. Can be one of 'crb', 'vbr', "
 "'qp', 'avbr'. 'qp' mode isn't supported for mpeg2"
 msgstr ""
+"レート制御メソッドはエンコーディング時に使用され、 'crb', 'vbr', 'qp', "
+"'avbr' のいずれかが使用可能です。MPEG2では'qp'モードはサポートされていませ"
+"ん。"
 
 #: modules/codec/qsv.c:105
-#, fuzzy
 msgid "Quantization parameter"
-msgstr "量子化係数"
+msgstr "量子化パラメーター"
 
 #: modules/codec/qsv.c:106
 msgid ""
@@ -11827,39 +11846,47 @@ msgid ""
 "qpp and qpp. It has less precedence than the forementionned parameters. Used "
 "only if rc_method is 'qp'."
 msgstr ""
+"すべてのタイプのフレームの量子化パラメーター。このパラメータは、rc_method"
+"が'qp'の場合のみ使用され、qpi, qppおよび、appを設定します。このパラメーターは"
+"先に記述されたパラメーターよりも少し先行します。"
 
 #: modules/codec/qsv.c:110
 msgid "Quantization parameter for I-frames"
-msgstr ""
+msgstr "Iフレームの量子化パラメーター"
 
 #: modules/codec/qsv.c:111
 msgid ""
 "Quantization parameter for I-frames. This parameter overrides any qp set "
 "globally. Used only if rc_method is 'qp'."
 msgstr ""
+"Iフレームの量子化パラメーター。このパラメーターはすべてのqp設定をグローバルに"
+"上書きします。rc_methodが'qp'の場合のみ使用されます。"
 
 #: modules/codec/qsv.c:114
 msgid "Quantization parameter for P-frames"
-msgstr ""
+msgstr "Pフレームの量子化パラメーター"
 
 #: modules/codec/qsv.c:115
 msgid ""
 "Quantization parameter for P-frames. This parameter overrides any qp set "
 "globally. Used only if rc_method is 'qp'."
 msgstr ""
+"Pフレームの量子化パラメーター。このパラメーターはすべてのqp設定をグローバルに"
+"上書きします。rc_methodが'qp'の場合のみ使用されます。"
 
 #: modules/codec/qsv.c:118
 msgid "Quantization parameter for B-frames"
-msgstr ""
+msgstr "Bフレームの量子化パラメーター"
 
 #: modules/codec/qsv.c:119
 msgid ""
 "Quantization parameter for B-frames. This parameter overrides any qp set "
 "globally. Used only if rc_method is 'qp'."
 msgstr ""
+"Bフレームの量子化パラメーター。このパラメーターはすべてのqp設定をグローバルに"
+"上書きします。rc_methodが'qp'の場合のみ使用されます。"
 
 #: modules/codec/qsv.c:122
-#, fuzzy
 msgid "Maximum Bitrate"
 msgstr "最大ビットレート"
 
@@ -11869,10 +11896,13 @@ msgid ""
 "method. If not set, this parameter. is computed from other sources such as "
 "bitrate, profile, level, etc."
 msgstr ""
+"VBRレート制御メソッドの最大ビットレートをKbps (1000 bits/s)で指定します。指定"
+"されて意ない場合、ビットレート、プロファイル、レベルなど他のソースから計算さ"
+"れます。"
 
 #: modules/codec/qsv.c:127
 msgid "Accuracy of RateControl"
-msgstr ""
+msgstr "レート制御の正確性"
 
 #: modules/codec/qsv.c:128
 msgid ""
@@ -11881,21 +11911,26 @@ msgid ""
 "880 kpbs and under  730 kpbs. The targeted accuracy is only reached after a "
 "certained  convergence period. See the convergence parameter"
 msgstr ""
+"'avbr' (平均可変ビットレート)メソッドの許容範囲をパーセンテージで指定します。"
+"(例えば、800 kbpsの10%の場合、エンコーダーは730kbpsから880kbpsの範囲で処理す"
+"るように試行します。目標となる正確性は収束時間の一定期間が経過した時点で到達"
+"できます。レート制御の収束時間のパラメーターを参照してください。"
 
 #: modules/codec/qsv.c:134
 msgid "Convergence time of 'avbr' RateControl"
-msgstr ""
+msgstr "'avbr'レート制御の収束時間"
 
 #: modules/codec/qsv.c:135
 msgid ""
 "Number of 100 frames before the 'avbr' rate control method reaches the "
 "requested bitrate with the requested accuracy. See the accuracy parameter. "
 msgstr ""
+"'avbr'レート制御メソッドで要求されたビットレートの正確さに到達する前のフレー"
+"ム数、100フレーム単位。レート制御の正確性のパラメーターも参照してください。"
 
 #: modules/codec/qsv.c:139
-#, fuzzy
 msgid "Number of slices per frame"
-msgstr "フレームごとのスライス数を指定"
+msgstr "フレームごとのスライス数"
 
 #: modules/codec/qsv.c:140
 msgid ""
@@ -11903,15 +11938,17 @@ msgid ""
 "block rows. If numslice is not set, the encoder may choose any slice "
 "partitioning allowed by the codec standard."
 msgstr ""
+"ビデオフレームごとのスライス数; それぞれのスライスは1つ以上のマクロブロック行"
+"を含みます。スライス数が未指定の場合、コーデックの基準に許されうるいずれかの"
+"スライスパーティショニングがエンコーダーによって選択されます。"
 
 #: modules/codec/qsv.c:145 modules/codec/qsv.c:146 modules/codec/x264.c:134
 msgid "Number of reference frames"
 msgstr "参照フレーム数"
 
 #: modules/codec/qsv.c:148
-#, fuzzy
 msgid "Number of parallel operations"
-msgstr "DWT相互作用の数"
+msgstr "並列処理数"
 
 #: modules/codec/qsv.c:149
 msgid ""
@@ -11919,10 +11956,13 @@ msgid ""
 "result. Higher  may result on better throughput depending on hardware. MPEG2 "
 "needs at least 1 here."
 msgstr ""
+"結果を同期する前の並列処理可能なエンコーディング操作数を定義します。ハード"
+"ウェアの性能に依存して結果は異なります。MPEG2は少なくとも1以上が必要です。"
 
 #: modules/codec/qsv.c:193
 msgid "Intel QuickSync Video encoder for MPEG4-Part10/MPEG2 (aka H.264/H.262)"
 msgstr ""
+"MPEG4-Part10/MPEG2 (H.264/H.262)のためのIntel QuickSyncビデオエンコーダー"
 
 #: modules/codec/quicktime.c:66
 msgid "QuickTime library decoder"
@@ -12641,8 +12681,8 @@ msgid ""
 "Enforce a quality between 1 (low) and 10 (high), instead of specifying a "
 "particular bitrate. This will produce a VBR stream."
 msgstr ""
-"特定のビットレートを指定するのではなく、特定のエンコーディング品質を1(低)～"
-"10(高)の範囲で指定します。この設定は、VBRストリームを生成します。"
+"特定のビットレートを指定するのではなく、特定のエンコーディング品質を1(低)～10"
+"(高)の範囲で指定します。この設定は、VBRストリームを生成します。"
 
 #: modules/codec/theora.c:112
 msgid "Theora video decoder"
@@ -12937,8 +12977,9 @@ msgid ""
 "Loop filter AlphaC0 and Beta parameters. Range -6 to 6 for both alpha and "
 "beta parameters. -6 means light filter, 6 means strong."
 msgstr ""
-"ループフィルターのAlphaC0(強度)とBeta(閾値)の値を指定します。値は-6～6の範囲"
-"でAlphaとBetaの両方に指定します。-6は軽度、6は強度であることを意味します。"
+"ループフィルターのAlphaC0(強度)とBeta(閾値)のパラメーターを指定します。値は-6"
+"～6の範囲でAlphaとBetaの両方に指定します。-6は軽度、6は強度であることを意味し"
+"ます。"
 
 #: modules/codec/x264.c:148
 msgid "H.264 level"
@@ -13062,7 +13103,7 @@ msgstr "QPの下限"
 
 #: modules/codec/x264.c:198
 msgid "Minimum quantizer parameter. 15 to 35 seems to be a useful range."
-msgstr "最小量子化値を指定します。15～35の範囲がおそらく有効です。"
+msgstr "最小量子化パラメーターを指定します。15～35の範囲がおそらく有効です。"
 
 #: modules/codec/x264.c:201
 msgid "Max QP"
@@ -13070,7 +13111,7 @@ msgstr "QPの上限"
 
 #: modules/codec/x264.c:202
 msgid "Maximum quantizer parameter."
-msgstr "最大量子化値を指定します。"
+msgstr "最大量子化パラメーターを指定します。"
 
 #: modules/codec/x264.c:204
 msgid "Max QP step"
@@ -17699,8 +17740,8 @@ msgid ""
 "Enter a URL here to open the network stream. To open RTP or UDP streams, "
 "click on the respective button below."
 msgstr ""
-"ネットワークストリームをオープンするためURLを入力します。RTPまたは、UDPスト"
-"リームをオープンするためには、以下のそれぞれのボタンをクリックしてください。"
+"ネットワークストリームを開くためURLを入力します。RTPまたは、UDPストリームを開"
+"くためには、以下のそれぞれのボタンをクリックしてください。"
 
 #: modules/gui/macosx/open.m:190
 msgid "Open RTP/UDP Stream"
@@ -19816,7 +19857,7 @@ msgid ""
 "Controls will automatically appear here."
 msgstr ""
 "v4l2インスタンスが見つかりません。\n"
-"デバイスがVLCによってオープンされ、再生されているか確認してください。\n"
+"デバイスがVLCによって開かれ、再生されているか確認してください。\n"
 "\n"
 "コントロールは自動的にここに表示されます。"
 
@@ -20190,7 +20231,7 @@ msgstr "デバイス名"
 
 #: modules/gui/qt4/components/open_panels.cpp:1088
 msgid "Your display will be opened and played in order to stream or save it."
-msgstr "ストリームを再生するか、保存するためにデスクトップがオープンされます。"
+msgstr "ストリームを再生するか、保存するためにディスプレイに開かれます。"
 
 #. xgettext: frames per second
 #: modules/gui/qt4/components/open_panels.cpp:1102
@@ -25758,10 +25799,10 @@ msgid ""
 "<alpha>]][;<image>[,<delay>[,<alpha>]]][;...]. If you only have one file, "
 "simply enter its filename."
 msgstr ""
-"使用される画像ファイルのフルパスを指定します。フォーマットは、<画像ファイル"
-">[,<遅延時間(ミリ秒)>[,<アルファ値>]][;<画像ファイル>[,<遅延時間>[,<アルファ"
-"値>]]][;...]です。ただ一つのファイルを指定する場合、単純にファイルのパスを指"
-"定するだけで構いません。"
+"使用される画像ファイルのフルパスを指定します。フォーマットは、<画像ファイル>"
+"[,<遅延時間(ミリ秒)>[,<アルファ値>]][;<画像ファイル>[,<遅延時間>[,<アルファ値"
+">]]][;...]です。ただ一つのファイルを指定する場合、単純にファイルのパスを指定"
+"するだけで構いません。"
 
 #: modules/video_filter/logo.c:52
 msgid "Logo animation # of loops"
@@ -29109,9 +29150,6 @@ msgstr "AAAA; "
 msgid "Media Manager List"
 msgstr "メディアマネージャーリスト"
 
-#~ msgid "Add a subtitle file"
-#~ msgstr "字幕ファイルの追加"
-
 #~ msgid ""
 #~ "SAP is a way to publically announce streams that are being sent using "
 #~ "multicast UDP or RTP."
@@ -31006,6 +31044,10 @@ msgstr "メディアマネージャーリスト"
 #~ msgstr "iSigntキャプチャー入力"
 
 #, fuzzy
+#~ msgid "Add a subtitle file"
+#~ msgstr "字幕ファイルを使用 (&T)"
+
+#, fuzzy
 #~ msgid "Subtitles/OSD"
 #~ msgstr "字幕 / OSD"
 
@@ -31627,8 +31669,8 @@ msgstr "メディアマネージャーリスト"
 #~ "pass-through is active."
 #~ msgstr ""
 #~ "オーディオ出力に利用可能なチャンネル。出力チャンネルよりも入力チャンネルが"
-#~ "多い場合、ダウンミックスされます。デジタルパススルーが有効な場合、このオプ"
-#~ "ションは無視されます。"
+#~ "多い場合、ダウンミックスされます。デジタルパススルーが有効な場合、このパラ"
+#~ "メーターは無視されます。"
 
 #, fuzzy
 #~ msgid ""
@@ -32119,7 +32161,7 @@ msgstr "メディアマネージャーリスト"
 
 #, fuzzy
 #~ msgid "Load subtitles file:"
-#~ msgstr "字幕ファイルの追加"
+#~ msgstr "字幕ファイルを使用"
 
 #, fuzzy
 #~ msgid "Subtitles encoding"
@@ -32716,7 +32758,7 @@ msgstr "メディアマネージャーリスト"
 
 #, fuzzy
 #~ msgid "Number of lines for change"
-#~ msgstr "オーディオチャンネル数"
+#~ msgstr "フレームごとのスライス数"
 
 #, fuzzy
 #~ msgid "Number of non black pixels "
@@ -32811,7 +32853,7 @@ msgstr "メディアマネージャーリスト"
 
 #, fuzzy
 #~ msgid "Enable desktop mode "
-#~ msgstr "メガバスモードを有効にします。"
+#~ msgstr "ソフトウェアモードの有効化"
 
 #, fuzzy
 #~ msgid "Try to use hardware acceleration for subtitles/OSD blending."
@@ -32945,7 +32987,7 @@ msgstr "メディアマネージャーリスト"
 
 #, fuzzy
 #~ msgid "Add a subtitles file"
-#~ msgstr "字幕ファイルの追加"
+#~ msgstr "字幕ファイルを使用 (&T)"
 
 #, fuzzy
 #~ msgid "Use a sub&titles file"
@@ -34157,8 +34199,8 @@ msgstr "メディアマネージャーリスト"
 #~ "Override the normal frames per second settings. This will only affect "
 #~ "frame-based subtitle formats without a fixed value."
 #~ msgstr ""
-#~ "通常のフレームレートを上書きします。このオプションは、MicroDVDと"
-#~ "SubRIP(SRT)字幕でのみ有効です。"
+#~ "通常のフレームレートを上書きします。このオプションは、MicroDVDとSubRIP"
+#~ "(SRT)字幕でのみ有効です。"
 
 #, fuzzy
 #~ msgid "Subtitles (asa demuxer)"
