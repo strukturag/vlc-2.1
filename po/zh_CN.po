@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-08-05 13:45+0200\n"
-"PO-Revision-Date: 2013-06-16 14:17+0000\n"
+"PO-Revision-Date: 2013-07-20 08:23+0000\n"
 "Last-Translator: Dean Lee <xslidian@gmail.com>\n"
 "Language-Team: Chinese (China) <vlc@lidian.info>\n"
 "Language: zh_CN\n"
@@ -11287,20 +11287,20 @@ msgid "PNG video decoder"
 msgstr "PNG 视频解码器"
 
 #: modules/codec/qsv.c:56
-#, fuzzy
 msgid "Enable software mode"
-msgstr "开启壁纸模式"
+msgstr "启用软件模式"
 
 #: modules/codec/qsv.c:57
 msgid ""
 "Allow the use of the Intel Media SDK software implementation of the codecs "
 "if no QuickSync Video hardware acceleration is present on the system."
 msgstr ""
+"允许在系统中不存在 QuickSync Video 硬件加速组件时，使用 Intel Media SDK 软件"
+"实现的编解码器。"
 
 #: modules/codec/qsv.c:61
-#, fuzzy
 msgid "Codec Profile"
-msgstr "选择配置文件"
+msgstr "编解码器配置文件"
 
 #: modules/codec/qsv.c:63
 msgid ""
@@ -11308,11 +11308,12 @@ msgid ""
 "the correct profile from other sources, such as resolution and bitrate. E.g. "
 "'high'"
 msgstr ""
+"指定特定的编解码器配置文件。若不指定，编解码器将根据其他信息（如分辨率与比特"
+"率）决定合适的配置文件。可选值如 'high'"
 
 #: modules/codec/qsv.c:67
-#, fuzzy
 msgid "Codec Level"
-msgstr "编解码器名称"
+msgstr "编解码器级别"
 
 #: modules/codec/qsv.c:69
 msgid ""
@@ -11320,10 +11321,12 @@ msgid ""
 "the correct profile from other sources, such as resolution and bitrate. E.g. "
 "'4.2' for mpeg4-part10 or 'low' for mpeg2"
 msgstr ""
+"指定特定的编解码器级别。若不指定，编解码器将根据其他信息（如分辨率与比特率）"
+"决定合适的配置文件。如针对 mpeg4-part10 的 '4.2' 或 mpeg2 的 'low'"
 
 #: modules/codec/qsv.c:73
 msgid "Group of Picture size"
-msgstr ""
+msgstr "画面组尺寸"
 
 #: modules/codec/qsv.c:75
 msgid ""
@@ -11331,32 +11334,36 @@ msgid ""
 "GopPicSize=0, then the GOP size is unspecified. If GopPicSize=1, only I-"
 "frames are used."
 msgstr ""
+"当前 GOP (画面组) 中画面的个数; 若 GopPicSize=0，则认为 GOP 尺寸未指定。若 "
+"GopPicSize=1，则将只使用 I 帧。"
 
 #: modules/codec/qsv.c:79
-#, fuzzy
 msgid "Group of Picture Reference Distance"
-msgstr "当前实例名称"
+msgstr "画面组参考距离"
 
 #: modules/codec/qsv.c:81
 msgid ""
 "Distance between I- or P- key frames; if it is zero, the GOP structure is "
 "unspecified. Note: If GopRefDist = 1, there are no B- frames used. "
 msgstr ""
+"I 或 P 关键帧之间的距离; 若为零，则认为 GOP 结构未指定。注: 若 GopRefDist = "
+"1，则将不使用 B 帧。"
 
 #: modules/codec/qsv.c:85
 msgid "Target Usage"
-msgstr ""
+msgstr "目标用途"
 
 #: modules/codec/qsv.c:86
 msgid ""
 "The target usage allow to choose between different trade-offs between "
 "quality and speed. Allowed values are : 'speed', 'balanced' and 'quality'."
 msgstr ""
+"目标用途允许选择质量与速度之间的平衡点。允许的值为 : 'speed'(速"
+"度)、'balanced'(均衡) 及 'quality'(质量)。"
 
 #: modules/codec/qsv.c:90
-#, fuzzy
 msgid "IDR interval"
-msgstr "防护间隔"
+msgstr "IDR 间隔"
 
 #: modules/codec/qsv.c:92
 msgid ""
@@ -11367,9 +11374,13 @@ msgid ""
 "the sequence header before every Nth I-frame. If IdrInterval=0 (default), "
 "SDK inserts the sequence header once at the beginning of the stream. "
 msgstr ""
+"对于 H.264，IdrInterval 指定了 IDR 帧的间隔，单位为 I 帧; 若 IdrInterval=0，"
+"则每个 I 帧均为 IDR 帧。若 IdrInterval=1，则每隔一个 I 帧均为 IDR 帧，以此类"
+"推。对于 MPEG2，IdrInterval 定义了序列头间隔，单位为 I 帧。若 IdrInterval=N，"
+"SDK 将在每第 N 个 I 帧之前插入序列头。若 IdrInterval=0 (默认)，SDK 将在流开头"
+"一次性插入序列头。"
 
 #: modules/codec/qsv.c:100
-#, fuzzy
 msgid "Rate Control Method"
 msgstr "速率控制方法"
 
@@ -11378,11 +11389,12 @@ msgid ""
 "The rate control method to use when encoding. Can be one of 'crb', 'vbr', "
 "'qp', 'avbr'. 'qp' mode isn't supported for mpeg2"
 msgstr ""
+"编码时使用的速率控制方法。可为 'crb'、'vbr'、'qp'、'avbr' 之一。mpeg2 不支持 "
+"'qp' 模式"
 
 #: modules/codec/qsv.c:105
-#, fuzzy
 msgid "Quantization parameter"
-msgstr "I 量化因数"
+msgstr "量化参数"
 
 #: modules/codec/qsv.c:106
 msgid ""
@@ -11390,41 +11402,45 @@ msgid ""
 "qpp and qpp. It has less precedence than the forementionned parameters. Used "
 "only if rc_method is 'qp'."
 msgstr ""
+"所有类型帧的量化参数。该参数可设置 qpi、qpp 及 qpp。优先级较之前提及的参数"
+"低。仅在 rc_method 为 'qp' 时使用。"
 
 #: modules/codec/qsv.c:110
 msgid "Quantization parameter for I-frames"
-msgstr ""
+msgstr "I 帧的量化参数"
 
 #: modules/codec/qsv.c:111
 msgid ""
 "Quantization parameter for I-frames. This parameter overrides any qp set "
 "globally. Used only if rc_method is 'qp'."
 msgstr ""
+"I 帧的量化参数。该参数将全局覆盖所有 qp 设置。仅当 rc_method 为 'qp' 时使用。"
 
 #: modules/codec/qsv.c:114
 msgid "Quantization parameter for P-frames"
-msgstr ""
+msgstr "P 帧的量化参数"
 
 #: modules/codec/qsv.c:115
 msgid ""
 "Quantization parameter for P-frames. This parameter overrides any qp set "
 "globally. Used only if rc_method is 'qp'."
 msgstr ""
+"P 帧的量化参数。该参数将全局覆盖所有 qp 设置。仅当 rc_method 为 'qp' 时使用。"
 
 #: modules/codec/qsv.c:118
 msgid "Quantization parameter for B-frames"
-msgstr ""
+msgstr "B 帧的量化参数"
 
 #: modules/codec/qsv.c:119
 msgid ""
 "Quantization parameter for B-frames. This parameter overrides any qp set "
 "globally. Used only if rc_method is 'qp'."
 msgstr ""
+"B 帧的量化参数。该参数将全局覆盖所有 qp 设置。仅当 rc_method 为 'qp' 时使用。"
 
 #: modules/codec/qsv.c:122
-#, fuzzy
 msgid "Maximum Bitrate"
-msgstr "最大位率"
+msgstr "最大比特率"
 
 #: modules/codec/qsv.c:123
 msgid ""
@@ -11432,10 +11448,12 @@ msgid ""
 "method. If not set, this parameter. is computed from other sources such as "
 "bitrate, profile, level, etc."
 msgstr ""
+"定义 VBR 速率控制方法的最大比特率，单位为 Kpbs (1000 比特/秒)。若不设置，本参"
+"数将根据其他信息计算得出，如比特率、配置文件、级别等。"
 
 #: modules/codec/qsv.c:127
 msgid "Accuracy of RateControl"
-msgstr ""
+msgstr "速率控制精度"
 
 #: modules/codec/qsv.c:128
 msgid ""
@@ -11444,21 +11462,25 @@ msgid ""
 "880 kpbs and under  730 kpbs. The targeted accuracy is only reached after a "
 "certained  convergence period. See the convergence parameter"
 msgstr ""
+"'avbr'  (平均可变比特率) 方法所允许的容差百分比。(如设为 10，比特率为 800  "
+"kpbs，则编码器将尝试不超过 880 kpbs  又不低于 730 kpbs。目标精度仅在一定的收"
+"敛期以后方可达到。参见收敛参数"
 
 #: modules/codec/qsv.c:134
 msgid "Convergence time of 'avbr' RateControl"
-msgstr ""
+msgstr "'avbr' 速率控制模式下的收敛时间"
 
 #: modules/codec/qsv.c:135
 msgid ""
 "Number of 100 frames before the 'avbr' rate control method reaches the "
 "requested bitrate with the requested accuracy. See the accuracy parameter. "
 msgstr ""
+"'avbr' 速率控制方法达到指定精度下指定比特率之前允许的 100 帧的倍数。参见精度"
+"参数。"
 
 #: modules/codec/qsv.c:139
-#, fuzzy
 msgid "Number of slices per frame"
-msgstr "强制每帧切片数"
+msgstr "每帧的分片数目"
 
 #: modules/codec/qsv.c:140
 msgid ""
@@ -11466,15 +11488,16 @@ msgid ""
 "block rows. If numslice is not set, the encoder may choose any slice "
 "partitioning allowed by the codec standard."
 msgstr ""
+"每一视频帧的分片数目; 每一分片包含一或多个宏块行。若 numslice 未设置，编码器"
+"将会选择编解码器标准所允许的任意分片间隔。"
 
 #: modules/codec/qsv.c:145 modules/codec/qsv.c:146 modules/codec/x264.c:134
 msgid "Number of reference frames"
 msgstr "参考帧数量"
 
 #: modules/codec/qsv.c:148
-#, fuzzy
 msgid "Number of parallel operations"
-msgstr "DWT 反复数目"
+msgstr "并行操作数目"
 
 #: modules/codec/qsv.c:149
 msgid ""
@@ -11482,10 +11505,12 @@ msgid ""
 "result. Higher  may result on better throughput depending on hardware. MPEG2 "
 "needs at least 1 here."
 msgstr ""
+"定义同步结果前并行编码操作的数目。取决于硬件性能，数值越高，吞吐量可能更佳。"
+"MPEG2 应至少指定为 1。"
 
 #: modules/codec/qsv.c:193
 msgid "Intel QuickSync Video encoder for MPEG4-Part10/MPEG2 (aka H.264/H.262)"
-msgstr ""
+msgstr "Intel QuickSync Video 的 MPEG4-Part10/MPEG2 (亦作 H.264/H.262) 编码器"
 
 #: modules/codec/quicktime.c:66
 msgid "QuickTime library decoder"
@@ -28133,9 +28158,6 @@ msgstr "AAAA; "
 msgid "Media Manager List"
 msgstr "媒体管理器列表"
 
-#~ msgid "Add a subtitle file"
-#~ msgstr "添加字幕文件"
-
 #~ msgid ""
 #~ "SAP is a way to publically announce streams that are being sent using "
 #~ "multicast UDP or RTP."
@@ -30775,6 +30797,10 @@ msgstr "媒体管理器列表"
 #~ "vvv 来真正显示出调试信息。"
 
 #, fuzzy
+#~ msgid "Add a subtitle file"
+#~ msgstr "使用字幕文件(&T)"
+
+#, fuzzy
 #~ msgid "Subtitles/OSD"
 #~ msgstr "字幕 / OSD"
 
@@ -31847,7 +31873,7 @@ msgstr "媒体管理器列表"
 
 #, fuzzy
 #~ msgid "Load subtitles file:"
-#~ msgstr "添加字幕文件"
+#~ msgstr "使用字幕文件"
 
 #, fuzzy
 #~ msgid "Subtitles encoding"
@@ -32437,7 +32463,7 @@ msgstr "媒体管理器列表"
 
 #, fuzzy
 #~ msgid "Number of lines for change"
-#~ msgstr "声道数量"
+#~ msgstr "每帧的分片数目"
 
 #, fuzzy
 #~ msgid "Number of non black pixels "
@@ -32527,7 +32553,7 @@ msgstr "媒体管理器列表"
 
 #, fuzzy
 #~ msgid "Enable desktop mode "
-#~ msgstr "开启超重低音模式"
+#~ msgstr "启用软件模式"
 
 #, fuzzy
 #~ msgid "Try to use hardware acceleration for subtitles/OSD blending."
@@ -32659,7 +32685,7 @@ msgstr "媒体管理器列表"
 
 #, fuzzy
 #~ msgid "Add a subtitles file"
-#~ msgstr "添加字幕文件"
+#~ msgstr "使用字幕文件(&T)"
 
 #, fuzzy
 #~ msgid "Use a sub&titles file"
