@@ -4,6 +4,7 @@
 #
 # Translators:
 # Aputsiaĸ Niels Janussen <aj@isit.gl>, 2013
+# bbuullll33rr <madsrbojesen@gmail.com>, 2013
 # Peter Jespersen <flywheeldk@gmail.com>, 2013
 # Jonas Larsen <jonas@vrt.dk>
 # Morten Brix Pedersen <morten@wtf.dk>
@@ -11,6 +12,7 @@
 # Kasper Tvede <kasper@webmasteren.eu>
 # Kenneth Nielsen <k.nielsen81@gmail.com>
 # Ask Hjorth Larsen <asklarsen@gmail.com>
+# Sejani, 2013
 # ulrik, 2013
 #
 # Konventioner:
@@ -26,7 +28,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-08-05 13:45+0200\n"
-"PO-Revision-Date: 2013-07-09 08:00+0000\n"
+"PO-Revision-Date: 2013-08-09 01:05+0000\n"
 "Last-Translator: Aputsiaĸ Niels Janussen <aj@isit.gl>\n"
 "Language-Team: Danish (http://www.transifex.com/projects/p/vlc-trans/"
 "language/da/)\n"
@@ -60,7 +62,7 @@ msgstr "Vælg \"Avancerede indstillinger\" for at se alle indstillinger."
 #: modules/gui/qt4/components/simple_preferences.cpp:89
 #: modules/gui/qt4/menus.cpp:1073
 msgid "Interface"
-msgstr "Grænseflade"
+msgstr "Brugerflade"
 
 #: include/vlc_config_cat.h:39
 msgid "Settings for VLC's interfaces"
@@ -368,16 +370,16 @@ msgstr "VLC's implementering af Video On Demand"
 #: modules/gui/qt4/components/playlist/selector.cpp:231
 #: modules/gui/qt4/dialogs/playlist.cpp:40 modules/gui/qt4/menus.cpp:1109
 msgid "Playlist"
-msgstr "Afspilningsliste"
+msgstr "Spilleliste"
 
 #: include/vlc_config_cat.h:170
 msgid ""
 "Settings related to playlist behaviour (e.g. playback mode) and to modules "
 "that automatically add items to the playlist (\"service discovery\" modules)."
 msgstr ""
-"Indstillinger vedrørende opførslen af afspilningslisten (f.eks. "
+"Indstillinger vedrørende opførslen for spillelisten (f.eks. "
 "afspilningstilstand) og moduler, der automatisk tilføjer elementer på "
-"afspilningslisten (\"tjenesteopdagelsesmoduler\")."
+"spillelisten (\"tjenesteopdagelsesmoduler\")."
 
 #: include/vlc_config_cat.h:174
 msgid "General playlist behaviour"
@@ -1759,11 +1761,11 @@ msgstr ""
 
 #: src/libvlc-module.c:157
 msgid "Audio resampler"
-msgstr ""
+msgstr "Lyd-resampler"
 
 #: src/libvlc-module.c:159
 msgid "This selects which plugin to use for audio resampling."
-msgstr ""
+msgstr "Dette vælger hvilket plugin der skal bruges til resampling af lyd."
 
 #: src/libvlc-module.c:162
 msgid ""
@@ -2271,7 +2273,7 @@ msgstr ""
 
 #: src/libvlc-module.c:379
 msgid "Video splitter module"
-msgstr ""
+msgstr "Videosplittermodul"
 
 #: src/libvlc-module.c:381
 msgid "This adds video splitters like clone or wall"
@@ -2584,6 +2586,8 @@ msgid ""
 "This defines the maximum input delay jitter that the synchronization "
 "algorithms should try to compensate (in milliseconds)."
 msgstr ""
+"Dette definerer den maksimale input-forsinkelsesdirren, som "
+"synkroniseringensalgoritmerne bør forsøge at kompensere (i millisekunder)."
 
 #: src/libvlc-module.c:533
 msgid "Network synchronisation"
@@ -2753,6 +2757,10 @@ msgid ""
 "option if you don't have enough CPU power or network bandwidth to play "
 "higher resolutions."
 msgstr ""
+"Når flere videoformater er tilgængelige, skal du vælge en, hvis opløsning er "
+"tættest på (men ikke højere end) denne indstilling i antal af linjer. Brug "
+"denne indstilling hvis du ikke har nok CPU-kraft eller båndbredde til at "
+"afspille højere opløsninger."
 
 #: src/libvlc-module.c:615
 msgid "Best available"
@@ -2918,6 +2926,10 @@ msgid ""
 "Track num<br>$p: Now playing<br>$A: Date<br>$D: Duration<br>$Z: \"Now playing"
 "\" (Fall back on Title - Artist)"
 msgstr ""
+"Denne indstilling tillader dig at angive titlen i henhold til hvad, der "
+"bliver afspillet<br>$a: Kunstner<br>$b: Album<br>$c: Ophavsret<br>$t: "
+"Titel<br>$g: Genre<br>$n: Spornummer<br>$p: Afspilles nu<br>$A: Dato<br>$D: "
+"Varighed<br>$Z: \"Afspilles nu\" (Fald tilbage på titel - Kunstner)"
 
 #: src/libvlc-module.c:688
 msgid ""
@@ -2980,7 +2992,7 @@ msgstr ""
 
 #: src/libvlc-module.c:712
 msgid "Subpictures source module"
-msgstr ""
+msgstr "Kildemodul for underbilleder"
 
 #: src/libvlc-module.c:714
 msgid ""
@@ -3000,6 +3012,9 @@ msgid ""
 "This adds so-called \"subpicture filters\". These filter subpictures created "
 "by subtitle decoders or other subpictures sources."
 msgstr ""
+"Dette tilføjer såkaldte \"filtre for underbilleder\". Disse filtrerer "
+"underbilleder som er oprettet af undertekst-afkodere eller andre underbilled-"
+"kilder."
 
 #: src/libvlc-module.c:722
 msgid "Autodetect subtitle files"
@@ -3830,7 +3845,7 @@ msgstr "Begynd automatisk på afspilning når spillelistens indhold er indlæst.
 
 #: src/libvlc-module.c:1161
 msgid "Pause on audio communication"
-msgstr ""
+msgstr "Sæt på pause ved lydkommunikation"
 
 #: src/libvlc-module.c:1163
 msgid ""
@@ -4433,7 +4448,7 @@ msgstr "Vælg den tast, der indstiller dette spillelistebogmærke."
 #: src/libvlc-module.c:1346
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:234
 msgid "Clear the playlist"
-msgstr "Ryd afspilningslisten"
+msgstr "Ryd spillelisten"
 
 #: src/libvlc-module.c:1347
 msgid "Select the key to clear the current playlist."
@@ -5854,7 +5869,7 @@ msgstr ""
 
 #: modules/access/decklink.cpp:44
 msgid "Input card to use"
-msgstr ""
+msgstr "Inputkort som skal benyttes"
 
 #: modules/access/decklink.cpp:46
 msgid ""
@@ -6305,15 +6320,15 @@ msgstr ""
 
 #: modules/access/dtv/access.c:62
 msgid "Layer A modulation"
-msgstr ""
+msgstr "Modulering af lag A"
 
 #: modules/access/dtv/access.c:63
 msgid "Layer B modulation"
-msgstr ""
+msgstr "Modulering af lag B"
 
 #: modules/access/dtv/access.c:64
 msgid "Layer C modulation"
-msgstr ""
+msgstr "Modulering af lag C"
 
 #: modules/access/dtv/access.c:66
 msgid ""
@@ -6334,7 +6349,7 @@ msgstr ""
 
 #: modules/access/dtv/access.c:86
 msgid "Spectrum inversion"
-msgstr ""
+msgstr "Inversion af spektrum"
 
 #: modules/access/dtv/access.c:88
 msgid ""
@@ -6474,7 +6489,7 @@ msgstr ""
 
 #: modules/access/dtv/access.c:171
 msgid "Unspecified (0V)"
-msgstr ""
+msgstr "Uspecificeret (0V)"
 
 #: modules/access/dtv/access.c:172
 msgid "Vertical (13V)"
@@ -6624,7 +6639,7 @@ msgstr ""
 
 #: modules/access/dtv/access.c:241
 msgid "Digital Television and Radio"
-msgstr ""
+msgstr "Digitalt fjernsyn og radio"
 
 #: modules/access/dtv/access.c:279
 msgid "Terrestrial reception parameters"
@@ -6652,7 +6667,7 @@ msgstr ""
 
 #: modules/access/dtv/access.c:373
 msgid "Satellite equipment control"
-msgstr ""
+msgstr "Kontrol til satellitudstyr"
 
 #: modules/access/dtv/access.c:415
 msgid "ATSC reception parameters"
@@ -6660,7 +6675,7 @@ msgstr ""
 
 #: modules/access/dtv/access.c:471
 msgid "Digital broadcasting"
-msgstr ""
+msgstr "Digital rundsending"
 
 #: modules/access/dtv/access.c:472
 msgid ""
@@ -6823,11 +6838,11 @@ msgstr ""
 
 #: modules/access/fs.c:55
 msgid "Do not sort the items."
-msgstr ""
+msgstr "Undlad at sortere elementerne."
 
 #: modules/access/fs.c:57
 msgid "Directory sort order"
-msgstr ""
+msgstr "Rækkefølge for sortering af mappe"
 
 #: modules/access/fs.c:59
 msgid "Define the sort algorithm used when adding items from a directory."
@@ -7222,7 +7237,7 @@ msgstr ""
 
 #: modules/access/linsys/linsys_sdi.c:79
 msgid "Teletext configuration"
-msgstr ""
+msgstr "Konfiguration af teletekst"
 
 #: modules/access/linsys/linsys_sdi.c:81
 msgid ""
@@ -7231,7 +7246,7 @@ msgstr ""
 
 #: modules/access/linsys/linsys_sdi.c:82
 msgid "Teletext language"
-msgstr ""
+msgstr "Sprog for teletekst"
 
 #: modules/access/linsys/linsys_sdi.c:84
 msgid "Allows you to set Teletext language (page=lang/type,...)."
@@ -7278,13 +7293,15 @@ msgstr ""
 
 #: modules/access/live555.cpp:91
 msgid "RTSP password"
-msgstr ""
+msgstr "Kodeord for RTSP"
 
 #: modules/access/live555.cpp:92
 msgid ""
 "Sets the password for the connection, if no username or password are set in "
 "the url."
 msgstr ""
+"Angiver kodeordet for forbindelsen, hvis der ikke er sat brugernavn eller "
+"kodeord i url."
 
 #: modules/access/live555.cpp:94
 msgid "RTSP frame buffer size"
@@ -7375,9 +7392,9 @@ msgid ""
 "mydomain:myport/ ; if empty, the http_proxy environment variable will be "
 "tried."
 msgstr ""
-"HTTP-proxyen, der skal bruges.  Skal være på formen http://[bruger[:"
-"kode]@]minproxy.mitdomæne:minport/ ; hvis dette felt er tomt, vil "
-"miljøvariablen http_proxy blive forsøgt."
+"HTTP-proxyen, der skal bruges.  Skal være på formen http://[bruger[:kode]@]"
+"minproxy.mitdomæne:minport/ ; hvis dette felt er tomt, vil miljøvariablen "
+"http_proxy blive forsøgt."
 
 #: modules/access/mms/mms.c:64
 msgid "TCP/UDP timeout (ms)"
@@ -7443,11 +7460,11 @@ msgstr "Dummy-strømoutput"
 
 #: modules/access_output/file.c:65
 msgid "Overwrite existing file"
-msgstr ""
+msgstr "Overskriv eksisterende fil"
 
 #: modules/access_output/file.c:67
 msgid "If the file already exists, it will be overwritten."
-msgstr ""
+msgstr "Hvis filen allerede eksisterer, vil den blive overskrevet."
 
 #: modules/access_output/file.c:68
 msgid "Append to file"
@@ -7459,7 +7476,7 @@ msgstr "Føjer til filen hvis den findes, i stedet for at overskrive den."
 
 #: modules/access_output/file.c:71
 msgid "Format time and date"
-msgstr ""
+msgstr "Formater tid og dato"
 
 #: modules/access_output/file.c:72
 msgid "Perform ISO C time and date formatting on the file path"
@@ -7482,14 +7499,16 @@ msgid ""
 "The output file already exists. If recording continues, the file will be "
 "overridden and its content will be lost."
 msgstr ""
+"Output-filen eksisterer allerede. Hvis optagelse fortsætter, vil filen blive "
+"overskrevet og dens indhold slettet."
 
 #: modules/access_output/file.c:203
 msgid "Keep existing file"
-msgstr ""
+msgstr "Behold eksisterende fil"
 
 #: modules/access_output/file.c:204
 msgid "Overwrite"
-msgstr ""
+msgstr "Overskriv"
 
 #: modules/access_output/http.c:51 modules/access/vnc.c:46
 #: modules/misc/audioscrobbler.c:114 modules/stream_out/rtp.c:177
@@ -7529,7 +7548,7 @@ msgstr "HTTP-strømoutput"
 
 #: modules/access_output/livehttp.c:69
 msgid "Segment length"
-msgstr ""
+msgstr "Segmentlængde"
 
 #: modules/access_output/livehttp.c:70
 msgid "Length of TS stream segments"
@@ -7546,7 +7565,7 @@ msgstr ""
 
 #: modules/access_output/livehttp.c:76
 msgid "Number of segments"
-msgstr ""
+msgstr "Antal segmenter"
 
 #: modules/access_output/livehttp.c:77
 msgid "Number of segments to include in index"
@@ -7554,7 +7573,7 @@ msgstr ""
 
 #: modules/access_output/livehttp.c:79
 msgid "Allow cache"
-msgstr ""
+msgstr "Tillad cache"
 
 #: modules/access_output/livehttp.c:80
 msgid "Add EXT-X-ALLOW-CACHE:NO directive in playlist-file if this is disabled"
@@ -7562,7 +7581,7 @@ msgstr ""
 
 #: modules/access_output/livehttp.c:82
 msgid "Index file"
-msgstr ""
+msgstr "Index-fil"
 
 #: modules/access_output/livehttp.c:83
 msgid "Path to the index file to create"
@@ -7578,11 +7597,11 @@ msgstr ""
 
 #: modules/access_output/livehttp.c:89
 msgid "Delete segments"
-msgstr ""
+msgstr "Slet segmenter"
 
 #: modules/access_output/livehttp.c:90
 msgid "Delete segments when they are no longer needed"
-msgstr ""
+msgstr "Slet segmenter som ikke længere er nødvendige"
 
 #: modules/access_output/livehttp.c:92
 msgid "Use muxers rate control mechanism"
@@ -7621,11 +7640,11 @@ msgstr ""
 
 #: modules/access_output/livehttp.c:108
 msgid "HTTP Live streaming output"
-msgstr ""
+msgstr "HTTP Live streaming output"
 
 #: modules/access_output/livehttp.c:109
 msgid "LiveHTTP"
-msgstr ""
+msgstr "LiveHTTP"
 
 #: modules/access_output/shout.c:64
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:368
@@ -7760,23 +7779,23 @@ msgstr ""
 
 #: modules/access/pulse.c:43
 msgid "PulseAudio input"
-msgstr ""
+msgstr "PulseAudio-indput"
 
 #: modules/access/qtcapture.m:43
 msgid "Video Capture width"
-msgstr ""
+msgstr "Videooptagelsesbredde"
 
 #: modules/access/qtcapture.m:44
 msgid "Video Capture width in pixel"
-msgstr ""
+msgstr "Videooptagelsesbredde i pixel"
 
 #: modules/access/qtcapture.m:45
 msgid "Video Capture height"
-msgstr ""
+msgstr "Videooptagelseshøjde"
 
 #: modules/access/qtcapture.m:46
 msgid "Video Capture height in pixel"
-msgstr ""
+msgstr "Videooptagelseshøjde i pixel"
 
 #: modules/access/qtcapture.m:60 modules/access/qtcapture.m:61
 msgid "Quicktime Capture"
@@ -7796,7 +7815,7 @@ msgstr ""
 
 #: modules/access/rar/access.c:51 modules/access/rar/stream.c:50
 msgid "Uncompressed RAR"
-msgstr ""
+msgstr "Ukomprimeret RAR"
 
 #: modules/access/rdp.c:49
 msgid "RDP auth username"
@@ -7808,7 +7827,7 @@ msgstr ""
 
 #: modules/access/rdp.c:51
 msgid "RDP Password"
-msgstr ""
+msgstr "RDP Adgangskode"
 
 #: modules/access/rdp.c:52
 msgid "Encrypted connexion"
@@ -7918,7 +7937,7 @@ msgstr "Realtidsprotokolinput (RTP)"
 
 #: modules/access/rtp/rtp.c:756
 msgid "SDP required"
-msgstr ""
+msgstr "SDP krævet"
 
 #: modules/access/rtp/rtp.c:757
 #, c-format
@@ -8007,19 +8026,19 @@ msgstr ""
 
 #: modules/access/screen/screen.c:79
 msgid "Display ID"
-msgstr ""
+msgstr "Skærm-ID"
 
 #: modules/access/screen/screen.c:81
 msgid "Display ID. If not specified, main display ID is used. "
-msgstr ""
+msgstr "Skærm-ID. Hvis det ikke er angivet, så anvendes primært skærm-ID."
 
 #: modules/access/screen/screen.c:82
 msgid "Screen index"
-msgstr ""
+msgstr "Skærmindeks"
 
 #: modules/access/screen/screen.c:84
 msgid "Index of screen (1, 2, 3, ...). Alternative to Display ID."
-msgstr ""
+msgstr "Indeks for skærm (1, 2, 3, ...). Et alternativ til Skærm-ID."
 
 #: modules/access/screen/screen.c:97
 msgid "Screen Input"
@@ -8220,7 +8239,7 @@ msgstr "TCP-input"
 
 #: modules/access/timecode.c:43
 msgid "Time code"
-msgstr ""
+msgstr "Tidskode"
 
 #: modules/access/timecode.c:44
 msgid "Time code subpicture elementary stream generator"
@@ -8236,7 +8255,7 @@ msgstr "UDP-input"
 
 #: modules/access/v4l2/controls.c:784
 msgid "Reset defaults"
-msgstr ""
+msgstr "Nulstil standardindstillingerne"
 
 #: modules/access/v4l2/v4l2.c:44
 msgid "Video capture device"
@@ -8337,11 +8356,11 @@ msgstr ""
 
 #: modules/access/v4l2/v4l2.c:86
 msgid "Automatic brightness"
-msgstr ""
+msgstr "Automatisk lysstyrke"
 
 #: modules/access/v4l2/v4l2.c:88
 msgid "Automatically adjust the picture brightness."
-msgstr ""
+msgstr "Automatisk justering af billedets lysstyrke."
 
 #: modules/access/v4l2/v4l2.c:89 modules/gui/macosx/VideoEffects.m:91
 #: modules/gui/qt4/ui/video_effects.h:1306
@@ -8392,11 +8411,11 @@ msgstr ""
 
 #: modules/access/v4l2/v4l2.c:102
 msgid "Automatic white balance"
-msgstr ""
+msgstr "Automatisk hvidbalance"
 
 #: modules/access/v4l2/v4l2.c:104
 msgid "Automatically adjust the picture white balance."
-msgstr ""
+msgstr "Automatisk justering af billedet hvidbalance."
 
 #: modules/access/v4l2/v4l2.c:105
 msgid "Red balance"
@@ -11516,9 +11535,8 @@ msgid "PNG video decoder"
 msgstr "PNG-videodekoder"
 
 #: modules/codec/qsv.c:56
-#, fuzzy
 msgid "Enable software mode"
-msgstr "Aktivér baggrundsbilledtilstand "
+msgstr ""
 
 #: modules/codec/qsv.c:57
 msgid ""
@@ -11527,9 +11545,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/qsv.c:61
-#, fuzzy
 msgid "Codec Profile"
-msgstr "Profil for indkoder"
+msgstr ""
 
 #: modules/codec/qsv.c:63
 msgid ""
@@ -11539,9 +11556,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/qsv.c:67
-#, fuzzy
 msgid "Codec Level"
-msgstr "Vis detaljer"
+msgstr ""
 
 #: modules/codec/qsv.c:69
 msgid ""
@@ -11562,9 +11578,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/qsv.c:79
-#, fuzzy
 msgid "Group of Picture Reference Distance"
-msgstr "Navn på den aktuelle instans"
+msgstr ""
 
 #: modules/codec/qsv.c:81
 msgid ""
@@ -11573,9 +11588,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/qsv.c:85
-#, fuzzy
 msgid "Target Usage"
-msgstr "Stor"
+msgstr ""
 
 #: modules/codec/qsv.c:86
 msgid ""
@@ -11584,9 +11598,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/qsv.c:90
-#, fuzzy
 msgid "IDR interval"
-msgstr "VNC-tjek-interval"
+msgstr ""
 
 #: modules/codec/qsv.c:92
 msgid ""
@@ -11609,9 +11622,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/qsv.c:105
-#, fuzzy
 msgid "Quantization parameter"
-msgstr "I-kvantiseringsfaktor"
+msgstr ""
 
 #: modules/codec/qsv.c:106
 msgid ""
@@ -11651,9 +11663,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/qsv.c:122
-#, fuzzy
 msgid "Maximum Bitrate"
-msgstr "Maksimal bithastighed"
+msgstr ""
 
 #: modules/codec/qsv.c:123
 msgid ""
@@ -11685,9 +11696,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/qsv.c:139
-#, fuzzy
 msgid "Number of slices per frame"
-msgstr "Antallet af referencebilleder"
+msgstr ""
 
 #: modules/codec/qsv.c:140
 msgid ""
@@ -11701,9 +11711,8 @@ msgid "Number of reference frames"
 msgstr "Antallet af referencebilleder"
 
 #: modules/codec/qsv.c:148
-#, fuzzy
 msgid "Number of parallel operations"
-msgstr "Antallet af DWT-operationer"
+msgstr ""
 
 #: modules/codec/qsv.c:149
 msgid ""
@@ -17415,11 +17424,11 @@ msgstr "Gem spilleliste ..."
 
 #: modules/gui/macosx/playlist.m:500
 msgid "Expand Node"
-msgstr "Udvid node"
+msgstr "Udvid punkt"
 
 #: modules/gui/macosx/playlist.m:503
 msgid "Download Cover Art"
-msgstr ""
+msgstr "Hent albumbilleder"
 
 #: modules/gui/macosx/playlist.m:504
 msgid "Fetch Meta Data"
@@ -17431,11 +17440,11 @@ msgstr "Vis i Finder"
 
 #: modules/gui/macosx/playlist.m:508
 msgid "Sort Node by Name"
-msgstr "Sortér efter navn"
+msgstr "Sortér punkt efter navn"
 
 #: modules/gui/macosx/playlist.m:509
 msgid "Sort Node by Author"
-msgstr "Sortér efter kunstner"
+msgstr "Sortér punkt efter kunstner"
 
 #: modules/gui/macosx/playlist.m:511 modules/gui/macosx/playlist.m:512
 msgid "Search in Playlist"
@@ -19449,7 +19458,7 @@ msgstr "Gå tilbage til normal afspilningshastighed"
 
 #: modules/gui/qt4/components/interface_widgets.cpp:647
 msgid "Download cover art"
-msgstr "Hent albumkunst"
+msgstr "Hent albumbilleder"
 
 #: modules/gui/qt4/components/interface_widgets.cpp:651
 msgid "Add cover art from file"
@@ -27973,9 +27982,6 @@ msgstr "AAAA; "
 msgid "Media Manager List"
 msgstr "Mediestyringsliste"
 
-#~ msgid "Add a subtitle file"
-#~ msgstr "Tilføj undertekstfil"
-
 #~ msgid ""
 #~ "SAP is a way to publically announce streams that are being sent using "
 #~ "multicast UDP or RTP."
@@ -28470,16 +28476,6 @@ msgstr "Mediestyringsliste"
 
 #~ msgid "Hard rock"
 #~ msgstr "Hård rock"
-
-#~ msgid ""
-#~ "If the file exists and this option is selected, the existing file will "
-#~ "not be overwritten."
-#~ msgstr ""
-#~ "Hvis filen allerede eksistere og denne indstilling er aktiveret vil den "
-#~ "eksisterende fil ikke blive overskrevet."
-
-#~ msgid "Automatically save the volume on exit"
-#~ msgstr "Gem automatisk den aktuelle lydstyrke, når du afslutter VLC"
 
 #~ msgid ""
 #~ "Beware this will reset the VLC media player preferences.\n"
@@ -30435,6 +30431,20 @@ msgstr "Mediestyringsliste"
 #~ msgstr "_Moduler..."
 
 #, fuzzy
+#~ msgid "Add a subtitle file"
+#~ msgstr "Tilføj undertekstfil:"
+
+#, fuzzy
+#~ msgid ""
+#~ "If the file exists and this option is selected, the existing file will "
+#~ "not be overwritten."
+#~ msgstr "Hvis filen allerede eksisterer, vil den blive overskrevet."
+
+#, fuzzy
+#~ msgid "Automatically save the volume on exit"
+#~ msgstr "Automatisk justering af billedets lysstyrke."
+
+#, fuzzy
 #~ msgid "Force mono audio"
 #~ msgstr "Tving fed"
 
@@ -30984,7 +30994,7 @@ msgstr "Mediestyringsliste"
 
 #, fuzzy
 #~ msgid "Load subtitles file:"
-#~ msgstr "Tilføj undertekstfil"
+#~ msgstr "Brug undertekstfil"
 
 #, fuzzy
 #~ msgid "Subtitles encoding"
@@ -31192,7 +31202,7 @@ msgstr "Mediestyringsliste"
 
 #, fuzzy
 #~ msgid "Automatic cropping"
-#~ msgstr "Automatisk"
+#~ msgstr "Automatisk lysstyrke"
 
 #, fuzzy
 #~ msgid "Configuration file"
@@ -31220,7 +31230,7 @@ msgstr "Mediestyringsliste"
 
 #, fuzzy
 #~ msgid "Add a subtitles file"
-#~ msgstr "Tilføj undertekstfil"
+#~ msgstr "Tilføj undertekstfil:"
 
 #, fuzzy
 #~ msgid "Use a sub&titles file"
@@ -31552,11 +31562,11 @@ msgstr "Mediestyringsliste"
 
 #, fuzzy
 #~ msgid "Telnet Interface"
-#~ msgstr "Grænseflade"
+#~ msgstr "Brugerflade"
 
 #, fuzzy
 #~ msgid "Web Interface"
-#~ msgstr "Grænseflade"
+#~ msgstr "Brugerflade"
 
 #, fuzzy
 #~ msgid "Audio output saved volume"
@@ -32059,7 +32069,7 @@ msgstr "Mediestyringsliste"
 
 #, fuzzy
 #~ msgid "General editing filters"
-#~ msgstr "Generelle lydindstillinger"
+#~ msgstr "Behold eksisterende fil"
 
 #, fuzzy
 #~ msgid "Distortion filters"
@@ -32627,7 +32637,7 @@ msgstr "Mediestyringsliste"
 
 #, fuzzy
 #~ msgid "Sort by Path"
-#~ msgstr "Sortér efter kunstner"
+#~ msgstr "Sortér punkt efter kunstner"
 
 #, fuzzy
 #~ msgid "Randomize"
@@ -32643,7 +32653,7 @@ msgstr "Mediestyringsliste"
 
 #, fuzzy
 #~ msgid "Show Interface"
-#~ msgstr "Grænseflade"
+#~ msgstr "Brugerflade"
 
 #, fuzzy
 #~ msgid "Vertical Sync"
@@ -32659,7 +32669,7 @@ msgstr "Mediestyringsliste"
 
 #, fuzzy
 #~ msgid "Download now"
-#~ msgstr "Hent albumkunst"
+#~ msgstr "Hent albumbilleder"
 
 #, fuzzy
 #~ msgid "Autoplay selected file"
@@ -33299,7 +33309,7 @@ msgstr "Mediestyringsliste"
 
 #, fuzzy
 #~ msgid "Choose a filename to save playlist"
-#~ msgstr "Ryd afspilningslisten"
+#~ msgstr "Ryd spillelisten"
 
 #, fuzzy
 #~ msgid "Choose a filename to save the VLM configuration..."
@@ -33311,7 +33321,7 @@ msgstr "Mediestyringsliste"
 
 #, fuzzy
 #~ msgid "&Playlist"
-#~ msgstr "Afspilningsliste"
+#~ msgstr "Spilleliste"
 
 #, fuzzy
 #~ msgid "Show P&laylist"
@@ -33737,7 +33747,7 @@ msgstr "Mediestyringsliste"
 
 #, fuzzy
 #~ msgid "Image inversion"
-#~ msgstr "Farveinvertering"
+#~ msgstr "Inversion af spektrum"
 
 #, fuzzy
 #~ msgid "Adds water effect to the image"
@@ -33966,7 +33976,7 @@ msgstr "Mediestyringsliste"
 
 #, fuzzy
 #~ msgid "Interfaces"
-#~ msgstr "Grænseflade"
+#~ msgstr "Brugerflade"
 
 #, fuzzy
 #~ msgid "Some random name"
@@ -34274,11 +34284,11 @@ msgstr "Mediestyringsliste"
 
 #, fuzzy
 #~ msgid "Sorted by Artist"
-#~ msgstr "Sortér efter kunstner"
+#~ msgstr "Sortér punkt efter kunstner"
 
 #, fuzzy
 #~ msgid "Sorted by Album"
-#~ msgstr "Sortér efter kunstner"
+#~ msgstr "Sortér punkt efter kunstner"
 
 #, fuzzy
 #~ msgid "Playlist stress tests"
@@ -34789,7 +34799,7 @@ msgstr "Mediestyringsliste"
 
 #, fuzzy
 #~ msgid "Toggle _Interface"
-#~ msgstr "Grænseflade"
+#~ msgstr "Brugerflade"
 
 #, fuzzy
 #~ msgid "stream output"
