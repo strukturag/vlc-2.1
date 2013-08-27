@@ -1,5 +1,5 @@
 Changes between 2.0.x and 2.1.0-rc1:
---------------------------------
+------------------------------------
 
 Important changes:
  * The licenses of numerous modules have changed from GPLv2+ to LGPLv2.1+
@@ -12,19 +12,20 @@ Important changes:
  * /extras/contrib has been replaced by a cleaner system in /contrib
 
 Core:
- * Audio core rewrite
+ * Audio core rewrite, supporting higher samplerates, better volume management,
+   better device selection, new channel layouts and new output capabilities.
  * Fix support for .001, .00x split files on Windows
  * Full support for UNICODE Windows mode
- * Partial support for Windows Store App
- * Removed SQL support
- * Add an audio fingerprinter
- * Disabled and marked obsolete --language selection
+ * Remove SQL support
+ * Add an audio fingerprinter, using AcoustID!
+ * Disable and mark obsolete --language selection
+ * Partial support for Windows Store App / WinRT
  * Port to Android
+ * Port to iOS
 
 Decoders:
- * Support for OPUS via libopus.
- * Support for CDXL, Ut Video, VBLE, Dxtory codecs via libavcodec.
- * Numerous improvements on the OpenMAX IL codec
+ * Support for CDXL, Ut Video, VBLE, Dxtory codecs via libavcodec
+ * Numerous improvements on the OpenMAX IL codec module
  * Support for Ulead DV audio
  * Support for TechSmith Screen Codec 2, Microsoft Expression Encoder Screen,
    Microsoft Application Screen Decoder 1 (MSS1) and 2 (MSS2)
@@ -40,7 +41,7 @@ Decoders:
 Encoders:
  * high10, high422 and high444 encoding support in h264
  * QuickSyncVideo Encoding (Intel Media SDK) support using Intel GPU on Windows
- * AAC encoder using the fdk-aac library (non-free)
+ * New AAC encoder using the fdk-aac library (non-free)
 
 Access:
  * Screen: add support for OS X Lion and later,
@@ -238,6 +239,39 @@ Removed modules:
  * SQL Media Library (broken and unmaintained)
  * SQL Lite (only used as SQL Media library backend)
  * htcpcp :)
+
+
+Changes between 2.0.8 and 2.0.9:
+--------------------------------
+
+Demux:
+ * Improve handling of corrupt ASF files
+
+
+Changes between 2.0.7 and 2.0.8:
+--------------------------------
+
+Access:
+ * Fix ISDB-S tuning
+ * Fix crash in QTsound
+ * Fix screen mouse file location
+ * Fix invalid memcpy in MMS access
+
+Demux:
+ * Fix use after free in sgimb
+ * Improve resistance and checking against malformed MKV files
+
+Decoders:
+ * Fix crash in the libavcodec module
+
+Mac OS X:
+ * Fix interface crashes
+ * Fix autostart playback option
+ * Respect "playlist-autostart" option
+
+Translations:
+ * update Welsh translation
+ * New Kannada translation
 
 
 Changes between 2.0.6 and 2.0.7:
