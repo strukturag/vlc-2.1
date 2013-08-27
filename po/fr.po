@@ -1,8 +1,10 @@
-# French translation of VLC
-# Copyright (C) 2001-2013 the VideoLAN team
-# $Id$
+# French translation
+# Copyright (C) 2013 VideoLAN
+# This file is distributed under the same license as the VLC package.
 #
-# Translation updated by
+# Translators:
+# Calixte, 2013
+# sebasthug <sebhug@free.fr>, 2013
 #  Éric Lassauge <lassauge {AT} users {dot} sourceforge {dot} net> - June 2013
 # Previous Translators
 #  Samuel Hocevar <sam@zoy.org>
@@ -11,21 +13,18 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: fr\n"
+"Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-08-05 13:45+0200\n"
-"PO-Revision-Date: 2013-06-26 17:51+0200\n"
-"Last-Translator: Éric Lassauge <lassauge {AT} users {dot} sourceforge {dot} "
-"net>\n"
-"Language-Team: French <fr@li.org>\n"
+"PO-Revision-Date: 2013-08-20 17:58+0000\n"
+"Last-Translator: Eric Lassauge <lassauge@users.sourceforge.net>\n"
+"Language-Team: French (http://www.transifex.com/projects/p/vlc-trans/"
+"language/fr/)\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Language: French\n"
-"Plural-Forms: nplurals=2; plural=n>1;\n"
-"X-Poedit-Language: French\n"
-"X-Poedit-Country: FRANCE\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: include/vlc_common.h:922
 msgid ""
@@ -3886,7 +3885,7 @@ msgstr "Démarrer automatiquement la liste de lecture lorsqu'elle est chargée."
 
 #: src/libvlc-module.c:1161
 msgid "Pause on audio communication"
-msgstr ""
+msgstr "Pause pendant la communication audio"
 
 #: src/libvlc-module.c:1163
 msgid ""
@@ -4871,7 +4870,7 @@ msgstr "Options de performance"
 
 #: src/libvlc-module.c:1993
 msgid "Clock source"
-msgstr ""
+msgstr "Source d'horloge"
 
 #: src/libvlc-module.c:2103
 msgid "Hot keys"
@@ -9154,7 +9153,7 @@ msgstr ""
 
 #: modules/access/vnc.c:52
 msgid "X.509 Client certificate"
-msgstr ""
+msgstr "Certificat client X.509"
 
 #: modules/access/vnc.c:53
 msgid "Certificate for client authentification"
@@ -9692,12 +9691,14 @@ msgstr ""
 
 #: modules/audio_filter/equalizer.c:67
 msgid "Use VLC frequency bands"
-msgstr ""
+msgstr "Utiliser les bandes de fréquence de VLC"
 
 #: modules/audio_filter/equalizer.c:69
 msgid ""
 "Use the VLC frequency bands. Otherwise, use the ISO Standard frequency bands."
 msgstr ""
+"Utiliser les bandes de fréquences VLC. Sinon, utiliser les bandes de "
+"fréquences ISO Standard."
 
 #: modules/audio_filter/equalizer.c:72
 msgid "Two pass"
@@ -11812,9 +11813,8 @@ msgid "PNG video decoder"
 msgstr "Décodeur vidéo PNG"
 
 #: modules/codec/qsv.c:56
-#, fuzzy
 msgid "Enable software mode"
-msgstr "Activer le mode bureau"
+msgstr ""
 
 #: modules/codec/qsv.c:57
 msgid ""
@@ -11823,9 +11823,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/qsv.c:61
-#, fuzzy
 msgid "Codec Profile"
-msgstr "Choisir un profil"
+msgstr ""
 
 #: modules/codec/qsv.c:63
 msgid ""
@@ -11835,9 +11834,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/qsv.c:67
-#, fuzzy
 msgid "Codec Level"
-msgstr "Codec "
+msgstr ""
 
 #: modules/codec/qsv.c:69
 msgid ""
@@ -11858,9 +11856,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/qsv.c:79
-#, fuzzy
 msgid "Group of Picture Reference Distance"
-msgstr "Nom de l'instance courante"
+msgstr ""
 
 #: modules/codec/qsv.c:81
 msgid ""
@@ -11879,9 +11876,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/qsv.c:90
-#, fuzzy
 msgid "IDR interval"
-msgstr "Intervalle de garde"
+msgstr ""
 
 #: modules/codec/qsv.c:92
 msgid ""
@@ -11894,9 +11890,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/qsv.c:100
-#, fuzzy
 msgid "Rate Control Method"
-msgstr "Méthode de contrôle du débit"
+msgstr ""
 
 #: modules/codec/qsv.c:102
 msgid ""
@@ -11905,9 +11900,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/qsv.c:105
-#, fuzzy
 msgid "Quantization parameter"
-msgstr "Facteur de quantization I"
+msgstr ""
 
 #: modules/codec/qsv.c:106
 msgid ""
@@ -11947,9 +11941,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/qsv.c:122
-#, fuzzy
 msgid "Maximum Bitrate"
-msgstr "Débit maximum"
+msgstr ""
 
 #: modules/codec/qsv.c:123
 msgid ""
@@ -11981,9 +11974,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/qsv.c:139
-#, fuzzy
 msgid "Number of slices per frame"
-msgstr "Nombre d'images de référence par trame"
+msgstr ""
 
 #: modules/codec/qsv.c:140
 msgid ""
@@ -11997,9 +11989,8 @@ msgid "Number of reference frames"
 msgstr "Nombre d'images de référence"
 
 #: modules/codec/qsv.c:148
-#, fuzzy
 msgid "Number of parallel operations"
-msgstr "Nombre d'itérations DWT"
+msgstr ""
 
 #: modules/codec/qsv.c:149
 msgid ""
@@ -18742,7 +18733,7 @@ msgstr "Effet aquatique"
 
 #: modules/gui/macosx/VideoEffects.m:161 modules/video_filter/anaglyph.c:73
 msgid "Anaglyph"
-msgstr ""
+msgstr "Anaglyphe"
 
 #: modules/gui/macosx/VideoEffects.m:163
 #: modules/gui/qt4/ui/video_effects.h:1366
@@ -19631,19 +19622,17 @@ msgid " Position : %s/%s"
 msgstr " Position : %s/%s"
 
 #: modules/gui/ncurses.c:1099
-#, fuzzy
 msgid " Volume   : Mute"
-msgstr " Volume  : %u%%"
+msgstr ""
 
 #: modules/gui/ncurses.c:1100
-#, fuzzy, c-format
+#, c-format
 msgid " Volume   : %3ld%%"
-msgstr " Volume  : %u%%"
+msgstr ""
 
 #: modules/gui/ncurses.c:1100
-#, fuzzy
 msgid " Volume   : ----"
-msgstr " Volume  : %u%%"
+msgstr ""
 
 #: modules/gui/ncurses.c:1106
 #, c-format
@@ -20840,7 +20829,7 @@ msgstr "&Métadonnées"
 
 #: modules/gui/qt4/dialogs/mediainfo.cpp:67
 msgid "Co&dec"
-msgstr ""
+msgstr "Co&dec"
 
 #: modules/gui/qt4/dialogs/mediainfo.cpp:71
 msgid "S&tatistics"
@@ -29103,9 +29092,6 @@ msgstr "AAAA; "
 msgid "Media Manager List"
 msgstr "Liste du gestionnaire de médias"
 
-#~ msgid "Add a subtitle file"
-#~ msgstr "Ajouter un fichier de sous-titres"
-
 #~ msgid ""
 #~ "SAP is a way to publically announce streams that are being sent using "
 #~ "multicast UDP or RTP."
@@ -31020,6 +31006,10 @@ msgstr "Liste du gestionnaire de médias"
 #~ msgstr "Aucune donnée de guide des programmes"
 
 #, fuzzy
+#~ msgid "Add a subtitle file"
+#~ msgstr "Utiliser un fichier de sous-&titres"
+
+#, fuzzy
 #~ msgid "Subtitles/OSD"
 #~ msgstr "Sous-titres & OSD"
 
@@ -31557,7 +31547,7 @@ msgstr "Liste du gestionnaire de médias"
 
 #, fuzzy
 #~ msgid "Load subtitles file:"
-#~ msgstr "Ajouter un fichier de sous-titres"
+#~ msgstr "Utiliser un fichier de sous-titres"
 
 #, fuzzy
 #~ msgid "SAP announce"
@@ -33274,15 +33264,15 @@ msgstr "Liste du gestionnaire de médias"
 
 #, fuzzy
 #~ msgid "     <left>      Seek -1%%"
-#~ msgstr "    [gauche], [droite]    Sauter -/+1%%"
+#~ msgstr "     ←, →        Sauter -/+1%%"
 
 #, fuzzy
 #~ msgid "     a           Volume Up"
-#~ msgstr "     a,z           Monter/baisser le volume"
+#~ msgstr "     a,z         Monter/baisser le volume"
 
 #, fuzzy
 #~ msgid "     D, <del>    Delete an entry"
-#~ msgstr "     D, [<-], [Suppr]                  Effacer"
+#~ msgstr "     D,⌫,[Suppr] Effacer"
 
 #, fuzzy
 #~ msgid "[Miscellaneous]"
