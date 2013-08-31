@@ -1392,7 +1392,7 @@ static bo_t *GetStblBox( sout_mux_t *p_mux, mp4_stream_t *p_stream )
     if( p_stream->fmt.i_cat == AUDIO_ES )
         i_timescale = p_stream->fmt.audio.i_rate;
     else
-        i_timescale = 1001;
+        i_timescale = CLOCK_FREQ;
 
     /* first, create quantified length */
     for( i = 0, i_dts = 0, i_dts_q = 0; i < p_stream->i_entry_count; i++ )
@@ -1560,7 +1560,7 @@ static bo_t *GetMoovBox( sout_mux_t *p_mux )
         if( p_stream->fmt.i_cat == AUDIO_ES )
             i_timescale = p_stream->fmt.audio.i_rate;
         else
-            i_timescale = 1001;
+            i_timescale = CLOCK_FREQ;
 
         /* *** add /moov/trak *** */
         trak = box_new( "trak" );
