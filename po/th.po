@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-09-08 20:08+0200\n"
-"PO-Revision-Date: 2013-08-15 06:11+0000\n"
-"Last-Translator: jerng <jernghan@gmail.com>\n"
+"PO-Revision-Date: 2013-09-09 08:20+0000\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Thai (http://www.transifex.com/projects/p/vlc-trans/language/"
 "th/)\n"
 "Language: th\n"
@@ -177,7 +177,7 @@ msgstr "ค่าตั้งส่วนที่เกี่ยวข้อง
 
 #: include/vlc_config_cat.h:93
 msgid "Input / Codecs"
-msgstr "ส่วนนำเข้า / ตัวถอด/ลงรหัส"
+msgstr "ส่วนนำเข้า / ตัวอ่าน-ลงรหัส"
 
 #: include/vlc_config_cat.h:94
 msgid "Settings for input, demultiplexing, decoding and encoding"
@@ -217,7 +217,7 @@ msgstr "ตัวแยกกระแสที่ใช้ในการแย
 
 #: include/vlc_config_cat.h:111
 msgid "Video codecs"
-msgstr "ตัวถอด/ลงรหัสวีดิทัศน์"
+msgstr "ตัวอ่าน-ลงรหัสวีดิทัศน์"
 
 #: include/vlc_config_cat.h:112
 msgid "Settings for the video, images or video+audio decoders and encoders."
@@ -225,7 +225,7 @@ msgstr "ค่าตั้งวีดิทัศน์ รูปภาพ ห�
 
 #: include/vlc_config_cat.h:114
 msgid "Audio codecs"
-msgstr "ตัวถอด/ลงรหัสเสียง"
+msgstr "ตัวอ่าน-ลงรหัสเสียง"
 
 #: include/vlc_config_cat.h:115
 msgid "Settings for the audio-only decoders and encoders."
@@ -233,7 +233,7 @@ msgstr "ค่าตั้งตัวอ่านและตัวลงรห
 
 #: include/vlc_config_cat.h:117
 msgid "Subtitle codecs"
-msgstr "ตัวถอด/ลงรหัส บทบรรยาย"
+msgstr "ตัวอ่าน-ลงรหัส บทบรรยาย"
 
 #: include/vlc_config_cat.h:118
 msgid "Settings for subtitle, teletext and CC decoders and encoders."
@@ -1193,7 +1193,7 @@ msgstr "ID ดั้งเดิม"
 #: modules/gui/qt4/ui/profiles.h:712 modules/gui/qt4/ui/profiles.h:738
 #: modules/gui/qt4/ui/profiles.h:747
 msgid "Codec"
-msgstr "ตัวถอด/ลงรหัส"
+msgstr "ตัวอ่าน-ลงรหัส"
 
 #: src/input/es_out.c:2898 src/input/meta.c:66 modules/access/imem.c:71
 #: modules/gui/macosx/MainMenu.m:76 modules/stream_out/setid.c:49
@@ -1215,7 +1215,7 @@ msgstr "ช่อง"
 #: src/input/es_out.c:2915 modules/access/alsa.c:39 modules/access/imem.c:75
 #: modules/audio_output/amem.c:45 modules/codec/fluidsynth.c:62
 msgid "Sample rate"
-msgstr "อัตราวัด"
+msgstr "อัตราตัวอย่างสุ่ม"
 
 #: src/input/es_out.c:2915
 #, c-format
@@ -4801,7 +4801,7 @@ msgstr ""
 
 #: src/text/iso-639_def.h:87
 msgid "Greek, Modern"
-msgstr ""
+msgstr "กรีก (ปัจจุบัน)"
 
 #: src/text/iso-639_def.h:88
 msgid "Guarani"
@@ -5221,7 +5221,7 @@ msgstr ""
 
 #: src/text/iso-639_def.h:193
 msgid "Uighur"
-msgstr ""
+msgstr "อุยกูร์"
 
 #: src/text/iso-639_def.h:194
 msgid "Ukrainian"
@@ -5245,7 +5245,7 @@ msgstr ""
 
 #: src/text/iso-639_def.h:199
 msgid "Welsh"
-msgstr ""
+msgstr "เวลส์"
 
 #: src/text/iso-639_def.h:200
 msgid "Wolof"
@@ -5257,7 +5257,7 @@ msgstr "คอซา"
 
 #: src/text/iso-639_def.h:202
 msgid "Yiddish"
-msgstr ""
+msgstr "ยิดดิช"
 
 #: src/text/iso-639_def.h:203
 msgid "Yoruba"
@@ -5527,7 +5527,7 @@ msgstr ""
 #: modules/access/decklink.cpp:61 modules/demux/rawaud.c:43
 #: modules/video_output/decklink.cpp:85
 msgid "Audio samplerate (Hz)"
-msgstr "อัตราวัด (Hz)"
+msgstr "อัตราตัวอย่างสุ่ม (Hz)"
 
 #: modules/access/decklink.cpp:63
 msgid ""
@@ -6641,7 +6641,7 @@ msgstr "ข้อมูล"
 
 #: modules/access/imem.c:69
 msgid "Set the codec of the elementary stream"
-msgstr "ตั้งตัวถอด/ลงรหัสของกระแสมูลฐาน"
+msgstr "ตั้งตัวอ่าน-ลงรหัสของกระแสมูลฐาน"
 
 #: modules/access/imem.c:73
 msgid "Language of the elementary stream as described by ISO639"
@@ -6649,7 +6649,7 @@ msgstr "ภาษาของกระแสมูลฐานที่มีร
 
 #: modules/access/imem.c:77
 msgid "Sample rate of an audio elementary stream"
-msgstr "อัตราวัดของกระแสเสียงมูลฐาน"
+msgstr "อัตราตัวอย่างสุ่มของกระแสเสียงมูลฐาน"
 
 #: modules/access/imem.c:79 modules/audio_output/amem.c:49
 msgid "Channels count"
@@ -9214,7 +9214,7 @@ msgstr ""
 
 #: modules/audio_filter/resampler/src.c:40
 msgid "Sample rate converter type"
-msgstr "ประเภทตัวแปลงอัตราวัด"
+msgstr "ประเภทตัวแปลงอัตราตัวอย่างสุ่ม"
 
 #: modules/audio_filter/resampler/src.c:42
 msgid ""
@@ -9836,7 +9836,7 @@ msgstr "ตั้งค่าตัวพรางดีบั๊ก FFmpeg"
 
 #: modules/codec/avcodec/avcodec.h:118
 msgid "Codec name"
-msgstr "ชื่อตัวถอด/ลงรหัส"
+msgstr "ชื่อตัวอ่าน-ลงรหัส"
 
 #: modules/codec/avcodec/avcodec.h:119
 msgid "Internal libavcodec codec name"
@@ -10203,11 +10203,11 @@ msgstr ""
 
 #: modules/codec/ddummy.c:47
 msgid "Dummy decoder"
-msgstr ""
+msgstr "ตัวอ่านรหัส Dummy"
 
 #: modules/codec/ddummy.c:56 modules/codec/ddummy.c:57
 msgid "Dump decoder"
-msgstr ""
+msgstr "ตัวอ่านรหัส Dump"
 
 #: modules/codec/dirac.c:61 modules/codec/schroedinger.c:109
 msgid "Constant quality factor"
@@ -10972,7 +10972,7 @@ msgstr ""
 
 #: modules/codec/qsv.c:61
 msgid "Codec Profile"
-msgstr "โพรไฟล์ตัวถอด/ลงรหัส"
+msgstr "โพรไฟล์ตัวอ่าน-ลงรหัส"
 
 #: modules/codec/qsv.c:63
 msgid ""
@@ -10983,7 +10983,7 @@ msgstr ""
 
 #: modules/codec/qsv.c:67
 msgid "Codec Level"
-msgstr "ระดับตัวถอด/ลงรหัส"
+msgstr "ระดับตัวอ่าน-ลงรหัส"
 
 #: modules/codec/qsv.c:69
 msgid ""
@@ -14809,7 +14809,7 @@ msgstr "ตัวแยกกระแส PVA "
 
 #: modules/demux/rawaud.c:44
 msgid "Audio sample rate in Hertz. Default is 48000 Hz."
-msgstr "อัตราวัดในหน่วยเฮิรตซ์ ค่าปริยายคือ 48000 Hz"
+msgstr "อัตราตัวอย่างสุ่มในหน่วยเฮิรตซ์ ค่าปริยายคือ 48000 Hz"
 
 #: modules/demux/rawaud.c:46 modules/stream_out/transcode/transcode.c:99
 #: share/lua/http/dialogs/create_stream.html:316
@@ -15630,13 +15630,13 @@ msgstr ""
 #: share/lua/http/dialogs/create_stream.html:160
 #: modules/gui/qt4/ui/profiles.h:735
 msgid "Video codec"
-msgstr "ตัวถอด/ลงรหัสวีดิทัศน์"
+msgstr "ตัวอ่าน-ลงรหัสวีดิทัศน์"
 
 #: modules/gui/macosx/ConvertAndSave.m:172
 #: share/lua/http/dialogs/create_stream.html:178
 #: modules/gui/qt4/ui/profiles.h:745
 msgid "Audio codec"
-msgstr "ตัวถอด/ลงรหัสเสียง"
+msgstr "ตัวอ่าน-ลงรหัสเสียง"
 
 #: modules/gui/macosx/ConvertAndSave.m:176 modules/gui/qt4/ui/profiles.h:711
 msgid "Keep original video track"
@@ -16894,7 +16894,7 @@ msgstr "ทั่วไป"
 
 #: modules/gui/macosx/playlistinfo.m:79
 msgid "Codec Details"
-msgstr "ราบละเอียดตัวถอด/ลงรหัส"
+msgstr "ราบละเอียดตัวอ่าน-ลงรหัส"
 
 #: modules/gui/macosx/playlistinfo.m:97
 msgid "Read at media"
@@ -17009,7 +17009,7 @@ msgstr "ค่าตั้งบทบรรยาย & การแสดงภ
 
 #: modules/gui/macosx/simple_prefs.m:148
 msgid "Input & Codec Settings"
-msgstr "ค่าตั้งส่วนนำเข้า & ตัวถอด/ลงรหัส"
+msgstr "ค่าตั้งส่วนนำเข้า & ตัวอ่าน-ลงรหัส"
 
 #: modules/gui/macosx/simple_prefs.m:182
 msgid "General Audio"
@@ -17621,19 +17621,19 @@ msgstr ""
 #: modules/gui/macosx/wizard.m:116
 msgid "MPEG-1 Video codec (usable with MPEG PS, MPEG TS, MPEG1, OGG and RAW)"
 msgstr ""
-"MPEG-1 ตัวถอด/ลงรหัสวีดิทัศน์ (สามารถใช้ได้กับ MPEG PS, MPEG TS, MPEG1, OGG และ RAW)"
+"MPEG-1 ตัวอ่าน-ลงรหัสวีดิทัศน์ (สามารถใช้ได้กับ MPEG PS, MPEG TS, MPEG1, OGG และ RAW)"
 
 #: modules/gui/macosx/wizard.m:120
 msgid "MPEG-2 Video codec (usable with MPEG PS, MPEG TS, MPEG1, OGG and RAW)"
 msgstr ""
-"MPEG-2 ตัวถอด/ลงรหัสวีดิทัศน์ (สามารถใช้ได้กับ MPEG PS, MPEG TS, MPEG1, OGG และ RAW)"
+"MPEG-2 ตัวอ่าน-ลงรหัสวีดิทัศน์ (สามารถใช้ได้กับ MPEG PS, MPEG TS, MPEG1, OGG และ RAW)"
 
 #: modules/gui/macosx/wizard.m:124
 msgid ""
 "MPEG-4 Video codec (useable with MPEG PS, MPEG TS, MPEG1, ASF, MP4, OGG and "
 "RAW)"
 msgstr ""
-"MPEG-4 ตัวถอด/ลงรหัสวีดิทัศน์ (สามารถใช้ได้กับ MPEG PS, MPEG TS, MPEG1, ASF, MP4, OGG "
+"MPEG-4 ตัวอ่าน-ลงรหัสวีดิทัศน์ (สามารถใช้ได้กับ MPEG PS, MPEG TS, MPEG1, ASF, MP4, OGG "
 "และ RAW)"
 
 #: modules/gui/macosx/wizard.m:128
@@ -18755,7 +18755,7 @@ msgid ""
 "Muxer, Audio and Video Codecs, Subtitles are shown."
 msgstr ""
 "ข้อมูลเกี่ยวกับ สื่อหรือกระแสข้อมูลที่คุณทำขึ้น\n"
-"ตัวรวมกระแส, ตัวถอด/ลงรหัส เสียงและวีดิทัศน์, บทบรรยาย ถูกแสดงไว้ที่นี่"
+"ตัวรวมกระแส, ตัวอ่าน-ลงรหัส เสียงและวีดิทัศน์, บทบรรยาย ถูกแสดงไว้ที่นี่"
 
 #: modules/gui/qt4/components/info_panels.cpp:527
 msgid "Current media / stream statistics"
@@ -19169,7 +19169,7 @@ msgstr "ปุ่ม:"
 #: modules/gui/qt4/components/simple_preferences.cpp:226
 #: modules/gui/qt4/components/simple_preferences.cpp:595
 msgid "Input & Codecs Settings"
-msgstr "ค่าตั้งส่วนนำเข้า และตัวถอด/ลงรหัส"
+msgstr "ค่าตั้งส่วนนำเข้า และตัวอ่าน-ลงรหัส"
 
 #: modules/gui/qt4/components/simple_preferences.cpp:228
 #: modules/gui/qt4/components/simple_preferences.cpp:882
@@ -22466,7 +22466,7 @@ msgstr ""
 
 #: modules/stream_out/transcode/transcode.c:89
 msgid "This is the audio codec that will be used."
-msgstr "จะใช้ตัวถอด/ลงรหัสเสียง ตัวนี้"
+msgstr "จะใช้ตัวอ่าน-ลงรหัสเสียง ตัวนี้"
 
 #: modules/stream_out/transcode/transcode.c:90
 #: share/lua/http/dialogs/create_stream.html:231
@@ -26801,7 +26801,7 @@ msgstr "px"
 
 #: modules/gui/qt4/ui/profiles.h:742
 msgid "Sample Rate"
-msgstr "อัตราวัด"
+msgstr "อัตราตัวอย่างสุ่ม"
 
 #: modules/gui/qt4/ui/sout.h:204
 msgid "Set up media sources to stream"
@@ -26911,7 +26911,7 @@ msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_input.h:342
 msgid "Codecs"
-msgstr "ตัวถอด/ลงรหัสต่างๆ"
+msgstr "ตัวอ่าน-ลงรหัสต่างๆ"
 
 #: modules/gui/qt4/ui/sprefs_input.h:343
 msgid "x264 profile and level selection"
@@ -26970,9 +26970,8 @@ msgid "Default caching policy"
 msgstr "ข้อกำหนดการทำแคชปริยาย"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:514
-#, fuzzy
 msgid "Menus language:"
-msgstr "ภาษาของเสียง"
+msgstr "ภาษาของเมนู:"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:515
 msgid "Look and feel"
@@ -27418,9 +27417,6 @@ msgstr "รายการตัวจัดการสื่อ"
 
 #~ msgid "Selecting current widget performs the associated action."
 #~ msgstr "เลือกวิดเจ็ดปัจจุบันที่จะใช้เชื่อมโยงกิจกรรมต่างๆ"
-
-#~ msgid "Greek, Modern ()"
-#~ msgstr "กรีก, สมัยใหม่ ()"
 
 #~ msgid "PCM U8"
 #~ msgstr "PCM U8"
@@ -27873,6 +27869,10 @@ msgstr "รายการตัวจัดการสื่อ"
 #~ msgstr "แสดงแต่จอ (ไร้แถบเครื่องมือ)"
 
 #, fuzzy
+#~ msgid "Greek, Modern ()"
+#~ msgstr "กรีก (ปัจจุบัน)"
+
+#, fuzzy
 #~ msgid "Add a subtitle file"
 #~ msgstr "เพิ่มแฟ้มบทบรรยาย:"
 
@@ -27902,7 +27902,7 @@ msgstr "รายการตัวจัดการสื่อ"
 
 #, fuzzy
 #~ msgid "Subtitles codecs"
-#~ msgstr "ตัวถอด/ลงรหัส บทบรรยาย"
+#~ msgstr "ตัวอ่าน-ลงรหัส บทบรรยาย"
 
 #, fuzzy
 #~ msgid "Settings for subtitles, teletext and CC decoders and encoders."
@@ -28455,11 +28455,11 @@ msgstr "รายการตัวจัดการสื่อ"
 
 #, fuzzy
 #~ msgid "Input & Codecs"
-#~ msgstr "ส่วนนำเข้า / ตัวถอด/ลงรหัส"
+#~ msgstr "ส่วนนำเข้า / ตัวอ่าน-ลงรหัส"
 
 #, fuzzy
 #~ msgid "Input & Codec settings"
-#~ msgstr "ค่าตั้งส่วนนำเข้า & ตัวถอด/ลงรหัส"
+#~ msgstr "ค่าตั้งส่วนนำเข้า & ตัวอ่าน-ลงรหัส"
 
 #, fuzzy
 #~ msgid "Enable Audio"
@@ -28639,7 +28639,7 @@ msgstr "รายการตัวจัดการสื่อ"
 
 #, fuzzy
 #~ msgid "Input && Codecs"
-#~ msgstr "ส่วนนำเข้า / ตัวถอด/ลงรหัส"
+#~ msgstr "ส่วนนำเข้า / ตัวอ่าน-ลงรหัส"
 
 #, fuzzy
 #~ msgid "Allow downloading media information"
@@ -28663,7 +28663,7 @@ msgstr "รายการตัวจัดการสื่อ"
 
 #, fuzzy
 #~ msgid "&Codec"
-#~ msgstr "ตัวถอด/ลงรหัส"
+#~ msgstr "ตัวอ่าน-ลงรหัส"
 
 #, fuzzy
 #~ msgid "&Convert"
@@ -28783,7 +28783,7 @@ msgstr "รายการตัวจัดการสื่อ"
 
 #, fuzzy
 #~ msgid "This is the subtitles codec that will be used."
-#~ msgstr "จะใช้ตัวถอด/ลงรหัสเสียง ตัวนี้"
+#~ msgstr "จะใช้ตัวอ่าน-ลงรหัสเสียง ตัวนี้"
 
 #, fuzzy
 #~ msgid "Automatic cropping"
@@ -28827,11 +28827,11 @@ msgstr "รายการตัวจัดการสื่อ"
 
 #, fuzzy
 #~ msgid "Video Codec"
-#~ msgstr "ตัวถอด/ลงรหัสวีดิทัศน์"
+#~ msgstr "ตัวอ่าน-ลงรหัสวีดิทัศน์"
 
 #, fuzzy
 #~ msgid "Audio Codec"
-#~ msgstr "ตัวถอด/ลงรหัสเสียง"
+#~ msgstr "ตัวอ่าน-ลงรหัสเสียง"
 
 #, fuzzy
 #~ msgid "Subtitle Codec"
@@ -29183,7 +29183,7 @@ msgstr "รายการตัวจัดการสื่อ"
 
 #, fuzzy
 #~ msgid "&Codec Details"
-#~ msgstr "ราบละเอียดตัวถอด/ลงรหัส"
+#~ msgstr "ราบละเอียดตัวอ่าน-ลงรหัส"
 
 #, fuzzy
 #~ msgid "XSPF playlist (*.xspf)"
