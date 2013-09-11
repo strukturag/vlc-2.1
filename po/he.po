@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-09-08 20:08+0200\n"
-"PO-Revision-Date: 2013-05-15 10:28+0000\n"
+"PO-Revision-Date: 2013-09-09 08:20+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew (http://www.transifex.com/projects/p/vlc-trans/"
 "language/he/)\n"
@@ -117,11 +117,7 @@ msgstr "אפקטים חזותיים לשמע"
 
 #: include/vlc_config_cat.h:64 include/vlc_config_cat.h:76
 msgid "Output modules"
-msgstr ""
-"כאשר אפשרות זאת מסומנת, הלחצנים המשמשים להגברה, הנמכה והשתקה של השמע במקלדת "
-"שלך תמיד ישנו את עצמת השמע של המערכת. כאשר אפשרות זאת אינה מסומנת, לחצני "
-"עצמת השמע ישנו את עצמת השמע של VLC כאשר המיקוד הוא על VLC ואת עצמת השמע של "
-"המערכת כאשר המיקוד אינו על VLC."
+msgstr "מודולי פלט"
 
 #: include/vlc_config_cat.h:65
 msgid "General settings for audio output modules."
@@ -242,7 +238,7 @@ msgstr "מקודדי כתוביות"
 
 #: include/vlc_config_cat.h:118
 msgid "Settings for subtitle, teletext and CC decoders and encoders."
-msgstr ""
+msgstr "הגדרות למפענחי ומצפיני כתוביות, טלטקסט ו־CC."
 
 #: include/vlc_config_cat.h:120
 msgid "General input settings. Use with care..."
@@ -397,7 +393,7 @@ msgstr "המודולים האלו מספקים פונקציות רשת לכל ח
 
 #: include/vlc_config_cat.h:196
 msgid "These are general settings for video/audio/subtitle encoding modules."
-msgstr ""
+msgstr "אלו הגדרות כלליות למודולי הצפנה של שמע/וידאו/כתוביות."
 
 #: include/vlc_config_cat.h:199
 msgid "Dialog providers can be configured here."
@@ -1133,23 +1129,23 @@ msgstr "התרחקות"
 
 #: src/config/keys.c:248
 msgid "Ctrl+"
-msgstr ""
+msgstr "Ctrl+"
 
 #: src/config/keys.c:249
 msgid "Alt+"
-msgstr ""
+msgstr "Alt+"
 
 #: src/config/keys.c:250
 msgid "Shift+"
-msgstr ""
+msgstr "Shift+"
 
 #: src/config/keys.c:251
 msgid "Meta+"
-msgstr ""
+msgstr "Meta+"
 
 #: src/config/keys.c:252
 msgid "Command+"
-msgstr ""
+msgstr "Command+"
 
 #: src/input/control.c:226
 #, c-format
@@ -2661,7 +2657,7 @@ msgstr ""
 
 #: src/libvlc-module.c:621
 msgid "Input repetitions"
-msgstr ""
+msgstr "חזרות על קלט"
 
 #: src/libvlc-module.c:623
 msgid "Number of time the same input will be repeated"
@@ -3678,7 +3674,7 @@ msgstr "בקרת עצמת השמע"
 
 #: src/libvlc-module.c:1197
 msgid "Position Control"
-msgstr ""
+msgstr "בקרת מיקום"
 
 #: src/libvlc-module.c:1199
 msgid "MouseWheel up-down axis Control"
@@ -5670,7 +5666,7 @@ msgstr ""
 #: modules/access/decklink.cpp:66 modules/access/dshow/dshow.cpp:197
 #: modules/video_output/decklink.cpp:90
 msgid "Number of audio channels"
-msgstr ""
+msgstr "מספר ערוצי שמע"
 
 #: modules/access/decklink.cpp:68
 msgid ""
@@ -5806,31 +5802,35 @@ msgstr ""
 
 #: modules/access/dshow/dshow.cpp:145 modules/access/v4l2/v4l2.c:196
 msgid "Picture aspect-ratio n:m"
-msgstr ""
+msgstr "יחס התצוגה של התמונה n:m"
 
 #: modules/access/dshow/dshow.cpp:146 modules/access/v4l2/v4l2.c:197
 msgid "Define input picture aspect-ratio to use. Default is 4:3"
-msgstr ""
+msgstr "הגדרת יחס התצוגה של הקלט לשימוש. בררת המחדל היא 4:3"
 
 #: modules/access/dshow/dshow.cpp:147 modules/access/v4l2/v4l2.c:53
 msgid "Video input chroma format"
-msgstr ""
+msgstr "מבנה הכרומה של וידאו הקלט"
 
 #: modules/access/dshow/dshow.cpp:149
 msgid ""
 "Force the DirectShow video input to use a specific chroma format (eg. I420 "
 "(default), RV24, etc.)"
 msgstr ""
+"הצבת אילוץ ל־DirectShow להשתמש במבנה כרומה מסוים עבור הקלט (לדוגמה I420 "
+"(בררת המחדל), RV24 וכו׳)"
 
 #: modules/access/dshow/dshow.cpp:151
 msgid "Video input frame rate"
-msgstr "קצב הפריימים של קלט הווידאו"
+msgstr "קצב התמונות של קלט הווידאו"
 
 #: modules/access/dshow/dshow.cpp:153
 msgid ""
 "Force the DirectShow video input to use a specific frame rate (eg. 0 means "
 "default, 25, 29.97, 50, 59.94, etc.)"
 msgstr ""
+"אילוץ DirectShow להשתמש בקצב תמונות מסוים עבור קלט הווידאו (לדוגמה 0 היא "
+"בררת המחדל, 25, 29.97, 50, 59.94 וכו׳)"
 
 #: modules/access/dshow/dshow.cpp:155
 msgid "Device properties"
@@ -5883,11 +5883,11 @@ msgstr ""
 
 #: modules/access/dshow/dshow.cpp:173
 msgid "Tuner input type"
-msgstr ""
+msgstr "סוג הקלט בטיונר"
 
 #: modules/access/dshow/dshow.cpp:175
 msgid "Select the tuner input type (Cable/Antenna)."
-msgstr ""
+msgstr "בחירת סוג הקלט בטיונר (כבלים/אנטנה)."
 
 #: modules/access/dshow/dshow.cpp:176
 msgid "Video input pin"
@@ -7966,6 +7966,10 @@ msgid ""
 "list: GREY, I240, RV16, RV15, RV24, RV32, YUY2, YUYV, UYVY, I41N, I422, "
 "I420, I411, I410, MJPG)"
 msgstr ""
+"לאלץ את התקן הווידאו מסוג Video4Linux2 להשתמש במבנה כרומה מסוים (לדוגמה I420 "
+"או I422 לתמונות בלתי מעובדות, MJPG עבור קלט M-JPEG דחוס) (הרשימה המלאה: "
+"GREY, I240, RV16, RV15, RV24, RV32, YUY2, YUYV, UYVY, I41N, I422, I420, "
+"I411, I410, MJPG)"
 
 #: modules/access/v4l2/v4l2.c:61
 msgid "Input of the card to use (see debug)."
@@ -8373,7 +8377,7 @@ msgstr ""
 
 #: modules/access/v4l2/v4l2.c:276
 msgid "Video4Linux input"
-msgstr "קלט Video4Linux"
+msgstr ""
 
 #: modules/access/v4l2/v4l2.c:280
 msgid "Video input"
@@ -11098,9 +11102,8 @@ msgid "PNG video decoder"
 msgstr "מפענח וידאו PNG"
 
 #: modules/codec/qsv.c:56
-#, fuzzy
 msgid "Enable software mode"
-msgstr "הפעלת מצב רקע"
+msgstr ""
 
 #: modules/codec/qsv.c:57
 msgid ""
@@ -11109,9 +11112,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/qsv.c:61
-#, fuzzy
 msgid "Codec Profile"
-msgstr "פרופיל"
+msgstr ""
 
 #: modules/codec/qsv.c:63
 msgid ""
@@ -11121,9 +11123,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/qsv.c:67
-#, fuzzy
 msgid "Codec Level"
-msgstr "פרטי המקודד"
+msgstr ""
 
 #: modules/codec/qsv.c:69
 msgid ""
@@ -11144,9 +11145,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/qsv.c:79
-#, fuzzy
 msgid "Group of Picture Reference Distance"
-msgstr "שם המופע הנוכחי"
+msgstr ""
 
 #: modules/codec/qsv.c:81
 msgid ""
@@ -11155,9 +11155,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/qsv.c:85
-#, fuzzy
 msgid "Target Usage"
-msgstr "גדול"
+msgstr ""
 
 #: modules/codec/qsv.c:86
 msgid ""
@@ -11166,9 +11165,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/qsv.c:90
-#, fuzzy
 msgid "IDR interval"
-msgstr "מנשק XOSD"
+msgstr ""
 
 #: modules/codec/qsv.c:92
 msgid ""
@@ -11232,9 +11230,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/qsv.c:122
-#, fuzzy
 msgid "Maximum Bitrate"
-msgstr "קצב סיביות"
+msgstr ""
 
 #: modules/codec/qsv.c:123
 msgid ""
@@ -11281,9 +11278,8 @@ msgid "Number of reference frames"
 msgstr ""
 
 #: modules/codec/qsv.c:148
-#, fuzzy
 msgid "Number of parallel operations"
-msgstr "מספר שורות"
+msgstr ""
 
 #: modules/codec/qsv.c:149
 msgid ""
@@ -11711,7 +11707,7 @@ msgstr ""
 #. languages using the Latin alphabet.
 #: modules/codec/subsdec.c:97
 msgid "Default (Windows-1252)"
-msgstr "בררת מחדל (Windows-1255)"
+msgstr ""
 
 #: modules/codec/subsdec.c:98
 msgid "System codeset"
@@ -11929,7 +11925,7 @@ msgstr ""
 #: modules/codec/subsdec.c:295 modules/demux/avi/avi.c:96
 msgctxt "GetACP"
 msgid "CP1252"
-msgstr "CP1255"
+msgstr ""
 
 #: modules/codec/subsusf.c:46
 msgid "USFSubs"
@@ -15593,7 +15589,7 @@ msgstr ""
 
 #: modules/gui/macosx/ControlsBar.m:60 modules/gui/macosx/fspanel.m:419
 msgid "Forward"
-msgstr "קדימה"
+msgstr ""
 
 #: modules/gui/macosx/ControlsBar.m:61 modules/gui/macosx/ControlsBar.m:832
 msgid ""
@@ -15754,7 +15750,7 @@ msgstr "תזרים"
 
 #: modules/gui/macosx/ConvertAndSave.m:167
 msgid "Apply"
-msgstr "החל"
+msgstr ""
 
 #: modules/gui/macosx/ConvertAndSave.m:169
 msgid "Save as new Profile..."
@@ -16277,7 +16273,7 @@ msgstr ""
 
 #: modules/gui/macosx/MainMenu.m:68
 msgid "Track Number"
-msgstr "מספר רצועה"
+msgstr ""
 
 #: modules/gui/macosx/MainMenu.m:70 modules/gui/macosx/playlist.m:160
 #: modules/gui/macosx/wizard.m:347 modules/gui/qt4/dialogs/plugins.cpp:557
@@ -16469,7 +16465,7 @@ msgstr ""
 
 #: modules/gui/macosx/MainMenu.m:414 modules/gui/macosx/MainMenu.m:415
 msgid "Subtitles Track"
-msgstr "רצועת כתוביות"
+msgstr ""
 
 #: modules/gui/macosx/MainMenu.m:416
 msgid "Text Size"
@@ -16997,7 +16993,7 @@ msgstr ""
 
 #: modules/gui/macosx/playlist.m:518 modules/gui/qt4/dialogs_provider.cpp:582
 msgid "HTML playlist"
-msgstr "רשימת השמעה מסוג HTML"
+msgstr ""
 
 #: modules/gui/macosx/playlist.m:695
 msgid "Save Playlist"
@@ -18534,12 +18530,12 @@ msgstr ""
 #: modules/gui/ncurses.c:1140
 #, c-format
 msgid "Open: %s"
-msgstr "פתיחה: %s"
+msgstr ""
 
 #: modules/gui/ncurses.c:1142
 #, c-format
 msgid "Find: %s"
-msgstr "חיפוש: %s"
+msgstr ""
 
 #: modules/gui/qt4/components/controller.cpp:339
 msgid "Shift+L"
@@ -19888,15 +19884,15 @@ msgstr "פתיחת רשימת השמעה..."
 
 #: modules/gui/qt4/dialogs_provider.cpp:579
 msgid "XSPF playlist"
-msgstr "רשימת השמעה מסוג XSPF..."
+msgstr ""
 
 #: modules/gui/qt4/dialogs_provider.cpp:580
 msgid "M3U playlist"
-msgstr "רשימת השמעה מסוג M3U"
+msgstr ""
 
 #: modules/gui/qt4/dialogs_provider.cpp:581
 msgid "M3U8 playlist"
-msgstr "רשימת השמעה מסוג M3U8"
+msgstr ""
 
 #: modules/gui/qt4/dialogs_provider.cpp:599
 msgid "Save playlist as..."
@@ -20645,6 +20641,10 @@ msgid ""
 "unchecked, the volume buttons will change VLC's volume when VLC is selected "
 "and change the system volume when VLC is not selected."
 msgstr ""
+"כאשר אפשרות זאת מסומנת, הלחצנים המשמשים להגברה, הנמכה והשתקה של השמע במקלדת "
+"שלך תמיד ישנו את עצמת השמע של המערכת. כאשר אפשרות זאת אינה מסומנת, לחצני "
+"עצמת השמע ישנו את עצמת השמע של VLC כאשר המיקוד הוא על VLC ואת עצמת השמע של "
+"המערכת כאשר המיקוד אינו על VLC."
 
 #: modules/gui/qt4/qt4.cpp:184
 msgid "Never"
@@ -22823,7 +22823,7 @@ msgstr "גדול יותר"
 
 #: modules/text_renderer/freetype.c:196
 msgid "Use YUVP renderer"
-msgstr ""
+msgstr "שימוש במפענח YUVP"
 
 #: modules/text_renderer/freetype.c:197
 msgid ""
@@ -22896,15 +22896,15 @@ msgstr "המרות מ- "
 
 #: modules/video_chroma/i420_rgb.c:84
 msgid "I420,IYUV,YV12 to RGB2,RV15,RV16,RV24,RV32 conversions"
-msgstr "המרות I420,IYUV,YV12 ל-RGB2,RV15,RV16,RV24,RV32"
+msgstr "המרות I420,IYUV,YV12 ל־RGB2,RV15,RV16,RV24,RV32"
 
 #: modules/video_chroma/i420_rgb.c:89
 msgid "MMX I420,IYUV,YV12 to RV15,RV16,RV24,RV32 conversions"
-msgstr "המרות MMX I420,IYUV,YV12 ל-RV15,RV16,RV24,RV32"
+msgstr "המרות MMX‏ I420,IYUV,YV12 ל־RV15,RV16,RV24,RV32"
 
 #: modules/video_chroma/i420_rgb.c:94
 msgid "SSE2 I420,IYUV,YV12 to RV15,RV16,RV24,RV32 conversions"
-msgstr ""
+msgstr "המרות SSE2‏ I420,IYUV,YV12 ל־ RV15,RV16,RV24,RV32"
 
 #: modules/video_chroma/i420_yuy2.c:97 modules/video_chroma/i422_yuy2.c:77
 msgid "MMX conversions from "
@@ -25665,7 +25665,7 @@ msgstr "גל"
 
 #: modules/video_filter/yuvp.c:47
 msgid "YUVP converter"
-msgstr ""
+msgstr "ממיר YUVP"
 
 #: modules/video_output/aa.c:56
 msgid "ASCII Art"
@@ -26659,7 +26659,7 @@ msgstr "תיבת דו־שיח"
 
 #: modules/gui/qt4/ui/about.h:289 modules/gui/qt4/ui/about.h:290
 msgid "Update"
-msgstr "עדכון"
+msgstr ""
 
 #: modules/gui/qt4/ui/equalizer.h:133 modules/gui/qt4/ui/open_disk.h:297
 #: modules/gui/qt4/ui/open_net.h:97 modules/gui/qt4/ui/sprefs_audio.h:411
@@ -26916,7 +26916,7 @@ msgstr ""
 
 #: modules/gui/qt4/ui/profiles.h:719
 msgid "Quality"
-msgstr "איכות"
+msgstr ""
 
 #: modules/gui/qt4/ui/profiles.h:720 modules/gui/qt4/ui/profiles.h:721
 msgid "Not Used"
@@ -27384,7 +27384,7 @@ msgstr "..."
 
 #: modules/gui/qt4/ui/video_effects.h:1363
 msgid "full"
-msgstr "מלא"
+msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1365
 msgid "none"
@@ -27486,55 +27486,19 @@ msgstr ""
 msgid "Media Manager List"
 msgstr "רשימת מנהל המדיה"
 
-#~ msgid "Subtitles/OSD"
-#~ msgstr "כתוביות/OSD"
-
-#~ msgid "Subtitles codecs"
-#~ msgstr "מקודדי הכתוביות"
-
-#~ msgid "Settings for subtitles, teletext and CC decoders and encoders."
-#~ msgstr "הגדרות למצפינים ולמפענחים לכתוביות וטלטקסט."
-
-#~ msgid "General Input"
-#~ msgstr "קלט כללי"
-
 #~ msgid ""
 #~ "SAP is a way to publically announce streams that are being sent using "
 #~ "multicast UDP or RTP."
 #~ msgstr ""
 #~ "SAP מהווה דרך להכרזה פומבית של שדרים הנשלחים בעזרת multicast UDP או RTP."
 
-#~ msgid "CPU features"
-#~ msgstr "תכונות מעבד"
-
 #~ msgid ""
 #~ "You can choose to disable some CPU accelerations here. Use with extreme "
 #~ "care!"
 #~ msgstr "ניתן לבחור לנטרל כמה האצות של המעבד דרך כאן. יש להשתמש בזהירות רבה!"
 
-#~ msgid "Chroma modules settings"
-#~ msgstr "הגדרות המודול כרומה"
-
 #~ msgid "These settings affect chroma transformation modules."
 #~ msgstr "הגדרות אלו משפיעות על מודולי הטרנספורמציה של כרומה."
-
-#~ msgid "Packetizer modules settings"
-#~ msgstr ""
-#~ "ל־VLC אין אפשרות לפתוח אף התקן לכידה. יש לעיין ביומן כדי לעיין בפרטי "
-#~ "השגיאה."
-
-#~ msgid "Encoders settings"
-#~ msgstr "הגדרות מקודדים"
-
-#~ msgid ""
-#~ "These are general settings for video/audio/subtitles encoding modules."
-#~ msgstr "אלה הגדרות כלליות למודולים המקודדים וידאו/שמע/כתוביות."
-
-#~ msgid "Dialog providers settings"
-#~ msgstr "הגדרות ספקי תיבות הדו־שיח"
-
-#~ msgid "Subtitle demuxer settings"
-#~ msgstr "הגדרות מפלג הכתוביות"
 
 #~ msgid ""
 #~ "In this section you can force the behavior of the subtitle demuxer, for "
@@ -27543,55 +27507,10 @@ msgstr "רשימת מנהל המדיה"
 #~ "באגף זה ניתן להגדיר את התנהגות מפלג הכתוביות, לדוגמה על ידי הגדרת סוג "
 #~ "הכתוביות או שם הקובץ."
 
-#~ msgid "No help available"
-#~ msgstr "אין עזרה זמינה"
-
-#~ msgid "There is no help available for these modules."
-#~ msgstr "אין עזרה זמינה עבור המודולים הנ״ל"
-
-#~ msgid "Quick &Open File..."
-#~ msgstr "פתי&חת קובץ מהירה..."
-
-#~ msgid "&Bookmarks"
-#~ msgstr "&סימניות"
-
-#~ msgid "Fetch Information"
-#~ msgstr "קבלת פרטים"
-
-#~ msgid "Sort"
-#~ msgstr "מיון"
-
-#~ msgid "No Repeat"
-#~ msgstr "ללא חזרה"
-
-#~ msgid "Add to Media Library"
-#~ msgstr "הוספה לספריית המדיה"
-
-#~ msgid "Advanced Open..."
-#~ msgstr "פתיחה מתקדמת..."
-
-#~ msgid "Open Play&list..."
-#~ msgstr "&פתיחת רשימת השמעה..."
-
-#~ msgid "Search Filter"
-#~ msgstr "מסנן החיפוש"
-
-#~ msgid "&Services Discovery"
-#~ msgstr "&גילוי שירותים"
-
 #~ msgid ""
 #~ "Some options are available but hidden. Check \"Advanced options\" to see "
 #~ "them."
 #~ msgstr "ישנן אפשרויות מוסתרות. סמנו את \"אפשרויות מתקדמות\" כדי לצפות בהן."
-
-#~ msgid "Image clone"
-#~ msgstr "שכפול תמונה"
-
-#~ msgid "Clone the image"
-#~ msgstr "שכפול התמונה"
-
-#~ msgid "Magnification"
-#~ msgstr "הגדלה"
 
 #~ msgid ""
 #~ "Magnify a part of the video. You can select which part of the image "
@@ -27603,9 +27522,6 @@ msgstr "רשימת מנהל המדיה"
 
 #~ msgid "\"Water surface\" video distortion effect"
 #~ msgstr "אפקט עיוות הווידאו „פני המים“"
-
-#~ msgid "Image colors inversion"
-#~ msgstr "הפיכת צבעי התמונה"
 
 #~ msgid "Split the image to make an image wall"
 #~ msgstr "פיצול התמונה כדי ליצור תמונת קיר"
@@ -27650,12 +27566,6 @@ msgstr "רשימת מנהל המדיה"
 #~ msgid "Force mono audio"
 #~ msgstr "קבע שמע חד ערוצי (mono)"
 
-#~ msgid "This will force a mono audio output."
-#~ msgstr "קובע שפלט השמע יהיה חד ערוצי (mono)"
-
-#~ msgid "Default audio volume"
-#~ msgstr "עצמת שמע כבררת מחדל"
-
 #~ msgid ""
 #~ "You can set the default audio output volume here, in a range from 0 to "
 #~ "1024."
@@ -27668,9 +27578,6 @@ msgstr "רשימת מנהל המדיה"
 #~ "גודל הצעד בין רמת עוצמת שמע אחת לאחרת ניתן לשינוי כאן, בטווח שבין 0 ל "
 #~ "1024."
 
-#~ msgid "Audio output frequency (Hz)"
-#~ msgstr "תדר פלט השמע"
-
 #~ msgid ""
 #~ "You can force the audio output frequency here. Common values are 0 "
 #~ "(undefined), 48000, 44100, 32000, 22050, 16000, 11025, 8000."
@@ -27678,27 +27585,12 @@ msgstr "רשימת מנהל המדיה"
 #~ "ניתן לקבע את תדירות פלט השמע דרך כאן. הערכים הנפוצים הם  0 (ללא הגדרה), "
 #~ "48000, 44100, 32000, 22050, 16000, 11025, 8000."
 
-#~ msgid "Audio output channels mode"
-#~ msgstr "מצב ערוצי פלט שמע"
-
-#~ msgid "Audio visualizations "
-#~ msgstr "מחזה שמע "
-
-#~ msgid "Subtitles track"
-#~ msgstr "רצועת כתוביות"
-
-#~ msgid "Low definition (320 lines)"
-#~ msgstr "אבחנה נמוכה (320 שורות)"
-
 #~ msgid ""
 #~ "This file countains an optional CRL to prevent remote clients from using "
 #~ "revoked certificates in TLS sessions."
 #~ msgstr ""
 #~ "קובץ זה מכיל רשימת אישורים שנשללו כדי למנוע מהלקוחות להשתמש באישורים "
 #~ "שנשללו בהפעלות TLS."
-
-#~ msgid "Memory copy module"
-#~ msgstr "מודול העתקת זיכרון"
 
 #~ msgid ""
 #~ "You can select which memory copy module you want to use. By default VLC "
@@ -27719,21 +27611,6 @@ msgstr "רשימת מנהל המדיה"
 #~ msgid "Enqueue items to playlist when in one instance mode"
 #~ msgstr "הצבת פריטים ברשימת ההשמעה כשמספר העותקים הרצים מוגבל לאחד"
 
-#~ msgid "Leave fullscreen"
-#~ msgstr "יציאה ממסך מלא"
-
-#~ msgid "Select the hotkey to use to leave fullscreen state."
-#~ msgstr "נא לבחור את מקשי הקיצור שישמשו ליציאה ממצב מסך מלא."
-
-#~ msgid "Cycle through deinterlace modes."
-#~ msgstr "החלפת מצבי יישור פסים."
-
-#~ msgid "Show interface"
-#~ msgstr "הצגת מנשק"
-
-#~ msgid "Hide interface"
-#~ msgstr "הסתרת המנשק"
-
 #~ msgid "Normal/Repeat/Loop"
 #~ msgstr "רגיל/חזרה/לולאה"
 
@@ -27742,9 +27619,6 @@ msgstr "רשימת מנהל המדיה"
 
 #~ msgid "Display OSD menu on top of video output"
 #~ msgstr "הצגת תפריט על גבי המסך על גבי פלט הווידאו."
-
-#~ msgid "Do not display OSD menu on video output"
-#~ msgstr "לא להציג תפריט על גבי המסך על פלט הווידאו."
 
 #~ msgid "Do not display OSD menu on top of video output"
 #~ msgstr "לא להציג תפריט על גבי המסך על גבי פלט הווידאו."
@@ -27773,12 +27647,6 @@ msgstr "רשימת מנהל המדיה"
 #~ msgid "Move OSD menu highlight to the widget below"
 #~ msgstr "הזזת ההדגשה בחלון שעל גבי המסך לפריט שמלמטה"
 
-#~ msgid "Select current widget"
-#~ msgstr "בחירת החלונית הנוכחית"
-
-#~ msgid "CPU"
-#~ msgstr "מעבד"
-
 #~ msgid "Greek, Modern ()"
 #~ msgstr "יוונית מודרנית"
 
@@ -27788,17 +27656,11 @@ msgstr "רשימת מנהל המדיה"
 #~ msgid "Occitan (post 1500); Provencal"
 #~ msgstr "אוקסיטנית (לפני 1500); פרובנסלית"
 
-#~ msgid "Aspect-ratio"
-#~ msgstr "יחס תצוגה"
-
 #~ msgid "PCM U8"
 #~ msgstr "PCM U8"
 
 #~ msgid "PCM S8"
 #~ msgstr "PCM S8"
-
-#~ msgid "GSM Audio"
-#~ msgstr "שמע GSM"
 
 #~ msgid "PCM U16 LE"
 #~ msgstr "PCM U16 LE"
@@ -27857,12 +27719,6 @@ msgstr "רשימת מנהל המדיה"
 #~ msgid "Blu-Ray error"
 #~ msgstr "שגיאת בלו־ריי"
 
-#~ msgid "dc1394 input"
-#~ msgstr "קלט dc1394"
-
-#~ msgid "Refresh list"
-#~ msgstr "רענון הרשימה"
-
 #~ msgid "collapse"
 #~ msgstr "צמצם"
 
@@ -27872,20 +27728,8 @@ msgstr "רשימת מנהל המדיה"
 #~ msgid "Coffee is ready."
 #~ msgstr "הקפה מוכן."
 
-#~ msgid "Active TCP connection"
-#~ msgstr "חיבור TCP פעיל"
-
 #~ msgid "RTMP"
 #~ msgstr "RTMP"
-
-#~ msgid "PVR video device"
-#~ msgstr "התקן וידאו PVR"
-
-#~ msgid "PVR radio device"
-#~ msgstr "התקן רדיו PVR"
-
-#~ msgid "Norm"
-#~ msgstr "שיטת שידור"
 
 #~ msgid "Norm of the stream (Automatic, SECAM, PAL, or NTSC)."
 #~ msgstr "שיטת השידור של התזרים (אוטומטי, SECAM, NTSC או PAL הנהוגה בישראל)."
@@ -27899,17 +27743,11 @@ msgstr "רשימת מנהל המדיה"
 #~ msgid "Frequency to capture (in kHz), if applicable."
 #~ msgstr "תדירות ללכידה (בקילוהרץ), אם נחוץ."
 
-#~ msgid "Framerate"
-#~ msgstr "קצב שקופיות"
-
 #~ msgid "Framerate to capture, if applicable (-1 for autodetect)."
 #~ msgstr "קצב שקופיות ללכידה, אם נחוץ (-1 לזיהוי אוטומטי)."
 
 #~ msgid "Audio volume (0-65535)."
 #~ msgstr "עצמת השמע (0-65535)"
-
-#~ msgid "Channel"
-#~ msgstr "ערוץ"
 
 #~ msgid "SECAM"
 #~ msgstr "SECAM"
@@ -27929,9 +27767,6 @@ msgstr "רשימת מנהל המדיה"
 #~ msgid "PVR"
 #~ msgstr "PVR"
 
-#~ msgid "RTMP input"
-#~ msgstr "קלט RTMP"
-
 #~ msgid "Primary language (Analog TV tuners only)"
 #~ msgstr "השפה העיקרית (טיונרים אנלוגיים בלבד)"
 
@@ -27950,32 +27785,8 @@ msgstr "רשימת מנהל המדיה"
 #~ msgid "5.1"
 #~ msgstr "5.1"
 
-#~ msgid "Default Audio Device"
-#~ msgstr "התקן השמע כבררת מחדל"
-
-#~ msgid "Low resolution decoding"
-#~ msgstr "פענוח ברזולוציה נמוכה"
-
-#~ msgid "UTF-8 subtitles autodetection"
-#~ msgstr "זיהוי אוטומטי של כתוביות UTF-8"
-
-#~ msgid "Text subtitles decoder"
-#~ msgstr "מפענח כתוביות טקסט"
-
 #~ msgid "fast"
 #~ msgstr "מהיר"
-
-#~ msgid "normal"
-#~ msgstr "נורמלי"
-
-#~ msgid "all"
-#~ msgstr "הכל"
-
-#~ msgid "| @name marq-y Y . . . . . . . . . . . . offset from top"
-#~ msgstr "| @name marq-y Y . . . . . . . . . . . . offset from top"
-
-#~ msgid "| @name logo-y Y . . . . . . . . . . . . offset from top"
-#~ msgstr "| @name logo-y Y . . . . . . . . . . . . offset from top"
 
 #~ msgid "| @name mosaic-xoffset # . . . .top left corner position"
 #~ msgstr "| @name mosaic-xoffset # . . . .top left corner position"
@@ -27986,29 +27797,11 @@ msgstr "רשימת מנהל המדיה"
 #~ msgid "Playlist has only %d elements"
 #~ msgstr "ברשימת ההשמעה יש %d פריטים בלבד"
 
-#~ msgid "Classic rock"
-#~ msgstr "רוק קלאסי"
-
-#~ msgid "Alternative rock"
-#~ msgstr "רוק אלטרנטיבי"
-
-#~ msgid "Instrumental pop"
-#~ msgstr "פופ אינסטרומנטלי"
-
-#~ msgid "Instrumental rock"
-#~ msgstr "רוק אינסטרומנטלי"
-
 #~ msgid "Christian rap"
 #~ msgstr "ראפ נוצרי"
 
 #~ msgid "Pop/funk"
 #~ msgstr "פופ/פאנק"
-
-#~ msgid "Acid punk"
-#~ msgstr "אסיד Pאנק"
-
-#~ msgid "Acid jazz"
-#~ msgstr "אסיד ג'ז"
 
 #~ msgid "Rock & roll"
 #~ msgstr "רוקנרול"
@@ -28016,35 +27809,8 @@ msgstr "רשימת מנהל המדיה"
 #~ msgid "Hard rock"
 #~ msgstr "רוק כבד"
 
-#~ msgid "Frames per second"
-#~ msgstr "פריימים לשנייה"
-
-#~ msgid "Subtitles delay"
-#~ msgstr "השהיית הכתוביות"
-
-#~ msgid "Silent mode"
-#~ msgstr "מצב שקט"
-
-#~ msgid "Image file"
-#~ msgstr "קובץ תמונה"
-
 #~ msgid "Use the native fullscreen mode on OS X Lion"
 #~ msgstr "שימוש במצב המסך המלא הטבעי ב־OS X Lion"
-
-#~ msgid "Frames per Second:"
-#~ msgstr "שקופיות בשנייה:"
-
-#~ msgid "Load subtitles file:"
-#~ msgstr "טען קובץ כתוביות:"
-
-#~ msgid "Subtitles encoding"
-#~ msgstr "קידוד כתוביות"
-
-#~ msgid "Subtitles alignment"
-#~ msgstr "יישור התוכיות"
-
-#~ msgid "HTML Playlist"
-#~ msgstr "רשימת השמעה מסוג HTML"
 
 #~ msgid ""
 #~ "Beware this will reset the VLC media player preferences.\n"
@@ -28053,53 +27819,8 @@ msgstr "רשימת מנהל המדיה"
 #~ "נא לשים לב כי פעולה זאת תאפס את כל ההעדפות של נגן המדיה VLC.\n"
 #~ "האם אכן ברצונך להמשיך?"
 
-#~ msgid "General Audio Settings"
-#~ msgstr "הגדרות שמע כלליות"
-
-#~ msgid "Subtitles & On Screen Display Settings"
-#~ msgstr "הגדרות כתוביות וחיווי על גבי המסך"
-
-#~ msgid "Enable Audio"
-#~ msgstr "הפעלת שמע"
-
-#~ msgid "HTTP Proxy"
-#~ msgstr "מתווך HTTP"
-
 #~ msgid "Password for HTTP Proxy"
 #~ msgstr "ססמה למתווך ה־HTTP"
-
-#~ msgid "Font Color"
-#~ msgstr "צבע הגופן"
-
-#~ msgid "Font Size"
-#~ msgstr "גודל הגופן"
-
-#~ msgid "Subtitle Languages"
-#~ msgstr "שפת הכתוביות"
-
-#~ msgid "Preferred Subtitle Language"
-#~ msgstr "שפת הכתוביות המועדפת"
-
-#~ msgid "Enable Video"
-#~ msgstr "הפעלת וידאו"
-
-#~ msgid "Subtitles speed:"
-#~ msgstr "מהירות הכתוביות:"
-
-#~ msgid "SAP Announce"
-#~ msgstr "הכרזת SAP"
-
-#~ msgid " m                      Show/Hide metadata box"
-#~ msgstr " m                      Show/Hide metadata box"
-
-#~ msgid "Show playlist"
-#~ msgstr "הצגת רשימת השמעה"
-
-#~ msgid "Open subtitles file"
-#~ msgstr "פתיחת קובץ כתוביות"
-
-#~ msgid "Radio device name"
-#~ msgstr "שם התקן הרדיו"
 
 #~ msgid "Icon View"
 #~ msgstr "תצוגת סמלים"
@@ -28113,20 +27834,11 @@ msgstr "רשימת מנהל המדיה"
 #~ msgid "Select an action to change the associated hotkey"
 #~ msgstr "נא לבחור פעולה לשינוי מקשי הקיצור המשויכים לה"
 
-#~ msgid "Hotkey for "
-#~ msgstr "מקש קיצור עבור"
-
 #~ msgid "Press the new keys for "
 #~ msgstr "נא ללחוץ על המקשים החדשים עבור"
 
 #~ msgid "Warning: the key is already assigned to \""
 #~ msgstr "אזהרה: מקש זה כבר מוקצה לטובת \""
-
-#~ msgid "Subtitles && OSD"
-#~ msgstr "כתוביות וחיווי על גבי המסך"
-
-#~ msgid "Input && Codecs"
-#~ msgstr "קלט ומקודדים"
 
 #~ msgid ""
 #~ "<p><i>VLC media player</i> does <b>not</b> send or collect any "
@@ -28145,15 +27857,6 @@ msgstr "רשימת מנהל המדיה"
 #~ "<p><b>VideoLAN</b> (היוצרים) מבקשת ממך להביע את הסכמתך בטרם מתן ההרשאה "
 #~ "לגישה לאינטרנט מצד התכנה.</p>\n"
 #~ "<p>בהתאם לבחירתך, נא לסמן או לבטל את הסימון של אחת האפשרויות הבאות:</p>\n"
-
-#~ msgid "Allow downloading media information"
-#~ msgstr "מתן האפשרות להוריד את פרטי המדיה"
-
-#~ msgid "Allow checking for VLC updates"
-#~ msgstr "מתן האפשרות לחיפוש עדכונים ל־VLC"
-
-#~ msgid "Save and Continue"
-#~ msgstr "שמירה והמשך"
 
 #~ msgid ""
 #~ "VLC media player is a free media player, encoder and streamer that can "
@@ -28176,9 +27879,6 @@ msgstr "רשימת מנהל המדיה"
 #~ "גרסה זו של VLC הודרה על ידי:\n"
 #~ " "
 
-#~ msgid "Compiler: "
-#~ msgstr "מהדר: "
-
 #~ msgid ""
 #~ "You are using the Qt4 Interface.\n"
 #~ "\n"
@@ -28186,26 +27886,11 @@ msgstr "רשימת מנהל המדיה"
 #~ "המנשק בו נעשה שימוש הוא Qt4.\n"
 #~ "\n"
 
-#~ msgid "Copyright (C) "
-#~ msgstr "זכויות יוצרים (C) "
-
 #~ msgid " by the VideoLAN Team.\n"
 #~ msgstr " לצוות VideoLAN.\n"
 
-#~ msgid "&Codec"
-#~ msgstr "מ&פענח"
-
-#~ msgid "&Convert"
-#~ msgstr "המ&רה"
-
-#~ msgid "&Convert / Save"
-#~ msgstr "המרה &שמירה"
-
 #~ msgid "Please enter the URL or path to the media you want to play"
 #~ msgstr "נא להזין את הכתובת או את הנתיב למדיה אותה ברצונך לנגן"
-
-#~ msgid "Subtitles Files"
-#~ msgstr "קובצי כתוביות"
 
 #~ msgid ""
 #~ "This dialog will allow you to stream or convert your media for use "
@@ -28218,49 +27903,10 @@ msgstr "רשימת מנהל המדיה"
 #~ "עליך להתחיל בבדיקה האם המקור תואם לציפיות הקלט שלך ואז ללחוץ על הלחצן "
 #~ "\"הבא\" כדי להמשיך.\n"
 
-#~ msgid "&Tools"
-#~ msgstr "&כלים"
-
-#~ msgid "&Open (advanced)..."
-#~ msgstr "פתיחה (מת&קדם)..."
-
-#~ msgid "Audio &Channels"
-#~ msgstr "ערוצ&י שמע"
-
-#~ msgid "&Subtitles Track"
-#~ msgstr "רצועת &כתוביות"
-
-#~ msgid "&Navigation"
-#~ msgstr "&ניווט"
-
-#~ msgid "Tools"
-#~ msgstr "כלים"
-
-#~ msgid "Hide VLC media player in taskbar"
-#~ msgstr "הסתרת נגן המדיה VLC בשורת המשימות"
-
-#~ msgid "Show VLC media player"
-#~ msgstr "הצגת נגן המדיה VLC"
-
-#~ msgid "Advanced options"
-#~ msgstr "אפשרויות מתקדמות"
-
-#~ msgid "Show all the advanced options in the dialogs."
-#~ msgstr "הצגת כל האפשרויות המתקדמות בתיבות הדו־שיח."
-
-#~ msgid "French TV"
-#~ msgstr "הטלוויזיה הצרפתית"
-
-#~ msgid "Ignored extensions in the media library"
-#~ msgstr "הרחבות שהמערכת מתעלמת מהן בספריית המדיה"
-
 #~ msgid ""
 #~ "Files with these extensions will not be added to the media library when "
 #~ "scanning directories."
 #~ msgstr "קבצים בעלי הסיומות הנ״ל לא יתווספו לתיקיית המדיה בעת סריקת תיקיות."
-
-#~ msgid "Subdirectory recursive scanning"
-#~ msgstr "סריקה רקורסיבית של תת־תיקיות"
 
 #~ msgid "When scanning a directory, scan also all its subdirectories."
 #~ msgstr "בעת סריקת תיקייה, יש לסרוק גם את תת התיקיות שלה."
@@ -28268,35 +27914,11 @@ msgstr "רשימת מנהל המדיה"
 #~ msgid "Media Library based on a SQL based database"
 #~ msgstr "ספריית מדיה מבוססת על מסד נתונים מבוסס SQL"
 
-#~ msgid "Decompression"
-#~ msgstr "פריסה"
-
-#~ msgid "Sizes"
-#~ msgstr "גדלים"
-
 #~ msgid "List of sizes separated by colons (720x576:480x576)."
 #~ msgstr "רשימת גדלים מופרדים ע\"י נקודותיים (720x576:480x576)."
 
-#~ msgid "Command"
-#~ msgstr "פקודה"
-
-#~ msgid "Mute audio"
-#~ msgstr "השתק שמע"
-
 #~ msgid "Mute audio when command is not 0."
 #~ msgstr "השתקת השמע כשהפקודה היא לא 0."
-
-#~ msgid "Audio Language"
-#~ msgstr "שפת השמע"
-
-#~ msgid "Subtitles encoder"
-#~ msgstr "מקודד כתוביות"
-
-#~ msgid "Configuration file"
-#~ msgstr "קובץ העדפות"
-
-#~ msgid "Menu position"
-#~ msgstr "מיקום התפריט"
 
 #~ msgid ""
 #~ "You can enforce the OSD menu position on the video (0=center, 1=left, "
@@ -28307,9 +27929,6 @@ msgstr "רשימת מנהל המדיה"
 #~ "2=ימין, 4=למעלה, 8=למטה, ניתן גם להשתמש בצירופים של ערכים אלה, למשל: "
 #~ "6=ימין למעלה)."
 
-#~ msgid "Menu timeout"
-#~ msgstr "זמן תפוגת התפריט"
-
 #~ msgid ""
 #~ "OSD menu pictures get a default timeout of 15 seconds added to their "
 #~ "remaining time. This will ensure that they are at least the specified "
@@ -28318,51 +27937,6 @@ msgstr "רשימת מנהל המדיה"
 #~ "תמונות התפריט של התצוגה על גבי המסך מקבלות בררת מחדל של 15 שניות בנוסף על "
 #~ "הזמן שנותר להן. מצב זה עוזר לוודא שהן מופיעות לפחות בפרק הזמן שהוגדר להן."
 
-#~ msgid "On Screen Display menu"
-#~ msgstr "תפריט חיווי על גבי המסך"
-
-#~ msgid "Change subtitles delay"
-#~ msgstr "שינוי השהיית הכתוביות"
-
-#~ msgid "Enable desktop mode "
-#~ msgstr "הפעלת מצב שולחן עבודה"
-
-#~ msgid "Stream Name"
-#~ msgstr "שם התזרים"
-
-#~ msgid "Video Codec"
-#~ msgstr "מפענח וידאו"
-
-#~ msgid "Audio Codec"
-#~ msgstr "מפענח שמע"
-
-#~ msgid "Subtitle Codec"
-#~ msgstr "מפענח כתוביות"
-
-#~ msgid "Output Method"
-#~ msgstr "שיטת פלט"
-
-#~ msgid "Video Bit Rate"
-#~ msgstr "קצב דגימת וידאו"
-
-#~ msgid "Audio Bit Rate"
-#~ msgstr "קצב דגימת שמע"
-
-#~ msgid "Output File"
-#~ msgstr "קובץ פלט"
-
-#~ msgid "Input Media"
-#~ msgstr "קלט מדיה"
-
-#~ msgid "File Name"
-#~ msgstr "שם הקובץ"
-
-#~ msgid "Rows:"
-#~ msgstr "שורות:"
-
-#~ msgid "Columns:"
-#~ msgstr "עמודות:"
-
 #~ msgid ""
 #~ "We would like to thank the whole VLC community, the testers, our users "
 #~ "and the following people (and the missing ones...) for their "
@@ -28370,21 +27944,6 @@ msgstr "רשימת מנהל המדיה"
 #~ msgstr ""
 #~ "ברצוננו להודות לכל קהילת VLC, לבודקים, למשתמשים שלנו ולאנשים הבאים (ולאלו "
 #~ "שהחמצנו...) על שיתוף הפעולה שלהם ליצירת התכנה החופשית הטובה ביותר."
-
-#~ msgid "Licence"
-#~ msgstr "רישיון"
-
-#~ msgid "Verbosity:"
-#~ msgstr "פירוט:"
-
-#~ msgid "Add a subtitles file"
-#~ msgstr "הוספת קובץ כתוביות"
-
-#~ msgid "Use a sub&titles file"
-#~ msgstr "שימוש בקובץ כ&תוביות"
-
-#~ msgid "Select the subtitles file"
-#~ msgstr "בחירת קובץ כתוביות:"
 
 #~ msgid ""
 #~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
@@ -28420,214 +27979,23 @@ msgstr "רשימת מנהל המדיה"
 #~ msgid "00000; "
 #~ msgstr "00000; "
 
-#~ msgid "Destinations"
-#~ msgstr "יעדים"
-
-#~ msgid "Group name"
-#~ msgstr "שם קבוצה"
-
-#~ msgid "Instances"
-#~ msgstr "מופעים"
-
 #~ msgid "Enqueue files when in one instance mode"
 #~ msgstr "פריטים יתווספו לרשימת ההשמעה כאשר במצב מופע יחיד"
 
-#~ msgid "Systray popup when minimized"
-#~ msgstr "חלונית קופצת כאשר החלון ממוזער"
-
-#~ msgid "Subtitles Language"
-#~ msgstr "שפת הכתוביות"
-
-#~ msgid "Preferred subtitles language"
-#~ msgstr "שפת הכתוביות המועדפת"
-
-#~ msgid "Subtitles effects"
-#~ msgstr "אפקט כתוביות"
-
 #~ msgid "Do you want to download it ?"
 #~ msgstr " האם ברצונך להוריד את זה?"
-
-#, fuzzy
-#~ msgid "Black slot"
-#~ msgstr "שחור"
-
-#~ msgid "Speed of the subtitles:"
-#~ msgstr "מהירות הכתוביות:"
-
-#~ msgid "Default Volume"
-#~ msgstr "עצמת שמע כבררת מחדל"
-
-#~ msgid "Clear Menu"
-#~ msgstr "נקה תפריט"
-
-#, fuzzy
-#~ msgid "Satellite scanning config"
-#~ msgstr "מצב שקט"
-
-#~ msgid "DVB"
-#~ msgstr "DVB"
-
-#, fuzzy
-#~ msgid "Left rear"
-#~ msgstr "שמאל"
-
-#, fuzzy
-#~ msgid "Right rear"
-#~ msgstr "ימין"
 
 #, fuzzy
 #~ msgid "Left front"
 #~ msgstr "שמאל"
 
 #, fuzzy
-#~ msgid "Front speakers"
-#~ msgstr "2 מקדימה 2 מאחור"
-
-#, fuzzy
-#~ msgid "ALSA device"
-#~ msgstr "שם התקן ALSA"
-
-#, fuzzy
 #~ msgid "Low Pass Ffilter"
 #~ msgstr "מסנני שמע"
 
 #, fuzzy
-#~ msgid "Duration in second"
-#~ msgstr "אורך"
-
-#, fuzzy
-#~ msgid "Composr"
-#~ msgstr "מלחין CD-Text"
-
-#, fuzzy
-#~ msgid "Video Filters..."
-#~ msgstr "גודל וידאו"
-
-#~ msgid "Advance of subtitles over video:"
-#~ msgstr "התקדמות הכתוביות ביחס לווידאו:"
-
-#, fuzzy
-#~ msgid "Previous/Backward"
-#~ msgstr "רצועה קודמת"
-
-#, fuzzy
-#~ msgid "Next/Forward"
-#~ msgstr "קדימה"
-
-#, fuzzy
-#~ msgid "Loop/Repeat mode"
-#~ msgstr "חזור על אחד"
-
-#, fuzzy
-#~ msgid "Fullscreen controller width toggle"
-#~ msgstr "בקר מסך מלא"
-
-#, fuzzy
-#~ msgid "Display on &Desktop"
-#~ msgstr "רזולוציית תצוגה"
-
-#, fuzzy
-#~ msgid "Open a Media"
-#~ msgstr "פתיחת מדיה"
-
-#, fuzzy
-#~ msgid "Session groupname"
-#~ msgstr "קובץ תיאור"
-
-#, fuzzy
-#~ msgid "Video output is not supported"
-#~ msgstr "הגדרות הווידאו לא נשמרו"
-
-#, fuzzy
-#~ msgid "Viewer"
-#~ msgstr "&תצוגה"
-
-#, fuzzy
 #~ msgid "Use systems codecs if available, for WMV codecs"
 #~ msgstr "פילטר וידאו ffmpeg"
-
-#, fuzzy
-#~ msgid "Media Browser"
-#~ msgstr " עיון"
-
-#, fuzzy
-#~ msgid "No"
-#~ msgstr "שום דבר"
-
-#, fuzzy
-#~ msgid "Full Screen"
-#~ msgstr "מסך מלא"
-
-#, fuzzy
-#~ msgid "Easy Stream"
-#~ msgstr "תזרים"
-
-#, fuzzy
-#~ msgid "Seek Time"
-#~ msgstr "זמן ההתחלה"
-
-#, fuzzy
-#~ msgid "Graphical Equalizer"
-#~ msgstr "אקולייזר גרפי"
-
-#, fuzzy
-#~ msgid "VLC media player - Flash Viewer"
-#~ msgstr "נגן המדיה VLC"
-
-#, fuzzy
-#~ msgid "Streaming Output"
-#~ msgstr "פלט תזרים"
-
-#, fuzzy
-#~ msgid "Create Stream"
-#~ msgstr "תזרים בררת מחדל"
-
-#, fuzzy
-#~ msgid "Media File"
-#~ msgstr "קובצי מדיה"
-
-#, fuzzy
-#~ msgid "Capture Screen"
-#~ msgstr "התקן ל&כידה"
-
-#~ msgid "Close"
-#~ msgstr "סגור"
-
-#, fuzzy
-#~ msgid "Error!"
-#~ msgstr "שגיאה"
-
-#, fuzzy
-#~ msgid "Create Mosaic"
-#~ msgstr "יצירה"
-
-#, fuzzy
-#~ msgid "Stream Input Configuration"
-#~ msgstr "קובץ העדפות"
-
-#, fuzzy
-#~ msgid "Remove Stream"
-#~ msgstr "הסרת הנבחרים"
-
-#, fuzzy
-#~ msgid "Create New Stream"
-#~ msgstr "יצירת פרופיל זה"
-
-#, fuzzy
-#~ msgid "Delete All Streams"
-#~ msgstr "מחיקת כל הסימניות"
-
-#, fuzzy
-#~ msgid "Configure Stream Defaults"
-#~ msgstr "הגדרת מקשי קיצור"
-
-#, fuzzy
-#~ msgid "Refresh Streams"
-#~ msgstr "זמן הרענון"
-
-#, fuzzy
-#~ msgid "Enqueue"
-#~ msgstr "הוספה ל&תור"
 
 #~ msgid "Advance of audio over video:"
 #~ msgstr "התקדמות השמע ביחס לווידאו:"
@@ -28822,10 +28190,6 @@ msgstr "רשימת מנהל המדיה"
 #, fuzzy
 #~ msgid "Dump decoder function"
 #~ msgstr "תיאור"
-
-#, fuzzy
-#~ msgid "Dummy audio output function"
-#~ msgstr "מודול פלט שמע"
 
 #, fuzzy
 #~ msgid "OSSO"
@@ -29373,9 +28737,6 @@ msgstr "רשימת מנהל המדיה"
 #~ msgid "%i items in playlist (%i not shown)"
 #~ msgstr "%i פריטים ברצועת ההשמעה (%i אינם מוצגים)"
 
-#~ msgid "M3U file"
-#~ msgstr "קובץ M3U"
-
 #~ msgid "A file containing a simple playlist"
 #~ msgstr "קובץ המכיל רשימת השמעה פשוטה"
 
@@ -29468,32 +28829,886 @@ msgstr "רשימת מנהל המדיה"
 #~ "אחד מ-\"u8\", \"s8\", \"u16\", \"s16\", \"u16_le\", \"s16_le\", \"u16_be"
 #~ "\", \"s16_be\", \"fixed32\", \"float32\" או \"spdif\""
 
+#, fuzzy
+#~ msgid "IO Method"
+#~ msgstr "שיטת פלט"
+
+#, fuzzy
+#~ msgid ""
+#~ "This will reset your VLC media player preferences.\n"
+#~ "Are you sure you want to continue?"
+#~ msgstr ""
+#~ "נא לשים לב כי פעולה זאת תאפס את כל ההעדפות של נגן המדיה VLC.\n"
+#~ "האם אכן ברצונך להמשיך?"
+
+#~ msgid "On Screen Display/Subtitle Settings not saved"
+#~ msgstr "הגדרות החיווי על גבי המסך/כתוביות"
+
+#, fuzzy
+#~ msgid "HTML playlist (*.html)"
+#~ msgstr "רשימת השמעה מסוג HTML"
+
+#~ msgid "Camera"
+#~ msgstr "מצלמה"
+
+#~ msgid "TS"
+#~ msgstr "TS"
+
+#, fuzzy
+#~ msgid "Some options are hidden. Check \"Advanced\" to display them."
+#~ msgstr "ישנן אפשרויות מוסתרות. סמנו את \"אפשרויות מתקדמות\" כדי לצפות בהן."
+
+#, fuzzy
+#~ msgid "Creates several clones of the image"
+#~ msgstr "שכפול התמונה"
+
+#~ msgid ""
+#~ "From here you can choose to disable some CPU accelerations. You should "
+#~ "probably not touch that."
+#~ msgstr "כאן ניתן לשלוט בהאצת המעבד. לא מומלץ לשנות פה משהו."
+
+#, fuzzy
+#~ msgid "left"
+#~ msgstr "שמאל"
+
+#~ msgid "UDP/RTP"
+#~ msgstr "UDP/RTP"
+
+#, fuzzy
+#~ msgid ""
+#~ "This allows you to specify a name for the session, that will be announced "
+#~ "if you choose to use SAP."
+#~ msgstr "מאפשר לשנות את סיסמת המשתמש שתינתן בהתחברות."
+
+#, fuzzy
+#~ msgid "Subtitles/OSD"
+#~ msgstr "כתוביות וחיווי על גבי המסך"
+
+#, fuzzy
+#~ msgid "Subtitles codecs"
+#~ msgstr "מקודדי כתוביות"
+
+#, fuzzy
+#~ msgid "Settings for subtitles, teletext and CC decoders and encoders."
+#~ msgstr "הגדרות למפענחי ומצפיני כתוביות, טלטקסט ו־CC."
+
+#, fuzzy
+#~ msgid "General Input"
+#~ msgstr "כללי"
+
+#, fuzzy
+#~ msgid "CPU features"
+#~ msgstr "לכידה"
+
+#, fuzzy
+#~ msgid "Chroma modules settings"
+#~ msgstr "הגדרות וידאו כלליות"
+
+#, fuzzy
+#~ msgid "Packetizer modules settings"
+#~ msgstr "הגדרות וידאו כלליות"
+
+#, fuzzy
+#~ msgid "Encoders settings"
+#~ msgstr "עריכת ההגדרות"
+
+#, fuzzy
+#~ msgid ""
+#~ "These are general settings for video/audio/subtitles encoding modules."
+#~ msgstr "אלו הגדרות כלליות למודולי הצפנה של שמע/וידאו/כתוביות."
+
+#, fuzzy
+#~ msgid "Dialog providers settings"
+#~ msgstr "הגדרות וידאו כלליות"
+
+#, fuzzy
+#~ msgid "Subtitle demuxer settings"
+#~ msgstr "הגדרות וידאו"
+
+#, fuzzy
+#~ msgid "No help available"
+#~ msgstr "הטובה ביותר הזמינה"
+
+#, fuzzy
+#~ msgid "There is no help available for these modules."
+#~ msgstr "print a list of available modules"
+
+#, fuzzy
+#~ msgid "Quick &Open File..."
+#~ msgstr "פתיחת &קובץ..."
+
+#, fuzzy
+#~ msgid "&Bookmarks"
+#~ msgstr "סימניות"
+
+#, fuzzy
+#~ msgid "Fetch Information"
+#~ msgstr "פרטי המ&קודד"
+
+#, fuzzy
+#~ msgid "Sort"
+#~ msgstr "מיון לפי"
+
+#, fuzzy
+#~ msgid "No Repeat"
+#~ msgstr "חזרה:"
+
+#, fuzzy
+#~ msgid "Add to Media Library"
+#~ msgstr "טעינת ספריית המדיה"
+
+#, fuzzy
+#~ msgid "Advanced Open..."
+#~ msgstr "פתיחה מתק&דמת..."
+
+#, fuzzy
+#~ msgid "Open Play&list..."
+#~ msgstr "פתיחת רשימת השמעה..."
+
+#, fuzzy
+#~ msgid "Search Filter"
+#~ msgstr "מסנני תזרים"
+
+#, fuzzy
+#~ msgid "&Services Discovery"
+#~ msgstr "גילוי שירותים"
+
+#, fuzzy
+#~ msgid "Image clone"
+#~ msgstr "גובה התמונה"
+
+#, fuzzy
+#~ msgid "Clone the image"
+#~ msgstr "תמונת לחצן העכבר"
+
+#, fuzzy
+#~ msgid "Magnification"
+#~ msgstr "הגברה"
+
+#, fuzzy
+#~ msgid "Image colors inversion"
+#~ msgstr "הפיכת צבעים"
+
+#, fuzzy
+#~ msgid "This will force a mono audio output."
+#~ msgstr "פלט שמע לקובץ"
+
+#, fuzzy
+#~ msgid "Default audio volume"
+#~ msgstr "צבע הרקע כבררת מחדל"
+
+#, fuzzy
+#~ msgid "Audio output frequency (Hz)"
+#~ msgstr "פלט השמע נכשל"
+
+#, fuzzy
+#~ msgid "Audio output channels mode"
+#~ msgstr "ערוצי פלט שמע"
+
+#, fuzzy
+#~ msgid "Audio visualizations "
+#~ msgstr "אפקטים חזותיים לשמע"
+
+#, fuzzy
+#~ msgid "Subtitles track"
+#~ msgstr "רצועת כתוביות: %s"
+
+#, fuzzy
+#~ msgid "Low definition (320 lines)"
+#~ msgstr "אבחנה רגילה (576 או 480 שורות)"
+
+#, fuzzy
+#~ msgid "Memory copy module"
+#~ msgstr "מודול פלט הווידאו"
+
+#, fuzzy
+#~ msgid "Leave fullscreen"
+#~ msgstr "יציאה ממסך מלא"
+
+#, fuzzy
+#~ msgid "Select the hotkey to use to leave fullscreen state."
+#~ msgstr "נא לבחור את צירוף המקשים לשימוש כדי לעבור בין מצבי המסך המלא."
+
+#, fuzzy
+#~ msgid "Cycle through deinterlace modes."
+#~ msgstr "מעבר בין מצבי יישור פסים"
+
+#, fuzzy
+#~ msgid "Show interface"
+#~ msgstr "מנשק Qt"
+
+#, fuzzy
+#~ msgid "Hide interface"
+#~ msgstr "מנשק Qt"
+
+#, fuzzy
+#~ msgid "Do not display OSD menu on video output"
+#~ msgstr "אין להציג אף וידאו"
+
+#, fuzzy
+#~ msgid "Select current widget"
+#~ msgstr "חזור על הנוכחי"
+
+#, fuzzy
+#~ msgid "CPU"
+#~ msgstr "TCP"
+
+#, fuzzy
+#~ msgid "Aspect-ratio"
+#~ msgstr "יחס תצוגה"
+
+#, fuzzy
+#~ msgid "GSM Audio"
+#~ msgstr "שמע"
+
+#, fuzzy
+#~ msgid "dc1394 input"
+#~ msgstr "אין קלט"
+
+#, fuzzy
+#~ msgid "Refresh list"
+#~ msgstr "רענון הרשימה"
+
+#, fuzzy
+#~ msgid "Active TCP connection"
+#~ msgstr "תום זמן חיבור ה־TCP"
+
+#, fuzzy
+#~ msgid "PVR video device"
+#~ msgstr "התקן וידאו"
+
+#, fuzzy
+#~ msgid "PVR radio device"
+#~ msgstr "התקן רדיו"
+
+#, fuzzy
+#~ msgid "Norm"
+#~ msgstr "רגיל"
+
+#, fuzzy
+#~ msgid "Framerate"
+#~ msgstr "קצב שקופיות"
+
+#, fuzzy
+#~ msgid "Channel"
+#~ msgstr "ערוצים"
+
+#, fuzzy
+#~ msgid "RTMP input"
+#~ msgstr "קלט FTP"
+
+#, fuzzy
+#~ msgid "Default Audio Device"
+#~ msgstr "בחירת התקן שמע"
+
+#, fuzzy
+#~ msgid "Low resolution decoding"
+#~ msgstr "קידוד חומרה"
+
+#, fuzzy
+#~ msgid "UTF-8 subtitles autodetection"
+#~ msgstr "נתיבי זיהוי הכתוביות האוטומטיים"
+
+#, fuzzy
+#~ msgid "Text subtitles decoder"
+#~ msgstr "מפענח כתוביות DVB"
+
+#, fuzzy
+#~ msgid "normal"
+#~ msgstr "רגיל"
+
+#, fuzzy
+#~ msgid "all"
+#~ msgstr "קיר"
+
+#, fuzzy
+#~ msgid "| @name marq-y Y . . . . . . . . . . . . offset from top"
+#~ msgstr "| fastforward  . . . . . . . .  .  set to maximum rate"
+
+#, fuzzy
+#~ msgid "| @name logo-y Y . . . . . . . . . . . . offset from top"
+#~ msgstr "| goto . . . . . . . . . . . . . .  goto item at index"
+
+#, fuzzy
+#~ msgid "Classic rock"
+#~ msgstr "קלאסית"
+
+#, fuzzy
+#~ msgid "Alternative rock"
+#~ msgstr "אלטרנטיבי"
+
+#, fuzzy
+#~ msgid "Instrumental pop"
+#~ msgstr "אינסטרומנטלי"
+
+#, fuzzy
+#~ msgid "Instrumental rock"
+#~ msgstr "אינסטרומנטלי"
+
+#, fuzzy
+#~ msgid "Acid punk"
+#~ msgstr "אסיד"
+
+#, fuzzy
+#~ msgid "Acid jazz"
+#~ msgstr "אסיד"
+
+#, fuzzy
+#~ msgid "Frames per second"
+#~ msgstr "פריימים לשנייה"
+
+#, fuzzy
+#~ msgid "Subtitles delay"
+#~ msgstr "השהיית כתוביות"
+
+#, fuzzy
+#~ msgid "Silent mode"
+#~ msgstr "מצב שינוי גודל"
+
+#, fuzzy
+#~ msgid "Image file"
+#~ msgstr "רוחב התמונה"
+
+#, fuzzy
+#~ msgid "Frames per Second:"
+#~ msgstr "פריימים לשנייה"
+
+#, fuzzy
+#~ msgid "Load subtitles file:"
+#~ msgstr "השתמש בקובץ כתוביות"
+
+#, fuzzy
+#~ msgid "Subtitles encoding"
+#~ msgstr "מקודדי כתוביות"
+
+#, fuzzy
+#~ msgid "Subtitles alignment"
+#~ msgstr "יישור וידאו"
+
+#, fuzzy
+#~ msgid "HTML Playlist"
+#~ msgstr "רשימת השמעה"
+
+#, fuzzy
+#~ msgid "General Audio Settings"
+#~ msgstr "הגדרות שמע כלליות"
+
+#, fuzzy
+#~ msgid "Subtitles & On Screen Display Settings"
+#~ msgstr "הפעלת חיווי על גבי המסך (OSD)"
+
+#, fuzzy
+#~ msgid "Enable Audio"
+#~ msgstr "אפשר שמע"
+
+#, fuzzy
+#~ msgid "HTTP Proxy"
+#~ msgstr "כתובת מתווך ה־HTTP"
+
+#, fuzzy
+#~ msgid "Font Color"
+#~ msgstr "צבע הגופן"
+
+#, fuzzy
+#~ msgid "Font Size"
+#~ msgstr "גודל גופן"
+
+#, fuzzy
+#~ msgid "Subtitle Languages"
+#~ msgstr "שפת הכתוביות"
+
+#, fuzzy
+#~ msgid "Preferred Subtitle Language"
+#~ msgstr "שפת השמע המועדפת"
+
+#, fuzzy
+#~ msgid "Enable Video"
+#~ msgstr "הפעלת וידאו"
+
+#, fuzzy
+#~ msgid "Subtitles speed:"
+#~ msgstr "כתוביות"
+
+#, fuzzy
+#~ msgid "SAP Announce"
+#~ msgstr "הכרזת SAP"
+
+#, fuzzy
+#~ msgid " m                      Show/Hide metadata box"
+#~ msgstr " L                      Show/Hide messages box"
+
+#, fuzzy
+#~ msgid "Show playlist"
+#~ msgstr "הצגה/הסתרה של רשימת ההשמעה"
+
+#, fuzzy
+#~ msgid "Open subtitles file"
+#~ msgstr "פתיחת כתוביות"
+
+#, fuzzy
+#~ msgid "Radio device name"
+#~ msgstr "שם התקן שמע"
+
+#, fuzzy
+#~ msgid "Hotkey for "
+#~ msgstr "מקש קיצור"
+
+#, fuzzy
+#~ msgid "Subtitles && OSD"
+#~ msgstr "כתוביות וחיווי על גבי המסך"
+
+#, fuzzy
+#~ msgid "Input && Codecs"
+#~ msgstr "קלט / מפענחים"
+
+#, fuzzy
+#~ msgid "Allow downloading media information"
+#~ msgstr "יש ללחוץ לחיצה כפולה כדי לקבל את פרטי המדיה"
+
+#, fuzzy
+#~ msgid "Allow checking for VLC updates"
+#~ msgstr "חיפוש עדכונים ל־VLC"
+
+#, fuzzy
+#~ msgid "Save and Continue"
+#~ msgstr "המשך"
+
+#, fuzzy
+#~ msgid "Compiler: "
+#~ msgstr "מהדר: %s\n"
+
+#, fuzzy
+#~ msgid "Copyright (C) "
+#~ msgstr "זכויות יוצרים"
+
+#, fuzzy
+#~ msgid "&Codec"
+#~ msgstr "מקודד/מפענח"
+
+#, fuzzy
+#~ msgid "&Convert"
+#~ msgstr "המרה"
+
+#, fuzzy
+#~ msgid "&Convert / Save"
+#~ msgstr "המ&רה / שמירה..."
+
+#, fuzzy
+#~ msgid "Subtitles Files"
+#~ msgstr "קובץ כתוביות"
+
+#, fuzzy
+#~ msgid "&Tools"
+#~ msgstr "כלי"
+
+#, fuzzy
+#~ msgid "&Open (advanced)..."
+#~ msgstr "פתיחת &קובץ..."
+
+#, fuzzy
+#~ msgid "Audio &Channels"
+#~ msgstr "ערוצי שמע"
+
+#, fuzzy
+#~ msgid "&Subtitles Track"
+#~ msgstr "רצועת כתוביות: %s"
+
+#, fuzzy
+#~ msgid "&Navigation"
+#~ msgstr "ניווט"
+
+#, fuzzy
+#~ msgid "Tools"
+#~ msgstr "כלי"
+
+#, fuzzy
+#~ msgid "Hide VLC media player in taskbar"
+#~ msgstr "עדכון נגן ה־VLC"
+
+#, fuzzy
+#~ msgid "Show VLC media player"
+#~ msgstr "נגן המדיה VLC"
+
+#, fuzzy
+#~ msgid "Advanced options"
+#~ msgstr "אפשרויות מתקדמות"
+
+#, fuzzy
+#~ msgid "Show all the advanced options in the dialogs."
+#~ msgstr "הצג אפשרויות מתקדמות"
+
+#, fuzzy
+#~ msgid "French TV"
+#~ msgstr "צרפתית"
+
+#, fuzzy
+#~ msgid "Ignored extensions in the media library"
+#~ msgstr "הרחבות בהתעלמות"
+
+#, fuzzy
+#~ msgid "Subdirectory recursive scanning"
+#~ msgstr "התנהגות תת תיקיות"
+
+#, fuzzy
+#~ msgid "Decompression"
+#~ msgstr "הפעלה"
+
+#, fuzzy
+#~ msgid "Sizes"
+#~ msgstr "גודל"
+
+#, fuzzy
+#~ msgid "Command"
+#~ msgstr "Command+"
+
+#, fuzzy
+#~ msgid "Mute audio"
+#~ msgstr "השתקת השמע"
+
+#, fuzzy
+#~ msgid "Audio Language"
+#~ msgstr "שפת השמע"
+
+#, fuzzy
+#~ msgid "Subtitles encoder"
+#~ msgstr "מקודד כתוביות DVB"
+
+#, fuzzy
+#~ msgid "Configuration file"
+#~ msgstr "קובץ תצורת VLM"
+
+#, fuzzy
+#~ msgid "Menu position"
+#~ msgstr "מיקום הטקסט"
+
+#, fuzzy
+#~ msgid "Menu timeout"
+#~ msgstr "זמן ההתחלה"
+
+#, fuzzy
+#~ msgid "On Screen Display menu"
+#~ msgstr "חיווי על גבי המסך"
+
+#, fuzzy
+#~ msgid "Change subtitles delay"
+#~ msgstr "הגדלת השהיית הכתוביות"
+
+#, fuzzy
+#~ msgid "Enable desktop mode "
+#~ msgstr "הפעלת מצב תמונת רקע "
+
+#, fuzzy
+#~ msgid "Stream Name"
+#~ msgstr "תזרים"
+
+#, fuzzy
+#~ msgid "Video Codec"
+#~ msgstr "מפענח וידאו"
+
+#, fuzzy
+#~ msgid "Audio Codec"
+#~ msgstr "מקודד שמע"
+
+#, fuzzy
+#~ msgid "Subtitle Codec"
+#~ msgstr "מקודדי כתוביות"
+
+#, fuzzy
+#~ msgid "Output Method"
+#~ msgstr "מודול פלט"
+
+#, fuzzy
+#~ msgid "Video Bit Rate"
+#~ msgstr "קצב סיביות הווידאו"
+
+#, fuzzy
+#~ msgid "Audio Bit Rate"
+#~ msgstr "קצב סיביות השמע"
+
+#, fuzzy
+#~ msgid "Output File"
+#~ msgstr "קובץ פלט"
+
+#, fuzzy
+#~ msgid "Input Media"
+#~ msgstr "תזרים הקלט"
+
+#, fuzzy
+#~ msgid "File Name"
+#~ msgstr "שם קובץ"
+
+#, fuzzy
+#~ msgid "Rows:"
+#~ msgstr "שורות"
+
+#, fuzzy
+#~ msgid "Columns:"
+#~ msgstr "עמודות"
+
+#, fuzzy
+#~ msgid "Licence"
+#~ msgstr "רישיון"
+
+#, fuzzy
+#~ msgid "Verbosity:"
+#~ msgstr "פלט של הודעות מערכת (0,1,2)"
+
+#, fuzzy
+#~ msgid "Add a subtitles file"
+#~ msgstr "השתמש בקובץ כתוביות"
+
+#, fuzzy
+#~ msgid "Use a sub&titles file"
+#~ msgstr "השתמש בקובץ כתוביות"
+
+#, fuzzy
+#~ msgid "Select the subtitles file"
+#~ msgstr "נא לבחור את הקובץ"
+
+#, fuzzy
+#~ msgid "Destinations"
+#~ msgstr "יעד"
+
+#, fuzzy
+#~ msgid "Group name"
+#~ msgstr "קבוצה"
+
+#, fuzzy
+#~ msgid "Instances"
+#~ msgstr "התקנה"
+
+#, fuzzy
+#~ msgid "Systray popup when minimized"
+#~ msgstr "השהיית הנגינה בעת מזעור"
+
+#, fuzzy
+#~ msgid "Subtitles Language"
+#~ msgstr "שפת הכתוביות"
+
+#, fuzzy
+#~ msgid "Preferred subtitles language"
+#~ msgstr "שפת השמע המועדפת"
+
+#, fuzzy
+#~ msgid "Subtitles effects"
+#~ msgstr "מקודדי כתוביות"
+
+#, fuzzy
+#~ msgid "Black slot"
+#~ msgstr "שחור"
+
+#, fuzzy
+#~ msgid "Speed of the subtitles:"
+#~ msgstr "פתיחת כתוביות"
+
+#, fuzzy
+#~ msgid "Default Volume"
+#~ msgstr "עצמת השמע המלאה"
+
+#, fuzzy
+#~ msgid "Clear Menu"
+#~ msgstr "ניקוי"
+
+#, fuzzy
+#~ msgid "Satellite scanning config"
+#~ msgstr "קוד טווח הלוויין"
+
+#, fuzzy
+#~ msgid "DVB"
+#~ msgstr "DVD"
+
+#, fuzzy
+#~ msgid "Left rear"
+#~ msgstr "שמאל"
+
+#, fuzzy
+#~ msgid "Right rear"
+#~ msgstr "ימין"
+
+#, fuzzy
+#~ msgid "Front speakers"
+#~ msgstr "מאפייני גופן"
+
+#, fuzzy
+#~ msgid "ALSA device"
+#~ msgstr "התקן DVD"
+
+#, fuzzy
+#~ msgid "Duration in second"
+#~ msgstr "אורך"
+
+#, fuzzy
+#~ msgid "Composr"
+#~ msgstr "קומפוזיט"
+
+#, fuzzy
+#~ msgid "Video Filters..."
+#~ msgstr "קובצי וידאו"
+
+#, fuzzy
+#~ msgid "Advance of subtitles over video:"
+#~ msgstr "הוספת כתוביות לווידאו המותמר"
+
+#, fuzzy
+#~ msgid "Previous/Backward"
+#~ msgstr "הפרק הקודם"
+
+#, fuzzy
+#~ msgid "Next/Forward"
+#~ msgstr "קפיצה קדימה"
+
+#, fuzzy
+#~ msgid "Loop/Repeat mode"
+#~ msgstr "השהיית החזרה:"
+
+#, fuzzy
+#~ msgid "Fullscreen controller width toggle"
+#~ msgstr "בקר מסך מלא"
+
+#, fuzzy
+#~ msgid "Display on &Desktop"
+#~ msgstr "רזולוציית תצוגה"
+
+#, fuzzy
+#~ msgid "Open a Media"
+#~ msgstr "פתיחת מדיה"
+
+#, fuzzy
+#~ msgid "Session groupname"
+#~ msgstr "שם ההפעלה"
+
+#, fuzzy
+#~ msgid "Video output is not supported"
+#~ msgstr "מודול פלט הווידאו"
+
+#, fuzzy
+#~ msgid "Viewer"
+#~ msgstr "&תצוגה"
+
+#, fuzzy
+#~ msgid "Media Browser"
+#~ msgstr "מדיה: %s"
+
+#, fuzzy
+#~ msgid "No"
+#~ msgstr "&לא"
+
+#, fuzzy
+#~ msgid "Full Screen"
+#~ msgstr "מסך מלא"
+
+#, fuzzy
+#~ msgid "Easy Stream"
+#~ msgstr "תזרים"
+
+#, fuzzy
+#~ msgid "Seek Time"
+#~ msgstr "זמן ההתחלה"
+
+#, fuzzy
+#~ msgid "Graphical Equalizer"
+#~ msgstr "אקולייזר גרפי"
+
+#, fuzzy
+#~ msgid "VLC media player - Flash Viewer"
+#~ msgstr "נגן המדיה VLC - מנשק דפדפן"
+
+#, fuzzy
+#~ msgid "Streaming Output"
+#~ msgstr "פלט תזרים"
+
+#, fuzzy
+#~ msgid "Create Stream"
+#~ msgstr "תזרים בררת מחדל"
+
+#, fuzzy
+#~ msgid "Media File"
+#~ msgstr "קובצי מדיה"
+
+#, fuzzy
+#~ msgid "Capture Screen"
+#~ msgstr "מצב לכידה"
+
+#, fuzzy
+#~ msgid "Close"
+#~ msgstr "&סגירה"
+
+#, fuzzy
+#~ msgid "Error!"
+#~ msgstr "שגיאה"
+
+#, fuzzy
+#~ msgid "Create Mosaic"
+#~ msgstr "יצירה"
+
+#, fuzzy
+#~ msgid "Stream Input Configuration"
+#~ msgstr "ה&גדרות VLM"
+
+#, fuzzy
+#~ msgid "Remove Stream"
+#~ msgstr "הסרת הנבחרים"
+
+#, fuzzy
+#~ msgid "Create New Stream"
+#~ msgstr "יצירת פרופיל זה"
+
+#, fuzzy
+#~ msgid "Delete All Streams"
+#~ msgstr "מחיקת כל הסימניות"
+
+#, fuzzy
+#~ msgid "Configure Stream Defaults"
+#~ msgstr "הגדרת מקשי קיצור"
+
+#, fuzzy
+#~ msgid "Refresh Streams"
+#~ msgstr "זמן הרענון"
+
+#, fuzzy
+#~ msgid "Enqueue"
+#~ msgstr "הוספה ל&תור"
+
+#, fuzzy
+#~ msgid "Dummy audio output function"
+#~ msgstr "פלט השמע נכשל"
+
+#, fuzzy
+#~ msgid "M3U file"
+#~ msgstr "פרופיל ראשי"
+
+#, fuzzy
 #~ msgid ""
 #~ "This option allows you to delay the audio output. You must give a number "
 #~ "of milliseconds. This can be handy if you notice a lag between the video "
 #~ "and the audio."
 #~ msgstr ""
-#~ "כאן ניתן לעכב את פלט השמע. יש להגדיר מספר אלפיות שניה. אפשרות זו שימושית "
-#~ "במקרה של חוסר תיאום בין השמע לוידאו."
+#~ "אפשרות זו משהה את פלט השמע. משך ההשהייה חייב להיות במילישניות. אפשרות זו "
+#~ "יכולה להועיל במקרה שיש הפרש בין הווידאו והשמע."
 
+#, fuzzy
 #~ msgid ""
 #~ "When enabled, the color information from the video won't be decoded (this "
 #~ "can also allow you to save some processing power)."
 #~ msgstr ""
-#~ "אפשרות זו מבטלת את פיענוח הצבע מקובץ הוידאו (כך ניתן לחסוך מפעולת המעבד)"
+#~ "הסבת פלט הווידאו לגבי אפור. כיוון שפרטי הצבע אינם מקודדים, אפשרות זו "
+#~ "עשויה לחסוך במעט בכוח העיבוד."
 
 #, fuzzy
 #~ msgid "&Open a Media"
 #~ msgstr "פתיחת מדיה"
 
+#, fuzzy
 #~ msgid "UDP port"
-#~ msgstr "פתחת UDP"
+#~ msgstr "פתחת ה־CDDB"
 
+#, fuzzy
 #~ msgid "IPv4 will be used by default for all connections."
-#~ msgstr "IPv4 ישמש כבררת המחדל לכל החיבורים."
+#~ msgstr "הססמה שתשמש לחיבור."
 
+#, fuzzy
 #~ msgid "Caching value in ms"
-#~ msgstr "ערך המטמון במ״ש"
+#~ msgstr "ערך האגירה (מ״ש)"
 
 #, fuzzy
 #~ msgid "User agent that will be used for the connection."
@@ -29508,27 +29723,28 @@ msgstr "רשימת מנהל המדיה"
 #~ "שימוש בהתקן בררת המחדל."
 
 #, fuzzy
-#~ msgid "IO Method"
-#~ msgstr "שיטת פלט"
-
 #~ msgid "&Statistics"
 #~ msgstr "&סטטיסטיקה"
 
+#, fuzzy
 #~ msgid "Enter the URL of the network stream here."
-#~ msgstr "נא להזין את כתובת תזרים הרשת להלן."
+#~ msgstr "ה־‏MTU של כרטיס הרשת"
 
 #, fuzzy
 #~ msgid "Vout/Overlay"
 #~ msgstr "שכבות"
 
+#, fuzzy
 #~ msgid "overlap"
-#~ msgstr "חפיפה"
+#~ msgstr "שכבות"
 
+#, fuzzy
 #~ msgid "CDDB"
-#~ msgstr "CDDB"
+#~ msgstr "פתחת ה־CDDB"
 
+#, fuzzy
 #~ msgid "email address reported to CDDB server"
-#~ msgstr "כתובת האימייל הניתנת לשרת CDDB"
+#~ msgstr "כתובת שרת ה־CDDB לשימוש"
 
 #, fuzzy
 #~ msgid "CDDB server timeout"
@@ -29540,17 +29756,18 @@ msgstr "רשימת מנהל המדיה"
 #~ "the connection."
 #~ msgstr "שם המשתמש שישמש לחיבור."
 
+#, fuzzy
 #~ msgid ""
 #~ "Allows you to modify the password that will be used for the connection."
-#~ msgstr "מאפשר לשנות את סיסמת המשתמש שתינתן בהתחברות."
+#~ msgstr "הססמה שתשמש לחיבור."
 
 #, fuzzy
 #~ msgid "QNX RTOS video and audio output"
-#~ msgstr "פלט שמע "
+#~ msgstr "פלט שמע לקובץ"
 
 #, fuzzy
 #~ msgid "XVimage chroma format"
-#~ msgstr "סוג התמונה"
+#~ msgstr "מבנה הכרומה של וידאו הקלט"
 
 #, fuzzy
 #~ msgid ""
@@ -29585,14 +29802,6 @@ msgstr "רשימת מנהל המדיה"
 #~ "בהתקן בררת המחדל. "
 
 #, fuzzy
-#~ msgid ""
-#~ "This will reset your VLC media player preferences.\n"
-#~ "Are you sure you want to continue?"
-#~ msgstr ""
-#~ "נא לשים לב כי פעולה זאת תאפס את כל ההעדפות של נגן המדיה VLC.\n"
-#~ "האם אכן ברצונך להמשיך?"
-
-#, fuzzy
 #~ msgid "Minimal View..."
 #~ msgstr "פרק הזמן המזערי"
 
@@ -29608,45 +29817,51 @@ msgstr "רשימת מנהל המדיה"
 #~ msgid "Set subtitle delay (in 1/10s)"
 #~ msgstr "הקטנת השהיית הכתוביות"
 
+#, fuzzy
 #~ msgid "CDDB Year"
-#~ msgstr "שנה CDDB"
+#~ msgstr "שרת CDDB"
 
+#, fuzzy
 #~ msgid ""
 #~ "When selected, VLC will randomly play files in the playlist until "
 #~ "interrupted."
-#~ msgstr ""
-#~ "אפשרות זו תגארום ל-VLC לנגן קבצים מרשימת ההשמעה באופן אקראי, עד אשר מישהו "
-#~ "יפסיק אותה."
+#~ msgstr "VLC ינגן באופן אקראי קבצים מרשימת ההשמעה עד להודעה חדשה."
 
+#, fuzzy
 #~ msgid ""
 #~ "If you want VLC to keep playing the playlist indefinitely then enable "
 #~ "this option."
-#~ msgstr "אפשרות זו תגרום ל-VLC לנגן את רשימת ההשמעה עד אין קץ."
+#~ msgstr "VLC ימשיך לנגן את רשימת ההשמעה עד להודעה חדשה."
 
+#, fuzzy
 #~ msgid ""
 #~ "When this is active, VLC will keep playing the current playlist item over "
 #~ "and over again."
-#~ msgstr "אפשרות זו תגרום ל-VLC לנגן את הפריט הנוכחי ברשימת ההשמעה עד עולם."
+#~ msgstr "VLC ימשיך לנגן את רשימת ההשמעה הנוכחית."
 
+#, fuzzy
 #~ msgid "Stop the playlist after each played playlist item. "
-#~ msgstr "מפסיק את ניגון הרשימה לאחר כל פריט בה. "
+#~ msgstr "עצירת רשימת ההשמעה לאחר כל פריט שהתנגן מרשימת ההשמעה."
 
+#, fuzzy
 #~ msgid ""
 #~ "Specify the name of the video device that will be used. If you don't "
 #~ "specify anything, no video device will be used."
 #~ msgstr ""
-#~ "ציין את שם התקן הוידאו לשימוש. אם לא ייבחר התקן, לא ייעשה שימוש בשום התקן "
-#~ "וידאו."
+#~ "שם התקן הווידאו בו ישתמש תוסף ה־DirectShow. אם לא יצוין כאן דבר, ייעשה "
+#~ "שימוש בהתקן בררת המחדל."
 
+#, fuzzy
 #~ msgid "Output channels number"
-#~ msgstr "מספר ערוצי פלט"
+#~ msgstr "ערוצי פלט שמע"
 
+#, fuzzy
 #~ msgid "This option allows you to define playlist bookmarks."
-#~ msgstr "מאפשר להגדיר סימניות ברשימת ההשמעה."
+#~ msgstr "בחירה זו מאפשרת לך להגדיר סימניות ברשימת ההשמעה."
 
 #, fuzzy
 #~ msgid "Quiet mode."
-#~ msgstr "מצב שקט"
+#~ msgstr "מצב שמע"
 
 #, fuzzy
 #~ msgid "Preload Directory"
@@ -29656,21 +29871,25 @@ msgstr "רשימת מנהל המדיה"
 #~ msgid "Motion blue"
 #~ msgstr "טשטוש תנועה"
 
+#, fuzzy
 #~ msgid "Effect"
-#~ msgstr "אפקט"
+#~ msgstr "אפקטים"
 
 #, fuzzy
 #~ msgid "Zoom playlist"
-#~ msgstr "הצגת רשימת השמעה"
+#~ msgstr "נגן רשימה"
 
+#, fuzzy
 #~ msgid "Telnet Interface"
-#~ msgstr "מנשק Telnet"
+#~ msgstr "מנשק"
 
+#, fuzzy
 #~ msgid "Web Interface"
-#~ msgstr "מנשק דפדפן"
+#~ msgstr "מנשק"
 
+#, fuzzy
 #~ msgid "Audio output saved volume"
-#~ msgstr "שמירת עצמת השמע"
+#~ msgstr "גודל הצעד בין רמת עוצמת שמע אחת לאחרת"
 
 #, fuzzy
 #~ msgid "DirectShow DVB input"
@@ -29688,8 +29907,9 @@ msgstr "רשימת מנהל המדיה"
 #~ msgid "Root CA file"
 #~ msgstr "דיווח לקובץ"
 
+#, fuzzy
 #~ msgid "CRL file"
-#~ msgstr "קובץ CRL"
+#~ msgstr "דיווח לקובץ"
 
 #, fuzzy
 #~ msgid "Invalid polarization"
@@ -29719,8 +29939,9 @@ msgstr "רשימת מנהל המדיה"
 #~ msgid "Decimation"
 #~ msgstr "יעד"
 
+#, fuzzy
 #~ msgid "Video4Linux"
-#~ msgstr "Video4Linux"
+#~ msgstr "קלט S-Video"
 
 #, fuzzy
 #~ msgid "Auto gain"
@@ -29742,6 +29963,7 @@ msgstr "רשימת מנהל המדיה"
 #~ msgid "Trivial audio mixer"
 #~ msgstr "שמע מקורי"
 
+#, fuzzy
 #~ msgid "default"
 #~ msgstr "בררת מחדל"
 
@@ -29753,8 +29975,9 @@ msgstr "רשימת מנהל המדיה"
 #~ msgid "VLC could not open the ALSA device \"%s\" (%s)."
 #~ msgstr "ל־VLC לא הייתה אפשרות לפתוח את המודול המפענח."
 
+#, fuzzy
 #~ msgid "Unknown soundcard"
-#~ msgstr "כרטיס קול לא מוכר"
+#~ msgstr "וידאו לא ידוע"
 
 #, fuzzy
 #~ msgid "Roku HD1000 audio output"
@@ -29770,7 +29993,7 @@ msgstr "רשימת מנהל המדיה"
 
 #, fuzzy
 #~ msgid "Reload image file"
-#~ msgstr "קובץ תמונה"
+#~ msgstr "בחירת קובץ"
 
 #, fuzzy
 #~ msgid "Deinterlace module to use."
@@ -29796,8 +30019,9 @@ msgstr "רשימת מנהל המדיה"
 #~ msgid "Enable debug"
 #~ msgstr "הפעלת וידאו"
 
+#, fuzzy
 #~ msgid "Host address"
-#~ msgstr "כתובת המארח"
+#~ msgstr "כתובת שרת ה־HTTP"
 
 #, fuzzy
 #~ msgid "HTTP remote control interface"
@@ -29819,11 +30043,13 @@ msgstr "רשימת מנהל המדיה"
 #~ msgid "Subtitles (asa demuxer)"
 #~ msgstr "כתוביות (מתקדם)"
 
+#, fuzzy
 #~ msgid "Fast Forward"
-#~ msgstr "קדימה"
+#~ msgstr "קפיצה קדימה"
 
+#, fuzzy
 #~ msgid "Extended controls"
-#~ msgstr "פקדים מורחבים"
+#~ msgstr "הצגת אפשרויות מורחבות"
 
 #, fuzzy
 #~ msgid "General editing filters"
@@ -29833,11 +30059,13 @@ msgstr "רשימת מנהל המדיה"
 #~ msgid "Distortion filters"
 #~ msgstr "קובץ היעד"
 
+#, fuzzy
 #~ msgid "Image cropping"
-#~ msgstr "חיתוך תמונה"
+#~ msgstr "חיתוך וידאו"
 
+#, fuzzy
 #~ msgid "Inverts the colors of the image"
-#~ msgstr "הפיכת הצבעים של התמונה"
+#~ msgstr "הגדרת הצבעים של מחוון עצמת השמע"
 
 #, fuzzy
 #~ msgid "Audio Filter"
@@ -29847,63 +30075,77 @@ msgstr "רשימת מנהל המדיה"
 #~ msgid "About the video filters"
 #~ msgstr "מסנן ווידאו - גלאי תנועה"
 
+#, fuzzy
 #~ msgid "Controller..."
-#~ msgstr "פקד..."
+#~ msgstr "בקרה"
 
+#, fuzzy
 #~ msgid "Equalizer..."
-#~ msgstr "אקולייזר..."
+#~ msgstr "אקווילייזר"
 
+#, fuzzy
 #~ msgid "Extended Controls..."
-#~ msgstr "פקדים מורחבים..."
+#~ msgstr "&פקדים מתקדמים"
 
+#, fuzzy
 #~ msgid "Volume: %d%%"
-#~ msgstr "עוצמה: %d%%"
+#~ msgstr "הנמכת העצמה"
 
+#, fuzzy
 #~ msgid "Keep current Equalizer settings"
-#~ msgstr "שמירת הגדרות האקולייזר הנוכחיות"
+#~ msgstr "הגדרות וידאו כלליות"
 
+#, fuzzy
 #~ msgid "No device connected"
-#~ msgstr "לא מחובר התקן"
+#~ msgstr "לא נמצא התקן קלט"
 
+#, fuzzy
 #~ msgid "Screen Capture Input"
-#~ msgstr "קלט לכידת המסך"
+#~ msgstr "לכידת המסך"
 
+#, fuzzy
 #~ msgid "No %@s found"
-#~ msgstr "לא נמצא %@s"
+#~ msgstr "לא נמצא קלט"
 
+#, fuzzy
 #~ msgid "Open VIDEO_TS Directory"
-#~ msgstr "פתח תיקיית VIDEO_TS"
+#~ msgstr "פתיחת תיקייה"
 
+#, fuzzy
 #~ msgid "No items in the playlist"
-#~ msgstr "אין פריטים ברשימת ההשמעה"
+#~ msgstr "יש לצאת אם אין עוד פריטים ברשימת ההשמעה."
 
+#, fuzzy
 #~ msgid "Add Folder to Playlist"
-#~ msgstr "הוסף תיקייה לרשימת ההשמעה"
+#~ msgstr "הוסף לרשימת ההשמעה"
 
+#, fuzzy
 #~ msgid "1 item"
-#~ msgstr "פריט אחד"
+#~ msgstr "%i פריטים"
 
+#, fuzzy
 #~ msgid "Empty Folder"
-#~ msgstr "תיקייה ריקה"
+#~ msgstr "פתיחת תיקייה"
 
+#, fuzzy
 #~ msgid "Default Server Port"
-#~ msgstr "פתחת השרת כבררת מחדל"
+#~ msgstr "התקני בררת המחדל"
 
+#, fuzzy
 #~ msgid "Interface Settings not saved"
-#~ msgstr "הגדרות המנשק לא נשמרו"
+#~ msgstr "הגדרות מנשק"
 
 #, fuzzy
 #~ msgid "An error occured while saving your settings via SimplePrefs (%i)."
 #~ msgstr "אירעה שגיאה במהלך בדיקת העדכונים"
 
+#, fuzzy
 #~ msgid "Audio Settings not saved"
-#~ msgstr "הגדרות השמע לא נשמרו"
+#~ msgstr "הגדרות שמע"
 
-#~ msgid "On Screen Display/Subtitle Settings not saved"
-#~ msgstr "הגדרות החיווי על גבי המסך/כתוביות"
-
+#, fuzzy
 #~ msgid "Hotkeys not saved"
-#~ msgstr "מקשי הקיצור לא נשמרו"
+#~ msgstr "הגדרות קיצורי מקלדת"
 
 #, fuzzy
 #~ msgid " Help "
@@ -29917,30 +30159,37 @@ msgstr "רשימת מנהל המדיה"
 #~ msgid " Information "
 #~ msgstr "מידע"
 
+#, fuzzy
 #~ msgid " Browse "
-#~ msgstr " עיון"
+#~ msgstr "עיון"
 
+#, fuzzy
 #~ msgid " Stats "
-#~ msgstr " סטטיסטיקה"
+#~ msgstr "מצב"
 
+#, fuzzy
 #~ msgid "Input caching:"
-#~ msgstr "מטמון פלט:"
+#~ msgstr "קלט:"
 
 #, fuzzy
 #~ msgid "Privacy and Network Warning"
 #~ msgstr "פרטיות / אינטראקציה מול הרשת"
 
+#, fuzzy
 #~ msgid "&Extra Metadata"
-#~ msgstr "נתוני &על נוספים"
+#~ msgstr "שמירת &נתוני העל"
 
+#, fuzzy
 #~ msgid "C&lear"
-#~ msgstr "&ניקוי"
+#~ msgstr "ניקוי"
 
+#, fuzzy
 #~ msgid "Verbosity Level"
-#~ msgstr "רמת הפירוט"
+#~ msgstr "פלט של הודעות מערכת (0,1,2)"
 
+#, fuzzy
 #~ msgid "Message filter"
-#~ msgstr "מסנן הודעות"
+#~ msgstr "מסנן סצנות"
 
 #, fuzzy
 #~ msgid "M3U8 playlist (*.m3u8)"
@@ -29951,21 +30200,22 @@ msgstr "רשימת מנהל המדיה"
 #~ msgstr "ייבוא רשימת השמעה מסוג M3U"
 
 #, fuzzy
-#~ msgid "HTML playlist (*.html)"
-#~ msgstr "רשימת השמעה מסוג HTML"
-
 #~ msgid "Direct3D Desktop mode"
-#~ msgstr "מצב שולחן עבודה Direct3D"
+#~ msgstr "פלט וידאו Direct3D"
 
+#, fuzzy
 #~ msgid "Sna&pshot"
-#~ msgstr "צילום&"
+#~ msgstr "צילום"
 
+#, fuzzy
 #~ msgid "Manage &bookmarks"
-#~ msgstr "&ניהול הסימניות"
+#~ msgstr "יצירת סימנייה חדשה"
 
+#, fuzzy
 #~ msgid "Configure podcasts..."
-#~ msgstr "הגדרת פודקאסטים..."
+#~ msgstr "הגדרת מקשי קיצור"
 
+#, fuzzy
 #~ msgctxt "Tooltip|Clear"
 #~ msgid "Clear"
 #~ msgstr "ניקוי"
@@ -29978,11 +30228,13 @@ msgstr "רשימת מנהל המדיה"
 #~ msgid "Stats video output function"
 #~ msgstr "פלט וידאו בגווני אפור"
 
+#, fuzzy
 #~ msgid "Font Effect"
-#~ msgstr "אפקט גופן"
+#~ msgstr "אפקטים של שמע"
 
+#, fuzzy
 #~ msgid "Fat Outline"
-#~ msgstr "מסגרת עבה"
+#~ msgstr "מסגרת"
 
 #, fuzzy
 #~ msgid "Lua Interface Module"
@@ -29992,18 +30244,21 @@ msgstr "רשימת מנהל המדיה"
 #~ msgid "Lua Interface Module (shortcuts)"
 #~ msgstr "מודול מנשק"
 
+#, fuzzy
 #~ msgid "Server"
-#~ msgstr "שרת"
+#~ msgstr "שירותים"
 
+#, fuzzy
 #~ msgid "HD1000 video output"
-#~ msgstr "פלט וידאו HD1000"
+#~ msgstr "פלט וידאו Direct3D"
 
 #, fuzzy
 #~ msgid "OMAP framebuffer"
 #~ msgstr "אוגרים שהתנגנו"
 
+#, fuzzy
 #~ msgid "OpenGL Provider"
-#~ msgstr "ספק OpenGL"
+#~ msgstr "פתיחת תיקייה"
 
 #, fuzzy
 #~ msgid "Snapshot output"
@@ -30025,20 +30280,25 @@ msgstr "רשימת מנהל המדיה"
 #~ msgid "Enable base"
 #~ msgstr "הפעלה"
 
+#, fuzzy
 #~ msgid "Font size:"
-#~ msgstr "גודל גופן:"
+#~ msgstr "גודל גופן"
 
+#, fuzzy
 #~ msgid "Text alignment:"
-#~ msgstr "יישור הטקסט:"
+#~ msgstr "יישור נתונים"
 
+#, fuzzy
 #~ msgid "Default port (server mode)"
-#~ msgstr "פתחת בררת המחדל (מצב שרת)"
+#~ msgstr "מודול שרת VoD"
 
+#, fuzzy
 #~ msgid "Embed video in interface"
-#~ msgstr "הטבע את הוידאו בממשק"
+#~ msgstr "הטמעת הווידאו במנשק"
 
+#, fuzzy
 #~ msgid "Refresh"
-#~ msgstr "רענון"
+#~ msgstr "זמן הרענון"
 
 #, fuzzy
 #~ msgid "Color fun"
@@ -30070,7 +30330,7 @@ msgstr "רשימת מנהל המדיה"
 
 #, fuzzy
 #~ msgid "Set"
-#~ msgstr "בחירה"
+#~ msgstr "רטוב"
 
 #, fuzzy
 #~ msgid "SDL video driver name"
@@ -30084,11 +30344,13 @@ msgstr "רשימת מנהל המדיה"
 #~ msgid "Select the port used"
 #~ msgstr "הפתחות הנבחרות:"
 
+#, fuzzy
 #~ msgid "Other codecs"
-#~ msgstr "מקודדים ומפענחים אחרים"
+#~ msgstr "מקודדי ומפענחי וידאו"
 
+#, fuzzy
 #~ msgid "Settings for audio+video and miscellaneous decoders and encoders."
-#~ msgstr "הגדרות של מפענחים ומקודדים שונים ושל וידאו+שמע."
+#~ msgstr "הגדרות למקודדי ומפענחי שמע בלבד."
 
 #, fuzzy
 #~ msgid "Random off"
@@ -30096,14 +30358,15 @@ msgstr "רשימת מנהל המדיה"
 
 #, fuzzy
 #~ msgid "Advanced open..."
-#~ msgstr "פתיחה מתקדמת..."
+#~ msgstr "פתיחה מתק&דמת..."
 
 #, fuzzy
 #~ msgid "Add directory..."
 #~ msgstr "הוספת תיקייה..."
 
+#, fuzzy
 #~ msgid "Show interface with mouse"
-#~ msgstr "הצג ממשק עם עכבר"
+#~ msgstr "מודול מנשק"
 
 #, fuzzy
 #~ msgid "Fullscreen-only"
@@ -30113,14 +30376,17 @@ msgstr "רשימת מנהל המדיה"
 #~ msgid "CD reading failed"
 #~ msgstr "החיבור נכשל"
 
+#, fuzzy
 #~ msgid "Audio Compact Disc"
-#~ msgstr "תקליטור (CD) שמע"
+#~ msgstr "התקן פלט שמע"
 
+#, fuzzy
 #~ msgid "CDDB server"
 #~ msgstr "שרת CDDB"
 
+#, fuzzy
 #~ msgid "Track %i"
-#~ msgstr "רצועה %i"
+#~ msgstr "רצועה"
 
 #, fuzzy
 #~ msgid "Max level"
@@ -30158,8 +30424,9 @@ msgstr "רשימת מנהל המדיה"
 #~ msgid "MPEG-4 V"
 #~ msgstr "MPEG 1"
 
+#, fuzzy
 #~ msgid "Use DVD Menus"
-#~ msgstr "השתמש בתפריטי DVD"
+#~ msgstr "תפריטי ה־DVD"
 
 #, fuzzy
 #~ msgid "BeOS standard API interface"
@@ -30177,80 +30444,97 @@ msgstr "רשימת מנהל המדיה"
 #~ msgid "Go to Title"
 #~ msgstr "מעבר לזמן"
 
+#, fuzzy
 #~ msgid "Go to Chapter"
-#~ msgstr "לך לפרק"
+#~ msgstr "פרק"
 
+#, fuzzy
 #~ msgid "VLC media player: Open Media Files"
-#~ msgstr "נגן המדיה VLC: פתח קבצי מדיה"
+#~ msgstr "עדכוני נגן המדיה VLC"
 
+#, fuzzy
 #~ msgid "VLC media player: Open Subtitle File"
-#~ msgstr "נגן המדיה VLC: פתח קובץ כתוביות"
+#~ msgstr "עזרה לנגן המדיה VLC"
 
 #, fuzzy
 #~ msgid "playlist"
 #~ msgstr "נגן רשימה"
 
+#, fuzzy
 #~ msgid "Select None"
-#~ msgstr "בטל בחירה"
+#~ msgstr "בחירת תיקייה"
 
 #, fuzzy
 #~ msgid "Sort by Path"
 #~ msgstr "מיון לפי"
 
+#, fuzzy
 #~ msgid "Randomize"
-#~ msgstr "סדר אקראי"
+#~ msgstr "אקראי"
 
+#, fuzzy
 #~ msgid "Remove All"
-#~ msgstr "הסר הכל"
+#~ msgstr "הסרה"
 
+#, fuzzy
 #~ msgid "Defaults"
-#~ msgstr "ברירת מחדל"
+#~ msgstr "בררת מחדל"
 
+#, fuzzy
 #~ msgid "Show Interface"
-#~ msgstr "הצג ממשק"
+#~ msgstr "מנשק"
 
 #, fuzzy
 #~ msgid "Vertical Sync"
 #~ msgstr "אנכי"
 
+#, fuzzy
 #~ msgid "Stay On Top"
-#~ msgstr "תמיד למעלה"
+#~ msgstr "תמיד &עליון"
 
+#, fuzzy
 #~ msgid "Take Screen Shot"
-#~ msgstr "בצע צילום מסך"
+#~ msgstr "צילום &תמונה"
 
 #, fuzzy
 #~ msgid "Check for Updates"
 #~ msgstr "בדיקת &עדכונים..."
 
+#, fuzzy
 #~ msgid "Download now"
-#~ msgstr "הורד כעת"
+#~ msgstr "הורדת תוסף"
 
+#, fuzzy
 #~ msgid "Autoplay selected file"
-#~ msgstr "נגן אוטוטמטית את הקובץ הנבחר"
+#~ msgstr "עריכת הפרופיל הנבחר"
 
 #, fuzzy
 #~ msgid "PDA Linux Gtk2+ interface"
 #~ msgstr "מנשק Lua"
 
+#, fuzzy
 #~ msgid "Permissions"
-#~ msgstr "הרשאות"
+#~ msgstr "הפעלה"
 
 #, fuzzy
 #~ msgid "Port:"
 #~ msgstr "פתחת VNC"
 
+#, fuzzy
 #~ msgid "Address:"
-#~ msgstr "כתובת:"
+#~ msgstr "כתובת"
 
+#, fuzzy
 #~ msgid "Network: "
-#~ msgstr "רשת: "
+#~ msgstr "רשת"
 
+#, fuzzy
 #~ msgid "mms"
-#~ msgstr "mms"
+#~ msgstr " מ״ש"
 
+#, fuzzy
 #~ msgid "Protocol:"
-#~ msgstr "פרוטוקול:"
+#~ msgstr "פרוטוקול"
 
 #, fuzzy
 #~ msgid "Transcode:"
@@ -30260,47 +30544,53 @@ msgstr "רשימת מנהל המדיה"
 #~ msgid "enable"
 #~ msgstr "הפעלה"
 
+#, fuzzy
 #~ msgid "Video:"
-#~ msgstr "וידאו:"
+#~ msgstr "וידאו"
 
+#, fuzzy
 #~ msgid "Audio:"
-#~ msgstr "שמע:"
+#~ msgstr "שמע"
 
+#, fuzzy
 #~ msgid "Channel:"
-#~ msgstr "ערוץ:"
+#~ msgstr "ערוצים:"
 
 #, fuzzy
 #~ msgid "Norm:"
-#~ msgstr "שיטת שידור"
+#~ msgstr "רגיל"
 
+#, fuzzy
 #~ msgid "Size:"
-#~ msgstr "גודל:"
+#~ msgstr "גודל"
 
 #, fuzzy
 #~ msgid "Frequency:"
 #~ msgstr "תדירות"
 
+#, fuzzy
 #~ msgid "Samplerate:"
-#~ msgstr "קצב דגימה:"
+#~ msgstr "קצב דגימה"
 
+#, fuzzy
 #~ msgid "Quality:"
-#~ msgstr "איכות:"
+#~ msgstr "רמת האיכות"
 
+#, fuzzy
 #~ msgid "Sound:"
-#~ msgstr "קול:"
+#~ msgstr "סראונד"
 
+#, fuzzy
 #~ msgid "MJPEG:"
-#~ msgstr ":MJPEG"
+#~ msgstr "MJPEG"
 
 #, fuzzy
 #~ msgid "Decimation:"
 #~ msgstr "יעד"
 
+#, fuzzy
 #~ msgid "pal"
-#~ msgstr "pal"
-
-#~ msgid "Camera"
-#~ msgstr "מצלמה"
+#~ msgstr "נפאלית"
 
 #, fuzzy
 #~ msgid "Video Codec:"
@@ -30314,17 +30604,17 @@ msgstr "רשימת מנהל המדיה"
 #~ msgid "Access:"
 #~ msgstr "גישה לפלט"
 
-#~ msgid "TS"
-#~ msgstr "TS"
-
+#, fuzzy
 #~ msgid "MPEG1"
-#~ msgstr "MPEG1"
+#~ msgstr "MPEG 1"
 
+#, fuzzy
 #~ msgid "MOV"
-#~ msgstr "MOV"
+#~ msgstr "MKV"
 
+#, fuzzy
 #~ msgid "ASF"
-#~ msgstr "ASF"
+#~ msgstr "ASF/WMV"
 
 #, fuzzy
 #~ msgid "SAP Announce:"
@@ -30338,18 +30628,23 @@ msgstr "רשימת מנהל המדיה"
 #~ msgid "Announce Channel:"
 #~ msgstr "ערוץ טלוויזיה בטיונר"
 
+#, fuzzy
 #~ msgid " Clear "
-#~ msgstr " נקה "
+#~ msgstr "ניקוי"
 
+#, fuzzy
 #~ msgid " Save "
-#~ msgstr " שמירה "
+#~ msgstr "שמירה"
 
+#, fuzzy
 #~ msgid " Apply "
-#~ msgstr " החל "
+#~ msgstr "ה&חלה"
 
+#, fuzzy
 #~ msgid " Cancel "
-#~ msgstr " ביטול "
+#~ msgstr "ביטול"
 
+#, fuzzy
 #~ msgid "Preference"
 #~ msgstr "העדפות"
 
@@ -30375,7 +30670,7 @@ msgstr "רשימת מנהל המדיה"
 
 #, fuzzy
 #~ msgid "Default volume"
-#~ msgstr "עצמת שמע כבררת מחדל"
+#~ msgstr "התקני בררת המחדל"
 
 #, fuzzy
 #~ msgid "Disc Devices"
@@ -30389,27 +30684,28 @@ msgstr "רשימת מנהל המדיה"
 #~ msgid "Post-Processing quality"
 #~ msgstr "עיבוד מאוחר"
 
+#, fuzzy
 #~ msgid ""
 #~ "\n"
 #~ "(WinCE interface)\n"
 #~ "\n"
-#~ msgstr ""
-#~ "\n"
-#~ "(ממשק WinCE)\n"
-#~ "\n"
+#~ msgstr "מנשקים ראשיים"
 
+#, fuzzy
 #~ msgid "Compiled by "
-#~ msgstr "הודר ע\"י "
+#~ msgstr "מהדר: %s\n"
 
+#, fuzzy
 #~ msgid "Open:"
-#~ msgstr "פתח:"
+#~ msgstr "פתיחה"
 
+#, fuzzy
 #~ msgid "Choose directory"
-#~ msgstr "בחר תיקייה"
+#~ msgstr "תיקיית מקור"
 
 #, fuzzy
 #~ msgid "WinCE interface"
-#~ msgstr "השתקת השמע."
+#~ msgstr "מנשקים ראשיים"
 
 #, fuzzy
 #~ msgid "Old playlist export"
@@ -30525,7 +30821,7 @@ msgstr "רשימת מנהל המדיה"
 
 #, fuzzy
 #~ msgid "Use a sub&amp;titles file"
-#~ msgstr "שימוש בקובץ כ&תוביות"
+#~ msgstr "השתמש בקובץ כתוביות"
 
 #, fuzzy
 #~ msgid "textFormat"
@@ -30533,17 +30829,19 @@ msgstr "רשימת מנהל המדיה"
 
 #, fuzzy
 #~ msgid "General interface settings"
-#~ msgstr "נא לבחור את המקש להשתקת השמע."
+#~ msgstr "הגדרות המנשקים הראשיים"
 
+#, fuzzy
 #~ msgid "Other advanced settings"
-#~ msgstr "הגדרות מתקדמות אחרות"
+#~ msgstr "הגדרות מתקדמות"
 
 #, fuzzy
 #~ msgid "Media &Information..."
 #~ msgstr "פרטי המדיה..."
 
+#, fuzzy
 #~ msgid "&Messages..."
-#~ msgstr "&הודעות..."
+#~ msgstr "הודעות..."
 
 #, fuzzy
 #~ msgid "&Extended Settings..."
@@ -30565,14 +30863,17 @@ msgstr "רשימת מנהל המדיה"
 #~ msgid "Additional &Sources"
 #~ msgstr "אפשרויות התמרה נוספות"
 
+#, fuzzy
 #~ msgid "American English"
-#~ msgstr "אנגלית ארה\"ב"
+#~ msgstr "אנגלית"
 
+#, fuzzy
 #~ msgid "Brazilian Portuguese"
-#~ msgstr "פורטוגלית ברזיל"
+#~ msgstr "פורטוגזית"
 
+#, fuzzy
 #~ msgid "British English"
-#~ msgstr "אנגלית בריטניה"
+#~ msgstr "אנגלית"
 
 #, fuzzy
 #~ msgid "Punjabi"
@@ -30594,19 +30895,21 @@ msgstr "רשימת מנהל המדיה"
 #~ msgid "Audio method"
 #~ msgstr "מצב שמע"
 
+#, fuzzy
 #~ msgid "aRts audio output"
-#~ msgstr "פלט שמע aRts"
+#~ msgstr "פלט שמע ALSA"
 
 #, fuzzy
 #~ msgid "EsounD audio output"
 #~ msgstr "פלט שמע ALSA"
 
+#, fuzzy
 #~ msgid "Cinepak video decoder"
-#~ msgstr "מפענח וידאו Cinepak"
+#~ msgstr "מפענח וידאו Theora"
 
 #, fuzzy
 #~ msgid "Kate text subtitles decoder"
-#~ msgstr "מפענח כתוביות טקסט"
+#~ msgstr "מפענח כתוביות DVB"
 
 #, fuzzy
 #~ msgid "Kate comment"
@@ -30634,18 +30937,19 @@ msgstr "רשימת מנהל המדיה"
 
 #, fuzzy
 #~ msgid "4:3 subtitles"
-#~ msgstr "כתוביות SVCD"
+#~ msgstr "כתוביות DVB"
 
 #, fuzzy
 #~ msgid "16:9 subtitles"
-#~ msgstr "כתוביות SVCD"
+#~ msgstr "כתוביות DVB"
 
 #, fuzzy
 #~ msgid "2.21:1 subtitles"
-#~ msgstr "כתוביות SVCD"
+#~ msgstr "כתוביות DVB"
 
+#, fuzzy
 #~ msgid "Quick Open File..."
-#~ msgstr "פתיחה מהירה..."
+#~ msgstr "פתיחת קובץ..."
 
 #, fuzzy
 #~ msgid "Access Filter"
@@ -30655,8 +30959,9 @@ msgstr "רשימת מנהל המדיה"
 #~ msgid "Save As:"
 #~ msgstr "שמירה"
 
+#, fuzzy
 #~ msgid "Login"
-#~ msgstr "היכנס"
+#~ msgstr "משתמש:ססמה"
 
 #, fuzzy
 #~ msgid "Open playlist file"
@@ -30676,14 +30981,15 @@ msgstr "רשימת מנהל המדיה"
 
 #, fuzzy
 #~ msgid "Show P&laylist"
-#~ msgstr "הצגת רשימת השמעה"
+#~ msgstr "הצגה/הסתרה של רשימת ההשמעה"
 
 #, fuzzy
 #~ msgid "Play&list..."
 #~ msgstr "רשימת השמעה..."
 
+#, fuzzy
 #~ msgid "&Preferences..."
-#~ msgstr "&העדפות..."
+#~ msgstr "העדפות..."
 
 #, fuzzy
 #~ msgid "Card Selection"
@@ -30693,8 +30999,9 @@ msgstr "רשימת מנהל המדיה"
 #~ msgid "Outputs"
 #~ msgstr "פלט"
 
+#, fuzzy
 #~ msgid "WinCE interface module"
-#~ msgstr "מודול ממשק WinCE"
+#~ msgstr "מודלי מנשק נוספים"
 
 #, fuzzy
 #~ msgid "RRD output file"
@@ -30728,8 +31035,9 @@ msgstr "רשימת מנהל המדיה"
 #~ msgid "MusicBrainz"
 #~ msgstr "מחזמר"
 
+#, fuzzy
 #~ msgid "Audio CD - Track "
-#~ msgstr "תקליטור שמע - רצועה "
+#~ msgstr "רצועת שמע"
 
 #, fuzzy
 #~ msgid "Seam Carving video filter"
@@ -30765,7 +31073,7 @@ msgstr "רשימת מנהל המדיה"
 
 #, fuzzy
 #~ msgid "Ctrl+U"
-#~ msgstr "Ctrl+L"
+#~ msgstr "Ctrl+"
 
 #, fuzzy
 #~ msgid "Add Interfaces"
@@ -30777,14 +31085,11 @@ msgstr "רשימת מנהל המדיה"
 
 #, fuzzy
 #~ msgid "Get Stream Information"
-#~ msgstr "קבלת פרטים"
-
-#~ msgid "%i items in the playlist"
-#~ msgstr "%i פריטים ברשימת ההשמעה"
+#~ msgstr "פרטי המדיה"
 
 #, fuzzy
-#~ msgid "Some options are hidden. Check \"Advanced\" to display them."
-#~ msgstr "ישנן אפשרויות מוסתרות. סמנו את \"אפשרויות מתקדמות\" כדי לצפות בהן."
+#~ msgid "%i items in the playlist"
+#~ msgstr "יש לצאת אם אין עוד פריטים ברשימת ההשמעה."
 
 #, fuzzy
 #~ msgid "close"
@@ -30866,22 +31171,25 @@ msgstr "רשימת מנהל המדיה"
 #~ msgid "Removes the selected bookmarks"
 #~ msgstr "מחיקת כל הסימניות"
 
+#, fuzzy
 #~ msgid "You must select two bookmarks"
-#~ msgstr "עלייך לבחור שתי סימניות"
+#~ msgstr "מחיקת כל הסימניות"
 
 #, fuzzy
 #~ msgid "Playlist item info"
 #~ msgstr "קובצי רשימות השמעה"
 
+#, fuzzy
 #~ msgid "Save Messages As..."
-#~ msgstr "שמירת הודעות בשם..."
+#~ msgstr "הודעות..."
 
+#, fuzzy
 #~ msgid "Open..."
-#~ msgstr "פתח..."
+#~ msgstr "פתיחת קובץ..."
 
 #, fuzzy
 #~ msgid "Stream/Save"
-#~ msgstr "שם התזרים"
+#~ msgstr "הזרמה/שמירה:"
 
 #, fuzzy
 #~ msgid "Customize:"
@@ -30889,7 +31197,7 @@ msgstr "רשימת מנהל המדיה"
 
 #, fuzzy
 #~ msgid "Use an external subtitles file."
-#~ msgstr "שימוש בקובץ כ&תוביות"
+#~ msgstr "השתמש בקובץ כתוביות"
 
 #, fuzzy
 #~ msgid "Advanced Settings..."
@@ -30899,8 +31207,9 @@ msgstr "רשימת מנהל המדיה"
 #~ msgid "File:"
 #~ msgstr "קובץ"
 
+#, fuzzy
 #~ msgid "Disc type"
-#~ msgstr "סוג תקליטור"
+#~ msgstr "תקליטור"
 
 #, fuzzy
 #~ msgid "DVD device to use"
@@ -30922,15 +31231,17 @@ msgstr "רשימת מנהל המדיה"
 #~ msgid "&Add URL..."
 #~ msgstr "הוספת קובץ..."
 
+#, fuzzy
 #~ msgid "&Save Playlist..."
-#~ msgstr "&שמירת רשימת השמעה"
+#~ msgstr "שמור רשימת השמעה..."
 
 #, fuzzy
 #~ msgid "Sort by &Title"
 #~ msgstr "מיון לפי"
 
+#, fuzzy
 #~ msgid "D&elete"
-#~ msgstr "מ&חק"
+#~ msgstr "מחק"
 
 #, fuzzy
 #~ msgid "&Selection"
@@ -30940,34 +31251,41 @@ msgstr "רשימת מנהל המדיה"
 #~ msgid "&View items"
 #~ msgstr "%i פריטים"
 
+#, fuzzy
 #~ msgid "Info"
-#~ msgstr "מידע"
+#~ msgstr "מידע נוסף"
 
+#, fuzzy
 #~ msgid "%i items in playlist"
-#~ msgstr "%i פריטים ברשימת ההשמעה"
+#~ msgstr "פתח רשימת השמעה"
 
+#, fuzzy
 #~ msgid "Playlist is empty"
-#~ msgstr "רשימת ההשמעה ריקה"
+#~ msgstr "ייבוא רשימת השמעה מסוג PLS"
 
 #, fuzzy
 #~ msgid "New node"
 #~ msgstr "ניו אייג'"
 
+#, fuzzy
 #~ msgid "Alt"
-#~ msgstr "Alt"
+#~ msgstr "Alt+"
 
+#, fuzzy
 #~ msgid "Ctrl"
-#~ msgstr "Ctrl"
+#~ msgstr "Ctrl+"
 
 #, fuzzy
 #~ msgid "Stream output MRL"
 #~ msgstr "פלט כשדר זורם"
 
+#, fuzzy
 #~ msgid "Channel name"
 #~ msgstr "שם ערוץ"
 
+#, fuzzy
 #~ msgid "Open file"
-#~ msgstr "פתח קובץ"
+#~ msgstr "פתיחת קובץ"
 
 #, fuzzy
 #~ msgid "VLM stream"
@@ -30977,16 +31295,13 @@ msgstr "רשימת מנהל המדיה"
 #~ msgid "Unable to find playlist"
 #~ msgstr "פתח רשימת השמעה"
 
+#, fuzzy
 #~ msgid "You must choose a file to save to"
-#~ msgstr "עליך לבחור קובץ אליו יישמר המידע"
+#~ msgstr "בחרו את הקובץ בו המידע יישמר"
 
 #, fuzzy
 #~ msgid "Save to file"
 #~ msgstr "שמור קובץ"
-
-#, fuzzy
-#~ msgid "Creates several clones of the image"
-#~ msgstr "שכפול התמונה"
 
 #, fuzzy
 #~ msgid "Cartoon effect"
@@ -30994,7 +31309,7 @@ msgstr "רשימת מנהל המדיה"
 
 #, fuzzy
 #~ msgid "Image inversion"
-#~ msgstr "הפיכת צבעי התמונה"
+#~ msgstr "הפיכת צבעים"
 
 #, fuzzy
 #~ msgid "Wave effect"
@@ -31004,22 +31319,25 @@ msgstr "רשימת מנהל המדיה"
 #~ msgid "Image adjustment"
 #~ msgstr "התאמת התמונה"
 
+#, fuzzy
 #~ msgid "Video Options"
-#~ msgstr "אפשרויות וידאו"
+#~ msgstr "הגדרות וידאו"
 
 #, fuzzy
 #~ msgid "More Information"
 #~ msgstr "פרטים נוספים..."
 
+#, fuzzy
 #~ msgid "Stopped"
-#~ msgstr "נעצר"
+#~ msgstr "עצור"
 
+#, fuzzy
 #~ msgid "Playing"
-#~ msgstr "מנגן"
+#~ msgstr "משמיע כעת"
 
 #, fuzzy
 #~ msgid "Quick &Open File...\tCtrl-O"
-#~ msgstr "פתי&חת קובץ מהירה..."
+#~ msgstr "פתיחת &קובץ..."
 
 #, fuzzy
 #~ msgid "Open &File...\tCtrl-F"
@@ -31049,14 +31367,17 @@ msgstr "רשימת מנהל המדיה"
 #~ msgid "VideoLAN's Website"
 #~ msgstr "האתר של VideoLAN..."
 
+#, fuzzy
 #~ msgid "Previous playlist item"
-#~ msgstr "הפריט הקודם ברשימת ההשמעה"
+#~ msgstr "הפריט הנוכחי ברשימת ההשמעה"
 
+#, fuzzy
 #~ msgid "Play slower"
-#~ msgstr "נגן לאט יותר"
+#~ msgstr "נגינה בלבד"
 
+#, fuzzy
 #~ msgid "Play faster"
-#~ msgstr "נגן מהר יותר"
+#~ msgstr "נגן והפסק"
 
 #, fuzzy
 #~ msgid "Extended &GUI\tCtrl-G"
@@ -31070,15 +31391,17 @@ msgstr "רשימת מנהל המדיה"
 #~ msgid "Preference&s...\tCtrl-S"
 #~ msgstr "העדפות..."
 
+#, fuzzy
 #~ msgid "About %s"
-#~ msgstr "אודות %s"
+#~ msgstr "על אודות"
 
 #, fuzzy
 #~ msgid "Show/Hide Interface"
-#~ msgstr "הסתרת המנשק"
+#~ msgstr "הוספת מנשק"
 
+#, fuzzy
 #~ msgid "Media &Info..."
-#~ msgstr "מידע &מדיה"
+#~ msgstr "פרטי המדיה..."
 
 #, fuzzy
 #~ msgid ""
@@ -31106,20 +31429,23 @@ msgstr "רשימת מנהל המדיה"
 #~ msgid "H264 is a new video codec (useable with MPEG TS and MPEG4)"
 #~ msgstr "פורמט השמע עבור MPEG4 (ניתן לשימוש עם MPEG TS ו-MPEG4)"
 
+#, fuzzy
 #~ msgid ""
 #~ "WMV (Windows Media Video) 7 (useable with MPEG TS, MPEG1, ASF and OGG)"
 #~ msgstr ""
-#~ "WMV (WIndow Media Video) 7 (ניתן לשימוש עם MPEG TS, MPEG1, ASF ו-OGG)"
+#~ "WMV (Windows Media Video) 1 (ניתן לשימוש עם MPEG TS, MPEG1, ASF ו-OGG)"
 
+#, fuzzy
 #~ msgid ""
 #~ "WMV (Windows Media Video) 8 (useable with MPEG TS, MPEG1, ASF and OGG)"
 #~ msgstr ""
-#~ "WMV (WIndow Media Video) 8 (ניתן לשימוש עם MPEG TS, MPEG1, ASF ו-OGG)"
+#~ "WMV (Windows Media Video) 1 (ניתן לשימוש עם MPEG TS, MPEG1, ASF ו-OGG)"
 
+#, fuzzy
 #~ msgid ""
 #~ "WMV (Windows Media Video) 9 (useable with MPEG TS, MPEG1, ASF and OGG)"
 #~ msgstr ""
-#~ "WMV (WIndow Media Video) 9 (ניתן לשימוש עם MPEG TS, MPEG1, ASF ו-OGG)"
+#~ "WMV (Windows Media Video) 1 (ניתן לשימוש עם MPEG TS, MPEG1, ASF ו-OGG)"
 
 #, fuzzy
 #~ msgid "Bookmarks dialog"
@@ -31129,8 +31455,9 @@ msgstr "רשימת מנהל המדיה"
 #~ msgid "Extended GUI"
 #~ msgstr "M3U מורחב"
 
+#, fuzzy
 #~ msgid "Distortion"
-#~ msgstr "עיוות"
+#~ msgstr "כיווניות"
 
 #, fuzzy
 #~ msgid "FFmpeg audio/video decoders/encoders"
@@ -31154,7 +31481,7 @@ msgstr "רשימת מנהל המדיה"
 
 #, fuzzy
 #~ msgid "Advanced Information"
-#~ msgstr "אפשרויות מתקדמות"
+#~ msgstr "פרטי המדיה"
 
 #, fuzzy
 #~ msgid "Interfaces"
@@ -31168,8 +31495,9 @@ msgstr "רשימת מנהל המדיה"
 #~ msgid "About VLC media player..."
 #~ msgstr "אודות נגן המדיה VLC"
 
+#, fuzzy
 #~ msgid "Switch interface"
-#~ msgstr "החלפת ממשק"
+#~ msgstr "מנשק Qt"
 
 #, fuzzy
 #~ msgid "France"
@@ -31191,8 +31519,9 @@ msgstr "רשימת מנהל המדיה"
 #~ msgid "Subtitles preferred language"
 #~ msgstr "שפת הכתוביות"
 
+#, fuzzy
 #~ msgid "Codec Description"
-#~ msgstr "תיאור המקודד/מפענח"
+#~ msgstr "תיאור"
 
 #, fuzzy
 #~ msgid "Video Device Name "
@@ -31210,8 +31539,9 @@ msgstr "רשימת מנהל המדיה"
 #~ msgid "No random"
 #~ msgstr "אקראי"
 
+#, fuzzy
 #~ msgid "Track number/position in set"
-#~ msgstr "מספר רצועת שמע/מיקום ברצף"
+#~ msgstr "רצועה מספר"
 
 #, fuzzy
 #~ msgid "Track number/Position"
@@ -31219,7 +31549,7 @@ msgstr "רשימת מנהל המדיה"
 
 #, fuzzy
 #~ msgid "Ctrl+X"
-#~ msgstr "Ctrl+L"
+#~ msgstr "Ctrl+"
 
 #, fuzzy
 #~ msgid "Alsa Device"
@@ -31235,7 +31565,7 @@ msgstr "רשימת מנהל המדיה"
 
 #, fuzzy
 #~ msgid "Ctrl+Z"
-#~ msgstr "Ctrl+L"
+#~ msgstr "Ctrl+"
 
 #, fuzzy
 #~ msgid "Halve sample rate"
@@ -31247,202 +31577,257 @@ msgstr "רשימת מנהל המדיה"
 
 #, fuzzy
 #~ msgid "Statistics output file"
-#~ msgstr "קובץ פלט"
+#~ msgstr "פלט השמע נכשל"
 
+#, fuzzy
 #~ msgid "General interface setttings"
-#~ msgstr "הגדרות ממשק כלליות"
+#~ msgstr "הגדרות המנשקים הראשיים"
 
+#, fuzzy
 #~ msgid "CDDB Extended Data"
-#~ msgstr "מידע מורחב CDDB"
+#~ msgstr "M3U מורחב"
 
+#, fuzzy
 #~ msgid "CDDB Genre"
-#~ msgstr "ז'אנר CDDB"
+#~ msgstr "שרת CDDB"
 
+#, fuzzy
 #~ msgid "CDDB Title"
-#~ msgstr "כותר CDDB"
+#~ msgstr "כותרת"
 
+#, fuzzy
 #~ msgid "CD-Text Message"
-#~ msgstr "CD-Text: מסר"
+#~ msgstr "הודעות"
 
+#, fuzzy
 #~ msgid "CD-Text Title"
-#~ msgstr "CD-Text: כותר"
+#~ msgstr "כותר הבא"
 
+#, fuzzy
 #~ msgid "ISO-9660 Application ID"
-#~ msgstr "ISO-9660: מזהה אפליקציה"
+#~ msgstr "יישום"
 
+#, fuzzy
 #~ msgid "ISO-9660 Publisher"
-#~ msgstr "ISO-9660: מוציא לאור"
+#~ msgstr "מוציא לאור"
 
+#, fuzzy
 #~ msgid "More info"
 #~ msgstr "מידע נוסף"
 
+#, fuzzy
 #~ msgid "Control interface settings"
-#~ msgstr "הגדרות ממשקי שליטה"
+#~ msgstr "מנשקי שליטה"
 
+#, fuzzy
 #~ msgid "&Shuffle Playlist"
-#~ msgstr "&ערבב רשימת השמעה"
+#~ msgstr "שמור רשימת השמעה"
 
+#, fuzzy
 #~ msgid "Check for updates now !"
-#~ msgstr "חפש עדכונים עכשיו !"
+#~ msgstr "חיפוש עדכונים ל־VLC"
 
+#, fuzzy
 #~ msgid "Height in pixels"
-#~ msgstr "גובה בפיקסלים"
+#~ msgstr "גודל הגופן בפיקסלים"
 
+#, fuzzy
 #~ msgid "Properties"
-#~ msgstr "מאפיינים"
+#~ msgstr "מאפייני גופן"
 
+#, fuzzy
 #~ msgid "file size : "
-#~ msgstr "גודל מלא: "
+#~ msgstr "גודל וידאו"
 
+#, fuzzy
 #~ msgid "Jump 3 seconds backwards"
-#~ msgstr "קפיצה של 3 שניות אחורה"
+#~ msgstr "קפיצה &אחורה"
 
+#, fuzzy
 #~ msgid "Jump 10 seconds backwards"
-#~ msgstr "קפיצה של 10 שניות אחורה"
+#~ msgstr "קפיצה &אחורה"
 
+#, fuzzy
 #~ msgid "Jump 1 minute backwards"
-#~ msgstr "קפיצה של דקה אחורה"
+#~ msgstr "קפיצה &אחורה"
 
+#, fuzzy
 #~ msgid "Jump 5 minutes backwards"
-#~ msgstr "קפיצה של 5 דקות אחורה"
+#~ msgstr "קפיצה &אחורה"
 
+#, fuzzy
 #~ msgid "Jump 3 seconds forward"
-#~ msgstr "קפיצה של 3 שניות קדימה"
+#~ msgstr "&קפיצה קדימה"
 
+#, fuzzy
 #~ msgid "Jump 10 seconds forward"
-#~ msgstr "קפיצה של 10 שניות קדימה"
+#~ msgstr "&קפיצה קדימה"
 
+#, fuzzy
 #~ msgid "Jump 1 minute forward"
-#~ msgstr "קפיצה של דקה קדימה"
+#~ msgstr "&קפיצה קדימה"
 
+#, fuzzy
 #~ msgid "Jump 5 minutes forward"
-#~ msgstr "קפיצה של 5 דקות קדימה"
+#~ msgstr "&קפיצה קדימה"
 
+#, fuzzy
 #~ msgid "Choose subtitles track"
-#~ msgstr "בחירת רצועת כתוביות"
+#~ msgstr "החלפה בין רצועות כתוביות"
 
+#, fuzzy
 #~ msgid "Current version"
-#~ msgstr "גירסה נוכחית"
+#~ msgstr "האפקטי החזותי הנוכחי"
 
+#, fuzzy
 #~ msgid "Your version"
-#~ msgstr "הגירסה שלך"
+#~ msgstr "הפיכת צבעים"
 
+#, fuzzy
 #~ msgid "Click on \"Advanced Options\" to see all options."
-#~ msgstr "לחצו על \"אפשרויות מתקדמות\" כדי לצפות בכל האפשרויות."
+#~ msgstr "ניתן לבחור ב„אפשרויות מתקדמות“ כדי לראות את כל האפשרויות."
 
+#, fuzzy
 #~ msgid "Miscellaneous audio settings and modules"
-#~ msgstr "הגדרות שמע ומודולים אחרות"
+#~ msgstr "הגדרות ומודולי שמע שונים"
 
+#, fuzzy
 #~ msgid "Settings for the audio-only decoders and encoders"
-#~ msgstr "הגדרות למקודדי ומפענחי שמע בלבד"
+#~ msgstr "הגדרות למקודדי ומפענחי שמע בלבד."
 
+#, fuzzy
 #~ msgid "Settings for audio+video and miscellaneous decoders and encoders"
-#~ msgstr "הגדרות עבור מקודדי ומפענחי שמע ווידאו, ומקודדים אחרים."
+#~ msgstr "הגדרות למקודדי ומפענחי שמע בלבד."
 
+#, fuzzy
 #~ msgid "Advanced input settings. Use with care."
-#~ msgstr "הגדרות קלט מתקדמות. יש להשתמש בתשומת לב."
+#~ msgstr "הגדרות מתקדמות. יש להשתמש בזהירות..."
 
-#~ msgid ""
-#~ "From here you can choose to disable some CPU accelerations. You should "
-#~ "probably not touch that."
-#~ msgstr "כאן ניתן לשלוט בהאצת המעבד. לא מומלץ לשנות פה משהו."
-
+#, fuzzy
 #~ msgid "These modules provide network functions to all other parts of VLC"
-#~ msgstr "מודולים המאפשרים פעולות רשת לחלקים אחרים של VLC."
+#~ msgstr "המודולים האלו מספקים פונקציות רשת לכל חלקיו של VLC."
 
+#, fuzzy
 #~ msgid "No help is available for these modules"
-#~ msgstr "לא זמינה עזרה למודולים אלה."
+#~ msgstr "print a list of available modules"
 
+#, fuzzy
 #~ msgid ""
 #~ "These options allow you to configure the interfaces used by VLC.\n"
 #~ "You can select the main interface, additional interface modules, and "
 #~ "define various related options."
 #~ msgstr ""
-#~ "אפשרויות אלה מאפשרות את הגדרת הממשקים של VLC.\n"
-#~ "אפשר לבחור את הממשק הראשי, מודולי ממשק נוספים ולבחור באפשרויות נוספות."
+#~ "האפשרויות הללו מאפשרות לך להגדיר את מנשקי המשתמש בהם נעשה שימוש על ידי "
+#~ "VLC. ניתן לבחור את המנשק הראשי, מודלים של מנשקים נוספים, ולהגדיר מגוון "
+#~ "אפשרויות שונות."
 
+#, fuzzy
 #~ msgid ""
 #~ "This option allows you to select the audio output method used by VLC. The "
 #~ "default behavior is to automatically select the best method available."
 #~ msgstr ""
-#~ "אפשרות זו מאפשרת בחירת שיטת פלט השמע של VLC. כברירת מחדל VLC בוחר את "
-#~ "השיטה הטובה ביותר שזמינה."
+#~ "זוהי שיטת פלט השמע שמשמשת את VLC. התנהגות בררת המחדל היא לבחור אוטומטית "
+#~ "את השיטה הזמינה הטובה ביותר."
 
+#, fuzzy
 #~ msgid ""
 #~ "This option allows you to select the video output method used by VLC. The "
 #~ "default behavior is to automatically select the best method available."
 #~ msgstr ""
-#~ "כאן ניתן לבחור את שיטת פלט הוידאו של VLC. כברירת מחדל VLC בוחר אוטומטית "
-#~ "את השיטה הטובה ביותר שזמינה."
+#~ "זוהי שיטת פלט הווידאו שמשמשת את VLC. התנהגות בררת המחדל היא לבחור "
+#~ "אוטומטית את השיטה הזמינה הטובה ביותר."
 
+#, fuzzy
 #~ msgid "Network interface address"
-#~ msgstr "כתובת ממשק רשת"
+#~ msgstr "האינטראקציה מול הרשת כשלה"
 
+#, fuzzy
 #~ msgid "Choose subtitle language"
-#~ msgstr "בחירת שפת כתוביות"
+#~ msgstr "שפת הכתוביות"
 
+#, fuzzy
 #~ msgid "Select the hotkey to jump 3 seconds backwards."
-#~ msgstr "בחרו את קיצור המקלדת לקפיצה של 3 שניות אחורה"
+#~ msgstr "נא לבחור את מקש הקיצור לביצוע קפיצה ארוכה קדימה."
 
+#, fuzzy
 #~ msgid "Select the hotkey to jump 10 seconds backwards."
-#~ msgstr "בחרו את קיצור המקלדת לקפיצה של 10 שניות אחורה."
+#~ msgstr "נא לבחור את מקש הקיצור לביצוע קפיצה ארוכה קדימה."
 
+#, fuzzy
 #~ msgid "Select the hotkey to jump 1 minute backwards."
-#~ msgstr "בחרו את קיצור המקלדת לקפיצה של דקה אחורה"
+#~ msgstr "נא לבחור את מקש הקיצור שיבצע קפיצה בינונית אחורה."
 
+#, fuzzy
 #~ msgid "Select the hotkey to jump 5 minutes backwards."
-#~ msgstr "בחרו את קיצור המקלדת לקפיצה של 5 דקות אחורה."
+#~ msgstr "נא לבחור את מקש הקיצור שיבצע קפיצה בינונית אחורה."
 
+#, fuzzy
 #~ msgid "Select the hotkey to jump 3 seconds forward."
-#~ msgstr "בחרו את קיצור המקלדת לקפיצה של 3 שניות קדימה."
+#~ msgstr "נא לבחור את מקש הקיצור לביצוע קפיצה ארוכה קדימה."
 
+#, fuzzy
 #~ msgid "Select the hotkey to jump 10 seconds forward."
-#~ msgstr "בחרו את קיצור המקלדת לקפיצה של 10 שניות קדימה."
+#~ msgstr "נא לבחור את מקש הקיצור לביצוע קפיצה ארוכה קדימה."
 
+#, fuzzy
 #~ msgid "Select the hotkey to jump 1 minute forward."
-#~ msgstr "בחרו את קיצור המקלדת לקפיצה של דקה קדימה."
+#~ msgstr "נא לבחור את מקש הקיצור שיבצע קפיצה בינונית אחורה."
 
+#, fuzzy
 #~ msgid "Select the hotkey to jump 5 minutes forward."
-#~ msgstr "בחרו את קיצור המקלדת לקפיצה של 5 דקות קדימה."
+#~ msgstr "נא לבחור את מקש הקיצור שיבצע קפיצה בינונית אחורה."
 
+#, fuzzy
 #~ msgid "Select the key to turn off audio volume."
-#~ msgstr "בחרו את קיצור המקלדת להשתקת הקול."
+#~ msgstr "נא לבחור את קיצור המקלדת להגברת עצמת הקול."
 
+#, fuzzy
 #~ msgid "Advanced output:"
-#~ msgstr "פלט מתקדם:"
+#~ msgstr "לחצנים מתקדמים"
 
+#, fuzzy
 #~ msgid "Output Options"
-#~ msgstr "אפשרויות פלט"
+#~ msgstr "עריכת האפשרויות"
 
+#, fuzzy
 #~ msgid "1 item in playlist"
-#~ msgstr "פריט אחד ברשימת ההשמעה"
+#~ msgstr "פתח רשימת השמעה"
 
+#, fuzzy
 #~ msgid "Item Info"
-#~ msgstr "מידע פריט"
+#~ msgstr "מידע נוסף"
 
+#, fuzzy
 #~ msgid "Sorted by artist"
-#~ msgstr "ממוין לפי אמן"
+#~ msgstr "מיון לפי"
 
+#, fuzzy
 #~ msgid "Opacity, 0..255"
-#~ msgstr "אטימות, 0-225"
+#~ msgstr "אטימות"
 
+#, fuzzy
 #~ msgid "List of video output modules"
-#~ msgstr "רשימת מודולי פלט וידאו"
+#~ msgstr "מודול פלט הווידאו"
 
+#, fuzzy
 #~ msgid "Horizontal border width"
-#~ msgstr "רוחב הגבול האופקי"
+#~ msgstr "עובי המסגרת"
 
+#, fuzzy
 #~ msgid "Delete &all"
-#~ msgstr "מחק הכל"
+#~ msgstr "מחק"
 
+#, fuzzy
 #~ msgid "All files"
 #~ msgstr "כל הקבצים"
 
+#, fuzzy
 #~ msgid "A_udio"
 #~ msgstr "שמע"
 
+#, fuzzy
 #~ msgid "Open file..."
-#~ msgstr "פתח קובץ..."
+#~ msgstr "פתיחת קובץ..."
 
 #, fuzzy
 #~ msgid "Extra Audio File"
@@ -31508,29 +31893,18 @@ msgstr "רשימת מנהל המדיה"
 #~ msgid "Right-Bottom"
 #~ msgstr "למטה"
 
+#, fuzzy
 #~ msgid "no items in playlist"
-#~ msgstr "אין פריטים ברשימת ההשמעה"
-
-#~ msgid "Open Subtitles"
-#~ msgstr "פתח כתוביות"
+#~ msgstr "(לא התנגנו פריטים)"
 
 #, fuzzy
-#~ msgid "left"
-#~ msgstr "שמאל"
-
-#~ msgid "UDP/RTP"
-#~ msgstr "UDP/RTP"
+#~ msgid "Open Subtitles"
+#~ msgstr "פתיחת כתוביות"
 
 #, fuzzy
 #~ msgid "spatializer"
-#~ msgstr "אקווילייזר"
+#~ msgstr "שגיאה:"
 
 #, fuzzy
 #~ msgid "No DVD Menus"
-#~ msgstr "השתמש בתפריטי DVD"
-
-#, fuzzy
-#~ msgid ""
-#~ "This allows you to specify a name for the session, that will be announced "
-#~ "if you choose to use SAP."
-#~ msgstr "מאפשר לשנות את סיסמת המשתמש שתינתן בהתחברות."
+#~ msgstr "תפריטי ה־DVD"
