@@ -22,8 +22,8 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-09-08 20:08+0200\n"
-"PO-Revision-Date: 2013-09-11 09:04+0000\n"
-"Last-Translator: Mario Siegmann <mario_siegmann@web.de>\n"
+"PO-Revision-Date: 2013-09-11 14:49+0000\n"
+"Last-Translator: Christoph Miebach <christoph.miebach@web.de>\n"
 "Language-Team: German (http://www.transifex.com/projects/p/vlc-trans/"
 "language/de/)\n"
 "Language: de\n"
@@ -8489,7 +8489,7 @@ msgstr "Timecode"
 
 #: modules/access/timecode.c:44
 msgid "Time code subpicture elementary stream generator"
-msgstr ""
+msgstr "Elementarstream-Generator des Zeitcode-Unterbildes"
 
 #: modules/access/udp.c:53
 msgid "UDP"
@@ -11940,6 +11940,9 @@ msgid ""
 "Allow the use of the Intel Media SDK software implementation of the codecs "
 "if no QuickSync Video hardware acceleration is present on the system."
 msgstr ""
+"Die Verwendung der Intel Media SDK Software-Implementierung der Codecs "
+"erlauben, wenn keine QuickSync Video-Hardware-Beschleunigung auf dem System "
+"vorhanden ist."
 
 #: modules/codec/qsv.c:61
 msgid "Codec Profile"
@@ -11951,6 +11954,9 @@ msgid ""
 "the correct profile from other sources, such as resolution and bitrate. E.g. "
 "'high'"
 msgstr ""
+"Verwenden Sie ausdrücklich ein Codec-Profil. Wenn Sie dies nicht tun, wird "
+"der Codec das richtige Profil aus anderen Quellen, wie z. B. der Auflösung "
+"und der Bitrate ermitteln. z. B. 'hoch'"
 
 #: modules/codec/qsv.c:67
 msgid "Codec Level"
@@ -11962,10 +11968,14 @@ msgid ""
 "the correct profile from other sources, such as resolution and bitrate. E.g. "
 "'4.2' for mpeg4-part10 or 'low' for mpeg2"
 msgstr ""
+"Verwenden Sie ausdrücklich ein Codec-Level. Wenn Sie dies nicht tun, wird "
+"der Codec das richtige Profil aus anderen Quellen, wie z. B. der Auflösung "
+"und der Bitrate ermitteln. z. B. '4.2' für mpeg4-part10 oder 'niedrig' für "
+"mpeg2"
 
 #: modules/codec/qsv.c:73
 msgid "Group of Picture size"
-msgstr ""
+msgstr "Referenzentfernung  der Gruppe von Bildern"
 
 #: modules/codec/qsv.c:75
 msgid ""
@@ -11973,16 +11983,22 @@ msgid ""
 "GopPicSize=0, then the GOP size is unspecified. If GopPicSize=1, only I-"
 "frames are used."
 msgstr ""
+"Anzahl der Bilder in der aktuellen GOP (Gruppe von Bildern); wenn "
+"GopPicSize=0, dann ist die GOP-Größe nicht angegeben. Wenn GopPicSize=1 "
+"werden nur I-Frames verwendet."
 
 #: modules/codec/qsv.c:79
 msgid "Group of Picture Reference Distance"
-msgstr ""
+msgstr "Referenzentfernung der Gruppe von Bildern"
 
 #: modules/codec/qsv.c:81
 msgid ""
 "Distance between I- or P- key frames; if it is zero, the GOP structure is "
 "unspecified. Note: If GopRefDist = 1, there are no B- frames used. "
 msgstr ""
+"Entfernung zwischen I- oder P-Keyframes, wenn diese gleich Null ist, ist die "
+"GOP-Struktur nicht angegeben. Hinweis: Wenn GopRefDist=1, werden keine B-"
+"Frames verwendet."
 
 #: modules/codec/qsv.c:85
 msgid "Target Usage"
@@ -11993,6 +12009,9 @@ msgid ""
 "The target usage allow to choose between different trade-offs between "
 "quality and speed. Allowed values are : 'speed', 'balanced' and 'quality'."
 msgstr ""
+"Das Verwendungsziel ermöglicht es, zwischen verschiedenen Verhältnissen von "
+"Qualität und Geschwindigkeit zu wählen. Zulässige Werte sind: "
+"'Geschwindigkeit', 'ausgewogen' und 'Qualität'."
 
 #: modules/codec/qsv.c:90
 msgid "IDR interval"
@@ -12007,16 +12026,25 @@ msgid ""
 "the sequence header before every Nth I-frame. If IdrInterval=0 (default), "
 "SDK inserts the sequence header once at the beginning of the stream. "
 msgstr ""
+"Für H.264, definiert IdrInterval den Intervall des IDR-Frame in Bezug auf "
+"die I-Frames; wenn IdrInterval=0, dann wird jedes I-Frame ein IDR-Frame. "
+"Wenn IdrInterval=1, dann wird jedes andere I-Frame ein IDR-Frame, usw. Für "
+"MPEG2, definiert IdrInterval den Intervall des Sequenz-Headers in Bezug auf "
+"die I-Frames. Wenn IdrInterval=N, fügt das SDK den Sequenz-Header vor jedem "
+"N-ten I-Frame ein. Wenn IdrInterval=0 (standardmäßig), fügt das SDK den "
+"Sequenz Header einmal am Anfang des Streams ein."
 
 #: modules/codec/qsv.c:100
 msgid "Rate Control Method"
-msgstr ""
+msgstr "Ratensteuerverfahren"
 
 #: modules/codec/qsv.c:102
 msgid ""
 "The rate control method to use when encoding. Can be one of 'crb', 'vbr', "
 "'qp', 'avbr'. 'qp' mode isn't supported for mpeg2"
 msgstr ""
+"Das verwendete Ratensteuerverfahren während. Kann eine von 'crb', 'vbr', "
+"'qp', 'avbr' sein. Der 'qp'-Modus wird nicht für mpeg2 unterstützt"
 
 #: modules/codec/qsv.c:105
 msgid "Quantization parameter"
@@ -12078,10 +12106,13 @@ msgid ""
 "method. If not set, this parameter. is computed from other sources such as "
 "bitrate, profile, level, etc."
 msgstr ""
+"Definiert die maximale Bitrate in Kpbs (1000 Bit / s) für das VBR-"
+"Ratensteuerverfahren. Falls nicht gesetzt, wird dieser Parameter aus anderen "
+"Quellen errechnet, wie Bitrate, Profil, Level, usw."
 
 #: modules/codec/qsv.c:127
 msgid "Accuracy of RateControl"
-msgstr ""
+msgstr "Genauigkeit des Ratensteuerverfahrens"
 
 #: modules/codec/qsv.c:128
 msgid ""
@@ -12090,16 +12121,24 @@ msgid ""
 "880 kpbs and under  730 kpbs. The targeted accuracy is only reached after a "
 "certained  convergence period. See the convergence parameter"
 msgstr ""
+"Die Toleranz, in Prozent der 'avbr'-Methode (Durchschnittswert der variablen "
+"Bitrate), z. B. 10 mit einer Bitrate von 800 kbps bedeutet, dass der Encoder "
+"versucht, unter 880 kbps und über 730 kbps zu bleiben. Die Zielgenauigkeit "
+"wird erst nach einem gewissen Konvergenzzeitraum erreicht. Siehe "
+"Konvergenzparameter."
 
 #: modules/codec/qsv.c:134
 msgid "Convergence time of 'avbr' RateControl"
-msgstr ""
+msgstr "Konvergenzzeitraum des 'avbr'-Ratensteuerverfahrens"
 
 #: modules/codec/qsv.c:135
 msgid ""
 "Number of 100 frames before the 'avbr' rate control method reaches the "
 "requested bitrate with the requested accuracy. See the accuracy parameter. "
 msgstr ""
+"Anzahl der 100 Frames, bevor das 'avbr'-Ratensteuerverfahren die gewünschte "
+"Bitrate mit der gewünschten Genauigkeit erreicht. Siehe "
+"Genauigkeitsparameter."
 
 #: modules/codec/qsv.c:139
 msgid "Number of slices per frame"
@@ -17883,6 +17922,11 @@ msgid ""
 "or 'Capture' for Input Devices such as microphones or cameras, the current "
 "screen or TV streams if the EyeTV application is installed."
 msgstr ""
+"4 Tabs um die verschieden Medieneingänge zu wählen. Wählen Sie 'Datei' für "
+"Dateien, 'Disc' für optische Medien wie DVDs, Audio-CDs oder Blu-rays, "
+"'Network' für Netzwerk-Streams oder 'Capture' für Eingabegeräte wie "
+"Mikrofone oder Kameras, den aktuellen Bildschirm oder TV-Streams, wenn die "
+"EyeTV Anwendung installiert ist."
 
 #: modules/gui/macosx/open.m:134 modules/gui/macosx/open.m:494
 #: modules/gui/macosx/open.m:599
@@ -21010,6 +21054,17 @@ msgid ""
 "entities. Therefore the <i>VLC</i> developers require your express consent "
 "for the media player to access the Internet automatically.</p>\n"
 msgstr ""
+"<p>Um Ihre Privatsphäre zu schützen, wird der <i>VLC media player</i> "
+"<b>keine</b> persönliche Daten sammeln oder sie an Dritte weitergeben, auch "
+"nicht in anonymisierter Form.</p>\n"
+"<p>Dennoch ist <i>VLC</i> in der Lage, automatisch Informationen über die "
+"Medien in Ihrer Wiedergabeliste über internetbasierte Dienste von "
+"Drittanbietern abzufragen. Das umfasst Covergrafiken, Titelnamen, Urheber "
+"und andere Meta-Daten.</p>\n"
+"Dies kann zur einer Identifizierung einiger Ihrer Mediendateien bei "
+"Unternehmen von Drittanbietern führen.\n"
+"Deshalb benötigen die Entwickler von <i>VLC</i> Ihre ausdrückliche "
+"Zustimmung für den automatischen Zugriff auf das Internet.</p>\n"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:91
 msgid "Network Access Policy"
@@ -22485,6 +22540,13 @@ msgid ""
 "\n"
 "If in doubt, abort now.\n"
 msgstr ""
+"Sie haben versucht, %s zu erreichen. Doch das vom Server bereitgestellte "
+"Sicherheitszertifikat ist unbekannt und konnte von keiner vertrauenswürdigen "
+"Zertifizierungsstelle authentifiziert werden. Dieses Problem könnte durch "
+"einen Konfigurationsfehler oder dem Versuch, Ihre Sicherheit und Ihre "
+"Privatsphäre zu verletzen, verursacht werden sein.\n"
+"\n"
+"Wenn Sie Zweifel haben, brechen Sie jetzt ab.\n"
 
 #: modules/misc/gnutls.c:279
 #, c-format
@@ -22496,6 +22558,13 @@ msgid ""
 "\n"
 "If in doubt, abort now.\n"
 msgstr ""
+"Sie haben versucht, %s zu erreichen. Doch das vom Server bereitgestellte "
+"Sicherheitszertifikat hat sich seit dem letzten Besuch geändert und konnte "
+"von keiner vertrauenswürdigen Zertifizierungsstelle authentifiziert werden. "
+"Dieses Problem könnte durch einen Konfigurationsfehler oder dem Versuch, "
+"Ihre Sicherheit und Ihre Privatsphäre zu verletzen, verursacht werden sein.\n"
+"\n"
+"Wenn Sie Zweifel haben, brechen Sie jetzt ab.\n"
 
 #: modules/misc/gnutls.c:294 modules/misc/gnutls.c:311
 msgid "Insecure site"
@@ -22517,6 +22586,10 @@ msgid ""
 "\n"
 "If in doubt, abort now.\n"
 msgstr ""
+"Dieses Zertifikat wird bereitgestellt von %s:\n"
+"%s\n"
+"\n"
+"Wenn Sie Zweifel haben, brechen Sie jetzt ab.\n"
 
 #: modules/misc/gnutls.c:314
 msgid "Accept 24 hours"
@@ -26976,6 +27049,7 @@ msgstr "Spielmodus"
 #: modules/video_filter/puzzle.c:56
 msgid "Select game mode variation from jigsaw puzzle to sliding puzzle."
 msgstr ""
+"Wählen Sie einen Spielmodus von Klassischen Puzzle bis Schiebepuzzle aus."
 
 #: modules/video_filter/puzzle.c:57
 msgid "Border"
@@ -26983,7 +27057,7 @@ msgstr "Rand"
 
 #: modules/video_filter/puzzle.c:58
 msgid "Unshuffled Border width."
-msgstr ""
+msgstr "Nicht gemischte Randbreite."
 
 #: modules/video_filter/puzzle.c:59
 msgid "Small preview"
@@ -26999,15 +27073,15 @@ msgstr "Größe der kleinen Vorschau"
 
 #: modules/video_filter/puzzle.c:62
 msgid "Show small preview size (percent of source)."
-msgstr ""
+msgstr "Größe der kleinen Vorschau anzeigen (in Prozent der Quelle)."
 
 #: modules/video_filter/puzzle.c:63
 msgid "Piece edge shape size"
-msgstr ""
+msgstr "Formgröße einer Kante des Puzzleteils"
 
 #: modules/video_filter/puzzle.c:64
 msgid "Size of the curve along the piece's edge"
-msgstr ""
+msgstr "Größe der Kurve entlang einer Kante des Puzzleteils"
 
 #: modules/video_filter/puzzle.c:65
 msgid "Auto shuffle"
@@ -27015,7 +27089,7 @@ msgstr "Automatisch mischen"
 
 #: modules/video_filter/puzzle.c:66
 msgid "Auto shuffle delay during game"
-msgstr ""
+msgstr "Automatische Verzögerung des Mischens während des Spiels"
 
 #: modules/video_filter/puzzle.c:67
 msgid "Auto solve"
@@ -27023,7 +27097,7 @@ msgstr "Automatisch lösen"
 
 #: modules/video_filter/puzzle.c:68
 msgid "Auto solve delay during game"
-msgstr ""
+msgstr "Automatische Verzögerung der Auflösung während des Spiels"
 
 #: modules/video_filter/puzzle.c:69
 msgid "Rotation"
@@ -27035,7 +27109,7 @@ msgstr "Drehparameter: keine;180;90-270;spiegeln"
 
 #: modules/video_filter/puzzle.c:73
 msgid "jigsaw puzzle"
-msgstr "Puzzle"
+msgstr "Klassische Puzzle"
 
 #: modules/video_filter/puzzle.c:73
 msgid "sliding puzzle"
@@ -27043,11 +27117,11 @@ msgstr "Schiebepuzzle"
 
 #: modules/video_filter/puzzle.c:73
 msgid "swap puzzle"
-msgstr "Puzzle tauschen"
+msgstr "Tauschpuzzle"
 
 #: modules/video_filter/puzzle.c:73
 msgid "exchange puzzle"
-msgstr "Puzzle wechseln"
+msgstr "Wechselpuzzle"
 
 #: modules/video_filter/puzzle.c:75
 msgid "0"
