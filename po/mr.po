@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the VLC package.
 #
 # Translators:
+# akshaymuley <akshaymuley@gmail.com>, 2013
 # Rajnikant Kumbhar <rajnikant.kumbhar@gmail.com>, 2012
 # Suraj Kawade <suraj.kawade@gmail.com>, 2013
 msgid ""
@@ -10,8 +11,8 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-09-08 20:08+0200\n"
-"PO-Revision-Date: 2013-08-13 05:08+0000\n"
-"Last-Translator: suraj.kawade\n"
+"PO-Revision-Date: 2013-09-09 08:20+0000\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Marathi (http://www.transifex.com/projects/p/vlc-trans/"
 "language/mr/)\n"
 "Language: mr\n"
@@ -101,29 +102,29 @@ msgstr "सामान्य ध्वनी सेटिंग"
 #: include/vlc_config_cat.h:58 include/vlc_config_cat.h:80
 #: modules/gui/qt4/ui/profiles.h:734 modules/gui/qt4/ui/profiles.h:744
 msgid "Filters"
-msgstr "फिल्टर"
+msgstr "फिल्टर्स"
 
 #: include/vlc_config_cat.h:59
 msgid "Audio filters are used to process the audio stream."
-msgstr "संगीत निवड संगीत स्ट्रीम मध्ये वापरतात."
+msgstr "ध्वनी फिल्टर्स ध्वनी स्ट्रीमची प्रक्रिया करण्यासाठी वापरतात."
 
 #: include/vlc_config_cat.h:61 src/audio_output/output.c:217
 #: modules/gui/macosx/MainMenu.m:386 modules/gui/macosx/MainMenu.m:387
 msgid "Visualizations"
-msgstr "चित्ररचना"
+msgstr "व्हिज्युअलायझेशन्स"
 
 #: include/vlc_config_cat.h:62 src/audio_output/output.c:284
 #: src/libvlc-module.c:197
 msgid "Audio visualizations"
-msgstr "ध्वनी चित्ररचना"
+msgstr "ध्वनी व्हिज्युअलायझेशन्स"
 
 #: include/vlc_config_cat.h:64 include/vlc_config_cat.h:76
 msgid "Output modules"
-msgstr "प्रदान साधने"
+msgstr "आउटपुट मोड्यूल्स"
 
 #: include/vlc_config_cat.h:65
 msgid "General settings for audio output modules."
-msgstr "प्रदान साधनांसाठी सामान्य सेटिंग"
+msgstr "आउटपुट मोड्यूल्ससाठी सामान्य सेटिंग."
 
 #: include/vlc_config_cat.h:67 src/libvlc-module.c:1962
 #: modules/gui/macosx/VideoEffects.m:85
@@ -133,7 +134,7 @@ msgstr "संकीर्ण"
 
 #: include/vlc_config_cat.h:68
 msgid "Miscellaneous audio settings and modules."
-msgstr "संकीर्ण ध्वनी सेटिंग व साधने."
+msgstr "संकीर्ण ध्वनी सेटिंग व मोड्यूल्स."
 
 #: include/vlc_config_cat.h:71 src/input/es_out.c:2869 src/input/es_out.c:2951
 #: src/libvlc-module.c:1510 modules/access/imem.c:64
@@ -157,11 +158,11 @@ msgstr "चित्रफीत सेटिंग"
 
 #: include/vlc_config_cat.h:74
 msgid "General video settings"
-msgstr "सामान्य चित्रफीत सेटिंग "
+msgstr "सामान्य चित्रफीत सेटिंग"
 
 #: include/vlc_config_cat.h:78
 msgid "Choose your preferred video output and configure it here."
-msgstr "तुमच्या पसंतीचे चित्रफित प्रदान निवडा आणि येथे बदला."
+msgstr "तुमच्या पसंतीचे चित्रफित आउटपुट निवडा आणि येथे संरचीत करा."
 
 #: include/vlc_config_cat.h:82
 msgid "Video filters are used to process the video stream."
@@ -193,6 +194,8 @@ msgid ""
 "Settings related to the various access methods. Common settings you may want "
 "to alter are HTTP proxy or caching settings."
 msgstr ""
+"वापर पद्धती संबंधित सेटिंग्ज. सामान्य सेटिंग्ज ज्या आपण बदलू इच्छित असाल , जसे कि HTTP "
+"प्रॉक्सी किंवा कॅशिंग सेटिंग्ज."
 
 #: include/vlc_config_cat.h:103
 msgid "Stream filters"
@@ -210,7 +213,7 @@ msgstr "Demuxers"
 
 #: include/vlc_config_cat.h:109
 msgid "Demuxers are used to separate audio and video streams."
-msgstr ""
+msgstr "Demuxers हे ऑडिओ आणि व्हिडिओ धारावाहिक वेगळे करण्यासाठी वापरले जातात."
 
 #: include/vlc_config_cat.h:111
 msgid "Video codecs"
@@ -258,7 +261,7 @@ msgstr ""
 
 #: include/vlc_config_cat.h:133
 msgid "General stream output settings"
-msgstr "सामान्य स्ट्रीम प्रदान सेटिंग"
+msgstr "सामान्य स्ट्रीम आउटपुट सेटिंग"
 
 #: include/vlc_config_cat.h:135
 msgid "Muxers"
@@ -274,7 +277,7 @@ msgstr ""
 
 #: include/vlc_config_cat.h:143
 msgid "Access output"
-msgstr "प्रवेश प्रदान "
+msgstr "प्रवेश आउटपुट "
 
 #: include/vlc_config_cat.h:145
 msgid ""
@@ -286,7 +289,7 @@ msgstr ""
 
 #: include/vlc_config_cat.h:150
 msgid "Packetizers"
-msgstr "पेकतायजर"
+msgstr "पॅकेटायझर"
 
 #: include/vlc_config_cat.h:152
 msgid ""
@@ -313,7 +316,7 @@ msgstr "VOD"
 
 #: include/vlc_config_cat.h:165
 msgid "VLC's implementation of Video On Demand"
-msgstr ""
+msgstr "VLC चे मागणीनुसार व्हिडिओ साठीचे अवलंबन."
 
 #: include/vlc_config_cat.h:169 src/libvlc-module.c:2002
 #: src/playlist/engine.c:256 modules/demux/playlist/playlist.c:64
@@ -371,6 +374,8 @@ msgstr ""
 #: include/vlc_config_cat.h:196
 msgid "These are general settings for video/audio/subtitle encoding modules."
 msgstr ""
+"या ऑडिओ / व्हिडिओ / उपशीर्षक एन्कोडिंग मोड्यूल्स साठी वापरात येणार्या सामान्य सेटिंग्ज "
+"आहेत."
 
 #: include/vlc_config_cat.h:199
 msgid "Dialog providers can be configured here."
@@ -395,7 +400,7 @@ msgstr "फाईल उघडा..."
 
 #: include/vlc_intf_strings.h:47
 msgid "&Advanced Open..."
-msgstr "प्रगतपणे उघडा..."
+msgstr "प्रगत उघडा..."
 
 #: include/vlc_intf_strings.h:48
 msgid "Open D&irectory..."
@@ -407,7 +412,7 @@ msgstr "फोल्डर उघडा..."
 
 #: include/vlc_intf_strings.h:50
 msgid "Select one or more files to open"
-msgstr "एक किंव्हा जास्त फाईल निवडा"
+msgstr "उघडण्यासाठी एक किंव्हा जास्त फाईल निवडा"
 
 #: include/vlc_intf_strings.h:51
 msgid "Select Directory"
@@ -419,7 +424,7 @@ msgstr "फोल्डर निवडा"
 
 #: include/vlc_intf_strings.h:55
 msgid "Media &Information"
-msgstr "मेडिया माहिती "
+msgstr "मीडियाबद्दल माहिती "
 
 #: include/vlc_intf_strings.h:56
 msgid "&Codec Information"
@@ -481,7 +486,7 @@ msgstr "संचयन फोल्डर दाखवा..."
 
 #: include/vlc_intf_strings.h:72
 msgid "Stream..."
-msgstr "स्ट्रीम..."
+msgstr "स्ट्रीम करा..."
 
 #: include/vlc_intf_strings.h:73
 msgid "Save..."
@@ -490,12 +495,12 @@ msgstr "जतन करा..."
 #: include/vlc_intf_strings.h:77 modules/gui/macosx/CoreInteraction.m:404
 #: modules/gui/macosx/MainMenu.m:363 modules/gui/macosx/MainMenu.m:1463
 msgid "Repeat All"
-msgstr "सर्व पुन्हा करा"
+msgstr "सर्वांची पुनरावृत्ती करा"
 
 #: include/vlc_intf_strings.h:78 modules/gui/macosx/CoreInteraction.m:424
 #: modules/gui/macosx/MainMenu.m:362 modules/gui/macosx/MainMenu.m:1458
 msgid "Repeat One"
-msgstr "एक पुन्हा करा"
+msgstr "एकाची पुनरावृत्ती करा"
 
 #: include/vlc_intf_strings.h:79 src/libvlc-module.c:1398
 #: modules/gui/macosx/MainMenu.m:361 modules/gui/macosx/MainMenu.m:1453
@@ -1175,12 +1180,12 @@ msgstr "तपशील"
 #: src/input/es_out.c:2910 modules/gui/macosx/ConvertAndSave.m:189
 #: modules/gui/macosx/output.m:167 modules/gui/qt4/ui/profiles.h:740
 msgid "Channels"
-msgstr "वाहिनी"
+msgstr "वाहिन्या"
 
 #: src/input/es_out.c:2915 modules/access/alsa.c:39 modules/access/imem.c:75
 #: modules/audio_output/amem.c:45 modules/codec/fluidsynth.c:62
 msgid "Sample rate"
-msgstr "सम्पल रेट"
+msgstr "सँपल दर"
 
 #: src/input/es_out.c:2915
 #, c-format
@@ -1189,7 +1194,7 @@ msgstr "%u Hz"
 
 #: src/input/es_out.c:2925
 msgid "Bits per sample"
-msgstr "बिट्स पर संपल "
+msgstr "बिट्स प्रति सँपल "
 
 #: src/input/es_out.c:2930 modules/access_output/shout.c:92
 #: modules/demux/playlist/shoutcast.c:325
@@ -1197,7 +1202,7 @@ msgstr "बिट्स पर संपल "
 #: modules/gui/macosx/ConvertAndSave.m:188 modules/gui/qt4/ui/profiles.h:713
 #: modules/gui/qt4/ui/profiles.h:739
 msgid "Bitrate"
-msgstr "बीट रेट"
+msgstr "बीटरेट"
 
 #: src/input/es_out.c:2930
 #, c-format
@@ -1206,7 +1211,7 @@ msgstr "%u kb/s"
 
 #: src/input/es_out.c:2942
 msgid "Track replay gain"
-msgstr "गाणे रिप्ले गेन"
+msgstr "ट्रॅक रिप्ले गेन"
 
 #: src/input/es_out.c:2944
 msgid "Album replay gain"
@@ -1220,11 +1225,11 @@ msgstr "%.2f dB"
 #: src/input/es_out.c:2954 modules/gui/macosx/ConvertAndSave.m:180
 #: modules/gui/qt4/ui/profiles.h:733
 msgid "Resolution"
-msgstr "रेझोलुशन"
+msgstr "रिझोलुशन"
 
 #: src/input/es_out.c:2959
 msgid "Display resolution"
-msgstr "डिस्प्ले रेझोलुशन"
+msgstr "डिस्प्ले रिझोलुशन"
 
 #: src/input/es_out.c:2969 src/input/es_out.c:2972 modules/access/imem.c:93
 #: modules/access/rdp.c:53 modules/access/screen/screen.c:42
@@ -1232,15 +1237,15 @@ msgstr "डिस्प्ले रेझोलुशन"
 #: modules/access/timecode.c:34 modules/access/vdr.c:82
 #: modules/access/vnc.c:59 modules/demux/image.c:66
 msgid "Frame rate"
-msgstr "फ्रेम रेट"
+msgstr "फ्रेम दर"
 
 #: src/input/es_out.c:2980
 msgid "Decoded format"
-msgstr "डीकोडेड फोरमट"
+msgstr "डीकोडे केलेले स्वरूप"
 
 #: src/input/input.c:2426
 msgid "Your input can't be opened"
-msgstr "तुमचे आदान उघडू शकत नाही"
+msgstr "आपले इनपुट उघडू शकत नाही"
 
 #: src/input/input.c:2427
 #, c-format
@@ -26879,9 +26884,8 @@ msgid "Default caching policy"
 msgstr "मूळ केशिंग धोरण"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:514
-#, fuzzy
 msgid "Menus language:"
-msgstr "संगीत भाषा"
+msgstr "मेनू भाषा"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:515
 msgid "Look and feel"
@@ -27513,11 +27517,11 @@ msgstr "मेडिया नियंत्रक लिस्ट"
 
 #, fuzzy
 #~ msgid "Chroma modules settings"
-#~ msgstr "सामान्य चित्रफीत सेटिंग "
+#~ msgstr "सामान्य चित्रफीत सेटिंग"
 
 #, fuzzy
 #~ msgid "Packetizer modules settings"
-#~ msgstr "सामान्य चित्रफीत सेटिंग "
+#~ msgstr "सामान्य चित्रफीत सेटिंग"
 
 #, fuzzy
 #~ msgid "Encoders settings"
@@ -27525,7 +27529,7 @@ msgstr "मेडिया नियंत्रक लिस्ट"
 
 #, fuzzy
 #~ msgid "Dialog providers settings"
-#~ msgstr "सामान्य चित्रफीत सेटिंग "
+#~ msgstr "सामान्य चित्रफीत सेटिंग"
 
 #, fuzzy
 #~ msgid "Subtitle demuxer settings"
@@ -27561,7 +27565,7 @@ msgstr "मेडिया नियंत्रक लिस्ट"
 
 #, fuzzy
 #~ msgid "Advanced Open..."
-#~ msgstr "प्रगतपणे उघडा..."
+#~ msgstr "प्रगत उघडा..."
 
 #, fuzzy
 #~ msgid "Open Play&list..."
@@ -27601,7 +27605,7 @@ msgstr "मेडिया नियंत्रक लिस्ट"
 
 #, fuzzy
 #~ msgid "Audio visualizations "
-#~ msgstr "ध्वनी चित्ररचना"
+#~ msgstr "ध्वनी व्हिज्युअलायझेशन्स"
 
 #, fuzzy
 #~ msgid "Subtitles track"
@@ -27653,7 +27657,7 @@ msgstr "मेडिया नियंत्रक लिस्ट"
 
 #, fuzzy
 #~ msgid "Framerate"
-#~ msgstr "फ्रेम रेट"
+#~ msgstr "फ्रेम दर"
 
 #, fuzzy
 #~ msgid "Audio volume (0-65535)."
@@ -27661,7 +27665,7 @@ msgstr "मेडिया नियंत्रक लिस्ट"
 
 #, fuzzy
 #~ msgid "Channel"
-#~ msgstr "वाहिनी"
+#~ msgstr "वाहिन्या"
 
 #, fuzzy
 #~ msgid "PVR"
@@ -27745,7 +27749,7 @@ msgstr "मेडिया नियंत्रक लिस्ट"
 
 #, fuzzy
 #~ msgid "General Video Settings"
-#~ msgstr "सामान्य चित्रफीत सेटिंग "
+#~ msgstr "सामान्य चित्रफीत सेटिंग"
 
 #, fuzzy
 #~ msgid "Subtitles & OSD"
