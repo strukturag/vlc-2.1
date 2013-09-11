@@ -8,14 +8,16 @@
 # FranzMari <franzmari@chakra-project.it>, 2013
 # ghina90 <ghina8@gmail.com>, 2013
 # Lorenzo Porta, 2013
+# Vindex17 <vindex17@outlook.it>, 2013
 # Marco91, 2013
+# polxmod <paolo.velati@gmail.com>, 2013
 # Vincenzo Reale <smart2128@baslug.org>, 2006,2008-2013
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-09-08 20:08+0200\n"
-"PO-Revision-Date: 2013-08-25 14:03+0000\n"
+"PO-Revision-Date: 2013-09-10 14:17+0000\n"
 "Last-Translator: Marco91\n"
 "Language-Team: Italian (http://www.transifex.com/projects/p/vlc-trans/"
 "language/it/)\n"
@@ -2697,6 +2699,9 @@ msgid ""
 "Differentiated Services Code Point for outgoing UDP streams (or IPv4 Type Of "
 "Service, or IPv6 Traffic Class). This is used for network Quality of Service."
 msgstr ""
+"Differentiated Services Code Point per i flussi UDP in uscita (IPv4 Type Of "
+"Service o IPv6 Traffic Class). Questo è usato per la qualità del servizio di "
+"rete."
 
 #: src/libvlc-module.c:566
 msgid ""
@@ -3032,6 +3037,9 @@ msgid ""
 "This adds so-called \"subpicture sources\". These filters overlay some "
 "images or text over the video (like a logo, arbitrary text, ...)."
 msgstr ""
+"Questo aggiunge le cosiddette \"sorgenti di immagini secondarie\". Questi "
+"filtri sovrappongono al video alcune immagini o del testo (come un logo, "
+"testo arbitrario, ...)."
 
 #: src/libvlc-module.c:717
 msgid "Subpictures filter module"
@@ -3042,6 +3050,9 @@ msgid ""
 "This adds so-called \"subpicture filters\". These filter subpictures created "
 "by subtitle decoders or other subpictures sources."
 msgstr ""
+"Questo aggiunge i cosiddetti \"filtri di immagini secondarie\". Questi "
+"filtrano immagini secondarie create da decoder di sottotitoli o altre "
+"sorgenti di immagini secondarie."
 
 #: src/libvlc-module.c:722
 msgid "Autodetect subtitle files"
@@ -3274,8 +3285,6 @@ msgid ""
 "This file contains an optional CRL to prevent remote clients from using "
 "revoked certificates in TLS sessions."
 msgstr ""
-"Questo file contiene un CRL opzionale per evitare di rimuovere client "
-"dall'utilizzo di certificati revocati in sessioni TLS."
 
 #: src/libvlc-module.c:845
 msgid "SOCKS server"
@@ -4389,10 +4398,14 @@ msgstr ""
 #: src/libvlc-module.c:1305
 msgid "Select the key to bookmark subtitle timestamp when syncing subtitles."
 msgstr ""
+"Seleziona il tasto per creare un segnalibro della data e dell'ora del "
+"sottotitolo quando vengono sincronizzati i sottotitoli."
 
 #: src/libvlc-module.c:1306
 msgid "Subtitle sync / synchronize audio & subtitle timestamps"
 msgstr ""
+"Sincronizzazione dei sottotitoli / sincronizza data e ora di sottotitoli e "
+"audio"
 
 #: src/libvlc-module.c:1307
 msgid "Select the key to synchronize bookmarked audio & subtitle timestamps."
@@ -4409,6 +4422,8 @@ msgstr ""
 #: src/libvlc-module.c:1309
 msgid "Select the key to reset synchronization of audio & subtitle timestamps."
 msgstr ""
+"Seleziona il tasto per resettare la sincronizzazione della data e dell'ora "
+"di sottotitoli e audio."
 
 #: src/libvlc-module.c:1310
 msgid "Subtitle position up"
@@ -4630,11 +4645,11 @@ msgstr ""
 
 #: src/libvlc-module.c:1372
 msgid "Cycle video crop"
-msgstr ""
+msgstr "Riprendi ritaglio del video"
 
 #: src/libvlc-module.c:1373
 msgid "Cycle through a predefined list of crop formats."
-msgstr "Riprende mediante una lista predefinita di formati crop."
+msgstr "Riprende mediante una lista predefinita di formati di ritaglio."
 
 #: src/libvlc-module.c:1374
 msgid "Toggle autoscaling"
@@ -4666,7 +4681,7 @@ msgstr "Rotazione delle modalità deinterlacciate"
 
 #: src/libvlc-module.c:1383
 msgid "Cycle through available deinterlace modes."
-msgstr ""
+msgstr "Scorri tra le modalità di deinterlacciamento disponibili."
 
 #: src/libvlc-module.c:1384
 msgid "Show controller in fullscreen"
@@ -4713,7 +4728,7 @@ msgstr "Normale/Ciclo/Ripeti"
 
 #: src/libvlc-module.c:1396
 msgid "Toggle Normal/Loop/Repeat playlist modes"
-msgstr ""
+msgstr "Alterna le modalità Normale/Ciclica/Ripetuta della scaletta"
 
 #: src/libvlc-module.c:1399
 msgid "Toggle random playlist playback"
@@ -4729,7 +4744,7 @@ msgstr "Ritaglia un pixel dalla parte superiore del video"
 
 #: src/libvlc-module.c:1409 src/libvlc-module.c:1410
 msgid "Uncrop one pixel from the top of the video"
-msgstr ""
+msgstr "Non ritaglia un pixel dalla parte superiore del video"
 
 #: src/libvlc-module.c:1412 src/libvlc-module.c:1413
 msgid "Crop one pixel from the left of the video"
@@ -4737,7 +4752,7 @@ msgstr "Ritaglia un pixel dalla parte sinistra del video"
 
 #: src/libvlc-module.c:1414 src/libvlc-module.c:1415
 msgid "Uncrop one pixel from the left of the video"
-msgstr ""
+msgstr "Non ritagliare un pixel dalla parte sinistra del video"
 
 #: src/libvlc-module.c:1417 src/libvlc-module.c:1418
 msgid "Crop one pixel from the bottom of the video"
@@ -4745,7 +4760,7 @@ msgstr "Ritaglia un pixel dalla parte bassa del video"
 
 #: src/libvlc-module.c:1419 src/libvlc-module.c:1420
 msgid "Uncrop one pixel from the bottom of the video"
-msgstr ""
+msgstr "Non ritaglia un pixel dalla parte inferiore del video"
 
 #: src/libvlc-module.c:1422 src/libvlc-module.c:1423
 msgid "Crop one pixel from the right of the video"
@@ -4753,7 +4768,7 @@ msgstr "Ritaglia un pixel dalla parte destra del video"
 
 #: src/libvlc-module.c:1424 src/libvlc-module.c:1425
 msgid "Uncrop one pixel from the right of the video"
-msgstr ""
+msgstr "Non ritaglia un pixel dalla parte destra del video"
 
 #: src/libvlc-module.c:1427
 msgid "Toggle wallpaper mode in video output"
@@ -7844,7 +7859,7 @@ msgstr ""
 
 #: modules/access_output/livehttp.c:104
 msgid "Use randomized IV for encryption"
-msgstr ""
+msgstr "Usa un IV casuale per la cifratura"
 
 #: modules/access_output/livehttp.c:105
 msgid "Generate IV instead using segment-number as IV"
@@ -8468,7 +8483,7 @@ msgstr "Ingresso TCP"
 
 #: modules/access/timecode.c:43
 msgid "Time code"
-msgstr ""
+msgstr "Timecode"
 
 #: modules/access/timecode.c:44
 msgid "Time code subpicture elementary stream generator"
@@ -8775,7 +8790,7 @@ msgstr "Angolo di rotazione dell'immagine (in gradi)."
 
 #: modules/access/v4l2/v4l2.c:152
 msgid "Color killer"
-msgstr ""
+msgstr "Soppressore di colore"
 
 #: modules/access/v4l2/v4l2.c:154
 msgid ""
@@ -8824,7 +8839,7 @@ msgstr "Erba verde"
 
 #: modules/access/v4l2/v4l2.c:166
 msgid "Skin whiten"
-msgstr ""
+msgstr "Resetta il tema"
 
 #: modules/access/v4l2/v4l2.c:166
 msgid "Vivid"
@@ -8869,7 +8884,7 @@ msgstr "Silenzia l'audio."
 
 #: modules/access/v4l2/v4l2.c:184
 msgid "Loudness mode"
-msgstr ""
+msgstr "modalità Loudness"
 
 #: modules/access/v4l2/v4l2.c:186
 msgid "Loudness mode a.k.a. bass boost."
@@ -9233,6 +9248,7 @@ msgstr "Livello di compressione"
 #: modules/access/vnc.c:62
 msgid "Transfer compression level from 0 (none) to 9 (max)"
 msgstr ""
+"Livello di compressione del trasferimento da 0 (nessuno) a 9 (il massimo)"
 
 #: modules/access/vnc.c:63
 msgid "Image quality"
@@ -9586,6 +9602,8 @@ msgstr "Velocità di sweep"
 #: modules/audio_filter/chorus_flanger.c:86
 msgid "Rate of change of sweep depth in milliseconds shift per second of play"
 msgstr ""
+"Intervallo di variazione della profondità di scansione della riproduzione in "
+"millisecondi di variazione al secondo"
 
 #: modules/audio_filter/chorus_flanger.c:89
 #: modules/audio_filter/stereo_widen.c:62
@@ -9594,7 +9612,7 @@ msgstr "Guadagno di retroazione"
 
 #: modules/audio_filter/chorus_flanger.c:89
 msgid "Gain on Feedback loop"
-msgstr ""
+msgstr "Guadagno sul circuito di retroazione"
 
 #: modules/audio_filter/chorus_flanger.c:91
 msgid "Wet mix"
@@ -10031,15 +10049,15 @@ msgstr "Ricampionatore SRC"
 
 #: modules/audio_filter/resampler/src.c:59
 msgid "Secret Rabbit Code (libsamplerate) resampler"
-msgstr ""
+msgstr "Campionatore Secret Rabbit Code (libsamplerate)"
 
 #: modules/audio_filter/resampler/ugly.c:49
 msgid "Nearest-neighbor audio resampler"
-msgstr ""
+msgstr "Campionatore audio Nearest-neighbor"
 
 #: modules/audio_filter/scaletempo.c:47
 msgid "Audio tempo scaler synched with rate"
-msgstr ""
+msgstr "Adattatore del ritmo audio sincronizzato col rate"
 
 #: modules/audio_filter/scaletempo.c:48
 msgid "Scaletempo"
@@ -10051,7 +10069,7 @@ msgstr "Lunghezza del passo"
 
 #: modules/audio_filter/scaletempo.c:54
 msgid "Length in milliseconds to output each stride"
-msgstr ""
+msgstr "Lunghezza in millisecondi per dare in output ogni cadenza"
 
 #: modules/audio_filter/scaletempo.c:56
 msgid "Overlap Length"
@@ -10143,7 +10161,7 @@ msgstr ""
 
 #: modules/audio_filter/stereo_widen.c:66
 msgid "Crossfeed"
-msgstr ""
+msgstr "Crossfeed"
 
 #: modules/audio_filter/stereo_widen.c:67
 msgid ""
@@ -10154,7 +10172,7 @@ msgstr ""
 
 #: modules/audio_filter/stereo_widen.c:70
 msgid "Dry mix"
-msgstr ""
+msgstr "Dry mix"
 
 #: modules/audio_filter/stereo_widen.c:71
 msgid "Level of input signal of original channel."
@@ -10464,7 +10482,7 @@ msgstr ""
 
 #: modules/audio_output/waveout.c:150
 msgid "WaveOut audio output"
-msgstr ""
+msgstr "Output audio WaveOut"
 
 #: modules/audio_output/waveout.c:706
 msgid "Microsoft Soundmapper"
@@ -13415,6 +13433,8 @@ msgid ""
 "This reduces the fluctuations in QP after curve compression. Temporally "
 "blurs quants."
 msgstr ""
+"Questo riduce le oscillazioni QP dopo la compressione della curva. Offusca "
+"temporalmente le quantità."
 
 #: modules/codec/x264.c:264
 msgid "Partitions to consider"
@@ -13440,11 +13460,11 @@ msgstr ""
 
 #: modules/codec/x264.c:273
 msgid "Direct MV prediction mode"
-msgstr ""
+msgstr "Modalità di previsione MV diretta"
 
 #: modules/codec/x264.c:276
 msgid "Direct prediction size"
-msgstr ""
+msgstr "Dimensione della previsione diretta"
 
 #: modules/codec/x264.c:277
 msgid ""
@@ -13452,6 +13472,9 @@ msgid ""
 " -  1: 8x8\n"
 " - -1: smallest possible according to level\n"
 msgstr ""
+"Dimensione di predizione diretta: - 0: 4x4\n"
+"- 1: 8x8\n"
+"- -1: la più piccola possibile in base al livello\n"
 
 #: modules/codec/x264.c:282
 msgid "Weighted prediction for B-frames"
@@ -13471,10 +13494,13 @@ msgid ""
 " - 1: Blind offset\n"
 " - 2: Smart analysis\n"
 msgstr ""
+"Previsione ponderata per i P-frame: - 0: Disabilitata\n"
+"- 1: Blind offset\n"
+"- 2: Analisi intelligente\n"
 
 #: modules/codec/x264.c:291
 msgid "Integer pixel motion estimation method"
-msgstr ""
+msgstr "Metodo di stima del movimento dei pixel a numeri interi"
 
 #: modules/codec/x264.c:292
 msgid ""
@@ -13485,10 +13511,17 @@ msgid ""
 " - esa: exhaustive search (extremely slow, primarily for testing)\n"
 " - tesa: hadamard exhaustive search (extremely slow, primarily for testing)\n"
 msgstr ""
+"Seleziona l'algoritmo di stima del movimento: - dia: ricerca del diamante, "
+"raggio 1 (veloce)\n"
+"- hex: ricerca esagonale, raggio 2\n"
+"- umh: ricerca multi-esagonale variabile (migliore, ma più lenta)\n"
+"- esa: ricerca esaustiva (estremamente lenta, prevalentemente per testare)\n"
+"- tesa: ricerca esaustiva Hadamard (estremamente lenta, prevalentemente per "
+"testare)\n"
 
 #: modules/codec/x264.c:299
 msgid "Maximum motion vector search range"
-msgstr ""
+msgstr "Raggio massimo di ricerca del vettore di movimento"
 
 #: modules/codec/x264.c:300
 msgid ""
@@ -13496,29 +13529,37 @@ msgid ""
 "position(s). Default of 16 is good for most footage, high motion sequences "
 "may benefit from settings between 24 and 32. Range 0 to 64."
 msgstr ""
+"Massima distanza per la ricerca della stima del movimento, misurata dalla/e "
+"posizione/i prevista/e. Il valore predefinito di 16 va bene per la maggior "
+"parte dei filmati; sequenze con molto movimento possono beneficiare di "
+"impostazioni tra 24 e 32. Il campo varia da 0 a 64."
 
 #: modules/codec/x264.c:305
 msgid "Maximum motion vector length"
-msgstr ""
+msgstr "Lunghezza massima del vettore di movimento"
 
 #: modules/codec/x264.c:306
 msgid ""
 "Maximum motion vector length in pixels. -1 is automatic, based on level."
 msgstr ""
+"Lunghezza massima del vettore di movimento in pixel. -1 significa "
+"automatico, basato sul livello."
 
 #: modules/codec/x264.c:309
 msgid "Minimum buffer space between threads"
-msgstr ""
+msgstr "Spazio minimo per il buffer tra i thread"
 
 #: modules/codec/x264.c:310
 msgid ""
 "Minimum buffer space between threads. -1 is automatic, based on number of "
 "threads."
 msgstr ""
+"Spazio minimo per il buffer tra i thread. -1 significa automatico, basato "
+"sul numero di thread."
 
 #: modules/codec/x264.c:313
 msgid "Strength of psychovisual optimization, default is \"1.0:0.0\""
-msgstr ""
+msgstr "Livello di ottimizzazione psico-visuale; di default è \"1.0:0.0\""
 
 #: modules/codec/x264.c:314
 msgid ""
@@ -14087,7 +14128,7 @@ msgstr "Deinterlacciamento attivo"
 
 #: modules/control/hotkeys.c:1016
 msgid "Subtitle position: no active subtitle"
-msgstr ""
+msgstr "Posizione dei sottotitoli: nessun sottotitolo attivo"
 
 #: modules/control/hotkeys.c:1028
 #, c-format
@@ -16071,7 +16112,7 @@ msgstr "Ignora la descrizione predefinita della traccia."
 
 #: modules/demux/subtitle.c:70
 msgid "Text subtitle parser"
-msgstr ""
+msgstr "Analizzatore testo dei sottotitoli"
 
 #: modules/demux/subtitle.c:78 modules/video_filter/subsdelay.c:275
 msgid "Subtitle delay"
@@ -18513,6 +18554,15 @@ msgid ""
 "\n"
 "Are you sure you want to continue?"
 msgstr ""
+"Questo resetterà le impostazioni del lettore multimediale VLC.\n"
+"\n"
+"Nota che VLC sarà riavviato durante il processo, così la tua scaletta "
+"corrente sarà svuotata ed eventuali attività di riproduzione, di "
+"trasferimento o di transcodifica saranno fermate immediatamente.\n"
+"\n"
+"La Libreria Media non sarà influenzata.\n"
+"\n"
+"Sei sicuro di voler continuare?"
 
 #: modules/gui/macosx/simple_prefs.m:1062
 msgid "Choose the folder to save your video snapshots to."
@@ -19046,10 +19096,6 @@ msgid ""
 "that only a small part of the MMS protocol is supported (MMS encapsulated in "
 "HTTP)."
 msgstr ""
-"Utilizza questa opzione per trasmettere a diversi computer con il protocollo "
-"MMS di Microsoft. Questo protocollo è utilizzato come metodo di trasporto da "
-"molti programmi di Microsoft. Nota che è supportata solo una piccola parte "
-"del protocollo MMS (MMS incapsulato in HTTP)."
 
 #: modules/gui/macosx/wizard.m:270 modules/gui/macosx/wizard.m:280
 msgid "Enter the address of the computer to stream to."
@@ -21493,7 +21539,7 @@ msgstr "Esci alla fine della scaletta"
 
 #: modules/gui/qt4/menus.cpp:395
 msgid "Close to systray"
-msgstr "Riduci nel vassoio di sistema"
+msgstr "Riduci nell'area di notifica"
 
 #: modules/gui/qt4/menus.cpp:399 modules/gui/qt4/menus.cpp:1164
 msgid "&Quit"
@@ -21597,7 +21643,7 @@ msgstr "Aggiungi file dei &sottotitoli..."
 
 #: modules/gui/qt4/menus.cpp:639
 msgid "Sub &Track"
-msgstr ""
+msgstr "&Traccia dei sottotitoli"
 
 #: modules/gui/qt4/menus.cpp:662
 msgid "Video &Track"
@@ -21753,19 +21799,19 @@ msgstr ""
 
 #: modules/gui/qt4/qt4.cpp:77 modules/gui/skins2/src/skin_main.cpp:471
 msgid "Systray icon"
-msgstr "Icona nel systray"
+msgstr "Icona nell'area di notifica"
 
 #: modules/gui/qt4/qt4.cpp:78
 msgid ""
 "Show an icon in the systray allowing you to control VLC media player for "
 "basic actions."
 msgstr ""
-"Mostra un'icona nel systray che consente di controllare le azioni di base "
-"del lettore multimediale VLC."
+"Mostra un'icona nell'area di notifica che consente di controllare le azioni "
+"di base del lettore multimediale VLC."
 
 #: modules/gui/qt4/qt4.cpp:82
 msgid "Start VLC with only a systray icon"
-msgstr "Avvia VLC solo con un'icona nel systray"
+msgstr "Avvia VLC solo con un'icona nell'area di notifica"
 
 #: modules/gui/qt4/qt4.cpp:83
 msgid "VLC will start with just an icon in your taskbar"
@@ -22021,7 +22067,7 @@ msgstr ""
 
 #: modules/gui/skins2/src/skin_main.cpp:472
 msgid "Show a systray icon for VLC"
-msgstr "Mostra icona di VLC nel vassoio di sistema (systray)"
+msgstr "Mostra icona di VLC nell'area di notifica"
 
 #: modules/gui/skins2/src/skin_main.cpp:473
 #: modules/gui/skins2/src/skin_main.cpp:474
@@ -23178,7 +23224,7 @@ msgstr ""
 
 #: modules/stream_filter/smooth/smooth.c:61
 msgid "Smooth Streaming"
-msgstr ""
+msgstr "Streaming lineare"
 
 #: modules/stream_out/autodel.c:46
 msgid "Autodel"
@@ -23193,16 +23239,20 @@ msgid ""
 "Integer identifier for this elementary stream. This will be used to \"find\" "
 "this stream later."
 msgstr ""
+"Identificatore a numeri interi per questo flusso elementare. Verrà "
+"utilizzato per \"trovare\" questo flusso più tardi."
 
 #: modules/stream_out/bridge.c:46
 msgid "Destination bridge-in name"
-msgstr ""
+msgstr "Nome del bridge-in di destinazione"
 
 #: modules/stream_out/bridge.c:48
 msgid ""
 "Name of the destination bridge-in. If you do not need more than one bridge-"
 "in at a time, you can discard this option."
 msgstr ""
+"Nome del bridge-in di destinazione. Se non hai bisogno di più di un bridge-"
+"in alla volta, puoi ignorare questa opzione."
 
 #: modules/stream_out/bridge.c:52
 msgid ""
@@ -23210,6 +23260,9 @@ msgid ""
 "this value (in milliseconds, should be >= 100 ms). For high values, you will "
 "need to raise caching values."
 msgstr ""
+"Immagini provenienti dalle uscite video immagine saranno ritardate in base a "
+"questo valore (in millisecondi, dovrebbe essere >= 100 ms). Per valori "
+"elevati, è necessario aumentare i valori di cache."
 
 #: modules/stream_out/bridge.c:56
 msgid "ID Offset"
@@ -23220,6 +23273,8 @@ msgid ""
 "Offset to add to the stream IDs specified in bridge_out to obtain the stream "
 "IDs bridge_in will register."
 msgstr ""
+"Offset da aggiungere agli ID di flusso specificati in bridge_out per poter "
+"registrare ID di flusso bridge_in."
 
 #: modules/stream_out/bridge.c:60
 msgid "Name of current instance"
@@ -23230,10 +23285,12 @@ msgid ""
 "Name of this bridge-in instance. If you do not need more than one bridge-in "
 "at a time, you can discard this option."
 msgstr ""
+"Nome di questa istanza bridge-in. Se non hai bisogno di più di un bridge-in "
+"alla volta, puoi ignorare questa opzione."
 
 #: modules/stream_out/bridge.c:65
 msgid "Fallback to placeholder stream when out of data"
-msgstr ""
+msgstr "Ripiega sullo streaming segnaposto quando esaurisci i dati"
 
 #: modules/stream_out/bridge.c:67
 msgid ""
@@ -23242,6 +23299,11 @@ msgid ""
 "configure a place holder stream when the real source breaks. Source and "
 "placeholder streams should have the same format. "
 msgstr ""
+"Se impostato su vero, il bridge scarterà tutti i flussi elementari di input "
+"a meno che non riceva i dati da un altro bridge-in. Questo può essere "
+"utilizzato per configurare un flusso di segnaposto quando la vera sorgente "
+"si interrompe. I flussi di sorgente e segnaposto devono avere lo stesso "
+"formato."
 
 #: modules/stream_out/bridge.c:72
 msgid "Placeholder delay"
@@ -23262,6 +23324,10 @@ msgid ""
 "the expense of a slightly longer delay, depending on the frequence of I "
 "frames in the streams."
 msgstr ""
+"Se abilitato, il passaggio tra il segnaposto e il flusso normale avrà luogo "
+"solo sui fotogrammi I. Questo rimuoverà artefatti al cambio di flusso a "
+"spese di un ritardo leggermente più lungo, a seconda della frequenza dei "
+"fotogrammi I nei flussi."
 
 #: modules/stream_out/bridge.c:92
 msgid "Bridge"
@@ -23454,7 +23520,7 @@ msgstr "Specifica la riga contente la lingua"
 
 #: modules/stream_out/langfromtelx.c:61
 msgid "Lang From Telx"
-msgstr ""
+msgstr "Lingua da Telx"
 
 #: modules/stream_out/langfromtelx.c:62
 msgid "Dynamic language setting from teletext"
@@ -23684,6 +23750,8 @@ msgid ""
 "This allows you to give a contact telephone number for the stream, that will "
 "be announced in the SDP (Session Descriptor)."
 msgstr ""
+"Questo ti permette di dare un recapito telefonico per il flusso, che sarà "
+"annunciato nel SDP (Descrittore di Sessione)."
 
 #: modules/stream_out/rtp.c:120
 msgid "This allows you to specify the base port for the RTP streaming."
@@ -23726,6 +23794,8 @@ msgid ""
 "Default caching value for outbound RTP streams. This value should be set in "
 "milliseconds."
 msgstr ""
+"Valore di cache predefinito per i flussi RTP in uscita. Questo valore deve "
+"essere impostato in millisecondi."
 
 #: modules/stream_out/rtp.c:144
 msgid "Transport protocol"
@@ -23741,6 +23811,9 @@ msgid ""
 "master shared secret key. This must be a 32-character-long hexadecimal "
 "string."
 msgstr ""
+"L'integrità dei pacchetti RTP sarà protetta e cifrata con questa principale "
+"chiave segreta Secure RTP condivisa. Questa deve essere una stringa "
+"esadecimale di 32 caratteri di lunghezza."
 
 #: modules/stream_out/rtp.c:167
 msgid "MP4A LATM"
@@ -23760,6 +23833,9 @@ msgid ""
 "long. Setting it to a negative value or zero disables timeouts. The default "
 "is 60 (one minute)."
 msgstr ""
+"Le sessioni RTSP verranno chiuse dopo questo tempo se non si riceverà alcuna "
+"richiesta RTSP. Impostandolo a un valore negativo o pari a zero si "
+"disabilita il timeout. Il valore predefinito è 60 (un minuto)."
 
 #: modules/stream_out/rtp.c:192
 msgid "RTP stream output"
@@ -23809,55 +23885,63 @@ msgstr "Cambia la lingua di un flusso elementare"
 
 #: modules/stream_out/smem.c:61
 msgid "Video prerender callback"
-msgstr ""
+msgstr "Callback del prerender video"
 
 #: modules/stream_out/smem.c:62
 msgid ""
 "Address of the video prerender callback function. This function will set the "
 "buffer where render will be done."
 msgstr ""
+"Indirizzo della funzione callback del prerender video. Questa funzione "
+"imposta il buffer in cui sarà fatto render."
 
 #: modules/stream_out/smem.c:65
 msgid "Audio prerender callback"
-msgstr ""
+msgstr "Callback del prerender audio"
 
 #: modules/stream_out/smem.c:66
 msgid ""
 "Address of the audio prerender callback function. This function will set the "
 "buffer where render will be done."
 msgstr ""
+"Indirizzo della funzione callback del prerender audio. Questa funzione "
+"imposta il buffer in cui sarà fatto render."
 
 #: modules/stream_out/smem.c:69
 msgid "Video postrender callback"
-msgstr ""
+msgstr "Callback del postrender video"
 
 #: modules/stream_out/smem.c:70
 msgid ""
 "Address of the video postrender callback function. This function will be "
 "called when the render is into the buffer."
 msgstr ""
+"Indirizzo della funzione di callback del postrender video. Questa funzione "
+"viene chiamata quando il render è nel buffer."
 
 #: modules/stream_out/smem.c:73
 msgid "Audio postrender callback"
-msgstr ""
+msgstr "Callback del postrender audio"
 
 #: modules/stream_out/smem.c:74
 msgid ""
 "Address of the audio postrender callback function. This function will be "
 "called when the render is into the buffer."
 msgstr ""
+"Indirizzo della funzione di callback del postrender audio. Questa funzione "
+"viene chiamata quando il render è nel buffer."
 
 #: modules/stream_out/smem.c:77
 msgid "Video Callback data"
-msgstr ""
+msgstr "Dati di callback video"
 
 #: modules/stream_out/smem.c:78
 msgid "Data for the video callback function."
-msgstr ""
+msgstr "Dati per la funzione di callback video."
 
 #: modules/stream_out/smem.c:80
 msgid "Audio callback data"
-msgstr ""
+msgstr "Dati di callback audio"
 
 #: modules/stream_out/smem.c:81
 msgid "Data for the audio callback function."
@@ -23865,13 +23949,15 @@ msgstr "Dati per la funzione di callback audio."
 
 #: modules/stream_out/smem.c:83
 msgid "Time Synchronized output"
-msgstr ""
+msgstr "Uscita a tempo sincronizzato"
 
 #: modules/stream_out/smem.c:84
 msgid ""
 "Time Synchronisation option for output. If true, stream will render as "
 "usual, else it will be rendered as fast as possible."
 msgstr ""
+"Opzione di sincronizzazione del tempo per l'uscita. Se vero, il flusso "
+"renderà come al solito, altrimenti sarà reso il più velocemente possibile."
 
 #: modules/stream_out/smem.c:96
 msgid "Smem"
@@ -23879,7 +23965,7 @@ msgstr "Smem"
 
 #: modules/stream_out/smem.c:97
 msgid "Stream output to memory buffer"
-msgstr ""
+msgstr "Salva il flusso in uscita sul buffer di memoria"
 
 #: modules/stream_out/standard.c:43
 msgid "Output method to use for the stream."
@@ -23911,6 +23997,9 @@ msgid ""
 "address:port to bind vlc to listening incoming streams helper setting for "
 "dst,dst=bind+'/'+path. dst-parameter overrides this"
 msgstr ""
+"indirizzo:porta per associare vlc alle impostazioni dell'assistente "
+"dell'ascolto dei flussi in entrata per dst,dst=bind+'/'+path. dst-parameter "
+"bypassa tutto questo"
 
 #: modules/stream_out/standard.c:54
 msgid "filename for stream (helper setting for dst)"
@@ -23921,6 +24010,8 @@ msgid ""
 "Filename for stream helper setting for dst, dst=bind+'/'+path, dst-parameter "
 "overrides this"
 msgstr ""
+"Nome del file per l'impostazione dell'assistente del flusso per dst,dst=bind"
+"+'/'+path. dst-parameter bypassa tutto questo"
 
 #: modules/stream_out/standard.c:91
 msgid "Standard stream output"
@@ -23970,7 +24061,7 @@ msgstr "Velocità fotogrammi video"
 
 #: modules/stream_out/transcode/transcode.c:59
 msgid "Target output frame rate for the video stream."
-msgstr ""
+msgstr "Frequenza dei fotogrammi in uscita per il flusso video."
 
 #: modules/stream_out/transcode/transcode.c:60
 msgid "Deinterlace video"
@@ -23994,7 +24085,7 @@ msgstr "Larghezza video massima "
 
 #: modules/stream_out/transcode/transcode.c:74
 msgid "Maximum output video width."
-msgstr ""
+msgstr "Larghezza massima del video in uscita."
 
 #: modules/stream_out/transcode/transcode.c:75
 msgid "Maximum video height"
@@ -24002,13 +24093,15 @@ msgstr "Altezza video massima"
 
 #: modules/stream_out/transcode/transcode.c:77
 msgid "Maximum output video height."
-msgstr ""
+msgstr "Altezza massima del video in uscita."
 
 #: modules/stream_out/transcode/transcode.c:80
 msgid ""
 "Video filters will be applied to the video streams (after overlays are "
 "applied). You can enter a colon-separated list of filters."
 msgstr ""
+"I filtri video saranno applicati ai flussi video (dopo aver applicato le "
+"sovrapposizioni). Puoi inserire un elenco di filtri separato da due punti."
 
 #: modules/stream_out/transcode/transcode.c:83
 msgid "Audio encoder"
@@ -24063,6 +24156,9 @@ msgid ""
 "Audio filters will be applied to the audio streams (after conversion filters "
 "are applied). You can enter a colon-separated list of filters."
 msgstr ""
+"I filtri audio saranno applicati ai flussi audio (dopo aver applicato i "
+"filtri di conversione). Puoi inserire un elenco di filtri separato da due "
+"punti."
 
 #: modules/stream_out/transcode/transcode.c:107
 msgid "Subtitle encoder"
@@ -24073,6 +24169,8 @@ msgid ""
 "This is the subtitle encoder module that will be used (and its associated "
 "options)."
 msgstr ""
+"Questo è il modulo codificatore dei sottotitoli che verrà utilizzato (e le "
+"sue opzioni associate)."
 
 #: modules/stream_out/transcode/transcode.c:111
 msgid "Destination subtitle codec"
@@ -24089,6 +24187,11 @@ msgid ""
 "overlayed directly onto the video. You can specify a colon-separated list of "
 "subpicture modules"
 msgstr ""
+"Questo ti permette di aggiungere le sovrapposizioni (note anche come "
+"\"immagini secondarie\") sul flusso video transcodificato. Le immagini "
+"secondarie prodotte dai filtri verranno sovrapposte direttamente al video. "
+"Puoi specificare una lista di moduli di immagini secondarie separata da due "
+"punti"
 
 #: modules/stream_out/transcode/transcode.c:122
 msgid "OSD menu"
@@ -24098,6 +24201,8 @@ msgstr "Menu OSD"
 msgid ""
 "Stream the On Screen Display menu (using the osdmenu subpicture module)."
 msgstr ""
+"Trasmetti il menu On Screen Display (utilizzando il modulo di immagini "
+"secondarie osdmenu)."
 
 #: modules/stream_out/transcode/transcode.c:126
 msgid "Number of threads"
@@ -24115,6 +24220,8 @@ msgstr "Priorità alta"
 msgid ""
 "Runs the optional encoder thread at the OUTPUT priority instead of VIDEO."
 msgstr ""
+"Esegue il thread codificatore opzionale con priorità di USCITA invece di "
+"quella VIDEO."
 
 #: modules/stream_out/transcode/transcode.c:134
 msgid "Synchronise on audio track"
@@ -24314,7 +24421,7 @@ msgstr ""
 
 #: modules/text_renderer/tdummy.c:36
 msgid "Dummy font renderer"
-msgstr ""
+msgstr "Renderer di font simulato"
 
 #: modules/text_renderer/win32text.c:60
 msgid "Filename for the font you want to use"
@@ -24724,6 +24831,8 @@ msgstr "Usa regolazione software del bianco"
 msgid ""
 "Should the buildin driver do a white adjust or your LED stripes? recommend."
 msgstr ""
+"Il driver buildin dovrebbe fare un aggiustamento bianco o le tue righe LED? "
+"raccomandato."
 
 #: modules/video_filter/atmo/atmo.cpp:244
 msgid "White Red"
@@ -24731,7 +24840,7 @@ msgstr "Bianco Rosso"
 
 #: modules/video_filter/atmo/atmo.cpp:245
 msgid "Red value of a pure white on your LED stripes."
-msgstr ""
+msgstr "Valore rosso di un bianco puro sulle tue strisce LED."
 
 #: modules/video_filter/atmo/atmo.cpp:247
 msgid "White Green"
@@ -24739,7 +24848,7 @@ msgstr "Bianco Verde"
 
 #: modules/video_filter/atmo/atmo.cpp:248
 msgid "Green value of a pure white on your LED stripes."
-msgstr ""
+msgstr "Valore verde di un bianco puro sulle tue strisce LED."
 
 #: modules/video_filter/atmo/atmo.cpp:250
 msgid "White Blue"
@@ -24747,7 +24856,7 @@ msgstr "Bianco Blu"
 
 #: modules/video_filter/atmo/atmo.cpp:251
 msgid "Blue value of a pure white on your LED stripes."
-msgstr ""
+msgstr "Valore blu di un bianco puro sulle tue strisce LED."
 
 #: modules/video_filter/atmo/atmo.cpp:254
 msgid "Serial Port/Device"
@@ -25073,6 +25182,8 @@ msgid ""
 "Bargraph transparency value (from 0 for full transparency to 255 for full "
 "opacity)."
 msgstr ""
+"Valore di trasparenza del grafico a barre (da 0 per completa trasparenza a "
+"255 per completa opacità)."
 
 #: modules/video_filter/audiobargraph_v.c:58
 msgid "Bargraph position"
@@ -25084,6 +25195,9 @@ msgid ""
 "4=top, 8=bottom, you can also use combinations of these values, eg 6 = top-"
 "right)."
 msgstr ""
+"Applica la posizione del grafico a barre sul video (0=centrato, 1=sinistra, "
+"2=destra, 4=alto, 8=basso; è possibile anche combinare questi valori, ad es. "
+"6= in alto a destra)."
 
 #: modules/video_filter/audiobargraph_v.c:63
 msgid "Alarm"
@@ -25091,7 +25205,7 @@ msgstr "Avviso"
 
 #: modules/video_filter/audiobargraph_v.c:64
 msgid "Signals a silence and displays and alert (0=no alarm, 1=alarm)."
-msgstr ""
+msgstr "Segnali di un silenzio e schermi e allarme (0=no allarme, 1=allarme)."
 
 #: modules/video_filter/audiobargraph_v.c:66
 msgid "Bar width in pixel (default : 10)"
@@ -25101,6 +25215,8 @@ msgstr "Larghezza delle barre in pixel (predefinita: 10)"
 msgid ""
 "Width in pixel of each bar in the BarGraph to be displayed (default : 10)."
 msgstr ""
+"Ampiezza in pixel di ogni barra nel Grafico a Barre che saranno visualizzate "
+"(valore predefinito: 10)."
 
 #: modules/video_filter/audiobargraph_v.c:88
 #: modules/video_filter/audiobargraph_v.c:106
@@ -25142,6 +25258,7 @@ msgid ""
 "Set ball size giving its radius in number                                 of "
 "pixels"
 msgstr ""
+"Imposta la dimensione della palla dato il suo raggio in numero di pixel"
 
 #: modules/video_filter/ball.c:111
 msgid "Gradient threshold"
@@ -25149,11 +25266,11 @@ msgstr "Soglia del gradiente"
 
 #: modules/video_filter/ball.c:112
 msgid "Set gradient threshold for edge computation."
-msgstr ""
+msgstr "Imposta la soglia di gradiente per la computazione ai bordi."
 
 #: modules/video_filter/ball.c:114
 msgid "Augmented reality ball game"
-msgstr ""
+msgstr "Gioco con la palla in realtà aumentata"
 
 #: modules/video_filter/ball.c:123
 msgid "Ball video filter"
@@ -25297,7 +25414,7 @@ msgstr "Larghezza dell'uscita."
 
 #: modules/video_filter/canvas.c:85
 msgid "Output (canvas) image width"
-msgstr ""
+msgstr "Larghezza dell'immagine in output (tela)"
 
 #: modules/video_filter/canvas.c:86
 msgid "Output height"
@@ -25305,31 +25422,36 @@ msgstr "Altezza dell'uscita."
 
 #: modules/video_filter/canvas.c:88
 msgid "Output (canvas) image height"
-msgstr ""
+msgstr "Altezza dell'immagine in output (tela)"
 
 #: modules/video_filter/canvas.c:89
 msgid "Output picture aspect ratio"
-msgstr ""
+msgstr "Rapporto di aspetto dell'immagine in output"
 
 #: modules/video_filter/canvas.c:91
 msgid ""
 "Set the canvas' picture aspect ratio. If omitted, the canvas is assumed to "
 "have the same SAR as the input."
 msgstr ""
+"Imposta il rapporto di aspetto della tela dell'immagine. Se non impostato, "
+"si assume che la tela abbia lo stesso SAR dell'input."
 
 #: modules/video_filter/canvas.c:93
 msgid "Pad video"
-msgstr ""
+msgstr "Sposta il video"
 
 #: modules/video_filter/canvas.c:95
 msgid ""
 "If enabled, video will be padded to fit in canvas after scaling. Otherwise, "
 "video will be cropped to fix in canvas after scaling."
 msgstr ""
+"Se abilitato, il video sarà spostato per adattarlo alla tela dopo la "
+"scalata. Altrimenti, il video sarà ritagliato per adattarsi alla tela dopo "
+"la scalata."
 
 #: modules/video_filter/canvas.c:97
 msgid "Automatically resize and pad a video"
-msgstr ""
+msgstr "Ridimensiona e sposta automaticamente un video"
 
 #: modules/video_filter/canvas.c:105
 msgid "Canvas"
@@ -25341,7 +25463,7 @@ msgstr "Filtro video Tela"
 
 #: modules/video_filter/chain.c:43
 msgid "Video filtering using a chain of video filter modules"
-msgstr ""
+msgstr "Filtraggio del video usando una catena di moduli di filtro video"
 
 #: modules/video_filter/clone.c:40
 msgid "Number of video windows in which to clone the video."
@@ -25356,6 +25478,8 @@ msgid ""
 "You can use specific video output modules for the clones. Use a comma-"
 "separated list of modules."
 msgstr ""
+"Puoi usare moduli specifici per video in output. Usa una lista di moduli "
+"separati da virgola."
 
 #: modules/video_filter/clone.c:47
 msgid "Duplicate your video to multiple windows and/or video output modules"
@@ -25423,39 +25547,47 @@ msgstr "Numero di pixel da tagliare nella parte destra dell'immagine."
 
 #: modules/video_filter/croppadd.c:59
 msgid "Pixels to padd to top"
-msgstr ""
+msgstr "Pixel da spostare verso l'alto"
 
 #: modules/video_filter/croppadd.c:61
 msgid "Number of pixels to padd to the top of the image after cropping."
 msgstr ""
+"Numero di pixel da spostare nella parte superiore dell'immagine dopo il "
+"ritaglio."
 
 #: modules/video_filter/croppadd.c:62
 msgid "Pixels to padd to bottom"
-msgstr ""
+msgstr "Pixel da spostare verso il basso"
 
 #: modules/video_filter/croppadd.c:64
 msgid "Number of pixels to padd to the bottom of the image after cropping."
 msgstr ""
+"Numero di pixel da spostare nella parte inferiore dell'immagine dopo il "
+"ritaglio."
 
 #: modules/video_filter/croppadd.c:65
 msgid "Pixels to padd to left"
-msgstr ""
+msgstr "Pixel da spostare verso sinistra"
 
 #: modules/video_filter/croppadd.c:67
 msgid "Number of pixels to padd to the left of the image after cropping."
 msgstr ""
+"Numero di pixel da spostare nella parte sinistra dell'immagine dopo il "
+"ritaglio."
 
 #: modules/video_filter/croppadd.c:68
 msgid "Pixels to padd to right"
-msgstr ""
+msgstr "Pixel da spostare verso destra"
 
 #: modules/video_filter/croppadd.c:70
 msgid "Number of pixels to padd to the right of the image after cropping."
 msgstr ""
+"Numero di pixel da spostare nella parte destra dell'immagine dopo il "
+"ritaglio."
 
 #: modules/video_filter/croppadd.c:78
 msgid "Cropadd"
-msgstr ""
+msgstr "Aggiungi ritaglio"
 
 #: modules/video_filter/croppadd.c:79 modules/video_filter/scale.c:47
 #: modules/video_filter/swscale.c:67
@@ -25464,7 +25596,7 @@ msgstr "Filtro ridimensionamento video"
 
 #: modules/video_filter/croppadd.c:96
 msgid "Padd"
-msgstr ""
+msgstr "Sposta"
 
 #: modules/video_filter/deinterlace/algo_phosphor.h:45
 msgid "Latest"
@@ -26530,6 +26662,8 @@ msgstr "Modalità gioco"
 #: modules/video_filter/puzzle.c:56
 msgid "Select game mode variation from jigsaw puzzle to sliding puzzle."
 msgstr ""
+"Seleziona la variazione della modalità di gioco da puzzle normale a puzzle "
+"scorrevole."
 
 #: modules/video_filter/puzzle.c:57
 msgid "Border"
@@ -26537,7 +26671,7 @@ msgstr "Bordo"
 
 #: modules/video_filter/puzzle.c:58
 msgid "Unshuffled Border width."
-msgstr ""
+msgstr "Larghezza del Bordo non Mescolato"
 
 #: modules/video_filter/puzzle.c:59
 msgid "Small preview"
@@ -26554,14 +26688,15 @@ msgstr "Dimensioni dell'anteprima"
 #: modules/video_filter/puzzle.c:62
 msgid "Show small preview size (percent of source)."
 msgstr ""
+"Mostra la dimensione della piccola anteprima (percentuale della sorgente)."
 
 #: modules/video_filter/puzzle.c:63
 msgid "Piece edge shape size"
-msgstr ""
+msgstr "Dimensione del pezzo di bordo della forma"
 
 #: modules/video_filter/puzzle.c:64
 msgid "Size of the curve along the piece's edge"
-msgstr ""
+msgstr "Dimensione della curva lungo il pezzo di bordo"
 
 #: modules/video_filter/puzzle.c:65
 msgid "Auto shuffle"
@@ -26569,15 +26704,15 @@ msgstr "Mescola automaticamente"
 
 #: modules/video_filter/puzzle.c:66
 msgid "Auto shuffle delay during game"
-msgstr ""
+msgstr "Ritardo del mescolamento automatico durante il gioco"
 
 #: modules/video_filter/puzzle.c:67
 msgid "Auto solve"
-msgstr ""
+msgstr "Risolvi automaticamente"
 
 #: modules/video_filter/puzzle.c:68
 msgid "Auto solve delay during game"
-msgstr ""
+msgstr "Ritardo di risoluzione automatica durante il gioco"
 
 #: modules/video_filter/puzzle.c:69
 msgid "Rotation"
@@ -26589,19 +26724,19 @@ msgstr "Parametro di rotazione: nessuna;180;90-270;specchio"
 
 #: modules/video_filter/puzzle.c:73
 msgid "jigsaw puzzle"
-msgstr ""
+msgstr "puzzle normale"
 
 #: modules/video_filter/puzzle.c:73
 msgid "sliding puzzle"
-msgstr ""
+msgstr "puzzle scorrevole"
 
 #: modules/video_filter/puzzle.c:73
 msgid "swap puzzle"
-msgstr ""
+msgstr "Cambia puzzle"
 
 #: modules/video_filter/puzzle.c:73
 msgid "exchange puzzle"
-msgstr ""
+msgstr "Scambia puzzle"
 
 #: modules/video_filter/puzzle.c:75
 msgid "0"
@@ -28622,9 +28757,8 @@ msgid "Default caching policy"
 msgstr "Criterio di cache predefinito"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:514
-#, fuzzy
 msgid "Menus language:"
-msgstr "Lingua dell'audio"
+msgstr "Lingua dei menu:"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:515
 msgid "Look and feel"
@@ -28672,7 +28806,7 @@ msgstr "Includi video nell'interfaccia"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:528
 msgid "Show systray icon"
-msgstr "Mostra icona nel systray"
+msgstr "Mostra icona nell'area di notifica"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:529
 msgid "Skin resource file:"
@@ -29142,9 +29276,6 @@ msgstr "Elenco gestore multimediale"
 #~ msgid "Lower the interface below all other windows."
 #~ msgstr "Nascondi l'interfaccia dietro tutte le altre finestre"
 
-#~ msgid "Toggle Normal/Repeat/Loop playlist modes"
-#~ msgstr "Attiva la modalità normale/ripetuta/ciclica della scaletta"
-
 #~ msgid "Do not display OSD menu on top of video output"
 #~ msgstr "Non visualizzare il menu OSD nella parte alta del video"
 
@@ -29402,9 +29533,6 @@ msgstr "Elenco gestore multimediale"
 
 #~ msgid "5.1"
 #~ msgstr "5.1"
-
-#~ msgid "Win32 waveOut extension output"
-#~ msgstr "Uscita waveOut extension per win32"
 
 #~ msgid ""
 #~ "Only decode a low resolution version of the video. This requires less "
@@ -33054,16 +33182,24 @@ msgstr "Elenco gestore multimediale"
 #~ msgstr "E' possibilie scegliere il modo di ridimensionamento."
 
 #, fuzzy
-#~ msgid "Add a subtitle file"
-#~ msgstr "Usa un file di so&ttotitoli"
-
-#, fuzzy
 #~ msgid ""
 #~ "This file countains an optional CRL to prevent remote clients from using "
 #~ "revoked certificates in TLS sessions."
 #~ msgstr ""
 #~ "Questo file contiene un CRL opzionale per evitare di rimuovere client "
 #~ "dall'utilizzo di certificati revocati in sessioni TLS."
+
+#, fuzzy
+#~ msgid "Toggle Normal/Repeat/Loop playlist modes"
+#~ msgstr "Alterna le modalità Normale/Ciclica/Ripetuta della scaletta"
+
+#, fuzzy
+#~ msgid "Win32 waveOut extension output"
+#~ msgstr "Output audio WaveOut"
+
+#, fuzzy
+#~ msgid "Add a subtitle file"
+#~ msgstr "Usa un file di so&ttotitoli"
 
 #, fuzzy
 #~ msgid "Data search path"
@@ -33509,7 +33645,7 @@ msgstr "Elenco gestore multimediale"
 
 #, fuzzy
 #~ msgid "Cycle through deinterlace modes."
-#~ msgstr "Rotazione delle modalità deinterlacciate"
+#~ msgstr "Scorri tra le modalità di deinterlacciamento disponibili."
 
 #, fuzzy
 #~ msgid "Show interface"
@@ -34025,7 +34161,7 @@ msgstr "Elenco gestore multimediale"
 
 #, fuzzy
 #~ msgid "Text subtitles parser"
-#~ msgstr "Analizzatore sottotitoli EBU STL"
+#~ msgstr "Analizzatore testo dei sottotitoli"
 
 #, fuzzy
 #~ msgid "Frames per second"
@@ -34650,8 +34786,8 @@ msgstr "Elenco gestore multimediale"
 #~ "This is the subtitles encoder module that will be used (and its "
 #~ "associated options)."
 #~ msgstr ""
-#~ "Questo è il modulo di codifica video che sarà utilizzato (e le opzioni ad "
-#~ "esso associate)."
+#~ "Questo è il modulo codificatore dei sottotitoli che verrà utilizzato (e "
+#~ "le sue opzioni associate)."
 
 #, fuzzy
 #~ msgid "Destination subtitles codec"
@@ -35520,8 +35656,8 @@ msgstr "Elenco gestore multimediale"
 #~ "Caching value for EyeTV captures. This value should be set in "
 #~ "milliseconds."
 #~ msgstr ""
-#~ "Valore di cache predefinito per i flussi in uscita UDP. Questo valore "
-#~ "deve essere espresso in millisecondi."
+#~ "Valore di cache predefinito per i flussi RTP in uscita. Questo valore "
+#~ "deve essere impostato in millisecondi."
 
 #, fuzzy
 #~ msgid ""
@@ -35554,8 +35690,8 @@ msgstr "Elenco gestore multimediale"
 #~ msgid ""
 #~ "Caching value for FTP streams. This value should be set in milliseconds."
 #~ msgstr ""
-#~ "Valore di cache predefinito per i flussi in uscita UDP. Questo valore "
-#~ "deve essere espresso in millisecondi."
+#~ "Valore di cache predefinito per i flussi RTP in uscita. Questo valore "
+#~ "deve essere impostato in millisecondi."
 
 #, fuzzy
 #~ msgid ""
@@ -35569,8 +35705,8 @@ msgstr "Elenco gestore multimediale"
 #~ msgid ""
 #~ "Caching value for HTTP streams. This value should be set in milliseconds."
 #~ msgstr ""
-#~ "Valore di cache predefinito per i flussi in uscita UDP. Questo valore "
-#~ "deve essere espresso in millisecondi."
+#~ "Valore di cache predefinito per i flussi RTP in uscita. Questo valore "
+#~ "deve essere impostato in millisecondi."
 
 #, fuzzy
 #~ msgid "User agent that will be used for the connection."
@@ -35623,8 +35759,8 @@ msgstr "Elenco gestore multimediale"
 #~ msgid ""
 #~ "Caching value for RTMP streams. This value should be set in milliseconds."
 #~ msgstr ""
-#~ "Valore di cache predefinito per i flussi in uscita UDP. Questo valore "
-#~ "deve essere espresso in millisecondi."
+#~ "Valore di cache predefinito per i flussi RTP in uscita. Questo valore "
+#~ "deve essere impostato in millisecondi."
 
 #, fuzzy
 #~ msgid "RTP de-jitter buffer length (msec)"
@@ -35638,8 +35774,8 @@ msgstr "Elenco gestore multimediale"
 #~ msgid ""
 #~ "Caching value for RTSP streams. This value should be set in milliseconds."
 #~ msgstr ""
-#~ "Valore di cache predefinito per i flussi in uscita UDP. Questo valore "
-#~ "deve essere espresso in millisecondi."
+#~ "Valore di cache predefinito per i flussi RTP in uscita. Questo valore "
+#~ "deve essere impostato in millisecondi."
 
 #, fuzzy
 #~ msgid ""
@@ -35653,8 +35789,8 @@ msgstr "Elenco gestore multimediale"
 #~ msgid ""
 #~ "Caching value for SFTP streams. This value should be set in milliseconds."
 #~ msgstr ""
-#~ "Valore di cache predefinito per i flussi in uscita UDP. Questo valore "
-#~ "deve essere espresso in millisecondi."
+#~ "Valore di cache predefinito per i flussi RTP in uscita. Questo valore "
+#~ "deve essere impostato in millisecondi."
 
 #, fuzzy
 #~ msgid ""
@@ -35667,8 +35803,8 @@ msgstr "Elenco gestore multimediale"
 #~ msgid ""
 #~ "Caching value for TCP streams. This value should be set in milliseconds."
 #~ msgstr ""
-#~ "Valore di cache predefinito per i flussi in uscita UDP. Questo valore "
-#~ "deve essere espresso in millisecondi."
+#~ "Valore di cache predefinito per i flussi RTP in uscita. Questo valore "
+#~ "deve essere impostato in millisecondi."
 
 #, fuzzy
 #~ msgid ""
@@ -35970,8 +36106,8 @@ msgstr "Elenco gestore multimediale"
 #~ "Allows you to modify the default caching value for RTSP streams. This "
 #~ "value should be set in millisecond units."
 #~ msgstr ""
-#~ "Valore di cache predefinito per i flussi in uscita UDP. Questo valore "
-#~ "deve essere espresso in millisecondi."
+#~ "Valore di cache predefinito per i flussi RTP in uscita. Questo valore "
+#~ "deve essere impostato in millisecondi."
 
 #, fuzzy
 #~ msgid "Subtitles (asa demuxer)"
@@ -36191,7 +36327,7 @@ msgstr "Elenco gestore multimediale"
 
 #, fuzzy
 #~ msgid "Direct3D Desktop mode"
-#~ msgstr "Ordinamento delle cartelle"
+#~ msgstr "Modalità di previsione MV diretta"
 
 #, fuzzy
 #~ msgid "Sna&pshot"
@@ -37024,7 +37160,7 @@ msgstr "Elenco gestore multimediale"
 
 #, fuzzy
 #~ msgid "Quartz font renderer"
-#~ msgstr "Generatore di caratteri CoreText"
+#~ msgstr "Renderer di font simulato"
 
 #, fuzzy
 #~ msgid "Miscellaneous stress tests"
@@ -37380,7 +37516,7 @@ msgstr "Elenco gestore multimediale"
 
 #, fuzzy
 #~ msgid "aRts audio output"
-#~ msgstr "Uscita audio ALSA"
+#~ msgstr "Output audio WaveOut"
 
 #, fuzzy
 #~ msgid "EsounD audio output"
@@ -38536,7 +38672,7 @@ msgstr "Elenco gestore multimediale"
 
 #, fuzzy
 #~ msgid "Show a systray icon to control VLC"
-#~ msgstr "Mostra icona di VLC nel vassoio di sistema (systray)"
+#~ msgstr "Mostra icona di VLC nell'area di notifica"
 
 #, fuzzy
 #~ msgid "OSS Device"
@@ -38685,7 +38821,7 @@ msgstr "Elenco gestore multimediale"
 
 #, fuzzy
 #~ msgid "Direct MV prediction mode. "
-#~ msgstr "Decodificatore DirectMedia Object"
+#~ msgstr "Modalità di previsione MV diretta"
 
 #, fuzzy
 #~ msgid "PSNR calculation"
@@ -39824,11 +39960,11 @@ msgstr "Elenco gestore multimediale"
 
 #, fuzzy
 #~ msgid "Allows you to specify a maximum output video width."
-#~ msgstr "Permette di specificare una informazione sull'URL di un input."
+#~ msgstr "Larghezza massima del video in uscita."
 
 #, fuzzy
 #~ msgid "Allows you to specify a maximum output video height."
-#~ msgstr "Permette di specificare una informazione sull'URL di un input."
+#~ msgstr "Altezza massima del video in uscita."
 
 #, fuzzy
 #~ msgid "Allows you to specify the top coordinate for the video cropping."
@@ -39953,7 +40089,7 @@ msgstr "Elenco gestore multimediale"
 
 #, fuzzy
 #~ msgid "Time To Live"
-#~ msgstr "Time-To-Live (TTL)"
+#~ msgstr "Timecode"
 
 #, fuzzy
 #~ msgid "audio filter using CoreAudio for resampling"
