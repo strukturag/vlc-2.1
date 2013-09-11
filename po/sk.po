@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-09-08 20:08+0200\n"
-"PO-Revision-Date: 2013-07-16 20:29+0000\n"
-"Last-Translator: mhikanik <mhikanik@users.sourceforge.net>\n"
+"PO-Revision-Date: 2013-09-09 08:20+0000\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Slovak (http://www.transifex.com/projects/p/vlc-trans/"
 "language/sk/)\n"
 "Language: sk\n"
@@ -29,7 +29,7 @@ msgstr ""
 "Tento program je poskytovaný BEZ ZÁRUKY, v maximálne právne možnom rozsahu.\n"
 "Môžete ho distribuovať pri dodržaní podmienok licencie GNU General Public "
 "License;\n"
-"pre podrobnejšie informácie si prečítajte text v súbore COPYING.\n"
+"pre podrobnejšie informácie si prečítajte text v súbore s názvom COPYING.\n"
 "Vytvorené tímom VideoLAN; pozrite si súbor AUTHORS.\n"
 
 #: include/vlc_config_cat.h:33
@@ -1443,7 +1443,7 @@ msgstr "Vydavateľ"
 
 #: src/input/meta.c:69
 msgid "Encoded by"
-msgstr "Kódoval"
+msgstr "Kódované"
 
 #: src/input/meta.c:70
 msgid "Artwork URL"
@@ -3286,8 +3286,8 @@ msgid ""
 "This file contains an optional CRL to prevent remote clients from using "
 "revoked certificates in TLS sessions."
 msgstr ""
-"Súbor obsahuje doplnkové CRL na zabránenie tomu, aby vzdialení klienti "
-"používali zamietnuté certifikáty v sedeniach TLS."
+"Tento súbor obsahuje doplnkový zoznam zrušených certifikátov na zabránenie "
+"tomu, aby vzdialení klienti používali zamietnuté certifikáty v reláciách TLS."
 
 #: src/libvlc-module.c:845
 msgid "SOCKS server"
@@ -3687,7 +3687,7 @@ msgstr "Týmto nastavením rapídne urýchlite spúšťanie programu VLC."
 
 #: src/libvlc-module.c:1041
 msgid "Locally collect statistics"
-msgstr "Zbierať lokálnu štatistiku"
+msgstr "Vytvárať lokálnu štatistiku"
 
 #: src/libvlc-module.c:1043
 msgid "Collect miscellaneous local statistics about the playing media."
@@ -3951,7 +3951,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1175 modules/gui/qt4/ui/sprefs_interface.h:533
 msgid "Display playlist tree"
-msgstr "Zobraziť vetvenie playlistu"
+msgstr "Zobraziť členenie playlistu"
 
 #: src/libvlc-module.c:1177
 msgid ""
@@ -5019,7 +5019,7 @@ msgstr "Prebieha sťahovanie ..."
 #: modules/gui/qt4/components/preferences_widgets.cpp:1424
 #: modules/gui/qt4/components/sout/profile_selector.cpp:435
 msgid "Cancel"
-msgstr "Storno"
+msgstr "Zrušiť"
 
 #: src/misc/update.c:605
 #, c-format
@@ -9337,7 +9337,7 @@ msgstr ""
 
 #: modules/audio_filter/audiobargraph_a.c:48
 msgid "Defines if BarGraph information should be sent"
-msgstr "Definuje, či sa má odoslať informácia BarGraph"
+msgstr "Odoslanie informácie BarGraph"
 
 #: modules/audio_filter/audiobargraph_a.c:49
 msgid ""
@@ -9362,7 +9362,7 @@ msgstr ""
 
 #: modules/audio_filter/audiobargraph_a.c:54
 msgid "Defines if silence alarm information should be sent"
-msgstr "Definuje, či sa má odoslať informácia o alarme"
+msgstr "Odoslanie informácie o alarme"
 
 #: modules/audio_filter/audiobargraph_a.c:55
 msgid ""
@@ -12382,11 +12382,11 @@ msgstr "Metóda optického útlmu"
 
 #: modules/codec/schroedinger.c:272
 msgid "perceptual distance"
-msgstr "optická vzdialenosť"
+msgstr "Optická vzdialenosť"
 
 #: modules/codec/schroedinger.c:273
 msgid "perceptual distance to calculate perceptual weight"
-msgstr "optická vzdialenosť pre výpočet optickej váhy"
+msgstr "Optická vzdialenosť pre výpočet optickej váhy"
 
 #: modules/codec/schroedinger.c:277
 msgid "Horizontal slices per frame"
@@ -13802,7 +13802,7 @@ msgstr "Názov súboru so štatistikou obojsmerného filtra pre kódovanie."
 
 #: modules/codec/x264.c:384
 msgid "PSNR computation"
-msgstr "Vykalkulovanie PSNR"
+msgstr "Vypočítať PSNR"
 
 #: modules/codec/x264.c:385
 msgid ""
@@ -13814,15 +13814,15 @@ msgstr ""
 
 #: modules/codec/x264.c:388
 msgid "SSIM computation"
-msgstr "Vykalkulovať SMB"
+msgstr "Vypočítať SMB"
 
 #: modules/codec/x264.c:389
 msgid ""
 "Compute and print SSIM stats. This has no effect on the actual encoding "
 "quality."
 msgstr ""
-"Vykalkulovať a zobraziť štatistiku pre SSIM. Táto voľba nemá žiaden vplyv na "
-"kvalitu kódovania"
+"Vypočítať a zobraziť štatistiky pre SSIM. Táto voľba nemá žiadny vplyv na "
+"aktuálnu kvalitu kódovania."
 
 #: modules/codec/x264.c:392
 msgid "Quiet mode"
@@ -13884,11 +13884,11 @@ msgstr "Použité predvolené prednastavenie"
 
 #: modules/codec/x264.c:412
 msgid "x264 advanced options."
-msgstr "pokročilé nastavenia x264."
+msgstr "Pokročilé nastavenia x264"
 
 #: modules/codec/x264.c:413
 msgid "x264 advanced options, in the form {opt=val,op2=val2} ."
-msgstr "pokročilé nastavenia x264, v tvare {nast=hod,nast2=hod2} ."
+msgstr "Pokročilé nastavenia x264, v tvare {nast=hod,nast2=hod2}"
 
 #: modules/codec/x264.c:418
 msgid "dia"
@@ -14951,7 +14951,7 @@ msgstr "Vypisovač súboru"
 
 #: modules/demux/dirac.c:41
 msgid "Value to adjust dts by"
-msgstr "Hodnota na prispôsobenie dts podľa"
+msgstr "Hodnota prispôsobenia dts"
 
 #: modules/demux/dirac.c:54
 msgid "Dirac video demuxer"
@@ -15428,7 +15428,7 @@ msgstr "New Wave"
 #: modules/video_filter/psychedelic.c:55
 #: modules/gui/qt4/ui/video_effects.h:1390
 msgid "Psychedelic"
-msgstr "Psychedelic"
+msgstr "Zintenzívnenie vnemov"
 
 #: modules/demux/mp4/id3genres.h:100
 msgid "Rave"
@@ -15528,7 +15528,7 @@ msgstr "Progresívny rock"
 
 #: modules/demux/mp4/id3genres.h:125
 msgid "Psychedelic Rock"
-msgstr "Psychedelic Rock"
+msgstr "Psychedelický rock"
 
 #: modules/demux/mp4/id3genres.h:126
 msgid "Symphonic Rock"
@@ -16534,9 +16534,9 @@ msgstr ""
 "color:#0057ae;\">tímu VideoLAN</span></a> a jeho komunitou.</p><p>VLC "
 "používa interné kodeky, funguje na každej populárnej platforme a dokáže "
 "čítať takmer všetky súbory, disky CD, DVD, sieťové streamy, čítať zo "
-"zaznamenávacích kárd a iných formátov pre médiá!</p><p><a href=\"http://www."
-"videolan.org/contribute/\"><span style=\" text-decoration: underline; color:"
-"#0057ae;\">Pomôžte a pridajte sa k nám!</span></a>"
+"zaznamenávacích kariet a iných formátov pre médiá!</p><p><a href=\"http://"
+"www.videolan.org/contribute/\"><span style=\" text-decoration: underline; "
+"color:#0057ae;\">Pomôžte a pridajte sa k nám!</span></a>"
 
 #: modules/gui/macosx/about.m:273
 msgid "VLC media player Help"
@@ -16646,7 +16646,7 @@ msgstr "Odstrániť prenastavenie"
 #: modules/gui/macosx/AudioEffects.m:400 modules/gui/macosx/AudioEffects.m:739
 #: modules/gui/macosx/VideoEffects.m:941
 msgid "Select the preset you would like to remove:"
-msgstr "Vyberte si prednastavenie, ktoré chcete odstrániť:"
+msgstr "Vyberte prednastavenie, ktoré chcete odstrániť:"
 
 #: modules/gui/macosx/AudioEffects.m:401 modules/gui/macosx/AudioEffects.m:740
 #: modules/gui/macosx/bookmarks.m:95 modules/gui/macosx/ConvertAndSave.m:380
@@ -17112,7 +17112,7 @@ msgstr "Odstrániť profil"
 
 #: modules/gui/macosx/ConvertAndSave.m:379
 msgid "Select the profile you would like to remove:"
-msgstr "Vyberte profil, ktorý chcete odstrániť"
+msgstr "Vyberte profil, ktorý chcete odstrániť:"
 
 #: modules/gui/macosx/ConvertAndSave.m:461
 msgid "%@ stream to %@:%@"
@@ -18045,7 +18045,7 @@ msgstr ""
 "automaticky IP adresu vášho počítača.\n"
 "\n"
 "Ak chcete otvoriť stream pomocou iného protokolu, zatvorte toto okno "
-"stlačením tlačidla Storno (Cancel)."
+"stlačením tlačidla Zrušiť."
 
 #: modules/gui/macosx/open.m:189
 msgid ""
@@ -18764,7 +18764,7 @@ msgstr "Nenastavené"
 #: modules/gui/macosx/TrackSynchronization.m:61
 #: modules/gui/qt4/components/extended_panels.cpp:1464
 msgid "Audio/Video"
-msgstr "Zvuk/Video"
+msgstr "Zvuk / video"
 
 #: modules/gui/macosx/TrackSynchronization.m:62
 #: modules/gui/qt4/components/extended_panels.cpp:1468
@@ -18783,7 +18783,7 @@ msgstr "Kladná hodnota znamená, že zvuk bude v predstihu pred videom"
 #: modules/gui/macosx/TrackSynchronization.m:65
 #: modules/gui/qt4/components/extended_panels.cpp:1476
 msgid "Subtitles/Video"
-msgstr "Titulky/Video"
+msgstr "Titulky / video"
 
 #: modules/gui/macosx/TrackSynchronization.m:66
 #: modules/gui/qt4/components/extended_panels.cpp:1480
@@ -18862,7 +18862,7 @@ msgstr "Farba"
 
 #: modules/gui/macosx/VideoEffects.m:89
 msgid "Image Adjust"
-msgstr "Prispôsobiť obrázok"
+msgstr "Prispôsobiť obraz"
 
 #: modules/gui/macosx/VideoEffects.m:93
 #: modules/gui/qt4/ui/video_effects.h:1305
@@ -19047,7 +19047,7 @@ msgstr "Efekt vody"
 
 #: modules/gui/macosx/VideoEffects.m:161 modules/video_filter/anaglyph.c:73
 msgid "Anaglyph"
-msgstr "Anaglyph"
+msgstr "Anaglyf"
 
 #: modules/gui/macosx/VideoEffects.m:163
 #: modules/gui/qt4/ui/video_effects.h:1366
@@ -19260,8 +19260,7 @@ msgstr ""
 "Túto voľbu použite v prípade, že chcete stream odosielať na viaceré počítače "
 "a použiť pritom protokol Microsoft MMS. Tento protokol sa používa v mnohých "
 "programoch firmy Microsoft. Pamätajte ale na to, že momentálne je "
-"podporovaná len malá časť protokolu MMS, nie celý protokol (podporované je "
-"len MMS skryté v protokole HTTP)."
+"podporovaná len malá časť protokolu MMS (MMS skryté v protokole HTTP)."
 
 #: modules/gui/macosx/wizard.m:270 modules/gui/macosx/wizard.m:280
 msgid "Enter the address of the computer to stream to."
@@ -20002,8 +20001,8 @@ msgstr "Shift+L"
 #: modules/gui/qt4/components/controller.cpp:444
 msgid "Click to toggle between loop all, loop one and no loop"
 msgstr ""
-"Prepnutie medzi jednorázovým opakovaním, opakovaním celého prvku a vypnutie "
-"opakovania"
+"Kliknutím zapnete opakovanie všetkých položiek, zopakovanie jedenkrát, alebo "
+"opakovanie vypnete"
 
 #: modules/gui/qt4/components/controller.cpp:535
 msgid "Previous Chapter/Title"
@@ -20806,8 +20805,8 @@ msgstr ""
 #: modules/gui/qt4/components/simple_preferences.cpp:719
 msgid "This is VLC's skinnable interface. You can download other skins at"
 msgstr ""
-"Toto je skinovateľné rozhranie programu VLC. Súbory s novým vzhľadom si "
-"môžete stiahnuť na adrese"
+"Toto je rozhranie programu VLC, ktoré umožňuje zmenu vzhľadu. Súbory s novým "
+"vzhľadom si môžete stiahnuť na adrese"
 
 #: modules/gui/qt4/components/simple_preferences.cpp:721
 msgid "VLC skins website"
@@ -20848,7 +20847,7 @@ msgstr "Po&užiť"
 #: modules/gui/qt4/dialogs/preferences.cpp:92
 #: modules/gui/qt4/dialogs/toolbar.cpp:200
 msgid "&Cancel"
-msgstr "&Storno"
+msgstr "&Zrušiť"
 
 #: modules/gui/qt4/components/sout/profile_selector.cpp:52
 #: modules/gui/qt4/dialogs/toolbar.cpp:151
@@ -21301,7 +21300,7 @@ msgstr "&Hľadať:"
 
 #: modules/gui/qt4/dialogs/plugins.cpp:209
 msgid "Get more extensions from"
-msgstr "Získať viac rozšírení z"
+msgstr "Viac rozšírení nájdete na stránke: "
 
 #: modules/gui/qt4/dialogs/plugins.cpp:239
 msgid "More information..."
@@ -21764,7 +21763,7 @@ msgstr "Ctrl+L"
 
 #: modules/gui/qt4/menus.cpp:485
 msgid "Docked Playlist"
-msgstr "Dokovaný playlist"
+msgstr "Ukotvený playlist"
 
 #: modules/gui/qt4/menus.cpp:496
 msgid "Mi&nimal Interface"
@@ -22281,11 +22280,11 @@ msgstr ""
 #: modules/gui/skins2/src/skin_main.cpp:479
 #: modules/gui/skins2/src/skin_main.cpp:480
 msgid "Use a skinned playlist"
-msgstr "Použiť skinovateľný playlist"
+msgstr "Použiť playlist umožňujúci zmenu vzhľadu"
 
 #: modules/gui/skins2/src/skin_main.cpp:481
 msgid "Display video in a skinned window if any"
-msgstr "Zobraziť video v skinovanom okne, ak je k dispozícii"
+msgstr "Zobraziť video v okne s iným vzhľadom, ak je k dispozícii"
 
 #: modules/gui/skins2/src/skin_main.cpp:483
 msgid ""
@@ -24765,7 +24764,7 @@ msgstr "Filter vlastností obrázka"
 
 #: modules/video_filter/adjust.c:83 modules/gui/qt4/ui/video_effects.h:1302
 msgid "Image adjust"
-msgstr "Prispôsobiť obrázok"
+msgstr "Prispôsobiť obraz"
 
 #: modules/video_filter/alphamask.c:40
 msgid "Use an image's alpha channel as a transparency mask."
@@ -24799,7 +24798,7 @@ msgstr "Definujte farebnú schému okuliarov"
 #: modules/video_filter/anaglyph.c:72
 msgid "Convert 3D picture to anaglyph image video filter"
 msgstr ""
-"Konvertovať 3D obrázok do obrázka typu anaglyph pomocou tohto filtra videa"
+"Konvertovať 3D obrázok na obrázok typu anaglyf pomocou tohto filtra videa"
 
 #: modules/video_filter/antiflicker.c:50
 msgid "Window size"
@@ -25005,7 +25004,7 @@ msgstr "Modrá zložka farby pri pozastavení"
 
 #: modules/video_filter/atmo/atmo.cpp:213
 msgid "Pause-Fadesteps"
-msgstr "Pozastavenie - kroky vybledávania"
+msgstr "Pozastavenie - kroky vyblednutia"
 
 #: modules/video_filter/atmo/atmo.cpp:214
 msgid ""
@@ -25040,7 +25039,7 @@ msgstr "Modrá zložka vo farbe pri vypnutí"
 
 #: modules/video_filter/atmo/atmo.cpp:223
 msgid "End-Fadesteps"
-msgstr "Koniec-počet krokov vybledávania"
+msgstr "Koniec-počet krokov vyblednutia"
 
 #: modules/video_filter/atmo/atmo.cpp:224
 msgid ""
@@ -25497,7 +25496,7 @@ msgstr ""
 #: modules/video_filter/audiobargraph_v.c:88
 #: modules/video_filter/audiobargraph_v.c:106
 msgid "Audio Bar Graph Video sub source"
-msgstr "Sub-zdroj pre graf so stĺpcami zvuku vo videu"
+msgstr "Podradený zdroj pre graf so stĺpcami zvuku vo videu"
 
 #: modules/video_filter/audiobargraph_v.c:89
 msgid "Audio Bar Graph Video"
@@ -25776,7 +25775,8 @@ msgstr ""
 #: modules/video_filter/clone.c:47
 msgid "Duplicate your video to multiple windows and/or video output modules"
 msgstr ""
-"Duplikovať vaše video do viacerých okien a/alebo výstupných modulov pre video"
+"Vytvorte kópiu vášho videa vo viacerých oknách a/alebo výstupných moduloch "
+"pre video"
 
 #: modules/video_filter/clone.c:55
 msgid "Clone video filter"
@@ -25845,27 +25845,27 @@ msgstr "Počet pixelov, ktoré sa orežú z pravej časti obrázka."
 
 #: modules/video_filter/croppadd.c:59
 msgid "Pixels to padd to top"
-msgstr "Počet pixelov na vyplnenie videa zhora"
+msgstr "Počet pixelov na vyplnenie zhora"
 
 #: modules/video_filter/croppadd.c:61
 msgid "Number of pixels to padd to the top of the image after cropping."
-msgstr "Počet pixelov na vyplnenie v hornej časti obrázka po jeho orezaní."
+msgstr "Počet pixelov na vyplnenie v hornej časti obrazu po jeho orezaní."
 
 #: modules/video_filter/croppadd.c:62
 msgid "Pixels to padd to bottom"
-msgstr "Počet pixelov na vyplnenie videa zdola"
+msgstr "Počet pixelov na vyplnenie zdola"
 
 #: modules/video_filter/croppadd.c:64
 msgid "Number of pixels to padd to the bottom of the image after cropping."
-msgstr "Počet pixelov na vyplnenie v dolnej časti obrázka po jeho orezaní."
+msgstr "Počet pixelov na vyplnenie v dolnej časti obrazu po jeho orezaní."
 
 #: modules/video_filter/croppadd.c:65
 msgid "Pixels to padd to left"
-msgstr "Počet pixelov na vyplnenie videa zľava"
+msgstr "Počet pixelov na vyplnenie zľava"
 
 #: modules/video_filter/croppadd.c:67
 msgid "Number of pixels to padd to the left of the image after cropping."
-msgstr "Počet pixelov na vyplnenie v ľavej časti obrázka po jeho orezaní."
+msgstr "Počet pixelov na vyplnenie v ľavej časti obrazu po jeho orezaní."
 
 #: modules/video_filter/croppadd.c:68
 msgid "Pixels to padd to right"
@@ -25873,7 +25873,7 @@ msgstr "Počet pixelov na vyplnenie sprava"
 
 #: modules/video_filter/croppadd.c:70
 msgid "Number of pixels to padd to the right of the image after cropping."
-msgstr "Počet pixelov na vyplnenie v pravej časti obrázka po jeho orezaní."
+msgstr "Počet pixelov na vyplnenie v pravej časti obrazu po jeho orezaní."
 
 #: modules/video_filter/croppadd.c:78
 msgid "Cropadd"
@@ -26206,7 +26206,7 @@ msgstr "Filter odstraňovača šumu High Quality 3D Denoiser"
 
 #: modules/video_filter/invert.c:50
 msgid "Invert video filter"
-msgstr "Filter pre invertovanie (obrátenie) videa"
+msgstr "Filter pre invertovanie videa"
 
 #: modules/video_filter/invert.c:51
 msgid "Color inversion"
@@ -26276,7 +26276,7 @@ msgstr "Použiť lokálne umiestnený obrázok ako logo vo videu"
 
 #: modules/video_filter/logo.c:92
 msgid "Logo sub source"
-msgstr "Sub-zdroj pre logo"
+msgstr "Podradený zdroj pre logo"
 
 #: modules/video_filter/logo.c:93
 msgid "Logo overlay"
@@ -26573,19 +26573,19 @@ msgstr ""
 
 #: modules/video_filter/mosaic.c:134
 msgid "Keep aspect ratio"
-msgstr "Dodržiavať stranový pomer"
+msgstr "Zachovať stranový pomer"
 
 #: modules/video_filter/mosaic.c:136
 msgid "Keep the original aspect ratio when resizing mosaic elements."
-msgstr "Pri zmene šírky prvkov v mozaike dodržiavať stranový pomer."
+msgstr "Pri zmene šírky prvkov v mozaike zachovať pôvodný stranový pomer."
 
 #: modules/video_filter/mosaic.c:138
 msgid "Keep original size"
-msgstr "Dodržiavať originálnu veľkosť"
+msgstr "Zachovať pôvodnú veľkosť"
 
 #: modules/video_filter/mosaic.c:140
 msgid "Keep the original size of mosaic elements."
-msgstr "Dodržiavať originálnu veľkosť prvkov mozaiky."
+msgstr "Zachovať pôvodnú veľkosť prvkov mozaiky."
 
 #: modules/video_filter/mosaic.c:142
 msgid "Elements order"
@@ -26639,7 +26639,7 @@ msgstr "súradnice"
 
 #: modules/video_filter/mosaic.c:176
 msgid "Mosaic video sub source"
-msgstr "Sub-zdroj pre video mozaiky"
+msgstr "Podradený zdroj pre mozaikové video"
 
 #: modules/video_filter/mosaic.c:177
 msgid "Mosaic"
@@ -26849,7 +26849,7 @@ msgstr "Zadajte v percentách koeficient Lagrange na konci zmiešanej zóny"
 
 #: modules/video_filter/panoramix.c:118
 msgid "middle position (in %)"
-msgstr "stredná pozícia (v %)"
+msgstr "Stredná pozícia (v %)"
 
 #: modules/video_filter/panoramix.c:119
 msgid ""
@@ -27064,7 +27064,7 @@ msgstr "Najviac"
 
 #: modules/video_filter/psychedelic.c:54
 msgid "Psychedelic video filter"
-msgstr "Filter videa Psychedelic"
+msgstr "Filter na zintenzívnenie vnemov z videa"
 
 #: modules/video_filter/puzzle.c:51 modules/video_filter/puzzle.c:52
 msgid "Number of puzzle rows"
@@ -27093,7 +27093,7 @@ msgstr "Šírka okraja bez zmiešavania."
 
 #: modules/video_filter/puzzle.c:59
 msgid "Small preview"
-msgstr "Mlý náhľad"
+msgstr "Malý náhľad"
 
 #: modules/video_filter/puzzle.c:60
 msgid "Show small preview."
@@ -27125,7 +27125,7 @@ msgstr "Oneskorenie automatického zamiešavania počas hry"
 
 #: modules/video_filter/puzzle.c:67
 msgid "Auto solve"
-msgstr "Automatické riešenie"
+msgstr "Automatické rozpustenie"
 
 #: modules/video_filter/puzzle.c:68
 msgid "Auto solve delay during game"
@@ -29232,7 +29232,7 @@ msgstr "Hardvérovo akcelerované dekódovanie"
 
 #: modules/gui/qt4/ui/sprefs_input.h:346
 msgid "Skip H.264 in-loop deblocking filter"
-msgstr "Preskočiť deblokovací filter H.264 in loop"
+msgstr "Preskočiť deblokovací filter H.264 v slučke"
 
 #: modules/gui/qt4/ui/sprefs_input.h:347
 msgid "Video quality post-processing level"
@@ -29275,9 +29275,8 @@ msgid "Default caching policy"
 msgstr "Predvolená politika ukladania do vyrovnávacej pamäti "
 
 #: modules/gui/qt4/ui/sprefs_interface.h:514
-#, fuzzy
 msgid "Menus language:"
-msgstr "Jazyk zvukovej stopy"
+msgstr "Jazyk ponúk v menu:"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:515
 msgid "Look and feel"
@@ -29285,7 +29284,7 @@ msgstr "Vzhľad a dojem"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:516
 msgid "Use custom skin"
-msgstr "Použiť užívateľom vybraný vzhľad"
+msgstr "Používateľom vybraný vzhľad"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:518
 msgid "This is VLC's default interface, with a native look and feel."
@@ -29337,7 +29336,7 @@ msgstr "Playlisty a inštancie"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:532
 msgid "Album art download policy:"
-msgstr "Metóda sťahovania druhu albumu:"
+msgstr "Stiahnuť druh albumu:"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:535
 msgid "Pause on the last frame of a video"
@@ -29599,11 +29598,11 @@ msgstr "Priestorové rozmazanie"
 
 #: modules/gui/qt4/ui/video_effects.h:1398
 msgid "Mirror"
-msgstr "Mirror (zrkadlo)"
+msgstr "Zrkadlový efekt"
 
 #: modules/gui/qt4/ui/video_effects.h:1400
 msgid "Anaglyph 3D"
-msgstr "Anaglyph 3D"
+msgstr "Anaglyf 3D"
 
 #: modules/gui/qt4/ui/vlm.h:287
 msgid "VLM configurator"
@@ -31805,8 +31804,9 @@ msgstr "Zoznam správcov médií"
 #~ "This file countains an optional CRL to prevent remote clients from using "
 #~ "revoked certificates in TLS sessions."
 #~ msgstr ""
-#~ "Súbor obsahuje doplnkové CRL na zabránenie tomu, aby vzdialení klienti "
-#~ "používali zamietnuté certifikáty v sedeniach TLS."
+#~ "Tento súbor obsahuje doplnkový zoznam zrušených certifikátov na "
+#~ "zabránenie tomu, aby vzdialení klienti používali zamietnuté certifikáty v "
+#~ "reláciách TLS."
 
 #, fuzzy
 #~ msgid ""
@@ -32198,7 +32198,7 @@ msgstr "Zoznam správcov médií"
 
 #, fuzzy
 #~ msgid "Defines if BarGraph information should be sent (default 1)"
-#~ msgstr "Definuje, či sa má odoslať informácia BarGraph"
+#~ msgstr "Odoslanie informácie BarGraph"
 
 #, fuzzy
 #~ msgid "Sends the barGraph information every n audio packets (default 4)"
@@ -32206,7 +32206,7 @@ msgstr "Zoznam správcov médií"
 
 #, fuzzy
 #~ msgid "Defines if silence alarm information should be sent (default 1)"
-#~ msgstr "Definuje, či sa má odoslať informácia o alarme"
+#~ msgstr "Odoslanie informácie o alarme"
 
 #, fuzzy
 #~ msgid "Time window to use in ms (default 5000)"
@@ -32626,7 +32626,7 @@ msgstr "Zoznam správcov médií"
 
 #, fuzzy
 #~ msgid "Video aspect ratio"
-#~ msgstr "Dodržiavať stranový pomer"
+#~ msgstr "Zachovať stranový pomer"
 
 #, fuzzy
 #~ msgid ""
