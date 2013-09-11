@@ -28,8 +28,8 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-09-08 20:08+0200\n"
-"PO-Revision-Date: 2013-08-09 01:05+0000\n"
-"Last-Translator: Aputsiaĸ Niels Janussen <aj@isit.gl>\n"
+"PO-Revision-Date: 2013-09-09 08:20+0000\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Danish (http://www.transifex.com/projects/p/vlc-trans/"
 "language/da/)\n"
 "Language: da\n"
@@ -3217,7 +3217,7 @@ msgstr ""
 
 #: src/libvlc-module.c:840
 msgid "HTTP/TLS Certificate Revocation List"
-msgstr ""
+msgstr "Liste med tilbagekaldelser af HTTP/TLS-certifikater"
 
 #: src/libvlc-module.c:842
 msgid ""
@@ -4297,19 +4297,21 @@ msgstr "Vælg genvejstasten der formindsker undertekstforsinkelsen."
 
 #: src/libvlc-module.c:1302
 msgid "Subtitle sync / bookmark audio timestamp"
-msgstr ""
+msgstr "Synk. af undertekster / bogmærke for lydtidsstempel"
 
 #: src/libvlc-module.c:1303
 msgid "Select the key to bookmark audio timestamp when syncing subtitles."
 msgstr ""
+"Vælg tasten som bogmærker lydtidsstempel når undertekster synkroniseres."
 
 #: src/libvlc-module.c:1304
 msgid "Subtitle sync / bookmark subtitle timestamp"
-msgstr ""
+msgstr "Synk. af undertekster / bogmærke for lydtidsstempel"
 
 #: src/libvlc-module.c:1305
 msgid "Select the key to bookmark subtitle timestamp when syncing subtitles."
 msgstr ""
+"Vælg tasten som bogmærker lydtidsstempel når undertekster synkroniseres."
 
 #: src/libvlc-module.c:1306
 msgid "Subtitle sync / synchronize audio & subtitle timestamps"
@@ -5803,15 +5805,16 @@ msgstr ""
 
 #: modules/access/bluray.c:284
 msgid "AACS Host certificate revoked."
-msgstr ""
+msgstr "AACS-værtscertifikat  er tilbagekaldt."
 
 #: modules/access/bluray.c:287
 msgid "AACS MMC failed."
-msgstr ""
+msgstr "AACS MMC mislykkedes."
 
 #: modules/access/bluray.c:293
 msgid "Your system AACS decoding library does not work. Missing keys?"
 msgstr ""
+"Dit systems AACS-afkodningsbibliotek fungerer ikke. Mangler der nøgler?"
 
 #: modules/access/bluray.c:303
 msgid ""
@@ -5822,6 +5825,7 @@ msgstr ""
 #: modules/access/bluray.c:308
 msgid "Your system BD+ decoding library does not work. Missing configuration?"
 msgstr ""
+"Dit systems afkodningsbibliotek for BD+ fungerer ikke. Mangles der opsætning?"
 
 #: modules/access/bluray.c:370
 msgid "Blu-ray error"
@@ -6780,7 +6784,7 @@ msgstr "Kunne ikke læse fil"
 #: modules/access/file.c:177
 #, c-format
 msgid "VLC could not open the file \"%s\" (%m)."
-msgstr ""
+msgstr "VLC kunne ikke åbne filen \"%s\" (%m)."
 
 #: modules/access/file.c:299
 #, c-format
@@ -6995,7 +6999,7 @@ msgstr ""
 
 #: modules/access/http.c:91
 msgid "User Agent"
-msgstr ""
+msgstr "Brugeragent"
 
 #: modules/access/http.c:92
 msgid ""
@@ -7030,7 +7034,7 @@ msgstr "Dummy"
 
 #: modules/access/idummy.c:43
 msgid "Dummy input"
-msgstr ""
+msgstr "Attrap-inddata"
 
 #: modules/access/imem.c:49 modules/gui/qt4/components/playlist/sorting.h:54
 #: modules/stream_out/bridge.c:41 modules/stream_out/mosaic_bridge.c:105
@@ -7195,7 +7199,7 @@ msgstr "JACK-input"
 #: modules/access/linsys/linsys_hdsdi.c:72
 #: modules/access/linsys/linsys_sdi.c:67
 msgid "Link #"
-msgstr ""
+msgstr "Link #"
 
 #: modules/access/linsys/linsys_hdsdi.c:74
 #: modules/access/linsys/linsys_sdi.c:69
@@ -9749,15 +9753,15 @@ msgstr ""
 
 #: modules/audio_filter/resampler/src.c:49
 msgid "Sinc function (best quality)"
-msgstr ""
+msgstr "Sinc-funktion (bedste kvalitet)"
 
 #: modules/audio_filter/resampler/src.c:49
 msgid "Sinc function (medium quality)"
-msgstr ""
+msgstr "Sinc-funktion (mellemkvalitet)"
 
 #: modules/audio_filter/resampler/src.c:50
 msgid "Sinc function (fast)"
-msgstr ""
+msgstr "Sinc-funktion (hurtig)"
 
 #: modules/audio_filter/resampler/src.c:50
 msgid "Zero Order Hold (fastest)"
@@ -9765,7 +9769,7 @@ msgstr ""
 
 #: modules/audio_filter/resampler/src.c:50
 msgid "Linear (fastest)"
-msgstr ""
+msgstr "Lineær (hurtigst)"
 
 #: modules/audio_filter/resampler/src.c:58
 msgid "SRC resampler"
@@ -11753,15 +11757,15 @@ msgstr ""
 
 #: modules/codec/schroedinger.c:78
 msgid "Constant bitrate mode (CBR)"
-msgstr ""
+msgstr "Tilstand med konstant bitrate (CBR)"
 
 #: modules/codec/schroedinger.c:79
 msgid "Low Delay mode"
-msgstr ""
+msgstr "Tilstand med lav forsinkelse"
 
 #: modules/codec/schroedinger.c:80
 msgid "Lossless mode"
-msgstr ""
+msgstr "Tabsfri tilstand"
 
 #: modules/codec/schroedinger.c:81
 msgid "Constant lambda mode"
@@ -11861,7 +11865,7 @@ msgstr ""
 
 #: modules/codec/schroedinger.c:152
 msgid "Low Pass Filter"
-msgstr ""
+msgstr "Lavpasfilter"
 
 #: modules/codec/schroedinger.c:173
 msgid "Size of motion compensation blocks"
@@ -27611,9 +27615,8 @@ msgid "Default caching policy"
 msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:514
-#, fuzzy
 msgid "Menus language:"
-msgstr "Sprog for lydspor"
+msgstr "Menusprog:"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:515
 msgid "Look and feel"
@@ -30059,10 +30062,6 @@ msgstr "Mediestyringsliste"
 #~ msgstr "Lader dig skalere videoen før encoding"
 
 #, fuzzy
-#~ msgid "HTTP interace Certificates Revocation List file."
-#~ msgstr "CRL-fil (Certificate Revocation List) til HTTP-grænseflade"
-
-#, fuzzy
 #~ msgid ""
 #~ "Override the normal frames per second settings. This will only affect "
 #~ "frame-based subtitle formats without a fixed value."
@@ -30436,6 +30435,10 @@ msgstr "Mediestyringsliste"
 
 #~ msgid "_Modules..."
 #~ msgstr "_Moduler..."
+
+#, fuzzy
+#~ msgid "HTTP interace Certificates Revocation List file."
+#~ msgstr "Liste med tilbagekaldelser af HTTP/TLS-certifikater"
 
 #, fuzzy
 #~ msgid "Add a subtitle file"
@@ -31301,7 +31304,7 @@ msgstr "Mediestyringsliste"
 
 #, fuzzy
 #~ msgid "Low Pass Ffilter"
-#~ msgstr "Logo-videofilter"
+#~ msgstr "Lavpasfilter"
 
 #, fuzzy
 #~ msgid "Duration in second"
@@ -31964,7 +31967,7 @@ msgstr "Mediestyringsliste"
 
 #, fuzzy
 #~ msgid "VLC could not open the ALSA device \"%s\" (%s)."
-#~ msgstr "DVDRead kunne ikke åbne disken \"%s\"."
+#~ msgstr "VLC kunne ikke åbne filen \"%s\" (%m)."
 
 #, fuzzy
 #~ msgid "Unknown soundcard"
