@@ -136,6 +136,10 @@ ffmpeg: ffmpeg-$(HASH).tar.gz .sum-ffmpeg
 	rm -Rf $@ $@-$(HASH)
 	mkdir -p $@-$(HASH)
 	$(ZCAT) "$<" | (cd $@-$(HASH) && tar xv --strip-components=1)
+
+	# this patch is only needed for libav version b1f9cdc37ff5d5b391d2cd9af737ab4e5a0fc1c0
+	$(APPLY) $(SRC)/ffmpeg/fix-vda-memleak.patch
+
 	$(MOVE)
 
 .ffmpeg: ffmpeg
