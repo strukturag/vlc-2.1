@@ -13,7 +13,7 @@
 # MartinB. <martin-boeh@outlook.com>, 2013
 # Mathias C. Berens | welcome-soft <berens at welcome-soft.de>, 2006
 # Michael <mister.choc@gmx.at>, 2013
-# Michał Trzebiatowski <hippie_1968@hotmail.com>, 2010,2012
+# Michał Trzebiatowski <hippie_1968@hotmail.com>, 2010,2012,2013
 # Philipp Weissenbacher <philippweissenbacher _at_ aon.at>, 2004
 # thillux, 2013
 # Thomas Graf <tgr at reeler.org>, 2002
@@ -22,8 +22,8 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-09-08 20:08+0200\n"
-"PO-Revision-Date: 2013-08-23 07:59+0000\n"
-"Last-Translator: Christoph Miebach <christoph.miebach@web.de>\n"
+"PO-Revision-Date: 2013-09-11 09:04+0000\n"
+"Last-Translator: Mario Siegmann <mario_siegmann@web.de>\n"
 "Language-Team: German (http://www.transifex.com/projects/p/vlc-trans/"
 "language/de/)\n"
 "Language: de\n"
@@ -3283,7 +3283,7 @@ msgid ""
 "revoked certificates in TLS sessions."
 msgstr ""
 "Diese Datei enthält eine optionale CRL (HTTP/TLS Zertifikats-Widerrufsliste) "
-"um Clienten davor zu bewahren, widerrufene Zertifikate in einer TLS-Sitzung "
+"um Clienten davor zu bewahren, widerrufene Zertifikate in einer TLS-Session "
 "zu verwenden."
 
 #: src/libvlc-module.c:845
@@ -4394,6 +4394,8 @@ msgstr ""
 #: src/libvlc-module.c:1303
 msgid "Select the key to bookmark audio timestamp when syncing subtitles."
 msgstr ""
+"Wählen Sie den Hotkey um den Audio-Zeitstempel beim Synchronisieren von "
+"Untertiteln als Lesezeichen zu setzen."
 
 #: src/libvlc-module.c:1304
 msgid "Subtitle sync / bookmark subtitle timestamp"
@@ -4403,22 +4405,31 @@ msgstr ""
 #: src/libvlc-module.c:1305
 msgid "Select the key to bookmark subtitle timestamp when syncing subtitles."
 msgstr ""
+"Wählen Sie den Hotkey um den Untertitel-Zeitstempel beim Synchronisieren von "
+"Untertiteln als Lesezeichen zu setzen."
 
 #: src/libvlc-module.c:1306
 msgid "Subtitle sync / synchronize audio & subtitle timestamps"
 msgstr ""
+"Untertitel Synchronisation / synchronisiere Audio- und Untertitel-Zeitstempel"
 
 #: src/libvlc-module.c:1307
 msgid "Select the key to synchronize bookmarked audio & subtitle timestamps."
 msgstr ""
+"Wählen Sie den Hotkey um die als Lesezeichen gesetzte Audio- und Untertitel-"
+"Zeitstempel zu synchronisieren."
 
 #: src/libvlc-module.c:1308
 msgid "Subtitle sync / reset audio & subtitle synchronization"
 msgstr ""
+"Untertitel Synchronisation / setze die Audio- und Untertitel-Synchronisation "
+"zurück"
 
 #: src/libvlc-module.c:1309
 msgid "Select the key to reset synchronization of audio & subtitle timestamps."
 msgstr ""
+"Wählen Sie den Hotkey um die Synchronisation von Audio- und Untertitel-"
+"Zeitstempeln zurückzusetzen."
 
 #: src/libvlc-module.c:1310
 msgid "Subtitle position up"
@@ -4612,19 +4623,19 @@ msgstr "Durch die verfügbaren Untertitelspuren wechseln."
 
 #: src/libvlc-module.c:1366
 msgid "Cycle next program Service ID"
-msgstr ""
+msgstr "Nächste Programm-SID tauschen"
 
 #: src/libvlc-module.c:1367
 msgid "Cycle through the available next program Service IDs (SIDs)."
-msgstr ""
+msgstr "Durch die verfügbaren nächsten Programm-SIDs wechseln."
 
 #: src/libvlc-module.c:1368
 msgid "Cycle previous program Service ID"
-msgstr ""
+msgstr "Vorherige Programm-SID tauschen"
 
 #: src/libvlc-module.c:1369
 msgid "Cycle through the available previous program Service IDs (SIDs)."
-msgstr ""
+msgstr "Durch die verfügbaren vorherigen Programm-SIDs wechseln."
 
 #: src/libvlc-module.c:1370
 msgid "Cycle source aspect ratio"
@@ -6744,6 +6755,11 @@ msgid ""
 "selected (1 to 4). If there is no uncommitted switch, this parameter should "
 "be 0."
 msgstr ""
+"Wenn der Satelliten-Receiver mit mehreren rauscharmen Signalumsetzern (LNB) "
+"über eine Kaskade eines ungebundenen DiSEqC 1.1 Switches und eines "
+"gebundenen DiSEqC 1.0 Switches angeschlossen ist, kann das richtige "
+"ungebundene LNB (1 bis 4) ausgewählt werden. Ist kein ungebundener Switch "
+"vorhanden, sollte dieser Parameter 0 sein."
 
 #: modules/access/dtv/access.c:218
 msgid "Network identifier"
@@ -7176,6 +7192,10 @@ msgid ""
 "They must be separated by a forward slash, e.g. FooBar/1.2.3. This option "
 "can only be specified per input item, not globally."
 msgstr ""
+"Der Name und die Version des Programms werden vom HTTP-Server "
+"bereitgestellt. Sie müssen durch einen Schrägstrich getrennt werden, z. B. "
+"FooBar/1.2.3. Diese Option kann nur pro Eingang angegeben werden, nicht "
+"global."
 
 #: modules/access/http.c:98
 msgid "HTTP input"
@@ -7507,6 +7527,8 @@ msgid ""
 "RTSP start frame buffer size of the video track, can be increased in case of "
 "broken pictures due to too small buffer."
 msgstr ""
+"Größe des RTSP Start Frame Puffers der Video-Spur, kann im Falle von "
+"fehlerhaften Bildern, wegen zu kleinem Puffer, erhöht werden."
 
 #: modules/access/live555.cpp:101
 msgid "RTP/RTSP/SDP demuxer (using Live555)"
@@ -7778,6 +7800,8 @@ msgstr "Cache erlauben"
 #: modules/access_output/livehttp.c:80
 msgid "Add EXT-X-ALLOW-CACHE:NO directive in playlist-file if this is disabled"
 msgstr ""
+"Füge die Richtlinie EXT-X-ALLOW-CACHE:NO in die Wiedergabelistendatei, wenn "
+"diese Option deaktiviert ist"
 
 #: modules/access_output/livehttp.c:82
 msgid "Index file"
@@ -7811,7 +7835,7 @@ msgstr "Muxer-Raten Kontrollmechanismen verwenden"
 
 #: modules/access_output/livehttp.c:94
 msgid "AES key URI to place in playlist"
-msgstr ""
+msgstr "Die AES-Schlüssel URI zur Wiedergabeliste hinzufügen"
 
 #: modules/access_output/livehttp.c:96
 msgid "AES key file"
@@ -7824,6 +7848,8 @@ msgstr "Datei die den 16 Byte Verschlüsselungsschlüssel enthält"
 #: modules/access_output/livehttp.c:99
 msgid "File where vlc reads key-uri and keyfile-location"
 msgstr ""
+"Datei, aus welcher vlc die Schlüssel-uri und den Schlüsseldatei-Speicherort "
+"ausliest"
 
 #: modules/access_output/livehttp.c:100
 msgid ""
@@ -7831,6 +7857,9 @@ msgid ""
 "\\nkey-file. File is read on the segment opening and values are used on that "
 "segment."
 msgstr ""
+"Datei wird gelesen, wenn das Segment beginnt und folgendes Format besitzt: "
+"Schlüssel-uri\\nSchlüssel-Datei. Die Datei wird beim Öffnen des Segments "
+"gelesen und Werte werden in diesem Segment verwendet."
 
 #: modules/access_output/livehttp.c:104
 msgid "Use randomized IV for encryption"
@@ -8489,6 +8518,7 @@ msgstr "VBI Aufnahmegerät"
 #: modules/access/v4l2/v4l2.c:48
 msgid "The device node where VBI data can be read  (for closed captions) "
 msgstr ""
+"Geräteknoten, auf dem VBI-Daten gelesen werden können  (für Untertitel) "
 
 #: modules/access/v4l2/v4l2.c:50 modules/stream_out/standard.c:90
 msgid "Standard"
@@ -8527,6 +8557,8 @@ msgid ""
 "The specified pixel resolution is forced (if both width and height are "
 "strictly positive)."
 msgstr ""
+"Die angegebene Pixelauflösung wird erzwungen (wenn Breite und Höhe beide "
+"streng ausschließlich sind)."
 
 #: modules/access/v4l2/v4l2.c:73
 msgid "Radio device"
@@ -8534,7 +8566,7 @@ msgstr "Radio-Gerät"
 
 #: modules/access/v4l2/v4l2.c:74
 msgid "Radio tuner device node."
-msgstr ""
+msgstr "Geräteknoten des Radiotuners"
 
 #: modules/access/v4l2/v4l2.c:75
 #: modules/gui/qt4/components/open_panels.cpp:1060
@@ -9181,6 +9213,7 @@ msgstr "X.509-Zertifizierungsstelle"
 #: modules/access/vnc.c:49
 msgid "Certificate of the Authority to verify server's against"
 msgstr ""
+"Zertifikat der Zertifizierungsstelle, um diese mit dem Server zu überprüfen"
 
 #: modules/access/vnc.c:50
 msgid "X.509 Certificate Revocation List"
@@ -10100,6 +10133,9 @@ msgid ""
 "both channels) and by delaying the signal of left into right and vice versa, "
 "thereby widening the stereo effect."
 msgstr ""
+"Dieser Filter verbessert den Stereo-Effekt durch die Unterdrückung von Mono "
+"(gemeinsames Signal beider Kanäle) und durch die Verzögerung des Signals von "
+"links nach rechts und umgekehrt, wodurch ein Stereo-Effekt verbreitert ist."
 
 #: modules/audio_filter/stereo_widen.c:60
 msgid "Time in ms of the delay of left signal into right and vice versa."
@@ -10111,6 +10147,9 @@ msgid ""
 "delay effect of left signal in right output and vice versa which gives "
 "widening effect."
 msgstr ""
+"Menge der Verstärkung im verzögerten Signal von links nach rechts und "
+"umgekehrt. Gibt einen Verzögerungseffekt dem linken Signal in den rechten "
+"Ausgang und umgekehrt, was eine Erweiterung dem Effekt verleiht."
 
 #: modules/audio_filter/stereo_widen.c:66
 msgid "Crossfeed"
@@ -10122,6 +10161,9 @@ msgid ""
 "the mono. If the value is 1 it will cancel all the signal common to both "
 "channels."
 msgstr ""
+"Quervorschub von links nach rechts mit invertierter Phase. Dies hilft bei "
+"Unterdrückung von Mono. Wenn der Wert 1 ist, wird das Signal für beide "
+"Kanäle abgebrochen."
 
 #: modules/audio_filter/stereo_widen.c:70
 msgid "Dry mix"
@@ -10129,7 +10171,7 @@ msgstr "Trocken Mix"
 
 #: modules/audio_filter/stereo_widen.c:71
 msgid "Level of input signal of original channel."
-msgstr ""
+msgstr "Der Pegelwert des Eingangssignals von ursprünglichen Kanal."
 
 #: modules/audio_filter/stereo_widen.c:77
 msgid "Stereo Enhancer"
@@ -10137,11 +10179,11 @@ msgstr "Stereo-Enhancer"
 
 #: modules/audio_filter/stereo_widen.c:78
 msgid "Simple stereo widening effect"
-msgstr ""
+msgstr "Einfacher Stereo-Erweiterungseffekt"
 
 #: modules/audio_mixer/float.c:49
 msgid "Single precision audio volume"
-msgstr ""
+msgstr "Einzelne Präzisionslautstärke"
 
 #: modules/audio_mixer/integer.c:38
 msgid "Integer audio volume"
@@ -10258,6 +10300,8 @@ msgid ""
 "You should configure your speaker layout with \"Audio Midi Setup\" in /"
 "Applications/Utilities. VLC will output Stereo only."
 msgstr ""
+"Konfigurieren Sie ihre Lautsprecheranordnung mit dem \\\"Audio Midi-Setup\\"
+"\"-Werkzeug unter /Programme/Werkzeuge. VLC wird nur Stereo ausgeben."
 
 #: modules/audio_output/auhal.c:1138
 msgid "System Sound Output Device"
@@ -10290,7 +10334,7 @@ msgstr ""
 
 #: modules/audio_output/directx.c:116
 msgid "Audio volume in hundredths of decibels (dB)."
-msgstr ""
+msgstr "Tonlautstärke in Hunderten Dezibel (dB)."
 
 #: modules/audio_output/directx.c:119
 msgid "DirectX audio output"
@@ -10398,7 +10442,7 @@ msgstr "OpenSLES"
 
 #: modules/audio_output/oss.c:68
 msgid "OSS device node path."
-msgstr ""
+msgstr "OSS-Device-Node-Pfad"
 
 #: modules/audio_output/oss.c:72
 msgid "Open Sound System audio output"
@@ -10700,11 +10744,11 @@ msgstr "Dies erlaubt Hardware Dekodierung wenn diese verfügbar ist."
 
 #: modules/codec/avcodec/avcodec.h:139
 msgid "VDA output pixel format"
-msgstr ""
+msgstr "Pixelformat des VDA Ausgangs"
 
 #: modules/codec/avcodec/avcodec.h:140
 msgid "The pixel format for output image buffers."
-msgstr ""
+msgstr "Das Pixelformat für die Ausgabe von Bildpuffern."
 
 #: modules/codec/avcodec/avcodec.h:142
 msgid "Threads"
@@ -11003,8 +11047,8 @@ msgid ""
 "This is not an error inside VLC media player.\n"
 "Do not contact the VideoLAN project about this issue.\n"
 msgstr ""
-"Ihrer Libav/FFMPEG (libavcodec) Installation scheinen der/die folgende(n) "
-"Encoder zu fehlen:\n"
+"Es scheint das Ihrer Libav/FFMPEG (libavcodec) Installation der/die "
+"folgende(n) Encoder fehlen:\n"
 "%s.\n"
 "Wenn Sie nicht wissen wie Sie dies beheben, fragen Sie nach Hilfe von Ihrer "
 "Distribution.\n"
@@ -11398,7 +11442,7 @@ msgstr "Aktiviere Spektralbandreplikation"
 
 #: modules/codec/fdkaac.c:71
 msgid "This is an optional feature only for the AAC-ELD profile"
-msgstr ""
+msgstr "Dies ist eine optionale Funktion nur für das AAC-ELD Profil"
 
 #: modules/codec/fdkaac.c:73
 msgid "VBR Quality"
@@ -11412,23 +11456,27 @@ msgstr ""
 
 #: modules/codec/fdkaac.c:76
 msgid "Enable afterburner library"
-msgstr ""
+msgstr "Aktiviere afterburner-Bibliothek"
 
 #: modules/codec/fdkaac.c:77
 msgid ""
 "This library will produce higher quality audio at the expense of additional "
 "CPU usage (default is enabled)"
 msgstr ""
+"Diese Bibliothek wird höher qualitatives Audio auf Kosten einer größeren CPU-"
+"Auslastung produzieren (standardmäßig aktiviert)."
 
 #: modules/codec/fdkaac.c:79
 msgid "Signaling mode of the extension AOT"
-msgstr ""
+msgstr "Signalisierungsmodus der Erweiterung AOT"
 
 #: modules/codec/fdkaac.c:80
 msgid ""
 "1 is explicit for SBR and implicit for PS (default), 2 is explicit "
 "hierarchical"
 msgstr ""
+"1 ist explizit für SBR und implizit für PS (standardmäßig), 2 ist explizit "
+"hierarchisch"
 
 #: modules/codec/fdkaac.c:97
 msgid "AAC-LC"
@@ -11500,6 +11548,8 @@ msgid ""
 "The polyphony defines how many voices can be played at a time. Larger values "
 "require more processing power."
 msgstr ""
+"Die Polyphonie legt fest, wie viele Stimmen gleichzeitig abgespielt werden "
+"können. Größere Werte erfordern mehr Rechenleistung."
 
 #: modules/codec/fluidsynth.c:60 modules/demux/mod.c:82
 msgid "Reverb"
@@ -11883,7 +11933,7 @@ msgstr "PNG-Videodecoder"
 
 #: modules/codec/qsv.c:56
 msgid "Enable software mode"
-msgstr ""
+msgstr "Aktiviere den Software-Modus"
 
 #: modules/codec/qsv.c:57
 msgid ""
@@ -11893,7 +11943,7 @@ msgstr ""
 
 #: modules/codec/qsv.c:61
 msgid "Codec Profile"
-msgstr ""
+msgstr "Codec-Profil"
 
 #: modules/codec/qsv.c:63
 msgid ""
@@ -11904,7 +11954,7 @@ msgstr ""
 
 #: modules/codec/qsv.c:67
 msgid "Codec Level"
-msgstr ""
+msgstr "Codec-Level"
 
 #: modules/codec/qsv.c:69
 msgid ""
@@ -12053,7 +12103,7 @@ msgstr ""
 
 #: modules/codec/qsv.c:139
 msgid "Number of slices per frame"
-msgstr ""
+msgstr "Anzahl der Scheiben pro Frame"
 
 #: modules/codec/qsv.c:140
 msgid ""
@@ -12061,6 +12111,10 @@ msgid ""
 "block rows. If numslice is not set, the encoder may choose any slice "
 "partitioning allowed by the codec standard."
 msgstr ""
+"Anzahl der Scheiben in jedem Video Frame; jede Scheibe besitzt einen oder "
+"mehrere Makroblock-Reihen. Wenn die Anzahl nicht gesetzt ist, kann der "
+"Encoder eine beliebige Aufteilung der Scheiben wählen, solange es der Codec-"
+"Standard erlaubt."
 
 #: modules/codec/qsv.c:145 modules/codec/qsv.c:146 modules/codec/x264.c:134
 msgid "Number of reference frames"
@@ -12068,7 +12122,7 @@ msgstr "Anzahl von Referenzframes"
 
 #: modules/codec/qsv.c:148
 msgid "Number of parallel operations"
-msgstr ""
+msgstr "Anzahl der parallelen Operationen"
 
 #: modules/codec/qsv.c:149
 msgid ""
@@ -12076,6 +12130,9 @@ msgid ""
 "result. Higher  may result on better throughput depending on hardware. MPEG2 "
 "needs at least 1 here."
 msgstr ""
+"Definiert die Anzahl der parallel durchgeführten Kodierungen, bevor wir das "
+"Ergebnis synchronisieren. Höhere Werte führen zur einen besseren Durchsatz, "
+"ist jedoch abhängig von der Hardware. MPEG2 benötigt hier mindestens 1."
 
 #: modules/codec/qsv.c:193
 msgid "Intel QuickSync Video encoder for MPEG4-Part10/MPEG2 (aka H.264/H.262)"
@@ -13054,13 +13111,15 @@ msgstr ""
 
 #: modules/codec/x264.c:125
 msgid "Use fullrange instead of TV colorrange"
-msgstr ""
+msgstr "Benutze eine vollständige Palette anstelle einer TV-Farbpalette"
 
 #: modules/codec/x264.c:126
 msgid ""
 "TV-range is usually used colorrange, defining this to true will enable "
 "libx264 to use full colorrange on encoding"
 msgstr ""
+"Die TV-Palette verwendet in der Regel eine Farbpalette, die Einstellung true "
+"aktiviert libx264, um die volle Farbpalette bei der Kodierung zu benutzen"
 
 #: modules/codec/x264.c:129
 msgid "CABAC"
@@ -13143,7 +13202,7 @@ msgstr "Pure-interlaced-Modus"
 
 #: modules/codec/x264.c:164
 msgid "Frame packing"
-msgstr ""
+msgstr "Frame-Paketierung"
 
 #: modules/codec/x264.c:165
 msgid ""
@@ -13155,6 +13214,13 @@ msgid ""
 " 4: top bottom - L is on top, R on bottom\n"
 " 5: frame alternation - one view per frame"
 msgstr ""
+"Definieren Sie die Frame-Anordnung für stereoskopische Videos:\n"
+" 0: Schachbrettmuster - Pixel sind wahlweise von L und R\n"
+" 1: Spalten-Wechsel - L und R werden durch Spalten verschachtelt\n"
+" 2: Zeilen-Wechsel - L und R werden durch Zeilen verschachtelt\n"
+" 3: Nebeneinander - L ist auf der linken Seite, R auf der rechten\n"
+" 4: oben unten - L ist auf der Oberseite, R auf der Unterseite\n"
+" 5: Frame-Wechsel - eine Ansicht pro Frame"
 
 #: modules/codec/x264.c:173
 msgid "Use Periodic Intra Refresh"
@@ -13748,11 +13814,11 @@ msgstr "HRD-Timing-Information"
 
 #: modules/codec/x264.c:409
 msgid "Default tune setting used"
-msgstr ""
+msgstr "Standard Abstimmungseinstellung verwendet"
 
 #: modules/codec/x264.c:410
 msgid "Default preset setting used"
-msgstr ""
+msgstr "Standard Voreinstellung verwendet"
 
 #: modules/codec/x264.c:412
 msgid "x264 advanced options."
@@ -13760,7 +13826,7 @@ msgstr "Erweiterte x264 Optionen."
 
 #: modules/codec/x264.c:413
 msgid "x264 advanced options, in the form {opt=val,op2=val2} ."
-msgstr ""
+msgstr "Erweiterte x264 Optionen in Form {option=wert,option2=wert2} ."
 
 #: modules/codec/x264.c:418
 msgid "dia"
@@ -13809,7 +13875,7 @@ msgstr "Temporal"
 
 #: modules/codec/x264.c:439
 msgid "checkerboard"
-msgstr "Schachbrett"
+msgstr "Schachbrettmuster"
 
 #: modules/codec/x264.c:439
 msgid "column alternation"
@@ -13825,7 +13891,7 @@ msgstr "Nebeneinander"
 
 #: modules/codec/x264.c:439
 msgid "top bottom"
-msgstr ""
+msgstr "oben unten"
 
 #: modules/codec/x264.c:439
 msgid "frame alternation"
@@ -13984,7 +14050,7 @@ msgstr "Hotkey-Steuerungsinterface"
 
 #: modules/control/hotkeys.c:188
 msgid "One"
-msgstr ""
+msgstr "Eins"
 
 #: modules/control/hotkeys.c:195
 #, c-format
@@ -14011,7 +14077,7 @@ msgstr "Aufnahme fertig"
 
 #: modules/control/hotkeys.c:403
 msgid "Sub sync: bookmarked audio time"
-msgstr ""
+msgstr "Untertitel Sync: als Lesezeichen gesetzte Audio-Zeit"
 
 #: modules/control/hotkeys.c:418 modules/control/hotkeys.c:487
 msgid "No active subtitle"
@@ -14019,20 +14085,20 @@ msgstr "Keine aktiven Untertitel"
 
 #: modules/control/hotkeys.c:424
 msgid "Sub sync: bookmarked subtitle time"
-msgstr ""
+msgstr "Untertitel Sync: als Lesezeichen gesetzte Untertitel-Zeit"
 
 #: modules/control/hotkeys.c:444
 msgid "Sub sync: set bookmarks first!"
-msgstr ""
+msgstr "Untertitel Sync: zunächst Lesezeichen setzen!"
 
 #: modules/control/hotkeys.c:453
 #, c-format
 msgid "Sub sync: corrected %i ms (total delay = %i ms)"
-msgstr ""
+msgstr "Untertitel Sync: korrigiert %i ms (Gesamtverzögerung = %i ms)"
 
 #: modules/control/hotkeys.c:466
 msgid "Sub sync: delay reset"
-msgstr ""
+msgstr "Untertitel Sync: Verzögerung zurücksetzen"
 
 #: modules/control/hotkeys.c:495
 #, c-format
@@ -14061,7 +14127,7 @@ msgstr "n/v"
 #: modules/control/hotkeys.c:607 modules/control/hotkeys.c:639
 #, c-format
 msgid "Program Service ID: %s"
-msgstr ""
+msgstr "Program Service ID: %s"
 
 #: modules/control/hotkeys.c:763
 #, c-format
@@ -14488,7 +14554,7 @@ msgstr "| voldown [X]  . . . . . . . . Lautstärke um X Stufen verringern"
 
 #: modules/control/rc.c:824
 msgid "| adev [device]  . . . . . . . .  set/get audio device"
-msgstr ""
+msgstr "| adev [Device]  . . . . . . . .   Ton-Gerät zeigen/einstellen"
 
 #: modules/control/rc.c:825
 msgid "| achan [X]. . . . . . . . . .  set/get audio channels"
@@ -14787,7 +14853,7 @@ msgstr "CDG-Demuxer"
 
 #: modules/demux/demuxdump.c:32
 msgid "Dump module"
-msgstr ""
+msgstr "Dump-Modul"
 
 #: modules/demux/demuxdump.c:33
 msgid "Dump filename"
@@ -15717,7 +15783,7 @@ msgstr "Covertext"
 
 #: modules/demux/mp4/mp4.c:1087
 msgid "Phonogram Rights"
-msgstr ""
+msgstr "Tonträgerrechte"
 
 #: modules/demux/mp4/mp4.c:1089
 msgid "Sound Engineer"
@@ -16087,6 +16153,8 @@ msgid ""
 "Force the subtiles format. Selecting \"auto\" means autodetection and should "
 "always work."
 msgstr ""
+"Erzwinge das Untertitel Format. Die Auswahl von \"auto\" bedeutet eine "
+"automatische Erkennung und sollte immer funktionieren."
 
 #: modules/demux/subtitle.c:58
 msgid "Override the default track description."
@@ -16369,6 +16437,7 @@ msgstr "Autoren"
 msgid ""
 "VLC media player and VideoLAN are trademarks of the VideoLAN Association."
 msgstr ""
+"VLC media player und VideoLAN sind Warenzeichen der VideoLAN Association."
 
 #: modules/gui/macosx/about.m:115
 msgid "Compiled by %s with %@"
@@ -16662,6 +16731,8 @@ msgid ""
 "Click to go to the previous playlist item. Hold to skip backward through the "
 "current media."
 msgstr ""
+"Klicken Sie, um zum vorherigen Wiedergabelistenobjekt zu wechseln. Halten, "
+"um durch die aktuelle Medium zurück zu springen."
 
 #: modules/gui/macosx/ControlsBar.m:60 modules/gui/macosx/fspanel.m:419
 msgid "Forward"
@@ -16672,12 +16743,16 @@ msgid ""
 "Click to go to the next playlist item. Hold to skip forward through the "
 "current media."
 msgstr ""
+"Klicken Sie, um zum nächsten Wiedergabelistenobjekt zu wechseln. Halten, um "
+"durch die aktuelle Medium nach vorn zu springen."
 
 #: modules/gui/macosx/ControlsBar.m:65 modules/gui/macosx/fspanel.m:445
 msgid ""
 "Click and move the mouse while keeping the button pressed to use this slider "
 "to change current playback position."
 msgstr ""
+"Klicken und bewegen Sie die Maus, während Sie die Taste gedrückt halten, um "
+"mit diesen Schieberegler die aktuelle Position der Wiedergabe zu ändern."
 
 #: modules/gui/macosx/ControlsBar.m:68 modules/gui/macosx/fspanel.m:421
 msgid "Toggle Fullscreen mode"
@@ -16700,6 +16775,9 @@ msgid ""
 "Click to switch between video output and playlist. If no video is shown in "
 "the main window, this allows you to hide the playlist."
 msgstr ""
+"Klicken Sie, um zwischen dem Video-Ausgang und der Wiedergabeliste zu "
+"wechseln. Falls kein Video im Hauptfenster angezeigt wird, können Sie so die "
+"Wiedergabeliste verstecken."
 
 #: modules/gui/macosx/ControlsBar.m:444 modules/gui/qt4/dialogs/vlm.cpp:560
 #: share/lua/http/index.html:241
@@ -16711,6 +16789,8 @@ msgid ""
 "Click to change repeat mode. There are 3 states: repeat one, repeat all and "
 "off."
 msgstr ""
+"Klicken Sie, um den Wiederholungs-Modus zu ändern. Es gibt 3 Zustände: "
+"einzeln wiederholen, alles wiederholen und aus."
 
 #: modules/gui/macosx/ControlsBar.m:448 share/lua/http/index.html:239
 msgid "Shuffle"
@@ -16750,6 +16830,8 @@ msgid ""
 "Click to show an Audio Effects panel featuring an equalizer and further "
 "filters."
 msgstr ""
+"Klicken Sie, um einen Audio-Effektpanel mit einen Equalizer und weiteren "
+"Filtern zu zeigen."
 
 #: modules/gui/macosx/ControlsBar.m:717 modules/gui/macosx/fspanel.m:416
 msgid "Click to go to the previous playlist item."
@@ -16762,10 +16844,12 @@ msgstr "Klicken, um zum nächsten Element in der Wiedergabeliste zu gehen."
 #: modules/gui/macosx/ControlsBar.m:744 modules/gui/macosx/fspanel.m:417
 msgid "Click and hold to skip backward through the current media."
 msgstr ""
+"Klicken und halten Sie, um durch die aktuelle Medium zurück zu springen."
 
 #: modules/gui/macosx/ControlsBar.m:745 modules/gui/macosx/fspanel.m:419
 msgid "Click and hold to skip forward through the current media."
 msgstr ""
+"Klicken und halten Sie, um durch die aktuelle Medium nach vorn zu springen."
 
 #: modules/gui/macosx/ConvertAndSave.m:152
 msgid "Convert & Stream"
@@ -16814,7 +16898,7 @@ msgstr "Durchsuchen..."
 
 #: modules/gui/macosx/ConvertAndSave.m:162
 msgid "Setup Streaming..."
-msgstr ""
+msgstr "Streaming Einstellungen..."
 
 #: modules/gui/macosx/ConvertAndSave.m:164
 msgid "Save as File"
@@ -16882,7 +16966,7 @@ msgstr "Untertitel über das Video legen"
 
 #: modules/gui/macosx/ConvertAndSave.m:194
 msgid "Stream Destination"
-msgstr ""
+msgstr "Stream-Ziel"
 
 #: modules/gui/macosx/ConvertAndSave.m:195
 msgid "Stream Announcement"
@@ -16937,13 +17021,15 @@ msgstr "SDP als Datei exportieren"
 
 #: modules/gui/macosx/ConvertAndSave.m:283
 msgid "Invalid container format for HTTP streaming"
-msgstr ""
+msgstr "Ungültiges Containerformat für HTTP-Streaming"
 
 #: modules/gui/macosx/ConvertAndSave.m:285
 msgid ""
 "Media encapsulated as %@ cannot be streamed through the HTTP protocol for "
 "technical reasons."
 msgstr ""
+"Ein verkapseltes Medium als %@ kann aus technischen Gründen nicht über das "
+"HTTP-Protokoll gestreamt werden."
 
 #: modules/gui/macosx/ConvertAndSave.m:365
 msgid "Save as new profile"
@@ -16967,7 +17053,7 @@ msgstr "Keine Adresse angegeben"
 
 #: modules/gui/macosx/ConvertAndSave.m:473
 msgid "In order to stream, a valid destination address is required."
-msgstr ""
+msgstr "Um zu Streamen, ist eine gültige Zieladresse erforderlich."
 
 #: modules/gui/macosx/ConvertAndSave.m:478
 msgid "No Channel Name given"
@@ -16977,6 +17063,8 @@ msgstr "Kein Kanalname angegeben"
 msgid ""
 "SAP stream announcement is enabled. However, no channel name is provided."
 msgstr ""
+"Die SAP-Stream Ankündigung ist aktiviert. Es wurde jedoch kein Sendername "
+"angegeben."
 
 #: modules/gui/macosx/ConvertAndSave.m:485
 msgid "No SDP URL given"
@@ -16984,7 +17072,7 @@ msgstr "Keine SDP URL angegeben"
 
 #: modules/gui/macosx/ConvertAndSave.m:487
 msgid "A SDP export is requested, but no URL is provided."
-msgstr ""
+msgstr "Ein SDP Export wurde angefragt, aber keine URL angegeben."
 
 #: modules/gui/macosx/ConvertAndSave.m:1048
 #: modules/gui/macosx/simple_prefs.m:566 modules/gui/macosx/simple_prefs.m:590
@@ -17213,6 +17301,9 @@ msgid ""
 "By default, VLC will control its own volume with the Apple Remote. However, "
 "you can choose to control the global system volume instead."
 msgstr ""
+"Standardmäßig können Sie in VLC mit der Apple Fernbedienung die Lautstärke "
+"ändern. Allerdings können Sie wählen, ob Sie stattdessen die globale "
+"Systemlautstärke ändern wollen."
 
 #: modules/gui/macosx/macosx.m:82
 msgid "Control playlist items with the Apple Remote"
@@ -17223,6 +17314,9 @@ msgid ""
 "By default, VLC will allow you to switch to the next or previous item with "
 "the Apple Remote. You can disable this behavior with this option."
 msgstr ""
+"Standardmäßig können Sie in VLC mit der Apple Fernbedienung zum nächsten "
+"oder vorherigen Objekt wechseln. Sie können dieses Verhalten mit dieser "
+"Option deaktivieren."
 
 #: modules/gui/macosx/macosx.m:85 modules/gui/macosx/simple_prefs.m:236
 msgid "Control playback with media keys"
@@ -17309,27 +17403,27 @@ msgstr "Seitenverhältnis sperren"
 
 #: modules/gui/macosx/macosx.m:110 modules/gui/macosx/MainMenu.m:338
 msgid "Show Previous & Next Buttons"
-msgstr ""
+msgstr "Zeige Zurück & Weiter Buttons"
 
 #: modules/gui/macosx/macosx.m:111
 msgid "Shows the previous and next buttons in the main window."
-msgstr ""
+msgstr "Zeigt die Schaltflächen Zurück und Weiter im Hauptfenster."
 
 #: modules/gui/macosx/macosx.m:113 modules/gui/macosx/MainMenu.m:340
 msgid "Show Shuffle & Repeat Buttons"
-msgstr ""
+msgstr "Zeige Shuffle & Schleife Buttons"
 
 #: modules/gui/macosx/macosx.m:114
 msgid "Shows the shuffle and repeat buttons in the main window."
-msgstr ""
+msgstr "Zeigt die Shuffle und Repeat-Schaltflächen im Hauptfenster."
 
 #: modules/gui/macosx/macosx.m:116 modules/gui/macosx/MainMenu.m:342
 msgid "Show Audio Effects Button"
-msgstr ""
+msgstr "Zeige die Audio-Effekt Taste"
 
 #: modules/gui/macosx/macosx.m:117
 msgid "Shows the audio effects button in the main window."
-msgstr ""
+msgstr "Zeigt die Audio-Effekt Taste im Hauptfenster."
 
 #: modules/gui/macosx/macosx.m:119 modules/gui/macosx/MainMenu.m:344
 msgid "Show Sidebar"
@@ -17337,7 +17431,7 @@ msgstr "Seitenleiste anzeigen"
 
 #: modules/gui/macosx/macosx.m:120
 msgid "Shows a sidebar in the main window listing media sources."
-msgstr ""
+msgstr "Zeigt eine Sidebar im Hauptfenster, die Medienquellen aufgelistet."
 
 #: modules/gui/macosx/macosx.m:122
 msgid "Pause iTunes during VLC playback"
@@ -17348,6 +17442,9 @@ msgid ""
 "Pauses iTunes playback when VLC playback starts. If selected, iTunes "
 "playback will be resumed again if VLC playback is finished."
 msgstr ""
+"Unterbricht die Wiedergabe von iTunes, wenn die Wiedergabe von VLC beginnt. "
+"Wenn diese Option ausgewählt ist, wird iTunes die Wiedergabe wieder "
+"fortsetzen, wenn VLC seine Wiedergabe beendet hat."
 
 #: modules/gui/macosx/macosx.m:128
 msgid "Do nothing"
@@ -17379,7 +17476,7 @@ msgstr "Verhalten"
 
 #: modules/gui/macosx/macosx.m:162
 msgid "Apple Remote and media keys"
-msgstr ""
+msgstr "Apple Fernbedienung und Media-Tasten"
 
 #: modules/gui/macosx/macosx.m:177
 msgid "Video output"
@@ -17498,7 +17595,7 @@ msgstr "Ansicht"
 
 #: modules/gui/macosx/MainMenu.m:346
 msgid "Playlist Table Columns"
-msgstr ""
+msgstr "Tabellenspalten der Wiedergabeliste"
 
 #: modules/gui/macosx/MainMenu.m:348
 msgid "Playback"
@@ -17690,12 +17787,17 @@ msgstr "Online-Forum..."
 msgid ""
 "Enter a term to search the playlist. Results will be selected in the table."
 msgstr ""
+"Geben Sie einen Begriff ein, um ihn in der Wiedergabeliste zu suchen. Die "
+"Ergebnisse werden in einer Tabelle ausgewählt werden."
 
 #: modules/gui/macosx/MainWindow.m:172
 msgid ""
 "Click to open an advanced dialog to select the media to play. You can also "
 "drop files here to play."
 msgstr ""
+"Klicken Sie, um einen erweiterten Dialog zu öffnen, der die Medien zum "
+"Abspielen auswählt. Sie können auch Dateien hier her ziehen, um sie "
+"abzuspielen."
 
 #: modules/gui/macosx/MainWindow.m:175 modules/gui/macosx/MainWindow.m:180
 #: modules/gui/qt4/components/playlist/selector.cpp:591
@@ -17814,6 +17916,8 @@ msgid ""
 "Click to select a another file to play it in sync with the previously "
 "selected file."
 msgstr ""
+"Klicken und wählen Sie eine Datei aus, um sie in Synchronisation mit einer "
+"zuvor ausgewählten Datei wiederzugeben."
 
 #: modules/gui/macosx/open.m:149
 msgid "Custom playback"
@@ -17874,6 +17978,9 @@ msgid ""
 "Enter a URL here to open the network stream. To open RTP or UDP streams, "
 "click on the respective button below."
 msgstr ""
+"Geben Sie hier eine URL ein, um einen Netzwerk-Stream zu öffnen. Um einen "
+"RTP oder UDP-Stream zu öffnen, klicken Sie auf die entsprechende "
+"Schaltfläche."
 
 #: modules/gui/macosx/open.m:192
 msgid "Open RTP/UDP Stream"
@@ -17970,7 +18077,7 @@ msgstr "Untertiteldatei hinzufügen:"
 
 #: modules/gui/macosx/open.m:366
 msgid "Click to setup subtitle playback in full detail."
-msgstr ""
+msgstr "Klicken Sie, um die Untertitel-Wiedergabe detailliert einzurichten."
 
 #: modules/gui/macosx/open.m:368
 msgid "Click to select a subtitle file."
@@ -17999,7 +18106,7 @@ msgstr "Untertitelausrichtung"
 
 #: modules/gui/macosx/open.m:381
 msgid "Click to dismiss the subtitle setup dialog."
-msgstr ""
+msgstr "Klicken Sie, um den Untertitel Setup-Dialog zu schließen."
 
 #: modules/gui/macosx/open.m:382
 msgid "Font Properties"
@@ -18531,6 +18638,15 @@ msgid ""
 "\n"
 "Are you sure you want to continue?"
 msgstr ""
+"Dies wird die Einstellungen des VLC media player zurückzusetzen.\n"
+"\n"
+"Bitte beachten Sie, dass VLC während des Prozesses neu starten wird, so dass "
+"Ihre aktuelle Wiedergabeliste gelöscht wird und eventuelle Wiedergabe-, "
+"Streaming- oder Transkodierungs-Aktivitäten sofort unterbrochen werden.\n"
+"\n"
+"Die Medienbibliothek wird davon nicht betroffen sein.\n"
+"\n"
+"Sind Sie sicher, dass Sie fortfahren möchten?"
 
 #: modules/gui/macosx/simple_prefs.m:1062
 msgid "Choose the folder to save your video snapshots to."
@@ -20249,7 +20365,7 @@ msgstr "Letzte 60 Sekunden"
 
 #: modules/gui/qt4/components/info_panels.cpp:610
 msgid "Overall"
-msgstr ""
+msgstr "Gesamt"
 
 #: modules/gui/qt4/components/interface_widgets.cpp:427
 msgid "Current visualization"
@@ -20515,7 +20631,7 @@ msgstr ""
 
 #: modules/gui/qt4/components/preferences_widgets.cpp:1137
 msgid "in"
-msgstr ""
+msgstr "in"
 
 #: modules/gui/qt4/components/preferences_widgets.cpp:1139
 msgid "Any field"
@@ -20531,7 +20647,7 @@ msgstr "Hotkey"
 
 #: modules/gui/qt4/components/preferences_widgets.cpp:1148
 msgid "Application level hotkey"
-msgstr ""
+msgstr "Hotkey auf Anwendungsebene"
 
 #: modules/gui/qt4/components/preferences_widgets.cpp:1149
 #: modules/gui/qt4/components/preferences_widgets.cpp:1409
@@ -20540,7 +20656,7 @@ msgstr "Global"
 
 #: modules/gui/qt4/components/preferences_widgets.cpp:1150
 msgid "Desktop level hotkey"
-msgstr ""
+msgstr "Hotkey auf Desktopebene"
 
 #: modules/gui/qt4/components/preferences_widgets.cpp:1233
 #: modules/gui/qt4/components/preferences_widgets.cpp:1234
@@ -22420,7 +22536,7 @@ msgstr "Strom"
 
 #: modules/misc/inhibit/dbus.c:233
 msgid "Inhibits power suspend and session idle timeout."
-msgstr ""
+msgstr "Verhindert den Schlaf-Modus und Leerlaufsitzungen."
 
 #: modules/misc/inhibit/xdg.c:38
 msgid "XDG-screensaver"
@@ -22454,6 +22570,7 @@ msgstr "Syslog-Service"
 #: modules/misc/logger.c:126
 msgid "Select the syslog facility where logs will be forwarded."
 msgstr ""
+"Wählen Sie den Syslog-Service, wo die Protokolle weitergeleitet werden."
 
 #: modules/misc/logger.c:153
 msgid "Verbosity"
@@ -24571,7 +24688,7 @@ msgstr "Farbschema"
 
 #: modules/video_filter/anaglyph.c:40
 msgid "Define the glasses' color scheme"
-msgstr ""
+msgstr "Definieren Sie die Farbpalette der Brille"
 
 #: modules/video_filter/anaglyph.c:72
 msgid "Convert 3D picture to anaglyph image video filter"
@@ -25870,7 +25987,7 @@ msgstr "Gradfun"
 
 #: modules/video_filter/gradfun.c:60
 msgid "Debanding algorithm"
-msgstr ""
+msgstr "Debanding-Algorithmus"
 
 #: modules/video_filter/gradient.c:62
 msgid "Distort mode"
@@ -26105,7 +26222,7 @@ msgstr "Textdatei"
 
 #: modules/video_filter/marq.c:105
 msgid "File to read the marquee text from."
-msgstr ""
+msgstr "Datei, die den anzuzeigenden Marquee-Text enthält."
 
 #: modules/video_filter/marq.c:107 modules/video_filter/rss.c:143
 msgid "X offset, from the left screen edge."
@@ -26894,7 +27011,7 @@ msgstr ""
 
 #: modules/video_filter/puzzle.c:65
 msgid "Auto shuffle"
-msgstr ""
+msgstr "Automatisch mischen"
 
 #: modules/video_filter/puzzle.c:66
 msgid "Auto shuffle delay during game"
@@ -26902,7 +27019,7 @@ msgstr ""
 
 #: modules/video_filter/puzzle.c:67
 msgid "Auto solve"
-msgstr ""
+msgstr "Automatisch lösen"
 
 #: modules/video_filter/puzzle.c:68
 msgid "Auto solve delay during game"
@@ -26914,7 +27031,7 @@ msgstr "Drehung"
 
 #: modules/video_filter/puzzle.c:70
 msgid "Rotation parameter: none;180;90-270;mirror"
-msgstr ""
+msgstr "Drehparameter: keine;180;90-270;spiegeln"
 
 #: modules/video_filter/puzzle.c:73
 msgid "jigsaw puzzle"
@@ -26926,11 +27043,11 @@ msgstr "Schiebepuzzle"
 
 #: modules/video_filter/puzzle.c:73
 msgid "swap puzzle"
-msgstr ""
+msgstr "Puzzle tauschen"
 
 #: modules/video_filter/puzzle.c:73
 msgid "exchange puzzle"
-msgstr ""
+msgstr "Puzzle wechseln"
 
 #: modules/video_filter/puzzle.c:75
 msgid "0"
@@ -27465,7 +27582,7 @@ msgstr "Transponieren"
 
 #: modules/video_filter/transform.c:53
 msgid "Anti-transpose"
-msgstr ""
+msgstr "Anti-Transponieren"
 
 #: modules/video_filter/transform.c:56
 msgid "Video transformation filter"
@@ -27571,7 +27688,7 @@ msgstr ""
 
 #: modules/video_output/decklink.cpp:82
 msgid "Audio connection for DeckLink output."
-msgstr ""
+msgstr "Audio-Anschluss für den DeckLink Ausgang."
 
 #: modules/video_output/decklink.cpp:87
 msgid ""
@@ -27594,7 +27711,7 @@ msgstr "Videoverbindung für DeckLink Ausgabe."
 
 #: modules/video_output/decklink.cpp:101
 msgid "Use 10 bits per pixel for video frames."
-msgstr ""
+msgstr "Verwende 10 Bit pro Pixel für Video-Frames."
 
 #: modules/video_output/decklink.cpp:174
 msgid "DecklinkOutput"
@@ -27602,7 +27719,7 @@ msgstr "Decklink Ausgabe"
 
 #: modules/video_output/decklink.cpp:175
 msgid "output module to write to Blackmagic SDI card"
-msgstr ""
+msgstr "Ausgabe-Modul um auf die Blackmagic SDI-Karte zu schreiben"
 
 #: modules/video_output/decklink.cpp:176
 msgid "Decklink General Options"
@@ -27702,7 +27819,7 @@ msgid ""
 msgstr ""
 "Wenn der Framepuffer Hardwarebeschleunigung unterstützt oder doppeltes "
 "Puffern hardwareseitig anwendet, müssen Sie diese Option deaktivieren. Es "
-"wird dann softwareeitig doppeltes Puffern angewendet."
+"wird dann softwareseitig doppeltes Puffern angewendet."
 
 #: modules/video_output/fb.c:76
 msgid "Image format (default RGB)"
@@ -28119,6 +28236,11 @@ msgid ""
 "Acceleration will thus be disabled. Performance may be degraded severely if "
 "the resolution is large."
 msgstr ""
+"Der XVideo Treiber für die Videoausgabebeschleunigung unterstützt nicht die "
+"benötigte Auflösung von %ux%u Pixel aber stattdessen %<PRIu32>x%<PRIu32> "
+"pixel.\\n\n"
+"Die Beschleunigung wird somit deaktiviert werden. Die Leistung kann sich "
+"erheblich verschlechtern, wenn die Auflösung sehr groß ist."
 
 #: modules/video_output/yuv.c:41
 msgid "device, fifo or filename"
@@ -28494,7 +28616,7 @@ msgstr "Bibliothek anzeigen/verstecken"
 
 #: share/lua/http/index.html:216
 msgid "Hide / Show Viewer"
-msgstr ""
+msgstr "Betrachter anzeigen/verstecken"
 
 #: share/lua/http/index.html:217
 msgid "Manage Streams"
@@ -28506,7 +28628,7 @@ msgstr "Spur-Synchronisation"
 
 #: share/lua/http/index.html:220
 msgid "VLM Batch Commands"
-msgstr "VLM Batch-Kommandos"
+msgstr "VLM Batch-Komandos"
 
 #: share/lua/http/index.html:240 modules/gui/qt4/ui/vlm.h:299
 msgid "Loop"
@@ -28774,7 +28896,7 @@ msgstr "Bitte geben Sie eine Netzwerkadresse ein:"
 
 #: modules/gui/qt4/ui/profiles.h:687
 msgid "Profile edition"
-msgstr ""
+msgstr "Profil ändern"
 
 #: modules/gui/qt4/ui/profiles.h:688
 msgid "MPEG-TS"
@@ -28886,7 +29008,7 @@ msgstr "Abtastrate"
 
 #: modules/gui/qt4/ui/sout.h:204
 msgid "Set up media sources to stream"
-msgstr ""
+msgstr "Richten Sie Medienquellen zum Streamen ein"
 
 #: modules/gui/qt4/ui/sout.h:206
 msgid "Destination Setup"
@@ -28894,7 +29016,7 @@ msgstr "Ziel einstellen"
 
 #: modules/gui/qt4/ui/sout.h:207
 msgid "Select destinations to stream to"
-msgstr ""
+msgstr "Richten Sie Ziele zum Streamen ein"
 
 #: modules/gui/qt4/ui/sout.h:208
 msgid ""
@@ -28918,7 +29040,7 @@ msgstr "Umkodierungsoptionen"
 
 #: modules/gui/qt4/ui/sout.h:214
 msgid "Select and choose transcoding options"
-msgstr ""
+msgstr "Richten Sie ein und wählen die Transkodierungsoptionen"
 
 #: modules/gui/qt4/ui/sout.h:215
 msgid "Activate Transcoding"
@@ -28930,7 +29052,7 @@ msgstr "Optionen einstellen"
 
 #: modules/gui/qt4/ui/sout.h:217
 msgid "Set up any additional options for streaming"
-msgstr ""
+msgstr "Richten Sie alle zusätzlichen Optionen für das Streaming ein"
 
 #: modules/gui/qt4/ui/sout.h:218
 msgid "Miscellaneous Options"
@@ -29053,9 +29175,8 @@ msgid "Default caching policy"
 msgstr "Standard-Cache Richtlinie"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:514
-#, fuzzy
 msgid "Menus language:"
-msgstr "Audio-Sprache"
+msgstr "Menüsprache:"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:515
 msgid "Look and feel"
@@ -29830,13 +29951,6 @@ msgstr "Media Manager-Liste"
 #~ "es im Ihrem Menü 'Audio-Gerät' aufgeführt wird. Dieses Gerät wird danach "
 #~ "standardmäßig für die Audioausgabe benutzt."
 
-#~ msgid ""
-#~ "You should configure your speaker layout with the \"Audio Midi Setup\" "
-#~ "utility in /Applications/Utilities. Stereo mode is being used now."
-#~ msgstr ""
-#~ "Konfigurieren Sie ihre Lautsprecheranordnung mit dem \"Audio Midi-Setup\"-"
-#~ "Werkzeug unter /Programme/Werkzeuge. Der Stereomodus wird jetzt verwendet."
-
 #~ msgid "3 Front 2 Rear"
 #~ msgstr "3 vorne, 2 hinten"
 
@@ -30315,20 +30429,6 @@ msgstr "Media Manager-Liste"
 #~ msgstr ""
 #~ "Einer von '90', '180', '270', 'hflip' (horizontal umkehren) oder "
 #~ "'vflip' (vertikal umkehren)"
-
-#~ msgid ""
-#~ "Your video output acceleration driver does not support the required "
-#~ "resolution: %ux%u pixels. The maximum supported resolution is %<PRIu32>x"
-#~ "%<PRIu32>.\n"
-#~ "Video output acceleration will be disabled. However, rendering videos "
-#~ "with overly large resolution may cause severe performance degration."
-#~ msgstr ""
-#~ "Ihr Treiber für die Videoausgabebeschleunigung unterstützt nicht die "
-#~ "benötigte Auflösung: %ux%u Pixel. Die maximal unterstützte Auflösung ist "
-#~ "%<PRIu32>x%<PRIu32>.\n"
-#~ "Die Videoausgabebeschleunigung wird deaktiviert. Allerdings kann das "
-#~ "Video-Rendering mit übermäßig großer Auflösung hohe Leistungseinbußen/-"
-#~ "verluste verursachen."
 
 #~ msgid ""
 #~ "We would like to thank the whole VLC community, the testers, our users "
@@ -31057,13 +31157,6 @@ msgstr "Media Manager-Liste"
 #~ msgid "Repair"
 #~ msgstr "Reparieren"
 
-#~ msgid ""
-#~ "Force the subtiles format. Use \"auto\", the set of supported values "
-#~ "varies."
-#~ msgstr ""
-#~ "Erzwinge das Untertitel-Format. Benutzen sie \"auto\" für die Anzahl der "
-#~ "unterstützten Variationen."
-
 #~ msgid "Control word for the CSA encryption algorithm"
 #~ msgstr "Kontrollwort für den CSA-Verschlüsselungsalgorithmus"
 
@@ -31407,6 +31500,36 @@ msgstr "Media Manager-Liste"
 #~ msgstr "iSight-Aufnahme-Input"
 
 #, fuzzy
+#~ msgid ""
+#~ "You should configure your speaker layout with the \"Audio Midi Setup\" "
+#~ "utility in /Applications/Utilities. Stereo mode is being used now."
+#~ msgstr ""
+#~ "Konfigurieren Sie ihre Lautsprecheranordnung mit dem \\\"Audio Midi-Setup"
+#~ "\\\"-Werkzeug unter /Programme/Werkzeuge. VLC wird nur Stereo ausgeben."
+
+#, fuzzy
+#~ msgid ""
+#~ "Your video output acceleration driver does not support the required "
+#~ "resolution: %ux%u pixels. The maximum supported resolution is %<PRIu32>x"
+#~ "%<PRIu32>.\n"
+#~ "Video output acceleration will be disabled. However, rendering videos "
+#~ "with overly large resolution may cause severe performance degration."
+#~ msgstr ""
+#~ "Der XVideo Treiber für die Videoausgabebeschleunigung unterstützt nicht "
+#~ "die benötigte Auflösung von %ux%u Pixel aber stattdessen %<PRIu32>x"
+#~ "%<PRIu32> pixel.\\n\n"
+#~ "Die Beschleunigung wird somit deaktiviert werden. Die Leistung kann sich "
+#~ "erheblich verschlechtern, wenn die Auflösung sehr groß ist."
+
+#, fuzzy
+#~ msgid ""
+#~ "Force the subtiles format. Use \"auto\", the set of supported values "
+#~ "varies."
+#~ msgstr ""
+#~ "Erzwinge das Untertitel Format. Die Auswahl von \"auto\" bedeutet eine "
+#~ "automatische Erkennung und sollte immer funktionieren."
+
+#, fuzzy
 #~ msgid "Add a subtitle file"
 #~ msgstr "Eine Unter&titeldatei benutzen"
 
@@ -31431,7 +31554,7 @@ msgstr "Media Manager-Liste"
 #~ msgstr ""
 #~ "Diese Datei enthält eine optionale CRL (HTTP/TLS Zertifikats-"
 #~ "Widerrufsliste) um Clienten davor zu bewahren, widerrufene Zertifikate in "
-#~ "einer TLS-Sitzung zu verwenden."
+#~ "einer TLS-Session zu verwenden."
 
 #, fuzzy
 #~ msgid "One instance when started from file"
@@ -32344,7 +32467,7 @@ msgstr "Media Manager-Liste"
 
 #, fuzzy
 #~ msgid "| adev [X] . . . . . . . . . . .  set/get audio device"
-#~ msgstr "| volume [X] . . . . . . . . . . . . Lautstärke zeigen/festlegen"
+#~ msgstr "| adev [Device]  . . . . . . . .   Ton-Gerät zeigen/einstellen"
 
 #, fuzzy
 #~ msgid "| strack [X] . . . . . . . . . set/get subtitles track"
@@ -33168,7 +33291,7 @@ msgstr "Media Manager-Liste"
 
 #, fuzzy
 #~ msgid "Number of lines for change"
-#~ msgstr "Anzahl der Audiokanäle"
+#~ msgstr "Anzahl der Scheiben pro Frame"
 
 #, fuzzy
 #~ msgid "Number of non black pixels "
@@ -33258,7 +33381,7 @@ msgstr "Media Manager-Liste"
 
 #, fuzzy
 #~ msgid "Enable desktop mode "
-#~ msgstr "Megabass-Modus aktivieren"
+#~ msgstr "Aktiviere den Software-Modus"
 
 #, fuzzy
 #~ msgid "Windows GAPI video output"
