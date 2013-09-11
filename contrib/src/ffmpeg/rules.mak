@@ -38,10 +38,10 @@ endif
 # Small size
 ifdef ENABLE_SMALL
 FFMPEGCONF += --enable-small
+endif
 ifeq ($(ARCH),arm)
 ifdef HAVE_ARMV7A
 FFMPEGCONF += --enable-thumb
-endif
 endif
 endif
 
