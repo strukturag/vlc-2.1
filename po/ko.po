@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-09-08 20:08+0200\n"
-"PO-Revision-Date: 2013-08-26 11:50+0000\n"
+"PO-Revision-Date: 2013-09-10 09:51+0000\n"
 "Last-Translator: sheppaul <sheppaul@naver.com>\n"
 "Language-Team: Korean (http://www.transifex.com/projects/p/vlc-trans/"
 "language/ko/)\n"
@@ -445,11 +445,11 @@ msgstr "열고 싶은 하나 이상의 파일을 선택하세요"
 
 #: include/vlc_intf_strings.h:51
 msgid "Select Directory"
-msgstr "디렉토리 선택"
+msgstr "디렉토리 선택하기"
 
 #: include/vlc_intf_strings.h:51
 msgid "Select Folder"
-msgstr "폴더 선택"
+msgstr "폴더 선택하기"
 
 #: include/vlc_intf_strings.h:55
 msgid "Media &Information"
@@ -491,7 +491,7 @@ msgstr "재생"
 
 #: include/vlc_intf_strings.h:66
 msgid "Remove Selected"
-msgstr "선택 제거"
+msgstr "선택 제거하기"
 
 #: include/vlc_intf_strings.h:67
 msgid "Information..."
@@ -511,7 +511,7 @@ msgstr "포함된 디렉토리 보기..."
 
 #: include/vlc_intf_strings.h:71
 msgid "Show Containing Folder..."
-msgstr "포함된 폴더 보이기..."
+msgstr "포함된 폴더 보기..."
 
 #: include/vlc_intf_strings.h:72
 msgid "Stream..."
@@ -624,8 +624,8 @@ msgstr ""
 "여러분의 시간을 약간 투자하여 스킨을 제작하거나, 문서를 번역하거나, 프로그램"
 "을 테스트하거나, 작성하는 방식으로 커뮤니티를 도와서 VideoLan 프로젝트에 공헌"
 "할 수 있습니다.혹은 기부금 혹은 장비를 제공하여 도울 수도 있습니다. 아니면 "
-"VLC 미디어 플레이어를 <b>사람들에게 알리는 일</b>도 큰 도움이 됩니다.</"
-"body></html>"
+"VLC 미디어 재생기를 <b>사람들에게 알리는 일</b>도 큰 도움이 됩니다.</body></"
+"html>"
 
 #: src/audio_output/filters.c:247
 msgid "Audio filtering failed"
@@ -730,7 +730,7 @@ msgstr "자동"
 
 #: src/config/file.c:458
 msgid "boolean"
-msgstr "참/거짓"
+msgstr "boolean"
 
 #: src/config/file.c:458 src/config/help.c:468
 msgid "integer"
@@ -1118,7 +1118,7 @@ msgstr "위로"
 
 #: src/config/keys.c:116 modules/gui/macosx/MainMenu.m:468
 msgid "Volume Down"
-msgstr "음량 낮춤"
+msgstr "볼륨 줄이기"
 
 #: src/config/keys.c:117
 msgid "Volume Mute"
@@ -1126,7 +1126,7 @@ msgstr "음소거"
 
 #: src/config/keys.c:118 modules/gui/macosx/MainMenu.m:467
 msgid "Volume Up"
-msgstr "음량 높임"
+msgstr "볼륨 높이기"
 
 #: src/config/keys.c:119
 msgid "Zoom In"
@@ -1218,7 +1218,7 @@ msgstr "프로그램"
 
 #: src/input/es_out.c:1336 src/input/es_out.c:1338
 msgid "Scrambled"
-msgstr "섞임"
+msgstr "암호화됨"
 
 #: src/input/es_out.c:1336
 msgid "Yes"
@@ -1227,7 +1227,7 @@ msgstr "예"
 #: src/input/es_out.c:2005
 #, c-format
 msgid "Closed captions %u"
-msgstr "특수 자막 %u"
+msgstr "클로즈드 캡션 %u"
 
 #: src/input/es_out.c:2856
 #, c-format
@@ -1242,7 +1242,7 @@ msgstr "자막"
 #: src/input/es_out.c:2987 modules/gui/macosx/ConvertAndSave.m:196
 #: modules/gui/macosx/output.m:144
 msgid "Type"
-msgstr "타입"
+msgstr "형식"
 
 #: src/input/es_out.c:2883
 msgid "Original ID"
@@ -1285,7 +1285,7 @@ msgstr "%u Hz"
 
 #: src/input/es_out.c:2925
 msgid "Bits per sample"
-msgstr "비트/샘플"
+msgstr "샘플당 비트"
 
 #: src/input/es_out.c:2930 modules/access_output/shout.c:92
 #: modules/demux/playlist/shoutcast.c:325
@@ -1293,7 +1293,7 @@ msgstr "비트/샘플"
 #: modules/gui/macosx/ConvertAndSave.m:188 modules/gui/qt4/ui/profiles.h:713
 #: modules/gui/qt4/ui/profiles.h:739
 msgid "Bitrate"
-msgstr "비트 레이트"
+msgstr "비트레이트"
 
 #: src/input/es_out.c:2930
 #, c-format
@@ -1336,7 +1336,7 @@ msgstr "디코딩된 형식"
 
 #: src/input/input.c:2426
 msgid "Your input can't be opened"
-msgstr "입력을 열 수 없음"
+msgstr "입력을 열 수 없습니다"
 
 #: src/input/input.c:2427
 #, c-format
@@ -1393,7 +1393,7 @@ msgstr "평가"
 
 #: src/input/meta.c:63 modules/gui/macosx/MainMenu.m:75
 msgid "Date"
-msgstr "일자"
+msgstr "날짜"
 
 #: src/input/meta.c:64
 msgid "Setting"
@@ -1406,12 +1406,12 @@ msgstr "URL"
 
 #: src/input/meta.c:67 modules/notify/notify.c:318
 msgid "Now Playing"
-msgstr "지금 재생"
+msgstr "지금 재생중"
 
 #: src/input/meta.c:68 modules/access/vcdx/info.c:70
 #: modules/demux/mp4/mp4.c:1088
 msgid "Publisher"
-msgstr "제공자"
+msgstr "출판사"
 
 #: src/input/meta.c:69
 msgid "Encoded by"
@@ -1419,7 +1419,7 @@ msgstr "인코딩 : "
 
 #: src/input/meta.c:70
 msgid "Artwork URL"
-msgstr "아트워크 URL"
+msgstr "Artwork URL"
 
 #: src/input/meta.c:71
 msgid "Track ID"
@@ -1468,7 +1468,7 @@ msgstr "이전 타이틀"
 #: src/input/var.c:312
 #, c-format
 msgid "Title %i%s"
-msgstr "제목 %i%s"
+msgstr "타이틀 %i%s"
 
 #: src/input/var.c:338 src/input/var.c:397
 #, c-format
@@ -1511,7 +1511,7 @@ msgstr "디버그 로깅"
 
 #: src/interface/interface.c:101
 msgid "Mouse Gestures"
-msgstr "마우스 동작"
+msgstr "마우스 제스처"
 
 #. xgettext: Translate "C" to the language code: "fr", "en_GB", "nl", "ru"...
 #: src/libvlc.c:191
@@ -1571,7 +1571,7 @@ msgstr ""
 
 #: src/libvlc-module.c:74 modules/control/ntservice.c:58
 msgid "Extra interface modules"
-msgstr "그 외의 인터페이스 모듈"
+msgstr "추가 인터페이스 모듈"
 
 #: src/libvlc-module.c:76
 msgid ""
@@ -1797,7 +1797,7 @@ msgstr "스테레오 오디오 출력 모드"
 
 #: src/libvlc-module.c:194
 msgid "This adds audio post processing filters, to modify the sound rendering."
-msgstr "사운드 렌더링 변경하기위해 이 오디오 후처리 필터 추가."
+msgstr "사운드 렌더링을 조절하기위해 이 오디오 후처리 필터 추가합니다."
 
 #: src/libvlc-module.c:199
 msgid "This adds visualization modules (spectrum analyzer, etc.)."
@@ -1832,11 +1832,11 @@ msgstr "리플레이 게인 정보가 없는 스트림에 사용되는 이득입
 
 #: src/libvlc-module.c:216
 msgid "Peak protection"
-msgstr "최고점 보호"
+msgstr "Peak 보호"
 
 #: src/libvlc-module.c:218
 msgid "Protect against sound clipping"
-msgstr "사운드 짤림 방지"
+msgstr "사운드 clipping 방지"
 
 #: src/libvlc-module.c:221
 msgid "Enable time stretching audio"
@@ -2052,7 +2052,7 @@ msgstr "지정한 요소로 비디오 화면의 크기를 조절할 수 있습�
 
 #: src/libvlc-module.c:293
 msgid "Grayscale video output"
-msgstr "회색조 비디오 출력"
+msgstr "Grayscale 비디오 출력"
 
 #: src/libvlc-module.c:295
 msgid ""
@@ -2064,7 +2064,7 @@ msgstr ""
 
 #: src/libvlc-module.c:298
 msgid "Embedded video"
-msgstr "영상 내장"
+msgstr "Embedded 비디오"
 
 #: src/libvlc-module.c:300
 msgid "Embed the video output in the main interface."
@@ -2239,8 +2239,8 @@ msgid ""
 "This adds post-processing filters to enhance the picture quality, for "
 "instance deinterlacing, or distort the video."
 msgstr ""
-"사진의 인스턴스 디인터레이싱 또는 비디오 왜곡의 품질 향상하기 위해 후처리 필"
-"터를 추가합니다."
+"디인터레이싱 또는 비디오 왜곡의 영상 품질을 향상하기 위해 후처리 필터를 추가"
+"합니다."
 
 #: src/libvlc-module.c:389
 msgid "Video snapshot directory (or filename)"
@@ -2466,35 +2466,35 @@ msgstr ""
 
 #: src/libvlc-module.c:501
 msgid "File caching (ms)"
-msgstr "파일 캐싱 (ms)"
+msgstr "파일 캐쉬 (ms)"
 
 #: src/libvlc-module.c:503
 msgid "Caching value for local files, in milliseconds."
-msgstr "로컬 파일 캐싱 값, 밀리초"
+msgstr "로컬 파일 캐쉬 값, 밀리초"
 
 #: src/libvlc-module.c:505
 msgid "Live capture caching (ms)"
-msgstr "실시간 캡처 캐싱 (ms)"
+msgstr "실시간 캡처 캐쉬 (ms)"
 
 #: src/libvlc-module.c:507
 msgid "Caching value for cameras and microphones, in milliseconds."
-msgstr "카메라 및 마이크 캐싱 값, 밀리초"
+msgstr "카메라 및 마이크 캐쉬 값, 밀리초"
 
 #: src/libvlc-module.c:509
 msgid "Disc caching (ms)"
-msgstr "디스크 캐싱 (ms)"
+msgstr "디스크 캐쉬 (ms)"
 
 #: src/libvlc-module.c:511
 msgid "Caching value for optical media, in milliseconds."
-msgstr "광학 미디어 캐싱 값, 밀리초"
+msgstr "광학 미디어 캐쉬 값, 밀리초"
 
 #: src/libvlc-module.c:513
 msgid "Network caching (ms)"
-msgstr "네트워크 캐싱 (ms)"
+msgstr "네트워크 캐쉬 (ms)"
 
 #: src/libvlc-module.c:515
 msgid "Caching value for network resources, in milliseconds."
-msgstr "네트워크 자원 캐싱 값, 밀리초"
+msgstr "네트워크 자원 캐쉬 값, 밀리초"
 
 #: src/libvlc-module.c:517
 msgid "Clock reference average counter"
@@ -3165,8 +3165,8 @@ msgid ""
 "This file contains an optional CRL to prevent remote clients from using "
 "revoked certificates in TLS sessions."
 msgstr ""
-"이 파일에는 원격 클라이언트의 TLS에서 취소한 인증서 사용을 막기 위해서 선택적"
-"인 CRL이 포함되어 있습니다."
+"이 파일에는 원격 클라이언트가 TLS 세션에서 폐기한 인증서를 사용하는 것을 막"
+"기 위해서 선택적인 CRL이 포함되어 있습니다."
 
 #: src/libvlc-module.c:845
 msgid "SOCKS server"
@@ -3379,7 +3379,7 @@ msgstr ""
 
 #: src/libvlc-module.c:952
 msgid "Stream output muxer caching (ms)"
-msgstr "스트림 출력 먹서 캐싱 (ms)"
+msgstr "스트림 출력 먹서 캐쉬 (ms)"
 
 #: src/libvlc-module.c:954
 msgid ""
@@ -3595,7 +3595,7 @@ msgstr "모든 VLC 메시지를 syslog 에 기록 (유닉스 시스텀)."
 
 #: src/libvlc-module.c:1061
 msgid "Allow only one running instance"
-msgstr "하나의 개체로만 실행"
+msgstr "VLC의 중복 실행을 금지합니다"
 
 #: src/libvlc-module.c:1064
 msgid ""
@@ -3635,7 +3635,7 @@ msgstr "OS 의 파일 연결로 VLC 가 실행되었다고 알립니다"
 
 #: src/libvlc-module.c:1085 modules/gui/qt4/ui/sprefs_interface.h:538
 msgid "Use only one instance when started from file manager"
-msgstr "파일 관리자에서 시작할 때 하나의 인스턴트만 사용합니다"
+msgstr "파일 관리자에서 시작할 때 VLC 한 개만 실행합니다"
 
 #: src/libvlc-module.c:1087
 msgid "Increase the priority of the process"
@@ -4203,19 +4203,19 @@ msgstr "오디오 소리끄기할 키 선택."
 
 #: src/libvlc-module.c:1298
 msgid "Subtitle delay up"
-msgstr "자막 지연 늘리기"
+msgstr "자막 빠르게"
 
 #: src/libvlc-module.c:1299
 msgid "Select the key to increase the subtitle delay."
-msgstr "자막 지연 늘릴 키 선택."
+msgstr "자막 빠르게 단축키 선택."
 
 #: src/libvlc-module.c:1300
 msgid "Subtitle delay down"
-msgstr "자막 지연 줄이기"
+msgstr "자막 느리게"
 
 #: src/libvlc-module.c:1301
 msgid "Select the key to decrease the subtitle delay."
-msgstr "자막 지연 줄일 키 선택."
+msgstr "자막 느리게 단축키 선택."
 
 #: src/libvlc-module.c:1302
 msgid "Subtitle sync / bookmark audio timestamp"
@@ -4267,19 +4267,19 @@ msgstr "자막을 아래로 옮길 키 선택."
 
 #: src/libvlc-module.c:1314
 msgid "Audio delay up"
-msgstr "오디오 지연 증가"
+msgstr "오디오 빠르게"
 
 #: src/libvlc-module.c:1315
 msgid "Select the key to increase the audio delay."
-msgstr "오디오 지연 늘릴 키 선택. "
+msgstr "오디오 빠르게 단축키를 선택하세요."
 
 #: src/libvlc-module.c:1316
 msgid "Audio delay down"
-msgstr "오디오 지연 감소"
+msgstr "오디오 느리게"
 
 #: src/libvlc-module.c:1317
 msgid "Select the key to decrease the audio delay."
-msgstr "오디오 지연 줄일 키 선택."
+msgstr "오디오 느리게 단축키를 선택하세요."
 
 #: src/libvlc-module.c:1324
 msgid "Play playlist bookmark 1"
@@ -4472,7 +4472,7 @@ msgstr "미리 정의된 잘라내기 형식 목록 순환."
 
 #: src/libvlc-module.c:1374
 msgid "Toggle autoscaling"
-msgstr "자동크기조정 토글"
+msgstr "자동크기조절 토글하기"
 
 #: src/libvlc-module.c:1375
 msgid "Activate or deactivate autoscaling."
@@ -4551,7 +4551,7 @@ msgstr "일반/순환/반목 재생목록 모드 토글하기"
 
 #: src/libvlc-module.c:1399
 msgid "Toggle random playlist playback"
-msgstr "임의 재생목록 재생 토글"
+msgstr "무작위 재생목록 재생 토글하기"
 
 #: src/libvlc-module.c:1404 src/libvlc-module.c:1405
 msgid "Un-Zoom"
@@ -4591,11 +4591,11 @@ msgstr "비디오의 오른쪽에 한 픽셀 붙여넣기"
 
 #: src/libvlc-module.c:1427
 msgid "Toggle wallpaper mode in video output"
-msgstr "비디오 출력의 배경 모드 토글"
+msgstr "비디오 출력의 배경 모드 토글하기"
 
 #: src/libvlc-module.c:1429
 msgid "Toggle wallpaper mode in video output."
-msgstr "비디오 출력에 배경화면 모드를 토글합니다."
+msgstr "비디오 출력에 배경 모드를 토글합니다."
 
 #: src/libvlc-module.c:1431
 msgid "Cycle through audio devices"
@@ -5719,7 +5719,7 @@ msgstr "AACS 설정 파일에 유효한 호스트 인증서를 발견하지 못�
 
 #: modules/access/bluray.c:284
 msgid "AACS Host certificate revoked."
-msgstr "AACS 호스트 인승서를 취소했습니다."
+msgstr "AACS 호스트 인승서를 폐기했습니다."
 
 #: modules/access/bluray.c:287
 msgid "AACS MMC failed."
@@ -7705,7 +7705,7 @@ msgstr "캐쉬 값 (ms)"
 msgid ""
 "Default caching value for outbound UDP streams. This value should be set in "
 "milliseconds."
-msgstr "기본 발신 UDP 스트림 캐싱 값. 이 값은 밀리초로 설정되어야 합니다."
+msgstr "나가는 UDP 스트림의 기본 캐쉬 값. 이 값은 밀리초로 설정되어야 합니다."
 
 #: modules/access_output/udp.c:69
 msgid "Group packets"
@@ -8920,7 +8920,7 @@ msgstr "X.509 인증 기관"
 
 #: modules/access/vnc.c:49
 msgid "Certificate of the Authority to verify server's against"
-msgstr "상대 서버를 검증하기 위한 기간의 인증서"
+msgstr "상대 서버를 검증하기 위한 기관의 인증서"
 
 #: modules/access/vnc.c:50
 msgid "X.509 Certificate Revocation List"
@@ -8928,15 +8928,15 @@ msgstr "X.509 인증서 폐기 목록"
 
 #: modules/access/vnc.c:51
 msgid "List of revoked servers certificates"
-msgstr "취소한 서버 인증서 목록"
+msgstr "폐기된 서버 인증서 목록"
 
 #: modules/access/vnc.c:52
 msgid "X.509 Client certificate"
-msgstr "X.509 클라이언트 인증"
+msgstr "X.509 클라이언트 인증서"
 
 #: modules/access/vnc.c:53
 msgid "Certificate for client authentification"
-msgstr "클라이언트 확인을 위한 인증"
+msgstr "클라이언트 확인을 위한 인증서"
 
 #: modules/access/vnc.c:54
 msgid "X.509 Client private key"
@@ -8956,7 +8956,7 @@ msgstr "압축 레벨"
 
 #: modules/access/vnc.c:62
 msgid "Transfer compression level from 0 (none) to 9 (max)"
-msgstr ""
+msgstr "0(하지 않음)에서 9(최대)까지의 압축 레벨 전송하기"
 
 #: modules/access/vnc.c:63
 msgid "Image quality"
@@ -9056,7 +9056,7 @@ msgstr ""
 
 #: modules/audio_filter/audiobargraph_a.c:54
 msgid "Defines if silence alarm information should be sent"
-msgstr ""
+msgstr "묵음 알람 정보를 전송할 것인지 정의하기"
 
 #: modules/audio_filter/audiobargraph_a.c:55
 msgid ""
@@ -9068,7 +9068,7 @@ msgstr ""
 
 #: modules/audio_filter/audiobargraph_a.c:57
 msgid "Time window to use in ms"
-msgstr ""
+msgstr "사용할 시간 창, 밀리초 단위"
 
 #: modules/audio_filter/audiobargraph_a.c:58
 msgid ""
@@ -9081,7 +9081,7 @@ msgstr ""
 
 #: modules/audio_filter/audiobargraph_a.c:61
 msgid "Minimum Audio level to raise the alarm"
-msgstr ""
+msgstr "알람을 울릴 최소 오디오 레벨"
 
 #: modules/audio_filter/audiobargraph_a.c:62
 msgid ""
@@ -9093,7 +9093,7 @@ msgstr ""
 
 #: modules/audio_filter/audiobargraph_a.c:65
 msgid "Time between two alarm messages in ms"
-msgstr ""
+msgstr "두 알람 메시지간의 시간, 밀리초 단위"
 
 #: modules/audio_filter/audiobargraph_a.c:66
 msgid ""
@@ -9105,7 +9105,7 @@ msgstr ""
 
 #: modules/audio_filter/audiobargraph_a.c:68
 msgid "Force connection reset regularly"
-msgstr ""
+msgstr "접속 초기화를 정기적으로 강제하기"
 
 #: modules/audio_filter/audiobargraph_a.c:69
 msgid ""
@@ -9154,7 +9154,7 @@ msgstr "전면 왼쪽 스피커와 청취자까지의 거리 (미터)."
 
 #: modules/audio_filter/channel_mixer/headphone.c:63
 msgid "Compensate delay"
-msgstr "보상 지연"
+msgstr "지연 보상하기"
 
 #: modules/audio_filter/channel_mixer/headphone.c:65
 msgid ""
@@ -9195,8 +9195,8 @@ msgid ""
 "headphone channel mixer. It gives the effect of standing in a room full of "
 "speakers."
 msgstr ""
-"이 옵션은 헤드폰 채널 믹서에 사용되는 스테레오를 모노로 다운믹스 알고리즘을 "
-"선택합니다. 스피커가 가득찬 방에 서있는 효과를 줍니다."
+"이 옵션은 헤드폰 채널 믹서에 사용되는 스테레오를 모노로 다운믹스하는 알고리즘"
+"을 선택합니다. 스피커가 가득찬 방에 서 있는 것 같은 효과를 줍니다."
 
 #: modules/audio_filter/channel_mixer/mono.c:86
 msgid "Select channel to keep"
@@ -9323,11 +9323,11 @@ msgstr "입력 신호 레벨"
 #: modules/audio_filter/compressor.c:155 modules/gui/macosx/AudioEffects.m:119
 #: modules/gui/qt4/components/extended_panels.cpp:1379
 msgid "RMS/peak"
-msgstr "RMS/피크"
+msgstr "RMS/Peak"
 
 #: modules/audio_filter/compressor.c:156
 msgid "Set the RMS/peak (0 ... 1)."
-msgstr "RMS/피크 설정하기 (0 ... 1)."
+msgstr "RMS/Peak 설정하기 (0 ... 1)."
 
 #: modules/audio_filter/compressor.c:158
 msgid "Attack time"
@@ -9984,6 +9984,8 @@ msgid ""
 "You should configure your speaker layout with \"Audio Midi Setup\" in /"
 "Applications/Utilities. VLC will output Stereo only."
 msgstr ""
+"/응용 프로그램/유틸리티 의 \"오디오 미디 설정\" 으로 스피터 레이아웃의 환경"
+"을 설정해야 합니다. VLC는 스트레오만 출력할 것입니다."
 
 #: modules/audio_output/auhal.c:1138
 msgid "System Sound Output Device"
@@ -10507,8 +10509,8 @@ msgid ""
 "Quantization factor of I frames, compared with P frames (for instance 1.0 => "
 "same qscale for I and P frames)."
 msgstr ""
-"P 프레임과 비교한 프레임의 양자화 요소 (인스턴스가 1.0 => 이면 I 및 P 프레임"
-"의 qscale 과 같음)."
+"P 프레임과 비교한 I 프레임의 양자화 요소 (예를 들어1.0 => 은 I 및 P 프레임에 "
+"대해 같은 qscale)."
 
 #: modules/codec/avcodec/avcodec.h:187 modules/codec/x264.c:360
 #: modules/demux/mod.c:79
@@ -10777,11 +10779,11 @@ msgstr "덤프 디코더"
 
 #: modules/codec/dirac.c:61 modules/codec/schroedinger.c:109
 msgid "Constant quality factor"
-msgstr "상수 품질 요소"
+msgstr "일정한 품질 요소"
 
 #: modules/codec/dirac.c:62
 msgid "If bitrate=0, use this value for constant quality"
-msgstr "비트레이트=0 이면, 상수 품질에 이 값을 사용"
+msgstr "비트레이트=0 이면, 일정한 품질에 이 값을 사용합니다"
 
 #: modules/codec/dirac.c:65 modules/codec/schroedinger.c:117
 msgid "CBR bitrate (kbps)"
@@ -10789,7 +10791,7 @@ msgstr "CBR 비트레이트 (kbps)"
 
 #: modules/codec/dirac.c:66
 msgid "A value > 0 enables constant bitrate mode"
-msgstr "값 > 0 이면 상수 비트레이트 모드 사용"
+msgstr "값 > 0 은 일정한 비트레이트 모드를 사용합니다"
 
 #: modules/codec/dirac.c:69
 msgid "Enable lossless coding"
@@ -10945,7 +10947,7 @@ msgstr "모션 추정 처리의 일부로 크로마 사용하기"
 
 #: modules/codec/dirac.c:156 modules/codec/schroedinger.c:218
 msgid "Intra picture DWT filter"
-msgstr "Intra picture DWT 필터"
+msgstr "인트라픽쳐 DWT 필터"
 
 #: modules/codec/dirac.c:160 modules/codec/schroedinger.c:221
 msgid "Inter picture DWT filter"
@@ -11652,20 +11654,28 @@ msgid ""
 "the sequence header before every Nth I-frame. If IdrInterval=0 (default), "
 "SDK inserts the sequence header once at the beginning of the stream. "
 msgstr ""
+"H.264에서, IdrInterval은 I 프레임의 측면에서 IDR 프레임 간격을 지정합니다; "
+"IdrInterval=0 이면, 모든 I 프레임은 IDR 프레임입니다. IdrInterval=1 이면 두개"
+"의 I 프레임마다 IDR 프레임입니다. MPEG2에서, IdrInterval은 I 프레임의 측면에"
+"서 시퀀스 헤더 간격을 정의합니다. 만약 IdrInterval=N이면, SDK는 매 N번째 I-프"
+"레임 앞에 시퀀스 헤더를 삽입합니다. 만약 IdrInterval=0 (기본값) 이면, SDK는 "
+"스트림의 맨 처음에 시퀀스 헤더를 한번만 삽입합니다."
 
 #: modules/codec/qsv.c:100
 msgid "Rate Control Method"
-msgstr ""
+msgstr "속도 제어 방법"
 
 #: modules/codec/qsv.c:102
 msgid ""
 "The rate control method to use when encoding. Can be one of 'crb', 'vbr', "
 "'qp', 'avbr'. 'qp' mode isn't supported for mpeg2"
 msgstr ""
+"인코딩할 때 사용할 속도 제어 방법. 'crb', 'vbr', 'qp', 'avbr' 중 한개를 사용"
+"할 수 있습니다. 'qp' 모드는 mpeg2에서는 지원되지 않습니다."
 
 #: modules/codec/qsv.c:105
 msgid "Quantization parameter"
-msgstr ""
+msgstr "양자화 변수"
 
 #: modules/codec/qsv.c:106
 msgid ""
@@ -11673,40 +11683,49 @@ msgid ""
 "qpp and qpp. It has less precedence than the forementionned parameters. Used "
 "only if rc_method is 'qp'."
 msgstr ""
+"모든 형식의 프레임에 대한 양자화 변수. 이 변수는 qpi, qpp를 정합니다. 앞에서 "
+"언급한 변수보다 우선 순위가 더 낮습니다. rc_method가 'qp' 인 경우에만 사용됩"
+"니다."
 
 #: modules/codec/qsv.c:110
 msgid "Quantization parameter for I-frames"
-msgstr ""
+msgstr "I-프레임의 양자화 변수"
 
 #: modules/codec/qsv.c:111
 msgid ""
 "Quantization parameter for I-frames. This parameter overrides any qp set "
 "globally. Used only if rc_method is 'qp'."
 msgstr ""
+"I-프레임의 양자화 변수. 이 변수는 전역으로 설정된 어떤 qp도 무시합니다. "
+"rc_method가 'qp' 인 경우에만 사용됩니다."
 
 #: modules/codec/qsv.c:114
 msgid "Quantization parameter for P-frames"
-msgstr ""
+msgstr "P-프레임의 양자화 변수"
 
 #: modules/codec/qsv.c:115
 msgid ""
 "Quantization parameter for P-frames. This parameter overrides any qp set "
 "globally. Used only if rc_method is 'qp'."
 msgstr ""
+"P-프레임의 양자화 변수. 이 변수는 전역으로 설정된 어떤 qp도 무시합니다. "
+"rc_method가 'qp'인 경우에만 사용됩니다."
 
 #: modules/codec/qsv.c:118
 msgid "Quantization parameter for B-frames"
-msgstr ""
+msgstr "B-프레임의 양자화 변수"
 
 #: modules/codec/qsv.c:119
 msgid ""
 "Quantization parameter for B-frames. This parameter overrides any qp set "
 "globally. Used only if rc_method is 'qp'."
 msgstr ""
+"B-프레임의 양자화 변수. 이 변수는 전역으로 설정된 어떤 qp도 무시합니다. "
+"rc_method가 'qp'인 경우에만 사용됩니다."
 
 #: modules/codec/qsv.c:122
 msgid "Maximum Bitrate"
-msgstr ""
+msgstr "최대 비트레이트"
 
 #: modules/codec/qsv.c:123
 msgid ""
@@ -11714,10 +11733,13 @@ msgid ""
 "method. If not set, this parameter. is computed from other sources such as "
 "bitrate, profile, level, etc."
 msgstr ""
+"VBR 속도 제어 방법에서 최대 비트레이트를 정의합니다. Kpbs (1000 bits/s) 단"
+"위. 설정되지 않으면, 이 변수는 비트레이트, 프로파일, 레벨 등과 같은 다른 소스"
+"에서 계산됩니다."
 
 #: modules/codec/qsv.c:127
 msgid "Accuracy of RateControl"
-msgstr ""
+msgstr "속도제어의 정밀도"
 
 #: modules/codec/qsv.c:128
 msgid ""
@@ -11726,20 +11748,26 @@ msgid ""
 "880 kpbs and under  730 kpbs. The targeted accuracy is only reached after a "
 "certained  convergence period. See the convergence parameter"
 msgstr ""
+"오차, 'avbr' (평균 가변 비트레이트) 방법의 백분율 단위. (예를 들어 800 kpbs"
+"의 10은 인코더가 880 kpbs 이상이나 730 kpbs 이하로 가지 않도록 하려 한다는 것"
+"을 의미합니다.) 목표 정밀도는 일정한 수렴 기간 이후에만 도달됩니다. 수렴 변수"
+"를 보세요"
 
 #: modules/codec/qsv.c:134
 msgid "Convergence time of 'avbr' RateControl"
-msgstr ""
+msgstr "'avbr' 속도제어의 수렴 시간"
 
 #: modules/codec/qsv.c:135
 msgid ""
 "Number of 100 frames before the 'avbr' rate control method reaches the "
 "requested bitrate with the requested accuracy. See the accuracy parameter. "
 msgstr ""
+"'avbr' 속도 제어 방법이 요청 정밀도와 비트레이트에 도달하기 전 100 프레임의 "
+"수. 정밀도 변수를 보세요."
 
 #: modules/codec/qsv.c:139
 msgid "Number of slices per frame"
-msgstr ""
+msgstr "프레임당 조각의 수"
 
 #: modules/codec/qsv.c:140
 msgid ""
@@ -11747,6 +11775,9 @@ msgid ""
 "block rows. If numslice is not set, the encoder may choose any slice "
 "partitioning allowed by the codec standard."
 msgstr ""
+"각 비디오 프레임에서 조각의 수; 각 조각은 하나 이상의 매크로블록 가로줄을 포"
+"함하고 있습니다. numslice 가 설정되지 않으면, 인코더는 코덱 표준에 의해 허용"
+"된 어떤 slice partitioning(조각 부분)이라도 선택할 수 있습니다."
 
 #: modules/codec/qsv.c:145 modules/codec/qsv.c:146 modules/codec/x264.c:134
 msgid "Number of reference frames"
@@ -11769,6 +11800,7 @@ msgstr ""
 #: modules/codec/qsv.c:193
 msgid "Intel QuickSync Video encoder for MPEG4-Part10/MPEG2 (aka H.264/H.262)"
 msgstr ""
+" MPEG4-Part10/MPEG2 (H.264/H.262 로 알려진) 의 인텔 퀵싱크 비디오 인코더"
 
 #: modules/codec/quicktime.c:66
 msgid "QuickTime library decoder"
@@ -11831,8 +11863,8 @@ msgid ""
 "No fixed gop structure. A picture can be intra or inter and refer to "
 "previous or future pictures."
 msgstr ""
-"고정된 GOP 구조 없음. 영상은 내부 또는 중간에 있을 수 있고 이전이나 다음 영상"
-"을 참고합니다."
+"고정된 GOP 구조 없음. Picture는 intra나 inter가 될 수 있고, 이전이나 다음 "
+"picture를 참고합니다."
 
 #: modules/codec/schroedinger.c:101
 msgid "I-frame only sequence"
@@ -11971,7 +12003,7 @@ msgstr "프레임 당 수평 조각"
 
 #: modules/codec/schroedinger.c:278
 msgid "Number of horizontal slices per frame in low delay mode"
-msgstr "낮은 지연 모드에서 프레임당 수평 조각의 개수"
+msgstr "낮은 지연 모드에서 프레임 당 수평 조각의 개수"
 
 #: modules/codec/schroedinger.c:282
 msgid "Vertical slices per frame"
@@ -12828,11 +12860,11 @@ msgstr ""
 
 #: modules/codec/x264.c:173
 msgid "Use Periodic Intra Refresh"
-msgstr "주기적인 내부 새로고침 사용하기"
+msgstr "주기적인 Intra 새로고침 사용하기"
 
 #: modules/codec/x264.c:174
 msgid "Use Periodic Intra Refresh instead of IDR frames"
-msgstr "IDR 프레임 대신 주기적인 내부 새로고침 사용하기"
+msgstr "IDR 프레임 대신 주기적인 Intra 새로고침 사용하기"
 
 #: modules/codec/x264.c:176
 msgid "Use mb-tree ratecontrol"
@@ -13103,6 +13135,9 @@ msgid ""
 " - 1: Blind offset\n"
 " - 2: Smart analysis\n"
 msgstr ""
+"P 프레임의 가중치 예측: -0: 비활성화됨\n"
+"- 1: 블라인드 옵셋(Blind offset)\n"
+"- 2: 스마트 분석(Smart analysis)\n"
 
 #: modules/codec/x264.c:291
 msgid "Integer pixel motion estimation method"
@@ -13153,11 +13188,11 @@ msgstr "쓰레드 간의 최소 버퍼 공간"
 msgid ""
 "Minimum buffer space between threads. -1 is automatic, based on number of "
 "threads."
-msgstr ""
+msgstr "쓰레드 간의 최소 버퍼 공간. -1 은 쓰레드 개수에 기반한 자동."
 
 #: modules/codec/x264.c:313
 msgid "Strength of psychovisual optimization, default is \"1.0:0.0\""
-msgstr ""
+msgstr "심리시각(Psychovisual) 최적화 세기, 기본값은 \"1.0:0.0\""
 
 #: modules/codec/x264.c:314
 msgid ""
@@ -13165,6 +13200,8 @@ msgid ""
 "Second parameter controls if Trellis is used on psychovisual optimization, "
 "default off"
 msgstr ""
+"RD가 on (subme>=6) 또는 off이면 첫번째 변수 제어.\n"
+"Trellis가 심리시각 최적화에 사용되면 두번째 변수 제어, 기본값은 off."
 
 #: modules/codec/x264.c:318
 msgid "Subpixel motion estimation and partition decision quality"
@@ -13183,16 +13220,20 @@ msgstr ""
 #: modules/codec/x264.c:324
 msgid "RD based mode decision for B-frames. This requires subme 6 (or higher)."
 msgstr ""
+"B 프레임에 대한 RD 기반의 모드 결정. 이것은 subme 6 (또는 더 높은)을 필요로 "
+"합니다."
 
 #: modules/codec/x264.c:327
 msgid "Decide references on a per partition basis"
-msgstr ""
+msgstr "기본 파티션당 레퍼런스를 결정합니다"
 
 #: modules/codec/x264.c:328
 msgid ""
 "Allows each 8x8 or 16x8 partition to independently select a reference frame, "
 "as opposed to only one ref per macroblock."
 msgstr ""
+"매크로블럭당 하나의 프레임을 선택하는 것과는 반대로, 각각의 8x8이나 16x8 파티"
+"션이 레퍼런스 프레임을 독립적으로 선택할 수 있도록 허용합니다. "
 
 #: modules/codec/x264.c:332
 msgid "Chroma in motion estimation"
@@ -13212,7 +13253,7 @@ msgstr "가변 공간 변환 크기"
 
 #: modules/codec/x264.c:340
 msgid "SATD-based decision for 8x8 transform in inter-MBs."
-msgstr ""
+msgstr "inter-MB에서 8x8 변형에 대해 SATD 기반의 결정"
 
 #: modules/codec/x264.c:342
 msgid "Trellis RD quantization"
@@ -13253,11 +13294,11 @@ msgstr ""
 
 #: modules/codec/x264.c:356
 msgid "Use Psy-optimizations"
-msgstr ""
+msgstr "심리-최적화 사용하기"
 
 #: modules/codec/x264.c:357
 msgid "Use all visual optimizations that can worsen both PSNR and SSIM"
-msgstr ""
+msgstr "PSNR과 SSIM을 악화시키는 모든 시각적인 최적화 사용하기"
 
 #: modules/codec/x264.c:361
 msgid ""
@@ -13285,11 +13326,11 @@ msgstr "Intra luma 양자화 사각지대 크기 설정. 범위 0 에서 32."
 
 #: modules/codec/x264.c:374
 msgid "Non-deterministic optimizations when threaded"
-msgstr ""
+msgstr "쓰레드될 때 비결정적(Non-deterministic)인 최적화"
 
 #: modules/codec/x264.c:375
 msgid "Slightly improve quality of SMP, at the cost of repeatability."
-msgstr ""
+msgstr "반복성을 희생해서 SMP의 품질을 살짝 향상시킵니다."
 
 #: modules/codec/x264.c:378
 msgid "CPU optimizations"
@@ -13305,7 +13346,7 @@ msgstr "2 패스 통계 파일 파일명"
 
 #: modules/codec/x264.c:382
 msgid "Filename for 2 pass stats file for multi-pass encoding."
-msgstr ""
+msgstr "멀티 패스 인코딩의 2 패스 통계 파일 파일명."
 
 #: modules/codec/x264.c:384
 msgid "PSNR computation"
@@ -13348,7 +13389,7 @@ msgstr "SPS 와 PPS ID 번호"
 msgid ""
 "Set SPS and PPS id numbers to allow concatenating streams with different "
 "settings."
-msgstr ""
+msgstr "다른 설정의 연쇄된 스트림을 허용하는 SPS와 PPS id 번호를 정합니다."
 
 #: modules/codec/x264.c:401
 msgid "Access unit delimiters"
@@ -13356,7 +13397,7 @@ msgstr "접근 유닛 제한자"
 
 #: modules/codec/x264.c:402
 msgid "Generate access unit delimiter NAL units."
-msgstr ""
+msgstr "접근 유닛 구분 기호 NAL 단위를 생성합니다."
 
 #: modules/codec/x264.c:404
 msgid "Framecount to use on frametype lookahead"
@@ -13485,7 +13526,7 @@ msgstr "문자다중방송 투명도"
 
 #: modules/codec/zvbi.c:63
 msgid "Setting vbi-opaque to false makes the boxed text transparent."
-msgstr ""
+msgstr "vbi-opaque를 false로 설정하면 boxed 텍스트를 투명하게 만듭니다."
 
 #: modules/codec/zvbi.c:66
 msgid "Teletext alignment"
@@ -13662,12 +13703,12 @@ msgstr "자막 싱크: 지연 초기화"
 #: modules/control/hotkeys.c:495
 #, c-format
 msgid "Subtitle delay %i ms"
-msgstr "자막 지연 %i ms"
+msgstr "자막 싱크 %i ms"
 
 #: modules/control/hotkeys.c:511
 #, c-format
 msgid "Audio delay %i ms"
-msgstr "오디오 지연 %i ms"
+msgstr "오디오 싱크 %i ms"
 
 #: modules/control/hotkeys.c:547
 #, c-format
@@ -13856,6 +13897,9 @@ msgid ""
 "install time so the Service is properly configured. Use a comma separated "
 "list of interface modules. (common values are: logger, sap, rc, http)"
 msgstr ""
+"추가적인 인터페이스가 서비스에 의해 생성되었습니다. 설치 시에 지정이 되어야 "
+"서비스가 적절하게 설정됩니다. 인터페이스 모듈의 목록을 콤마로 구분해서 사용하"
+"세요. (보통 값은: logger, sap, rc, http)"
 
 #: modules/control/ntservice.c:66
 msgid "NT Service"
@@ -13985,15 +14029,15 @@ msgstr "| goto . . . . . . . . . . . . . .  해당 항목으로 이동"
 
 #: modules/control/rc.c:793
 msgid "| repeat [on|off] . . . .  toggle playlist item repeat"
-msgstr "| repeat [on|off] . . . .  재생목록 항목 반복 토글"
+msgstr "| repeat [on|off] . . . . 재생목록 항목 반복 토글하기"
 
 #: modules/control/rc.c:794
 msgid "| loop [on|off] . . . . . . . . . toggle playlist loop"
-msgstr "| loop [on|off] . . . . . . . . . 재생목록 순환 토글"
+msgstr "| loop [on|off] . . . . . . . . . 재생목록 순환 토글하기"
 
 #: modules/control/rc.c:795
 msgid "| random [on|off] . . . . . . .  toggle random jumping"
-msgstr "| random [on|off] . . . . . . .  무작위로 이동 토글하기"
+msgstr "| random [on|off] . . . . . . . 무작위로 이동하기 토글하기"
 
 #: modules/control/rc.c:796
 msgid "| clear . . . . . . . . . . . . . . clear the playlist"
@@ -14033,7 +14077,7 @@ msgstr "| seek X . . . 초 단위 이동, 예: `seek 12'"
 
 #: modules/control/rc.c:806
 msgid "| pause  . . . . . . . . . . . . . . . .  toggle pause"
-msgstr "| pause  . . . . . . . . . . . . . . . .  일시 정지 토글"
+msgstr "| pause  . . . . . . . . . . . . . . . . 일시 중지 토글하기"
 
 #: modules/control/rc.c:807
 msgid "| fastforward  . . . . . . . .  .  set to maximum rate"
@@ -14061,7 +14105,7 @@ msgstr "| frame. . . . . . . . . .  한 프레임씩 재생하기"
 
 #: modules/control/rc.c:813
 msgid "| f [on|off] . . . . . . . . . . . . toggle fullscreen"
-msgstr "| f [on|off] . . . . . . . . . . . . 전체 화면 토글"
+msgstr "| f [on|off] . . . . . . . . . . . . 전체 화면 토글하기"
 
 #: modules/control/rc.c:814
 msgid "| info . . . . .  information about the current stream"
@@ -14422,7 +14466,7 @@ msgstr "파일 덤프"
 
 #: modules/demux/dirac.c:41
 msgid "Value to adjust dts by"
-msgstr ""
+msgstr "DTS를 조절할 값"
 
 #: modules/demux/dirac.c:54
 msgid "Dirac video demuxer"
@@ -14604,6 +14648,8 @@ msgid ""
 "Megabass mode cutoff frequency, in Hz. This is the maximum frequency for "
 "which the megabass effect applies. Valid values are from 10 to 100 Hz."
 msgstr ""
+"메가베이스 모드 차단 주파수, Hz 단위. 이것은 메가베이스 효과가 적용되는 최대 "
+"추파수입니다. 유효한 값은 10에서 100 Hz까지 입니다."
 
 #: modules/demux/mod.c:67
 msgid "Surround effect level (from 0 to 100, default value is 0)."
@@ -15243,7 +15289,7 @@ msgstr "원본 형식"
 
 #: modules/demux/mp4/mp4.c:1067
 msgid "Display Source As"
-msgstr ""
+msgstr "출력 소스"
 
 #: modules/demux/mp4/mp4.c:1068
 msgid "Host Computer"
@@ -15400,7 +15446,7 @@ msgstr "Shoutcast 성인 컨텐츠 보기"
 
 #: modules/demux/playlist/playlist.c:47
 msgid "Show NC17 rated video streams when using shoutcast video playlists."
-msgstr ""
+msgstr "샤우트캐스트 비디오 재생목록 사용시 NC17 등급 비디오 스트림 보이기."
 
 #: modules/demux/playlist/playlist.c:50
 msgid "Skip ads"
@@ -15411,6 +15457,8 @@ msgid ""
 "Use playlist options usually used to prevent ads skipping to detect ads and "
 "prevent adding them to the playlist."
 msgstr ""
+"광고 감지를 위해 광고 건너뛰기를 막고, 광고를 재생목록에 추가하지 못하도록 하"
+"기 위해 보통 사용되는 재생목록 옵션을 사용합니다."
 
 #: modules/demux/playlist/playlist.c:67
 msgid "M3U playlist import"
@@ -15613,6 +15661,8 @@ msgstr "Raw 오디오 디먹서"
 msgid ""
 "The demuxer will advance timestamps if the input can't keep up with the rate."
 msgstr ""
+"입력이 재생속도에 맞추지 못하는 경우 디먹서는 타임스탬프를 앞으로 당길 것입니"
+"다."
 
 #: modules/demux/rawdv.c:51
 msgid "DV (Digital Video) demuxer"
@@ -15623,14 +15673,16 @@ msgid ""
 "This is the desired frame rate when playing raw video streams. In the form "
 "30000/1001 or 29.97"
 msgstr ""
+"Raw 비디오 스트림 재생시 요구되는 프레임 레이트 입니다.  30000/1001 또는 "
+"29.97 형태로"
 
 #: modules/demux/rawvid.c:49
 msgid "This specifies the width in pixels of the raw video stream."
-msgstr ""
+msgstr "Raw 비디오 스트림의 너비를 픽셀단위로 지정합니다."
 
 #: modules/demux/rawvid.c:53
 msgid "This specifies the height in pixels of the raw video stream."
-msgstr ""
+msgstr "Raw 비디오 스트림의 높이를 픽셀단위로 지정합니다."
 
 #: modules/demux/rawvid.c:56
 msgid "Force chroma (Use carefully)"
@@ -15662,7 +15714,7 @@ msgstr "EBU STL 자막 파서"
 
 #: modules/demux/subtitle.c:51
 msgid "Apply a delay to all subtitles (in 1/10s, eg 100 means 10s)."
-msgstr "모든 자막에 지연을 적용합니다 (1/10초 단위. 예: 100 = 10초)."
+msgstr "모든 자막의 싱크를 조절합니다 (1/10초 단위. 예: 100 = 10초)."
 
 #: modules/demux/subtitle.c:53
 msgid ""
@@ -15677,10 +15729,12 @@ msgid ""
 "Force the subtiles format. Selecting \"auto\" means autodetection and should "
 "always work."
 msgstr ""
+"자막 형식을 강제합니다. \"자동\"을 선택하면 자동검출을 의미하고 이것이 항상 "
+"동작할 것입니다."
 
 #: modules/demux/subtitle.c:58
 msgid "Override the default track description."
-msgstr ""
+msgstr "기본 트랙 설명을 무시합니다."
 
 #: modules/demux/subtitle.c:70
 msgid "Text subtitle parser"
@@ -15688,7 +15742,7 @@ msgstr "텍스트 자막 파서"
 
 #: modules/demux/subtitle.c:78 modules/video_filter/subsdelay.c:275
 msgid "Subtitle delay"
-msgstr "자막 지연"
+msgstr "자막 싱크"
 
 #: modules/demux/subtitle.c:80
 msgid "Subtitle format"
@@ -15727,6 +15781,7 @@ msgstr "빠른 UDP 스트리밍"
 #: modules/demux/ts.c:106
 msgid "Sends TS to specific ip:port by udp (you must know what you are doing)."
 msgstr ""
+"TS를 특정한 ip:port 에 udp로 전송합니다 (뭘 하고 있는지 알고 사용하세요)."
 
 #: modules/demux/ts.c:108
 msgid "MTU for out mode"
@@ -15743,7 +15798,7 @@ msgstr "CSA 키"
 #: modules/demux/ts.c:112 modules/mux/mpeg/ts.c:160
 msgid ""
 "CSA encryption key. This must be a 16 char string (8 hexadecimal bytes)."
-msgstr ""
+msgstr "CSA 암호화 키. 이것은 16 문자열이 되야 합니다 (8개의 16진수 바이트)."
 
 #: modules/demux/ts.c:115 modules/mux/mpeg/ts.c:163
 msgid "Second CSA Key"
@@ -15754,6 +15809,7 @@ msgid ""
 "The even CSA encryption key. This must be a 16 char string (8 hexadecimal "
 "bytes)."
 msgstr ""
+"짝수 CSA 암호화 키. 이것은 16 문자열이 되야 합니다 (8개의 16진수 바이트)."
 
 #: modules/demux/ts.c:120
 msgid "Packet size in bytes to decrypt"
@@ -15764,6 +15820,8 @@ msgid ""
 "Specify the size of the TS packet to decrypt. The decryption routines "
 "subtract the TS-header from the value before decrypting. "
 msgstr ""
+"복호화할 TS 패킷의 크기를 지정합니다. 암호해독 루틴은 암호해독 이전의 값에서 "
+"TS 헤더를 뺍니다."
 
 #: modules/demux/ts.c:125
 msgid "Separate sub-streams"
@@ -15774,12 +15832,16 @@ msgid ""
 "Separate teletex/dvbs pages into independent ES. It can be useful to turn "
 "off this option when using stream output."
 msgstr ""
+"문자다중방송/DVB 페이지를 독립적인 ES로 분리합니다. 스트림 출력을 사용시 이 "
+"옵션을 끄는 것이 유용할 수 있습니다."
 
 #: modules/demux/ts.c:132
 msgid ""
 "Seek and position based on a percent byte position, not a PCR generated time "
 "position. If seeking doesn't work property, turn on this option."
 msgstr ""
+"PCR 생성된 시간 위치가 아니라, 백분율 바이트 위치에 기반한 탐색과 위치. 탐색"
+"이 제대로 되지 않는다면, 이 옵션을 켜세요."
 
 #: modules/demux/ts.c:137
 msgid "MPEG Transport Stream demuxer"
@@ -17903,7 +17965,7 @@ msgstr "AVI 파일 복구"
 
 #: modules/gui/macosx/simple_prefs.m:207
 msgid "Default Caching Level"
-msgstr "기본 캐싱 수준"
+msgstr "기본 캐쉬 수준"
 
 #: modules/gui/macosx/simple_prefs.m:208 modules/gui/qt4/ui/open.h:248
 msgid "Caching"
@@ -18655,6 +18717,9 @@ msgid ""
 "address between 224.0.0.0 and 239.255.255.255. For a private use, enter an "
 "address beginning with 239.255."
 msgstr ""
+"이 필드에 스트림할 멀티캐스트 주소를 입력하세요. 224.0.0.0 과 "
+"239.255.255.255 사이의 IP 주소를 사용해야만 합니다. 사적인 용도로는 239.255"
+"로 시작하는 주소를 입력하세요."
 
 #: modules/gui/macosx/wizard.m:276
 msgid ""
@@ -18671,6 +18736,8 @@ msgid ""
 "Use this to stream to a single computer. RTP headers will be added to the "
 "stream"
 msgstr ""
+"단일 컴퓨터에 스트림하려면 이것을 사용하세요. RTP 헤더가 스트림에 추가될 것입"
+"니다."
 
 #: modules/gui/macosx/wizard.m:286
 msgid ""
@@ -18695,6 +18762,8 @@ msgstr "스트리밍/트랜스코딩 마법사"
 #: modules/gui/macosx/wizard.m:323
 msgid "This wizard allows configuring simple streaming or transcoding setups."
 msgstr ""
+"이 마법사는 간단한 스트리밍이나 트랜스코딩의 환경을 설정할 수 있도록 해 줍니"
+"다."
 
 #: modules/gui/macosx/wizard.m:325 modules/gui/macosx/wizard.m:326
 #: modules/gui/macosx/wizard.m:399 modules/gui/macosx/wizard.m:401
@@ -18762,7 +18831,7 @@ msgstr "에ㄱ"
 
 #: modules/gui/macosx/wizard.m:361
 msgid "This page allows selecting how the input stream will be sent."
-msgstr ""
+msgstr "이 페이지는 입력 스트림 전송 방법을 선택할 수 있게 해 줍니다."
 
 #: modules/gui/macosx/wizard.m:363 modules/gui/macosx/wizard.m:424
 #: modules/gui/qt4/dialogs/convert.cpp:55 modules/stream_out/rtp.c:76
@@ -18795,6 +18864,8 @@ msgid ""
 "This page allows changing the compression format of the audio or video "
 "tracks. To change only the container format, proceed to next page."
 msgstr ""
+"이 페이지는 오디오나 비디오 트랙의 압축 형식을 변경할 수 있게 해 줍니다. 컨테"
+"이너 형식만 바꾸려면, 다음 페이지로 진행하세요."
 
 #: modules/gui/macosx/wizard.m:379 modules/gui/macosx/wizard.m:438
 msgid "Transcode audio"
@@ -18809,12 +18880,16 @@ msgid ""
 "Enabling this allows transcoding the audio track if one is present in the "
 "stream."
 msgstr ""
+"이것을 사용하면 오디오 트랙이 스트림에 있을 때 그것을 트랜스코딩할 수 있도록 "
+"해 줍니다."
 
 #: modules/gui/macosx/wizard.m:385 modules/gui/macosx/wizard.m:1759
 msgid ""
 "Enabling this allows transcoding the video track if one is present in the "
 "stream."
 msgstr ""
+"이것을 활성화하면 스트림에 비디오 트랙이 있을 때 그것을 트랜스코딩할 수 있"
+"게  해 줍니다."
 
 #: modules/gui/macosx/wizard.m:389
 msgid "Encapsulation format"
@@ -18825,6 +18900,8 @@ msgid ""
 "This page allows selecting how the stream will be encapsulated. Depending on "
 "previously chosen settings all formats won't be available."
 msgstr ""
+"이 페이지는 스트림을 봉인하는 방법을 선택할 수 있게 해 줍니다. 이전에 선택된 "
+"설정에 따라서 모든 형식을 사용할 수는 없을 것입니다."
 
 #: modules/gui/macosx/wizard.m:395
 msgid "Additional streaming options"
@@ -18906,6 +18983,9 @@ msgid ""
 "\n"
 "Choose one before going to the next page."
 msgstr ""
+"새로운 스트림이나 유효한 재생목록을 선택하지 않았습니다.\n"
+"\n"
+"다음 페이지로 가기 전에 하나를 선택하세요."
 
 #: modules/gui/macosx/wizard.m:652
 msgid "No valid destination"
@@ -18989,7 +19069,7 @@ msgstr "아니오"
 
 #: modules/gui/macosx/wizard.m:1315
 msgid "yes: from %@ to %@"
-msgstr ""
+msgstr "예: %@ 에서 %@ 으로"
 
 #: modules/gui/macosx/wizard.m:1325 modules/gui/macosx/wizard.m:1343
 msgid "yes: %@ @ %@ kb/s"
@@ -19027,6 +19107,9 @@ msgid ""
 "what it means, or if you want to stream on your local network only, leave "
 "this setting to 1."
 msgstr ""
+"이것은 스트림의 TTL (Time-To-Live) 을 정의할 수 있게 해 줍니다. 이 변수는 당"
+"신의 스트림이 통과할 수 있는 라우터의 최대 개수입니다. 무슨 내용인지 모르겠거"
+"나, 로컬 네트워크 내에서만 스트리밍할 것이면, 이 설정을 1로 놔두세요."
 
 #: modules/gui/macosx/wizard.m:1800
 msgid ""
@@ -19037,6 +19120,12 @@ msgid ""
 "If you want to give a name to your stream, enter it here, else, a default "
 "name will be used."
 msgstr ""
+"UDP를 이용해서 스트리밍할 때, 스트림은 SAP/SDP 통지 프로토콜을 이용해서 알릴 "
+"수 있습니다. 이 방식은 클라이언트는 멀티캐스트 주소에 입력할 필요가 없습니"
+"다. SAP 추가 인터페이스를 사용하면, 스트림은 재생목록에 나타나게 될 것입니"
+"다.\n"
+"당신의 스트림에 이름을 정해주고 싶으면, 그것을 여기에 입력하세요. 아니면 기본"
+"값의 이름이 사용될 것입니다."
 
 #: modules/gui/macosx/wizard.m:1813
 msgid ""
@@ -19046,6 +19135,11 @@ msgid ""
 "Note that this requires much more CPU power than simple transcoding or "
 "streaming."
 msgstr ""
+"이 옵션을 사용할 때, 스트림은 재생과 트랜스코딩/스트리밍이 동시에 이루어질 것"
+"입니다.\n"
+"\n"
+"이것은 간단한 트랜스코딩이나 스트리밍보다 훨신 더 많은 CPU 파워를 필요로 하"
+"는 것을 주의하세요."
 
 #: modules/gui/minimal_macosx/macosx.c:57
 msgid "Minimal Mac OS X interface"
@@ -19341,7 +19435,7 @@ msgstr "문자다중방송 활성화"
 
 #: modules/gui/qt4/components/controller.cpp:596
 msgid "Toggle Transparency "
-msgstr "투명도 토글"
+msgstr "투명도 토글하기"
 
 #: modules/gui/qt4/components/controller.hpp:43
 msgid ""
@@ -19419,11 +19513,11 @@ msgstr "재생목록의 다음 미디어, 계속 누르고 있으면 앞으로 �
 
 #: modules/gui/qt4/components/controller.hpp:127
 msgid "Toggle the video in fullscreen"
-msgstr "전체화면으로 비디오 토글"
+msgstr "전체화면으로 가기"
 
 #: modules/gui/qt4/components/controller.hpp:127
 msgid "Toggle the video out fullscreen"
-msgstr "전체화면에서 비디오 토글"
+msgstr "전체화면 나가기"
 
 #: modules/gui/qt4/components/controller.hpp:128
 msgid "Show extended settings"
@@ -19521,6 +19615,10 @@ msgid ""
 "\n"
 "Controls will automatically appear here."
 msgstr ""
+"어떤 v4l2 인터페이스도 찾지 못했습니다.\n"
+"VLC에서 해당 장치를 열었는지, 장치가 재생중인지 확인하세요.\n"
+"\n"
+"컨트롤은 자동적으로 여기에 나타날 것입니다."
 
 #: modules/gui/qt4/components/extended_panels.cpp:1191
 #: modules/gui/qt4/components/extended_panels.cpp:1192
@@ -20680,7 +20778,7 @@ msgstr "환경설장 파일을 저장하지 못했습니다"
 
 #: modules/gui/qt4/dialogs/preferences.cpp:327
 msgid "Are you sure you want to reset your VLC media player preferences?"
-msgstr "VLC 미디어 재생기의 환경 설정을 초기화 할까요?"
+msgstr "VLC 미디어 재생기의 환경설정을 초기화 할까요?"
 
 #: modules/gui/qt4/dialogs_provider.cpp:65
 msgid "Open Directory"
@@ -21259,7 +21357,7 @@ msgstr "작업표시줄에 VLC 미디어 재생기 숨기기"
 
 #: modules/gui/qt4/menus.cpp:1151
 msgid "Sho&w VLC media player"
-msgstr "VLC 미디어 플레이어 보기"
+msgstr "VLC 미디어 재생기 보기"
 
 #: modules/gui/qt4/menus.cpp:1162
 msgid "&Open Media"
@@ -21316,6 +21414,8 @@ msgid ""
 "Show a notification popup with the artist and track name when the current "
 "playlist item changes, when VLC is minimized or hidden."
 msgstr ""
+"VLC가 최소화되거나 숨겨진 경우, 현재 재생목록 항목이 바뀔 때 아티스트와 트랙"
+"의 알림 팝업을 보여 줍니다."
 
 #: modules/gui/qt4/qt4.cpp:101
 msgid "Windows opacity between 0.1 and 1"
@@ -21441,21 +21541,23 @@ msgstr "최소 보기로 시작합니다 (메뉴 없음)"
 
 #: modules/gui/qt4/qt4.cpp:156
 msgid "Display background cone or art"
-msgstr ""
+msgstr "배경 원뿔이나 배경 아트를 출력하기"
 
 #: modules/gui/qt4/qt4.cpp:157
 msgid ""
 "Display background cone or current album art when not playing. Can be "
 "disabled to prevent burning screen."
 msgstr ""
+"재생중이 아닐 때 배경 원뿔이나 현재 앨범아트를 출력합니다. 화면 버닝을 방지하"
+"기 위해 끌 수 있습니다."
 
 #: modules/gui/qt4/qt4.cpp:160
 msgid "Expanding background cone or art."
-msgstr ""
+msgstr "배경 원뿔이나 아트를 확장하기."
 
 #: modules/gui/qt4/qt4.cpp:161
 msgid "Background art fits window's size"
-msgstr ""
+msgstr "배경 아트를 창의 크기에 맞추기"
 
 #: modules/gui/qt4/qt4.cpp:163
 msgid "Ignore keyboard volume buttons."
@@ -21468,6 +21570,10 @@ msgid ""
 "unchecked, the volume buttons will change VLC's volume when VLC is selected "
 "and change the system volume when VLC is not selected."
 msgstr ""
+"이 옵션 사용시, 키보드의 볼륨 조절 버튼이나 음소거 버튼 사용시에 시스템 볼륨"
+"을 항상 변경할 것입니다. 이 옵션 미사용시, 키보드의 볼륨 버튼들은 VLC 창이 활"
+"성화시는 항상 VLC의 볼륨을, VLC 창이 비활성화시는 시스템 볼륨을 변경할 것입니"
+"다."
 
 #: modules/gui/qt4/qt4.cpp:184
 msgid "Never"
@@ -21559,6 +21665,8 @@ msgid ""
 "You can disable all transparency effects if you want. This is mainly useful "
 "when moving windows does not behave correctly."
 msgstr ""
+"인터페이스의 모든 투명도를 끌 수 있습니다. 창을 이동할 때 비정상적으로 동작한"
+"다면 이 옵션이 대게 유횽합니다."
 
 #: modules/gui/skins2/src/skin_main.cpp:479
 #: modules/gui/skins2/src/skin_main.cpp:480
@@ -21567,13 +21675,15 @@ msgstr "스킨이 적용된 재생목록 사용"
 
 #: modules/gui/skins2/src/skin_main.cpp:481
 msgid "Display video in a skinned window if any"
-msgstr ""
+msgstr "동영상을 스킨화된 창에 출력하기"
 
 #: modules/gui/skins2/src/skin_main.cpp:483
 msgid ""
 "When set to 'no', this parameter is intended to give old skins a chance to "
 "play back video even though no video tag is implemented"
 msgstr ""
+"'no'라고 설정하면, 이 변수는, 설사 아무 비디오 태그도 구현되어 있지 않더라"
+"도, 이전 스킨이 동영상을 재생할 수 있는 기회를 주도록 되어 있습니다."
 
 #: modules/gui/skins2/src/skin_main.cpp:507
 msgid "Skins"
@@ -21597,6 +21707,9 @@ msgid ""
 "password, or set a password in </p><p>Preferences &gt; All &gt; Main "
 "interfaces &gt; Lua &gt; Lua HTTP &gt; Password.</p>"
 msgstr ""
+"웹 인터페이스의 비밀번호를 설정하지 않았습니다. --http-password를 사용하거나 "
+"환경설정의 &gt; 전체 &gt; 메인 인터페이스 &gt; Lua &gt; Lua HTTP &gt; 비밀번"
+"호 에서 비밀번호를 정하세요."
 
 #: modules/lua/vlc.c:48
 msgid "Lua interface"
@@ -21620,7 +21733,7 @@ msgstr ""
 
 #: modules/lua/vlc.c:54 modules/lua/vlc.c:70
 msgid "A single password restricts access to this interface."
-msgstr ""
+msgstr "단일 비밀번호는 이 인터페이스의 접근을 제한합니다."
 
 #: modules/lua/vlc.c:56 modules/lua/vlc.c:57
 msgid "Source directory"
@@ -21666,6 +21779,9 @@ msgid ""
 "but can also bind to a plain TCP socket (\"localhost:4212\") or use the "
 "telnet protocol (\"telnet://0.0.0.0:4212\")"
 msgstr ""
+"이 소스에서 명령을 받아들입니다. CLI 기본값은 stdin (\"*console\") 이지만, 단"
+"순한 TCP 소켓 (\"localhost:4212\") 에 바인드할 수도 있고 또는 텔넷 프로토콜 "
+"(\"telnet://0.0.0.0:4212\") 을 사용할 수도 있습니다."
 
 #: modules/lua/vlc.c:84
 msgid "Lua"
@@ -21878,6 +21994,10 @@ msgid ""
 "\n"
 "If in doubt, abort now.\n"
 msgstr ""
+"이것은 %s가 제공한 인증서입니다:\n"
+"%s\n"
+"\n"
+"의심스럽다면, 지금 취소하세요.\n"
 
 #: modules/misc/gnutls.c:314
 msgid "Accept 24 hours"
@@ -22278,6 +22398,10 @@ msgid ""
 "enhances the efficiency of the shaping algorithm, since I frames are usually "
 "the biggest frames in the stream."
 msgstr ""
+"만약 활성화되고 shaping이 지정되면, TS 먹서는 I 그림의 끝에 경계를 놓을 것입"
+"니다. 그런 경우에, 사용자가 지정한 shaping 지속 시간은 사용 가능한 레퍼런스 "
+"프레임이 없을 때 사용되는 나쁜 경우입니다. 이것은 I 프레임이 보통 스트림에서 "
+"가장 큰 프레임이기 때문에, shaping 알고리즘의 효율성을 향상시킵니다."
 
 #: modules/mux/mpeg/ts.c:137
 msgid "PCR interval (ms)"
@@ -22288,6 +22412,8 @@ msgid ""
 "Set at which interval PCRs (Program Clock Reference) will be sent (in "
 "milliseconds). This value should be below 100ms. (default is 70ms)."
 msgstr ""
+"PCR (Program Clock Reference) 이 전송될 간격 (밀리초) 을 정합니다. 이 값은 "
+"100ms 미만이어야 합니다 (기본값은 70ms입니다)."
 
 #: modules/mux/mpeg/ts.c:142
 msgid "Minimum B (deprecated)"
@@ -22295,7 +22421,7 @@ msgstr "최소 B (권장하지 않음)"
 
 #: modules/mux/mpeg/ts.c:143 modules/mux/mpeg/ts.c:146
 msgid "This setting is deprecated and not used anymore"
-msgstr ""
+msgstr "이 설정은 사라져서 더 이상 사용되지 않습니다"
 
 #: modules/mux/mpeg/ts.c:145
 msgid "Maximum B (deprecated)"
@@ -22307,6 +22433,9 @@ msgid ""
 "the data in the stream, compared to the PCRs. This allows for some buffering "
 "inside the client decoder."
 msgstr ""
+"스트림 데이터의 DTS (디코딩 타임 스탬프) 와 PTS (프리젠테이션 타임 스탬프) "
+"를 SCR 과 비교하여 지연시킵니다. 이것은 클라이언트 디코더 내에 약간의 버퍼링"
+"을 허용합니다."
 
 #: modules/mux/mpeg/ts.c:154
 msgid "Crypt audio"
@@ -22333,6 +22462,8 @@ msgid ""
 "CSA encryption key used. It can be the odd/first/1 (default) or the even/"
 "second/2 one."
 msgstr ""
+"사용되는 CSA 암호화 키. 홀수/첫번째/1 (기본값) 이나 짝수/두번째/2 키를 사용"
+"할 수 있습니다."
 
 #: modules/mux/mpeg/ts.c:171
 msgid "Packet size in bytes to encrypt"
@@ -22343,6 +22474,7 @@ msgid ""
 "Size of the TS packet to encrypt. The encryption routines subtract the TS-"
 "header from the value before encrypting."
 msgstr ""
+"암호화할 TS 패킷의 크기. 암호화 루틴은 암호화 이전의 값에서 TS 헤더를 뺍니다."
 
 #: modules/mux/mpeg/ts.c:181
 msgid "TS muxer (libdvbpsi)"
@@ -22366,7 +22498,7 @@ msgstr "Growl 알림 플러그인"
 
 #: modules/notify/growl.m:282
 msgid "New input playing"
-msgstr ""
+msgstr "새 입력 재생"
 
 #: modules/notify/growl.m:305
 msgid "Now playing"
@@ -22425,6 +22557,8 @@ msgid ""
 "Normally the packetizer would sync on the next full frame. This flags "
 "instructs the packetizer to sync on the first Intra Frame found."
 msgstr ""
+"보통 패킷타이저는 다음의 완전한 프레임에 동기화할 것입니다. 이 플래그는 패킷"
+"타이저가 발견된 최초의 Intra Frame에 동기화하도록 지시합니다."
 
 #: modules/packetizer/mpegvideo.c:71
 msgid "MPEG-I/II video packetizer"
@@ -22518,6 +22652,8 @@ msgid ""
 "The SAP module normally chooses itself the right addresses to listen to. "
 "However, you can specify a specific address."
 msgstr ""
+"SAP 모듈은 보통 수신할 바른 주소를 스스로 선택합니다. 그러나, 특정 주소를 지"
+"정할 수 있습니다."
 
 #: modules/services_discovery/sap.c:86
 msgid "SAP timeout (seconds)"
@@ -22526,7 +22662,7 @@ msgstr "SAP 시간제한 (초)"
 #: modules/services_discovery/sap.c:88
 msgid ""
 "Delay after which SAP items get deleted if no new announcement is received."
-msgstr ""
+msgstr "새 알림이 수신되지 않는 경우 SAP 항목이 삭된 후의 지연."
 
 #: modules/services_discovery/sap.c:90
 msgid "Try to parse the announce"
@@ -22537,6 +22673,8 @@ msgid ""
 "This enables actual parsing of the announces by the SAP module. Otherwise, "
 "all announcements are parsed by the \"live555\" (RTP/RTSP) module."
 msgstr ""
+"이것은 SAP 모듈에 의한 알림의 실제적인 구문 해석(parsing)을 활성화합니다. 그"
+"렇지 않으면 모든 알림은 \"live555\" (RTP/RTSP) 모듈에 의해 구문이 해석됩니다."
 
 #: modules/services_discovery/sap.c:95
 msgid "SAP Strict mode"
@@ -22547,6 +22685,7 @@ msgid ""
 "When this is set, the SAP parser will discard some non-compliant "
 "announcements."
 msgstr ""
+"이것을 설정하면. SAP 구문분석기는 몇몇의 비호환 알림을 폐기할 것입니다."
 
 #: modules/services_discovery/sap.c:109
 msgid "SAP"
@@ -22699,6 +22838,8 @@ msgid ""
 "Name of the destination bridge-in. If you do not need more than one bridge-"
 "in at a time, you can discard this option."
 msgstr ""
+"대상 bridge-in의 이름. 한 번에 하나 이상의 bridge-in 이 필요하지 않으면, 이 "
+"옵션을 버릴 수 있습니다."
 
 #: modules/stream_out/bridge.c:52
 msgid ""
@@ -22706,6 +22847,8 @@ msgid ""
 "this value (in milliseconds, should be >= 100 ms). For high values, you will "
 "need to raise caching values."
 msgstr ""
+"사진 비디오 출력에서 나오는 화면들은 이 값에 따라서 지연될 것입니다 (밀리초, "
+"100 ms 이상이 되야 함). 높은 값에 대해서는, 캐쉬값을 올려야 할 것입니다."
 
 #: modules/stream_out/bridge.c:56
 msgid "ID Offset"
@@ -22716,20 +22859,24 @@ msgid ""
 "Offset to add to the stream IDs specified in bridge_out to obtain the stream "
 "IDs bridge_in will register."
 msgstr ""
+"bridge_in 이 등록할 스트림 ID를 얻기 위해 bridge_out에 지정된 스트림 ID에 추"
+"가할 offset."
 
 #: modules/stream_out/bridge.c:60
 msgid "Name of current instance"
-msgstr "현재 실행중인 개체 이름"
+msgstr "현재 실행중인 VLC의 이름"
 
 #: modules/stream_out/bridge.c:62
 msgid ""
 "Name of this bridge-in instance. If you do not need more than one bridge-in "
 "at a time, you can discard this option."
 msgstr ""
+"이  bridge-in 인터페이스의 이름. 한 번에 하나 이상의 bridge-in 이 필요하지 않"
+"으면, 이 옵션을 버릴 수 있습니다."
 
 #: modules/stream_out/bridge.c:65
 msgid "Fallback to placeholder stream when out of data"
-msgstr ""
+msgstr "쓸모가 없을 때 플레이스홀더 스트림으로 fallback하기"
 
 #: modules/stream_out/bridge.c:67
 msgid ""
@@ -22738,6 +22885,10 @@ msgid ""
 "configure a place holder stream when the real source breaks. Source and "
 "placeholder streams should have the same format. "
 msgstr ""
+"true로 설정하면, 만약 다른 bridge-in 에서 자료를 수신하지 않는다면, bridge는 "
+"모든 입력 엘리멘터리 스트림을 버릴 것입니다. 이것은 실제 소스가 중단될 때 플"
+"레이스홀더 스트림을 설정하기 위해 사용될 수 있습니다. 소스와 플레이스홀더 스"
+"트림은 같은 형식을 가지고 있어야 합니다."
 
 #: modules/stream_out/bridge.c:72
 msgid "Placeholder delay"
@@ -22745,11 +22896,11 @@ msgstr "객체틀 지연"
 
 #: modules/stream_out/bridge.c:74
 msgid "Delay (in ms) before the placeholder kicks in."
-msgstr ""
+msgstr "플레이스홀더가 동작하기 전의 지연 (ms)."
 
 #: modules/stream_out/bridge.c:76
 msgid "Wait for I frame before toggling placeholder"
-msgstr ""
+msgstr "플레이스홀더를 토글하기 전 I 프레임 기다리기"
 
 #: modules/stream_out/bridge.c:78
 msgid ""
@@ -22758,6 +22909,9 @@ msgid ""
 "the expense of a slightly longer delay, depending on the frequence of I "
 "frames in the streams."
 msgstr ""
+"이 옵션 사용시 플레이스홀더와 일반 스트림간의 전환은 I 프레임 상에서만 발생"
+"할 것입니다. 이것은 스트림의 I 프레임 빈도에 따라서 약간 더 긴 지연을 댓가로 "
+"전환하는 스트림상의 아티팩트를 제거할 것입니다."
 
 #: modules/stream_out/bridge.c:92
 msgid "Bridge"
@@ -23078,6 +23232,10 @@ msgid ""
 "access the SDP via HTTP, rtsp://location for RTSP access, and sap:// for the "
 "SDP to be announced via SAP."
 msgstr ""
+"이것은 당신이 이 RTP 세션에 대해 SDP (Session Descriptor)을 사용할 수 있게 하"
+"는 방법을 지정할 수 있도록 합니다. HTTP를 경유해서 SDP에 접근하려면 url: "
+"http://location 를 사용해야 합니다. RTSP 접근을 위해서는 rtsp://location을 "
+"SAP를 통해 SDP를 고지하려면 sap:// 를 사용해야 합니다."
 
 #: modules/stream_out/rtp.c:85 modules/stream_out/standard.c:81
 msgid "SAP announcing"
@@ -23092,6 +23250,8 @@ msgid ""
 "This allows you to specify the muxer used for the streaming output. Default "
 "is to use no muxer (standard RTP stream)."
 msgstr ""
+"스트리밍 출력을 위해 사용되는 먹서를 지정할 수 있습니다. 기본값은 먹서를 사용"
+"하지 않는 것입니다 (표준 RTP 스트림)."
 
 #: modules/stream_out/rtp.c:92 modules/stream_out/standard.c:58
 msgid "Session name"
@@ -23101,7 +23261,7 @@ msgstr "세션 이름"
 msgid ""
 "This is the name of the session that will be announced in the SDP (Session "
 "Descriptor)."
-msgstr ""
+msgstr "이것은 SDP (Session Descriptor) 에서 고지될 세션의 이름입니다."
 
 #: modules/stream_out/rtp.c:96
 msgid "Session category"
@@ -23122,6 +23282,8 @@ msgid ""
 "This allows you to give a short description with details about the stream, "
 "that will be announced in the SDP (Session Descriptor)."
 msgstr ""
+"이것은 SDP (Session Descriptor) 에서 고지될 스트림에 대해서 상세하게 간략한 "
+"설명을 할 수 있게 합니다."
 
 #: modules/stream_out/rtp.c:104 modules/stream_out/standard.c:66
 msgid "Session URL"
@@ -23133,6 +23295,8 @@ msgid ""
 "website of the streaming organization), that will be announced in the SDP "
 "(Session Descriptor)."
 msgstr ""
+"이것은 SDP (Session Descriptor) 에서 고지될 스트림 (흔히 스트리밍 기관의 웹사"
+"이트) 에 대해 더 자세한 설명과 함께 URL을 제시할 수 있도록 해 줍니다."
 
 #: modules/stream_out/rtp.c:109 modules/stream_out/standard.c:71
 msgid "Session email"
@@ -23143,6 +23307,8 @@ msgid ""
 "This allows you to give a contact mail address for the stream, that will be "
 "announced in the SDP (Session Descriptor)."
 msgstr ""
+"이것은 SDP (Session Descriptor) 에 고지될 스트림에 연락처 이메일 주소를 사용"
+"할 수 있도록 해 줍니다."
 
 #: modules/stream_out/rtp.c:113 modules/stream_out/standard.c:75
 msgid "Session phone number"
@@ -23153,6 +23319,8 @@ msgid ""
 "This allows you to give a contact telephone number for the stream, that will "
 "be announced in the SDP (Session Descriptor)."
 msgstr ""
+"SDP (Session Descriptor) 에 고지될 스트림에 연락처 전화 번호를 사용할 수 있"
+"게 해 줍니다."
 
 #: modules/stream_out/rtp.c:120
 msgid "This allows you to specify the base port for the RTP streaming."
@@ -23185,12 +23353,13 @@ msgid ""
 "This sends and receives RTCP packet multiplexed over the same port as RTP "
 "packets."
 msgstr ""
+"이것은 RTP 패킷과 같은 port 에 의해서 멀티플렉스된 RTCP 패킷을 송수신합니다."
 
 #: modules/stream_out/rtp.c:141
 msgid ""
 "Default caching value for outbound RTP streams. This value should be set in "
 "milliseconds."
-msgstr ""
+msgstr "나가는 RTP 스트림의 기본 캐쉬 값. 이 값은 밀리초로 설정되어야 합니다."
 
 #: modules/stream_out/rtp.c:144
 msgid "Transport protocol"
@@ -23198,7 +23367,7 @@ msgstr "전송 프로토콜"
 
 #: modules/stream_out/rtp.c:146
 msgid "This selects which transport protocol to use for RTP."
-msgstr ""
+msgstr "RTP에 사용할 전송 프로토콜을 선택합니다."
 
 #: modules/stream_out/rtp.c:150
 msgid ""
@@ -23206,6 +23375,8 @@ msgid ""
 "master shared secret key. This must be a 32-character-long hexadecimal "
 "string."
 msgstr ""
+"RTP 패킷은 이 Secure RTP 마스터 공유 비밀 키로 integrity-protected 되고 암호"
+"화될 것입니다. 이것은 32 문자길이의 16진수 문자열이어야 합니다."
 
 #: modules/stream_out/rtp.c:167
 msgid "MP4A LATM"
@@ -23214,6 +23385,8 @@ msgstr "MP4A LATM"
 #: modules/stream_out/rtp.c:169
 msgid "This allows you to stream MPEG4 LATM audio streams (see RFC3016)."
 msgstr ""
+"이것은 MPEG4 LATM 오디오 스트림 (RFC3016 참고) 을 스트리밍할 수 있게 해 줍니"
+"다."
 
 #: modules/stream_out/rtp.c:171
 msgid "RTSP session timeout (s)"
@@ -23225,6 +23398,8 @@ msgid ""
 "long. Setting it to a negative value or zero disables timeouts. The default "
 "is 60 (one minute)."
 msgstr ""
+"이 시간 동안 어떤 RTSP 요청도 수신하지 않는다면 RTSP 세션이 닫힐 것입니다. 음"
+"수나 0으로 설정하면 타임아웃을 비활성화합니다. 기본값은 60 (1분) 입니다."
 
 #: modules/stream_out/rtp.c:192
 msgid "RTP stream output"
@@ -23272,73 +23447,83 @@ msgstr "엘러멘터리 스트림의 언어를 바꿉니다"
 
 #: modules/stream_out/smem.c:61
 msgid "Video prerender callback"
-msgstr ""
+msgstr "비디오 prerender callback"
 
 #: modules/stream_out/smem.c:62
 msgid ""
 "Address of the video prerender callback function. This function will set the "
 "buffer where render will be done."
 msgstr ""
+"비디오 prerender callback 함수의 주소. 이 함수는 렌더링이 될 버퍼를 정할 것입"
+"니다."
 
 #: modules/stream_out/smem.c:65
 msgid "Audio prerender callback"
-msgstr ""
+msgstr "오디오 prerender callback"
 
 #: modules/stream_out/smem.c:66
 msgid ""
 "Address of the audio prerender callback function. This function will set the "
 "buffer where render will be done."
 msgstr ""
+"오디오 prerender callback 함수의 주소. 이 함수는 렌더링이 될 버퍼를 정할 것입"
+"니다."
 
 #: modules/stream_out/smem.c:69
 msgid "Video postrender callback"
-msgstr ""
+msgstr "비디오 postrender callback"
 
 #: modules/stream_out/smem.c:70
 msgid ""
 "Address of the video postrender callback function. This function will be "
 "called when the render is into the buffer."
 msgstr ""
+"비디오 postrender callback 함수의 주소. 이 함수는 렌더가 버퍼에 있을 때 호출"
+"될 것입니다."
 
 #: modules/stream_out/smem.c:73
 msgid "Audio postrender callback"
-msgstr ""
+msgstr "오디오 postrender callback"
 
 #: modules/stream_out/smem.c:74
 msgid ""
 "Address of the audio postrender callback function. This function will be "
 "called when the render is into the buffer."
 msgstr ""
+"오디오 postrender callback 함수의 주소. 이 함수는 렌더가 버퍼에 있을 때 호출"
+"될 것입니다."
 
 #: modules/stream_out/smem.c:77
 msgid "Video Callback data"
-msgstr ""
+msgstr "비디오 Callback 데이터"
 
 #: modules/stream_out/smem.c:78
 msgid "Data for the video callback function."
-msgstr ""
+msgstr "비디오 callback 함수에 대한 데이터"
 
 #: modules/stream_out/smem.c:80
 msgid "Audio callback data"
-msgstr ""
+msgstr "오디오 callback 데이터"
 
 #: modules/stream_out/smem.c:81
 msgid "Data for the audio callback function."
-msgstr ""
+msgstr "오디오 callback 함수에 대한 자료"
 
 #: modules/stream_out/smem.c:83
 msgid "Time Synchronized output"
-msgstr ""
+msgstr "시간 동기화돈 출력"
 
 #: modules/stream_out/smem.c:84
 msgid ""
 "Time Synchronisation option for output. If true, stream will render as "
 "usual, else it will be rendered as fast as possible."
 msgstr ""
+"출력의 시간 동기화 옵션. true이면, 스트림은 평상시처럼 렌러할 것입니다. 그 밖"
+"에는 가능한 빨리 렌러될 것입니다."
 
 #: modules/stream_out/smem.c:96
 msgid "Smem"
-msgstr ""
+msgstr "Smem"
 
 #: modules/stream_out/smem.c:97
 msgid "Stream output to memory buffer"
@@ -23365,23 +23550,27 @@ msgstr "스트림에 사용될 대상 (URL). 경로 및 바인드 매개변수 �
 
 #: modules/stream_out/standard.c:50
 msgid "address to bind to (helper setting for dst)"
-msgstr ""
+msgstr "바인드할 주소 (dst의 helper 설정)"
 
 #: modules/stream_out/standard.c:52
 msgid ""
 "address:port to bind vlc to listening incoming streams helper setting for "
 "dst,dst=bind+'/'+path. dst-parameter overrides this"
 msgstr ""
+"VLC를 수신하는 들어오는 스트림에 바인드할 address:port. dst의 helper 설정, "
+"dst=bind+'/'+path. dst-변수는 이것을 무시합니다"
 
 #: modules/stream_out/standard.c:54
 msgid "filename for stream (helper setting for dst)"
-msgstr ""
+msgstr "스트림할 파일명 (dst의 helper 설정)"
 
 #: modules/stream_out/standard.c:56
 msgid ""
 "Filename for stream helper setting for dst, dst=bind+'/'+path, dst-parameter "
 "overrides this"
 msgstr ""
+"스트림할 파일명. dst의 helper 설정, dst=bind+'/'+path.  dst-변수는 이것을 무"
+"시합니다"
 
 #: modules/stream_out/standard.c:91
 msgid "Standard stream output"
@@ -23412,7 +23601,7 @@ msgstr "영상 비트레이트"
 
 #: modules/stream_out/transcode/transcode.c:53
 msgid "Target bitrate of the transcoded video stream."
-msgstr ""
+msgstr "변환된 비디오 스트림의 목표 비트레이트."
 
 #: modules/stream_out/transcode/transcode.c:54
 msgid "Video scaling"
@@ -23428,7 +23617,7 @@ msgstr "영상 프레임 레이트"
 
 #: modules/stream_out/transcode/transcode.c:59
 msgid "Target output frame rate for the video stream."
-msgstr ""
+msgstr "비디오 스트림의 목표 출력 프레임 레이트."
 
 #: modules/stream_out/transcode/transcode.c:60
 msgid "Deinterlace video"
@@ -23467,6 +23656,8 @@ msgid ""
 "Video filters will be applied to the video streams (after overlays are "
 "applied). You can enter a colon-separated list of filters."
 msgstr ""
+"비디오 필터가 비디오 스트림에 적용될 것입니다 (오버레이 적용 후에). 콜론으로 "
+"분리한 필터 목록을 입력할 수 있습니다."
 
 #: modules/stream_out/transcode/transcode.c:83
 msgid "Audio encoder"
@@ -23493,12 +23684,12 @@ msgstr "오디오 비트레이트"
 
 #: modules/stream_out/transcode/transcode.c:92
 msgid "Target bitrate of the transcoded audio stream."
-msgstr ""
+msgstr "변환된 오디오 스트림의 목표 비트레이트."
 
 #: modules/stream_out/transcode/transcode.c:95
 msgid ""
 "Sample rate of the transcoded audio stream (11250, 22500, 44100 or 48000)."
-msgstr ""
+msgstr "변환된 오디오 스트림의 샘플 레이트 (11250, 22500, 44100 또는 48000)."
 
 #: modules/stream_out/transcode/transcode.c:98
 msgid "This is the language of the audio stream."
@@ -23545,6 +23736,9 @@ msgid ""
 "overlayed directly onto the video. You can specify a colon-separated list of "
 "subpicture modules"
 msgstr ""
+"오버레이(변환된 비디오 스트림에서 \"subpictures\"라고 알려진)를 추가할 수 있"
+"도록 합니다. 필터로 만들어진 Subpictures는 비디오상에 직접 오버레이될 것입니"
+"다. subpicture 모듈 목록을 콜론으로 구분해서 지정할 수 있습니다."
 
 #: modules/stream_out/transcode/transcode.c:122
 msgid "OSD menu"
@@ -23553,7 +23747,7 @@ msgstr "OSD 메뉴"
 #: modules/stream_out/transcode/transcode.c:124
 msgid ""
 "Stream the On Screen Display menu (using the osdmenu subpicture module)."
-msgstr ""
+msgstr "OSD 메뉴를 스트림합니다 (osdmenu subpicture 모듈을 사용해서)."
 
 #: modules/stream_out/transcode/transcode.c:126
 msgid "Number of threads"
@@ -23570,7 +23764,7 @@ msgstr "높은 우선순위"
 #: modules/stream_out/transcode/transcode.c:131
 msgid ""
 "Runs the optional encoder thread at the OUTPUT priority instead of VIDEO."
-msgstr ""
+msgstr "출력 우선순위에 비디오 대신 선택적인 인코더 쓰레드를 실행합니다."
 
 #: modules/stream_out/transcode/transcode.c:134
 msgid "Synchronise on audio track"
@@ -23581,12 +23775,16 @@ msgid ""
 "This option will drop/duplicate video frames to synchronise the video track "
 "on the audio track."
 msgstr ""
+"이 옵션은 비디오와 오디오 트랙을 동기화하기 위해 비디오 프레임을 드롭/복제할 "
+"것입니다."
 
 #: modules/stream_out/transcode/transcode.c:140
 msgid ""
 "The transcoder will drop frames if your CPU can't keep up with the encoding "
 "rate."
 msgstr ""
+"당신의 CPU가 인코딩 속도를 따라잡지 못하면 트랜스코더는 프레임을 드롭할 것입"
+"니다."
 
 #: modules/stream_out/transcode/transcode.c:155
 msgid "Transcode stream output"
@@ -23598,7 +23796,7 @@ msgstr "오버레이/자막"
 
 #: modules/text_renderer/freetype.c:155
 msgid "Monospace Font"
-msgstr ""
+msgstr "Monospace 글꼴"
 
 #: modules/text_renderer/freetype.c:157
 msgid "Font family for the font you want to use"
@@ -23618,6 +23816,8 @@ msgid ""
 "set to something different than 0 this option will override the relative "
 "font size."
 msgstr ""
+"이것은 비디오상에 렌더링될 글꼴의 기본 크기입니다. 0 이외의 다른 값을 설정하"
+"면, 이 옵션은 상대적인 글꼴 크기를 무시할 것입니다."
 
 #: modules/text_renderer/freetype.c:165
 msgid "Text opacity"
@@ -23643,6 +23843,10 @@ msgid ""
 "then blue. #000000 = black, #FF0000 = red, #00FF00 = green, #FFFF00 = yellow "
 "(red + green), #FFFFFF = white"
 msgstr ""
+"동영상에 렌더링될 텍스트 색상. 16진수여야 합니다 (HTML 색상처럼). 첫번째 두 "
+"문자는 빨간색, 그 다음은 녹색, 그 다음은 파란색입니다. #000000 = 검은색, "
+"#FF0000 = 빨간색, #00FF00 = 녹색, #FFFF00 = 노란색 (빨간색 + 녹색), #FFFFFF "
+"= 하얀색"
 
 #: modules/text_renderer/freetype.c:174 modules/text_renderer/quartztext.c:94
 #: modules/text_renderer/win32text.c:75
@@ -23655,6 +23859,8 @@ msgid ""
 "This is the relative default size of the fonts that will be rendered on the "
 "video. If absolute font size is set, relative size will be overridden."
 msgstr ""
+"이것은 비디오상에 렌더링될 글꼴의 상대적인 기본 크기입니다. 절대적인 글꼴 크"
+"기로 설정하면, 상대적인 크기는 무시될 것입니다."
 
 #: modules/text_renderer/freetype.c:180
 msgid "Background opacity"
@@ -23944,8 +24150,7 @@ msgid ""
 msgstr ""
 "이 모듈은 당신의 컴퓨터와 연결한 이른바 애트모라이트 장치라는 것을 조절해 줍"
 "니다.\n"
-"애트모라이트는 필립스가 엠비라이트라고 말하는 제품을 집에서 만든 버전입니"
-"다.\n"
+"애트모라이트는 필립스가 엠비라이트라고 말하는 제품의 가정용 버전입니다.\n"
 "자세한 정보는 다음 웹사이트를 방문해 주세요.\n"
 "\n"
 "http://www.vdr-wiki.de/wiki/index.php/Atmo-plugin\n"
@@ -24256,6 +24461,8 @@ msgid ""
 "Pixels with a saturation lower than this will be ignored. Should be greater "
 "than one for letterboxed videos."
 msgstr ""
+"이것보다 더 낮은 채도의 픽셀은 무시될 거입니다. 레터박스 처리된 비디오의 채도"
+"값보다 더 커야 합니다."
 
 #: modules/video_filter/atmo/atmo.cpp:269
 msgid "Hue windowing"
@@ -24278,7 +24485,7 @@ msgstr "필터 지속 시간 (ms)"
 #: modules/video_filter/atmo/atmo.cpp:275
 msgid ""
 "Time it takes until a color is completely changed. This prevents flickering."
-msgstr ""
+msgstr "색상이 완전히 바뀔 때까지 걸리는 시간. 이것은 깜빡임을 방지합니다."
 
 #: modules/video_filter/atmo/atmo.cpp:277
 msgid "Filter threshold"
@@ -24286,7 +24493,7 @@ msgstr "필터 임계값"
 
 #: modules/video_filter/atmo/atmo.cpp:278
 msgid "How much a color has to be changed for an immediate color change."
-msgstr ""
+msgstr "즉각적인 색상 변화에 대해서 얼마나 많은 색상을 변경해야 하는지."
 
 #: modules/video_filter/atmo/atmo.cpp:280
 #: modules/gui/qt4/ui/video_effects.h:1385
@@ -24327,6 +24534,8 @@ msgid ""
 "Helps to get the video output and the light effects in sync. Values around "
 "20ms should do the trick."
 msgstr ""
+"비디오 출력과 광원 효과를 동기화하기 위한 도움. 20ms 근처의 값들이면 잘 동작"
+"할 것입니다."
 
 #: modules/video_filter/atmo/atmo.cpp:304
 msgid "Channel 0: summary"
@@ -24390,6 +24599,11 @@ msgid ""
 "on top, and one zone on left and right and no summary zone the mapping for "
 "classic AtmoLight would be -1,3,2,1,0"
 msgstr ""
+"다섯 개 이상의 채널 / 구역을 가진 장치들에서 각 채널마다 보여줄 지역 번호"
+"를 , 나 ; 로 분리해서 여기에 기입하세요. 몇몇 채널을 사용하지 않으려면 -1 을 "
+"사용합니다. 고전적인 애트모라이트에 대해 시퀀스 4,3,1,0,2 는 기본 채널/구역 "
+"매핑을 설정합니다. 맨 위에 두개의 채널만 가지고 좌 우에 한 구역과 요약 지역"
+"이 없으면, 고전적인 애트모라이트의 매핑은 -1,3,2,1,0 이 될 것입니다."
 
 #: modules/video_filter/atmo/atmo.cpp:339
 msgid "Zone 0: Top gradient"
@@ -24592,7 +24806,7 @@ msgstr "공 속도"
 msgid ""
 "Set ball speed, the displacement value                                 in "
 "number of pixels by frame."
-msgstr ""
+msgstr "프레임의 픽셀 개수로 치환값의 공 속도를 정합니다."
 
 #: modules/video_filter/ball.c:107
 msgid "Ball size"
@@ -24716,6 +24930,8 @@ msgid ""
 "\"U\" value for the bluescreen key color (in YUV values). From 0 to 255. "
 "Defaults to 120 for blue."
 msgstr ""
+"파란화면 키 색상에 대한 \"U\" 값 (YUV 값). 0에서 255까지. 파란색에 대한 기본"
+"값은 120."
 
 #: modules/video_filter/bluescreen.c:46
 msgid "Bluescreen V value"
@@ -24726,6 +24942,8 @@ msgid ""
 "\"V\" value for the bluescreen key color (in YUV values). From 0 to 255. "
 "Defaults to 90 for blue."
 msgstr ""
+"파란화면 키 색상에 대한 \"V\" 값 (YUV 값). 0에서 255까지. 파란색에 대한 기본"
+"값은 90."
 
 #: modules/video_filter/bluescreen.c:50
 msgid "Bluescreen U tolerance"
@@ -24736,6 +24954,8 @@ msgid ""
 "Tolerance of the bluescreen blender on color variations for the U plane. A "
 "value between 10 and 20 seems sensible."
 msgstr ""
+"U 평면에 대한 색상 변화량에서 파란화면 혼합기의 오차. 10에서 20 사이의 값이 "
+"실용적입니다."
 
 #: modules/video_filter/bluescreen.c:55
 msgid "Bluescreen V tolerance"
@@ -24746,6 +24966,8 @@ msgid ""
 "Tolerance of the bluescreen blender on color variations for the V plane. A "
 "value between 10 and 20 seems sensible."
 msgstr ""
+"V 평면에 대한 색상 변화량에서 파란화면 혼합기의 오차. 10에서 20 사이의 값이 "
+"실용적입니다."
 
 #: modules/video_filter/bluescreen.c:77
 msgid "Bluescreen video filter"
@@ -24792,6 +25014,9 @@ msgid ""
 "If enabled, video will be padded to fit in canvas after scaling. Otherwise, "
 "video will be cropped to fix in canvas after scaling."
 msgstr ""
+"이 옵션을 사용하면, 크기조절 후의 캔바스에 맞추기 위해 동영상을 확장할 것입니"
+"다. 그게 아니면, 크기조절 후의 캔바스에 맞추기 위해서 동영상을 잘라낼 것입니"
+"다."
 
 #: modules/video_filter/canvas.c:97
 msgid "Automatically resize and pad a video"
@@ -24840,10 +25065,14 @@ msgid ""
 "green, then blue. #000000 = black, #FF0000 = red, #00FF00 = green, #FFFF00 = "
 "yellow (red + green), #FFFFFF = white"
 msgstr ""
+"이것과 유사한 색상은 유지하고 다른 색상은 회색으로 만들 것입니다. 16진수여야 "
+"합니다 (HTML 색상처럼). 첫번째 두 문자는 빨간색, 그 다음은 녹색, 그 다음은 파"
+"란색입니다. #000000 = 검은색, #FF0000 = 빨간색, #00FF00 = 녹색, #FFFF00 = 노"
+"란색 (빨간색 + 녹색), #FFFFFF = 하얀색"
 
 #: modules/video_filter/colorthres.c:59
 msgid "Select one color in the video"
-msgstr ""
+msgstr "동영상의 한 색상을 선택하세요"
 
 #: modules/video_filter/colorthres.c:69
 msgid "Color threshold filter"
@@ -24987,10 +25216,25 @@ msgid ""
 "Upconvert: output in 4:2:2 format (independent chroma for each field). Best "
 "simulation, but requires more CPU and memory bandwidth."
 msgstr ""
+"입력 프레임 경계를 가로질러 떨어지는 출력 프레임의 색상을 처리하는 방식을 선"
+"택합니다.\n"
+"\n"
+"Latest: 새 (밝기) 필드에서만 크로마 가져오기. 캠코더의 비디오같은 인터레이스 "
+"입력에 좋음.\n"
+"\n"
+"ArtLine: top 필드에서 크로마 라인 1을, bottom 필드에서 라인 2 등을 가져옵니"
+"다.\n"
+"기본적으로, NTSC telecined 입력에 좋은 (에니메 DVD 등)\n"
+"\n"
+"Blend: 입력 필드 크로마의 평균치. 새 (밝기) 필드의 색상을 왜곡할 수도 있습니"
+"다.\n"
+"\n"
+"Upconvert: 4:2:2 형식으로 출력 (각 필드에 독립적인 크로마). 가장 좋은 시뮬레"
+"이션이지만 더 많는 CPU와 메모리 대역폭을 필요로 합니다."
 
 #: modules/video_filter/deinterlace/deinterlace.c:88
 msgid "Phosphor old field dimmer strength"
-msgstr ""
+msgstr "Phosphor old field dimmer 세기"
 
 #: modules/video_filter/deinterlace/deinterlace.c:89
 msgid ""
@@ -24998,6 +25242,8 @@ msgid ""
 "phosphor light decay for the old field in the Phosphor framerate doubler. "
 "Default: Low."
 msgstr ""
+"이것은 Phosphor framerate doubler에서 old field에 대해 CRT TV phosphor light "
+"decay 를 시뮬레이트하는 darkening filter의 강도를 조절합니다. 기본값: Low."
 
 #: modules/video_filter/deinterlace/deinterlace.c:96
 msgid "Deinterlacing video filter"
@@ -25043,7 +25289,7 @@ msgstr "마스크 Y 좌표."
 
 #: modules/video_filter/erase.c:63
 msgid "Remove zones of the video using a picture as mask"
-msgstr ""
+msgstr "그림을 마스크로 사용하고 있는 비디오의 구역을 삭제합니다"
 
 #: modules/video_filter/erase.c:68
 msgid "Erase video filter"
@@ -25059,7 +25305,7 @@ msgstr "추출할 RGB 요소"
 
 #: modules/video_filter/extract.c:63
 msgid "RGB component to extract. 0 for Red, 1 for Green and 2 for Blue."
-msgstr ""
+msgstr "추출할 RGB 컴포넌트. 0은 빨간색, 1은 녹색, 2는 파란색."
 
 #: modules/video_filter/extract.c:74
 msgid "Extract RGB component video filter"
@@ -25074,10 +25320,12 @@ msgid ""
 "Gaussian's standard deviation. The blurring will take into account pixels up "
 "to 3*sigma away in any direction."
 msgstr ""
+"가우시안 표준 편차. 흐림(blurring)은 어느 방향이든 3*시그마까지 떨어진 픽셀"
+"을 고려할 것입니다."
 
 #: modules/video_filter/gaussianblur.c:52
 msgid "Add a blurring effect"
-msgstr ""
+msgstr "흐림 효과 추가하기"
 
 #: modules/video_filter/gaussianblur.c:57
 msgid "Gaussian blur video filter"
@@ -25089,27 +25337,27 @@ msgstr "가우시안 블러"
 
 #: modules/video_filter/gradfun.c:50
 msgid "Radius in pixels"
-msgstr ""
+msgstr "반지름, 픽셀 단위"
 
 #: modules/video_filter/gradfun.c:54
 msgid "Strength"
-msgstr ""
+msgstr "세기"
 
 #: modules/video_filter/gradfun.c:55
 msgid "Strength used to modify the value of a pixel"
-msgstr ""
+msgstr "픽셀값을 수정하기 위해 사용되는 세기"
 
 #: modules/video_filter/gradfun.c:58
 msgid "Gradfun video filter"
-msgstr ""
+msgstr "Gradfun 비디오 필터"
 
 #: modules/video_filter/gradfun.c:59
 msgid "Gradfun"
-msgstr ""
+msgstr "Gradfun"
 
 #: modules/video_filter/gradfun.c:60
 msgid "Debanding algorithm"
-msgstr ""
+msgstr "Debanding 알고리즘"
 
 #: modules/video_filter/gradient.c:62
 msgid "Distort mode"
@@ -25137,11 +25385,11 @@ msgstr "카툰 효과 적용"
 
 #: modules/video_filter/gradient.c:70
 msgid "Apply cartoon effect. It is only used by \"gradient\" and \"edge\"."
-msgstr ""
+msgstr "만화 효과를 적용합니다. \"gradient\"와 \"edge\"에서만 사용됩니다."
 
 #: modules/video_filter/gradient.c:73
 msgid "Apply color gradient or edge detection effects"
-msgstr ""
+msgstr "color gradient나 edge detection 효과 적용하기"
 
 #: modules/video_filter/gradient.c:81
 msgid "Gradient video filter"
@@ -25149,23 +25397,23 @@ msgstr "기울기 비디오 필터"
 
 #: modules/video_filter/grain.c:54
 msgid "Variance of the gaussian noise"
-msgstr ""
+msgstr "가우시안 잡음의 변동"
 
 #: modules/video_filter/grain.c:58
 msgid "Minimal period"
-msgstr ""
+msgstr "최소 기간"
 
 #: modules/video_filter/grain.c:59
 msgid "Minimal period of the noise grain in pixel"
-msgstr ""
+msgstr "Noise grain의 최소 기간, 픽셀 단위"
 
 #: modules/video_filter/grain.c:60
 msgid "Maximal period"
-msgstr ""
+msgstr "최대 기간"
 
 #: modules/video_filter/grain.c:61
 msgid "Maximal period of the noise grain in pixel"
-msgstr ""
+msgstr "Noise grain의 최대 기간, 픽셀 단위"
 
 #: modules/video_filter/grain.c:64
 msgid "Grain video filter"
@@ -25177,15 +25425,15 @@ msgstr "Grain"
 
 #: modules/video_filter/grain.c:66
 msgid "Adds filtered gaussian noise"
-msgstr ""
+msgstr "filtered gaussian noise 추가하기"
 
 #: modules/video_filter/hqdn3d.c:53
 msgid "Spatial luma strength (0-254)"
-msgstr ""
+msgstr "Spatial 루마 세기 (0-254)"
 
 #: modules/video_filter/hqdn3d.c:54
 msgid "Spatial luma strength (default 4)"
-msgstr ""
+msgstr "Spatial 루마 세기 (기본값 4)"
 
 #: modules/video_filter/hqdn3d.c:55
 msgid "Spatial chroma strength (0-254)"
@@ -25197,11 +25445,11 @@ msgstr "Spatial 크로마 세기 (기본값 3)"
 
 #: modules/video_filter/hqdn3d.c:57
 msgid "Temporal luma strength (0-254)"
-msgstr ""
+msgstr "Temporal 루마 세기 (0-254)"
 
 #: modules/video_filter/hqdn3d.c:58
 msgid "Temporal luma strength (default 6)"
-msgstr ""
+msgstr "Temporal 루마 세기 (기본값 6)"
 
 #: modules/video_filter/hqdn3d.c:59
 msgid "Temporal chroma strength (0-254)"
@@ -25213,11 +25461,11 @@ msgstr "Temporal 크로마 세기 (기본값 4.5)"
 
 #: modules/video_filter/hqdn3d.c:63
 msgid "HQ Denoiser 3D"
-msgstr ""
+msgstr "HQ Denoiser 3D"
 
 #: modules/video_filter/hqdn3d.c:64
 msgid "High Quality 3D Denoiser filter"
-msgstr ""
+msgstr "고품질 3D Denoiser 필터"
 
 #: modules/video_filter/invert.c:50
 msgid "Invert video filter"
@@ -25233,6 +25481,9 @@ msgid ""
 "<alpha>]][;<image>[,<delay>[,<alpha>]]][;...]. If you only have one file, "
 "simply enter its filename."
 msgstr ""
+"사용할 이미지 파일의 전체 경로. 형식은 <image>[,<delay in ms>[,<alpha>]][;"
+"<image>[,<delay>[,<alpha>]]][;...]. 파일 한 개만 있으면, 단순히 그 파일이름"
+"만 입력하세요."
 
 #: modules/video_filter/logo.c:52
 msgid "Logo animation # of loops"
@@ -25248,7 +25499,7 @@ msgstr "개별 이미지 표시 시간 (ms)"
 
 #: modules/video_filter/logo.c:56
 msgid "Individual image display time of 0 - 60000 ms."
-msgstr ""
+msgstr "0 - 60000ms 의 개별 이미지 표시 시간."
 
 #: modules/video_filter/logo.c:59
 msgid "X coordinate of the logo. You can move the logo by left-clicking it."
@@ -25260,12 +25511,12 @@ msgstr "로고의 Y 좌표. 왼쪽-클릭으로 로고를 이동할수 있습니
 
 #: modules/video_filter/logo.c:64
 msgid "Opacity of the logo"
-msgstr ""
+msgstr "로고의 불투명도"
 
 #: modules/video_filter/logo.c:65
 msgid ""
 "Logo opacity value (from 0 for full transparency to 255 for full opacity)."
-msgstr ""
+msgstr "로고 불투명도 값 (완전 투명한 0에서 완전 불투명한 255까지)."
 
 #: modules/video_filter/logo.c:67
 msgid "Logo position"
@@ -25281,11 +25532,11 @@ msgstr ""
 
 #: modules/video_filter/logo.c:73
 msgid "Use a local picture as logo on the video"
-msgstr ""
+msgstr "로컬 그림을 비디오의 로고로 사용하기"
 
 #: modules/video_filter/logo.c:92
 msgid "Logo sub source"
-msgstr ""
+msgstr "로고 부 소스"
 
 #: modules/video_filter/logo.c:93
 msgid "Logo overlay"
@@ -25326,11 +25577,11 @@ msgstr ""
 
 #: modules/video_filter/marq.c:104
 msgid "Text file"
-msgstr ""
+msgstr "텍스트 파일"
 
 #: modules/video_filter/marq.c:105
 msgid "File to read the marquee text from."
-msgstr ""
+msgstr "마키 텍스트를 읽어올 파일."
 
 #: modules/video_filter/marq.c:107 modules/video_filter/rss.c:143
 msgid "X offset, from the left screen edge."
@@ -25359,12 +25610,15 @@ msgid ""
 "Number of milliseconds between string updates. This is mainly useful when "
 "using meta data or time format string sequences."
 msgstr ""
+"문자열 업데이트들 간의 밀리초 개수. 주로 메타 데이터나 시간 형식 문자열 시퀀"
+"스 사용시에 유용합니다."
 
 #: modules/video_filter/marq.c:119
 msgid ""
 "Opacity (inverse of transparency) of overlayed text. 0 = transparent, 255 = "
 "totally opaque. "
 msgstr ""
+"오버레이 텍스트의 불투명도 (투명도의 반대). 0 = 투명, 255 = 완전 불투명."
 
 #: modules/video_filter/marq.c:121 modules/video_filter/rss.c:150
 msgid "Font size, pixels"
@@ -25381,6 +25635,10 @@ msgid ""
 "then blue. #000000 = black, #FF0000 = red, #00FF00 = green, #FFFF00 = yellow "
 "(red + green), #FFFFFF = white"
 msgstr ""
+"동영상에 렌더링될 텍스트 색상. 16진수여야 합니다 (HTML 색상처럼). 첫번째 두 "
+"문자는 빨간색, 그 다음은 녹색, 그 다음은 파란색입니다. #000000 = 검은색, "
+"#FF0000 = 빨간색, #00FF00 = 녹색, #FFFF00 = 노란색 (빨간색 + 녹색), #FFFFFF "
+"= 하얀색"
 
 #: modules/video_filter/marq.c:131
 msgid "Marquee position"
@@ -25493,7 +25751,7 @@ msgstr "테두리 너비"
 
 #: modules/video_filter/mosaic.c:106
 msgid "Width in pixels of the border between miniatures."
-msgstr ""
+msgstr "Miniature들간의 가장자리의 너비, 픽셀 단위."
 
 #: modules/video_filter/mosaic.c:107
 msgid "Border height"
@@ -25501,7 +25759,7 @@ msgstr "테두리 높이"
 
 #: modules/video_filter/mosaic.c:109
 msgid "Height in pixels of the border between miniatures."
-msgstr ""
+msgstr "Miniature들간의 가장자리의 높이, 픽셀 단위."
 
 #: modules/video_filter/mosaic.c:111
 msgid "Mosaic alignment"
@@ -25526,6 +25784,9 @@ msgid ""
 "number of rows and columns. fixed: use the user-defined number of rows and "
 "columns. offsets: use the user-defined offsets for each image."
 msgstr ""
+"모자이크에 대한 Positioning 방법. 자동: 자동으로 행렬의 가장 최고의 수를 선택"
+"합니다. 고정: 사용자가 정의한 행렬의 수를 사용합니다. 오프셋: 각 영상에 대해"
+"서 사용자가 정의한 오프셋을 사용합니다."
 
 #: modules/video_filter/mosaic.c:124 modules/video_filter/panoramix.c:64
 #: modules/video_filter/wall.c:50
@@ -25537,6 +25798,8 @@ msgid ""
 "Number of image rows in the mosaic (only used if positioning method is set "
 "to \"fixed\")."
 msgstr ""
+"모자이크에서 image rows의 수 (Positioning 방법이 \"고정\" 으로 설정되었을 때"
+"만 사용함)."
 
 #: modules/video_filter/mosaic.c:129 modules/video_filter/panoramix.c:60
 #: modules/video_filter/wall.c:46
@@ -25548,6 +25811,8 @@ msgid ""
 "Number of image columns in the mosaic (only used if positioning method is "
 "set to \"fixed\"."
 msgstr ""
+"모자이크에서 image columns의 수 (Positioning 방법이 \"고정\" 으로 설정되었을 "
+"때만 사용됩니다)."
 
 #: modules/video_filter/mosaic.c:134
 msgid "Keep aspect ratio"
@@ -25575,6 +25840,8 @@ msgid ""
 "comma-separated list of picture ID(s).These IDs are assigned in the \"mosaic-"
 "bridge\" module."
 msgstr ""
+"모자이크에서 구성요소의 순서를 강제할 수 있습니다. 콤마로 분리된 Picture ID"
+"의 목록을 지정해야 합니다. 이 ID는 \"mosaic-bridge\" 모듈에서 할당됩니다."
 
 #: modules/video_filter/mosaic.c:148
 msgid "Offsets in order"
@@ -25586,6 +25853,9 @@ msgid ""
 "if positioning method is set to \"offsets\"). You must give a comma-"
 "separated list of coordinates (eg: 10,10,150,10)."
 msgstr ""
+"모자이크에서 구성요소의 (x,y) 오프셋을 강제할 수 있습니다 (Positioning 방법"
+"이 \"offset\"으로 설정된 경우에만 사용됩니다). 콤마로 분리된 좌표 (예: "
+"10,10,150,10) 의 목록을 지정해야 합니다."
 
 #: modules/video_filter/mosaic.c:156
 msgid ""
@@ -25593,6 +25863,8 @@ msgid ""
 "value (in milliseconds). For high values you will need to raise caching at "
 "input."
 msgstr ""
+"모자이크 구성요소에서 나오는 화면들은 이 값에 따라서 지연될 것입니다 (밀리"
+"초). 높은 값에 대해서는, 입력에서 캐쉬값을 올려야 할 것입니다."
 
 #: modules/video_filter/mosaic.c:166
 msgid "auto"
@@ -25620,7 +25892,7 @@ msgstr "블러 팩터 (1-127)"
 
 #: modules/video_filter/motionblur.c:54
 msgid "The degree of blurring from 1 to 127."
-msgstr ""
+msgstr "1에서 127까지 흐림 단계."
 
 #: modules/video_filter/motionblur.c:60
 msgid "Motion blur filter"
@@ -25698,7 +25970,7 @@ msgstr "배율 요소 (0.1-2.0)"
 msgid ""
 "Ammount by which to scale the picture before sending it to the internal "
 "OpenCV filter"
-msgstr ""
+msgstr "내부 OpenCV 필터로 전송하기 전에 화면의 크기를 조절할 양"
 
 #: modules/video_filter/opencv_wrapper.c:85
 msgid "OpenCV filter chroma"
@@ -25723,7 +25995,7 @@ msgstr "OpenCV 내부 필터 이름"
 
 #: modules/video_filter/opencv_wrapper.c:94
 msgid "Name of internal OpenCV plugin filter to use"
-msgstr ""
+msgstr "사용할 내부 OpenCV 플러그인 필터의 이름"
 
 #: modules/video_filter/panoramix.c:61
 msgid ""
@@ -25744,7 +26016,7 @@ msgstr "활성 윈도우의 쉼표로 구분된 목록, 전체 기본값"
 
 #: modules/video_filter/panoramix.c:74
 msgid "Split the video in multiple windows to display on a wall of screens"
-msgstr ""
+msgstr "비디오를 화면들의 벽에 출력하기 위해 다수의 창으로 분할하기"
 
 #: modules/video_filter/panoramix.c:81
 msgid "Panoramix: wall with overlap video filter"
@@ -25789,7 +26061,7 @@ msgstr "감쇠, 처음 (%)"
 #: modules/video_filter/panoramix.c:107
 msgid ""
 "Select in percent the Lagrange coefficient of the beginning blended zone"
-msgstr ""
+msgstr "혼합 구역 초반부의 Lagrange coefficient를 백분율로 선택하기"
 
 #: modules/video_filter/panoramix.c:110
 msgid "Attenuation, middle (in %)"
@@ -25798,7 +26070,7 @@ msgstr "감쇠, 중간 (%)"
 #: modules/video_filter/panoramix.c:111
 msgid ""
 "Select in percent the Lagrange coefficient of the middle of blended zone"
-msgstr ""
+msgstr "혼합 구역 중간의 Lagrange coefficient를 백분율로 선택하기"
 
 #: modules/video_filter/panoramix.c:114
 msgid "Attenuation, end (in %)"
@@ -25806,7 +26078,7 @@ msgstr "감쇠, 끝 (%)"
 
 #: modules/video_filter/panoramix.c:115
 msgid "Select in percent the Lagrange coefficient of the end of blended zone"
-msgstr ""
+msgstr "혼합 구역 끝부분의 Lagrange coefficient를 백분율로 선택하기"
 
 #: modules/video_filter/panoramix.c:118
 msgid "middle position (in %)"
@@ -25817,6 +26089,7 @@ msgid ""
 "Select in percent (50 is center) the position of the middle point (Lagrange) "
 "of blended zone"
 msgstr ""
+"혼합 구역의 중간 지점(Lagrange)의 위치를 백분율(50은 가운데)로 선택하기"
 
 #: modules/video_filter/panoramix.c:121
 msgid "Gamma (Red) correction"
@@ -25943,15 +26216,15 @@ msgstr "혼합 구역의 화이트 레벨 선택 (파랑 or V component)"
 
 #: modules/video_filter/posterize.c:61
 msgid "Posterize level (number of colors is cube of this value)"
-msgstr ""
+msgstr "Posterize 단계 (색상의 수는 이 값의 세제곱입니다)"
 
 #: modules/video_filter/posterize.c:67
 msgid "Posterize video filter"
-msgstr ""
+msgstr "Posterize 비디오 필터"
 
 #: modules/video_filter/posterize.c:69
 msgid "Posterize video by lowering the number of colors"
-msgstr ""
+msgstr "색상의 수를 줄여서 비디오를 posterize 합니다."
 
 #: modules/video_filter/postproc.c:68
 msgid "Post processing quality"
@@ -25964,6 +26237,11 @@ msgid ""
 "With default filter chain, the values map to the following filters:\n"
 "1: hb, 2-4: hb+vb, 5-6: hb+vb+dr"
 msgstr ""
+"후처리 품질. 유효 범위는 0 (끄기) 에서 6 (최대) 까지입니다\n"
+"높은 단계는 더 많은 CPU 파워를 필요로 하지만 더 높은 품질의 화면을 출력합니"
+"다.\n"
+"기본 필터 체인으로, 이 값들은 다음의 필터에 매핑합니다:\n"
+"1: hb, 2-4: hb+vb, 5-6: hb+vb+dr"
 
 #: modules/video_filter/postproc.c:75
 msgid "FFmpeg post processing filter chains"
@@ -26012,7 +26290,7 @@ msgstr "테두리"
 
 #: modules/video_filter/puzzle.c:58
 msgid "Unshuffled Border width."
-msgstr ""
+msgstr "Unshuffled 테두리 너비."
 
 #: modules/video_filter/puzzle.c:59
 msgid "Small preview"
@@ -26133,7 +26411,7 @@ msgstr "VNC 폴 간견"
 #: modules/video_filter/remoteosd.c:84
 msgid ""
 "In this interval an update from VNC is requested, default every 300 ms. "
-msgstr ""
+msgstr "이 간격으로 VNC로부터 업데이트가 필요합니다. 기본값은 매 300 ms."
 
 #: modules/video_filter/remoteosd.c:86
 msgid "VNC polling"
@@ -26142,11 +26420,15 @@ msgstr "VNC 폴링"
 #: modules/video_filter/remoteosd.c:88
 msgid "Activate VNC polling. Do NOT activate for use as VDR ffnetdev client."
 msgstr ""
+"VNC polling을 활성화합니다. VDR ffnetdev 클라이언트로 사용시에는 활성화하지 "
+"마세요."
 
 #: modules/video_filter/remoteosd.c:92
 msgid ""
 "Send mouse events to VNC host. Not needed for use as VDR ffnetdev client."
 msgstr ""
+"마우스 이벤트를 VNC 호스트에 보냅니다. VDR ffnetdev 클라이언트로 사용시에는 "
+"필요하지 않습니다."
 
 #: modules/video_filter/remoteosd.c:94
 msgid "Key events"
@@ -26167,6 +26449,9 @@ msgid ""
 "transparency. The default is being not transparent (value 255) the minimum "
 "is fully transparent (value 0)."
 msgstr ""
+"OSD VNC의 투명도는 0에서 255값을 주어서 바꿀 수 있습니다. 더 낮은 값은 더 높"
+"은 투명도를 더 높은 값은 더 낮은 투명도를 의미합니다. 기본값은 완전히 불투명"
+"한 상태(255 값)이고 최소는 완전히 투명한 상태(0 값)입니다."
 
 #: modules/video_filter/remoteosd.c:115
 msgid "Remote-OSD over VNC"
@@ -26210,7 +26495,7 @@ msgstr "피드 URL"
 
 #: modules/video_filter/rss.c:130
 msgid "RSS/Atom feed '|' (pipe) separated URLs."
-msgstr ""
+msgstr "RSS/Atom 피드. '|' (파이프) 로 구별한 URL."
 
 #: modules/video_filter/rss.c:131
 msgid "Speed of feeds"
@@ -26237,6 +26522,8 @@ msgid ""
 "Number of seconds between each forced refresh of the feeds. 0 means that the "
 "feeds are never updated."
 msgstr ""
+"피드들을 강제로 각각 새로고침하는 사이의 초 숫자. 0은 피드를 업데이트하지 않"
+"음을 의미합니다."
 
 #: modules/video_filter/rss.c:139
 msgid "Feed images"
@@ -26274,10 +26561,12 @@ msgid ""
 "Title display mode. Default is 0 (hidden) if the feed has an image and feed "
 "images are enabled, 1 otherwise."
 msgstr ""
+"제목 출력 모드. 만약 피드에 이미지가 있고 피드 이미지가 활성화되어 있으면 기"
+"본값은 0 (숨김), 그렇지 않으면 1."
 
 #: modules/video_filter/rss.c:169
 msgid "Display a RSS or ATOM Feed on your video"
-msgstr ""
+msgstr "비디오에 RSS나 Atom 피드를 출력하기"
 
 #: modules/video_filter/rss.c:184
 msgid "Don't show"
@@ -26289,7 +26578,7 @@ msgstr "항상 보임"
 
 #: modules/video_filter/rss.c:184
 msgid "Scroll with feed"
-msgstr ""
+msgstr "피드 스크롤하기"
 
 #: modules/video_filter/rss.c:193
 msgid "RSS / Atom"
@@ -26331,6 +26620,7 @@ msgstr "녹화 비율"
 msgid ""
 "Ratio of images to record. 3 means that one image out of three is recorded."
 msgstr ""
+"녹화할 이미지 속도. 3은 세개 중 한개의 이미지가 녹화되는 것을 의미합니다."
 
 #: modules/video_filter/scene.c:76
 msgid "Filename prefix"
@@ -26341,6 +26631,8 @@ msgid ""
 "Prefix of the output images filenames. Output filenames will have the "
 "\"prefixNUMBER.format\" form if replace is not true."
 msgstr ""
+"출력 이미지 파일이름의 접두어. replace가 true가 아니면, 출력 파일이름은 \"접"
+"두어 번호.형식\" 형태입니다."
 
 #: modules/video_filter/scene.c:81
 msgid "Directory path prefix"
@@ -26351,6 +26643,8 @@ msgid ""
 "Directory path where images files should be saved. If not set, then images "
 "will be automatically saved in users homedir."
 msgstr ""
+"이미지 파일이 저장될 디렉토리 경루. 설정되어 있지 않으면, 이미지는 사용자의 "
+"홈디렉토리에 자동으로 저장이 될 것입니다."
 
 #: modules/video_filter/scene.c:86
 msgid "Always write to the same file"
@@ -26410,7 +26704,7 @@ msgstr "선명 비디오 필터"
 
 #: modules/video_filter/subsdelay.c:45
 msgid "Change subtitle delay"
-msgstr "자막 지연 변경하기"
+msgstr "자막 싱크 변경하기"
 
 #: modules/video_filter/subsdelay.c:47
 msgid "Delay calculation mode"
@@ -26422,6 +26716,9 @@ msgid ""
 "delay - multiply subtitle delay. Relative to source content - determine "
 "subtitle delay from its content (text)."
 msgstr ""
+"절대적인 지연값 - 각 자막에 절대적인 지연값을 더합니다. 소스에 상대적인 지연 "
+"- 자막 지연값을 곱합니다. 소스 컨텐츠에 상대적인 지연 - 컨텐츠 (텍스트) 로부"
+"터 자막 지연값을 결정합니다."
 
 #: modules/video_filter/subsdelay.c:53
 msgid "Calculation factor"
@@ -26465,7 +26762,7 @@ msgstr ""
 
 #: modules/video_filter/subsdelay.c:69
 msgid "Interval between disappearance and appearance"
-msgstr ""
+msgstr "사라질 때와 나타날 때 사이의 간격"
 
 #: modules/video_filter/subsdelay.c:71
 msgid ""
@@ -26473,10 +26770,12 @@ msgid ""
 "subtitle appearance (earlier subtitle delay will be extended to fill the "
 "gap)."
 msgstr ""
+"자막이 사라지고 새로운 자막이 나타날 때 (이전 자막 지연값은 간격을 채우기 위"
+"해 확장될 것입니다) 사이의 최소 시간 (밀리초)."
 
 #: modules/video_filter/subsdelay.c:74
 msgid "Interval between appearance and disappearance"
-msgstr ""
+msgstr "나타날 때와 사라질 때 사이의 간격"
 
 #: modules/video_filter/subsdelay.c:76
 msgid ""
@@ -26484,10 +26783,12 @@ msgid ""
 "subtitle has appeared (earlier subtitle delay will be shortened to avoid the "
 "overlap)."
 msgstr ""
+"새로운 자막이 나타난 후에 (이전 자막 지연값은 중첩을 피하기 위해 단축될 것입"
+"니다) 자막이 남아 있어야 할 최소 시간."
 
 #: modules/video_filter/subsdelay.c:80
 msgid "Absolute delay"
-msgstr ""
+msgstr "절대 지연 시간"
 
 #: modules/video_filter/subsdelay.c:80
 msgid "Relative to source delay"
@@ -26495,7 +26796,7 @@ msgstr "소스 지연에 상대적"
 
 #: modules/video_filter/subsdelay.c:81
 msgid "Relative to source content"
-msgstr ""
+msgstr "소스 컨텐츠에 상대적"
 
 #: modules/video_filter/subsdelay.c:274
 msgid "Subsdelay"
@@ -26503,7 +26804,7 @@ msgstr "자막지연"
 
 #: modules/video_filter/subsdelay.c:291
 msgid "Overlap fix"
-msgstr ""
+msgstr "중첩 고침"
 
 #: modules/video_filter/swscale.c:56
 msgid "Scaling mode"
@@ -26559,7 +26860,7 @@ msgstr "Bicubic spline"
 
 #: modules/video_filter/swscale.c:68
 msgid "Swscale"
-msgstr ""
+msgstr "Swscale"
 
 #: modules/video_filter/transform.c:47
 msgid "Transform type"
@@ -26567,11 +26868,11 @@ msgstr "변환 타입"
 
 #: modules/video_filter/transform.c:53
 msgid "Transpose"
-msgstr ""
+msgstr "Transpose"
 
 #: modules/video_filter/transform.c:53
 msgid "Anti-transpose"
-msgstr ""
+msgstr "Anti-transpose"
 
 #: modules/video_filter/transform.c:56
 msgid "Video transformation filter"
@@ -26583,7 +26884,7 @@ msgstr "변환"
 
 #: modules/video_filter/transform.c:58
 msgid "Rotate or flip the video"
-msgstr ""
+msgstr "비디오 회전 또는 뒤집기"
 
 #: modules/video_filter/wall.c:47
 msgid "Number of horizontal windows in which to split the video."
@@ -26639,7 +26940,7 @@ msgstr "출력시 특정 크로마를 강제로 사용합니다. 기본값은 RG
 
 #: modules/video_output/androidsurface.c:62
 msgid "Android Surface video output"
-msgstr ""
+msgstr "안드로이드 Surface 비디오 출력"
 
 #: modules/video_output/caca.c:56
 msgid "Color ASCII art video output"
@@ -26647,11 +26948,11 @@ msgstr "컬러 아스키 아트 비디오 출력"
 
 #: modules/video_output/decklink.cpp:69
 msgid "Output card"
-msgstr ""
+msgstr "출력 카드"
 
 #: modules/video_output/decklink.cpp:71
 msgid "DeckLink output card, if multiple exist. The cards are numbered from 0."
-msgstr ""
+msgstr "DeckLink 출력 카드. 여러개가 존재하면 카드 번호는 0부터 시작합니다."
 
 #: modules/video_output/decklink.cpp:74
 msgid "Desired output mode"
@@ -26731,6 +27032,8 @@ msgid ""
 "Video will be embedded in this pre-existing window. If zero, a new window "
 "will be created."
 msgstr ""
+"동영상은 이 미리 존재하는 창에 임베드될 것입니다. 만약 0이면, 새 창이 생성될 "
+"것입니다."
 
 #: modules/video_output/drawable.c:46 modules/video_output/xcb/window.c:76
 msgid "Drawable"
@@ -26868,13 +27171,15 @@ msgstr "iOS OpenGL 비디오 출력"
 
 #: modules/video_output/kva.c:50 modules/gui/qt4/ui/sprefs_video.h:352
 msgid "Enable a workaround for T23"
-msgstr ""
+msgstr "T23 의 차선책 사용하기"
 
 #: modules/video_output/kva.c:52
 msgid ""
 "Enable this option if the diagonal stripes are displayed when the window "
 "size is equal to or smaller than the movie size."
 msgstr ""
+"창 크기가 영화 크기와 같거나 작을 때, 대각선 줄무늬가 출력되면 이 옵션을 사용"
+"하세요."
 
 #: modules/video_output/kva.c:55 modules/gui/qt4/ui/sprefs_video.h:351
 msgid "Video mode"
@@ -26882,7 +27187,7 @@ msgstr "비디오 모드"
 
 #: modules/video_output/kva.c:57
 msgid "Select a proper video mode to be used by KVA."
-msgstr ""
+msgstr "KAI에 의해 사용될 적당한 비디오 모드를 선택하세요."
 
 #: modules/video_output/kva.c:62
 msgid "SNAP"
@@ -26943,7 +27248,7 @@ msgstr "자막/OSD 혼합에 하드웨어 가속을 사용해 봅니다."
 
 #: modules/video_output/msw/direct3d.c:63
 msgid "Recommended video output for Windows Vista and later versions"
-msgstr ""
+msgstr "윈도우 비스타나 이후 버전의 추천 비디오 출력"
 
 #: modules/video_output/msw/direct3d.c:67
 msgid "Direct3D video output"
@@ -26986,6 +27291,8 @@ msgid ""
 "Try to use triple buffering when using YUV overlays. That results in much "
 "better video quality (no flickering)."
 msgstr ""
+"YUV 오버레이 사용시 삼중 버퍼링을 사용해 보세요. 훨신 나은 비디오 품질을 얻"
+"을 수 있습니다 (깜박임 없는)."
 
 #: modules/video_output/msw/directx.c:86
 msgid "Name of desired display device"
@@ -27004,7 +27311,7 @@ msgstr ""
 msgid ""
 "Recommended video output for Windows XP. Incompatible with Vista's Aero "
 "interface"
-msgstr ""
+msgstr "윈도우 XP의 추천 비디오 출력. 비스타의 에어로 인터페이스와 비호환"
 
 #: modules/video_output/msw/directx.c:102
 msgid "DirectX (DirectDraw) video output"
@@ -27377,7 +27684,7 @@ msgstr "이것은 대역의 높이를 변경하는 계수입니다."
 
 #: modules/visualization/visual/visual.c:69
 msgid "Draw peaks in the analyzer"
-msgstr "분석기에 피크(최고점) 그리기"
+msgstr "분석기에 Peak 그리기"
 
 #: modules/visualization/visual/visual.c:71
 msgid "Enable original graphic spectrum"
@@ -27413,19 +27720,19 @@ msgstr "얼마나 많은 스펙트럼 섹션이 존재할지 결정."
 
 #: modules/visualization/visual/visual.c:87
 msgid "Peak height"
-msgstr "최고점 높이"
+msgstr "Peak 높이"
 
 #: modules/visualization/visual/visual.c:89
 msgid "Total pixel height of the peak items."
-msgstr "최고점 항목의 전체 픽셀 높이."
+msgstr "Peak 항목의 전체 픽셀 높이."
 
 #: modules/visualization/visual/visual.c:91
 msgid "Peak extra width"
-msgstr "최고점 여분 너비"
+msgstr "Peak 여분 너비"
 
 #: modules/visualization/visual/visual.c:93
 msgid "Additions or subtractions of pixels on the peak width."
-msgstr "최고점 너비에서 픽셀 더함 또는 빼냄."
+msgstr "Peak 너비에서 픽셀을 더하거나 빼기."
 
 #: modules/visualization/visual/visual.c:95
 msgid "V-plane color"
@@ -27512,7 +27819,7 @@ msgstr "오류:"
 
 #: share/lua/http/dialogs/create_stream.html:367
 msgid "Sample ui-state-error style."
-msgstr ""
+msgstr "Sample ui-state-error 스타일."
 
 #: share/lua/http/dialogs/create_stream.html:390
 msgid "File name"
@@ -27549,7 +27856,7 @@ msgstr "오디오 지연"
 
 #: share/lua/http/dialogs/offset_window.html:76
 msgid "Subtitle Delay"
-msgstr "자막 지연"
+msgstr "자막 싱크"
 
 #: share/lua/http/dialogs/stream_window.html:65
 msgid "Time:"
@@ -27613,6 +27920,8 @@ msgid ""
 "By creating a stream, the <i>Main Controls</i> will operate the stream "
 "instead of the main interface."
 msgstr ""
+"스트림을 생성할 때, 메인 인터페이스 대신 메인 컨트롤이 스트림에 동작할 것입니"
+"다."
 
 #: share/lua/http/index.html:264
 msgid ""
@@ -27627,12 +27936,12 @@ msgstr ""
 msgid ""
 "Once the stream is created, the <i>Media Viewer</i> window will display the "
 "stream."
-msgstr ""
+msgstr "일단 스트림이 생성되면, 미디어 보기 창이 스트림을 출력할 것입니다."
 
 #: share/lua/http/index.html:269
 msgid ""
 "Volume will be controlled by the player, and not the <i>Main Controls</i>."
-msgstr ""
+msgstr "볼륨이, 메인 컨트롤이 아니라, 재생기에 의해 제어될 것입니다."
 
 #: share/lua/http/index.html:272
 msgid ""
@@ -27640,12 +27949,16 @@ msgid ""
 "item, the first selected item from the <i>Library</i> will be the subject of "
 "the stream."
 msgstr ""
+"현재 재생중인 항목이 스트림될 것입니다. 만약 재생중인 항목이 없다면, 라이브러"
+"리에서 처음 선택된 항목이 스트림의 주제가 될 것입니다."
 
 #: share/lua/http/index.html:275
 msgid ""
 "To stop the stream and resume normal controls, click the <i>Open Stream</i> "
 "button again."
 msgstr ""
+"스트림을 중단하고 보통 컨트롤을 다시 시작하려면, '스트림 열기' 버튼을 다시 누"
+"르세요."
 
 #: share/lua/http/index.html:278
 msgid "Are you sure you wish to create the stream?"
@@ -28110,9 +28423,8 @@ msgid "Default caching policy"
 msgstr "기본 캐쉬 정책"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:514
-#, fuzzy
 msgid "Menus language:"
-msgstr "오디오 언어"
+msgstr "메뉴 언어:"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:515
 msgid "Look and feel"
@@ -28594,9 +28906,6 @@ msgstr "미디어 관리자 목록"
 #~ msgid "Modules search path"
 #~ msgstr "모듈 검색 경로"
 
-#~ msgid "Override the default data/share search path."
-#~ msgstr "기본 데이터/공유 검색 경로를 덮어씁니다."
-
 #~ msgid "Raise the interface above all other windows."
 #~ msgstr "인터페이스를 다른 모든 윈도우의 위로 올립니다."
 
@@ -28790,13 +29099,6 @@ msgstr "미디어 관리자 목록"
 #~ "'오디오 장치' 메뉴에 나열된 오디오 장치의 번호에 대응하는 번호 선택. 이 장"
 #~ "치는 오디오 재생의 기본으로 사용됩니다."
 
-#~ msgid ""
-#~ "You should configure your speaker layout with the \"Audio Midi Setup\" "
-#~ "utility in /Applications/Utilities. Stereo mode is being used now."
-#~ msgstr ""
-#~ "/Applications/Utilities 에 있는 \"오디오 미디 설정\" 유틸리티로 스피커 배"
-#~ "치를 설정해야 합니다. 지금 스테레오 모드를 사용중입니다."
-
 #~ msgid "3 Front 2 Rear"
 #~ msgstr "전면부 3, 후면부 2"
 
@@ -28865,13 +29167,6 @@ msgstr "미디어 관리자 목록"
 
 #~ msgid "Please provide one of the following parameters:"
 #~ msgstr "다음 매개 변수 중의 하나를 제공해 주십시오:"
-
-#~ msgid ""
-#~ "This is the desired frame rate when playing raw video streams.  In the "
-#~ "form 30000/1001 or 29.97"
-#~ msgstr ""
-#~ "원시 비디오 스트림 재생시 요구되는 프레임 레이트 입니다. 형식 30000/1001 "
-#~ "또는 29.97"
 
 #~ msgid ""
 #~ "Force the subtiles format. Valid values are : \"microdvd\", \"subrip\", "
@@ -29481,13 +29776,6 @@ msgstr "미디어 관리자 목록"
 #~ msgid "Reload image file every n seconds."
 #~ msgstr "매 n 초마다 이미지 새로읽기."
 
-#~ msgid ""
-#~ "Address of the locking callback function. This function must return a "
-#~ "valid memory address for use by the video renderer."
-#~ msgstr ""
-#~ "잠금 콜백 기능 주소. 이 함수는 비디오 렌더러가 사용하는 유효한 주소를 반드"
-#~ "시 반환합니다."
-
 #~ msgid "Text is always opaque"
 #~ msgstr "텍스트는 항상 불투명"
 
@@ -29556,9 +29844,6 @@ msgstr "미디어 관리자 목록"
 #~ msgid "Adds motion blurring to the image"
 #~ msgstr "이미지에 모션 블러링 추가"
 
-#~ msgid "Rotates or flips the image"
-#~ msgstr "이미지 회전 또는 반전"
-
 #~ msgid "Enables an interactive Zoom feature"
 #~ msgstr "대화식 축소/확대 기능 사용"
 
@@ -29603,9 +29888,6 @@ msgstr "미디어 관리자 목록"
 
 #~ msgid "[Boxes]"
 #~ msgstr "[상자]"
-
-#~ msgid "No item currently playing"
-#~ msgstr "현재 재생 항목 없음"
 
 #~ msgid " Logs "
 #~ msgstr "로그"
@@ -29713,13 +29995,6 @@ msgstr "미디어 관리자 목록"
 
 #~ msgid "GME demuxer (Game_Music_Emu)"
 #~ msgstr "GME 디먹서 (Game_Music_Emu)"
-
-#~ msgid ""
-#~ "Address of the locking callback function. This function must fill in "
-#~ "valid plane memory address information for use by the video renderer."
-#~ msgstr ""
-#~ "잠금 콜백 함수 주소. 이 함수는 비디오 렌더러가 사용하는 유효한 평면 주소 "
-#~ "정보를 반드시 채웁니다."
 
 #~ msgid "Method used by libdvdcss for decryption"
 #~ msgstr "libdvdcss에서 복호화에 사용하는 방식"
@@ -30343,22 +30618,8 @@ msgstr "미디어 관리자 목록"
 #~ msgid "You must choose a stream"
 #~ msgstr "스트림을 선택하세요"
 
-#~ msgid ""
-#~ "Changes the compression format of the audio or video tracks. To change "
-#~ "only the container format, proceed to the next page."
-#~ msgstr ""
-#~ "음성과 영상 트랙의 압축 형식을 변경합니다. 오직 컨테이너 형식만을 변경할 "
-#~ "경우에는 다음 페이지로 바로 이동하십시오."
-
 #~ msgid "This does not appear to be a valid multicast address"
 #~ msgstr "올바른 멀티캐스트 주소가 아닙니다"
-
-#~ msgid ""
-#~ "Determines how the stream will be encapsulated. Depending on the previous "
-#~ "choices, some formats might not be available."
-#~ msgstr ""
-#~ "스트림이 캡슐화될 방식을 결정합니다. 이전에 선택한 항목에 따라, 몇몇 형식"
-#~ "들을 이용할 수 없을 수도 있습니다."
 
 #~ msgid "Blurring"
 #~ msgstr "흐리게"
@@ -30386,15 +30647,6 @@ msgstr "미디어 관리자 목록"
 #~ "VideoLAN 팀 <videolan@videolan.org>\n"
 #~ "http://www.videolan.org/\n"
 #~ "\n"
-
-#~ msgid ""
-#~ "Enter the multicast address to stream to. This must be an IP address "
-#~ "between 224.0.0.0 an 239.255.255.255. For private use, enter an address "
-#~ "beginning with 239.255."
-#~ msgstr ""
-#~ "스트리밍할 멀티캐스트 주소를 입력합니다. 이것은 224.0.0.0과 "
-#~ "239.255.255.255 사이의 주소가 되어야 합니다. 개인적인 용도로 사용하려면, "
-#~ "239.255로 시작하는 주소를 사용하십시오."
 
 #~ msgid "Show bookmarks dialog at startup"
 #~ msgstr "시작 시에 북마크 대화상자 표시"
@@ -31179,6 +31431,76 @@ msgstr "미디어 관리자 목록"
 #~ msgstr "MMX EXT memcpy"
 
 #, fuzzy
+#~ msgid "Override the default data/share search path."
+#~ msgstr "기본 트랙 설명을 무시합니다."
+
+#, fuzzy
+#~ msgid ""
+#~ "You should configure your speaker layout with the \"Audio Midi Setup\" "
+#~ "utility in /Applications/Utilities. Stereo mode is being used now."
+#~ msgstr ""
+#~ "/응용 프로그램/유틸리티 의 \"오디오 미디 설정\" 으로 스피터 레이아웃의 환"
+#~ "경을 설정해야 합니다. VLC는 스트레오만 출력할 것입니다."
+
+#, fuzzy
+#~ msgid ""
+#~ "This is the desired frame rate when playing raw video streams.  In the "
+#~ "form 30000/1001 or 29.97"
+#~ msgstr ""
+#~ "Raw 비디오 스트림 재생시 요구되는 프레임 레이트 입니다.  30000/1001 또는 "
+#~ "29.97 형태로"
+
+#, fuzzy
+#~ msgid ""
+#~ "Address of the locking callback function. This function must return a "
+#~ "valid memory address for use by the video renderer."
+#~ msgstr ""
+#~ "비디오 prerender callback 함수의 주소. 이 함수는 렌더링이 될 버퍼를 정할 "
+#~ "것입니다."
+
+#, fuzzy
+#~ msgid "Rotates or flips the image"
+#~ msgstr "비디오 회전 또는 뒤집기"
+
+#, fuzzy
+#~ msgid "No item currently playing"
+#~ msgstr "새 입력 재생"
+
+#, fuzzy
+#~ msgid ""
+#~ "Address of the locking callback function. This function must fill in "
+#~ "valid plane memory address information for use by the video renderer."
+#~ msgstr ""
+#~ "비디오 postrender callback 함수의 주소. 이 함수는 렌더가 버퍼에 있을 때 호"
+#~ "출될 것입니다."
+
+#, fuzzy
+#~ msgid ""
+#~ "Changes the compression format of the audio or video tracks. To change "
+#~ "only the container format, proceed to the next page."
+#~ msgstr ""
+#~ "이 페이지는 오디오나 비디오 트랙의 압축 형식을 변경할 수 있게 해 줍니다. "
+#~ "컨테이너 형식만 바꾸려면, 다음 페이지로 진행하세요."
+
+#, fuzzy
+#~ msgid ""
+#~ "Determines how the stream will be encapsulated. Depending on the previous "
+#~ "choices, some formats might not be available."
+#~ msgstr ""
+#~ "이 페이지는 스트림을 봉인하는 방법을 선택할 수 있게 해 줍니다. 이전에 선택"
+#~ "된 설정에 따라서 모든 형식을 사용할 수는 없을 것입니다."
+
+#, fuzzy
+#~ msgid ""
+#~ "Enter the multicast address to stream to. This must be an IP address "
+#~ "between 224.0.0.0 an 239.255.255.255. For private use, enter an address "
+#~ "beginning with 239.255."
+#~ msgstr ""
+#~ "이 필드에 스트림할 멀티캐스트 주소를 입력하세요. 224.0.0.0 과 "
+#~ "239.255.255.255 사이의 IP 주소를 사용해야만 합니다. 사적인 용도로는 "
+#~ "239.255로 시작하는 주소를 입력하세요."
+
+#, fuzzy
 #~ msgid "Subtitles/OSD"
 #~ msgstr "자막 / OSD"
 
@@ -31366,11 +31688,11 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "One instance when started from file"
-#~ msgstr "파일 관리자에서 시작할 때 하나의 인스턴트만 사용합니다"
+#~ msgstr "파일 관리자에서 시작할 때 VLC 한 개만 실행합니다"
 
 #, fuzzy
 #~ msgid "Allow only one running instance when started from file."
-#~ msgstr "파일 관리자에서 시작할 때 하나의 인스턴트만 사용합니다"
+#~ msgstr "파일 관리자에서 시작할 때 VLC 한 개만 실행합니다"
 
 #, fuzzy
 #~ msgid "Enqueue items to playlist when in one instance mode"
@@ -31540,7 +31862,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Bitrate peak"
-#~ msgstr "비트 레이트"
+#~ msgstr "비트레이트"
 
 #, fuzzy
 #~ msgid "Bitrate mode"
@@ -31688,7 +32010,9 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "RD based mode decision for B-frames"
-#~ msgstr "B-프레임 가중 예측"
+#~ msgstr ""
+#~ "B 프레임에 대한 RD 기반의 모드 결정. 이것은 subme 6 (또는 더 높은)을 필요"
+#~ "로 합니다."
 
 #, fuzzy
 #~ msgid "normal"
@@ -31756,7 +32080,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "| @name mosaic-alpha # . . . . . . . . . . . . . . alpha"
-#~ msgstr "| pause  . . . . . . . . . . . . . . . .  일시 정지 토글"
+#~ msgstr "| pause  . . . . . . . . . . . . . . . . 일시 중지 토글하기"
 
 #, fuzzy
 #~ msgid "| @name mosaic-height #. . . . . . . . . . . . . .height"
@@ -31856,7 +32180,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Subtitles delay"
-#~ msgstr "자막 지연"
+#~ msgstr "자막 싱크"
 
 #, fuzzy
 #~ msgid "Subtitles format"
@@ -32176,7 +32500,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Show VLC media player"
-#~ msgstr "VLC 미디어 플레이어 보기"
+#~ msgstr "VLC 미디어 재생기 보기"
 
 #, fuzzy
 #~ msgid "Advanced options"
@@ -32208,7 +32532,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "MSN Now-Playing"
-#~ msgstr "지금 재생"
+#~ msgstr "지금 재생중"
 
 #, fuzzy
 #~ msgid "Flip vertical position"
@@ -32314,7 +32638,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Number of lines for change"
-#~ msgstr "오디오 채널수"
+#~ msgstr "프레임당 조각의 수"
 
 #, fuzzy
 #~ msgid "Number of non black pixels "
@@ -32563,7 +32887,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "yes: from %@ to %@ secs"
-#~ msgstr "예: %@ @ %@ kb/s"
+#~ msgstr "예: %@ 에서 %@ 으로"
 
 #, fuzzy
 #~ msgid "Previous/Backward"
@@ -33076,7 +33400,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Remove Stream"
-#~ msgstr "선택 제거"
+#~ msgstr "선택 제거하기"
 
 #, fuzzy
 #~ msgid "Create New Stream"
@@ -33218,7 +33542,8 @@ msgstr "미디어 관리자 목록"
 #, fuzzy
 #~ msgid ""
 #~ "Caching value for DVB streams. This value should be set in milliseconds."
-#~ msgstr "기본 발신 UDP 스트림 캐싱 값. 이 값은 밀리초로 설정되어야 합니다."
+#~ msgstr ""
+#~ "나가는 UDP 스트림의 기본 캐쉬 값. 이 값은 밀리초로 설정되어야 합니다."
 
 #, fuzzy
 #~ msgid "Inversion mode"
@@ -33234,7 +33559,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Transponder FEC"
-#~ msgstr "트랜스코딩"
+#~ msgstr "Transpose"
 
 #, fuzzy
 #~ msgid "Transponder symbol rate in kHz"
@@ -33260,18 +33585,21 @@ msgstr "미디어 관리자 목록"
 #~ msgid ""
 #~ "Default caching value for Audio CDs. This value should be set in "
 #~ "milliseconds."
-#~ msgstr "기본 발신 UDP 스트림 캐싱 값. 이 값은 밀리초로 설정되어야 합니다."
+#~ msgstr ""
+#~ "나가는 UDP 스트림의 기본 캐쉬 값. 이 값은 밀리초로 설정되어야 합니다."
 
 #, fuzzy
 #~ msgid ""
 #~ "Caching value for DirectShow streams. This value should be set in "
 #~ "milliseconds."
-#~ msgstr "기본 발신 UDP 스트림 캐싱 값. 이 값은 밀리초로 설정되어야 합니다."
+#~ msgstr ""
+#~ "나가는 UDP 스트림의 기본 캐쉬 값. 이 값은 밀리초로 설정되어야 합니다."
 
 #, fuzzy
 #~ msgid ""
 #~ "Caching value for DV streams. This value should be set in milliseconds."
-#~ msgstr "기본 발신 UDP 스트림 캐싱 값. 이 값은 밀리초로 설정되어야 합니다."
+#~ msgstr ""
+#~ "나가는 UDP 스트림의 기본 캐쉬 값. 이 값은 밀리초로 설정되어야 합니다."
 
 #, fuzzy
 #~ msgid "HTTP password"
@@ -33303,18 +33631,21 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Caching value for DVDs. This value should be set in milliseconds."
-#~ msgstr "기본 발신 UDP 스트림 캐싱 값. 이 값은 밀리초로 설정되어야 합니다."
+#~ msgstr ""
+#~ "나가는 UDP 스트림의 기본 캐쉬 값. 이 값은 밀리초로 설정되어야 합니다."
 
 #, fuzzy
 #~ msgid ""
 #~ "Caching value for EyeTV captures. This value should be set in "
 #~ "milliseconds."
-#~ msgstr "기본 발신 UDP 스트림 캐싱 값. 이 값은 밀리초로 설정되어야 합니다."
+#~ msgstr ""
+#~ "나가는 RTP 스트림의 기본 캐쉬 값. 이 값은 밀리초로 설정되어야 합니다."
 
 #, fuzzy
 #~ msgid ""
 #~ "Caching value for fake streams. This value should be set in milliseconds."
-#~ msgstr "기본 발신 UDP 스트림 캐싱 값. 이 값은 밀리초로 설정되어야 합니다."
+#~ msgstr ""
+#~ "나가는 UDP 스트림의 기본 캐쉬 값. 이 값은 밀리초로 설정되어야 합니다."
 
 #, fuzzy
 #~ msgid "Fake"
@@ -33326,11 +33657,11 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Extra network caching value (ms)"
-#~ msgstr "네트워크 캐싱 (ms)"
+#~ msgstr "네트워크 캐쉬 (ms)"
 
 #, fuzzy
 #~ msgid "Supplementary caching value for remote files, in milliseconds."
-#~ msgstr "로컬 파일 캐싱 값, 밀리초"
+#~ msgstr "로컬 파일 캐쉬 값, 밀리초"
 
 #, fuzzy
 #~ msgid "Directory input"
@@ -33339,18 +33670,21 @@ msgstr "미디어 관리자 목록"
 #, fuzzy
 #~ msgid ""
 #~ "Caching value for FTP streams. This value should be set in milliseconds."
-#~ msgstr "기본 발신 UDP 스트림 캐싱 값. 이 값은 밀리초로 설정되어야 합니다."
+#~ msgstr ""
+#~ "나가는 RTP 스트림의 기본 캐쉬 값. 이 값은 밀리초로 설정되어야 합니다."
 
 #, fuzzy
 #~ msgid ""
 #~ "Caching value for GnomeVFS streams.This value should be set in "
 #~ "milliseconds."
-#~ msgstr "기본 발신 UDP 스트림 캐싱 값. 이 값은 밀리초로 설정되어야 합니다."
+#~ msgstr ""
+#~ "나가는 UDP 스트림의 기본 캐쉬 값. 이 값은 밀리초로 설정되어야 합니다."
 
 #, fuzzy
 #~ msgid ""
 #~ "Caching value for HTTP streams. This value should be set in milliseconds."
-#~ msgstr "기본 발신 UDP 스트림 캐싱 값. 이 값은 밀리초로 설정되어야 합니다."
+#~ msgstr ""
+#~ "나가는 RTP 스트림의 기본 캐쉬 값. 이 값은 밀리초로 설정되어야 합니다."
 
 #, fuzzy
 #~ msgid "User agent that will be used for the connection."
@@ -33363,7 +33697,8 @@ msgstr "미디어 관리자 목록"
 #, fuzzy
 #~ msgid ""
 #~ "Caching value for imem streams. This value should be set in milliseconds."
-#~ msgstr "기본 발신 UDP 스트림 캐싱 값. 이 값은 밀리초로 설정되어야 합니다."
+#~ msgstr ""
+#~ "나가는 UDP 스트림의 기본 캐쉬 값. 이 값은 밀리초로 설정되어야 합니다."
 
 #, fuzzy
 #~ msgid "Memory-mapped file input"
@@ -33372,27 +33707,32 @@ msgstr "미디어 관리자 목록"
 #, fuzzy
 #~ msgid ""
 #~ "Caching value for MMS streams. This value should be set in milliseconds."
-#~ msgstr "기본 발신 UDP 스트림 캐싱 값. 이 값은 밀리초로 설정되어야 합니다."
+#~ msgstr ""
+#~ "나가는 UDP 스트림의 기본 캐쉬 값. 이 값은 밀리초로 설정되어야 합니다."
 
 #, fuzzy
 #~ msgid "Caching value for files. This value should be set in milliseconds."
-#~ msgstr "기본 발신 UDP 스트림 캐싱 값. 이 값은 밀리초로 설정되어야 합니다."
+#~ msgstr ""
+#~ "나가는 UDP 스트림의 기본 캐쉬 값. 이 값은 밀리초로 설정되어야 합니다."
 
 #, fuzzy
 #~ msgid ""
 #~ "Caching value for OSS captures. This value should be set in milliseconds."
-#~ msgstr "기본 발신 UDP 스트림 캐싱 값. 이 값은 밀리초로 설정되어야 합니다."
+#~ msgstr ""
+#~ "나가는 UDP 스트림의 기본 캐쉬 값. 이 값은 밀리초로 설정되어야 합니다."
 
 #, fuzzy
 #~ msgid ""
 #~ "Default caching value for PVR streams. This value should be set in "
 #~ "milliseconds."
-#~ msgstr "기본 발신 UDP 스트림 캐싱 값. 이 값은 밀리초로 설정되어야 합니다."
+#~ msgstr ""
+#~ "나가는 UDP 스트림의 기본 캐쉬 값. 이 값은 밀리초로 설정되어야 합니다."
 
 #, fuzzy
 #~ msgid ""
 #~ "Caching value for RTMP streams. This value should be set in milliseconds."
-#~ msgstr "기본 발신 UDP 스트림 캐싱 값. 이 값은 밀리초로 설정되어야 합니다."
+#~ msgstr ""
+#~ "나가는 RTP 스트림의 기본 캐쉬 값. 이 값은 밀리초로 설정되어야 합니다."
 
 #, fuzzy
 #~ msgid "RTP de-jitter buffer length (msec)"
@@ -33405,38 +33745,45 @@ msgstr "미디어 관리자 목록"
 #, fuzzy
 #~ msgid ""
 #~ "Caching value for RTSP streams. This value should be set in milliseconds."
-#~ msgstr "기본 발신 UDP 스트림 캐싱 값. 이 값은 밀리초로 설정되어야 합니다."
+#~ msgstr ""
+#~ "나가는 RTP 스트림의 기본 캐쉬 값. 이 값은 밀리초로 설정되어야 합니다."
 
 #, fuzzy
 #~ msgid ""
 #~ "Caching value for screen capture. This value should be set in "
 #~ "milliseconds."
-#~ msgstr "기본 발신 UDP 스트림 캐싱 값. 이 값은 밀리초로 설정되어야 합니다."
+#~ msgstr ""
+#~ "나가는 UDP 스트림의 기본 캐쉬 값. 이 값은 밀리초로 설정되어야 합니다."
 
 #, fuzzy
 #~ msgid ""
 #~ "Caching value for SFTP streams. This value should be set in milliseconds."
-#~ msgstr "기본 발신 UDP 스트림 캐싱 값. 이 값은 밀리초로 설정되어야 합니다."
+#~ msgstr ""
+#~ "나가는 RTP 스트림의 기본 캐쉬 값. 이 값은 밀리초로 설정되어야 합니다."
 
 #, fuzzy
 #~ msgid ""
 #~ "Caching value for SMB streams. This value should be set in milliseconds."
-#~ msgstr "기본 발신 UDP 스트림 캐싱 값. 이 값은 밀리초로 설정되어야 합니다."
+#~ msgstr ""
+#~ "나가는 UDP 스트림의 기본 캐쉬 값. 이 값은 밀리초로 설정되어야 합니다."
 
 #, fuzzy
 #~ msgid ""
 #~ "Caching value for TCP streams. This value should be set in milliseconds."
-#~ msgstr "기본 발신 UDP 스트림 캐싱 값. 이 값은 밀리초로 설정되어야 합니다."
+#~ msgstr ""
+#~ "나가는 RTP 스트림의 기본 캐쉬 값. 이 값은 밀리초로 설정되어야 합니다."
 
 #, fuzzy
 #~ msgid ""
 #~ "Caching value for UDP streams. This value should be set in milliseconds."
-#~ msgstr "기본 발신 UDP 스트림 캐싱 값. 이 값은 밀리초로 설정되어야 합니다."
+#~ msgstr ""
+#~ "나가는 UDP 스트림의 기본 캐쉬 값. 이 값은 밀리초로 설정되어야 합니다."
 
 #, fuzzy
 #~ msgid ""
 #~ "Caching value for V4L captures. This value should be set in milliseconds."
-#~ msgstr "기본 발신 UDP 스트림 캐싱 값. 이 값은 밀리초로 설정되어야 합니다."
+#~ msgstr ""
+#~ "나가는 UDP 스트림의 기본 캐쉬 값. 이 값은 밀리초로 설정되어야 합니다."
 
 #, fuzzy
 #~ msgid ""
@@ -33513,11 +33860,13 @@ msgstr "미디어 관리자 목록"
 #, fuzzy
 #~ msgid ""
 #~ "Caching value for V4L2 captures. This value should be set in milliseconds."
-#~ msgstr "기본 발신 UDP 스트림 캐싱 값. 이 값은 밀리초로 설정되어야 합니다."
+#~ msgstr ""
+#~ "나가는 UDP 스트림의 기본 캐쉬 값. 이 값은 밀리초로 설정되어야 합니다."
 
 #, fuzzy
 #~ msgid "Caching value for VCDs. This value should be set in milliseconds."
-#~ msgstr "기본 발신 UDP 스트림 캐싱 값. 이 값은 밀리초로 설정되어야 합니다."
+#~ msgstr ""
+#~ "나가는 UDP 스트림의 기본 캐쉬 값. 이 값은 밀리초로 설정되어야 합니다."
 
 #, fuzzy
 #~ msgid "Path to the x509 PEM certificate file that will be used for HTTPS."
@@ -33662,7 +34011,8 @@ msgstr "미디어 관리자 목록"
 #~ msgid ""
 #~ "Allows you to modify the default caching value for RTSP streams. This "
 #~ "value should be set in millisecond units."
-#~ msgstr "기본 발신 UDP 스트림 캐싱 값. 이 값은 밀리초로 설정되어야 합니다."
+#~ msgstr ""
+#~ "나가는 RTP 스트림의 기본 캐쉬 값. 이 값은 밀리초로 설정되어야 합니다."
 
 #, fuzzy
 #~ msgid ""
@@ -34107,7 +34457,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Select the protocol for the URL."
-#~ msgstr "저장할 디렉토리 선택"
+#~ msgstr "동영상의 한 색상을 선택하세요"
 
 #, fuzzy
 #~ msgid "Select the port used"
@@ -34185,7 +34535,8 @@ msgstr "미디어 관리자 목록"
 #~ msgid ""
 #~ "Caching value for CDDA streams. This value should be set in millisecond "
 #~ "units."
-#~ msgstr "기본 발신 UDP 스트림 캐싱 값. 이 값은 밀리초로 설정되어야 합니다."
+#~ msgstr ""
+#~ "나가는 UDP 스트림의 기본 캐쉬 값. 이 값은 밀리초로 설정되어야 합니다."
 
 #, fuzzy
 #~ msgid "cddax://[device-or-file][@[T]track]"
@@ -34197,7 +34548,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Caching value in microseconds"
-#~ msgstr "로컬 파일 캐싱 값, 밀리초"
+#~ msgstr "로컬 파일 캐쉬 값, 밀리초"
 
 #, fuzzy
 #~ msgid "Format to use in playlist \"title\" field when no CDDB"
@@ -34337,7 +34688,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Select None"
-#~ msgstr "폴더 선택"
+#~ msgstr "폴더 선택하기"
 
 #, fuzzy
 #~ msgid "Sort Reverse"
@@ -34708,7 +35059,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Matrox Graphic Array video output"
-#~ msgstr "회색조 비디오 출력"
+#~ msgstr "Grayscale 비디오 출력"
 
 #, fuzzy
 #~ msgid "DirectX video output"
@@ -34716,7 +35067,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "QT Embedded display"
-#~ msgstr "영상 내장"
+#~ msgstr "Embedded 비디오"
 
 #, fuzzy
 #~ msgid "Screen for fullscreen mode."
@@ -35034,7 +35385,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "WinCE interface module"
-#~ msgstr "그 외의 인터페이스 모듈"
+#~ msgstr "추가 인터페이스 모듈"
 
 #, fuzzy
 #~ msgid "RRD output file"
@@ -35210,7 +35561,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "(in pixels)"
-#~ msgstr "글꼴 크기 (픽셀 단위)"
+#~ msgstr "반지름, 픽셀 단위"
 
 #, fuzzy
 #~ msgid "Timeout:"
@@ -35238,7 +35589,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "3dfx Glide video output"
-#~ msgstr "회색조 비디오 출력"
+#~ msgstr "Grayscale 비디오 출력"
 
 #, fuzzy
 #~ msgid "&OK"
@@ -35386,11 +35737,11 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Subtitles overlay"
-#~ msgstr "자막 지연"
+#~ msgstr "자막 싱크"
 
 #, fuzzy
 #~ msgid "Set subtitle delay (in 1/10s)"
-#~ msgstr "자막 지연 %i ms"
+#~ msgstr "자막 싱크 %i ms"
 
 #, fuzzy
 #~ msgid "Open file"
@@ -35457,7 +35808,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Determines how the input stream will be sent."
-#~ msgstr "얼마나 많은 스펙트럼 섹션이 존재할지 결정."
+#~ msgstr "이 페이지는 입력 스트림 전송 방법을 선택할 수 있게 해 줍니다."
 
 #, fuzzy
 #~ msgid "Defines a few additional parameters for the transcoding."
@@ -35517,7 +35868,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Playing"
-#~ msgstr "지금 재생"
+#~ msgstr "지금 재생중"
 
 #, fuzzy
 #~ msgid "Quick &Open File...\tCtrl-O"
@@ -35663,7 +36014,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "wxWidgets interface module"
-#~ msgstr "그 외의 인터페이스 모듈"
+#~ msgstr "추가 인터페이스 모듈"
 
 #, fuzzy
 #~ msgid "Distortion"
@@ -35935,7 +36286,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "CD-Text Title"
-#~ msgstr "다음 타이틀"
+#~ msgstr "텍스트 파일"
 
 #, fuzzy
 #~ msgid "ISO-9660 Application ID"
@@ -36208,7 +36559,8 @@ msgstr "미디어 관리자 목록"
 #~ msgid ""
 #~ "Allows you to modify the default caching value for cdda streams. This "
 #~ "value should be set in milliseconds units."
-#~ msgstr "기본 발신 UDP 스트림 캐싱 값. 이 값은 밀리초로 설정되어야 합니다."
+#~ msgstr ""
+#~ "나가는 UDP 스트림의 기본 캐쉬 값. 이 값은 밀리초로 설정되어야 합니다."
 
 #, fuzzy
 #~ msgid "Allows you to select the default DVD angle."
@@ -36218,7 +36570,8 @@ msgstr "미디어 관리자 목록"
 #~ msgid ""
 #~ "Allows you to modify the default caching value for DVDread streams. This "
 #~ "value should be set in millisecond units."
-#~ msgstr "기본 발신 UDP 스트림 캐싱 값. 이 값은 밀리초로 설정되어야 합니다."
+#~ msgstr ""
+#~ "나가는 UDP 스트림의 기본 캐쉬 값. 이 값은 밀리초로 설정되어야 합니다."
 
 #, fuzzy
 #~ msgid "Standard filesystem file input"
@@ -36425,7 +36778,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Height in pixels"
-#~ msgstr "글꼴 크기 (픽셀 단위)"
+#~ msgstr "반지름, 픽셀 단위"
 
 #, fuzzy
 #~ msgid "Mega bass cut off (10-100Hz)"
@@ -37009,7 +37362,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Stream output access modules settings"
-#~ msgstr "스트림 출력 먹서 캐싱 (ms)"
+#~ msgstr "스트림 출력 먹서 캐쉬 (ms)"
 
 #, fuzzy
 #~ msgid "Text renderer settings"
@@ -37163,13 +37516,15 @@ msgstr "미디어 관리자 목록"
 #~ msgid ""
 #~ "Allows you to modify the default caching value for mms streams.  This "
 #~ "value should be set in miliseconds units. "
-#~ msgstr "기본 발신 UDP 스트림 캐싱 값. 이 값은 밀리초로 설정되어야 합니다."
+#~ msgstr ""
+#~ "나가는 UDP 스트림의 기본 캐쉬 값. 이 값은 밀리초로 설정되어야 합니다."
 
 #, fuzzy
 #~ msgid ""
 #~ "Allows you to modify the default caching value for udp streams.  This "
 #~ "value should be set in miliseconds units. "
-#~ msgstr "기본 발신 UDP 스트림 캐싱 값. 이 값은 밀리초로 설정되어야 합니다."
+#~ msgstr ""
+#~ "나가는 UDP 스트림의 기본 캐쉬 값. 이 값은 밀리초로 설정되어야 합니다."
 
 #, fuzzy
 #~ msgid "Dummy stream ouput"
@@ -37179,7 +37534,8 @@ msgstr "미디어 관리자 목록"
 #~ msgid ""
 #~ "Allows you to modify the default caching value for dvdnav streams.  This "
 #~ "value should be set in miliseconds units. "
-#~ msgstr "기본 발신 UDP 스트림 캐싱 값. 이 값은 밀리초로 설정되어야 합니다."
+#~ msgstr ""
+#~ "나가는 UDP 스트림의 기본 캐쉬 값. 이 값은 밀리초로 설정되어야 합니다."
 
 #, fuzzy
 #~ msgid "Allows you to pecify the output URL used for the streaming output. "
@@ -37189,7 +37545,8 @@ msgstr "미디어 관리자 목록"
 #~ msgid ""
 #~ "Allows you to modify the default caching value for rtsp streams.  This "
 #~ "value should be set in miliseconds units. "
-#~ msgstr "기본 발신 UDP 스트림 캐싱 값. 이 값은 밀리초로 설정되어야 합니다."
+#~ msgstr ""
+#~ "나가는 UDP 스트림의 기본 캐쉬 값. 이 값은 밀리초로 설정되어야 합니다."
 
 #, fuzzy
 #~ msgid "Codec info"
@@ -37488,11 +37845,11 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Volume &Up"
-#~ msgstr "음량 높임"
+#~ msgstr "볼륨 높이기"
 
 #, fuzzy
 #~ msgid "Volume &Down"
-#~ msgstr "음량 낮춤"
+#~ msgstr "볼륨 줄이기"
 
 #, fuzzy
 #~ msgid "Channel server"
@@ -37588,7 +37945,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "QT Embedded drawable"
-#~ msgstr "영상 내장"
+#~ msgstr "Embedded 비디오"
 
 #, fuzzy
 #~ msgid "A_udio"
