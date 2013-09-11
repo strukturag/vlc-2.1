@@ -15,8 +15,8 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-09-08 20:08+0200\n"
-"PO-Revision-Date: 2013-08-15 16:47+0000\n"
-"Last-Translator: glrs <goncaloluisilva@gmail.com>\n"
+"PO-Revision-Date: 2013-09-09 08:20+0000\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Portuguese (Portugal) (http://www.transifex.com/projects/p/"
 "vlc-trans/language/pt_PT/)\n"
 "Language: pt_PT\n"
@@ -3232,8 +3232,6 @@ msgid ""
 "This file contains an optional CRL to prevent remote clients from using "
 "revoked certificates in TLS sessions."
 msgstr ""
-"Este ficheiro contém uma CRL opcional para evitar remover os clientes de "
-"utilizem certificados revogados em sessões TLS."
 
 #: src/libvlc-module.c:845
 msgid "SOCKS server"
@@ -7726,11 +7724,11 @@ msgstr ""
 
 #: modules/access_output/livehttp.c:97
 msgid "File containing the 16 bytes encryption key"
-msgstr ""
+msgstr "Ficheiro contendo a chave de encriptação de 16 bytes"
 
 #: modules/access_output/livehttp.c:99
 msgid "File where vlc reads key-uri and keyfile-location"
-msgstr ""
+msgstr "Ficheiro que o vlc lê \"key-uri\" e \"keyfile-location\""
 
 #: modules/access_output/livehttp.c:100
 msgid ""
@@ -7741,7 +7739,7 @@ msgstr ""
 
 #: modules/access_output/livehttp.c:104
 msgid "Use randomized IV for encryption"
-msgstr ""
+msgstr "Use IV aleatóreo para a encriptação"
 
 #: modules/access_output/livehttp.c:105
 msgid "Generate IV instead using segment-number as IV"
@@ -7932,11 +7930,11 @@ msgstr "RAR descomprimido"
 
 #: modules/access/rdp.c:49
 msgid "RDP auth username"
-msgstr ""
+msgstr "RDP - Nome de Utilizador da autorização"
 
 #: modules/access/rdp.c:50
 msgid "RDP auth password"
-msgstr ""
+msgstr "RDP - Senha da autorização"
 
 #: modules/access/rdp.c:51
 msgid "RDP Password"
@@ -7948,7 +7946,7 @@ msgstr "Conexão encriptada"
 
 #: modules/access/rdp.c:54
 msgid "Acquisition rate (in fps)"
-msgstr ""
+msgstr "Taxa de Aquisição (em fps)"
 
 #: modules/access/rdp.c:65
 msgid "RDP"
@@ -8188,7 +8186,7 @@ msgstr "Coluna da região esquerda"
 
 #: modules/access/screen/xcb.c:44
 msgid "Abscissa of the capture region in pixels."
-msgstr ""
+msgstr "Abcissa da região da captura em pontos."
 
 #: modules/access/screen/xcb.c:46
 msgid "Region top row"
@@ -8212,11 +8210,11 @@ msgstr "Altura da região capturada"
 
 #: modules/access/screen/xcb.c:56
 msgid "Pixel height of the capture region, or 0 for full height"
-msgstr ""
+msgstr "Altura do ponto da região da captura, ou 0 para altura completa"
 
 #: modules/access/screen/xcb.c:70
 msgid "Screen capture (with X11/XCB)"
-msgstr ""
+msgstr "Captura do Ecrã (com X11/XCB)"
 
 #: modules/access/sdp.c:33 modules/stream_out/rtp.c:79
 msgid "SDP"
@@ -8363,7 +8361,7 @@ msgstr "Entrada TCP"
 
 #: modules/access/timecode.c:43
 msgid "Time code"
-msgstr ""
+msgstr "Código de Tempo"
 
 #: modules/access/timecode.c:44
 msgid "Time code subpicture elementary stream generator"
@@ -8462,7 +8460,7 @@ msgstr "Reiniciar controlos"
 
 #: modules/access/v4l2/v4l2.c:83
 msgid "Reset controls to defaults."
-msgstr ""
+msgstr "Repor para as predefinições dos controlos."
 
 #: modules/access/v4l2/v4l2.c:84 modules/gui/macosx/VideoEffects.m:92
 #: modules/video_filter/atmo/atmo.cpp:263
@@ -8472,7 +8470,7 @@ msgstr "Brilho"
 
 #: modules/access/v4l2/v4l2.c:85
 msgid "Picture brightness or black level."
-msgstr ""
+msgstr "Brilho da imagem ou nível do preto."
 
 #: modules/access/v4l2/v4l2.c:86
 msgid "Automatic brightness"
@@ -8480,7 +8478,7 @@ msgstr "Brilho Automático"
 
 #: modules/access/v4l2/v4l2.c:88
 msgid "Automatically adjust the picture brightness."
-msgstr ""
+msgstr "Ajustar automaticamente o brilho da imagem."
 
 #: modules/access/v4l2/v4l2.c:89 modules/gui/macosx/VideoEffects.m:91
 #: modules/gui/qt4/ui/video_effects.h:1306
@@ -27622,9 +27620,8 @@ msgid "Default caching policy"
 msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:514
-#, fuzzy
 msgid "Menus language:"
-msgstr "Linguagem do áudio"
+msgstr "Linguagem dos menus:"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:515
 msgid "Look and feel"
@@ -29846,6 +29843,14 @@ msgstr "Lista do Gestor de Media"
 #~ msgstr "Tempo restante: %i segundos"
 
 #, fuzzy
+#~ msgid ""
+#~ "This file countains an optional CRL to prevent remote clients from using "
+#~ "revoked certificates in TLS sessions."
+#~ msgstr ""
+#~ "Este ficheiro contém uma CRL opcional para evitar remover os clientes de "
+#~ "utilizem certificados revogados em sessões TLS."
+
+#, fuzzy
 #~ msgid "Subtitles/OSD"
 #~ msgstr "Legendas / OSD"
 
@@ -30017,14 +30022,6 @@ msgstr "Lista do Gestor de Media"
 #~ "Isto adiciona os chamados \"filtros de subimagem\". Estes filtros de "
 #~ "subimagens são criados por descodificadores de legendas ou outras fontes "
 #~ "de subimagens."
-
-#, fuzzy
-#~ msgid ""
-#~ "This file countains an optional CRL to prevent remote clients from using "
-#~ "revoked certificates in TLS sessions."
-#~ msgstr ""
-#~ "Este ficheiro contém uma CRL opcional para evitar remover os clientes de "
-#~ "utilizem certificados revogados em sessões TLS."
 
 #, fuzzy
 #~ msgid ""
@@ -30241,7 +30238,7 @@ msgstr "Lista do Gestor de Media"
 
 #, fuzzy
 #~ msgid "Abscissa of the capture reion in pixels."
-#~ msgstr "Ordenada da região capturada, em pixels."
+#~ msgstr "Abcissa da região da captura em pontos."
 
 #, fuzzy
 #~ msgid "SFTP user name"
