@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-09-08 20:08+0200\n"
-"PO-Revision-Date: 2013-09-09 08:20+0000\n"
-"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"PO-Revision-Date: 2013-09-14 12:29+0000\n"
+"Last-Translator: suraj.kawade\n"
 "Language-Team: Marathi (http://www.transifex.com/projects/p/vlc-trans/"
 "language/mr/)\n"
 "Language: mr\n"
@@ -1573,7 +1573,7 @@ msgstr ""
 
 #: src/libvlc-module.c:138
 msgid "Audio gain"
-msgstr ""
+msgstr "ध्वनी गेन"
 
 #: src/libvlc-module.c:140
 msgid "This linear gain will be applied to outputted audio."
@@ -6701,7 +6701,7 @@ msgstr ""
 
 #: modules/access/jack.c:62 modules/gui/qt4/components/open_panels.cpp:884
 msgid "Auto connection"
-msgstr ""
+msgstr "स्वयं जोडणी"
 
 #: modules/access/jack.c:64
 msgid "Automatically connect VLC input ports to available output ports."
@@ -12660,7 +12660,7 @@ msgstr ""
 
 #: modules/codec/x264.c:439
 msgid "side by side"
-msgstr ""
+msgstr "आजूबाजूला"
 
 #: modules/codec/x264.c:439
 msgid "top bottom"
@@ -18755,12 +18755,12 @@ msgstr ""
 
 #: modules/gui/qt4/components/info_panels.cpp:585
 msgid "Played"
-msgstr ""
+msgstr "प्ले केलेले"
 
 #: modules/gui/qt4/components/info_panels.cpp:586
 #: modules/gui/qt4/components/info_panels.cpp:587
 msgid "buffers"
-msgstr ""
+msgstr "बफर्स"
 
 #: modules/gui/qt4/components/info_panels.cpp:609
 msgid "Last 60 seconds"
@@ -18779,6 +18779,8 @@ msgid ""
 "Current playback speed: %1\n"
 "Click to adjust"
 msgstr ""
+"चालू प्लेबॅक वेग: %1\n"
+"बदलण्यासाठी क्लिक करा"
 
 #: modules/gui/qt4/components/interface_widgets.cpp:541
 msgid "Revert to normal play speed"
@@ -18808,11 +18810,11 @@ msgstr ""
 #: modules/gui/qt4/components/interface_widgets.cpp:747
 #: modules/gui/qt4/dialogs/toolbar.cpp:465
 msgid "Total/Remaining time"
-msgstr ""
+msgstr "एकूण/बाकी वेळ"
 
 #: modules/gui/qt4/components/interface_widgets.cpp:749
 msgid "Click to toggle between total and remaining time"
-msgstr ""
+msgstr "एकूण आणि बाकी वेळेमध्ये टॉगल करण्यासाठी क्लिक करा"
 
 #: modules/gui/qt4/components/interface_widgets.cpp:755
 msgid "Click to toggle between elapsed and remaining time"
@@ -18824,29 +18826,29 @@ msgstr ""
 
 #: modules/gui/qt4/components/open_panels.cpp:57
 msgid "Select a device or a VIDEO_TS directory"
-msgstr ""
+msgstr "उपकरण किंवा VIDEO_TS निर्देशिका निवडा"
 
 #: modules/gui/qt4/components/open_panels.cpp:58
 msgid "Select a device or a VIDEO_TS folder"
-msgstr ""
+msgstr "उपकरण किंवा VIDEO_TS फोल्डर निवडा"
 
 #: modules/gui/qt4/components/open_panels.cpp:144
 #: modules/gui/qt4/components/open_panels.cpp:222
 msgid "Select one or multiple files"
-msgstr ""
+msgstr "एक किंवा अधिक फाईल निवडा"
 
 #: modules/gui/qt4/components/open_panels.cpp:159
 msgid "File names:"
-msgstr ""
+msgstr "फाईल नावे:"
 
 #: modules/gui/qt4/components/open_panels.cpp:161
 #: modules/gui/qt4/ui/sprefs_interface.h:542
 msgid "Filter:"
-msgstr ""
+msgstr "फिल्टर:"
 
 #: modules/gui/qt4/components/open_panels.cpp:354
 msgid "Eject the disc"
-msgstr ""
+msgstr "डिस्क बाहेर काढा"
 
 #: modules/gui/qt4/components/open_panels.cpp:859
 msgid "Channels:"
@@ -18866,11 +18868,11 @@ msgstr "VLC गती वापरा"
 
 #: modules/gui/qt4/components/open_panels.cpp:900
 msgid "TV - digital"
-msgstr ""
+msgstr "टीव्ही - डीजीटल"
 
 #: modules/gui/qt4/components/open_panels.cpp:903
 msgid "Tuner card"
-msgstr ""
+msgstr "ट्युनर कार्ड"
 
 #: modules/gui/qt4/components/open_panels.cpp:904
 msgid "Delivery system"
@@ -18886,15 +18888,15 @@ msgstr ""
 
 #: modules/gui/qt4/components/open_panels.cpp:977
 msgid "Bandwidth"
-msgstr ""
+msgstr "बँडविड्थ"
 
 #: modules/gui/qt4/components/open_panels.cpp:1021
 msgid "TV - analog"
-msgstr ""
+msgstr "टीव्ही - अॅनालॉग"
 
 #: modules/gui/qt4/components/open_panels.cpp:1024
 msgid "Device name"
-msgstr ""
+msgstr "उपकरणाचे नाव"
 
 #: modules/gui/qt4/components/open_panels.cpp:1084
 msgid "Your display will be opened and played in order to stream or save it."
@@ -18923,7 +18925,7 @@ msgstr "प्लेलिस्ट शोधा"
 
 #: modules/gui/qt4/components/playlist/playlist_model.cpp:377
 msgid "unknown"
-msgstr ""
+msgstr "अज्ञात"
 
 #: modules/gui/qt4/components/playlist/selector.cpp:250
 msgid "My Computer"
@@ -19001,11 +19003,11 @@ msgstr ""
 
 #: modules/gui/qt4/components/playlist/standardpanel.hpp:156
 msgid "Icons"
-msgstr ""
+msgstr "आयकॉन्स"
 
 #: modules/gui/qt4/components/playlist/standardpanel.hpp:157
 msgid "Detailed List"
-msgstr ""
+msgstr "सविस्तर यादी"
 
 #: modules/gui/qt4/components/playlist/standardpanel.hpp:158
 msgid "List"
@@ -19257,7 +19259,7 @@ msgstr ""
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:358
 msgid "Base port"
-msgstr ""
+msgstr "बेस पोर्ट"
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:408
 msgid "This module outputs the transcoded stream to an Icecast server."
@@ -19265,11 +19267,11 @@ msgstr ""
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:429
 msgid "Mount Point"
-msgstr ""
+msgstr "माउंट बिंदू"
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:430
 msgid "Login:pass"
-msgstr ""
+msgstr "लॉगिन:पासवर्ड"
 
 #: modules/gui/qt4/dialogs/bookmarks.cpp:41
 msgid "Edit Bookmarks"
@@ -19393,7 +19395,7 @@ msgid "Network Access Policy"
 msgstr "नेटवर्क प्रवेश धोरण "
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:98
-msgid "Automatically retrieve media info"
+msgid "Automatically retrieve media infos"
 msgstr ""
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:103
@@ -19635,7 +19637,7 @@ msgstr "पसंती मूळ स्थितीत आणा"
 
 #: modules/gui/qt4/dialogs/preferences.cpp:163
 msgid "Only show current"
-msgstr ""
+msgstr "फक्त चालू दाखवा"
 
 #: modules/gui/qt4/dialogs/preferences.cpp:165
 msgid "Only show modules related to current playback"
@@ -19643,11 +19645,11 @@ msgstr ""
 
 #: modules/gui/qt4/dialogs/preferences.cpp:201
 msgid "Advanced Preferences"
-msgstr ""
+msgstr "प्रगत पसंती"
 
 #: modules/gui/qt4/dialogs/preferences.cpp:222
 msgid "Simple Preferences"
-msgstr ""
+msgstr "साध्या पसंती"
 
 #: modules/gui/qt4/dialogs/preferences.cpp:306
 msgid "Cannot save Configuration"
@@ -19699,7 +19701,7 @@ msgstr "मेडिया फाईल्स"
 
 #: modules/gui/qt4/dialogs_provider.hpp:44
 msgid "Subtitle Files"
-msgstr ""
+msgstr "उपशीर्षक फाईल्स"
 
 #: modules/gui/qt4/dialogs_provider.hpp:45
 msgid "All Files"
@@ -20211,7 +20213,7 @@ msgstr "मागे घ्या"
 
 #: modules/gui/qt4/menus.cpp:907
 msgid "Ctrl+T"
-msgstr ""
+msgstr "Ctrl+T"
 
 #: modules/gui/qt4/menus.cpp:922
 msgid "Open &Network..."
@@ -20427,7 +20429,7 @@ msgstr ""
 
 #: modules/gui/qt4/qt4.cpp:184
 msgid "Never"
-msgstr ""
+msgstr "कधीही नाही"
 
 #: modules/gui/qt4/qt4.cpp:184
 msgid "When minimized"
@@ -20435,7 +20437,7 @@ msgstr ""
 
 #: modules/gui/qt4/qt4.cpp:184
 msgid "Always"
-msgstr ""
+msgstr "नेहमी"
 
 #: modules/gui/qt4/qt4.cpp:189
 msgid "Qt interface"
@@ -21013,7 +21015,7 @@ msgstr ""
 
 #: modules/mux/asf.c:565
 msgid "Unknown Video"
-msgstr ""
+msgstr "अज्ञात चित्रफीत"
 
 #: modules/mux/avi.c:47
 msgid "AVI muxer"
@@ -21338,15 +21340,15 @@ msgstr ""
 
 #: modules/packetizer/mpegvideo.c:72
 msgid "MPEG Video"
-msgstr ""
+msgstr "MPEG चित्रफीत"
 
 #: modules/packetizer/vc1.c:51
 msgid "VC-1 packetizer"
-msgstr ""
+msgstr "VC-1 पॅकेटाइझर"
 
 #: modules/services_discovery/bonjour.c:55
 msgid "Bonjour services"
-msgstr ""
+msgstr "Bonjour सेवा"
 
 #: modules/services_discovery/mediadirs.c:70
 #: modules/services_discovery/mediadirs.c:352
@@ -21369,11 +21371,11 @@ msgstr "माझ्या प्रतिमा"
 
 #: modules/services_discovery/mtp.c:43
 msgid "MTP devices"
-msgstr ""
+msgstr "MTP साधने"
 
 #: modules/services_discovery/mtp.c:189
 msgid "MTP Device"
-msgstr ""
+msgstr "MTP साधन"
 
 #: modules/services_discovery/os2drive.c:43
 #: modules/services_discovery/os2drive.c:44
@@ -21400,7 +21402,7 @@ msgstr ""
 
 #: modules/services_discovery/podcast.c:63
 msgid "Podcasts"
-msgstr ""
+msgstr "पॉडकास्ट"
 
 #: modules/services_discovery/pulse.c:42 modules/services_discovery/udev.c:64
 #: modules/services_discovery/udev.c:101
@@ -21504,7 +21506,7 @@ msgstr "HD DVD"
 
 #: modules/services_discovery/udev.c:605
 msgid "Unknown type"
-msgstr ""
+msgstr "अज्ञात प्रकार"
 
 #: modules/services_discovery/upnp.cpp:71
 msgid "Universal Plug'n'Play"
@@ -21542,11 +21544,11 @@ msgstr ""
 
 #: modules/stream_filter/dash/dash.cpp:57
 msgid "Buffer Size (Seconds)"
-msgstr ""
+msgstr "बफर आकार (सेकंदांत)"
 
 #: modules/stream_filter/dash/dash.cpp:58
 msgid "Buffer size in seconds"
-msgstr ""
+msgstr "सेकंदांमध्ये बफर आकार"
 
 #: modules/stream_filter/dash/dash.cpp:61
 msgid "DASH"
@@ -21665,7 +21667,7 @@ msgstr ""
 
 #: modules/stream_out/bridge.c:92
 msgid "Bridge"
-msgstr ""
+msgstr "ब्रीज"
 
 #: modules/stream_out/bridge.c:93
 msgid "Bridge stream output"
@@ -21780,7 +21782,7 @@ msgstr ""
 
 #: modules/stream_out/es.c:62
 msgid "Output URL"
-msgstr ""
+msgstr "आउटपुट URL"
 
 #: modules/stream_out/es.c:64
 msgid "This is the default output URI."
@@ -21788,7 +21790,7 @@ msgstr ""
 
 #: modules/stream_out/es.c:65
 msgid "Audio output URL"
-msgstr ""
+msgstr "ध्वनी आउटपुट URL"
 
 #: modules/stream_out/es.c:67
 msgid "This is the output URI that will be used for audio."
@@ -21796,7 +21798,7 @@ msgstr ""
 
 #: modules/stream_out/es.c:68
 msgid "Video output URL"
-msgstr ""
+msgstr "चित्रफीत आउटपुट URL"
 
 #: modules/stream_out/es.c:70
 msgid "This is the output URI that will be used for video."
@@ -21821,7 +21823,7 @@ msgstr ""
 
 #: modules/stream_out/langfromtelx.c:45
 msgid "Magazine"
-msgstr ""
+msgstr "मॅगझीन"
 
 #: modules/stream_out/langfromtelx.c:47
 msgid "Specify the magazine containing the language page"
@@ -22014,7 +22016,7 @@ msgstr ""
 
 #: modules/stream_out/rtp.c:100 modules/stream_out/standard.c:62
 msgid "Session description"
-msgstr ""
+msgstr "सत्र वर्णन"
 
 #: modules/stream_out/rtp.c:102 modules/stream_out/standard.c:64
 msgid ""
@@ -22024,7 +22026,7 @@ msgstr ""
 
 #: modules/stream_out/rtp.c:104 modules/stream_out/standard.c:66
 msgid "Session URL"
-msgstr ""
+msgstr "सत्र URL"
 
 #: modules/stream_out/rtp.c:106 modules/stream_out/standard.c:68
 msgid ""
@@ -22035,7 +22037,7 @@ msgstr ""
 
 #: modules/stream_out/rtp.c:109 modules/stream_out/standard.c:71
 msgid "Session email"
-msgstr ""
+msgstr "सत्र ईमेल"
 
 #: modules/stream_out/rtp.c:111 modules/stream_out/standard.c:73
 msgid ""
@@ -22059,7 +22061,7 @@ msgstr ""
 
 #: modules/stream_out/rtp.c:121
 msgid "Audio port"
-msgstr ""
+msgstr "ध्वनी पोर्ट"
 
 #: modules/stream_out/rtp.c:123
 msgid ""
@@ -22068,7 +22070,7 @@ msgstr ""
 
 #: modules/stream_out/rtp.c:124
 msgid "Video port"
-msgstr ""
+msgstr "चित्रफीत पोर्ट"
 
 #: modules/stream_out/rtp.c:126
 msgid ""
@@ -22093,7 +22095,7 @@ msgstr ""
 
 #: modules/stream_out/rtp.c:144
 msgid "Transport protocol"
-msgstr ""
+msgstr "ट्रान्सपोर्ट प्रोटोकॉल"
 
 #: modules/stream_out/rtp.c:146
 msgid "This selects which transport protocol to use for RTP."
@@ -22108,7 +22110,7 @@ msgstr ""
 
 #: modules/stream_out/rtp.c:167
 msgid "MP4A LATM"
-msgstr ""
+msgstr "MP4A LATM"
 
 #: modules/stream_out/rtp.c:169
 msgid "This allows you to stream MPEG4 LATM audio streams (see RFC3016)."
@@ -22127,7 +22129,7 @@ msgstr ""
 
 #: modules/stream_out/rtp.c:192
 msgid "RTP stream output"
-msgstr ""
+msgstr "RTP स्ट्रीम आउटपुट"
 
 #: modules/stream_out/rtp.c:250
 msgid "RTSP VoD server"
@@ -22135,7 +22137,7 @@ msgstr "RTSP VoD सर्वर"
 
 #: modules/stream_out/setid.c:45
 msgid "New ES ID"
-msgstr ""
+msgstr "नवीन ES ID"
 
 #: modules/stream_out/setid.c:47
 msgid "Specify an new identifier integer for this elementary stream"
@@ -22147,11 +22149,11 @@ msgstr ""
 
 #: modules/stream_out/setid.c:61
 msgid "Set ID"
-msgstr ""
+msgstr "ID सेट करा"
 
 #: modules/stream_out/setid.c:62
 msgid "Set ES id"
-msgstr ""
+msgstr "ES id सेट करा"
 
 #: modules/stream_out/setid.c:63
 msgid "Change the id of an elementary stream"
@@ -22288,7 +22290,7 @@ msgstr ""
 
 #: modules/stream_out/transcode/transcode.c:44
 msgid "Video encoder"
-msgstr ""
+msgstr "चित्रफीत एनकोडर"
 
 #: modules/stream_out/transcode/transcode.c:46
 msgid ""
@@ -22307,7 +22309,7 @@ msgstr ""
 #: modules/stream_out/transcode/transcode.c:51
 #: share/lua/http/dialogs/create_stream.html:212
 msgid "Video bitrate"
-msgstr ""
+msgstr "चित्रफीत बिटरेट"
 
 #: modules/stream_out/transcode/transcode.c:53
 msgid "Target bitrate of the transcoded video stream."
@@ -22369,7 +22371,7 @@ msgstr ""
 
 #: modules/stream_out/transcode/transcode.c:83
 msgid "Audio encoder"
-msgstr ""
+msgstr "ध्वनी एनकोडर"
 
 #: modules/stream_out/transcode/transcode.c:85
 msgid ""
@@ -22388,7 +22390,7 @@ msgstr ""
 #: modules/stream_out/transcode/transcode.c:90
 #: share/lua/http/dialogs/create_stream.html:231
 msgid "Audio bitrate"
-msgstr ""
+msgstr "ध्वनी बीटरेट"
 
 #: modules/stream_out/transcode/transcode.c:92
 msgid "Target bitrate of the transcoded audio stream."
@@ -22419,7 +22421,7 @@ msgstr ""
 
 #: modules/stream_out/transcode/transcode.c:107
 msgid "Subtitle encoder"
-msgstr ""
+msgstr "उपशीर्षक एनकोडर"
 
 #: modules/stream_out/transcode/transcode.c:109
 msgid ""
@@ -22445,7 +22447,7 @@ msgstr ""
 
 #: modules/stream_out/transcode/transcode.c:122
 msgid "OSD menu"
-msgstr ""
+msgstr "OSD मेन्यू"
 
 #: modules/stream_out/transcode/transcode.c:124
 msgid ""
@@ -22462,7 +22464,7 @@ msgstr ""
 
 #: modules/stream_out/transcode/transcode.c:129
 msgid "High priority"
-msgstr ""
+msgstr "उच्च प्राधान्य"
 
 #: modules/stream_out/transcode/transcode.c:131
 msgid ""
@@ -22673,15 +22675,15 @@ msgstr ""
 
 #: modules/video_chroma/i420_rgb.c:84
 msgid "I420,IYUV,YV12 to RGB2,RV15,RV16,RV24,RV32 conversions"
-msgstr ""
+msgstr "I420,IYUV,YV12 ते RGB2,RV15,RV16,RV24,RV32 रुपांतरे"
 
 #: modules/video_chroma/i420_rgb.c:89
 msgid "MMX I420,IYUV,YV12 to RV15,RV16,RV24,RV32 conversions"
-msgstr ""
+msgstr "MMX I420,IYUV,YV12 ते RV15,RV16,RV24,RV32 रुपांतरे"
 
 #: modules/video_chroma/i420_rgb.c:94
 msgid "SSE2 I420,IYUV,YV12 to RV15,RV16,RV24,RV32 conversions"
-msgstr ""
+msgstr "SSE2 I420,IYUV,YV12 ते RV15,RV16,RV24,RV32 रुपांतरे"
 
 #: modules/video_chroma/i420_yuy2.c:97 modules/video_chroma/i422_yuy2.c:77
 msgid "MMX conversions from "
@@ -22857,7 +22859,7 @@ msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:156
 msgid "DMX"
-msgstr ""
+msgstr "DMX"
 
 #: modules/video_filter/atmo/atmo.cpp:157
 msgid "MoMoLight"
@@ -22887,7 +22889,7 @@ msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:168
 msgid "Count of channels"
-msgstr ""
+msgstr "वाहिन्यांची संख्या"
 
 #: modules/video_filter/atmo/atmo.cpp:169
 msgid "Depending on your MoMoLight hardware choose 3 or 4 channels"
@@ -23324,7 +23326,7 @@ msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:426
 msgid "DMX options"
-msgstr ""
+msgstr "DMX पर्याय"
 
 #: modules/video_filter/atmo/atmo.cpp:432
 msgid "MoMoLight options"
@@ -23405,7 +23407,7 @@ msgstr ""
 
 #: modules/video_filter/audiobargraph_v.c:63
 msgid "Alarm"
-msgstr ""
+msgstr "गजर"
 
 #: modules/video_filter/audiobargraph_v.c:64
 msgid "Signals a silence and displays and alert (0=no alarm, 1=alarm)."
@@ -23651,7 +23653,7 @@ msgstr ""
 
 #: modules/video_filter/canvas.c:105
 msgid "Canvas"
-msgstr ""
+msgstr "कॅनव्हास"
 
 #: modules/video_filter/canvas.c:106
 msgid "Canvas video filter"
@@ -23798,15 +23800,15 @@ msgstr ""
 
 #: modules/video_filter/deinterlace/algo_phosphor.h:56
 msgid "Low"
-msgstr ""
+msgstr "कमी"
 
 #: modules/video_filter/deinterlace/algo_phosphor.h:57
 msgid "Medium"
-msgstr ""
+msgstr "मध्यम"
 
 #: modules/video_filter/deinterlace/algo_phosphor.h:58
 msgid "High"
-msgstr ""
+msgstr "अधिक"
 
 #: modules/video_filter/deinterlace/deinterlace.c:55
 msgid "Streaming deinterlace mode"
@@ -23901,7 +23903,7 @@ msgstr ""
 
 #: modules/video_filter/erase.c:69
 msgid "Erase"
-msgstr ""
+msgstr "खोडा"
 
 #: modules/video_filter/extract.c:62
 msgid "RGB component to extract"
@@ -24943,19 +24945,19 @@ msgstr ""
 
 #: modules/video_filter/remoteosd.c:74
 msgid "VNC Port"
-msgstr ""
+msgstr "VNC पोर्ट"
 
 #: modules/video_filter/remoteosd.c:76
 msgid "VNC port number."
-msgstr ""
+msgstr "VNC पोर्ट क्रमांक."
 
 #: modules/video_filter/remoteosd.c:78
 msgid "VNC Password"
-msgstr ""
+msgstr "VNC पासवर्ड"
 
 #: modules/video_filter/remoteosd.c:80
 msgid "VNC password."
-msgstr ""
+msgstr "VNC पासवर्ड."
 
 #: modules/video_filter/remoteosd.c:82
 msgid "VNC poll interval"
@@ -25033,7 +25035,7 @@ msgstr ""
 
 #: modules/video_filter/rotate.c:67 modules/gui/qt4/ui/video_effects.h:1349
 msgid "Rotate"
-msgstr ""
+msgstr "फिरवा"
 
 #: modules/video_filter/rss.c:129
 msgid "Feed URLs"
@@ -25053,7 +25055,7 @@ msgstr ""
 
 #: modules/video_filter/rss.c:133
 msgid "Max length"
-msgstr ""
+msgstr "अधिकतम लांबी"
 
 #: modules/video_filter/rss.c:134
 msgid "Maximum number of characters displayed on the screen."
@@ -25110,11 +25112,11 @@ msgstr ""
 
 #: modules/video_filter/rss.c:184
 msgid "Don't show"
-msgstr ""
+msgstr "दाखवू नये"
 
 #: modules/video_filter/rss.c:184
 msgid "Always visible"
-msgstr ""
+msgstr "नेहमी दृश्य"
 
 #: modules/video_filter/rss.c:184
 msgid "Scroll with feed"
@@ -25368,11 +25370,11 @@ msgstr ""
 
 #: modules/video_filter/swscale.c:64
 msgid "SincR"
-msgstr ""
+msgstr "SincR"
 
 #: modules/video_filter/swscale.c:64
 msgid "Lanczos"
-msgstr ""
+msgstr "Lanczos"
 
 #: modules/video_filter/swscale.c:64
 msgid "Bicubic spline"
@@ -25636,7 +25638,7 @@ msgstr ""
 
 #: modules/video_output/gl.c:50
 msgid "OpenGL ES2"
-msgstr ""
+msgstr "OpenGL ES2"
 
 #: modules/video_output/gl.c:51
 msgid "OpenGL for Embedded Systems 2 video output"
@@ -25644,7 +25646,7 @@ msgstr ""
 
 #: modules/video_output/gl.c:61
 msgid "OpenGL ES"
-msgstr ""
+msgstr "OpenGL ES"
 
 #: modules/video_output/gl.c:62
 msgid "OpenGL for Embedded Systems video output"
@@ -25652,7 +25654,7 @@ msgstr ""
 
 #: modules/video_output/gl.c:71
 msgid "OpenGL"
-msgstr ""
+msgstr "OpenGL"
 
 #: modules/video_output/gl.c:72
 msgid "OpenGL video output (experimental)"
@@ -25660,7 +25662,7 @@ msgstr ""
 
 #: modules/video_output/glx.c:42 modules/video_output/xcb/glx.c:51
 msgid "GLX"
-msgstr ""
+msgstr "GLX"
 
 #: modules/video_output/glx.c:43
 msgid "GLX extension for OpenGL"
@@ -25686,7 +25688,7 @@ msgstr ""
 
 #: modules/video_output/kva.c:55 modules/gui/qt4/ui/sprefs_video.h:351
 msgid "Video mode"
-msgstr ""
+msgstr "चित्रफीत मोड"
 
 #: modules/video_output/kva.c:57
 msgid "Select a proper video mode to be used by KVA."
@@ -25698,11 +25700,11 @@ msgstr "SNAP"
 
 #: modules/video_output/kva.c:62
 msgid "WarpOverlay!"
-msgstr ""
+msgstr "WarpOverlay!"
 
 #: modules/video_output/kva.c:62
 msgid "VMAN"
-msgstr ""
+msgstr "VMAN"
 
 #: modules/video_output/kva.c:62
 msgid "DIVE"
@@ -25733,7 +25735,7 @@ msgstr ""
 
 #: modules/video_output/msw/direct2d.c:59
 msgid "Direct2D video output"
-msgstr ""
+msgstr "Direct2D चित्रफीत आउटपुट"
 
 #: modules/video_output/msw/direct3d.c:57
 msgid "The desktop mode allows you to display the video on the desktop."
@@ -25753,7 +25755,7 @@ msgstr ""
 
 #: modules/video_output/msw/direct3d.c:67
 msgid "Direct3D video output"
-msgstr ""
+msgstr "Direct3D चित्रफीत आउटपुट"
 
 #: modules/video_output/msw/directx.c:69 modules/gui/qt4/ui/sprefs_video.h:344
 msgid "Use hardware YUV->RGB conversions"
@@ -25806,7 +25808,7 @@ msgstr ""
 
 #: modules/video_output/msw/directx.c:102
 msgid "DirectX (DirectDraw) video output"
-msgstr ""
+msgstr "DirectX (DirectDraw) चित्रफीत आउटपुट"
 
 #: modules/video_output/msw/directx.c:212
 msgid "Wallpaper"
@@ -25814,11 +25816,11 @@ msgstr ""
 
 #: modules/video_output/msw/glwin32.c:55
 msgid "OpenGL video output"
-msgstr ""
+msgstr "OpenGL चित्रफीत आउटपुट"
 
 #: modules/video_output/msw/wingdi.c:57
 msgid "Windows GDI video output"
-msgstr ""
+msgstr "Windows GDI चित्रफीत आउटपुट"
 
 #: modules/video_output/sdl.c:56
 msgid "SDL chroma format"
@@ -25891,7 +25893,7 @@ msgstr ""
 
 #: modules/video_output/xcb/window.c:43
 msgid "X11 display"
-msgstr ""
+msgstr "X11 डिस्प्ले"
 
 #: modules/video_output/xcb/window.c:45
 msgid ""
@@ -25962,7 +25964,7 @@ msgstr ""
 
 #: modules/video_output/xcb/xvideo.c:62
 msgid "XVideo"
-msgstr ""
+msgstr "XVideo"
 
 #: modules/video_output/xcb/xvideo.c:63
 msgid "XVideo output (XCB)"
@@ -26006,7 +26008,7 @@ msgstr ""
 
 #: modules/video_output/yuv.c:59
 msgid "YUV output"
-msgstr ""
+msgstr "YUV आउटपुट"
 
 #: modules/video_output/yuv.c:60
 msgid "YUV video output"
@@ -26109,7 +26111,7 @@ msgstr ""
 
 #: modules/visualization/projectm.cpp:98
 msgid "projectM"
-msgstr ""
+msgstr "projectM"
 
 #: modules/visualization/projectm.cpp:99
 msgid "libprojectM effect"
@@ -26227,7 +26229,7 @@ msgstr ""
 
 #: modules/visualization/vsxu.cpp:62 modules/visualization/vsxu.cpp:63
 msgid "vsxu"
-msgstr ""
+msgstr "vsxu"
 
 #: share/lua/http/dialogs/batch_window.html:28
 msgid "#paste your VLM commands here"
@@ -26245,7 +26247,7 @@ msgstr ""
 #: share/lua/http/dialogs/create_stream.html:156
 #: modules/gui/qt4/ui/sprefs_audio.h:416 modules/gui/qt4/ui/sprefs_video.h:346
 msgid "Output"
-msgstr ""
+msgstr "आउटपुट"
 
 #: share/lua/http/dialogs/create_stream.html:193
 msgid "Subtitle codec"
@@ -26286,7 +26288,7 @@ msgstr ""
 
 #: share/lua/http/dialogs/create_stream.html:367
 msgid "Error:"
-msgstr ""
+msgstr "त्रुटी:"
 
 #: share/lua/http/dialogs/create_stream.html:367
 msgid "Sample ui-state-error style."
@@ -26331,7 +26333,7 @@ msgstr ""
 
 #: share/lua/http/dialogs/stream_window.html:65
 msgid "Time:"
-msgstr ""
+msgstr "वेळ:"
 
 #: share/lua/http/index.html:26 share/lua/http/mobile_browse.html:25
 #: share/lua/http/mobile_equalizer.html:25 share/lua/http/mobile_view.html:25
@@ -26451,7 +26453,7 @@ msgstr "जुळणी"
 
 #: modules/gui/qt4/ui/equalizer.h:138
 msgid "0.00 dB"
-msgstr ""
+msgstr "0.00 dB"
 
 #: modules/gui/qt4/ui/messages_panel.h:140
 msgid "&Verbosity:"
@@ -26711,7 +26713,7 @@ msgstr ""
 
 #: modules/gui/qt4/ui/profiles.h:729 modules/gui/qt4/ui/profiles.h:732
 msgid "px"
-msgstr ""
+msgstr "px"
 
 #: modules/gui/qt4/ui/profiles.h:742
 msgid "Sample Rate"
@@ -26777,7 +26779,7 @@ msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_audio.h:414
 msgid " %"
-msgstr ""
+msgstr " %"
 
 #: modules/gui/qt4/ui/sprefs_audio.h:419
 msgid "Output module:"
@@ -26813,11 +26815,11 @@ msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_audio.h:429
 msgid "Password:"
-msgstr ""
+msgstr "पासवर्ड:"
 
 #: modules/gui/qt4/ui/sprefs_audio.h:430
 msgid "Username:"
-msgstr ""
+msgstr "युजरनेम:"
 
 #: modules/gui/qt4/ui/sprefs_audio.h:431
 msgid "Submit played tracks stats to Last.fm"
@@ -27793,11 +27795,11 @@ msgstr "मेडिया नियंत्रक लिस्ट"
 
 #, fuzzy
 #~ msgid "  [Video Decoding]"
-#~ msgstr "चित्रफीत सेटिंग"
+#~ msgstr "चित्रफीत एनकोडर"
 
 #, fuzzy
 #~ msgid "  [Audio Decoding]"
-#~ msgstr "ध्वनी सेटिंग"
+#~ msgstr "ध्वनी एनकोडर"
 
 #, fuzzy
 #~ msgid "  [Streaming]"
@@ -27829,7 +27831,7 @@ msgstr "मेडिया नियंत्रक लिस्ट"
 
 #, fuzzy
 #~ msgid "Detailed View"
-#~ msgstr "मीडिया व्हू"
+#~ msgstr "सविस्तर यादी"
 
 #, fuzzy
 #~ msgid "List View"
@@ -27889,7 +27891,7 @@ msgstr "मेडिया नियंत्रक लिस्ट"
 
 #, fuzzy
 #~ msgid "Subtitles Files"
-#~ msgstr "उपशीर्षक फाईल"
+#~ msgstr "उपशीर्षक फाईल्स"
 
 #, fuzzy
 #~ msgid "&Tools"
