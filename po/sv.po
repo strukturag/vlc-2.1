@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-09-08 20:08+0200\n"
-"PO-Revision-Date: 2013-09-10 20:56+0000\n"
+"PO-Revision-Date: 2013-09-16 12:36+0000\n"
 "Last-Translator: DolphinPhoenix <anton_r_3@hotmail.com>\n"
 "Language-Team: Swedish (http://www.transifex.com/projects/p/vlc-trans/"
 "language/sv/)\n"
@@ -238,11 +238,11 @@ msgstr "Inställningar för avkodare och kodare endast för ljud."
 
 #: include/vlc_config_cat.h:117
 msgid "Subtitle codecs"
-msgstr "Undertextavkodare"
+msgstr "Undertextkodekar"
 
 #: include/vlc_config_cat.h:118
 msgid "Settings for subtitle, teletext and CC decoders and encoders."
-msgstr "Inställningar för undertexter, text-TV samt CC-avkodare och -kodare."
+msgstr "Inställningar för undertexter, text-tv samt CC-avkodare och -kodare."
 
 #: include/vlc_config_cat.h:120
 msgid "General input settings. Use with care..."
@@ -820,11 +820,11 @@ msgstr ""
 
 #: src/config/help.c:514
 msgid " (default enabled)"
-msgstr "(som standard aktiverad)"
+msgstr "(aktiverad som standard)"
 
 #: src/config/help.c:515
 msgid " (default disabled)"
-msgstr "(som standard inaktiverad)"
+msgstr "(inaktiverad som standard)"
 
 #: src/config/help.c:680 src/config/help.c:683 src/config/help.c:690
 #: src/config/help.c:692
@@ -930,7 +930,7 @@ msgstr ""
 #: modules/gui/qt4/ui/podcast_configuration.h:105
 #: modules/gui/qt4/ui/streampanel.h:173
 msgid "Delete"
-msgstr "Ta bort"
+msgstr "Delete"
 
 #: src/config/keys.c:67
 msgid "Down"
@@ -938,7 +938,7 @@ msgstr "Ned"
 
 #: src/config/keys.c:68 modules/control/rc.c:74
 msgid "End"
-msgstr "Slut"
+msgstr "End"
 
 #: src/config/keys.c:69
 msgid "Enter"
@@ -1106,7 +1106,7 @@ msgstr "Page Up"
 
 #: src/config/keys.c:112 modules/demux/mp4/id3genres.h:76
 msgid "Space"
-msgstr "Space"
+msgstr "Mellanslag"
 
 #: src/config/keys.c:113
 msgid "Tab"
@@ -1252,7 +1252,7 @@ msgstr "Typ"
 
 #: src/input/es_out.c:2883
 msgid "Original ID"
-msgstr ""
+msgstr "Original-ID"
 
 #: src/input/es_out.c:2891 src/input/es_out.c:2894 modules/access/imem.c:67
 #: modules/gui/macosx/ConvertAndSave.m:177
@@ -1414,7 +1414,7 @@ msgstr "URL"
 
 #: src/input/meta.c:67 modules/notify/notify.c:318
 msgid "Now Playing"
-msgstr "Nu spelas"
+msgstr "Spelas nu "
 
 #: src/input/meta.c:68 modules/access/vcdx/info.c:70
 #: modules/demux/mp4/mp4.c:1088
@@ -1431,7 +1431,7 @@ msgstr "Webbadress för omslag"
 
 #: src/input/meta.c:71
 msgid "Track ID"
-msgstr "Spår-id"
+msgstr "Spår-ID"
 
 #: src/input/var.c:158
 msgid "Bookmark"
@@ -1503,7 +1503,7 @@ msgstr "Lägg till gränssnitt"
 
 #: src/interface/interface.c:88
 msgid "Console"
-msgstr "Konsoll"
+msgstr "Konsol"
 
 #: src/interface/interface.c:92
 msgid "Telnet"
@@ -1723,7 +1723,7 @@ msgstr "Kom ihåg ljudvolymen"
 #: src/libvlc-module.c:149
 msgid ""
 "The volume can be recorded and automatically restored next time VLC is used."
-msgstr ""
+msgstr "Volymen kan registreras och återställas nästa gång VLC används."
 
 #: src/libvlc-module.c:152
 msgid "Audio desynchronization compensation"
@@ -4462,11 +4462,11 @@ msgstr ""
 
 #: src/libvlc-module.c:1395
 msgid "Normal/Loop/Repeat"
-msgstr ""
+msgstr "Normal/Upprepa/Slinga"
 
 #: src/libvlc-module.c:1396
 msgid "Toggle Normal/Loop/Repeat playlist modes"
-msgstr ""
+msgstr "Växla spellistläge mellan Normal/Upprepa/Slinga"
 
 #: src/libvlc-module.c:1399
 msgid "Toggle random playlist playback"
@@ -5595,7 +5595,7 @@ msgstr "BD"
 
 #: modules/access/bd/bd.c:55
 msgid "Blu-ray Disc Input"
-msgstr ""
+msgstr "Blu-ray skivinmatning"
 
 #: modules/access/bluray.c:60
 msgid "Blu-ray menus"
@@ -5609,11 +5609,11 @@ msgstr ""
 #: modules/access/bluray.c:69 modules/services_discovery/udev.c:596
 #: modules/gui/qt4/ui/open_disk.h:300
 msgid "Blu-ray"
-msgstr ""
+msgstr "Blu-Ray"
 
 #: modules/access/bluray.c:70
 msgid "Blu-ray Disc support (libbluray)"
-msgstr ""
+msgstr "Stöd för Blu-ray-skivor (libbluray)"
 
 #: modules/access/bluray.c:263
 msgid ""
@@ -5623,7 +5623,7 @@ msgstr ""
 
 #: modules/access/bluray.c:272
 msgid "Blu-ray Disc is corrupted."
-msgstr ""
+msgstr "Blu-ray-skivan är skadad."
 
 #: modules/access/bluray.c:275
 msgid "Missing AACS configuration file!"
@@ -5661,7 +5661,7 @@ msgstr ""
 
 #: modules/access/bluray.c:370
 msgid "Blu-ray error"
-msgstr ""
+msgstr "Blu-ray-fel"
 
 #: modules/access/cdda.c:62 modules/gui/macosx/open.m:162
 #: modules/gui/qt4/ui/open_disk.h:301
@@ -6654,7 +6654,7 @@ msgstr "Sortera inte objekten."
 
 #: modules/access/fs.c:57
 msgid "Directory sort order"
-msgstr ""
+msgstr "Sorteringsordning för kataloger"
 
 #: modules/access/fs.c:59
 msgid "Define the sort algorithm used when adding items from a directory."
@@ -6715,7 +6715,7 @@ msgstr ""
 #: modules/access/ftp.c:246 modules/access/ftp.c:256 modules/access/ftp.c:321
 #: modules/access/ftp.c:330 modules/access/ftp.c:337
 msgid "Network interaction failed"
-msgstr ""
+msgstr "Nätverksinteraktion misslyckades"
 
 #: modules/access/ftp.c:247
 msgid "VLC could not connect with the given server."
@@ -6784,11 +6784,11 @@ msgstr ""
 
 #: modules/access/http.c:85
 msgid "Forward Cookies"
-msgstr ""
+msgstr "Vidarebefordra cookies"
 
 #: modules/access/http.c:86
 msgid "Forward Cookies across http redirections."
-msgstr ""
+msgstr "Vidarebefordra cookies genom http-omdirigeringar."
 
 #: modules/access/http.c:88
 msgid "HTTP referer value"
@@ -6946,7 +6946,7 @@ msgstr ""
 
 #: modules/access/imem.c:105
 msgid "Get function"
-msgstr ""
+msgstr "Hämta funktion"
 
 #: modules/access/imem.c:107
 msgid "Address of the get callback function"
@@ -6967,7 +6967,7 @@ msgstr "Storlek"
 
 #: modules/access/imem.c:115
 msgid "Size of stream in bytes"
-msgstr ""
+msgstr "Strömstorlek i byte"
 
 #: modules/access/imem.c:118 modules/access/imem.c:119
 msgid "Memory input"
@@ -7036,7 +7036,7 @@ msgstr ""
 
 #: modules/access/linsys/linsys_hdsdi.c:89
 msgid "HD-SDI Input"
-msgstr ""
+msgstr "HD-SDI-inmatning"
 
 #: modules/access/linsys/linsys_hdsdi.c:90
 msgid "HD-SDI"
@@ -7049,7 +7049,7 @@ msgstr "Konfiguration för text-tv"
 #: modules/access/linsys/linsys_sdi.c:81
 msgid ""
 "Allows you to set Teletext configuration (id=line1-lineN with both fields)."
-msgstr ""
+msgstr "Låter dig konfigurera text-tv (id=line1-lineN med båda fälten)."
 
 #: modules/access/linsys/linsys_sdi.c:82
 msgid "Teletext language"
@@ -7057,7 +7057,7 @@ msgstr "Språk för text-tv"
 
 #: modules/access/linsys/linsys_sdi.c:84
 msgid "Allows you to set Teletext language (page=lang/type,...)."
-msgstr ""
+msgstr "Låter dig ange språk för text-tv (page=lang/type,...)."
 
 #: modules/access/linsys/linsys_sdi.c:92
 msgid "SDI Input"
@@ -7065,7 +7065,7 @@ msgstr "SDI-inmatning"
 
 #: modules/access/linsys/linsys_sdi.c:113
 msgid "SDI Demux"
-msgstr ""
+msgstr "SDI-demux"
 
 #: modules/access/live555.cpp:78
 msgid "Kasenna RTSP dialect"
@@ -7109,6 +7109,8 @@ msgid ""
 "Sets the password for the connection, if no username or password are set in "
 "the url."
 msgstr ""
+"Anger användarnamnet för anslutningen om inget användarnamn eller lösenord "
+"anges i webbadressen."
 
 #: modules/access/live555.cpp:94
 msgid "RTSP frame buffer size"
@@ -7295,7 +7297,7 @@ msgstr ""
 
 #: modules/access_output/file.c:78
 msgid "File stream output"
-msgstr ""
+msgstr "Filströmutmatning"
 
 #: modules/access_output/file.c:200
 msgid ""
@@ -7620,7 +7622,7 @@ msgstr ""
 
 #: modules/access/rdp.c:51
 msgid "RDP Password"
-msgstr ""
+msgstr "RDP-lösenord"
 
 #: modules/access/rdp.c:52
 msgid "Encrypted connexion"
@@ -7720,7 +7722,7 @@ msgstr "RTP"
 
 #: modules/access/rtp/rtp.c:97
 msgid "Real-Time Protocol (RTP) input"
-msgstr ""
+msgstr "Inmatning för Real-Time Protocol (RTP)"
 
 #: modules/access/rtp/rtp.c:756
 msgid "SDP required"
@@ -7800,7 +7802,7 @@ msgstr "Följ musen när en underskärm fångas."
 
 #: modules/access/screen/screen.c:72
 msgid "Mouse pointer image"
-msgstr ""
+msgstr "Bild för muspekare"
 
 #: modules/access/screen/screen.c:74
 msgid ""
@@ -7817,7 +7819,7 @@ msgstr ""
 
 #: modules/access/screen/screen.c:82
 msgid "Screen index"
-msgstr ""
+msgstr "Skärmindex"
 
 #: modules/access/screen/screen.c:84
 msgid "Index of screen (1, 2, 3, ...). Alternative to Display ID."
@@ -7837,7 +7839,7 @@ msgstr "Skärm"
 #: modules/access/screen/xcb.c:40 modules/access/shm.c:43
 #: modules/access/vnc.c:60
 msgid "How many times the screen content should be refreshed per second."
-msgstr ""
+msgstr "Hur många gånger bör skärmens innehåll uppdateras per sekund."
 
 #: modules/access/screen/xcb.c:42
 msgid "Region left column"
@@ -8193,7 +8195,7 @@ msgstr "Automatisk vitbalans"
 
 #: modules/access/v4l2/v4l2.c:104
 msgid "Automatically adjust the picture white balance."
-msgstr ""
+msgstr "Justera automatiskt bildens vitbalans."
 
 #: modules/access/v4l2/v4l2.c:105
 msgid "Red balance"
@@ -8291,7 +8293,7 @@ msgstr ""
 
 #: modules/access/v4l2/v4l2.c:144
 msgid "Horizontal flip"
-msgstr ""
+msgstr "Vänd horisontalt"
 
 #: modules/access/v4l2/v4l2.c:146
 msgid "Flip the picture horizontally."
@@ -8299,7 +8301,7 @@ msgstr "Vänd bilden horisontellt."
 
 #: modules/access/v4l2/v4l2.c:147
 msgid "Vertical flip"
-msgstr ""
+msgstr "Vänd vertikalt"
 
 #: modules/access/v4l2/v4l2.c:149
 msgid "Flip the picture vertically."
@@ -8311,7 +8313,7 @@ msgstr "Rotera (grader)"
 
 #: modules/access/v4l2/v4l2.c:151
 msgid "Picture rotation angle (in degrees)."
-msgstr ""
+msgstr "Rotationsvinkel för bild (i grader)."
 
 #: modules/access/v4l2/v4l2.c:152
 msgid "Color killer"
@@ -8354,7 +8356,7 @@ msgstr ""
 
 #: modules/access/v4l2/v4l2.c:165
 msgid "Sky blue"
-msgstr ""
+msgstr "Himmelsblå"
 
 #: modules/access/v4l2/v4l2.c:166
 msgid "Grass green"
@@ -8624,7 +8626,7 @@ msgstr "okänd typ"
 
 #: modules/access/vcdx/info.c:235 modules/access/vcdx/info.c:250
 msgid "List ID"
-msgstr ""
+msgstr "List-ID"
 
 #: modules/access/vcdx/vcd.c:85
 msgid "(Super) Video CD"
@@ -8690,11 +8692,11 @@ msgstr "Stöd för VDR-inspelningar (http://www.tvdr.de/)."
 
 #: modules/access/vdr.c:78
 msgid "Chapter offset in ms"
-msgstr ""
+msgstr "Inledning för kapitel i ms"
 
 #: modules/access/vdr.c:80
 msgid "Move all chapters. This value should be set in milliseconds."
-msgstr ""
+msgstr "Flytta alla kapitel. Detta värde borde anges i millisekunder."
 
 #: modules/access/vdr.c:84
 msgid "Default frame rate for chapter import."
@@ -8754,7 +8756,7 @@ msgstr ""
 
 #: modules/access/vnc.c:61
 msgid "Compression level"
-msgstr ""
+msgstr "Komprimeringsnivå"
 
 #: modules/access/vnc.c:62
 msgid "Transfer compression level from 0 (none) to 9 (max)"
@@ -8762,15 +8764,15 @@ msgstr ""
 
 #: modules/access/vnc.c:63
 msgid "Image quality"
-msgstr ""
+msgstr "Bildkvalitet"
 
 #: modules/access/vnc.c:64
 msgid "Image quality 1 to 9 (max)"
-msgstr ""
+msgstr "Bildkvalitet 1 till 9 (max)"
 
 #: modules/access/vnc.c:78
 msgid "VNC"
-msgstr ""
+msgstr "VNC"
 
 #: modules/access/vnc.c:82
 msgid "VNC client access"
@@ -8786,7 +8788,7 @@ msgstr "Sökväg till mediet i Zip-arkivet"
 
 #: modules/access/zip/zipstream.c:48
 msgid "Zip files filter"
-msgstr ""
+msgstr "Filter för Zip-filer"
 
 #: modules/access/zip/zipstream.c:53
 msgid "Zip access"
@@ -8999,7 +9001,7 @@ msgstr "Höger bak"
 #: modules/audio_filter/channel_mixer/mono.c:94
 #: modules/audio_filter/channel_mixer/remap.c:63
 msgid "Low-frequency effects"
-msgstr ""
+msgstr "Lågfrekvenseffekter"
 
 #: modules/audio_filter/channel_mixer/mono.c:95
 #: modules/audio_filter/channel_mixer/remap.c:63
@@ -9361,7 +9363,7 @@ msgstr "Karaoke"
 
 #: modules/audio_filter/karaoke.c:36
 msgid "Simple Karaoke filter"
-msgstr ""
+msgstr "Enkelt karaokefilter"
 
 #: modules/audio_filter/normvol.c:65
 msgid "Number of audio buffers"
@@ -9530,7 +9532,7 @@ msgstr ""
 
 #: modules/audio_filter/scaletempo.c:58
 msgid "Search Length"
-msgstr ""
+msgstr "Söklängd"
 
 #: modules/audio_filter/scaletempo.c:58
 msgid "Length in milliseconds to search for best overlap position"
@@ -9556,13 +9558,13 @@ msgstr "Bredd på det virtuella rummet"
 #: modules/gui/macosx/AudioEffects.m:132
 #: modules/gui/qt4/components/extended_panels.cpp:1403
 msgid "Wet"
-msgstr ""
+msgstr "Våt"
 
 #: modules/audio_filter/spatializer/spatializer.cpp:64
 #: modules/gui/macosx/AudioEffects.m:133
 #: modules/gui/qt4/components/extended_panels.cpp:1404
 msgid "Dry"
-msgstr ""
+msgstr "Torr"
 
 #: modules/audio_filter/spatializer/spatializer.cpp:67
 #: modules/gui/macosx/AudioEffects.m:134
@@ -9619,7 +9621,7 @@ msgstr ""
 
 #: modules/audio_filter/stereo_widen.c:77
 msgid "Stereo Enhancer"
-msgstr ""
+msgstr "Stereoförbättring"
 
 #: modules/audio_filter/stereo_widen.c:78
 msgid "Simple stereo widening effect"
@@ -9639,15 +9641,15 @@ msgstr ""
 
 #: modules/audio_output/alsa.c:64 modules/audio_output/oss.c:67
 msgid "Audio output device"
-msgstr ""
+msgstr "Ljudutmatningsenhet"
 
 #: modules/audio_output/alsa.c:65
 msgid "Audio output device (using ALSA syntax)."
-msgstr ""
+msgstr "Ljudutmatningsenhet (använder ALSA-syntax)."
 
 #: modules/audio_output/alsa.c:67 modules/audio_output/waveout.c:141
 msgid "Audio output channels"
-msgstr ""
+msgstr "Ljudutmatningskanaler"
 
 #: modules/audio_output/alsa.c:68 modules/audio_output/waveout.c:142
 msgid ""
@@ -9682,7 +9684,7 @@ msgstr "ALSA-ljudutmatning"
 
 #: modules/audio_output/alsa.c:368 modules/audio_output/auhal.c:380
 msgid "Audio output failed"
-msgstr ""
+msgstr "Ljudutmatning misslyckades"
 
 #: modules/audio_output/alsa.c:369
 #, c-format
@@ -9699,7 +9701,7 @@ msgstr "Ljudminne"
 
 #: modules/audio_output/amem.c:35
 msgid "Audio memory output"
-msgstr ""
+msgstr "Utmatning för ljudminne"
 
 #: modules/audio_output/amem.c:42
 msgid "Sample format"
@@ -9719,7 +9721,7 @@ msgstr ""
 
 #: modules/audio_output/auhal.c:69
 msgid "Last audio device"
-msgstr ""
+msgstr "Senaste ljudenhet"
 
 #: modules/audio_output/auhal.c:166
 msgid "HAL AudioUnit output"
@@ -9810,7 +9812,7 @@ msgstr ""
 
 #: modules/audio_output/file.c:109
 msgid "File audio output"
-msgstr ""
+msgstr "Utmatning för filljud"
 
 #: modules/audio_output/jack.c:81
 msgid "Automatically connect to writable clients"
@@ -10423,11 +10425,11 @@ msgstr ""
 
 #: modules/codec/avcodec/vda.c:47
 msgid "420YpCbCr8Planar"
-msgstr ""
+msgstr "420YpCbCr8Planar"
 
 #: modules/codec/avcodec/vda.c:47
 msgid "422YpCbCr8"
-msgstr ""
+msgstr "422YpCbCr8"
 
 #: modules/codec/avcodec/vda.c:50
 msgid "Video Decode Acceleration Framework (VDA)"
@@ -10770,7 +10772,7 @@ msgstr "Avkodare för AAC-ljud (använder libfaad2)"
 
 #: modules/codec/faad.c:430
 msgid "AAC extension"
-msgstr ""
+msgstr "AAC-filändelse"
 
 #: modules/codec/fdkaac.c:67
 msgid "Encoder Profile"
@@ -10818,31 +10820,31 @@ msgstr ""
 
 #: modules/codec/fdkaac.c:97
 msgid "AAC-LC"
-msgstr ""
+msgstr "AAC-LC"
 
 #: modules/codec/fdkaac.c:97
 msgid "HE-AAC"
-msgstr ""
+msgstr "HE-AAC"
 
 #: modules/codec/fdkaac.c:97
 msgid "HE-AAC-v2"
-msgstr ""
+msgstr "HE-AAC-v2"
 
 #: modules/codec/fdkaac.c:97
 msgid "AAC-LD"
-msgstr ""
+msgstr "AAC-LD"
 
 #: modules/codec/fdkaac.c:97
 msgid "AAC-ELD"
-msgstr ""
+msgstr "AAC-ELD"
 
 #: modules/codec/fdkaac.c:100
 msgid "FDKAAC"
-msgstr ""
+msgstr "FDKAAC"
 
 #: modules/codec/fdkaac.c:101
 msgid "FDK-AAC Audio encoder"
-msgstr ""
+msgstr "FDK-AAC ljudavkodare"
 
 #: modules/codec/flac.c:112
 msgid "Flac audio decoder"
@@ -10912,11 +10914,11 @@ msgstr ""
 
 #: modules/codec/g711.c:45
 msgid "G.711 decoder"
-msgstr ""
+msgstr "G.711-avkodare"
 
 #: modules/codec/g711.c:53
 msgid "G.711 encoder"
-msgstr ""
+msgstr "G.711-avkodare"
 
 #: modules/codec/kate.c:194 modules/codec/subsdec.c:173
 msgid "Formatted Subtitles"
@@ -11248,7 +11250,7 @@ msgstr ""
 
 #: modules/codec/qsv.c:61
 msgid "Codec Profile"
-msgstr ""
+msgstr "Kodekprofil"
 
 #: modules/codec/qsv.c:63
 msgid ""
@@ -11259,7 +11261,7 @@ msgstr ""
 
 #: modules/codec/qsv.c:67
 msgid "Codec Level"
-msgstr ""
+msgstr "Kodeknivå"
 
 #: modules/codec/qsv.c:69
 msgid ""
@@ -11366,7 +11368,7 @@ msgstr ""
 
 #: modules/codec/qsv.c:122
 msgid "Maximum Bitrate"
-msgstr ""
+msgstr "Maximal bitfrekvens"
 
 #: modules/codec/qsv.c:123
 msgid ""
@@ -11477,7 +11479,7 @@ msgstr ""
 
 #: modules/codec/schroedinger.c:87
 msgid "GOP structure"
-msgstr ""
+msgstr "GOP-struktur"
 
 #: modules/codec/schroedinger.c:88
 msgid "GOP structure used to encode the video sequence"
@@ -11519,23 +11521,23 @@ msgstr ""
 
 #: modules/codec/schroedinger.c:121
 msgid "Maximum bitrate (kbps)"
-msgstr ""
+msgstr "Maximal bitfrekvens (kbps)"
 
 #: modules/codec/schroedinger.c:122
 msgid "Maximum bitrate in kbps when encoding in constant bitrate mode"
-msgstr ""
+msgstr "Maximal bitfrekvens i kbps vid avkodning i konstant bithastighetsläge"
 
 #: modules/codec/schroedinger.c:125
 msgid "Minimum bitrate (kbps)"
-msgstr ""
+msgstr "Minimal bitfrekvens (kbps)"
 
 #: modules/codec/schroedinger.c:126
 msgid "Minimum bitrate in kbps when encoding in constant bitrate mode"
-msgstr ""
+msgstr "Minimal bitfrekvens i kbps vid avkodning i konstant bithastighetsläge"
 
 #: modules/codec/schroedinger.c:129
 msgid "GOP length"
-msgstr ""
+msgstr "GOP-längd"
 
 #: modules/codec/schroedinger.c:130
 msgid ""
@@ -12979,7 +12981,7 @@ msgstr "Normal"
 
 #: modules/codec/x264.c:429
 msgid "Slow"
-msgstr ""
+msgstr "Långsam"
 
 #: modules/codec/x264.c:434
 msgid "Spatial"
@@ -13035,7 +13037,7 @@ msgstr "Öppna den indikerade Teletext-sidan. Standardsidan är index 100"
 
 #: modules/codec/zvbi.c:62 modules/gui/qt4/dialogs/toolbar.cpp:421
 msgid "Teletext transparency"
-msgstr ""
+msgstr "Transparens för text-tv"
 
 #: modules/codec/zvbi.c:63
 msgid "Setting vbi-opaque to false makes the boxed text transparent."
@@ -13054,7 +13056,7 @@ msgstr ""
 
 #: modules/codec/zvbi.c:72
 msgid "Teletext text subtitles"
-msgstr ""
+msgstr "Undertexter för text-tv"
 
 #: modules/codec/zvbi.c:73
 msgid "Output teletext subtitles as text instead of as RGBA"
@@ -13162,7 +13164,7 @@ msgstr ""
 #: modules/control/hotkeys.c:195
 #, c-format
 msgid "Loop: %s"
-msgstr ""
+msgstr "Slinga: %s"
 
 #: modules/control/hotkeys.c:202
 #, c-format
@@ -13234,7 +13236,7 @@ msgstr "-"
 #: modules/control/hotkeys.c:607 modules/control/hotkeys.c:639
 #, c-format
 msgid "Program Service ID: %s"
-msgstr ""
+msgstr "Programtjänst-ID: %s"
 
 #: modules/control/hotkeys.c:763
 #, c-format
@@ -14625,7 +14627,7 @@ msgstr "Duet"
 
 #: modules/demux/mp4/id3genres.h:153
 msgid "Punk Rock"
-msgstr ""
+msgstr "Punkrock"
 
 #: modules/demux/mp4/id3genres.h:154
 msgid "Drum Solo"
@@ -15466,7 +15468,7 @@ msgstr "Upphovsmän"
 #: modules/gui/macosx/about.m:104
 msgid ""
 "VLC media player and VideoLAN are trademarks of the VideoLAN Association."
-msgstr ""
+msgstr "VLC media player och VideoLAN är varumärken av VideoLAN Association."
 
 #: modules/gui/macosx/about.m:115
 msgid "Compiled by %s with %@"
@@ -15486,7 +15488,7 @@ msgstr ""
 "<p>VLC media player är en mediaspelare, avkodare och strömmare med fri och "
 "öppen källkod som är gjord av volontärer från <a href=\"http://www.videolan."
 "org/\"><span style=\" text-decoration: underline; color:#0057ae;\">VideoLAN</"
-"span></a>-gemenskapen.</p><p>VLC använder sina interna avkodare, fungerar i "
+"span></a>-gemenskapen.</p><p>VLC använder sina interna kodekar, fungerar i "
 "stort sett på alla populära plattformar och kan läsa nästan alla filer; CD, "
 "DVD, nätverksströmmar, capture cards och andra mediaformat</p><p><a href="
 "\"http://www.videolan.org/contribute/\"><span style=\" text-decoration: "
@@ -15777,11 +15779,11 @@ msgstr "Växla helskärmsläge"
 
 #: modules/gui/macosx/ControlsBar.m:69
 msgid "Click to enable fullscreen video playback."
-msgstr ""
+msgstr "Klicka för att aktivera helskärm under uppspelning av video."
 
 #: modules/gui/macosx/ControlsBar.m:437
 msgid "Click to stop playback."
-msgstr ""
+msgstr "Klicka för att stoppa uppspelning."
 
 #: modules/gui/macosx/ControlsBar.m:440
 msgid "Show/Hide Playlist"
@@ -15810,7 +15812,7 @@ msgstr "Blanda"
 
 #: modules/gui/macosx/ControlsBar.m:450
 msgid "Click to enable or disable random playback."
-msgstr ""
+msgstr "Klicka för att aktivera eller inaktivera slumpad uppspelning."
 
 #: modules/gui/macosx/ControlsBar.m:453 modules/gui/macosx/fspanel.m:464
 msgid ""
@@ -15828,7 +15830,7 @@ msgstr "Full volym"
 
 #: modules/gui/macosx/ControlsBar.m:459
 msgid "Click to play the audio at maximum volume."
-msgstr ""
+msgstr "Klicka för att spela upp ljudet i maximal volym."
 
 #: modules/gui/macosx/ControlsBar.m:462 modules/gui/macosx/simple_prefs.m:180
 #: modules/gui/qt4/ui/sprefs_audio.h:420
@@ -15863,7 +15865,7 @@ msgstr "Konvertera och strömma"
 
 #: modules/gui/macosx/ConvertAndSave.m:153
 msgid "Go!"
-msgstr ""
+msgstr "Gå!"
 
 #: modules/gui/macosx/ConvertAndSave.m:154 modules/gui/macosx/MainWindow.m:173
 msgid "Drop media here"
@@ -15875,19 +15877,19 @@ msgstr "Öppna media..."
 
 #: modules/gui/macosx/ConvertAndSave.m:156
 msgid "Choose Profile"
-msgstr ""
+msgstr "Välj profil"
 
 #: modules/gui/macosx/ConvertAndSave.m:157
 msgid "Customize..."
-msgstr ""
+msgstr "Anpassa..."
 
 #: modules/gui/macosx/ConvertAndSave.m:158
 msgid "Choose Destination"
-msgstr ""
+msgstr "Välj plats"
 
 #: modules/gui/macosx/ConvertAndSave.m:159
 msgid "Choose an output location"
-msgstr ""
+msgstr "Välj en utmatningsplats"
 
 #: modules/gui/macosx/ConvertAndSave.m:161 modules/gui/macosx/open.m:138
 #: modules/gui/macosx/open.m:367 modules/gui/macosx/output.m:136
@@ -15908,7 +15910,7 @@ msgstr ""
 
 #: modules/gui/macosx/ConvertAndSave.m:164
 msgid "Save as File"
-msgstr ""
+msgstr "Spara som fil..."
 
 #: modules/gui/macosx/ConvertAndSave.m:165
 #: modules/gui/macosx/ConvertAndSave.m:415 modules/gui/macosx/output.m:134
@@ -15922,7 +15924,7 @@ msgstr "Tillämpa"
 
 #: modules/gui/macosx/ConvertAndSave.m:169
 msgid "Save as new Profile..."
-msgstr ""
+msgstr "Spara som ny profil..."
 
 #: modules/gui/macosx/ConvertAndSave.m:170 modules/gui/qt4/ui/profiles.h:709
 msgid "Encapsulation"
@@ -15969,7 +15971,7 @@ msgstr ""
 
 #: modules/gui/macosx/ConvertAndSave.m:194
 msgid "Stream Destination"
-msgstr ""
+msgstr "Strömplats"
 
 #: modules/gui/macosx/ConvertAndSave.m:195
 msgid "Stream Announcement"
@@ -16034,15 +16036,15 @@ msgstr ""
 
 #: modules/gui/macosx/ConvertAndSave.m:365
 msgid "Save as new profile"
-msgstr ""
+msgstr "Spara som ny profil"
 
 #: modules/gui/macosx/ConvertAndSave.m:378
 msgid "Remove a profile"
-msgstr ""
+msgstr "Ta bort en profil"
 
 #: modules/gui/macosx/ConvertAndSave.m:379
 msgid "Select the profile you would like to remove:"
-msgstr ""
+msgstr "Välj den profil du vill ta bort:"
 
 #: modules/gui/macosx/ConvertAndSave.m:461
 msgid "%@ stream to %@:%@"
@@ -16050,7 +16052,7 @@ msgstr "%@ ström till %@:%@"
 
 #: modules/gui/macosx/ConvertAndSave.m:471
 msgid "No Address given"
-msgstr ""
+msgstr "Ingen adress angiven"
 
 #: modules/gui/macosx/ConvertAndSave.m:473
 msgid "In order to stream, a valid destination address is required."
@@ -16058,7 +16060,7 @@ msgstr ""
 
 #: modules/gui/macosx/ConvertAndSave.m:478
 msgid "No Channel Name given"
-msgstr ""
+msgstr "Inget kanalnamn angivet"
 
 #: modules/gui/macosx/ConvertAndSave.m:480
 msgid ""
@@ -16121,7 +16123,7 @@ msgstr "(inget objekt spelas upp)"
 
 #: modules/gui/macosx/fspanel.m:421
 msgid "Click to exit fullscreen playback."
-msgstr ""
+msgstr "Klicka för att avsluta helskärmsuppspelning."
 
 #: modules/gui/macosx/intf.m:842 modules/gui/qt4/dialogs/messages.cpp:77
 #: modules/gui/qt4/ui/messages_panel.h:139
@@ -16176,11 +16178,11 @@ msgstr ""
 
 #: modules/gui/macosx/intf.m:854
 msgid "Don't ask again"
-msgstr ""
+msgstr "Fråga inte igen"
 
 #: modules/gui/macosx/intf.m:1498 modules/gui/macosx/intf.m:1515
 msgid "VLC media playback"
-msgstr ""
+msgstr "VLC mediauppspelning"
 
 #: modules/gui/macosx/intf.m:1877
 msgid "No CrashLog found"
@@ -16376,7 +16378,7 @@ msgstr ""
 
 #: modules/gui/macosx/macosx.m:113 modules/gui/macosx/MainMenu.m:340
 msgid "Show Shuffle & Repeat Buttons"
-msgstr ""
+msgstr "Visa knapparna Blanda och Upprepa"
 
 #: modules/gui/macosx/macosx.m:114
 msgid "Shows the shuffle and repeat buttons in the main window."
@@ -16392,7 +16394,7 @@ msgstr ""
 
 #: modules/gui/macosx/macosx.m:119 modules/gui/macosx/MainMenu.m:344
 msgid "Show Sidebar"
-msgstr ""
+msgstr "Visa sidofältet"
 
 #: modules/gui/macosx/macosx.m:120
 msgid "Shows a sidebar in the main window listing media sources."
@@ -16410,7 +16412,7 @@ msgstr ""
 
 #: modules/gui/macosx/macosx.m:128
 msgid "Do nothing"
-msgstr ""
+msgstr "Gör ingenting"
 
 #: modules/gui/macosx/macosx.m:128
 msgid "Pause iTunes"
@@ -16430,11 +16432,11 @@ msgstr "Mac OS X-gränssnitt"
 
 #: modules/gui/macosx/macosx.m:142
 msgid "Appearance"
-msgstr ""
+msgstr "Utseende"
 
 #: modules/gui/macosx/macosx.m:152
 msgid "Behavior"
-msgstr ""
+msgstr "Beteende"
 
 #: modules/gui/macosx/macosx.m:162
 msgid "Apple Remote and media keys"
@@ -16442,7 +16444,7 @@ msgstr ""
 
 #: modules/gui/macosx/macosx.m:177
 msgid "Video output"
-msgstr ""
+msgstr "Videoutmatning"
 
 #: modules/gui/macosx/MainMenu.m:68
 msgid "Track Number"
@@ -16533,7 +16535,7 @@ msgstr "Strömning/Exporteringsguide..."
 
 #: modules/gui/macosx/MainMenu.m:328
 msgid "Convert / Stream..."
-msgstr ""
+msgstr "Konvertera / strömma..."
 
 #: modules/gui/macosx/MainMenu.m:331
 msgid "Cut"
@@ -16553,7 +16555,7 @@ msgstr "Markera allt"
 
 #: modules/gui/macosx/MainMenu.m:337
 msgid "View"
-msgstr ""
+msgstr "Visa"
 
 #: modules/gui/macosx/MainMenu.m:346
 msgid "Playlist Table Columns"
@@ -16574,7 +16576,7 @@ msgstr "Spårsynkronisering"
 
 #: modules/gui/macosx/MainMenu.m:364
 msgid "A→B Loop"
-msgstr ""
+msgstr "A→B-slinga"
 
 #: modules/gui/macosx/MainMenu.m:365 modules/gui/macosx/MainMenu.m:1468
 msgid "Quit after Playback"
@@ -16634,7 +16636,7 @@ msgstr "Efterbehandling"
 
 #: modules/gui/macosx/MainMenu.m:413 modules/gui/macosx/MainMenu.m:1510
 msgid "Add Subtitle File..."
-msgstr ""
+msgstr "Lägg till undertextfil..."
 
 #: modules/gui/macosx/MainMenu.m:414 modules/gui/macosx/MainMenu.m:415
 msgid "Subtitles Track"
@@ -16642,11 +16644,11 @@ msgstr "Undertextspår"
 
 #: modules/gui/macosx/MainMenu.m:416
 msgid "Text Size"
-msgstr ""
+msgstr "Textstorlek"
 
 #: modules/gui/macosx/MainMenu.m:417
 msgid "Text Color"
-msgstr ""
+msgstr "Textfärg"
 
 #: modules/gui/macosx/MainMenu.m:418
 msgid "Outline Thickness"
@@ -16654,11 +16656,11 @@ msgstr ""
 
 #: modules/gui/macosx/MainMenu.m:420 modules/gui/macosx/MainMenu.m:421
 msgid "Background Opacity"
-msgstr ""
+msgstr "Opacitet för bakgrund"
 
 #: modules/gui/macosx/MainMenu.m:422
 msgid "Background Color"
-msgstr ""
+msgstr "Bakgrundsfärg"
 
 #: modules/gui/macosx/MainMenu.m:424
 msgid "Transparent"
@@ -16690,7 +16692,7 @@ msgstr "Ljudeffekter..."
 
 #: modules/gui/macosx/MainMenu.m:437
 msgid "Video Effects..."
-msgstr ""
+msgstr "Videoeffekter..."
 
 #: modules/gui/macosx/MainMenu.m:438
 msgid "Bookmarks..."
@@ -16778,11 +16780,11 @@ msgstr ""
 
 #: modules/gui/macosx/MainWindow.m:181
 msgid "Unsubscribe from a podcast"
-msgstr ""
+msgstr "Avprenumerera från en poddsändning"
 
 #: modules/gui/macosx/MainWindow.m:182
 msgid "Select the podcast you would like to unsubscribe from:"
-msgstr ""
+msgstr "Välj den poddsändningen du vill avprenumerera från:"
 
 #: modules/gui/macosx/MainWindow.m:219
 msgid "LIBRARY"
@@ -16814,6 +16816,9 @@ msgid ""
 "\n"
 "Choose available device in above pull-down menu.\n"
 msgstr ""
+"Ingen enhet är vald.\n"
+"\n"
+"Välj en tillgänglig enhet i rullgardinslistan ovan.\n"
 
 #: modules/gui/macosx/open.m:124
 msgid "Open Source"
@@ -16849,7 +16854,7 @@ msgstr "Välj en fil"
 
 #: modules/gui/macosx/open.m:139
 msgid "Click to select a file for playback"
-msgstr ""
+msgstr "Klicka för att välja en fil för uppspelning"
 
 #: modules/gui/macosx/open.m:140
 msgid "Treat as a pipe rather than as a file"
@@ -16870,10 +16875,12 @@ msgid ""
 "Click to select a another file to play it in sync with the previously "
 "selected file."
 msgstr ""
+"Klicka för att välja en annan fil att spela upp i synkronisering med "
+"föregående filen."
 
 #: modules/gui/macosx/open.m:149
 msgid "Custom playback"
-msgstr ""
+msgstr "Anpassad uppspelning"
 
 #: modules/gui/macosx/open.m:157
 msgid "Open VIDEO_TS folder"
@@ -17011,7 +17018,7 @@ msgstr "Bildhöjd"
 
 #: modules/gui/macosx/open.m:361
 msgid "Add Subtitle File:"
-msgstr ""
+msgstr "Lägg till undertextfil:"
 
 #: modules/gui/macosx/open.m:366
 msgid "Click to setup subtitle playback in full detail."
@@ -17019,7 +17026,7 @@ msgstr ""
 
 #: modules/gui/macosx/open.m:368
 msgid "Click to select a subtitle file."
-msgstr ""
+msgstr "Klicka för att välja en undertextfil."
 
 #: modules/gui/macosx/open.m:369
 msgid "Override parameters"
@@ -17031,7 +17038,7 @@ msgstr "Bildrutor/s"
 
 #: modules/gui/macosx/open.m:374
 msgid "Subtitle encoding"
-msgstr ""
+msgstr "Undertextavkodning"
 
 #: modules/gui/macosx/open.m:376 modules/gui/macosx/simple_prefs.m:250
 #: modules/gui/qt4/ui/sprefs_subtitles.h:297
@@ -17313,7 +17320,7 @@ msgstr ""
 
 #: modules/gui/macosx/simple_prefs.m:148
 msgid "Input & Codec Settings"
-msgstr ""
+msgstr "Inställningar för inmatning och kodekar"
 
 #: modules/gui/macosx/simple_prefs.m:182
 msgid "General Audio"
@@ -17386,7 +17393,7 @@ msgstr "Kodekar / muxrar"
 
 #: modules/gui/macosx/simple_prefs.m:212
 msgid "Hardware Acceleration"
-msgstr ""
+msgstr "Hårdvaruacceleration"
 
 #: modules/gui/macosx/simple_prefs.m:213
 msgid "Post-Processing Quality"
@@ -17745,7 +17752,7 @@ msgstr ""
 #: modules/gui/macosx/VideoEffects.m:102 modules/video_filter/grain.c:53
 #: modules/gui/qt4/ui/video_effects.h:1314
 msgid "Variance"
-msgstr ""
+msgstr "Variation"
 
 #: modules/gui/macosx/VideoEffects.m:107
 #: modules/gui/qt4/ui/video_effects.h:1322
@@ -17924,7 +17931,7 @@ msgstr "Transparens"
 
 #: modules/gui/macosx/VideoEffects.m:236
 msgid "Organize profiles..."
-msgstr ""
+msgstr "Organisera profiler..."
 
 #: modules/gui/macosx/wizard.m:116
 msgid "MPEG-1 Video codec (usable with MPEG PS, MPEG TS, MPEG1, OGG and RAW)"
@@ -18528,35 +18535,35 @@ msgstr "[Visning]"
 
 #: modules/gui/ncurses.c:867
 msgid " h,H                    Show/Hide help box"
-msgstr ""
+msgstr "h,H Visa/dölj hjälpruta"
 
 #: modules/gui/ncurses.c:868
 msgid " i                      Show/Hide info box"
-msgstr ""
+msgstr "i Visa/dölj informationsruta"
 
 #: modules/gui/ncurses.c:869
 msgid " M                      Show/Hide metadata box"
-msgstr ""
+msgstr "M Visa/dölj metadataruta"
 
 #: modules/gui/ncurses.c:870
 msgid " L                      Show/Hide messages box"
-msgstr ""
+msgstr "L Visa/dölj meddelanderuta"
 
 #: modules/gui/ncurses.c:871
 msgid " P                      Show/Hide playlist box"
-msgstr ""
+msgstr "P Visa/dölj uppspelningsruta"
 
 #: modules/gui/ncurses.c:872
 msgid " B                      Show/Hide filebrowser"
-msgstr ""
+msgstr "B Visa/dölj filbläddrare"
 
 #: modules/gui/ncurses.c:873
 msgid " x                      Show/Hide objects box"
-msgstr ""
+msgstr "x Visa/dölj objektruta"
 
 #: modules/gui/ncurses.c:874
 msgid " S                      Show/Hide statistics box"
-msgstr ""
+msgstr "S Visa/dölj statistikruta"
 
 #: modules/gui/ncurses.c:875
 msgid " Esc                    Close Add/Search entry"
@@ -18564,7 +18571,7 @@ msgstr ""
 
 #: modules/gui/ncurses.c:876
 msgid " Ctrl-l                 Refresh the screen"
-msgstr ""
+msgstr "Ctrl-l Uppdatera skärmen"
 
 #: modules/gui/ncurses.c:880
 msgid "[Global]"
@@ -18576,7 +18583,7 @@ msgstr " q, Q, Esc              Avsluta"
 
 #: modules/gui/ncurses.c:883
 msgid " s                      Stop"
-msgstr ""
+msgstr "s Stoppa"
 
 #: modules/gui/ncurses.c:884
 msgid " <space>                Pause/Play"
@@ -18592,11 +18599,11 @@ msgstr " n, p Nästa/Föregående objekt i spellistan"
 
 #: modules/gui/ncurses.c:887
 msgid " [, ]                   Next/Previous title"
-msgstr ""
+msgstr "[, ] Nästa/föregående titel"
 
 #: modules/gui/ncurses.c:888
 msgid " <, >                   Next/Previous chapter"
-msgstr ""
+msgstr "<, > Nästa/föregående kapitel"
 
 #. xgettext: You can use ← and → characters
 #: modules/gui/ncurses.c:890
@@ -18606,11 +18613,11 @@ msgstr " <left>,<right> Sök -/+ 1%%"
 
 #: modules/gui/ncurses.c:891
 msgid " a, z                   Volume Up/Down"
-msgstr ""
+msgstr "a, z Volym upp/ned"
 
 #: modules/gui/ncurses.c:892
 msgid " m                      Mute"
-msgstr ""
+msgstr "m Tyst"
 
 #. xgettext: You can use ↑ and ↓ characters
 #: modules/gui/ncurses.c:894
@@ -18686,7 +18693,7 @@ msgstr " <enter> Lägg till valda filen i spellistan"
 
 #: modules/gui/ncurses.c:922
 msgid " <space>                Add the selected directory to the playlist"
-msgstr ""
+msgstr "<space> Lägg till den valda katalogen till spellistan"
 
 #: modules/gui/ncurses.c:923
 msgid " .                      Show/Hide hidden files"
@@ -18726,7 +18733,7 @@ msgstr " Position : %s/%s"
 
 #: modules/gui/ncurses.c:1099
 msgid " Volume   : Mute"
-msgstr ""
+msgstr "Volym: Tyst"
 
 #: modules/gui/ncurses.c:1100
 #, c-format
@@ -18735,7 +18742,7 @@ msgstr " Volym: %3ld%%"
 
 #: modules/gui/ncurses.c:1100
 msgid " Volume   : ----"
-msgstr ""
+msgstr "Volym: ----"
 
 #: modules/gui/ncurses.c:1106
 #, c-format
@@ -18801,11 +18808,11 @@ msgstr ""
 
 #: modules/gui/qt4/components/controller.hpp:116
 msgid "Previous / Backward"
-msgstr ""
+msgstr "Föregående / bakåt"
 
 #: modules/gui/qt4/components/controller.hpp:116
 msgid "Next / Forward"
-msgstr ""
+msgstr "Nästa / framåt"
 
 #: modules/gui/qt4/components/controller.hpp:117
 msgid "De-Fullscreen"
@@ -18839,7 +18846,7 @@ msgstr "Stega framåt"
 
 #: modules/gui/qt4/components/controller.hpp:120
 msgid "Loop / Repeat"
-msgstr ""
+msgstr "Slinga / upprepa"
 
 #: modules/gui/qt4/components/controller.hpp:121
 msgid "Open subtitles"
@@ -18999,78 +19006,78 @@ msgstr "dB"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1192
 msgid "170 Hz"
-msgstr ""
+msgstr "170 Hz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1193
 msgid "310 Hz"
-msgstr ""
+msgstr "310 Hz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1194
 msgid "600 Hz"
-msgstr ""
+msgstr "600 Hz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1195
 #: modules/gui/qt4/components/extended_panels.cpp:1209
 msgid "1 KHz"
-msgstr ""
+msgstr "1 KHz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1196
 msgid "3 KHz"
-msgstr ""
+msgstr "3 KHz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1197
 msgid "6 KHz"
-msgstr ""
+msgstr "6 KHz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1198
 msgid "12 KHz"
-msgstr ""
+msgstr "12 KHz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1199
 msgid "14 KHz"
-msgstr ""
+msgstr "14 KHz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1200
 #: modules/gui/qt4/components/extended_panels.cpp:1213
 msgid "16 KHz"
-msgstr ""
+msgstr "16 KHz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1204
 msgid "31 Hz"
-msgstr ""
+msgstr "31 Hz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1205
 msgid "63 Hz"
-msgstr ""
+msgstr "63 Hz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1206
 msgid "125 Hz"
-msgstr ""
+msgstr "125 Hz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1207
 msgid "250 Hz"
-msgstr ""
+msgstr "250 Hz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1208
 msgid "500 Hz"
-msgstr ""
+msgstr "500 Hz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1210
 msgid "2 KHz"
-msgstr ""
+msgstr "2 KHz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1211
 msgid "4 KHz"
-msgstr ""
+msgstr "4 KHz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1212
 msgid "8 KHz"
-msgstr ""
+msgstr "8 KHz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1380
 #: modules/gui/qt4/components/extended_panels.cpp:1381
 msgid "ms"
-msgstr ""
+msgstr "ms"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1384
 msgid ""
@@ -19094,7 +19101,7 @@ msgstr "(Fördröjd)"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1529
 msgid "Force update of this dialog's values"
-msgstr "Tvinga uppdatering av denna dialogs värden"
+msgstr "Tvinga uppdatering av värden i denna dialog"
 
 #: modules/gui/qt4/components/info_panels.cpp:142
 msgid "&Fingerprint"
@@ -19200,7 +19207,7 @@ msgstr "buffertar"
 
 #: modules/gui/qt4/components/info_panels.cpp:609
 msgid "Last 60 seconds"
-msgstr ""
+msgstr "Senaste 60 sekunder"
 
 #: modules/gui/qt4/components/info_panels.cpp:610
 msgid "Overall"
@@ -19228,15 +19235,15 @@ msgstr "Hämta albumomslag"
 
 #: modules/gui/qt4/components/interface_widgets.cpp:651
 msgid "Add cover art from file"
-msgstr ""
+msgstr "Lägg till omslagsbild från fil"
 
 #: modules/gui/qt4/components/interface_widgets.cpp:717
 msgid "Choose Cover Art"
-msgstr ""
+msgstr "Välj omslagsbild"
 
 #: modules/gui/qt4/components/interface_widgets.cpp:718
 msgid "Image Files (*.gif *.jpg *.jpeg *.png)"
-msgstr ""
+msgstr "Bildfiler (*.gif *.jpg *.jpeg *.png)"
 
 #: modules/gui/qt4/components/interface_widgets.cpp:743
 #: modules/gui/qt4/dialogs/toolbar.cpp:461
@@ -19304,7 +19311,7 @@ msgstr ""
 
 #: modules/gui/qt4/components/open_panels.cpp:900
 msgid "TV - digital"
-msgstr ""
+msgstr "TV - digital"
 
 #: modules/gui/qt4/components/open_panels.cpp:903
 msgid "Tuner card"
@@ -19328,7 +19335,7 @@ msgstr "Bandbredd"
 
 #: modules/gui/qt4/components/open_panels.cpp:1021
 msgid "TV - analog"
-msgstr ""
+msgstr "TV - analog"
 
 #: modules/gui/qt4/components/open_panels.cpp:1024
 msgid "Device name"
@@ -19361,7 +19368,7 @@ msgstr "Sök i spellistan"
 
 #: modules/gui/qt4/components/playlist/playlist_model.cpp:377
 msgid "unknown"
-msgstr ""
+msgstr "okänd"
 
 #: modules/gui/qt4/components/playlist/selector.cpp:250
 msgid "My Computer"
@@ -19381,7 +19388,7 @@ msgstr "Internet"
 
 #: modules/gui/qt4/components/playlist/selector.cpp:454
 msgid "Remove this podcast subscription"
-msgstr ""
+msgstr "Ta bort denna poddsändningsprenumeration"
 
 #: modules/gui/qt4/components/playlist/selector.cpp:605
 msgid "Do you really want to unsubscribe from %1?"
@@ -19441,15 +19448,15 @@ msgstr ""
 
 #: modules/gui/qt4/components/playlist/standardpanel.hpp:156
 msgid "Icons"
-msgstr ""
+msgstr "Ikoner"
 
 #: modules/gui/qt4/components/playlist/standardpanel.hpp:157
 msgid "Detailed List"
-msgstr ""
+msgstr "Detaljerad lista"
 
 #: modules/gui/qt4/components/playlist/standardpanel.hpp:158
 msgid "List"
-msgstr ""
+msgstr "Lista"
 
 #: modules/gui/qt4/components/playlist/standardpanel.hpp:159
 msgid "PictureFlow"
@@ -19475,7 +19482,7 @@ msgstr ""
 
 #: modules/gui/qt4/components/preferences_widgets.cpp:1140
 msgid "Actions"
-msgstr ""
+msgstr "Åtgärder"
 
 #: modules/gui/qt4/components/preferences_widgets.cpp:1147
 msgid "Hotkey"
@@ -19835,8 +19842,9 @@ msgid "Network Access Policy"
 msgstr "Policy för nätverksåtkomst"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:98
-msgid "Automatically retrieve media info"
-msgstr ""
+#, fuzzy
+msgid "Automatically retrieve media infos"
+msgstr "Automatisk förtolkning av filer"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:103
 msgid "Regularly check for VLC updates"
@@ -19940,7 +19948,7 @@ msgstr "Uppdatera trädet"
 
 #: modules/gui/qt4/dialogs/messages.cpp:332
 msgid "Clear the messages"
-msgstr ""
+msgstr "Rensa meddelanden"
 
 #: modules/gui/qt4/dialogs/open.cpp:78 modules/gui/qt4/menus.cpp:915
 msgid "Open Media"
@@ -20080,7 +20088,7 @@ msgstr "Åte&rställ inställningar"
 
 #: modules/gui/qt4/dialogs/preferences.cpp:163
 msgid "Only show current"
-msgstr ""
+msgstr "Visa endast aktuell"
 
 #: modules/gui/qt4/dialogs/preferences.cpp:165
 msgid "Only show modules related to current playback"
@@ -20146,7 +20154,7 @@ msgstr "Mediafiler"
 
 #: modules/gui/qt4/dialogs_provider.hpp:44
 msgid "Subtitle Files"
-msgstr ""
+msgstr "Undertextfiler"
 
 #: modules/gui/qt4/dialogs_provider.hpp:45
 msgid "All Files"
@@ -20522,7 +20530,7 @@ msgstr "&Sänk volymen"
 
 #: modules/gui/qt4/menus.cpp:589
 msgid "&Mute"
-msgstr ""
+msgstr "&Tyst"
 
 #: modules/gui/qt4/menus.cpp:606
 msgid "Audio &Track"
@@ -20534,7 +20542,7 @@ msgstr "Ljud&enhet"
 
 #: modules/gui/qt4/menus.cpp:608
 msgid "&Stereo Mode"
-msgstr ""
+msgstr "&Stereoläge"
 
 #: modules/gui/qt4/menus.cpp:611
 msgid "&Visualizations"
@@ -20542,7 +20550,7 @@ msgstr "Vis&ualiseringar"
 
 #: modules/gui/qt4/menus.cpp:637
 msgid "Add &Subtitle File..."
-msgstr ""
+msgstr "Lägg till &undertextfil:"
 
 #: modules/gui/qt4/menus.cpp:639
 msgid "Sub &Track"
@@ -20658,7 +20666,7 @@ msgstr "Hoppa bak&åt"
 
 #: modules/gui/qt4/menus.cpp:907
 msgid "Ctrl+T"
-msgstr ""
+msgstr "Ctrl+T"
 
 #: modules/gui/qt4/menus.cpp:922
 msgid "Open &Network..."
@@ -20678,11 +20686,11 @@ msgstr "&Göm VLC media player i aktivitetsfältet"
 
 #: modules/gui/qt4/menus.cpp:1151
 msgid "Sho&w VLC media player"
-msgstr ""
+msgstr "&Visa VLC media player"
 
 #: modules/gui/qt4/menus.cpp:1162
 msgid "&Open Media"
-msgstr ""
+msgstr "&Öppna media"
 
 #: modules/gui/qt4/menus.cpp:1626
 msgid "&Clear"
@@ -20726,7 +20734,7 @@ msgstr "Visa spelande objektets namn i fönstrets titellist"
 
 #: modules/gui/qt4/qt4.cpp:93
 msgid "Show the name of the song or video in the controller window title."
-msgstr ""
+msgstr "Visa namnet på sången eller videon i kontrollfönstret titel."
 
 #: modules/gui/qt4/qt4.cpp:96
 msgid "Show notification popup on track change"
@@ -20852,7 +20860,7 @@ msgstr "Starta i minimal vy (utan menyer)."
 
 #: modules/gui/qt4/qt4.cpp:156
 msgid "Display background cone or art"
-msgstr ""
+msgstr "Visa kon eller bild som bakgrund"
 
 #: modules/gui/qt4/qt4.cpp:157
 msgid ""
@@ -20890,7 +20898,7 @@ msgstr ""
 
 #: modules/gui/qt4/qt4.cpp:184
 msgid "Always"
-msgstr ""
+msgstr "Alltid"
 
 #: modules/gui/qt4/qt4.cpp:189
 msgid "Qt interface"
@@ -21262,11 +21270,11 @@ msgstr ""
 
 #: modules/misc/gnutls.c:295 modules/misc/gnutls.c:314
 msgid "Abort"
-msgstr ""
+msgstr "Avbryt"
 
 #: modules/misc/gnutls.c:295
 msgid "View certificate"
-msgstr ""
+msgstr "Visa certifikat"
 
 #: modules/misc/gnutls.c:312
 #, c-format
@@ -21279,11 +21287,11 @@ msgstr ""
 
 #: modules/misc/gnutls.c:314
 msgid "Accept 24 hours"
-msgstr ""
+msgstr "Acceptera 24 timmar"
 
 #: modules/misc/gnutls.c:315
 msgid "Accept permanently"
-msgstr ""
+msgstr "Acceptera "
 
 #: modules/misc/inhibit/dbus.c:129
 msgid "Playing some media."
@@ -22471,7 +22479,7 @@ msgstr ""
 
 #: modules/stream_out/rtp.c:96
 msgid "Session category"
-msgstr ""
+msgstr "Sessionskategori"
 
 #: modules/stream_out/rtp.c:98
 msgid ""
@@ -23107,7 +23115,7 @@ msgstr ""
 
 #: modules/text_renderer/quartztext.c:93
 msgid "Name for the font you want to use"
-msgstr ""
+msgstr "Namn för typsnittet som du vill använda"
 
 #: modules/text_renderer/quartztext.c:124
 msgid "Text renderer for Mac"
@@ -23256,7 +23264,7 @@ msgstr "Alfamask"
 
 #: modules/video_filter/anaglyph.c:39
 msgid "Color scheme"
-msgstr ""
+msgstr "Färgschema"
 
 #: modules/video_filter/anaglyph.c:40
 msgid "Define the glasses' color scheme"
@@ -23272,7 +23280,7 @@ msgstr "Fönsterstorlek"
 
 #: modules/video_filter/antiflicker.c:51
 msgid "Number of frames (0 to 100)"
-msgstr ""
+msgstr "Antal bildrutor (0 till 100)"
 
 #: modules/video_filter/antiflicker.c:53
 msgid "Softening value"
@@ -23658,13 +23666,15 @@ msgstr "Procent"
 
 #: modules/video_filter/atmo/atmo.cpp:298
 msgid "Frame delay (ms)"
-msgstr ""
+msgstr "Bildfördröjning (ms)"
 
 #: modules/video_filter/atmo/atmo.cpp:299
 msgid ""
 "Helps to get the video output and the light effects in sync. Values around "
 "20ms should do the trick."
 msgstr ""
+"Hjälp till att få videoutmatningen och ljuseffekterna synkroniserade. Värden "
+"omkring 20ms borde fungera."
 
 #: modules/video_filter/atmo/atmo.cpp:304
 msgid "Channel 0: summary"
@@ -23829,7 +23839,7 @@ msgstr "Ändra gradienter"
 
 #: modules/video_filter/audiobargraph_v.c:48
 msgid "Value of the audio channels levels"
-msgstr ""
+msgstr "Värde för ljudkanalernas nivåer"
 
 #: modules/video_filter/audiobargraph_v.c:49
 msgid ""
@@ -24259,7 +24269,7 @@ msgstr ""
 
 #: modules/video_filter/deinterlace/algo_phosphor.h:45
 msgid "Latest"
-msgstr ""
+msgstr "Senaste"
 
 #: modules/video_filter/deinterlace/algo_phosphor.h:46
 msgid "AltLine"
@@ -24412,7 +24422,7 @@ msgstr ""
 
 #: modules/video_filter/gradfun.c:50
 msgid "Radius in pixels"
-msgstr ""
+msgstr "Radie i bildpunkter"
 
 #: modules/video_filter/gradfun.c:54
 msgid "Strength"
@@ -24645,7 +24655,7 @@ msgstr ""
 
 #: modules/video_filter/marq.c:104
 msgid "Text file"
-msgstr ""
+msgstr "Textfil"
 
 #: modules/video_filter/marq.c:105
 msgid "File to read the marquee text from."
@@ -24759,27 +24769,27 @@ msgstr "Riktning"
 
 #: modules/video_filter/mirror.c:71
 msgid "Direction of the mirroring"
-msgstr ""
+msgstr "Speglingsriktning"
 
 #: modules/video_filter/mirror.c:74
 msgid "Left to right/Top to bottom"
-msgstr ""
+msgstr "Vänster till höger/Uppifrån och ned"
 
 #: modules/video_filter/mirror.c:74
 msgid "Right to left/Bottom to top"
-msgstr ""
+msgstr "Höger till vänster/Nedifrån och upp"
 
 #: modules/video_filter/mirror.c:79
 msgid "Mirror video filter"
-msgstr ""
+msgstr "Spegla videofilter"
 
 #: modules/video_filter/mirror.c:80
 msgid "Mirror video"
-msgstr ""
+msgstr "Spegla video"
 
 #: modules/video_filter/mirror.c:81
 msgid "Splits video in two same parts, like in a mirror"
-msgstr ""
+msgstr "Delar upp video i två likadana delar, som i en spegel"
 
 #: modules/video_filter/mosaic.c:89
 msgid ""
@@ -24946,7 +24956,7 @@ msgstr "Graden av suddighet från 1 till 127."
 
 #: modules/video_filter/motionblur.c:60
 msgid "Motion blur filter"
-msgstr ""
+msgstr "Filter för rörelseoskärpa"
 
 #: modules/video_filter/motiondetect.c:48
 msgid "Motion detect video filter"
@@ -25375,11 +25385,11 @@ msgstr ""
 
 #: modules/video_filter/puzzle.c:69
 msgid "Rotation"
-msgstr ""
+msgstr "Rotering"
 
 #: modules/video_filter/puzzle.c:70
 msgid "Rotation parameter: none;180;90-270;mirror"
-msgstr ""
+msgstr "Roteringsparameter: ingen;180;90-270;spegel"
 
 #: modules/video_filter/puzzle.c:73
 msgid "jigsaw puzzle"
@@ -25399,19 +25409,19 @@ msgstr ""
 
 #: modules/video_filter/puzzle.c:75
 msgid "0"
-msgstr ""
+msgstr "0"
 
 #: modules/video_filter/puzzle.c:75
 msgid "0/180"
-msgstr ""
+msgstr "0/180"
 
 #: modules/video_filter/puzzle.c:75
 msgid "0/90/180/270"
-msgstr ""
+msgstr "0/90/180/270"
 
 #: modules/video_filter/puzzle.c:75
 msgid "0/90/180/270/mirror"
-msgstr ""
+msgstr "0/90/180/270/spegel"
 
 #: modules/video_filter/puzzle.c:83
 msgid "Puzzle interactive game video filter"
@@ -26195,7 +26205,7 @@ msgstr "WarpOverlay!"
 
 #: modules/video_output/kva.c:62
 msgid "VMAN"
-msgstr ""
+msgstr "VMAN"
 
 #: modules/video_output/kva.c:62
 msgid "DIVE"
@@ -26357,7 +26367,7 @@ msgstr ""
 
 #: modules/video_output/vmem.c:48
 msgid "Pitch"
-msgstr ""
+msgstr "Tonhöjd"
 
 #: modules/video_output/vmem.c:49
 msgid "Video memory buffer pitch in bytes."
@@ -26790,7 +26800,7 @@ msgstr ""
 
 #: share/lua/http/dialogs/create_stream.html:390
 msgid "File name"
-msgstr ""
+msgstr "Filnamn"
 
 #: share/lua/http/dialogs/equalizer_window.html:49
 #: share/lua/http/mobile_equalizer.html:62
@@ -26868,11 +26878,11 @@ msgstr ""
 
 #: share/lua/http/index.html:244
 msgid "Play Selected"
-msgstr ""
+msgstr "Spela upp valda"
 
 #: share/lua/http/index.html:245
 msgid "Refresh List"
-msgstr ""
+msgstr "Uppdatera lista"
 
 #: share/lua/http/index.html:252
 msgid "Loading flowplayer..."
@@ -26880,7 +26890,7 @@ msgstr "Läser in flowplayer..."
 
 #: share/lua/http/index.html:252
 msgid "If nothing appears, check your internet connection."
-msgstr ""
+msgstr "Om ingenting händer, kontrollera din internetanslutning."
 
 #: share/lua/http/index.html:263
 msgid ""
@@ -26947,7 +26957,7 @@ msgstr "Förval"
 
 #: modules/gui/qt4/ui/equalizer.h:138
 msgid "0.00 dB"
-msgstr ""
+msgstr "0.00 dB"
 
 #: modules/gui/qt4/ui/messages_panel.h:140
 msgid "&Verbosity:"
@@ -26955,7 +26965,7 @@ msgstr ""
 
 #: modules/gui/qt4/ui/messages_panel.h:141
 msgid "&Filter:"
-msgstr ""
+msgstr "&Filter:"
 
 #: modules/gui/qt4/ui/messages_panel.h:142
 msgid "&Save as..."
@@ -27071,7 +27081,7 @@ msgstr "Ljud och undertexter"
 
 #: modules/gui/qt4/ui/open_file.h:144
 msgid "Use a sub&title file"
-msgstr ""
+msgstr "Använd en under&textfil"
 
 #: modules/gui/qt4/ui/open_file.h:146
 msgid "Select the subtitle file"
@@ -27159,7 +27169,7 @@ msgstr "AVI"
 
 #: modules/gui/qt4/ui/profiles.h:701
 msgid "Features"
-msgstr ""
+msgstr "Funktioner"
 
 #: modules/gui/qt4/ui/profiles.h:703
 msgid "Streamable"
@@ -27167,7 +27177,7 @@ msgstr ""
 
 #: modules/gui/qt4/ui/profiles.h:704
 msgid "Chapters"
-msgstr ""
+msgstr "Kapitel"
 
 #: modules/gui/qt4/ui/profiles.h:707
 msgid "Menus"
@@ -27175,7 +27185,7 @@ msgstr "Menyer"
 
 #: modules/gui/qt4/ui/profiles.h:715
 msgid "Same as source"
-msgstr ""
+msgstr "Samma som källa"
 
 #: modules/gui/qt4/ui/profiles.h:717
 msgid " fps"
@@ -27183,7 +27193,7 @@ msgstr " bilder/s"
 
 #: modules/gui/qt4/ui/profiles.h:718
 msgid "Custom options"
-msgstr ""
+msgstr "Anpassade inställningar"
 
 #: modules/gui/qt4/ui/profiles.h:719
 msgid "Quality"
@@ -27191,7 +27201,7 @@ msgstr "Kvalitet"
 
 #: modules/gui/qt4/ui/profiles.h:720 modules/gui/qt4/ui/profiles.h:721
 msgid "Not Used"
-msgstr ""
+msgstr "Används inte"
 
 #: modules/gui/qt4/ui/profiles.h:722 modules/gui/qt4/ui/profiles.h:741
 msgid " kb/s"
@@ -27207,7 +27217,7 @@ msgstr ""
 
 #: modules/gui/qt4/ui/profiles.h:729 modules/gui/qt4/ui/profiles.h:732
 msgid "px"
-msgstr ""
+msgstr "bildpunkter"
 
 #: modules/gui/qt4/ui/profiles.h:742
 msgid "Sample Rate"
@@ -27381,7 +27391,7 @@ msgstr "Standardpolicy för mellanlagring"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:514
 msgid "Menus language:"
-msgstr ""
+msgstr "Menyspråk:"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:515
 msgid "Look and feel"
@@ -27617,7 +27627,7 @@ msgstr "Påbörjar en uppdateringsbegäran..."
 
 #: modules/gui/qt4/ui/update.h:151
 msgid "Do you want to download it?"
-msgstr ""
+msgstr "Vill du ladda ned den?"
 
 #: modules/gui/qt4/ui/video_effects.h:1315
 msgid "Essential"
@@ -27819,9 +27829,6 @@ msgstr ""
 #~ msgstr ""
 #~ "Du kan manuellt välja ett språk för gränssnittet. Systemspråket "
 #~ "identifieras automatiskt om \"auto\" är angivet här."
-
-#~ msgid "This will force a mono audio output."
-#~ msgstr "Detta kommer att tvinga ljudutmatning i mono."
 
 #~ msgid ""
 #~ "You can set the default audio output volume here, in a range from 0 to "
@@ -28139,10 +28146,6 @@ msgstr ""
 #~ msgid "GNU/Linux osd/overlay framebuffer interface"
 #~ msgstr "Videoutmatning med GNU/Linux-konsollens framebuffer"
 
-#, fuzzy
-#~ msgid "Subscreen width:"
-#~ msgstr "Helskärm %d"
-
 #~ msgid ""
 #~ "Beware this will reset the VLC media player preferences.\n"
 #~ "Are you sure you want to continue?"
@@ -28155,12 +28158,6 @@ msgstr ""
 
 #~ msgid "Minimal Mac OS X OpenGL video output (opens a borderless window)"
 #~ msgstr "Minimal Mac OS X OpenGL-videoutmatning (öppnar ett ramlöst fönster)"
-
-#~ msgid "Icon View"
-#~ msgstr "Ikonvy"
-
-#~ msgid "List View"
-#~ msgstr "Listvy"
 
 #~ msgid ""
 #~ "<p><i>VLC media player</i> does <b>not</b> send or collect any "
@@ -28959,9 +28956,6 @@ msgstr ""
 #~ msgid "Add controls to the video window"
 #~ msgstr "Lägg till kontroller till videofönstret"
 
-#~ msgid "Input Settings not saved"
-#~ msgstr "Inmatningsinställningar inte sparade"
-
 #~ msgid "On Screen Display/Subtitle Settings not saved"
 #~ msgstr "Inställningar för skärmtext/undertexter har inte sparats"
 
@@ -29015,9 +29009,6 @@ msgstr ""
 #~ "<p><i>Mediaspelaren VLC</i> skickar <b>inte</b> eller samlar <b>inte</b> "
 #~ "in någon information, inte ens anonymt, om användningen av programmet.</"
 #~ "p>\n"
-
-#~ msgid "Direct3D Desktop mode"
-#~ msgstr "Direct3D-skrivbordsläge"
 
 #~ msgid "Sca&le"
 #~ msgstr "S&kala"
@@ -29765,10 +29756,6 @@ msgstr ""
 #~ msgid "Ok"
 #~ msgstr "Ok"
 
-#, fuzzy
-#~ msgid "Subscreen width."
-#~ msgstr "Helskärm %d"
-
 #~ msgid "Some options are hidden. Check \"Advanced\" to display them."
 #~ msgstr "Vissa alternativ är dolda. Kryssa i \"Avancerat\" för att visa dem."
 
@@ -30080,9 +30067,6 @@ msgstr ""
 
 #~ msgid "Autodetection of MTU"
 #~ msgstr "Automatisk identifiering av MTU"
-
-#~ msgid "Hide Menus..."
-#~ msgstr "Dölj menyer..."
 
 #~ msgid "Activate by default all theAdvanced options for geeks"
 #~ msgstr "Aktivera som standard alla avancerade alternativ för nördar"
@@ -30405,8 +30389,40 @@ msgstr ""
 #~ msgstr "Undertextfiler (*.cdg *.idx *.srt *.sub *.utf);;Alla filer (*)"
 
 #, fuzzy
+#~ msgid "This will force a mono audio output."
+#~ msgstr "Utmatning för filljud"
+
+#, fuzzy
+#~ msgid "Subscreen width:"
+#~ msgstr "Skärmindex"
+
+#, fuzzy
+#~ msgid "Icon View"
+#~ msgstr "Visa"
+
+#, fuzzy
+#~ msgid "List View"
+#~ msgstr "List-ID"
+
+#, fuzzy
+#~ msgid "Input Settings not saved"
+#~ msgstr "Inställningar för inmatning och kodekar"
+
+#, fuzzy
+#~ msgid "Direct3D Desktop mode"
+#~ msgstr "Sorteringsordning för kataloger"
+
+#, fuzzy
+#~ msgid "Subscreen width."
+#~ msgstr "Skärmindex"
+
+#, fuzzy
+#~ msgid "Hide Menus..."
+#~ msgstr "Videoeffekter..."
+
+#, fuzzy
 #~ msgid "Add a subtitle file"
-#~ msgstr "Använd undertextfil"
+#~ msgstr "Använd en under&textfil"
 
 #, fuzzy
 #~ msgid "Subtitles/OSD"
@@ -30418,7 +30434,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "CPU features"
-#~ msgstr "Fånga"
+#~ msgstr "Funktioner"
 
 #, fuzzy
 #~ msgid "Chroma modules settings"
@@ -30486,7 +30502,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Clone the image"
-#~ msgstr "Kanalbilder"
+#~ msgstr "Rensa meddelanden"
 
 #, fuzzy
 #~ msgid "Magnification"
@@ -30502,7 +30518,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Audio output channels mode"
-#~ msgstr "Ljudutmatningsmodul"
+#~ msgstr "Ljudutmatningskanaler"
 
 #, fuzzy
 #~ msgid "Audio visualizations "
@@ -30570,7 +30586,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Refresh list"
-#~ msgstr "Uppdateringstid"
+#~ msgstr "Uppdatera lista"
 
 #, fuzzy
 #~ msgid "Coffee pot control"
@@ -30582,7 +30598,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "RTMP stream output"
-#~ msgstr "Strömutmatning"
+#~ msgstr "Filströmutmatning"
 
 #, fuzzy
 #~ msgid "PVR video device"
@@ -30798,7 +30814,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Append"
-#~ msgstr "Infoga i fil"
+#~ msgstr "Utseende"
 
 #, fuzzy
 #~ msgid "Dump buffer size"
@@ -31145,11 +31161,11 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "MSN Now-Playing"
-#~ msgstr "Nu spelas"
+#~ msgstr "Spelas nu "
 
 #, fuzzy
 #~ msgid "Vertical offset"
-#~ msgstr "Vertikal"
+#~ msgstr "Vänd vertikalt"
 
 #, fuzzy
 #~ msgid "Shadow offset"
@@ -31275,7 +31291,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Subtitle Codec"
-#~ msgstr "Undertextavkodare"
+#~ msgstr "Undertextkodekar"
 
 #, fuzzy
 #~ msgid "Video Bit Rate"
@@ -31379,15 +31395,15 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Previous/Backward"
-#~ msgstr "Föregående kapitel"
+#~ msgstr "Föregående / bakåt"
 
 #, fuzzy
 #~ msgid "Next/Forward"
-#~ msgstr "Framåt"
+#~ msgstr "Nästa / framåt"
 
 #, fuzzy
 #~ msgid "Loop/Repeat mode"
-#~ msgstr "Upprepningsfördröjning:"
+#~ msgstr "Slinga / upprepa"
 
 #, fuzzy
 #~ msgid "DVB"
@@ -31439,7 +31455,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "&Open a Media"
-#~ msgstr "Öppna media"
+#~ msgstr "&Öppna media"
 
 #, fuzzy
 #~ msgid "Live Update"
@@ -31471,7 +31487,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Viewer"
-#~ msgstr "&Visa"
+#~ msgstr "Visa"
 
 #, fuzzy
 #~ msgid "Library"
@@ -31685,9 +31701,7 @@ msgstr ""
 #, fuzzy
 #~ msgid ""
 #~ "Caching value for Alsa captures. This value should be set in milliseconds."
-#~ msgstr ""
-#~ "Standardmellanlagringsvärde för utgående UDP-strömmar. Detta värde ska "
-#~ "vara i millisekunder."
+#~ msgstr "Flytta alla kapitel. Detta värde borde anges i millisekunder."
 
 #, fuzzy
 #~ msgid ""
@@ -31962,11 +31976,11 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Horizontal centering"
-#~ msgstr "Horisontell"
+#~ msgstr "Vänd horisontalt"
 
 #, fuzzy
 #~ msgid "Vertical centering"
-#~ msgstr "Sekvensnumrering"
+#~ msgstr "Vänd vertikalt"
 
 #, fuzzy
 #~ msgid "Balance"
@@ -32023,7 +32037,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Reload image file"
-#~ msgstr "Välj en fil"
+#~ msgstr "Ta bort en profil"
 
 #, fuzzy
 #~ msgid ""
@@ -32040,7 +32054,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Lock function"
-#~ msgstr "Plats"
+#~ msgstr "Hämta funktion"
 
 #, fuzzy
 #~ msgid "Memory video decoder"
@@ -32247,7 +32261,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "     a           Volume Up"
-#~ msgstr " q, Q, Esc              Avsluta"
+#~ msgstr "a, z Volym upp/ned"
 
 #, fuzzy
 #~ msgid "[Miscellaneous]"
@@ -32582,7 +32596,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Audio Compact Disc"
-#~ msgstr "Ljudspår-id"
+#~ msgstr "Ljudutmatningsenhet"
 
 #, fuzzy
 #~ msgid "Caching value in microseconds"
@@ -32809,7 +32823,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "mms"
-#~ msgstr " ms"
+#~ msgstr "ms"
 
 #, fuzzy
 #~ msgid "Protocol:"
@@ -33160,7 +33174,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Use a sub&amp;titles file"
-#~ msgstr "Använd undertextfil"
+#~ msgstr "Använd en under&textfil"
 
 #, fuzzy
 #~ msgid "textFormat"
@@ -33666,7 +33680,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "(in pixels)"
-#~ msgstr "Typsnittsstorlek i bildpunkter"
+#~ msgstr "Radie i bildpunkter"
 
 #, fuzzy
 #~ msgid "Timeout:"
@@ -33678,7 +33692,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Subtitles & OSD settings"
-#~ msgstr "Undertexter (bilder)"
+#~ msgstr "Undertextavkodning"
 
 #, fuzzy
 #~ msgid "Go to time:"
@@ -33694,7 +33708,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "&Delete"
-#~ msgstr "Ta bort"
+#~ msgstr "Delete"
 
 #, fuzzy
 #~ msgid "Removes the selected bookmarks"
@@ -33747,11 +33761,11 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Customize:"
-#~ msgstr "Anpassad"
+#~ msgstr "Anpassa..."
 
 #, fuzzy
 #~ msgid "Use an external subtitles file."
-#~ msgstr "Använd undertextfil"
+#~ msgstr "Använd en under&textfil"
 
 #, fuzzy
 #~ msgid "Advanced Settings..."
@@ -33803,7 +33817,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "D&elete"
-#~ msgstr "Ta bort"
+#~ msgstr "Delete"
 
 #, fuzzy
 #~ msgid "&Selection"
@@ -33961,7 +33975,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Playing"
-#~ msgstr "Nu spelas"
+#~ msgstr "Spelas nu "
 
 #, fuzzy
 #~ msgid "Quick &Open File...\tCtrl-O"
@@ -34152,7 +34166,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Size to video"
-#~ msgstr "Zooma video"
+#~ msgstr "Spegla video"
 
 #, fuzzy
 #~ msgid "wxWidgets interface module"
@@ -34180,7 +34194,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Security options"
-#~ msgstr "Beskrivning"
+#~ msgstr "Anpassade inställningar"
 
 #, fuzzy
 #~ msgid "Automatic multicast streaming"
@@ -34208,7 +34222,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Find a name"
-#~ msgstr "Formatnamn"
+#~ msgstr "Filnamn"
 
 #, fuzzy
 #~ msgid "Switch interface"
@@ -34452,7 +34466,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "CD-Text Title"
-#~ msgstr "Nästa titel"
+#~ msgstr "Textfil"
 
 #, fuzzy
 #~ msgid "ISO-9660 Application ID"
@@ -34611,7 +34625,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Height in pixels"
-#~ msgstr "Typsnittsstorlek i bildpunkter"
+#~ msgstr "Radie i bildpunkter"
 
 #, fuzzy
 #~ msgid "Small playlist"
@@ -34683,7 +34697,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Choose programs"
-#~ msgstr "Program"
+#~ msgstr "Välj profil"
 
 #, fuzzy
 #~ msgid "Choose audio track"
@@ -34735,11 +34749,11 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Dummy stream ouput"
-#~ msgstr "Strömutmatning"
+#~ msgstr "Filströmutmatning"
 
 #, fuzzy
 #~ msgid "File stream ouput"
-#~ msgstr "Strömutmatning"
+#~ msgstr "Filströmutmatning"
 
 #, fuzzy
 #~ msgid "Stream "
@@ -34767,7 +34781,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Codec Setting"
-#~ msgstr "Videoinställningar"
+#~ msgstr "Inställningar för inmatning och kodekar"
 
 #, fuzzy
 #~ msgid "Codec Info"
@@ -34887,7 +34901,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "_View"
-#~ msgstr "&Visa"
+#~ msgstr "Visa"
 
 #, fuzzy
 #~ msgid "_Settings"
@@ -35177,7 +35191,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Delete &all"
-#~ msgstr "Ta bort"
+#~ msgstr "Delete"
 
 #, fuzzy
 #~ msgid "Native Windows interface"
@@ -35355,7 +35369,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Horizontal border width"
-#~ msgstr "Rambredd"
+#~ msgstr "Vänd horisontalt"
 
 #, fuzzy
 #~ msgid "Audioscrobbler username"
