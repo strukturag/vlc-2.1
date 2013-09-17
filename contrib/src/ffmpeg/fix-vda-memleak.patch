@@ -8,7 +8,6 @@ Fix a buffer leak when seeking occurs.
 Signed-off-by: Luca Barbato <lu_zero@gentoo.org>
 ---
  libavcodec/vda_h264.c | 25 ++++++++++++++++++++++++-
- libavcodec/version.h  |  2 +-
  2 files changed, 25 insertions(+), 2 deletions(-)
 
 diff --git a/libavcodec/vda_h264.c b/libavcodec/vda_h264.c
@@ -55,19 +54,3 @@ index 6c1845a..7328d58 100644
  
      return status;
  }
-diff --git a/libavcodec/version.h b/libavcodec/version.h
-index 980c5c5..9775a65 100644
---- a/libavcodec/version.h
-+++ b/libavcodec/version.h
-@@ -27,7 +27,7 @@
-  */
- 
- #define LIBAVCODEC_VERSION_MAJOR 55
--#define LIBAVCODEC_VERSION_MINOR 17
-+#define LIBAVCODEC_VERSION_MINOR 19
- #define LIBAVCODEC_VERSION_MICRO  0
- 
- #define LIBAVCODEC_VERSION_INT  AV_VERSION_INT(LIBAVCODEC_VERSION_MAJOR, \
--- 
-1.7.12.4 (Apple Git-37)
-
