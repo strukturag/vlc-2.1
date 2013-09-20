@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-09-08 20:08+0200\n"
-"PO-Revision-Date: 2013-09-19 17:27+0000\n"
+"PO-Revision-Date: 2013-09-20 09:20+0000\n"
 "Last-Translator: Mario Siegmann <mario_siegmann@web.de>\n"
 "Language-Team: German (http://www.transifex.com/projects/p/vlc-trans/"
 "language/de/)\n"
@@ -4819,7 +4819,7 @@ msgstr "Overlays"
 
 #: src/libvlc-module.c:1670
 msgid "Track settings"
-msgstr "Track-Einstellungen"
+msgstr "Titel-Einstellungen"
 
 #: src/libvlc-module.c:1702
 msgid "Playback control"
@@ -9077,7 +9077,7 @@ msgstr "Letzter Eintragspunkt"
 
 #: modules/access/vcdx/info.c:96
 msgid "Track size (in sectors)"
-msgstr "Trackgröße (in Sektoren)"
+msgstr "Titelgröße (in Sektoren)"
 
 #: modules/access/vcdx/info.c:106 modules/access/vcdx/info.c:109
 #: modules/access/vcdx/info.c:118 modules/access/vcdx/info.c:130
@@ -9142,14 +9142,14 @@ msgstr ""
 
 #: modules/access/vcdx/vcd.c:111
 msgid "Use track length as maximum unit in seek?"
-msgstr "Tracklänge als maximale Einheit beim Suchen verwenden?"
+msgstr "Titellänge als maximale Einheit beim Suchen verwenden?"
 
 #: modules/access/vcdx/vcd.c:112
 msgid ""
 "If set, the length of the seek bar is the track rather than the length of an "
 "entry."
 msgstr ""
-"Wenn aktiviert, ist die Länge des Suchbalkens die des Tracks statt der eines "
+"Wenn aktiviert, ist die Länge des Suchbalkens die der Titel statt der eines "
 "Eintrags."
 
 #: modules/access/vcdx/vcd.c:117
@@ -10270,7 +10270,7 @@ msgstr "AudioQueue (iOS / Mac OS) Audioausgabe"
 
 #: modules/audio_output/audiotrack.c:137
 msgid "Android AudioTrack audio output"
-msgstr "Android AudioTrack Audioausgabe"
+msgstr "Android Audiotitel-Audioausgabe"
 
 #: modules/audio_output/audiounit_ios.c:89
 msgid "AudioUnit output for iOS"
@@ -17473,16 +17473,16 @@ msgstr "Zeigt eine Sidebar im Hauptfenster, die Medienquellen aufgelistet."
 
 #: modules/gui/macosx/macosx.m:122
 msgid "Pause iTunes during VLC playback"
-msgstr "iTunes während der VLC-Wiedergabe anhalten"
+msgstr "iTunes während der VLC-Wiedergabe pausieren"
 
 #: modules/gui/macosx/macosx.m:123
 msgid ""
 "Pauses iTunes playback when VLC playback starts. If selected, iTunes "
 "playback will be resumed again if VLC playback is finished."
 msgstr ""
-"Unterbricht die Wiedergabe von iTunes, wenn die Wiedergabe von VLC beginnt. "
-"Wenn diese Option ausgewählt ist, wird iTunes die Wiedergabe wieder "
-"fortsetzen, wenn VLC seine Wiedergabe beendet hat."
+"Pausiert die Wiedergabe von iTunes, wenn die Wiedergabe von VLC beginnt. "
+"Wenn ausgewählt, wird iTunes die Wiedergabe wieder fortsetzen, wenn VLC "
+"seine Wiedergabe beendet hat."
 
 #: modules/gui/macosx/macosx.m:128
 msgid "Do nothing"
@@ -17490,11 +17490,11 @@ msgstr "Nichts machen"
 
 #: modules/gui/macosx/macosx.m:128
 msgid "Pause iTunes"
-msgstr "iTunes anhalten"
+msgstr "iTunes pausieren"
 
 #: modules/gui/macosx/macosx.m:128
 msgid "Pause and resume iTunes"
-msgstr "iTunes anhalten und fortsetzen "
+msgstr "iTunes pausieren und fortsetzen "
 
 #: modules/gui/macosx/macosx.m:131 modules/gui/qt4/qt4.cpp:178
 msgid "Maximum Volume displayed"
@@ -17506,7 +17506,7 @@ msgstr "Mac OS X-Interface"
 
 #: modules/gui/macosx/macosx.m:142
 msgid "Appearance"
-msgstr "Erscheinung"
+msgstr "Aussehen"
 
 #: modules/gui/macosx/macosx.m:152
 msgid "Behavior"
@@ -18499,15 +18499,15 @@ msgstr "Nachbearbeitungsqualität"
 
 #: modules/gui/macosx/simple_prefs.m:217
 msgid "Edit default application settings for network protocols"
-msgstr "Bearbeite Standard-Anwendungseinstellungen für Netzwerkprotokolle."
+msgstr "Standard-Anwendungen für Netzwerkprotokolle bearbeiten"
 
 #: modules/gui/macosx/simple_prefs.m:220
 msgid "Open network streams using the following protocols"
-msgstr "Öffne Netzwerk-Streams mit den folgenden Protokollen."
+msgstr "Netzwerkstreams mit den folgenden Protokollen öffnen"
 
 #: modules/gui/macosx/simple_prefs.m:221
 msgid "Note that these are system-wide settings."
-msgstr "Beachte das dies systemübergreifende Einstellungen sind."
+msgstr "Beachte, dass dies systemübergreifende Einstellungen sind."
 
 #: modules/gui/macosx/simple_prefs.m:226
 msgid "Interface style"
@@ -21070,7 +21070,6 @@ msgid "Network Access Policy"
 msgstr "Netzwerk-Zugriff Regel"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:98
-#, fuzzy
 msgid "Automatically retrieve media infos"
 msgstr "Medieninformationen automatisch abrufen"
 
@@ -32697,7 +32696,7 @@ msgstr "Media Manager-Liste"
 
 #, fuzzy
 #~ msgid "Append"
-#~ msgstr "Erscheinung"
+#~ msgstr "Aussehen"
 
 #, fuzzy
 #~ msgid ""
