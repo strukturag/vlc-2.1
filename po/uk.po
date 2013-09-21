@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-09-08 20:08+0200\n"
-"PO-Revision-Date: 2013-09-09 13:54+0000\n"
+"PO-Revision-Date: 2013-09-19 06:02+0000\n"
 "Last-Translator: Андрій Бандура <andriykopanytsia@gmail.com>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/projects/p/vlc-trans/"
 "language/uk/)\n"
@@ -121,7 +121,7 @@ msgstr "Візуалізації звуку"
 
 #: include/vlc_config_cat.h:64 include/vlc_config_cat.h:76
 msgid "Output modules"
-msgstr "Модулі виведення"
+msgstr "Модулі виводу"
 
 #: include/vlc_config_cat.h:65
 msgid "General settings for audio output modules."
@@ -252,7 +252,7 @@ msgstr "Установки загального введення. Викорис
 #: include/vlc_config_cat.h:123 src/libvlc-module.c:1897
 #: modules/access/avio.h:56
 msgid "Stream output"
-msgstr "Потокове виведення"
+msgstr "Потоковий вивід"
 
 #: include/vlc_config_cat.h:125
 msgid ""
@@ -264,12 +264,12 @@ msgid ""
 "Sout streams modules allow advanced stream processing (transcoding, "
 "duplicating...)."
 msgstr ""
-"Потокове виведення дає змогу VLC бути потоковим сервером або зберігати "
-"вхідні потоки.\n"
+"Потоковий вивід дає змогу VLC бути потоковим сервером або зберігати вхідні "
+"потоки.\n"
 "Спочатку потоки мультиплексуються, а потім проходять через модуль „доступу "
 "виведення“, який або зберігає потік у файл, або передає його в мережу (за "
 "протоколами UDP, HTTP, RTP, RTSP).\n"
-"Модулі виведення дають змогу виконувати додаткову обробку потоку "
+"Модулі виводу дають змогу виконувати додаткову обробку потоку "
 "(перекодування, дублювання тощо)."
 
 #: include/vlc_config_cat.h:133
@@ -295,7 +295,7 @@ msgstr ""
 
 #: include/vlc_config_cat.h:143
 msgid "Access output"
-msgstr "Доступ виведення"
+msgstr "Доступ виводу"
 
 #: include/vlc_config_cat.h:145
 msgid ""
@@ -304,10 +304,10 @@ msgid ""
 "should probably not do that.\n"
 "You can also set default parameters for each access output."
 msgstr ""
-"Модулі доступу виведення керують способами надсилання мультиплексованих "
+"Модулі доступу виводу керують способами надсилання мультиплексованих "
 "вихідних потоків. Ці налаштування дають змогу завжди використовувати певний "
-"метод доступу виведення. Зазвичай цього робити не потрібно.\n"
-"Також можна встановити стандартні параметри для доступу виведення."
+"метод доступу виводу. Зазвичай цього робити не потрібно.\n"
+"Також можна встановити стандартні параметри для доступу виводу."
 
 #: include/vlc_config_cat.h:150
 msgid "Packetizers"
@@ -327,7 +327,7 @@ msgstr ""
 
 #: include/vlc_config_cat.h:158
 msgid "Sout stream"
-msgstr "Потік виведення"
+msgstr "Потік виводу"
 
 #: include/vlc_config_cat.h:159
 msgid ""
@@ -335,10 +335,9 @@ msgid ""
 "the Streaming Howto for more information. You can configure default options "
 "for each sout stream module here."
 msgstr ""
-"Модулі потоку виведення дають змогу створити ланцюжок обробки потоку "
-"виведення. Щоб отримати докладнішу інформацію, дивіться «Streaming Howto». "
-"Також можна сконфігурувати стандартні опції для кожного модуля потоку "
-"виведення."
+"Модулі потоку виводу дають змогу створити ланцюжок обробки потоку виведення. "
+"Щоб отримати докладнішу інформацію, дивіться «Streaming Howto». Також можна "
+"сконфігурувати типові параметри для кожного модуля потоку виводу."
 
 #: include/vlc_config_cat.h:164
 msgid "VOD"
@@ -1188,7 +1187,7 @@ msgstr "декодер"
 #: modules/codec/avcodec/encoder.c:816 modules/stream_out/es.c:362
 #: modules/stream_out/es.c:377
 msgid "Streaming / Transcoding failed"
-msgstr "Помилка потокового виведення або перекодування"
+msgstr "Помилка потокового виводу або перекодування"
 
 #: src/input/decoder.c:277
 #, c-format
@@ -2217,7 +2216,7 @@ msgstr "Лінійний"
 
 #: src/libvlc-module.c:358 modules/video_filter/deinterlace/deinterlace.h:58
 msgid "Phosphor"
-msgstr "Phosphor"
+msgstr "Фосфор"
 
 #: src/libvlc-module.c:359 modules/video_filter/deinterlace/deinterlace.h:58
 msgid "Film NTSC (IVTC)"
@@ -3482,7 +3481,8 @@ msgstr "Модуль мультиплексування"
 
 #: src/libvlc-module.c:964
 msgid "This is a legacy entry to let you configure mux modules"
-msgstr "Застаріла опція, яка дає змогу сконфігурувати модулі мультиплексування"
+msgstr ""
+"Застарілий параметр, який дає змогу сконфігурувати модулі мультиплексування"
 
 #: src/libvlc-module.c:966
 msgid "Access output module"
@@ -3490,7 +3490,8 @@ msgstr "Модуль доступу виведення"
 
 #: src/libvlc-module.c:968
 msgid "This is a legacy entry to let you configure access output modules"
-msgstr "Застаріла опція, яка дає змогу сконфігурувати модулі доступу виведення"
+msgstr ""
+"Застарілий параметр, який дає змогу сконфігурувати модулі доступу виведення"
 
 #: src/libvlc-module.c:971
 msgid ""
@@ -3769,11 +3770,11 @@ msgstr ""
 
 #: src/libvlc-module.c:1116
 msgid "Album art policy"
-msgstr "Політика обкладинок альбому"
+msgstr "Політика обкладинки альбому"
 
 #: src/libvlc-module.c:1118
 msgid "Choose how album art will be downloaded."
-msgstr "Виберіть спосіб завантаження обкладинок альбому."
+msgstr "Виберіть спосіб завантаження обкладинки альбому."
 
 #: src/libvlc-module.c:1124
 msgid "Manual download only"
@@ -8630,7 +8631,7 @@ msgstr "Частота струму живлення"
 
 #: modules/access/v4l2/v4l2.c:129
 msgid "Power line frequency anti-flicker filter."
-msgstr "Фільтр блимання з частотою струму живлення."
+msgstr "Фільтр усунення блимання з частотою струму живлення."
 
 #: modules/access/v4l2/v4l2.c:137
 msgid "50 Hz"
@@ -9295,8 +9296,8 @@ msgid ""
 "Defines if the TCP connection should be reset. This is to be used when using "
 "with audiobargraph_v (default 1)."
 msgstr ""
-"Визначає, чи повинно скидатися з’єднання TCP. Використовується із "
-"audiobargraph_v (стандартно: 1)."
+"Визначає, чи повинно перериватися з’єднання TCP. Використовується із модулем "
+"гістограма звуку (стандартно: 1)."
 
 #: modules/audio_filter/audiobargraph_a.c:82
 msgid "Audio part of the BarGraph function"
@@ -9304,7 +9305,7 @@ msgstr "Звукова частина функції BarGraph"
 
 #: modules/audio_filter/audiobargraph_a.c:83
 msgid "Audiobar Graph"
-msgstr "Audiobar Graph"
+msgstr "Гістограма звуку"
 
 #: modules/audio_filter/channel_mixer/dolby.c:49
 msgid "Simple decoder for Dolby Surround encoded streams"
@@ -11412,7 +11413,7 @@ msgid ""
 "This gain is applied to synthesis output. High values may cause saturation "
 "when many notes are played at a time."
 msgstr ""
-"Підсилення застосовується до виведення синтезу. Високі значення можуть "
+"Підсилення застосовується до виводу синтезу. Високі значення можуть "
 "спричинити перенасичення, якщо одночасно відтворюється кілька частот."
 
 #: modules/codec/fluidsynth.c:55
@@ -17387,7 +17388,7 @@ msgstr "Медіаклавіші та пульт Apple Remote"
 
 #: modules/gui/macosx/macosx.m:177
 msgid "Video output"
-msgstr "Виведення відео"
+msgstr "Вивід відео"
 
 #: modules/gui/macosx/MainMenu.m:68
 msgid "Track Number"
@@ -18390,7 +18391,7 @@ msgstr "Світлий"
 
 #: modules/gui/macosx/simple_prefs.m:229
 msgid "Album art download policy"
-msgstr "Політика завантаження альбомних обкладинок"
+msgstr "Політика завантаження обкладинок альбому"
 
 #: modules/gui/macosx/simple_prefs.m:230
 msgid "Show video within the main window"
@@ -19994,7 +19995,7 @@ msgstr "Співвідношення сторін"
 #: modules/gui/qt4/components/extended_panels.cpp:423
 #: modules/video_filter/logo.c:48
 msgid "Logo filenames"
-msgstr "Імена файлів логотипу"
+msgstr "Імена файлів логотипа"
 
 #: modules/gui/qt4/components/extended_panels.cpp:431
 #: modules/video_filter/erase.c:55
@@ -20501,7 +20502,7 @@ msgstr "Список"
 
 #: modules/gui/qt4/components/playlist/standardpanel.hpp:159
 msgid "PictureFlow"
-msgstr "PictureFlow"
+msgstr "Галерея"
 
 #: modules/gui/qt4/components/preferences_widgets.cpp:304
 msgid "Select File"
@@ -20903,7 +20904,8 @@ msgid "Network Access Policy"
 msgstr "Політика мережевого доступу"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:98
-msgid "Automatically retrieve media info"
+#, fuzzy
+msgid "Automatically retrieve media infos"
 msgstr "Автоматично отримувати медіадані"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:103
@@ -21374,7 +21376,7 @@ msgstr "Трансляція"
 
 #: modules/gui/qt4/dialogs/vlm.cpp:74
 msgid "Schedule"
-msgstr "Планувати"
+msgstr "Планування"
 
 #: modules/gui/qt4/dialogs/vlm.cpp:75
 msgid "Video On Demand ( VOD )"
@@ -21619,7 +21621,7 @@ msgstr "Додати файл суб&титрів…"
 
 #: modules/gui/qt4/menus.cpp:639
 msgid "Sub &Track"
-msgstr "Субтрек"
+msgstr "&Доріжка субтитрів"
 
 #: modules/gui/qt4/menus.cpp:662
 msgid "Video &Track"
@@ -21908,8 +21910,8 @@ msgid ""
 msgstr ""
 "Запускати VLC:\n"
 " - у нормальному режимі\n"
-" - із постійно присутньою зоною для відображення тексту пісень, альбомного "
-"мистецтва…\n"
+" - із постійно присутньою зоною для відображення тексту пісень, обкладинки "
+"альбому…\n"
 " - у мінімальному режимі з обмеженим керуванням"
 
 #: modules/gui/qt4/qt4.cpp:143
@@ -21952,7 +21954,7 @@ msgid ""
 "disabled to prevent burning screen."
 msgstr ""
 "Показувати фоновий конус або обкладинку під час паузи. Можна вимкнути для "
-"попередження вигорання екрана."
+"попередження вигоряння екрану."
 
 #: modules/gui/qt4/qt4.cpp:160
 msgid "Expanding background cone or art."
@@ -22255,11 +22257,11 @@ msgstr "Каталог метаданих"
 
 #: modules/meta_engine/folder.c:66
 msgid "Album art filename"
-msgstr "Ім'я файлу альбомного мистецтва"
+msgstr "Ім'я файлу обкладинки альбому"
 
 #: modules/meta_engine/folder.c:66
 msgid "Filename to look for album art in current directory"
-msgstr "Ім’я файлу із альбомним мистецтвом у поточному каталозі"
+msgstr "Ім’я файлу із обкладинкою альбому у поточному каталозі"
 
 #: modules/misc/audioscrobbler.c:115
 msgid "The username of your last.fm account"
@@ -23336,7 +23338,7 @@ msgstr "Міст"
 
 #: modules/stream_out/bridge.c:93
 msgid "Bridge stream output"
-msgstr "Виведення потоку на міст"
+msgstr "Вивід потоку на міст"
 
 #: modules/stream_out/bridge.c:95
 msgid "Bridge out"
@@ -23393,11 +23395,11 @@ msgstr "Затримка відображення потоку."
 
 #: modules/stream_out/display.c:54
 msgid "Display stream output"
-msgstr "Виведення потоку на дисплей"
+msgstr "Вивід потоку на дисплей"
 
 #: modules/stream_out/duplicate.c:44
 msgid "Duplicate stream output"
-msgstr "Виведення дублюючого потоку"
+msgstr "Вивід дублюючого потоку"
 
 #: modules/stream_out/es.c:41 modules/stream_out/standard.c:41
 msgid "Output access method"
@@ -23409,7 +23411,7 @@ msgstr "Стандартний метод доступу виводу"
 
 #: modules/stream_out/es.c:45
 msgid "Audio output access method"
-msgstr "Метод доступу виведення звуку"
+msgstr "Метод доступу виводу звуку"
 
 #: modules/stream_out/es.c:47
 msgid "This is the output access method that will be used for audio."
@@ -23433,11 +23435,11 @@ msgstr "Стандартний вихідний мультиплексор."
 
 #: modules/stream_out/es.c:55
 msgid "Audio output muxer"
-msgstr "Мультиплексор виведення звуку"
+msgstr "Мультиплексор виводу звуку"
 
 #: modules/stream_out/es.c:57
 msgid "This is the muxer that will be used for audio."
-msgstr "Цей мультиплексор використовуватиметься для виведення звуку."
+msgstr "Цей мультиплексор використовуватиметься для виводу звуку."
 
 #: modules/stream_out/es.c:58
 msgid "Video output muxer"
@@ -23594,7 +23596,7 @@ msgstr "Міст мозаїки"
 
 #: modules/stream_out/mosaic_bridge.c:144
 msgid "Mosaic bridge stream output"
-msgstr "Виведення потоку через міст мозаїки"
+msgstr "Вивід потоку через міст мозаїки"
 
 #: modules/stream_out/raop.c:148
 msgid "Hostname or IP address of target device"
@@ -24563,7 +24565,7 @@ msgstr "Кількість кадрів, які враховуються під 
 
 #: modules/video_filter/antiflicker.c:66
 msgid "antiflicker video filter"
-msgstr "відеофільтр блимання"
+msgstr "відеофільтр усунення блимання"
 
 #: modules/video_filter/antiflicker.c:67
 msgid "antiflicker"
@@ -25372,7 +25374,7 @@ msgid ""
 msgstr ""
 "Цей ефект, також знаний як „зелений екран“ чи „ключ кольоровості“ змішує "
 "„сині частини“ переднього зображення з мозаїкою фонового (типу прогнозу "
-"погоди). Ви можете „ключовий“ колір для змішування (стандартний — синій)."
+"погоди). Ви можете вибрати „ключовий“ колір для змішування (типовий — синій)."
 
 #: modules/video_filter/bluescreen.c:42
 msgid "Bluescreen U value"
@@ -25650,7 +25652,7 @@ msgstr "Режим деінтерлейсу для мовлення."
 
 #: modules/video_filter/deinterlace/deinterlace.c:65
 msgid "Phosphor chroma mode for 4:2:0 input"
-msgstr "Режим кольоровості Phosphor для входу 4:2:0"
+msgstr "Режим кольоровості Фосфор для входу 4:2:0"
 
 #: modules/video_filter/deinterlace/deinterlace.c:66
 msgid ""
@@ -25688,7 +25690,7 @@ msgstr ""
 
 #: modules/video_filter/deinterlace/deinterlace.c:88
 msgid "Phosphor old field dimmer strength"
-msgstr "Інтенсивність регулятора освітлення старого поля Phosphor"
+msgstr "Інтенсивність регулятора освітлення старого поля Фосфор"
 
 #: modules/video_filter/deinterlace/deinterlace.c:89
 msgid ""
@@ -25697,8 +25699,8 @@ msgid ""
 "Default: Low."
 msgstr ""
 "Керує інтенсивністю фільтра ослаблення освітленості, який імітує загасання "
-"світла люмінофора телевізора з ЕПТ для старого поля в подвоювачі частоти "
-"кадрів Phosphor. Стандартно: низька."
+"світла люмінофора телевізора з ЕПТ для старого поля у подвоювачі частоти "
+"кадрів Фосфор. Стандартно: низька."
 
 #: modules/video_filter/deinterlace/deinterlace.c:96
 msgid "Deinterlacing video filter"
@@ -25745,15 +25747,15 @@ msgstr "Координата Y маски."
 
 #: modules/video_filter/erase.c:63
 msgid "Remove zones of the video using a picture as mask"
-msgstr "Видалити зони відео, використовуючи зображення як маску"
+msgstr "Вилучає зони відео, використовуючи зображення як маску"
 
 #: modules/video_filter/erase.c:68
 msgid "Erase video filter"
-msgstr "Стерти відеофільтр"
+msgstr "Відеофільтр витирання"
 
 #: modules/video_filter/erase.c:69
 msgid "Erase"
-msgstr "Стерти"
+msgstr "Витирання"
 
 #: modules/video_filter/extract.c:62
 msgid "RGB component to extract"
@@ -25769,7 +25771,7 @@ msgstr "Фільтр видобування компоненти RGB"
 
 #: modules/video_filter/gaussianblur.c:47
 msgid "Gaussian's std deviation"
-msgstr "Нормальне Гаусівське видхилення"
+msgstr "Нормальне Гаусівське відхилення"
 
 #: modules/video_filter/gaussianblur.c:49
 msgid ""
@@ -25946,11 +25948,11 @@ msgstr ""
 
 #: modules/video_filter/logo.c:52
 msgid "Logo animation # of loops"
-msgstr "Кількість циклів анімації логотипа"
+msgstr "Цикли анімації логотипа"
 
 #: modules/video_filter/logo.c:53
 msgid "Number of loops for the logo animation.-1 = continuous, 0 = disabled"
-msgstr "Кількість циклів анімації логотипа. -1 = постійно, 0 = вимкнено"
+msgstr "Число циклів анімації логотипа. -1 = постійно, 0 = вимкнено"
 
 #: modules/video_filter/logo.c:55
 msgid "Logo individual image time in ms"
@@ -25962,13 +25964,11 @@ msgstr "Тривалість показу окремого зображення 
 
 #: modules/video_filter/logo.c:59
 msgid "X coordinate of the logo. You can move the logo by left-clicking it."
-msgstr ""
-"Координата X логотипу. Ви можете переміщувати логотип, клацнувши по ньому."
+msgstr "Координата X логотипа. Можна переміщувати логотип, клацнувши по ньому."
 
 #: modules/video_filter/logo.c:62
 msgid "Y coordinate of the logo. You can move the logo by left-clicking it."
-msgstr ""
-"Координата Y логотипу. Ви можете переміщувати логотип, клацнувши по ньому."
+msgstr "Координата Y логотипа. Можна переміщувати логотип, клацнувши по ньому."
 
 #: modules/video_filter/logo.c:64
 msgid "Opacity of the logo"
@@ -25983,7 +25983,7 @@ msgstr ""
 
 #: modules/video_filter/logo.c:67
 msgid "Logo position"
-msgstr "Позиція логотипу"
+msgstr "Позиція логотипа"
 
 #: modules/video_filter/logo.c:69
 msgid ""
@@ -26004,11 +26004,11 @@ msgstr "Джерело шару логотипа"
 
 #: modules/video_filter/logo.c:93
 msgid "Logo overlay"
-msgstr "Оверлей логотипу"
+msgstr "Оверлей логотипа"
 
 #: modules/video_filter/logo.c:111
 msgid "Logo video filter"
-msgstr "Відеофільтр логотипу"
+msgstr "Відеофільтр логотипа"
 
 #: modules/video_filter/magnify.c:47
 msgid "Magnify/Zoom interactive video filter"
@@ -27343,7 +27343,7 @@ msgstr "SincR"
 
 #: modules/video_filter/swscale.c:64
 msgid "Lanczos"
-msgstr "Lanczos"
+msgstr "за Ланцошем"
 
 #: modules/video_filter/swscale.c:64
 msgid "Bicubic spline"
@@ -27500,7 +27500,7 @@ msgstr "Загальні параметри Decklink"
 
 #: modules/video_output/decklink.cpp:181
 msgid "Decklink Video Output module"
-msgstr "Модуль виведення відео Decklink"
+msgstr "Модуль виводу відео Decklink"
 
 #: modules/video_output/decklink.cpp:186
 msgid "Decklink Video Options"
@@ -27508,7 +27508,7 @@ msgstr "Відеопараметри Decklink"
 
 #: modules/video_output/decklink.cpp:197
 msgid "Decklink Audio Output module"
-msgstr "Модуль виведення звуку Decklink"
+msgstr "Модуль виводу звуку Decklink"
 
 #: modules/video_output/decklink.cpp:202
 msgid "Decklink Audio Options"
@@ -28996,7 +28996,7 @@ msgstr "Список відтворення та екземпляри"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:532
 msgid "Album art download policy:"
-msgstr "Політика завантаження альбомного мистецтва:"
+msgstr "Політика завантаження обкладинки альбому:"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:535
 msgid "Pause on the last frame of a video"
@@ -32086,7 +32086,7 @@ msgstr "Список медіаменеджеру"
 
 #, fuzzy
 #~ msgid "Audio output frequency (Hz)"
-#~ msgstr "Мультиплексор виведення звуку"
+#~ msgstr "Мультиплексор виводу звуку"
 
 #, fuzzy
 #~ msgid "Audio output channels mode"
@@ -33365,7 +33365,7 @@ msgstr "Список медіаменеджеру"
 
 #, fuzzy
 #~ msgid "PictureFlow View "
-#~ msgstr "PictureFlow"
+#~ msgstr "Галерея"
 
 #, fuzzy
 #~ msgid "Select an action to change the associated hotkey"
@@ -33672,7 +33672,7 @@ msgstr "Список медіаменеджеру"
 
 #, fuzzy
 #~ msgid "Remove borders of the video and replace them by black borders"
-#~ msgstr "Видалити зони відео, використовуючи зображення як маску"
+#~ msgstr "Вилучає зони відео, використовуючи зображення як маску"
 
 #, fuzzy
 #~ msgid "Manual ratio"
@@ -33721,7 +33721,7 @@ msgstr "Список медіаменеджеру"
 #, fuzzy
 #~ msgid "You can move the OSD menu by left-clicking on it."
 #~ msgstr ""
-#~ "Координата X логотипу. Ви можете переміщувати логотип, клацнувши по ньому."
+#~ "Координата X логотипа. Можна переміщувати логотип, клацнувши по ньому."
 
 #, fuzzy
 #~ msgid "Menu position"
@@ -34882,7 +34882,7 @@ msgstr "Список медіаменеджеру"
 
 #, fuzzy
 #~ msgid "Path to the x509 PEM certificate file that will be used for HTTPS."
-#~ msgstr "Цей мультиплексор використовуватиметься для виведення звуку."
+#~ msgstr "Цей мультиплексор використовуватиметься для виводу звуку."
 
 #, fuzzy
 #~ msgid "Dummy S/PDIF audio mixer"
@@ -36023,7 +36023,7 @@ msgstr "Список медіаменеджеру"
 
 #, fuzzy
 #~ msgid "Access:"
-#~ msgstr "Доступ виведення"
+#~ msgstr "Доступ виводу"
 
 #, fuzzy
 #~ msgid "Time To Live (TTL):"
