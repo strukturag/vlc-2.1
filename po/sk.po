@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-09-08 20:08+0200\n"
-"PO-Revision-Date: 2013-09-09 08:20+0000\n"
-"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"PO-Revision-Date: 2013-09-20 20:10+0000\n"
+"Last-Translator: mhikanik <mhikanik@users.sourceforge.net>\n"
 "Language-Team: Slovak (http://www.transifex.com/projects/p/vlc-trans/"
 "language/sk/)\n"
 "Language: sk\n"
@@ -2305,31 +2305,31 @@ msgstr ""
 
 #: src/libvlc-module.c:389
 msgid "Video snapshot directory (or filename)"
-msgstr "Priečinok (alebo súbor) zo screenshotmi z videa"
+msgstr "Priečinok (alebo súbor) so snímkami z videa"
 
 #: src/libvlc-module.c:391
 msgid "Directory where the video snapshots will be stored."
-msgstr "Priečinok, do ktorého budú uložené screenshoty z videa."
+msgstr "Priečinok, do ktorého budú uložené snímky z videa."
 
 #: src/libvlc-module.c:393 src/libvlc-module.c:395
 msgid "Video snapshot file prefix"
-msgstr "Prípona súboru so screenshotom z videa"
+msgstr "Prípona súboru so snímkou z videa"
 
 #: src/libvlc-module.c:397
 msgid "Video snapshot format"
-msgstr "Formát screenshotu z videa"
+msgstr "Formát snímky z videa"
 
 #: src/libvlc-module.c:399
 msgid "Image format which will be used to store the video snapshots"
-msgstr "Formát obrázka, ktorý sa použije pri ukladaní screenshotov z videa."
+msgstr "Formát obrázka, ktorý sa použije pri ukladaní snímok z videa."
 
 #: src/libvlc-module.c:401
 msgid "Display video snapshot preview"
-msgstr "Zobraziť náhľad screenshotu z videa"
+msgstr "Zobraziť náhľad snímky z videa"
 
 #: src/libvlc-module.c:403
 msgid "Display the snapshot preview in the screen's top-left corner."
-msgstr "Zobraziť náhľad screenshotu z videa v ľavom hornom rohu obrazovky."
+msgstr "Zobraziť náhľad snímky z videa v ľavom hornom rohu obrazovky."
 
 #: src/libvlc-module.c:405
 msgid "Use sequential numbers instead of timestamps"
@@ -2338,25 +2338,25 @@ msgstr "Použiť sekvenčné číslovanie namiesto časového údaja"
 #: src/libvlc-module.c:407
 msgid "Use sequential numbers instead of timestamps for snapshot numbering"
 msgstr ""
-"Pri číslovaní screenshotov sa použije sekvenčné číslovanie a nie údaj o čase "
-"vytvorenia snímky."
+"Pri číslovaní snímok obrazovky sa použije sekvenčné číslovanie a nie údaj o "
+"čase vytvorenia snímky."
 
 #: src/libvlc-module.c:409
 msgid "Video snapshot width"
-msgstr "Šírka screenshotu z videa"
+msgstr "Šírka snímky z videa"
 
 #: src/libvlc-module.c:411
 msgid ""
 "You can enforce the width of the video snapshot. By default it will keep the "
 "original width (-1). Using 0 will scale the width to keep the aspect ratio."
 msgstr ""
-"Týmto nastavením si môžete vynútiť určitú šírku screenshotu. Pri predvolenom "
-"nastavení sa zachová pôvodná šírka (-1). Hodnota 0 značí, že screenshot bude "
-"mať upravenú šírku kvôli dodržaniu stranového pomeru."
+"Týmto nastavením si môžete vynútiť určitú šírku snímky obrazovky. Pri "
+"predvolenom nastavení sa zachová pôvodná šírka (-1). Hodnota 0 značí, že "
+"screenshot bude mať upravenú šírku kvôli dodržaniu stranového pomeru."
 
 #: src/libvlc-module.c:415
 msgid "Video snapshot height"
-msgstr "Výška screenshotu z videa"
+msgstr "Výška snímky z videa"
 
 #: src/libvlc-module.c:417
 msgid ""
@@ -2364,9 +2364,9 @@ msgid ""
 "the original height (-1). Using 0 will scale the height to keep the aspect "
 "ratio."
 msgstr ""
-"Týmto nastavením si môžete vynútiť určitú výšku screenshotu. Pri predvolenom "
-"nastavení sa zachová pôvodná výška (-1). Hodnota 0 značí, že screenshot bude "
-"mať upravenú výšku kvôli dodražaniu stranového pomeru. "
+"Týmto nastavením si môžete vynútiť určitú výšku snímky (screenshotu). Pri "
+"predvolenom nastavení sa zachová pôvodná výška (-1). Hodnota 0 značí, že "
+"snímka bude mať upravenú výšku kvôli dodržaniu stranového pomeru. "
 
 #: src/libvlc-module.c:421
 msgid "Video cropping"
@@ -3323,67 +3323,67 @@ msgstr ""
 
 #: src/libvlc-module.c:858
 msgid "Title metadata"
-msgstr "Meta-údaje o titule"
+msgstr "Metadáta titulu"
 
 #: src/libvlc-module.c:860
 msgid "Allows you to specify a \"title\" metadata for an input."
-msgstr "Tu môžete zadať meta-údaje pre názov vstupu."
+msgstr "Tu môžete zadať metadáta \"titul\"."
 
 #: src/libvlc-module.c:862
 msgid "Author metadata"
-msgstr "Meta-údaje o autorovi"
+msgstr "Metadáta o autorovi"
 
 #: src/libvlc-module.c:864
 msgid "Allows you to specify an \"author\" metadata for an input."
-msgstr "Tu môžete zadať meta-údaje pre vstup."
+msgstr "Tu môžete zadať metadáta o \"autorovi\"."
 
 #: src/libvlc-module.c:866
 msgid "Artist metadata"
-msgstr "Meta-údaje o hercoch"
+msgstr "Metadáta o hercoch"
 
 #: src/libvlc-module.c:868
 msgid "Allows you to specify an \"artist\" metadata for an input."
-msgstr "Tu môžete zadať meta-údaje pre hercov."
+msgstr "Tu môžete zadať metadáta o \"hercoch\"."
 
 #: src/libvlc-module.c:870
 msgid "Genre metadata"
-msgstr "Meta-údaje žánru"
+msgstr "Metadáta žánru"
 
 #: src/libvlc-module.c:872
 msgid "Allows you to specify a \"genre\" metadata for an input."
-msgstr "Tu môžete zadať žáner."
+msgstr "Tu môžete zadať metadáta o \"žánri\"."
 
 #: src/libvlc-module.c:874
 msgid "Copyright metadata"
-msgstr "Meta-údaje autorských práv"
+msgstr "Metadáta autorských práv"
 
 #: src/libvlc-module.c:876
 msgid "Allows you to specify a \"copyright\" metadata for an input."
-msgstr "Tu môžete zadať autorské práva. "
+msgstr "Tu môžete zadať metadáta o \"autorských právach\". "
 
 #: src/libvlc-module.c:878
 msgid "Description metadata"
-msgstr "Meta-údaje popisu"
+msgstr "Metadáta popisu"
 
 #: src/libvlc-module.c:880
 msgid "Allows you to specify a \"description\" metadata for an input."
-msgstr "Tu môžete zadať meta-údaje s popisom."
+msgstr "Tu môžete zadať metadáta \"popis\"."
 
 #: src/libvlc-module.c:882
 msgid "Date metadata"
-msgstr "Meta-údaje dátumu"
+msgstr "Metadáta dátumu"
 
 #: src/libvlc-module.c:884
 msgid "Allows you to specify a \"date\" metadata for an input."
-msgstr "Tu môžete pre nejaký vstup špecifikovať meta-údaje typu \"dátum\"."
+msgstr "Tu môžete pre nejaký vstup špecifikovať metadáta o \"dátume\"."
 
 #: src/libvlc-module.c:886
 msgid "URL metadata"
-msgstr "Meta-údaje URL"
+msgstr "Metadáta URL"
 
 #: src/libvlc-module.c:888
 msgid "Allows you to specify a \"url\" metadata for an input."
-msgstr "Tu môžete pre nejaký vstup špecifikovať meta-údaje typu \"url\"."
+msgstr "Tu môžete zadať metadáta typu \"url\"."
 
 #: src/libvlc-module.c:892
 msgid ""
@@ -3824,8 +3824,8 @@ msgid ""
 "Automatically preparse files added to the playlist (to retrieve some "
 "metadata)."
 msgstr ""
-"K súborom pridaným do playlistu sa automaticky doplnia niektoré meta-údaje, "
-"zobrazované pri prehrávaní."
+"Automaticky načítať informácie zo súborov pridaných do playlistu (umožňuje "
+"načítanie metadát)."
 
 #: src/libvlc-module.c:1116
 msgid "Album art policy"
@@ -4721,11 +4721,11 @@ msgstr "Zobraziť kontextové vyskakovacie menu."
 
 #: src/libvlc-module.c:1389
 msgid "Take video snapshot"
-msgstr "Vytvoriť screenshot z videa"
+msgstr "Vytvoriť snímku z videa"
 
 #: src/libvlc-module.c:1390
 msgid "Takes a video snapshot and writes it to disk."
-msgstr "Z prehrávaného videa sa vytvorí screenshot a uloží sa na disk."
+msgstr "Z prehrávaného videa sa vytvorí snímka a uloží sa na disk."
 
 #: src/libvlc-module.c:1392 modules/gui/macosx/MainMenu.m:351
 #: modules/gui/qt4/components/controller.hpp:118
@@ -4792,7 +4792,7 @@ msgstr "Zapnúť režim prehrávania na pozadí"
 
 #: src/libvlc-module.c:1429
 msgid "Toggle wallpaper mode in video output."
-msgstr "Prepnúť režim prehrávania na pozadí do video-výstupu"
+msgstr "Prepnúť režim prehrávania na pozadí do výstupu videa"
 
 #: src/libvlc-module.c:1431
 msgid "Cycle through audio devices"
@@ -4807,7 +4807,7 @@ msgstr "Cyklicky prechádzať po dostupných zvukových zariadeniach."
 #: modules/gui/macosx/MainMenu.m:1489
 #: modules/gui/qt4/components/controller.hpp:117
 msgid "Snapshot"
-msgstr "Screenshot"
+msgstr "Snímka"
 
 #: src/libvlc-module.c:1577
 msgid "Window properties"
@@ -4853,7 +4853,7 @@ msgstr "Socks proxy"
 
 #: src/libvlc-module.c:1773 modules/demux/xiph_metadata.h:53
 msgid "Metadata"
-msgstr "Meta-dáta"
+msgstr "Metadáta"
 
 #: src/libvlc-module.c:1872
 msgid "Decoders"
@@ -7935,11 +7935,11 @@ msgstr "URL adresa s informáciou o dátovom toku alebo kanáli."
 
 #: modules/access_output/shout.c:93
 msgid "Bitrate information of the transcoded stream. "
-msgstr "Informácia o dátovom toku v prekódovanom video-streame."
+msgstr "Informácia o dátovom toku v prekódovanom streame s videom."
 
 #: modules/access_output/shout.c:96
 msgid "Samplerate information of the transcoded stream. "
-msgstr "Informácia o dátovom toku v prekódovanom video-streame."
+msgstr "Informácia o dát. toku v prekódovanom streame s videom."
 
 #: modules/access_output/shout.c:98
 msgid "Number of channels"
@@ -8223,7 +8223,7 @@ msgstr "Požadovanú reláciu RTSP nemožno vytvoriť."
 #: modules/access/screen/screen.c:44
 #: modules/gui/qt4/components/open_panels.cpp:1090
 msgid "Desired frame rate for the capture."
-msgstr "Frekvencia snímok cieľového video-streamu."
+msgstr "Cieľová frekvencia snímok pre záznam."
 
 #: modules/access/screen/screen.c:47
 msgid "Capture fragment size"
@@ -11107,7 +11107,7 @@ msgstr "Video dekodér CDG"
 
 #: modules/codec/crystalhd.c:90
 msgid "Crystal HD hardware video decoder"
-msgstr "Hardvérový video-dekodér Crystal HD"
+msgstr "Hardvérový video dekodér Crystal HD"
 
 #: modules/codec/cvdsub.c:50
 msgid "CVD subtitle decoder"
@@ -11906,7 +11906,7 @@ msgstr "Kodér zvuku Linear PCM"
 
 #: modules/codec/mash.cpp:70
 msgid "Video decoder using openmash"
-msgstr "Video-dekodér"
+msgstr "Video dekodér s použitím openmash"
 
 #: modules/codec/mpeg_audio.c:107
 msgid "MPEG audio layer I/II/III decoder"
@@ -11942,7 +11942,7 @@ msgstr "Opus"
 
 #: modules/codec/png.c:58
 msgid "PNG video decoder"
-msgstr "Video-dekodér PNG"
+msgstr "Video dekodér PNG"
 
 #: modules/codec/qsv.c:56
 msgid "Enable software mode"
@@ -12195,7 +12195,7 @@ msgstr "Dekodér knižnice QuickTime"
 
 #: modules/codec/rawvideo.c:72
 msgid "Pseudo raw video decoder"
-msgstr "Video-dekodér pre Pseudo-raw"
+msgstr "Video dekodér pre Pseudo-raw"
 
 #: modules/codec/rawvideo.c:79
 msgid "Pseudo raw video packetizer"
@@ -12483,7 +12483,7 @@ msgstr "Obrazový SDL dekodér"
 
 #: modules/codec/sdl_image.c:61
 msgid "SDL_image video decoder"
-msgstr "Video-dekodér SDL_image"
+msgstr "Video dekodér SDL_image"
 
 #: modules/codec/shine/shine_mod.c:65
 msgid "MP3 fixed point audio encoder"
@@ -12917,7 +12917,7 @@ msgstr ""
 
 #: modules/codec/theora.c:112
 msgid "Theora video decoder"
-msgstr "Video-dekodér Theora"
+msgstr "Video dekodér Theora"
 
 #: modules/codec/theora.c:118
 msgid "Theora video packetizer"
@@ -12925,7 +12925,7 @@ msgstr "Paketizér pre video vo formáte Theora"
 
 #: modules/codec/theora.c:125
 msgid "Theora video encoder"
-msgstr "Video-kodér Theora"
+msgstr "Video kodér Theora"
 
 #: modules/codec/twolame.c:56
 msgid ""
@@ -14511,7 +14511,8 @@ msgstr "| loop [on|off] . . . . . .  prepnut opakovanie poloziek v playliste"
 #: modules/control/rc.c:795
 msgid "| random [on|off] . . . . . . .  toggle random jumping"
 msgstr ""
-"| loop [on|off] . . . . . .  prepnut nahodne opakovanie poloziek v playliste"
+"| random [on|off] . . . . . .  prepnut nahodne opakovanie poloziek v "
+"playliste"
 
 #: modules/control/rc.c:796
 msgid "| clear . . . . . . . . . . . . . . clear the playlist"
@@ -14631,27 +14632,27 @@ msgstr "| achan [X]. . . . . . . .  nastavit/nacitat kanaly zvuku"
 
 #: modules/control/rc.c:826
 msgid "| atrack [X] . . . . . . . . . . . set/get audio track"
-msgstr "| adev [X] . . . . . . . . .  nastavit/detegovat zvukovu stopu"
+msgstr "| atrack [X] . . . . . . . . .  nastavit/detegovat zvukovu stopu"
 
 #: modules/control/rc.c:827
 msgid "| vtrack [X] . . . . . . . . . . . set/get video track"
-msgstr "| adev [X] . . . . . . . . .  nastavit/detegovat video-stopu"
+msgstr "| vtrack [X] . . . . . . . . .  nastavit/detegovat stopu s videom"
 
 #: modules/control/rc.c:828
 msgid "| vratio [X]  . . . . . . . set/get video aspect ratio"
-msgstr "| titul [X]  . . . . nastavit/detegovat stranovy pomer videa"
+msgstr "| vratio [X]  . . . . nastavit/detegovat stranovy pomer videa"
 
 #: modules/control/rc.c:829
 msgid "| vcrop [X]  . . . . . . . . . . .  set/get video crop"
-msgstr "| adev [X] . . . . . . . . .  nastavit/detegovat orezanie videa"
+msgstr "| vcrop [X] . . . . . . . . .  nastavit/detegovat orezanie videa"
 
 #: modules/control/rc.c:830
 msgid "| vzoom [X]  . . . . . . . . . . .  set/get video zoom"
-msgstr "| hlasitost [X] . . . . . . . .  nastavit/nacitat uroven priblizenia"
+msgstr "| vzoomt [X] . . . . . . . .  nastavit/nacitat uroven priblizenia"
 
 #: modules/control/rc.c:831
 msgid "| snapshot . . . . . . . . . . . . take video snapshot"
-msgstr "| adev [X] . . . . . . . . .  zaznamenat screenshot z videa"
+msgstr "| snapshot . . . . . . . . .  zaznamenat snímku z videa"
 
 #: modules/control/rc.c:832
 msgid "| strack [X] . . . . . . . . .  set/get subtitle track"
@@ -14659,7 +14660,7 @@ msgstr "| strack [X] . . . . . . . . .  nastavit/detegovat stopu s titulkami"
 
 #: modules/control/rc.c:833
 msgid "| key [hotkey name] . . . . . .  simulate hotkey press"
-msgstr "| klavesa [názov klavesy] . . . . . .  simulovat stlacenie klavesy"
+msgstr "| key [nazov klavesy] . . . . . .  simulovat stlacenie klavesy"
 
 #: modules/control/rc.c:834
 msgid "| menu . . [on|off|up|down|left|right|select] use menu"
@@ -14718,7 +14719,7 @@ msgstr "| citanie vstupnych bytov : %8.0f KiB"
 #: modules/control/rc.c:1750 modules/gui/ncurses.c:809
 #, c-format
 msgid "| input bitrate    :   %6.0f kb/s"
-msgstr "| datovy tok na vstupe    :   %6.0f kb/s"
+msgstr "| datovy tok na vstupe : %6.0f kb/s"
 
 #: modules/control/rc.c:1752 modules/gui/ncurses.c:811
 #, c-format
@@ -14728,12 +14729,12 @@ msgstr "| citanie demux. bytov : %8.0f KiB"
 #: modules/control/rc.c:1754 modules/gui/ncurses.c:813
 #, c-format
 msgid "| demux bitrate    :   %6.0f kb/s"
-msgstr "| datovy tok pri demuxovani    :   %6.0f kb/s"
+msgstr "| datovy tok pri demuxovani : %6.0f kb/s"
 
 #: modules/control/rc.c:1756
 #, c-format
 msgid "| demux corrupted  :    %5<PRIi64>"
-msgstr "| poskodene demuxovanim  :    %5<PRIi64>"
+msgstr "| poskodene demuxovanim : %5<PRIi64>"
 
 #: modules/control/rc.c:1758
 #, c-format
@@ -14747,17 +14748,17 @@ msgstr "+-[Dekodovanie videa]"
 #: modules/control/rc.c:1763 modules/gui/ncurses.c:821
 #, c-format
 msgid "| video decoded    :    %5<PRIi64>"
-msgstr "| dekodovane video    :    %5<PRIi64>"
+msgstr "| dekodovane video : %5<PRIi64>"
 
 #: modules/control/rc.c:1765 modules/gui/ncurses.c:823
 #, c-format
 msgid "| frames displayed :    %5<PRIi64>"
-msgstr "| zobrazene snimky :    %5<PRIi64>"
+msgstr "| zobrazene snimky : %5<PRIi64>"
 
 #: modules/control/rc.c:1767 modules/gui/ncurses.c:825
 #, c-format
 msgid "| frames lost      :    %5<PRIi64>"
-msgstr "| stratene snimky      :    %5<PRIi64>"
+msgstr "| stratene snimky : %5<PRIi64>"
 
 #: modules/control/rc.c:1771 modules/gui/ncurses.c:831
 msgid "+-[Audio Decoding]"
@@ -14766,17 +14767,17 @@ msgstr "+-[Dekodovanie zvuku]"
 #: modules/control/rc.c:1772 modules/gui/ncurses.c:833
 #, c-format
 msgid "| audio decoded    :    %5<PRIi64>"
-msgstr "| dekodovany zvuk    :    %5<PRIi64>"
+msgstr "| dekodovany zvuk : %5<PRIi64>"
 
 #: modules/control/rc.c:1774 modules/gui/ncurses.c:835
 #, c-format
 msgid "| buffers played   :    %5<PRIi64>"
-msgstr "| prehrane z vyr. pamate   :    %5<PRIi64>"
+msgstr "| prehrane z vyr. pamate : %5<PRIi64>"
 
 #: modules/control/rc.c:1776 modules/gui/ncurses.c:837
 #, c-format
 msgid "| buffers lost     :    %5<PRIi64>"
-msgstr "| stratene z vyr. pamate     :    %5<PRIi64>"
+msgstr "| stratene z vyr. pamate : %5<PRIi64>"
 
 #: modules/control/rc.c:1780 modules/gui/ncurses.c:842
 msgid "+-[Streaming]"
@@ -14785,17 +14786,17 @@ msgstr "+-[Streamovanie]"
 #: modules/control/rc.c:1781 modules/gui/ncurses.c:844
 #, c-format
 msgid "| packets sent     :    %5<PRIi64>"
-msgstr "| odoslane pakety     :    %5<PRIi64>"
+msgstr "| odoslane pakety : %5<PRIi64>"
 
 #: modules/control/rc.c:1783 modules/gui/ncurses.c:845
 #, c-format
 msgid "| bytes sent       : %8.0f KiB"
-msgstr "| odoslane byty       : %8.0f KiB"
+msgstr "| odoslane byty : %8.0f KiB"
 
 #: modules/control/rc.c:1785 modules/gui/ncurses.c:847
 #, c-format
 msgid "| sending bitrate  :   %6.0f kb/s"
-msgstr "| datovy tok pri odosielani  :   %6.0f kb/s"
+msgstr "| datovy tok pri odosielani : %6.0f kb/s"
 
 #: modules/demux/aiff.c:49
 msgid "AIFF demuxer"
@@ -15051,7 +15052,7 @@ msgstr "Prvýkrát prehrávané"
 
 #: modules/demux/mkv/chapter_command.cpp:151
 msgid "Video Manager"
-msgstr "Video-manažér"
+msgstr "Manažér videa"
 
 #: modules/demux/mkv/chapter_command.cpp:157
 msgid "----- Title"
@@ -15903,7 +15904,7 @@ msgstr "MPEG-4 video"
 
 #: modules/demux/mpeg/h264.c:44
 msgid "Desired frame rate for the H264 stream."
-msgstr "Frekvencia snímok cieľového video-streamu vo formáte H264."
+msgstr "Cieľová frekvencia snímok streamu s videom H264."
 
 #: modules/demux/mpeg/h264.c:51
 msgid "H264 video demuxer"
@@ -15940,8 +15941,8 @@ msgstr "Cez protokol shoutcast zobraziť aj obsah určený pre dospelých"
 #: modules/demux/playlist/playlist.c:47
 msgid "Show NC17 rated video streams when using shoutcast video playlists."
 msgstr ""
-"Pri zobrazovaní playlistu cez protokol zobraziť aj hodnotenie video-streamov "
-"podľa NC17."
+"Pri zobrazovaní playlistu cez protokol zobraziť aj hodnotenie streamov s "
+"videom podľa NC17."
 
 #: modules/demux/playlist/playlist.c:50
 msgid "Skip ads"
@@ -16172,16 +16173,16 @@ msgid ""
 "This is the desired frame rate when playing raw video streams. In the form "
 "30000/1001 or 29.97"
 msgstr ""
-"Toto je cieľová frekvencia snímok pri prehrávaní video-streamov vo formáte "
-"raw. Zadáva sa v tvare 30000/1001 alebo 29.97"
+"Toto je cieľová frekvencia snímok pri prehrávaní streamov s videom vo "
+"formáte raw. Zadáva sa v tvare 30000/1001 alebo 29.97"
 
 #: modules/demux/rawvid.c:49
 msgid "This specifies the width in pixels of the raw video stream."
-msgstr "Tu môžete zadať šírku (v pixeloch) video-streamu vo formáte raw."
+msgstr "Tu môžete zadať šírku, v pixeloch, streamu s videom vo formáte raw."
 
 #: modules/demux/rawvid.c:53
 msgid "This specifies the height in pixels of the raw video stream."
-msgstr "Táto hodnota udáva výšku video-streamu v pixeloch."
+msgstr "Táto hodnota udáva výšku streamu s videom v pixeloch."
 
 #: modules/demux/rawvid.c:56
 msgid "Force chroma (Use carefully)"
@@ -18271,7 +18272,7 @@ msgstr "Stiahnuť obal diela"
 
 #: modules/gui/macosx/playlist.m:505
 msgid "Fetch Meta Data"
-msgstr "Získať meta-údaje"
+msgstr "Získať metadáta"
 
 #: modules/gui/macosx/playlist.m:506 modules/gui/macosx/playlist.m:507
 msgid "Reveal in Finder"
@@ -18324,7 +18325,7 @@ msgstr "Umiestnenie"
 
 #: modules/gui/macosx/playlistinfo.m:76
 msgid "Save Metadata"
-msgstr "Uložiť meta-údaje"
+msgstr "Uložiť metadáta"
 
 #: modules/gui/macosx/playlistinfo.m:78
 #: modules/visualization/visual/visual.c:111
@@ -18391,11 +18392,11 @@ msgstr "Stratené buffery"
 
 #: modules/gui/macosx/playlistinfo.m:359
 msgid "Error while saving meta"
-msgstr "Chyba počas ukladania meta-dát"
+msgstr "Chyba počas ukladania metadát"
 
 #: modules/gui/macosx/playlistinfo.m:360
 msgid "VLC was unable to save the meta data."
-msgstr "Program VLC nemohol uložiť meta-údaje"
+msgstr "Program VLC nemohol uložiť metadáta."
 
 #: modules/gui/macosx/prefs.m:206 modules/gui/macosx/simple_prefs.m:286
 #: modules/gui/qt4/dialogs/preferences.cpp:52
@@ -18648,7 +18649,7 @@ msgstr "Výstupný modul"
 
 #: modules/gui/macosx/simple_prefs.m:271 modules/gui/qt4/ui/sprefs_video.h:357
 msgid "Video snapshots"
-msgstr "Screenshot z videa"
+msgstr "Snímky z videa"
 
 #: modules/gui/macosx/simple_prefs.m:273 modules/meta_engine/folder.c:63
 msgid "Folder"
@@ -18724,7 +18725,7 @@ msgstr ""
 
 #: modules/gui/macosx/simple_prefs.m:1062
 msgid "Choose the folder to save your video snapshots to."
-msgstr "Tu si zvoľte priečinok, do ktorého sa uložia screenshoty z videa."
+msgstr "Tu si zvoľte priečinok, do ktorého sa uložia snímky z videa."
 
 #: modules/gui/macosx/simple_prefs.m:1064
 #: modules/gui/macosx/simple_prefs.m:1155
@@ -19765,7 +19766,7 @@ msgstr " i                      Zobraziť/skryt info box"
 
 #: modules/gui/ncurses.c:869
 msgid " M                      Show/Hide metadata box"
-msgstr " M                      Zobrazit/skryt box s meta-udajmi"
+msgstr " M                      Zobrazit/skryt box s metadatami"
 
 #: modules/gui/ncurses.c:870
 msgid " L                      Show/Hide messages box"
@@ -20114,7 +20115,7 @@ msgstr "Prepnúť playlist"
 
 #: modules/gui/qt4/components/controller.hpp:129
 msgid "Take a snapshot"
-msgstr "Vytvoriť screenshot"
+msgstr "Vytvoriť snímku"
 
 #: modules/gui/qt4/components/controller.hpp:130
 msgid "Loop from point A to point B continuously."
@@ -20343,7 +20344,7 @@ msgstr "&Odtlačok"
 
 #: modules/gui/qt4/components/info_panels.cpp:143
 msgid "Find meta data using audio fingerprinting"
-msgstr "Hľadať meta-údaje s použitím audio fingerprinting"
+msgstr "Hľadať metadáta s použitím audio fingerprinting"
 
 #: modules/gui/qt4/components/info_panels.cpp:163
 msgid "Comments"
@@ -20351,7 +20352,7 @@ msgstr "Komentáre"
 
 #: modules/gui/qt4/components/info_panels.cpp:378
 msgid "Extra metadata and other information are shown in this panel.\n"
-msgstr "V tomto zozname sa zobrazujú zvláštne meta-údaje a iné informácie.\n"
+msgstr "V tomto zozname sa zobrazujú zvláštne metadáta a iné informácie.\n"
 
 #: modules/gui/qt4/components/info_panels.cpp:450
 msgid ""
@@ -21096,7 +21097,7 @@ msgstr ""
 "<p>Aj napriek tomu je však program <i>VLC</i> schopný automaticky získavať "
 "infomácie o médiu vo vašom playliste, z internetových služieb iných "
 "poskytovateľov. Tieto informácie môžu zahŕňať obaly, názvy stôp, autorizáciu "
-"alebo aj iné meta-dáta.</p>\n"
+"alebo aj iné metadáta.</p>\n"
 "To môže spôsobiť identifikáciu niektorých vašich mediálnych súborov zo "
 "strany tretích osôb. Preto vývojári programu <i>VLC</i> vyžadujú Váš "
 "explicitný súhlas pre prehrávač médií, že povoľujete automatické "
@@ -21107,7 +21108,7 @@ msgid "Network Access Policy"
 msgstr "Politika pre prístup k sieti"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:98
-msgid "Automatically retrieve media info"
+msgid "Automatically retrieve media infos"
 msgstr "Automaticky preberať informácie o médiu"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:103
@@ -21168,7 +21169,7 @@ msgstr "&Všeobecné"
 
 #: modules/gui/qt4/dialogs/mediainfo.cpp:65
 msgid "&Metadata"
-msgstr "&Meta-dáta"
+msgstr "&Metadáta"
 
 #: modules/gui/qt4/dialogs/mediainfo.cpp:67
 msgid "Co&dec"
@@ -21180,7 +21181,7 @@ msgstr "Š&tatistiky"
 
 #: modules/gui/qt4/dialogs/mediainfo.cpp:77
 msgid "&Save Metadata"
-msgstr "&Uložiť meta-údaje"
+msgstr "&Uložiť metadáta"
 
 #: modules/gui/qt4/dialogs/mediainfo.cpp:82
 msgid "Location:"
@@ -21232,7 +21233,7 @@ msgstr "&Sieť"
 
 #: modules/gui/qt4/dialogs/open.cpp:96
 msgid "Capture &Device"
-msgstr "&Snímacie zariadenie..."
+msgstr "&Snímacie zariadenie"
 
 #: modules/gui/qt4/dialogs/open.cpp:111
 msgid "&Select"
@@ -21695,7 +21696,7 @@ msgstr "Otvoriť stream v &sieti..."
 
 #: modules/gui/qt4/menus.cpp:363 modules/gui/qt4/menus.cpp:924
 msgid "Open &Capture Device..."
-msgstr "Pripojiť &snímacie zariadenie..."
+msgstr "Otvoriť &snímacie zariadenie..."
 
 #: modules/gui/qt4/menus.cpp:366
 msgid "Open &Location from clipboard"
@@ -21827,7 +21828,7 @@ msgstr "Stopa s &titulkami"
 
 #: modules/gui/qt4/menus.cpp:662
 msgid "Video &Track"
-msgstr "Video-&stopa"
+msgstr "Video &stopa"
 
 #: modules/gui/qt4/menus.cpp:666
 msgid "&Fullscreen"
@@ -22419,19 +22420,19 @@ msgstr "Lua Telnet"
 
 #: modules/lua/vlc.c:134
 msgid "Lua Meta Fetcher"
-msgstr "Nosič meta-údajov Lua"
+msgstr "Nosič metadát Lua"
 
 #: modules/lua/vlc.c:135
 msgid "Fetch meta data using lua scripts"
-msgstr "Sprostredkovať meta-dáta pomocou skriptov lua"
+msgstr "Sprostredkovať metadáta pomocou skriptov lua"
 
 #: modules/lua/vlc.c:140
 msgid "Lua Meta Reader"
-msgstr "Čítačka meta-údajov Lua"
+msgstr "Čítačka metadát Lua"
 
 #: modules/lua/vlc.c:141
 msgid "Read meta data using lua scripts"
-msgstr "Prečítať meta-údaje s použitím skriptov lua"
+msgstr "Prečítať metadáta s použitím skriptov lua"
 
 #: modules/lua/vlc.c:147
 msgid "Lua Playlist"
@@ -22459,7 +22460,7 @@ msgstr "SD modul Lua"
 
 #: modules/meta_engine/folder.c:64
 msgid "Folder meta data"
-msgstr "Priečinok s meta-údajmi"
+msgstr "Priečinok s metadátami"
 
 #: modules/meta_engine/folder.c:66
 msgid "Album art filename"
@@ -22896,7 +22897,8 @@ msgstr "Video PID"
 msgid ""
 "Assign a fixed PID to the video stream. The PCR PID will automatically be "
 "the video."
-msgstr "Tu môžete prideliť fixný PID identifikátor k určitému video-streamu. "
+msgstr ""
+"Tu môžete prideliť fixný PID identifikátor k určitému streamu s videom. "
 
 #: modules/mux/mpeg/ts.c:91
 msgid "Audio PID"
@@ -23778,7 +23780,7 @@ msgstr "Filter videa"
 
 #: modules/stream_out/mosaic_bridge.c:121
 msgid "Video filters will be applied to the video stream."
-msgstr "Filtre videa, aplikované na video-stream."
+msgstr "Filtre videa, aplikované na stream s videom."
 
 #: modules/stream_out/mosaic_bridge.c:123
 msgid "Image chroma"
@@ -24255,7 +24257,7 @@ msgstr ""
 
 #: modules/stream_out/transcode/transcode.c:48
 msgid "Destination video codec"
-msgstr "Video-kodek cieľového videa"
+msgstr "Kodek cieľového videa"
 
 #: modules/stream_out/transcode/transcode.c:50
 msgid "This is the video codec that will be used."
@@ -24268,7 +24270,7 @@ msgstr "Dátový tok videa"
 
 #: modules/stream_out/transcode/transcode.c:53
 msgid "Target bitrate of the transcoded video stream."
-msgstr "Dátový tok v prekódovanom video-streame."
+msgstr "Dátový tok v prekódovanom streame s videom."
 
 #: modules/stream_out/transcode/transcode.c:54
 msgid "Video scaling"
@@ -24284,7 +24286,7 @@ msgstr "Frekvencia snímok videa"
 
 #: modules/stream_out/transcode/transcode.c:59
 msgid "Target output frame rate for the video stream."
-msgstr "Frekvencia snímok cieľového video-streamu."
+msgstr "Frekvencia snímok cieľového streamu s videom."
 
 #: modules/stream_out/transcode/transcode.c:60
 msgid "Deinterlace video"
@@ -24408,7 +24410,7 @@ msgid ""
 "overlayed directly onto the video. You can specify a colon-separated list of "
 "subpicture modules"
 msgstr ""
-"Touto voľbou môžete pridať do prekódovávaného video-streamu prekrývacie "
+"Touto voľbou môžete pridať do prekódovávaného streamu s videom prekrývacie "
 "obrázky (označované aj ako \"pod-obrázky\"). Pod-obrázky vytvorené filtrami "
 "budú prekrývané priamo na videu. Môžete zadať zoznam modulov s pod-"
 "obrázkami, záznamy oddeľujte dvojbodkou"
@@ -26308,7 +26310,7 @@ msgid ""
 msgstr ""
 "Text, ktorý sa zobrazí v značke. (Dostupné sú formátovacie príkazy: Časové: "
 "%Y = rok, %m = mesiac, %d = deň, %H = hodina, %M = minúta, %S = sekunda, ... "
-"Meta dáta: $a = umelec, $b = album, $c = copyright, $d = popis, $e = "
+"Metadáta: $a = umelec, $b = album, $c = copyright, $d = popis, $e = "
 "kódované, $g = žáner, $l = jazyk, $n = číslo stopy, $p = práve sa prehráva, "
 "$r = hodnotenie, $s = jazyk titulkov, $t = názov, $u = url adresa, $A = "
 "dátum, $B = dátový tok zvuku (v kb/s), $C = kapitola,$D = trvanie, $F = plný "
@@ -26355,8 +26357,8 @@ msgid ""
 "using meta data or time format string sequences."
 msgstr ""
 "Počet milisekúnd medzi aktualizáciami príkazu. Táto funkcia sa používa najmä "
-"pri využívaní meta-údajov alebo pri sekvenciách príkazov, obsahujúcich "
-"časové údaje."
+"pri využívaní metadát alebo pri sekvenciách príkazov, obsahujúcich časové "
+"údaje."
 
 #: modules/video_filter/marq.c:119
 msgid ""
@@ -28883,7 +28885,7 @@ msgstr "Čas spustenia"
 
 #: modules/gui/qt4/ui/open.h:255
 msgid "Edit Options"
-msgstr "Upraviť vlastnosti"
+msgstr "Úprava vlast."
 
 #: modules/gui/qt4/ui/open.h:256
 msgid "Extra media"
@@ -32444,7 +32446,7 @@ msgstr "Zoznam správcov médií"
 
 #, fuzzy
 #~ msgid "| @name marq-timeout T. . . . . . . . . . timeout, in ms"
-#~ msgstr "| adev [X] . . . . . . . . .  zaznamenat screenshot z videa"
+#~ msgstr "| snapshot . . . . . . . . .  zaznamenat snímku z videa"
 
 #, fuzzy
 #~ msgid "| @name marq-size # . . . . . . . . font size, in pixels"
@@ -32575,7 +32577,7 @@ msgstr "Zoznam správcov médií"
 #~ "This is the desired frame rate when playing raw video streams.  In the "
 #~ "form 30000/1001 or 29.97"
 #~ msgstr ""
-#~ "Toto je cieľová frekvencia snímok pri prehrávaní video-streamov vo "
+#~ "Toto je cieľová frekvencia snímok pri prehrávaní streamov s videom vo "
 #~ "formáte raw. Zadáva sa v tvare 30000/1001 alebo 29.97"
 
 #, fuzzy
@@ -32721,7 +32723,7 @@ msgstr "Zoznam správcov médií"
 
 #, fuzzy
 #~ msgid "Capture Device"
-#~ msgstr "&Snímacie zariadenie..."
+#~ msgstr "&Snímacie zariadenie"
 
 #, fuzzy
 #~ msgid "Frames per Second:"
@@ -32908,7 +32910,7 @@ msgstr "Zoznam správcov médií"
 
 #, fuzzy
 #~ msgid "      input bitrate    :   %6.0f kb/s"
-#~ msgstr "| datovy tok na vstupe    :   %6.0f kb/s"
+#~ msgstr "| datovy tok na vstupe : %6.0f kb/s"
 
 #, fuzzy
 #~ msgid "      demux bytes read : %8.0f KiB"
@@ -32916,7 +32918,7 @@ msgstr "Zoznam správcov médií"
 
 #, fuzzy
 #~ msgid "      demux bitrate    :   %6.0f kb/s"
-#~ msgstr "| datovy tok pri demuxovani    :   %6.0f kb/s"
+#~ msgstr "| datovy tok pri demuxovani : %6.0f kb/s"
 
 #, fuzzy
 #~ msgid "  [Video Decoding]"
@@ -32924,15 +32926,15 @@ msgstr "Zoznam správcov médií"
 
 #, fuzzy
 #~ msgid "      video decoded    :    %<PRId64>"
-#~ msgstr "| dekodovane video    :    %5<PRIi64>"
+#~ msgstr "| dekodovane video : %5<PRIi64>"
 
 #, fuzzy
 #~ msgid "      frames displayed :    %<PRId64>"
-#~ msgstr "| zobrazene snimky :    %5<PRIi64>"
+#~ msgstr "| zobrazene snimky : %5<PRIi64>"
 
 #, fuzzy
 #~ msgid "      frames lost      :    %<PRId64>"
-#~ msgstr "| stratene snimky      :    %5<PRIi64>"
+#~ msgstr "| stratene snimky : %5<PRIi64>"
 
 #, fuzzy
 #~ msgid "  [Audio Decoding]"
@@ -32940,15 +32942,15 @@ msgstr "Zoznam správcov médií"
 
 #, fuzzy
 #~ msgid "      audio decoded    :    %<PRId64>"
-#~ msgstr "| dekodovany zvuk    :    %5<PRIi64>"
+#~ msgstr "| dekodovany zvuk : %5<PRIi64>"
 
 #, fuzzy
 #~ msgid "      buffers played   :    %<PRId64>"
-#~ msgstr "| prehrane z vyr. pamate   :    %5<PRIi64>"
+#~ msgstr "| prehrane z vyr. pamate : %5<PRIi64>"
 
 #, fuzzy
 #~ msgid "      buffers lost     :    %<PRId64>"
-#~ msgstr "| stratene z vyr. pamate     :    %5<PRIi64>"
+#~ msgstr "| stratene z vyr. pamate : %5<PRIi64>"
 
 #, fuzzy
 #~ msgid "  [Streaming]"
@@ -32956,19 +32958,19 @@ msgstr "Zoznam správcov médií"
 
 #, fuzzy
 #~ msgid "      packets sent     :    %5i"
-#~ msgstr "| odoslane pakety     :    %5<PRIi64>"
+#~ msgstr "| odoslane pakety : %5<PRIi64>"
 
 #, fuzzy
 #~ msgid "      bytes sent       : %8.0f KiB"
-#~ msgstr "| odoslane byty       : %8.0f KiB"
+#~ msgstr "| odoslane byty : %8.0f KiB"
 
 #, fuzzy
 #~ msgid "      sending bitrate  :   %6.0f kb/s"
-#~ msgstr "| datovy tok pri odosielani  :   %6.0f kb/s"
+#~ msgstr "| datovy tok pri odosielani : %6.0f kb/s"
 
 #, fuzzy
 #~ msgid " m                      Show/Hide metadata box"
-#~ msgstr " M                      Zobrazit/skryt box s meta-udajmi"
+#~ msgstr " M                      Zobrazit/skryt box s metadatami"
 
 #, fuzzy
 #~ msgid " Volume   : %u%%"
@@ -33177,7 +33179,7 @@ msgstr "Zoznam správcov médií"
 
 #, fuzzy
 #~ msgid "Username for the database"
-#~ msgstr "Frekvencia snímok cieľového video-streamu."
+#~ msgstr "Cieľová frekvencia snímok pre záznam."
 
 #, fuzzy
 #~ msgid "Password for the database"
@@ -34315,7 +34317,7 @@ msgstr "Zoznam správcov médií"
 
 #, fuzzy
 #~ msgid "Fake video input"
-#~ msgstr "Vytvoriť screenshot z videa"
+#~ msgstr "Vytvoriť snímku z videa"
 
 #, fuzzy
 #~ msgid "Supplementary caching value for remote files, in milliseconds."
@@ -34729,11 +34731,11 @@ msgstr "Zoznam správcov médií"
 
 #, fuzzy
 #~ msgid "Memory video decoder"
-#~ msgstr "Video-dekodér Theora"
+#~ msgstr "Video dekodér Theora"
 
 #, fuzzy
 #~ msgid "Schroedinger video decoder"
-#~ msgstr "Video-dekodér Theora"
+#~ msgstr "Video dekodér Theora"
 
 #, fuzzy
 #~ msgid "Enable debug"
@@ -34990,7 +34992,7 @@ msgstr "Zoznam správcov médií"
 
 #, fuzzy
 #~ msgid "\\ sending bitrate  :   %6.0f kb/s"
-#~ msgstr "| datovy tok pri odosielani  :   %6.0f kb/s"
+#~ msgstr "| datovy tok pri odosielani : %6.0f kb/s"
 
 #, fuzzy
 #~ msgid " Playlist (By category) "
@@ -35006,7 +35008,7 @@ msgstr "Zoznam správcov médií"
 
 #, fuzzy
 #~ msgid "&Extra Metadata"
-#~ msgstr "&Uložiť meta-údaje"
+#~ msgstr "&Uložiť metadáta"
 
 #, fuzzy
 #~ msgid "&Codec Details"
@@ -35054,7 +35056,7 @@ msgstr "Zoznam správcov médií"
 
 #, fuzzy
 #~ msgid "Sna&pshot"
-#~ msgstr "Screenshot"
+#~ msgstr "Snímka"
 
 #, fuzzy
 #~ msgid "Manage &bookmarks"
@@ -35119,7 +35121,7 @@ msgstr "Zoznam správcov médií"
 
 #, fuzzy
 #~ msgid "Interfaces implemented using lua scripts"
-#~ msgstr "Prečítať meta-údaje s použitím skriptov lua"
+#~ msgstr "Prečítať metadáta s použitím skriptov lua"
 
 #, fuzzy
 #~ msgid "Lua Interface Module (shortcuts)"
@@ -35145,7 +35147,7 @@ msgstr "Zoznam správcov médií"
 #~ msgstr ""
 #~ "Text, ktorý sa zobrazí v značke. (Dostupné sú formátovacie príkazy: "
 #~ "Časové: %Y = rok, %m = mesiac, %d = deň, %H = hodina, %M = minúta, %S = "
-#~ "sekunda, ... Meta dáta: $a = umelec, $b = album, $c = copyright, $d = "
+#~ "sekunda, ... Metadáta: $a = umelec, $b = album, $c = copyright, $d = "
 #~ "popis, $e = kódované, $g = žáner, $l = jazyk, $n = číslo stopy, $p = "
 #~ "práve sa prehráva, $r = hodnotenie, $s = jazyk titulkov, $t = názov, $u = "
 #~ "url adresa, $A = dátum, $B = dátový tok zvuku (v kb/s), $C = kapitola,$D "
@@ -35203,15 +35205,15 @@ msgstr "Zoznam správcov médií"
 
 #, fuzzy
 #~ msgid "Snapshot width"
-#~ msgstr "Šírka screenshotu z videa"
+#~ msgstr "Šírka snímky z videa"
 
 #, fuzzy
 #~ msgid "Width of the snapshot image."
-#~ msgstr "Formát screenshotu z videa"
+#~ msgstr "Formát snímky z videa"
 
 #, fuzzy
 #~ msgid "Snapshot height"
-#~ msgstr "Výška screenshotu z videa"
+#~ msgstr "Výška snímky z videa"
 
 #, fuzzy
 #~ msgid "Height of the snapshot image."
@@ -35227,7 +35229,7 @@ msgstr "Zoznam správcov médií"
 
 #, fuzzy
 #~ msgid "Snapshot output"
-#~ msgstr "Screenshot"
+#~ msgstr "Snímka"
 
 #, fuzzy
 #~ msgid "SVGAlib video output"
