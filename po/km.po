@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the VLC package.
 #
 # Translators:
-# Khoem Sokhem <khoemsokhem@khmeros.info>, 2012
+# khoemsokhem <sokhem@open.org.kh>, 2012,2013
 # Sok Sophea <sophea@khmeros.info>, 2012
 # soksophea <sophea@open.org.kh>, 2013
 msgid ""
@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-09-08 20:08+0200\n"
-"PO-Revision-Date: 2013-08-22 04:26+0000\n"
-"Last-Translator: soksophea <sophea@open.org.kh>\n"
+"PO-Revision-Date: 2013-09-17 09:32+0000\n"
+"Last-Translator: khoemsokhem <sokhem@open.org.kh>\n"
 "Language-Team: Khmer (http://www.transifex.com/projects/p/vlc-trans/language/"
 "km/)\n"
 "Language: km\n"
@@ -65,7 +65,7 @@ msgstr "ការ​កំណត់​ចំណុច​ប្រទាក់​
 
 #: include/vlc_config_cat.h:46 src/libvlc-module.c:81
 msgid "Control interfaces"
-msgstr "ចំណុច​ប្រទាក់​គ្រប់គ្រង"
+msgstr "​គ្រប់គ្រងចំណុច​ប្រទាក់"
 
 #: include/vlc_config_cat.h:47
 msgid "Settings for VLC's control interfaces"
@@ -1235,7 +1235,7 @@ msgstr "ប្រភេទ"
 
 #: src/input/es_out.c:2883
 msgid "Original ID"
-msgstr "លេខ​សម្គាល់​ដើម"
+msgstr "លេខ​សម្គាល់​ច្បាប់​ដើម"
 
 #: src/input/es_out.c:2891 src/input/es_out.c:2894 modules/access/imem.c:67
 #: modules/gui/macosx/ConvertAndSave.m:177
@@ -3124,8 +3124,6 @@ msgid ""
 "This file contains an optional CRL to prevent remote clients from using "
 "revoked certificates in TLS sessions."
 msgstr ""
-"ឯកសារ​នេះ​មាន CRL ជា​ជម្រើស​ដើម្បី​ការ​ពារ​ការ​លុប​ម៉ាស៊ីន​កូន​ចេញពី​ការ​ប្រើប្រាស់​វិញ្ញាបនបត្រ​ដកហូត​នៅ​ក្នុង​"
-"សម័យ TLS ។"
 
 #: src/libvlc-module.c:845
 msgid "SOCKS server"
@@ -18404,9 +18402,6 @@ msgid ""
 "that only a small part of the MMS protocol is supported (MMS encapsulated in "
 "HTTP)."
 msgstr ""
-"ប្រើ​វា​ដើម្បី​ស្ទ្រីម​កុំព្យូទ័រ​ច្រើន ដោយ​ប្រើ​ពិធីការ MMS របស់​ម៉ៃក្រូសូហ្វ ។ ពិធីការ​នេះ​គឺ​ត្រូវ​បាន​ប្រើ​ជា​"
-"វិធីសាស្ត្រ​បញ្ជូន​​ដោយ​កម្មវិធី​ជា​ច្រើន​របស់​របស់​ម៉ៃក្រូសូហ្វ ។ ចងចាំ​ថា មានតែ​មួយ​ផ្នែក​តូច​របស់​ពិធីការ MMS "
-"ប៉ុណ្ណោះ​ដែល​បាន​គាំទ្រ (MMS ដែល​បាន​ស្រោប​នៅ​ក្នុង HTTP) ។"
 
 #: modules/gui/macosx/wizard.m:270 modules/gui/macosx/wizard.m:280
 msgid "Enter the address of the computer to stream to."
@@ -27995,9 +27990,8 @@ msgid "Default caching policy"
 msgstr "គោលការណ៍​ឃ្លាំង​សម្ងាត់​លំនាំដើម"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:514
-#, fuzzy
 msgid "Menus language:"
-msgstr "ភាសា​អូឌីយ៉ូ"
+msgstr "ភាសា​ម៉ឺនុយ ៖"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:515
 msgid "Look and feel"
@@ -30450,6 +30444,14 @@ msgstr "បញ្ជី​គ្រប់គ្រង​មេឌៀ"
 #~ msgstr "មិនបាន​រក្សាទុក​ការ​កំណត់​ចំណងជើង​/​ការ​បង្ហាញ​លើ​អេក្រង់"
 
 #, fuzzy
+#~ msgid ""
+#~ "This file countains an optional CRL to prevent remote clients from using "
+#~ "revoked certificates in TLS sessions."
+#~ msgstr ""
+#~ "ឯកសារ​នេះ​មាន CRL ជា​ជម្រើស​ដើម្បី​ការ​ពារ​ការ​លុប​ម៉ាស៊ីន​កូន​ចេញពី​ការ​ប្រើប្រាស់​វិញ្ញាបនបត្រ​ដកហូត​នៅ​"
+#~ "ក្នុង​សម័យ TLS ។"
+
+#, fuzzy
 #~ msgid "Subtitles/OSD"
 #~ msgstr "ចំណងជើង​រង / OSD"
 
@@ -30620,14 +30622,6 @@ msgstr "បញ្ជី​គ្រប់គ្រង​មេឌៀ"
 #~ msgstr ""
 #~ "ផ្នែក​បន្ថែម​នេះ​ត្រូវ​បាន​ហៅ​ផង​ដែរ​ថា \"តម្រង​រូបភាព​រង\" ។ តម្រង​រូបភាព​រង​ទាំងនេះ​ត្រូវ​បង្កើត​ឡើង​"
 #~ "ដោយ​កម្មវិធី​ឌិកូដ​ចំណងជើង​រង ឬ​ប្រភព​រូបភាព​រង​ផ្សេងទៀត។"
-
-#, fuzzy
-#~ msgid ""
-#~ "This file countains an optional CRL to prevent remote clients from using "
-#~ "revoked certificates in TLS sessions."
-#~ msgstr ""
-#~ "ឯកសារ​នេះ​មាន CRL ជា​ជម្រើស​ដើម្បី​ការ​ពារ​ការ​លុប​ម៉ាស៊ីន​កូន​ចេញពី​ការ​ប្រើប្រាស់​វិញ្ញាបនបត្រ​ដកហូត​នៅ​"
-#~ "ក្នុង​សម័យ TLS ។"
 
 #, fuzzy
 #~ msgid ""
