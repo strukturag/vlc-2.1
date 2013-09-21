@@ -11,14 +11,15 @@
 # Vindex17 <vindex17@outlook.it>, 2013
 # Marco91, 2013
 # polxmod <paolo.velati@gmail.com>, 2013
+# verodigiorgio <verodigiorgio@gmail.com>, 2013
 # Vincenzo Reale <smart2128@baslug.org>, 2006,2008-2013
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-09-08 20:08+0200\n"
-"PO-Revision-Date: 2013-09-10 14:17+0000\n"
-"Last-Translator: Marco91\n"
+"PO-Revision-Date: 2013-09-19 05:38+0000\n"
+"Last-Translator: Vincenzo Reale <vinx.reale@gmail.com>\n"
 "Language-Team: Italian (http://www.transifex.com/projects/p/vlc-trans/"
 "language/it/)\n"
 "Language: it\n"
@@ -12776,6 +12777,9 @@ msgid ""
 "Some subtitle formats allow for text formatting. VLC partly implements this, "
 "but you can choose to disable all formatting."
 msgstr ""
+"Il formato di alcuni sottotitoli permette la formattazione del testo. VLC lo "
+"implementa parzialmente, ma puoi scegliere di disabilitare qualunque "
+"formattazione."
 
 #: modules/codec/subsdec.c:182
 msgid "Text subtitle decoder"
@@ -12980,6 +12984,9 @@ msgid ""
 "improving quality for a given bitrate at the cost of seeking precision. Use "
 "-1 for infinite."
 msgstr ""
+"Imposta il massimo intervallo tra le frame IDR. Un valore maggiore risparmia "
+"bit, incrementando la qualità per un dato bit-rate diminuendo la precisione "
+"di ricerca (seeking). Usa -1 per infinito"
 
 #: modules/codec/x264.c:67
 msgid "Minimum GOP size"
@@ -12996,6 +13003,14 @@ msgid ""
 "If scenecuts appear within this interval, they are still encoded as I-"
 "frames, but do not start a new GOP."
 msgstr ""
+"Imposta il minimo intervallo tra le frame IDR. Usando H.264, le I-frame non "
+"devono necessariamente racchiudere un GOP chiuso perché è possibile che una "
+"P-frame venga essere previsto da più frame anziché solamente da quella "
+"precedente (vedi anche le opzioni frame).  Pertanto, le I-frame non sono "
+"necessariamente ricercabili. Le frame IDR limitano che P-frame consecutive "
+"vengano trattate da qualunque frame precedente alle IDR frame.\n"
+"Se avvengono dei cambi di scena in questo intervallo, essi vengono comunque "
+"codificati come I-frame, ma non iniziano un nuovo GOP"
 
 #: modules/codec/x264.c:77
 msgid "Use recovery points to close GOPs"
@@ -13007,6 +13022,9 @@ msgid ""
 "normal: use standard open GOPs\n"
 "bluray: use Blu-ray compatible open GOPs"
 msgstr ""
+"nessuno: usa solo GOP chiusi\n"
+"normale: usa GOP standard aperti\n"
+"bluray: usa GOP aperti compatibili con Blu-ray"
 
 #: modules/codec/x264.c:83
 msgid "use open GOP, for bluray compatibility use also bluray-compat option"
