@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2013-09-08 20:08+0200\n"
+"POT-Creation-Date: 2013-09-21 15:06+0200\n"
 "PO-Revision-Date: 2013-09-09 08:20+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Chinese (China) <vlc@lidian.info>\n"
@@ -77,7 +77,7 @@ msgstr "热键设置"
 
 #: include/vlc_config_cat.h:53 src/input/es_out.c:2866 src/input/es_out.c:2907
 #: src/libvlc-module.c:1456 modules/access/imem.c:64
-#: modules/gui/macosx/ConvertAndSave.m:185 modules/gui/macosx/MainMenu.m:376
+#: modules/gui/macosx/ConvertAndSave.m:185 modules/gui/macosx/MainMenu.m:377
 #: modules/gui/macosx/output.m:161 modules/gui/macosx/playlistinfo.m:112
 #: modules/gui/macosx/simple_prefs.m:142 modules/gui/macosx/wizard.m:377
 #: modules/gui/qt4/components/info_panels.cpp:551
@@ -107,7 +107,7 @@ msgid "Audio filters are used to process the audio stream."
 msgstr "音频滤镜被用于对音频串流进行处理。"
 
 #: include/vlc_config_cat.h:61 src/audio_output/output.c:217
-#: modules/gui/macosx/MainMenu.m:386 modules/gui/macosx/MainMenu.m:387
+#: modules/gui/macosx/MainMenu.m:387 modules/gui/macosx/MainMenu.m:388
 msgid "Visualizations"
 msgstr "可视化"
 
@@ -136,7 +136,7 @@ msgstr "其它音频设置与模块。"
 
 #: include/vlc_config_cat.h:71 src/input/es_out.c:2869 src/input/es_out.c:2951
 #: src/libvlc-module.c:1510 modules/access/imem.c:64
-#: modules/gui/macosx/ConvertAndSave.m:175 modules/gui/macosx/MainMenu.m:389
+#: modules/gui/macosx/ConvertAndSave.m:175 modules/gui/macosx/MainMenu.m:390
 #: modules/gui/macosx/output.m:151 modules/gui/macosx/playlistinfo.m:102
 #: modules/gui/macosx/simple_prefs.m:144 modules/gui/macosx/simple_prefs.m:279
 #: modules/gui/macosx/wizard.m:378
@@ -465,10 +465,10 @@ msgid "&About"
 msgstr "关于(&A)"
 
 #: include/vlc_intf_strings.h:65 modules/control/rc.c:72
-#: modules/gui/macosx/ControlsBar.m:404 modules/gui/macosx/MainMenu.m:349
-#: modules/gui/macosx/MainMenu.m:456 modules/gui/macosx/MainMenu.m:463
-#: modules/gui/macosx/MainMenu.m:1182 modules/gui/macosx/MainMenu.m:1183
-#: modules/gui/macosx/MainMenu.m:1184 modules/gui/macosx/playlist.m:499
+#: modules/gui/macosx/ControlsBar.m:404 modules/gui/macosx/MainMenu.m:350
+#: modules/gui/macosx/MainMenu.m:457 modules/gui/macosx/MainMenu.m:464
+#: modules/gui/macosx/MainMenu.m:1183 modules/gui/macosx/MainMenu.m:1184
+#: modules/gui/macosx/MainMenu.m:1185 modules/gui/macosx/playlist.m:499
 #: modules/gui/qt4/components/controller.hpp:115
 #: modules/gui/qt4/dialogs/vlm.cpp:550 modules/gui/qt4/ui/open.h:243
 msgid "Play"
@@ -507,17 +507,17 @@ msgid "Save..."
 msgstr "保存..."
 
 #: include/vlc_intf_strings.h:77 modules/gui/macosx/CoreInteraction.m:404
-#: modules/gui/macosx/MainMenu.m:363 modules/gui/macosx/MainMenu.m:1463
+#: modules/gui/macosx/MainMenu.m:364 modules/gui/macosx/MainMenu.m:1464
 msgid "Repeat All"
 msgstr "全部重复"
 
 #: include/vlc_intf_strings.h:78 modules/gui/macosx/CoreInteraction.m:424
-#: modules/gui/macosx/MainMenu.m:362 modules/gui/macosx/MainMenu.m:1458
+#: modules/gui/macosx/MainMenu.m:363 modules/gui/macosx/MainMenu.m:1459
 msgid "Repeat One"
 msgstr "重复一次"
 
 #: include/vlc_intf_strings.h:79 src/libvlc-module.c:1398
-#: modules/gui/macosx/MainMenu.m:361 modules/gui/macosx/MainMenu.m:1453
+#: modules/gui/macosx/MainMenu.m:362 modules/gui/macosx/MainMenu.m:1454
 #: modules/gui/qt4/components/controller.hpp:119
 #: modules/gui/qt4/components/controller.hpp:132
 msgid "Random"
@@ -651,8 +651,8 @@ msgstr "音频滤镜"
 msgid "Replay gain"
 msgstr "回放增益"
 
-#: src/audio_output/output.c:377 modules/gui/macosx/MainMenu.m:382
-#: modules/gui/macosx/MainMenu.m:383
+#: src/audio_output/output.c:377 modules/gui/macosx/MainMenu.m:383
+#: modules/gui/macosx/MainMenu.m:384
 msgid "Stereo audio mode"
 msgstr "立体音频模式"
 
@@ -1095,7 +1095,7 @@ msgstr "取消设置"
 msgid "Up"
 msgstr "向上"
 
-#: src/config/keys.c:116 modules/gui/macosx/MainMenu.m:468
+#: src/config/keys.c:116 modules/gui/macosx/MainMenu.m:469
 msgid "Volume Down"
 msgstr "减小音量"
 
@@ -1103,7 +1103,7 @@ msgstr "减小音量"
 msgid "Volume Mute"
 msgstr "静音"
 
-#: src/config/keys.c:118 modules/gui/macosx/MainMenu.m:467
+#: src/config/keys.c:118 modules/gui/macosx/MainMenu.m:468
 msgid "Volume Up"
 msgstr "加大音量"
 
@@ -1165,11 +1165,11 @@ msgstr "VLC 无法打开 %s 模块。"
 msgid "VLC could not open the decoder module."
 msgstr "VLC 无法打开解码器模块。"
 
-#: src/input/decoder.c:723
+#: src/input/decoder.c:720
 msgid "No suitable decoder module"
 msgstr "无字幕解码器模块"
 
-#: src/input/decoder.c:724
+#: src/input/decoder.c:721
 #, c-format
 msgid ""
 "VLC does not support the audio or video format \"%4.4s\". Unfortunately "
@@ -1188,8 +1188,8 @@ msgid "%s [%s %d]"
 msgstr "%s [%s %d]"
 
 #: src/input/es_out.c:1133 src/input/es_out.c:1138 src/input/var.c:167
-#: src/libvlc-module.c:564 modules/gui/macosx/MainMenu.m:369
-#: modules/gui/macosx/MainMenu.m:370
+#: src/libvlc-module.c:564 modules/gui/macosx/MainMenu.m:370
+#: modules/gui/macosx/MainMenu.m:371
 msgid "Program"
 msgstr "程序"
 
@@ -1331,7 +1331,7 @@ msgid ""
 msgstr "'%s' 的格式无法被检测。请查看日志获取详细信息。"
 
 #: src/input/meta.c:55 src/input/var.c:177 modules/gui/macosx/MainMenu.m:69
-#: modules/gui/macosx/MainMenu.m:371 modules/gui/macosx/MainMenu.m:372
+#: modules/gui/macosx/MainMenu.m:372 modules/gui/macosx/MainMenu.m:373
 #: modules/gui/macosx/open.m:174 modules/gui/macosx/open.m:176
 #: modules/gui/macosx/playlistinfo.m:74 modules/gui/macosx/wizard.m:345
 #: modules/gui/qt4/components/open_panels.cpp:483
@@ -1409,8 +1409,8 @@ msgstr "书签"
 msgid "Programs"
 msgstr "程序"
 
-#: src/input/var.c:182 modules/gui/macosx/MainMenu.m:373
-#: modules/gui/macosx/MainMenu.m:374 modules/gui/macosx/open.m:175
+#: src/input/var.c:182 modules/gui/macosx/MainMenu.m:374
+#: modules/gui/macosx/MainMenu.m:375 modules/gui/macosx/open.m:175
 #: modules/gui/macosx/open.m:177 modules/gui/qt4/ui/open_disk.h:311
 msgid "Chapter"
 msgstr "章节"
@@ -1419,13 +1419,13 @@ msgstr "章节"
 msgid "Navigation"
 msgstr "导航"
 
-#: src/input/var.c:200 modules/gui/macosx/MainMenu.m:397
-#: modules/gui/macosx/MainMenu.m:398
+#: src/input/var.c:200 modules/gui/macosx/MainMenu.m:398
+#: modules/gui/macosx/MainMenu.m:399
 msgid "Video Track"
 msgstr "视频轨道"
 
-#: src/input/var.c:205 modules/gui/macosx/MainMenu.m:380
-#: modules/gui/macosx/MainMenu.m:381
+#: src/input/var.c:205 modules/gui/macosx/MainMenu.m:381
+#: modules/gui/macosx/MainMenu.m:382
 msgid "Audio Track"
 msgstr "音频轨道"
 
@@ -1501,7 +1501,7 @@ msgid ""
 msgstr "正在以默认界面运行 vlc，使用 'cvlc' 将 vlc 运行在无界面的状态下。"
 
 #: src/libvlc.h:134 src/libvlc-module.c:1401 src/libvlc-module.c:1402
-#: src/libvlc-module.c:2532 src/video_output/vout_intf.c:184
+#: src/libvlc-module.c:2539 src/video_output/vout_intf.c:184
 msgid "Zoom"
 msgstr "缩放"
 
@@ -2084,8 +2084,8 @@ msgid "Hide mouse cursor and fullscreen controller after n milliseconds."
 msgstr "在 x 毫秒后隐藏光标和全屏控制器。"
 
 #: src/libvlc-module.c:338 src/libvlc-module.c:340
-#: src/video_output/interlacing.c:180 modules/gui/macosx/MainMenu.m:405
-#: modules/gui/macosx/MainMenu.m:406 modules/gui/macosx/simple_prefs.m:277
+#: src/video_output/interlacing.c:180 modules/gui/macosx/MainMenu.m:406
+#: modules/gui/macosx/MainMenu.m:407 modules/gui/macosx/simple_prefs.m:277
 #: modules/gui/qt4/dialogs/convert.cpp:95
 #: modules/video_filter/deinterlace/deinterlace.c:97
 #: share/lua/http/dialogs/create_stream.html:346
@@ -2093,7 +2093,7 @@ msgid "Deinterlace"
 msgstr "反交错"
 
 #: src/libvlc-module.c:348 src/video_output/interlacing.c:196
-#: modules/gui/macosx/MainMenu.m:407 modules/gui/macosx/MainMenu.m:408
+#: modules/gui/macosx/MainMenu.m:408 modules/gui/macosx/MainMenu.m:409
 #: modules/gui/macosx/simple_prefs.m:278
 #: modules/video_filter/deinterlace/deinterlace.c:53
 msgid "Deinterlace mode"
@@ -2467,7 +2467,7 @@ msgstr ""
 #: src/video_output/vout_intf.c:114 modules/access/dshow/dshow.cpp:92
 #: modules/access/dshow/dshow.cpp:99 modules/access/dshow/dshow.cpp:119
 #: modules/access/dshow/dshow.cpp:2032 modules/audio_output/directx.c:826
-#: modules/gui/macosx/AudioEffects.m:86 modules/gui/macosx/MainMenu.m:600
+#: modules/gui/macosx/AudioEffects.m:86 modules/gui/macosx/MainMenu.m:601
 #: modules/gui/macosx/prefs_widgets.m:1214
 #: modules/gui/macosx/prefs_widgets.m:1287
 #: modules/gui/macosx/simple_prefs.m:389 modules/gui/macosx/simple_prefs.m:530
@@ -3701,8 +3701,8 @@ msgid ""
 msgstr "鼠标滚轮纵轴可控制音量或位置，也可以忽略滚轮事件"
 
 #: src/libvlc-module.c:1203 src/video_output/vout_intf.c:284
-#: modules/gui/macosx/MainMenu.m:394 modules/gui/macosx/MainMenu.m:470
-#: modules/gui/macosx/MainMenu.m:1490 modules/gui/macosx/MainMenu.m:1500
+#: modules/gui/macosx/MainMenu.m:395 modules/gui/macosx/MainMenu.m:471
+#: modules/gui/macosx/MainMenu.m:1491 modules/gui/macosx/MainMenu.m:1501
 #: modules/gui/macosx/simple_prefs.m:266
 #: modules/gui/qt4/components/controller.hpp:116
 #: modules/gui/qt4/ui/sprefs_video.h:342
@@ -3746,7 +3746,7 @@ msgstr "仅播放"
 msgid "Select the hotkey to use to play."
 msgstr "选择用于播放的热键。"
 
-#: src/libvlc-module.c:1213 modules/gui/macosx/MainMenu.m:357
+#: src/libvlc-module.c:1213 modules/gui/macosx/MainMenu.m:358
 #: modules/gui/qt4/components/controller.hpp:116
 #: modules/gui/qt4/components/controller.hpp:126
 msgid "Faster"
@@ -3756,7 +3756,7 @@ msgstr "较快"
 msgid "Select the hotkey to use for fast forward playback."
 msgstr "选择由于快进播放的热键。"
 
-#: src/libvlc-module.c:1215 modules/gui/macosx/MainMenu.m:355
+#: src/libvlc-module.c:1215 modules/gui/macosx/MainMenu.m:356
 #: modules/gui/qt4/components/controller.hpp:116
 #: modules/gui/qt4/components/controller.hpp:126
 msgid "Slower"
@@ -3785,8 +3785,8 @@ msgstr "较慢 (好)"
 #: src/libvlc-module.c:1223 modules/control/hotkeys.c:208
 #: modules/gui/macosx/about.m:274 modules/gui/macosx/ControlsBar.m:726
 #: modules/gui/macosx/ControlsBar.m:727 modules/gui/macosx/fspanel.m:420
-#: modules/gui/macosx/MainMenu.m:360 modules/gui/macosx/MainMenu.m:458
-#: modules/gui/macosx/MainMenu.m:466 modules/gui/macosx/MainMenu.m:1449
+#: modules/gui/macosx/MainMenu.m:361 modules/gui/macosx/MainMenu.m:459
+#: modules/gui/macosx/MainMenu.m:467 modules/gui/macosx/MainMenu.m:1450
 #: modules/gui/macosx/wizard.m:306 modules/gui/macosx/wizard.m:318
 #: modules/gui/macosx/wizard.m:1559
 #: modules/gui/qt4/components/controller.hpp:120 modules/notify/notify.c:339
@@ -3801,8 +3801,8 @@ msgstr "选择用于跳到下一个播放列表项目的热键。"
 #: src/libvlc-module.c:1225 modules/control/hotkeys.c:212
 #: modules/gui/macosx/about.m:275 modules/gui/macosx/ControlsBar.m:715
 #: modules/gui/macosx/ControlsBar.m:716 modules/gui/macosx/fspanel.m:416
-#: modules/gui/macosx/MainMenu.m:359 modules/gui/macosx/MainMenu.m:459
-#: modules/gui/macosx/MainMenu.m:465 modules/gui/macosx/MainMenu.m:1448
+#: modules/gui/macosx/MainMenu.m:360 modules/gui/macosx/MainMenu.m:460
+#: modules/gui/macosx/MainMenu.m:466 modules/gui/macosx/MainMenu.m:1449
 #: modules/gui/qt4/components/controller.hpp:120 modules/notify/notify.c:337
 msgid "Previous"
 msgstr "上一个"
@@ -3812,8 +3812,8 @@ msgid "Select the hotkey to use to skip to the previous item in the playlist."
 msgstr "选择用于跳到上一个播放列表项目的热键。"
 
 #: src/libvlc-module.c:1227 modules/gui/macosx/ControlsBar.m:436
-#: modules/gui/macosx/MainMenu.m:350 modules/gui/macosx/MainMenu.m:457
-#: modules/gui/macosx/MainMenu.m:464 modules/gui/macosx/MainMenu.m:1444
+#: modules/gui/macosx/MainMenu.m:351 modules/gui/macosx/MainMenu.m:458
+#: modules/gui/macosx/MainMenu.m:465 modules/gui/macosx/MainMenu.m:1445
 #: modules/gui/qt4/components/controller.hpp:115
 #: modules/gui/qt4/dialogs/vlm.cpp:556 modules/gui/qt4/ui/streampanel.h:181
 msgid "Stop"
@@ -4048,9 +4048,9 @@ msgid "Select the key to decrease audio volume."
 msgstr "选择用于减小音量的按键。"
 
 #: src/libvlc-module.c:1296 modules/access/v4l2/v4l2.c:181
-#: modules/gui/macosx/ControlsBar.m:455 modules/gui/macosx/MainMenu.m:379
-#: modules/gui/macosx/MainMenu.m:460 modules/gui/macosx/MainMenu.m:469
-#: modules/gui/macosx/MainMenu.m:1481
+#: modules/gui/macosx/ControlsBar.m:455 modules/gui/macosx/MainMenu.m:380
+#: modules/gui/macosx/MainMenu.m:461 modules/gui/macosx/MainMenu.m:470
+#: modules/gui/macosx/MainMenu.m:1482
 msgid "Mute"
 msgstr "静音"
 
@@ -4387,7 +4387,7 @@ msgstr "获取视频截图"
 msgid "Takes a video snapshot and writes it to disk."
 msgstr "获取一张视频截图并将其写入到磁盘。"
 
-#: src/libvlc-module.c:1392 modules/gui/macosx/MainMenu.m:351
+#: src/libvlc-module.c:1392 modules/gui/macosx/MainMenu.m:352
 #: modules/gui/qt4/components/controller.hpp:118
 #: modules/gui/qt4/components/controller.hpp:129
 #: modules/stream_out/record.c:60
@@ -4463,8 +4463,8 @@ msgid "Cycle through available audio devices"
 msgstr "在可用的音频设备之间切换"
 
 #: src/libvlc-module.c:1560 src/video_output/vout_intf.c:290
-#: modules/gui/macosx/MainMenu.m:396 modules/gui/macosx/MainMenu.m:471
-#: modules/gui/macosx/MainMenu.m:1489
+#: modules/gui/macosx/MainMenu.m:397 modules/gui/macosx/MainMenu.m:472
+#: modules/gui/macosx/MainMenu.m:1490
 #: modules/gui/qt4/components/controller.hpp:117
 msgid "Snapshot"
 msgstr "截图"
@@ -4480,7 +4480,7 @@ msgstr "子画面"
 #: src/libvlc-module.c:1643 modules/codec/subsdec.c:181
 #: modules/demux/subtitle.c:69 modules/demux/xiph_metadata.h:47
 #: modules/demux/xiph_metadata.h:60 modules/gui/macosx/ConvertAndSave.m:173
-#: modules/gui/macosx/ConvertAndSave.m:191 modules/gui/macosx/MainMenu.m:412
+#: modules/gui/macosx/ConvertAndSave.m:191 modules/gui/macosx/MainMenu.m:413
 #: share/lua/http/dialogs/create_stream.html:153
 #: modules/gui/qt4/ui/profiles.h:702 modules/gui/qt4/ui/profiles.h:746
 #: modules/gui/qt4/ui/profiles.h:749
@@ -4548,38 +4548,38 @@ msgstr "时钟源"
 msgid "Hot keys"
 msgstr "热键"
 
-#: src/libvlc-module.c:2542
+#: src/libvlc-module.c:2549
 msgid "Jump sizes"
 msgstr "跳跃大小"
 
-#: src/libvlc-module.c:2621
+#: src/libvlc-module.c:2628
 msgid "print help for VLC (can be combined with --advanced and --help-verbose)"
 msgstr "打印 VLC 帮助 (可以和 --advanced 和 --help-verbose 一起使用)"
 
-#: src/libvlc-module.c:2624
+#: src/libvlc-module.c:2631
 msgid "Exhaustive help for VLC and its modules"
 msgstr "VLC 和它模块的全面帮助"
 
-#: src/libvlc-module.c:2626
+#: src/libvlc-module.c:2633
 msgid ""
 "print help for VLC and all its modules (can be combined with --advanced and "
 "--help-verbose)"
 msgstr ""
 "打印 VLC 和它全部模块的帮助 (可以和 --advanced 和 --help-verbose 一起使用)"
 
-#: src/libvlc-module.c:2629
+#: src/libvlc-module.c:2636
 msgid "ask for extra verbosity when displaying help"
 msgstr "在显示帮助时询问是否显示额外的解释"
 
-#: src/libvlc-module.c:2631
+#: src/libvlc-module.c:2638
 msgid "print a list of available modules"
 msgstr "打印一份可用模块的列表"
 
-#: src/libvlc-module.c:2633
+#: src/libvlc-module.c:2640
 msgid "print a list of available modules with extra detail"
 msgstr "打印一份带详细信息的可用模块列表"
 
-#: src/libvlc-module.c:2635
+#: src/libvlc-module.c:2642
 msgid ""
 "print help on a specific module (can be combined with --advanced and --help-"
 "verbose). Prefix the module name with = for strict matches."
@@ -4587,27 +4587,27 @@ msgstr ""
 "输出关于指定模块的帮助 (可以和 --advanced 和 --help-verbose 一起使用)。在模块"
 "名前面加 = 可严格匹配。"
 
-#: src/libvlc-module.c:2639
+#: src/libvlc-module.c:2646
 msgid "no configuration option will be loaded nor saved to config file"
 msgstr "没有设置选项将会被载入或被保存到设置文件中"
 
-#: src/libvlc-module.c:2641
+#: src/libvlc-module.c:2648
 msgid "reset the current config to the default values"
 msgstr "重置当前的设置为默认值"
 
-#: src/libvlc-module.c:2643
+#: src/libvlc-module.c:2650
 msgid "use alternate config file"
 msgstr "使用可替换的设置文件"
 
-#: src/libvlc-module.c:2645
+#: src/libvlc-module.c:2652
 msgid "resets the current plugins cache"
 msgstr "重置当前插件的缓存"
 
-#: src/libvlc-module.c:2647
+#: src/libvlc-module.c:2654
 msgid "print version information"
 msgstr "打印版本信息"
 
-#: src/libvlc-module.c:2685
+#: src/libvlc-module.c:2692
 msgid "main program"
 msgstr "主程序"
 
@@ -5420,8 +5420,8 @@ msgstr "自动缩放视频"
 msgid "Scale factor"
 msgstr "缩放因数"
 
-#: src/video_output/vout_intf.c:218 modules/gui/macosx/MainMenu.m:401
-#: modules/gui/macosx/MainMenu.m:402 modules/gui/macosx/VideoEffects.m:82
+#: src/video_output/vout_intf.c:218 modules/gui/macosx/MainMenu.m:402
+#: modules/gui/macosx/MainMenu.m:403 modules/gui/macosx/VideoEffects.m:82
 #: modules/video_filter/croppadd.c:86 modules/gui/qt4/ui/video_effects.h:1326
 msgid "Crop"
 msgstr "裁剪"
@@ -5429,8 +5429,8 @@ msgstr "裁剪"
 #: src/video_output/vout_intf.c:248 modules/access/decklink.cpp:92
 #: modules/access/linsys/linsys_hdsdi.c:78
 #: modules/access/linsys/linsys_sdi.c:73 modules/demux/rawvid.c:59
-#: modules/gui/macosx/MainMenu.m:399 modules/gui/macosx/MainMenu.m:400
-#: modules/gui/macosx/MainMenu.m:1303
+#: modules/gui/macosx/MainMenu.m:400 modules/gui/macosx/MainMenu.m:401
+#: modules/gui/macosx/MainMenu.m:1304
 msgid "Aspect ratio"
 msgstr "高宽比"
 
@@ -7805,7 +7805,7 @@ msgid "Screen Input"
 msgstr "屏幕输入"
 
 #: modules/access/screen/screen.c:98 modules/access/screen/xcb.c:69
-#: modules/gui/macosx/MainMenu.m:608 modules/gui/macosx/open.m:207
+#: modules/gui/macosx/MainMenu.m:609 modules/gui/macosx/open.m:207
 #: modules/gui/macosx/open.m:211 modules/gui/macosx/open.m:495
 #: modules/gui/macosx/open.m:1348 modules/gui/macosx/simple_prefs.m:535
 msgid "Screen"
@@ -9751,11 +9751,11 @@ msgstr ""
 "您应该在 /应用程序/工具中的 \"音频 midi 设置\" 中设置您的扬声器摆放位置。VLC "
 "将只以立体声模式输出。"
 
-#: modules/audio_output/auhal.c:1138
+#: modules/audio_output/auhal.c:1139
 msgid "System Sound Output Device"
 msgstr "系统声音输出设备"
 
-#: modules/audio_output/auhal.c:1213
+#: modules/audio_output/auhal.c:1214
 #, c-format
 msgid "%s (Encoded Output)"
 msgstr "%s (已编码的输出)"
@@ -11013,8 +11013,8 @@ msgstr "白色"
 msgid "Maroon"
 msgstr "栗色"
 
-#: modules/codec/kate.c:211 modules/gui/macosx/MainMenu.m:426
-#: modules/gui/macosx/MainMenu.m:994 modules/text_renderer/freetype.c:207
+#: modules/codec/kate.c:211 modules/gui/macosx/MainMenu.m:427
+#: modules/gui/macosx/MainMenu.m:995 modules/text_renderer/freetype.c:207
 #: modules/text_renderer/quartztext.c:116 modules/text_renderer/win32text.c:90
 #: modules/video_filter/ball.c:119 modules/video_filter/colorthres.c:64
 #: modules/video_filter/marq.c:61 modules/video_filter/rss.c:72
@@ -11028,8 +11028,8 @@ msgstr "红色"
 msgid "Fuchsia"
 msgstr "紫红色"
 
-#: modules/codec/kate.c:211 modules/gui/macosx/MainMenu.m:428
-#: modules/gui/macosx/MainMenu.m:998 modules/text_renderer/freetype.c:207
+#: modules/codec/kate.c:211 modules/gui/macosx/MainMenu.m:429
+#: modules/gui/macosx/MainMenu.m:999 modules/text_renderer/freetype.c:207
 #: modules/text_renderer/quartztext.c:116 modules/text_renderer/win32text.c:90
 #: modules/video_filter/colorthres.c:64 modules/video_filter/marq.c:62
 #: modules/video_filter/rss.c:73
@@ -11042,8 +11042,8 @@ msgstr "黄色"
 msgid "Olive"
 msgstr "橄榄绿"
 
-#: modules/codec/kate.c:211 modules/gui/macosx/MainMenu.m:427
-#: modules/gui/macosx/MainMenu.m:996 modules/text_renderer/freetype.c:207
+#: modules/codec/kate.c:211 modules/gui/macosx/MainMenu.m:428
+#: modules/gui/macosx/MainMenu.m:997 modules/text_renderer/freetype.c:207
 #: modules/text_renderer/quartztext.c:116 modules/text_renderer/win32text.c:90
 #: modules/video_filter/ball.c:119 modules/video_filter/marq.c:62
 #: modules/video_filter/rss.c:73
@@ -11075,8 +11075,8 @@ msgstr "紫色"
 msgid "Navy"
 msgstr "藏青色"
 
-#: modules/codec/kate.c:212 modules/gui/macosx/MainMenu.m:429
-#: modules/gui/macosx/MainMenu.m:1000 modules/text_renderer/freetype.c:208
+#: modules/codec/kate.c:212 modules/gui/macosx/MainMenu.m:430
+#: modules/gui/macosx/MainMenu.m:1001 modules/text_renderer/freetype.c:208
 #: modules/text_renderer/quartztext.c:117 modules/text_renderer/win32text.c:91
 #: modules/video_filter/ball.c:120 modules/video_filter/colorthres.c:64
 #: modules/video_filter/marq.c:63 modules/video_filter/rss.c:74
@@ -13138,7 +13138,7 @@ msgstr "tesa"
 msgid "Fast"
 msgstr "快"
 
-#: modules/codec/x264.c:429 modules/gui/macosx/MainMenu.m:356
+#: modules/codec/x264.c:429 modules/gui/macosx/MainMenu.m:357
 #: modules/gui/macosx/simple_prefs.m:567
 #: modules/gui/qt4/components/simple_preferences.cpp:669
 #: modules/misc/gnutls.c:64 modules/text_renderer/freetype.c:195
@@ -13593,8 +13593,8 @@ msgid "Opening"
 msgstr "正在打开"
 
 #: modules/control/rc.c:73 modules/gui/macosx/ControlsBar.m:397
-#: modules/gui/macosx/MainMenu.m:1189 modules/gui/macosx/MainMenu.m:1190
-#: modules/gui/macosx/MainMenu.m:1191 modules/gui/qt4/menus.cpp:817
+#: modules/gui/macosx/MainMenu.m:1190 modules/gui/macosx/MainMenu.m:1191
+#: modules/gui/macosx/MainMenu.m:1192 modules/gui/qt4/menus.cpp:817
 msgid "Pause"
 msgstr "暂停"
 
@@ -15492,8 +15492,8 @@ msgstr ""
 msgid "MPEG Transport Stream demuxer"
 msgstr "MPEG 传输流去复用器"
 
-#: modules/demux/ts.c:171 modules/gui/macosx/MainMenu.m:423
-#: modules/gui/macosx/MainMenu.m:1526 modules/gui/qt4/dialogs/toolbar.cpp:429
+#: modules/demux/ts.c:171 modules/gui/macosx/MainMenu.m:424
+#: modules/gui/macosx/MainMenu.m:1527 modules/gui/qt4/dialogs/toolbar.cpp:429
 msgid "Teletext"
 msgstr "电报"
 
@@ -15637,7 +15637,7 @@ msgstr "关于 VLC media player"
 msgid "Credits"
 msgstr "贡献者名单"
 
-#: modules/gui/macosx/about.m:98 modules/gui/macosx/MainMenu.m:449
+#: modules/gui/macosx/about.m:98 modules/gui/macosx/MainMenu.m:450
 #: modules/gui/qt4/dialogs/help.cpp:119
 msgid "License"
 msgstr "许可"
@@ -15677,8 +15677,8 @@ msgstr ""
 msgid "VLC media player Help"
 msgstr "VLC media player 帮助"
 
-#: modules/gui/macosx/about.m:276 modules/gui/macosx/MainMenu.m:425
-#: modules/gui/macosx/MainMenu.m:992
+#: modules/gui/macosx/about.m:276 modules/gui/macosx/MainMenu.m:426
+#: modules/gui/macosx/MainMenu.m:993
 msgid "Index"
 msgstr "索引"
 
@@ -15910,7 +15910,7 @@ msgstr "找不到输入"
 msgid "The stream must be playing or paused for bookmarks to work."
 msgstr "必须是一个正在播放或暂停的流书签才能工作。"
 
-#: modules/gui/macosx/controls.m:53 modules/gui/macosx/MainMenu.m:1475
+#: modules/gui/macosx/controls.m:53 modules/gui/macosx/MainMenu.m:1476
 msgid "Jump To Time"
 msgstr "跳转到时间"
 
@@ -16552,7 +16552,7 @@ msgid ""
 "This option allows the interface to change its icon on various occasions."
 msgstr "本选项允许界面在各种情况下自动更改图标。"
 
-#: modules/gui/macosx/macosx.m:108 modules/gui/macosx/MainMenu.m:1305
+#: modules/gui/macosx/macosx.m:108 modules/gui/macosx/MainMenu.m:1306
 msgid "Lock Aspect Ratio"
 msgstr "锁定宽高比"
 
@@ -16747,193 +16747,193 @@ msgstr "全部选择"
 msgid "View"
 msgstr "查看"
 
-#: modules/gui/macosx/MainMenu.m:346
+#: modules/gui/macosx/MainMenu.m:346 modules/gui/macosx/MainMenu.m:347
 msgid "Playlist Table Columns"
 msgstr "播放列表表头栏目"
 
-#: modules/gui/macosx/MainMenu.m:348
+#: modules/gui/macosx/MainMenu.m:349
 msgid "Playback"
 msgstr "播放"
 
-#: modules/gui/macosx/MainMenu.m:353 modules/gui/macosx/MainMenu.m:354
+#: modules/gui/macosx/MainMenu.m:354 modules/gui/macosx/MainMenu.m:355
 msgid "Playback Speed"
 msgstr "回放速度"
 
-#: modules/gui/macosx/MainMenu.m:358
+#: modules/gui/macosx/MainMenu.m:359
 #: modules/gui/macosx/TrackSynchronization.m:59
 msgid "Track Synchronization"
 msgstr "轨道同步"
 
-#: modules/gui/macosx/MainMenu.m:364
+#: modules/gui/macosx/MainMenu.m:365
 msgid "A→B Loop"
 msgstr "A→B 循环"
 
-#: modules/gui/macosx/MainMenu.m:365 modules/gui/macosx/MainMenu.m:1468
+#: modules/gui/macosx/MainMenu.m:366 modules/gui/macosx/MainMenu.m:1469
 msgid "Quit after Playback"
 msgstr "播放后退出"
 
-#: modules/gui/macosx/MainMenu.m:366 modules/gui/macosx/MainMenu.m:1473
+#: modules/gui/macosx/MainMenu.m:367 modules/gui/macosx/MainMenu.m:1474
 msgid "Step Forward"
 msgstr "向前步进"
 
-#: modules/gui/macosx/MainMenu.m:367 modules/gui/macosx/MainMenu.m:1474
+#: modules/gui/macosx/MainMenu.m:368 modules/gui/macosx/MainMenu.m:1475
 msgid "Step Backward"
 msgstr "向后步进"
 
-#: modules/gui/macosx/MainMenu.m:377
+#: modules/gui/macosx/MainMenu.m:378
 msgid "Increase Volume"
 msgstr "增大音量"
 
-#: modules/gui/macosx/MainMenu.m:378
+#: modules/gui/macosx/MainMenu.m:379
 msgid "Decrease Volume"
 msgstr "减小音量"
 
-#: modules/gui/macosx/MainMenu.m:384 modules/gui/macosx/MainMenu.m:385
+#: modules/gui/macosx/MainMenu.m:385 modules/gui/macosx/MainMenu.m:386
 msgid "Audio Device"
 msgstr "音频设备"
 
-#: modules/gui/macosx/MainMenu.m:390 modules/gui/macosx/MainMenu.m:1485
+#: modules/gui/macosx/MainMenu.m:391 modules/gui/macosx/MainMenu.m:1486
 msgid "Half Size"
 msgstr "一半尺寸"
 
-#: modules/gui/macosx/MainMenu.m:391 modules/gui/macosx/MainMenu.m:1486
-#: modules/gui/macosx/MainMenu.m:1525
+#: modules/gui/macosx/MainMenu.m:392 modules/gui/macosx/MainMenu.m:1487
+#: modules/gui/macosx/MainMenu.m:1526
 msgid "Normal Size"
 msgstr "普通尺寸"
 
-#: modules/gui/macosx/MainMenu.m:392 modules/gui/macosx/MainMenu.m:1487
+#: modules/gui/macosx/MainMenu.m:393 modules/gui/macosx/MainMenu.m:1488
 msgid "Double Size"
 msgstr "双倍尺寸"
 
-#: modules/gui/macosx/MainMenu.m:393 modules/gui/macosx/MainMenu.m:1488
+#: modules/gui/macosx/MainMenu.m:394 modules/gui/macosx/MainMenu.m:1489
 msgid "Fit to Screen"
 msgstr "适合屏幕"
 
-#: modules/gui/macosx/MainMenu.m:395 modules/gui/macosx/MainMenu.m:1491
-#: modules/gui/macosx/MainMenu.m:1497
+#: modules/gui/macosx/MainMenu.m:396 modules/gui/macosx/MainMenu.m:1492
+#: modules/gui/macosx/MainMenu.m:1498
 msgid "Float on Top"
 msgstr "悬浮在顶部"
 
-#: modules/gui/macosx/MainMenu.m:403 modules/gui/macosx/MainMenu.m:404
+#: modules/gui/macosx/MainMenu.m:404 modules/gui/macosx/MainMenu.m:405
 #: modules/gui/macosx/simple_prefs.m:263
 msgid "Fullscreen Video Device"
 msgstr "全屏幕视频设备"
 
-#: modules/gui/macosx/MainMenu.m:409 modules/gui/macosx/MainMenu.m:410
+#: modules/gui/macosx/MainMenu.m:410 modules/gui/macosx/MainMenu.m:411
 #: modules/video_filter/postproc.c:200
 msgid "Post processing"
 msgstr "预处理"
 
-#: modules/gui/macosx/MainMenu.m:413 modules/gui/macosx/MainMenu.m:1510
+#: modules/gui/macosx/MainMenu.m:414 modules/gui/macosx/MainMenu.m:1511
 msgid "Add Subtitle File..."
 msgstr "添加字幕文件..."
 
-#: modules/gui/macosx/MainMenu.m:414 modules/gui/macosx/MainMenu.m:415
+#: modules/gui/macosx/MainMenu.m:415 modules/gui/macosx/MainMenu.m:416
 msgid "Subtitles Track"
 msgstr "字幕轨道"
 
-#: modules/gui/macosx/MainMenu.m:416
+#: modules/gui/macosx/MainMenu.m:417
 msgid "Text Size"
 msgstr "文字大小"
 
-#: modules/gui/macosx/MainMenu.m:417
+#: modules/gui/macosx/MainMenu.m:418
 msgid "Text Color"
 msgstr "文字颜色"
 
-#: modules/gui/macosx/MainMenu.m:418
+#: modules/gui/macosx/MainMenu.m:419
 msgid "Outline Thickness"
 msgstr "轮廓宽度"
 
-#: modules/gui/macosx/MainMenu.m:420 modules/gui/macosx/MainMenu.m:421
+#: modules/gui/macosx/MainMenu.m:421 modules/gui/macosx/MainMenu.m:422
 msgid "Background Opacity"
 msgstr "背景不透明度"
 
-#: modules/gui/macosx/MainMenu.m:422
+#: modules/gui/macosx/MainMenu.m:423
 msgid "Background Color"
 msgstr "背景颜色"
 
-#: modules/gui/macosx/MainMenu.m:424
+#: modules/gui/macosx/MainMenu.m:425
 msgid "Transparent"
 msgstr "透明度"
 
-#: modules/gui/macosx/MainMenu.m:431
+#: modules/gui/macosx/MainMenu.m:432
 msgid "Window"
 msgstr "窗口"
 
-#: modules/gui/macosx/MainMenu.m:432
+#: modules/gui/macosx/MainMenu.m:433
 msgid "Minimize Window"
 msgstr "最小化窗口"
 
-#: modules/gui/macosx/MainMenu.m:433
+#: modules/gui/macosx/MainMenu.m:434
 msgid "Close Window"
 msgstr "关闭窗口"
 
-#: modules/gui/macosx/MainMenu.m:434
+#: modules/gui/macosx/MainMenu.m:435
 msgid "Player..."
 msgstr "播放器..."
 
-#: modules/gui/macosx/MainMenu.m:435
+#: modules/gui/macosx/MainMenu.m:436
 msgid "Main Window..."
 msgstr "主窗口..."
 
-#: modules/gui/macosx/MainMenu.m:436
+#: modules/gui/macosx/MainMenu.m:437
 msgid "Audio Effects..."
 msgstr "音频特效..."
 
-#: modules/gui/macosx/MainMenu.m:437
+#: modules/gui/macosx/MainMenu.m:438
 msgid "Video Effects..."
 msgstr "视频效果"
 
-#: modules/gui/macosx/MainMenu.m:438
+#: modules/gui/macosx/MainMenu.m:439
 msgid "Bookmarks..."
 msgstr "书签..."
 
-#: modules/gui/macosx/MainMenu.m:439
+#: modules/gui/macosx/MainMenu.m:440
 msgid "Playlist..."
 msgstr "播放列表..."
 
-#: modules/gui/macosx/MainMenu.m:440 modules/gui/macosx/playlist.m:503
+#: modules/gui/macosx/MainMenu.m:441 modules/gui/macosx/playlist.m:503
 msgid "Media Information..."
 msgstr "媒体信息..."
 
-#: modules/gui/macosx/MainMenu.m:441
+#: modules/gui/macosx/MainMenu.m:442
 msgid "Messages..."
 msgstr "消息..."
 
-#: modules/gui/macosx/MainMenu.m:442
+#: modules/gui/macosx/MainMenu.m:443
 msgid "Errors and Warnings..."
 msgstr "错误和警告..."
 
-#: modules/gui/macosx/MainMenu.m:444
+#: modules/gui/macosx/MainMenu.m:445
 msgid "Bring All to Front"
 msgstr "全部窗口到最前"
 
-#: modules/gui/macosx/MainMenu.m:446 modules/gui/qt4/dialogs/help.cpp:54
+#: modules/gui/macosx/MainMenu.m:447 modules/gui/qt4/dialogs/help.cpp:54
 #: modules/gui/qt4/menus.cpp:931
 msgid "Help"
 msgstr "帮助"
 
-#: modules/gui/macosx/MainMenu.m:447
+#: modules/gui/macosx/MainMenu.m:448
 msgid "VLC media player Help..."
 msgstr "VLC media player 帮助..."
 
-#: modules/gui/macosx/MainMenu.m:448
+#: modules/gui/macosx/MainMenu.m:449
 msgid "ReadMe / FAQ..."
 msgstr "读我 / 常见问题..."
 
-#: modules/gui/macosx/MainMenu.m:450
+#: modules/gui/macosx/MainMenu.m:451
 msgid "Online Documentation..."
 msgstr "在线文档..."
 
-#: modules/gui/macosx/MainMenu.m:451
+#: modules/gui/macosx/MainMenu.m:452
 msgid "VideoLAN Website..."
 msgstr "VideoLAN 网站..."
 
-#: modules/gui/macosx/MainMenu.m:452
+#: modules/gui/macosx/MainMenu.m:453
 msgid "Make a donation..."
 msgstr "捐献..."
 
-#: modules/gui/macosx/MainMenu.m:453
+#: modules/gui/macosx/MainMenu.m:454
 msgid "Online Forum..."
 msgstr "在线论坛..."
 
