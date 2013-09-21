@@ -15,8 +15,8 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-09-08 20:08+0200\n"
-"PO-Revision-Date: 2013-09-09 08:20+0000\n"
-"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"PO-Revision-Date: 2013-09-18 02:21+0000\n"
+"Last-Translator: alfalb_mansil <manuela.silva@sky.com>\n"
 "Language-Team: Portuguese (Portugal) (http://www.transifex.com/projects/p/"
 "vlc-trans/language/pt_PT/)\n"
 "Language: pt_PT\n"
@@ -7330,7 +7330,7 @@ msgstr ""
 #: modules/access/linsys/linsys_hdsdi.c:80
 #: modules/access/linsys/linsys_sdi.c:75
 msgid "Allows you to force the aspect ratio of the video."
-msgstr ""
+msgstr "Permite-lhe forçar o formato do vídeo."
 
 #: modules/access/linsys/linsys_hdsdi.c:81
 #: modules/access/linsys/linsys_sdi.c:76
@@ -7341,6 +7341,8 @@ msgstr "Configuração áudio"
 #: modules/access/linsys/linsys_sdi.c:78
 msgid "Allows you to set audio configuration (id=group,pair:id=group,pair...)."
 msgstr ""
+"Permite-lhe definir a configuração do áudio (id=group,pair:id=group,"
+"pair ...)."
 
 #: modules/access/linsys/linsys_hdsdi.c:89
 msgid "HD-SDI Input"
@@ -7366,6 +7368,8 @@ msgstr "Idioma do Teletexto"
 #: modules/access/linsys/linsys_sdi.c:84
 msgid "Allows you to set Teletext language (page=lang/type,...)."
 msgstr ""
+"Permite-lhe definir a configuração do Teletexto (id=line1-lineN com ambos os "
+"campos)."
 
 #: modules/access/linsys/linsys_sdi.c:92
 msgid "SDI Input"
@@ -7716,11 +7720,11 @@ msgstr "Usar mecanismo de controle de taxa de combinadores"
 
 #: modules/access_output/livehttp.c:94
 msgid "AES key URI to place in playlist"
-msgstr ""
+msgstr "URL da Chave AES para colocar na Lista de Reprodução"
 
 #: modules/access_output/livehttp.c:96
 msgid "AES key file"
-msgstr ""
+msgstr "Ficheiro da chave AES"
 
 #: modules/access_output/livehttp.c:97
 msgid "File containing the 16 bytes encryption key"
@@ -8507,7 +8511,7 @@ msgstr "Matiz"
 
 #: modules/access/v4l2/v4l2.c:94
 msgid "Hue or color balance."
-msgstr ""
+msgstr "Balanço da Tonalidade ou Cor."
 
 #: modules/access/v4l2/v4l2.c:95
 msgid "Automatic hue"
@@ -8515,11 +8519,11 @@ msgstr "Tonalidade Automático"
 
 #: modules/access/v4l2/v4l2.c:97
 msgid "Automatically adjust the picture hue."
-msgstr ""
+msgstr "Ajustar automaticamente a tonalidade da imagem."
 
 #: modules/access/v4l2/v4l2.c:98
 msgid "White balance temperature (K)"
-msgstr ""
+msgstr "Temperatura do Balanço do Branco (K)"
 
 #: modules/access/v4l2/v4l2.c:100
 msgid ""
@@ -8529,11 +8533,11 @@ msgstr ""
 
 #: modules/access/v4l2/v4l2.c:102
 msgid "Automatic white balance"
-msgstr ""
+msgstr "Balanço Branco Automático"
 
 #: modules/access/v4l2/v4l2.c:104
 msgid "Automatically adjust the picture white balance."
-msgstr ""
+msgstr "Ajustar automaticamente o balanço do branco da imagem."
 
 #: modules/access/v4l2/v4l2.c:105
 msgid "Red balance"
@@ -8558,7 +8562,7 @@ msgstr "Gama"
 
 #: modules/access/v4l2/v4l2.c:113
 msgid "Gamma adjust."
-msgstr ""
+msgstr "Ajustar Gama."
 
 #: modules/access/v4l2/v4l2.c:114
 msgid "Automatic gain"
@@ -8566,7 +8570,7 @@ msgstr "Ganho automático"
 
 #: modules/access/v4l2/v4l2.c:116
 msgid "Automatically set the video gain."
-msgstr ""
+msgstr "Definir automaticamente o ganho do vídeo."
 
 #: modules/access/v4l2/v4l2.c:117 modules/audio_filter/gain.c:62
 msgid "Gain"
@@ -8574,31 +8578,31 @@ msgstr "Ganho"
 
 #: modules/access/v4l2/v4l2.c:119
 msgid "Picture gain."
-msgstr ""
+msgstr "Ganho da Imagem."
 
 #: modules/access/v4l2/v4l2.c:120
 msgid "Sharpness"
-msgstr ""
+msgstr "Nitidez"
 
 #: modules/access/v4l2/v4l2.c:121
 msgid "Sharpness filter adjust."
-msgstr ""
+msgstr "Ajustar filtro da Nitidez."
 
 #: modules/access/v4l2/v4l2.c:122
 msgid "Chroma gain"
-msgstr ""
+msgstr "Ganho da Saturação"
 
 #: modules/access/v4l2/v4l2.c:123
 msgid "Chroma gain control."
-msgstr ""
+msgstr "Controlo do ganho da saturação."
 
 #: modules/access/v4l2/v4l2.c:124
 msgid "Automatic chroma gain"
-msgstr ""
+msgstr "Ganho automático da saturação"
 
 #: modules/access/v4l2/v4l2.c:126
 msgid "Automatically control the chroma gain."
-msgstr ""
+msgstr "Controlar automaticamente o ganho da Saturação."
 
 #: modules/access/v4l2/v4l2.c:127
 msgid "Power line frequency"
@@ -8619,7 +8623,7 @@ msgstr "60 Hz"
 
 #: modules/access/v4l2/v4l2.c:139
 msgid "Backlight compensation"
-msgstr ""
+msgstr "Compensação da luz de fundo"
 
 #: modules/access/v4l2/v4l2.c:141
 msgid "Band-stop filter"
@@ -8635,7 +8639,7 @@ msgstr "Inverter Horizontal"
 
 #: modules/access/v4l2/v4l2.c:146
 msgid "Flip the picture horizontally."
-msgstr ""
+msgstr "Inverter a imagem horizontalmente."
 
 #: modules/access/v4l2/v4l2.c:147
 msgid "Vertical flip"
@@ -8643,7 +8647,7 @@ msgstr "Inversão vertical"
 
 #: modules/access/v4l2/v4l2.c:149
 msgid "Flip the picture vertically."
-msgstr ""
+msgstr "Inverter a imagem vertictalmente."
 
 #: modules/access/v4l2/v4l2.c:150
 msgid "Rotate (degrees)"
@@ -8651,7 +8655,7 @@ msgstr "Rodar (graus)"
 
 #: modules/access/v4l2/v4l2.c:151
 msgid "Picture rotation angle (in degrees)."
-msgstr ""
+msgstr "Ângiulo de rotação da imagem (em graus)."
 
 #: modules/access/v4l2/v4l2.c:152
 msgid "Color killer"
@@ -8665,7 +8669,7 @@ msgstr ""
 
 #: modules/access/v4l2/v4l2.c:156
 msgid "Color effect"
-msgstr ""
+msgstr "Efeito da Cor"
 
 #: modules/access/v4l2/v4l2.c:157
 msgid "Select a color effect."
@@ -8686,11 +8690,11 @@ msgstr "Negativo"
 
 #: modules/access/v4l2/v4l2.c:165
 msgid "Emboss"
-msgstr ""
+msgstr "Relevo"
 
 #: modules/access/v4l2/v4l2.c:165
 msgid "Sketch"
-msgstr ""
+msgstr "Esboço"
 
 #: modules/access/v4l2/v4l2.c:165
 msgid "Sky blue"
@@ -8715,7 +8719,7 @@ msgstr "Volume áudio"
 
 #: modules/access/v4l2/v4l2.c:171
 msgid "Volume of the audio input."
-msgstr ""
+msgstr "Volume do áudio de entrada."
 
 #: modules/access/v4l2/v4l2.c:172
 msgid "Audio balance"
@@ -8723,7 +8727,7 @@ msgstr "Balanço do Áudio"
 
 #: modules/access/v4l2/v4l2.c:174
 msgid "Balance of the audio input."
-msgstr ""
+msgstr "Balanço do áudio de entrada."
 
 #: modules/access/v4l2/v4l2.c:175
 msgid "Bass level"
@@ -8801,11 +8805,11 @@ msgstr "Mono"
 
 #: modules/access/v4l2/v4l2.c:269
 msgid "Primary language"
-msgstr ""
+msgstr "Idioma primário"
 
 #: modules/access/v4l2/v4l2.c:270
 msgid "Secondary language or program"
-msgstr ""
+msgstr "Idioma secundário ou programa"
 
 #: modules/access/v4l2/v4l2.c:271 modules/codec/twolame.c:70
 msgid "Dual mono"
@@ -9094,7 +9098,7 @@ msgstr ""
 
 #: modules/access/vnc.c:61
 msgid "Compression level"
-msgstr ""
+msgstr "Nível da Compressão"
 
 #: modules/access/vnc.c:62
 msgid "Transfer compression level from 0 (none) to 9 (max)"
@@ -9102,11 +9106,11 @@ msgstr ""
 
 #: modules/access/vnc.c:63
 msgid "Image quality"
-msgstr ""
+msgstr "Qualidade da Imagem"
 
 #: modules/access/vnc.c:64
 msgid "Image quality 1 to 9 (max)"
-msgstr ""
+msgstr "Qualidade da Imagem - 1 até 9 (máx.)"
 
 #: modules/access/vnc.c:78
 msgid "VNC"
@@ -9114,7 +9118,7 @@ msgstr "VNC"
 
 #: modules/access/vnc.c:82
 msgid "VNC client access"
-msgstr ""
+msgstr "Acesso cliente VNC"
 
 #: modules/access/zip/zipstream.c:38
 msgid "Media in Zip"
@@ -9126,7 +9130,7 @@ msgstr ""
 
 #: modules/access/zip/zipstream.c:48
 msgid "Zip files filter"
-msgstr ""
+msgstr "Filtro de ficheiros Zip"
 
 #: modules/access/zip/zipstream.c:53
 msgid "Zip access"
@@ -9270,7 +9274,7 @@ msgstr ""
 
 #: modules/audio_filter/channel_mixer/headphone.c:61
 msgid "Distance between front left speaker and listener in meters."
-msgstr ""
+msgstr "Distância entre a coluna frontal esquerda e o ouvinte em metros."
 
 #: modules/audio_filter/channel_mixer/headphone.c:63
 msgid "Compensate delay"
@@ -9323,12 +9327,12 @@ msgstr ""
 #: modules/audio_filter/channel_mixer/mono.c:93
 #: modules/audio_filter/channel_mixer/remap.c:62
 msgid "Rear left"
-msgstr ""
+msgstr "Atrás esquerda"
 
 #: modules/audio_filter/channel_mixer/mono.c:93
 #: modules/audio_filter/channel_mixer/remap.c:62
 msgid "Rear right"
-msgstr ""
+msgstr "Atrás direita"
 
 #: modules/audio_filter/channel_mixer/mono.c:94
 #: modules/audio_filter/channel_mixer/remap.c:63
@@ -9422,7 +9426,7 @@ msgstr ""
 
 #: modules/audio_filter/chorus_flanger.c:91
 msgid "Level of delayed signal"
-msgstr ""
+msgstr "Nível do sinal atrasado"
 
 #: modules/audio_filter/chorus_flanger.c:93
 msgid "Dry Mix"
@@ -9430,16 +9434,16 @@ msgstr ""
 
 #: modules/audio_filter/chorus_flanger.c:93
 msgid "Level of input signal"
-msgstr ""
+msgstr "Nível do sinal de entrada"
 
 #: modules/audio_filter/compressor.c:155 modules/gui/macosx/AudioEffects.m:119
 #: modules/gui/qt4/components/extended_panels.cpp:1379
 msgid "RMS/peak"
-msgstr ""
+msgstr "Pico/RMS"
 
 #: modules/audio_filter/compressor.c:156
 msgid "Set the RMS/peak (0 ... 1)."
-msgstr ""
+msgstr "Definir o Pico/RMS (0 ... 1)."
 
 #: modules/audio_filter/compressor.c:158
 msgid "Attack time"
@@ -20101,8 +20105,9 @@ msgid "Network Access Policy"
 msgstr ""
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:98
-msgid "Automatically retrieve media info"
-msgstr ""
+#, fuzzy
+msgid "Automatically retrieve media infos"
+msgstr "Definir automaticamente o ganho do vídeo."
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:103
 msgid "Regularly check for VLC updates"
@@ -29836,9 +29841,6 @@ msgstr "Lista do Gestor de Media"
 #~ msgid "Growl UDP port"
 #~ msgstr "Porta UDP Growl"
 
-#~ msgid "left"
-#~ msgstr "esquerda"
-
 #~ msgid "Remaining time: %i seconds"
 #~ msgstr "Tempo restante: %i segundos"
 
@@ -29849,6 +29851,10 @@ msgstr "Lista do Gestor de Media"
 #~ msgstr ""
 #~ "Este ficheiro contém uma CRL opcional para evitar remover os clientes de "
 #~ "utilizem certificados revogados em sessões TLS."
+
+#, fuzzy
+#~ msgid "left"
+#~ msgstr "Atrás esquerda"
 
 #, fuzzy
 #~ msgid "Subtitles/OSD"
@@ -30453,7 +30459,7 @@ msgstr "Lista do Gestor de Media"
 
 #, fuzzy
 #~ msgid "Automatically save the volume on exit"
-#~ msgstr "Ao iniciar, carregar automaticamente o módulo das extensões."
+#~ msgstr "Definir automaticamente o ganho do vídeo."
 
 #, fuzzy
 #~ msgid "Capture Device"
@@ -30677,7 +30683,7 @@ msgstr "Lista do Gestor de Media"
 
 #, fuzzy
 #~ msgid "Automatic cropping"
-#~ msgstr "Ganho automático"
+#~ msgstr "Ganho automático da saturação"
 
 #, fuzzy
 #~ msgid "Automatically detect black borders and crop them."
@@ -30899,7 +30905,7 @@ msgstr "Lista do Gestor de Media"
 
 #, fuzzy
 #~ msgid "Private key file"
-#~ msgstr "Criar um novo perfile"
+#~ msgstr "Ficheiro da chave AES"
 
 #, fuzzy
 #~ msgid "Lock function"
@@ -31437,11 +31443,11 @@ msgstr "Lista do Gestor de Media"
 
 #, fuzzy
 #~ msgid "Brightness of the video input."
-#~ msgstr "Limiar de brilho"
+#~ msgstr "Balanço do áudio de entrada."
 
 #, fuzzy
 #~ msgid "Color of the video input."
-#~ msgstr "Saída de vídeo em Color ASCII-art"
+#~ msgstr "Volume do áudio de entrada."
 
 #, fuzzy
 #~ msgid "Tuner to use, if there are several ones."
@@ -33080,7 +33086,7 @@ msgstr "Lista do Gestor de Media"
 
 #, fuzzy
 #~ msgid "Cartoon effect"
-#~ msgstr "Aplicar efeito de cartoon"
+#~ msgstr "Efeito da Cor"
 
 #, fuzzy
 #~ msgid "Image inversion"
