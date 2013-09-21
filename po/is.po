@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-09-08 20:08+0200\n"
-"PO-Revision-Date: 2013-06-28 06:10+0000\n"
+"PO-Revision-Date: 2013-09-19 08:15+0000\n"
 "Last-Translator: Sveinn í Felli <sveinki@nett.is>\n"
 "Language-Team: Icelandic <translation-team-is@lists.sourceforge.net>\n"
 "Language: is\n"
@@ -389,6 +389,8 @@ msgstr "Þessar einingar sjá um netvirkni allra annarra hluta VLC."
 #: include/vlc_config_cat.h:196
 msgid "These are general settings for video/audio/subtitle encoding modules."
 msgstr ""
+"Þetta eru almennar stillingar fyrir kóðunareiningar myndmerkis/hljóðs/"
+"skjátexta."
 
 #: include/vlc_config_cat.h:199
 msgid "Dialog providers can be configured here."
@@ -445,7 +447,7 @@ msgstr "Upplýsingar um m&iðila"
 
 #: include/vlc_intf_strings.h:56
 msgid "&Codec Information"
-msgstr "Upplýsingar um kóðalykil (&Codec)"
+msgstr "Upplýsingar um kóðunarlykil (&codec)"
 
 #: include/vlc_intf_strings.h:57
 msgid "&Messages"
@@ -663,7 +665,7 @@ msgstr "Mögnun endurspilunar"
 #: src/audio_output/output.c:377 modules/gui/macosx/MainMenu.m:382
 #: modules/gui/macosx/MainMenu.m:383
 msgid "Stereo audio mode"
-msgstr ""
+msgstr "Víðóma hamur"
 
 #: src/audio_output/output.c:412 src/libvlc-module.c:189
 msgid "Dolby Surround"
@@ -1153,6 +1155,8 @@ msgid ""
 "VLC does not support the audio or video format \"%4.4s\". Unfortunately "
 "there is no way for you to fix this."
 msgstr ""
+"VLC styður ekki hljóð- eða myndmerkissniðið \"%4.4s\". Því miður er engin "
+"leið til að laga þetta."
 
 #: src/input/es_out.c:922 src/input/es_out.c:927 src/libvlc-module.c:230
 #: modules/access/vcdx/access.c:458 modules/access/vcdx/info.c:226
@@ -1257,11 +1261,11 @@ msgstr "%u kbit/s"
 
 #: src/input/es_out.c:2942
 msgid "Track replay gain"
-msgstr ""
+msgstr "Mögnun endurspilunar hljóðspors"
 
 #: src/input/es_out.c:2944
 msgid "Album replay gain"
-msgstr ""
+msgstr "Mögnun endurspilunar albúms"
 
 #: src/input/es_out.c:2945
 #, c-format
@@ -1534,7 +1538,7 @@ msgstr ""
 
 #: src/libvlc-module.c:83
 msgid "You can select control interfaces for VLC."
-msgstr ""
+msgstr "Þú getur valið stjórnviðmót fyrir VLC."
 
 #: src/libvlc-module.c:85
 msgid "Verbosity (0,1,2)"
@@ -5446,11 +5450,11 @@ msgstr ""
 #: modules/access/cdda.c:62 modules/gui/macosx/open.m:162
 #: modules/gui/qt4/ui/open_disk.h:301
 msgid "Audio CD"
-msgstr "Hljóð CD"
+msgstr "CD-hljómdiskur"
 
 #: modules/access/cdda.c:63
 msgid "Audio CD input"
-msgstr "Hljóð CD inntak"
+msgstr "CD-hljómdiskur inntak"
 
 #: modules/access/cdda.c:69
 msgid "[cdda:][device][@[track]]"
@@ -5479,11 +5483,11 @@ msgstr "Hljóð CD - Lag %02i"
 
 #: modules/access/dc1394.c:51
 msgid "DC1394"
-msgstr ""
+msgstr "DC1394"
 
 #: modules/access/dc1394.c:52
 msgid "IIDC Digital Camera (FireWire) input"
-msgstr ""
+msgstr "IIDC Digital Camera (FireWire) inntak"
 
 #: modules/access/decklink.cpp:44
 msgid "Input card to use"
@@ -5586,6 +5590,8 @@ msgstr "Analog"
 #: modules/access/decklink.cpp:94 modules/demux/rawvid.c:61
 msgid "Aspect ratio (4:3, 16:9). Default assumes square pixels."
 msgstr ""
+"Stærðarhlutföll (4:3, 16:9). Sjálfgefið gert ráð fyrir ferningslaga "
+"mynddílum."
 
 #: modules/access/decklink.cpp:97
 msgid "DeckLink"
@@ -5597,7 +5603,7 @@ msgstr "Blackmagic DeckLink SDI inntak"
 
 #: modules/access/decklink.cpp:118 modules/video_output/decklink.cpp:99
 msgid "10 bits"
-msgstr ""
+msgstr "10 bitar"
 
 #: modules/access/dshow/dshow.cpp:92
 msgid "Cable"
@@ -5633,8 +5639,8 @@ msgid ""
 "Name of the video device that will be used by the DirectShow plugin. If you "
 "don't specify anything, the default device will be used."
 msgstr ""
-"Namn på videoenheten som ska användas av DirectShow-insticksmodulen. Om du "
-"inte anger någonting så kommer standardenheten att användas."
+"Heiti myndmerkistækisins sem verður notað með DirectShow íforritinu. Ef þú "
+"tilgreinir ekkert, verður sjálfgefið tæki notað."
 
 #: modules/access/dshow/dshow.cpp:135
 #: modules/gui/qt4/components/open_panels.cpp:812
@@ -5647,8 +5653,8 @@ msgid ""
 "Name of the audio device that will be used by the DirectShow plugin. If you "
 "don't specify anything, the default device will be used. "
 msgstr ""
-"Namnet på ljudenheten som ska användas av DirectShow-insticksmodulen. Om du "
-"inte anger någon så kommer standardenheten att användas. "
+"Heiti hljóðtækisins sem verður notað með DirectShow íforritinu. Ef þú "
+"tilgreinir ekkert, verður sjálfgefið tæki notað."
 
 #: modules/access/dshow/dshow.cpp:140
 #: modules/gui/qt4/components/open_panels.cpp:779
@@ -5661,6 +5667,9 @@ msgid ""
 "don't specify anything the default size for your device will be used. You "
 "can specify a standard size (cif, d1, ...) or <width>x<height>."
 msgstr ""
+"Stærð myndmerkisins sem verður notað með DirectShow íforritinu. Ef þú "
+"tilgreinir ekkert, verður sjálfgefin stærð tækisins notuð. Þú getur tiltekið "
+"staðlaða stærð (cif, d1, ...) eða <breidd>x<hæð>."
 
 #: modules/access/dshow/dshow.cpp:145 modules/access/v4l2/v4l2.c:196
 msgid "Picture aspect-ratio n:m"
@@ -7770,7 +7779,7 @@ msgstr "TCP inntak"
 
 #: modules/access/timecode.c:43
 msgid "Time code"
-msgstr ""
+msgstr "Tímakóði"
 
 #: modules/access/timecode.c:44
 msgid "Time code subpicture elementary stream generator"
@@ -7790,7 +7799,7 @@ msgstr "Frumstilla sjálfgefið"
 
 #: modules/access/v4l2/v4l2.c:44
 msgid "Video capture device"
-msgstr ""
+msgstr "Upptökutæki myndmerkis"
 
 #: modules/access/v4l2/v4l2.c:45
 msgid "Video capture device node."
@@ -7798,7 +7807,7 @@ msgstr ""
 
 #: modules/access/v4l2/v4l2.c:46
 msgid "VBI capture device"
-msgstr ""
+msgstr "VBI upptökutæki"
 
 #: modules/access/v4l2/v4l2.c:48
 msgid "The device node where VBI data can be read  (for closed captions) "
@@ -8188,23 +8197,23 @@ msgstr ""
 
 #: modules/access/v4l2/v4l2.c:247
 msgid "525 lines / 60 Hz"
-msgstr ""
+msgstr "525 línur / 60 Hz"
 
 #: modules/access/v4l2/v4l2.c:247
 msgid "625 lines / 50 Hz"
-msgstr ""
+msgstr "625 línur / 50 Hz"
 
 #: modules/access/v4l2/v4l2.c:255
 msgid "PAL N Argentina"
-msgstr ""
+msgstr "PAL N Argentína"
 
 #: modules/access/v4l2/v4l2.c:256
 msgid "NTSC M Japan"
-msgstr ""
+msgstr "NTSC M Japan"
 
 #: modules/access/v4l2/v4l2.c:256
 msgid "NTSC M South Korea"
-msgstr ""
+msgstr "NTSC M Suður-Kórea"
 
 #: modules/access/v4l2/v4l2.c:267 modules/audio_output/alsa.c:76
 msgid "Mono"
@@ -8212,27 +8221,27 @@ msgstr "Einóma"
 
 #: modules/access/v4l2/v4l2.c:269
 msgid "Primary language"
-msgstr ""
+msgstr "Aðaltungumál"
 
 #: modules/access/v4l2/v4l2.c:270
 msgid "Secondary language or program"
-msgstr ""
+msgstr "Aukatungumál eða forrit"
 
 #: modules/access/v4l2/v4l2.c:271 modules/codec/twolame.c:70
 msgid "Dual mono"
-msgstr ""
+msgstr "Tvöfaldað einóma"
 
 #: modules/access/v4l2/v4l2.c:275
 msgid "V4L"
-msgstr ""
+msgstr "V4L"
 
 #: modules/access/v4l2/v4l2.c:276
 msgid "Video4Linux input"
-msgstr ""
+msgstr "Video4Linux inntak"
 
 #: modules/access/v4l2/v4l2.c:280
 msgid "Video input"
-msgstr ""
+msgstr "Myndmerkisinntak"
 
 #: modules/access/v4l2/v4l2.c:318
 msgid "Tuner"
@@ -8248,11 +8257,11 @@ msgstr ""
 
 #: modules/access/v4l2/v4l2.c:425
 msgid "Video4Linux compressed A/V input"
-msgstr ""
+msgstr "Video4Linux þjappað A/V inntak"
 
 #: modules/access/v4l2/v4l2.c:432
 msgid "Video4Linux radio tuner"
-msgstr ""
+msgstr "Video4Linux útvarpstæki"
 
 #: modules/access/vcd/vcd.c:47
 msgid "VCD"
@@ -8264,7 +8273,7 @@ msgstr "VCD inntak"
 
 #: modules/access/vcd/vcd.c:54
 msgid "[vcd:][device][#[title][,[chapter]]]"
-msgstr ""
+msgstr "[vcd:][tæki][@[titill][,[kafli]]]"
 
 #: modules/access/vcdx/access.c:272 modules/access/vcdx/access.c:352
 #: modules/access/vcdx/access.c:674 modules/access/vcdx/info.c:229
@@ -8304,15 +8313,15 @@ msgstr "Útbúið af"
 
 #: modules/access/vcdx/info.c:66
 msgid "Vol #"
-msgstr ""
+msgstr "Hljóðst. #"
 
 #: modules/access/vcdx/info.c:67
 msgid "Vol max #"
-msgstr ""
+msgstr "Hljóð hámark #"
 
 #: modules/access/vcdx/info.c:68
 msgid "Volume Set"
-msgstr ""
+msgstr "Stilla hljóðstyrk"
 
 #: modules/access/vcdx/info.c:69 modules/gui/macosx/ControlsBar.m:452
 #: modules/gui/macosx/fspanel.m:463 modules/gui/qt4/dialogs/toolbar.cpp:365
@@ -8322,7 +8331,7 @@ msgstr "Hljóðstyrkur"
 
 #: modules/access/vcdx/info.c:71
 msgid "System Id"
-msgstr ""
+msgstr "Auðkenni kerfis"
 
 #: modules/access/vcdx/info.c:73
 msgid "Entries"
@@ -8734,12 +8743,12 @@ msgstr ""
 #: modules/audio_filter/channel_mixer/mono.c:93
 #: modules/audio_filter/channel_mixer/remap.c:62
 msgid "Rear left"
-msgstr ""
+msgstr "Aftan vinstri"
 
 #: modules/audio_filter/channel_mixer/mono.c:93
 #: modules/audio_filter/channel_mixer/remap.c:62
 msgid "Rear right"
-msgstr ""
+msgstr "Aftan hægri"
 
 #: modules/audio_filter/channel_mixer/mono.c:94
 #: modules/audio_filter/channel_mixer/remap.c:63
@@ -8749,17 +8758,17 @@ msgstr ""
 #: modules/audio_filter/channel_mixer/mono.c:95
 #: modules/audio_filter/channel_mixer/remap.c:63
 msgid "Side left"
-msgstr ""
+msgstr "Hlið vinstri"
 
 #: modules/audio_filter/channel_mixer/mono.c:95
 #: modules/audio_filter/channel_mixer/remap.c:63
 msgid "Side right"
-msgstr ""
+msgstr "Hlið hægri"
 
 #: modules/audio_filter/channel_mixer/mono.c:95
 #: modules/audio_filter/channel_mixer/remap.c:62
 msgid "Rear center"
-msgstr ""
+msgstr "Aftan miðja"
 
 #: modules/audio_filter/channel_mixer/mono.c:102
 msgid "Audio filter for stereo to mono conversion"
@@ -10959,9 +10968,8 @@ msgid "PNG video decoder"
 msgstr ""
 
 #: modules/codec/qsv.c:56
-#, fuzzy
 msgid "Enable software mode"
-msgstr "Virkja taplausa kóðun"
+msgstr ""
 
 #: modules/codec/qsv.c:57
 msgid ""
@@ -10970,9 +10978,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/qsv.c:61
-#, fuzzy
 msgid "Codec Profile"
-msgstr "Veldu snið"
+msgstr ""
 
 #: modules/codec/qsv.c:63
 msgid ""
@@ -10982,9 +10989,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/qsv.c:67
-#, fuzzy
 msgid "Codec Level"
-msgstr "Heiti kóðunarlykils"
+msgstr ""
 
 #: modules/codec/qsv.c:69
 msgid ""
@@ -11025,9 +11031,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/qsv.c:90
-#, fuzzy
 msgid "IDR interval"
-msgstr "Merkjabil (guard interval)"
+msgstr ""
 
 #: modules/codec/qsv.c:92
 msgid ""
@@ -11050,9 +11055,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/qsv.c:105
-#, fuzzy
 msgid "Quantization parameter"
-msgstr "Viðföng afkóðunar"
+msgstr ""
 
 #: modules/codec/qsv.c:106
 msgid ""
@@ -11092,9 +11096,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/qsv.c:122
-#, fuzzy
 msgid "Maximum Bitrate"
-msgstr "Hámarks bitahraði"
+msgstr ""
 
 #: modules/codec/qsv.c:123
 msgid ""
@@ -11126,9 +11129,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/qsv.c:139
-#, fuzzy
 msgid "Number of slices per frame"
-msgstr "Fjöldi búta"
+msgstr ""
 
 #: modules/codec/qsv.c:140
 msgid ""
@@ -11142,9 +11144,8 @@ msgid "Number of reference frames"
 msgstr ""
 
 #: modules/codec/qsv.c:148
-#, fuzzy
 msgid "Number of parallel operations"
-msgstr "Fjöldi púslraða"
+msgstr ""
 
 #: modules/codec/qsv.c:149
 msgid ""
@@ -19451,8 +19452,9 @@ msgid "Network Access Policy"
 msgstr ""
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:98
-msgid "Automatically retrieve media info"
-msgstr ""
+#, fuzzy
+msgid "Automatically retrieve media infos"
+msgstr "Nota sjálfvirka styrkaukningu myndmerkis."
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:103
 msgid "Regularly check for VLC updates"
@@ -26948,9 +26950,8 @@ msgid "Default caching policy"
 msgstr "Sjálfgefin regla fyrir skyndiminni"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:514
-#, fuzzy
 msgid "Menus language:"
-msgstr "Tungumál hljóðs"
+msgstr "Tungumál valmynda:"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:515
 msgid "Look and feel"
@@ -27326,9 +27327,6 @@ msgstr "AAAA; "
 msgid "Media Manager List"
 msgstr "Listi fyrir miðlastjórnun"
 
-#~ msgid "Add a subtitle file"
-#~ msgstr "Bæta við skjátextaskrá"
-
 #~ msgid ""
 #~ "SAP is a way to publically announce streams that are being sent using "
 #~ "multicast UDP or RTP."
@@ -27455,9 +27453,6 @@ msgstr "Listi fyrir miðlastjórnun"
 
 #~ msgid "BluRay"
 #~ msgstr "BluRay"
-
-#~ msgid "Digital Video (Firewire/ieee1394)  input"
-#~ msgstr "Stafrænt inntak myndmerkis (Firewire/IEEE1394)"
 
 #~ msgid "Teapot"
 #~ msgstr "Teketill"
@@ -27895,6 +27890,14 @@ msgstr "Listi fyrir miðlastjórnun"
 #~ msgstr "iSight Upptökuinntak"
 
 #, fuzzy
+#~ msgid "Add a subtitle file"
+#~ msgstr "Nota skjá&textaskrá"
+
+#, fuzzy
+#~ msgid "Digital Video (Firewire/ieee1394)  input"
+#~ msgstr "IIDC Digital Camera (FireWire) inntak"
+
+#, fuzzy
 #~ msgid "row border"
 #~ msgstr "Jaðar á röð"
 
@@ -27941,7 +27944,9 @@ msgstr "Listi fyrir miðlastjórnun"
 #, fuzzy
 #~ msgid ""
 #~ "These are general settings for video/audio/subtitles encoding modules."
-#~ msgstr "Almennar stillingar fyrir hljóðúttakseiningu"
+#~ msgstr ""
+#~ "Þetta eru almennar stillingar fyrir kóðunareiningar myndmerkis/hljóðs/"
+#~ "skjátexta."
 
 #, fuzzy
 #~ msgid "No help available"
@@ -27957,7 +27962,7 @@ msgstr "Listi fyrir miðlastjórnun"
 
 #, fuzzy
 #~ msgid "Fetch Information"
-#~ msgstr "Upplýsingar um kóðalykil (&Codec)"
+#~ msgstr "Upplýsingar um kóðunarlykil (&codec)"
 
 #, fuzzy
 #~ msgid "Sort"
@@ -28169,7 +28174,7 @@ msgstr "Listi fyrir miðlastjórnun"
 
 #, fuzzy
 #~ msgid "[vcd:][device][@[title][,[chapter]]]"
-#~ msgstr "[cdda:][tæki][@[lag]]"
+#~ msgstr "[vcd:][tæki][@[titill][,[kafli]]]"
 
 #, fuzzy
 #~ msgid "Float32 audio mixer"
@@ -28313,7 +28318,7 @@ msgstr "Listi fyrir miðlastjórnun"
 
 #, fuzzy
 #~ msgid "Load subtitles file:"
-#~ msgstr "Bæta við skjátextaskrá"
+#~ msgstr "Nota texta skrá"
 
 #, fuzzy
 #~ msgid "Subtitles encoding"
@@ -28665,7 +28670,7 @@ msgstr "Listi fyrir miðlastjórnun"
 
 #, fuzzy
 #~ msgid "Add a subtitles file"
-#~ msgstr "Bæta við skjátextaskrá"
+#~ msgstr "Nota skjá&textaskrá"
 
 #, fuzzy
 #~ msgid "Use a sub&titles file"
@@ -28957,7 +28962,7 @@ msgstr "Listi fyrir miðlastjórnun"
 
 #, fuzzy
 #~ msgid "Video4Linux"
-#~ msgstr "S-Video inntak"
+#~ msgstr "Video4Linux inntak"
 
 #, fuzzy
 #~ msgid "Reload image file"
