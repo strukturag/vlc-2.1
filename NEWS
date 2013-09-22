@@ -1,4 +1,4 @@
-Changes between 2.0.x and 2.1.0:
+Changes between 2.0.9 and 2.1.0:
 --------------------------------
 
 Important changes:
@@ -238,12 +238,19 @@ Removed modules:
  * SQL Lite (only used as SQL Media library backend)
  * htcpcp :)
 
+Translations:
+ * Update of all translations
+
 
 Changes between 2.0.8 and 2.0.9:
 --------------------------------
 
 Demux:
  * Improve handling of corrupt ASF files
+ * Fix buffer overflow in the mp4a packetizer
+
+Contribs:
+ * Fix modplug security issues
 
 
 Changes between 2.0.7 and 2.0.8:
