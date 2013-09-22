@@ -3,25 +3,25 @@ Changes between 2.0.x and 2.1.0:
 
 Important changes:
  * The licenses of numerous modules have changed from GPLv2+ to LGPLv2.1+
- * Discontinued support for PowerPC-based and 32bit Intel-based Macs
-   VLC now requires Mac OS X 10.6 or later on 64bit hardware
- * The --with-tuning and --without-tuning options are removed. To tune
-   compilation for a specific processor type, set CFLAGS manually.
+ * Discontinued support for PowerPC-based Macs; VLC now requires Mac OS X 10.6+
+   Moreover, the official builds will be 64bit only
+ * The --with-tuning and --without-tuning options are removed; to tune
+   compilation for a specific processor type, set CFLAGS manually
 
 3rd party libraries (contrib):
- * /extras/contrib has been replaced by a cleaner system in /contrib
+ * /extras/contrib has been replaced by a cleaner build system in /contrib
 
 Core:
  * Audio core rewrite, supporting higher samplerates, better volume management,
-   better device selection, new channel layouts and new output capabilities.
+   better device selection, new channel layouts and new output capabilities
  * Fix support for .001, .00x split files on Windows
  * Full support for UNICODE Windows mode
- * Remove SQL support
- * Add an audio fingerprinter, using AcoustID!
  * Disable and mark obsolete --language selection
- * Partial support for Windows Store App / WinRT
  * Port to Android
  * Port to iOS
+ * Partial support for Windows Store App / WinRT
+ * Add an audio fingerprinter, using AcoustID!
+ * Remove SQL support
 
 Decoders:
  * Support for CDXL, Ut Video, VBLE, Dxtory codecs via libavcodec
@@ -108,7 +108,7 @@ Video Outputs:
 
 Video Filters:
  * New anaglyph video filter which transforms side by side 3D video streams in
-   anaglyph glasses (aka red/blue) compatible images.
+   anaglyph glasses (aka red/blue) compatible images
  * Support in deinterlacing filter for most 4:2:0, 4:2:2, 4:4:4 YUV formats
    and for bits depth higher than 8bits (like 10bits)
  * Improvements on the transform filter, to support 10bits and RGB formats
@@ -128,9 +128,9 @@ Fingerprinters:
  * Add AcoustID/Musicbrainz based fingerprinter
 
 Interfaces:
- * configurable password for the HTTP server.
- * .hosts removed from the HTTP server.
- * fix Lua command line interface console mode under Windows.
+ * configurable password for the HTTP server
+ * .hosts removed from the HTTP server
+ * fix Lua command line interface console mode under Windows
  * Better support for MCE remotes on Windows
  * Hotkey support for TS program selection
  * Rewrite of D-Bus inhibit interface
@@ -148,7 +148,7 @@ OS X Interface:
  * Add a GUI to manage podcasts
  * Add a new panel for media conversation and streaming
  * Add a GUI for the QTSound access input to process audio captured locally
-   - This also allows to capture input from a webcam and a mic at the same time.
+   - This also allows to capture input from a webcam and a mic at the same time
  * Add a GUI to capture QTSound data along with the current screen content
  * Add an option to let the Apple Remote control the system volume instead of
    VLC's internal volume level
@@ -181,7 +181,7 @@ OS X Interface:
  * Add support for the Video Title option
  * Add support for the Boss Key
  * The Streaming/Transcoding wizard and the open dialog's output panel are
-   deprecated now and will be removed in a future release.
+   deprecated now and will be removed in a future release
 
 Qt:
  * Partial support for Qt5.0
@@ -195,11 +195,9 @@ Qt:
  * Preferences hotkeys management fixes
  * Display playlist total duration
  * Support for a Maximum volume in the UI
- * Numerous fixes
  * Add audio track fingerprinting from media info
- * Remove language preference
- * New profiles format and dialog to handle filters and quality.
-   Added new profiles.
+ * New profiles format and dialog to handle filters and quality
+ * Numerous fixes
 
 Skins2:
  * Port to OS/2
