@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-09-21 15:06+0200\n"
-"PO-Revision-Date: 2013-09-20 21:04+0000\n"
-"Last-Translator: mstefanis <mstefanis@hotmail.com>\n"
+"PO-Revision-Date: 2013-09-22 09:33+0000\n"
+"Last-Translator: kolokotronis <modernphilosopher82-2011@yahoo.com>\n"
 "Language-Team: Greek (http://www.transifex.com/projects/p/vlc-trans/language/"
 "el/)\n"
 "Language: el\n"
@@ -3319,6 +3319,8 @@ msgid ""
 "This file contains an optional CRL to prevent remote clients from using "
 "revoked certificates in TLS sessions."
 msgstr ""
+"Αυτό το αρχείο περιέχει ένα προαιρετικό CRL για να αποτρέψει απομακρυσμένους "
+"πελάτες από τη χρήση ανακαλεσμένων πιστοποιητικών σε συνεδρίες TLS."
 
 #: src/libvlc-module.c:845
 msgid "SOCKS server"
@@ -3832,6 +3834,8 @@ msgstr ""
 #: src/libvlc-module.c:1085 modules/gui/qt4/ui/sprefs_interface.h:538
 msgid "Use only one instance when started from file manager"
 msgstr ""
+"Χρησιμοποιήστε μόνο μία υπόσταση όταν γίνεται εκκίνηση από διαχειριστή "
+"αρχείων"
 
 #: src/libvlc-module.c:1087
 msgid "Increase the priority of the process"
@@ -3857,6 +3861,8 @@ msgstr ""
 #: src/libvlc-module.c:1097 modules/gui/qt4/ui/sprefs_interface.h:534
 msgid "Enqueue items into playlist in one instance mode"
 msgstr ""
+"Τοποθετήστε αντικείμενα στην ουρά της λίστας αναπαραγωγής στη λειτουργία "
+"μίας υπόστασης"
 
 #: src/libvlc-module.c:1099
 msgid ""
@@ -4808,11 +4814,11 @@ msgstr "Έναρξη/διακοπή φίλτρου πρόσβασης εγγρα
 
 #: src/libvlc-module.c:1395
 msgid "Normal/Loop/Repeat"
-msgstr ""
+msgstr "Κανονικό/Βρόχος/Επανάληψη"
 
 #: src/libvlc-module.c:1396
 msgid "Toggle Normal/Loop/Repeat playlist modes"
-msgstr ""
+msgstr "Εναλλαγή λειτουργιών λίστας αναπαραγωγής \"Κανονικό/Βρόχος/Επανάληψη\""
 
 #: src/libvlc-module.c:1399
 msgid "Toggle random playlist playback"
@@ -5958,7 +5964,7 @@ msgstr "Μενού Blu-ray"
 
 #: modules/access/bluray.c:61
 msgid "Use Blu-ray menus. If disabled, the movie will start directly"
-msgstr ""
+msgstr "Χρήση μενού Blu-ray. Αν απενεργοποιηθεί, η ταινία θα ξεκινήσει αμέσως"
 
 #: modules/access/bluray.c:69 modules/services_discovery/udev.c:596
 #: modules/gui/qt4/ui/open_disk.h:300
@@ -5974,6 +5980,8 @@ msgid ""
 "This Blu-ray Disc needs a library for AACS decoding, and your system does "
 "not have it."
 msgstr ""
+"Αυτός ο δίσκος Blu-ray χρειάζεται μία βιβλιοθήκη για αποκωδικοποίηση AACS "
+"και το σύστημά σας δεν τη διαθέτει."
 
 #: modules/access/bluray.c:272
 msgid "Blu-ray Disc is corrupted."
@@ -6012,6 +6020,8 @@ msgid ""
 "This Blu-ray Disc needs a library for BD+ decoding, and your system does not "
 "have it."
 msgstr ""
+"Αυτός ο δίσκος Blu-ray χρειάζεται μία βιβλιοθήκη για αποκωδικοποίηση BD+ και "
+"το σύστημά σας δεν τη διαθέτει."
 
 #: modules/access/bluray.c:308
 msgid "Your system BD+ decoding library does not work. Missing configuration?"
@@ -7069,7 +7079,7 @@ msgstr ""
 
 #: modules/access/fs.c:42
 msgid "Collapse"
-msgstr ""
+msgstr "Κατάρρευση"
 
 #: modules/access/fs.c:42
 msgid "Expand"
@@ -7949,7 +7959,7 @@ msgstr "Χρησιμοποιήστε τυχαιοποιημένη IV για τη
 
 #: modules/access_output/livehttp.c:105
 msgid "Generate IV instead using segment-number as IV"
-msgstr ""
+msgstr "Δημιουργία IV αντί να χρησιμοποιηθεί ως IV ο αριθμός τμήματος"
 
 #: modules/access_output/livehttp.c:108
 msgid "HTTP Live streaming output"
@@ -8585,7 +8595,7 @@ msgstr "Κωδικός χρόνου"
 
 #: modules/access/timecode.c:44
 msgid "Time code subpicture elementary stream generator"
-msgstr ""
+msgstr "Δημιουργός κύριας ροής δεδομένων υποεικόνας με κώδικα χρόνου"
 
 #: modules/access/udp.c:53
 msgid "UDP"
@@ -8614,6 +8624,8 @@ msgstr "Συσκευή σύλληψης VBI"
 #: modules/access/v4l2/v4l2.c:48
 msgid "The device node where VBI data can be read  (for closed captions) "
 msgstr ""
+"Ο κόμβος συσκευής όπου θα μπορούν να διαβάζονται τα δεδομένα VBI (για "
+"κλειστές λεζάντες)"
 
 #: modules/access/v4l2/v4l2.c:50 modules/stream_out/standard.c:90
 msgid "Standard"
@@ -8653,6 +8665,8 @@ msgid ""
 "The specified pixel resolution is forced (if both width and height are "
 "strictly positive)."
 msgstr ""
+"Επιβάλλεται η καθορισμένη ανάλυση pixel (αν και το πλάτος και το ύψος είναι "
+"αυστηρά θετικά)."
 
 #: modules/access/v4l2/v4l2.c:73
 msgid "Radio device"
@@ -9347,7 +9361,7 @@ msgstr "Επίπεδο συμπίεσης"
 
 #: modules/access/vnc.c:62
 msgid "Transfer compression level from 0 (none) to 9 (max)"
-msgstr ""
+msgstr "Μεταφορά του επιπέδου συμπίεσης από το 0 (καθόλου) στο 9 (μέγιστη)"
 
 #: modules/access/vnc.c:63
 msgid "Image quality"
@@ -9406,6 +9420,10 @@ msgid ""
 "TCP address to use to communicate with the video part of the Bar Graph "
 "(default localhost). In the case of bargraph incrustation, use localhost."
 msgstr ""
+"Η διεύθυνση TCP που θα χρησιμοποιηθεί για την επικοινωνία με το τμήμα βίντεο "
+"του γραφήματος ράβδων (προεπιλεγμένος τοπικός κεντρικός υπολογιστής). Σε "
+"περίπτωση περισκλήρυνσης του γραφήματος ράβδων, να χρησιμοποιηθεί ο τοπικός "
+"κεντρικός υπολογιστής."
 
 #: modules/audio_filter/audiobargraph_a.c:44
 msgid "TCP port to use"
@@ -9416,10 +9434,13 @@ msgid ""
 "TCP port to use to communicate with the video part of the Bar Graph (default "
 "12345). Use the same port as the one used in the rc interface."
 msgstr ""
+"Η θύρα TCP που θα χρησιμοποιηθεί για την επικοινωνία με το τμήμα βίντεο του "
+"γραφήματος ράβδων (προεπιλεγμένη η 12345). Να χρησιμοποιηθεί η ίδια θύρα με "
+"αυτήν που χρησιμοποιήθηκε στην διεπαφή rc."
 
 #: modules/audio_filter/audiobargraph_a.c:48
 msgid "Defines if BarGraph information should be sent"
-msgstr ""
+msgstr "Ορίζει εάν θα πρέπει να αποσταλούν πληροφορίες του γραφήματος ράβδων"
 
 #: modules/audio_filter/audiobargraph_a.c:49
 msgid ""
@@ -9431,7 +9452,7 @@ msgstr ""
 
 #: modules/audio_filter/audiobargraph_a.c:51
 msgid "Sends the barGraph information every n audio packets"
-msgstr ""
+msgstr "Αποστέλλει τις πληροφορίες του γραφήματος ράβδων κάθε n πακέτα ήχου"
 
 #: modules/audio_filter/audiobargraph_a.c:52
 msgid ""
@@ -9444,6 +9465,7 @@ msgstr ""
 #: modules/audio_filter/audiobargraph_a.c:54
 msgid "Defines if silence alarm information should be sent"
 msgstr ""
+"Ορίζει εάν θα πρέπει να αποσταλούν πληροφορίες για το σιωπηλό συναγερμό."
 
 #: modules/audio_filter/audiobargraph_a.c:55
 msgid ""
@@ -9455,7 +9477,7 @@ msgstr ""
 
 #: modules/audio_filter/audiobargraph_a.c:57
 msgid "Time window to use in ms"
-msgstr ""
+msgstr "Παράθυρο χρόνου που θα χρησιμοποιηθεί σε msec"
 
 #: modules/audio_filter/audiobargraph_a.c:58
 msgid ""
@@ -9482,7 +9504,7 @@ msgstr ""
 
 #: modules/audio_filter/audiobargraph_a.c:65
 msgid "Time between two alarm messages in ms"
-msgstr ""
+msgstr "Χρόνος μεταξύ δύο μηνυμάτων συναγερμού σε msec"
 
 #: modules/audio_filter/audiobargraph_a.c:66
 msgid ""
@@ -9494,7 +9516,7 @@ msgstr ""
 
 #: modules/audio_filter/audiobargraph_a.c:68
 msgid "Force connection reset regularly"
-msgstr ""
+msgstr "Τακτική επιβολή επαναφοράς σύνδεσης"
 
 #: modules/audio_filter/audiobargraph_a.c:69
 msgid ""
@@ -10228,6 +10250,9 @@ msgid ""
 "both channels) and by delaying the signal of left into right and vice versa, "
 "thereby widening the stereo effect."
 msgstr ""
+"Αυτό το φίλτρο ενισχύει το στερεοφωνικό εφέ καταστέλλοντας το μονοφωνικό "
+"(κοινό σήμα και για τα δύο κανάλια) και καθυστερώντας το σήμα από αριστερά "
+"προς τα δεξιά και το αντίθετο, διευρύνοντας έτσι το στερεοφωνικό εφέ."
 
 #: modules/audio_filter/stereo_widen.c:60
 msgid "Time in ms of the delay of left signal into right and vice versa."
@@ -10241,10 +10266,13 @@ msgid ""
 "delay effect of left signal in right output and vice versa which gives "
 "widening effect."
 msgstr ""
+"Ποσότητα απολαβής σε καθυστερημένο σήμα από αριστερά προς τα δεξιά και "
+"αντίθετα. Δίνει ένα εφέ καθυστέρησης της εξόδου του σήματος που έρχεται από "
+"τα αριστερά στα δεξιά και το οποίο δίνει ένα εφέ διεύρυνσης."
 
 #: modules/audio_filter/stereo_widen.c:66
 msgid "Crossfeed"
-msgstr ""
+msgstr "Διασταυρούμενη τροφοδοσία"
 
 #: modules/audio_filter/stereo_widen.c:67
 msgid ""
@@ -10252,6 +10280,9 @@ msgid ""
 "the mono. If the value is 1 it will cancel all the signal common to both "
 "channels."
 msgstr ""
+"Διασταυρούμενη τροφοδοσία του αριστερού προς το δεξιό με αντίστροφη φάση. "
+"Αυτό βοηθάει στην καταστολή του μονοφωνικού. Αν η τιμή είναι 1, αυτό θα "
+"ακυρώσει ολόκληρο το σήμα που είναι κοινό και για τα δύο κανάλια. "
 
 #: modules/audio_filter/stereo_widen.c:70
 msgid "Dry mix"
@@ -10299,6 +10330,9 @@ msgid ""
 "output, it will be down-mixed. This parameter is ignored when digital pass-"
 "through is active."
 msgstr ""
+"Διαθέσιμα κανάλια για έξοδο ήχου. Αν η είσοδος έχει περισσότερα κανάλια από "
+"την έξοδο τότε θα γίνει μίξη συγχώνευσης. Αυτή  η παράμετρος αγνοείται όταν "
+"είναι ενεργό το ψηφιακό πέρασμα."
 
 #: modules/audio_output/alsa.c:76
 msgid "Surround 4.0"
@@ -10384,6 +10418,8 @@ msgid ""
 "You should configure your speaker layout with \"Audio Midi Setup\" in /"
 "Applications/Utilities. VLC will output Stereo only."
 msgstr ""
+"Θα πρέπει να ρυθμίστε τη διάταξη των ηχείων σας με το \"Audio Midi Setup\" "
+"στο /Εφαρμογές/Βοηθήματα. Ο VLC θα εξάγει μόνο στερεοφωνικό ήχο."
 
 #: modules/audio_output/auhal.c:1139
 msgid "System Sound Output Device"
@@ -10674,6 +10710,11 @@ msgid ""
 "can produce a lot of errors.\n"
 "Valid values range from 0 to 4 (0 disables all errors resilience)."
 msgstr ""
+"Το libavcodec μπορεί να κάνει ανοχή σφάλματος.\n"
+"Ωστόσο, με έναν λανθασμένο κωδικοποιητή (όπως ο κωδικοποιητής ISO MPEG-4 από "
+"την M$) αυτό μπορεί να παράγει πολλά σφάλματα.\n"
+"Οι έγκυρες τιμές κυμαίνονται από 0 έως 4 (Το 0 απενεργοποιεί κάθε ανοχή "
+"σφάλματος)."
 
 #: modules/codec/avcodec/avcodec.h:79
 msgid "Workaround bugs"
@@ -11101,6 +11142,11 @@ msgid ""
 "(default: low). hev1 and hev2 are currently supported only with libfdk-aac "
 "enabled libavcodec"
 msgstr ""
+"Ορίστε το προφίλ ήχου AAC που θα χρησιμοποιηθεί για την κωδικοποίηση της "
+"ροής δεδομένων bit του ήχου. Λαμβάνει τις ακόλουθες επιλογές: κύριο, χαμηλό, "
+"ssr (δεν υποστηρίζεται), ltp, hev1, hev2 (προεπιλογή: χαμηλό).Τα hev1 και "
+"hev2 αυτή τη στιγμή υποστηρίζονται μόνο με  libavcodec ενεργοποιημένο με "
+"libfdk-aac"
 
 #: modules/codec/avcodec/dxva2.c:58
 msgid "DirectX Video Acceleration (DXVA) 2.0"
@@ -11127,6 +11173,14 @@ msgid ""
 "This is not an error inside VLC media player.\n"
 "Do not contact the VideoLAN project about this issue.\n"
 msgstr ""
+"Φαίνεται ότι η εγκατάσταση Libav/FFmpeg (libavcodec) στο σύστημά σας δεν "
+"διαθέτει τον ακόλουθο κωδικοποιητή:\n"
+"%s.\n"
+"Αν δεν γνωρίζετε πώς να το επιδιορθώσετε, ζητήστε υποστήριξη από τη διανομή "
+"σας.\n"
+"\n"
+"Αυτό δεν είναι ένα πρόβλημα του αναπαραγωγού πολυμέσων VLC.\n"
+"Μην επικοινωνήσετε με το πρόγραμμα VideoLAN για αυτό το ζήτημα.\n"
 
 #: modules/codec/avcodec/encoder.c:764 modules/codec/avcodec/encoder.c:817
 msgid "VLC could not open the encoder."
@@ -11532,26 +11586,32 @@ msgstr "Ποιότητα VBR"
 #: modules/codec/fdkaac.c:74
 msgid "Quality of the VBR Encoding (0=cbr, 1-5 constant quality vbr, 5 is best"
 msgstr ""
+"Ποιότητα της κωδικοποίησης VBR (0=cbr, 1-5 vbr σταθερής ποιότητας, 5 είναι "
+"το καλύτερο"
 
 #: modules/codec/fdkaac.c:76
 msgid "Enable afterburner library"
-msgstr ""
+msgstr "Ενεργοποίηση βιβλιοθήκης afterburner"
 
 #: modules/codec/fdkaac.c:77
 msgid ""
 "This library will produce higher quality audio at the expense of additional "
 "CPU usage (default is enabled)"
 msgstr ""
+"Αυτή η βιβλιοθήκη θα παράγει ήχο υψηλότερης ποιότητας, με αντίτιμο τη χρήση "
+"πρόσθετης CPU (είναι ενεργοποιημένη από προεπιλογή)"
 
 #: modules/codec/fdkaac.c:79
 msgid "Signaling mode of the extension AOT"
-msgstr ""
+msgstr "Λειτουργία σηματοδότησης της AOT επέκτασης"
 
 #: modules/codec/fdkaac.c:80
 msgid ""
 "1 is explicit for SBR and implicit for PS (default), 2 is explicit "
 "hierarchical"
 msgstr ""
+"Το 1 είναι ρητό για SBR και υπονοούμενο για PS (προεπιλογή), το 2 είναι ρητά "
+"ιεραρχικό"
 
 #: modules/codec/fdkaac.c:97
 msgid "AAC-LC"
@@ -11622,6 +11682,8 @@ msgid ""
 "The polyphony defines how many voices can be played at a time. Larger values "
 "require more processing power."
 msgstr ""
+"Η πολυφωνία ορίζει πόσες φωνές μπορούν να αναπαράγονται την ίδια χρονική "
+"στιγμή. Μεγαλύτερες τιμές απαιτούν υψηλότερη υπολογιστική ισχύ."
 
 #: modules/codec/fluidsynth.c:60 modules/demux/mod.c:82
 msgid "Reverb"
@@ -12017,6 +12079,8 @@ msgid ""
 "Allow the use of the Intel Media SDK software implementation of the codecs "
 "if no QuickSync Video hardware acceleration is present on the system."
 msgstr ""
+"Να επιτρέπεται η εκτέλεση του λογισμικού Intel Media SDK των codecs αν δεν "
+"υπάρχει επιτάχυνση υλικού βίντεο QuickSync στο σύστημα."
 
 #: modules/codec/qsv.c:61
 msgid "Codec Profile"
@@ -12028,6 +12092,9 @@ msgid ""
 "the correct profile from other sources, such as resolution and bitrate. E.g. "
 "'high'"
 msgstr ""
+"Ορίστε ρητά το προφίλ του codec. Αν δεν το κάνετε, το codec θα καθορίσει το "
+"σωστό προφίλ από άλλες πηγές, όπως την ανάλυση και τον ρυθμό μετάδοσης "
+"δεδομένων. Π.χ. 'υψηλός'"
 
 #: modules/codec/qsv.c:67
 msgid "Codec Level"
@@ -12039,10 +12106,13 @@ msgid ""
 "the correct profile from other sources, such as resolution and bitrate. E.g. "
 "'4.2' for mpeg4-part10 or 'low' for mpeg2"
 msgstr ""
+"Ορίστε ρητά το επίπεδο του codec. Αν δεν το κάνετε, το codec θα καθορίσει το "
+"σωστό προφίλ από άλλες πηγές, όπως την ανάλυση και τον ρυθμό μετάδοσης "
+"δεδομένων. Π.χ. '4.2' για το mpeg4-part10 ή 'χαμηλός' για το mpeg2"
 
 #: modules/codec/qsv.c:73
 msgid "Group of Picture size"
-msgstr ""
+msgstr "Μέγεθος ομάδας εικόνων"
 
 #: modules/codec/qsv.c:75
 msgid ""
@@ -12050,26 +12120,35 @@ msgid ""
 "GopPicSize=0, then the GOP size is unspecified. If GopPicSize=1, only I-"
 "frames are used."
 msgstr ""
+"Αριθμός εικόνων μέσα στην τρέχουσα GOP (ομάδα εικόνων)· Αν το μέγεθος της "
+"ομάδας εικόνων=0, τότε το μέγεθος αυτό είναι ακαθόριστο. Αν το μέγεθος της "
+"ομάδας εικόνων=1 τότε χρησιμοποιούνται μόνο καρέ I."
 
 #: modules/codec/qsv.c:79
 msgid "Group of Picture Reference Distance"
-msgstr ""
+msgstr "Απόσταση αναφοράς της ομάδας εικόνων"
 
 #: modules/codec/qsv.c:81
 msgid ""
 "Distance between I- or P- key frames; if it is zero, the GOP structure is "
 "unspecified. Note: If GopRefDist = 1, there are no B- frames used. "
 msgstr ""
+"Απόσταση μεταξύ καρέ κλειδιών I- ή P-· Αν είναι μηδέν, τότε η δομή της "
+"ομάδας εικόνων είναι ακαθόριστη. Σημείωση: Αν η απόσταση αναφοράς της ομάδας "
+"εικόνων είναι 1, τότε δεν χρησιμοποιούνται καρέ B."
 
 #: modules/codec/qsv.c:85
 msgid "Target Usage"
-msgstr ""
+msgstr "Χρήση στόχου"
 
 #: modules/codec/qsv.c:86
 msgid ""
 "The target usage allow to choose between different trade-offs between "
 "quality and speed. Allowed values are : 'speed', 'balanced' and 'quality'."
 msgstr ""
+"Η χρήση του στόχου επιτρέπει την επιλογή ανάμεσα σε διαφορετικούς "
+"συμβιβασμούς μεταξύ ποιότητας και ταχύτητας. Οι επιτρεπόμενες τιμές είναι: "
+"'ταχύτητα', 'εξισορρόπηση' και 'ποιότητα'."
 
 #: modules/codec/qsv.c:90
 msgid "IDR interval"
@@ -12084,6 +12163,13 @@ msgid ""
 "the sequence header before every Nth I-frame. If IdrInterval=0 (default), "
 "SDK inserts the sequence header once at the beginning of the stream. "
 msgstr ""
+"Για το H.264, το IdrInterval ορίζει το διάστημα καρέ IDR από άποψη καρέ I· "
+"αν το IdrInterval=0, τότε κάθε καρέ I είναι ένα καρέ IDR. Αν το "
+"IdrInterval=1, τότε οποιοδήποτε άλλο κλειδί I-frame είναι καρέ IDR κλπ. Για "
+"το MPEG2, το IdrInterval ορίζει το διάστημα κεφαλίδας ακολουθίας από άποψη "
+"καρέ I. Αν το IdrInterval=N, το SDK εισάγει την κεφαλίδα ακολουθίας πριν από "
+"κάθε νιοστό καρέ I. Αν το IdrInterval=0 (προεπιλογή), τότε το SDK εισάγει "
+"την κεφαλίδα ακολουθίας μία φορά, στην αρχή της ροής δεδομένων. "
 
 #: modules/codec/qsv.c:100
 msgid "Rate Control Method"
@@ -12094,6 +12180,9 @@ msgid ""
 "The rate control method to use when encoding. Can be one of 'crb', 'vbr', "
 "'qp', 'avbr'. 'qp' mode isn't supported for mpeg2"
 msgstr ""
+"Η μέθοδος ελέγχου ρυθμού που θα χρησιμοποιηθεί κατά την κωδικοποίηση. Μπορεί "
+"να είναι μία εκ των 'crb', 'vbr', 'qp', 'avbr'. Η λειτουργία 'qp' δε "
+"υποστηρίζεται για mpeg2"
 
 #: modules/codec/qsv.c:105
 msgid "Quantization parameter"
@@ -12105,6 +12194,9 @@ msgid ""
 "qpp and qpp. It has less precedence than the forementionned parameters. Used "
 "only if rc_method is 'qp'."
 msgstr ""
+"Παράμετρος κβαντισμού για όλους τους τύπους καρέ. Αυτή η παράμετρος ορίζει "
+"τα qpi, qpp και qpp. Έχει μικρότερη προτεραιότητα από τις προαναφερθείσες "
+"παραμέτρους. Χρησιμοποιείται μόνο όταν η μέθοδος rc είναι 'qp'."
 
 #: modules/codec/qsv.c:110
 msgid "Quantization parameter for I-frames"
@@ -12115,6 +12207,9 @@ msgid ""
 "Quantization parameter for I-frames. This parameter overrides any qp set "
 "globally. Used only if rc_method is 'qp'."
 msgstr ""
+"Παράμετρος κβαντισμού qp για τα καρέ I. Αυτή η παράμετρος υπερισχύει "
+"οποιασδήποτε qp έχει ρυθμιστεί συνολικά. Χρησιμοποιείται μόνο όταν η μέθοδος "
+"rc είναι 'qp'."
 
 #: modules/codec/qsv.c:114
 msgid "Quantization parameter for P-frames"
@@ -12125,6 +12220,9 @@ msgid ""
 "Quantization parameter for P-frames. This parameter overrides any qp set "
 "globally. Used only if rc_method is 'qp'."
 msgstr ""
+"Παράμετρος κβαντισμού qp για τα καρέ P. Αυτή η παράμετρος υπερισχύει "
+"οποιασδήποτε qp έχει ρυθμιστεί συνολικά. Χρησιμοποιείται μόνο όταν η μέθοδος "
+"rc είναι 'qp'."
 
 #: modules/codec/qsv.c:118
 msgid "Quantization parameter for B-frames"
@@ -12135,6 +12233,9 @@ msgid ""
 "Quantization parameter for B-frames. This parameter overrides any qp set "
 "globally. Used only if rc_method is 'qp'."
 msgstr ""
+"Παράμετρος κβαντισμού qp για τα καρέ B. Αυτή η παράμετρος υπερισχύει "
+"οποιασδήποτε qp έχει ρυθμιστεί συνολικά. Χρησιμοποιείται μόνο όταν η μέθοδος "
+"rc είναι 'qp'."
 
 #: modules/codec/qsv.c:122
 msgid "Maximum Bitrate"
@@ -12146,6 +12247,9 @@ msgid ""
 "method. If not set, this parameter. is computed from other sources such as "
 "bitrate, profile, level, etc."
 msgstr ""
+"Καθορίζει τον μέγιστο ρυθμό μετάδοσης δεδομένων σε Kbps (1000 bits/s) για τη "
+"μέθοδο ελέγχου ρυθμού VBR. Εάν δεν οριστεί υπολογίζεται από άλλες πηγές, "
+"όπως ο ρυθμός μετάδοσης δεδομένων, το προφίλ, το επίπεδο κλπ."
 
 #: modules/codec/qsv.c:127
 msgid "Accuracy of RateControl"
@@ -12158,16 +12262,24 @@ msgid ""
 "880 kpbs and under  730 kpbs. The targeted accuracy is only reached after a "
 "certained  convergence period. See the convergence parameter"
 msgstr ""
+"Ανοχή ως ποσοστό της μεθόδου 'avbr' (μέσος μεταβλητός ρυθμός δεδομένων). (Π."
+"χ.10 με ρυθμό μετάδοσης δεδομένων 800 kbps θα σήμαινε ότι ο κωδικοποιητής "
+"προσπαθεί να μην φτάσει πάνω από τα 880 kbps και κάτω από τα 730 kbps. Η "
+"επιθυμητή ακρίβεια επιτυγχάνεται μόνο μετά από μια περίοδο σύγκλισης. Δείτε "
+"την παράμετρο σύγκλισης"
 
 #: modules/codec/qsv.c:134
 msgid "Convergence time of 'avbr' RateControl"
-msgstr ""
+msgstr "Χρόνος σύγκλισης στη μέθοδο ελέγχου ρυθμού 'avbr'"
 
 #: modules/codec/qsv.c:135
 msgid ""
 "Number of 100 frames before the 'avbr' rate control method reaches the "
 "requested bitrate with the requested accuracy. See the accuracy parameter. "
 msgstr ""
+"Αριθμός 100 καρέ προτού η μέθοδος ελέγχου ρυθμού 'avbr' φτάσει στο ζητούμενο "
+"ρυθμό μετάδοσης δεδομένων με τη ζητούμενη ακρίβεια. Δείτε την παράμετρο "
+"ακρίβειας."
 
 #: modules/codec/qsv.c:139
 msgid "Number of slices per frame"
@@ -12179,6 +12291,10 @@ msgid ""
 "block rows. If numslice is not set, the encoder may choose any slice "
 "partitioning allowed by the codec standard."
 msgstr ""
+"Αριθμός τμημάτων σε κάθε καρέ βίντεο· κάθε τμήμα περιέχει μία ή περισσότερες "
+"σειρές μακροενοτήτων δεδομένων. Αν ο αριθμός των τμημάτων δεν οριστεί, τότε "
+"ο κωδικοποιητής μπορεί να επιλέξει οποιονδήποτε διαμερισμό επιτρέπεται από "
+"το πρότυπο του codec."
 
 #: modules/codec/qsv.c:145 modules/codec/qsv.c:146 modules/codec/x264.c:134
 msgid "Number of reference frames"
@@ -12194,10 +12310,16 @@ msgid ""
 "result. Higher  may result on better throughput depending on hardware. MPEG2 "
 "needs at least 1 here."
 msgstr ""
+"Ορίζει τον αριθμό των παράλληλων λειτουργιών κωδικοποίησης πριν "
+"συγχρονίσουμε το αποτέλεσμα. Μεγαλύτερος αριθμός μπορεί να έχει σαν "
+"αποτέλεσμα μία καλύτερη διαμεταγωγή, ανάλογα και με το υλικό. Το MPEG2 "
+"χρειάζεται τουλάχιστον 1 εδώ."
 
 #: modules/codec/qsv.c:193
 msgid "Intel QuickSync Video encoder for MPEG4-Part10/MPEG2 (aka H.264/H.262)"
 msgstr ""
+"Κωδικοποιητής βίντεο Intel QuickSync για το MPEG4-Part10/MPEG2 (γνωστό και "
+"ως H.264/H.262)"
 
 #: modules/codec/quicktime.c:66
 msgid "QuickTime library decoder"
@@ -12842,6 +12964,8 @@ msgstr "Αυτόματη ανίχνευση υπότιτλων UTF-8"
 msgid ""
 "This enables automatic detection of UTF-8 encoding within subtitle files."
 msgstr ""
+"Αυτό ενεργοποιεί την αυτόματη ανίχνευση της κωδικοποίησης UTF-8 μέσα στα "
+"αρχεία υποτίτλων."
 
 #: modules/codec/subsdec.c:174
 msgid ""
@@ -13057,6 +13181,10 @@ msgid ""
 "improving quality for a given bitrate at the cost of seeking precision. Use "
 "-1 for infinite."
 msgstr ""
+"Ρυθμίζει το μέγιστο διάστημα μεταξύ των καρέ IDR. Μεγαλύτερες τιμές "
+"εξοικονομούν bits, βελτιώνοντας την ποιότητα για ένα δοθέντα ρυθμό μετάδοσης "
+"δεδομένων, με αντίτιμο την ακρίβεια αναζήτησης. Χρησιμοποιείστε -1 για "
+"άπειρο."
 
 #: modules/codec/x264.c:67
 msgid "Minimum GOP size"
@@ -13194,13 +13322,16 @@ msgstr ""
 
 #: modules/codec/x264.c:125
 msgid "Use fullrange instead of TV colorrange"
-msgstr ""
+msgstr "Χρήση πλήρους εύρους αντί για τηλεοπτικού χρωματικού εύρους"
 
 #: modules/codec/x264.c:126
 msgid ""
 "TV-range is usually used colorrange, defining this to true will enable "
 "libx264 to use full colorrange on encoding"
 msgstr ""
+"Το τηλεοπτικό εύρος είναι συνήθως ένα χρησιμοποιημένο χρωματικό εύρος, "
+"ορίζοντάς το σε αληθές θα επιτρέψει στην libx264 να χρησιμοποιήσει το πλήρες "
+"χρωματικό εύρος κατά την κωδικοποίηση"
 
 #: modules/codec/x264.c:129
 msgid "CABAC"
@@ -13908,11 +14039,11 @@ msgstr "Πληροφορίες συγχρονισμού HRD"
 
 #: modules/codec/x264.c:409
 msgid "Default tune setting used"
-msgstr ""
+msgstr "Προεπιλεγμένη ρύθμιση συντονισμού που χρησιμοποιήθηκε"
 
 #: modules/codec/x264.c:410
 msgid "Default preset setting used"
-msgstr ""
+msgstr "Προεπιλεγμένη ρύθμιση προσυντονισμού που χρησιμοποιήθηκε"
 
 #: modules/codec/x264.c:412
 msgid "x264 advanced options."
@@ -13965,7 +14096,7 @@ msgstr "Χωρικό"
 
 #: modules/codec/x264.c:434
 msgid "Temporal"
-msgstr ""
+msgstr "Προσωρινά"
 
 #: modules/codec/x264.c:439
 msgid "checkerboard"
@@ -14174,7 +14305,7 @@ msgstr "Η εγγραφή ολοκληρώθηκε"
 
 #: modules/control/hotkeys.c:403
 msgid "Sub sync: bookmarked audio time"
-msgstr ""
+msgstr "Συγχρονισμός υποτίτλων / χρόνος ήχου σε σελιδοδείκτη "
 
 #: modules/control/hotkeys.c:418 modules/control/hotkeys.c:487
 msgid "No active subtitle"
@@ -14182,7 +14313,7 @@ msgstr "Μη ενεργοί υπότιτλοι"
 
 #: modules/control/hotkeys.c:424
 msgid "Sub sync: bookmarked subtitle time"
-msgstr ""
+msgstr "Συγχρονισμός υποτίτλων / χρόνος υποτίτλου σε σελιδοδείκτη "
 
 #: modules/control/hotkeys.c:444
 msgid "Sub sync: set bookmarks first!"
@@ -14967,6 +15098,12 @@ msgid ""
 "This step might take a long time on a large file.\n"
 "What do you want to do?"
 msgstr ""
+"Επειδή το ευρετήριο αυτού του αρχέιου AVI είναι φθαρμένο ή λείπει, η "
+"αναζήτηση δεν θα πραγματοποιηθεί σωστά.\n"
+"Ο VLC δεν θα επιδιορθώσει το αρχείο σας αλλά μπορεί προσωρινά να διορθώσει "
+"αυτό το πρόβλημα δημιουργώντας ένα ευρετήριο στη μνήμη.\n"
+"Αυτό το βήμα θα πάρει αρκετό χρόνο σε ένα μεγάλο αρχείο.\n"
+"Τι θέλετε να κάνετε;"
 
 #: modules/demux/avi/avi.c:680
 msgid "Build index then play"
@@ -15772,7 +15909,7 @@ msgstr "Black Metal"
 
 #: modules/demux/mp4/id3genres.h:171
 msgid "Crossover"
-msgstr ""
+msgstr "Διάσχιση"
 
 #: modules/demux/mp4/id3genres.h:172
 msgid "Contemporary Christian"
@@ -16586,6 +16723,8 @@ msgstr "Συντάκτες"
 msgid ""
 "VLC media player and VideoLAN are trademarks of the VideoLAN Association."
 msgstr ""
+"Ο αναπαραγωγός πολυμέσων VLC και το VideoLAN είναι εμπορικά σήματα του "
+"συλλόγου VideoLAN"
 
 #: modules/gui/macosx/about.m:115
 msgid "Compiled by %s with %@"
@@ -16602,6 +16741,16 @@ msgid ""
 "\"http://www.videolan.org/contribute/\"><span style=\" text-decoration: "
 "underline; color:#0057ae;\">Help and join us!</span></a>"
 msgstr ""
+"<p>Ο αναπαραγωγός πολυμέσων VLC είναι ένας δωρεάν αναπαραγωγός πολυμέσων "
+"ανοιχτού κώδικα, κωδικοποιητής και πάροχος ροών δεδομένων που δημιουργήθηκε "
+"από εθελοντές της κοινότητας <a href=\"http://www.videolan.org/\"><span "
+"style=\" text-decoration: underline; color:#0057ae;\">VideoLAN</span></a>.</"
+"p><p>Ο VLC χρησιμοποιεί τους δικούς του εσωτερικούς codecs, δουλεύει "
+"ουσιαστικά σε κάθε δημοφιλή πλατφόρμα και μπορεί να διαβάσει σχεδόν όλα τα "
+"αρχεία, CD, DVD, ροές δεδομένων δικτύου, κάρτες σύλληψης και άλλους τύπους "
+"πολυμέσων!</p><p><a href=\"http://www.videolan.org/contribute/\"><span style="
+"\" text-decoration: underline; color:#0057ae;\">Βοηθήστε και ελάτε μαζί μας!"
+"</span></a>"
 
 #: modules/gui/macosx/about.m:273
 msgid "VLC media player Help"
@@ -16870,6 +17019,9 @@ msgid ""
 "Click to go to the previous playlist item. Hold to skip backward through the "
 "current media."
 msgstr ""
+"Κάντε κλικ για να μεταβείτε στο προηγούμενο αντικείμενο της λίστας "
+"αναπαραγωγής. Κρατήστε πατημένο για να παραλείψετε προς τα πίσω μέσα από το "
+"τρέχον πολυμέσο."
 
 #: modules/gui/macosx/ControlsBar.m:60 modules/gui/macosx/fspanel.m:419
 msgid "Forward"
@@ -16880,12 +17032,18 @@ msgid ""
 "Click to go to the next playlist item. Hold to skip forward through the "
 "current media."
 msgstr ""
+"Κάντε κλικ για να μεταβείτε στο επόμενο αντικείμενο της λίστας αναπαραγωγής. "
+"Κρατήστε πατημένο για να παραλείψετε προς τα εμπρός μέσα από το τρέχον "
+"πολυμέσο."
 
 #: modules/gui/macosx/ControlsBar.m:65 modules/gui/macosx/fspanel.m:445
 msgid ""
 "Click and move the mouse while keeping the button pressed to use this slider "
 "to change current playback position."
 msgstr ""
+"Κάντε κλικ και μετακινήστε το ποντίκι κρατώντας πατημένο το κουμπί για να "
+"χρησιμοποιήσετε αυτό τον ολισθητή και να αλλάξετε την τρέχουσα θέση "
+"αναπαραγωγής."
 
 #: modules/gui/macosx/ControlsBar.m:68 modules/gui/macosx/fspanel.m:421
 msgid "Toggle Fullscreen mode"
@@ -16909,6 +17067,9 @@ msgid ""
 "Click to switch between video output and playlist. If no video is shown in "
 "the main window, this allows you to hide the playlist."
 msgstr ""
+"Κάντε κλικ για να μεταβείτε από την έξοδο βίντεο στην λίστα αναπαραγωγής. Αν "
+"δεν προβάλλεται βίντεο στο κύριο παράθυρο, σας δίνεται η δυνατότητα να "
+"αποκρύψτε τη λίστα αναπαραγωγής."
 
 #: modules/gui/macosx/ControlsBar.m:444 modules/gui/qt4/dialogs/vlm.cpp:560
 #: share/lua/http/index.html:241
@@ -16920,6 +17081,8 @@ msgid ""
 "Click to change repeat mode. There are 3 states: repeat one, repeat all and "
 "off."
 msgstr ""
+"Κάντε κλικ για να αλλάξετε τη λειτουργία επανάληψης. Υπάρχουν 3 καταστάσεις: "
+"επανάληψη ενός, επανάληψη όλων και απενεργοποίηση."
 
 #: modules/gui/macosx/ControlsBar.m:448 share/lua/http/index.html:239
 msgid "Shuffle"
@@ -16935,6 +17098,8 @@ msgid ""
 "Click and move the mouse while keeping the button pressed to use this slider "
 "to change the volume."
 msgstr ""
+"Κάντε κλικ και μετακινήστε το ποντίκι κρατώντας πατημένο το κουμπί για να "
+"χρησιμοποιήσετε αυτό τον ολισθητή και να μεταβάλλετε την ένταση του ήχου."
 
 #: modules/gui/macosx/ControlsBar.m:456
 msgid "Click to mute or unmute the audio."
@@ -16958,6 +17123,8 @@ msgid ""
 "Click to show an Audio Effects panel featuring an equalizer and further "
 "filters."
 msgstr ""
+"Κάντε κλικ για να προβάλλετε ένα πλαίσιο εφέ ήχου με ισοσταθμιστή και άλλα "
+"φίλτρα."
 
 #: modules/gui/macosx/ControlsBar.m:717 modules/gui/macosx/fspanel.m:416
 msgid "Click to go to the previous playlist item."
@@ -16972,10 +17139,14 @@ msgstr ""
 #: modules/gui/macosx/ControlsBar.m:744 modules/gui/macosx/fspanel.m:417
 msgid "Click and hold to skip backward through the current media."
 msgstr ""
+"Κάντε κλικ και κρατήστε για να παραλείψετε προς τα πίσω μέσα από το τρέχον "
+"πολυμέσο."
 
 #: modules/gui/macosx/ControlsBar.m:745 modules/gui/macosx/fspanel.m:419
 msgid "Click and hold to skip forward through the current media."
 msgstr ""
+"Κάντε κλικ και κρατήστε για να παραλείψετε προς τα εμπρός μέσα από το τρέχον "
+"πολυμέσο."
 
 #: modules/gui/macosx/ConvertAndSave.m:152
 msgid "Convert & Stream"
@@ -17024,7 +17195,7 @@ msgstr "Περιήγηση..."
 
 #: modules/gui/macosx/ConvertAndSave.m:162
 msgid "Setup Streaming..."
-msgstr ""
+msgstr "Ρύθμιση ροής δεδομένων..."
 
 #: modules/gui/macosx/ConvertAndSave.m:164
 msgid "Save as File"
@@ -17147,13 +17318,15 @@ msgstr "Εξαγωγή SDP ως αρχείο"
 
 #: modules/gui/macosx/ConvertAndSave.m:283
 msgid "Invalid container format for HTTP streaming"
-msgstr ""
+msgstr "Άκυρος τύπος περιέκτη για ροή δεδομένων HTTP"
 
 #: modules/gui/macosx/ConvertAndSave.m:285
 msgid ""
 "Media encapsulated as %@ cannot be streamed through the HTTP protocol for "
 "technical reasons."
 msgstr ""
+"Τα πολυμέσα ενθυλακωμένα ως %@ δεν μπορούν να διοχετευτούν σε ροή δεδομένων "
+"μέσω του πρωτοκόλλου HTTP για τεχνικούς λόγους."
 
 #: modules/gui/macosx/ConvertAndSave.m:365
 msgid "Save as new profile"
@@ -17178,6 +17351,8 @@ msgstr "Δεν δόθηκε διεύθυνση"
 #: modules/gui/macosx/ConvertAndSave.m:473
 msgid "In order to stream, a valid destination address is required."
 msgstr ""
+"Για να πραγματοποιήσετε ροή δεδομένων απαιτείται μια έγκυρη διεύθυνση "
+"προορισμού."
 
 #: modules/gui/macosx/ConvertAndSave.m:478
 msgid "No Channel Name given"
@@ -17187,6 +17362,7 @@ msgstr "Δεν δόθηκε όνομα καναλιού"
 msgid ""
 "SAP stream announcement is enabled. However, no channel name is provided."
 msgstr ""
+"Ενεργοποιήθηκε η ανακοίνωση της ροής δεδομένων SAP. Ωστόσο, δεν δόθηκε όνομα."
 
 #: modules/gui/macosx/ConvertAndSave.m:485
 msgid "No SDP URL given"
@@ -17424,6 +17600,9 @@ msgid ""
 "By default, VLC will control its own volume with the Apple Remote. However, "
 "you can choose to control the global system volume instead."
 msgstr ""
+"Από προεπιλογή ο VLC θα ελέγξει την ένταση του ήχου του με το Apple Remote. "
+"Ωστόσο, αντί αυτού μπορείτε να επιλέξετε να ελέγξετε την ένταση ήχου του "
+"συνολικού συστήματος."
 
 #: modules/gui/macosx/macosx.m:82
 msgid "Control playlist items with the Apple Remote"
@@ -17472,6 +17651,9 @@ msgid ""
 "releases. It can also use the native fullscreen mode on Mac OS X 10.7 and "
 "later."
 msgstr ""
+"Από προεπιλογή, ο VLC χρησιμοποιεί τη λειτουργία πλήρους οθόνης που είναι "
+"γνωστή από προηγούμενες εκδόσεις Mac OS X. Μπορεί επίσης να χρησιμοποιήσει "
+"την τοπική λειτουργία πλήρους οθόνης σε Mac OS X 10.7 και μεταγενέστερο."
 
 #: modules/gui/macosx/macosx.m:95 modules/gui/macosx/simple_prefs.m:240
 #: modules/gui/qt4/qt4.cpp:86
@@ -17541,7 +17723,7 @@ msgstr "Προβολή κουμπιού εφέ ήχου"
 
 #: modules/gui/macosx/macosx.m:117
 msgid "Shows the audio effects button in the main window."
-msgstr ""
+msgstr "Προβάλλει το κουμπί των εφέ ήχου στο κύριο παράθυρο."
 
 #: modules/gui/macosx/macosx.m:119 modules/gui/macosx/MainMenu.m:344
 msgid "Show Sidebar"
@@ -17562,6 +17744,8 @@ msgid ""
 "Pauses iTunes playback when VLC playback starts. If selected, iTunes "
 "playback will be resumed again if VLC playback is finished."
 msgstr ""
+"Παύει την αναπαραγωγή iTunes όταν αρχίζει η αναπαραγωγή VLC. Αν επιλεγεί, η "
+"αναπαραγωγή iTunes θα επαναληφθεί όταν τελειώσει η αναπαραγωγή VLC."
 
 #: modules/gui/macosx/macosx.m:128
 msgid "Do nothing"
@@ -17577,7 +17761,7 @@ msgstr "Παύση και συνέχιση του iTunes"
 
 #: modules/gui/macosx/macosx.m:131 modules/gui/qt4/qt4.cpp:178
 msgid "Maximum Volume displayed"
-msgstr ""
+msgstr "Η μέγιστη ένταση ήχου που προβλήθηκε"
 
 #: modules/gui/macosx/macosx.m:135
 msgid "Mac OS X interface"
@@ -17912,6 +18096,9 @@ msgid ""
 "Click to open an advanced dialog to select the media to play. You can also "
 "drop files here to play."
 msgstr ""
+"Κάντε κλικ για να ανοίξετε ένα διάλογο για προχωρημένους και να επιλέξετε το "
+"πολυμέσο που θέλετε να αναπαραγάγετε. Μπορείτε επίσης να σύρετε εδώ τα "
+"αρχεία προς αναπαραγωγή."
 
 #: modules/gui/macosx/MainWindow.m:175 modules/gui/macosx/MainWindow.m:180
 #: modules/gui/qt4/components/playlist/selector.cpp:591
@@ -17997,6 +18184,11 @@ msgid ""
 "or 'Capture' for Input Devices such as microphones or cameras, the current "
 "screen or TV streams if the EyeTV application is installed."
 msgstr ""
+"4 καρτέλες για να επιλέξετε μεταξύ εισόδων πολυμέσων. Επιλέξτε 'Αρχείο' για "
+"αρχεία, 'Δίσκος' για οπτικά μέσα όπως DVD, CD ήχου ή Blu-ray, 'Δίκτυο' για "
+"ροές δεδομένων δικτύου ή 'Σύλληψη' για συσκευές εισόδου όπως μικρόφωνα ή "
+"κάμερες, την τρέχουσα οθόνη ή ροές δεδομένων τηλεόρασης αν είναι "
+"εγκατεστημένη η εφαρμογή EyeTV."
 
 #: modules/gui/macosx/open.m:134 modules/gui/macosx/open.m:494
 #: modules/gui/macosx/open.m:599
@@ -18030,6 +18222,8 @@ msgid ""
 "Click to select a another file to play it in sync with the previously "
 "selected file."
 msgstr ""
+"Κάντε κλικ για να επιλέξετε ένα άλλο αρχείο ώστε να το αναπαραγάγετε σε "
+"συγχρονισμό με το προηγούμενο επιλεγμένο αρχείο."
 
 #: modules/gui/macosx/open.m:149
 msgid "Custom playback"
@@ -18091,6 +18285,9 @@ msgid ""
 "Enter a URL here to open the network stream. To open RTP or UDP streams, "
 "click on the respective button below."
 msgstr ""
+"Εισάγετε εδώ ένα URL για να ανοίξετε τη ροή δεδομένων δικτύου. Για να "
+"ανοίξετε τις ροές δεδομένων RTP ή UDP, κάντε κλικ στο αντίστοιχο κουμπί από "
+"κάτω."
 
 #: modules/gui/macosx/open.m:192
 msgid "Open RTP/UDP Stream"
@@ -18568,11 +18765,11 @@ msgstr "Ποιότητα μετεπεξεργασίας"
 
 #: modules/gui/macosx/simple_prefs.m:217
 msgid "Edit default application settings for network protocols"
-msgstr ""
+msgstr "Επεξεργασία προεπιλεγμένων ρυθμίσεων εφαρμογής για πρωτόκολλα δικτύου"
 
 #: modules/gui/macosx/simple_prefs.m:220
 msgid "Open network streams using the following protocols"
-msgstr ""
+msgstr "Άνοιγμα ροών δεδομένων δικτύου χρησιμοποιώντας τα ακόλουθα πρωτόκολλα"
 
 #: modules/gui/macosx/simple_prefs.m:221
 msgid "Note that these are system-wide settings."
@@ -18649,7 +18846,7 @@ msgstr "Γλώσσες υπότιτλων"
 #: modules/gui/macosx/simple_prefs.m:253
 #: modules/gui/qt4/ui/sprefs_subtitles.h:293
 msgid "Preferred subtitle language"
-msgstr ""
+msgstr "Προτιμώμενη γλώσσα υποτίτλων"
 
 #: modules/gui/macosx/simple_prefs.m:255
 msgid "Enable OSD"
@@ -18752,6 +18949,16 @@ msgid ""
 "\n"
 "Are you sure you want to continue?"
 msgstr ""
+"Αυτό θα επαναφέρει τις προτιμήσεις του αναπαραγωγού πολυμέσων VLC.\n"
+"\n"
+"Σημειώστε ότι ο VLC θα επανεκκινηθεί κατά τη διάρκεια της διαδικασίας, γι' "
+"αυτό η τρέχουσα λίστα αναπαραγωγής σας θα αδειάσει και οι ενδεχόμενες "
+"δραστηριότητες αναπαραγωγής, ροής δεδομένων ή επανακωδικοποίησης θα "
+"σταματήσουν αμέσως.\n"
+"\n"
+"Η βιβλιοθήκη πολυμέσων δεν θα επηρεαστεί.\n"
+"\n"
+"Είστε σίγουροι ότι θέλετε να συνεχίσετε;"
 
 #: modules/gui/macosx/simple_prefs.m:1062
 msgid "Choose the folder to save your video snapshots to."
@@ -18867,6 +19074,9 @@ msgid ""
 "to their content and this value.\n"
 "Set 0 to disable."
 msgstr ""
+"Ξαναϋπολογίστε τη διάρκεια των υποτίτλων σύμφωνα\n"
+"με το περιεχόμενό τους και αυτή την τιμή.\n"
+"Ρυθμίστε το στο 0 για απενεργοποίηση."
 
 #: modules/gui/macosx/VideoEffects.m:76
 #: modules/gui/qt4/dialogs/extended.cpp:84
@@ -19282,6 +19492,11 @@ msgid ""
 "that only a small part of the MMS protocol is supported (MMS encapsulated in "
 "HTTP)."
 msgstr ""
+"Χρησιμοποιήστε αυτό για να δημιουργήστε ροή δεδομένων προς διάφορους "
+"υπολογιστές χρησιμοποιώντας το πρωτόκολλο Microsoft MMS. Αυτό το πρωτόκολλο "
+"χρησιμοποιείται ως μέθοδος μεταφοράς από πολλά προγράμματα της Microsoft. "
+"Σημειώστε ότι μόνο ένα μικρό τμήμα του πρωτοκόλλου Microsoft MMS "
+"υποστηρίζεται (MMS ενθυλακωμένο σε HTTP)."
 
 #: modules/gui/macosx/wizard.m:270 modules/gui/macosx/wizard.m:280
 msgid "Enter the address of the computer to stream to."
@@ -19609,6 +19824,10 @@ msgid ""
 "\n"
 "Correct your selection and try again."
 msgstr ""
+"Τα επιλεγμένα codecs δεν είναι συμβατά μεταξύ τους. Για παράδειγμα: Δεν "
+"είναι δυνατή η μίξη ασυμπίεστου ήχου με οποιοδήποτε codec βίντεο.\n"
+"\n"
+"Διορθώστε την επιλογή σας και προσπαθήστε ξανά."
 
 #: modules/gui/macosx/wizard.m:1020
 msgid "Select the directory to save to"
@@ -20377,6 +20596,7 @@ msgstr "&Αποτύπωμα"
 #: modules/gui/qt4/components/info_panels.cpp:143
 msgid "Find meta data using audio fingerprinting"
 msgstr ""
+"Εύρεση μεταδεδομένων χρησιμοποιώντας λήψη δακτυλικών αποτυπωμάτων ήχου "
 
 #: modules/gui/qt4/components/info_panels.cpp:163
 msgid "Comments"
@@ -20745,6 +20965,9 @@ msgid ""
 "Select or double click an action to change the associated hotkey. Use delete "
 "key to remove hotkeys"
 msgstr ""
+"Επιλέξτε ή κάντε διπλό κλικ σε μία ενέργεια για να αλλάξετε το σχετικό "
+"πλήκτρο συντόμευσης. Χρησιμοποιήστε το πλήκτρο Delete για να αφαιρέσετε τα "
+"πλήκτρα συντόμευσης"
 
 #: modules/gui/qt4/components/preferences_widgets.cpp:1137
 msgid "in"
@@ -20764,7 +20987,7 @@ msgstr "Πλήκτρο συντόμευσης"
 
 #: modules/gui/qt4/components/preferences_widgets.cpp:1148
 msgid "Application level hotkey"
-msgstr ""
+msgstr "Πλήκτρο συντόμευσης επιπέδου εφαρμογής"
 
 #: modules/gui/qt4/components/preferences_widgets.cpp:1149
 #: modules/gui/qt4/components/preferences_widgets.cpp:1409
@@ -20773,7 +20996,7 @@ msgstr "Γενικά"
 
 #: modules/gui/qt4/components/preferences_widgets.cpp:1150
 msgid "Desktop level hotkey"
-msgstr ""
+msgstr "Πλήκτρο συντόμευσης επιπέδου επιφάνειας εργασίας"
 
 #: modules/gui/qt4/components/preferences_widgets.cpp:1233
 #: modules/gui/qt4/components/preferences_widgets.cpp:1234
@@ -20798,11 +21021,11 @@ msgstr "Ορισμός"
 
 #: modules/gui/qt4/components/preferences_widgets.cpp:1458
 msgid "Warning: this key or combination is already assigned to "
-msgstr ""
+msgstr "Προσοχή: αυτό το πλήκτρο ή συνδυασμός έχει ήδη εκχωρηθεί στο"
 
 #: modules/gui/qt4/components/preferences_widgets.cpp:1470
 msgid "Warning: <b>%1</b> is already an application menu shortcut"
-msgstr ""
+msgstr "Προσοχή: Το <b>%1</b> είναι ήδη μία συντόμευση μενού εφαρμογών"
 
 #: modules/gui/qt4/components/preferences_widgets.cpp:1493
 msgid "Key or combination: "
@@ -20909,7 +21132,7 @@ msgstr "Δημιουργία"
 
 #: modules/gui/qt4/components/sout/profile_selector.cpp:610
 msgid "This muxer is not provided directly by VLC: It could be missing."
-msgstr ""
+msgstr "Ο πολυπλέκτης δεν παρέχεται άμεσα από τον VLC: Μπορεί να λείπει."
 
 #: modules/gui/qt4/components/sout/profile_selector.cpp:752
 msgid " Profile Name Missing"
@@ -21131,6 +21354,17 @@ msgid ""
 "entities. Therefore the <i>VLC</i> developers require your express consent "
 "for the media player to access the Internet automatically.</p>\n"
 msgstr ""
+"<p>Για να προστατέψει το απόρρητό σας, ο <i>Αναπαραγωγός πολυμέσων VLC media "
+"player</i> <b>δεν</b> συλλέγει ούτε αναμεταδίδει προσωπικά δεδομένα σε "
+"κανέναν, ούτε καν σε ανώνυμη μορφή.</p>\n"
+"<p>Ωστόσο, <i>ο VLC</i> μπορεί να ανακτήσει αυτόματα πληροφορίες σχετικά με "
+"το πολυμέσο στη λίστα αναπαραγωγής σας από διαδικτυακές υπηρεσίες τρίτων. "
+"Αυτές περιλαμβάνουν τέχνες εξώφυλλων, ονόματα κομματιών, συντάκτες και άλλα "
+"μεταδεδομένα.</p>\n"
+"Αυτό μπορεί να συνεπάγεται αναγνώριση κάποιων αρχείων πολυμέσων σας σε "
+"τρίτους. Γι' αυτό οι προγραμματιστές του <i>VLC</i> απαιτούν από εσάς να "
+"εκφράσετε τη συγκατάθεσή σας ώστε ο αναπαραγωγός πολυμέσων να συνδέεται "
+"αυτόματα στο διαδίκτυο.</p>\n"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:91
 msgid "Network Access Policy"
@@ -21388,7 +21622,7 @@ msgstr "Προβολή μόνο του τρέχοντος"
 
 #: modules/gui/qt4/dialogs/preferences.cpp:165
 msgid "Only show modules related to current playback"
-msgstr ""
+msgstr "Προβολή μόνο των ενοτήτων που σχετίζονται με την τρέχουσα αναπαραγωγή"
 
 #: modules/gui/qt4/dialogs/preferences.cpp:201
 msgid "Advanced Preferences"
@@ -21467,6 +21701,12 @@ msgid ""
 "You should start by checking that source matches what you want your input to "
 "be and then press the \"Next\" button to continue.\n"
 msgstr ""
+"Αυτός ο οδηγός θα σας επιτρέψει να διοχετεύσετε ροές δεδομένων ή να "
+"μετατρέψετε τα πολυμέσα σας για τοπική χρήση, στο ιδιωτικό σας δίκτυο ή στο "
+"διαδίκτυο.⏎\n"
+"Θα πρέπει να ξεκινήσετε ελέγχοντας ότι η πηγή ταιριάζει με αυτό που θέλετε "
+"να είναι η είσοδός σας και μετά να πατήσετε το κουμπί \"Επόμενο\" για να "
+"συνεχίσετε.\n"
 
 #: modules/gui/qt4/dialogs/sout.cpp:58
 msgid ""
@@ -22353,6 +22593,10 @@ msgid ""
 "password, or set a password in </p><p>Preferences &gt; All &gt; Main "
 "interfaces &gt; Lua &gt; Lua HTTP &gt; Password.</p>"
 msgstr ""
+"<p>Ο κωδικός χρήστη για τη διεπαφή ιστού δεν έχει οριστεί.</p><p>Παρακαλώ "
+"χρησιμοποιήστε ένα --http-κωδικό χρήστη, ή ορίστε έναν κωδικό χρήστη στις </"
+"p><p>Προτιμήσεις &gt; Όλες &gt; Κύριες διεπαφές &gt; Lua &gt; HTTP του Lua "
+"&gt; Κωδικός χρήστη.</p>"
 
 #: modules/lua/vlc.c:48
 msgid "Lua interface"
@@ -22599,6 +22843,13 @@ msgid ""
 "\n"
 "If in doubt, abort now.\n"
 msgstr ""
+"Προσπαθήσατε να μεταβείτε στο %s. Ωστόσο το πιστοποιητικό ασφαλείας που "
+"παρουσιάζεται από τον εξυπηρετητή είναι άγνωστο και δεν μπόρεσε να "
+"ταυτοποιηθεί από καμία έμπιστη Αρχή ταυτοποίησης. Το πρόβλημα μπορεί να "
+"προκλήθηκε από σφάλμα στις ρυθμίσεις ή μία προσπάθεια να παραβιαστεί η "
+"ασφάλεια ή το απόρρητό σας.\n"
+"\n"
+"Σε περίπτωση αμφιβολίας, εγκαταλείψτε αμέσως.\n"
 
 #: modules/misc/gnutls.c:279
 #, c-format
@@ -22610,6 +22861,13 @@ msgid ""
 "\n"
 "If in doubt, abort now.\n"
 msgstr ""
+"Προσπαθήσατε να μεταβείτε στο %s. Ωστόσο το πιστοποιητικό ασφαλείας που "
+"παρουσιάζεται από τον εξυπηρετητή άλλαξε σε σχέση με την προηγούμενη "
+"επίσκεψη και δεν ταυτοποιήθηκε από καμία έμπιστη αρχή ταυτοποίησης. Το "
+"πρόβλημα μπορεί να προκλήθηκε από σφάλμα στις ρυθμίσεις ή μία προσπάθεια να "
+"παραβιαστεί η ασφάλεια ή το απόρρητό σας.\n"
+"\n"
+"Σε περίπτωση αμφιβολίας, εγκαταλείψτε αμέσως.\n"
 
 #: modules/misc/gnutls.c:294 modules/misc/gnutls.c:311
 msgid "Insecure site"
@@ -22631,6 +22889,10 @@ msgid ""
 "\n"
 "If in doubt, abort now.\n"
 msgstr ""
+"Αυτό είναι το παρουσιαστικό που παρουσιάζεται από %s:\n"
+"%s\n"
+"\n"
+"Σε περίπτωση αμφιβολίας, εγκαταλείψτε αμέσως.\n"
 
 #: modules/misc/gnutls.c:314
 msgid "Accept 24 hours"
@@ -22651,6 +22913,8 @@ msgstr "Ισχύς"
 #: modules/misc/inhibit/dbus.c:233
 msgid "Inhibits power suspend and session idle timeout."
 msgstr ""
+"Αναστέλλει την διακοπή ισχύος και την αδρανή υπέρβαση του χρονικού ορίου της "
+"συνεδρίας"
 
 #: modules/misc/inhibit/xdg.c:38
 msgid "XDG-screensaver"
@@ -22666,15 +22930,17 @@ msgstr "Τύπος αρχείου καταγραφής συμβάντων"
 
 #: modules/misc/logger.c:118
 msgid "Specify the logging format."
-msgstr ""
+msgstr "Ορίστε τον τύπο καταγραφής συμβάντων."
 
 #: modules/misc/logger.c:121
 msgid "Syslog ident"
-msgstr ""
+msgstr "Αναγνωριστικό καταγραφής συμβάντων συστήματος"
 
 #: modules/misc/logger.c:122
 msgid "Set the ident that VLC would use when logging to syslog."
 msgstr ""
+"Ρυθμίστε το αναγνωριστικό που θα χρησιμοποιεί ο VLC όταν θα κάνει καταγραφή "
+"συμβάντων."
 
 #: modules/misc/logger.c:125
 msgid "Syslog facility"
@@ -22683,6 +22949,8 @@ msgstr "Δυνατότητα καταγραφής συμβάντων συστή�
 #: modules/misc/logger.c:126
 msgid "Select the syslog facility where logs will be forwarded."
 msgstr ""
+"Επιλέξτε τη δυνατότητα καταγραφής συμβάντων συστήματος όπου θα προωθούνται "
+"τα καταγραφολόγια."
 
 #: modules/misc/logger.c:153
 msgid "Verbosity"
@@ -23440,7 +23708,7 @@ msgstr "Μέγεθος ενδιάμεσης μνήμης (δευτερόλεπτ
 
 #: modules/stream_filter/dash/dash.cpp:58
 msgid "Buffer size in seconds"
-msgstr ""
+msgstr "Μέγεθος ενδιάμεσης μνήμης σε δευτερόλεπτα"
 
 #: modules/stream_filter/dash/dash.cpp:61
 msgid "DASH"
@@ -24436,14 +24704,16 @@ msgid ""
 "This is the subtitle encoder module that will be used (and its associated "
 "options)."
 msgstr ""
+"Αυτή είναι η ενότητα κωδικοποιητή υποτίτλων που θα χρησιμοποιηθεί (μαζί με "
+"τις σχετικές επιλογές)."
 
 #: modules/stream_out/transcode/transcode.c:111
 msgid "Destination subtitle codec"
-msgstr ""
+msgstr "Codec υποτίτλων προορισμού"
 
 #: modules/stream_out/transcode/transcode.c:113
 msgid "This is the subtitle codec that will be used."
-msgstr ""
+msgstr "Αυτό είναι το codec υποτίτλων που θα χρησιμοποιηθεί."
 
 #: modules/stream_out/transcode/transcode.c:117
 msgid ""
@@ -24517,7 +24787,7 @@ msgstr "Επικαλύψεις/Υπότιτλοι"
 
 #: modules/text_renderer/freetype.c:155
 msgid "Monospace Font"
-msgstr ""
+msgstr "Γραμματοσειρά Monospace"
 
 #: modules/text_renderer/freetype.c:157
 msgid "Font family for the font you want to use"
@@ -24835,15 +25105,15 @@ msgstr "Μάσκα alpha"
 
 #: modules/video_filter/anaglyph.c:39
 msgid "Color scheme"
-msgstr ""
+msgstr "Χρωματικό διάγραμμα"
 
 #: modules/video_filter/anaglyph.c:40
 msgid "Define the glasses' color scheme"
-msgstr ""
+msgstr "Ορίστε το χρωματικό διάγραμμα των γυαλιών"
 
 #: modules/video_filter/anaglyph.c:72
 msgid "Convert 3D picture to anaglyph image video filter"
-msgstr ""
+msgstr "Φίλτρο βίντεο για τη μετατροπή εικόνας 3D σε ανάγλυφη εικόνα"
 
 #: modules/video_filter/antiflicker.c:50
 msgid "Window size"
@@ -26146,7 +26416,7 @@ msgstr "Gradfun"
 
 #: modules/video_filter/gradfun.c:60
 msgid "Debanding algorithm"
-msgstr ""
+msgstr "Αλγόριθμος αποκέντρωσης"
 
 #: modules/video_filter/gradient.c:62
 msgid "Distort mode"
@@ -26384,7 +26654,7 @@ msgstr "Αρχείο κειμένου"
 
 #: modules/video_filter/marq.c:105
 msgid "File to read the marquee text from."
-msgstr ""
+msgstr "Αρχείο από το οποίο θα γίνεται η ανάγνωση του κειμένου μαρκίζας."
 
 #: modules/video_filter/marq.c:107 modules/video_filter/rss.c:143
 msgid "X offset, from the left screen edge."
@@ -27135,6 +27405,8 @@ msgstr "Λειτουργία παιχνιδιού"
 #: modules/video_filter/puzzle.c:56
 msgid "Select game mode variation from jigsaw puzzle to sliding puzzle."
 msgstr ""
+"Επιλέξτε παραλλαγή λειτουργίας παιχνιδιού από παζλ συναρμολόγησης έως "
+"συρόμενο παζλ."
 
 #: modules/video_filter/puzzle.c:57
 msgid "Border"
@@ -27142,7 +27414,7 @@ msgstr "Όριο"
 
 #: modules/video_filter/puzzle.c:58
 msgid "Unshuffled Border width."
-msgstr ""
+msgstr "Μη ανακατωμένο πλάτος ορίου."
 
 #: modules/video_filter/puzzle.c:59
 msgid "Small preview"
@@ -27158,15 +27430,15 @@ msgstr "Μικρό μέγεθος προεπισκόπησης"
 
 #: modules/video_filter/puzzle.c:62
 msgid "Show small preview size (percent of source)."
-msgstr ""
+msgstr "Προβολή μικρού μεγέθους προεπισκόπησης (ποσοστό της πηγής)."
 
 #: modules/video_filter/puzzle.c:63
 msgid "Piece edge shape size"
-msgstr ""
+msgstr "Μέγεθος σχήματος της άκρης του κομματιού"
 
 #: modules/video_filter/puzzle.c:64
 msgid "Size of the curve along the piece's edge"
-msgstr ""
+msgstr "Μέγεθος της καμπύλης κατά μήκος της άκρης του κομματιού"
 
 #: modules/video_filter/puzzle.c:65
 msgid "Auto shuffle"
@@ -27174,7 +27446,7 @@ msgstr "Αυτόματο ανακάτεμα"
 
 #: modules/video_filter/puzzle.c:66
 msgid "Auto shuffle delay during game"
-msgstr ""
+msgstr "Αυτόματη καθυστέρηση ανακατώματος κατά τη διάρκεια του παιχνιδιού"
 
 #: modules/video_filter/puzzle.c:67
 msgid "Auto solve"
@@ -27182,7 +27454,7 @@ msgstr "Αυτόματη λύση"
 
 #: modules/video_filter/puzzle.c:68
 msgid "Auto solve delay during game"
-msgstr ""
+msgstr "Αυτόματη καθυστέρηση επίλυσης κατά τη διάρκεια του παιχνιδιού"
 
 #: modules/video_filter/puzzle.c:69
 msgid "Rotation"
@@ -27194,19 +27466,19 @@ msgstr "Παράμετρος περιστροφής: καμία;180;90-270;κα�
 
 #: modules/video_filter/puzzle.c:73
 msgid "jigsaw puzzle"
-msgstr ""
+msgstr "παζλ συναρμολόγηση"
 
 #: modules/video_filter/puzzle.c:73
 msgid "sliding puzzle"
-msgstr ""
+msgstr "συρόμενο παζλ"
 
 #: modules/video_filter/puzzle.c:73
 msgid "swap puzzle"
-msgstr ""
+msgstr "παζλ ανταλλαγής"
 
 #: modules/video_filter/puzzle.c:73
 msgid "exchange puzzle"
-msgstr ""
+msgstr "παζλ συναλλαγής"
 
 #: modules/video_filter/puzzle.c:75
 msgid "0"
@@ -27506,6 +27778,9 @@ msgid ""
 "Directory path where images files should be saved. If not set, then images "
 "will be automatically saved in users homedir."
 msgstr ""
+"Διαδρομή καταλόγου στον οποίο πρέπει να αποθηκευτούν τα αρχεία εικόνων. Αν "
+"δεν οριστεί, τότε οι εικόνες θα αποθηκεύονται αυτόματα στον προσωπικό "
+"κατάλογο κάθε χρήστη."
 
 #: modules/video_filter/scene.c:86
 msgid "Always write to the same file"
@@ -27807,6 +28082,8 @@ msgstr "To chroma που χρησιμοποιήθηκε"
 #: modules/video_output/androidsurface.c:51
 msgid "Force use of a specific chroma for output. Default is RGB32."
 msgstr ""
+"Επιβολή χρήσης συγκεκριμένου chroma για την έξοδο. Το προεπιλεγμένο είναι το "
+"RGB32."
 
 #: modules/video_output/androidsurface.c:62
 msgid "Android Surface video output"
@@ -27823,6 +28100,8 @@ msgstr "Κάρτα εξόδου"
 #: modules/video_output/decklink.cpp:71
 msgid "DeckLink output card, if multiple exist. The cards are numbered from 0."
 msgstr ""
+"Κάρτα εξόδου DeckLink, αν υπάρχει πολλαπλή. Η αρίθμηση των καρτών αρχίζει "
+"από το 0."
 
 #: modules/video_output/decklink.cpp:74
 msgid "Desired output mode"
@@ -27833,37 +28112,43 @@ msgid ""
 "Desired output mode for DeckLink output. This value should be a FOURCC code "
 "in textual form, e.g. \"ntsc\"."
 msgstr ""
+"Επιθυμητή λειτουργία εξόδου για την έξοδο DeckLink. Αυτή η τιμή θα πρέπει να "
+"είναι ένας κώδικας FOURCC, σε μορφή κειμένου, π.χ. \"ntsc\"."
 
 #: modules/video_output/decklink.cpp:82
 msgid "Audio connection for DeckLink output."
-msgstr ""
+msgstr "Σύνδεση ήχου για την έξοδο DeckLink."
 
 #: modules/video_output/decklink.cpp:87
 msgid ""
 "Audio sampling rate (in hertz) for DeckLink output. 0 disables audio output."
 msgstr ""
+"Ρυθμός δειγματοληψίας ήχου (σε Hz) για την έξοδο DeckLink. Το 0 "
+"απενεργοποιεί την έξοδο ήχου."
 
 #: modules/video_output/decklink.cpp:92
 msgid ""
 "Number of output channels for DeckLink output. Must be 2, 8 or 16. 0 "
 "disables audio output."
 msgstr ""
+"Αριθμός καναλιών ήχου εξόδου για εξόδους DeckLink. Πρέπει να είναι 2, 8 ή "
+"16. Το 0 απενεργοποιεί την έξοδο ήχου."
 
 #: modules/video_output/decklink.cpp:97
 msgid "Video connection for DeckLink output."
-msgstr ""
+msgstr "Σύνδεση βίντεο για την έξοδο DeckLink."
 
 #: modules/video_output/decklink.cpp:101
 msgid "Use 10 bits per pixel for video frames."
-msgstr ""
+msgstr "Χρήση 10 bits ανά pixel για καρέ βίντεο."
 
 #: modules/video_output/decklink.cpp:174
 msgid "DecklinkOutput"
-msgstr ""
+msgstr "Έξοδος DeckLink"
 
 #: modules/video_output/decklink.cpp:175
 msgid "output module to write to Blackmagic SDI card"
-msgstr ""
+msgstr "Ενότητα εξόδου για εγγραφή σε κάρτα Blackmagic SDI"
 
 #: modules/video_output/decklink.cpp:176
 msgid "Decklink General Options"
@@ -27871,7 +28156,7 @@ msgstr "Γενικές Επιλογές Decklink "
 
 #: modules/video_output/decklink.cpp:181
 msgid "Decklink Video Output module"
-msgstr ""
+msgstr "Ενότητα εξόδου βίντεο DeckLink"
 
 #: modules/video_output/decklink.cpp:186
 msgid "Decklink Video Options"
@@ -27879,7 +28164,7 @@ msgstr "Επιλογές Βίντεο Decklink"
 
 #: modules/video_output/decklink.cpp:197
 msgid "Decklink Audio Output module"
-msgstr ""
+msgstr "Ενότητα εξόδου ήχου DeckLink"
 
 #: modules/video_output/decklink.cpp:202
 msgid "Decklink Audio Options"
@@ -28098,6 +28383,9 @@ msgid ""
 "output. It will still work, but much slower and with possibly unexpected "
 "results."
 msgstr ""
+"Ο Mac σας δεν διαθέτει επιτάχυνση Quartz Extreme, η οποία απαιτείται για "
+"έξοδο ήχου. Θα εξακολουθεί να δουλεύει, αλλά πολύ πιο αργά και με πιθανά "
+"απρόσμενα αποτελέσματα."
 
 #: modules/video_output/msw/direct2d.c:52
 msgid "Video output for Windows 7/Windows Vista with Platform update"
@@ -28387,6 +28675,10 @@ msgid ""
 "Acceleration will thus be disabled. Performance may be degraded severely if "
 "the resolution is large."
 msgstr ""
+"Ο οδηγός υλικού XVideo για την επιτάχυνση της αποτύπωσης δεν υποστηρίζει την "
+"επιθυμητή ανάλυση των %ux%u pixels αλλά των %<PRIu32>x%<PRIu32> pixels.\n"
+"Επομένως η επιτάχυνση θα απενεργοποιηθεί. Η απόδοση μπορεί να επηρεαστεί "
+"σοβαρά αν η ανάλυση είναι μεγάλη."
 
 #: modules/video_output/yuv.c:41
 msgid "device, fifo or filename"
@@ -28698,11 +28990,11 @@ msgstr "Θύρα εξόδου"
 
 #: share/lua/http/dialogs/create_stream.html:338
 msgid "Output\tfile"
-msgstr ""
+msgstr "Αρχείο\tεξόδου"
 
 #: share/lua/http/dialogs/create_stream.html:355
 msgid "Input media"
-msgstr ""
+msgstr "Πολυμέσα εισόδου"
 
 #: share/lua/http/dialogs/create_stream.html:367
 msgid "Error:"
@@ -28776,7 +29068,7 @@ msgstr "Συγχρονισμός κομματιών"
 
 #: share/lua/http/index.html:220
 msgid "VLM Batch Commands"
-msgstr ""
+msgstr "Δέσμη εντολών VLM"
 
 #: share/lua/http/index.html:240 modules/gui/qt4/ui/vlm.h:299
 msgid "Loop"
@@ -28788,7 +29080,7 @@ msgstr "Άδειασμα λίστας αναπαραγωγής..."
 
 #: share/lua/http/index.html:243
 msgid "Queue Selected"
-msgstr ""
+msgstr "Επιλέχτηκε ουρά"
 
 #: share/lua/http/index.html:244
 msgid "Play Selected"
@@ -29106,7 +29398,7 @@ msgstr "Χαρακτηριστικά"
 
 #: modules/gui/qt4/ui/profiles.h:703
 msgid "Streamable"
-msgstr ""
+msgstr "Με δυνατότητα ροής δεδομένων"
 
 #: modules/gui/qt4/ui/profiles.h:704
 msgid "Chapters"
@@ -29158,7 +29450,7 @@ msgstr "Ρυθμός δειγματοληψίας"
 
 #: modules/gui/qt4/ui/sout.h:204
 msgid "Set up media sources to stream"
-msgstr ""
+msgstr "Εγκατάσταση πηγών πολυμέσων στη ροή δεδομένων"
 
 #: modules/gui/qt4/ui/sout.h:206
 msgid "Destination Setup"
@@ -29166,7 +29458,7 @@ msgstr "Ρύθμιση προορισμού"
 
 #: modules/gui/qt4/ui/sout.h:207
 msgid "Select destinations to stream to"
-msgstr ""
+msgstr "Επιλέξτε προορισμούς για τη διοχέτευση ροών δεδομένων"
 
 #: modules/gui/qt4/ui/sout.h:208
 msgid ""
@@ -29191,7 +29483,7 @@ msgstr "Επιλογές επανακωδικοποίησης"
 
 #: modules/gui/qt4/ui/sout.h:214
 msgid "Select and choose transcoding options"
-msgstr ""
+msgstr "Διαλέξτε επιλογές επανακωδικοποίησης"
 
 #: modules/gui/qt4/ui/sout.h:215
 msgid "Activate Transcoding"
@@ -29203,7 +29495,7 @@ msgstr "Ρύθμιση επιλογής"
 
 #: modules/gui/qt4/ui/sout.h:217
 msgid "Set up any additional options for streaming"
-msgstr ""
+msgstr "Ρύθμιση οποιωνδήποτε πρόσθετων επιλογών για τη ροή δεδομένων"
 
 #: modules/gui/qt4/ui/sout.h:218
 msgid "Miscellaneous Options"
@@ -29361,7 +29653,7 @@ msgstr "Παύση αναπαραγωγής κατά την ελαχιστοπο
 
 #: modules/gui/qt4/ui/sprefs_interface.h:524
 msgid "Show media change popup:"
-msgstr ""
+msgstr "Προβολή αναδυόμενου πλαισίου για την αλλαγή πολυμέσου:"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:525
 msgid "Start in minimal view mode"
@@ -30633,11 +30925,6 @@ msgstr "Λίστα διαχειριστή πολυμέσων"
 
 #~ msgid "00000; "
 #~ msgstr "00000; "
-
-#~ msgid "Enqueue files when in one instance mode"
-#~ msgstr ""
-#~ "Προσθήκη αντικειμένων στην ουρά λίστας αναπαραγωγής στη λειτουργία μίας "
-#~ "υπόστασης"
 
 #~ msgid "Probe DVB card for capabilities"
 #~ msgstr "Ανίχνευση κάρτας DVB για δυνατότητες"
@@ -32477,15 +32764,6 @@ msgstr "Λίστα διαχειριστή πολυμέσων"
 
 #, fuzzy
 #~ msgid ""
-#~ "Larger values save bits, thus improve quality for a given bitrate, at the "
-#~ "cost of seeking precision."
-#~ msgstr ""
-#~ "Ρυθμίζει το μέγιστο διάστημα μεταξύ καρέ IDR. Μεγαλύτερες τιμές "
-#~ "εξοικονομούν bits, επομένως βελτιώνουν την ποιότητα για ένα δοθέντα ρυθμό "
-#~ "μετάδοσης δεδομένων, σε βάρος της ακρίβειας αναζήτησης."
-
-#, fuzzy
-#~ msgid ""
 #~ "Enable the equalizer. You can either manually change the bands or use a "
 #~ "preset (Audio Menu->Equalizer)."
 #~ msgstr ""
@@ -32496,12 +32774,29 @@ msgstr "Λίστα διαχειριστή πολυμέσων"
 #~ msgstr "Αποθήκευση έντασης κατά την έξοδο"
 
 #, fuzzy
+#~ msgid "Enqueue files when in one instance mode"
+#~ msgstr ""
+#~ "Τοποθετήστε αντικείμενα στην ουρά της λίστας αναπαραγωγής στη λειτουργία "
+#~ "μίας υπόστασης"
+
+#, fuzzy
+#~ msgid ""
+#~ "Larger values save bits, thus improve quality for a given bitrate, at the "
+#~ "cost of seeking precision."
+#~ msgstr ""
+#~ "Ρυθμίζει το μέγιστο διάστημα μεταξύ των καρέ IDR. Μεγαλύτερες τιμές "
+#~ "εξοικονομούν bits, βελτιώνοντας την ποιότητα για ένα δοθέντα ρυθμό "
+#~ "μετάδοσης δεδομένων, με αντίτιμο την ακρίβεια αναζήτησης. Χρησιμοποιείστε "
+#~ "-1 για άπειρο."
+
+#, fuzzy
 #~ msgid ""
 #~ "This file countains an optional CRL to prevent remote clients from using "
 #~ "revoked certificates in TLS sessions."
 #~ msgstr ""
-#~ "Αυτό το αρχείο περιέχει ένα προαιρετικό CRL για να αποτρέψει αφαιρεμένους "
-#~ "πελάτες από τη χρήση ανακαλεσμένων πιστοποιητικών σε συνεδρίες TLS."
+#~ "Αυτό το αρχείο περιέχει ένα προαιρετικό CRL για να αποτρέψει "
+#~ "απομακρυσμένους πελάτες από τη χρήση ανακαλεσμένων πιστοποιητικών σε "
+#~ "συνεδρίες TLS."
 
 #, fuzzy
 #~ msgid "No item currently playing"
@@ -32705,7 +33000,9 @@ msgstr "Λίστα διαχειριστή πολυμέσων"
 
 #, fuzzy
 #~ msgid "Allow only one running instance when started from file."
-#~ msgstr "Να επιτρέπεται μόνο μία υπόσταση εκτέλεσης"
+#~ msgstr ""
+#~ "Χρησιμοποιήστε μόνο μία υπόσταση όταν γίνεται εκκίνηση από διαχειριστή "
+#~ "αρχείων"
 
 #, fuzzy
 #~ msgid "Leave fullscreen"
@@ -33172,7 +33469,7 @@ msgstr "Λίστα διαχειριστή πολυμέσων"
 
 #, fuzzy
 #~ msgid "Preferred Subtitle Language"
-#~ msgstr "Προτιμώμενη γλώσσα ήχου"
+#~ msgstr "Προτιμώμενη γλώσσα υποτίτλων"
 
 #, fuzzy
 #~ msgid "Force Bold"
@@ -36217,7 +36514,7 @@ msgstr "Λίστα διαχειριστή πολυμέσων"
 
 #, fuzzy
 #~ msgid "Stream/Save"
-#~ msgstr "Όνομα ροής δεδομένων"
+#~ msgstr "Με δυνατότητα ροής δεδομένων"
 
 #, fuzzy
 #~ msgid "Customize:"
