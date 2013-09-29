@@ -1,6 +1,22 @@
 Changes between 2.1.0 and 2.1.1:
 --------------------------------
 
+Interfaces:
+ * Fix HTTP interface infinite loop
+
+Stream out:
+ * Fix transcoding audio drift issues
+
+Win32 installer:
+ * Important rewrite to fix numerous bugs, notably about updates
+
+MacOS X:
+ * Fix fullscreen behaviour and various crashes
+
+Qt:
+ * Reinstore right click subtitle menu to open a subtitle
+ * Fix saving the hotkeys in preferences
+ * Fix saving the audio volume on Win32, using DirectSound
 
 
 Changes between 2.0.9 and 2.1.0:
