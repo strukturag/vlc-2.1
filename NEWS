@@ -1,22 +1,47 @@
 Changes between 2.1.0 and 2.1.1:
 --------------------------------
 
+Core:
+ * Fix random and reshuffling behaviour
+ * Fix recording
+ * Fix some subtitles track selection
+
+Demuxers:
+ * Fix crashes on wav, mlp and mkv and modplug files
+ * Support Speex in ogg files
+ * Fix some .mov playlists support
+ * Support Alac in mkv
+
+Access:
+ * Fix DVB options parsing
+
+Audio output:
+ * Fixes for DirectSound pass-through
+
 Interfaces:
  * Fix HTTP interface infinite loop
+ * Fix D-Bus volume setting
+
+Qt:
+ * Reinstore right click subtitle menu to open a subtitle
+ * Fix saving the hotkeys in preferences
+ * Fix saving the audio volume on Win32, using DirectSound
+ * Fix play after drag'n drop
+ * Fix streaming options edition
 
 Stream out:
  * Fix transcoding audio drift issues
 
 Win32 installer:
  * Important rewrite to fix numerous bugs, notably about updates
+ * Simplification of the upgrade mechanism
 
 MacOS X:
  * Fix fullscreen behaviour and various crashes
+ * Fix about dialog crash in Japanese
+ * Fix crashes on proxy lookups
+ * Fixes on the playlist and information behaviours
 
-Qt:
- * Reinstore right click subtitle menu to open a subtitle
- * Fix saving the hotkeys in preferences
- * Fix saving the audio volume on Win32, using DirectSound
 
 
 Changes between 2.0.9 and 2.1.0:
