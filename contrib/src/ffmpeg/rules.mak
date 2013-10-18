@@ -1,9 +1,9 @@
 # FFmpeg
 
-#HASH=16c3ed5837884e2b60cf40e762be6c58b13d7ba6
+#HASH=8efed2993733bcd0d85a585c994ac404a1955e1a
 #FFMPEG_SNAPURL := http://git.videolan.org/?p=ffmpeg.git;a=snapshot;h=$(HASH);sf=tgz
 
-HASH=b1f9cdc37ff5d5b391d2cd9af737ab4e5a0fc1c0
+HASH=2b72f8ac320c8c5087b1bd0589fc3df132eb42bc
 FFMPEG_SNAPURL := http://git.libav.org/?p=libav.git;a=snapshot;h=$(HASH);sf=tgz
 
 FFMPEGCONF = \
