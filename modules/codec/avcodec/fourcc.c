@@ -225,6 +225,10 @@ static const struct
     { VLC_CODEC_HEVC, AV_CODEC_ID_HEVC, VIDEO_ES },
 #endif
 
+#if LIBAVCODEC_VERSION_CHECK( 54, 41, 0, 89, 100 )
+    { VLC_CODEC_VP9, AV_CODEC_ID_VP9, VIDEO_ES },
+#endif
+
     /* Videogames Codecs */
 
     { VLC_CODEC_INTERPLAY, AV_CODEC_ID_INTERPLAY_VIDEO, VIDEO_ES },
