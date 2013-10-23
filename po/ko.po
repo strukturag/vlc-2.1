@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-09-21 15:06+0200\n"
-"PO-Revision-Date: 2013-09-10 09:51+0000\n"
+"PO-Revision-Date: 2013-10-22 12:32+0000\n"
 "Last-Translator: sheppaul <sheppaul@naver.com>\n"
 "Language-Team: Korean (http://www.transifex.com/projects/p/vlc-trans/"
 "language/ko/)\n"
@@ -217,7 +217,7 @@ msgstr "디먹서"
 
 #: include/vlc_config_cat.h:109
 msgid "Demuxers are used to separate audio and video streams."
-msgstr "디먹서는 오디오 및 비디오 스트림을 분리하기 위해 사용됩니다."
+msgstr "디먹서는 오디오와 비디오 스트림을 분리하기 위해 사용됩니다."
 
 #: include/vlc_config_cat.h:111
 msgid "Video codecs"
@@ -264,9 +264,9 @@ msgid ""
 msgstr ""
 "스트림 출력 설정은 스트리밍 서버처럼 동작할때 또는 들어오는 스트림을 저장할"
 "때 사용됩니다.\n"
-"스트림은 먼저 먹스되고 나서 스트림을 파일로 저장하거나 실시간 재생할수 있는 "
-"\"접근 출력\" 모듈을 통해서 보내집니다 (UDP, HTTP, RTP/RTSP).\n"
-"Sout 스트림 모듈은 고급 스트림 프로세싱을 허용합니다 (트랜스코딩, 복제...)."
+"스트림은 먼저 먹스(mux)되고 나서 스트림을 파일로 저장하거나 스트리밍할 수 있"
+"는 \"접근 출력\" 모듈을 통해서 전송됩니다 (UDP, HTTP, RTP/RTSP).\n"
+"Sout 스트림 모듈은 고급 스트림 처리를 허용합니다 (트랜스코딩, 복제...)."
 
 #: include/vlc_config_cat.h:133
 msgid "General stream output settings"
@@ -299,8 +299,8 @@ msgid ""
 "should probably not do that.\n"
 "You can also set default parameters for each access output."
 msgstr ""
-"접근 출력 모듈은 먹스된 스트림들을 전송될 방식을 제어합니다. 이 설정은 항상 "
-"특정 접근 출력 방식을 사용하도록 해 줍니다. 여러분은 아마도 이렇게 설정해서"
+"접근 출력 모듈은 먹스된 스트림을 전송하는 방식을 제어합니다. 이 설정은 항상 "
+"특정한 접근 출력 방식을 사용하도록 해 줍니다. 여러분은 아마도 이렇게 설정해서"
 "는 안 될 것입니다.\n"
 "또한 각 접근 출력에서 사용할 기본 매개변수를 설정할 수 있습니다."
 
@@ -411,7 +411,7 @@ msgid ""
 "example by setting the subtitle type or file name."
 msgstr ""
 "이 부분에서 자막 디먹서의 동작을 제어할 수 있습니다. 예를 들어, 자막의 형식이"
-"나 파일 이름등을 설정하는 것이 가능합니다."
+"나 파일이름을 설정할 수 있습니다."
 
 #: include/vlc_interface.h:134
 msgid ""
@@ -465,11 +465,11 @@ msgstr "메시지(&M)"
 
 #: include/vlc_intf_strings.h:58
 msgid "Jump to Specific &Time"
-msgstr "특정 시간으로 이동하기"
+msgstr "특정 시간으로(&T)"
 
 #: include/vlc_intf_strings.h:59
 msgid "Custom &Bookmarks"
-msgstr "사용자 책갈피"
+msgstr "사용자 책갈피(&B)"
 
 #: include/vlc_intf_strings.h:60
 msgid "&VLM Configuration"
@@ -605,8 +605,8 @@ msgstr ""
 "합니다!</h2><h3>문서</h3><p>VideoLAN <a href=\"http://wiki.videolan.org\">위"
 "키</a> 웹사이트에서 VLC 문서를 찾을 수 있습니다.</p><p>만약 VLC를 처음 사용"
 "해 보신다면, <br><a href=\"http://wiki.videolan.org/Documentation:"
-"VLC_for_dummies\"><em>VLC 미디어 플레이어 소개</em></a> 문서를 읽어보시기 바"
-"랍니다.</p><p>VLC를 사용하는 방법은 <br>\"<a href=\"http://wiki.videolan.org/"
+"VLC_for_dummies\"><em>VLC 미디어 재생기 소개</em></a> 문서를 읽어보시기 바랍"
+"니다.</p><p>VLC를 사용하는 방법은 <br>\"<a href=\"http://wiki.videolan.org/"
 "Documentation:Play_HowTo\"><em>VLC 미디어 재생기로 파일 재생하기</em></a>\" "
 "문서에서 설명하고 있습니다.</p><p>저장, 변환, 트랜스코딩, 인코딩, 먹싱, 스트"
 "리밍 작업에 대한 모든 정보는 <a href=\"http://wiki.videolan.org/"
@@ -784,37 +784,38 @@ msgid ""
 "  vlc://quit                     Special item to quit VLC\n"
 "\n"
 msgstr ""
-"사용법: %s [옵션] [스트림] ...\n"
-"명령줄에 여러개의 스트림을 지정할 수 있습니다.\n"
-"여러개의 스트림은 플레이리스트의 대기열에 포함됩니다.\n"
-"첫번째 항목이 처음 플레이됩니다.\n"
+"사용법: %s  [options] [stream] ...\n"
+"명령행에 여러개의 스트림을 지정할 수 있습니다.\n"
+"지정한 스트림은 재생목록의 대기열에 추가됩니다.\n"
+"첫번째로 지정한 항목을 먼저 재생합니다.\n"
 "\n"
 "옵션 형식:\n"
-"--옵션 프로그램 전반적으로 설정하는 글로벌 옵션입니다.\n"
-"-옵션 글로벌 옵션(--옵션)의 한 문자 버전입니다.\n"
-":옵션 바로 직전의 스트림에만 적용되는 옵션이며, 이전의 설정에 오버라이드 됩니"
+"--option  프로그램을 재생하는 동안 적용되는 전역 설정입니다.\n"
+"-option  위 전역 설정의 한 문자 버전입니다.\n"
+":option  바로 직전의 스트림에만 적용되는 설정이며, 이전의 설정은 무시합니"
 "다.\n"
 "\n"
-"스트림 MRL 형식:\n"
+"스트림 MRL 구문형식:\n"
 "[[access][/demux]://]URL[#[title][:chapter][-[title][:chapter]]]\n"
 "[:option=value ...]\n"
 "\n"
-"여러 개의 글로벌 옵션(--옵션)을 MRL형식으로 사용될 수 있습니다.\n"
-"여러 개의 :option=value 형식도 사용될 수 있습니다.\n"
+"다수의 전역 설정(--options)을 MRL 지정 설정(option:)으로 사용할 수 있습니"
+"다.\n"
+":option=value 을 중첩해서 사용할 수 있습니다.\n"
 "\n"
-"URL 형식:\n"
-"file:///path/file Plain media file\n"
-"http://host[:port]/file HTTP URL\n"
-"ftp://host[:port]/file FTP URL\n"
-"mms://host[:port]/file MMS URL\n"
-"screen:// Screen capture\n"
-"dvd://[device] DVD device\n"
-"vcd://[device] VCD device\n"
-"cdda://[device] Audio CD device\n"
+"URL 구문형식:\n"
+"file:///path/file  평범한 미디어 파일\n"
+"http://host[:port]/file  HTTP URL\n"
+"ftp://host[:port]/file  FTP URL\n"
+"mms://host[:port]/file  MMS URL\n"
+"screen://  화면 캡처\n"
+"dvd://[device]  DVD 장치\n"
+"vcd://[device]  VCD 장치\n"
+"cdda://[device]  오디오 CD 장치\n"
 "udp://[[<source address>]@[<bind address>][:<bind port>]]\n"
-"UDP stream sent by a streaming server\n"
-"vlc://pause:<seconds> Pause the playlist for a certain time\n"
-"vlc://quit Special item to quit VLC\n"
+"스트리밍 서버가 전송한 UDP 스트림\n"
+"vlc://pause:<seconds>  특정 시간동안 재생목록을 일시중지합니다\n"
+"vlc://quit  VLC를 종료할 특별한 항목\n"
 
 #: src/config/help.c:514
 msgid " (default enabled)"
@@ -822,7 +823,7 @@ msgstr " (기본 사용함)"
 
 #: src/config/help.c:515
 msgid " (default disabled)"
-msgstr " (기본 사용안함)"
+msgstr " (기본 사용 안함)"
 
 #: src/config/help.c:680 src/config/help.c:683 src/config/help.c:690
 #: src/config/help.c:692
@@ -928,7 +929,7 @@ msgstr "삭제"
 
 #: src/config/keys.c:67
 msgid "Down"
-msgstr "아래로"
+msgstr "Down"
 
 #: src/config/keys.c:68 modules/control/rc.c:74
 msgid "End"
@@ -1114,7 +1115,7 @@ msgstr "설정해제"
 
 #: src/config/keys.c:115
 msgid "Up"
-msgstr "위로"
+msgstr "Up"
 
 #: src/config/keys.c:116 modules/gui/macosx/MainMenu.m:469
 msgid "Volume Down"
@@ -1320,7 +1321,7 @@ msgstr "해상도"
 
 #: src/input/es_out.c:2959
 msgid "Display resolution"
-msgstr "디스플레이 해상도"
+msgstr "화면 해상도"
 
 #: src/input/es_out.c:2969 src/input/es_out.c:2972 modules/access/imem.c:93
 #: modules/access/rdp.c:53 modules/access/screen/screen.c:42
@@ -1678,7 +1679,7 @@ msgstr ""
 #: src/libvlc-module.c:133 modules/gui/macosx/simple_prefs.m:181
 #: modules/stream_out/display.c:40 modules/gui/qt4/ui/sprefs_audio.h:412
 msgid "Enable audio"
-msgstr "오디오 사용"
+msgstr "오디오 사용하기"
 
 #: src/libvlc-module.c:135
 msgid ""
@@ -1765,10 +1766,10 @@ msgid ""
 "actually encoded with Dolby Surround, turning on this option might enhance "
 "your experience, especially when combined with the Headphone Channel Mixer."
 msgstr ""
-"스트림이 돌비 서라운드로 인코딩되어 있는것을 (또는 그렇지 않은것을) 알고 있지"
-"만 그것을 감지하는데 실패할때 이것을 사용하세요. 비록 스트림이 실제 돌비 서라"
-"운드로 인코딩되지 않았더라도, 이 옵션을 켜는것이 당신의 경험을 향상시킬것입니"
-"다, 특히 헤드폰 채널 믹서와 결합할때."
+"스트림이 돌비 서라운드로 인코딩되어 있는 것을 (또는 그렇지 않은 것을) 알고 있"
+"지만 그것을 감지하는데 실패할 때 이것을 사용하세요. 비록 스트림이 실제 돌비 "
+"서라운드로 인코딩되지 않았더라도, 이 옵션을 켜는 것이 당신의 경험을 향상시킬 "
+"것입니다, 특히 헤드폰 채널 믹서와 결합할 때."
 
 #: src/libvlc-module.c:180 src/win32/thread.c:827
 #: modules/audio_output/kai.c:106 modules/codec/x264.c:434
@@ -1782,14 +1783,14 @@ msgstr "자동"
 #: src/libvlc-module.c:180 modules/access/dtv/access.c:92
 #: modules/access/v4l2/v4l2.c:201 modules/control/hotkeys.c:203
 msgid "On"
-msgstr "사용하기"
+msgstr "켜기"
 
 #: src/libvlc-module.c:180 modules/access/dtv/access.c:92
 #: modules/access/v4l2/v4l2.c:137 modules/access/v4l2/v4l2.c:201
 #: modules/control/hotkeys.c:181 modules/control/hotkeys.c:203
 #: modules/video_filter/deinterlace/algo_phosphor.h:55
 msgid "Off"
-msgstr "끄기"
+msgstr "사용 안함"
 
 #: src/libvlc-module.c:182
 msgid "Stereo audio output mode"
@@ -1820,7 +1821,8 @@ msgid ""
 "This allows you to change the default target level (89 dB) for stream with "
 "replay gain information"
 msgstr ""
-"리플레이 게인 정보있는 스트림의 기본 대상 레벨 (89 dB) 의 변경을 허용합니다"
+"리플레이 게인 정보가 있는 스트림의 기본 대상 레벨 (89 dB) 의 변경을 허용합니"
+"다"
 
 #: src/libvlc-module.c:212
 msgid "Default replay gain"
@@ -1890,7 +1892,7 @@ msgstr ""
 #: src/libvlc-module.c:249 modules/gui/macosx/simple_prefs.m:265
 #: modules/stream_out/display.c:42 modules/gui/qt4/ui/sprefs_video.h:340
 msgid "Enable video"
-msgstr "비디오 사용"
+msgstr "비디오 사용하기"
 
 #: src/libvlc-module.c:251
 msgid ""
@@ -1972,8 +1974,8 @@ msgid ""
 "combinations of these values, like 6=4+2 meaning top-right)."
 msgstr ""
 "윈도우에 비디오 정렬 강제. 기본 (0) 이면 가운데 (0=가운데, 1=왼쪽, 2=오른쪽, "
-"4=상단, 8=하단, 또한 이 값들을 조합해서 사용할수 있습니다, 6=4+2 가 상단-오른"
-"쪽을 의미하는 것처럼 )."
+"4=상단, 8=하단, 또한 이 값들을 조합해서 사용할수 있습니다. 6=4+2는 오른쪽 상"
+"단을 의미합니다)."
 
 #: src/libvlc-module.c:286 src/libvlc-module.c:364
 #: modules/audio_filter/channel_mixer/mono.c:94
@@ -2013,7 +2015,7 @@ msgstr "아래"
 #: modules/video_filter/marq.c:140 modules/video_filter/mosaic.c:171
 #: modules/video_filter/rss.c:174
 msgid "Top-Left"
-msgstr "왼쪽-위"
+msgstr "왼쪽 상단"
 
 #: src/libvlc-module.c:287 src/libvlc-module.c:365 modules/codec/dvbsub.c:103
 #: modules/codec/zvbi.c:79 modules/gui/macosx/VideoEffects.m:179
@@ -2022,7 +2024,7 @@ msgstr "왼쪽-위"
 #: modules/video_filter/marq.c:140 modules/video_filter/mosaic.c:171
 #: modules/video_filter/rss.c:174
 msgid "Top-Right"
-msgstr "오른쪽-위"
+msgstr "오른쪽 상단"
 
 #: src/libvlc-module.c:287 src/libvlc-module.c:365 modules/codec/dvbsub.c:103
 #: modules/codec/zvbi.c:79 modules/gui/macosx/VideoEffects.m:181
@@ -2031,7 +2033,7 @@ msgstr "오른쪽-위"
 #: modules/video_filter/marq.c:140 modules/video_filter/mosaic.c:171
 #: modules/video_filter/rss.c:174
 msgid "Bottom-Left"
-msgstr "왼쪽-아래"
+msgstr "왼쪽 하단"
 
 #: src/libvlc-module.c:287 src/libvlc-module.c:365 modules/codec/dvbsub.c:103
 #: modules/codec/zvbi.c:79 modules/gui/macosx/VideoEffects.m:183
@@ -2040,7 +2042,7 @@ msgstr "왼쪽-아래"
 #: modules/video_filter/marq.c:140 modules/video_filter/mosaic.c:171
 #: modules/video_filter/rss.c:174
 msgid "Bottom-Right"
-msgstr "오른쪽-아래"
+msgstr "오른쪽 하단"
 
 #: src/libvlc-module.c:289
 msgid "Zoom video"
@@ -2048,27 +2050,27 @@ msgstr "화면 크기 조절하기"
 
 #: src/libvlc-module.c:291
 msgid "You can zoom the video by the specified factor."
-msgstr "지정한 요소로 비디오 화면의 크기를 조절할 수 있습니다."
+msgstr "지정한 비율로 비디오 화면의 크기를 조절할 수 있습니다."
 
 #: src/libvlc-module.c:293
 msgid "Grayscale video output"
-msgstr "Grayscale 비디오 출력"
+msgstr "흑백 비디오 출력"
 
 #: src/libvlc-module.c:295
 msgid ""
 "Output video in grayscale. As the color information aren't decoded, this can "
 "save some processing power."
 msgstr ""
-"회색톤으로 출력합니다. 컬러 정보가 디코딩되지 않기 때문에 약간의 처리 전력을 "
-"절약할 수 있습니다."
+"비디오를 흑백으로 출력합니다. 컬러 정보를 디코딩하지 않기 때문에 약간의 처리 "
+"능력을 절약할 수 있습니다."
 
 #: src/libvlc-module.c:298
 msgid "Embedded video"
-msgstr "Embedded 비디오"
+msgstr "비디오 창 결합"
 
 #: src/libvlc-module.c:300
 msgid "Embed the video output in the main interface."
-msgstr "메인 인터페이스에 영상 출력을 포함시킵니다."
+msgstr "비디오 출력 창을 메인 인터페이스에 내장합니다."
 
 #: src/libvlc-module.c:302
 msgid "Fullscreen video output"
@@ -2076,7 +2078,7 @@ msgstr "전체화면 비디오 출력"
 
 #: src/libvlc-module.c:304
 msgid "Start video in fullscreen mode"
-msgstr "전체화면 모드로 비디오 시작"
+msgstr "전체화면 모드에서 비디오를 시작합니다"
 
 #: src/libvlc-module.c:306
 msgid "Overlay video output"
@@ -2088,7 +2090,7 @@ msgid ""
 "to render video directly). VLC will try to use it by default."
 msgstr ""
 "오버레이는 비디오 카드의 하드웨어 가속 기능입니다 (직접 비디오를 렌더링하는 "
-"기능). VLC는 기본적으로 사용하려고 시도 합니다."
+"기능). VLC는 기본적으로 이것을 사용하려고 시도합니다."
 
 #: src/libvlc-module.c:311 src/video_output/vout_intf.c:274
 #: modules/gui/macosx/simple_prefs.m:268 modules/gui/qt4/ui/sprefs_video.h:347
@@ -2097,11 +2099,11 @@ msgstr "항상 위에"
 
 #: src/libvlc-module.c:313
 msgid "Always place the video window on top of other windows."
-msgstr "항상 비디오출력창을 다른 창 위에 둡니다."
+msgstr "항상 비디오 출력창을 다른 창 위에 둡니다."
 
 #: src/libvlc-module.c:315
 msgid "Enable wallpaper mode "
-msgstr "바탕화면 모드 사용"
+msgstr "배경 모드 사용하기"
 
 #: src/libvlc-module.c:317
 msgid ""
@@ -2114,7 +2116,7 @@ msgstr "비디오에 미디어 제목 보이기"
 
 #: src/libvlc-module.c:322
 msgid "Display the title of the video on top of the movie."
-msgstr "영화 상단에 비디오 제목 표시."
+msgstr "영화 상단에 비디오 제목을 표시합니다."
 
 #: src/libvlc-module.c:324
 msgid "Show video title for x milliseconds"
@@ -2122,7 +2124,7 @@ msgstr "x 밀리초 동안 비디오 제목 보이기"
 
 #: src/libvlc-module.c:326
 msgid "Show the video title for n milliseconds, default is 5000 ms (5 sec.)"
-msgstr "n 밀리초 동안 비디오 제목 보이기, 기본값 5000 밀리초 (5 초)"
+msgstr "n 밀리초 동안 비디오 제목을 출력합니다. 기본값은 5000 밀리초 (5 초)"
 
 #: src/libvlc-module.c:328
 msgid "Position of video title"
@@ -2134,11 +2136,11 @@ msgstr "제목이 표시되는 비디오에 놓기 (기본값 하단 가운데).
 
 #: src/libvlc-module.c:332
 msgid "Hide cursor and fullscreen controller after x milliseconds"
-msgstr "x 밀리초 후 커서 및 전체화면 제어기 숨김"
+msgstr "x 밀리초 후 커서 및 전체화면 컨트롤 숨기기"
 
 #: src/libvlc-module.c:335
 msgid "Hide mouse cursor and fullscreen controller after n milliseconds."
-msgstr "n 밀리초 후 마우스 커서 및 전체화면 제어기 숨김"
+msgstr "n 밀리초 후 마우스 커서 및 전체화면 컨트롤을 감춥니다."
 
 #: src/libvlc-module.c:338 src/libvlc-module.c:340
 #: src/video_output/interlacing.c:180 modules/gui/macosx/MainMenu.m:406
@@ -2162,28 +2164,28 @@ msgstr "비디오 처리에 사용할 디인터레이스 방식"
 
 #: src/libvlc-module.c:357 modules/video_filter/deinterlace/deinterlace.h:57
 msgid "Discard"
-msgstr "버림"
+msgstr "Discard (버리기)"
 
 #: src/libvlc-module.c:357 modules/video_filter/deinterlace/algo_phosphor.h:47
 #: modules/video_filter/deinterlace/deinterlace.h:57
 msgid "Blend"
-msgstr "혼합"
+msgstr "Blend (혼합)"
 
 #: src/libvlc-module.c:357 modules/video_filter/deinterlace/deinterlace.h:57
 msgid "Mean"
-msgstr "평균"
+msgstr "Mean (평균)"
 
 #: src/libvlc-module.c:357 modules/video_filter/deinterlace/deinterlace.h:57
 msgid "Bob"
-msgstr "Bob"
+msgstr "Bob (라인 더블링)"
 
 #: src/libvlc-module.c:358 modules/video_filter/deinterlace/deinterlace.h:57
 msgid "Linear"
-msgstr "선형"
+msgstr "Linear (선형)"
 
 #: src/libvlc-module.c:358 modules/video_filter/deinterlace/deinterlace.h:58
 msgid "Phosphor"
-msgstr "Phosphor"
+msgstr "Phosphor (형광체)"
 
 #: src/libvlc-module.c:359 modules/video_filter/deinterlace/deinterlace.h:58
 msgid "Film NTSC (IVTC)"
@@ -2195,7 +2197,7 @@ msgstr "화면 보호기 끄기"
 
 #: src/libvlc-module.c:368
 msgid "Disable the screensaver during video playback."
-msgstr "비디오 재생중 화면보호기 사용안함."
+msgstr "비디오 재생 중에 화면 보호기를 사용하지 않습니다."
 
 #: src/libvlc-module.c:370
 msgid "Inhibit the power management daemon during playback"
@@ -2219,8 +2221,8 @@ msgid ""
 "VLC can avoid creating window caption, frames, etc... around the video, "
 "giving a \"minimal\" window."
 msgstr ""
-"VLC 는 \"최소\" 윈도우를 지정하여 비디오 주변에 윈도우 제목, 프레임, 기타 를 "
-"만들지 않을수 있습니다."
+"VLC는 \"최소\" 윈도우를 지정하여 비디오 주변에 윈도우 제목, 프레임, 기타 등"
+"을 만들지 않을 수 있습니다."
 
 #: src/libvlc-module.c:379
 msgid "Video splitter module"
@@ -2248,7 +2250,7 @@ msgstr "비디오 스냅샷 디렉토리 (또는 파일명)"
 
 #: src/libvlc-module.c:391
 msgid "Directory where the video snapshots will be stored."
-msgstr "비디오 스냅샷이 저장될 디렉토리."
+msgstr "비디오 스냅샷을 저장할 디렉토리."
 
 #: src/libvlc-module.c:393 src/libvlc-module.c:395
 msgid "Video snapshot file prefix"
@@ -2264,19 +2266,19 @@ msgstr "비디오 스탭샷 저장에 사용되는 이미지 형식"
 
 #: src/libvlc-module.c:401
 msgid "Display video snapshot preview"
-msgstr "비디오 스냅샷 미리보기 표시"
+msgstr "비디오 스냅샷 미리보기 출력하기"
 
 #: src/libvlc-module.c:403
 msgid "Display the snapshot preview in the screen's top-left corner."
-msgstr "화면의 상단-왼쪽 모서리에 스냅샷 미리보기 표시."
+msgstr "화면의 왼쪽 상단 모서리에 스냅샷 미리보기를 출력합니다."
 
 #: src/libvlc-module.c:405
 msgid "Use sequential numbers instead of timestamps"
-msgstr "타임스탬프 대신 순차 번호 사용"
+msgstr "타임스탬프 대신에 순차 번호 사용하기"
 
 #: src/libvlc-module.c:407
 msgid "Use sequential numbers instead of timestamps for snapshot numbering"
-msgstr "스냅샷 번호매기기에 타임스탬프 대신 일련 번호 사용"
+msgstr "스냅샷 번호 매기기에 타임스탬프 대신 일련 번호를 사용합니다"
 
 #: src/libvlc-module.c:409
 msgid "Video snapshot width"
@@ -2334,23 +2336,23 @@ msgstr ""
 
 #: src/libvlc-module.c:436
 msgid "Video Auto Scaling"
-msgstr "비디오 자동 크기조정"
+msgstr "비디오 자동 크기조절"
 
 #: src/libvlc-module.c:438
 msgid "Let the video scale to fit a given window or fullscreen."
-msgstr "지정된 윈도우 또는 전체화면에 비디오 배율 맞춤 허용"
+msgstr "창이나 전체화면에 비디오 크기를 맞춥니다."
 
 #: src/libvlc-module.c:440
 msgid "Video scaling factor"
-msgstr "비디오 크기조정 요소"
+msgstr "비디오 크기조절 비율"
 
 #: src/libvlc-module.c:442
 msgid ""
 "Scaling factor used when Auto Scaling is disabled.\n"
 "Default value is 1.0 (original video size)."
 msgstr ""
-"크기조정 요소는 자동 크기조정을 사용하지 않을때 사용됩니다.\n"
-"기본값 1.0 (원본 비디오 크기)."
+"크기조절 비율은 자동 크기조절을 사용하지 않을 때 사용됩니다.\n"
+"기본값은 1.0 입니다 (원본 비디오 크기)."
 
 #: src/libvlc-module.c:445
 msgid "Custom crop ratios list"
@@ -2413,19 +2415,18 @@ msgid ""
 "Enables framedropping on MPEG2 stream. Framedropping occurs when your "
 "computer is not powerful enough"
 msgstr ""
-"MPEG2 스트림에서 프레임드롭을 허용합니다. 프레임드롭은 컴퓨터가 동영상을 재생"
-"하기에 충분하지 않은 경우에 발생합니다."
+"MPEG2 스트림에서 프레임 버리기를 허용합니다. 프레임 버리기는 컴퓨터가 동영상"
+"을 재생하기에 충분하지 않은 경우에 발생합니다."
 
 #: src/libvlc-module.c:473
 msgid "Drop late frames"
-msgstr "늦은 프레임 버림"
+msgstr "늦은 프레임 버리기"
 
 #: src/libvlc-module.c:475
 msgid ""
 "This drops frames that are late (arrive to the video output after their "
 "intended display date)."
-msgstr ""
-"(모니터 갱신율 이후에 비디오 출력에 도달하는) 느린 프레임을 드롭합니다 "
+msgstr "(모니터 갱신율 이후에 비디오 출력에 도달하는) 느린 프레임을 버립니다."
 
 #: src/libvlc-module.c:478
 msgid "Quiet synchro"
@@ -2812,11 +2813,11 @@ msgstr ""
 #: src/libvlc-module.c:662 modules/gui/macosx/simple_prefs.m:203
 #: modules/gui/qt4/ui/sprefs_input.h:351
 msgid "Record directory or filename"
-msgstr "녹음 디렉토리 또는 파일명"
+msgstr "녹화 디렉토리 또는 파일명"
 
 #: src/libvlc-module.c:664 modules/gui/macosx/simple_prefs.m:205
 msgid "Directory or filename where the records will be stored"
-msgstr "녹음이 저장될 디렉토리 또는 파일명"
+msgstr "녹화를 저장할 디렉토리나 파일명"
 
 #: src/libvlc-module.c:666
 msgid "Prefer native stream recording"
@@ -2876,38 +2877,37 @@ msgstr ""
 
 #: src/libvlc-module.c:694 modules/gui/qt4/ui/sprefs_subtitles.h:303
 msgid "Force subtitle position"
-msgstr "자막 위치 강제"
+msgstr "자막 위치 지정하기"
 
 #: src/libvlc-module.c:696
 msgid ""
 "You can use this option to place the subtitles under the movie, instead of "
 "over the movie. Try several positions."
 msgstr ""
-"이 옵션을 이용해 영상 내의 자막 위치를 지정할 수 있습니다. 몇 가지 위치를 시"
-"험해 주세요."
+"이 옵션으로 영상 아래쪽에 자막의 위치를 지정할 수 있습니다. 몇 번 해보세요."
 
 #: src/libvlc-module.c:699
 msgid "Enable sub-pictures"
-msgstr "자막 사용"
+msgstr "자막 사용하기"
 
 #: src/libvlc-module.c:701
 msgid "You can completely disable the sub-picture processing."
-msgstr "완벽하게 자막 프로세싱을 사용안하게 할수 있습니다."
+msgstr "자막 처리를 완전히 비활성화할 수 있습니다."
 
 #: src/libvlc-module.c:703 src/libvlc-module.c:1634 src/text/iso-639_def.h:145
 #: modules/gui/macosx/simple_prefs.m:254
 #: modules/stream_out/transcode/transcode.c:219
 #: modules/gui/qt4/ui/sprefs_subtitles.h:287
 msgid "On Screen Display"
-msgstr "화면표시메뉴"
+msgstr "OSD 설정"
 
 #: src/libvlc-module.c:705
 msgid ""
 "VLC can display messages on the video. This is called OSD (On Screen "
 "Display)."
 msgstr ""
-"VLC 는 비디오에 메시지를 표시할수 있습니다. 이것을 OSD (On Screen Display) 라"
-"고 합니다."
+"VLC 는 비디오에 메시지를 표시할 수 있습니다. 이것을 OSD (On Screen Display) "
+"라고 합니다."
 
 #: src/libvlc-module.c:708
 msgid "Text rendering module"
@@ -2942,19 +2942,20 @@ msgid ""
 "This adds so-called \"subpicture filters\". These filter subpictures created "
 "by subtitle decoders or other subpictures sources."
 msgstr ""
-"소위 \"부화면 소스\" 라고 칭하는 것을 추가합니다. 이 필터 부화면들은 자막 디"
+"소위 \"부화면 필터\" 라고 칭하는 것을 추가합니다. 이 필터 부화면들은 자막 디"
 "코더나 다른 부화면 소스에 의해 생성됩니다."
 
 #: src/libvlc-module.c:722
 msgid "Autodetect subtitle files"
-msgstr "자막 파일 자동 인식"
+msgstr "자막 파일 자동 감지"
 
 #: src/libvlc-module.c:724
 msgid ""
 "Automatically detect a subtitle file, if no subtitle filename is specified "
 "(based on the filename of the movie)."
 msgstr ""
-"자막 파일명이 지정되지 않으면, 자막파일 자동 감지 (영화의 파일명에 기반)."
+"자막 파일명을 지정하지 않으면(영화 파일명에 기반), 자막 파일을 자동으로 감지"
+"합니다."
 
 #: src/libvlc-module.c:727
 msgid "Subtitle autodetection fuzziness"
@@ -2971,7 +2972,7 @@ msgid ""
 "4 = subtitle file matching the movie name exactly"
 msgstr ""
 "어떻게 자막 및 영화 파일명이 일치하게 할지를 결정. 옵션은:\n"
-"0 = 자막 자동감지 안함\n"
+"0 = 자막 자동 감지 하지 않음\n"
 "1 = 모든 자막 파일\n"
 "2 = 영화 이름이 포함된 모든 자막 파일\n"
 "3 = 추가 문자를 포함한 영화 이름이 일치하는 자막 파일\n"
@@ -2986,12 +2987,12 @@ msgid ""
 "Look for a subtitle file in those paths too, if your subtitle file was not "
 "found in the current directory."
 msgstr ""
-"만약 자막 파일이 현재 디렉토리에 발견되지 않으면, 이 경로에서도 자막 파일 찾"
-"기."
+"만약 현재 디렉토리에서 자막 파일을 찾지 못하면, 다음 경로에서도 자막 파일을 "
+"검색합니다."
 
 #: src/libvlc-module.c:742
 msgid "Use subtitle file"
-msgstr "자막 파일 이용"
+msgstr "자막 파일 사용하기"
 
 #: src/libvlc-module.c:744
 msgid ""
@@ -3635,7 +3636,7 @@ msgstr "OS 의 파일 연결로 VLC 가 실행되었다고 알립니다"
 
 #: src/libvlc-module.c:1085 modules/gui/qt4/ui/sprefs_interface.h:538
 msgid "Use only one instance when started from file manager"
-msgstr "파일 관리자에서 시작할 때 VLC 한 개만 실행합니다"
+msgstr "파일 관리자에서 시작될 때 한 개만 실행하기"
 
 #: src/libvlc-module.c:1087
 msgid "Increase the priority of the process"
@@ -3657,7 +3658,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1097 modules/gui/qt4/ui/sprefs_interface.h:534
 msgid "Enqueue items into playlist in one instance mode"
-msgstr "중복실행 금지시 아이템을 재생목록 대기열에 넣습니다"
+msgstr "중복실행 금지시 재생목록 대기열에 넣기"
 
 #: src/libvlc-module.c:1099
 msgid ""
@@ -3691,7 +3692,7 @@ msgstr "앨범 아트 정책"
 
 #: src/libvlc-module.c:1118
 msgid "Choose how album art will be downloaded."
-msgstr "어떻게 앨범 아트를 다운로드할지 선택."
+msgstr "어떻게 앨범 아트를 다운로드할지 선택하세요."
 
 #: src/libvlc-module.c:1124
 msgid "Manual download only"
@@ -3699,11 +3700,11 @@ msgstr "자동으로 다운로드하지 않음"
 
 #: src/libvlc-module.c:1125
 msgid "When track starts playing"
-msgstr "트랙 재생이 시작될때"
+msgstr "트랙 재생이 시작될 때"
 
 #: src/libvlc-module.c:1126
 msgid "As soon as track is added"
-msgstr "트랙이 추가 되자마자"
+msgstr "트랙이 추가될 때"
 
 #: src/libvlc-module.c:1128
 msgid "Services discovery modules"
@@ -3763,7 +3764,7 @@ msgstr "재생 및 일시중지"
 
 #: src/libvlc-module.c:1155
 msgid "Pause each item in the playlist on the last frame."
-msgstr "재생목록의 각 항목마다 마지막 프레임에서 정지."
+msgstr "재생목록의 각 항목마다 마지막 프레임에서 일시중지합니다."
 
 #: src/libvlc-module.c:1157
 msgid "Auto start"
@@ -3805,15 +3806,15 @@ msgstr ""
 
 #: src/libvlc-module.c:1175 modules/gui/qt4/ui/sprefs_interface.h:533
 msgid "Display playlist tree"
-msgstr "재생목록 트리 표시"
+msgstr "재생목록 트리 구조 표시하기"
 
 #: src/libvlc-module.c:1177
 msgid ""
 "The playlist can use a tree to categorize some items, like the contents of a "
 "directory."
 msgstr ""
-"재생목록에서 폴더 내용같은 몇가지 항목을 분류하기 위해 트리를 사용할 수 있습"
-"니다."
+"재생목록에서 폴더 내용같은 몇가지 항목을 분류하기 위해 트리 구조를 사용할 수 "
+"있습니다."
 
 #: src/libvlc-module.c:1186
 msgid "These settings are the global VLC key bindings, known as \"hotkeys\"."
@@ -3867,19 +3868,19 @@ msgstr "전체화면 상태에서 나가는데 사용할 단축키를 선택하�
 #: src/libvlc-module.c:1207 modules/gui/macosx/ControlsBar.m:52
 #: modules/gui/macosx/fspanel.m:418
 msgid "Play/Pause"
-msgstr "재생/일시정지"
+msgstr "재생/일시중지"
 
 #: src/libvlc-module.c:1208
 msgid "Select the hotkey to use to swap paused state."
-msgstr "일시중지 상태 바꾸기에 사용할 단축키 선택."
+msgstr "일시중지 상태 전환 단축기를 선택하세요."
 
 #: src/libvlc-module.c:1209
 msgid "Pause only"
-msgstr "일시정지"
+msgstr "일시중지"
 
 #: src/libvlc-module.c:1210
 msgid "Select the hotkey to use to pause."
-msgstr "일시중지에 사용할 단축키 선택."
+msgstr "일시중지 단축키를 선택하세요."
 
 #: src/libvlc-module.c:1211
 msgid "Play only"
@@ -3964,7 +3965,7 @@ msgstr "정지"
 
 #: src/libvlc-module.c:1228
 msgid "Select the hotkey to stop playback."
-msgstr "재생 중지 단축키 선택."
+msgstr "재생 정지 단축키를 선택하세요."
 
 #: src/libvlc-module.c:1229 modules/gui/macosx/bookmarks.m:99
 #: modules/gui/macosx/bookmarks.m:108 modules/gui/macosx/ControlsBar.m:64
@@ -4195,11 +4196,11 @@ msgstr "오디오 음량 줄일 키 선택."
 #: modules/gui/macosx/MainMenu.m:461 modules/gui/macosx/MainMenu.m:470
 #: modules/gui/macosx/MainMenu.m:1482
 msgid "Mute"
-msgstr "소리끄기"
+msgstr "음소거"
 
 #: src/libvlc-module.c:1297
 msgid "Select the key to mute audio."
-msgstr "오디오 소리끄기할 키 선택."
+msgstr "음소거 단축키를 선택하세요."
 
 #: src/libvlc-module.c:1298
 msgid "Subtitle delay up"
@@ -4472,19 +4473,19 @@ msgstr "미리 정의된 잘라내기 형식 목록 순환."
 
 #: src/libvlc-module.c:1374
 msgid "Toggle autoscaling"
-msgstr "자동크기조절 토글하기"
+msgstr "자동 크기조절 토글하기"
 
 #: src/libvlc-module.c:1375
 msgid "Activate or deactivate autoscaling."
-msgstr "자동크기조정 활성화 또는 비활성화."
+msgstr "자동 크기조절을 활성화 또는 비활성화합니다."
 
 #: src/libvlc-module.c:1376
 msgid "Increase scale factor"
-msgstr "배율 요소 늘림"
+msgstr "크기조절 비율 늘리기"
 
 #: src/libvlc-module.c:1378
 msgid "Decrease scale factor"
-msgstr "배율 요소 줄임"
+msgstr "크기조절 비율 줄이기"
 
 #: src/libvlc-module.c:1380
 msgid "Toggle deinterlacing"
@@ -4528,7 +4529,7 @@ msgstr "비디오 스냅샷 찍기"
 
 #: src/libvlc-module.c:1390
 msgid "Takes a video snapshot and writes it to disk."
-msgstr "비디오 스냅샷 찍기 및 디스크에 쓰기."
+msgstr "비디오 스냅샷을 찍고 디스크에 기록합니다."
 
 #: src/libvlc-module.c:1392 modules/gui/macosx/MainMenu.m:352
 #: modules/gui/qt4/components/controller.hpp:118
@@ -4539,7 +4540,7 @@ msgstr "녹음/녹화"
 
 #: src/libvlc-module.c:1393
 msgid "Record access filter start/stop."
-msgstr "기록 접근 필터 시작/중지."
+msgstr "접근 필터 시작/정지를 기록합니다."
 
 #: src/libvlc-module.c:1395
 msgid "Normal/Loop/Repeat"
@@ -4595,7 +4596,7 @@ msgstr "비디오 출력의 배경 모드 토글하기"
 
 #: src/libvlc-module.c:1429
 msgid "Toggle wallpaper mode in video output."
-msgstr "비디오 출력에 배경 모드를 토글합니다."
+msgstr "비디오 출력의 배경 모드를 토글합니다."
 
 #: src/libvlc-module.c:1431
 msgid "Cycle through audio devices"
@@ -4721,7 +4722,7 @@ msgstr "이용가능한 모듈 목록 인쇄"
 
 #: src/libvlc-module.c:2640
 msgid "print a list of available modules with extra detail"
-msgstr "이용가능한 모듈의 목록을 상세 정보와 함께 출력"
+msgstr "이용 가능한 모듈의 목록을 상세 정보와 함께 출력"
 
 #: src/libvlc-module.c:2642
 msgid ""
@@ -5564,7 +5565,7 @@ msgstr "비디오 자동배율"
 
 #: src/video_output/vout_intf.c:176
 msgid "Scale factor"
-msgstr "배율 요소"
+msgstr "크기조절 비율"
 
 #: src/video_output/vout_intf.c:218 modules/gui/macosx/MainMenu.m:402
 #: modules/gui/macosx/MainMenu.m:403 modules/gui/macosx/VideoEffects.m:82
@@ -6133,7 +6134,7 @@ msgstr "오디오 샘플 레이트"
 
 #: modules/access/dshow/dshow.cpp:203
 msgid "Select audio input format with the given sample rate (if non 0)"
-msgstr "지정된 샘플레이트의 오디오 입력 형식 선택 (없으면 0)"
+msgstr "지정된 샘플레이트의 오디오 입력 형식을 선택하세요 (없으면 0)"
 
 #: modules/access/dshow/dshow.cpp:205
 msgid "Audio bits per sample"
@@ -6394,7 +6395,7 @@ msgstr "파일럿"
 
 #: modules/access/dtv/access.c:156
 msgid "Roll-off factor"
-msgstr "Roll-off factor"
+msgstr "Roll-off 비율"
 
 #: modules/access/dtv/access.c:161
 msgid "0.35 (same as DVB-S)"
@@ -6646,11 +6647,11 @@ msgstr "DV"
 
 #: modules/access/dvdnav.c:72 modules/access/dvdread.c:70
 msgid "DVD angle"
-msgstr "DVD 각도"
+msgstr "DVD 시점"
 
 #: modules/access/dvdnav.c:74 modules/access/dvdread.c:72
 msgid "Default DVD angle."
-msgstr "기본 DVD 각도."
+msgstr "기본 DVD 시점."
 
 #: modules/access/dvdnav.c:76
 msgid "Start directly in menu"
@@ -7403,7 +7404,7 @@ msgstr "샘플 레이트"
 msgid ""
 "Samplerate of the captured audio stream, in Hz (eg: 11025, 22050, 44100, "
 "48000)"
-msgstr "캡처한 오디오 스트림 샘플레이트 (Hz, 예: 11025, 22050, 44100, 48000)"
+msgstr "캡처한 오디오 스트림의 샘플레이트 (Hz, 예: 11025, 22050, 44100, 48000)"
 
 #: modules/access/oss.c:76
 msgid "OSS"
@@ -8497,7 +8498,7 @@ msgstr "영상을 수직으로 뒤집습니다"
 
 #: modules/access/v4l2/v4l2.c:150
 msgid "Rotate (degrees)"
-msgstr "회전하기 (각도)"
+msgstr "회전하기 (도)"
 
 #: modules/access/v4l2/v4l2.c:151
 msgid "Picture rotation angle (in degrees)."
@@ -9174,8 +9175,8 @@ msgid ""
 "Dolby Surround encoded streams won't be decoded before being processed by "
 "this filter. Enabling this setting is not recommended."
 msgstr ""
-"돌비 서라운드 인코딩된 스트림은 이 필터의 처리전에 디코드할수 없습니다. 이 설"
-"정의 사용은 추천하지 않습니다."
+"돌비 서라운드로 인코딩한 스트림은 이 필터의 처리 전에 디코드할 수 없습니다. "
+"이 설정의 사용은 추천하지 않습니다."
 
 #: modules/audio_filter/channel_mixer/headphone.c:75
 msgid "Headphone virtual spatialization effect"
@@ -10055,7 +10056,7 @@ msgstr "출력 파일"
 
 #: modules/audio_output/file.c:106
 msgid "File to which the audio samples will be written to. (\"-\" for stdout"
-msgstr "오디오 샘플이 쓰여질 파일. (\"-\" 표준출력용"
+msgstr "오디오 샘플을 저장할 파일. (\"-\" 표준출력용"
 
 #: modules/audio_output/file.c:109
 msgid "File audio output"
@@ -10502,14 +10503,14 @@ msgstr "속도 제어 버퍼 공격."
 
 #: modules/codec/avcodec/avcodec.h:182
 msgid "I quantization factor"
-msgstr "I 양자화 팩터"
+msgstr "I 양자화 비율"
 
 #: modules/codec/avcodec/avcodec.h:184
 msgid ""
 "Quantization factor of I frames, compared with P frames (for instance 1.0 => "
 "same qscale for I and P frames)."
 msgstr ""
-"P 프레임과 비교한 I 프레임의 양자화 요소 (예를 들어1.0 => 은 I 및 P 프레임에 "
+"P 프레임과 비교한 I 프레임의 양자화 비율 (예를 들어1.0 => 은 I 및 P 프레임에 "
 "대해 같은 qscale)."
 
 #: modules/codec/avcodec/avcodec.h:187 modules/codec/x264.c:360
@@ -10779,7 +10780,7 @@ msgstr "덤프 디코더"
 
 #: modules/codec/dirac.c:61 modules/codec/schroedinger.c:109
 msgid "Constant quality factor"
-msgstr "일정한 품질 요소"
+msgstr "일정한 품질 비율"
 
 #: modules/codec/dirac.c:62
 msgid "If bitrate=0, use this value for constant quality"
@@ -10975,7 +10976,7 @@ msgstr "공간적 분활 사용"
 
 #: modules/codec/dirac.c:178 modules/codec/schroedinger.c:255
 msgid "Disable arithmetic coding"
-msgstr "이진 산술 코딩 사용안함"
+msgstr "이진 산술 코딩 사용 안함"
 
 #: modules/codec/dirac.c:179 modules/codec/schroedinger.c:256
 msgid "Use variable length codes instead, useful for very high bitrates"
@@ -11032,7 +11033,7 @@ msgid ""
 "g. 6=top-right)."
 msgstr ""
 "부화면 위치를 비디오에 강제할수 있습니다 (0=가운데, 1=왼쪽, 2=오른쪽, 4=상"
-"단, 8=하단, 또한 이 값들을 조합해서 사용할수 있습니다, 예 6=상단-오른쪽)."
+"단, 8=하단, 또한 이 값들을 조합해서 사용할수 있습니다, 예 6=오른쪽 상단)."
 
 #: modules/codec/dvbsub.c:95
 msgid "Encoding X coordinate"
@@ -11415,7 +11416,7 @@ msgstr ""
 
 #: modules/codec/kate.c:240
 msgid "Default font color"
-msgstr "기본 글꼴 색깔"
+msgstr "기본 글꼴색"
 
 #: modules/codec/kate.c:241
 msgid ""
@@ -11438,13 +11439,13 @@ msgstr ""
 
 #: modules/codec/kate.c:250
 msgid "Default background color"
-msgstr "기본 배경 색깔"
+msgstr "기본 배경색"
 
 #: modules/codec/kate.c:251
 msgid ""
 "Default background color if the Kate stream does not specify a background "
 "color to use."
-msgstr "Kate 스트림이 사용할 배경 색깔을 지정하지 않았을때 기본 배경 색깔."
+msgstr "Kate 스트림이 사용할 배경색을 지정하지 않았을 때의 기본 배경색."
 
 #: modules/codec/kate.c:255
 msgid "Default background alpha"
@@ -11455,7 +11456,7 @@ msgid ""
 "Transparency of the default background color if the Kate stream does not "
 "specify a particular background color to use."
 msgstr ""
-"Kate 스트림이 사용할 배경 색깔을 지정하지 않았을때 기본 배경 색깔의 투명도."
+"Kate 스트림이 사용할 배경색을 지정하지 않았을 때의 기본 배경색의 투명도."
 
 #: modules/codec/kate.c:262
 msgid ""
@@ -11466,10 +11467,9 @@ msgid ""
 "Note that changing settings below will not take effect until a new stream is "
 "played. This will hopefully be fixed soon."
 msgstr ""
-"Kate는 텍스트와 이미지 기반의 오버레이 코덱입니다.title=\"New line\">\n"
+"Kate는 텍스트와 이미지 기반의 오버레이 코덱입니다.\n"
 "복잡한 Kate 스트림을 렌더링하려면 Tiger 렌더링 라이브러리가 필요하지만 VLC는 "
-"이것이 없어도 정적인 텍스트와 이미지 기반의 자막을 렌더링할 수 있습니다."
-"title=\"New line\">\n"
+"이것이 없어도 정적인 텍스트와 이미지 기반의 자막을 렌더링할 수 있습니다.\n"
 "아래의 설정을 바꾸면 새로운 스트림을 재생할 때까지 효과가 없음을 참고하세요. "
 "조만간 이 문제를 해결하겠습니다."
 
@@ -12192,7 +12192,7 @@ msgstr "Speex 오디오 인코더"
 
 #: modules/codec/spudec/spudec.c:45
 msgid "Disable DVD subtitle transparency"
-msgstr "DVD 자막 투명도를 끄기"
+msgstr "DVD 자막 투명도 끄기"
 
 #: modules/codec/spudec/spudec.c:46
 msgid "Removes all transparency effects used in DVD subtitles."
@@ -12272,7 +12272,7 @@ msgstr "에스페란토어 (Latin-3)"
 
 #: modules/codec/subsdec.c:116
 msgid "Nordic (Latin-6)"
-msgstr "Nordic (Latin-6)"
+msgstr "북유럽어 (Latin-6)"
 
 #: modules/codec/subsdec.c:118
 msgid "Cyrillic (Windows-1251)"
@@ -12304,11 +12304,11 @@ msgstr "그리스어 (Windows-1253)"
 
 #: modules/codec/subsdec.c:128
 msgid "Hebrew (ISO 8859-8)"
-msgstr "헤브루어 (ISO 8859-8)"
+msgstr "히브리어 (ISO 8859-8)"
 
 #: modules/codec/subsdec.c:129
 msgid "Hebrew (Windows-1255)"
-msgstr "헤브루어 (Windows-1255)"
+msgstr "히브리어 (Windows-1255)"
 
 #: modules/codec/subsdec.c:131
 msgid "Turkish (ISO 8859-9)"
@@ -12336,7 +12336,7 @@ msgstr "발트어 (Windows-1257)"
 
 #: modules/codec/subsdec.c:142
 msgid "Celtic (Latin-8)"
-msgstr "설틱어 (Latin-8)"
+msgstr "켈트어 (Latin-8)"
 
 #: modules/codec/subsdec.c:145
 msgid "South-Eastern European (Latin-10)"
@@ -12344,11 +12344,11 @@ msgstr "남동유럽어 (Latin-10)"
 
 #: modules/codec/subsdec.c:147
 msgid "Simplified Chinese (ISO-2022-CN-EXT)"
-msgstr "중국어 간체 (ISO-2022-CN-EXT)"
+msgstr "간체 중국어 (ISO-2022-CN-EXT)"
 
 #: modules/codec/subsdec.c:148
 msgid "Simplified Chinese Unix (EUC-CN)"
-msgstr "Unix 중국어 간체 (EUC-CN)"
+msgstr "간체 중국어 Unix (EUC-CN)"
 
 #: modules/codec/subsdec.c:149
 msgid "Japanese (7-bits JIS/ISO-2022-JP-2)"
@@ -12372,11 +12372,11 @@ msgstr "한국어 (ISO-2022-KR)"
 
 #: modules/codec/subsdec.c:154
 msgid "Traditional Chinese (Big5)"
-msgstr "전통 중국어 (Big5)"
+msgstr "번체 중국어 (Big5)"
 
 #: modules/codec/subsdec.c:155
 msgid "Traditional Chinese Unix (EUC-TW)"
-msgstr "전통 중국어 Unix (EUC-TW)"
+msgstr "번체 중국어 Unix (EUC-TW)"
 
 #: modules/codec/subsdec.c:156
 msgid "Hong-Kong Supplementary (HKSCS)"
@@ -13012,19 +13012,19 @@ msgstr ""
 
 #: modules/codec/x264.c:235
 msgid "QP factor between I and P"
-msgstr "I 와 P 사이의 QP 팩터"
+msgstr "I 와 P 사이의 QP 비율"
 
 #: modules/codec/x264.c:236
 msgid "QP factor between I and P. Range 1.0 to 2.0."
-msgstr "I 와 P 사이의 QP 요소. 범위 1.0 에서 2.0."
+msgstr "I 와 P 사이의 QP 비율. 범위 1.0 에서 2.0."
 
 #: modules/codec/x264.c:239
 msgid "QP factor between P and B"
-msgstr "P 와 B 사이의 QP 팩터"
+msgstr "P 와 B 사이의 QP 비율"
 
 #: modules/codec/x264.c:240
 msgid "QP factor between P and B. Range 1.0 to 2.0."
-msgstr "P 와 B 사이의 QP 요소. 범위 1.0 에서 2.0."
+msgstr "P 와 B 사이의 QP 비율. 범위 1.0 에서 2.0."
 
 #: modules/codec/x264.c:242
 msgid "QP difference between chroma and luma"
@@ -13268,7 +13268,7 @@ msgid ""
 "This requires CABAC."
 msgstr ""
 "격자 RD 양자화: \n"
-" - 0: 사용안함\n"
+" - 0: 사용 안함\n"
 " - 1: MB 의 마지막 인코드에만 사용함\n"
 " - 2: 모든 모드 결정에 사용함\n"
 "CABAC 이 필요함."
@@ -13539,8 +13539,8 @@ msgid ""
 "6 = top-right)."
 msgstr ""
 "비디오에 문자다중방송 위치를 강제할수 있습니다 (0=가운데, 1=왼쪽, 2=오른쪽, "
-"4=상단, 8=하단, 또한 이 값들을 조합해서 사용하수 있습니다, 예 6 = 상단-오른"
-"쪽)."
+"4=상단, 8=하단, 또한 이 값들을 조합해서 사용하수 있습니다, 예 6 = 오른쪽 상"
+"단)."
 
 #: modules/codec/zvbi.c:72
 msgid "Teletext text subtitles"
@@ -13745,7 +13745,7 @@ msgstr "화면 크기 초기화"
 
 #: modules/control/hotkeys.c:848
 msgid "Scaled to screen"
-msgstr "화면 배율에 맞춤"
+msgstr "화면에 맞추기"
 
 #: modules/control/hotkeys.c:850
 msgid "Original Size"
@@ -13876,7 +13876,7 @@ msgstr "서비스의 디스플레이 이름"
 
 #: modules/control/ntservice.c:52
 msgid "Change the display name of the Service."
-msgstr "서비스의 디스플레이 이름 변경."
+msgstr "서비스의 디스플레이 이름을 변경하세요."
 
 #: modules/control/ntservice.c:53
 msgid "Configuration options"
@@ -13921,7 +13921,7 @@ msgstr "열기"
 #: modules/gui/macosx/MainMenu.m:1190 modules/gui/macosx/MainMenu.m:1191
 #: modules/gui/macosx/MainMenu.m:1192 modules/gui/qt4/menus.cpp:817
 msgid "Pause"
-msgstr "일시정지"
+msgstr "일시중지"
 
 #: modules/control/rc.c:75
 msgid "Error"
@@ -14077,7 +14077,7 @@ msgstr "| seek X . . . 초 단위 이동, 예: `seek 12'"
 
 #: modules/control/rc.c:806
 msgid "| pause  . . . . . . . . . . . . . . . .  toggle pause"
-msgstr "| pause  . . . . . . . . . . . . . . . . 일시 중지 토글하기"
+msgstr "| pause  . . . . . . . . . . . . . . . . 일시중지 토글하기"
 
 #: modules/control/rc.c:807
 msgid "| fastforward  . . . . . . . .  .  set to maximum rate"
@@ -14173,7 +14173,7 @@ msgstr "| vzoom [X]  . . . . . . . . . . .  화면 크기 정하기/가져오기
 
 #: modules/control/rc.c:831
 msgid "| snapshot . . . . . . . . . . . . take video snapshot"
-msgstr "| snapshot . . . . . . . . . . . . 영상 스냅샷 찍기"
+msgstr "| snapshot . . . . . . . . . . . . 비디오 스냅샷 찍기"
 
 #: modules/control/rc.c:832
 msgid "| strack [X] . . . . . . . . .  set/get subtitle track"
@@ -14205,12 +14205,12 @@ msgstr "+----[ 도움말의 끝 ]"
 
 #: modules/control/rc.c:967
 msgid "Press menu select or pause to continue."
-msgstr "계속하려면 메뉴 선택 또는 일수중지를 누르세요."
+msgstr "계속하려면 메뉴 선택 또는 일시중지를 누르세요."
 
 #: modules/control/rc.c:1193 modules/control/rc.c:1447
 #: modules/control/rc.c:1491
 msgid "Type 'menu select' or 'pause' to continue."
-msgstr "계속하려면 '메뉴 선택' 또는 '일수중지' 를 입력하세요."
+msgstr "계속하려면 '메뉴 선택' 또는 '일시중지' 를 입력하세요."
 
 #: modules/control/rc.c:1285
 msgid "Error: `goto' needs an argument greater than zero."
@@ -14220,7 +14220,7 @@ msgstr "오류: `goto' 는 0 보다 큰 인수를 필요로 합니다."
 #, c-format
 msgid "Playlist has only %u element"
 msgid_plural "Playlist has only %u elements"
-msgstr[0] "재생목록이 %u 요소만 갖고 있습니다"
+msgstr[0] "재생목록에 %u 만 있습니다"
 
 #: modules/control/rc.c:1747 modules/gui/ncurses.c:805
 msgid "+-[Incoming]"
@@ -14387,15 +14387,15 @@ msgstr "실행 전 묻기"
 
 #: modules/demux/avi/avi.c:66
 msgid "Always fix"
-msgstr "항상 수정"
+msgstr "항상 고치기"
 
 #: modules/demux/avi/avi.c:67
 msgid "Never fix"
-msgstr "수정하지 않음"
+msgstr "고치지 않기"
 
 #: modules/demux/avi/avi.c:68
 msgid "Fix when necessary"
-msgstr "가능하면 고칩니다"
+msgstr "필요시 고치기"
 
 #: modules/demux/avi/avi.c:72
 msgid "AVI demuxer"
@@ -14593,7 +14593,7 @@ msgstr "세그먼트에서 발견된 챕터 코덱을 이용합니다."
 #: modules/demux/mkv/mkv.cpp:62 modules/gui/macosx/simple_prefs.m:216
 #: modules/gui/qt4/ui/sprefs_input.h:354
 msgid "Preload MKV files in the same directory"
-msgstr "같은 디렉토리의 MKV 파일을 미리 불러옵니다."
+msgstr "같은 디렉토리의 MKV 파일을 미리 불러오기"
 
 #: modules/demux/mkv/mkv.cpp:63
 msgid ""
@@ -14617,7 +14617,7 @@ msgstr "더미 요소"
 
 #: modules/demux/mkv/mkv.cpp:71
 msgid "Read and discard unknown EBML elements (not good for broken files)."
-msgstr "알 수 없는 EBML 요소 읽기 및 폐기 (깨진 파일에는 좋지않음)."
+msgstr "알 수 없는 EBML 요소 읽고 폐기하기 (깨진 파일에는 좋지 않음)."
 
 #: modules/demux/mod.c:55
 msgid "Enable noise reduction algorithm."
@@ -16238,8 +16238,8 @@ msgstr "입력이 없음"
 msgid ""
 "No input found. A stream must be playing or paused for bookmarks to work."
 msgstr ""
-"입력을 찾을 수 없음. 책갈피를 사용하려면 스트림이 재생 또는 일시중지이어야 합"
-"니다."
+"입력을 찾을 수 없음. 책갈피를 사용하려면 스트림이 재생 또는 일시중지여야 합니"
+"다."
 
 #: modules/gui/macosx/bookmarks.m:225
 msgid "Input has changed"
@@ -16251,7 +16251,7 @@ msgid ""
 "\" while editing bookmarks to ensure to keep the same input."
 msgstr ""
 "입력이 변경되서, 책갈피를 저장할 수 없습니다. 동일한 입력을 확실히 유지하기 "
-"위해 책갈피를 편집하는 동안에 \"일시 중지\" 상태를 유지하세요."
+"위해 책갈피를 편집하는 동안에 \"일시중지\" 상태를 유지하세요."
 
 #: modules/gui/macosx/bookmarks.m:276 modules/gui/macosx/wizard.m:992
 msgid "Invalid selection"
@@ -16283,7 +16283,7 @@ msgstr "시간으로 이동하기"
 
 #: modules/gui/macosx/ControlsBar.m:53 modules/gui/macosx/fspanel.m:418
 msgid "Click to play or pause the current media."
-msgstr "현재 미디어를 재생하거나 일시 중지하려면 클릭합니다."
+msgstr "현재 미디어를 재생하거나 일시중지하려면 클릭합니다."
 
 #: modules/gui/macosx/ControlsBar.m:56 modules/gui/macosx/fspanel.m:417
 msgid "Backward"
@@ -16412,7 +16412,7 @@ msgstr "현재 미디어를 계속 앞으로 건너뛰려면 클릭한 상태를
 
 #: modules/gui/macosx/ConvertAndSave.m:152
 msgid "Convert & Stream"
-msgstr "변환하기 & 스트림하기"
+msgstr "변환 & 스트림하기"
 
 #: modules/gui/macosx/ConvertAndSave.m:153
 msgid "Go!"
@@ -16805,7 +16805,7 @@ msgstr "전체화면 모드일때 검게 표시된 비디오 없는 화면 유�
 
 #: modules/gui/macosx/macosx.m:64
 msgid "Show Fullscreen controller"
-msgstr "전체화면 제어기 보기"
+msgstr "전체화면 컨트롤 보이기"
 
 #: modules/gui/macosx/macosx.m:65
 msgid "Shows a lucent controller when moving the mouse in fullscreen mode."
@@ -16828,8 +16828,8 @@ msgid ""
 "By default, VLC keeps a list of the last 10 items. This feature can be "
 "disabled here."
 msgstr ""
-"기본적으로, VLC 는 마지막 10 항목의 목록을 유지합니다. 이 기능을 여기에서 사"
-"용안함으로 할수 있습니다."
+"기본적으로, VLC 는 마지막 목록 10 개를 유지합니다. 이 기능은 여기에서 끌 수 "
+"있습니다."
 
 #: modules/gui/macosx/macosx.m:76 modules/gui/macosx/simple_prefs.m:234
 msgid "Control playback with the Apple Remote"
@@ -16919,14 +16919,14 @@ msgstr ""
 #: modules/gui/macosx/macosx.m:101 modules/gui/macosx/simple_prefs.m:241
 #: modules/gui/qt4/qt4.cpp:170
 msgid "Pause the video playback when minimized"
-msgstr "최소화시 비디오 재생을 일시 중지하기"
+msgstr "최소화시 비디오 재생을 일시중지하기"
 
 #: modules/gui/macosx/macosx.m:102 modules/gui/qt4/qt4.cpp:172
 msgid ""
 "With this option enabled, the playback will be automatically paused when "
 "minimizing the window."
 msgstr ""
-"이 옵션 사용시, 재생 창을 최소화할 때 재생이 자동으로 일시 중지될 것입니다."
+"이 옵션 사용시, 재생 창을 최소화할 때 재생이 자동으로 일시중지될 것입니다."
 
 #: modules/gui/macosx/macosx.m:105 modules/gui/qt4/qt4.cpp:174
 msgid "Allow automatic icon changes"
@@ -16976,14 +16976,14 @@ msgstr "미디어 소스 목록을 출력하는 메인 창의 사이드바 보�
 
 #: modules/gui/macosx/macosx.m:122
 msgid "Pause iTunes during VLC playback"
-msgstr "VLC 재생중에 iTunes 일시 중지하기"
+msgstr "VLC 재생중에 iTunes 일시중지하기"
 
 #: modules/gui/macosx/macosx.m:123
 msgid ""
 "Pauses iTunes playback when VLC playback starts. If selected, iTunes "
 "playback will be resumed again if VLC playback is finished."
 msgstr ""
-"VLC 재생이 시작할 때 iTunes 재생을 일시 중지합니다. 이 옵션 사용시, iTunes 재"
+"VLC 재생이 시작할 때 iTunes 재생을 일시중지합니다. 이 옵션 사용시, iTunes 재"
 "생은 VLC 재생이 끝나면 다시 시작이 될 것입니다."
 
 #: modules/gui/macosx/macosx.m:128
@@ -16992,11 +16992,11 @@ msgstr "아무 것도 하지 않음"
 
 #: modules/gui/macosx/macosx.m:128
 msgid "Pause iTunes"
-msgstr "iTunes 일시 중지"
+msgstr "iTunes 일시중지"
 
 #: modules/gui/macosx/macosx.m:128
 msgid "Pause and resume iTunes"
-msgstr "iTunes을 일시 중지하고 재시작하기"
+msgstr "iTunes을 일시중지하고 재시작하기"
 
 #: modules/gui/macosx/macosx.m:131 modules/gui/qt4/qt4.cpp:178
 msgid "Maximum Volume displayed"
@@ -17212,7 +17212,7 @@ msgstr "후처리"
 
 #: modules/gui/macosx/MainMenu.m:414 modules/gui/macosx/MainMenu.m:1511
 msgid "Add Subtitle File..."
-msgstr "자막 파일 추가하기..."
+msgstr "자막 파일 추가..."
 
 #: modules/gui/macosx/MainMenu.m:415 modules/gui/macosx/MainMenu.m:416
 msgid "Subtitles Track"
@@ -17924,7 +17924,7 @@ msgstr "선호하는 오디어 언어"
 
 #: modules/gui/macosx/simple_prefs.m:184
 msgid "Enable Last.fm submissions"
-msgstr "Last.fm 전송 사용"
+msgstr "Last.fm 제출 사용하기"
 
 #: modules/gui/macosx/simple_prefs.m:188
 msgid "Visualization"
@@ -18025,7 +18025,7 @@ msgstr "메인 창 내에서 비디오를 보여 줍니다"
 
 #: modules/gui/macosx/simple_prefs.m:232
 msgid "Show Fullscreen Controller"
-msgstr "전체화면 제어기 보기"
+msgstr "전체화면 컨트롤 보이기"
 
 #: modules/gui/macosx/simple_prefs.m:233
 #: modules/gui/qt4/ui/sprefs_interface.h:539
@@ -18056,7 +18056,7 @@ msgstr "디스플레이 설정"
 #: modules/gui/macosx/simple_prefs.m:249
 #: modules/gui/qt4/ui/sprefs_subtitles.h:298
 msgid "Font color"
-msgstr "글꼴 색깔"
+msgstr "글꼴색"
 
 #: modules/gui/macosx/simple_prefs.m:251 modules/text_renderer/freetype.c:154
 #: modules/text_renderer/quartztext.c:92 modules/text_renderer/win32text.c:59
@@ -18076,7 +18076,7 @@ msgstr "선호하는 자막 언어"
 
 #: modules/gui/macosx/simple_prefs.m:255
 msgid "Enable OSD"
-msgstr "OSD 사용"
+msgstr "OSD 사용하기"
 
 #: modules/gui/macosx/simple_prefs.m:256 modules/text_renderer/win32text.c:66
 #: modules/video_filter/marq.c:118 modules/video_filter/rss.c:146
@@ -18178,7 +18178,7 @@ msgstr ""
 "이것은 VLC 재생기의 환경설정을 초기화할 것입니다.\n"
 "\n"
 "VLC가 처리과정 중에 재시작해서 현재 재생목록을 비우고, 그 결과로 재생, 스트리"
-"밍이나 트랜스코딩 동작이 즉간 중단될 것입니다.\n"
+"밍이나 트랜스코딩 동작이 즉시 중단될 것입니다.\n"
 "\n"
 "미디어 라이브러에는 영향을 미치지 않습니다.\n"
 "\n"
@@ -18186,7 +18186,7 @@ msgstr ""
 
 #: modules/gui/macosx/simple_prefs.m:1062
 msgid "Choose the folder to save your video snapshots to."
-msgstr "비디오 스냅샷 저장 폴더 선택."
+msgstr "비디오 스냅샷을 저장할 폴더를 선택하세요."
 
 #: modules/gui/macosx/simple_prefs.m:1064
 #: modules/gui/macosx/simple_prefs.m:1155
@@ -18267,7 +18267,7 @@ msgstr "fps"
 #: modules/gui/macosx/TrackSynchronization.m:71
 #: modules/gui/qt4/components/extended_panels.cpp:1501
 msgid "Subtitle duration factor:"
-msgstr "자막 지속 인자:"
+msgstr "자막 지속 비율:"
 
 #: modules/gui/macosx/TrackSynchronization.m:79
 #: modules/gui/qt4/components/extended_panels.cpp:1612
@@ -18494,7 +18494,7 @@ msgstr "모션 블러"
 #: modules/gui/macosx/VideoEffects.m:156
 #: modules/gui/qt4/ui/video_effects.h:1388
 msgid "Factor"
-msgstr "요소"
+msgstr "비율"
 
 #: modules/gui/macosx/VideoEffects.m:157
 #: modules/video_filter/motiondetect.c:49
@@ -19497,7 +19497,7 @@ msgstr "전체화면 컨트롤러 도킹하기"
 
 #: modules/gui/qt4/components/controller.hpp:124
 msgid "Stop playback"
-msgstr "재생 중지"
+msgstr "재생 정지"
 
 #: modules/gui/qt4/components/controller.hpp:124
 msgid "Open a medium"
@@ -19592,7 +19592,7 @@ msgstr "B 위치를 설정하려면 누르세요"
 
 #: modules/gui/qt4/components/controller_widget.cpp:253
 msgid "Stop the A to B loop"
-msgstr "A - B 순환 중지"
+msgstr "A - B 순환 정지"
 
 #: modules/gui/qt4/components/controller_widget.cpp:274
 msgid "Aspect Ratio"
@@ -19752,7 +19752,7 @@ msgstr "이 대화상자의 값을 강제 업데이트하기"
 
 #: modules/gui/qt4/components/info_panels.cpp:142
 msgid "&Fingerprint"
-msgstr "지문"
+msgstr "지문(&F)"
 
 #: modules/gui/qt4/components/info_panels.cpp:143
 msgid "Find meta data using audio fingerprinting"
@@ -20109,7 +20109,7 @@ msgstr "목록"
 
 #: modules/gui/qt4/components/playlist/standardpanel.hpp:159
 msgid "PictureFlow"
-msgstr "PictureFlow"
+msgstr "픽쳐플로우"
 
 #: modules/gui/qt4/components/preferences_widgets.cpp:304
 msgid "Select File"
@@ -20120,8 +20120,7 @@ msgid ""
 "Select or double click an action to change the associated hotkey. Use delete "
 "key to remove hotkeys"
 msgstr ""
-"할당한 단축키를 변경하려는 동작을 선택하거나 더블 클릭하세요. 단축키를 삭제하"
-"려면 delete 키를 사용하세요."
+"단축키를 변경하려면 관련 동작을 선택/더블 클릭하세요. 단축키 삭제: Delete 키"
 
 #: modules/gui/qt4/components/preferences_widgets.cpp:1137
 msgid "in"
@@ -20167,7 +20166,7 @@ msgstr "단축키 변경"
 
 #: modules/gui/qt4/components/preferences_widgets.cpp:1414
 msgid "Press the new key or combination for "
-msgstr "새 키나 조합을 누르세요"
+msgstr "새 키나 조합을 누르세요: "
 
 #: modules/gui/qt4/components/preferences_widgets.cpp:1423
 msgid "Assign"
@@ -20218,7 +20217,7 @@ msgstr ""
 #: modules/gui/qt4/components/simple_preferences.cpp:719
 msgid "This is VLC's skinnable interface. You can download other skins at"
 msgstr ""
-"VLC 의 스키너블 인터페이스 입니다. 다른 스킨은 다음에서 다운로드할수 있습니"
+"VLC의 사용자 스킨 인터페이스입니다. 다른 스킨은 다음에서 다운로드할 수 있습니"
 "다:"
 
 #: modules/gui/qt4/components/simple_preferences.cpp:721
@@ -20451,7 +20450,7 @@ msgstr "오류"
 
 #: modules/gui/qt4/dialogs/errors.cpp:47
 msgid "Cl&ear"
-msgstr "지우기"
+msgstr "지우기(&E)"
 
 #: modules/gui/qt4/dialogs/errors.cpp:54
 msgid "Hide future errors"
@@ -20494,15 +20493,15 @@ msgid ""
 "entities. Therefore the <i>VLC</i> developers require your express consent "
 "for the media player to access the Internet automatically.</p>\n"
 msgstr ""
-"<p>당인의 개인정보를 보호하기 위해 <i>VLC 미디어 재생기는</i> 개인 자료를 수"
+"<p>당신의 개인정보를 보호하기 위해 <i>VLC 미디어 재생기</i>는 개인 자료를 수"
 "집하거나 무단으로 전송하지 않습니다. 익명으로 된 형식의 자료조차도 누구에게"
 "도 전송하지 않습니다.</p>\n"
 "<p>그럼에도, <i>VLC</i>는 인터넷 기반의 서비스를 제공하는 제삼자가 당신의 재"
-"생목록에 있는 미디어의 정보를 검색하도록 할 수 있습니다. 이것은 커버 아트, 트"
-"랙 이름, 제작자와 다른 메다 테이터를 포함합니다.</p>\n"
+"생목록에 있는 미디어의 정보를 검색하도록 할 수 있습니다. 이것은 앨범 커버, 트"
+"랙 이름, 제작자와 다른 메타 데이터를 포함합니다.</p>\n"
 "이것은 제삼자의 회사가 당신의 미디어 파일을 확인하도록 할 것입니다. 그러므로 "
-"<i>VLC</i> 개발자는 미디어 재생기가 인터넷에 자동으로 접근할 수 있도록 하는 "
-"당신의 명백한 동의를 요구합니다.</p>\n"
+"<i>VLC</i> 개발자는 미디어 재생기가 인터넷에 자동으로 접근할 수 있도록 당신"
+"의 명백한 동의를 요구합니다.</p>\n"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:91
 msgid "Network Access Policy"
@@ -20518,15 +20517,15 @@ msgstr "정기적으로 VLC 업데이트를 검사합니다"
 
 #: modules/gui/qt4/dialogs/gototime.cpp:42
 msgid "Go to Time"
-msgstr "시간으로 가기"
+msgstr "시간으로 이동"
 
 #: modules/gui/qt4/dialogs/gototime.cpp:48
 msgid "&Go"
-msgstr "가기(&G)"
+msgstr "이동(&G)"
 
 #: modules/gui/qt4/dialogs/gototime.cpp:56
 msgid "Go to time"
-msgstr "시간으로 가기"
+msgstr "시간으로 이동"
 
 #: modules/gui/qt4/dialogs/help.cpp:86 modules/gui/qt4/dialogs/plugins.cpp:528
 msgid "About"
@@ -20534,7 +20533,7 @@ msgstr "정보"
 
 #: modules/gui/qt4/dialogs/help.cpp:214
 msgid "&Recheck version"
-msgstr "버전 다시 확인하기"
+msgstr "버전 다시 확인(&R)"
 
 #: modules/gui/qt4/dialogs/help.cpp:217
 msgid "&Yes"
@@ -20570,15 +20569,15 @@ msgstr "일반(&G)"
 
 #: modules/gui/qt4/dialogs/mediainfo.cpp:65
 msgid "&Metadata"
-msgstr "메타데이터"
+msgstr "메타데이터(&M)"
 
 #: modules/gui/qt4/dialogs/mediainfo.cpp:67
 msgid "Co&dec"
-msgstr "코덱"
+msgstr "코덱(&D)"
 
 #: modules/gui/qt4/dialogs/mediainfo.cpp:71
 msgid "S&tatistics"
-msgstr "통계"
+msgstr "통계(&T)"
 
 #: modules/gui/qt4/dialogs/mediainfo.cpp:77
 msgid "&Save Metadata"
@@ -20634,7 +20633,7 @@ msgstr "네트워크(&N)"
 
 #: modules/gui/qt4/dialogs/open.cpp:96
 msgid "Capture &Device"
-msgstr "캡처 장치"
+msgstr "캡처 장치(&D)"
 
 #: modules/gui/qt4/dialogs/open.cpp:111
 msgid "&Select"
@@ -20656,11 +20655,11 @@ msgstr "스트림(&S)"
 
 #: modules/gui/qt4/dialogs/open.cpp:121
 msgid "C&onvert"
-msgstr "변환하기"
+msgstr "변환하기(&O)"
 
 #: modules/gui/qt4/dialogs/open.cpp:205
 msgid "C&onvert / Save"
-msgstr "변환하기 / 저장하기"
+msgstr "변환/저장하기(&O)"
 
 #: modules/gui/qt4/dialogs/openurl.cpp:47
 msgid "Open URL"
@@ -20750,7 +20749,7 @@ msgstr "대화창 저장 및 닫기"
 
 #: modules/gui/qt4/dialogs/preferences.cpp:93
 msgid "&Reset Preferences"
-msgstr "환경설정 초기화"
+msgstr "환경설정 초기화(&R)"
 
 #: modules/gui/qt4/dialogs/preferences.cpp:163
 msgid "Only show current"
@@ -20908,7 +20907,7 @@ msgstr "시간 도구바"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:138
 msgid "Fullscreen Controller"
-msgstr "전체화면 제어기"
+msgstr "전체화면 컨트롤"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:155
 msgid "Select profile:"
@@ -21065,11 +21064,11 @@ msgstr "비디오(&V)"
 
 #: modules/gui/qt4/menus.cpp:333 modules/gui/qt4/menus.cpp:1050
 msgid "Subti&tle"
-msgstr "자막"
+msgstr "자막(&T)"
 
 #: modules/gui/qt4/menus.cpp:335 modules/gui/qt4/menus.cpp:1066
 msgid "T&ools"
-msgstr "도구"
+msgstr "도구(&O)"
 
 #: modules/gui/qt4/menus.cpp:338 modules/gui/qt4/menus.cpp:1101
 msgid "V&iew"
@@ -21085,7 +21084,7 @@ msgstr "파일 열기(&F)..."
 
 #: modules/gui/qt4/menus.cpp:355
 msgid "&Open Multiple Files..."
-msgstr "파일 여러 개 열기..."
+msgstr "파일 여러 개 열기(&O)..."
 
 #: modules/gui/qt4/menus.cpp:359 modules/gui/qt4/menus.cpp:920
 msgid "Open &Disc..."
@@ -21097,7 +21096,7 @@ msgstr "네트워크 스트림 열기(&N)..."
 
 #: modules/gui/qt4/menus.cpp:363 modules/gui/qt4/menus.cpp:924
 msgid "Open &Capture Device..."
-msgstr "캡처 장치 열기..."
+msgstr "캡처 장치 열기(&C)..."
 
 #: modules/gui/qt4/menus.cpp:366
 msgid "Open &Location from clipboard"
@@ -21105,15 +21104,15 @@ msgstr "클립보드의 위치 열기(&L)"
 
 #: modules/gui/qt4/menus.cpp:371
 msgid "Open &Recent Media"
-msgstr "최근 미디어 열기"
+msgstr "최근 미디어 열기(&R)"
 
 #: modules/gui/qt4/menus.cpp:381
 msgid "Conve&rt / Save..."
-msgstr "변환 / 저장(&R)..."
+msgstr "변환 / 저장하기(&R)..."
 
 #: modules/gui/qt4/menus.cpp:383
 msgid "&Stream..."
-msgstr "스트림하기..."
+msgstr "스트림하기(&S)..."
 
 #: modules/gui/qt4/menus.cpp:388
 msgid "Quit at the end of playlist"
@@ -21141,15 +21140,15 @@ msgstr "프로그램 가이드"
 
 #: modules/gui/qt4/menus.cpp:431
 msgid "Plu&gins and extensions"
-msgstr "플러그인 및 확장자(&G)"
+msgstr "플러그인 및 확장 기능(&G)"
 
 #: modules/gui/qt4/menus.cpp:436
 msgid "Customi&ze Interface..."
-msgstr "인터페이스 사용자지정(&Z)..."
+msgstr "인터페이스 설정(&Z)..."
 
 #: modules/gui/qt4/menus.cpp:439
 msgid "&Preferences"
-msgstr "환경설정"
+msgstr "환경설정(&P)"
 
 #: modules/gui/qt4/menus.cpp:460
 msgid "&View"
@@ -21169,7 +21168,7 @@ msgstr "재생목록 도킹하기"
 
 #: modules/gui/qt4/menus.cpp:496
 msgid "Mi&nimal Interface"
-msgstr "최소 인터페이스"
+msgstr "최소 인터페이스(&N)"
 
 #: modules/gui/qt4/menus.cpp:497
 msgid "Ctrl+H"
@@ -21193,15 +21192,15 @@ msgstr "시각화 선택"
 
 #: modules/gui/qt4/menus.cpp:583
 msgid "&Increase Volume"
-msgstr "볼륨 키우기"
+msgstr "볼륨 키우기(&I)"
 
 #: modules/gui/qt4/menus.cpp:586
 msgid "&Decrease Volume"
-msgstr "볼륨 줄이기"
+msgstr "볼륨 줄이기(&D)"
 
 #: modules/gui/qt4/menus.cpp:589
 msgid "&Mute"
-msgstr "음소거"
+msgstr "음소거(&M)"
 
 #: modules/gui/qt4/menus.cpp:606
 msgid "Audio &Track"
@@ -21213,7 +21212,7 @@ msgstr "오디오 장치(&D)"
 
 #: modules/gui/qt4/menus.cpp:608
 msgid "&Stereo Mode"
-msgstr "스테레오 모드"
+msgstr "스테레오 모드(&S)"
 
 #: modules/gui/qt4/menus.cpp:611
 msgid "&Visualizations"
@@ -21221,11 +21220,11 @@ msgstr "시각화(&V)"
 
 #: modules/gui/qt4/menus.cpp:637
 msgid "Add &Subtitle File..."
-msgstr "자막 파일 추가하기.."
+msgstr "자막 파일 추가(&S).."
 
 #: modules/gui/qt4/menus.cpp:639
 msgid "Sub &Track"
-msgstr "자막 트랙"
+msgstr "자막 트랙(&T)"
 
 #: modules/gui/qt4/menus.cpp:662
 msgid "Video &Track"
@@ -21237,15 +21236,15 @@ msgstr "전체화면(&F)"
 
 #: modules/gui/qt4/menus.cpp:667
 msgid "Always Fit &Window"
-msgstr "항상 창에 맞추기"
+msgstr "항상 창에 맞추기(&W)"
 
 #: modules/gui/qt4/menus.cpp:668
 msgid "Always &on Top"
-msgstr "항상 위에"
+msgstr "항상 위에(&O)"
 
 #: modules/gui/qt4/menus.cpp:669
 msgid "Set as Wall&paper"
-msgstr "배경화면으로 설정하기"
+msgstr "배경화면으로 설정하기(&P)"
 
 #: modules/gui/qt4/menus.cpp:673
 msgid "&Zoom"
@@ -21253,7 +21252,7 @@ msgstr "화면 크기(&Z)"
 
 #: modules/gui/qt4/menus.cpp:674
 msgid "&Aspect Ratio"
-msgstr "화면 비율"
+msgstr "화면 비율(&A)"
 
 #: modules/gui/qt4/menus.cpp:675
 msgid "&Crop"
@@ -21265,7 +21264,7 @@ msgstr "디인터레이스(&D)"
 
 #: modules/gui/qt4/menus.cpp:680
 msgid "&Deinterlace mode"
-msgstr "디인터레이스 모드"
+msgstr "디인터레이스 모드(&D)"
 
 #: modules/gui/qt4/menus.cpp:681
 msgid "&Post processing"
@@ -21273,7 +21272,7 @@ msgstr "후처리(&P)"
 
 #: modules/gui/qt4/menus.cpp:685
 msgid "Take &Snapshot"
-msgstr "스냅샷 찍기"
+msgstr "스냅샷 찍기(&S)"
 
 #: modules/gui/qt4/menus.cpp:708
 msgid "T&itle"
@@ -21301,7 +21300,7 @@ msgstr "업데이트 확인(&U)..."
 
 #: modules/gui/qt4/menus.cpp:823
 msgid "&Stop"
-msgstr "중지(&S)"
+msgstr "정지(&S)"
 
 #: modules/gui/qt4/menus.cpp:831
 msgid "Pre&vious"
@@ -21313,7 +21312,7 @@ msgstr "다음(&N)"
 
 #: modules/gui/qt4/menus.cpp:850
 msgid "Sp&eed"
-msgstr "재생 속도"
+msgstr "재생 속도(&E)"
 
 #: modules/gui/qt4/menus.cpp:856
 msgid "&Faster"
@@ -21329,11 +21328,11 @@ msgstr "느리게(&W)"
 
 #: modules/gui/qt4/menus.cpp:893
 msgid "&Jump Forward"
-msgstr "앞으로 이동하기"
+msgstr "앞으로 이동하기(&J)"
 
 #: modules/gui/qt4/menus.cpp:900
 msgid "Jump Bac&kward"
-msgstr "뒤로 이동하기"
+msgstr "뒤로 이동하기(&K)"
 
 #: modules/gui/qt4/menus.cpp:907
 msgid "Ctrl+T"
@@ -21353,15 +21352,15 @@ msgstr "재생(&P)"
 
 #: modules/gui/qt4/menus.cpp:1145
 msgid "&Hide VLC media player in taskbar"
-msgstr "작업표시줄에 VLC 미디어 재생기 숨기기"
+msgstr "작업표시줄에서 VLC 숨기기(&H)"
 
 #: modules/gui/qt4/menus.cpp:1151
 msgid "Sho&w VLC media player"
-msgstr "VLC 미디어 재생기 보기"
+msgstr "VLC 보이기(&W)"
 
 #: modules/gui/qt4/menus.cpp:1162
 msgid "&Open Media"
-msgstr "미디어 열기"
+msgstr "미디어 열기(&O)"
 
 #: modules/gui/qt4/menus.cpp:1626
 msgid "&Clear"
@@ -21440,7 +21439,7 @@ msgid ""
 "playlist and extended panel. This option only works with Windows and X11 "
 "with composite extensions."
 msgstr ""
-"메인 인터페이스, 재생목록 및 확장 패널의 전체화면 제어기 불투명도를 0.1 에서 "
+"메인 인터페이스, 재생목록 및 확장 패널의 전체화면 컨트롤 불투명도를 0.1 에서 "
 "1 사이로 설정. 이 옵션은 컴포지트 확장된 윈도우즈 및 X11 에서만 동작합니다."
 
 #: modules/gui/qt4/qt4.cpp:114
@@ -21449,7 +21448,7 @@ msgstr "중요하지 않은 오류 및 경고 대화상자 보기"
 
 #: modules/gui/qt4/qt4.cpp:116
 msgid "Activate the updates availability notification"
-msgstr "업데이트 가능 알림 활성화"
+msgstr "업데이트 가능 알림을 활성화합니다"
 
 #: modules/gui/qt4/qt4.cpp:117
 msgid ""
@@ -21469,7 +21468,7 @@ msgstr "시작때 네트워크 정책 묻기"
 
 #: modules/gui/qt4/qt4.cpp:124
 msgid "Save the recently played items in the menu"
-msgstr "메뉴에서 최근 재생한 항목 저장하기"
+msgstr "최근 재생한 항목을 메뉴에 저장합니다."
 
 #: modules/gui/qt4/qt4.cpp:126
 msgid "List of words separated by | to filter"
@@ -21506,14 +21505,14 @@ msgid ""
 " - a zone always present to show information as lyrics, album arts...\n"
 " - minimal mode with limited controls"
 msgstr ""
-"VLC 시작:\n"
-" - 보통 모드\n"
-" - 가사, 앨범 아트 등의 정보 보기 구역 항상 제공\n"
-" - 제한된 제어의 최소 모드"
+"VLC 시작하기:\n"
+" - 보통 모드로\n"
+" - 가사, 앨범 아트 등의 정보 출력창으로\n"
+" - 제한된 컨트롤의 최소 모드로"
 
 #: modules/gui/qt4/qt4.cpp:143
 msgid "Show a controller in fullscreen mode"
-msgstr "전체화면 모드에서 제어기 보이기"
+msgstr "전체화면 모드에서 컨트롤을 보여줍니다"
 
 #: modules/gui/qt4/qt4.cpp:144
 msgid "Embed the file browser in open dialog"
@@ -21577,7 +21576,7 @@ msgstr ""
 
 #: modules/gui/qt4/qt4.cpp:184
 msgid "Never"
-msgstr "전혀"
+msgstr "없음"
 
 #: modules/gui/qt4/qt4.cpp:184
 msgid "When minimized"
@@ -21877,7 +21876,7 @@ msgstr "음악통계기"
 
 #: modules/misc/audioscrobbler.c:132
 msgid "Submission of played songs to last.fm"
-msgstr "재생 중인 곡을 last.fm에 전송"
+msgstr "last.fm에 재생한 곡을 제출"
 
 #: modules/misc/audioscrobbler.c:595
 msgid "last.fm: Authentication failed"
@@ -21893,7 +21892,7 @@ msgstr ""
 
 #: modules/misc/audioscrobbler.c:737
 msgid "Last.fm username not set"
-msgstr "Last.fm 사용자명 설정안됨"
+msgstr "Last.fm 사용자명 설정 안 됨"
 
 #: modules/misc/audioscrobbler.c:738
 msgid ""
@@ -21901,8 +21900,8 @@ msgid ""
 "VLC.\n"
 "Visit http://www.last.fm/join/ to get an account."
 msgstr ""
-"사용자명 또는 음악통계기 플러그인을 사용안함 설정, 그리고 VLC 재시작 하세"
-"요.\n"
+"사용자명을 정하거나 또는 Audioscrobbler 플러그인을 비활성화하고, VLC를 재시작"
+"하세요.\n"
 "계정을 얻으려면 http://www.last.fm/join/ 를 방문하세요."
 
 #: modules/misc/gnutls.c:51
@@ -22060,8 +22059,8 @@ msgid ""
 "Select the verbosity to use for log or -1 to use the same verbosity given by "
 "--verbose."
 msgstr ""
-"로그에 기록하는데 사용할 상세 출력을 선택하거나 --verbose 로 주어진 것과 같"
-"은 상세 출력을 사용하려면 -1을 입력하세요."
+"로그에 사용할 상세 출력을 선택하거나 --verbose 로 주어진 것과 같은 상세 출력"
+"을 사용하려면 -1을 입력하세요."
 
 #: modules/misc/logger.c:158
 msgid "Logging"
@@ -22550,7 +22549,7 @@ msgstr "MPEG4 비디오 패킷타이저"
 
 #: modules/packetizer/mpegvideo.c:57
 msgid "Sync on Intra Frame"
-msgstr "Intra Frame에 동기 맞춤"
+msgstr "Intra Frame에 동기 맞추기"
 
 #: modules/packetizer/mpegvideo.c:58
 msgid ""
@@ -22876,7 +22875,7 @@ msgstr ""
 
 #: modules/stream_out/bridge.c:65
 msgid "Fallback to placeholder stream when out of data"
-msgstr "쓸모가 없을 때 플레이스홀더 스트림으로 fallback하기"
+msgstr "데이터가 없을 때 플레이스홀더 스트림으로 돌아오기"
 
 #: modules/stream_out/bridge.c:67
 msgid ""
@@ -22885,10 +22884,10 @@ msgid ""
 "configure a place holder stream when the real source breaks. Source and "
 "placeholder streams should have the same format. "
 msgstr ""
-"true로 설정하면, 만약 다른 bridge-in 에서 자료를 수신하지 않는다면, bridge는 "
-"모든 입력 엘리멘터리 스트림을 버릴 것입니다. 이것은 실제 소스가 중단될 때 플"
-"레이스홀더 스트림을 설정하기 위해 사용될 수 있습니다. 소스와 플레이스홀더 스"
-"트림은 같은 형식을 가지고 있어야 합니다."
+"true로 설정시, 만약 다른 bridge-in 에서 자료를 수신하지 않는다면, bridge는 모"
+"든 입력 엘리멘터리 스트림을 버릴 것입니다. 이것은 실제 소스가 중단될 때 플레"
+"이스홀더 스트림을 설정하기 위해 사용될 수 있습니다. 소스와 플레이스홀더 스트"
+"림은 같은 형식을 가지고 있어야 합니다."
 
 #: modules/stream_out/bridge.c:72
 msgid "Placeholder delay"
@@ -22910,8 +22909,8 @@ msgid ""
 "frames in the streams."
 msgstr ""
 "이 옵션 사용시 플레이스홀더와 일반 스트림간의 전환은 I 프레임 상에서만 발생"
-"할 것입니다. 이것은 스트림의 I 프레임 빈도에 따라서 약간 더 긴 지연을 댓가로 "
-"전환하는 스트림상의 아티팩트를 제거할 것입니다."
+"할 것입니다. 이것은 스트림의 I 프레임 빈도에 따라서, 약간 더 긴 지연을 댓가"
+"로 전환하는 스트림상의 아티팩트를 제거할 것입니다."
 
 #: modules/stream_out/bridge.c:92
 msgid "Bridge"
@@ -22960,11 +22959,11 @@ msgstr "설명(Description) 스트림 출력"
 
 #: modules/stream_out/display.c:41
 msgid "Enable/disable audio rendering."
-msgstr "오디오 렌더링 사용/사용안함."
+msgstr "오디오 렌더링 사용/사용 안함."
 
 #: modules/stream_out/display.c:43
 msgid "Enable/disable video rendering."
-msgstr "비디오 렌더링 사용/사용안함."
+msgstr "비디오 렌더링 사용/사용 안함."
 
 #: modules/stream_out/display.c:44
 msgid "Delay (ms)"
@@ -23605,11 +23604,11 @@ msgstr "변환된 비디오 스트림의 목표 비트레이트."
 
 #: modules/stream_out/transcode/transcode.c:54
 msgid "Video scaling"
-msgstr "비디오 크기조정"
+msgstr "비디오 크기조절"
 
 #: modules/stream_out/transcode/transcode.c:56
 msgid "Scale factor to apply to the video while transcoding (eg: 0.25)"
-msgstr "트랜스코딩시 비디오에 적용할 배율 요소 (예: 0.25)"
+msgstr "트랜스코딩시 비디오에 적용할 크기조절 비율 (예: 0.25)"
 
 #: modules/stream_out/transcode/transcode.c:57
 msgid "Video frame-rate"
@@ -23738,7 +23737,7 @@ msgid ""
 msgstr ""
 "오버레이(변환된 비디오 스트림에서 \"subpictures\"라고 알려진)를 추가할 수 있"
 "도록 합니다. 필터로 만들어진 Subpictures는 비디오상에 직접 오버레이될 것입니"
-"다. subpicture 모듈 목록을 콜론으로 구분해서 지정할 수 있습니다."
+"다. Subpicture 모듈 목록을 콜론으로 구분해서 지정할 수 있습니다."
 
 #: modules/stream_out/transcode/transcode.c:122
 msgid "OSD menu"
@@ -23796,7 +23795,7 @@ msgstr "오버레이/자막"
 
 #: modules/text_renderer/freetype.c:155
 msgid "Monospace Font"
-msgstr "Monospace 글꼴"
+msgstr "고정폭 글꼴"
 
 #: modules/text_renderer/freetype.c:157
 msgid "Font family for the font you want to use"
@@ -24107,7 +24106,7 @@ msgstr "유리 색상 조합 정의하기"
 
 #: modules/video_filter/anaglyph.c:72
 msgid "Convert 3D picture to anaglyph image video filter"
-msgstr "3D 그림을 입체 영상 비디오 필터로 변환하기"
+msgstr "3D 그림을 입체 영상 비디오 필터로 변환"
 
 #: modules/video_filter/antiflicker.c:50
 msgid "Window size"
@@ -24276,13 +24275,13 @@ msgstr "샘플 그리드 선을 화면에 흰색 픽셀로 보여주기"
 
 #: modules/video_filter/atmo/atmo.cpp:203
 msgid "Color when paused"
-msgstr "일시중지시 색깔"
+msgstr "일시중지시의 색상"
 
 #: modules/video_filter/atmo/atmo.cpp:204
 msgid ""
 "Set the color to show if the user pauses the video. (Have light to get "
 "another beer?)"
-msgstr "사용자가 비디오를 일시 중지하면 보여줄 색상 정하기."
+msgstr "사용자가 비디오를 일시중지하면 보여줄 색상 정하기."
 
 #: modules/video_filter/atmo/atmo.cpp:207
 msgid "Pause-Red"
@@ -24290,7 +24289,7 @@ msgstr "일시중지-빨강"
 
 #: modules/video_filter/atmo/atmo.cpp:208
 msgid "Red component of the pause color"
-msgstr "일시중지 색깔의 빨강 구성요소"
+msgstr "일시중지 색상의 빨강 구성요소"
 
 #: modules/video_filter/atmo/atmo.cpp:209
 msgid "Pause-Green"
@@ -24298,15 +24297,15 @@ msgstr "일시중지-녹색"
 
 #: modules/video_filter/atmo/atmo.cpp:210
 msgid "Green component of the pause color"
-msgstr "일시중지 색깔의 녹색 구성요소"
+msgstr "일시중지 색상의 녹색 구성요소"
 
 #: modules/video_filter/atmo/atmo.cpp:211
 msgid "Pause-Blue"
-msgstr "일시정지-파랑"
+msgstr "일시중지-파랑"
 
 #: modules/video_filter/atmo/atmo.cpp:212
 msgid "Blue component of the pause color"
-msgstr "일시중지 색깔의 파랑 구성요소"
+msgstr "일시중지 색상의 파랑 구성요소"
 
 #: modules/video_filter/atmo/atmo.cpp:213
 msgid "Pause-Fadesteps"
@@ -24315,7 +24314,7 @@ msgstr "일시중지-흐림단계"
 #: modules/video_filter/atmo/atmo.cpp:214
 msgid ""
 "Number of steps to change current color to pause color (each step takes 40ms)"
-msgstr "현재 색깔을 일시중지 색깔로 변경하는 단계수 (각 단계는 40ms 걸림)"
+msgstr "현재 색상을 일시중지 색상으로 변경하는 단계수 (각 단계는 40ms 걸림)"
 
 #: modules/video_filter/atmo/atmo.cpp:217
 msgid "End-Red"
@@ -24323,7 +24322,7 @@ msgstr "종료-빨강"
 
 #: modules/video_filter/atmo/atmo.cpp:218
 msgid "Red component of the shutdown color"
-msgstr "종료 색깔의 빨강 구성요소"
+msgstr "종료 색상의 빨강 구성요소"
 
 #: modules/video_filter/atmo/atmo.cpp:219
 msgid "End-Green"
@@ -24331,7 +24330,7 @@ msgstr "종료-녹색"
 
 #: modules/video_filter/atmo/atmo.cpp:220
 msgid "Green component of the shutdown color"
-msgstr "종료 색깔의 녹색 구성요소"
+msgstr "종료 색상의 녹색 구성요소"
 
 #: modules/video_filter/atmo/atmo.cpp:221
 msgid "End-Blue"
@@ -24339,7 +24338,7 @@ msgstr "종료-파랑"
 
 #: modules/video_filter/atmo/atmo.cpp:222
 msgid "Blue component of the shutdown color"
-msgstr "종료 색깔의 파랑 구성요소"
+msgstr "종료 색상의 파랑 구성요소"
 
 #: modules/video_filter/atmo/atmo.cpp:223
 msgid "End-Fadesteps"
@@ -24350,8 +24349,8 @@ msgid ""
 "Number of steps to change current color to end color for dimming up the "
 "light in cinema style... (each step takes 40ms)"
 msgstr ""
-"영화 스타일에서 조명을 점차 강하게하기 위한 현재 색깔을 종료 색깔로 변경하는 "
-"단계수 (각 단계는 40ms 걸림)"
+"영화 스타일에서 조명을 점차 강하게 하기 위해 현재 색상을 종료 색상으로 변경하"
+"는 단계수 (각 단계는 40ms 걸림)"
 
 #: modules/video_filter/atmo/atmo.cpp:228
 msgid "Number of zones on top"
@@ -24564,7 +24563,7 @@ msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:321
 msgid "disabled"
-msgstr "사용안함"
+msgstr "사용 안함"
 
 #: modules/video_filter/atmo/atmo.cpp:322
 msgid "Zone 4:summary"
@@ -24670,11 +24669,11 @@ msgstr "장치형식과 연결을 선택하세요"
 
 #: modules/video_filter/atmo/atmo.cpp:399
 msgid "Illuminate the room with this color on pause"
-msgstr "일시중지때 이 색깔로 실내를 조명"
+msgstr "일시중지시 이 색상으로 실내를 조명"
 
 #: modules/video_filter/atmo/atmo.cpp:415
 msgid "Illuminate the room with this color on shutdown"
-msgstr "종료때 이 색깔로 실내를 조명"
+msgstr "종료시 이 색상으로 실내를 조명"
 
 #: modules/video_filter/atmo/atmo.cpp:426
 msgid "DMX options"
@@ -24758,7 +24757,7 @@ msgid ""
 "right)."
 msgstr ""
 "비디오에 막대그래프 위치를 강제합니다 (0=가운데, 1=왼쪽, 2=오른쪽, 4=상단, 8="
-"하단, 또한 이 값들을 조합해서 사용할수 있습니다, 예. 6=상단-오른쪽)."
+"하단, 또한 이 값들을 조합해서 사용할수 있습니다, 예. 6 = 오른쪽 상단)."
 
 #: modules/video_filter/audiobargraph_v.c:63
 msgid "Alarm"
@@ -25020,7 +25019,7 @@ msgstr ""
 
 #: modules/video_filter/canvas.c:97
 msgid "Automatically resize and pad a video"
-msgstr "자동 비디오 크기조정 및 채우기"
+msgstr "자동으로 비디오 크기를 조절하고 채우기"
 
 #: modules/video_filter/canvas.c:105
 msgid "Canvas"
@@ -25157,7 +25156,7 @@ msgstr "Cropadd"
 #: modules/video_filter/croppadd.c:79 modules/video_filter/scale.c:47
 #: modules/video_filter/swscale.c:67
 msgid "Video scaling filter"
-msgstr "비디오 크기조정 필터"
+msgstr "비디오 크기조절 필터"
 
 #: modules/video_filter/croppadd.c:96
 msgid "Padd"
@@ -25376,7 +25375,7 @@ msgid ""
 "Gradient image type (0 or 1). 0 will turn the image to white while 1 will "
 "keep colors."
 msgstr ""
-"기울기 이미지 형식 (0 또는 1). 0 은 이미지를 하얗게 하는 반면 1은 색깔을 유지"
+"기울기 이미지 형식 (0 또는 1). 0 은 이미지를 흰색으로 바꾸고 1은 색상을 유지"
 "합니다."
 
 #: modules/video_filter/gradient.c:69
@@ -25491,7 +25490,7 @@ msgstr "로고 애니메이션 순환 횟수"
 
 #: modules/video_filter/logo.c:53
 msgid "Number of loops for the logo animation.-1 = continuous, 0 = disabled"
-msgstr "로고 애니메이션 순환 횟수.-1 = 계속, 0 = 사용안함"
+msgstr "로고 애니메이션 순환 횟수.-1 = 계속, 0 = 사용 안함"
 
 #: modules/video_filter/logo.c:55
 msgid "Logo individual image time in ms"
@@ -25528,7 +25527,7 @@ msgid ""
 "8=bottom, you can also use combinations of these values, eg 6 = top-right)."
 msgstr ""
 "비디오에 로고 위치를 강제 (0=가운데, 1=왼쪽, 2=오른쪽, 4=상단, 8=하단, 또한 "
-"이 값들을 조합해서 사용할수 있습니다, 예. 6=상단-오른쪽)."
+"이 값들을 조합해서 사용할수 있습니다, 예. 6 = 오른쪽 상단)."
 
 #: modules/video_filter/logo.c:73
 msgid "Use a local picture as logo on the video"
@@ -25548,7 +25547,7 @@ msgstr "로고 영상 필터"
 
 #: modules/video_filter/magnify.c:47
 msgid "Magnify/Zoom interactive video filter"
-msgstr "확대하기/화면 크기 조절 비디오 필터"
+msgstr "확대하기/화면 크기조절 비디오 필터"
 
 #: modules/video_filter/magnify.c:48
 msgid "Magnify"
@@ -25566,14 +25565,14 @@ msgid ""
 "position (in %), $R = rate, $S = audio sample rate (in kHz), $T = time, $U = "
 "publisher, $V = volume, $_ = new line) "
 msgstr ""
-"표시할 마키 문자. (Available format strings: 시간 관련: %Y = 년, %m = 월, %d "
+"표시할 마키 문자. (사용 가능한 형식 문자열: 시간 관련: %Y = 년, %m = 월, %d "
 "= 일, %H = 시, %M = 분, %S = 초, ... 메타 데이터 관련: $a = 아티스트, $b = 앨"
 "범, $c = 저작권, $d = 설명, $e = 인코딩, $g = 장르, $l = 언어, $n = 트렉 번"
-"호, $p = 현재 재생, $r = 등급, $s = 자막 언어, $t = 제목, $u = url, $A = 날"
-"짜, $B = 오디오 비트레이트 (in kb/s), $C = 챕터,$D = 재생시간, $F = 경로포함 "
-"전체 이름, $I = 제목, $L = 남은 시간, $N = 이름, $O = 오디오 언어, $P = 위치 "
-"(%), $R = 배율, $S = 오디오 샘플레이트 (kHz), $T = 시간, $U = 발행인, $V = 음"
-"량, $_ = 개행) "
+"호, $p = 지금 재생, $r = 등급, $s = 자막 언어, $t = 제목, $u = url, $A = 날"
+"짜, $B = 오디오 비트레이트 (in kb/s), $C = 챕터, $D = 재생시간, $F = 경로포"
+"함 전체 이름, $I = 제목, $L = 남은 시간, $N = 이름, $O = 오디오 언어, $P = 위"
+"치 (%), $R = 배율, $S = 오디오 샘플레이트 (kHz), $T = 시간, $U = 발행인, $V "
+"= 음량, $_ = 개행) "
 
 #: modules/video_filter/marq.c:104
 msgid "Text file"
@@ -25651,7 +25650,7 @@ msgid ""
 "6 = top-right)."
 msgstr ""
 "비디오의 마키 위치를 강제할수 있습니다 (0=중앙, 1=왼쪽, 2=오른쪽, 4=상단, 8="
-"하단, 또한 이 값들을 조합해서 사용할수 있습니다, 예 6 = 상단-오른쪽)."
+"하단, 또한 이 값들을 조합해서 사용할수 있습니다, 예 6 = 오른쪽 상단)."
 
 #: modules/video_filter/marq.c:144
 msgid "Display text above the video"
@@ -25735,7 +25734,7 @@ msgstr "상단 왼쪽 모서리 X 좌표"
 
 #: modules/video_filter/mosaic.c:99
 msgid "X Coordinate of the top-left corner of the mosaic."
-msgstr "모자이크 상단-왼쪽 모서리 X 좌표."
+msgstr "모자이크 왼쪽 상단 모서리 X 좌표."
 
 #: modules/video_filter/mosaic.c:100
 msgid "Top left corner Y coordinate"
@@ -25743,7 +25742,7 @@ msgstr "상단 왼쪽 모서리 Y 좌표"
 
 #: modules/video_filter/mosaic.c:102
 msgid "Y Coordinate of the top-left corner of the mosaic."
-msgstr "모자이크 상단-왼쪽 모서리 Y 좌표."
+msgstr "모자이크 왼쪽 상단 모서리 Y 좌표."
 
 #: modules/video_filter/mosaic.c:104
 msgid "Border width"
@@ -25772,7 +25771,7 @@ msgid ""
 "6 = top-right)."
 msgstr ""
 "비디오에 모자이크 정렬을 강제할수 있습니다 (0=가운데, 1=왼쪽, 2=오른쪽, 4=상"
-"단, 8=하단, 또한 이 값들을 조합해서 사용할수 있습니다, 예 6 = 상단-오른쪽)."
+"단, 8=하단, 또한 이 값들을 조합해서 사용할수 있습니다, 예 6 = 오른쪽 상단)."
 
 #: modules/video_filter/mosaic.c:117
 msgid "Positioning method"
@@ -25888,7 +25887,7 @@ msgstr "모자이크"
 
 #: modules/video_filter/motionblur.c:53
 msgid "Blur factor (1-127)"
-msgstr "블러 팩터 (1-127)"
+msgstr "흐리게 비율 (1-127)"
 
 #: modules/video_filter/motionblur.c:54
 msgid "The degree of blurring from 1 to 127."
@@ -25964,7 +25963,7 @@ msgstr "OpenCV"
 
 #: modules/video_filter/opencv_wrapper.c:81
 msgid "Scale factor (0.1-2.0)"
-msgstr "배율 요소 (0.1-2.0)"
+msgstr "크기조절 비율 (0.1-2.0)"
 
 #: modules/video_filter/opencv_wrapper.c:82
 msgid ""
@@ -26455,11 +26454,11 @@ msgstr ""
 
 #: modules/video_filter/remoteosd.c:115
 msgid "Remote-OSD over VNC"
-msgstr "VNC 를 통한 원격-OSD"
+msgstr "VNC 를 통한 원격 OSD"
 
 #: modules/video_filter/remoteosd.c:117
 msgid "Remote-OSD"
-msgstr "원격-OSD"
+msgstr "원격 OSD"
 
 #: modules/video_filter/ripple.c:52
 msgid "Ripple video filter"
@@ -26550,11 +26549,11 @@ msgid ""
 "right)."
 msgstr ""
 "비디오에 문자 위치를 강제할수 있습니다 (0=가운데, 1=왼쪽, 2=오른쪽, 4=상단, "
-"8=하단, 또한 이 값들을 조합해서 사용할수 있습니다, 예. 6=상단-오른쪽)."
+"8=하단, 또한 이 값들을 조합해서 사용할수 있습니다, 예. 6 = 오른쪽 상단)."
 
 #: modules/video_filter/rss.c:166
 msgid "Title display mode"
-msgstr "타이틀 디스플레이 모드"
+msgstr "제목 디스플레이 모드"
 
 #: modules/video_filter/rss.c:167
 msgid ""
@@ -26700,7 +26699,7 @@ msgstr "윤곽선 사이의 명암 증가"
 
 #: modules/video_filter/sharpen.c:66
 msgid "Sharpen video filter"
-msgstr "선명 비디오 필터"
+msgstr "날카롭게 비디오 필터"
 
 #: modules/video_filter/subsdelay.c:45
 msgid "Change subtitle delay"
@@ -26722,12 +26721,12 @@ msgstr ""
 
 #: modules/video_filter/subsdelay.c:53
 msgid "Calculation factor"
-msgstr "계산 요소"
+msgstr "계산 비율"
 
 #: modules/video_filter/subsdelay.c:54
 msgid ""
 "Calculation factor. In Absolute delay mode the factor represents seconds."
-msgstr "계산 요소. 절대 지연 모드에서 이 요소는 초를 나타냅니다."
+msgstr "계산 비율. 절대 지연 모드에서 이 비율은 초를 나타냅니다."
 
 #: modules/video_filter/subsdelay.c:57
 msgid "Maximum overlapping subtitles"
@@ -26808,11 +26807,11 @@ msgstr "중첩 고침"
 
 #: modules/video_filter/swscale.c:56
 msgid "Scaling mode"
-msgstr "크기조정 모드"
+msgstr "크기조절 모드"
 
 #: modules/video_filter/swscale.c:57
 msgid "Scaling mode to use."
-msgstr "사용할 크기조정 모드."
+msgstr "사용할 크기조절 모드."
 
 #: modules/video_filter/swscale.c:61
 msgid "Fast bilinear"
@@ -27363,7 +27362,7 @@ msgstr "더미 비디오 출력"
 
 #: modules/video_output/vdummy.c:58
 msgid "Statistics video output"
-msgstr "통계치 비디오 출력"
+msgstr "통계 비디오 출력"
 
 #: modules/video_output/vmem.c:43
 msgid "Video memory buffer width."
@@ -27518,7 +27517,7 @@ msgstr "출력에 특정 크로마를 강제로 사용합니다. 기본값 I420.
 
 #: modules/video_output/yuv.c:48
 msgid "YUV4MPEG2 header (default disabled)"
-msgstr "YUV4MPEG2 헤더 (기본 사용안함)"
+msgstr "YUV4MPEG2 헤더 (기본 사용 안함)"
 
 #: modules/video_output/yuv.c:49
 msgid ""
@@ -27736,7 +27735,7 @@ msgstr "Peak 너비에서 픽셀을 더하거나 빼기."
 
 #: modules/visualization/visual/visual.c:95
 msgid "V-plane color"
-msgstr "V-plane 색깔"
+msgstr "V-plane 색상"
 
 #: modules/visualization/visual/visual.c:97
 msgid "YUV-Color cube shifting across the V-plane ( 0 - 127 )."
@@ -27992,11 +27991,11 @@ msgstr "0.00 dB"
 
 #: modules/gui/qt4/ui/messages_panel.h:140
 msgid "&Verbosity:"
-msgstr "상세 출력:"
+msgstr "상세 출력(&V):"
 
 #: modules/gui/qt4/ui/messages_panel.h:141
 msgid "&Filter:"
-msgstr "필터:"
+msgstr "필터(&F):"
 
 #: modules/gui/qt4/ui/messages_panel.h:142
 msgid "&Save as..."
@@ -28112,7 +28111,7 @@ msgstr "오디오 및 자막"
 
 #: modules/gui/qt4/ui/open_file.h:144
 msgid "Use a sub&title file"
-msgstr "자막 파일을 사용합니다"
+msgstr "자막 파일을 사용합니다(&T)"
 
 #: modules/gui/qt4/ui/open_file.h:146
 msgid "Select the subtitle file"
@@ -28360,7 +28359,7 @@ msgstr "사용자명:"
 
 #: modules/gui/qt4/ui/sprefs_audio.h:431
 msgid "Submit played tracks stats to Last.fm"
-msgstr "재생한 트랙 통계를 Last.fm에 제출하기"
+msgstr "재생한 트랙의 통계를 Last.fm에 제출하기"
 
 #: modules/gui/qt4/ui/sprefs_input.h:342
 msgid "Codecs"
@@ -28444,7 +28443,7 @@ msgstr "기본 스타일 사용하기"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:521
 msgid "Resize interface to video size"
-msgstr "비디오 크기에 인터페이스 맞춤"
+msgstr "비디오 크기에 인터페이스 맞추기"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:522
 msgid "Show controls in full screen mode"
@@ -28452,7 +28451,7 @@ msgstr "전체화면에서 컨트롤 보이기"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:523
 msgid "Pause playback when minimized"
-msgstr "최소화시 재생을 일시 중지하기"
+msgstr "최소화시 재생을 일시중지하기"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:524
 msgid "Show media change popup:"
@@ -28488,7 +28487,7 @@ msgstr "앨범 아트 다운로드 정책:"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:535
 msgid "Pause on the last frame of a video"
-msgstr "동영상의 마지막 프레임에서 일시 중지하기"
+msgstr "동영상의 마지막 프레임에서 일시중지하기"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:536
 msgid "Allow only one instance"
@@ -28500,7 +28499,7 @@ msgstr "미디어 라이브러리 설정하기"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:541
 msgid "Every "
-msgstr "매"
+msgstr "매 "
 
 #: modules/gui/qt4/ui/sprefs_interface.h:544
 msgid "Separate words by | (without space)"
@@ -28512,7 +28511,7 @@ msgstr "최근 재생한 항목 저장하기"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:547
 msgid "Activate updates notifier"
-msgstr "업데이트 알림 활성화"
+msgstr "업데이트 알림 활성화하기"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:548
 msgid "Operating System Integration"
@@ -28528,7 +28527,7 @@ msgstr "연결 설정하기..."
 
 #: modules/gui/qt4/ui/sprefs_subtitles.h:288
 msgid "Enable On Screen Display (OSD)"
-msgstr "화면표시 메시지 (OSD) 사용하기"
+msgstr "화면 표시 메시지 (OSD) 사용하기"
 
 #: modules/gui/qt4/ui/sprefs_subtitles.h:289
 msgid "Show media title on video start"
@@ -31551,7 +31550,7 @@ msgstr "미디어 관리자 목록"
 #~ "example by setting the subtitles type or file name."
 #~ msgstr ""
 #~ "이 부분에서 자막 디먹서의 동작을 제어할 수 있습니다. 예를 들어, 자막의 형"
-#~ "식이나 파일 이름등을 설정하는 것이 가능합니다."
+#~ "식이나 파일이름을 설정할 수 있습니다."
 
 #, fuzzy
 #~ msgid "No help available"
@@ -31688,15 +31687,15 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "One instance when started from file"
-#~ msgstr "파일 관리자에서 시작할 때 VLC 한 개만 실행합니다"
+#~ msgstr "파일 관리자에서 시작될 때 한 개만 실행하기"
 
 #, fuzzy
 #~ msgid "Allow only one running instance when started from file."
-#~ msgstr "파일 관리자에서 시작할 때 VLC 한 개만 실행합니다"
+#~ msgstr "파일 관리자에서 시작될 때 한 개만 실행하기"
 
 #, fuzzy
 #~ msgid "Enqueue items to playlist when in one instance mode"
-#~ msgstr "중복실행 금지시 아이템을 재생목록 대기열에 넣습니다"
+#~ msgstr "중복실행 금지시 재생목록 대기열에 넣기"
 
 #, fuzzy
 #~ msgid "Leave fullscreen"
@@ -31708,11 +31707,11 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Increase scale factor."
-#~ msgstr "배율 요소 늘림"
+#~ msgstr "크기조절 비율 늘리기"
 
 #, fuzzy
 #~ msgid "Decrease scale factor."
-#~ msgstr "배율 요소 줄임"
+#~ msgstr "크기조절 비율 줄이기"
 
 #, fuzzy
 #~ msgid "Cycle through deinterlace modes."
@@ -32060,7 +32059,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "| @name marq-timeout T. . . . . . . . . . timeout, in ms"
-#~ msgstr "| snapshot . . . . . . . . . . . . 영상 스냅샷 찍기"
+#~ msgstr "| snapshot . . . . . . . . . . . . 비디오 스냅샷 찍기"
 
 #, fuzzy
 #~ msgid "| @name marq-size # . . . . . . . . font size, in pixels"
@@ -32080,7 +32079,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "| @name mosaic-alpha # . . . . . . . . . . . . . . alpha"
-#~ msgstr "| pause  . . . . . . . . . . . . . . . . 일시 중지 토글하기"
+#~ msgstr "| pause  . . . . . . . . . . . . . . . . 일시중지 토글하기"
 
 #, fuzzy
 #~ msgid "| @name mosaic-height #. . . . . . . . . . . . . .height"
@@ -32104,7 +32103,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Playlist has only %d elements"
-#~ msgstr "재생목록이 %u 요소만 갖고 있습니다"
+#~ msgstr "재생목록에 %u 만 있습니다"
 
 #, fuzzy
 #~ msgid "Force interleaved method."
@@ -32238,7 +32237,7 @@ msgstr "미디어 관리자 목록"
 #~ "e.g. 6=top-right)."
 #~ msgstr ""
 #~ "부화면 위치를 비디오에 강제할수 있습니다 (0=가운데, 1=왼쪽, 2=오른쪽, 4=상"
-#~ "단, 8=하단, 또한 이 값들을 조합해서 사용할수 있습니다, 예 6=상단-오른쪽)."
+#~ "단, 8=하단, 또한 이 값들을 조합해서 사용할수 있습니다, 예 6=오른쪽 상단)."
 
 #, fuzzy
 #~ msgid "Clear overlay framebuffer"
@@ -32298,7 +32297,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Load subtitles file:"
-#~ msgstr "자막 파일 이용"
+#~ msgstr "자막 파일 사용하기"
 
 #, fuzzy
 #~ msgid "Subtitles encoding"
@@ -32350,7 +32349,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Enable Audio"
-#~ msgstr "오디오 사용"
+#~ msgstr "오디오 사용하기"
 
 #, fuzzy
 #~ msgid "HTTP Proxy"
@@ -32358,7 +32357,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Font Color"
-#~ msgstr "글꼴 색깔"
+#~ msgstr "글꼴색"
 
 #, fuzzy
 #~ msgid "Font Size"
@@ -32378,7 +32377,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Enable Video"
-#~ msgstr "비디오 사용"
+#~ msgstr "비디오 사용하기"
 
 #, fuzzy
 #~ msgid "SAP Announce"
@@ -32464,7 +32463,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "&Convert / Save"
-#~ msgstr "변환하기 / 저장하기"
+#~ msgstr "변환/저장하기(&O)"
 
 #, fuzzy
 #~ msgid "Please enter the URL or path to the media you want to play"
@@ -32476,7 +32475,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "&Tools"
-#~ msgstr "도구"
+#~ msgstr "도구(&O)"
 
 #, fuzzy
 #~ msgid "Audio &Channels"
@@ -32492,15 +32491,15 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Tools"
-#~ msgstr "도구"
+#~ msgstr "도구(&O)"
 
 #, fuzzy
 #~ msgid "Hide VLC media player in taskbar"
-#~ msgstr "작업표시줄에 VLC 미디어 재생기 숨기기"
+#~ msgstr "작업표시줄에서 VLC 숨기기(&H)"
 
 #, fuzzy
 #~ msgid "Show VLC media player"
-#~ msgstr "VLC 미디어 재생기 보기"
+#~ msgstr "VLC 보이기(&W)"
 
 #, fuzzy
 #~ msgid "Advanced options"
@@ -32540,7 +32539,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Display XOSD output at the bottom of the screen instead of the top."
-#~ msgstr "영화 상단에 비디오 제목 표시."
+#~ msgstr "영화 상단에 비디오 제목을 표시합니다."
 
 #, fuzzy
 #~ msgid "Vertical offset"
@@ -32687,7 +32686,7 @@ msgstr "미디어 관리자 목록"
 #~ "eg. 6 = top-right)."
 #~ msgstr ""
 #~ "비디오의 마키 위치를 강제할수 있습니다 (0=중앙, 1=왼쪽, 2=오른쪽, 4=상단, "
-#~ "8=하단, 또한 이 값들을 조합해서 사용할수 있습니다, 예 6 = 상단-오른쪽)."
+#~ "8=하단, 또한 이 값들을 조합해서 사용할수 있습니다, 예 6 = 오른쪽 상단)."
 
 #, fuzzy
 #~ msgid "Menu timeout"
@@ -32699,7 +32698,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "On Screen Display menu"
-#~ msgstr "화면표시메뉴"
+#~ msgstr "OSD 설정"
 
 #, fuzzy
 #~ msgid "Comma separated list of active windows, defaults to all"
@@ -32771,15 +32770,15 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Verbosity:"
-#~ msgstr "상세 출력:"
+#~ msgstr "상세 출력(&V):"
 
 #, fuzzy
 #~ msgid "Add a subtitles file"
-#~ msgstr "자막 파일을 사용합니다"
+#~ msgstr "자막 파일을 사용합니다(&T)"
 
 #, fuzzy
 #~ msgid "Use a sub&titles file"
-#~ msgstr "자막 파일을 사용합니다"
+#~ msgstr "자막 파일을 사용합니다(&T)"
 
 #, fuzzy
 #~ msgid "Select the subtitles file"
@@ -32799,7 +32798,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Enqueue files when in one instance mode"
-#~ msgstr "중복실행 금지시 아이템을 재생목록 대기열에 넣습니다"
+#~ msgstr "중복실행 금지시 재생목록 대기열에 넣기"
 
 #, fuzzy
 #~ msgid "Subtitles Language"
@@ -33105,7 +33104,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Take Screen Shot"
-#~ msgstr "스냅샷 찍기"
+#~ msgstr "스냅샷 찍기(&S)"
 
 #, fuzzy
 #~ msgid "rtp"
@@ -33228,7 +33227,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "%i items in playlist (%i not shown)"
-#~ msgstr "중복실행 금지시 아이템을 재생목록 대기열에 넣습니다"
+#~ msgstr "중복실행 금지시 재생목록 대기열에 넣기"
 
 #, fuzzy
 #~ msgid "M3U file"
@@ -33324,11 +33323,11 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "&Open a Media"
-#~ msgstr "미디어 열기"
+#~ msgstr "미디어 열기(&O)"
 
 #, fuzzy
 #~ msgid "Display on &Desktop"
-#~ msgstr "디스플레이 해상도"
+#~ msgstr "화면 해상도"
 
 #, fuzzy
 #~ msgid "Video standard (Default, SECAM_D, PAL_B, NTSC_M, etc...)."
@@ -33336,7 +33335,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Fullscreen controller width toggle"
-#~ msgstr "전체화면 제어기"
+#~ msgstr "전체화면 컨트롤"
 
 #, fuzzy
 #~ msgid "Viewer"
@@ -33376,7 +33375,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Create Stream"
-#~ msgstr "변환하기 & 스트림하기"
+#~ msgstr "변환 & 스트림하기"
 
 #, fuzzy
 #~ msgid "Media File"
@@ -33404,7 +33403,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Create New Stream"
-#~ msgstr "변환하기 & 스트림하기"
+#~ msgstr "변환 & 스트림하기"
 
 #, fuzzy
 #~ msgid "Delete All Streams"
@@ -33466,7 +33465,7 @@ msgstr "미디어 관리자 목록"
 #~ msgid ""
 #~ "Hide mouse cursor and fullscreen controller after n milliseconds, default "
 #~ "is 3000 ms (3 sec.)"
-#~ msgstr "n 밀리초 후 마우스 커서 및 전체화면 제어기 숨김"
+#~ msgstr "n 밀리초 후 마우스 커서 및 전체화면 컨트롤을 감춥니다."
 
 #, fuzzy
 #~ msgid "Video output filter module"
@@ -33528,7 +33527,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Media dump access filter trigger."
-#~ msgstr "기록 접근 필터 시작/중지."
+#~ msgstr "접근 필터 시작/정지를 기록합니다."
 
 #, fuzzy
 #~ msgid "Caching value in ms"
@@ -33947,7 +33946,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Enable debug"
-#~ msgstr "비디오 사용"
+#~ msgstr "비디오 사용하기"
 
 #, fuzzy
 #~ msgid "Host address"
@@ -34087,8 +34086,8 @@ msgstr "미디어 관리자 목록"
 #~ "By default, VLC keeps the last equalizer settings before termination. "
 #~ "This feature can be disabled here."
 #~ msgstr ""
-#~ "기본적으로, VLC 는 마지막 10 항목의 목록을 유지합니다. 이 기능을 여기에서 "
-#~ "사용안함으로 할수 있습니다."
+#~ "기본적으로, VLC 는 마지막 목록 10 개를 유지합니다. 이 기능은 여기에서 끌 "
+#~ "수 있습니다."
 
 #, fuzzy
 #~ msgid "No device connected"
@@ -34224,7 +34223,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "&Streaming..."
-#~ msgstr "스트림하기..."
+#~ msgstr "스트림하기(&S)..."
 
 #, fuzzy
 #~ msgid "Direct3D Desktop mode"
@@ -34377,11 +34376,11 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Enable peaks"
-#~ msgstr "오디오 사용"
+#~ msgstr "오디오 사용하기"
 
 #, fuzzy
 #~ msgid "Enable bands"
-#~ msgstr "오디오 사용"
+#~ msgstr "오디오 사용하기"
 
 #, fuzzy
 #~ msgid "Enable base"
@@ -34513,7 +34512,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "save the current command line options in the config"
-#~ msgstr "메뉴에서 최근 재생한 항목 저장하기"
+#~ msgstr "최근 재생한 항목을 메뉴에 저장합니다."
 
 #, fuzzy
 #~ msgid "%.1f kB"
@@ -34668,7 +34667,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Go to Title"
-#~ msgstr "시간으로 가기"
+#~ msgstr "시간으로 이동"
 
 #, fuzzy
 #~ msgid "Go to Chapter"
@@ -34724,7 +34723,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Stay On Top"
-#~ msgstr "항상 위에"
+#~ msgstr "항상 위에(&O)"
 
 #, fuzzy
 #~ msgid "Check for Updates"
@@ -34944,7 +34943,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Enable last.fm submission"
-#~ msgstr "Last.fm 전송 사용"
+#~ msgstr "Last.fm 제출 사용하기"
 
 #, fuzzy
 #~ msgid "Disc Devices"
@@ -35059,7 +35058,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Matrox Graphic Array video output"
-#~ msgstr "Grayscale 비디오 출력"
+#~ msgstr "흑백 비디오 출력"
 
 #, fuzzy
 #~ msgid "DirectX video output"
@@ -35067,7 +35066,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "QT Embedded display"
-#~ msgstr "Embedded 비디오"
+#~ msgstr "비디오 창 결합"
 
 #, fuzzy
 #~ msgid "Screen for fullscreen mode."
@@ -35139,7 +35138,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Use a sub&amp;titles file"
-#~ msgstr "자막 파일을 사용합니다"
+#~ msgstr "자막 파일을 사용합니다(&T)"
 
 #, fuzzy
 #~ msgid "textFormat"
@@ -35429,7 +35428,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Seam Carving video filter"
-#~ msgstr "선명 비디오 필터"
+#~ msgstr "날카롭게 비디오 필터"
 
 #, fuzzy
 #~ msgid "Seam Carving"
@@ -35449,7 +35448,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Choose subtitles file"
-#~ msgstr "자막 파일 이용"
+#~ msgstr "자막 파일 사용하기"
 
 #, fuzzy
 #~ msgid "&Equalizer"
@@ -35529,11 +35528,11 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Enable Wallpaper Mode"
-#~ msgstr "바탕화면 모드 사용"
+#~ msgstr "배경 모드 사용하기"
 
 #, fuzzy
 #~ msgid "use Pause Color"
-#~ msgstr "일시정지"
+#~ msgstr "일시중지"
 
 #, fuzzy
 #~ msgid "Enabled"
@@ -35581,7 +35580,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Go to time:"
-#~ msgstr "시간으로 가기"
+#~ msgstr "시간으로 이동"
 
 #, fuzzy
 #~ msgid "2 pass"
@@ -35589,7 +35588,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "3dfx Glide video output"
-#~ msgstr "Grayscale 비디오 출력"
+#~ msgstr "흑백 비디오 출력"
 
 #, fuzzy
 #~ msgid "&OK"
@@ -35641,7 +35640,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Use an external subtitles file."
-#~ msgstr "자막 파일을 사용합니다"
+#~ msgstr "자막 파일을 사용합니다(&T)"
 
 #, fuzzy
 #~ msgid "Advanced Settings..."
@@ -36202,7 +36201,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Type 'pause' to continue."
-#~ msgstr "계속하려면 '메뉴 선택' 또는 '일수중지' 를 입력하세요."
+#~ msgstr "계속하려면 '메뉴 선택' 또는 '일시중지' 를 입력하세요."
 
 #, fuzzy
 #~ msgid "Growl password"
@@ -36226,7 +36225,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Statistics output file"
-#~ msgstr "통계치 비디오 출력"
+#~ msgstr "통계 비디오 출력"
 
 #, fuzzy
 #~ msgid "General interface setttings"
@@ -36513,7 +36512,7 @@ msgstr "미디어 관리자 목록"
 #~ msgid ""
 #~ "Allows you to specify the image format in which the video snapshots will "
 #~ "be stored."
-#~ msgstr "비디오 스냅샷이 저장될 디렉토리."
+#~ msgstr "비디오 스냅샷을 저장할 디렉토리."
 
 #, fuzzy
 #~ msgid "Program to select"
@@ -36607,7 +36606,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "This allows you to change the display name of the Service."
-#~ msgstr "서비스의 디스플레이 이름 변경."
+#~ msgstr "서비스의 디스플레이 이름을 변경하세요."
 
 #, fuzzy
 #~ msgid "Default to listen on all network interfaces"
@@ -36639,7 +36638,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Select the path to the last skin used."
-#~ msgstr "일시중지에 사용할 단축키 선택."
+#~ msgstr "일시중지 단축키를 선택하세요."
 
 #, fuzzy
 #~ msgid "Destination Target:"
@@ -36850,11 +36849,11 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Jump 3 seconds backwards"
-#~ msgstr "뒤로 이동하기"
+#~ msgstr "뒤로 이동하기(&K)"
 
 #, fuzzy
 #~ msgid "Jump 10 seconds backwards"
-#~ msgstr "뒤로 이동하기"
+#~ msgstr "뒤로 이동하기(&K)"
 
 #, fuzzy
 #~ msgid "Select the hotkey to jump 10 seconds backwards."
@@ -36862,19 +36861,19 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Jump 1 minute backwards"
-#~ msgstr "뒤로 이동하기"
+#~ msgstr "뒤로 이동하기(&K)"
 
 #, fuzzy
 #~ msgid "Jump 5 minutes backwards"
-#~ msgstr "뒤로 이동하기"
+#~ msgstr "뒤로 이동하기(&K)"
 
 #, fuzzy
 #~ msgid "Jump 3 seconds forward"
-#~ msgstr "앞으로 이동하기"
+#~ msgstr "앞으로 이동하기(&J)"
 
 #, fuzzy
 #~ msgid "Jump 10 seconds forward"
-#~ msgstr "앞으로 이동하기"
+#~ msgstr "앞으로 이동하기(&J)"
 
 #, fuzzy
 #~ msgid "Select the hotkey to jump 10 seconds forward."
@@ -36882,7 +36881,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Jump 5 minutes forward"
-#~ msgstr "앞으로 이동하기"
+#~ msgstr "앞으로 이동하기(&J)"
 
 #, fuzzy
 #~ msgid "Select the hotkey to jump 5 minutes forward."
@@ -37210,7 +37209,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "P&ause"
-#~ msgstr "일시정지"
+#~ msgstr "일시중지"
 
 #, fuzzy
 #~ msgid "&Slow"
@@ -37222,7 +37221,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Opens a recently used file"
-#~ msgstr "최근 미디어 열기"
+#~ msgstr "최근 미디어 열기(&R)"
 
 #, fuzzy
 #~ msgid "Quits the application"
@@ -37917,7 +37916,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "By default samples.raw"
-#~ msgstr " (기본 사용안함)"
+#~ msgstr " (기본 사용 안함)"
 
 #, fuzzy
 #~ msgid "libmpeg2 decoder module"
@@ -37945,7 +37944,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "QT Embedded drawable"
-#~ msgstr "Embedded 비디오"
+#~ msgstr "비디오 창 결합"
 
 #, fuzzy
 #~ msgid "A_udio"
@@ -38041,7 +38040,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "&Enable all group items"
-#~ msgstr "자막 사용"
+#~ msgstr "자막 사용하기"
 
 #, fuzzy
 #~ msgid "Streaming/Transcoding wizard"
@@ -38049,7 +38048,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Let the video window float on top of other windows. "
-#~ msgstr "항상 비디오출력창을 다른 창 위에 둡니다."
+#~ msgstr "항상 비디오 출력창을 다른 창 위에 둡니다."
 
 #, fuzzy
 #~ msgid "ffmpeg video encoder"
