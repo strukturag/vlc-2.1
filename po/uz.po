@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the VLC package.
 #
 # Translators:
-# Umidjon Almasov <u.almasov@gmail.com>, 2012
+# Umidjon Almasov <u.almasov@gmail.com>, 2012-2013
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-09-21 15:06+0200\n"
-"PO-Revision-Date: 2013-05-04 07:53+0000\n"
-"Last-Translator: Christoph Miebach <christoph.miebach@web.de>\n"
+"PO-Revision-Date: 2013-10-14 09:49+0000\n"
+"Last-Translator: Umidjon Almasov <u.almasov@gmail.com>\n"
 "Language-Team: Uzbek (http://www.transifex.com/projects/p/vlc-trans/language/"
 "uz/)\n"
 "Language: uz\n"
@@ -169,7 +169,7 @@ msgstr "Video filtrlar video oqimini ishlash uchun foydalaniladi."
 
 #: include/vlc_config_cat.h:84
 msgid "Subtitles / OSD"
-msgstr ""
+msgstr "Subtitrlar / OSD"
 
 #: include/vlc_config_cat.h:85
 msgid ""
@@ -339,11 +339,11 @@ msgstr ""
 
 #: include/vlc_config_cat.h:174
 msgid "General playlist behaviour"
-msgstr ""
+msgstr "Umumiy ijro ro'yxati muomalasi"
 
 #: include/vlc_config_cat.h:175
 msgid "Services discovery"
-msgstr ""
+msgstr "Xizmatlarni topish"
 
 #: include/vlc_config_cat.h:176
 msgid ""
@@ -513,7 +513,7 @@ msgstr "Tasodifan"
 
 #: include/vlc_intf_strings.h:80 modules/gui/macosx/CoreInteraction.m:382
 msgid "Random Off"
-msgstr ""
+msgstr "Tasodifiy tanlov o'chirilgan"
 
 #: include/vlc_intf_strings.h:81
 msgid "Add to Playlist"
@@ -543,7 +543,7 @@ msgstr "Qidirish"
 #: include/vlc_intf_strings.h:97 modules/gui/macosx/VideoEffects.m:159
 #: modules/gui/qt4/ui/video_effects.h:1399
 msgid "Waves"
-msgstr ""
+msgstr "To‘lqinlar"
 
 #: include/vlc_intf_strings.h:98
 msgid ""
@@ -576,18 +576,18 @@ msgstr ""
 
 #: src/audio_output/filters.c:247
 msgid "Audio filtering failed"
-msgstr ""
+msgstr "Audio filtrlash muvaffaqiyatsiz"
 
 #: src/audio_output/filters.c:248
 #, c-format
 msgid "The maximum number of filters (%u) was reached."
-msgstr ""
+msgstr "Filtrlar eng katta soniga (%u) yetdi."
 
 #: src/audio_output/output.c:220 src/audio_output/output.c:267
 #: src/config/core.c:407 src/input/es_out.c:902 src/libvlc-module.c:540
 #: modules/gui/macosx/MainWindow.m:962 modules/video_filter/postproc.c:234
 msgid "Disable"
-msgstr ""
+msgstr "O'chirish"
 
 #: src/audio_output/output.c:223 modules/visualization/visual/visual.c:126
 msgid "Spectrometer"
@@ -621,7 +621,7 @@ msgstr ""
 #: src/audio_output/output.c:377 modules/gui/macosx/MainMenu.m:383
 #: modules/gui/macosx/MainMenu.m:384
 msgid "Stereo audio mode"
-msgstr ""
+msgstr "Stereo audio usuli"
 
 #: src/audio_output/output.c:412 src/libvlc-module.c:189
 msgid "Dolby Surround"
@@ -664,7 +664,7 @@ msgstr "O'ng"
 
 #: src/audio_output/output.c:433 src/libvlc-module.c:188
 msgid "Reverse stereo"
-msgstr ""
+msgstr "Revers stereo"
 
 #: src/config/core.c:397 modules/access/dtv/access.c:91
 #: modules/access/dtv/access.c:106 modules/access/dtv/access.c:115
@@ -677,19 +677,19 @@ msgstr "Avtomatik"
 
 #: src/config/file.c:458
 msgid "boolean"
-msgstr ""
+msgstr "mantiqiy"
 
 #: src/config/file.c:458 src/config/help.c:468
 msgid "integer"
-msgstr ""
+msgstr "butun son"
 
 #: src/config/file.c:466 src/config/help.c:498
 msgid "float"
-msgstr ""
+msgstr "suzib yuruvchi nuqtali ma’lumot"
 
 #: src/config/file.c:479 src/config/help.c:447
 msgid "string"
-msgstr ""
+msgstr "satr"
 
 #: src/config/help.c:127
 msgid "To get exhaustive help, use '-H'."
@@ -734,11 +734,11 @@ msgstr ""
 
 #: src/config/help.c:514
 msgid " (default enabled)"
-msgstr ""
+msgstr " (andoza yoqilgan)"
 
 #: src/config/help.c:515
 msgid " (default disabled)"
-msgstr ""
+msgstr " (andoza o'chirilgan)"
 
 #: src/config/help.c:680 src/config/help.c:683 src/config/help.c:690
 #: src/config/help.c:692
@@ -762,6 +762,8 @@ msgid ""
 "No matching module found. Use --list or --list-verbose to list available "
 "modules."
 msgstr ""
+"Muvofiq modul topilmadi. Mavjud modullar ro'yxatini olish uchun --list yoki "
+"--list-verbose bajaring."
 
 #: src/config/help.c:790
 #, c-format
@@ -771,7 +773,7 @@ msgstr "VLC versiyasi %s (%s)\n"
 #: src/config/help.c:792
 #, c-format
 msgid "Compiled by %s on %s (%s)\n"
-msgstr ""
+msgstr "%s tomonidan %s (%s)'da kompilyatsiya qilingan\n"
 
 #: src/config/help.c:794
 #, c-format
@@ -789,34 +791,36 @@ msgid ""
 "\n"
 "Press the RETURN key to continue...\n"
 msgstr ""
+"\n"
+"Davom ettirish uchun RETURN tugmasini bosing...\n"
 
 #: src/config/keys.c:56
 msgid "Backspace"
-msgstr ""
+msgstr "Backspace"
 
 #: src/config/keys.c:57
 msgid "Brightness Down"
-msgstr ""
+msgstr "Ravshanlik pastga"
 
 #: src/config/keys.c:58
 msgid "Brightness Up"
-msgstr ""
+msgstr "Ravshanlik yuqoriga"
 
 #: src/config/keys.c:59
 msgid "Browser Back"
-msgstr ""
+msgstr "Brauzer Orqaga"
 
 #: src/config/keys.c:60
 msgid "Browser Favorites"
-msgstr ""
+msgstr "Brauzer Saralanganlar"
 
 #: src/config/keys.c:61
 msgid "Browser Forward"
-msgstr ""
+msgstr "Brauzer Oldinga"
 
 #: src/config/keys.c:62
 msgid "Browser Home"
-msgstr ""
+msgstr "Brauzer Uy"
 
 #: src/config/keys.c:63
 msgid "Browser Refresh"
@@ -835,79 +839,79 @@ msgstr ""
 #: modules/gui/qt4/ui/podcast_configuration.h:105
 #: modules/gui/qt4/ui/streampanel.h:173
 msgid "Delete"
-msgstr ""
+msgstr "Delete"
 
 #: src/config/keys.c:67
 msgid "Down"
-msgstr ""
+msgstr "Down"
 
 #: src/config/keys.c:68 modules/control/rc.c:74
 msgid "End"
-msgstr ""
+msgstr "End"
 
 #: src/config/keys.c:69
 msgid "Enter"
-msgstr ""
+msgstr "Enter"
 
 #: src/config/keys.c:70
 msgid "Esc"
-msgstr ""
+msgstr "Esc"
 
 #: src/config/keys.c:71
 msgid "F1"
-msgstr ""
+msgstr "F1"
 
 #: src/config/keys.c:72
 msgid "F10"
-msgstr ""
+msgstr "F10"
 
 #: src/config/keys.c:73
 msgid "F11"
-msgstr ""
+msgstr "F11"
 
 #: src/config/keys.c:74
 msgid "F12"
-msgstr ""
+msgstr "F12"
 
 #: src/config/keys.c:75
 msgid "F2"
-msgstr ""
+msgstr "F2"
 
 #: src/config/keys.c:76
 msgid "F3"
-msgstr ""
+msgstr "F3"
 
 #: src/config/keys.c:77
 msgid "F4"
-msgstr ""
+msgstr "F4"
 
 #: src/config/keys.c:78
 msgid "F5"
-msgstr ""
+msgstr "F5"
 
 #: src/config/keys.c:79
 msgid "F6"
-msgstr ""
+msgstr "F6"
 
 #: src/config/keys.c:80
 msgid "F7"
-msgstr ""
+msgstr "F7"
 
 #: src/config/keys.c:81
 msgid "F8"
-msgstr ""
+msgstr "F8"
 
 #: src/config/keys.c:82
 msgid "F9"
-msgstr ""
+msgstr "F9"
 
 #: src/config/keys.c:83
 msgid "Home"
-msgstr ""
+msgstr "Home"
 
 #: src/config/keys.c:84
 msgid "Insert"
-msgstr ""
+msgstr "Insert"
 
 #: src/config/keys.c:86
 msgid "Media Angle"
@@ -983,7 +987,7 @@ msgstr ""
 
 #: src/config/keys.c:104 modules/gui/qt4/components/controller.cpp:541
 msgid "Menu"
-msgstr ""
+msgstr "Menyu"
 
 #: src/config/keys.c:105
 msgid "Mouse Wheel Down"
@@ -995,19 +999,19 @@ msgstr ""
 
 #: src/config/keys.c:107
 msgid "Mouse Wheel Right"
-msgstr ""
+msgstr "Sichqonchaning g'ildiragi o'nga"
 
 #: src/config/keys.c:108
 msgid "Mouse Wheel Up"
-msgstr ""
+msgstr "Sichqonchaning g'ildiragi yuqoriga"
 
 #: src/config/keys.c:109
 msgid "Page Down"
-msgstr ""
+msgstr "Page Down"
 
 #: src/config/keys.c:110
 msgid "Page Up"
-msgstr ""
+msgstr "Page Up"
 
 #: src/config/keys.c:112 modules/demux/mp4/id3genres.h:76
 msgid "Space"
@@ -1015,57 +1019,57 @@ msgstr "Space"
 
 #: src/config/keys.c:113
 msgid "Tab"
-msgstr ""
+msgstr "Tab"
 
 #: src/config/keys.c:114 src/libvlc-module.c:187
 #: modules/gui/qt4/components/preferences_widgets.cpp:1425
 #: modules/gui/qt4/util/customwidgets.cpp:294
 msgid "Unset"
-msgstr ""
+msgstr "Bekor qilish"
 
 #: src/config/keys.c:115
 msgid "Up"
-msgstr ""
+msgstr "Yuqoriga"
 
 #: src/config/keys.c:116 modules/gui/macosx/MainMenu.m:469
 msgid "Volume Down"
-msgstr ""
+msgstr "Ovoz balandligini pastga"
 
 #: src/config/keys.c:117
 msgid "Volume Mute"
-msgstr ""
+msgstr "Ovozni o'chirish"
 
 #: src/config/keys.c:118 modules/gui/macosx/MainMenu.m:468
 msgid "Volume Up"
-msgstr ""
+msgstr "Ovoz balandligini yuqoriga"
 
 #: src/config/keys.c:119
 msgid "Zoom In"
-msgstr ""
+msgstr "Yirikroq"
 
 #: src/config/keys.c:120
 msgid "Zoom Out"
-msgstr ""
+msgstr "Kichikroq"
 
 #: src/config/keys.c:248
 msgid "Ctrl+"
-msgstr ""
+msgstr "Ctrl+"
 
 #: src/config/keys.c:249
 msgid "Alt+"
-msgstr ""
+msgstr "Alt+"
 
 #: src/config/keys.c:250
 msgid "Shift+"
-msgstr ""
+msgstr "Shift+"
 
 #: src/config/keys.c:251
 msgid "Meta+"
-msgstr ""
+msgstr "Meta+"
 
 #: src/config/keys.c:252
 msgid "Command+"
-msgstr ""
+msgstr "Buyruq+"
 
 #: src/input/control.c:226
 #, c-format
@@ -1762,7 +1766,7 @@ msgstr ""
 #: src/libvlc-module.c:249 modules/gui/macosx/simple_prefs.m:265
 #: modules/stream_out/display.c:42 modules/gui/qt4/ui/sprefs_video.h:340
 msgid "Enable video"
-msgstr ""
+msgstr "Video yoqish"
 
 #: src/libvlc-module.c:251
 msgid ""
@@ -1775,7 +1779,7 @@ msgstr ""
 #: modules/visualization/projectm.cpp:62
 #: modules/visualization/visual/visual.c:51 modules/visualization/vsxu.cpp:55
 msgid "Video width"
-msgstr ""
+msgstr "Video kengligi"
 
 #: src/libvlc-module.c:256
 msgid ""
@@ -1788,7 +1792,7 @@ msgstr ""
 #: modules/visualization/projectm.cpp:65
 #: modules/visualization/visual/visual.c:55 modules/visualization/vsxu.cpp:58
 msgid "Video height"
-msgstr ""
+msgstr "Video balandligi"
 
 #: src/libvlc-module.c:261
 msgid ""
@@ -1828,7 +1832,7 @@ msgstr ""
 
 #: src/libvlc-module.c:279
 msgid "Video alignment"
-msgstr ""
+msgstr "Video tenglashtirish"
 
 #: src/libvlc-module.c:281
 msgid ""
@@ -1857,7 +1861,7 @@ msgstr "Markaz"
 #: modules/gui/qt4/ui/video_effects.h:1359
 #: modules/gui/qt4/ui/video_effects.h:1370
 msgid "Top"
-msgstr ""
+msgstr "Yuqori"
 
 #: src/libvlc-module.c:286 src/libvlc-module.c:364 modules/codec/dvbsub.c:102
 #: modules/codec/zvbi.c:78 modules/gui/macosx/VideoEffects.m:106
@@ -1866,7 +1870,7 @@ msgstr ""
 #: modules/video_filter/marq.c:139 modules/video_filter/mosaic.c:170
 #: modules/video_filter/rss.c:173 modules/gui/qt4/ui/video_effects.h:1320
 msgid "Bottom"
-msgstr ""
+msgstr "Ost"
 
 #: src/libvlc-module.c:287 src/libvlc-module.c:365 modules/codec/dvbsub.c:103
 #: modules/codec/zvbi.c:79 modules/gui/macosx/VideoEffects.m:177
@@ -1875,7 +1879,7 @@ msgstr ""
 #: modules/video_filter/marq.c:140 modules/video_filter/mosaic.c:171
 #: modules/video_filter/rss.c:174
 msgid "Top-Left"
-msgstr ""
+msgstr "Yuqori-Chap"
 
 #: src/libvlc-module.c:287 src/libvlc-module.c:365 modules/codec/dvbsub.c:103
 #: modules/codec/zvbi.c:79 modules/gui/macosx/VideoEffects.m:179
@@ -1884,7 +1888,7 @@ msgstr ""
 #: modules/video_filter/marq.c:140 modules/video_filter/mosaic.c:171
 #: modules/video_filter/rss.c:174
 msgid "Top-Right"
-msgstr ""
+msgstr "Yuqori-O'ng"
 
 #: src/libvlc-module.c:287 src/libvlc-module.c:365 modules/codec/dvbsub.c:103
 #: modules/codec/zvbi.c:79 modules/gui/macosx/VideoEffects.m:181
@@ -1893,7 +1897,7 @@ msgstr ""
 #: modules/video_filter/marq.c:140 modules/video_filter/mosaic.c:171
 #: modules/video_filter/rss.c:174
 msgid "Bottom-Left"
-msgstr ""
+msgstr "Ost-Chap"
 
 #: src/libvlc-module.c:287 src/libvlc-module.c:365 modules/codec/dvbsub.c:103
 #: modules/codec/zvbi.c:79 modules/gui/macosx/VideoEffects.m:183
@@ -1902,7 +1906,7 @@ msgstr ""
 #: modules/video_filter/marq.c:140 modules/video_filter/mosaic.c:171
 #: modules/video_filter/rss.c:174
 msgid "Bottom-Right"
-msgstr ""
+msgstr "Ost-O'ng"
 
 #: src/libvlc-module.c:289
 msgid "Zoom video"
@@ -1924,7 +1928,7 @@ msgstr ""
 
 #: src/libvlc-module.c:298
 msgid "Embedded video"
-msgstr ""
+msgstr "Qo'shilgan video"
 
 #: src/libvlc-module.c:300
 msgid "Embed the video output in the main interface."
@@ -2086,7 +2090,7 @@ msgstr ""
 
 #: src/libvlc-module.c:383
 msgid "Video filter module"
-msgstr ""
+msgstr "Video filtr moduli"
 
 #: src/libvlc-module.c:385
 msgid ""
@@ -2096,7 +2100,7 @@ msgstr ""
 
 #: src/libvlc-module.c:389
 msgid "Video snapshot directory (or filename)"
-msgstr ""
+msgstr "Video surati katalogi (yoki fayl nomi)"
 
 #: src/libvlc-module.c:391
 msgid "Directory where the video snapshots will be stored."
@@ -2379,7 +2383,7 @@ msgstr "Andoza"
 #: modules/gui/qt4/components/extended_panels.cpp:1024
 #: modules/gui/qt4/ui/equalizer.h:134 modules/gui/qt4/ui/vlm.h:290
 msgid "Enable"
-msgstr ""
+msgstr "Yoqish"
 
 #: src/libvlc-module.c:542
 msgid "MTU of the network interface"
@@ -5094,7 +5098,7 @@ msgstr ""
 
 #: src/text/iso-639_def.h:172
 msgid "Spanish"
-msgstr ""
+msgstr "Ispan"
 
 #: src/text/iso-639_def.h:173
 msgid "Sardinian"
@@ -5166,7 +5170,7 @@ msgstr ""
 
 #: src/text/iso-639_def.h:190
 msgid "Turkish"
-msgstr ""
+msgstr "Turkiy"
 
 #: src/text/iso-639_def.h:191
 msgid "Turkmen"
@@ -5178,11 +5182,11 @@ msgstr ""
 
 #: src/text/iso-639_def.h:193
 msgid "Uighur"
-msgstr ""
+msgstr "Uyg'ur"
 
 #: src/text/iso-639_def.h:194
 msgid "Ukrainian"
-msgstr ""
+msgstr "Ukrain"
 
 #: src/text/iso-639_def.h:195
 msgid "Urdu"
@@ -10932,9 +10936,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/qsv.c:67
-#, fuzzy
 msgid "Codec Level"
-msgstr "Kodek"
+msgstr ""
 
 #: modules/codec/qsv.c:69
 msgid ""
@@ -11040,9 +11043,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/qsv.c:122
-#, fuzzy
 msgid "Maximum Bitrate"
-msgstr "Bitreyt"
+msgstr ""
 
 #: modules/codec/qsv.c:123
 msgid ""
@@ -27252,62 +27254,14 @@ msgstr "AAAA; "
 msgid "Media Manager List"
 msgstr ""
 
-#~ msgid "Subtitles/OSD"
-#~ msgstr "Subtitrlar/OSD"
-
-#~ msgid "Subtitles codecs"
-#~ msgstr "Subtitrlar kodeklari"
-
-#~ msgid "Settings for subtitles, teletext and CC decoders and encoders."
-#~ msgstr ""
-#~ "Subtitrlar, telematn va CC dekoderlarining va koderlarining moslamalari."
-
 #~ msgid "General Input"
 #~ msgstr "Umumiy kiritish"
-
-#~ msgid "Encoders settings"
-#~ msgstr "Koderlar moslamalari"
-
-#~ msgid ""
-#~ "These are general settings for video/audio/subtitles encoding modules."
-#~ msgstr ""
-#~ "Video, ovoz va subtitrlarni kodlash modullarining umumiy moslamalari."
-
-#~ msgid "Quick &Open File..."
-#~ msgstr "&Faylni tez ochish..."
-
-#~ msgid "&Bookmarks"
-#~ msgstr "&Xatcho'plar"
-
-#~ msgid "Fetch Information"
-#~ msgstr "Ma'lumot olish"
-
-#~ msgid "No Repeat"
-#~ msgstr "Qaytarmasdan"
-
-#~ msgid "Add to Media Library"
-#~ msgstr "Media kutubxonasiga qo'shish"
-
-#~ msgid "Advanced Open..."
-#~ msgstr "Ochish usullari..."
-
-#~ msgid "Open Play&list..."
-#~ msgstr "Play&listni ochish..."
-
-#~ msgid "Search Filter"
-#~ msgstr "Qidirish filtri"
-
-#~ msgid "Default audio volume"
-#~ msgstr "Andoza ovoz balandligi"
 
 #~ msgid "PCM U8"
 #~ msgstr "PCM U8"
 
 #~ msgid "PCM S8"
 #~ msgstr "PCM S8"
-
-#~ msgid "GSM Audio"
-#~ msgstr "GSM Audio"
 
 #~ msgid "PCM U16 LE"
 #~ msgstr "PCM U16 LE"
@@ -27369,21 +27323,6 @@ msgstr ""
 #~ msgid "Classic rock"
 #~ msgstr "Classic rock"
 
-#~ msgid "Death metal"
-#~ msgstr "Death metal"
-
-#~ msgid "Sound clip"
-#~ msgstr "Sound clip"
-
-#~ msgid "Alternative rock"
-#~ msgstr "Alternative rock"
-
-#~ msgid "Instrumental pop"
-#~ msgstr "Instrumental pop"
-
-#~ msgid "Instrumental rock"
-#~ msgstr "Instrumental rock"
-
 #~ msgid "Southern rock"
 #~ msgstr "Southern rock"
 
@@ -27393,53 +27332,14 @@ msgstr ""
 #~ msgid "Pop/funk"
 #~ msgstr "Pop/funk"
 
-#~ msgid "New wave"
-#~ msgstr "New wave"
-
-#~ msgid "Acid punk"
-#~ msgstr "Acid punk"
-
-#~ msgid "Acid jazz"
-#~ msgstr "Acid jazz"
-
 #~ msgid "Rock & roll"
 #~ msgstr "Rock & roll"
 
 #~ msgid "Hard rock"
 #~ msgstr "Hard rock"
 
-#~ msgid "Copyright (C) "
-#~ msgstr "Copyright (C) "
-
-#~ msgid "Stream Name"
-#~ msgstr "Oqim nomi"
-
-#~ msgid "Video Codec"
-#~ msgstr "Video kodek"
-
-#~ msgid "Audio Codec"
-#~ msgstr "Audio kodek"
-
-#~ msgid "Subtitle Codec"
-#~ msgstr "Subtitrlar kodek"
-
-#~ msgid "Output Method"
-#~ msgstr "Chiqarish usuli"
-
-#~ msgid "File Name"
-#~ msgstr "Fayl nomi"
-
 #~ msgid "Licence"
 #~ msgstr "Litsenziya"
-
-#~ msgid "Add a subtitles file"
-#~ msgstr "Subtitrlar faylini qo'shish"
-
-#~ msgid "Use a sub&titles file"
-#~ msgstr "Sub&titrlar faylidan foydalanish"
-
-#~ msgid "Select the subtitles file"
-#~ msgstr "Subtitrlar faylini tanlash"
 
 #~ msgid ""
 #~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
@@ -27475,13 +27375,147 @@ msgstr ""
 #~ msgid "00000; "
 #~ msgstr "00000; "
 
+#~ msgid "Group name"
+#~ msgstr "Guruh nomi"
+
+#, fuzzy
+#~ msgid "Subtitles/OSD"
+#~ msgstr "Subtitrlar / OSD"
+
+#, fuzzy
+#~ msgid "Subtitles codecs"
+#~ msgstr "Subtitrlar"
+
+#, fuzzy
+#~ msgid "Settings for subtitles, teletext and CC decoders and encoders."
+#~ msgstr "Ovoz dekoderlarining va koderlarining moslamalari."
+
+#, fuzzy
+#~ msgid "Encoders settings"
+#~ msgstr "Moslamalarni tahrirlash"
+
+#, fuzzy
+#~ msgid ""
+#~ "These are general settings for video/audio/subtitles encoding modules."
+#~ msgstr "Ovoz chiqarish modullarining umumiy moslamalari."
+
+#, fuzzy
+#~ msgid "Quick &Open File..."
+#~ msgstr "&Jildni ochish..."
+
+#, fuzzy
+#~ msgid "&Bookmarks"
+#~ msgstr "Xatcho'p"
+
+#, fuzzy
+#~ msgid "Fetch Information"
+#~ msgstr "&Kodek ma'lumoti"
+
+#, fuzzy
+#~ msgid "No Repeat"
+#~ msgstr "Hammasini qaytarish"
+
+#, fuzzy
+#~ msgid "Add to Media Library"
+#~ msgstr "Media kutu"
+
+#, fuzzy
+#~ msgid "Advanced Open..."
+#~ msgstr "Ochish &usullari..."
+
+#, fuzzy
+#~ msgid "Open Play&list..."
+#~ msgstr "Pleylist"
+
+#, fuzzy
+#~ msgid "Search Filter"
+#~ msgstr "Oqim filtrlari"
+
+#, fuzzy
+#~ msgid "Default audio volume"
+#~ msgstr "Andoza uskunalar"
+
+#, fuzzy
+#~ msgid "GSM Audio"
+#~ msgstr "Ovoz"
+
+#, fuzzy
+#~ msgid "Death metal"
+#~ msgstr "Sana meta ma'lumoti"
+
+#, fuzzy
+#~ msgid "Sound clip"
+#~ msgstr "Soundtrack"
+
+#, fuzzy
+#~ msgid "Alternative rock"
+#~ msgstr "Alternative"
+
+#, fuzzy
+#~ msgid "Instrumental pop"
+#~ msgstr "Instrumental"
+
+#, fuzzy
+#~ msgid "Instrumental rock"
+#~ msgstr "Instrumental"
+
+#, fuzzy
+#~ msgid "New wave"
+#~ msgstr "New Age"
+
+#, fuzzy
+#~ msgid "Acid punk"
+#~ msgstr "Acid"
+
+#, fuzzy
+#~ msgid "Acid jazz"
+#~ msgstr "Acid"
+
+#, fuzzy
+#~ msgid "Copyright (C) "
+#~ msgstr "Mualliflik huquqi"
+
+#, fuzzy
+#~ msgid "Stream Name"
+#~ msgstr "Oqim nomi"
+
+#, fuzzy
+#~ msgid "Video Codec"
+#~ msgstr "Video kodek"
+
+#, fuzzy
+#~ msgid "Audio Codec"
+#~ msgstr "Audio kodek"
+
+#, fuzzy
+#~ msgid "Subtitle Codec"
+#~ msgstr "Subtitr"
+
+#, fuzzy
+#~ msgid "Output Method"
+#~ msgstr "Chiqarish modullari"
+
+#, fuzzy
+#~ msgid "File Name"
+#~ msgstr "Fayl"
+
+#, fuzzy
+#~ msgid "Add a subtitles file"
+#~ msgstr "Subtitr faylidan foydalanish"
+
+#, fuzzy
+#~ msgid "Use a sub&titles file"
+#~ msgstr "Subtitr faylidan foydalanish"
+
+#, fuzzy
+#~ msgid "Select the subtitles file"
+#~ msgstr "Faylni tanlash"
+
 #, fuzzy
 #~ msgid "Destinations"
 #~ msgstr "Ta'rifi"
 
-#~ msgid "Group name"
-#~ msgstr "Guruh nomi"
-
+#, fuzzy
 #~ msgid "Subtitles Language"
 #~ msgstr "Subtitrlar tili"
 
@@ -27491,7 +27525,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Subtitles effects"
-#~ msgstr "Subtitrlar kodeklari"
+#~ msgstr "Subtitrlar"
 
 #, fuzzy
 #~ msgid "DVB"
