@@ -14,8 +14,8 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-09-21 15:06+0200\n"
-"PO-Revision-Date: 2013-09-19 13:39+0000\n"
-"Last-Translator: RainDropR <rajaa@hilltx.com>\n"
+"PO-Revision-Date: 2013-10-13 14:11+0000\n"
+"Last-Translator: fbourai <fbourai@gmail.com>\n"
 "Language-Team: Arabic (http://www.transifex.com/projects/p/vlc-trans/"
 "language/ar/)\n"
 "Language: ar\n"
@@ -539,7 +539,7 @@ msgstr "أضف ملف..."
 
 #: include/vlc_intf_strings.h:84
 msgid "Add Directory..."
-msgstr ""
+msgstr "إضافة دليل..."
 
 #: include/vlc_intf_strings.h:85
 msgid "Add Folder..."
@@ -861,7 +861,7 @@ msgstr ""
 
 #: src/config/keys.c:62
 msgid "Browser Home"
-msgstr ""
+msgstr "متصفح رئيسي"
 
 #: src/config/keys.c:63
 msgid "Browser Refresh"
@@ -896,7 +896,7 @@ msgstr "إدخال"
 
 #: src/config/keys.c:70
 msgid "Esc"
-msgstr ""
+msgstr "Esc"
 
 #: src/config/keys.c:71
 msgid "F1"
@@ -952,7 +952,7 @@ msgstr "الصفحة الرئيسية"
 
 #: src/config/keys.c:84
 msgid "Insert"
-msgstr ""
+msgstr "إدخال"
 
 #: src/config/keys.c:86
 msgid "Media Angle"
@@ -992,7 +992,7 @@ msgstr ""
 
 #: src/config/keys.c:95
 msgid "Media Record"
-msgstr ""
+msgstr "تسجيل وسيط"
 
 #: src/config/keys.c:96
 msgid "Media Repeat"
@@ -1004,7 +1004,7 @@ msgstr ""
 
 #: src/config/keys.c:98
 msgid "Media Select"
-msgstr ""
+msgstr "إنتقاء وسيط"
 
 #: src/config/keys.c:99
 msgid "Media Shuffle"
@@ -1012,7 +1012,7 @@ msgstr ""
 
 #: src/config/keys.c:100
 msgid "Media Stop"
-msgstr ""
+msgstr "توقيف وسيط"
 
 #: src/config/keys.c:101
 msgid "Media Subtitle"
@@ -2117,7 +2117,7 @@ msgstr "خطي"
 
 #: src/libvlc-module.c:358 modules/video_filter/deinterlace/deinterlace.h:58
 msgid "Phosphor"
-msgstr ""
+msgstr "فوسفور"
 
 #: src/libvlc-module.c:359 modules/video_filter/deinterlace/deinterlace.h:58
 msgid "Film NTSC (IVTC)"
@@ -2619,7 +2619,7 @@ msgstr ""
 
 #: src/libvlc-module.c:615
 msgid "HD (720p)"
-msgstr ""
+msgstr "جودة عالية (720p)"
 
 #: src/libvlc-module.c:616
 msgid "Standard Definition (576 or 480 lines)"
@@ -2958,7 +2958,7 @@ msgstr ""
 
 #: src/libvlc-module.c:798
 msgid "RTSP server address"
-msgstr ""
+msgstr "عنوان الخادم RTSP"
 
 #: src/libvlc-module.c:800
 msgid ""
@@ -4659,6 +4659,8 @@ msgid ""
 "%s\n"
 "Downloading... %s/%s - %.1f%% done"
 msgstr ""
+"%s⏎\n"
+"جاري التحميل... %s/%s - %.1f%% إنتهى"
 
 #: src/misc/update.c:637
 msgid "File could not be verified"
@@ -5548,7 +5550,7 @@ msgstr ""
 
 #: modules/access/bluray.c:287
 msgid "AACS MMC failed."
-msgstr ""
+msgstr "فشل AACS MMC."
 
 #: modules/access/bluray.c:293
 msgid "Your system AACS decoding library does not work. Missing keys?"
@@ -5682,7 +5684,7 @@ msgstr "HDMI"
 
 #: modules/access/decklink.cpp:82 modules/video_output/decklink.cpp:113
 msgid "Optical SDI"
-msgstr ""
+msgstr "SDI بصري"
 
 #: modules/access/decklink.cpp:82 modules/video_output/decklink.cpp:113
 msgid "Component"
@@ -5995,7 +5997,7 @@ msgstr ""
 
 #: modules/access/dtv/access.c:41
 msgid "DVB device"
-msgstr ""
+msgstr "جهاز DVB"
 
 #: modules/access/dtv/access.c:43
 msgid ""
@@ -19818,9 +19820,8 @@ msgid "Network Access Policy"
 msgstr ""
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:98
-#, fuzzy
 msgid "Automatically retrieve media info"
-msgstr "حضّر الملفات تلقائيًا"
+msgstr ""
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:103
 msgid "Regularly check for VLC updates"
@@ -32582,7 +32583,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "RTSP host address"
-#~ msgstr "SAP خطاب المتعدد"
+#~ msgstr "عنوان الخادم RTSP"
 
 #, fuzzy
 #~ msgid "Viewer"
@@ -32594,7 +32595,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Media Browser"
-#~ msgstr "وسائط: %s"
+#~ msgstr "تسجيل وسيط"
 
 #, fuzzy
 #~ msgid "No"
@@ -33657,7 +33658,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Add directory..."
-#~ msgstr "افتح د&ليلًا..."
+#~ msgstr "إضافة دليل..."
 
 #, fuzzy
 #~ msgid "Show interface with mouse"
