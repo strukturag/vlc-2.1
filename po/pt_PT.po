@@ -4,8 +4,12 @@
 #
 # Translators:
 # Bruno Queiros <bqueiros@gmail.com>, 2012-2013
+# Bruno Queiros <bqueiros@gmail.com>, 2013
+# Christoph Miebach <christoph.miebach@web.de>, 2013
 # glrs <goncaloluisilva@gmail.com>, 2013
 # pingo.mister <joao.lnsa@netcabo.pt>, 2012
+# joseldgois <joseldgois@hotmail.com>, 2013
+# L.Sousa <leandrorlsousa@gmail.com>, 2013
 # alfalb_mansil <manuela.silva@sky.com>, 2012-2013
 # Miguel Sousa <migueljorgesousa@sapo.pt>, 2012
 # pvaladares <pedro.valadares@gmail.com>, 2012
@@ -15,8 +19,8 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-09-21 15:06+0200\n"
-"PO-Revision-Date: 2013-09-18 02:21+0000\n"
-"Last-Translator: alfalb_mansil <manuela.silva@sky.com>\n"
+"PO-Revision-Date: 2013-10-22 11:40+0000\n"
+"Last-Translator: L.Sousa <leandrorlsousa@gmail.com>\n"
 "Language-Team: Portuguese (Portugal) (http://www.transifex.com/projects/p/"
 "vlc-trans/language/pt_PT/)\n"
 "Language: pt_PT\n"
@@ -7296,6 +7300,8 @@ msgstr ""
 #: modules/access/jack.c:64
 msgid "Automatically connect VLC input ports to available output ports."
 msgstr ""
+"Ligar automaticamente as portas de entrada do VLC às portas de saída "
+"disponiveis."
 
 #: modules/access/jack.c:67
 msgid "JACK audio input"
@@ -7325,7 +7331,7 @@ msgstr "Video ID"
 #: modules/access/linsys/linsys_hdsdi.c:77
 #: modules/access/linsys/linsys_sdi.c:72
 msgid "Allows you to set the ES ID of the video."
-msgstr ""
+msgstr "Permite-lhe definir o ID ES do video."
 
 #: modules/access/linsys/linsys_hdsdi.c:80
 #: modules/access/linsys/linsys_sdi.c:75
@@ -7360,6 +7366,8 @@ msgstr "Configuração teletexto"
 msgid ""
 "Allows you to set Teletext configuration (id=line1-lineN with both fields)."
 msgstr ""
+"Permite-lhe definir a configuração do Teletexto  (id=linha1-linhaN com ambos "
+"os campos)."
 
 #: modules/access/linsys/linsys_sdi.c:82
 msgid "Teletext language"
@@ -7409,6 +7417,8 @@ msgid ""
 "Sets the username for the connection, if no username or password are set in "
 "the url."
 msgstr ""
+"Define o nome do utilizador para a ligação, se não existir um nome de "
+"utilizador ou password definidos no url."
 
 #: modules/access/live555.cpp:91
 msgid "RTSP password"
@@ -7419,10 +7429,12 @@ msgid ""
 "Sets the password for the connection, if no username or password are set in "
 "the url."
 msgstr ""
+"Define a palavra passe para a ligação, se não existir um nome de utilizador "
+"ou password definidos no url."
 
 #: modules/access/live555.cpp:94
 msgid "RTSP frame buffer size"
-msgstr ""
+msgstr "Tamanho do buffer de frames do RTSP"
 
 #: modules/access/live555.cpp:95
 msgid ""
@@ -7465,7 +7477,7 @@ msgstr "Porta do túnel HTTP"
 
 #: modules/access/live555.cpp:131
 msgid "Port to use for tunneling the RTSP/RTP over HTTP."
-msgstr ""
+msgstr "Porto a utilizar para fazer um tunel RTSP/RTP através de HTTP."
 
 #: modules/access/live555.cpp:630
 msgid "RTSP authentication"
@@ -7473,7 +7485,7 @@ msgstr "Autenticação RTSP"
 
 #: modules/access/live555.cpp:631
 msgid "Please enter a valid login name and a password."
-msgstr ""
+msgstr "Por favor introduza o nome de utilizador e palavra-passe válidos."
 
 #: modules/access/live555.cpp:655
 msgid "RTSP connection failed"
@@ -7507,6 +7519,8 @@ msgid ""
 "mydomain:myport/ ; if empty, the http_proxy environment variable will be "
 "tried."
 msgstr ""
+"O proxy de HTTP a ser usado, deve ter a forma http://[user@]myproxy.mydomain:"
+"myport/ ; se estiver em branco, será tentado a variável http_proxy."
 
 #: modules/access/mms/mms.c:64
 msgid "TCP/UDP timeout (ms)"
@@ -7517,6 +7531,8 @@ msgid ""
 "Amount of time (in ms) to wait before aborting network reception of data. "
 "Note that there will be 10 retries before completely giving up."
 msgstr ""
+"O tempo (em ms) de espera antes de cancelar a recepção de informaçao através "
+"da rede. Note que serão feitos 10 tentativas antes de desistir por completo."
 
 #: modules/access/mms/mms.c:69
 msgid "Microsoft Media Server (MMS) input"
@@ -7609,6 +7625,8 @@ msgid ""
 "The output file already exists. If recording continues, the file will be "
 "overridden and its content will be lost."
 msgstr ""
+"O ficheiro de saída já existe. Se a gravação continuar, o ficheiro será "
+"reescrito e o seu conteúdo será perdido."
 
 #: modules/access_output/file.c:203
 msgid "Keep existing file"
@@ -8242,7 +8260,7 @@ msgstr "Tamanho de leitura"
 
 #: modules/access/sftp.c:54
 msgid "Size of the request for reading access"
-msgstr ""
+msgstr "Tamanho do pedido para o acesso à leitura"
 
 #: modules/access/sftp.c:58
 msgid "SFTP input"
@@ -8259,7 +8277,7 @@ msgstr ""
 
 #: modules/access/shm.c:45 modules/access/vnc.c:57
 msgid "Frame buffer depth"
-msgstr ""
+msgstr "Tamanho do buffer de frames do RTSP"
 
 #: modules/access/shm.c:47
 msgid "Pixel depth of the frame buffer, or zero for XWD file"
@@ -8267,7 +8285,7 @@ msgstr ""
 
 #: modules/access/shm.c:49
 msgid "Frame buffer width"
-msgstr ""
+msgstr "Tamanho do buffer de frames do RTSP"
 
 #: modules/access/shm.c:51
 msgid "Pixel width of the frame buffer (ignored for XWD file)"
@@ -8417,7 +8435,7 @@ msgstr ""
 
 #: modules/access/v4l2/v4l2.c:61
 msgid "Input of the card to use (see debug)."
-msgstr ""
+msgstr "Entrada da placa a ser usada (ver debug)."
 
 #: modules/access/v4l2/v4l2.c:62
 msgid "Audio input"
@@ -8425,13 +8443,15 @@ msgstr "Entrada áudio"
 
 #: modules/access/v4l2/v4l2.c:64
 msgid "Audio input of the card to use (see debug)."
-msgstr ""
+msgstr "Entrada de audio da placa a usar (ver debug)."
 
 #: modules/access/v4l2/v4l2.c:68
 msgid ""
 "The specified pixel resolution is forced (if both width and height are "
 "strictly positive)."
 msgstr ""
+"A resolução de pixeis especificada é forçada (se ambas a largura e altura "
+"forem estritamente positivas). "
 
 #: modules/access/v4l2/v4l2.c:73
 msgid "Radio device"
@@ -8698,11 +8718,11 @@ msgstr "Esboço"
 
 #: modules/access/v4l2/v4l2.c:165
 msgid "Sky blue"
-msgstr ""
+msgstr "Azul do céu"
 
 #: modules/access/v4l2/v4l2.c:166
 msgid "Grass green"
-msgstr ""
+msgstr "Verde da relva"
 
 #: modules/access/v4l2/v4l2.c:166
 msgid "Skin whiten"
@@ -8710,7 +8730,7 @@ msgstr ""
 
 #: modules/access/v4l2/v4l2.c:166
 msgid "Vivid"
-msgstr ""
+msgstr "Vívido"
 
 #: modules/access/v4l2/v4l2.c:169 modules/audio_output/auhal.c:66
 #: modules/audio_output/directx.c:115 modules/audio_output/waveout.c:146
@@ -8735,7 +8755,7 @@ msgstr "Nível do Grave"
 
 #: modules/access/v4l2/v4l2.c:177
 msgid "Bass adjustment of the audio input."
-msgstr ""
+msgstr "Ajuste de Bass da entrada de audio."
 
 #: modules/access/v4l2/v4l2.c:178
 msgid "Treble level"
@@ -8837,7 +8857,7 @@ msgstr "Controlos"
 
 #: modules/access/v4l2/v4l2.c:334
 msgid "Video capture controls (if supported by the device)"
-msgstr ""
+msgstr "Controlos de captura de video (se suportado pelo dispositivo)"
 
 #: modules/access/v4l2/v4l2.c:425
 msgid "Video4Linux compressed A/V input"
@@ -9034,11 +9054,12 @@ msgstr ""
 
 #: modules/access/vdr.c:78
 msgid "Chapter offset in ms"
-msgstr ""
+msgstr "Offset dos capítulos em ms"
 
 #: modules/access/vdr.c:80
 msgid "Move all chapters. This value should be set in milliseconds."
 msgstr ""
+"Mover todos os capítulos. Este valor deve ser definido em milisegundos."
 
 #: modules/access/vdr.c:84
 msgid "Default frame rate for chapter import."
@@ -9070,15 +9091,15 @@ msgstr ""
 
 #: modules/access/vnc.c:50
 msgid "X.509 Certificate Revocation List"
-msgstr ""
+msgstr "Lista de certificados x.509 revogados"
 
 #: modules/access/vnc.c:51
 msgid "List of revoked servers certificates"
-msgstr ""
+msgstr "Lista de servidores de certificados revogados"
 
 #: modules/access/vnc.c:52
 msgid "X.509 Client certificate"
-msgstr ""
+msgstr "Certificado do Cliente x.509"
 
 #: modules/access/vnc.c:53
 msgid "Certificate for client authentification"
@@ -9342,12 +9363,12 @@ msgstr ""
 #: modules/audio_filter/channel_mixer/mono.c:95
 #: modules/audio_filter/channel_mixer/remap.c:63
 msgid "Side left"
-msgstr ""
+msgstr "Lado esquerdo"
 
 #: modules/audio_filter/channel_mixer/mono.c:95
 #: modules/audio_filter/channel_mixer/remap.c:63
 msgid "Side right"
-msgstr ""
+msgstr "Lado direito"
 
 #: modules/audio_filter/channel_mixer/mono.c:95
 #: modules/audio_filter/channel_mixer/remap.c:62
@@ -9356,7 +9377,7 @@ msgstr ""
 
 #: modules/audio_filter/channel_mixer/mono.c:102
 msgid "Audio filter for stereo to mono conversion"
-msgstr ""
+msgstr "Filtro de audio para conversão de stereo para mono"
 
 #: modules/audio_filter/channel_mixer/remap.c:74
 msgid "Audio channel remapper"
@@ -9364,7 +9385,7 @@ msgstr ""
 
 #: modules/audio_filter/channel_mixer/simple.c:45
 msgid "Audio filter for simple channel mixing"
-msgstr ""
+msgstr "Filtro de audio para mistura de canais simples"
 
 #: modules/audio_filter/channel_mixer/trivial.c:48
 msgid "Audio filter for trivial channel mixing"
@@ -9382,7 +9403,7 @@ msgstr "Atraso"
 
 #: modules/audio_filter/chorus_flanger.c:76
 msgid "Add a delay effect to the sound"
-msgstr ""
+msgstr "Adicionar um efeito de atraso ao som"
 
 #: modules/audio_filter/chorus_flanger.c:80
 #: modules/audio_filter/stereo_widen.c:59
@@ -9957,7 +9978,7 @@ msgstr ""
 
 #: modules/audio_filter/stereo_widen.c:77
 msgid "Stereo Enhancer"
-msgstr ""
+msgstr "Optimizador Estério"
 
 #: modules/audio_filter/stereo_widen.c:78
 msgid "Simple stereo widening effect"
@@ -10028,6 +10049,8 @@ msgid ""
 "The audio device \"%s\" could not be used:\n"
 "%s."
 msgstr ""
+"O dispositivo de audio \"%s\" não pôde ser usado:\n"
+"%s."
 
 #: modules/audio_output/amem.c:34
 msgid "Audio memory"
@@ -10039,7 +10062,7 @@ msgstr "Saída da memória de áudio"
 
 #: modules/audio_output/amem.c:42
 msgid "Sample format"
-msgstr ""
+msgstr "Formato da amostra"
 
 #: modules/audio_output/audioqueue.c:66
 msgid "AudioQueue (iOS / Mac OS) audio output"
@@ -10055,7 +10078,7 @@ msgstr ""
 
 #: modules/audio_output/auhal.c:69
 msgid "Last audio device"
-msgstr ""
+msgstr "Último dispositivo de audio"
 
 #: modules/audio_output/auhal.c:166
 msgid "HAL AudioUnit output"
@@ -10065,6 +10088,8 @@ msgstr "Saída AudioUnit HAL"
 msgid ""
 "The selected audio output device is exclusively in use by another program."
 msgstr ""
+"O dispositivo de saída de audio seleccionado encontra-se em uso exclusivo "
+"por outro programa."
 
 #: modules/audio_output/auhal.c:578
 msgid "Audio device is not configured"
@@ -10132,6 +10157,8 @@ msgstr "Adicionar cabeçalho WAVE"
 #: modules/audio_output/file.c:87
 msgid "Instead of writing a raw file, you can add a WAV header to the file."
 msgstr ""
+"Em vez de escrever um ficheiro raw, pode adicionar um cabeçalho wav ao "
+"ficheiro."
 
 #: modules/audio_output/file.c:105
 #: share/lua/http/dialogs/create_stream.html:382
@@ -10180,13 +10207,15 @@ msgstr ""
 
 #: modules/audio_output/kai.c:98
 msgid "Open audio in exclusive mode."
-msgstr ""
+msgstr "Abrir o audio em modo exclusivo."
 
 #: modules/audio_output/kai.c:100
 msgid ""
 "Enable this option if you want your audio not to be interrupted by the other "
 "audio."
 msgstr ""
+"Active esta opção se desejar que o audio nao seja interrompido por outro "
+"audio."
 
 #: modules/audio_output/kai.c:110
 msgid "K Audio Interface audio output"
@@ -10218,11 +10247,11 @@ msgstr ""
 
 #: modules/audio_output/volume.h:30
 msgid "Software gain"
-msgstr ""
+msgstr "Ganho por software"
 
 #: modules/audio_output/volume.h:31
 msgid "This linear gain will be applied in software."
-msgstr ""
+msgstr "Este ganho linear será aplicado em software."
 
 #: modules/audio_output/waveout.c:136
 msgid "Select Audio Device"
@@ -11078,7 +11107,7 @@ msgstr "Codificador de legendas DVB"
 
 #: modules/codec/edummy.c:40
 msgid "Dummy encoder"
-msgstr ""
+msgstr "Descodificador dummy"
 
 #: modules/codec/faad.c:52
 msgid "AAC audio decoder (using libfaad2)"
@@ -11090,7 +11119,7 @@ msgstr "Extensão AAC"
 
 #: modules/codec/fdkaac.c:67
 msgid "Encoder Profile"
-msgstr ""
+msgstr "Perfil de Codificação"
 
 #: modules/codec/fdkaac.c:68
 msgid "Encoder Algorithm to use"
@@ -11102,25 +11131,29 @@ msgstr ""
 
 #: modules/codec/fdkaac.c:71
 msgid "This is an optional feature only for the AAC-ELD profile"
-msgstr ""
+msgstr "Esta é uma caracteristica opcional apenas para o perfil AAC-ELD"
 
 #: modules/codec/fdkaac.c:73
 msgid "VBR Quality"
-msgstr ""
+msgstr "Qualidade VBR"
 
 #: modules/codec/fdkaac.c:74
 msgid "Quality of the VBR Encoding (0=cbr, 1-5 constant quality vbr, 5 is best"
 msgstr ""
+"Qualidade da codificação VBR (0=cbr, 1-5 qualidade constante vbr, 5 é o "
+"melhor"
 
 #: modules/codec/fdkaac.c:76
 msgid "Enable afterburner library"
-msgstr ""
+msgstr "Activar a biblioteca afterburner"
 
 #: modules/codec/fdkaac.c:77
 msgid ""
 "This library will produce higher quality audio at the expense of additional "
 "CPU usage (default is enabled)"
 msgstr ""
+"Esta biblioteca produzirá audio com melhor qualidade em detrimento de maior "
+"utilização do CPU (por omissão está activo)"
 
 #: modules/codec/fdkaac.c:79
 msgid "Signaling mode of the extension AOT"
@@ -11134,31 +11167,31 @@ msgstr ""
 
 #: modules/codec/fdkaac.c:97
 msgid "AAC-LC"
-msgstr ""
+msgstr "AAC-LC"
 
 #: modules/codec/fdkaac.c:97
 msgid "HE-AAC"
-msgstr ""
+msgstr "HE-AAC"
 
 #: modules/codec/fdkaac.c:97
 msgid "HE-AAC-v2"
-msgstr ""
+msgstr "HE-AAC-v2"
 
 #: modules/codec/fdkaac.c:97
 msgid "AAC-LD"
-msgstr ""
+msgstr "AAC-LD"
 
 #: modules/codec/fdkaac.c:97
 msgid "AAC-ELD"
-msgstr ""
+msgstr "AAC-ELD"
 
 #: modules/codec/fdkaac.c:100
 msgid "FDKAAC"
-msgstr ""
+msgstr "FDKAAC"
 
 #: modules/codec/fdkaac.c:101
 msgid "FDK-AAC Audio encoder"
-msgstr ""
+msgstr "Codificador de audio FDK-AAC "
 
 #: modules/codec/flac.c:112
 msgid "Flac audio decoder"
@@ -11178,7 +11211,7 @@ msgstr ""
 
 #: modules/codec/fluidsynth.c:49 modules/demux/mp4/id3genres.h:129
 msgid "Chorus"
-msgstr ""
+msgstr "Coro"
 
 #: modules/codec/fluidsynth.c:51
 msgid "Synthesis gain"
@@ -11206,7 +11239,7 @@ msgstr "Reverberação"
 
 #: modules/codec/fluidsynth.c:68
 msgid "FluidSynth MIDI synthesizer"
-msgstr ""
+msgstr "Sintetizador FluidSynth MIDI"
 
 #: modules/codec/fluidsynth.c:70
 msgid "FluidSynth"
@@ -11214,7 +11247,7 @@ msgstr "FluidSynth"
 
 #: modules/codec/fluidsynth.c:148
 msgid "MIDI synthesis not set up"
-msgstr ""
+msgstr "Sintetizador MIDI não está configurado"
 
 #: modules/codec/fluidsynth.c:149
 msgid ""
@@ -11225,11 +11258,11 @@ msgstr ""
 
 #: modules/codec/g711.c:45
 msgid "G.711 decoder"
-msgstr ""
+msgstr "Descodificador G.711"
 
 #: modules/codec/g711.c:53
 msgid "G.711 encoder"
-msgstr ""
+msgstr "Codificador G.711"
 
 #: modules/codec/kate.c:194 modules/codec/subsdec.c:173
 msgid "Formatted Subtitles"
@@ -11360,7 +11393,7 @@ msgstr "Aqua"
 
 #: modules/codec/kate.c:214
 msgid "Use Tiger for rendering"
-msgstr ""
+msgstr "Utilizar Tiger para rendederização"
 
 #: modules/codec/kate.c:215
 msgid ""
@@ -11370,13 +11403,15 @@ msgstr ""
 
 #: modules/codec/kate.c:219
 msgid "Rendering quality"
-msgstr ""
+msgstr "Qualidade do rendering"
 
 #: modules/codec/kate.c:220
 msgid ""
 "Select rendering quality, at the expense of speed. 0 is fastest, 1 is "
 "highest quality."
 msgstr ""
+"Seleccione a qualidade de rendering em função da velocidade. 0 é o mais "
+"rápido, 1 para melhor qualidade."
 
 #: modules/codec/kate.c:224
 msgid "Default font effect"
@@ -20105,9 +20140,8 @@ msgid "Network Access Policy"
 msgstr ""
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:98
-#, fuzzy
 msgid "Automatically retrieve media info"
-msgstr "Definir automaticamente o ganho do vídeo."
+msgstr ""
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:103
 msgid "Regularly check for VLC updates"
@@ -24406,7 +24440,7 @@ msgstr ""
 
 #: modules/video_filter/colorthres.c:59
 msgid "Select one color in the video"
-msgstr ""
+msgstr "Seleccione uma cor no vídeo"
 
 #: modules/video_filter/colorthres.c:69
 msgid "Color threshold filter"
@@ -24511,15 +24545,15 @@ msgstr ""
 
 #: modules/video_filter/deinterlace/algo_phosphor.h:56
 msgid "Low"
-msgstr ""
+msgstr "Baixo"
 
 #: modules/video_filter/deinterlace/algo_phosphor.h:57
 msgid "Medium"
-msgstr ""
+msgstr "Médio"
 
 #: modules/video_filter/deinterlace/algo_phosphor.h:58
 msgid "High"
-msgstr ""
+msgstr "Alto"
 
 #: modules/video_filter/deinterlace/deinterlace.c:55
 msgid "Streaming deinterlace mode"
@@ -24656,7 +24690,7 @@ msgstr ""
 
 #: modules/video_filter/gradfun.c:54
 msgid "Strength"
-msgstr ""
+msgstr "Força"
 
 #: modules/video_filter/gradfun.c:55
 msgid "Strength used to modify the value of a pixel"
@@ -27255,7 +27289,7 @@ msgstr ""
 
 #: modules/gui/qt4/ui/open.h:267
 msgid "HH'H':mm'm':ss's'.zzz"
-msgstr ""
+msgstr "HH'H':mm'm':ss's'.zzz"
 
 #: modules/gui/qt4/ui/open.h:268
 msgid "Play another media synchronously (extra audio file, ...)"
@@ -28825,12 +28859,6 @@ msgstr "Lista do Gestor de Media"
 #~ msgid "Blue balance of the video input (if supported by the v4l2 driver)."
 #~ msgstr "Balanço azul da entrada do vídeo (se suportado pelo driver v4l2)."
 
-#~ msgid "Gamma of the video input (if supported by the v4l2 driver)."
-#~ msgstr "Gamma da entrada do vídeo (se suportado pelo driver v4l2)."
-
-#~ msgid "Exposure of the video input (if supported by the v4L2 driver)."
-#~ msgstr "Exposição da entrada do vídeo (se suportado pelo driver v4l2)."
-
 #~ msgid "READ"
 #~ msgstr "READ"
 
@@ -29418,10 +29446,6 @@ msgstr "Lista do Gestor de Media"
 #~ msgid "Cylinder"
 #~ msgstr "Cilindro"
 
-#, fuzzy
-#~ msgid "Torus"
-#~ msgstr "House"
-
 #~ msgid "Sphere"
 #~ msgstr "Esfera"
 
@@ -29792,9 +29816,6 @@ msgstr "Lista do Gestor de Media"
 #~ msgid "Crops a defined part of the image"
 #~ msgstr "Transparência da imagem"
 
-#~ msgid "Inverts the colors of the image"
-#~ msgstr "Inverte as cores da imagem"
-
 #, fuzzy
 #~ msgid "Automate picture coding mode"
 #~ msgstr "Corte automático"
@@ -29831,10 +29852,6 @@ msgstr "Lista do Gestor de Media"
 #~ msgid "Creates several clones of the image"
 #~ msgstr "Transparência da imagem"
 
-#, fuzzy
-#~ msgid "Adds water effect to the image"
-#~ msgstr "Transparência da imagem"
-
 #~ msgid "Magnifies part of the image"
 #~ msgstr "Magnifica parte da imagem"
 
@@ -29851,6 +29868,26 @@ msgstr "Lista do Gestor de Media"
 #~ msgstr ""
 #~ "Este ficheiro contém uma CRL opcional para evitar remover os clientes de "
 #~ "utilizem certificados revogados em sessões TLS."
+
+#, fuzzy
+#~ msgid "Gamma of the video input (if supported by the v4l2 driver)."
+#~ msgstr "Controlos de captura de video (se suportado pelo dispositivo)"
+
+#, fuzzy
+#~ msgid "Exposure of the video input (if supported by the v4L2 driver)."
+#~ msgstr "Controlos de captura de video (se suportado pelo dispositivo)"
+
+#, fuzzy
+#~ msgid "Torus"
+#~ msgstr "Coro"
+
+#, fuzzy
+#~ msgid "Inverts the colors of the image"
+#~ msgstr "Seleccione uma cor no vídeo"
+
+#, fuzzy
+#~ msgid "Adds water effect to the image"
+#~ msgstr "Adicionar um efeito de atraso ao som"
 
 #, fuzzy
 #~ msgid "left"
@@ -31205,8 +31242,7 @@ msgstr "Lista do Gestor de Media"
 #~ msgid ""
 #~ "Caching value for Alsa captures. This value should be set in milliseconds."
 #~ msgstr ""
-#~ "Valor de cache para emissões UDP. O valor deve ser introduzido em "
-#~ "milissegundos."
+#~ "Mover todos os capítulos. Este valor deve ser definido em milisegundos."
 
 #, fuzzy
 #~ msgid ""
@@ -31833,7 +31869,7 @@ msgstr "Lista do Gestor de Media"
 
 #, fuzzy
 #~ msgid "OMAP framebuffer"
-#~ msgstr "Buffers reproduzidos"
+#~ msgstr "Tamanho do buffer de frames do RTSP"
 
 #, fuzzy
 #~ msgid "OMAP framebuffer video output"
@@ -31937,7 +31973,7 @@ msgstr "Lista do Gestor de Media"
 
 #, fuzzy
 #~ msgid "Select the protocol for the URL."
-#~ msgstr "Seleccionar o directório para gravar em"
+#~ msgstr "Seleccione uma cor no vídeo"
 
 #, fuzzy
 #~ msgid "Select the port used"
@@ -32200,7 +32236,7 @@ msgstr "Lista do Gestor de Media"
 
 #, fuzzy
 #~ msgid "Quality:"
-#~ msgstr "Nível de qualidade"
+#~ msgstr "Qualidade VBR"
 
 #, fuzzy
 #~ msgid "Sound:"
