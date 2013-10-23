@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-09-21 15:06+0200\n"
-"PO-Revision-Date: 2013-09-20 22:13+0000\n"
+"PO-Revision-Date: 2013-10-02 21:27+0000\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian (http://www.transifex.com/projects/p/vlc-trans/"
 "language/sl/)\n"
@@ -3146,6 +3146,7 @@ msgstr "Potrdilo strežnika HTTP/TLS"
 #: src/libvlc-module.c:829
 msgid "This X.509 certicate file (PEM format) is used for server-side TLS."
 msgstr ""
+"Ta datoteka potrdila X.509 (zapis PEM) se uporablja za strežniško stran TLS."
 
 #: src/libvlc-module.c:831
 msgid "HTTP/TLS server private key"
@@ -3154,6 +3155,8 @@ msgstr "Zasebni ključ strežnika HTTP/TLS"
 #: src/libvlc-module.c:833
 msgid "This private key file (PEM format) is used for server-side TLS."
 msgstr ""
+"Ta datoteka zasebnega ključa (zapis PEM) se uporablja za strežniško stran "
+"TLS."
 
 #: src/libvlc-module.c:835
 msgid "HTTP/TLS Certificate Authority"
@@ -20250,9 +20253,8 @@ msgid "Network Access Policy"
 msgstr ""
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:98
-#, fuzzy
 msgid "Automatically retrieve media info"
-msgstr "Samodejno nastavi ojačanje videa."
+msgstr ""
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:103
 msgid "Regularly check for VLC updates"
