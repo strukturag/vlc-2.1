@@ -4,8 +4,9 @@
 #
 # Translators:
 # Calixte, 2013
+# Eramdam <damien.erambert@me.com>, 2013
+# Éric Lassauge <lassauge {AT} users {dot} sourceforge {dot} net>, 2013
 # sebasthug <sebhug@free.fr>, 2013
-#  Éric Lassauge <lassauge {AT} users {dot} sourceforge {dot} net> - June 2013
 # Previous Translators
 #  Samuel Hocevar <sam@zoy.org>
 #  Jean-Pierre Kuypers <Kuypers@sri.ucl.ac.be>
@@ -16,8 +17,8 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-09-21 15:06+0200\n"
-"PO-Revision-Date: 2013-09-09 08:20+0000\n"
-"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"PO-Revision-Date: 2013-10-15 18:13+0000\n"
+"Last-Translator: Eric Lassauge <lassauge@users.sourceforge.net>\n"
 "Language-Team: French (http://www.transifex.com/projects/p/vlc-trans/"
 "language/fr/)\n"
 "Language: fr\n"
@@ -175,7 +176,7 @@ msgstr "Les filtres vidéo permettent de traiter le flux vidéo."
 
 #: include/vlc_config_cat.h:84
 msgid "Subtitles / OSD"
-msgstr "Sous-titres / OSD"
+msgstr "Sous-titres & OSD"
 
 #: include/vlc_config_cat.h:85
 msgid ""
@@ -891,7 +892,9 @@ msgstr ""
 #: src/config/help.c:792
 #, c-format
 msgid "Compiled by %s on %s (%s)\n"
-msgstr "Compilé par %s sur %s (%s)\n"
+msgstr ""
+"Compilé par %s sur %s (%s)\n"
+"Traduction : Éric Lassauge - Team français traduction VLC\n"
 
 #: src/config/help.c:794
 #, c-format
@@ -3260,6 +3263,8 @@ msgid ""
 "This file contains an optional CRL to prevent remote clients from using "
 "revoked certificates in TLS sessions."
 msgstr ""
+"Ce fichier contient un CRL optionnel pour éviter que de clients  supprimés "
+"utilisent des certificats révoqués pour des sessions TLS."
 
 #: src/libvlc-module.c:845
 msgid "SOCKS server"
@@ -11814,7 +11819,7 @@ msgstr "Décodeur vidéo PNG"
 
 #: modules/codec/qsv.c:56
 msgid "Enable software mode"
-msgstr ""
+msgstr "Activer le mode par programme"
 
 #: modules/codec/qsv.c:57
 msgid ""
@@ -11891,7 +11896,7 @@ msgstr ""
 
 #: modules/codec/qsv.c:100
 msgid "Rate Control Method"
-msgstr ""
+msgstr "Méthode de contrôle du débit"
 
 #: modules/codec/qsv.c:102
 msgid ""
@@ -11942,7 +11947,7 @@ msgstr ""
 
 #: modules/codec/qsv.c:122
 msgid "Maximum Bitrate"
-msgstr ""
+msgstr "Débit maximum"
 
 #: modules/codec/qsv.c:123
 msgid ""
@@ -11975,7 +11980,7 @@ msgstr ""
 
 #: modules/codec/qsv.c:139
 msgid "Number of slices per frame"
-msgstr ""
+msgstr "Nombre d'images de référence par trame"
 
 #: modules/codec/qsv.c:140
 msgid ""
@@ -16256,7 +16261,9 @@ msgstr ""
 
 #: modules/gui/macosx/about.m:115
 msgid "Compiled by %s with %@"
-msgstr "Compilé par %s avec %@"
+msgstr ""
+"Compilé par %s avec %@\n"
+"Traduction : Éric Lassauge - Team français traduction VLC "
 
 #: modules/gui/macosx/about.m:132 modules/gui/qt4/dialogs/help.cpp:94
 msgid ""
@@ -18939,6 +18946,10 @@ msgid ""
 "that only a small part of the MMS protocol is supported (MMS encapsulated in "
 "HTTP)."
 msgstr ""
+"Utilisez ceci pour diffuser vers plusieurs ordinateurs en utilisant le "
+"protocole Microsoft MMS. Ce protocole est utilisé comme méthode de transport "
+"par les logiciels Microsoft. Veuillez noter que seule une partie du "
+"protocole MMS est gérée (MMS encapsulé dans HTTP)"
 
 #: modules/gui/macosx/wizard.m:270 modules/gui/macosx/wizard.m:280
 msgid "Enter the address of the computer to stream to."
@@ -19631,16 +19642,16 @@ msgstr " Position : %s/%s"
 
 #: modules/gui/ncurses.c:1099
 msgid " Volume   : Mute"
-msgstr ""
+msgstr "Volume : muet"
 
 #: modules/gui/ncurses.c:1100
 #, c-format
 msgid " Volume   : %3ld%%"
-msgstr ""
+msgstr "Volume : %3ld%%"
 
 #: modules/gui/ncurses.c:1100
 msgid " Volume   : ----"
-msgstr ""
+msgstr "Volume : ----"
 
 #: modules/gui/ncurses.c:1106
 #, c-format
@@ -19964,7 +19975,7 @@ msgstr "500 Hz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1210
 msgid "2 KHz"
-msgstr ""
+msgstr "2 KHz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1211
 msgid "4 KHz"
@@ -21419,7 +21430,7 @@ msgstr "&Préférences"
 
 #: modules/gui/qt4/menus.cpp:460
 msgid "&View"
-msgstr "&Vue"
+msgstr "&Présentation"
 
 #: modules/gui/qt4/menus.cpp:481
 msgid "Play&list"
@@ -24072,7 +24083,7 @@ msgstr "Overlay/Sous-titres"
 
 #: modules/text_renderer/freetype.c:155
 msgid "Monospace Font"
-msgstr ""
+msgstr "Police proportionnelle"
 
 #: modules/text_renderer/freetype.c:157
 msgid "Font family for the font you want to use"
@@ -28046,7 +28057,7 @@ msgstr "Analyseur de spectre"
 
 #: modules/visualization/vsxu.cpp:62 modules/visualization/vsxu.cpp:63
 msgid "vsxu"
-msgstr ""
+msgstr "vsxu"
 
 #: share/lua/http/dialogs/batch_window.html:28
 msgid "#paste your VLM commands here"
@@ -31935,7 +31946,7 @@ msgstr "Liste du gestionnaire de médias"
 
 #, fuzzy
 #~ msgid "Number of lines for change"
-#~ msgstr "Nombre de canaux audio"
+#~ msgstr "Nombre d'images de référence par trame"
 
 #, fuzzy
 #~ msgid "Number of non black pixels "
@@ -32022,7 +32033,7 @@ msgstr "Liste du gestionnaire de médias"
 
 #, fuzzy
 #~ msgid "Enable desktop mode "
-#~ msgstr "Mode Méga Bass"
+#~ msgstr "Activer le mode par programme"
 
 #, fuzzy
 #~ msgid "Windows GAPI video output"
