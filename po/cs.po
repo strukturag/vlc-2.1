@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the VLC package.
 #
 # Translators:
+# kalerme <suchaalena@email.cz>, 2013
 # Jakub Žáček <dawon.cz@gmail.com>, 2009
 # Kamil Páral <ripper42@gmail.com>, 2009
 # Martin Zicha <zicha@centrum.cz>, 2012
@@ -20,8 +21,8 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-09-21 15:06+0200\n"
-"PO-Revision-Date: 2013-05-04 09:16+0000\n"
-"Last-Translator: Tomáš Chvátal <tomas.chvatal@gmail.com>\n"
+"PO-Revision-Date: 2013-10-21 19:11+0000\n"
+"Last-Translator: kalerme <suchaalena@email.cz>\n"
 "Language-Team: Czech (http://www.transifex.com/projects/p/vlc-trans/language/"
 "cs/)\n"
 "Language: cs\n"
@@ -2295,6 +2296,8 @@ msgid ""
 "Comma separated list of crop ratios which will be added in the interface's "
 "crop ratios list."
 msgstr ""
+"Čárkou oddělený seznam poměrů stran, který bude přidán do seznamu poměrů "
+"stran v rozhraní."
 
 #: src/libvlc-module.c:450
 msgid "Custom aspect ratios list"
@@ -2395,6 +2398,8 @@ msgid ""
 "as the DVD or VCD device, the network interface settings or the subtitle "
 "channel."
 msgstr ""
+"Tato nastavení vám umožní změnit chování vnitřního subsystému, jako je DVD "
+"či VCD mechanika,  nastavení síťového rozhraní nebo titulků."
 
 #: src/libvlc-module.c:501
 msgid "File caching (ms)"
@@ -2449,6 +2454,8 @@ msgid ""
 "It is possible to disable the input clock synchronisation for real-time "
 "sources. Use this if you experience jerky playback of network streams."
 msgstr ""
+"Pro zdroje v reálném čase je možné vypnout vstupní synchronizaci času. "
+"Použijte tuto možnost, pokud přehrávání ze streamu není plynulé. "
 
 #: src/libvlc-module.c:528
 msgid "Clock jitter"
@@ -2459,6 +2466,8 @@ msgid ""
 "This defines the maximum input delay jitter that the synchronization "
 "algorithms should try to compensate (in milliseconds)."
 msgstr ""
+"Toto definuje maximální hodnotu vstupního kolísání zpoždění, které by se "
+"synchronizační algoritmy měly snažit kompenzovat (v milisekundách)."
 
 #: src/libvlc-module.c:533
 msgid "Network synchronisation"
@@ -2469,6 +2478,8 @@ msgid ""
 "This allows you to remotely synchronise clocks for server and client. The "
 "detailed settings are available in Advanced / Network Sync."
 msgstr ""
+"Toto vám umožní vzdáleně synchronizovat hodiny serveru a klienta. Podrobná "
+"nastavení jsou k dispozici v Pokročilé / Síťové synch."
 
 #: src/libvlc-module.c:540 src/video_output/vout_intf.c:96
 #: src/video_output/vout_intf.c:114 modules/access/dshow/dshow.cpp:92
@@ -11119,9 +11130,8 @@ msgid "PNG video decoder"
 msgstr ""
 
 #: modules/codec/qsv.c:56
-#, fuzzy
 msgid "Enable software mode"
-msgstr "Povolit režim obrázku na pozadí"
+msgstr ""
 
 #: modules/codec/qsv.c:57
 msgid ""
@@ -11130,9 +11140,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/qsv.c:61
-#, fuzzy
 msgid "Codec Profile"
-msgstr "Vybrat profil"
+msgstr ""
 
 #: modules/codec/qsv.c:63
 msgid ""
@@ -11142,9 +11151,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/qsv.c:67
-#, fuzzy
 msgid "Codec Level"
-msgstr "Název kodeku"
+msgstr ""
 
 #: modules/codec/qsv.c:69
 msgid ""
@@ -11185,9 +11193,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/qsv.c:90
-#, fuzzy
 msgid "IDR interval"
-msgstr "Rozmezí hlídání"
+msgstr ""
 
 #: modules/codec/qsv.c:92
 msgid ""
@@ -11210,9 +11217,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/qsv.c:105
-#, fuzzy
 msgid "Quantization parameter"
-msgstr "Parametry terestriálního příjmu"
+msgstr ""
 
 #: modules/codec/qsv.c:106
 msgid ""
@@ -11252,9 +11258,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/qsv.c:122
-#, fuzzy
 msgid "Maximum Bitrate"
-msgstr "Maximální datový tok"
+msgstr ""
 
 #: modules/codec/qsv.c:123
 msgid ""
@@ -11286,9 +11291,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/qsv.c:139
-#, fuzzy
 msgid "Number of slices per frame"
-msgstr "Počet segmentů"
+msgstr ""
 
 #: modules/codec/qsv.c:140
 msgid ""
@@ -11302,9 +11306,8 @@ msgid "Number of reference frames"
 msgstr ""
 
 #: modules/codec/qsv.c:148
-#, fuzzy
 msgid "Number of parallel operations"
-msgstr "Počet řad ve skládačce"
+msgstr ""
 
 #: modules/codec/qsv.c:149
 msgid ""
@@ -20371,7 +20374,7 @@ msgstr "Přidat soubor s titulky..."
 
 #: modules/gui/qt4/menus.cpp:639
 msgid "Sub &Track"
-msgstr ""
+msgstr "Stopa &titulků"
 
 #: modules/gui/qt4/menus.cpp:662
 msgid "Video &Track"
@@ -27207,9 +27210,8 @@ msgid "Default caching policy"
 msgstr "Výchozí pravidla mezipaměti"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:514
-#, fuzzy
 msgid "Menus language:"
-msgstr "Jazyk zvukové stopy"
+msgstr "Jazyk nabídek:"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:515
 msgid "Look and feel"
@@ -27585,5 +27587,6 @@ msgstr "AAAA; "
 msgid "Media Manager List"
 msgstr "Seznam správců médií"
 
+#, fuzzy
 #~ msgid "Add a subtitle file"
-#~ msgstr "Přidat soubor s titulky"
+#~ msgstr "Použít soubor s &titulky"
