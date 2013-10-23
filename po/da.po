@@ -28,8 +28,8 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-09-21 15:06+0200\n"
-"PO-Revision-Date: 2013-09-09 08:20+0000\n"
-"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"PO-Revision-Date: 2013-09-28 16:14+0000\n"
+"Last-Translator: Aputsiaĸ Niels Janussen <aj@isit.gl>\n"
 "Language-Team: Danish (http://www.transifex.com/projects/p/vlc-trans/"
 "language/da/)\n"
 "Language: da\n"
@@ -3935,7 +3935,7 @@ msgstr "Forlad fuldskærmstilstand"
 
 #: src/libvlc-module.c:1206
 msgid "Select the hotkey to use to exit fullscreen state."
-msgstr ""
+msgstr "Vælg den tastaturgenvej, der får tilstanden fuldskærm til at ophøre."
 
 #: src/libvlc-module.c:1207 modules/gui/macosx/ControlsBar.m:52
 #: modules/gui/macosx/fspanel.m:418
@@ -4586,7 +4586,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1384
 msgid "Show controller in fullscreen"
-msgstr ""
+msgstr "Vis kontroller i fuldskærm"
 
 #: src/libvlc-module.c:1385
 msgid "Boss key"
@@ -7366,11 +7366,11 @@ msgstr "Indtast venligst et gyldigt logindnavn og en adgangskode."
 
 #: modules/access/live555.cpp:655
 msgid "RTSP connection failed"
-msgstr ""
+msgstr "RTSP-forbindelsen mislykkedes"
 
 #: modules/access/live555.cpp:656
 msgid "Access to the stream is denied by the server configuration."
-msgstr ""
+msgstr "Adgang til strømmen nægtes gennem serverkonfigurationen."
 
 #: modules/access/mms/mms.c:49
 msgid "Force selection of all streams"
@@ -7433,7 +7433,7 @@ msgstr "VLC kunne ikke læse filen."
 #: modules/access/mtp.c:292 modules/access/vdr.c:536
 #, c-format
 msgid "VLC could not open the file \"%s\". (%m)"
-msgstr ""
+msgstr "VLC kunne ikke åbne filen \"%s\". (%m)"
 
 #: modules/access/oss.c:66
 msgid "Capture the audio stream in stereo."
@@ -7486,15 +7486,15 @@ msgstr "Formater tid og dato"
 
 #: modules/access_output/file.c:72
 msgid "Perform ISO C time and date formatting on the file path"
-msgstr ""
+msgstr "Udfør tids- og datoformattering i ISO C på filstien"
 
 #: modules/access_output/file.c:74
 msgid "Synchronous writing"
-msgstr ""
+msgstr "Synkroniseret skrivning"
 
 #: modules/access_output/file.c:75
 msgid "Open the file with synchronous writing."
-msgstr ""
+msgstr "Åbner filen med synkroniseret skrivning."
 
 #: modules/access_output/file.c:78
 msgid "File stream output"
@@ -7558,11 +7558,11 @@ msgstr "Segmentlængde"
 
 #: modules/access_output/livehttp.c:70
 msgid "Length of TS stream segments"
-msgstr ""
+msgstr "Længden på TS-strømsegmenter"
 
 #: modules/access_output/livehttp.c:72
 msgid "Split segments anywhere"
-msgstr ""
+msgstr "Opdel segmenter hvor som helst"
 
 #: modules/access_output/livehttp.c:73
 msgid ""
@@ -7575,7 +7575,7 @@ msgstr "Antal segmenter"
 
 #: modules/access_output/livehttp.c:77
 msgid "Number of segments to include in index"
-msgstr ""
+msgstr "Antallet af segmenter, der skal indgå i indeks"
 
 #: modules/access_output/livehttp.c:79
 msgid "Allow cache"
@@ -8344,11 +8344,11 @@ msgstr "Tunerens mono-/stereotilstand samt sporvalg."
 
 #: modules/access/v4l2/v4l2.c:82
 msgid "Reset controls"
-msgstr ""
+msgstr "Nulstil kontroller"
 
 #: modules/access/v4l2/v4l2.c:83
 msgid "Reset controls to defaults."
-msgstr ""
+msgstr "Nulstil kontroller til standardindstillingerne."
 
 #: modules/access/v4l2/v4l2.c:84 modules/gui/macosx/VideoEffects.m:92
 #: modules/video_filter/atmo/atmo.cpp:263
@@ -8358,7 +8358,7 @@ msgstr "Lysstyrke"
 
 #: modules/access/v4l2/v4l2.c:85
 msgid "Picture brightness or black level."
-msgstr ""
+msgstr "Lysstyrke på billede eller niveau for sort."
 
 #: modules/access/v4l2/v4l2.c:86
 msgid "Automatic brightness"
@@ -8375,7 +8375,7 @@ msgstr "Kontrast"
 
 #: modules/access/v4l2/v4l2.c:90
 msgid "Picture contrast or luma gain."
-msgstr ""
+msgstr "Billedkontrast eller forøgelse af lysstyrke."
 
 #: modules/access/v4l2/v4l2.c:91 modules/gui/macosx/VideoEffects.m:94
 #: modules/gui/macosx/VideoEffects.m:134
@@ -8386,7 +8386,7 @@ msgstr "Mætning"
 
 #: modules/access/v4l2/v4l2.c:92
 msgid "Picture saturation or chroma gain."
-msgstr ""
+msgstr "Billedmætning eller farveforøgelse."
 
 #: modules/access/v4l2/v4l2.c:93 modules/gui/macosx/VideoEffects.m:90
 #: modules/gui/qt4/ui/video_effects.h:1303
@@ -8395,25 +8395,27 @@ msgstr "Nuance"
 
 #: modules/access/v4l2/v4l2.c:94
 msgid "Hue or color balance."
-msgstr ""
+msgstr "Farvetone eller farvebalance."
 
 #: modules/access/v4l2/v4l2.c:95
 msgid "Automatic hue"
-msgstr ""
+msgstr "Automatisk farvetone"
 
 #: modules/access/v4l2/v4l2.c:97
 msgid "Automatically adjust the picture hue."
-msgstr ""
+msgstr "Tilpas billedets farvetone automatisk."
 
 #: modules/access/v4l2/v4l2.c:98
 msgid "White balance temperature (K)"
-msgstr ""
+msgstr "Temperatur for hvidbalance (K)"
 
 #: modules/access/v4l2/v4l2.c:100
 msgid ""
 "White balance temperature as a color temperation in Kelvin (2800 is minimum "
 "incandescence, 6500 is maximum daylight)."
 msgstr ""
+"Temperaturen for hvidbalance som en farvetemperatur i kelvin (2800 er den "
+"minimale glød af hvid, 6500 er maksimum for dagslys)."
 
 #: modules/access/v4l2/v4l2.c:102
 msgid "Automatic white balance"
@@ -8429,7 +8431,7 @@ msgstr "Rødbalance"
 
 #: modules/access/v4l2/v4l2.c:107
 msgid "Red chroma balance."
-msgstr ""
+msgstr "Balance for rødkroma."
 
 #: modules/access/v4l2/v4l2.c:108
 msgid "Blue balance"
@@ -8437,7 +8439,7 @@ msgstr "Blåbalance"
 
 #: modules/access/v4l2/v4l2.c:110
 msgid "Blue chroma balance."
-msgstr ""
+msgstr "Balance for blåkroma."
 
 #: modules/access/v4l2/v4l2.c:111 modules/gui/macosx/VideoEffects.m:95
 #: modules/gui/qt4/ui/video_effects.h:1308
@@ -8446,15 +8448,15 @@ msgstr "Gamma"
 
 #: modules/access/v4l2/v4l2.c:113
 msgid "Gamma adjust."
-msgstr ""
+msgstr "Tilpasning af gamma."
 
 #: modules/access/v4l2/v4l2.c:114
 msgid "Automatic gain"
-msgstr ""
+msgstr "Automatisk forstærkning"
 
 #: modules/access/v4l2/v4l2.c:116
 msgid "Automatically set the video gain."
-msgstr ""
+msgstr "Indstil videoforstærkningen automatisk."
 
 #: modules/access/v4l2/v4l2.c:117 modules/audio_filter/gain.c:62
 msgid "Gain"
@@ -8462,7 +8464,7 @@ msgstr "Forstærkning"
 
 #: modules/access/v4l2/v4l2.c:119
 msgid "Picture gain."
-msgstr ""
+msgstr "Billedforstærkning."
 
 #: modules/access/v4l2/v4l2.c:120
 msgid "Sharpness"
@@ -8474,19 +8476,19 @@ msgstr "Tilpas skarphedsfilter."
 
 #: modules/access/v4l2/v4l2.c:122
 msgid "Chroma gain"
-msgstr ""
+msgstr "Kromaforstærkning"
 
 #: modules/access/v4l2/v4l2.c:123
 msgid "Chroma gain control."
-msgstr ""
+msgstr "Kontrol af kromaforstærkning"
 
 #: modules/access/v4l2/v4l2.c:124
 msgid "Automatic chroma gain"
-msgstr ""
+msgstr "Automatisk kromaforstærkning"
 
 #: modules/access/v4l2/v4l2.c:126
 msgid "Automatically control the chroma gain."
-msgstr ""
+msgstr "Automatisk kontrol af kromaforstærkningen."
 
 #: modules/access/v4l2/v4l2.c:127
 msgid "Power line frequency"
@@ -30402,20 +30404,12 @@ msgstr "Mediestyringsliste"
 #~ msgstr "Vis alle avancerede indstillinger i dialogerne."
 
 #, fuzzy
-#~ msgid "Automatic multicast streaming"
-#~ msgstr "Automatisk beskæring"
-
-#, fuzzy
 #~ msgid "Growl UDP port"
 #~ msgstr "Kommando UDP port"
 
 #, fuzzy
 #~ msgid "Number of consecutive B-frames between I and P-frames. (1 to 16)"
 #~ msgstr "Antal P-frames mellem 2 I-frames"
-
-#, fuzzy
-#~ msgid "Automatic black border cropping."
-#~ msgstr "Automatisk beskæring"
 
 #~ msgid "Bitrate mode (vbr or cbr)"
 #~ msgstr "Bitrate indstilling (VBR eller CBR)"
@@ -30437,6 +30431,14 @@ msgstr "Mediestyringsliste"
 #~ msgstr "_Moduler..."
 
 #, fuzzy
+#~ msgid "Automatic multicast streaming"
+#~ msgstr "Automatisk kromaforstærkning"
+
+#, fuzzy
+#~ msgid "Automatic black border cropping."
+#~ msgstr "Automatisk kontrol af kromaforstærkningen."
+
+#, fuzzy
 #~ msgid "HTTP interace Certificates Revocation List file."
 #~ msgstr "Liste med tilbagekaldelser af HTTP/TLS-certifikater"
 
@@ -30452,7 +30454,7 @@ msgstr "Mediestyringsliste"
 
 #, fuzzy
 #~ msgid "Automatically save the volume on exit"
-#~ msgstr "Automatisk justering af billedets lysstyrke."
+#~ msgstr "Indstil videoforstærkningen automatisk."
 
 #, fuzzy
 #~ msgid "Force mono audio"
@@ -31212,7 +31214,7 @@ msgstr "Mediestyringsliste"
 
 #, fuzzy
 #~ msgid "Automatic cropping"
-#~ msgstr "Automatisk lysstyrke"
+#~ msgstr "Automatisk kromaforstærkning"
 
 #, fuzzy
 #~ msgid "Configuration file"
@@ -32071,7 +32073,7 @@ msgstr "Mediestyringsliste"
 
 #, fuzzy
 #~ msgid "Extended controls"
-#~ msgstr "Udvidet panel"
+#~ msgstr "Nulstil kontroller"
 
 #, fuzzy
 #~ msgid "General editing filters"
