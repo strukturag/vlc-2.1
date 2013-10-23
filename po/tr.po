@@ -9,6 +9,8 @@
 # Caner BAŞARAN <basaran.caner@gmail.com>, 2013
 # Kaya Zeren <kayazeren@gmail.com>, 2012-2013
 # MehmetE <byscul@gmail.com>, 2013
+# muaz742, 2013
+# Özgür Turanlı, 2013
 # cebeci88 <servet.cebeci@hotmail.com>, 2013
 # Ufuk Uyumaz <ufukuyumaz@gmail.com>, 2013
 # Yaşar TAY <yasartay@yahoo.com>, 2009
@@ -17,8 +19,8 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-09-21 15:06+0200\n"
-"PO-Revision-Date: 2013-09-09 08:20+0000\n"
-"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"PO-Revision-Date: 2013-10-13 01:20+0000\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/projects/p/vlc-trans/"
 "language/tr/)\n"
 "Language: tr\n"
@@ -2625,7 +2627,7 @@ msgstr "Varsayılan"
 #: modules/gui/qt4/components/extended_panels.cpp:1024
 #: modules/gui/qt4/ui/equalizer.h:134 modules/gui/qt4/ui/vlm.h:290
 msgid "Enable"
-msgstr "Etkin"
+msgstr "Etkinleştir"
 
 #: src/libvlc-module.c:542
 msgid "MTU of the network interface"
@@ -3420,43 +3422,43 @@ msgstr "Akış alınmaktayken yerel olarak oynatılır."
 
 #: src/libvlc-module.c:931
 msgid "Enable video stream output"
-msgstr "Görüntü akış çıkışını etkinleştirin"
+msgstr "Görüntü akış çıkışı kullanılsın"
 
 #: src/libvlc-module.c:933
 msgid ""
 "Choose whether the video stream should be redirected to the stream output "
 "facility when this last one is enabled."
 msgstr ""
-"Akış çıkış birimi etkinleştirildiğinde, görüntü akışının akış çıkış birimine "
+"Bu sonuncusu etkinleştirildiğinde, görüntü akışının, akış çıkış birimine "
 "yeniden yönlendirilip yönlendirilmeyeceğini seçin."
 
 #: src/libvlc-module.c:936
 msgid "Enable audio stream output"
-msgstr "Ses akış çıkışını etkinleştir"
+msgstr "Ses akış çıkışı kullanılsın"
 
 #: src/libvlc-module.c:938
 msgid ""
 "Choose whether the audio stream should be redirected to the stream output "
 "facility when this last one is enabled."
 msgstr ""
-"Akış çıkış birimi etkinleştirildiğinde, ses akışının akış çıkış birimine "
-"yeniden yönlendirilip yönlendirilmeyeceğini seçin."
+"Bu sonuncusu etkinleştirildiğinde, ses akışının, akış çıkış birimine yeniden "
+"yönlendirilip yönlendirilmeyeceğini seçin."
 
 #: src/libvlc-module.c:941
 msgid "Enable SPU stream output"
-msgstr "SPU akış çıkışını etkinleştir"
+msgstr "SPU akış çıkışı kullanılsın"
 
 #: src/libvlc-module.c:943
 msgid ""
 "Choose whether the SPU streams should be redirected to the stream output "
 "facility when this last one is enabled."
 msgstr ""
-"Akış çıkış birimi etkinleştirildiğinde, SPU akışlarının akış çıkış birimine "
-"yeniden yönlendirilip yönlendirilmeyeceğini seçin."
+"Bu sonuncusu etkinleştirildiğinde, SPU akışının, akış çıkış birimine yeniden "
+"yönlendirilip yönlendirilmeyeceğini seçin."
 
 #: src/libvlc-module.c:946
 msgid "Keep stream output open"
-msgstr "Akış çıkışını açık tut"
+msgstr "Akış çıkışı açık tutulsun"
 
 #: src/libvlc-module.c:948
 msgid ""
@@ -3464,8 +3466,8 @@ msgid ""
 "playlist item (automatically insert the gather stream output if not "
 "specified)"
 msgstr ""
-"Bu seçenek çoklu oynatma listesi ögesine tek bir akış çıkışı atanmasını "
-"sağlar. Belirtilmezse kendiliğinden toplu akış çıkışı ekler."
+"Bu seçenek kullanılarak, birden çok oynatma listesi ögesine eşsiz bir akış "
+"çıkışı atanır. Belirtilmezse kendiliğinden toplu akış çıkışı eklenir."
 
 #: src/libvlc-module.c:952
 msgid "Stream output muxer caching (ms)"
@@ -3487,8 +3489,8 @@ msgstr "Yeğlenen paketleyici listesi"
 msgid ""
 "This allows you to select the order in which VLC will choose its packetizers."
 msgstr ""
-"Bu seçenek VLC yazılımının paketleyicileri hangi sırayla seçeceğini "
-"belirlemenizi sağlar."
+"Bu seçenek kullanılarak, VLC yazılımının paketleyicileri hangi sırayla "
+"seçeceği belirlenir."
 
 #: src/libvlc-module.c:962
 msgid "Mux module"
@@ -3496,48 +3498,44 @@ msgstr "Çoklayıcı modülü"
 
 #: src/libvlc-module.c:964
 msgid "This is a legacy entry to let you configure mux modules"
-msgstr ""
-"Bu seçenek, çoklayıcı modüllerini yapılandırabilmeniz için bırakılmış bir "
-"miras kayıdıdır"
+msgstr "Bu eski seçenek kullanılarak, çoklayıcı modülleri ayarlanabilir"
 
 #: src/libvlc-module.c:966
 msgid "Access output module"
-msgstr "Erişim çıkış modülü"
+msgstr "Çıkış modülü erişimi"
 
 #: src/libvlc-module.c:968
 msgid "This is a legacy entry to let you configure access output modules"
-msgstr ""
-"Bu seçenek, erişim çıkış modüllerini yapılandırabilmeniz için bırakılmış bir "
-"devralma kaydıdır"
+msgstr "Bu eski seçenek kullanılarak, erişim çıkış modülleri ayarlanabilir"
 
 #: src/libvlc-module.c:971
 msgid ""
 "If this option is enabled, the flow on the SAP multicast address will be "
 "controlled. This is needed if you want to make announcements on the MBone."
 msgstr ""
-"Bu seçenek etkinleştirildiğinde SAP multicast adreslerine yapılan akış "
-"denetlenecektir. MBone üzerinden duyurular yapmak istiyorsanız buna gerek "
+"Bu seçenek etkinleştirildiğinde, SAP multicast adreslerine yapılan akış "
+"denetlenir. Bu seçeneğe MBone üzerinden duyuru yapılmak istendiğinde gerek "
 "duyulur."
 
 #: src/libvlc-module.c:975
 msgid "SAP announcement interval"
-msgstr "SAP anons aralığı"
+msgstr "SAP duyuru aralığı"
 
 #: src/libvlc-module.c:977
 msgid ""
 "When the SAP flow control is disabled, this lets you set the fixed interval "
 "between SAP announcements."
 msgstr ""
-"Bu seçenek, SAP akış denetimi devre dışı bırakıldığında, SAP duyuruları "
-"arasındaki sabit aralığı ayarlamanızı sağlar."
+"Bu seçenek kullanılarak, SAP akış denetimi devre dışı iken, SAP duyuruları "
+"arasındaki sabit aralık ayarlanabilir."
 
 #: src/libvlc-module.c:986
 msgid ""
 "These options allow you to select default modules. Leave these alone unless "
 "you really know what you are doing."
 msgstr ""
-"Bu seçenekler varsayılan modülleri seçmenizi sağlar. Ne yaptığınızı "
-"gerçekten bilmeden bunları değiştirmeyin."
+"Bu seçenekler kullanılarak varsayılan modüller seçilebilir. Ne yaptığınızı "
+"gerçekten bilmiyorsanız bunları değiştirmeyin."
 
 #: src/libvlc-module.c:989
 msgid "Access module"
@@ -3835,7 +3833,7 @@ msgstr "VLC, kesilene kadar oynatma listesindeki dosyaları rastgele oynatır."
 
 #: src/libvlc-module.c:1137
 msgid "Repeat all"
-msgstr "Tümünü yineleyin"
+msgstr "Tümünü tekrarla"
 
 #: src/libvlc-module.c:1139
 msgid "VLC will keep playing the playlist indefinitely."
@@ -3843,7 +3841,7 @@ msgstr "VLC oynatma listesini durmadan sürekli oynatır."
 
 #: src/libvlc-module.c:1141
 msgid "Repeat current item"
-msgstr "Şu anki ögeyi yinele"
+msgstr "Şu anki ögeyi tekrarla"
 
 #: src/libvlc-module.c:1143
 msgid "VLC will keep playing the current playlist item."
@@ -32279,7 +32277,7 @@ msgstr "Ortam Yöneticisi Listesi"
 
 #, fuzzy
 #~ msgid "Select current widget"
-#~ msgstr "Şu anki ögeyi yinele"
+#~ msgstr "Şu anki ögeyi tekrarla"
 
 #, fuzzy
 #~ msgid "CPU"
@@ -33525,7 +33523,7 @@ msgstr "Ortam Yöneticisi Listesi"
 
 #, fuzzy
 #~ msgid "MPEG2 video switcher stream output"
-#~ msgstr "Görüntü akış çıkışını etkinleştirin"
+#~ msgstr "Görüntü akış çıkışı kullanılsın"
 
 #, fuzzy
 #~ msgid "Audio Language"
@@ -34247,19 +34245,19 @@ msgstr "Ortam Yöneticisi Listesi"
 
 #, fuzzy
 #~ msgid "Enable CPU MMX support"
-#~ msgstr "SPU akış çıkışını etkinleştir"
+#~ msgstr "SPU akış çıkışı kullanılsın"
 
 #, fuzzy
 #~ msgid "Enable CPU 3D Now! support"
-#~ msgstr "SPU akış çıkışını etkinleştir"
+#~ msgstr "SPU akış çıkışı kullanılsın"
 
 #, fuzzy
 #~ msgid "Enable CPU SSE support"
-#~ msgstr "SPU akış çıkışını etkinleştir"
+#~ msgstr "SPU akış çıkışı kullanılsın"
 
 #, fuzzy
 #~ msgid "Enable CPU AltiVec support"
-#~ msgstr "SPU akış çıkışını etkinleştir"
+#~ msgstr "SPU akış çıkışı kullanılsın"
 
 #, fuzzy
 #~ msgid ""
@@ -35462,7 +35460,7 @@ msgstr "Ortam Yöneticisi Listesi"
 
 #, fuzzy
 #~ msgid "Enable FPU support"
-#~ msgstr "SPU akış çıkışını etkinleştir"
+#~ msgstr "SPU akış çıkışı kullanılsın"
 
 #, fuzzy
 #~ msgid "CD reading failed"
@@ -35482,7 +35480,7 @@ msgstr "Ortam Yöneticisi Listesi"
 
 #, fuzzy
 #~ msgid "Use CD audio controls and output?"
-#~ msgstr "Ses akış çıkışını etkinleştir"
+#~ msgstr "Ses akış çıkışı kullanılsın"
 
 #, fuzzy
 #~ msgid "CDDB"
@@ -35670,7 +35668,7 @@ msgstr "Ortam Yöneticisi Listesi"
 
 #, fuzzy
 #~ msgid "enable"
-#~ msgstr "Etkin"
+#~ msgstr "Etkinleştir"
 
 #, fuzzy
 #~ msgid "Video:"
@@ -35810,7 +35808,7 @@ msgstr "Ortam Yöneticisi Listesi"
 
 #, fuzzy
 #~ msgid "Show the current item"
-#~ msgstr "Şu anki ögeyi yinele"
+#~ msgstr "Şu anki ögeyi tekrarla"
 
 #, fuzzy
 #~ msgid "Audio Port"
@@ -36001,7 +35999,7 @@ msgstr "Ortam Yöneticisi Listesi"
 
 #, fuzzy
 #~ msgid "MPEG2 video transrating stream output"
-#~ msgstr "Görüntü akış çıkışını etkinleştirin"
+#~ msgstr "Görüntü akış çıkışı kullanılsın"
 
 #, fuzzy
 #~ msgid "Transrate"
@@ -36137,7 +36135,7 @@ msgstr "Ortam Yöneticisi Listesi"
 
 #, fuzzy
 #~ msgid "Force use of dump module"
-#~ msgstr "Erişim çıkış modülü"
+#~ msgstr "Çıkış modülü erişimi"
 
 #, fuzzy
 #~ msgid "Record directory"
@@ -36467,7 +36465,7 @@ msgstr "Ortam Yöneticisi Listesi"
 
 #, fuzzy
 #~ msgid "Enabled"
-#~ msgstr "Etkin"
+#~ msgstr "Etkinleştir"
 
 #, fuzzy
 #~ msgid "Position:"
@@ -37193,7 +37191,7 @@ msgstr "Ortam Yöneticisi Listesi"
 
 #, fuzzy
 #~ msgid "Enable CABAC"
-#~ msgstr "Etkin"
+#~ msgstr "Etkinleştir"
 
 #, fuzzy
 #~ msgid "Analyse mode"
@@ -37541,7 +37539,7 @@ msgstr "Ortam Yöneticisi Listesi"
 
 #, fuzzy
 #~ msgid "enabled"
-#~ msgstr "Etkin"
+#~ msgstr "Etkinleştir"
 
 #, fuzzy
 #~ msgid "Audioscrobbler username"
