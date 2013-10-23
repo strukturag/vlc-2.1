@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-09-21 15:06+0200\n"
-"PO-Revision-Date: 2013-09-09 08:20+0000\n"
-"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"PO-Revision-Date: 2013-09-28 15:14+0000\n"
+"Last-Translator: Thomas De Rocker\n"
 "Language-Team: Dutch (http://www.transifex.com/projects/p/vlc-trans/language/"
 "nl/)\n"
 "Language: nl\n"
@@ -34,7 +34,7 @@ msgstr ""
 "Het programma mag verspreid worden onder de voorwaarden van de GNU General "
 "Public License;\n"
 "zie het bestand COPYING voor details.\n"
-"Geschreven door het VideoLAN team; zie het bestand AUTHORS.\n"
+"Geschreven door het VideoLAN-team; zie het bestand AUTHORS.\n"
 
 #: include/vlc_config_cat.h:33
 msgid "VLC preferences"
@@ -68,11 +68,11 @@ msgstr "Instellingen voor de hoofdinterface"
 
 #: include/vlc_config_cat.h:46 src/libvlc-module.c:81
 msgid "Control interfaces"
-msgstr "Besturingsinterface"
+msgstr "Besturingsinterfaces"
 
 #: include/vlc_config_cat.h:47
 msgid "Settings for VLC's control interfaces"
-msgstr "Instellingen voor VLC's besturingsinterface"
+msgstr "Instellingen voor VLC's besturingsinterfaces"
 
 #: include/vlc_config_cat.h:49 include/vlc_config_cat.h:50
 #: modules/gui/macosx/simple_prefs.m:150
@@ -306,7 +306,7 @@ msgid ""
 "should probably not do that.\n"
 "You can also set default parameters for each access output."
 msgstr ""
-"Toegangsuitvoermodules laten u de manier hoe gemuxte stromen verzonden "
+"Toegangsuitvoermodules laten u de manier hoe gemuxte streams verzonden "
 "worden instellen. Met deze instelling kunt u een bepaalde "
 "toegangsuitvoermethode forceren. U kunt dit beter niet doen.\n"
 "U kunt ook standaardparameters voor iedere toegangsuitvoer instellen."
@@ -798,7 +798,7 @@ msgid ""
 "\n"
 msgstr ""
 "Gebruik: %s [opties] [stream] ...\n"
-"U kunt meerdere streams op de commandoregel ingeven.\n"
+"U kunt meerdere streams in de opdrachtregel ingeven.\n"
 "Ze worden achter elkaar in de afspeellijst geplaatst.\n"
 "Het eerste element wordt als eerste afgespeeld.\n"
 "\n"
@@ -1772,7 +1772,7 @@ msgstr ""
 
 #: src/libvlc-module.c:166 modules/gui/macosx/simple_prefs.m:187
 msgid "Use S/PDIF when available"
-msgstr "Gebruik S/PDIF indien mogelijk"
+msgstr "S/PDIF gebruiken indien mogelijk"
 
 #: src/libvlc-module.c:168
 msgid ""
@@ -3941,15 +3941,15 @@ msgstr "Positieaansturing"
 
 #: src/libvlc-module.c:1199
 msgid "MouseWheel up-down axis Control"
-msgstr "MuisWiel op-neer-as aansturing"
+msgstr "Bediening muiswiel-as verticaal"
 
 #: src/libvlc-module.c:1201
 msgid ""
 "The MouseWheel up-down (vertical) axis can control volume, position or "
 "mousewheel event can be ignored"
 msgstr ""
-"MuisWiel op-neer as (verticaal) kan het volume of de positie aansturen of de "
-"muiswielgebeurtenis kan genegeerd worden"
+"Muiswiel-as omhoog/omlaag (verticaal) kan het volume of de positie aansturen "
+"of de muiswielgebeurtenis kan genegeerd worden"
 
 #: src/libvlc-module.c:1203 src/video_output/vout_intf.c:284
 #: modules/gui/macosx/MainMenu.m:395 modules/gui/macosx/MainMenu.m:471
@@ -4073,7 +4073,7 @@ msgstr ""
 #: modules/gui/qt4/components/controller.hpp:115
 #: modules/gui/qt4/dialogs/vlm.cpp:556 modules/gui/qt4/ui/streampanel.h:181
 msgid "Stop"
-msgstr "Stop"
+msgstr "Stoppen"
 
 #: src/libvlc-module.c:1228
 msgid "Select the hotkey to stop playback."
@@ -4668,15 +4668,15 @@ msgstr "Opnemen-toegangsfilter starten/stoppen"
 
 #: src/libvlc-module.c:1395
 msgid "Normal/Loop/Repeat"
-msgstr "Normaal/loop/herhalen"
+msgstr "Normaal/lus/herhalen"
 
 #: src/libvlc-module.c:1396
 msgid "Toggle Normal/Loop/Repeat playlist modes"
-msgstr "Schakelen tussen normaal/loop/herhalen afspeellijstmodussen."
+msgstr "Schakelen tussen afspeellijstmodus normaal/lus/herhalen."
 
 #: src/libvlc-module.c:1399
 msgid "Toggle random playlist playback"
-msgstr "Random afspeellijst aan/uit"
+msgstr "Willekeurige afspeellijst aan/uit"
 
 #: src/libvlc-module.c:1404 src/libvlc-module.c:1405
 msgid "Un-Zoom"
@@ -4684,35 +4684,35 @@ msgstr "Zoom verwijderen"
 
 #: src/libvlc-module.c:1407 src/libvlc-module.c:1408
 msgid "Crop one pixel from the top of the video"
-msgstr "Eén pixel afsnijden van bovenkant van de video"
+msgstr "Pixel van bovenkant video afsnijden"
 
 #: src/libvlc-module.c:1409 src/libvlc-module.c:1410
 msgid "Uncrop one pixel from the top of the video"
-msgstr "Bijsnijden van pixel aan bovenkant van de video ongedaan maken"
+msgstr "Pixel aan bovenkant video toevoegen"
 
 #: src/libvlc-module.c:1412 src/libvlc-module.c:1413
 msgid "Crop one pixel from the left of the video"
-msgstr "Eén pixel afsnijden van linkerkant van de video"
+msgstr "Pixel van linkerkant video afsnijden"
 
 #: src/libvlc-module.c:1414 src/libvlc-module.c:1415
 msgid "Uncrop one pixel from the left of the video"
-msgstr "Bijsnijden van pixel aan linkerkant van de video ongedaan maken"
+msgstr "Pixel aan linkerkant video toevoegen"
 
 #: src/libvlc-module.c:1417 src/libvlc-module.c:1418
 msgid "Crop one pixel from the bottom of the video"
-msgstr "Eén pixel afsnijden van onderkant van de video"
+msgstr "Pixel van onderkant video afsnijden"
 
 #: src/libvlc-module.c:1419 src/libvlc-module.c:1420
 msgid "Uncrop one pixel from the bottom of the video"
-msgstr "Bijsnijden van pixel aan onderkant van de video ongedaan maken"
+msgstr "Pixel aan onderkant video toevoegen"
 
 #: src/libvlc-module.c:1422 src/libvlc-module.c:1423
 msgid "Crop one pixel from the right of the video"
-msgstr "Eén pixel afsnijden van rechterkant van de video"
+msgstr "Pixel van rechterkant video afsnijden"
 
 #: src/libvlc-module.c:1424 src/libvlc-module.c:1425
 msgid "Uncrop one pixel from the right of the video"
-msgstr "Bijsnijden van pixel aan rechterkant van de video ongedaan maken"
+msgstr "Pixel aan rechterkant video toevoegen"
 
 #: src/libvlc-module.c:1427
 msgid "Toggle wallpaper mode in video output"
@@ -4724,11 +4724,11 @@ msgstr "Bureaubladachtergrondmodus in video-uitvoer aan/uit."
 
 #: src/libvlc-module.c:1431
 msgid "Cycle through audio devices"
-msgstr "Schakel tussen audio-apparaten"
+msgstr "Schakelen tussen audio-apparaten"
 
 #: src/libvlc-module.c:1432
 msgid "Cycle through available audio devices"
-msgstr "Schakel tussen beschikbare audio-apparaten"
+msgstr "Schakelen tussen beschikbare audio-apparaten"
 
 #: src/libvlc-module.c:1560 src/video_output/vout_intf.c:290
 #: modules/gui/macosx/MainMenu.m:397 modules/gui/macosx/MainMenu.m:472
@@ -7469,7 +7469,7 @@ msgstr "RTSP/RTP toegang en demux"
 #: modules/access/live555.cpp:115 modules/access/live555.cpp:116
 #: modules/gui/macosx/simple_prefs.m:214
 msgid "Use RTP over RTSP (TCP)"
-msgstr "Gebruik RTP over RTSP (TCP)"
+msgstr "RTP via RTSP (TCP) gebruiken"
 
 #: modules/access/live555.cpp:119
 msgid "Client port"
@@ -7797,7 +7797,7 @@ msgstr "IV genereren in plaats van segmentnummer te gebruiken als IV"
 
 #: modules/access_output/livehttp.c:108
 msgid "HTTP Live streaming output"
-msgstr "HTTP Live streaming uitvoer"
+msgstr "HTTP live streaming uitvoer"
 
 #: modules/access_output/livehttp.c:109
 msgid "LiveHTTP"
@@ -7887,7 +7887,7 @@ msgid ""
 msgstr ""
 "Maak de server publiekelijk beschikbaar op de 'Yellow Pages' (lijst van "
 "streams) op de icecast/shoutcase website. Vereist de bitrate-informatie voor "
-"shoutcast. Vereist Ogg streaming voor icecast."
+"shoutcast. Vereist Ogg streamen voor icecast."
 
 #: modules/access_output/shout.c:111
 msgid "IceCAST output"
@@ -9536,7 +9536,7 @@ msgstr "Feedback-versterking"
 
 #: modules/audio_filter/chorus_flanger.c:89
 msgid "Gain on Feedback loop"
-msgstr "Gain op Feedback loop"
+msgstr "Versterking op feedback-lus"
 
 #: modules/audio_filter/chorus_flanger.c:91
 msgid "Wet mix"
@@ -11502,7 +11502,7 @@ msgid ""
 msgstr ""
 "Een sound font bestand (.SF2) is nodig voor MIDI synthesis.\n"
 "Installeer een sound font en configureer het vanuit de VLC-voorkeuren "
-"(Invoer / Codecs > Audiocodecs / FluidSynth).\n"
+"(Invoer/codecs > Audiocodecs / FluidSynth).\n"
 
 #: modules/codec/g711.c:45
 msgid "G.711 decoder"
@@ -14397,8 +14397,7 @@ msgstr ""
 
 #: modules/control/rc.c:794
 msgid "| loop [on|off] . . . . . . . . . toggle playlist loop"
-msgstr ""
-"| loop [on|off] . . . . . . . . . (de)activeer herhalen van afspeellijst"
+msgstr "| loop [on|off] . . . . . . . . . herhalen van afspeellijst aan/uit"
 
 #: modules/control/rc.c:795
 msgid "| random [on|off] . . . . . . .  toggle random jumping"
@@ -14818,7 +14817,7 @@ msgstr "Dump bestandsnaam"
 #: modules/demux/demuxdump.c:35
 msgid "Name of the file to which the raw stream will be dumped."
 msgstr ""
-"Naam  van het bestand waar de ruwe stream naartoe geschreven zal worden."
+"Naam van het bestand waar de ruwe stream naartoe geschreven zal worden."
 
 #: modules/demux/demuxdump.c:36
 msgid "Append to existing file"
@@ -16157,7 +16156,7 @@ msgstr ""
 
 #: modules/demux/ts.c:104
 msgid "Fast udp streaming"
-msgstr "Snelle udp streaming"
+msgstr "Snel udp-streamen"
 
 #: modules/demux/ts.c:106
 msgid "Sends TS to specific ip:port by udp (you must know what you are doing)."
@@ -16444,7 +16443,7 @@ msgstr "Dynamisch-bereikcompressor inschakelen"
 #: modules/gui/macosx/VideoEffects.m:96
 #: modules/gui/qt4/dialogs/gototime.cpp:66
 msgid "Reset"
-msgstr "Resetten"
+msgstr "Herstellen"
 
 #: modules/gui/macosx/AudioEffects.m:120
 #: modules/gui/qt4/components/extended_panels.cpp:1380
@@ -16966,11 +16965,11 @@ msgstr "RTSP aankondiging"
 #: modules/gui/macosx/ConvertAndSave.m:206 modules/gui/macosx/output.m:175
 #: modules/gui/macosx/output.m:554
 msgid "Export SDP as file"
-msgstr "Exporteer SDP als bestand"
+msgstr "SDP als bestand exporteren"
 
 #: modules/gui/macosx/ConvertAndSave.m:283
 msgid "Invalid container format for HTTP streaming"
-msgstr "Ongeldig containerformaat voor http-streaming"
+msgstr "Ongeldig containerformaat voor http-streamen"
 
 #: modules/gui/macosx/ConvertAndSave.m:285
 msgid ""
@@ -17235,7 +17234,7 @@ msgstr ""
 
 #: modules/gui/macosx/macosx.m:76 modules/gui/macosx/simple_prefs.m:234
 msgid "Control playback with the Apple Remote"
-msgstr "Afspelen bedienen met de Apple afstandsbediening"
+msgstr "Afspelen bedienen met de Apple Remote"
 
 #: modules/gui/macosx/macosx.m:77
 msgid "By default, VLC can be remotely controlled with the Apple Remote."
@@ -17244,7 +17243,7 @@ msgstr ""
 
 #: modules/gui/macosx/macosx.m:79 modules/gui/macosx/simple_prefs.m:235
 msgid "Control system volume with the Apple Remote"
-msgstr "Systeemvolume bedienen met de Apple remote"
+msgstr "Systeemvolume bedienen met de Apple Remote"
 
 #: modules/gui/macosx/macosx.m:80
 msgid ""
@@ -17256,7 +17255,7 @@ msgstr ""
 
 #: modules/gui/macosx/macosx.m:82
 msgid "Control playlist items with the Apple Remote"
-msgstr "Afspeellijst-items bedienen met de Apple remote"
+msgstr "Afspeellijst-items bedienen met de Apple Remote"
 
 #: modules/gui/macosx/macosx.m:83
 msgid ""
@@ -17425,7 +17424,7 @@ msgstr "Gedrag"
 
 #: modules/gui/macosx/macosx.m:162
 msgid "Apple Remote and media keys"
-msgstr "Apple remote en mediatoetsen"
+msgstr "Apple Remote en mediatoetsen"
 
 #: modules/gui/macosx/macosx.m:177
 msgid "Video output"
@@ -17520,7 +17519,7 @@ msgstr "Wizard streamen/exporteren..."
 
 #: modules/gui/macosx/MainMenu.m:328
 msgid "Convert / Stream..."
-msgstr "Converteren / Streamen..."
+msgstr "Converteren/streamen..."
 
 #: modules/gui/macosx/MainMenu.m:331
 msgid "Cut"
@@ -17544,7 +17543,7 @@ msgstr "Beeld"
 
 #: modules/gui/macosx/MainMenu.m:346 modules/gui/macosx/MainMenu.m:347
 msgid "Playlist Table Columns"
-msgstr "Afspeellijsttabel-kolommen"
+msgstr "Kolommen afspeellijsttabel"
 
 #: modules/gui/macosx/MainMenu.m:349
 msgid "Playback"
@@ -17856,7 +17855,7 @@ msgstr "Behandel als een pipe in plaats van een bestand"
 
 #: modules/gui/macosx/open.m:142
 msgid "Play another media synchronously"
-msgstr "Speel nog een media tegelijkertijd"
+msgstr "Een ander medium synchroon afspelen"
 
 #: modules/gui/macosx/open.m:143 modules/gui/macosx/open.m:365
 #: modules/gui/macosx/simple_prefs.m:248 modules/gui/macosx/wizard.m:343
@@ -17907,7 +17906,7 @@ msgid ""
 "press the button below."
 msgstr ""
 "Om een gebruikelijke netwerkstream te openen (HTTP, RTSP, RTMP, MMS, FTP, "
-"etc.), geef gewoon de URL in het veld hierboven in. Als u een RTP of UDP "
+"etc.), geeft u gewoon de URL in het veld hierboven in. Als u een RTP of UDP "
 "stream wilt openen, druk op de knop hier beneden."
 
 #: modules/gui/macosx/open.m:188
@@ -18088,7 +18087,7 @@ msgstr "S-Video invoer"
 
 #: modules/gui/macosx/output.m:127
 msgid "Streaming/Saving:"
-msgstr "Streamen/Opslaan:"
+msgstr "Streamen/opslaan:"
 
 #: modules/gui/macosx/output.m:128
 msgid "Settings..."
@@ -18096,7 +18095,7 @@ msgstr "Instellingen..."
 
 #: modules/gui/macosx/output.m:131
 msgid "Streaming and Transcoding Options"
-msgstr "Streaming- en transcoderingsinstellingen"
+msgstr "Instellingen voor streamen en transcoderen"
 
 #: modules/gui/macosx/output.m:132
 msgid "Display the stream locally"
@@ -18112,12 +18111,12 @@ msgstr "Inkapselingmethode"
 
 #: modules/gui/macosx/output.m:150
 msgid "Transcoding options"
-msgstr "Transcoderingsopties"
+msgstr "Opties voor transcoderen"
 
 #: modules/gui/macosx/output.m:154 modules/gui/macosx/output.m:164
 #: modules/gui/macosx/wizard.m:381
 msgid "Bitrate (kb/s)"
-msgstr "Bisnelheid (kb/s)"
+msgstr "Bitrate (kb/s)"
 
 #: modules/gui/macosx/output.m:171
 msgid "Stream Announcing"
@@ -18246,7 +18245,7 @@ msgstr "Verloren frames"
 #: modules/gui/macosx/playlistinfo.m:107 modules/gui/macosx/wizard.m:360
 #: modules/gui/qt4/dialogs_provider.cpp:690
 msgid "Streaming"
-msgstr "Streaming"
+msgstr "Streamen"
 
 #: modules/gui/macosx/playlistinfo.m:108
 msgid "Sent packets"
@@ -18283,7 +18282,7 @@ msgstr "Voorkeuren"
 
 #: modules/gui/macosx/prefs.m:209 modules/gui/macosx/simple_prefs.m:284
 msgid "Reset All"
-msgstr "Alles resetten"
+msgstr "Alles herstellen"
 
 #: modules/gui/macosx/prefs.m:210
 msgid "Show Basic"
@@ -18396,7 +18395,7 @@ msgstr ""
 
 #: modules/gui/macosx/simple_prefs.m:210
 msgid "Codecs / Muxers"
-msgstr "Codecs / Muxers"
+msgstr "Codecs / muxers"
 
 #: modules/gui/macosx/simple_prefs.m:212
 msgid "Hardware Acceleration"
@@ -18445,7 +18444,7 @@ msgstr "Schermvullende besturing weergeven"
 #: modules/gui/macosx/simple_prefs.m:233
 #: modules/gui/qt4/ui/sprefs_interface.h:539
 msgid "Privacy / Network Interaction"
-msgstr "Privacy / Netwerkinteractie"
+msgstr "Privacy / netwerkinteractie"
 
 #: modules/gui/macosx/simple_prefs.m:237
 msgid "Automatically check for updates"
@@ -18514,7 +18513,7 @@ msgstr "Dikte omtrek"
 
 #: modules/gui/macosx/simple_prefs.m:262
 msgid "Black screens in Fullscreen mode"
-msgstr "Schermen zwart maken in schermvullende modus"
+msgstr "Zwarte schermen in schermvullende modus"
 
 #: modules/gui/macosx/simple_prefs.m:264 modules/stream_out/display.c:53
 #: modules/gui/qt4/ui/sprefs_video.h:341
@@ -19178,13 +19177,13 @@ msgstr "Terug"
 #: modules/gui/macosx/wizard.m:319 modules/gui/macosx/wizard.m:322
 #: modules/gui/macosx/wizard.m:1195
 msgid "Streaming/Transcoding Wizard"
-msgstr "Streaming/Transcodering wizard"
+msgstr "Streamen/transcoderen wizard"
 
 #: modules/gui/macosx/wizard.m:323
 msgid "This wizard allows configuring simple streaming or transcoding setups."
 msgstr ""
 "Deze wizard stelt u in staat eenvoudige opstellingen in te stellen voor "
-"streaming en transcodering."
+"streamen en transcoderen."
 
 #: modules/gui/macosx/wizard.m:325 modules/gui/macosx/wizard.m:326
 #: modules/gui/macosx/wizard.m:399 modules/gui/macosx/wizard.m:401
@@ -19198,8 +19197,8 @@ msgid ""
 "transcoding capabilities. The Open and 'Saving/Streaming' dialogs will give "
 "access to more features."
 msgstr ""
-"Deze wizard geeft u maar een beperkte toegang tot alle streaming- en "
-"transcoderingsmogelijkheden die VLC biedt. De Openen en 'Opslaan/Streamen'-"
+"Deze wizard geeft u maar een beperkte toegang tot alle mogelijkheden voor "
+"streamen en transcoderen die VLC biedt. De 'openen' en 'opslaan/streamen'-"
 "dialogen geven u toegang tot meer mogelijkheden."
 
 #: modules/gui/macosx/wizard.m:332 modules/gui/macosx/wizard.m:491
@@ -19330,13 +19329,13 @@ msgstr ""
 
 #: modules/gui/macosx/wizard.m:395
 msgid "Additional streaming options"
-msgstr "Aanvullende streaming-opties"
+msgstr "Aanvullende opties voor streamen"
 
 #: modules/gui/macosx/wizard.m:396
 msgid "In this page, a few additional streaming parameters can be set."
 msgstr ""
-"Op deze pagina kunnen een aantal aanvullende streaming-parameters ingesteld "
-"worden."
+"Op deze pagina kunnen een aantal aanvullende parameters voor streamen "
+"ingesteld worden."
 
 #: modules/gui/macosx/wizard.m:398 modules/gui/macosx/wizard.m:1787
 msgid "Time-To-Live (TTL)"
@@ -19353,12 +19352,12 @@ msgstr "Ondertitels aan getranscodeerde video toevoegen"
 
 #: modules/gui/macosx/wizard.m:407
 msgid "Additional transcode options"
-msgstr "Aanvullende transcoderingsopties"
+msgstr "Aanvullende opties voor transcoderen"
 
 #: modules/gui/macosx/wizard.m:408
 msgid "In this page, a few additional transcoding parameters can be set."
 msgstr ""
-"Op deze pagina kunnen een aantal aanvullende transcoderingsparameters "
+"Op deze pagina kunnen een aantal aanvullende parameters voor transcoderen "
 "ingesteld worden."
 
 #: modules/gui/macosx/wizard.m:410 modules/gui/macosx/wizard.m:1025
@@ -19431,7 +19430,7 @@ msgstr ""
 "Een geldig doel met geselecteerd worden. Voer een Unicast-IP of Multicast-IP "
 "in.\n"
 "\n"
-"Als u niet weet wat dit betekend, kijk in de VLC Streaming HOWTO en de "
+"Als u niet weet wat dit betekent, kijk in de VLC Streaming HOWTO en de "
 "helpteksten in dit venster."
 
 #: modules/gui/macosx/wizard.m:993
@@ -19526,8 +19525,8 @@ msgid ""
 msgstr ""
 "Hier kunt u een stream naar een bestand opslaan. Dit kan ook direct "
 "gehercodeerd worden. Alles wat VLC kan lezen kan opgeslagen worden.\n"
-"Let op dat VLC niet erg geschikt is voor bestand-naar-bestandtranscodering. "
-"De transcoderingsmogelijkheden zijn echter wel geschikt om bijvoorbeeld "
+"Let op dat VLC niet erg geschikt is voor bestand-naar-bestand transcoderen. "
+"De mogelijkheden voor transcoderen zijn echter wel geschikt om bijvoorbeeld "
 "netwerkstreams op te slaan."
 
 #: modules/gui/macosx/wizard.m:1737
@@ -19664,7 +19663,7 @@ msgstr "     q, Q, Esc   Afsluiten"
 
 #: modules/gui/ncurses.c:883
 msgid " s                      Stop"
-msgstr " s                      Stop"
+msgstr " s                      Stoppen"
 
 #: modules/gui/ncurses.c:884
 msgid " <space>                Pause/Play"
@@ -19889,11 +19888,11 @@ msgstr ""
 
 #: modules/gui/qt4/components/controller.hpp:116
 msgid "Previous / Backward"
-msgstr "Vorige / Achteruit"
+msgstr "Vorige / achteruit"
 
 #: modules/gui/qt4/components/controller.hpp:116
 msgid "Next / Forward"
-msgstr "Volgende / Vooruit"
+msgstr "Volgende / vooruit"
 
 #: modules/gui/qt4/components/controller.hpp:117
 msgid "De-Fullscreen"
@@ -19927,7 +19926,7 @@ msgstr "Stap vooruit"
 
 #: modules/gui/qt4/components/controller.hpp:120
 msgid "Loop / Repeat"
-msgstr "Loop / Herhalen"
+msgstr "Lus / herhalen"
 
 #: modules/gui/qt4/components/controller.hpp:121
 msgid "Open subtitles"
@@ -19988,7 +19987,7 @@ msgstr "Omkeren"
 
 #: modules/gui/qt4/components/controller.hpp:132
 msgid "Change the loop and repeat modes"
-msgstr "Verander de loop en herhalen modus"
+msgstr "Verander de lus- en herhalen-modussen"
 
 #: modules/gui/qt4/components/controller.hpp:133
 msgid "Previous media in the playlist"
@@ -20220,7 +20219,7 @@ msgstr ""
 
 #: modules/gui/qt4/components/info_panels.cpp:527
 msgid "Current media / stream statistics"
-msgstr "Huidige media- / streamstatistieken"
+msgstr "Huidige media-/streamstatistieken"
 
 #: modules/gui/qt4/components/info_panels.cpp:553
 msgid "Input/Read"
@@ -21049,7 +21048,7 @@ msgstr "Logbestand opslaan als..."
 
 #: modules/gui/qt4/dialogs/messages.cpp:258
 msgid "Texts / Logs (*.log *.txt);; All (*.*) "
-msgstr "Teksten / Logboeken (*.log *.txt);; Alles (*.*) "
+msgstr "Teksten / logboeken (*.log *.txt);; Alles (*.*) "
 
 #: modules/gui/qt4/dialogs/messages.cpp:265
 msgid ""
@@ -21111,7 +21110,7 @@ msgstr "C&onverteren"
 
 #: modules/gui/qt4/dialogs/open.cpp:205
 msgid "C&onvert / Save"
-msgstr "C&onverteren / opslaan"
+msgstr "C&onverteren/opslaan"
 
 #: modules/gui/qt4/dialogs/openurl.cpp:47
 msgid "Open URL"
@@ -21441,11 +21440,11 @@ msgstr "Video On Demand (VOD)"
 
 #: modules/gui/qt4/dialogs/vlm.cpp:80
 msgid "Hours / Minutes / Seconds:"
-msgstr "Uren / Minuten / Seconden:"
+msgstr "Uren / minuten / seconden:"
 
 #: modules/gui/qt4/dialogs/vlm.cpp:82
 msgid "Day / Month / Year:"
-msgstr "Dag / Maand / Jaar:"
+msgstr "Dag / maand / jaar:"
 
 #: modules/gui/qt4/dialogs/vlm.cpp:84
 msgid "Repeat:"
@@ -21754,7 +21753,7 @@ msgstr "Op &updates controleren..."
 
 #: modules/gui/qt4/menus.cpp:823
 msgid "&Stop"
-msgstr "&Stop"
+msgstr "&Stoppen"
 
 #: modules/gui/qt4/menus.cpp:831
 msgid "Pre&vious"
@@ -22546,19 +22545,19 @@ msgstr "Log-bestandsnaam opgeven."
 
 #: modules/misc/playlist/export.c:50
 msgid "M3U playlist export"
-msgstr "M3U afspeellijst exporteerder"
+msgstr "M3U-afspeellijst exporteren"
 
 #: modules/misc/playlist/export.c:56
 msgid "M3U8 playlist export"
-msgstr "M3U8 afspeellijst export"
+msgstr "M3U8-afspeellijst exporteren"
 
 #: modules/misc/playlist/export.c:62
 msgid "XSPF playlist export"
-msgstr "XSPF afspeellijst export"
+msgstr "XSPF-afspeellijst exporteren"
 
 #: modules/misc/playlist/export.c:68
 msgid "HTML playlist export"
-msgstr "HTML afspeellijst exporteerder"
+msgstr "Html-afspeellijst exporteren"
 
 #: modules/misc/rtsp.c:61
 msgid "Maximum number of connections"
@@ -22569,8 +22568,8 @@ msgid ""
 "This limits the maximum number of clients that can connect to the RTSP VOD. "
 "0 means no limit."
 msgstr ""
-"Dit is het limiet van het maximum aantal clients dat met de RTSP VOD kan "
-"verbinden. 0 betekend geen limiet."
+"Dit limiteert het maximum aantal clients die met de RTSP VOD kunnen "
+"verbinden. 0 betekent geen limiet."
 
 #: modules/misc/rtsp.c:65
 msgid "MUX for RAW RTSP transport"
@@ -23270,7 +23269,7 @@ msgstr "DASH"
 
 #: modules/stream_filter/dash/dash.cpp:62
 msgid "Dynamic Adaptive Streaming over HTTP"
-msgstr "Dynamic Adaptive Streaming via HTTP"
+msgstr "Dynamic Adaptive Streaming via http"
 
 #: modules/stream_filter/decomp.c:59
 msgid "LZMA decompression"
@@ -23294,7 +23293,7 @@ msgstr "Intern stream record"
 
 #: modules/stream_filter/smooth/smooth.c:61
 msgid "Smooth Streaming"
-msgstr "Smooth streaming"
+msgstr "Vloeiend streamen"
 
 #: modules/stream_out/autodel.c:46
 msgid "Autodel"
@@ -23819,7 +23818,7 @@ msgstr ""
 
 #: modules/stream_out/rtp.c:120
 msgid "This allows you to specify the base port for the RTP streaming."
-msgstr "Hier kunt u de basispoort voor de RTP streaming opgeven."
+msgstr "Hier kunt u de basispoort voor het RTP-streamen opgeven."
 
 #: modules/stream_out/rtp.c:121
 msgid "Audio port"
@@ -23828,7 +23827,7 @@ msgstr "Audiopoort"
 #: modules/stream_out/rtp.c:123
 msgid ""
 "This allows you to specify the default audio port for the RTP streaming."
-msgstr "Hier kunt u de standaard audiopoort voor RTP streaming opgeven."
+msgstr "Hier kunt u de standaard audiopoort voor het RTP-streamen opgeven."
 
 #: modules/stream_out/rtp.c:124
 msgid "Video port"
@@ -23837,7 +23836,7 @@ msgstr "Videopoort"
 #: modules/stream_out/rtp.c:126
 msgid ""
 "This allows you to specify the default video port for the RTP streaming."
-msgstr "Hier kunt u de standaard videopoort voor RTP streaming opgeven."
+msgstr "Hier kunt u de standaard videopoort voor het RTP-streamen opgeven."
 
 #: modules/stream_out/rtp.c:134
 msgid "RTP/RTCP multiplexing"
@@ -25122,7 +25121,7 @@ msgstr "Zone 2:beneden"
 
 #: modules/video_filter/atmo/atmo.cpp:328
 msgid "Channel / Zone Assignment"
-msgstr "Kanaal- / Zonetoewijzing"
+msgstr "Kanaal-/zonetoewijzing"
 
 #: modules/video_filter/atmo/atmo.cpp:329
 msgid ""
@@ -25740,7 +25739,7 @@ msgstr "Hoog"
 
 #: modules/video_filter/deinterlace/deinterlace.c:55
 msgid "Streaming deinterlace mode"
-msgstr "Streaming deïnterlace-modus"
+msgstr "Deïnterlace-modus voor streamen"
 
 #: modules/video_filter/deinterlace/deinterlace.c:56
 msgid "Deinterlace method to use for streaming."
@@ -28510,7 +28509,7 @@ msgstr "Tijd:"
 #: share/lua/http/index.html:26 share/lua/http/mobile_browse.html:25
 #: share/lua/http/mobile_equalizer.html:25 share/lua/http/mobile_view.html:25
 msgid "VLC media player - Web Interface"
-msgstr "VLC Media Player - Web interface"
+msgstr "VLC Media Player - web-interface"
 
 #: share/lua/http/index.html:215
 msgid "Hide / Show Library"
@@ -28923,7 +28922,7 @@ msgid ""
 "with transcoding that the format is compatible with the method used."
 msgstr ""
 "Voeg doelen na de streamingmethoden die u nodig heeft toe. Controleer bij "
-"transcodering dat het formaat en de gebruikte methoden compatibel zijn."
+"transcoderen dat het formaat en de gebruikte methoden compatibel zijn."
 
 #: modules/gui/qt4/ui/sout.h:209
 msgid "New destination"
@@ -28935,15 +28934,15 @@ msgstr "Lokaal weergeven"
 
 #: modules/gui/qt4/ui/sout.h:213
 msgid "Transcoding Options"
-msgstr "Transcoderingsopties"
+msgstr "Opties voor transcoderen"
 
 #: modules/gui/qt4/ui/sout.h:214
 msgid "Select and choose transcoding options"
-msgstr "Transcoderingsinstellingen selecteren en kiezen"
+msgstr "Instellingen voor transcoderen selecteren en kiezen"
 
 #: modules/gui/qt4/ui/sout.h:215
 msgid "Activate Transcoding"
-msgstr "Transcodering inschakelen"
+msgstr "Transcoderen inschakelen"
 
 #: modules/gui/qt4/ui/sout.h:216
 msgid "Option Setup"
@@ -32598,11 +32597,11 @@ msgstr "Mediabeheerlijst"
 
 #, fuzzy
 #~ msgid "Normal/Repeat/Loop"
-#~ msgstr "Normaal/loop/herhalen"
+#~ msgstr "Normaal/lus/herhalen"
 
 #, fuzzy
 #~ msgid "Toggle Normal/Repeat/Loop playlist modes"
-#~ msgstr "Schakelen tussen normaal/loop/herhalen afspeellijstmodussen."
+#~ msgstr "Schakelen tussen afspeellijstmodus normaal/lus/herhalen."
 
 #, fuzzy
 #~ msgid "Display OSD menu on top of video output"
@@ -33786,7 +33785,7 @@ msgstr "Mediabeheerlijst"
 
 #, fuzzy
 #~ msgid "&Convert / Save"
-#~ msgstr "C&onverteren / opslaan"
+#~ msgstr "C&onverteren/opslaan"
 
 #, fuzzy
 #~ msgid "Please enter the URL or path to the media you want to play"
@@ -34550,15 +34549,15 @@ msgstr "Mediabeheerlijst"
 
 #, fuzzy
 #~ msgid "Previous/Backward"
-#~ msgstr "Vorige / Achteruit"
+#~ msgstr "Vorige / achteruit"
 
 #, fuzzy
 #~ msgid "Next/Forward"
-#~ msgstr "Volgende / Vooruit"
+#~ msgstr "Volgende / vooruit"
 
 #, fuzzy
 #~ msgid "Loop/Repeat mode"
-#~ msgstr "Loop / Herhalen"
+#~ msgstr "Lus / herhalen"
 
 #, fuzzy
 #~ msgid ""
@@ -34684,7 +34683,7 @@ msgstr "Mediabeheerlijst"
 
 #, fuzzy
 #~ msgid "VLC media player - Flash Viewer"
-#~ msgstr "VLC Media Player - Web interface"
+#~ msgstr "VLC Media Player - web-interface"
 
 #, fuzzy
 #~ msgid "Streaming Output"
@@ -34746,7 +34745,7 @@ msgstr "Mediabeheerlijst"
 #~ msgstr ""
 #~ "Een sound font bestand (.SF2) is nodig voor MIDI synthesis.\n"
 #~ "Installeer een sound font en configureer het vanuit de VLC-voorkeuren "
-#~ "(Invoer / Codecs > Audiocodecs / FluidSynth).\n"
+#~ "(Invoer/codecs > Audiocodecs / FluidSynth).\n"
 
 #, fuzzy
 #~ msgid "Audio filter for ugly resampling"
@@ -35698,7 +35697,7 @@ msgstr "Mediabeheerlijst"
 
 #, fuzzy
 #~ msgid "Privacy and Network Warning"
-#~ msgstr "Privacy / Netwerkinteractie"
+#~ msgstr "Privacy / netwerkinteractie"
 
 #, fuzzy
 #~ msgid "A new version of VLC("
@@ -35730,7 +35729,7 @@ msgstr "Mediabeheerlijst"
 
 #, fuzzy
 #~ msgid "XSPF playlist (*.xspf)"
-#~ msgstr "XSPF afspeellijst export"
+#~ msgstr "XSPF-afspeellijst exporteren"
 
 #, fuzzy
 #~ msgid "M3U8 playlist (*.m3u8)"
@@ -36421,7 +36420,7 @@ msgstr "Mediabeheerlijst"
 
 #, fuzzy
 #~ msgid "Old playlist export"
-#~ msgstr "M3U afspeellijst exporteerder"
+#~ msgstr "M3U-afspeellijst exporteren"
 
 #, fuzzy
 #~ msgid "HAL devices detection"
@@ -36469,7 +36468,7 @@ msgstr "Mediabeheerlijst"
 
 #, fuzzy
 #~ msgid "top"
-#~ msgstr "Stop"
+#~ msgstr "Stoppen"
 
 #, fuzzy
 #~ msgid "bottom"
@@ -36825,7 +36824,7 @@ msgstr "Mediabeheerlijst"
 
 #, fuzzy
 #~ msgid "Screen for fullscreen mode."
-#~ msgstr "Schermen zwart maken in schermvullende modus"
+#~ msgstr "Zwarte schermen in schermvullende modus"
 
 #, fuzzy
 #~ msgid "Screen to be used for fullscreen mode."
@@ -36897,7 +36896,7 @@ msgstr "Mediabeheerlijst"
 
 #, fuzzy
 #~ msgid "Additional &Sources"
-#~ msgstr "Aanvullende transcoderingsopties"
+#~ msgstr "Aanvullende opties voor transcoderen"
 
 #, fuzzy
 #~ msgid "American English"
@@ -37283,7 +37282,7 @@ msgstr "Mediabeheerlijst"
 
 #, fuzzy
 #~ msgid "Seam Carving"
-#~ msgstr "Streamen/Opslaan:"
+#~ msgstr "Streamen/opslaan:"
 
 #, fuzzy
 #~ msgid ""
