@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-09-21 15:06+0200\n"
-"PO-Revision-Date: 2013-09-20 20:10+0000\n"
+"PO-Revision-Date: 2013-09-24 19:54+0000\n"
 "Last-Translator: mhikanik <mhikanik@users.sourceforge.net>\n"
 "Language-Team: Slovak (http://www.transifex.com/projects/p/vlc-trans/"
 "language/sk/)\n"
@@ -66,7 +66,7 @@ msgstr "Nastavenia hlavného rozhrania"
 
 #: include/vlc_config_cat.h:46 src/libvlc-module.c:81
 msgid "Control interfaces"
-msgstr "Rozhrania s ovládaním"
+msgstr "Ovládacie rozhrania"
 
 #: include/vlc_config_cat.h:47
 msgid "Settings for VLC's control interfaces"
@@ -166,7 +166,7 @@ msgstr "Tu si môžete vybrať preferovaný výstup videa a nakonfigurovať ho. 
 
 #: include/vlc_config_cat.h:82
 msgid "Video filters are used to process the video stream."
-msgstr "Filtre videa sa používajú na dodatočnú úpravu streamov s videom."
+msgstr "Filtre videa sa používajú na úpravu streamov s videom."
 
 #: include/vlc_config_cat.h:84
 msgid "Subtitles / OSD"
@@ -441,7 +441,7 @@ msgstr "&Otvoriť súbor..."
 
 #: include/vlc_intf_strings.h:47
 msgid "&Advanced Open..."
-msgstr "Pokročilé otváranie..."
+msgstr "&Pokročilé otváranie..."
 
 #: include/vlc_intf_strings.h:48
 msgid "Open D&irectory..."
@@ -453,7 +453,7 @@ msgstr "Otvoriť &priečinok..."
 
 #: include/vlc_intf_strings.h:50
 msgid "Select one or more files to open"
-msgstr "Zvoľte si jeden alebo viacero súborov, ktoré chcete otvoriť"
+msgstr "Vyberte jeden alebo viac súborov, ktoré chcete otvoriť"
 
 #: include/vlc_intf_strings.h:51
 msgid "Select Directory"
@@ -473,7 +473,7 @@ msgstr "Informácia o &kodeku"
 
 #: include/vlc_intf_strings.h:57
 msgid "&Messages"
-msgstr "&Hlásenia programu"
+msgstr "&Hlásenia"
 
 #: include/vlc_intf_strings.h:58
 msgid "Jump to Specific &Time"
@@ -679,7 +679,7 @@ msgstr "Ekvalizér"
 
 #: src/audio_output/output.c:279 src/libvlc-module.c:192
 msgid "Audio filters"
-msgstr "Zvukové filtre"
+msgstr "Filtre zvuku"
 
 #: src/audio_output/output.c:290
 msgid "Replay gain"
@@ -798,41 +798,45 @@ msgid ""
 "  vlc://quit                     Special item to quit VLC\n"
 "\n"
 msgstr ""
-"Použitie: %s [nastavenia] [stream] ...\n"
-"Do príkazového riadka môžete zadať viacero streamov.\n"
-"Tieto streamy sa zaradia do playlistu.\n"
-"Položka, ktorá bola zadaná do playlistu najskôr, sa prehrá ako prvá.\n"
-"\n"
-"Nastavenia štýlov:\n"
-"  nastavenie --: globálne nastavenie, ktoré sa bude používať počas trvania "
-"spustenia programu.\n"
-"   nastavenie -: jednopísmenová verzia príkazu --option.\n"
-"   nastavenie:  aplikuje sa na stream až tesne pred jeho prehrávaním\n"
-"            a zároveň potlačí predchádzajúce nastavenia\n"
-"\n"
-"Stream MRL syntax:\n"
-"  [[access][/demux]://]URL[@[title][:chapter][-[title][:chapter]]]\n"
-"  [:option=value ...]\n"
-"\n"
-" Viaceré globálne --nastavenia sa dajú používať aj ako špecifické :"
-"nastavenia pre MRL.\n"
-"  Viacnásobné príkazy :nastavenie=možno špecifikovať viacej párov hodnôt.\n"
-"\n"
-"Syntax URL adresy:\n"
-"  [file://]filename              Čistý mediálny súbor\n"
-"  http://host[:port]/file            HTTP URL\n"
-"  ftp://host[:port]/file             FTP URL\n"
-"  mms://host[:port]/file             MMS URL\n"
-"  screen://                      Screenshot obrazovky\n"
-"  [dvd://][device]]                 DVD jednotka\n"
-"  [vcd://][device]               VCD jednotka\n"
-"  [cdda://][device]              Audio CD jednotka\n"
-"  udp:[[<adresa zdroja>]@[<adresa prepojenia>][:<port prepojenia>]]\n"
-"                                 UDP stream odosielaný streamovacím "
-"serverom\n"
-"  vlc:pause:<počet sekúnd>            Pozastavenie playlistu na určitý čas\n"
-"  vlc:quit                       Špeciálna položka na ukončenie programu "
-"VLC\n"
+"Použitie: %s [nastavenia] [stream] ...title=\"New line\">⏎\n"
+"Do príkazového riadka môžete zadať viacero streamov.title=\"New line\">⏎\n"
+"Tieto streamy sa zaradia do playlistu.title=\"New line\">⏎\n"
+"Položka, ktorá bola zadaná do playlistu najskôr, sa prehrá ako prvá.title="
+"\"New line\">⏎\n"
+"title=\"New line\">⏎\n"
+" Nastavenia štýlov:title=\"New line\">⏎\n"
+"--option globálne nastavenie, ktoré sa bude používať počas trvania spustenia "
+"programu.title=\"New line\">⏎\n"
+"-option jednopísmenová verzia príkazu --option.title=\"New line\">⏎\n"
+":option aplikuje sa na stream až tesne pred jeho prehrávaním ittitle=\"New "
+"line\">⏎\n"
+" a zároveň potlačí predchádzajúce nastavenia .title=\"New line\">⏎\n"
+"title=\"New line\">⏎\n"
+"Stream MRL syntax:title=\"New line\">⏎\n"
+"[[access][/demux]://]URL[#[title][:chapter][-[title][:chapter]]]title=\"New "
+"line\">⏎\n"
+"[:option=value ...]title=\"New line\">⏎\n"
+"title=\"New line\">⏎\n"
+"Viaceré globálne --nastavenia sa dajú používať aj ako špecifické :nastavenia."
+"title=\"New line\">⏎\n"
+"Viacnásobné páry :option=value možno špecifikovať.title=\"New line\">⏎\n"
+"title=\"New line\">⏎\n"
+"URL syntax:title=\"New line\">⏎\n"
+"file:///path/file Čistý mediálny súbortitle=\"New line\">⏎\n"
+"http://host[:port]/file HTTP URLtitle=\"New line\">⏎\n"
+"ftp://host[:port]/file FTP URLtitle=\"New line\">⏎\n"
+"mms://host[:port]/file MMS URLtitle=\"New line\">⏎\n"
+"screen:// Snímka obrazovkytitle=\"New line\">⏎\n"
+"dvd://[device] DVD jednotkatitle=\"New line\">⏎\n"
+"vcd://[device]  VCD jednotkatitle=\"New line\">⏎\n"
+"cdda://[device] Audio CD jednotkatitle=\"New line\">⏎\n"
+"udp://[[<adresa zdroja>]@[<adresa prepojenia>][:<port prepojenia>]]title="
+"\"New line\">⏎\n"
+"UDP stream odosielaný streamovacím serveromtitle=\"New line\">⏎\n"
+"vlc://pause:<počet sekúnd> Pozastavenie playlistu na určitý častitle=\"New "
+"line\">⏎\n"
+"vlc://quit Špeciálna položka na ukončenie programu VLCtitle=\"New line\">⏎\n"
+"title=\"New line\">⏎\n"
 
 #: src/config/help.c:514
 msgid " (default enabled)"
@@ -14478,7 +14482,7 @@ msgstr "| enqueue XYZ  . . . . . . . . . . zaradit XYZ do playlistu"
 
 #: modules/control/rc.c:787
 msgid "| playlist . . . . .  show items currently in playlist"
-msgstr "| playlist . . .  zobrazit aktualne polozky v playliste"
+msgstr "| playlist . . . . . zobrazit aktualne polozky v playliste"
 
 #: modules/control/rc.c:788
 msgid "| play . . . . . . . . . . . . . . . . . . play stream"
@@ -14506,13 +14510,11 @@ msgstr "| repeat [on|off] . . . .  prepnut opakovanie polozky playlistu"
 
 #: modules/control/rc.c:794
 msgid "| loop [on|off] . . . . . . . . . toggle playlist loop"
-msgstr "| loop [on|off] . . . . . .  prepnut opakovanie poloziek v playliste"
+msgstr "| loop [on|off] . . . . . .  prepnut opakovanie playlistu"
 
 #: modules/control/rc.c:795
 msgid "| random [on|off] . . . . . . .  toggle random jumping"
-msgstr ""
-"| random [on|off] . . . . . .  prepnut nahodne opakovanie poloziek v "
-"playliste"
+msgstr "| random [on|off] . . . . . . . prepnut nahodne preskakovanie"
 
 #: modules/control/rc.c:796
 msgid "| clear . . . . . . . . . . . . . . clear the playlist"
@@ -14544,13 +14546,11 @@ msgstr "| chapter_n  . . . .  dalsia kapitola v aktualnej polozke"
 
 #: modules/control/rc.c:803
 msgid "| chapter_p  . . . .  previous chapter in current item"
-msgstr "| chapter_p  . .  predchadzajuca kapitola v aktualnej polozke"
+msgstr "| chapter_p . . . . predchadzajuca kapitola v aktualnej polozke"
 
 #: modules/control/rc.c:805
 msgid "| seek X . . . seek in seconds, for instance `seek 12'"
-msgstr ""
-"| seek X . vyhladavanie pozicie v sekundach, prikaz zadavajte napr. takto: "
-"`seek 12'"
+msgstr "| seek X . vyhladavanie v sekundach, napriklad: `seek 12'"
 
 #: modules/control/rc.c:806
 msgid "| pause  . . . . . . . . . . . . . . . .  toggle pause"
@@ -14603,7 +14603,7 @@ msgstr "| is_playing . .  hodnota 1=stream sa prehrava, hodnota 0=ine"
 
 #: modules/control/rc.c:818
 msgid "| get_title . . . . .  the title of the current stream"
-msgstr "| get_title . . .  titulok (nazov) aktualneho streamu"
+msgstr "| get_title . . .  titul aktualneho streamu"
 
 #: modules/control/rc.c:819
 msgid "| get_length . . . .  the length of the current stream"
@@ -14628,7 +14628,7 @@ msgstr ""
 
 #: modules/control/rc.c:825
 msgid "| achan [X]. . . . . . . . . .  set/get audio channels"
-msgstr "| achan [X]. . . . . . . .  nastavit/nacitat kanaly zvuku"
+msgstr "| achan [X]. . . . . . . .  nastavit/nacitat zvukove kanaly"
 
 #: modules/control/rc.c:826
 msgid "| atrack [X] . . . . . . . . . . . set/get audio track"
@@ -14648,7 +14648,7 @@ msgstr "| vcrop [X] . . . . . . . . .  nastavit/detegovat orezanie videa"
 
 #: modules/control/rc.c:830
 msgid "| vzoom [X]  . . . . . . . . . . .  set/get video zoom"
-msgstr "| vzoomt [X] . . . . . . . .  nastavit/nacitat uroven priblizenia"
+msgstr "| vzoom [X] . . . . . . . .  nastavit/nacitat uroven priblizenia"
 
 #: modules/control/rc.c:831
 msgid "| snapshot . . . . . . . . . . . . take video snapshot"
@@ -21109,7 +21109,7 @@ msgstr "Politika pre prístup k sieti"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:98
 msgid "Automatically retrieve media info"
-msgstr "Automaticky preberať informácie o médiu"
+msgstr "Automaticky preberať informáciu o médiu"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:103
 msgid "Regularly check for VLC updates"
@@ -22216,9 +22216,7 @@ msgstr "Otvoriť súbor so vzhľadom"
 
 #: modules/gui/skins2/src/dialogs.cpp:207
 msgid "Skin files |*.vlt;*.wsz;*.xml"
-msgstr ""
-"Súbory so vzhľadom programu (*.vlt;*.wsz)|*.vlt;*.wsz|Súbory so vzhľadom "
-"programu (*.xml)|*.xml"
+msgstr "Súbory so vzhľadom programu|*.vlt;*.wsz;*.xml"
 
 #: modules/gui/skins2/src/dialogs.cpp:214
 msgid "Open playlist"
@@ -29358,7 +29356,7 @@ msgstr "Každých "
 
 #: modules/gui/qt4/ui/sprefs_interface.h:544
 msgid "Separate words by | (without space)"
-msgstr "Oddeľovať slova znakom | (bez medzery)"
+msgstr "Oddeľovať slová znakom | (bez medzery)"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:546
 msgid "Save recently played items"
@@ -31713,7 +31711,7 @@ msgstr "Zoznam správcov médií"
 
 #, fuzzy
 #~ msgid "Advanced Open..."
-#~ msgstr "Pokročilé otváranie..."
+#~ msgstr "&Pokročilé otváranie..."
 
 #, fuzzy
 #~ msgid "Open Play&list..."
@@ -33191,7 +33189,7 @@ msgstr "Zoznam správcov médií"
 
 #, fuzzy
 #~ msgid "Automatically add new medias to ML"
-#~ msgstr "Automaticky preberať informácie o médiu"
+#~ msgstr "Automaticky preberať informáciu o médiu"
 
 #, fuzzy
 #~ msgid "X Screensaver disabler"
