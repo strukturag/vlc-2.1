@@ -1,6 +1,6 @@
 # FFmpeg
 
-#HASH=8efed2993733bcd0d85a585c994ac404a1955e1a
+#HASH=cdb46f15fff4996aaf120a32d1ffb9fb4cbbc68d
 #FFMPEG_SNAPURL := http://git.videolan.org/?p=ffmpeg.git;a=snapshot;h=$(HASH);sf=tgz
 
 HASH=2b72f8ac320c8c5087b1bd0589fc3df132eb42bc
