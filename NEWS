@@ -8,7 +8,8 @@ Core:
 
 Decoders:
  * VP9 support in WebM
- * HEVC/H.265 support in MKV
+ * HEVC/H.265 support in MKV, MP4 and raw files
+ * Fix GPU decoding under Windows (DxVA2) crashes
 
 Demuxers:
  * Fix crashes on wav, mlp and mkv and modplug files
@@ -34,7 +35,7 @@ Qt:
  * Fix saving the hotkeys in preferences
  * Fix saving the audio volume on Win32, using DirectSound
  * Fix play after drag'n drop
- * Fix streaming options edition
+ * Fix streaming options edition and scale parameter
 
 Stream out:
  * Fix transcoding audio drift issues
@@ -49,7 +50,15 @@ MacOS X:
  * Fix about dialog crash in Japanese
  * Fix crashes on proxy lookups
  * Fixes on the playlist and information behaviours
+ * Fixes on the streaming dialogs
+ * Improves interface resizings
 
+Translations:
+ * Update of Arabic, Basque, Belarusian, Czech, Danish, Dutch, French, Galician,
+   Gujarati, Hindi, Italian, Japanese, Korean, Lithuanian, Marathi,
+   Modern Greek, Norwegian Bokmål, Occitan, Persian, Polish, Portuguese,
+   Punjabi, Romanian, Sinhala, Slovak, Slovenian, Spanish, Swedish, Telugu,
+   Thai, Traditional Chinese, Turkish, Ukrainian, Uzbek translations
 
 
 Changes between 2.0.9 and 2.1.0:
