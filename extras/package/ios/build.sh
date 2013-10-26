@@ -339,7 +339,6 @@ oldrc
 real
 hotkeys
 gestures
-sap
 dynamicoverlay
 rss
 ball
