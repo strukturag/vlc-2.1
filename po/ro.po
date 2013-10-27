@@ -6,12 +6,13 @@
 # Arthur Țițeică <arthur@psw.ro>, 2013
 # Circo Radu <circo DOT radusorin AT gmail DOT com>, 2005
 # Cristian Secară <cristi AT secarica DOT ro>, 2007-2013
+# Cristian Silaghi <cristian.silaghi@mozilla.ro>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-09-21 15:06+0200\n"
-"PO-Revision-Date: 2013-10-20 08:56+0000\n"
+"PO-Revision-Date: 2013-10-25 17:33+0000\n"
 "Last-Translator: roentgen <arthur.titeica@gmail.com>\n"
 "Language-Team: Romanian (http://www.transifex.com/projects/p/vlc-trans/"
 "language/ro/)\n"
@@ -221,7 +222,7 @@ msgstr ""
 
 #: include/vlc_config_cat.h:111
 msgid "Video codecs"
-msgstr "Codecuri video"
+msgstr "Codori video"
 
 #: include/vlc_config_cat.h:112
 msgid "Settings for the video, images or video+audio decoders and encoders."
@@ -229,7 +230,7 @@ msgstr "Setări pentru codori si decodori video, imagini sau video+audio."
 
 #: include/vlc_config_cat.h:114
 msgid "Audio codecs"
-msgstr "Codecuri audio"
+msgstr "Codori audio"
 
 #: include/vlc_config_cat.h:115
 msgid "Settings for the audio-only decoders and encoders."
@@ -237,11 +238,11 @@ msgstr "Setări pentru decodoarele și codoarele care sunt doar audio."
 
 #: include/vlc_config_cat.h:117
 msgid "Subtitle codecs"
-msgstr "Codecuri pentru subtitluri"
+msgstr "Codori pentru subtitluri"
 
 #: include/vlc_config_cat.h:118
 msgid "Settings for subtitle, teletext and CC decoders and encoders."
-msgstr "Setări pentru subtitlu, teletext și codori si decodori CC."
+msgstr "Setări pentru subtitlu, teletext și codori și decodori CC."
 
 #: include/vlc_config_cat.h:120
 msgid "General input settings. Use with care..."
@@ -366,7 +367,7 @@ msgid ""
 "Settings related to playlist behaviour (e.g. playback mode) and to modules "
 "that automatically add items to the playlist (\"service discovery\" modules)."
 msgstr ""
-"Setări legate de comportamentul listei de redare (de exemplu, módul de "
+"Setări legate de comportamentul listei de redare (de exemplu, modul de "
 "redare) și de modulele care adaugă automat elemente în lista de redare "
 "(module de „descoperire de servicii”)."
 
@@ -473,7 +474,7 @@ msgstr "&Informații despre media"
 
 #: include/vlc_intf_strings.h:56
 msgid "&Codec Information"
-msgstr "Informații despre &codec"
+msgstr "Informații despre &codor"
 
 #: include/vlc_intf_strings.h:57
 msgid "&Messages"
@@ -511,7 +512,7 @@ msgstr "Elimină elementele selectate"
 
 #: include/vlc_intf_strings.h:67
 msgid "Information..."
-msgstr "Informațiii..."
+msgstr "Informații..."
 
 #: include/vlc_intf_strings.h:68
 msgid "Create Directory..."
@@ -545,7 +546,7 @@ msgstr "Repetă tot"
 #: include/vlc_intf_strings.h:78 modules/gui/macosx/CoreInteraction.m:424
 #: modules/gui/macosx/MainMenu.m:363 modules/gui/macosx/MainMenu.m:1459
 msgid "Repeat One"
-msgstr "Repetă odată"
+msgstr "Repetă o dată"
 
 #: include/vlc_intf_strings.h:79 src/libvlc-module.c:1398
 #: modules/gui/macosx/MainMenu.m:362 modules/gui/macosx/MainMenu.m:1454
@@ -690,7 +691,7 @@ msgstr "Câștig de redare"
 #: src/audio_output/output.c:377 modules/gui/macosx/MainMenu.m:383
 #: modules/gui/macosx/MainMenu.m:384
 msgid "Stereo audio mode"
-msgstr ""
+msgstr "Tipul stereo audio "
 
 #: src/audio_output/output.c:412 src/libvlc-module.c:189
 msgid "Dolby Surround"
@@ -1581,7 +1582,7 @@ msgstr ""
 
 #: src/libvlc-module.c:68
 msgid "Interface module"
-msgstr "Modúl de interfață"
+msgstr "Modul de interfață"
 
 #: src/libvlc-module.c:70
 msgid ""
@@ -1589,7 +1590,7 @@ msgid ""
 "automatically select the best module available."
 msgstr ""
 "Aceasta este interfața principală folosită de VLC. Comportamentul implicit "
-"este de a selecta automat cel mai bun modúl disponibil."
+"este de a selecta automat cel mai bun modul disponibil."
 
 #: src/libvlc-module.c:74 modules/control/ntservice.c:58
 msgid "Extra interface modules"
@@ -1688,7 +1689,7 @@ msgstr ""
 
 #: src/libvlc-module.c:127
 msgid "Audio output module"
-msgstr "Modúl de ieșire audio"
+msgstr "Modul de ieșire audio"
 
 #: src/libvlc-module.c:129
 msgid ""
@@ -1902,7 +1903,7 @@ msgstr ""
 
 #: src/libvlc-module.c:244
 msgid "Video output module"
-msgstr "Modúl de ieșire video"
+msgstr "Modul de ieșire video"
 
 #: src/libvlc-module.c:246
 msgid ""
@@ -2262,7 +2263,7 @@ msgstr ""
 
 #: src/libvlc-module.c:383
 msgid "Video filter module"
-msgstr "Modúl filtru video"
+msgstr "Modul filtru video"
 
 #: src/libvlc-module.c:385
 msgid ""
@@ -2939,7 +2940,7 @@ msgstr ""
 
 #: src/libvlc-module.c:708
 msgid "Text rendering module"
-msgstr "Modúl de randare de text"
+msgstr "Modul de randare de text"
 
 #: src/libvlc-module.c:710
 msgid ""
@@ -2961,7 +2962,7 @@ msgstr ""
 
 #: src/libvlc-module.c:717
 msgid "Subpictures filter module"
-msgstr "Modúl de filtre de subimagini"
+msgstr "Modul de filtre de subimagini"
 
 #: src/libvlc-module.c:719
 msgid ""
@@ -3461,7 +3462,7 @@ msgstr ""
 
 #: src/libvlc-module.c:989
 msgid "Access module"
-msgstr "Modúl de acces"
+msgstr "Modul de acces"
 
 #: src/libvlc-module.c:991
 msgid ""
@@ -3475,7 +3476,7 @@ msgstr ""
 
 #: src/libvlc-module.c:995
 msgid "Stream filter module"
-msgstr "Modúl de filtre de flux"
+msgstr "Modul de filtre de flux"
 
 #: src/libvlc-module.c:997
 msgid "Stream filters are used to modify the stream that is being read. "
@@ -3484,7 +3485,7 @@ msgstr ""
 
 #: src/libvlc-module.c:999
 msgid "Demux module"
-msgstr "Modúl de demultiplexare"
+msgstr "Modul de demultiplexare"
 
 #: src/libvlc-module.c:1001
 msgid ""
@@ -3648,7 +3649,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1085 modules/gui/qt4/ui/sprefs_interface.h:538
 msgid "Use only one instance when started from file manager"
-msgstr ""
+msgstr "Folosește o singură instanță când este pornit din managerul de fișiere"
 
 #: src/libvlc-module.c:1087
 msgid "Increase the priority of the process"
@@ -3673,6 +3674,7 @@ msgstr ""
 #: src/libvlc-module.c:1097 modules/gui/qt4/ui/sprefs_interface.h:534
 msgid "Enqueue items into playlist in one instance mode"
 msgstr ""
+"Adaugă elementele în lista de redare când rulează în modul o singură instanță"
 
 #: src/libvlc-module.c:1099
 msgid ""
@@ -6127,7 +6129,7 @@ msgstr ""
 
 #: modules/access/dshow/dshow.cpp:192
 msgid "AM Tuner mode"
-msgstr "Módul tunerului AM"
+msgstr "Modul tunerului AM"
 
 #: modules/access/dshow/dshow.cpp:194
 msgid ""
@@ -13732,6 +13734,7 @@ msgstr ""
 #: modules/control/rc.c:791
 msgid "| prev . . . . . . . . . . . .  previous playlist item"
 msgstr ""
+"| prev . . . . . . . . . . . .  elementul precedent din lista de redare"
 
 #: modules/control/rc.c:792
 msgid "| goto . . . . . . . . . . . . . .  goto item at index"
@@ -13767,7 +13770,7 @@ msgstr ""
 
 #: modules/control/rc.c:800
 msgid "| title_p  . . . . . .  previous title in current item"
-msgstr ""
+msgstr "| title_p  . . . . . .  titlul precedent din elementul curent"
 
 #: modules/control/rc.c:801
 msgid "| chapter [X]  . . . . set/get chapter in current item"
@@ -13779,7 +13782,7 @@ msgstr ""
 
 #: modules/control/rc.c:803
 msgid "| chapter_p  . . . .  previous chapter in current item"
-msgstr ""
+msgstr "| chapter_p  . . . .  capitolul precedent din elementul curent"
 
 #: modules/control/rc.c:805
 msgid "| seek X . . . seek in seconds, for instance `seek 12'"
@@ -16062,7 +16065,7 @@ msgstr ""
 
 #: modules/gui/macosx/ControlsBar.m:717 modules/gui/macosx/fspanel.m:416
 msgid "Click to go to the previous playlist item."
-msgstr ""
+msgstr "Clic pentru a merge la elementul precedent din lista de redare."
 
 #: modules/gui/macosx/ControlsBar.m:728 modules/gui/macosx/fspanel.m:420
 msgid "Click to go to the next playlist item."
@@ -16366,7 +16369,7 @@ msgstr "Nu trimite"
 
 #: modules/gui/macosx/intf.m:849 modules/gui/macosx/intf.m:850
 msgid "VLC crashed previously"
-msgstr "VLC a crăpat înainte."
+msgstr "VLC a crăpat înainte"
 
 #: modules/gui/macosx/intf.m:851
 msgid ""
@@ -16597,7 +16600,7 @@ msgstr "Blochează raportul de aspect"
 
 #: modules/gui/macosx/macosx.m:110 modules/gui/macosx/MainMenu.m:338
 msgid "Show Previous & Next Buttons"
-msgstr ""
+msgstr "Arată butoanele Precedent și Următor"
 
 #: modules/gui/macosx/macosx.m:111
 msgid "Shows the previous and next buttons in the main window."
@@ -17099,6 +17102,8 @@ msgid ""
 "Click to select a another file to play it in sync with the previously "
 "selected file."
 msgstr ""
+"Clic pentru a selecta un alt fișier ce va fi rulat sincron cu fișierul "
+"selectat înainte."
 
 #: modules/gui/macosx/open.m:149
 msgid "Custom playback"
@@ -18782,7 +18787,7 @@ msgstr ""
 
 #: modules/gui/ncurses.c:887
 msgid " [, ]                   Next/Previous title"
-msgstr " [, ]                   Titlul următor/precedent din lista de redare"
+msgstr " [, ]                   Titlul următor/precedent"
 
 #: modules/gui/ncurses.c:888
 msgid " <, >                   Next/Previous chapter"
@@ -18852,7 +18857,7 @@ msgstr ""
 
 #: modules/gui/ncurses.c:911
 msgid " ;                      Look for the next item"
-msgstr ""
+msgstr " ;                      Caută elementul următor"
 
 #: modules/gui/ncurses.c:912
 msgid " A                      Add an entry"
@@ -18966,7 +18971,7 @@ msgstr "Clic pentru a comuta între buclă la toate, la o piesă, sau fără buc
 
 #: modules/gui/qt4/components/controller.cpp:535
 msgid "Previous Chapter/Title"
-msgstr "Capitolul precedent/Titlu"
+msgstr "Capitolul/Titlul precedent"
 
 #: modules/gui/qt4/components/controller.cpp:547
 msgid "Next Chapter/Title"
@@ -19048,11 +19053,11 @@ msgstr "Deschide un mediu"
 
 #: modules/gui/qt4/components/controller.hpp:125
 msgid "Previous media in the playlist, skip backward when held"
-msgstr ""
+msgstr "Elementul precedent din lista de redare, sări înapoi când ții apăsat"
 
 #: modules/gui/qt4/components/controller.hpp:126
 msgid "Next media in the playlist, skip forward when held"
-msgstr ""
+msgstr "Elementul următor din lista de redare, sări înainte când ții apăsat"
 
 #: modules/gui/qt4/components/controller.hpp:127
 msgid "Toggle the video in fullscreen"
@@ -19629,6 +19634,8 @@ msgid ""
 "Playlist is currently empty.\n"
 "Drop a file here or select a media source from the left."
 msgstr ""
+"Lista de redare nu conține nimic.\n"
+"Lasă un fișier aici sau selectează o sursă media din stânga."
 
 #: modules/gui/qt4/components/playlist/standardpanel.hpp:156
 msgid "Icons"
@@ -23041,7 +23048,7 @@ msgstr "Deîntrețese video înaintea codării."
 
 #: modules/stream_out/transcode/transcode.c:63
 msgid "Deinterlace module"
-msgstr "Modúl de deîntrețesere"
+msgstr "Modul de deîntrețesere"
 
 #: modules/stream_out/transcode/transcode.c:65
 msgid "Specify the deinterlace module to use."
@@ -26047,7 +26054,7 @@ msgstr ""
 
 #: modules/video_filter/subsdelay.c:47
 msgid "Delay calculation mode"
-msgstr "Módul de calcul al întârzierii"
+msgstr "Modul de calcul al întârzierii"
 
 #: modules/video_filter/subsdelay.c:49
 msgid ""
@@ -27609,7 +27616,7 @@ msgstr " %"
 
 #: modules/gui/qt4/ui/sprefs_audio.h:419
 msgid "Output module:"
-msgstr "Modúl de ieșire:"
+msgstr "Modul de ieșire:"
 
 #: modules/gui/qt4/ui/sprefs_audio.h:421
 msgid "Visualization:"
@@ -27625,7 +27632,7 @@ msgstr "Dolby Surround:"
 
 #: modules/gui/qt4/ui/sprefs_audio.h:424
 msgid "Replay gain mode:"
-msgstr "Módul nivelului de redare:"
+msgstr "Modul nivelului de redare:"
 
 #: modules/gui/qt4/ui/sprefs_audio.h:425
 msgid "Headphone surround effect"
@@ -28424,26 +28431,6 @@ msgstr "Lista gestionarului media"
 #~ msgstr "arată"
 
 #, fuzzy
-#~ msgid "| @name marq-x X . . . . . . . . . . . .offset from left"
-#~ msgstr "| adaugă XYZ  . . . . . . . . . . adaugă XYZ la lista de redare"
-
-#, fuzzy
-#~ msgid "| @name marq-y Y . . . . . . . . . . . . offset from top"
-#~ msgstr "| adaugă XYZ  . . . . . . . . . . adaugă XYZ la lista de redare"
-
-#, fuzzy
-#~ msgid "| @name marq-opacity # . . . . . . . . . . . . . opacity"
-#~ msgstr "| adaugă XYZ  . . . . . . . . . . adaugă XYZ la lista de redare"
-
-#, fuzzy
-#~ msgid "| @name logo-x X . . . . . . . . . . . .offset from left"
-#~ msgstr "| adaugă XYZ  . . . . . . . . . . adaugă XYZ la lista de redare"
-
-#, fuzzy
-#~ msgid "| @name logo-y Y . . . . . . . . . . . . offset from top"
-#~ msgstr "| adaugă XYZ  . . . . . . . . . . adaugă XYZ la lista de redare"
-
-#, fuzzy
 #~ msgid "| @name mosaic-width # . . . . . . . . . . . . . . width"
 #~ msgstr "| adaugă XYZ  . . . . . . . . . . adaugă XYZ la lista de redare"
 
@@ -28637,10 +28624,6 @@ msgstr "Lista gestionarului media"
 
 #~ msgid "00000; "
 #~ msgstr "00000; "
-
-#~ msgid "Enqueue files when in one instance mode"
-#~ msgstr ""
-#~ "În módul instanță unică, adaugă elementele la coada listei de redare"
 
 #~ msgid "Probe DVB card for capabilities"
 #~ msgstr "Probează capabilitățile plăcii DVB"
@@ -30056,6 +30039,37 @@ msgstr "Lista gestionarului media"
 #~ msgstr "Stabilește aspectul (gen 4:3) canavalei video"
 
 #, fuzzy
+#~ msgid "| @name marq-x X . . . . . . . . . . . .offset from left"
+#~ msgstr ""
+#~ "| prev . . . . . . . . . . . .  elementul precedent din lista de redare"
+
+#, fuzzy
+#~ msgid "| @name marq-y Y . . . . . . . . . . . . offset from top"
+#~ msgstr ""
+#~ "| prev . . . . . . . . . . . .  elementul precedent din lista de redare"
+
+#, fuzzy
+#~ msgid "| @name marq-opacity # . . . . . . . . . . . . . opacity"
+#~ msgstr ""
+#~ "| prev . . . . . . . . . . . .  elementul precedent din lista de redare"
+
+#, fuzzy
+#~ msgid "| @name logo-x X . . . . . . . . . . . .offset from left"
+#~ msgstr ""
+#~ "| prev . . . . . . . . . . . .  elementul precedent din lista de redare"
+
+#, fuzzy
+#~ msgid "| @name logo-y Y . . . . . . . . . . . . offset from top"
+#~ msgstr ""
+#~ "| prev . . . . . . . . . . . .  elementul precedent din lista de redare"
+
+#, fuzzy
+#~ msgid "Enqueue files when in one instance mode"
+#~ msgstr ""
+#~ "Adaugă elementele în lista de redare când rulează în modul o singură "
+#~ "instanță"
+
+#, fuzzy
 #~ msgid "Audio volume (0-65535)."
 #~ msgstr "Volum audio"
 
@@ -30117,7 +30131,7 @@ msgstr "Lista gestionarului media"
 
 #, fuzzy
 #~ msgid "Fetch Information"
-#~ msgstr "Informații despre &codec"
+#~ msgstr "Informații despre &codor"
 
 #, fuzzy
 #~ msgid "Sort"
@@ -30185,11 +30199,12 @@ msgstr "Lista gestionarului media"
 
 #, fuzzy
 #~ msgid "Memory copy module"
-#~ msgstr "Modúl de ieșire video"
+#~ msgstr "Modul de ieșire video"
 
 #, fuzzy
 #~ msgid "Allow only one running instance when started from file."
-#~ msgstr "Permite doar o singură instanță de execuție"
+#~ msgstr ""
+#~ "Folosește o singură instanță când este pornit din managerul de fișiere"
 
 #, fuzzy
 #~ msgid "Leave fullscreen"
@@ -30623,7 +30638,7 @@ msgstr "Lista gestionarului media"
 
 #, fuzzy
 #~ msgid "SQLite database module"
-#~ msgstr "Modúl de filtre de flux"
+#~ msgstr "Modul de filtre de flux"
 
 #, fuzzy
 #~ msgid "MSN Now-Playing"
@@ -30993,7 +31008,7 @@ msgstr "Lista gestionarului media"
 
 #, fuzzy
 #~ msgid "Video output is not supported"
-#~ msgstr "Modúl de ieșire video"
+#~ msgstr "Modul de ieșire video"
 
 #, fuzzy
 #~ msgid "Viewer"
@@ -31117,7 +31132,7 @@ msgstr "Lista gestionarului media"
 
 #, fuzzy
 #~ msgid "Video output filter module"
-#~ msgstr "Modúl de ieșire video"
+#~ msgstr "Modul de ieșire video"
 
 #, fuzzy
 #~ msgid "UDP port"
@@ -31564,7 +31579,7 @@ msgstr "Lista gestionarului media"
 
 #, fuzzy
 #~ msgid "Deinterlace module to use."
-#~ msgstr "Modúl de deîntrețesere"
+#~ msgstr "Modul de deîntrețesere"
 
 #, fuzzy
 #~ msgid "Fake video decoder"
@@ -31813,7 +31828,7 @@ msgstr "Lista gestionarului media"
 
 #, fuzzy
 #~ msgid "Lua Interface Module (shortcuts)"
-#~ msgstr "Modúl de interfață"
+#~ msgstr "Modul de interfață"
 
 #, fuzzy
 #~ msgid "Server"
@@ -31906,7 +31921,7 @@ msgstr "Lista gestionarului media"
 
 #, fuzzy
 #~ msgid "Subpicture filters"
-#~ msgstr "Modúl de filtre de subimagini"
+#~ msgstr "Modul de filtre de subimagini"
 
 #, fuzzy
 #~ msgid "Video filters"
@@ -31957,7 +31972,7 @@ msgstr "Lista gestionarului media"
 
 #, fuzzy
 #~ msgid "Show interface with mouse"
-#~ msgstr "Modúl de interfață"
+#~ msgstr "Modul de interfață"
 
 #, fuzzy
 #~ msgid ""
