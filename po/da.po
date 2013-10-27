@@ -28,7 +28,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-09-21 15:06+0200\n"
-"PO-Revision-Date: 2013-09-28 16:14+0000\n"
+"PO-Revision-Date: 2013-10-25 04:00+0000\n"
 "Last-Translator: Aputsiaĸ Niels Janussen <aj@isit.gl>\n"
 "Language-Team: Danish (http://www.transifex.com/projects/p/vlc-trans/"
 "language/da/)\n"
@@ -7279,13 +7279,16 @@ msgstr ""
 
 #: modules/access/live555.cpp:83
 msgid "WMServer RTSP dialect"
-msgstr ""
+msgstr "WMServer RTSP-dialekt"
 
 #: modules/access/live555.cpp:84
 msgid ""
 "WMServer uses a nonstandard dialect of RTSP. Selecting this parameter will "
 "tell VLC to assume some options contrary to RFC 2326 guidelines."
 msgstr ""
+"WMServer bruger en dialekt af RTSP, som ikke følger standarden. Denne "
+"parameter vil få VLC til gøre visse antagelser, som strider mod "
+"retningslinjerne i RFC 2326."
 
 #: modules/access/live555.cpp:88
 msgid "RTSP user name"
@@ -7296,6 +7299,8 @@ msgid ""
 "Sets the username for the connection, if no username or password are set in "
 "the url."
 msgstr ""
+"Sætter brugernavn for forbindelsen, der ikke brugernavn eller adgangskode "
+"ikke er givet i adressen."
 
 #: modules/access/live555.cpp:91
 msgid "RTSP password"
@@ -7321,11 +7326,11 @@ msgstr ""
 
 #: modules/access/live555.cpp:101
 msgid "RTP/RTSP/SDP demuxer (using Live555)"
-msgstr ""
+msgstr "RTP/RTSP/SDP-demuxer (bruger Live555)"
 
 #: modules/access/live555.cpp:110
 msgid "RTSP/RTP access and demux"
-msgstr ""
+msgstr "RTSP/RTP-adgang og demux"
 
 #: modules/access/live555.cpp:115 modules/access/live555.cpp:116
 #: modules/gui/macosx/simple_prefs.m:214
@@ -8128,7 +8133,7 @@ msgstr "SFTP-input"
 
 #: modules/access/sftp.c:130
 msgid "SFTP authentication"
-msgstr ""
+msgstr "SFTP-godkendelse"
 
 #: modules/access/sftp.c:131
 #, c-format
@@ -8695,11 +8700,11 @@ msgstr "Mono"
 
 #: modules/access/v4l2/v4l2.c:269
 msgid "Primary language"
-msgstr ""
+msgstr "Primært sprog"
 
 #: modules/access/v4l2/v4l2.c:270
 msgid "Secondary language or program"
-msgstr ""
+msgstr "Sekundært sprog eller program"
 
 #: modules/access/v4l2/v4l2.c:271 modules/codec/twolame.c:70
 msgid "Dual mono"
@@ -8707,11 +8712,11 @@ msgstr "Dobbelt mono"
 
 #: modules/access/v4l2/v4l2.c:275
 msgid "V4L"
-msgstr ""
+msgstr "V4L"
 
 #: modules/access/v4l2/v4l2.c:276
 msgid "Video4Linux input"
-msgstr ""
+msgstr "Video4Linux-input"
 
 #: modules/access/v4l2/v4l2.c:280
 msgid "Video input"
@@ -8946,7 +8951,7 @@ msgstr ""
 
 #: modules/access/vdr.c:91
 msgid "VDR recordings"
-msgstr ""
+msgstr "VDR-optagelser"
 
 #: modules/access/vdr.c:809
 msgid "VDR Cut Marks"
@@ -8954,7 +8959,7 @@ msgstr ""
 
 #: modules/access/vdr.c:872
 msgid "Start"
-msgstr ""
+msgstr "Start"
 
 #: modules/access/vnc.c:48
 msgid "X.509 Certificate Authority"
@@ -9986,7 +9991,7 @@ msgstr ""
 
 #: modules/audio_output/amem.c:42
 msgid "Sample format"
-msgstr ""
+msgstr "Samplefrekvens"
 
 #: modules/audio_output/audioqueue.c:66
 msgid "AudioQueue (iOS / Mac OS) audio output"
@@ -10268,10 +10273,13 @@ msgid ""
 "This includes (MS)MPEG4, DivX, SV1,H261, H263, H264, WMV, WMA, AAC, AMR, DV, "
 "MJPEG and other codecs"
 msgstr ""
+"Forskellige lyd- og video-afkodere/indkodere fås gennem FFmpeg-biblioteket. "
+"Disse inkluderer (MS)MPEG4, DivX, SV1,H261, H263, H264, WMV, WMA, AAC, AMR, "
+"DV, MJPEG og andre codecs"
 
 #: modules/codec/avcodec/avcodec.c:94
 msgid "FFmpeg audio/video decoder"
-msgstr ""
+msgstr "FFmpeg lyd/video-dekoder"
 
 #: modules/codec/avcodec/avcodec.c:97
 #: modules/codec/omxil/android_mediacodec.c:166 modules/codec/omxil/omxil.c:75
@@ -28334,9 +28342,6 @@ msgstr "Mediestyringsliste"
 #~ msgid "Primary language (Analog TV tuners only)"
 #~ msgstr "Primært sprog (kun analoge tv-tunere)"
 
-#~ msgid "Secondary language (Analog TV tuners only)"
-#~ msgstr "Sekundært sprog (kun analoge tv-tunere)"
-
 #~ msgid "Second audio program (Analog TV tuners only)"
 #~ msgstr "Sekundært lydprogram (kun analoge tv-tunere)"
 
@@ -30431,6 +30436,10 @@ msgstr "Mediestyringsliste"
 #~ msgstr "_Moduler..."
 
 #, fuzzy
+#~ msgid "Secondary language (Analog TV tuners only)"
+#~ msgstr "Sekundært sprog eller program"
+
+#, fuzzy
 #~ msgid "Automatic multicast streaming"
 #~ msgstr "Automatisk kromaforstærkning"
 
@@ -30833,11 +30842,11 @@ msgstr "Mediestyringsliste"
 
 #, fuzzy
 #~ msgid "Video4Linux2"
-#~ msgstr "Videoinput"
+#~ msgstr "Video4Linux-input"
 
 #, fuzzy
 #~ msgid "Video4Linux2 input"
-#~ msgstr "Videoinput"
+#~ msgstr "Video4Linux-input"
 
 #, fuzzy
 #~ msgid "[vcd:][device][@[title][,[chapter]]]"
@@ -31924,7 +31933,7 @@ msgstr "Mediestyringsliste"
 
 #, fuzzy
 #~ msgid "Video4Linux"
-#~ msgstr "Videoinput"
+#~ msgstr "Video4Linux-input"
 
 #, fuzzy
 #~ msgid "Auto gain"
@@ -33948,7 +33957,7 @@ msgstr "Mediestyringsliste"
 
 #, fuzzy
 #~ msgid "FFmpeg audio/video decoders/encoders"
-#~ msgstr "Lyd-/videoindkoder til FFmpeg"
+#~ msgstr "FFmpeg lyd/video-dekoder"
 
 #, fuzzy
 #~ msgid "Size of the black border to add at the right of the video."
