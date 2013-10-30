@@ -198,7 +198,6 @@ fi
     --disable-sidplay2 \
     --disable-samplerate \
     --disable-goom \
-    --disable-gcrypt \
     --disable-vncserver \
     --disable-gnutls \
     --disable-orc \
@@ -212,7 +211,6 @@ fi
     --enable-ass \
     --disable-fontconfig \
     --disable-gpg-error \
-    --disable-gcrypt \
     --disable-lua \
     --disable-taglib > ${out}
 
@@ -275,7 +273,6 @@ ${VLCROOT}/configure \
     --enable-fribidi \
     --disable-macosx-audio \
     --disable-qt --disable-skins2 \
-    --disable-libgcrypt \
     --disable-vcd \
     --disable-vlc \
     --disable-vlm \
