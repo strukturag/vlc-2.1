@@ -858,7 +858,7 @@ static void ffmpeg_InitCodec( decoder_t *p_dec )
         {
             memcpy( p_sys->p_context->extradata,
                     p_dec->fmt_in.p_extra, i_size );
-            memset( &((uint8_t*)p_sys->p_context->extradata)[i_size],
+            memset( p_sys->p_context->extradata + i_size,
                     0, FF_INPUT_BUFFER_PADDING_SIZE );
         }
     }
