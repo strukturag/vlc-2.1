@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-11-07 18:32+0100\n"
-"PO-Revision-Date: 2013-10-02 21:27+0000\n"
+"PO-Revision-Date: 2013-11-09 20:16+0000\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian (http://www.transifex.com/projects/p/vlc-trans/"
 "language/sl/)\n"
@@ -479,7 +479,7 @@ msgstr "Skoči na določen &čas"
 
 #: include/vlc_intf_strings.h:59
 msgid "Custom &Bookmarks"
-msgstr ""
+msgstr "&Zaznamki po meri"
 
 #: include/vlc_intf_strings.h:60
 msgid "&VLM Configuration"
@@ -1144,11 +1144,11 @@ msgstr "Povečaj glasnost"
 
 #: src/config/keys.c:119
 msgid "Zoom In"
-msgstr ""
+msgstr "Približaj"
 
 #: src/config/keys.c:120
 msgid "Zoom Out"
-msgstr ""
+msgstr "Oddalji"
 
 #: src/config/keys.c:248
 msgid "Ctrl+"
@@ -3196,7 +3196,7 @@ msgstr "Uporabniško ime za SOCKS"
 
 #: src/libvlc-module.c:852
 msgid "User name to be used for connection to the SOCKS proxy."
-msgstr "Uporabniško ime za povezavo z namestniškim strežnikom SOCKS."
+msgstr "Uporabniško ime za povezavo z posredovalnim strežnikom SOCKS."
 
 #: src/libvlc-module.c:854
 msgid "SOCKS password"
@@ -3204,7 +3204,7 @@ msgstr "Geslo SOCKS"
 
 #: src/libvlc-module.c:856
 msgid "Password to be used for connection to the SOCKS proxy."
-msgstr "Geslo za povezavo z namestniškim strežnikom SOCKS."
+msgstr "Geslo za povezavo s posredovalnim strežnikom SOCKS."
 
 #: src/libvlc-module.c:858
 msgid "Title metadata"
@@ -4661,7 +4661,7 @@ msgstr "Omrežne nastavitve"
 
 #: src/libvlc-module.c:1764
 msgid "Socks proxy"
-msgstr "SOCKS namestniški strežnik"
+msgstr "Posredovalni strežnik SOCKS"
 
 #: src/libvlc-module.c:1773 modules/demux/xiph_metadata.h:53
 msgid "Metadata"
@@ -6871,7 +6871,7 @@ msgstr "GnomeVFS dovod"
 
 #: modules/access/http.c:64 modules/access/mms/mms.c:58
 msgid "HTTP proxy"
-msgstr "HTTP namestniški strežnik"
+msgstr "Posredovalni strežnik HTTP"
 
 #: modules/access/http.c:66
 msgid ""
@@ -6889,7 +6889,7 @@ msgstr "Geslo posredniškega strežnika HTTP"
 #: modules/access/http.c:72
 msgid "If your HTTP proxy requires a password, set it here."
 msgstr ""
-"V primeru, da HTTP namestniški strežnik zahteva geslo, ga vpišite tukaj."
+"V primeru, da posredovalni strežnik HTTP zahteva geslo, ga vpišite tukaj."
 
 #: modules/access/http.c:74
 msgid "Auto re-connect"
@@ -7333,9 +7333,9 @@ msgid ""
 "mydomain:myport/ ; if empty, the http_proxy environment variable will be "
 "tried."
 msgstr ""
-"Določitev HTTP namestniškega strežnika v obliki http://[uporabnik[:"
-"geslo]@]mojproxy.mojadomena:moja vrata/ . Če je vrednost prazna bo "
-"uporabljena sistemska nastavitev."
+"Določitev HTTP namestniškega strežnika v obliki http://[uporabnik[:geslo]@]"
+"mojproxy.mojadomena:moja vrata/ . Če je vrednost prazna bo uporabljena "
+"sistemska nastavitev."
 
 #: modules/access/mms/mms.c:64
 msgid "TCP/UDP timeout (ms)"
@@ -8171,7 +8171,7 @@ msgstr "TCP dovod"
 
 #: modules/access/timecode.c:43
 msgid "Time code"
-msgstr ""
+msgstr "Časovna koda"
 
 #: modules/access/timecode.c:44
 msgid "Time code subpicture elementary stream generator"
@@ -8191,7 +8191,7 @@ msgstr "Ponastavi na privzeto"
 
 #: modules/access/v4l2/v4l2.c:44
 msgid "Video capture device"
-msgstr ""
+msgstr "Naprava za zajem videa"
 
 #: modules/access/v4l2/v4l2.c:45
 msgid "Video capture device node."
@@ -8199,7 +8199,7 @@ msgstr ""
 
 #: modules/access/v4l2/v4l2.c:46
 msgid "VBI capture device"
-msgstr ""
+msgstr "Naprava za zajem VBI"
 
 #: modules/access/v4l2/v4l2.c:48
 msgid "The device node where VBI data can be read  (for closed captions) "
@@ -8919,7 +8919,7 @@ msgstr ""
 
 #: modules/access/vnc.c:61
 msgid "Compression level"
-msgstr ""
+msgstr "Raven stiskanja"
 
 #: modules/access/vnc.c:62
 msgid "Transfer compression level from 0 (none) to 9 (max)"
@@ -8927,11 +8927,11 @@ msgstr ""
 
 #: modules/access/vnc.c:63
 msgid "Image quality"
-msgstr ""
+msgstr "Kakovost slike"
 
 #: modules/access/vnc.c:64
 msgid "Image quality 1 to 9 (max)"
-msgstr ""
+msgstr "Kakovost slike od 1 do 9 (največja)"
 
 #: modules/access/vnc.c:78
 msgid "VNC"
@@ -9264,7 +9264,7 @@ msgstr ""
 
 #: modules/audio_filter/chorus_flanger.c:91
 msgid "Level of delayed signal"
-msgstr ""
+msgstr "Raven zakasnelega signala"
 
 #: modules/audio_filter/chorus_flanger.c:93
 msgid "Dry Mix"
@@ -16789,7 +16789,7 @@ msgstr ""
 
 #: modules/gui/macosx/macosx.m:121 modules/gui/macosx/MainMenu.m:344
 msgid "Show Sidebar"
-msgstr ""
+msgstr "Pokaži stransko vrstico"
 
 #: modules/gui/macosx/macosx.m:122
 msgid "Shows a sidebar in the main window listing media sources."
@@ -16839,11 +16839,11 @@ msgstr ""
 
 #: modules/gui/macosx/macosx.m:181
 msgid "Video output"
-msgstr ""
+msgstr "Video izhod"
 
 #: modules/gui/macosx/MainMenu.m:68
 msgid "Track Number"
-msgstr ""
+msgstr "Številka posnetka"
 
 #: modules/gui/macosx/MainMenu.m:70 modules/gui/macosx/playlist.m:165
 #: modules/gui/macosx/wizard.m:347 modules/gui/qt4/dialogs/plugins.cpp:557
@@ -16950,7 +16950,7 @@ msgstr "Izberi vse"
 
 #: modules/gui/macosx/MainMenu.m:337
 msgid "View"
-msgstr ""
+msgstr "Pogled"
 
 #: modules/gui/macosx/MainMenu.m:346 modules/gui/macosx/MainMenu.m:347
 msgid "Playlist Table Columns"
@@ -16962,12 +16962,12 @@ msgstr "Predvajanje"
 
 #: modules/gui/macosx/MainMenu.m:354 modules/gui/macosx/MainMenu.m:355
 msgid "Playback Speed"
-msgstr ""
+msgstr "Hitrost predvajanja"
 
 #: modules/gui/macosx/MainMenu.m:359
 #: modules/gui/macosx/TrackSynchronization.m:59
 msgid "Track Synchronization"
-msgstr ""
+msgstr "Sinhronost sledi"
 
 #: modules/gui/macosx/MainMenu.m:365
 msgid "A→B Loop"
@@ -17047,7 +17047,7 @@ msgstr "Barva besedila"
 
 #: modules/gui/macosx/MainMenu.m:419
 msgid "Outline Thickness"
-msgstr ""
+msgstr "Debelina orisa"
 
 #: modules/gui/macosx/MainMenu.m:421 modules/gui/macosx/MainMenu.m:422
 msgid "Background Opacity"
@@ -17075,7 +17075,7 @@ msgstr "Zapri okno"
 
 #: modules/gui/macosx/MainMenu.m:435
 msgid "Player..."
-msgstr ""
+msgstr "Predvajalnik ..."
 
 #: modules/gui/macosx/MainMenu.m:436
 msgid "Main Window..."
@@ -17203,7 +17203,7 @@ msgstr "Internet"
 
 #: modules/gui/macosx/open.m:57
 msgid "No device is selected"
-msgstr ""
+msgstr "Nobena naprava ni izbrana"
 
 #: modules/gui/macosx/open.m:58
 msgid ""
@@ -17242,7 +17242,7 @@ msgstr "Zajemi"
 
 #: modules/gui/macosx/open.m:136 modules/gui/macosx/open.m:362
 msgid "Choose a file"
-msgstr ""
+msgstr "Izberite datoteko"
 
 #: modules/gui/macosx/open.m:139
 msgid "Click to select a file for playback"
@@ -17270,27 +17270,27 @@ msgstr ""
 
 #: modules/gui/macosx/open.m:149
 msgid "Custom playback"
-msgstr ""
+msgstr "Predvajanje po meri"
 
 #: modules/gui/macosx/open.m:157
 msgid "Open VIDEO_TS folder"
-msgstr ""
+msgstr "Odpri mapo VIDEO_TS"
 
 #: modules/gui/macosx/open.m:158
 msgid "Open BDMV folder"
-msgstr ""
+msgstr "Odpri mapo BDMV"
 
 #: modules/gui/macosx/open.m:159
 msgid "Insert Disc"
-msgstr ""
+msgstr "Vstavi plošček"
 
 #: modules/gui/macosx/open.m:167
 msgid "Disable DVD menus"
-msgstr ""
+msgstr "Onemogoči menije DVD"
 
 #: modules/gui/macosx/open.m:171
 msgid "Enable DVD menus"
-msgstr ""
+msgstr "Omogoči menije DVD"
 
 #: modules/gui/macosx/open.m:184
 msgid "IP Address"
@@ -17351,7 +17351,7 @@ msgstr "Skupinsko pošiljanje"
 #: modules/gui/macosx/open.m:206 modules/gui/macosx/open.m:513
 #: modules/gui/macosx/open.m:1396
 msgid "Input Devices"
-msgstr ""
+msgstr "Vhodne naprave"
 
 #: modules/gui/macosx/open.m:209
 msgid ""
@@ -17446,7 +17446,7 @@ msgstr "Velikost pisave"
 
 #: modules/gui/macosx/open.m:378
 msgid "Subtitle alignment"
-msgstr ""
+msgstr "Poravnava podnapisov"
 
 #: modules/gui/macosx/open.m:381
 msgid "Click to dismiss the subtitle setup dialog."
@@ -17812,7 +17812,7 @@ msgstr ""
 
 #: modules/gui/macosx/simple_prefs.m:226
 msgid "Interface style"
-msgstr ""
+msgstr "Slog vmesnika"
 
 #: modules/gui/macosx/simple_prefs.m:227
 msgid "Dark"
@@ -19245,7 +19245,7 @@ msgstr "Zankaj / ponovi"
 
 #: modules/gui/qt4/components/controller.hpp:121
 msgid "Open subtitles"
-msgstr ""
+msgstr "Odpri podnapise"
 
 #: modules/gui/qt4/components/controller.hpp:121
 msgid "Dock fullscreen controller"
@@ -19401,73 +19401,73 @@ msgstr "dB"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1192
 msgid "170 Hz"
-msgstr ""
+msgstr "170 Hz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1193
 msgid "310 Hz"
-msgstr ""
+msgstr "310 Hz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1194
 msgid "600 Hz"
-msgstr ""
+msgstr "600 Hz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1195
 #: modules/gui/qt4/components/extended_panels.cpp:1209
 msgid "1 KHz"
-msgstr ""
+msgstr "1 kHz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1196
 msgid "3 KHz"
-msgstr ""
+msgstr "3 kHz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1197
 msgid "6 KHz"
-msgstr ""
+msgstr "6 kHz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1198
 msgid "12 KHz"
-msgstr ""
+msgstr "12 kHz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1199
 msgid "14 KHz"
-msgstr ""
+msgstr "14 kHz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1200
 #: modules/gui/qt4/components/extended_panels.cpp:1213
 msgid "16 KHz"
-msgstr ""
+msgstr "16 kHz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1204
 msgid "31 Hz"
-msgstr ""
+msgstr "31 Hz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1205
 msgid "63 Hz"
-msgstr ""
+msgstr "63 Hz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1206
 msgid "125 Hz"
-msgstr ""
+msgstr "125 Hz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1207
 msgid "250 Hz"
-msgstr ""
+msgstr "250 Hz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1208
 msgid "500 Hz"
-msgstr ""
+msgstr "500 Hz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1210
 msgid "2 KHz"
-msgstr ""
+msgstr "2 kHz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1211
 msgid "4 KHz"
-msgstr ""
+msgstr "4 kHz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1212
 msgid "8 KHz"
-msgstr ""
+msgstr "8 kHz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1380
 #: modules/gui/qt4/components/extended_panels.cpp:1381
@@ -19639,7 +19639,7 @@ msgstr ""
 
 #: modules/gui/qt4/components/interface_widgets.cpp:718
 msgid "Image Files (*.gif *.jpg *.jpeg *.png)"
-msgstr ""
+msgstr "Slikovne datoteke (*.gif *.jpg *.jpeg *.png)"
 
 #: modules/gui/qt4/components/interface_widgets.cpp:743
 #: modules/gui/qt4/dialogs/toolbar.cpp:461
@@ -19845,15 +19845,15 @@ msgstr ""
 
 #: modules/gui/qt4/components/playlist/standardpanel.hpp:156
 msgid "Icons"
-msgstr ""
+msgstr "Ikone"
 
 #: modules/gui/qt4/components/playlist/standardpanel.hpp:157
 msgid "Detailed List"
-msgstr ""
+msgstr "Podroben seznam"
 
 #: modules/gui/qt4/components/playlist/standardpanel.hpp:158
 msgid "List"
-msgstr ""
+msgstr "Seznam"
 
 #: modules/gui/qt4/components/playlist/standardpanel.hpp:159
 msgid "PictureFlow"
@@ -19875,11 +19875,11 @@ msgstr ""
 
 #: modules/gui/qt4/components/preferences_widgets.cpp:1139
 msgid "Any field"
-msgstr ""
+msgstr "Poljubno polje"
 
 #: modules/gui/qt4/components/preferences_widgets.cpp:1140
 msgid "Actions"
-msgstr ""
+msgstr "Dejanja"
 
 #: modules/gui/qt4/components/preferences_widgets.cpp:1147
 msgid "Hotkey"
@@ -20559,7 +20559,7 @@ msgstr "Predstavne datoteke"
 
 #: modules/gui/qt4/dialogs_provider.hpp:44
 msgid "Subtitle Files"
-msgstr ""
+msgstr "Datoteke podnapisov"
 
 #: modules/gui/qt4/dialogs_provider.hpp:45
 msgid "All Files"
@@ -20701,15 +20701,15 @@ msgstr "Napredne možnosti"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:449
 msgid "Playback Buttons"
-msgstr ""
+msgstr "Gumbi za predvajanje"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:453
 msgid "Aspect ratio selector"
-msgstr ""
+msgstr "Izbirnik razmerja stranic"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:457
 msgid "Speed selector"
-msgstr ""
+msgstr "Izbirnik hitrosti"
 
 #: modules/gui/qt4/dialogs/vlm.cpp:73
 msgid "Broadcast"
@@ -20922,7 +20922,7 @@ msgstr "&Napredne možnosti"
 
 #: modules/gui/qt4/menus.cpp:520
 msgid "Status Bar"
-msgstr ""
+msgstr "Vrstica stanja"
 
 #: modules/gui/qt4/menus.cpp:525
 msgid "Visualizations selector"
@@ -20938,7 +20938,7 @@ msgstr ""
 
 #: modules/gui/qt4/menus.cpp:589
 msgid "&Mute"
-msgstr ""
+msgstr "&Nemo"
 
 #: modules/gui/qt4/menus.cpp:606
 msgid "Audio &Track"
@@ -21050,7 +21050,7 @@ msgstr "&Naslednji"
 
 #: modules/gui/qt4/menus.cpp:850
 msgid "Sp&eed"
-msgstr ""
+msgstr "&Hitrost"
 
 #: modules/gui/qt4/menus.cpp:856
 msgid "&Faster"
@@ -21074,7 +21074,7 @@ msgstr "Skok na&zaj"
 
 #: modules/gui/qt4/menus.cpp:907
 msgid "Ctrl+T"
-msgstr ""
+msgstr "krmilka+T"
 
 #: modules/gui/qt4/menus.cpp:922
 msgid "Open &Network..."
@@ -21702,7 +21702,7 @@ msgstr ""
 
 #: modules/misc/gnutls.c:295
 msgid "View certificate"
-msgstr ""
+msgstr "Pokaži potrdilo"
 
 #: modules/misc/gnutls.c:312
 #, c-format
@@ -25415,7 +25415,7 @@ msgstr "Točka Y osi zgornjega levega kota mozaika."
 
 #: modules/video_filter/mosaic.c:104
 msgid "Border width"
-msgstr "Širina robu"
+msgstr "Širina roba"
 
 #: modules/video_filter/mosaic.c:106
 msgid "Width in pixels of the border between miniatures."
@@ -25423,7 +25423,7 @@ msgstr "Širina robov med miniaturami, v točkah."
 
 #: modules/video_filter/mosaic.c:107
 msgid "Border height"
-msgstr "Višina robu"
+msgstr "Višina roba"
 
 #: modules/video_filter/mosaic.c:109
 msgid "Height in pixels of the border between miniatures."
@@ -25947,7 +25947,7 @@ msgstr "Število stolpcev sestavljanke"
 
 #: modules/video_filter/puzzle.c:55
 msgid "Game mode"
-msgstr ""
+msgstr "Igralni način"
 
 #: modules/video_filter/puzzle.c:56
 msgid "Select game mode variation from jigsaw puzzle to sliding puzzle."
@@ -25955,7 +25955,7 @@ msgstr ""
 
 #: modules/video_filter/puzzle.c:57
 msgid "Border"
-msgstr ""
+msgstr "Obroba"
 
 #: modules/video_filter/puzzle.c:58
 msgid "Unshuffled Border width."
@@ -25963,7 +25963,7 @@ msgstr ""
 
 #: modules/video_filter/puzzle.c:59
 msgid "Small preview"
-msgstr ""
+msgstr "Majhen predogled"
 
 #: modules/video_filter/puzzle.c:60
 msgid "Show small preview."
@@ -27473,11 +27473,11 @@ msgstr ""
 
 #: share/lua/http/dialogs/mosaic_window.html:104
 msgid "Row border"
-msgstr ""
+msgstr "Obroba vrstice"
 
 #: share/lua/http/dialogs/mosaic_window.html:122
 msgid "Column border"
-msgstr ""
+msgstr "Obroba stolpca"
 
 #: share/lua/http/dialogs/mosaic_window.html:133
 msgid "Background"
@@ -28435,9 +28435,6 @@ msgstr "AAAA; "
 msgid "Media Manager List"
 msgstr "Seznam upravljalnika predstavnih datotek"
 
-#~ msgid "Show Details"
-#~ msgstr "Pokaži podrobnosti"
-
 #~ msgid ""
 #~ "SAP is a way to publically announce streams that are being sent using "
 #~ "multicast UDP or RTP."
@@ -29043,12 +29040,6 @@ msgstr "Seznam upravljalnika predstavnih datotek"
 #~ msgid "Minimal Mac OS X OpenGL video output (opens a borderless window)"
 #~ msgstr "Minimalni Mac OS X OpenGL slikovni odvod (odpre okno brez robov)"
 
-#~ msgid "Icon View"
-#~ msgstr "Ikonski pogled"
-
-#~ msgid "Detailed View"
-#~ msgstr "Podrobni pogled"
-
 #~ msgid "Warning: the key is already assigned to \""
 #~ msgstr "Opozorilo: ključ je že določen za \""
 
@@ -29564,8 +29555,8 @@ msgstr "Seznam upravljalnika predstavnih datotek"
 #~ "Adapter cards have a device file in directory named /dev/dvb/adapter[n] "
 #~ "with n>=0."
 #~ msgstr ""
-#~ "Vmesniške kartice so povezane z datotekami naprav v mapi /dev/dvb/"
-#~ "adapter[n] z n>=0."
+#~ "Vmesniške kartice so povezane z datotekami naprav v mapi /dev/dvb/adapter"
+#~ "[n] z n>=0."
 
 #~ msgid "In kHz for DVB-S or Hz for DVB-C/T"
 #~ msgstr "V kHz za DVB-S ali Hz za DVB-C/T"
@@ -31406,8 +31397,8 @@ msgstr "Seznam upravljalnika predstavnih datotek"
 #~ "(deblocking)\n"
 #~ "h1     x1hdeblock                              preizkusno filtriranje h "
 #~ "(deblocking) 1\n"
-#~ "v1     x1vdeblock                              preizkusno "
-#~ "filtriranje(deblocking) 1\n"
+#~ "v1     x1vdeblock                              preizkusno filtriranje"
+#~ "(deblocking) 1\n"
 #~ "dr     dering                                  Filter (deringing)\n"
 #~ "al     autolevels                              samodejna svetlost / "
 #~ "kontrast\n"
@@ -31934,6 +31925,18 @@ msgstr "Seznam upravljalnika predstavnih datotek"
 
 #~ msgid "Remaining time: %i seconds"
 #~ msgstr "Preostali čas: %i sekund"
+
+#, fuzzy
+#~ msgid "Show Details"
+#~ msgstr "Podrobnosti kodeka"
+
+#, fuzzy
+#~ msgid "Icon View"
+#~ msgstr "Pogled"
+
+#, fuzzy
+#~ msgid "Detailed View"
+#~ msgstr "Podroben seznam"
 
 #, fuzzy
 #~ msgid "Blu-Ray error"
@@ -32720,7 +32723,7 @@ msgstr "Seznam upravljalnika predstavnih datotek"
 
 #, fuzzy
 #~ msgid "Subtitles alignment"
-#~ msgstr "Postavitev slike"
+#~ msgstr "Poravnava podnapisov"
 
 #, fuzzy
 #~ msgid "SAP announce"
@@ -32768,7 +32771,7 @@ msgstr "Seznam upravljalnika predstavnih datotek"
 
 #, fuzzy
 #~ msgid "HTTP Proxy"
-#~ msgstr "HTTP namestniški strežnik"
+#~ msgstr "Posredovalni strežnik HTTP"
 
 #, fuzzy
 #~ msgid "Font Color"
@@ -32895,7 +32898,7 @@ msgstr "Seznam upravljalnika predstavnih datotek"
 
 #, fuzzy
 #~ msgid "Subtitles Files"
-#~ msgstr "Datoteka s podnapisi"
+#~ msgstr "Datoteke podnapisov"
 
 #, fuzzy
 #~ msgid "&Tools"
@@ -33377,7 +33380,7 @@ msgstr "Seznam upravljalnika predstavnih datotek"
 
 #, fuzzy
 #~ msgid "Viewer"
-#~ msgstr "&Pogled"
+#~ msgstr "Pogled"
 
 #, fuzzy
 #~ msgid "Library"
@@ -33649,7 +33652,7 @@ msgstr "Seznam upravljalnika predstavnih datotek"
 
 #, fuzzy
 #~ msgid "Certificate file"
-#~ msgstr "Navpično zrcaljenje"
+#~ msgstr "Pokaži potrdilo"
 
 #, fuzzy
 #~ msgid "Private key file"
@@ -33657,7 +33660,7 @@ msgstr "Seznam upravljalnika predstavnih datotek"
 
 #, fuzzy
 #~ msgid "Root CA file"
-#~ msgstr "Zabeleži v datoteko"
+#~ msgstr "Izberite datoteko"
 
 #, fuzzy
 #~ msgid "CRL file"
@@ -34146,7 +34149,7 @@ msgstr "Seznam upravljalnika predstavnih datotek"
 
 #, fuzzy
 #~ msgid "No device connected"
-#~ msgstr "Ni mogoče najti dovodne naprave"
+#~ msgstr "Nobena naprava ni izbrana"
 
 #, fuzzy
 #~ msgid "Screen Capture Input"
@@ -36494,7 +36497,7 @@ msgstr "Seznam upravljalnika predstavnih datotek"
 
 #, fuzzy
 #~ msgid "Open Subtitles"
-#~ msgstr "Odpri podnapise ..."
+#~ msgstr "Odpri podnapise"
 
 #, fuzzy
 #~ msgid "Check for Updates"
