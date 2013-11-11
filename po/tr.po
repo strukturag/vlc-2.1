@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-11-07 18:32+0100\n"
-"PO-Revision-Date: 2013-10-13 01:20+0000\n"
+"PO-Revision-Date: 2013-11-09 17:14+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/projects/p/vlc-trans/"
 "language/tr/)\n"
@@ -3547,13 +3547,13 @@ msgid ""
 "access is not automatically detected. You should not set this as a global "
 "option unless you really know what you are doing."
 msgstr ""
-"Bu seçenek bir erişim modülünün kullanılmasını sağlar. Doğru modül "
+"Bu seçenek belirli bir erişim modülünün kullanılmasını sağlar. Doğru modül "
 "kendiliğinden algılanamıyorsa bu seçeneği kullanabilirsiniz. Ne yaptığınızı "
 "gerçekten bilmeden bu değeri genel bir ayar olarak kullanmamalısınız."
 
 #: src/libvlc-module.c:995
 msgid "Stream filter module"
-msgstr "Akış süzgeç modülü"
+msgstr "Akış süzgeci modülü"
 
 #: src/libvlc-module.c:997
 msgid "Stream filters are used to modify the stream that is being read. "
@@ -3577,19 +3577,19 @@ msgstr ""
 
 #: src/libvlc-module.c:1006
 msgid "VoD server module"
-msgstr "İsteğe bağlı görüntü sunucu modülü"
+msgstr "İsteğe bağlı görüntü sunucusu modülü"
 
 #: src/libvlc-module.c:1008
 msgid ""
 "You can select which VoD server module you want to use. Set this to "
 "`vod_rtsp' to switch back to the old, legacy module."
 msgstr ""
-"Kullanmak istediğiniz isteğe bağlı görüntü sunucu modülünü seçebilirsiniz. "
-"Eski modülü kullanmak için buraya `vod_rtsp' yazın."
+"Kullanılması istenen, isteğe bağlı görüntü sunucu modülü buradan "
+"seçilebilir. Eski modülün kullanması için buraya `vod_rtsp' yazın."
 
 #: src/libvlc-module.c:1011
 msgid "Allow real-time priority"
-msgstr "Eşzamanlı önceliğe izin ver"
+msgstr "Gerçek zamanlı öncelik kullanılsın"
 
 #: src/libvlc-module.c:1013
 msgid ""
@@ -3598,15 +3598,14 @@ msgid ""
 "however lock up your whole machine, or make it very very slow. You should "
 "only activate this if you know what you're doing."
 msgstr ""
-"VLC yazılımını özellikle içerik akışı yaparken, gerçek zaman önceliği ile "
-"çalıştırmak, çok daha hassas çalışmasını ve daha iyi sonuç vermesini sağlar. "
-"Ancak bu özellik, bilgisayarınızın kilitlenmesine ya da aşırı yavaşlamasına "
-"neden olabilir. Ne yaptığınızı gerçekten bilmiyorsanız bu seçeneği "
-"etkinleştirmeyin."
+"VLC yazılımı, özellikle içerik akışı yapılırken, gerçek zaman önceliği ile "
+"çalıştırıldığında, çok daha hassas ve iyi sonuç verir. Ancak bu özellik, "
+"bilgisayarınızın kilitlenmesine ya da aşırı yavaşlamasına neden olabilir. Ne "
+"yaptığınızı gerçekten bilmiyorsanız bu seçeneği etkinleştirmeyin."
 
 #: src/libvlc-module.c:1019
 msgid "Adjust VLC priority"
-msgstr "VLC önceliğini ayarla"
+msgstr "VLC önceliği"
 
 #: src/libvlc-module.c:1021
 msgid ""
@@ -3614,15 +3613,15 @@ msgid ""
 "You can use it to tune VLC priority against other programs, or against other "
 "VLC instances."
 msgstr ""
-"Bu seçenek, VLC varsayılan önceliklerine artı ya da eksi bir kayıklık ekler. "
-"Böylece diğer programlara ya da diğer VLC kopyalarına göre VLC yazılımının "
-"önceliğini ayarlayabilirsiniz."
+"Bu seçenek, varsayılan VLC önceliklerini artı ya da eksi yönde değiştirir. "
+"Böylece diğer programlara ya da diğer VLC kopyalarına göre öncelik "
+"ayarlanabilir."
 
 #: src/libvlc-module.c:1026
 msgid ""
 "This option is useful if you want to lower the latency when reading a stream"
 msgstr ""
-"Bu seçenek, bir akışı okurken daha az gecikme olmasını istiyorsanız "
+"Bu seçenek, bir akış okunurken daha az gecikme olması istendiğinde "
 "kullanışlıdır."
 
 #: src/libvlc-module.c:1030
@@ -3630,17 +3629,16 @@ msgid ""
 "Additional path for VLC to look for its modules. You can add several paths "
 "by concatenating them using \" PATH_SEP \" as separator"
 msgstr ""
-"VLC yazılımının modülleri arayacağı ek yol. \"PATH_SEP\" ayıracını "
-"kullanarak arka arkaya bir kaç yol ekleyebilirsiniz."
+"VLC yazılımının modülleri arayacağı ek yol. \"PATH_SEP\" ayıracı "
+"kullanılarak arka arkaya bir kaç yol eklenebilir."
 
 #: src/libvlc-module.c:1033
 msgid "VLM configuration file"
-msgstr "VLM yapılandırma dosyası"
+msgstr "VLM ayar dosyası"
 
 #: src/libvlc-module.c:1035
 msgid "Read a VLM configuration file as soon as VLM is started."
-msgstr ""
-"VLM başlatılır başlatılmaz, burada belirtilen yapılandırma dosyası okunur."
+msgstr "VLM başlatıldığında, önce burada belirtilen ayar dosyası okunur."
 
 #: src/libvlc-module.c:1037
 msgid "Use a plugins cache"
@@ -3649,16 +3647,18 @@ msgstr "Uyumlu ek önbelleği kullanılsın"
 #: src/libvlc-module.c:1039
 msgid "Use a plugins cache which will greatly improve the startup time of VLC."
 msgstr ""
-"Uyumlu ek ön belleğini kullanmak VLC yazılımının açılış süresini önemli "
-"ölçüde kısaltır."
+"Uyumlu ek ön belleği kullanıldığında, VLC yazılımının açılış süresi önemli "
+"ölçüde kısalır."
 
 #: src/libvlc-module.c:1041
 msgid "Locally collect statistics"
-msgstr "İstatistikleri yerel olarak tut"
+msgstr "Yerel istatistikler derlensin"
 
 #: src/libvlc-module.c:1043
 msgid "Collect miscellaneous local statistics about the playing media."
-msgstr "Oynatılan ortam hakkında çeşitli yerel istatistikleri derler."
+msgstr ""
+"Bu seçenek etkinleştirildiğinde, oynatılan ortam hakkında çeşitli yerel "
+"istatistikler derlenir."
 
 #: src/libvlc-module.c:1045
 msgid "Run as daemon process"
@@ -3666,31 +3666,39 @@ msgstr "Arkaplan işlemi olarak çalışsın"
 
 #: src/libvlc-module.c:1047
 msgid "Runs VLC as a background daemon process."
-msgstr "Runs VLC as a background daemon process."
+msgstr ""
+"Bu seçenek etkinleştirildiğinde, VLC yazılımı, arka plan işlemi olarak "
+"çalıştırılır."
 
 #: src/libvlc-module.c:1049
 msgid "Write process id to file"
-msgstr "İşlem kimliğini dosyaya yaz"
+msgstr "İşlem kodu dosyaya yazılsın"
 
 #: src/libvlc-module.c:1051
 msgid "Writes process id into specified file."
-msgstr "İşlem kimliğini (process id) belirtilen dosyaya yazar."
+msgstr ""
+"Bu seçenek etkinleştirildiğinde, işlem kodu (process id) belirtilen dosyaya "
+"yazılır."
 
 #: src/libvlc-module.c:1053
 msgid "Log to file"
-msgstr "Dosyaya günlükle"
+msgstr "Günlük dosyalansın"
 
 #: src/libvlc-module.c:1055
 msgid "Log all VLC messages to a text file."
-msgstr "Tüm VLC iletileri bir metin dosyasına kaydedilir."
+msgstr ""
+"Bu seçenek etkinleştirildiğinde, tüm VLC iletileri bir metin dosyasına "
+"kaydedilir."
 
 #: src/libvlc-module.c:1057
 msgid "Log to syslog"
-msgstr "Sistem günlüğüne yaz"
+msgstr "Günlük sistem günlüğüne yazılsın"
 
 #: src/libvlc-module.c:1059
 msgid "Log all VLC messages to syslog (UNIX systems)."
-msgstr "Tüm VLC iletilerini sistem günlüğüne yaz (UNIX sistemler)."
+msgstr ""
+"Bu seçenek etkinleştirildiğinde, tüm VLC iletileri sistem günlüğüne yazılır "
+"(UNIX sistemlerde, syslog)."
 
 #: src/libvlc-module.c:1061
 msgid "Allow only one running instance"
@@ -3720,22 +3728,22 @@ msgid ""
 "active and the running instance of VLC to use D-Bus control interface."
 msgstr ""
 "Yalnız bir VLC kopyasının çalışmasına izin vermek kullanışlı olabilir. "
-"Örneğin VLC yazılımını bazı dosya türleriyle ilişkilendirdiyseniz, dosya "
-"yöneticisinden tıklyacağınız her dosyanın ayrı bir VLC kopyasında açılmasını "
-"istemeyebilirsiniz. Bu seçenek, istediğiniz dosyaları, o anda çalışan VLC "
-"kopyasında oynatır ya da oynatma listesine ekler. Bu ayar, D-Bus oturum "
-"hizmetinin etkin olmasını ve çalışmakta olan VLC yazılımının D-Bus denetim "
-"arayüzünü kullanıyor olmasını gerektirir."
+"Örneğin VLC yazılımını bazı dosya türleriyle ilişkilendirilmişse, dosya "
+"yöneticisinden tıklanan her dosyanın ayrı bir VLC kopyasında açılması "
+"istenmeyebilir. Bu seçenek, istenen dosyaları, o anda çalışan VLC kopyasında "
+"oynatır ya da oynatma listesine ekler. Bu işlem için, D-Bus oturum "
+"hizmetinin etkin olması ve çalışmakta olan VLC yazılımının D-Bus denetim "
+"arayüzünü kullanıyor olması gerekir."
 
 #: src/libvlc-module.c:1080
 msgid "VLC is started from file association"
-msgstr "VLC dosya ilişkilendirmesi üzerinden başlatılır"
+msgstr "VLC dosya ilişkilendirmesi ile başlatılsın"
 
 #: src/libvlc-module.c:1082
 msgid "Tell VLC that it is being launched due to a file association in the OS"
 msgstr ""
-"İşletim sistemindeki bir dosya tipi VLC ile ilişkilendirilmiş ise, açılmak "
-"istendiğinde VLC içinde açılmasını sağlar."
+"Bu seçenek etkinleştirildiğinde, işletim sisteminde VLC ile "
+"ilişkilendirilmiş dosya tipleri VLC ile açılır."
 
 #: src/libvlc-module.c:1085 modules/gui/qt4/ui/sprefs_interface.h:538
 msgid "Use only one instance when started from file manager"
@@ -3743,7 +3751,7 @@ msgstr "Dosya yöneticisinden başlatıldığında tek bir kopya çalışsın"
 
 #: src/libvlc-module.c:1087
 msgid "Increase the priority of the process"
-msgstr "İşlemin önceliğini artır"
+msgstr "İşlemin önceliğini arttırın"
 
 #: src/libvlc-module.c:1089
 msgid ""
@@ -3756,7 +3764,7 @@ msgid ""
 msgstr ""
 "İşlem önceliğini yükseltmek, VLC yazılımının çok fazla işlemci zamanı alan "
 "başka programlar tarafından rahatsız edilmesini engelleyeceğinden, daha iyi "
-"oynatma deneyimi sağlar. Bununla birlikte bazı durumlarda (hatalar) VLC tüm "
+"oynatma deneyimi sağlar. Bununla birlikte bazı durumlarda (hatalar), VLC tüm "
 "işlemci zamanını alarak sistemi kilitleyebilir ve bilgisayarınızı yeniden "
 "başlatmanız gerekebilir."
 
@@ -3769,27 +3777,28 @@ msgid ""
 "When using the one instance only option, enqueue items to playlist and keep "
 "playing current item."
 msgstr ""
-"Yalnız tek kopya seçeneğini kullandığınızda, öğeler oynatma listesinde "
-"sıraya eklenir ve varolan öğe oynatılmaya devam eder."
+"Yalnız tek kopya seçeneği kullanıldığında, ögeler oynatma listesine sıraya "
+"eklenir ve varolan öge oynatılmaya devam eder."
 
 #: src/libvlc-module.c:1108
 msgid ""
 "These options define the behavior of the playlist. Some of them can be "
 "overridden in the playlist dialog box."
 msgstr ""
-"Bu seçenekler oynatma listesinin davranışını ayarlar. Bunların bazıları "
+"Bu ayarlar, oynatma listesinin davranışını ayarlar. Bunların bazıları "
 "oynatma listesi penceresinden değiştirilebilir."
 
 #: src/libvlc-module.c:1111
 msgid "Automatically preparse files"
-msgstr "Dosyaları önceden işle"
+msgstr "Dosyalar önceden işlensin"
 
 #: src/libvlc-module.c:1113
 msgid ""
 "Automatically preparse files added to the playlist (to retrieve some "
 "metadata)."
 msgstr ""
-"Oynatma listesine eklenen dosyaları üstverilerini almak için önceden işler."
+"Bu seçenek etkinleştirildiğinde, oynatma listesine eklenen dosyalar önceden "
+"işlenerek, üstverileri alınır."
 
 #: src/libvlc-module.c:1116
 msgid "Album art policy"
@@ -3801,11 +3810,11 @@ msgstr "Albüm kapağının nasıl indirileceğini seçin."
 
 #: src/libvlc-module.c:1124
 msgid "Manual download only"
-msgstr "Yalnızca elle indirme"
+msgstr "Yalnızca elle indirilsin"
 
 #: src/libvlc-module.c:1125
 msgid "When track starts playing"
-msgstr "İz oynatılmaya başlayınca"
+msgstr "İz oynatılmaya başlandığında"
 
 #: src/libvlc-module.c:1126
 msgid "As soon as track is added"
@@ -3821,63 +3830,77 @@ msgid ""
 "Typical value is \"sap\"."
 msgstr ""
 "Önceden yüklenecek hizmet algılama modüllerini, virgülle ayırarak yazın. "
-"Tipik değer: \"sap\""
+"Tipik değer: \"sap\"."
 
 #: src/libvlc-module.c:1133
 msgid "Play files randomly forever"
-msgstr "Dosyaları sürekli rastgele oynat"
+msgstr "Dosyalar sürekli rastgele oynatılsın"
 
 #: src/libvlc-module.c:1135
 msgid "VLC will randomly play files in the playlist until interrupted."
-msgstr "VLC, kesilene kadar oynatma listesindeki dosyaları rastgele oynatır."
+msgstr ""
+"Bu seçenek etkinleştirildiğinde, VLC, durdurulana kadar oynatma listesindeki "
+"dosyaları rastgele oynatır."
 
 #: src/libvlc-module.c:1137
 msgid "Repeat all"
-msgstr "Tümünü tekrarla"
+msgstr "Tümü yinelensin"
 
 #: src/libvlc-module.c:1139
 msgid "VLC will keep playing the playlist indefinitely."
-msgstr "VLC oynatma listesini durmadan sürekli oynatır."
+msgstr ""
+"Bu seçenek etkinleştirildiğinde, VLC, oynatma listesini durmadan sürekli "
+"oynatır."
 
 #: src/libvlc-module.c:1141
 msgid "Repeat current item"
-msgstr "Şu anki ögeyi tekrarla"
+msgstr "Geçerli öge yinelensin"
 
 #: src/libvlc-module.c:1143
 msgid "VLC will keep playing the current playlist item."
-msgstr "VLC, geçerli oynatma listesi ögesini oynatmayı sürdürür."
+msgstr ""
+"Bu seçenek etkinleştirildiğinde, VLC, sürekli geçerli oynatma listesi "
+"ögesini oynatır."
 
 #: src/libvlc-module.c:1145
 msgid "Play and stop"
-msgstr "Oynat ve durdur"
+msgstr "Oynatılıp dursun"
 
 #: src/libvlc-module.c:1147
 msgid "Stop the playlist after each played playlist item."
-msgstr "Oynatılan her ögenin ardından oynatma listesini durdurur."
+msgstr ""
+"Bu seçenek etkinleştirildiğinde, oynatılan her ögenin ardından oynatma "
+"listesi durdurulur."
 
 #: src/libvlc-module.c:1149
 msgid "Play and exit"
-msgstr "Oynat ve çık"
+msgstr "Oynatılıp çıkılsın"
 
 #: src/libvlc-module.c:1151
 msgid "Exit if there are no more items in the playlist."
-msgstr "Listede çalınacak öğe yoksa programdan çıkar."
+msgstr ""
+"Bu seçenek etkinleştirildiğinde, listede oynatılacak başka öge yoksa "
+"yazılımdan çıkılır."
 
 #: src/libvlc-module.c:1153
 msgid "Play and pause"
-msgstr "Oynat ve duraklat"
+msgstr "Oynatılıp duraklatılsın"
 
 #: src/libvlc-module.c:1155
 msgid "Pause each item in the playlist on the last frame."
-msgstr "Oynatma listesindeki her ögeyi son karede duraklatır."
+msgstr ""
+"Bu seçenek etkinleştirildiğinde, oynatma listesindeki her öge son karede "
+"duraklatılır."
 
 #: src/libvlc-module.c:1157
 msgid "Auto start"
-msgstr "Kendiliğinden başlat"
+msgstr "Kendiliğinden başlatılsın"
 
 #: src/libvlc-module.c:1158
 msgid "Automatically start playing the playlist content once it's loaded."
-msgstr "Oynatma listesi yüklendiğinde kendiliğinden oynatılmaya başlar."
+msgstr ""
+"Bu seçenek etkinleştirildiğinde, oynatma listesi yüklendiğinde kendiliğinden "
+"oynatılmaya başlanır."
 
 #: src/libvlc-module.c:1161
 msgid "Pause on audio communication"
@@ -3893,25 +3916,25 @@ msgstr ""
 
 #: src/libvlc-module.c:1166
 msgid "Use media library"
-msgstr "Ortam kitaplığını kullan"
+msgstr "Ortam kitaplığı kullanılsın"
 
 #: src/libvlc-module.c:1168
 msgid ""
 "The media library is automatically saved and reloaded each time you start "
 "VLC."
 msgstr ""
-"Ortam kitaplığı kendiliğinden kaydedilir ve VLC yazılımını her "
-"başlattığınızda yeniden yüklenir."
+"Bu seçenek etkinleştirildiğinde, ortam kitaplığı kendiliğinden kaydedilir ve "
+"VLC yazılımı her başlatıldığında yeniden yüklenir."
 
 #: src/libvlc-module.c:1171
 msgid "Load Media Library"
-msgstr "Ortam Kitaplığını Yükle"
+msgstr "Ortam Kitaplığı Yüklensin"
 
 #: src/libvlc-module.c:1173
 msgid "Enable this option to load the SQL-based Media Library at VLC startup"
 msgstr ""
-"VLC başlangıcında SQL tabanlı Ortam Kütüphanesi yüklemek için bu seçeneği "
-"etkinleştirin"
+"Bu seçenek etkinleştirildiğinde, VLC başlatıldığında, SQL tabanlı Ortam "
+"kitaplığı yüklenir."
 
 #: src/libvlc-module.c:1175 modules/gui/qt4/ui/sprefs_interface.h:533
 msgid "Display playlist tree"
@@ -29300,9 +29323,6 @@ msgstr "AAAA; "
 msgid "Media Manager List"
 msgstr "Ortam Yöneticisi Listesi"
 
-#~ msgid "Show Details"
-#~ msgstr "Ayrıntılar Görüntülensin"
-
 #~ msgid ""
 #~ "SAP is a way to publically announce streams that are being sent using "
 #~ "multicast UDP or RTP."
@@ -31808,6 +31828,10 @@ msgstr "Ortam Yöneticisi Listesi"
 #~ msgstr "(c) 1996-2004 VideoLAN Ekibi"
 
 #, fuzzy
+#~ msgid "Show Details"
+#~ msgstr "Kodlayıcı/Çözücü Ayrıntıları"
+
+#, fuzzy
 #~ msgid "One instance when started from file"
 #~ msgstr "Dosya yöneticisinden başlatıldığında tek bir kopya çalışsın"
 
@@ -32101,7 +32125,7 @@ msgstr "Ortam Yöneticisi Listesi"
 
 #, fuzzy
 #~ msgid "Add to Media Library"
-#~ msgstr "Ortam Kitaplığını Yükle"
+#~ msgstr "Ortam Kitaplığı Yüklensin"
 
 #, fuzzy
 #~ msgid "Advanced Open..."
@@ -32277,7 +32301,7 @@ msgstr "Ortam Yöneticisi Listesi"
 
 #, fuzzy
 #~ msgid "Select current widget"
-#~ msgstr "Şu anki ögeyi tekrarla"
+#~ msgstr "Geçerli öge yinelensin"
 
 #, fuzzy
 #~ msgid "CPU"
@@ -33435,15 +33459,15 @@ msgstr "Ortam Yöneticisi Listesi"
 
 #, fuzzy
 #~ msgid "OSD configuration importer"
-#~ msgstr "VLM yapılandırma dosyası"
+#~ msgstr "VLM ayar dosyası"
 
 #, fuzzy
 #~ msgid "XML OSD configuration importer"
-#~ msgstr "VLM yapılandırma dosyası"
+#~ msgstr "VLM ayar dosyası"
 
 #, fuzzy
 #~ msgid "SQLite database module"
-#~ msgstr "Akış süzgeç modülü"
+#~ msgstr "Akış süzgeci modülü"
 
 #, fuzzy
 #~ msgid "Title format string"
@@ -33614,7 +33638,7 @@ msgstr "Ortam Yöneticisi Listesi"
 
 #, fuzzy
 #~ msgid "Configuration file"
-#~ msgstr "VLM yapılandırma dosyası"
+#~ msgstr "VLM ayar dosyası"
 
 #, fuzzy
 #~ msgid "You can move the OSD menu by left-clicking on it."
@@ -34388,7 +34412,7 @@ msgstr "Ortam Yöneticisi Listesi"
 
 #, fuzzy
 #~ msgid "CRL file"
-#~ msgstr "Dosyaya günlükle"
+#~ msgstr "Günlük dosyalansın"
 
 #, fuzzy
 #~ msgid "Input syntax is deprecated"
@@ -35349,7 +35373,7 @@ msgstr "Ortam Yöneticisi Listesi"
 
 #, fuzzy
 #~ msgid "Default port (server mode)"
-#~ msgstr "İsteğe bağlı görüntü sunucu modülü"
+#~ msgstr "İsteğe bağlı görüntü sunucusu modülü"
 
 #, fuzzy
 #~ msgid "Embed video in interface"
@@ -35492,7 +35516,7 @@ msgstr "Ortam Yöneticisi Listesi"
 
 #, fuzzy
 #~ msgid "CDDB server timeout"
-#~ msgstr "İsteğe bağlı görüntü sunucu modülü"
+#~ msgstr "İsteğe bağlı görüntü sunucusu modülü"
 
 #, fuzzy
 #~ msgid "Track %i"
@@ -35808,7 +35832,7 @@ msgstr "Ortam Yöneticisi Listesi"
 
 #, fuzzy
 #~ msgid "Show the current item"
-#~ msgstr "Şu anki ögeyi tekrarla"
+#~ msgstr "Geçerli öge yinelensin"
 
 #, fuzzy
 #~ msgid "Audio Port"
@@ -36255,7 +36279,7 @@ msgstr "Ortam Yöneticisi Listesi"
 
 #, fuzzy
 #~ msgid "Open a VLM Configuration File"
-#~ msgstr "VLM yapılandırma dosyası"
+#~ msgstr "VLM ayar dosyası"
 
 #, fuzzy
 #~ msgid "&Playlist"
@@ -36425,7 +36449,7 @@ msgstr "Ortam Yöneticisi Listesi"
 
 #, fuzzy
 #~ msgid "Choose a VLM configuration file to open..."
-#~ msgstr "VLM yapılandırma dosyası"
+#~ msgstr "VLM ayar dosyası"
 
 #, fuzzy
 #~ msgid "Check for updates..."
