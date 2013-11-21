@@ -213,6 +213,9 @@ struct intf_sys_t
 - (void)windowDidBecomeKey:(NSNotification *)o_notification;
 
 - (void)mediaKeyTap:(SPMediaKeyTap*)keyTap receivedMediaKeyEvent:(NSEvent*)event;
+
+- (void)resetAndReinitializeUserDefaults;
+
 @end
 
 
