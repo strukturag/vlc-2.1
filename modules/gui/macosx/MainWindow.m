@@ -308,7 +308,6 @@ static VLCMainWindow *_o_sharedInstance = nil;
         [o_sidebaritems addObject: internetItem];
 
     [o_sidebar_view reloadData];
-    [o_sidebar_view selectRowIndexes:[NSIndexSet indexSetWithIndex:1] byExtendingSelection:NO];
     [o_sidebar_view setDropItem:playlistItem dropChildIndex:NSOutlineViewDropOnItemIndex];
     [o_sidebar_view registerForDraggedTypes:[NSArray arrayWithObjects:NSFilenamesPboardType, @"VLCPlaylistItemPboardType", nil]];
 
@@ -330,6 +329,9 @@ static VLCMainWindow *_o_sharedInstance = nil;
 
         [o_fspanel center];
     }
+
+    // select playlist item by default
+    [o_sidebar_view selectRowIndexes:[NSIndexSet indexSetWithIndex:1] byExtendingSelection:NO];
 
     if (b_dark_interface) {
         [[NSNotificationCenter defaultCenter] addObserver: self selector: @selector(windowResizedOrMoved:) name: NSWindowDidResizeNotification object: nil];
