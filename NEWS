@@ -4,8 +4,15 @@ Changes between 2.1.1 and 2.1.2:
 Audio output:
  * Fix digital playback with auhal when more than one audio device is installed
 
+Demuxers:
+ * Fix Vimeo and DailyMotion parsing
+
+Decoders:
+ * Fix LPCM 20/24-bit decoding and 16 bits with channel padding
+
 Mac OS X interface:
  * Fix issue which prevented to enable more than one video filter on Mavericks
+ * Improved UI resetting when requested in the preferences
 
 
 Changes between 2.1.0 and 2.1.1:
