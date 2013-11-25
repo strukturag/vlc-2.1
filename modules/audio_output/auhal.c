@@ -1849,6 +1849,8 @@ static int AudioStreamChangeFormat(audio_output_t *p_aout, AudioStreamID i_strea
     OSStatus            err = noErr;
     UInt32              i_param_size = 0;
 
+    int retValue = true;
+
     AudioObjectPropertyAddress physicalFormatAddress = { kAudioStreamPropertyPhysicalFormat, kAudioObjectPropertyScopeGlobal, kAudioObjectPropertyElementMaster };
 
     struct { vlc_mutex_t lock; vlc_cond_t cond; } w;
@@ -1864,7 +1866,8 @@ static int AudioStreamChangeFormat(audio_output_t *p_aout, AudioStreamID i_strea
     err = AudioObjectAddPropertyListener(i_stream_id, &physicalFormatAddress, StreamListener, (void *)&w);
     if (err != noErr) {
         msg_Err(p_aout, "AudioObjectAddPropertyListener for kAudioStreamPropertyPhysicalFormat failed [%4.4s]", (char *)&err);
-        return false;
+        retValue = false;
+        goto out;
     }
 
     /* change the format */
@@ -1872,7 +1875,8 @@ static int AudioStreamChangeFormat(audio_output_t *p_aout, AudioStreamID i_strea
                                      &change_format);
     if (err != noErr) {
         msg_Err(p_aout, "could not set the stream format [%4.4s]", (char *)&err);
-        return false;
+        retValue = false;
+        goto out;
     }
 
     /* The AudioStreamSetProperty is not only asynchronious (requiring the locks)
@@ -1899,11 +1903,12 @@ static int AudioStreamChangeFormat(audio_output_t *p_aout, AudioStreamID i_strea
         /* We need to check again */
     }
 
+out:
     /* Removing the property listener */
     err = AudioObjectRemovePropertyListener(i_stream_id, &physicalFormatAddress, StreamListener, (void *)&w);
     if (err != noErr) {
         msg_Err(p_aout, "AudioStreamRemovePropertyListener failed [%4.4s]", (char *)&err);
-        return false;
+        retValue = false;
     }
 
     /* Destroy the lock and condition */
@@ -1911,5 +1916,5 @@ static int AudioStreamChangeFormat(audio_output_t *p_aout, AudioStreamID i_strea
     vlc_mutex_destroy(&w.lock);
     vlc_cond_destroy(&w.cond);
 
-    return true;
+    return retValue;
 }
