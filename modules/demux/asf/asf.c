@@ -557,8 +557,8 @@ static int DemuxPayload(demux_t *p_demux, struct asf_packet_t *pkt, int i_payloa
             i_sub_payload_data_length = pkt->p_peek[pkt->i_skip++];
 
         stream_Read(p_demux->s, NULL, pkt->i_skip);
-
-        if (DemuxSubPayload(p_demux, tk, i_sub_payload_data_length, i_pts,
+        if ( i_sub_payload_data_length &&
+	     DemuxSubPayload(p_demux, tk, i_sub_payload_data_length, i_pts,
                             i_media_object_offset) < 0)
             return -1;
 
