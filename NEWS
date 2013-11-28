@@ -2,7 +2,11 @@ Changes between 2.1.1 and 2.1.2:
 --------------------------------
 
 Audio output:
- * Fix digital playback with auhal when more than one audio device is installed
+ * Fix digital playback on OS X when more than one audio device is installed
+ * Fix stuttering or silent playback when using sound enhancers or external
+   audio devices on OS X
+ * Improve responsiveness on OS X when playback starts or is being paused
+ * Improve responsiveness, silent playback intervals and reliability on iOS
 
 Demuxers:
  * Fix Vimeo and DailyMotion parsing
