@@ -131,6 +131,8 @@ export CXX="xcrun clang++"
 export LD="xcrun ld"
 export STRIP="xcrun strip"
 
+export PLATFORM=$PLATFORM
+export SDK_VERSION=$SDK_VERSION
 
 if [ "$PLATFORM" = "OS" ]; then
 export CFLAGS="-isysroot ${SDKROOT} -arch ${ARCH} -mcpu=cortex-a8 -miphoneos-version-min=${SDK_MIN} ${OPTIM}"
