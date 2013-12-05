@@ -3,6 +3,7 @@ Changes between 2.1.1 and 2.1.2:
 
 Audio output:
  * Fix digital playback on OS X when more than one audio device is installed
+ * Fix digital playback (SPDIF/HDMI) on Windows
  * Fix stuttering or silent playback when using sound enhancers or external
    audio devices on OS X
  * Improve responsiveness on OS X when playback starts or is being paused
@@ -10,18 +11,32 @@ Audio output:
 
 Demuxers:
  * Fix Vimeo and DailyMotion parsing
+ * Various WMV playback improvements and fixes
 
 Decoders:
  * Fix LPCM 20/24-bit decoding and 16 bits with channel padding
+ * Fix playback of some HEVC samples
+
+Video filters:
+ * Fix crash on deinterlace selection
+
+Qt interface:
+ * Fix some streaming profiles when copy existed
+ * Improve A-B loop control
+ * Fix album art update when changing media
 
 Mac OS X interface:
+ * Add a language option in the interface
+ * Option to control VLC's iTunes pausing behavior is more easy to find
+ * Improved UI resetting when requested in the preferences
  * Fix issue which prevented to enable more than one video filter on Mavericks
  * Fix an issue which could prevent automatic UI language settings from working
  * Fix opening subtitles files through drag & drop or double-clicking
  * Fix crash when closing window without decorations
  * Fix issue where extra video window was resized even if this was disabled
- * Option to control VLC's iTunes pausing behavior is more easy to find
- * Improved UI resetting when requested in the preferences
+
+Win32 installer:
+ * Kill running VLC process on uninstall/update
 
 
 Changes between 2.1.0 and 2.1.1:
