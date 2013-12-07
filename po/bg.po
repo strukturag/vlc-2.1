@@ -5,14 +5,16 @@
 # Translators:
 # nask0 <arrtedone@gmail.com>, 2013
 # Ivo Ivanov, 2008,2010
-# ivopetkov <ivopetkov7@hotmail.com>, 2013
+# ivopetkov <ivopetkov@krutt.org>, 2013
+# cybercop <cybercop_montana@abv.bg>, 2013
+# alexdimitrov <kvikmen@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-11-11 19:12+0100\n"
-"PO-Revision-Date: 2013-09-16 11:04+0000\n"
-"Last-Translator: ivopetkov <ivopetkov7@hotmail.com>\n"
+"PO-Revision-Date: 2013-12-05 12:25+0000\n"
+"Last-Translator: alexdimitrov <kvikmen@gmail.com>\n"
 "Language-Team: Bulgarian (http://www.transifex.com/projects/p/vlc-trans/"
 "language/bg/)\n"
 "Language: bg\n"
@@ -196,8 +198,8 @@ msgid ""
 "Settings related to the various access methods. Common settings you may want "
 "to alter are HTTP proxy or caching settings."
 msgstr ""
-"Настройки за различните методи на въвеждане използвани от VLC.\n"
-"Обикновенно се променят настройките на HTTP прокси или кеширането."
+"Настройки свързани с различните методи на достъп.\n"
+"Обикновенно се променят настройките на HTTP проксито или кеширането."
 
 #: include/vlc_config_cat.h:103
 msgid "Stream filters"
@@ -243,7 +245,7 @@ msgstr "Кодеци за субтитрите"
 
 #: include/vlc_config_cat.h:118
 msgid "Settings for subtitle, teletext and CC decoders and encoders."
-msgstr ""
+msgstr "Настройки за субтитри, телетекст и CC декодери и енкодери."
 
 #: include/vlc_config_cat.h:120
 msgid "General input settings. Use with care..."
@@ -343,7 +345,7 @@ msgstr ""
 
 #: include/vlc_config_cat.h:164
 msgid "VOD"
-msgstr ""
+msgstr "Видео по \"поръчка\" /Video on demand/"
 
 #: include/vlc_config_cat.h:165
 msgid "VLC's implementation of Video On Demand"
@@ -408,7 +410,7 @@ msgstr "Тези модули обезпечават мрежови функци
 
 #: include/vlc_config_cat.h:196
 msgid "These are general settings for video/audio/subtitle encoding modules."
-msgstr ""
+msgstr "Това са общи настройки за кодиране на видео / аудио / модулите."
 
 #: include/vlc_config_cat.h:199
 msgid "Dialog providers can be configured here."
@@ -419,6 +421,8 @@ msgid ""
 "In this section you can force the behavior of the subtitle demuxer, for "
 "example by setting the subtitle type or file name."
 msgstr ""
+"В тази секция, можете да форсирате поведението на субтитрите, например за "
+"посочване на типа или файла на субтитрите ."
 
 #: include/vlc_interface.h:134
 msgid ""
@@ -656,7 +660,7 @@ msgstr "Изравняване силата на звука"
 #: src/audio_output/output.c:377 modules/gui/macosx/MainMenu.m:383
 #: modules/gui/macosx/MainMenu.m:384
 msgid "Stereo audio mode"
-msgstr ""
+msgstr "Стерео аудио режим"
 
 #: src/audio_output/output.c:412 src/libvlc-module.c:189
 msgid "Dolby Surround"
@@ -712,7 +716,7 @@ msgstr "Автоматично"
 
 #: src/config/file.c:458
 msgid "boolean"
-msgstr ""
+msgstr "булев"
 
 #: src/config/file.c:458 src/config/help.c:468
 msgid "integer"
@@ -769,11 +773,11 @@ msgstr ""
 
 #: src/config/help.c:514
 msgid " (default enabled)"
-msgstr "(по подразбиране е включено)"
+msgstr "(включено по подразбиране)"
 
 #: src/config/help.c:515
 msgid " (default disabled)"
-msgstr "(по подразбиране е изключено)"
+msgstr "(изключено по подразбиране)"
 
 #: src/config/help.c:680 src/config/help.c:683 src/config/help.c:690
 #: src/config/help.c:692
@@ -834,11 +838,11 @@ msgstr ""
 
 #: src/config/keys.c:56
 msgid "Backspace"
-msgstr ""
+msgstr "Назад /Backspace/"
 
 #: src/config/keys.c:57
 msgid "Brightness Down"
-msgstr ""
+msgstr "Намали яркоста"
 
 #: src/config/keys.c:58
 msgid "Brightness Up"
@@ -877,15 +881,15 @@ msgstr ""
 #: modules/gui/qt4/ui/podcast_configuration.h:104
 #: modules/gui/qt4/ui/streampanel.h:172
 msgid "Delete"
-msgstr "Изтриване"
+msgstr "Delete"
 
 #: src/config/keys.c:67
 msgid "Down"
-msgstr "Надолу"
+msgstr "Down"
 
 #: src/config/keys.c:68 modules/control/rc.c:74
 msgid "End"
-msgstr "Край"
+msgstr "End"
 
 #: src/config/keys.c:69
 msgid "Enter"
@@ -897,59 +901,59 @@ msgstr "Esc"
 
 #: src/config/keys.c:71
 msgid "F1"
-msgstr ""
+msgstr "F1"
 
 #: src/config/keys.c:72
 msgid "F10"
-msgstr ""
+msgstr "F10"
 
 #: src/config/keys.c:73
 msgid "F11"
-msgstr ""
+msgstr "F11"
 
 #: src/config/keys.c:74
 msgid "F12"
-msgstr ""
+msgstr "F12"
 
 #: src/config/keys.c:75
 msgid "F2"
-msgstr ""
+msgstr "F2"
 
 #: src/config/keys.c:76
 msgid "F3"
-msgstr ""
+msgstr "F3"
 
 #: src/config/keys.c:77
 msgid "F4"
-msgstr ""
+msgstr "F4"
 
 #: src/config/keys.c:78
 msgid "F5"
-msgstr ""
+msgstr "F5"
 
 #: src/config/keys.c:79
 msgid "F6"
-msgstr ""
+msgstr "F6"
 
 #: src/config/keys.c:80
 msgid "F7"
-msgstr ""
+msgstr "F7"
 
 #: src/config/keys.c:81
 msgid "F8"
-msgstr ""
+msgstr "F8"
 
 #: src/config/keys.c:82
 msgid "F9"
-msgstr ""
+msgstr "F9"
 
 #: src/config/keys.c:83
 msgid "Home"
-msgstr ""
+msgstr "Начало"
 
 #: src/config/keys.c:84
 msgid "Insert"
-msgstr ""
+msgstr "Вмъкване"
 
 #: src/config/keys.c:86
 msgid "Media Angle"
@@ -965,7 +969,7 @@ msgstr ""
 
 #: src/config/keys.c:89
 msgid "Media Menu"
-msgstr ""
+msgstr "Медийно меню"
 
 #: src/config/keys.c:90
 msgid "Media Next Frame"
@@ -1045,19 +1049,19 @@ msgstr ""
 
 #: src/config/keys.c:109
 msgid "Page Down"
-msgstr ""
+msgstr "Долна страница"
 
 #: src/config/keys.c:110
 msgid "Page Up"
-msgstr ""
+msgstr "Горна страница"
 
 #: src/config/keys.c:112 modules/demux/mp4/id3genres.h:76
 msgid "Space"
-msgstr ""
+msgstr "Space"
 
 #: src/config/keys.c:113
 msgid "Tab"
-msgstr ""
+msgstr "Таб"
 
 #: src/config/keys.c:114 src/libvlc-module.c:187
 #: modules/gui/qt4/components/preferences_widgets.cpp:1425
@@ -1067,7 +1071,7 @@ msgstr "Не е зададен"
 
 #: src/config/keys.c:115
 msgid "Up"
-msgstr ""
+msgstr "Нагоре"
 
 #: src/config/keys.c:116 modules/gui/macosx/MainMenu.m:469
 msgid "Volume Down"
@@ -1075,7 +1079,7 @@ msgstr "Звук - Намаляване"
 
 #: src/config/keys.c:117
 msgid "Volume Mute"
-msgstr ""
+msgstr "Заглушаване на звука"
 
 #: src/config/keys.c:118 modules/gui/macosx/MainMenu.m:468
 msgid "Volume Up"
@@ -1083,31 +1087,31 @@ msgstr "Звук - Увеличаване"
 
 #: src/config/keys.c:119
 msgid "Zoom In"
-msgstr ""
+msgstr "Увеличаване"
 
 #: src/config/keys.c:120
 msgid "Zoom Out"
-msgstr ""
+msgstr "Намаляване"
 
 #: src/config/keys.c:248
 msgid "Ctrl+"
-msgstr ""
+msgstr "Ctrl+"
 
 #: src/config/keys.c:249
 msgid "Alt+"
-msgstr ""
+msgstr "Alt+"
 
 #: src/config/keys.c:250
 msgid "Shift+"
-msgstr ""
+msgstr "Shift+"
 
 #: src/config/keys.c:251
 msgid "Meta+"
-msgstr ""
+msgstr "Meta+"
 
 #: src/config/keys.c:252
 msgid "Command+"
-msgstr ""
+msgstr "Command+"
 
 #: src/input/control.c:226
 #, c-format
@@ -1234,7 +1238,7 @@ msgstr "Честота на дискретизация"
 #: src/input/es_out.c:2915
 #, c-format
 msgid "%u Hz"
-msgstr ""
+msgstr "%u Херца"
 
 #: src/input/es_out.c:2925
 msgid "Bits per sample"
@@ -1251,7 +1255,7 @@ msgstr "Битрейт"
 #: src/input/es_out.c:2930
 #, c-format
 msgid "%u kb/s"
-msgstr ""
+msgstr "%u кб/с"
 
 #: src/input/es_out.c:2942
 msgid "Track replay gain"
@@ -1264,7 +1268,7 @@ msgstr "Изравняване силата на звука на албум"
 #: src/input/es_out.c:2945
 #, c-format
 msgid "%.2f dB"
-msgstr ""
+msgstr "%.2f децибела"
 
 #: src/input/es_out.c:2954 modules/gui/macosx/ConvertAndSave.m:180
 #: modules/gui/qt4/ui/profiles.h:732
@@ -1460,7 +1464,7 @@ msgstr "Уеб"
 
 #: src/interface/interface.c:98
 msgid "Debug logging"
-msgstr "Отчет за дебъг"
+msgstr "Дебъг лог"
 
 #: src/interface/interface.c:101
 msgid "Mouse Gestures"
@@ -3889,7 +3893,7 @@ msgstr "Избор на клавишна комбинация за промян�
 
 #: src/libvlc-module.c:1205
 msgid "Exit fullscreen"
-msgstr ""
+msgstr "Изход от цял екран"
 
 #: src/libvlc-module.c:1206
 msgid "Select the hotkey to use to exit fullscreen state."
@@ -4415,11 +4419,11 @@ msgstr ""
 #: src/libvlc-module.c:1346
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:234
 msgid "Clear the playlist"
-msgstr ""
+msgstr "Изчистване на списъка"
 
 #: src/libvlc-module.c:1347
 msgid "Select the key to clear the current playlist."
-msgstr ""
+msgstr "Избор на клавиш за изчистване на текущият списък."
 
 #: src/libvlc-module.c:1349
 msgid "Playlist bookmark 1"
@@ -4559,11 +4563,11 @@ msgstr "Скриване на интерфейса и пауза на възпр
 
 #: src/libvlc-module.c:1387
 msgid "Context menu"
-msgstr ""
+msgstr "Контекстно меню"
 
 #: src/libvlc-module.c:1388
 msgid "Show the contextual popup menu."
-msgstr ""
+msgstr "Показване на изскачащо контекстно меню."
 
 #: src/libvlc-module.c:1389
 msgid "Take video snapshot"
@@ -5029,7 +5033,7 @@ msgstr ""
 
 #: src/text/iso-639_def.h:59
 msgid "Bulgarian"
-msgstr ""
+msgstr "Български"
 
 #: src/text/iso-639_def.h:60
 msgid "Burmese"
@@ -6797,7 +6801,7 @@ msgstr ""
 
 #: modules/access/fs.c:42
 msgid "Expand"
-msgstr ""
+msgstr "Разтягане"
 
 #: modules/access/fs.c:44
 msgid "Ignored extensions"
@@ -6829,11 +6833,11 @@ msgstr ""
 
 #: modules/access/fs.c:55
 msgid "Do not sort the items."
-msgstr ""
+msgstr "Не подреждай елементите."
 
 #: modules/access/fs.c:57
 msgid "Directory sort order"
-msgstr ""
+msgstr "Подредба на директориите"
 
 #: modules/access/fs.c:59
 msgid "Define the sort algorithm used when adding items from a directory."
@@ -7497,11 +7501,11 @@ msgstr ""
 
 #: modules/access_output/file.c:203
 msgid "Keep existing file"
-msgstr ""
+msgstr "Запазване на съществуващия файл"
 
 #: modules/access_output/file.c:204
 msgid "Overwrite"
-msgstr ""
+msgstr "Презапис"
 
 #: modules/access_output/http.c:51 modules/access/vnc.c:46
 #: modules/misc/audioscrobbler.c:114 modules/stream_out/rtp.c:177
@@ -7567,7 +7571,7 @@ msgstr "Брой сегменти, които да се включат в инд
 
 #: modules/access_output/livehttp.c:79
 msgid "Allow cache"
-msgstr ""
+msgstr "Позволи кеширане"
 
 #: modules/access_output/livehttp.c:80
 msgid "Add EXT-X-ALLOW-CACHE:NO directive in playlist-file if this is disabled"
@@ -8985,7 +8989,7 @@ msgstr ""
 
 #: modules/access/vnc.c:61
 msgid "Compression level"
-msgstr ""
+msgstr "Ниво на компресия"
 
 #: modules/access/vnc.c:62
 msgid "Transfer compression level from 0 (none) to 9 (max)"
@@ -8993,11 +8997,11 @@ msgstr ""
 
 #: modules/access/vnc.c:63
 msgid "Image quality"
-msgstr ""
+msgstr "Качество на изображението"
 
 #: modules/access/vnc.c:64
 msgid "Image quality 1 to 9 (max)"
-msgstr ""
+msgstr "Качество на изображението от 1 до 9 (максимално)"
 
 #: modules/access/vnc.c:78
 msgid "VNC"
@@ -13457,7 +13461,7 @@ msgstr ""
 
 #: modules/codec/x264.c:429
 msgid "Fast"
-msgstr ""
+msgstr "Бързо"
 
 #: modules/codec/x264.c:429 modules/gui/macosx/MainMenu.m:357
 #: modules/gui/macosx/simple_prefs.m:709
@@ -13470,7 +13474,7 @@ msgstr "Нормален"
 
 #: modules/codec/x264.c:429
 msgid "Slow"
-msgstr ""
+msgstr "Бавно"
 
 #: modules/codec/x264.c:434
 msgid "Spatial"
@@ -13686,7 +13690,7 @@ msgstr ""
 
 #: modules/control/hotkeys.c:424 modules/control/hotkeys.c:493
 msgid "No active subtitle"
-msgstr ""
+msgstr "Няма активни субтитри"
 
 #: modules/control/hotkeys.c:430
 msgid "Sub sync: bookmarked subtitle time"
@@ -17207,7 +17211,7 @@ msgstr "Допълнителна обработка"
 
 #: modules/gui/macosx/MainMenu.m:414 modules/gui/macosx/MainMenu.m:1517
 msgid "Add Subtitle File..."
-msgstr ""
+msgstr "Добавяне на файл със субтитри..."
 
 #: modules/gui/macosx/MainMenu.m:415 modules/gui/macosx/MainMenu.m:416
 msgid "Subtitles Track"
@@ -17215,11 +17219,11 @@ msgstr "Пътечка със субтитри"
 
 #: modules/gui/macosx/MainMenu.m:417
 msgid "Text Size"
-msgstr ""
+msgstr "Размер на текста"
 
 #: modules/gui/macosx/MainMenu.m:418
 msgid "Text Color"
-msgstr ""
+msgstr "Цвят на текста"
 
 #: modules/gui/macosx/MainMenu.m:419
 msgid "Outline Thickness"
@@ -17227,11 +17231,11 @@ msgstr ""
 
 #: modules/gui/macosx/MainMenu.m:421 modules/gui/macosx/MainMenu.m:422
 msgid "Background Opacity"
-msgstr ""
+msgstr "Непрозрачност на фона"
 
 #: modules/gui/macosx/MainMenu.m:423
 msgid "Background Color"
-msgstr ""
+msgstr "Цвят на фона"
 
 #: modules/gui/macosx/MainMenu.m:425
 msgid "Transparent"
@@ -17597,7 +17601,7 @@ msgstr "Височина на изображението"
 
 #: modules/gui/macosx/open.m:361
 msgid "Add Subtitle File:"
-msgstr ""
+msgstr "Добавяне на файл със субтитри:"
 
 #: modules/gui/macosx/open.m:366
 msgid "Click to setup subtitle playback in full detail."
@@ -20472,9 +20476,8 @@ msgid "Network Access Policy"
 msgstr "Управление достъпа до мрежата"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:98
-#, fuzzy
 msgid "Automatically retrieve media info"
-msgstr "Автоматично настройване усилването на видеото."
+msgstr ""
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:103
 msgid "Regularly check for VLC updates"
@@ -20779,15 +20782,15 @@ msgstr "Отваряне на субтитри..."
 
 #: modules/gui/qt4/dialogs_provider.hpp:40
 msgid "Media Files"
-msgstr ""
+msgstr "Файлове с медия"
 
 #: modules/gui/qt4/dialogs_provider.hpp:44
 msgid "Subtitle Files"
-msgstr ""
+msgstr "Файлове със субтитри"
 
 #: modules/gui/qt4/dialogs_provider.hpp:45
 msgid "All Files"
-msgstr ""
+msgstr "Всички файлове"
 
 #: modules/gui/qt4/dialogs/sout.cpp:45 modules/gui/qt4/ui/sout.h:201
 msgid "Stream Output"
@@ -20925,7 +20928,7 @@ msgstr "Допълнителни бутони"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:449
 msgid "Playback Buttons"
-msgstr ""
+msgstr "Бутони за възпроизвеждане"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:453
 msgid "Aspect ratio selector"
@@ -21030,7 +21033,7 @@ msgstr "Субтитри"
 
 #: modules/gui/qt4/menus.cpp:335 modules/gui/qt4/menus.cpp:1068
 msgid "T&ools"
-msgstr ""
+msgstr "И&нструменти"
 
 #: modules/gui/qt4/menus.cpp:338 modules/gui/qt4/menus.cpp:1103
 msgid "V&iew"
@@ -21046,7 +21049,7 @@ msgstr "Отваряне на файл..."
 
 #: modules/gui/qt4/menus.cpp:355
 msgid "&Open Multiple Files..."
-msgstr ""
+msgstr "&Отваряне на няколко файла..."
 
 #: modules/gui/qt4/menus.cpp:359 modules/gui/qt4/menus.cpp:920
 msgid "Open &Disc..."
@@ -21182,7 +21185,7 @@ msgstr "Визуализации"
 
 #: modules/gui/qt4/menus.cpp:637
 msgid "Add &Subtitle File..."
-msgstr ""
+msgstr "Добавяне на &файл със субтитри..."
 
 #: modules/gui/qt4/menus.cpp:639
 msgid "Sub &Track"
@@ -21546,7 +21549,7 @@ msgstr ""
 
 #: modules/gui/qt4/qt4.cpp:184
 msgid "Never"
-msgstr ""
+msgstr "Никога"
 
 #: modules/gui/qt4/qt4.cpp:184
 msgid "When minimized"
@@ -21554,7 +21557,7 @@ msgstr ""
 
 #: modules/gui/qt4/qt4.cpp:184
 msgid "Always"
-msgstr ""
+msgstr "Винаги"
 
 #: modules/gui/qt4/qt4.cpp:189
 msgid "Qt interface"
@@ -21932,7 +21935,7 @@ msgstr ""
 
 #: modules/misc/gnutls.c:295 modules/misc/gnutls.c:314
 msgid "Abort"
-msgstr ""
+msgstr "Отхвърляне"
 
 #: modules/misc/gnutls.c:295
 msgid "View certificate"
@@ -26114,7 +26117,7 @@ msgstr ""
 
 #: modules/video_filter/panoramix.c:125
 msgid "Gamma (Green) correction"
-msgstr "Гама корекция (Зелено)"
+msgstr "Корекция на гамата (зелено)"
 
 #: modules/video_filter/panoramix.c:126
 msgid ""
@@ -28850,9 +28853,6 @@ msgstr ""
 msgid "Media Manager List"
 msgstr "Управление на списъка с медии"
 
-#~ msgid "Show Details"
-#~ msgstr "Показване на подробности"
-
 #~ msgid ""
 #~ "SAP is a way to publically announce streams that are being sent using "
 #~ "multicast UDP or RTP."
@@ -30435,8 +30435,12 @@ msgstr "Управление на списъка с медии"
 #~ msgstr "ОК"
 
 #, fuzzy
+#~ msgid "Show Details"
+#~ msgstr "Подробности за кодека"
+
+#, fuzzy
 #~ msgid "Add a subtitle file"
-#~ msgstr "Използване на файл със субтитри"
+#~ msgstr "Добавяне на файл със субтитри:"
 
 #, fuzzy
 #~ msgid "Subtitles/OSD"
@@ -30886,7 +30890,7 @@ msgstr "Управление на списъка с медии"
 
 #, fuzzy
 #~ msgid "Commands"
-#~ msgstr "Коментари"
+#~ msgstr "Command+"
 
 #, fuzzy
 #~ msgid "GNU/Linux osd/overlay framebuffer interface"
@@ -31094,7 +31098,7 @@ msgstr "Управление на списъка с медии"
 
 #, fuzzy
 #~ msgid "&Tools"
-#~ msgstr "Инструмент"
+#~ msgstr "И&нструменти"
 
 #, fuzzy
 #~ msgid "&Open (advanced)..."
@@ -31565,7 +31569,7 @@ msgstr "Управление на списъка с медии"
 
 #, fuzzy
 #~ msgid "Clear Menu"
-#~ msgstr "Изчистване"
+#~ msgstr "Медийно меню"
 
 #, fuzzy
 #~ msgid "Fullscreen controller width toggle"
@@ -32391,7 +32395,7 @@ msgstr "Управление на списъка с медии"
 
 #, fuzzy
 #~ msgid "General editing filters"
-#~ msgstr "Основни настройки на аудиото"
+#~ msgstr "Запазване на съществуващия файл"
 
 #, fuzzy
 #~ msgid "Distortion filters"
