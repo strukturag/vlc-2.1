@@ -5,10 +5,13 @@
 # Translators:
 # Bruno Vella 2002-2003
 # Carlo Calabrò 2003-2004
+# prangel <prangel85@gmail.com>, 2013
 # FranzMari <franzmari@chakra-project.it>, 2013
 # ghina90 <ghina8@gmail.com>, 2013
+# Lorenzo Facca <lorenzo.facca@ovi.com>, 2013
 # Lorenzo Porta, 2013
 # Vindex17 <vindex17@outlook.it>, 2013
+# Stiffmaister88 <antani125@yahoo.it>, 2013
 # Marco91, 2013
 # polxmod <paolo.velati@gmail.com>, 2013
 # verodigiorgio <verodigiorgio@gmail.com>, 2013
@@ -18,8 +21,8 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-11-11 19:12+0100\n"
-"PO-Revision-Date: 2013-09-28 10:03+0000\n"
-"Last-Translator: Vindex17 <vindex17@outlook.it>\n"
+"PO-Revision-Date: 2013-12-02 14:05+0000\n"
+"Last-Translator: Lorenzo Facca <lorenzo.facca@ovi.com>\n"
 "Language-Team: Italian (http://www.transifex.com/projects/p/vlc-trans/"
 "language/it/)\n"
 "Language: it\n"
@@ -8800,8 +8803,8 @@ msgid ""
 "Enable the color killer, i.e. switch to black & white picture whenever the "
 "signal is weak."
 msgstr ""
-"Abilità il color killer, ad esempio cambia un'immagine in bianco e nero ogni "
-"volta che il segnale è debole"
+"Abilita il soppressore di colore, ad esempio cambia un'immagine in bianco e "
+"nero ogni volta che il segnale è debole."
 
 #: modules/access/v4l2/v4l2.c:156
 msgid "Color effect"
@@ -8887,11 +8890,11 @@ msgstr "Silenzia l'audio."
 
 #: modules/access/v4l2/v4l2.c:184
 msgid "Loudness mode"
-msgstr "modalità Loudness"
+msgstr "Modalità Loudness"
 
 #: modules/access/v4l2/v4l2.c:186
 msgid "Loudness mode a.k.a. bass boost."
-msgstr "Modalità rumorosa, conosciuta anche come aumento del basso."
+msgstr "Modalità Loudness, conosciuta anche come aumento del basso."
 
 #: modules/access/v4l2/v4l2.c:188
 msgid "v4l2 driver controls"
@@ -9214,7 +9217,7 @@ msgstr "Autorità di certificazione X.509"
 
 #: modules/access/vnc.c:49
 msgid "Certificate of the Authority to verify server's against"
-msgstr "Certificato dell'Autorità per la verifica contro il server."
+msgstr "Certificato dell'Autorità per la verifica contro il server"
 
 #: modules/access/vnc.c:50
 msgid "X.509 Certificate Revocation List"
@@ -11547,7 +11550,7 @@ msgstr "Coro"
 
 #: modules/codec/fluidsynth.c:51
 msgid "Synthesis gain"
-msgstr "Aumento di sintesi"
+msgstr "Guadagno di sintesi"
 
 #: modules/codec/fluidsynth.c:52
 msgid ""
@@ -13610,7 +13613,7 @@ msgstr ""
 
 #: modules/codec/x264.c:327
 msgid "Decide references on a per partition basis"
-msgstr ""
+msgstr "Decide le referenze in base alla partizione"
 
 #: modules/codec/x264.c:328
 msgid ""
@@ -16185,7 +16188,7 @@ msgstr "MTU per modalità out"
 
 #: modules/demux/ts.c:109
 msgid "MTU for out mode."
-msgstr ""
+msgstr "MTU per modalità out"
 
 #: modules/demux/ts.c:111 modules/mux/mpeg/ts.c:159
 msgid "CSA Key"
@@ -18135,7 +18138,7 @@ msgstr "Scarica metadati"
 
 #: modules/gui/macosx/playlist.m:524 modules/gui/macosx/playlist.m:525
 msgid "Reveal in Finder"
-msgstr ""
+msgstr "Mostra in Finder"
 
 #: modules/gui/macosx/playlist.m:527
 msgid "Sort Node by Name"
@@ -20168,7 +20171,7 @@ msgstr ""
 msgid ""
 "Makeup\n"
 "gain"
-msgstr ""
+msgstr "Guadagno di compensazione"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1440
 msgid "(Hastened)"
@@ -20949,7 +20952,7 @@ msgstr "Criteri di accesso alla rete"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:98
 msgid "Automatically retrieve media info"
-msgstr ""
+msgstr "Recupera automaticamente informazioni media"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:103
 msgid "Regularly check for VLC updates"
@@ -23238,7 +23241,7 @@ msgstr "Filtro di trasmissione Http Live Streaming"
 
 #: modules/stream_filter/record.c:49
 msgid "Internal stream record"
-msgstr ""
+msgstr "Registrazione interna dei flussi"
 
 #: modules/stream_filter/smooth/smooth.c:61
 msgid "Smooth Streaming"
@@ -24698,11 +24701,11 @@ msgstr "Scrivi in una cartella ogni 128mo minifotogramma."
 
 #: modules/video_filter/atmo/atmo.cpp:186
 msgid "Debug Frame Folder"
-msgstr ""
+msgstr "Cartella dei fotogrammi di debug"
 
 #: modules/video_filter/atmo/atmo.cpp:187
 msgid "The path where the debugframes should be saved"
-msgstr ""
+msgstr "Il percorso dove i fotogrammi di debug dovrebbero essere salvati"
 
 #: modules/video_filter/atmo/atmo.cpp:191
 msgid "Extracted Image Width"
@@ -25243,7 +25246,7 @@ msgstr ""
 
 #: modules/video_filter/audiobargraph_v.c:89
 msgid "Audio Bar Graph Video"
-msgstr ""
+msgstr "Video Audiobar Graph"
 
 #: modules/video_filter/ball.c:98
 msgid "Ball color"
@@ -25703,7 +25706,7 @@ msgstr ""
 
 #: modules/video_filter/dynamicoverlay/dynamicoverlay.c:67
 msgid "Dynamic video overlay"
-msgstr ""
+msgstr "Sovrapposizione video dinamica"
 
 #: modules/video_filter/dynamicoverlay/dynamicoverlay.c:68
 #: share/lua/http/dialogs/create_stream.html:245
@@ -25857,7 +25860,7 @@ msgstr "Granulosità"
 
 #: modules/video_filter/grain.c:66
 msgid "Adds filtered gaussian noise"
-msgstr ""
+msgstr "Aggiunge rumore gaussiano filtrato"
 
 #: modules/video_filter/hqdn3d.c:53
 msgid "Spatial luma strength (0-254)"
@@ -25936,7 +25939,7 @@ msgstr "Coordinata X del logo. Puoi spostarlo con un clic sinistro del mouse."
 
 #: modules/video_filter/logo.c:62
 msgid "Y coordinate of the logo. You can move the logo by left-clicking it."
-msgstr ""
+msgstr "Coordinata Y del logo. Puoi spostarlo con un clic sinistro del mouse."
 
 #: modules/video_filter/logo.c:64
 msgid "Opacity of the logo"
@@ -28154,7 +28157,7 @@ msgstr "Opzioni MUX"
 
 #: share/lua/http/dialogs/create_stream.html:303
 msgid "Video scale"
-msgstr ""
+msgstr "Scala video"
 
 #: share/lua/http/dialogs/create_stream.html:330
 #: share/lua/http/dialogs/create_stream.html:374
@@ -29151,9 +29154,6 @@ msgstr "AAAA; "
 #: modules/gui/qt4/ui/vlm.h:302
 msgid "Media Manager List"
 msgstr "Elenco gestore multimediale"
-
-#~ msgid "Show Details"
-#~ msgstr "Mostra dettagli"
 
 #~ msgid ""
 #~ "SAP is a way to publically announce streams that are being sent using "
@@ -33211,6 +33211,10 @@ msgstr "Elenco gestore multimediale"
 #~ "dall'utilizzo di certificati revocati in sessioni TLS."
 
 #, fuzzy
+#~ msgid "Show Details"
+#~ msgstr "Dettagli codificatore"
+
+#, fuzzy
 #~ msgid "Toggle Normal/Repeat/Loop playlist modes"
 #~ msgstr "Alterna le modalità Normale/Ciclica/Ripetuta della scaletta"
 
@@ -34700,7 +34704,7 @@ msgstr "Elenco gestore multimediale"
 
 #, fuzzy
 #~ msgid "Automatically add new medias to ML"
-#~ msgstr "Aggiungi/elimina automaticamente i flussi in ingresso"
+#~ msgstr "Recupera automaticamente informazioni media"
 
 #, fuzzy
 #~ msgid "X Screensaver disabler"
@@ -34957,7 +34961,7 @@ msgstr "Elenco gestore multimediale"
 
 #, fuzzy
 #~ msgid "Video Scale"
-#~ msgstr "Acquisizione video"
+#~ msgstr "Scala video"
 
 #, fuzzy
 #~ msgid "Output Port"
