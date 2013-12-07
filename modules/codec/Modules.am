@@ -41,7 +41,6 @@ SOURCES_cvdsub = cvdsub.c
 SOURCES_sdl_image = sdl_image.c
 SOURCES_zvbi = zvbi.c
 SOURCES_cdg = cdg.c
-SOURCES_fluidsynth = fluidsynth.c
 SOURCES_cc = cc.c cc.h substext.h
 SOURCES_kate = kate.c
 SOURCES_schroedinger = schroedinger.c
@@ -211,3 +210,14 @@ if HAVE_ANDROID
 libvlc_LTLIBRARIES += libiomx_plugin.la libmediacodec_plugin.la
 endif
 
+## fluidsynth ##
+libfluidsynth_plugin_la_SOURCES = fluidsynth.c
+libfluidsynth_plugin_la_CFLAGS = $(AM_CFLAGS) $(CFLAGS_fluidsynth)
+libfluidsynth_plugin_la_LIBADD = $(AM_LIBADD) $(LIBS_fluidsynth)
+libfluidsynth_plugin_la_LDFLAGS = $(AM_LDFLAGS) $(LDFLAGS_fluidsynth)
+if HAVE_DARWIN
+libfluidsynth_plugin_la_LDFLAGS += -Wl,-framework,CoreFoundation,-framework,CoreServices
+endif
+
+libvlc_LTLIBRARIES += $(LTLIBfluidsynth)
+EXTRA_LTLIBRARIES += libfluidsynth_plugin.la
