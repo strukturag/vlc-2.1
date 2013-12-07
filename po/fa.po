@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-11-11 19:12+0100\n"
-"PO-Revision-Date: 2013-10-26 18:58+0000\n"
-"Last-Translator: Arshad <hossein.arshad@gmail.com>\n"
+"PO-Revision-Date: 2013-11-08 08:17+0000\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Persian (http://www.transifex.com/projects/p/vlc-trans/"
 "language/fa/)\n"
 "Language: fa\n"
@@ -196,6 +196,8 @@ msgid ""
 "Settings related to the various access methods. Common settings you may want "
 "to alter are HTTP proxy or caching settings."
 msgstr ""
+"تنظیمات مربوط به روش های مختلف دسترسی است. تنظیمات متداولی که ممکن است شما "
+"بخواهید تغییر دهید شامل HHTP proxy یا تنظیمات caching است."
 
 #: include/vlc_config_cat.h:103
 msgid "Stream filters"
@@ -206,6 +208,8 @@ msgid ""
 "Stream filters are special modules that allow advanced operations on the "
 "input side of VLC. Use with care..."
 msgstr ""
+"فیلترهای استریم ماژول های مخصوصی هستند که امکان عملیات پیشرفته را روی ورودی "
+"VLC می دهند. با احتیاط استفاده کنید..."
 
 #: include/vlc_config_cat.h:108
 msgid "Demuxers"
@@ -258,6 +262,13 @@ msgid ""
 "Sout streams modules allow advanced stream processing (transcoding, "
 "duplicating...)."
 msgstr ""
+"تنظیمات خروجی استریم در مواقعی که به عنوان سرور استریم و یا در حال ذخیره "
+"استریم ورودی هستید، استفاده می شوند.\n"
+"استریم ها ابتدا مالتی پلکس شده و سپس از میان ماژول \"خروجی دسترسی\" عبور "
+"میکنند که یا می تواند استریم را در یک فایل ذخیره و یا آنرا استریم کند(RTSP/"
+"RTP ,HTTP ,UDP).\n"
+"ماژول های استریم های Sout  امکان پردازش پیشرفته استریم ها را فراهم می "
+"کند(کدگذاری، تکثیر و...)."
 
 #: include/vlc_config_cat.h:133
 msgid "General stream output settings"
@@ -313,6 +324,9 @@ msgid ""
 "the Streaming Howto for more information. You can configure default options "
 "for each sout stream module here."
 msgstr ""
+"ماژول استریم Sout به شما اجازه می دهد تا یک زنجیر پردازشی بسازید. لطفا برای "
+"اطلاعات بیشتر به راهنمای استریم ها مراجعه نمایید. شما میتوانید انتخاب های "
+"پیشفرض را برای هر ماژول استریم Sout در اینجا تنظیم نمایید."
 
 #: include/vlc_config_cat.h:164
 msgid "VOD"
@@ -363,7 +377,7 @@ msgstr "پیشرفته"
 
 #: include/vlc_config_cat.h:181
 msgid "Advanced settings. Use with care..."
-msgstr ""
+msgstr "تنظیمات پیشرفته. با احتیاط استفاده کنید..."
 
 #: include/vlc_config_cat.h:183
 msgid "Advanced settings"
@@ -587,7 +601,7 @@ msgstr "صافی کردن صدا شکست خورد"
 #: src/audio_output/filters.c:248
 #, c-format
 msgid "The maximum number of filters (%u) was reached."
-msgstr ""
+msgstr "تعداد فیلترها به حداکثر (%u) رسید."
 
 #: src/audio_output/output.c:220 src/audio_output/output.c:267
 #: src/config/core.c:407 src/input/es_out.c:902 src/libvlc-module.c:540
@@ -609,7 +623,7 @@ msgstr "طیف"
 
 #: src/audio_output/output.c:232
 msgid "Vu meter"
-msgstr ""
+msgstr "اندازه گیر Vu"
 
 #: src/audio_output/output.c:264 modules/audio_filter/equalizer.c:81
 #: modules/gui/macosx/AudioEffects.m:143 share/lua/http/index.html:219
@@ -627,7 +641,7 @@ msgstr "پخش دوباره"
 #: src/audio_output/output.c:377 modules/gui/macosx/MainMenu.m:383
 #: modules/gui/macosx/MainMenu.m:384
 msgid "Stereo audio mode"
-msgstr ""
+msgstr "حالت صدای استریو"
 
 #: src/audio_output/output.c:412 src/libvlc-module.c:189
 msgid "Dolby Surround"
@@ -794,6 +808,8 @@ msgid ""
 "\n"
 "Press the RETURN key to continue...\n"
 msgstr ""
+"\n"
+"برای ادامه کلید RETURN را فشار دهید...\n"
 
 #: src/config/keys.c:56
 msgid "Backspace"
@@ -928,7 +944,7 @@ msgstr ""
 
 #: src/config/keys.c:89
 msgid "Media Menu"
-msgstr ""
+msgstr "منوی رسانه"
 
 #: src/config/keys.c:90
 msgid "Media Next Frame"
@@ -952,11 +968,11 @@ msgstr ""
 
 #: src/config/keys.c:95
 msgid "Media Record"
-msgstr ""
+msgstr "ضبط رسانه"
 
 #: src/config/keys.c:96
 msgid "Media Repeat"
-msgstr ""
+msgstr "تکرار رسانه"
 
 #: src/config/keys.c:97
 msgid "Media Rewind"
@@ -964,27 +980,27 @@ msgstr ""
 
 #: src/config/keys.c:98
 msgid "Media Select"
-msgstr ""
+msgstr "انتخاب رسانه"
 
 #: src/config/keys.c:99
 msgid "Media Shuffle"
-msgstr ""
+msgstr "بر زدن رسانه"
 
 #: src/config/keys.c:100
 msgid "Media Stop"
-msgstr ""
+msgstr "توقف رسانه"
 
 #: src/config/keys.c:101
 msgid "Media Subtitle"
-msgstr ""
+msgstr "زیرنویس رسانه"
 
 #: src/config/keys.c:102
 msgid "Media Time"
-msgstr ""
+msgstr "زمان رسانه"
 
 #: src/config/keys.c:103
 msgid "Media View"
-msgstr ""
+msgstr "دید رسانه"
 
 #: src/config/keys.c:104 modules/gui/qt4/components/controller.cpp:541
 msgid "Menu"
@@ -992,19 +1008,19 @@ msgstr "منو"
 
 #: src/config/keys.c:105
 msgid "Mouse Wheel Down"
-msgstr ""
+msgstr "حرکت ماوس به پایین"
 
 #: src/config/keys.c:106
 msgid "Mouse Wheel Left"
-msgstr ""
+msgstr "حرکت ماوس به چپ"
 
 #: src/config/keys.c:107
 msgid "Mouse Wheel Right"
-msgstr ""
+msgstr "حرکت ماوس به راست"
 
 #: src/config/keys.c:108
 msgid "Mouse Wheel Up"
-msgstr ""
+msgstr "حرکت ماوس به بالا"
 
 #: src/config/keys.c:109
 msgid "Page Down"
@@ -1026,11 +1042,11 @@ msgstr "Tab"
 #: modules/gui/qt4/components/preferences_widgets.cpp:1425
 #: modules/gui/qt4/util/customwidgets.cpp:294
 msgid "Unset"
-msgstr ""
+msgstr "بازنشاندن"
 
 #: src/config/keys.c:115
 msgid "Up"
-msgstr ""
+msgstr "بالا"
 
 #: src/config/keys.c:116 modules/gui/macosx/MainMenu.m:469
 msgid "Volume Down"
@@ -1038,7 +1054,7 @@ msgstr "کم کردن صدا"
 
 #: src/config/keys.c:117
 msgid "Volume Mute"
-msgstr ""
+msgstr "صدا قطع"
 
 #: src/config/keys.c:118 modules/gui/macosx/MainMenu.m:468
 msgid "Volume Up"
@@ -1046,31 +1062,31 @@ msgstr "زیاد کردن صدا"
 
 #: src/config/keys.c:119
 msgid "Zoom In"
-msgstr ""
+msgstr "زوم به داخل"
 
 #: src/config/keys.c:120
 msgid "Zoom Out"
-msgstr ""
+msgstr "زوم به بیرون"
 
 #: src/config/keys.c:248
 msgid "Ctrl+"
-msgstr ""
+msgstr "Ctrl+"
 
 #: src/config/keys.c:249
 msgid "Alt+"
-msgstr ""
+msgstr "Alt+"
 
 #: src/config/keys.c:250
 msgid "Shift+"
-msgstr ""
+msgstr "Shift+"
 
 #: src/config/keys.c:251
 msgid "Meta+"
-msgstr ""
+msgstr "Meta+"
 
 #: src/config/keys.c:252
 msgid "Command+"
-msgstr ""
+msgstr "Command+"
 
 #: src/input/control.c:226
 #, c-format
@@ -1079,11 +1095,11 @@ msgstr "نشانک %Ii"
 
 #: src/input/decoder.c:267
 msgid "packetizer"
-msgstr ""
+msgstr "بسته بندی کننده"
 
 #: src/input/decoder.c:267
 msgid "decoder"
-msgstr ""
+msgstr "دیکدر"
 
 #: src/input/decoder.c:276 src/input/decoder.c:467
 #: modules/codec/avcodec/encoder.c:255 modules/codec/avcodec/encoder.c:263
@@ -1160,7 +1176,7 @@ msgstr "نوع"
 
 #: src/input/es_out.c:2883
 msgid "Original ID"
-msgstr ""
+msgstr "شناسه اصلی"
 
 #: src/input/es_out.c:2891 src/input/es_out.c:2894 modules/access/imem.c:67
 #: modules/gui/macosx/ConvertAndSave.m:177
@@ -1195,7 +1211,7 @@ msgstr "نرخ نمونه"
 #: src/input/es_out.c:2915
 #, c-format
 msgid "%u Hz"
-msgstr ""
+msgstr "%u Hz"
 
 #: src/input/es_out.c:2925
 msgid "Bits per sample"
@@ -1212,7 +1228,7 @@ msgstr "نرخ بیتی"
 #: src/input/es_out.c:2930
 #, c-format
 msgid "%u kb/s"
-msgstr ""
+msgstr "%u kb/s"
 
 #: src/input/es_out.c:2942
 msgid "Track replay gain"
@@ -1225,7 +1241,7 @@ msgstr ""
 #: src/input/es_out.c:2945
 #, c-format
 msgid "%.2f dB"
-msgstr ""
+msgstr "%.2f دسی بل"
 
 #: src/input/es_out.c:2954 modules/gui/macosx/ConvertAndSave.m:180
 #: modules/gui/qt4/ui/profiles.h:732
@@ -1246,7 +1262,7 @@ msgstr "سرعت فریم‌ها"
 
 #: src/input/es_out.c:2980
 msgid "Decoded format"
-msgstr ""
+msgstr "فرمت دیکد شده"
 
 #: src/input/input.c:2426
 msgid "Your input can't be opened"
@@ -1255,17 +1271,17 @@ msgstr "ورودی شما باز نمی‌شود"
 #: src/input/input.c:2427
 #, c-format
 msgid "VLC is unable to open the MRL '%s'. Check the log for details."
-msgstr ""
+msgstr "VLC قادر به باز کردن MRL '%s' نیست. برای دیدن جزییات لاگ را ببینید."
 
 #: src/input/input.c:2548
 msgid "VLC can't recognize the input's format"
-msgstr ""
+msgstr "VLC قادر به شناسایی فرمت ورودی نیست."
 
 #: src/input/input.c:2549
 #, c-format
 msgid ""
 "The format of '%s' cannot be detected. Have a look at the log for details."
-msgstr ""
+msgstr "فرمت '%s' شناسایی نشد. برای دیدن جزییات به لاگ مراجعه کنید."
 
 #: src/input/meta.c:55 src/input/var.c:177 modules/gui/macosx/MainMenu.m:69
 #: modules/gui/macosx/MainMenu.m:372 modules/gui/macosx/MainMenu.m:373
@@ -1298,7 +1314,7 @@ msgstr "آلبوم"
 
 #: src/input/meta.c:60
 msgid "Track number"
-msgstr ""
+msgstr "شماره قطعه"
 
 #: src/input/meta.c:62 modules/mux/asf.c:64
 msgid "Rating"
@@ -2290,7 +2306,7 @@ msgstr ""
 
 #: src/libvlc-module.c:468 modules/gui/macosx/simple_prefs.m:400
 msgid "Skip frames"
-msgstr ""
+msgstr "ردکردن فریم ها"
 
 #: src/libvlc-module.c:470
 msgid ""
@@ -2300,7 +2316,7 @@ msgstr ""
 
 #: src/libvlc-module.c:473
 msgid "Drop late frames"
-msgstr ""
+msgstr "حذف فریم های آخر"
 
 #: src/libvlc-module.c:475
 msgid ""
@@ -2328,7 +2344,7 @@ msgstr ""
 
 #: src/libvlc-module.c:487 modules/video_filter/remoteosd.c:90
 msgid "Mouse events"
-msgstr ""
+msgstr "رخدادهای ماوس"
 
 #: src/libvlc-module.c:489
 msgid "This enables handling of mouse clicks on the video."
@@ -2343,35 +2359,35 @@ msgstr ""
 
 #: src/libvlc-module.c:501
 msgid "File caching (ms)"
-msgstr ""
+msgstr "کشینگ فایل (ms)"
 
 #: src/libvlc-module.c:503
 msgid "Caching value for local files, in milliseconds."
-msgstr ""
+msgstr "مقدار کشینگ برای فایلهای محلی، به میلی ثانیه."
 
 #: src/libvlc-module.c:505
 msgid "Live capture caching (ms)"
-msgstr ""
+msgstr "کشینگ ضبط زنده (ms)"
 
 #: src/libvlc-module.c:507
 msgid "Caching value for cameras and microphones, in milliseconds."
-msgstr ""
+msgstr "مقدار کشینگ برای دوربین ها و میکروفن ها، به میلی ثانیه."
 
 #: src/libvlc-module.c:509
 msgid "Disc caching (ms)"
-msgstr ""
+msgstr "کشینگ دیسک (ms)"
 
 #: src/libvlc-module.c:511
 msgid "Caching value for optical media, in milliseconds."
-msgstr ""
+msgstr "مقدار کشینگ برای رسانه نوری، به میلی ثانیه."
 
 #: src/libvlc-module.c:513
 msgid "Network caching (ms)"
-msgstr ""
+msgstr "کشینگ شبکه (ms)"
 
 #: src/libvlc-module.c:515
 msgid "Caching value for network resources, in milliseconds."
-msgstr ""
+msgstr "مقدار کشینگ برای منابع شبکه، به میلی ثانیه."
 
 #: src/libvlc-module.c:517
 msgid "Clock reference average counter"
@@ -2385,7 +2401,7 @@ msgstr ""
 
 #: src/libvlc-module.c:522
 msgid "Clock synchronisation"
-msgstr ""
+msgstr "همزمان سازی کلاک"
 
 #: src/libvlc-module.c:524
 msgid ""
@@ -8861,7 +8877,7 @@ msgstr ""
 #: modules/audio_filter/chorus_flanger.c:89
 #: modules/audio_filter/stereo_widen.c:62
 msgid "Feedback gain"
-msgstr ""
+msgstr "بهره ی بازخورد"
 
 #: modules/audio_filter/chorus_flanger.c:89
 msgid "Gain on Feedback loop"
@@ -9184,7 +9200,7 @@ msgstr "بسامد پایین (هرتز)‏"
 
 #: modules/audio_filter/param_eq.c:60
 msgid "Low freq gain (dB)"
-msgstr ""
+msgstr "بهره فرکانسی پایین (دسی بل)"
 
 #: modules/audio_filter/param_eq.c:61
 msgid "High freq (Hz)"
@@ -9192,7 +9208,7 @@ msgstr "بسامد بالا (هرتز)‏"
 
 #: modules/audio_filter/param_eq.c:63
 msgid "High freq gain (dB)"
-msgstr ""
+msgstr "بهره فرکانسی بالا (دسی بل)"
 
 #: modules/audio_filter/param_eq.c:64
 msgid "Freq 1 (Hz)"
@@ -9200,35 +9216,35 @@ msgstr "بسامد ۱ (هرتز)‏"
 
 #: modules/audio_filter/param_eq.c:66
 msgid "Freq 1 gain (dB)"
-msgstr ""
+msgstr "بهره فرکانس 1 (دسی بل)"
 
 #: modules/audio_filter/param_eq.c:68
 msgid "Freq 1 Q"
-msgstr ""
+msgstr "فرکانس 1 Q"
 
 #: modules/audio_filter/param_eq.c:69
 msgid "Freq 2 (Hz)"
-msgstr ""
+msgstr "فرکانس 2 (هرتز)"
 
 #: modules/audio_filter/param_eq.c:71
 msgid "Freq 2 gain (dB)"
-msgstr ""
+msgstr "بهره فرکانس 2 (دسی بل)"
 
 #: modules/audio_filter/param_eq.c:73
 msgid "Freq 2 Q"
-msgstr ""
+msgstr "فرکانس 2 Q"
 
 #: modules/audio_filter/param_eq.c:74
 msgid "Freq 3 (Hz)"
-msgstr ""
+msgstr "فرکانس 3 (هرتز)"
 
 #: modules/audio_filter/param_eq.c:76
 msgid "Freq 3 gain (dB)"
-msgstr ""
+msgstr "بهره فرکانس 3 (دسی بل)"
 
 #: modules/audio_filter/param_eq.c:78
 msgid "Freq 3 Q"
-msgstr ""
+msgstr "فرکانس 3 Q"
 
 #: modules/audio_filter/resampler/bandlimited.c:89
 msgid "Audio filter for band-limited interpolation resampling"
@@ -9275,11 +9291,11 @@ msgstr ""
 
 #: modules/audio_filter/resampler/src.c:50
 msgid "Linear (fastest)"
-msgstr ""
+msgstr "خطی (سریع ترین)"
 
 #: modules/audio_filter/resampler/src.c:58
 msgid "SRC resampler"
-msgstr ""
+msgstr "نمونه گیر مجدد SRC"
 
 #: modules/audio_filter/resampler/src.c:59
 msgid "Secret Rabbit Code (libsamplerate) resampler"
@@ -9315,7 +9331,7 @@ msgstr ""
 
 #: modules/audio_filter/scaletempo.c:58
 msgid "Search Length"
-msgstr ""
+msgstr "طول جستجو"
 
 #: modules/audio_filter/scaletempo.c:58
 msgid "Length in milliseconds to search for best overlap position"
@@ -9323,7 +9339,7 @@ msgstr ""
 
 #: modules/audio_filter/spatializer/spatializer.cpp:54
 msgid "Room size"
-msgstr ""
+msgstr "اندازه فضا"
 
 #: modules/audio_filter/spatializer/spatializer.cpp:55
 msgid "Defines the virtual surface of the room emulated by the filter."
@@ -9331,23 +9347,23 @@ msgstr ""
 
 #: modules/audio_filter/spatializer/spatializer.cpp:58
 msgid "Room width"
-msgstr ""
+msgstr "عرض فضا"
 
 #: modules/audio_filter/spatializer/spatializer.cpp:59
 msgid "Width of the virtual room"
-msgstr ""
+msgstr "عرض فضای مجازی"
 
 #: modules/audio_filter/spatializer/spatializer.cpp:61
 #: modules/gui/macosx/AudioEffects.m:132
 #: modules/gui/qt4/components/extended_panels.cpp:1403
 msgid "Wet"
-msgstr ""
+msgstr "خیس"
 
 #: modules/audio_filter/spatializer/spatializer.cpp:64
 #: modules/gui/macosx/AudioEffects.m:133
 #: modules/gui/qt4/components/extended_panels.cpp:1404
 msgid "Dry"
-msgstr ""
+msgstr "خشک"
 
 #: modules/audio_filter/spatializer/spatializer.cpp:67
 #: modules/gui/macosx/AudioEffects.m:134
@@ -9396,7 +9412,7 @@ msgstr ""
 
 #: modules/audio_filter/stereo_widen.c:70
 msgid "Dry mix"
-msgstr ""
+msgstr "میکس خشک"
 
 #: modules/audio_filter/stereo_widen.c:71
 msgid "Level of input signal of original channel."
@@ -9478,15 +9494,15 @@ msgstr ""
 
 #: modules/audio_output/amem.c:34
 msgid "Audio memory"
-msgstr ""
+msgstr "حافظه صدا"
 
 #: modules/audio_output/amem.c:35
 msgid "Audio memory output"
-msgstr ""
+msgstr "خروجی حافظه صدا"
 
 #: modules/audio_output/amem.c:42
 msgid "Sample format"
-msgstr ""
+msgstr "فرمت نمونه"
 
 #: modules/audio_output/audioqueue.c:66
 msgid "AudioQueue (iOS / Mac OS) audio output"
@@ -13746,7 +13762,7 @@ msgstr ""
 
 #: modules/demux/image.c:70
 msgid "Real-time"
-msgstr ""
+msgstr "در آن واحد"
 
 #: modules/demux/image.c:72
 msgid ""
@@ -13767,13 +13783,15 @@ msgstr ""
 #: modules/demux/subtitle.c:75 modules/demux/vc1.c:43
 #: modules/gui/macosx/open.m:210
 msgid "Frames per Second"
-msgstr ""
+msgstr "فریم بر ثانیه"
 
 #: modules/demux/mjpeg.c:47
 msgid ""
 "This is the desired frame rate when playing MJPEG from a file. Use 0 (this "
 "is the default value) for a live stream (from a camera)."
 msgstr ""
+"نرخ فریم مطلوب در موقع پخش MJPEG از یک فایل است. از 0 (مقدار پیش فرض است) "
+"برای استریم زنده (از دوربین) استفاده کنید."
 
 #: modules/demux/mjpeg.c:53
 msgid "M-JPEG camera demuxer"
@@ -13797,7 +13815,7 @@ msgstr "----- عنوان"
 
 #: modules/demux/mkv/mkv.cpp:47
 msgid "Matroska stream demuxer"
-msgstr ""
+msgstr "دی مالتی پلکسر استریم Matroska"
 
 #: modules/demux/mkv/mkv.cpp:54
 msgid "Respect ordered chapters"
@@ -13836,7 +13854,7 @@ msgstr ""
 
 #: modules/demux/mkv/mkv.cpp:70
 msgid "Dummy Elements"
-msgstr ""
+msgstr "عناصر مصنوعی"
 
 #: modules/demux/mkv/mkv.cpp:71
 msgid "Read and discard unknown EBML elements (not good for broken files)."
@@ -14539,7 +14557,7 @@ msgstr ""
 #: modules/demux/mp4/mp4.c:1074 modules/demux/xiph_metadata.h:55
 #: modules/demux/xiph_metadata.h:62
 msgid "Lyrics"
-msgstr ""
+msgstr "متن شعر"
 
 #: modules/demux/mp4/mp4.c:1075
 msgid "Record Company"
@@ -15147,35 +15165,35 @@ msgstr ""
 
 #: modules/demux/xiph_metadata.h:52
 msgid "Semantic annotations"
-msgstr ""
+msgstr "تفسیر معنایی"
 
 #: modules/demux/xiph_metadata.h:54
 msgid "Transcript"
-msgstr ""
+msgstr "رونوشت"
 
 #: modules/demux/xiph_metadata.h:56
 msgid "Linguistic markup"
-msgstr ""
+msgstr "نشانه گذاری زبانی"
 
 #: modules/demux/xiph_metadata.h:57
 msgid "Cue points"
-msgstr ""
+msgstr "نقاط نشانه"
 
 #: modules/demux/xiph_metadata.h:61 modules/demux/xiph_metadata.h:65
 msgid "Subtitles (images)"
-msgstr ""
+msgstr "زیرنویس ها (تصاویر)"
 
 #: modules/demux/xiph_metadata.h:66
 msgid "Slides (text)"
-msgstr ""
+msgstr "اسلایدها (متن)"
 
 #: modules/demux/xiph_metadata.h:67
 msgid "Slides (images)"
-msgstr ""
+msgstr "اسلایدها (تصاویر)"
 
 #: modules/demux/xiph_metadata.c:296
 msgid "Unknown category"
-msgstr ""
+msgstr "دسته ناشناخته"
 
 #: modules/gui/macosx/about.m:92 modules/gui/macosx/MainMenu.m:306
 msgid "About VLC media player"
@@ -18641,82 +18659,82 @@ msgstr ""
 #: modules/gui/qt4/components/extended_panels.cpp:1384
 #: modules/gui/qt4/components/extended_panels.cpp:1385
 msgid "dB"
-msgstr ""
+msgstr "دسی بل"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1192
 msgid "170 Hz"
-msgstr ""
+msgstr "170 Hz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1193
 msgid "310 Hz"
-msgstr ""
+msgstr "310 Hz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1194
 msgid "600 Hz"
-msgstr ""
+msgstr "600 Hz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1195
 #: modules/gui/qt4/components/extended_panels.cpp:1209
 msgid "1 KHz"
-msgstr ""
+msgstr "1 KHz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1196
 msgid "3 KHz"
-msgstr ""
+msgstr "3 KHz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1197
 msgid "6 KHz"
-msgstr ""
+msgstr "6 KHz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1198
 msgid "12 KHz"
-msgstr ""
+msgstr "12 KHz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1199
 msgid "14 KHz"
-msgstr ""
+msgstr "14 KHz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1200
 #: modules/gui/qt4/components/extended_panels.cpp:1213
 msgid "16 KHz"
-msgstr ""
+msgstr "16 KHz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1204
 msgid "31 Hz"
-msgstr ""
+msgstr "31 Hz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1205
 msgid "63 Hz"
-msgstr ""
+msgstr "63 Hz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1206
 msgid "125 Hz"
-msgstr ""
+msgstr "125 Hz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1207
 msgid "250 Hz"
-msgstr ""
+msgstr "250 Hz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1208
 msgid "500 Hz"
-msgstr ""
+msgstr "500 Hz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1210
 msgid "2 KHz"
-msgstr ""
+msgstr "2 KHz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1211
 msgid "4 KHz"
-msgstr ""
+msgstr "4 KHz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1212
 msgid "8 KHz"
-msgstr ""
+msgstr "8 KHz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1380
 #: modules/gui/qt4/components/extended_panels.cpp:1381
 msgid "ms"
-msgstr ""
+msgstr "ms"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1384
 msgid ""
@@ -27340,9 +27358,6 @@ msgstr ""
 msgid "Media Manager List"
 msgstr ""
 
-#~ msgid "Show Details"
-#~ msgstr "نمایش جزئیات"
-
 #~ msgid "CPU features"
 #~ msgstr "امکانات پردازنده"
 
@@ -27850,19 +27865,6 @@ msgstr ""
 #~ msgid "Go forward in browsing history"
 #~ msgstr "جلو رفتن در مرور تاریخچه"
 
-#, fuzzy
-#~ msgid ""
-#~ "Caching value for Alsa captures. This value should be set in milliseconds."
-#~ msgstr ""
-#~ "مقدار حافظهٔ نهان برای ضبط از صفحهٔ نمایش. این مقدار باید به میلی‌ثانیه وارد "
-#~ "شود."
-
-#, fuzzy
-#~ msgid ""
-#~ "Caching value for DVB streams. This value should be set in milliseconds."
-#~ msgstr ""
-#~ "مقدار حافظهٔ نهان برای جریان‌های DV. این مقدار باید به میلی‌ثانیه وارد شود."
-
 #~ msgid "Satellite number in the Diseqc system"
 #~ msgstr "شماره‌ٔ ماهواره در سیستم Diseqc"
 
@@ -27878,27 +27880,6 @@ msgstr ""
 #~ msgstr "‏EPS"
 
 #~ msgid ""
-#~ "Default caching value for Audio CDs. This value should be set in "
-#~ "milliseconds."
-#~ msgstr ""
-#~ "مقدار پیش‌فرض حافظه‌ٔ نهان برای سی‌دی‌های صوتی. این مقدار باید به میلی‌ثانیه "
-#~ "وارد شود."
-
-#, fuzzy
-#~ msgid ""
-#~ "Caching value for DirectShow streams. This value should be set in "
-#~ "milliseconds."
-#~ msgstr ""
-#~ "مقدار حافظهٔ نهان برای جریان‌های دیرکت‌شو. این مقدار باید به میلی‌ثانیه داده "
-#~ "شود."
-
-#, fuzzy
-#~ msgid ""
-#~ "Caching value for DV streams. This value should be set in milliseconds."
-#~ msgstr ""
-#~ "مقدار حافظهٔ نهان برای جریان‌های DV. این مقدار باید به میلی‌ثانیه وارد شود."
-
-#~ msgid ""
 #~ "User name the administrator will use to log into the internal HTTP server."
 #~ msgstr ""
 #~ "نام کاربر‌ی‌ای که مدیر برای ورود به سیستم کارگزار HTTP داخلی استفاده خواهد "
@@ -27909,24 +27890,6 @@ msgstr ""
 #~ msgstr ""
 #~ "گذرواژه‌ای که مدیر برای ورود به سیستم کارگزار HTTP داخلی استفاده خواهد کرد."
 
-#~ msgid "Caching value for DVDs. This value should be set in milliseconds."
-#~ msgstr ""
-#~ "مقدار حافظهٔ نهان برای دی‌وی‌دی‌ها. این مقدار باید به میلی‌ثانیه وارد شود."
-
-#, fuzzy
-#~ msgid ""
-#~ "Caching value for EyeTV captures. This value should be set in "
-#~ "milliseconds."
-#~ msgstr ""
-#~ "مقدار حافظهٔ نهان برای ضبط از صفحهٔ نمایش. این مقدار باید به میلی‌ثانیه وارد "
-#~ "شود."
-
-#~ msgid ""
-#~ "Caching value for fake streams. This value should be set in milliseconds."
-#~ msgstr ""
-#~ "مقدار حافظهٔ نهان برای جریان‌های قلابی. این مقدار باید به میلی‌ثانیه تنظیم "
-#~ "شود."
-
 #~ msgid "Number of frames per second (eg. 24, 25, 29.97, 30)."
 #~ msgstr "تعداد فریم بر ثانیه (مثلاً ۲۴، ‏۲۵،‏ ۲۹٫۹۷، ‏۳۰)."
 
@@ -27934,107 +27897,8 @@ msgstr ""
 #~ msgstr "قلابی"
 
 #, fuzzy
-#~ msgid "Supplementary caching value for remote files, in milliseconds."
-#~ msgstr ""
-#~ "مقدار حافظهٔ نهان در جریان‌های FTP. این مقدار باید به میلی‌ثانیه وارد شود."
-
-#~ msgid ""
-#~ "Caching value for FTP streams. This value should be set in milliseconds."
-#~ msgstr ""
-#~ "مقدار حافظهٔ نهان در جریان‌های FTP. این مقدار باید به میلی‌ثانیه وارد شود."
-
-#~ msgid ""
-#~ "Caching value for GnomeVFS streams.This value should be set in "
-#~ "milliseconds."
-#~ msgstr ""
-#~ "مقدار حافظهٔ نهان برای جریان‌های GnomeVFS. این مقدار باید به میلی‌ثانیه وارد "
-#~ "شود."
-
-#~ msgid ""
-#~ "Caching value for HTTP streams. This value should be set in milliseconds."
-#~ msgstr ""
-#~ "مقدار حافظهٔ نهان برای جریان‌های HTTP. این مقدار باید به میلی‌ثانیه داه شود."
-
-#, fuzzy
-#~ msgid ""
-#~ "Caching value for imem streams. This value should be set in milliseconds."
-#~ msgstr ""
-#~ "مقدار حافظهٔ نهان برای جریان‌های قلابی. این مقدار باید به میلی‌ثانیه تنظیم "
-#~ "شود."
-
-#, fuzzy
 #~ msgid "Memory-mapped file input"
 #~ msgstr "خروجی ویدئوی تصویر"
-
-#~ msgid ""
-#~ "Caching value for MMS streams. This value should be set in milliseconds."
-#~ msgstr ""
-#~ "مقدار حافظهٔ نهان برای جریان‌های MMS. این مقدار باید به میلی‌ثانیه داده شود."
-
-#~ msgid "Caching value for files. This value should be set in milliseconds."
-#~ msgstr ""
-#~ "مقدار حافظهٔ نهان برای پرونده‌ها. این مقدار باید به میلی‌ثانیه وارد شود."
-
-#, fuzzy
-#~ msgid ""
-#~ "Caching value for OSS captures. This value should be set in milliseconds."
-#~ msgstr ""
-#~ "مقدار حافظهٔ نهان برای ضبط از صفحهٔ نمایش. این مقدار باید به میلی‌ثانیه وارد "
-#~ "شود."
-
-#, fuzzy
-#~ msgid ""
-#~ "Default caching value for PVR streams. This value should be set in "
-#~ "milliseconds."
-#~ msgstr ""
-#~ "مقدار حافظهٔ نهان در جریان‌های FTP. این مقدار باید به میلی‌ثانیه وارد شود."
-
-#, fuzzy
-#~ msgid ""
-#~ "Caching value for RTMP streams. This value should be set in milliseconds."
-#~ msgstr ""
-#~ "مقدار حافظهٔ نهان برای جریان‌های RTSP. این مقدار باید به میلی‌ثانیه داده شود."
-
-#~ msgid ""
-#~ "Caching value for RTSP streams. This value should be set in milliseconds."
-#~ msgstr ""
-#~ "مقدار حافظهٔ نهان برای جریان‌های RTSP. این مقدار باید به میلی‌ثانیه داده شود."
-
-#~ msgid ""
-#~ "Caching value for screen capture. This value should be set in "
-#~ "milliseconds."
-#~ msgstr ""
-#~ "مقدار حافظهٔ نهان برای ضبط از صفحهٔ نمایش. این مقدار باید به میلی‌ثانیه وارد "
-#~ "شود."
-
-#, fuzzy
-#~ msgid ""
-#~ "Caching value for SFTP streams. This value should be set in milliseconds."
-#~ msgstr ""
-#~ "مقدار حافظهٔ نهان در جریان‌های FTP. این مقدار باید به میلی‌ثانیه وارد شود."
-
-#~ msgid ""
-#~ "Caching value for SMB streams. This value should be set in milliseconds."
-#~ msgstr ""
-#~ "مقدار حافظهٔ نهان برای جریان‌های سامبا. این مقدار باید به میلی‌ثانیه وارد "
-#~ "شود."
-
-#~ msgid ""
-#~ "Caching value for TCP streams. This value should be set in milliseconds."
-#~ msgstr ""
-#~ "مقدار حافظهٔ نهان برای جریان‌های TCP. این مقدار باید به میلی‌ثانیه داده شود."
-
-#~ msgid ""
-#~ "Caching value for UDP streams. This value should be set in milliseconds."
-#~ msgstr ""
-#~ "مقدار حافظهٔ نهان برای جریان‌های UDP. این مقدار باید به میلی‌ثانیه داده شود."
-
-#, fuzzy
-#~ msgid ""
-#~ "Caching value for V4L captures. This value should be set in milliseconds."
-#~ msgstr ""
-#~ "مقدار حافظهٔ نهان برای ضبط از صفحهٔ نمایش. این مقدار باید به میلی‌ثانیه وارد "
-#~ "شود."
 
 #~ msgid ""
 #~ "Channel of the card to use (Usually, 0 = tuner, 1 = composite, 2 = "
@@ -28099,19 +27963,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Loudness of the audio input (if supported by the v4l2 driver)."
 #~ msgstr "روشنی ورودی ویدئو."
-
-#, fuzzy
-#~ msgid ""
-#~ "Caching value for V4L2 captures. This value should be set in milliseconds."
-#~ msgstr ""
-#~ "مقدار حافظهٔ نهان برای ضبط از صفحهٔ نمایش. این مقدار باید به میلی‌ثانیه وارد "
-#~ "شود."
-
-#~ msgid "Caching value for VCDs. This value should be set in milliseconds."
-#~ msgstr "مقدار حافظهٔ نهان برای وی‌سی‌دی.این مقدار باید به میلی‌ثانیه داده شود."
-
-#~ msgid "Unknown soundcard"
-#~ msgstr "کارت صدای نامعلوم"
 
 #, fuzzy
 #~ msgid "AltiVec FFmpeg audio/video decoder ((MS)MPEG4,SVQ1,H263,WMV,WMA)"
@@ -28341,13 +28192,6 @@ msgstr ""
 #~ msgstr "هم‌پوشانی"
 
 #~ msgid ""
-#~ "Caching value for CDDA streams. This value should be set in millisecond "
-#~ "units."
-#~ msgstr ""
-#~ "مقدار حافظهٔ نهان برای جریان‌های CDDA. این مقدار باید به واحد میلی‌ثانیه "
-#~ "وارد شود."
-
-#~ msgid ""
 #~ "How many CD blocks to get on a single CD read. Generally on newer/faster "
 #~ "CDs, this increases throughput at the expense of a little more memory "
 #~ "usage and initial delay. SCSI-MMC limitations generally don't allow for "
@@ -28501,10 +28345,6 @@ msgstr ""
 #~ msgstr "همگام‌سازی شبکه"
 
 #, fuzzy
-#~ msgid "Transcode:"
-#~ msgstr "گزینه‌های تبدیل کد"
-
-#, fuzzy
 #~ msgid "secam"
 #~ msgstr "ثانیه"
 
@@ -28644,11 +28484,6 @@ msgstr ""
 #~ "این گزینه تعداد رشته‌های مورد نیاز برای اجرای وی‌ال‌سی را به میزان ممکن "
 #~ "تقلیل می‌دهد."
 
-#~ msgid ""
-#~ "Caching value for DV streams. Thisvalue should be set in milliseconds."
-#~ msgstr ""
-#~ "مقدار حافظهٔ نهان برای جریان‌های DV. این مقدار باید به میلی‌ثانیه وارد شود."
-
 #~ msgid "The above message had unknown log level"
 #~ msgstr "پیغام فوق سطح ثبتی نامعلومی داشت"
 
@@ -28689,9 +28524,6 @@ msgstr ""
 #~ msgid "Choose a filename to save the VLM configuration..."
 #~ msgstr "فهرست پخش پیدا نمی‌شود"
 
-#~ msgid "Minimal View..."
-#~ msgstr "حالت نمایشی کوچک"
-
 #~ msgid "Cube"
 #~ msgstr "مکعب"
 
@@ -28716,6 +28548,174 @@ msgstr ""
 
 #~ msgid "Remaining time: %i seconds"
 #~ msgstr "زمان باقی‌مانده: %Ii ثانیه"
+
+#, fuzzy
+#~ msgid "&Codec Details"
+#~ msgstr "نمایش جزئیات"
+
+#, fuzzy
+#~ msgid "Show Details"
+#~ msgstr "نمایش تنظیمات"
+
+#, fuzzy
+#~ msgid ""
+#~ "Caching value for Alsa captures. This value should be set in milliseconds."
+#~ msgstr "مقدار کشینگ برای فایلهای محلی، به میلی ثانیه."
+
+#, fuzzy
+#~ msgid ""
+#~ "Caching value for DVB streams. This value should be set in milliseconds."
+#~ msgstr "مقدار کشینگ برای منابع شبکه، به میلی ثانیه."
+
+#, fuzzy
+#~ msgid ""
+#~ "Default caching value for Audio CDs. This value should be set in "
+#~ "milliseconds."
+#~ msgstr "مقدار کشینگ برای فایلهای محلی، به میلی ثانیه."
+
+#, fuzzy
+#~ msgid ""
+#~ "Caching value for DirectShow streams. This value should be set in "
+#~ "milliseconds."
+#~ msgstr "مقدار کشینگ برای منابع شبکه، به میلی ثانیه."
+
+#, fuzzy
+#~ msgid ""
+#~ "Caching value for DV streams. This value should be set in milliseconds."
+#~ msgstr "مقدار کشینگ برای منابع شبکه، به میلی ثانیه."
+
+#, fuzzy
+#~ msgid "Caching value for DVDs. This value should be set in milliseconds."
+#~ msgstr "مقدار کشینگ برای فایلهای محلی، به میلی ثانیه."
+
+#, fuzzy
+#~ msgid ""
+#~ "Caching value for EyeTV captures. This value should be set in "
+#~ "milliseconds."
+#~ msgstr "مقدار کشینگ برای منابع شبکه، به میلی ثانیه."
+
+#, fuzzy
+#~ msgid ""
+#~ "Caching value for fake streams. This value should be set in milliseconds."
+#~ msgstr "مقدار کشینگ برای منابع شبکه، به میلی ثانیه."
+
+#, fuzzy
+#~ msgid "Supplementary caching value for remote files, in milliseconds."
+#~ msgstr "مقدار کشینگ برای فایلهای محلی، به میلی ثانیه."
+
+#, fuzzy
+#~ msgid ""
+#~ "Caching value for FTP streams. This value should be set in milliseconds."
+#~ msgstr "مقدار کشینگ برای منابع شبکه، به میلی ثانیه."
+
+#, fuzzy
+#~ msgid ""
+#~ "Caching value for GnomeVFS streams.This value should be set in "
+#~ "milliseconds."
+#~ msgstr "مقدار کشینگ برای منابع شبکه، به میلی ثانیه."
+
+#, fuzzy
+#~ msgid ""
+#~ "Caching value for HTTP streams. This value should be set in milliseconds."
+#~ msgstr "مقدار کشینگ برای منابع شبکه، به میلی ثانیه."
+
+#, fuzzy
+#~ msgid ""
+#~ "Caching value for imem streams. This value should be set in milliseconds."
+#~ msgstr "مقدار کشینگ برای منابع شبکه، به میلی ثانیه."
+
+#, fuzzy
+#~ msgid ""
+#~ "Caching value for MMS streams. This value should be set in milliseconds."
+#~ msgstr "مقدار کشینگ برای منابع شبکه، به میلی ثانیه."
+
+#, fuzzy
+#~ msgid "Caching value for files. This value should be set in milliseconds."
+#~ msgstr "مقدار کشینگ برای فایلهای محلی، به میلی ثانیه."
+
+#, fuzzy
+#~ msgid ""
+#~ "Caching value for OSS captures. This value should be set in milliseconds."
+#~ msgstr "مقدار کشینگ برای فایلهای محلی، به میلی ثانیه."
+
+#, fuzzy
+#~ msgid ""
+#~ "Default caching value for PVR streams. This value should be set in "
+#~ "milliseconds."
+#~ msgstr "مقدار کشینگ برای منابع شبکه، به میلی ثانیه."
+
+#, fuzzy
+#~ msgid ""
+#~ "Caching value for RTMP streams. This value should be set in milliseconds."
+#~ msgstr "مقدار کشینگ برای منابع شبکه، به میلی ثانیه."
+
+#, fuzzy
+#~ msgid ""
+#~ "Caching value for RTSP streams. This value should be set in milliseconds."
+#~ msgstr "مقدار کشینگ برای منابع شبکه، به میلی ثانیه."
+
+#, fuzzy
+#~ msgid ""
+#~ "Caching value for screen capture. This value should be set in "
+#~ "milliseconds."
+#~ msgstr "مقدار کشینگ برای منابع شبکه، به میلی ثانیه."
+
+#, fuzzy
+#~ msgid ""
+#~ "Caching value for SFTP streams. This value should be set in milliseconds."
+#~ msgstr "مقدار کشینگ برای منابع شبکه، به میلی ثانیه."
+
+#, fuzzy
+#~ msgid ""
+#~ "Caching value for SMB streams. This value should be set in milliseconds."
+#~ msgstr "مقدار کشینگ برای منابع شبکه، به میلی ثانیه."
+
+#, fuzzy
+#~ msgid ""
+#~ "Caching value for TCP streams. This value should be set in milliseconds."
+#~ msgstr "مقدار کشینگ برای منابع شبکه، به میلی ثانیه."
+
+#, fuzzy
+#~ msgid ""
+#~ "Caching value for UDP streams. This value should be set in milliseconds."
+#~ msgstr "مقدار کشینگ برای منابع شبکه، به میلی ثانیه."
+
+#, fuzzy
+#~ msgid ""
+#~ "Caching value for V4L captures. This value should be set in milliseconds."
+#~ msgstr "مقدار کشینگ برای فایلهای محلی، به میلی ثانیه."
+
+#, fuzzy
+#~ msgid ""
+#~ "Caching value for V4L2 captures. This value should be set in milliseconds."
+#~ msgstr "مقدار کشینگ برای فایلهای محلی، به میلی ثانیه."
+
+#, fuzzy
+#~ msgid "Caching value for VCDs. This value should be set in milliseconds."
+#~ msgstr "مقدار کشینگ برای فایلهای محلی، به میلی ثانیه."
+
+#, fuzzy
+#~ msgid "Unknown soundcard"
+#~ msgstr "دسته ناشناخته"
+
+#, fuzzy
+#~ msgid ""
+#~ "Caching value for CDDA streams. This value should be set in millisecond "
+#~ "units."
+#~ msgstr "مقدار کشینگ برای منابع شبکه، به میلی ثانیه."
+
+#, fuzzy
+#~ msgid "Transcode:"
+#~ msgstr "رونوشت"
+
+#, fuzzy
+#~ msgid ""
+#~ "Caching value for DV streams. Thisvalue should be set in milliseconds."
+#~ msgstr "مقدار کشینگ برای منابع شبکه، به میلی ثانیه."
+
+#, fuzzy
+#~ msgid "Minimal View..."
+#~ msgstr "دید رسانه"
 
 #, fuzzy
 #~ msgid "Audio volume (0-65535)."
@@ -28751,7 +28751,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Unknown command!"
-#~ msgstr "نامشخص"
+#~ msgstr "دسته ناشناخته"
 
 #, fuzzy
 #~ msgid "Size:"
@@ -28911,7 +28911,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "B Frames"
-#~ msgstr "فریم‌های گم‌شده"
+#~ msgstr "ردکردن فریم ها"
 
 #, fuzzy
 #~ msgid "Bitrate peak"
@@ -29033,7 +29033,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Commands"
-#~ msgstr "توضیح"
+#~ msgstr "Command+"
 
 #, fuzzy
 #~ msgid "Maemo hildon interface"
@@ -29137,7 +29137,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "List View"
-#~ msgstr "شناسهٔ فهرست"
+#~ msgstr "دید رسانه"
 
 #, fuzzy
 #~ msgid "Hotkey for "
@@ -29467,7 +29467,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Clear Menu"
-#~ msgstr "پاک‌سازی"
+#~ msgstr "منوی رسانه"
 
 #, fuzzy
 #~ msgid "Fullscreen controller width toggle"
@@ -29487,7 +29487,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Seek Time"
-#~ msgstr "زمان"
+#~ msgstr "زمان رسانه"
 
 #, fuzzy
 #~ msgid "Graphical Equalizer"
@@ -29773,7 +29773,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Subtitles (asa demuxer)"
-#~ msgstr "زبان زیرنویس"
+#~ msgstr "زیرنویس ها (تصاویر)"
 
 #, fuzzy
 #~ msgid "CSA ck"
@@ -29882,10 +29882,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "&Extra Metadata"
 #~ msgstr "متاداده"
-
-#, fuzzy
-#~ msgid "&Codec Details"
-#~ msgstr "نمایش جزئیات"
 
 #, fuzzy
 #~ msgid "C&lear"
@@ -30046,7 +30042,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Set"
-#~ msgstr "انتخاب"
+#~ msgstr "خیس"
 
 #, fuzzy
 #~ msgid "SDL video driver name"
@@ -30110,7 +30106,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Caching value in microseconds"
-#~ msgstr "مقدار حافظهٔ نهان (میلی‌ثانیه)‏"
+#~ msgstr "مقدار کشینگ برای فایلهای محلی، به میلی ثانیه."
 
 #, fuzzy
 #~ msgid "Use CD audio controls and output?"
@@ -30166,7 +30162,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Tarkin decoder"
-#~ msgstr "کدگشای ویدئوی تئورا"
+#~ msgstr "دیکدر"
 
 #, fuzzy
 #~ msgid "MPEG I/II hw video decoder (using libmpeg2)"
@@ -30484,7 +30480,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Transrate"
-#~ msgstr "نوع تبدیل"
+#~ msgstr "رونوشت"
 
 #, fuzzy
 #~ msgid "VIDEO_TS directory"
@@ -30608,7 +30604,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Audio method"
-#~ msgstr "کدگذار صدا"
+#~ msgstr "حافظه صدا"
 
 #, fuzzy
 #~ msgid ""
