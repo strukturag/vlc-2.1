@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-11-11 19:12+0100\n"
-"PO-Revision-Date: 2013-10-15 12:30+0000\n"
+"PO-Revision-Date: 2013-11-22 19:55+0000\n"
 "Last-Translator: picodotdev <pico.dev@gmail.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/projects/p/vlc-trans/"
 "language/es/)\n"
@@ -1091,7 +1091,7 @@ msgstr "Parar medio"
 
 #: src/config/keys.c:101
 msgid "Media Subtitle"
-msgstr "Subtítulo de medio"
+msgstr "Subtítulos de medio"
 
 #: src/config/keys.c:102
 msgid "Media Time"
@@ -1267,7 +1267,7 @@ msgstr "Emisión %d"
 
 #: src/input/es_out.c:2872 src/input/es_out.c:2987 modules/access/imem.c:64
 msgid "Subtitle"
-msgstr "Subtítulo"
+msgstr "Subtítulos"
 
 #: src/input/es_out.c:2880 src/input/es_out.c:2907 src/input/es_out.c:2951
 #: src/input/es_out.c:2987 modules/gui/macosx/ConvertAndSave.m:197
@@ -3858,7 +3858,7 @@ msgstr "VLC se mantendrá reproduciendo la lista indefinidamente."
 
 #: src/libvlc-module.c:1141
 msgid "Repeat current item"
-msgstr "Repetir objeto actual"
+msgstr "Repetir elemento actual"
 
 #: src/libvlc-module.c:1143
 msgid "VLC will keep playing the current playlist item."
@@ -4703,7 +4703,7 @@ msgstr "Normal/Bucle/Repetir"
 
 #: src/libvlc-module.c:1396
 msgid "Toggle Normal/Loop/Repeat playlist modes"
-msgstr "Cambia entre modos normal/bucle/repetir"
+msgstr "Cambiar entre modos normal/bucle/repetir"
 
 #: src/libvlc-module.c:1399
 msgid "Toggle random playlist playback"
@@ -10136,7 +10136,7 @@ msgid ""
 "the mono. If the value is 1 it will cancel all the signal common to both "
 "channels."
 msgstr ""
-"Diafonía de derecha a izquierda con fase invertida. Esto ayuda suprimiendo "
+"Diafonía de derecha a izquierda con fase invertida. Esto ayuda al suprimir "
 "el audio mono. Si el valor es 1 se cancelarán todas las señales comunes en "
 "ambos canales."
 
@@ -12331,7 +12331,7 @@ msgstr "Precisión del vector de movimiento"
 
 #: modules/codec/schroedinger.c:208
 msgid "Motion Vector precision in pels"
-msgstr "Precisión del vector de movimiento en pels."
+msgstr "Precisión del vector de movimiento en pels"
 
 #: modules/codec/schroedinger.c:261
 msgid "perceptual weighting method"
@@ -13812,9 +13812,9 @@ msgid ""
 "Framecount to use on frametype lookahead. Currently default can cause sync-"
 "issues on unmuxable output, like rtsp-output without ts-mux"
 msgstr ""
-"Framecount se usa en la búsqueda de FrameType.  El actual predeterminado "
-"puede causar problemas de sincronización en la salida sin multiplexar, como "
-"la salida RSTP sin multiplexación TS."
+"Framecount se usa en la búsqueda de FrameType.  El predeterminado puede "
+"causar problemas de sincronización en la salida sin multiplexar, como la "
+"salida RSTP sin multiplexación TS."
 
 #: modules/codec/x264.c:408
 msgid "HRD-timing information"
@@ -17829,7 +17829,7 @@ msgstr "Darse de baja de un podcast"
 
 #: modules/gui/macosx/MainWindow.m:182
 msgid "Select the podcast you would like to unsubscribe from:"
-msgstr "Seleccione el podcast que usted desea darse de baja:"
+msgstr "Seleccionar el podcast del que desee darse de baja:"
 
 #: modules/gui/macosx/MainWindow.m:219
 msgid "LIBRARY"
@@ -18962,7 +18962,7 @@ msgstr "Posterizar"
 
 #: modules/gui/macosx/VideoEffects.m:154 modules/video_filter/posterize.c:60
 msgid "Posterize level"
-msgstr "Nivel de Posterizacion"
+msgstr "Nivel de posterización"
 
 #: modules/gui/macosx/VideoEffects.m:155 modules/video_filter/motionblur.c:59
 #: modules/gui/qt4/ui/video_effects.h:1387
@@ -19910,7 +19910,7 @@ msgstr "Shift+L"
 
 #: modules/gui/qt4/components/controller.cpp:444
 msgid "Click to toggle between loop all, loop one and no loop"
-msgstr "Repetir una vez o repetir indefinidamente"
+msgstr "Repetir una vez o indefinidamente"
 
 #: modules/gui/qt4/components/controller.cpp:535
 msgid "Previous Chapter/Title"
@@ -20003,8 +20003,8 @@ msgstr ""
 #: modules/gui/qt4/components/controller.hpp:126
 msgid "Next media in the playlist, skip forward when held"
 msgstr ""
-"Medio siguiente en lista de reproducción, saltar hacia adelante "
-"manteniéndolo presionado"
+"Medio siguiente en lista de reproducción, salta hacia adelante manteniéndolo "
+"presionado"
 
 #: modules/gui/qt4/components/controller.hpp:127
 msgid "Toggle the video in fullscreen"
@@ -20053,7 +20053,7 @@ msgstr "Medio siguiente en lista de reproducción"
 #: modules/gui/qt4/components/controller.hpp:134
 #: modules/gui/qt4/components/open_panels.cpp:252
 msgid "Open subtitle file"
-msgstr "Abrir fichero subtítulos"
+msgstr "Abrir archivo de subtítulos"
 
 #: modules/gui/qt4/components/controller.hpp:135
 msgid "Dock/undock fullscreen controller to/from bottom of screen"
@@ -21502,7 +21502,7 @@ msgstr "Repetir:"
 
 #: modules/gui/qt4/dialogs/vlm.cpp:86
 msgid "Repeat delay:"
-msgstr "Repetir retraso:"
+msgstr "Retraso repetición:"
 
 #: modules/gui/qt4/dialogs/vlm.cpp:111
 #: modules/gui/qt4/ui/sprefs_interface.h:540
@@ -24692,7 +24692,7 @@ msgstr "Número de fotogramas considerados para suavizado (0 a 30)"
 
 #: modules/video_filter/antiflicker.c:66
 msgid "antiflicker video filter"
-msgstr "Filtro de video anti parpadeo"
+msgstr "Filtro de vídeo antiparpadeo"
 
 #: modules/video_filter/antiflicker.c:67
 msgid "antiflicker"
@@ -25940,11 +25940,11 @@ msgstr "Fuerza usada para modificar el valor de un pixel"
 
 #: modules/video_filter/gradfun.c:58
 msgid "Gradfun video filter"
-msgstr "Filtro de vídeo «gradfun»"
+msgstr "Filtro de vídeo Gradfun"
 
 #: modules/video_filter/gradfun.c:59
 msgid "Gradfun"
-msgstr "«gradfun»"
+msgstr "Gradfun"
 
 #: modules/video_filter/gradfun.c:60
 msgid "Debanding algorithm"
@@ -26052,11 +26052,11 @@ msgstr "Intensidad de chroma temporal (predeterminado: 4.5)"
 
 #: modules/video_filter/hqdn3d.c:63
 msgid "HQ Denoiser 3D"
-msgstr "Reductor de Ruido HQ 3D"
+msgstr "Reductor de ruido HQ 3D"
 
 #: modules/video_filter/hqdn3d.c:64
 msgid "High Quality 3D Denoiser filter"
-msgstr "Filtro de Reductor de Rudio de Alta Calidad 3D "
+msgstr "Filtro reductor de rudio de alta calidad 3D "
 
 #: modules/video_filter/invert.c:50
 msgid "Invert video filter"
@@ -29484,9 +29484,6 @@ msgstr "AAAA; "
 #: modules/gui/qt4/ui/vlm.h:302
 msgid "Media Manager List"
 msgstr "Lista del administrador multimedia"
-
-#~ msgid "Show Details"
-#~ msgstr "Mostrar detalles"
 
 #~ msgid ""
 #~ "SAP is a way to publically announce streams that are being sent using "
@@ -33698,12 +33695,16 @@ msgstr "Lista del administrador multimedia"
 #~ msgstr "intentando añadir %s a lista de repr.\n"
 
 #, fuzzy
+#~ msgid "Show Details"
+#~ msgstr "Detalles de códec"
+
+#, fuzzy
 #~ msgid "Data search path"
 #~ msgstr "Búsqueda de gradientes bitmap"
 
 #, fuzzy
 #~ msgid "Toggle Normal/Repeat/Loop playlist modes"
-#~ msgstr "Cambia entre modos normal/bucle/repetir"
+#~ msgstr "Cambiar entre modos normal/bucle/repetir"
 
 #, fuzzy
 #~ msgid ""
@@ -34094,7 +34095,7 @@ msgstr "Lista del administrador multimedia"
 
 #, fuzzy
 #~ msgid "Select current widget"
-#~ msgstr "Repetir objeto actual"
+#~ msgstr "Repetir elemento actual"
 
 #, fuzzy
 #~ msgid "CPU"
@@ -35086,7 +35087,7 @@ msgstr "Lista del administrador multimedia"
 #, fuzzy
 #~ msgid "Next media in the playlist, skip forward when keep-pressed"
 #~ msgstr ""
-#~ "Medio siguiente en lista de reproducción, saltar hacia adelante "
+#~ "Medio siguiente en lista de reproducción, salta hacia adelante "
 #~ "manteniéndolo presionado"
 
 #, fuzzy
@@ -35095,7 +35096,7 @@ msgstr "Lista del administrador multimedia"
 
 #, fuzzy
 #~ msgid "Open subtitles file"
-#~ msgstr "Abrir fichero subtítulos"
+#~ msgstr "Abrir archivo de subtítulos"
 
 #, fuzzy
 #~ msgid "Preamp\n"
@@ -37929,7 +37930,7 @@ msgstr "Lista del administrador multimedia"
 
 #, fuzzy
 #~ msgid "Show the current item"
-#~ msgstr "Repetir objeto actual"
+#~ msgstr "Repetir elemento actual"
 
 #, fuzzy
 #~ msgid "Audio Port"
