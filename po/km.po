@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2013-11-11 19:12+0100\n"
+"POT-Creation-Date: 2013-12-07 17:17+0100\n"
 "PO-Revision-Date: 2013-11-22 08:13+0000\n"
 "Last-Translator: soksophea <sophea@open.org.kh>\n"
 "Language-Team: Khmer (http://www.transifex.com/projects/p/vlc-trans/language/"
@@ -139,7 +139,7 @@ msgstr "ម៉ូឌុល និង​ការ​កំណត់​អូឌ�
 #: src/libvlc-module.c:1510 modules/access/imem.c:64
 #: modules/gui/macosx/ConvertAndSave.m:175 modules/gui/macosx/MainMenu.m:390
 #: modules/gui/macosx/output.m:151 modules/gui/macosx/playlistinfo.m:102
-#: modules/gui/macosx/simple_prefs.m:273 modules/gui/macosx/simple_prefs.m:409
+#: modules/gui/macosx/simple_prefs.m:273 modules/gui/macosx/simple_prefs.m:410
 #: modules/gui/macosx/wizard.m:378
 #: modules/gui/qt4/components/info_panels.cpp:552
 #: modules/gui/qt4/components/simple_preferences.cpp:224
@@ -473,10 +473,10 @@ msgid "&About"
 msgstr "អំពី"
 
 #: include/vlc_intf_strings.h:65 modules/control/rc.c:72
-#: modules/gui/macosx/ControlsBar.m:404 modules/gui/macosx/MainMenu.m:350
+#: modules/gui/macosx/ControlsBar.m:438 modules/gui/macosx/MainMenu.m:350
 #: modules/gui/macosx/MainMenu.m:457 modules/gui/macosx/MainMenu.m:464
-#: modules/gui/macosx/MainMenu.m:1189 modules/gui/macosx/MainMenu.m:1190
-#: modules/gui/macosx/MainMenu.m:1191 modules/gui/macosx/playlist.m:517
+#: modules/gui/macosx/MainMenu.m:1194 modules/gui/macosx/MainMenu.m:1195
+#: modules/gui/macosx/MainMenu.m:1196 modules/gui/macosx/playlist.m:517
 #: modules/gui/qt4/components/controller.hpp:115
 #: modules/gui/qt4/dialogs/vlm.cpp:550 modules/gui/qt4/ui/open.h:243
 msgid "Play"
@@ -515,17 +515,17 @@ msgid "Save..."
 msgstr "រក្សាទុក..."
 
 #: include/vlc_intf_strings.h:77 modules/gui/macosx/CoreInteraction.m:404
-#: modules/gui/macosx/MainMenu.m:364 modules/gui/macosx/MainMenu.m:1470
+#: modules/gui/macosx/MainMenu.m:364 modules/gui/macosx/MainMenu.m:1475
 msgid "Repeat All"
 msgstr "ចាក់​ឡើងវិញ​ទាំងអស់"
 
 #: include/vlc_intf_strings.h:78 modules/gui/macosx/CoreInteraction.m:424
-#: modules/gui/macosx/MainMenu.m:363 modules/gui/macosx/MainMenu.m:1465
+#: modules/gui/macosx/MainMenu.m:363 modules/gui/macosx/MainMenu.m:1470
 msgid "Repeat One"
 msgstr "ចាក់​ឡើងវិញ​តែ​មួយ​បទ"
 
 #: include/vlc_intf_strings.h:79 src/libvlc-module.c:1398
-#: modules/gui/macosx/MainMenu.m:362 modules/gui/macosx/MainMenu.m:1460
+#: modules/gui/macosx/MainMenu.m:362 modules/gui/macosx/MainMenu.m:1465
 #: modules/gui/qt4/components/controller.hpp:119
 #: modules/gui/qt4/components/controller.hpp:132
 msgid "Random"
@@ -628,7 +628,7 @@ msgstr "បាន​ដល់​​ចំនួន​តម្រង​​អត
 
 #: src/audio_output/output.c:220 src/audio_output/output.c:267
 #: src/config/core.c:407 src/input/es_out.c:902 src/libvlc-module.c:540
-#: modules/gui/macosx/MainWindow.m:967 modules/video_filter/postproc.c:234
+#: modules/gui/macosx/MainWindow.m:1000 modules/video_filter/postproc.c:234
 msgid "Disable"
 msgstr "បិទ"
 
@@ -1323,20 +1323,20 @@ msgstr "អត្រា​ស៊ុម"
 msgid "Decoded format"
 msgstr "បាន​ឌិកូដ​ទ្រង់ទ្រាយ"
 
-#: src/input/input.c:2426
+#: src/input/input.c:2427
 msgid "Your input can't be opened"
 msgstr "មិន​អាច​បើក​ព័ត៌មាន​បញ្ចូល​របស់​អ្នក​បានទេ"
 
-#: src/input/input.c:2427
+#: src/input/input.c:2428
 #, c-format
 msgid "VLC is unable to open the MRL '%s'. Check the log for details."
 msgstr "VLC មិន​អាច​បើក MRL '%s' បាន​ទេ ។ ពិនិត្យ​មើល​កំណត់ហេតុ​សម្រាប់​សេចក្ដី​លម្អិត ។"
 
-#: src/input/input.c:2548
+#: src/input/input.c:2549
 msgid "VLC can't recognize the input's format"
 msgstr "VLC មិន​អាច​ស្គាល់​ទ្រង់ទ្រាយ​ព័ត៌មាន​បញ្ចូល​បាន​ទេ"
 
-#: src/input/input.c:2549
+#: src/input/input.c:2550
 #, c-format
 msgid ""
 "The format of '%s' cannot be detected. Have a look at the log for details."
@@ -1757,7 +1757,7 @@ msgstr ""
 #: modules/audio_output/kai.c:106 modules/codec/x264.c:434
 #: modules/gui/macosx/simple_prefs.m:110
 #: modules/gui/qt4/components/simple_preferences.cpp:125
-#: modules/gui/qt4/components/sout/profile_selector.cpp:566
+#: modules/gui/qt4/components/sout/profile_selector.cpp:558
 #: modules/video_output/kva.c:62 modules/video_output/xcb/xvideo.c:878
 #: modules/gui/qt4/ui/profiles.h:727 modules/gui/qt4/ui/profiles.h:730
 msgid "Auto"
@@ -1840,7 +1840,7 @@ msgstr "វា​អនុញ្ញាត​ឲ្យ​ចាក់​អូឌ
 #: modules/gui/macosx/ConvertAndSave.m:204 modules/gui/macosx/open.m:252
 #: modules/gui/macosx/open.m:278 modules/gui/macosx/open.m:279
 #: modules/gui/qt4/components/interface_widgets.cpp:429
-#: modules/text_renderer/freetype.c:214
+#: modules/text_renderer/freetype.c:215
 #: share/lua/http/dialogs/create_stream.html:196
 msgid "None"
 msgstr "គ្មាន"
@@ -1869,7 +1869,7 @@ msgstr ""
 "នេះ​ជា​វិធីសាស្ត្រ​បង្ហាញ​វីដេអូ​ដែល​បាន​ប្រើ​ដោយ VLC ។ ឥរិយាបថ​លំនាំដើម​គឺ​ត្រូវ​ជ្រើស​វិធីសាស្ត្រ​ល្អ​បំផុត​ដែល​"
 "មាន​ដោយ​ស្វ័យប្រវត្តិ ។"
 
-#: src/libvlc-module.c:249 modules/gui/macosx/simple_prefs.m:395
+#: src/libvlc-module.c:249 modules/gui/macosx/simple_prefs.m:396
 #: modules/stream_out/display.c:42 modules/gui/qt4/ui/sprefs_video.h:340
 msgid "Enable video"
 msgstr "បើក​វីដេអូ"
@@ -2067,7 +2067,7 @@ msgstr ""
 "ផ្ទាល់) ។ VLC នឹង​សាកល្បង​ប្រើ​វា​ជា​លំនាំដើម ។"
 
 #: src/libvlc-module.c:311 src/video_output/vout_intf.c:274
-#: modules/gui/macosx/simple_prefs.m:398 modules/gui/qt4/ui/sprefs_video.h:347
+#: modules/gui/macosx/simple_prefs.m:399 modules/gui/qt4/ui/sprefs_video.h:347
 msgid "Always on top"
 msgstr "នៅលើ​គេ​ជានិច្ច"
 
@@ -2118,7 +2118,7 @@ msgstr "លាក់​ទស្សន៍ទ្រនិច និង​ឧប�
 
 #: src/libvlc-module.c:338 src/libvlc-module.c:340
 #: src/video_output/interlacing.c:180 modules/gui/macosx/MainMenu.m:406
-#: modules/gui/macosx/MainMenu.m:407 modules/gui/macosx/simple_prefs.m:407
+#: modules/gui/macosx/MainMenu.m:407 modules/gui/macosx/simple_prefs.m:408
 #: modules/gui/qt4/dialogs/convert.cpp:95
 #: modules/video_filter/deinterlace/deinterlace.c:97
 #: share/lua/http/dialogs/create_stream.html:346
@@ -2127,7 +2127,7 @@ msgstr "មិន​ត្របាញ់"
 
 #: src/libvlc-module.c:348 src/video_output/interlacing.c:196
 #: modules/gui/macosx/MainMenu.m:408 modules/gui/macosx/MainMenu.m:409
-#: modules/gui/macosx/simple_prefs.m:408
+#: modules/gui/macosx/simple_prefs.m:409
 #: modules/video_filter/deinterlace/deinterlace.c:53
 msgid "Deinterlace mode"
 msgstr "របៀប​មិន​ត្របាញ់"
@@ -2184,7 +2184,7 @@ msgid ""
 msgstr ""
 "រារាំង​ដេមិន​គ្រប់គ្រង​ថាមពល​នៅ​អំឡុង​ពេល​ចាក់​ឡើងវិញ ដើម្បី​កុំឲ្យ​កុំព្យូទ័រ​ផ្អាក​ដោយសារ​តែ​ភាព​មិន​សកម្ម ។"
 
-#: src/libvlc-module.c:374 modules/gui/macosx/simple_prefs.m:397
+#: src/libvlc-module.c:374 modules/gui/macosx/simple_prefs.m:398
 #: modules/gui/qt4/ui/sprefs_video.h:343
 msgid "Window decorations"
 msgstr "ការ​តុបតែង​បង្អួច"
@@ -2375,7 +2375,7 @@ msgstr ""
 "វា​បង្ខំ​ការ​ត្រួតពិនិត្យ​សមាមាត្រ ។ ម៉ូនីទ័រ​ភាគច្រើន​មាន​ភីកសែល​ការ៉េ (1:1) ។ ប្រសិន​បើ​អ្នក​មាន​អេក្រង់ "
 "16:9 អ្នក​អាច​ត្រូវការ​ផ្លាស់ប្ដូរ​វា​ទៅកាន់ 4:3 ដើម្បី​រក្សា​នូវ​សមាមាត្រ ។"
 
-#: src/libvlc-module.c:468 modules/gui/macosx/simple_prefs.m:400
+#: src/libvlc-module.c:468 modules/gui/macosx/simple_prefs.m:401
 msgid "Skip frames"
 msgstr "រំលង​ស៊ុម"
 
@@ -2513,12 +2513,12 @@ msgstr ""
 #: src/libvlc-module.c:540 src/video_output/vout_intf.c:96
 #: src/video_output/vout_intf.c:114 modules/access/dshow/dshow.cpp:92
 #: modules/access/dshow/dshow.cpp:99 modules/access/dshow/dshow.cpp:119
-#: modules/access/dshow/dshow.cpp:2032 modules/audio_output/directx.c:830
+#: modules/access/dshow/dshow.cpp:2032 modules/audio_output/directx.c:834
 #: modules/gui/macosx/AudioEffects.m:86 modules/gui/macosx/MainMenu.m:601
 #: modules/gui/macosx/prefs_widgets.m:1214
 #: modules/gui/macosx/prefs_widgets.m:1287
-#: modules/gui/macosx/simple_prefs.m:519 modules/gui/macosx/simple_prefs.m:672
-#: modules/gui/macosx/simple_prefs.m:922 modules/gui/macosx/VideoEffects.m:57
+#: modules/gui/macosx/simple_prefs.m:520 modules/gui/macosx/simple_prefs.m:674
+#: modules/gui/macosx/simple_prefs.m:923 modules/gui/macosx/VideoEffects.m:57
 #: modules/gui/qt4/components/preferences_widgets.cpp:545
 #: modules/video_filter/marq.c:60 modules/video_filter/rss.c:71
 #: modules/video_filter/rss.c:184 modules/video_output/msw/directx.c:1458
@@ -2526,7 +2526,7 @@ msgid "Default"
 msgstr "លំនាំដើម"
 
 #: src/libvlc-module.c:540 modules/gui/macosx/AudioEffects.m:112
-#: modules/gui/macosx/MainWindow.m:965 modules/gui/macosx/wizard.m:351
+#: modules/gui/macosx/MainWindow.m:998 modules/gui/macosx/wizard.m:351
 #: modules/gui/qt4/components/extended_panels.cpp:1024
 #: modules/gui/qt4/ui/equalizer.h:133 modules/gui/qt4/ui/vlm.h:289
 msgid "Enable"
@@ -2861,7 +2861,7 @@ msgid "You can completely disable the sub-picture processing."
 msgstr "អ្នក​អាច​បិទ​ដំណើរការ​រូបភាព​រង​ទាំងស្រុង​បាន ។"
 
 #: src/libvlc-module.c:703 src/libvlc-module.c:1634 src/text/iso-639_def.h:145
-#: modules/gui/macosx/simple_prefs.m:384
+#: modules/gui/macosx/simple_prefs.m:385
 #: modules/stream_out/transcode/transcode.c:219
 #: modules/gui/qt4/ui/sprefs_subtitles.h:286
 msgid "On Screen Display"
@@ -3763,7 +3763,7 @@ msgstr "បញ្ជី​ចាក់​អាច​ប្រើ​មែកធ
 msgid "These settings are the global VLC key bindings, known as \"hotkeys\"."
 msgstr "ការ​កំណត់​ទាំងនេះ​គឺ​ជា​ការ​ចង​សោ VLC សកល ដែល​គេ​ស្គាល់​ថា \"គ្រាប់ចុច​រហ័ស\" ។"
 
-#: src/libvlc-module.c:1197 modules/gui/macosx/intf.m:1923
+#: src/libvlc-module.c:1197 modules/gui/macosx/intf.m:1938
 msgid "Ignore"
 msgstr "មិន​អើពើ"
 
@@ -3789,8 +3789,8 @@ msgstr ""
 
 #: src/libvlc-module.c:1203 src/video_output/vout_intf.c:284
 #: modules/gui/macosx/MainMenu.m:395 modules/gui/macosx/MainMenu.m:471
-#: modules/gui/macosx/MainMenu.m:1497 modules/gui/macosx/MainMenu.m:1507
-#: modules/gui/macosx/simple_prefs.m:396
+#: modules/gui/macosx/MainMenu.m:1502 modules/gui/macosx/MainMenu.m:1512
+#: modules/gui/macosx/simple_prefs.m:397
 #: modules/gui/qt4/components/controller.hpp:116
 #: modules/gui/qt4/ui/sprefs_video.h:342
 msgid "Fullscreen"
@@ -3870,10 +3870,10 @@ msgid "Slower (fine)"
 msgstr "យឺត​ជាង (ល្អ)"
 
 #: src/libvlc-module.c:1223 modules/control/hotkeys.c:208
-#: modules/gui/macosx/about.m:274 modules/gui/macosx/ControlsBar.m:726
-#: modules/gui/macosx/ControlsBar.m:727 modules/gui/macosx/fspanel.m:420
+#: modules/gui/macosx/about.m:274 modules/gui/macosx/ControlsBar.m:760
+#: modules/gui/macosx/ControlsBar.m:761 modules/gui/macosx/fspanel.m:420
 #: modules/gui/macosx/MainMenu.m:361 modules/gui/macosx/MainMenu.m:459
-#: modules/gui/macosx/MainMenu.m:467 modules/gui/macosx/MainMenu.m:1456
+#: modules/gui/macosx/MainMenu.m:467 modules/gui/macosx/MainMenu.m:1461
 #: modules/gui/macosx/wizard.m:306 modules/gui/macosx/wizard.m:318
 #: modules/gui/macosx/wizard.m:1559
 #: modules/gui/qt4/components/controller.hpp:120 modules/notify/notify.c:339
@@ -3886,10 +3886,10 @@ msgid "Select the hotkey to use to skip to the next item in the playlist."
 msgstr "ជ្រើស​គ្រាប់ចុច​រហ័ស​ដែល​ត្រូវ​ប្រើ​ដើម្បី​រំលង​ទៅកាន់​ធាតុ​បន្ទាប់​នៅ​ក្នុង​បញ្ជី​ចាក់ ។"
 
 #: src/libvlc-module.c:1225 modules/control/hotkeys.c:212
-#: modules/gui/macosx/about.m:275 modules/gui/macosx/ControlsBar.m:715
-#: modules/gui/macosx/ControlsBar.m:716 modules/gui/macosx/fspanel.m:416
+#: modules/gui/macosx/about.m:275 modules/gui/macosx/ControlsBar.m:749
+#: modules/gui/macosx/ControlsBar.m:750 modules/gui/macosx/fspanel.m:416
 #: modules/gui/macosx/MainMenu.m:360 modules/gui/macosx/MainMenu.m:460
-#: modules/gui/macosx/MainMenu.m:466 modules/gui/macosx/MainMenu.m:1455
+#: modules/gui/macosx/MainMenu.m:466 modules/gui/macosx/MainMenu.m:1460
 #: modules/gui/qt4/components/controller.hpp:120 modules/notify/notify.c:337
 msgid "Previous"
 msgstr "មុន"
@@ -3898,9 +3898,9 @@ msgstr "មុន"
 msgid "Select the hotkey to use to skip to the previous item in the playlist."
 msgstr "ជ្រើស​គ្រាប់ចុច​រហ័ស​ដែល​ត្រូវ​ប្រើ​ដើម្បី​រំលង​ទៅកាន់​ធាតុ​មុន​នៅ​ក្នុង​បញ្ជី​ចាក់ ។"
 
-#: src/libvlc-module.c:1227 modules/gui/macosx/ControlsBar.m:436
+#: src/libvlc-module.c:1227 modules/gui/macosx/ControlsBar.m:470
 #: modules/gui/macosx/MainMenu.m:351 modules/gui/macosx/MainMenu.m:458
-#: modules/gui/macosx/MainMenu.m:465 modules/gui/macosx/MainMenu.m:1451
+#: modules/gui/macosx/MainMenu.m:465 modules/gui/macosx/MainMenu.m:1456
 #: modules/gui/qt4/components/controller.hpp:115
 #: modules/gui/qt4/dialogs/vlm.cpp:556 modules/gui/qt4/ui/streampanel.h:180
 msgid "Stop"
@@ -4135,9 +4135,9 @@ msgid "Select the key to decrease audio volume."
 msgstr "ជ្រើស​គ្រាប់ចុច​ដើម្បី​បន្ថយ​កម្រិត​សំឡេង ។"
 
 #: src/libvlc-module.c:1296 modules/access/v4l2/v4l2.c:181
-#: modules/gui/macosx/ControlsBar.m:455 modules/gui/macosx/MainMenu.m:380
+#: modules/gui/macosx/ControlsBar.m:489 modules/gui/macosx/MainMenu.m:380
 #: modules/gui/macosx/MainMenu.m:461 modules/gui/macosx/MainMenu.m:470
-#: modules/gui/macosx/MainMenu.m:1488
+#: modules/gui/macosx/MainMenu.m:1493
 msgid "Mute"
 msgstr "បិទ​សំឡេង"
 
@@ -4551,7 +4551,7 @@ msgstr "បង្វិល​តាម​ឧបករណ៍​អូឌីយ៉
 
 #: src/libvlc-module.c:1560 src/video_output/vout_intf.c:290
 #: modules/gui/macosx/MainMenu.m:397 modules/gui/macosx/MainMenu.m:472
-#: modules/gui/macosx/MainMenu.m:1496
+#: modules/gui/macosx/MainMenu.m:1501
 #: modules/gui/qt4/components/controller.hpp:117
 msgid "Snapshot"
 msgstr "រូបថត"
@@ -4753,12 +4753,12 @@ msgstr "កំពុង​ទាញ​យក..."
 #: modules/gui/macosx/MainWindow.m:179 modules/gui/macosx/MainWindow.m:184
 #: modules/gui/macosx/open.m:128 modules/gui/macosx/open.m:190
 #: modules/gui/macosx/prefs.m:208 modules/gui/macosx/simple_prefs.m:324
-#: modules/gui/macosx/simple_prefs.m:352 modules/gui/macosx/simple_prefs.m:413
-#: modules/gui/macosx/simple_prefs.m:840 modules/gui/macosx/VideoEffects.m:879
+#: modules/gui/macosx/simple_prefs.m:352 modules/gui/macosx/simple_prefs.m:414
+#: modules/gui/macosx/simple_prefs.m:842 modules/gui/macosx/VideoEffects.m:879
 #: modules/gui/macosx/VideoEffects.m:943 modules/gui/macosx/wizard.m:317
 #: modules/gui/qt4/components/open_panels.cpp:1343
 #: modules/gui/qt4/components/preferences_widgets.cpp:1424
-#: modules/gui/qt4/components/sout/profile_selector.cpp:435
+#: modules/gui/qt4/components/sout/profile_selector.cpp:427
 msgid "Cancel"
 msgstr "បោះបង់"
 
@@ -5521,7 +5521,7 @@ msgstr "ច្រឹប"
 #: modules/access/linsys/linsys_hdsdi.c:78
 #: modules/access/linsys/linsys_sdi.c:73 modules/demux/rawvid.c:59
 #: modules/gui/macosx/MainMenu.m:400 modules/gui/macosx/MainMenu.m:401
-#: modules/gui/macosx/MainMenu.m:1310
+#: modules/gui/macosx/MainMenu.m:1315
 msgid "Aspect ratio"
 msgstr "សមាមាត្រ"
 
@@ -7937,7 +7937,7 @@ msgstr "ព័ត៌មាន​បញ្ចូល​អេក្រង់"
 #: modules/access/screen/screen.c:98 modules/access/screen/xcb.c:69
 #: modules/gui/macosx/MainMenu.m:609 modules/gui/macosx/open.m:207
 #: modules/gui/macosx/open.m:211 modules/gui/macosx/open.m:495
-#: modules/gui/macosx/open.m:1348 modules/gui/macosx/simple_prefs.m:677
+#: modules/gui/macosx/open.m:1348 modules/gui/macosx/simple_prefs.m:679
 msgid "Screen"
 msgstr "អេក្រង់"
 
@@ -8678,7 +8678,7 @@ msgstr "កម្រិត​សំឡេង អតិ. #"
 msgid "Volume Set"
 msgstr "កំណត់​កម្រិត​សំឡេង"
 
-#: modules/access/vcdx/info.c:69 modules/gui/macosx/ControlsBar.m:452
+#: modules/access/vcdx/info.c:69 modules/gui/macosx/ControlsBar.m:486
 #: modules/gui/macosx/fspanel.m:463 modules/gui/qt4/dialogs/toolbar.cpp:365
 #: modules/stream_out/raop.c:150 modules/gui/qt4/ui/sprefs_audio.h:413
 msgid "Volume"
@@ -9842,7 +9842,7 @@ msgstr "សឺរោន 7.1"
 msgid "ALSA audio output"
 msgstr "លទ្ធផល​អូឌីយ៉ូ ALSA"
 
-#: modules/audio_output/alsa.c:368 modules/audio_output/auhal.c:380
+#: modules/audio_output/alsa.c:368 modules/audio_output/auhal.c:395
 msgid "Audio output failed"
 msgstr "បរាជ័យ​អូឌីយ៉ូ​ចេញ"
 
@@ -9875,7 +9875,7 @@ msgstr "AudioQueue (iOS / Mac OS) អូឌីយ៉ូ​ចេញ"
 msgid "Android AudioTrack audio output"
 msgstr "លទ្ធផល​អូឌីយ៉ូ​របស់ Android AudioTrack"
 
-#: modules/audio_output/audiounit_ios.c:89
+#: modules/audio_output/audiounit_ios.c:93
 msgid "AudioUnit output for iOS"
 msgstr "លទ្ធផល​ឯកតា​អូឌីយ៉ូ​សម្រាប់ iOS"
 
@@ -9883,20 +9883,20 @@ msgstr "លទ្ធផល​ឯកតា​អូឌីយ៉ូ​សម្រ
 msgid "Last audio device"
 msgstr "ឧបករណ៍​អូឌីយ៉ូ​ចុងក្រោយ"
 
-#: modules/audio_output/auhal.c:166
+#: modules/audio_output/auhal.c:164
 msgid "HAL AudioUnit output"
 msgstr "លទ្ធផល HAL AudioUnit"
 
-#: modules/audio_output/auhal.c:381
+#: modules/audio_output/auhal.c:396
 msgid ""
 "The selected audio output device is exclusively in use by another program."
 msgstr "ឧបករណ៍​លទ្ធផល​អូឌីយ៉ូ​ដែល​បាន​ជ្រើស គឺ​ត្រូវបាន​ប្រើ​ទាំងស្រុង​ដោយ​កម្មវិធី​ផ្សេង ។"
 
-#: modules/audio_output/auhal.c:578
+#: modules/audio_output/auhal.c:591
 msgid "Audio device is not configured"
 msgstr "ឧបករណ៍​អូឌីយ៉ូ​គឺ​មិនត្រូវបាន​កំណត់រចនា​សម្ព័ន្ធ​ទេ"
 
-#: modules/audio_output/auhal.c:579
+#: modules/audio_output/auhal.c:592
 msgid ""
 "You should configure your speaker layout with \"Audio Midi Setup\" in /"
 "Applications/Utilities. VLC will output Stereo only."
@@ -9904,11 +9904,11 @@ msgstr ""
 "អ្នក​គួរតែ​កំណត់​រចនា​សម្ព័ន្ធ​ប្លង់​ធុងបាស​របស់​អ្នក​ជាមួយ​នឹង \"ការ​រៀបចំ​មីឌី​អូឌីយ៉ូ\" នៅក្នុង /Applications/"
 "Utilities ។ VLC នឹង​បញ្ចេញ​តែ​ស្តេរ៉េអូ​ប៉ុណណ្ណោះ។"
 
-#: modules/audio_output/auhal.c:1139
+#: modules/audio_output/auhal.c:1149
 msgid "System Sound Output Device"
 msgstr "ឧបករណ៍​បញ្ចេញ​សំឡេង​ប្រព័ន្ធ"
 
-#: modules/audio_output/auhal.c:1214
+#: modules/audio_output/auhal.c:1224
 #, c-format
 msgid "%s (Encoded Output)"
 msgstr "%s (លទ្ធផល​អ៊ិនកូដ)"
@@ -11160,46 +11160,46 @@ msgstr "​ស្រមោល"
 msgid "Outline"
 msgstr "គ្រោង"
 
-#: modules/codec/kate.c:210 modules/text_renderer/freetype.c:206
+#: modules/codec/kate.c:210 modules/text_renderer/freetype.c:207
 #: modules/text_renderer/quartztext.c:115 modules/text_renderer/win32text.c:89
 #: modules/video_filter/marq.c:60 modules/video_filter/rss.c:71
 msgid "Black"
 msgstr "ខ្មៅ"
 
-#: modules/codec/kate.c:210 modules/text_renderer/freetype.c:206
+#: modules/codec/kate.c:210 modules/text_renderer/freetype.c:207
 #: modules/text_renderer/quartztext.c:115 modules/text_renderer/win32text.c:89
 #: modules/video_filter/marq.c:60 modules/video_filter/rss.c:72
 msgid "Gray"
 msgstr "ប្រផេះ"
 
-#: modules/codec/kate.c:210 modules/text_renderer/freetype.c:206
+#: modules/codec/kate.c:210 modules/text_renderer/freetype.c:207
 #: modules/text_renderer/quartztext.c:115 modules/text_renderer/win32text.c:89
 #: modules/video_filter/marq.c:61 modules/video_filter/rss.c:72
 msgid "Silver"
 msgstr "ប្រាក់"
 
-#: modules/codec/kate.c:210 modules/text_renderer/freetype.c:206
+#: modules/codec/kate.c:210 modules/text_renderer/freetype.c:207
 #: modules/text_renderer/quartztext.c:115 modules/text_renderer/win32text.c:89
 #: modules/video_filter/ball.c:120 modules/video_filter/marq.c:61
 #: modules/video_filter/rss.c:72
 msgid "White"
 msgstr "ស"
 
-#: modules/codec/kate.c:210 modules/text_renderer/freetype.c:206
+#: modules/codec/kate.c:210 modules/text_renderer/freetype.c:207
 #: modules/text_renderer/quartztext.c:115 modules/text_renderer/win32text.c:89
 #: modules/video_filter/marq.c:61 modules/video_filter/rss.c:72
 msgid "Maroon"
 msgstr "ត្នោត​ចាស់"
 
 #: modules/codec/kate.c:211 modules/gui/macosx/MainMenu.m:427
-#: modules/gui/macosx/MainMenu.m:1001 modules/text_renderer/freetype.c:207
+#: modules/gui/macosx/MainMenu.m:1006 modules/text_renderer/freetype.c:208
 #: modules/text_renderer/quartztext.c:116 modules/text_renderer/win32text.c:90
 #: modules/video_filter/ball.c:119 modules/video_filter/colorthres.c:64
 #: modules/video_filter/marq.c:61 modules/video_filter/rss.c:72
 msgid "Red"
 msgstr "ក្រហម"
 
-#: modules/codec/kate.c:211 modules/text_renderer/freetype.c:207
+#: modules/codec/kate.c:211 modules/text_renderer/freetype.c:208
 #: modules/text_renderer/quartztext.c:116 modules/text_renderer/win32text.c:90
 #: modules/video_filter/colorthres.c:64 modules/video_filter/marq.c:62
 #: modules/video_filter/rss.c:73
@@ -11207,61 +11207,61 @@ msgid "Fuchsia"
 msgstr "ស៊ីជម្ពូរ"
 
 #: modules/codec/kate.c:211 modules/gui/macosx/MainMenu.m:429
-#: modules/gui/macosx/MainMenu.m:1005 modules/text_renderer/freetype.c:207
+#: modules/gui/macosx/MainMenu.m:1010 modules/text_renderer/freetype.c:208
 #: modules/text_renderer/quartztext.c:116 modules/text_renderer/win32text.c:90
 #: modules/video_filter/colorthres.c:64 modules/video_filter/marq.c:62
 #: modules/video_filter/rss.c:73
 msgid "Yellow"
 msgstr "លឿង"
 
-#: modules/codec/kate.c:211 modules/text_renderer/freetype.c:207
+#: modules/codec/kate.c:211 modules/text_renderer/freetype.c:208
 #: modules/text_renderer/quartztext.c:116 modules/text_renderer/win32text.c:90
 #: modules/video_filter/marq.c:62 modules/video_filter/rss.c:73
 msgid "Olive"
 msgstr "អូលីវ"
 
 #: modules/codec/kate.c:211 modules/gui/macosx/MainMenu.m:428
-#: modules/gui/macosx/MainMenu.m:1003 modules/text_renderer/freetype.c:207
+#: modules/gui/macosx/MainMenu.m:1008 modules/text_renderer/freetype.c:208
 #: modules/text_renderer/quartztext.c:116 modules/text_renderer/win32text.c:90
 #: modules/video_filter/ball.c:119 modules/video_filter/marq.c:62
 #: modules/video_filter/rss.c:73
 msgid "Green"
 msgstr "បៃតង"
 
-#: modules/codec/kate.c:211 modules/text_renderer/freetype.c:207
+#: modules/codec/kate.c:211 modules/text_renderer/freetype.c:208
 #: modules/text_renderer/quartztext.c:116 modules/text_renderer/win32text.c:90
 #: modules/video_filter/marq.c:63 modules/video_filter/rss.c:74
 msgid "Teal"
 msgstr "ខៀវ​បៃតង​ក្រម៉ៅ"
 
-#: modules/codec/kate.c:212 modules/text_renderer/freetype.c:208
+#: modules/codec/kate.c:212 modules/text_renderer/freetype.c:209
 #: modules/text_renderer/quartztext.c:117 modules/text_renderer/win32text.c:91
 #: modules/video_filter/colorthres.c:64 modules/video_filter/marq.c:63
 #: modules/video_filter/rss.c:74
 msgid "Lime"
 msgstr "បៃតង​ខ្ចី"
 
-#: modules/codec/kate.c:212 modules/text_renderer/freetype.c:208
+#: modules/codec/kate.c:212 modules/text_renderer/freetype.c:209
 #: modules/text_renderer/quartztext.c:117 modules/text_renderer/win32text.c:91
 #: modules/video_filter/marq.c:63 modules/video_filter/rss.c:74
 msgid "Purple"
 msgstr "ស្វាយ"
 
-#: modules/codec/kate.c:212 modules/text_renderer/freetype.c:208
+#: modules/codec/kate.c:212 modules/text_renderer/freetype.c:209
 #: modules/text_renderer/quartztext.c:117 modules/text_renderer/win32text.c:91
 #: modules/video_filter/marq.c:63 modules/video_filter/rss.c:74
 msgid "Navy"
 msgstr "ខៀវ​ចាស់"
 
 #: modules/codec/kate.c:212 modules/gui/macosx/MainMenu.m:430
-#: modules/gui/macosx/MainMenu.m:1007 modules/text_renderer/freetype.c:208
+#: modules/gui/macosx/MainMenu.m:1012 modules/text_renderer/freetype.c:209
 #: modules/text_renderer/quartztext.c:117 modules/text_renderer/win32text.c:91
 #: modules/video_filter/ball.c:120 modules/video_filter/colorthres.c:64
 #: modules/video_filter/marq.c:63 modules/video_filter/rss.c:74
 msgid "Blue"
 msgstr "ខៀវ"
 
-#: modules/codec/kate.c:212 modules/text_renderer/freetype.c:208
+#: modules/codec/kate.c:212 modules/text_renderer/freetype.c:209
 #: modules/text_renderer/quartztext.c:117 modules/text_renderer/win32text.c:91
 #: modules/video_filter/colorthres.c:64 modules/video_filter/marq.c:64
 #: modules/video_filter/rss.c:75
@@ -11404,7 +11404,7 @@ msgstr "ចំណងជើង​រង (កម្រិត​ខ្ពស់)"
 msgid "Subtitle renderers using libass"
 msgstr "កម្មវិធី​បង្ហាញ​ចំណងជើង​រង​ដោយប្រើ libass"
 
-#: modules/codec/libass.c:225 modules/text_renderer/freetype.c:498
+#: modules/codec/libass.c:225 modules/text_renderer/freetype.c:499
 msgid "Building font cache"
 msgstr "ស្ថាបនា​ឃ្លាំង​សម្ងាត់​ពុម្ពអក្សរ"
 
@@ -13350,10 +13350,10 @@ msgid "Fast"
 msgstr "លឿន​"
 
 #: modules/codec/x264.c:429 modules/gui/macosx/MainMenu.m:357
-#: modules/gui/macosx/simple_prefs.m:709
+#: modules/gui/macosx/simple_prefs.m:711
 #: modules/gui/qt4/components/simple_preferences.cpp:671
-#: modules/misc/gnutls.c:64 modules/text_renderer/freetype.c:195
-#: modules/text_renderer/freetype.c:214 modules/text_renderer/quartztext.c:121
+#: modules/misc/gnutls.c:64 modules/text_renderer/freetype.c:196
+#: modules/text_renderer/freetype.c:215 modules/text_renderer/quartztext.c:121
 #: modules/text_renderer/win32text.c:82
 msgid "Normal"
 msgstr "ធម្មតា"
@@ -13460,8 +13460,8 @@ msgid "D-Bus control interface"
 msgstr "ចំណុច​ប្រទាក់​ឧបករណ៍​បញ្ជា D-Bus"
 
 #: modules/control/dbus/dbus_root.c:81 modules/gui/macosx/MainWindow.m:202
-#: modules/gui/macosx/MainWindow.m:679 modules/gui/macosx/MainWindow.m:685
-#: modules/gui/macosx/MainWindow.m:1246 modules/gui/ncurses.c:1030
+#: modules/gui/macosx/MainWindow.m:705 modules/gui/macosx/MainWindow.m:711
+#: modules/gui/macosx/MainWindow.m:1279 modules/gui/ncurses.c:1030
 #: modules/gui/qt4/dialogs/help.cpp:91 modules/gui/qt4/main_interface.cpp:1013
 #: modules/gui/qt4/main_interface.cpp:1017
 #: modules/gui/qt4/main_interface.cpp:1056
@@ -13806,9 +13806,9 @@ msgstr "កំពុង​ចាប់ផ្ដើម"
 msgid "Opening"
 msgstr "កំពុង​បើក"
 
-#: modules/control/rc.c:73 modules/gui/macosx/ControlsBar.m:397
-#: modules/gui/macosx/MainMenu.m:1196 modules/gui/macosx/MainMenu.m:1197
-#: modules/gui/macosx/MainMenu.m:1198 modules/gui/qt4/menus.cpp:817
+#: modules/control/rc.c:73 modules/gui/macosx/ControlsBar.m:431
+#: modules/gui/macosx/MainMenu.m:1201 modules/gui/macosx/MainMenu.m:1202
+#: modules/gui/macosx/MainMenu.m:1203 modules/gui/qt4/menus.cpp:817
 msgid "Pause"
 msgstr "ផ្អាក"
 
@@ -15720,7 +15720,7 @@ msgid "MPEG Transport Stream demuxer"
 msgstr "ឧបករណ៍​មិន​ទ្វេ​ទិស​ស្ទ្រីម​បញ្ជូន MPEG"
 
 #: modules/demux/ts.c:171 modules/gui/macosx/MainMenu.m:424
-#: modules/gui/macosx/MainMenu.m:1533 modules/gui/qt4/dialogs/toolbar.cpp:429
+#: modules/gui/macosx/MainMenu.m:1538 modules/gui/qt4/dialogs/toolbar.cpp:429
 msgid "Teletext"
 msgstr "ព័ត៌មាន​ទូរទស្សន៍"
 
@@ -15906,7 +15906,7 @@ msgid "VLC media player Help"
 msgstr "ជំនួយ​កម្មវិធី​ចាក់​មេឌៀ VLC"
 
 #: modules/gui/macosx/about.m:276 modules/gui/macosx/MainMenu.m:426
-#: modules/gui/macosx/MainMenu.m:999
+#: modules/gui/macosx/MainMenu.m:1004
 msgid "Index"
 msgstr "លិបិក្រម"
 
@@ -15994,9 +15994,9 @@ msgstr "បញ្ចូល​ឈ្មោះ​សម្រាប់​ប្រ
 #: modules/gui/macosx/ConvertAndSave.m:369
 #: modules/gui/macosx/ConvertAndSave.m:401 modules/gui/macosx/output.m:457
 #: modules/gui/macosx/playlist.m:716 modules/gui/macosx/prefs.m:207
-#: modules/gui/macosx/simple_prefs.m:351 modules/gui/macosx/simple_prefs.m:415
+#: modules/gui/macosx/simple_prefs.m:351 modules/gui/macosx/simple_prefs.m:416
 #: modules/gui/macosx/VideoEffects.m:880
-#: modules/gui/qt4/components/sout/profile_selector.cpp:432
+#: modules/gui/qt4/components/sout/profile_selector.cpp:424
 #: modules/gui/qt4/ui/vlm.h:301
 msgid "Save"
 msgstr "រក្សាទុក"
@@ -16137,7 +16137,7 @@ msgstr "រក​មិន​ឃើញ​ព័ត៌មាន​បញ្ចូ
 msgid "The stream must be playing or paused for bookmarks to work."
 msgstr "ស្ទ្រីម​ត្រូវតែ​បាន​ចាក់ ឬ​ផ្អាក​ទើប​អាច​ចំណាំ​បាន ។"
 
-#: modules/gui/macosx/controls.m:53 modules/gui/macosx/MainMenu.m:1482
+#: modules/gui/macosx/controls.m:53 modules/gui/macosx/MainMenu.m:1487
 msgid "Jump To Time"
 msgstr "ទៅកាន់​ពេលវេលា"
 
@@ -16157,7 +16157,7 @@ msgstr "ចុច​ដើម្បី​ចាក់ ឬ​ផ្អាក​�
 msgid "Backward"
 msgstr "ថយក្រោយ"
 
-#: modules/gui/macosx/ControlsBar.m:57 modules/gui/macosx/ControlsBar.m:831
+#: modules/gui/macosx/ControlsBar.m:57 modules/gui/macosx/ControlsBar.m:181
 msgid ""
 "Click to go to the previous playlist item. Hold to skip backward through the "
 "current media."
@@ -16167,7 +16167,7 @@ msgstr "ចុច​ដើម្បី​ទៅកាន់​ធាតុ​ប
 msgid "Forward"
 msgstr "ទៅ​មុខ"
 
-#: modules/gui/macosx/ControlsBar.m:61 modules/gui/macosx/ControlsBar.m:832
+#: modules/gui/macosx/ControlsBar.m:61 modules/gui/macosx/ControlsBar.m:182
 msgid ""
 "Click to go to the next playlist item. Hold to skip forward through the "
 "current media."
@@ -16187,15 +16187,23 @@ msgstr "បិទ/បើក​របៀប​ពេញ​អេក្រង់"
 msgid "Click to enable fullscreen video playback."
 msgstr "ចុច​ដើម្បី​បើក​ការ​ចាក់​វីដេអូ​ពេញ​អេក្រង់។"
 
-#: modules/gui/macosx/ControlsBar.m:437
+#: modules/gui/macosx/ControlsBar.m:173 modules/gui/macosx/fspanel.m:417
+msgid "Click and hold to skip backward through the current media."
+msgstr "ចុច រួច​សង្កត់​ដើម្បី​​រំលង​ថយក្រោយ​កាត់តាម​មេឌៀ​បច្ចុប្បន្ន។"
+
+#: modules/gui/macosx/ControlsBar.m:174 modules/gui/macosx/fspanel.m:419
+msgid "Click and hold to skip forward through the current media."
+msgstr "ចុច រួច​សង្កត់​ដើម្បី​​រំលង​ទៅមុខ​កាត់តាម​មេឌៀ​បច្ចុប្បន្ន។"
+
+#: modules/gui/macosx/ControlsBar.m:471
 msgid "Click to stop playback."
 msgstr "ចុច​ដើម្បី​បញ្ឈប់​ការ​ចាក់។"
 
-#: modules/gui/macosx/ControlsBar.m:440
+#: modules/gui/macosx/ControlsBar.m:474
 msgid "Show/Hide Playlist"
 msgstr "បង្ហាញ/លាក់​បញ្ជី​ចាក់"
 
-#: modules/gui/macosx/ControlsBar.m:441
+#: modules/gui/macosx/ControlsBar.m:475
 msgid ""
 "Click to switch between video output and playlist. If no video is shown in "
 "the main window, this allows you to hide the playlist."
@@ -16203,70 +16211,62 @@ msgstr ""
 "ចុច​ដើម្បី​ប្ដូរ​រវាង​ការ​បង្ហាញ​វីដេអូ និង​បញ្ជី​ចាក់។ ប្រសិនបើ​គ្មាន​វីដេអូ​ត្រូវ​បង្ហាញ​នៅ​ក្នុង​បង្អួច​មេ​ទេ វា​នឹង​"
 "អនុញ្ញាត​ឲ្យ​អ្នក​លាក់​បញ្ជី​ចាក់។"
 
-#: modules/gui/macosx/ControlsBar.m:444 modules/gui/qt4/dialogs/vlm.cpp:560
+#: modules/gui/macosx/ControlsBar.m:478 modules/gui/qt4/dialogs/vlm.cpp:560
 #: share/lua/http/index.html:241
 msgid "Repeat"
 msgstr "ចាក់​ឡើងវិញ"
 
-#: modules/gui/macosx/ControlsBar.m:445
+#: modules/gui/macosx/ControlsBar.m:479
 msgid ""
 "Click to change repeat mode. There are 3 states: repeat one, repeat all and "
 "off."
 msgstr ""
 "ចុច​ដើម្បី​ប្ដូរ​របៀប​ធ្វើ​ឡើងវិញ។ មាន​បី​ជម្រើស​គឺ៖ ធ្វើ​ឡើងវិញ​មួយ ធ្វើ​ឡើងវិញ​ទាំងអស់ និង​កុំ​ធ្វើ​ឡើងវិញ។"
 
-#: modules/gui/macosx/ControlsBar.m:448 share/lua/http/index.html:239
+#: modules/gui/macosx/ControlsBar.m:482 share/lua/http/index.html:239
 msgid "Shuffle"
 msgstr "ចៃដន្យ"
 
-#: modules/gui/macosx/ControlsBar.m:450
+#: modules/gui/macosx/ControlsBar.m:484
 msgid "Click to enable or disable random playback."
 msgstr "ចុច​ដើម្បី​បើក ឬ​បិទ​ការ​ចាក់​ចៃដន្យ។"
 
-#: modules/gui/macosx/ControlsBar.m:453 modules/gui/macosx/fspanel.m:464
+#: modules/gui/macosx/ControlsBar.m:487 modules/gui/macosx/fspanel.m:464
 msgid ""
 "Click and move the mouse while keeping the button pressed to use this slider "
 "to change the volume."
 msgstr "ចុច និង​ផ្លាស់ទី​កណ្ដុរ​ដោយ​សង្កត់​ប៊ូតុង​ឲ្យ​ជាប់​ដើម្បី​ប្រើ​គ្រាប់​រំកិល​ប្ដូរ​កម្រិត​សំឡេង។"
 
-#: modules/gui/macosx/ControlsBar.m:456
+#: modules/gui/macosx/ControlsBar.m:490
 msgid "Click to mute or unmute the audio."
 msgstr "ចុច​ដើម្បី​បិទ/បើក​សំឡេង។"
 
-#: modules/gui/macosx/ControlsBar.m:458
+#: modules/gui/macosx/ControlsBar.m:492
 msgid "Full Volume"
 msgstr "កម្រិត​សំឡេង​ពេញ"
 
-#: modules/gui/macosx/ControlsBar.m:459
+#: modules/gui/macosx/ControlsBar.m:493
 msgid "Click to play the audio at maximum volume."
 msgstr "ចុច​ដើម្បី​ចាក់​សំឡេង​នៅ​កម្រិត​អតិបរមា។"
 
-#: modules/gui/macosx/ControlsBar.m:462 modules/gui/macosx/simple_prefs.m:309
+#: modules/gui/macosx/ControlsBar.m:496 modules/gui/macosx/simple_prefs.m:309
 #: modules/gui/qt4/ui/sprefs_audio.h:420
 msgid "Effects"
 msgstr "បែបផែន"
 
-#: modules/gui/macosx/ControlsBar.m:463
+#: modules/gui/macosx/ControlsBar.m:497
 msgid ""
 "Click to show an Audio Effects panel featuring an equalizer and further "
 "filters."
 msgstr "ចុច​ដើម្បី​បង្ហាញ​បែបផែន​អូឌីយ៉ូ លក្ខណៈ​ផ្ទាំង​អេហ្គុយ និង​តម្រង​ផ្សេងទៀត។"
 
-#: modules/gui/macosx/ControlsBar.m:717 modules/gui/macosx/fspanel.m:416
+#: modules/gui/macosx/ControlsBar.m:751 modules/gui/macosx/fspanel.m:416
 msgid "Click to go to the previous playlist item."
 msgstr "ចុច​ដើម្បី​ទៅកាន់​ធាតុ​បញ្ជី​ចាក់​មុន។"
 
-#: modules/gui/macosx/ControlsBar.m:728 modules/gui/macosx/fspanel.m:420
+#: modules/gui/macosx/ControlsBar.m:762 modules/gui/macosx/fspanel.m:420
 msgid "Click to go to the next playlist item."
 msgstr "ចុច​ដើម្បី​ទៅកាន់​ធាតុ​បញ្ជី​ចាក់​បន្ទាប់។"
-
-#: modules/gui/macosx/ControlsBar.m:744 modules/gui/macosx/fspanel.m:417
-msgid "Click and hold to skip backward through the current media."
-msgstr "ចុច រួច​សង្កត់​ដើម្បី​​រំលង​ថយក្រោយ​កាត់តាម​មេឌៀ​បច្ចុប្បន្ន។"
-
-#: modules/gui/macosx/ControlsBar.m:745 modules/gui/macosx/fspanel.m:419
-msgid "Click and hold to skip forward through the current media."
-msgstr "ចុច រួច​សង្កត់​ដើម្បី​​រំលង​ទៅមុខ​កាត់តាម​មេឌៀ​បច្ចុប្បន្ន។"
 
 #: modules/gui/macosx/ConvertAndSave.m:152
 msgid "Convert & Stream"
@@ -16303,7 +16303,7 @@ msgstr "ជ្រើស​ទីតាំង​បង្ហាញ"
 #: modules/gui/macosx/ConvertAndSave.m:161 modules/gui/macosx/open.m:138
 #: modules/gui/macosx/open.m:367 modules/gui/macosx/output.m:136
 #: modules/gui/macosx/prefs_widgets.m:1114
-#: modules/gui/macosx/simple_prefs.m:333 modules/gui/macosx/simple_prefs.m:402
+#: modules/gui/macosx/simple_prefs.m:333 modules/gui/macosx/simple_prefs.m:403
 #: modules/gui/qt4/components/preferences_widgets.cpp:263
 #: modules/gui/qt4/components/simple_preferences.cpp:421
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:98
@@ -16489,8 +16489,8 @@ msgid "A SDP export is requested, but no URL is provided."
 msgstr "បាន​ស្នើ​ការ​នាំចេញ SDP ប់ូន្តែ​មិន​បាន​ផ្ដល់ URL ។"
 
 #: modules/gui/macosx/ConvertAndSave.m:1052
-#: modules/gui/macosx/simple_prefs.m:708 modules/gui/macosx/simple_prefs.m:732
-#: modules/gui/macosx/simple_prefs.m:1290
+#: modules/gui/macosx/simple_prefs.m:710 modules/gui/macosx/simple_prefs.m:734
+#: modules/gui/macosx/simple_prefs.m:1293
 #: modules/gui/qt4/components/simple_preferences.cpp:668
 msgid "Custom"
 msgstr "តាម​តម្រូវការ"
@@ -16589,36 +16589,36 @@ msgstr ""
 msgid "Don't ask again"
 msgstr "កុំ​សួរ​ម្ដងទៀត"
 
-#: modules/gui/macosx/intf.m:1498 modules/gui/macosx/intf.m:1515
+#: modules/gui/macosx/intf.m:1501 modules/gui/macosx/intf.m:1518
 msgid "VLC media playback"
 msgstr "កម្មវិធី​ចាក់​មេឌៀ VLC"
 
-#: modules/gui/macosx/intf.m:1877
+#: modules/gui/macosx/intf.m:1880
 msgid "No CrashLog found"
 msgstr "រក​មិន​ឃើញ​កំណត់ហេតុ​ការ​គាំង​ទេ"
 
-#: modules/gui/macosx/intf.m:1877 modules/gui/macosx/simple_prefs.m:841
+#: modules/gui/macosx/intf.m:1880 modules/gui/macosx/simple_prefs.m:843
 #: modules/gui/qt4/dialogs/firstrun.cpp:109
 msgid "Continue"
 msgstr "បន្ត"
 
-#: modules/gui/macosx/intf.m:1877
+#: modules/gui/macosx/intf.m:1880
 msgid "Couldn't find any trace of a previous crash."
 msgstr "មិន​អាច​រក​ឃើញ​ដាន​នៃ​ការ​គាំង​ពី​មុន​ទេ ។"
 
-#: modules/gui/macosx/intf.m:1921
+#: modules/gui/macosx/intf.m:1936
 msgid "Remove old preferences?"
 msgstr "យក​ចំណូលចិត្ត​ចាស់​ចេញ​ឬ ?"
 
-#: modules/gui/macosx/intf.m:1922
+#: modules/gui/macosx/intf.m:1937
 msgid "We just found an older version of VLC's preferences files."
 msgstr "យើង​ទើបតែ​រក​ឃើញ​កំណែ​ចាស់​របស់​ឯកសារ​ចំណូលចិត្ត VLC ។"
 
-#: modules/gui/macosx/intf.m:1923
+#: modules/gui/macosx/intf.m:1938
 msgid "Move To Trash and Relaunch VLC"
 msgstr "ផ្លាស់ទី​ទៅ​ធុង​សំរាម រួច​ចាប់ផ្ដើម VLC ឡើងវិញ"
 
-#: modules/gui/macosx/intf.m:2049
+#: modules/gui/macosx/intf.m:2065
 #, c-format
 msgid "VLC Debug Log (%s).rtf"
 msgstr "កំណត់​ហេតុ​បំបាត់​កំហុស VLC (%s).rtf"
@@ -16784,7 +16784,7 @@ msgid ""
 "This option allows the interface to change its icon on various occasions."
 msgstr "ជម្រើស​នេះ​​អនុញ្ញាត​ឲ្យ​​ចំណុចប្រទាក់​ផ្លាស់ប្ដូរ​រូបតំណាង​របស់​វា​​តាម​ពេល​វេលា ។"
 
-#: modules/gui/macosx/macosx.m:110 modules/gui/macosx/MainMenu.m:1312
+#: modules/gui/macosx/macosx.m:110 modules/gui/macosx/MainMenu.m:1317
 msgid "Lock Aspect Ratio"
 msgstr "ចាក់សោ​សមាមាត្រ"
 
@@ -16915,7 +16915,7 @@ msgstr "លាក់ VLC"
 msgid "Hide Others"
 msgstr "លាក់​ផ្សេងទៀត"
 
-#: modules/gui/macosx/MainMenu.m:317 modules/gui/macosx/simple_prefs.m:412
+#: modules/gui/macosx/MainMenu.m:317 modules/gui/macosx/simple_prefs.m:413
 msgid "Show All"
 msgstr "បង្ហាញ​ទាំងអស់​"
 
@@ -17000,15 +17000,15 @@ msgstr "ការ​ធ្វើ​សមកាលកម្ម​បទ"
 msgid "A→B Loop"
 msgstr "រង្វិល​ជុំ A→B"
 
-#: modules/gui/macosx/MainMenu.m:366 modules/gui/macosx/MainMenu.m:1475
+#: modules/gui/macosx/MainMenu.m:366 modules/gui/macosx/MainMenu.m:1480
 msgid "Quit after Playback"
 msgstr "បិទ​បន្ទាប់ពី​ចាក់​ឡើងវិញ"
 
-#: modules/gui/macosx/MainMenu.m:367 modules/gui/macosx/MainMenu.m:1480
+#: modules/gui/macosx/MainMenu.m:367 modules/gui/macosx/MainMenu.m:1485
 msgid "Step Forward"
 msgstr "ទៅមុខ​មួយ​ជំហាន"
 
-#: modules/gui/macosx/MainMenu.m:368 modules/gui/macosx/MainMenu.m:1481
+#: modules/gui/macosx/MainMenu.m:368 modules/gui/macosx/MainMenu.m:1486
 msgid "Step Backward"
 msgstr "ថយ​ក្រោយ​មួយ​ជំហាន"
 
@@ -17024,30 +17024,30 @@ msgstr "បន្ថយ​កម្រិត​សំឡេង"
 msgid "Audio Device"
 msgstr "ឧបករណ៍​អូឌីយ៉ូ"
 
-#: modules/gui/macosx/MainMenu.m:391 modules/gui/macosx/MainMenu.m:1492
+#: modules/gui/macosx/MainMenu.m:391 modules/gui/macosx/MainMenu.m:1497
 msgid "Half Size"
 msgstr "ទំហំ​ពាក់​កណ្ដាល"
 
-#: modules/gui/macosx/MainMenu.m:392 modules/gui/macosx/MainMenu.m:1493
-#: modules/gui/macosx/MainMenu.m:1532
+#: modules/gui/macosx/MainMenu.m:392 modules/gui/macosx/MainMenu.m:1498
+#: modules/gui/macosx/MainMenu.m:1537
 msgid "Normal Size"
 msgstr "ទំហំ​ធម្មតា"
 
-#: modules/gui/macosx/MainMenu.m:393 modules/gui/macosx/MainMenu.m:1494
+#: modules/gui/macosx/MainMenu.m:393 modules/gui/macosx/MainMenu.m:1499
 msgid "Double Size"
 msgstr "ទំហំ​ទ្វេ"
 
-#: modules/gui/macosx/MainMenu.m:394 modules/gui/macosx/MainMenu.m:1495
+#: modules/gui/macosx/MainMenu.m:394 modules/gui/macosx/MainMenu.m:1500
 msgid "Fit to Screen"
 msgstr "សម​ទៅ​នឹង​អេក្រង់"
 
-#: modules/gui/macosx/MainMenu.m:396 modules/gui/macosx/MainMenu.m:1498
-#: modules/gui/macosx/MainMenu.m:1504
+#: modules/gui/macosx/MainMenu.m:396 modules/gui/macosx/MainMenu.m:1503
+#: modules/gui/macosx/MainMenu.m:1509
 msgid "Float on Top"
 msgstr "អណ្ដែត​នៅលើ​កំពូល"
 
 #: modules/gui/macosx/MainMenu.m:404 modules/gui/macosx/MainMenu.m:405
-#: modules/gui/macosx/simple_prefs.m:393
+#: modules/gui/macosx/simple_prefs.m:394
 msgid "Fullscreen Video Device"
 msgstr "ឧបករណ៍​វីដេអូ​ពេញ​អេក្រង់"
 
@@ -17056,7 +17056,7 @@ msgstr "ឧបករណ៍​វីដេអូ​ពេញ​អេក្រង
 msgid "Post processing"
 msgstr "ការ​ដំណើរការ​តាម​ក្រោយ"
 
-#: modules/gui/macosx/MainMenu.m:414 modules/gui/macosx/MainMenu.m:1517
+#: modules/gui/macosx/MainMenu.m:414 modules/gui/macosx/MainMenu.m:1522
 msgid "Add Subtitle File..."
 msgstr "បន្ថែម​ឯកសារ​ចំណងជើង​រង..."
 
@@ -17293,7 +17293,7 @@ msgid "Play another media synchronously"
 msgstr "ចាក់​មេឌៀ​ផ្សេង​ទៀត​ដំណាល​គ្នា"
 
 #: modules/gui/macosx/open.m:143 modules/gui/macosx/open.m:365
-#: modules/gui/macosx/simple_prefs.m:378 modules/gui/macosx/wizard.m:343
+#: modules/gui/macosx/simple_prefs.m:379 modules/gui/macosx/wizard.m:343
 #: modules/gui/macosx/wizard.m:411 modules/gui/qt4/ui/sprefs_interface.h:530
 msgid "Choose..."
 msgstr "ជ្រើស..."
@@ -17473,7 +17473,7 @@ msgstr "FPS"
 msgid "Subtitle encoding"
 msgstr "ការ​ដាក់​លេខ​កូដ​ចំណងជើង​រង"
 
-#: modules/gui/macosx/open.m:376 modules/gui/macosx/simple_prefs.m:380
+#: modules/gui/macosx/open.m:376 modules/gui/macosx/simple_prefs.m:381
 #: modules/gui/qt4/ui/sprefs_subtitles.h:296
 msgid "Font size"
 msgstr "ទំហំ​ពុម្ពអក្សរ"
@@ -17702,12 +17702,12 @@ msgstr "កំហុស​ពេល​រក្សាទុក​មេតា"
 msgid "VLC was unable to save the meta data."
 msgstr "VLC មិន​អាច​រក្សាទុក​ទិន្នន័យ​មេតា​បានទេ ។"
 
-#: modules/gui/macosx/prefs.m:206 modules/gui/macosx/simple_prefs.m:416
+#: modules/gui/macosx/prefs.m:206 modules/gui/macosx/simple_prefs.m:417
 #: modules/gui/qt4/dialogs/preferences.cpp:52
 msgid "Preferences"
 msgstr "ចំណូល​ចិត្ត"
 
-#: modules/gui/macosx/prefs.m:209 modules/gui/macosx/simple_prefs.m:414
+#: modules/gui/macosx/prefs.m:209 modules/gui/macosx/simple_prefs.m:415
 msgid "Reset All"
 msgstr "កំណត់​ឡើងវិញ​ទាំងអស់"
 
@@ -17886,125 +17886,130 @@ msgstr "បើក​​ការ​ជូនដំណឹង Growl (នៅ​ព�
 msgid "Lua HTTP"
 msgstr "Lua HTTP"
 
-#: modules/gui/macosx/simple_prefs.m:376
+#: modules/gui/macosx/simple_prefs.m:374
+#, fuzzy
+msgid "Control iTunes during playback"
+msgstr "ផ្អាក iTunes ពេល​ចាក់ VLC"
+
+#: modules/gui/macosx/simple_prefs.m:377
 msgid "Default Encoding"
 msgstr "ការ​អ៊ិនកូដ​លំនាំដើម"
 
-#: modules/gui/macosx/simple_prefs.m:377
+#: modules/gui/macosx/simple_prefs.m:378
 msgid "Display Settings"
 msgstr "កំណត់​ការ​បង្ហាញ"
 
-#: modules/gui/macosx/simple_prefs.m:379
+#: modules/gui/macosx/simple_prefs.m:380
 #: modules/gui/qt4/ui/sprefs_subtitles.h:297
 msgid "Font color"
 msgstr "ពណ៌​ពុម្ពអក្សរ"
 
-#: modules/gui/macosx/simple_prefs.m:381 modules/text_renderer/freetype.c:154
+#: modules/gui/macosx/simple_prefs.m:382 modules/text_renderer/freetype.c:155
 #: modules/text_renderer/quartztext.c:92 modules/text_renderer/win32text.c:59
 #: modules/video_filter/marq.c:167 modules/video_filter/rss.c:206
 #: modules/gui/qt4/ui/sprefs_subtitles.h:295
 msgid "Font"
 msgstr "ពុម្ពអក្សរ"
 
-#: modules/gui/macosx/simple_prefs.m:382
+#: modules/gui/macosx/simple_prefs.m:383
 msgid "Subtitle languages"
 msgstr "ភាសា​ចំណងជើង​រង"
 
-#: modules/gui/macosx/simple_prefs.m:383
+#: modules/gui/macosx/simple_prefs.m:384
 #: modules/gui/qt4/ui/sprefs_subtitles.h:292
 msgid "Preferred subtitle language"
 msgstr "ភាសា​ចំណងជើង​រង​ដែល​ចូលចិត្ត"
 
-#: modules/gui/macosx/simple_prefs.m:385
+#: modules/gui/macosx/simple_prefs.m:386
 msgid "Enable OSD"
 msgstr "បើក OSD"
 
-#: modules/gui/macosx/simple_prefs.m:386 modules/text_renderer/win32text.c:66
+#: modules/gui/macosx/simple_prefs.m:387 modules/text_renderer/win32text.c:66
 #: modules/video_filter/marq.c:118 modules/video_filter/rss.c:146
 msgid "Opacity"
 msgstr "ភាព​ស្រអាប់​"
 
-#: modules/gui/macosx/simple_prefs.m:387 modules/text_renderer/freetype.c:178
+#: modules/gui/macosx/simple_prefs.m:388 modules/text_renderer/freetype.c:179
 msgid "Force bold"
 msgstr "បង្ខំ​ដិត"
 
-#: modules/gui/macosx/simple_prefs.m:388 modules/text_renderer/freetype.c:184
+#: modules/gui/macosx/simple_prefs.m:389 modules/text_renderer/freetype.c:185
 #: modules/gui/qt4/ui/sprefs_subtitles.h:299
 msgid "Outline color"
 msgstr "ពណ៌​គ្រោង"
 
-#: modules/gui/macosx/simple_prefs.m:389 modules/text_renderer/freetype.c:185
+#: modules/gui/macosx/simple_prefs.m:390 modules/text_renderer/freetype.c:186
 #: modules/gui/qt4/ui/sprefs_subtitles.h:298
 msgid "Outline thickness"
 msgstr "កម្រាស់​គ្រោង"
 
-#: modules/gui/macosx/simple_prefs.m:392
+#: modules/gui/macosx/simple_prefs.m:393
 msgid "Black screens in Fullscreen mode"
 msgstr "អេក្រង់​ខ្មៅ​នៅ​ក្នុង​របៀប​ពេញ​អេក្រង់"
 
-#: modules/gui/macosx/simple_prefs.m:394 modules/stream_out/display.c:53
+#: modules/gui/macosx/simple_prefs.m:395 modules/stream_out/display.c:53
 #: modules/gui/qt4/ui/sprefs_video.h:341
 msgid "Display"
 msgstr "បង្ហាញ"
 
-#: modules/gui/macosx/simple_prefs.m:399
+#: modules/gui/macosx/simple_prefs.m:400
 msgid "Output module"
 msgstr "ម៉ូឌុល​លទ្ធផល"
 
-#: modules/gui/macosx/simple_prefs.m:401 modules/gui/qt4/ui/sprefs_video.h:357
+#: modules/gui/macosx/simple_prefs.m:402 modules/gui/qt4/ui/sprefs_video.h:357
 msgid "Video snapshots"
 msgstr "រូបថត​វីដេអូ"
 
-#: modules/gui/macosx/simple_prefs.m:403 modules/meta_engine/folder.c:63
+#: modules/gui/macosx/simple_prefs.m:404 modules/meta_engine/folder.c:63
 msgid "Folder"
 msgstr "ថត"
 
-#: modules/gui/macosx/simple_prefs.m:404 modules/gui/qt4/ui/sprefs_video.h:362
+#: modules/gui/macosx/simple_prefs.m:405 modules/gui/qt4/ui/sprefs_video.h:362
 msgid "Format"
 msgstr "ទ្រង់ទ្រាយ"
 
-#: modules/gui/macosx/simple_prefs.m:405 modules/gui/qt4/ui/sprefs_video.h:360
+#: modules/gui/macosx/simple_prefs.m:406 modules/gui/qt4/ui/sprefs_video.h:360
 msgid "Prefix"
 msgstr "បុព្វបទ"
 
-#: modules/gui/macosx/simple_prefs.m:406 modules/gui/qt4/ui/sprefs_video.h:363
+#: modules/gui/macosx/simple_prefs.m:407 modules/gui/qt4/ui/sprefs_video.h:363
 msgid "Sequential numbering"
 msgstr "ការ​ដាក់​លេខរៀងតាម​លំដាប់"
 
-#: modules/gui/macosx/simple_prefs.m:588
+#: modules/gui/macosx/simple_prefs.m:589
 msgid "Last check on: %@"
 msgstr "បាន​ពិនិត្យ​មើល​ចុងក្រោយ​នៅ ៖ %@"
 
-#: modules/gui/macosx/simple_prefs.m:590
+#: modules/gui/macosx/simple_prefs.m:591
 msgid "No check was performed yet."
 msgstr "មិន​ទាន់​មាន​ការ​ពិនិត្យមើល​នៅ​ឡើយ​ទេ ។"
 
-#: modules/gui/macosx/simple_prefs.m:708
+#: modules/gui/macosx/simple_prefs.m:710
 #: modules/gui/qt4/components/simple_preferences.cpp:669
 msgid "Lowest latency"
 msgstr "ភាព​មើល​មិន​ឃើញ​ទាប​បំផុត"
 
-#: modules/gui/macosx/simple_prefs.m:709
+#: modules/gui/macosx/simple_prefs.m:711
 #: modules/gui/qt4/components/simple_preferences.cpp:670
 msgid "Low latency"
 msgstr "ភាព​មើលមិនឃើញ​ទាប"
 
-#: modules/gui/macosx/simple_prefs.m:709
+#: modules/gui/macosx/simple_prefs.m:711
 #: modules/gui/qt4/components/simple_preferences.cpp:672
 msgid "High latency"
 msgstr "ភាព​មើល​មិន​ឃើញ​ខ្ពស់"
 
-#: modules/gui/macosx/simple_prefs.m:709
+#: modules/gui/macosx/simple_prefs.m:711
 #: modules/gui/qt4/components/simple_preferences.cpp:673
 msgid "Higher latency"
 msgstr "ភាព​មើល​មិនឃើញ​ខ្ពស់​ជាង"
 
-#: modules/gui/macosx/simple_prefs.m:840
+#: modules/gui/macosx/simple_prefs.m:842
 #: modules/gui/qt4/dialogs/preferences.cpp:326
 msgid "Reset Preferences"
 msgstr "កំណត់​ចំណូលចិត្ត​ឡើងវិញ"
 
-#: modules/gui/macosx/simple_prefs.m:843
+#: modules/gui/macosx/simple_prefs.m:845
 msgid ""
 "This will reset VLC media player's preferences.\n"
 "\n"
@@ -18025,20 +18030,20 @@ msgstr ""
 "\n"
 "តើ​អ្នក​ពិជា​ចង់​បន្ត​មែន​ឬ?"
 
-#: modules/gui/macosx/simple_prefs.m:1209
+#: modules/gui/macosx/simple_prefs.m:1212
 msgid "Choose the folder to save your video snapshots to."
 msgstr "ជ្រើស​ថត​ដើម្បី​រក្សាទុក​រូបថត​វីដេអូ​របស់​អ្នក ។"
 
-#: modules/gui/macosx/simple_prefs.m:1211
-#: modules/gui/macosx/simple_prefs.m:1302
+#: modules/gui/macosx/simple_prefs.m:1214
+#: modules/gui/macosx/simple_prefs.m:1305
 msgid "Choose"
 msgstr "ជ្រើសរើស"
 
-#: modules/gui/macosx/simple_prefs.m:1300
+#: modules/gui/macosx/simple_prefs.m:1303
 msgid "Choose the directory or filename where the records will be stored."
 msgstr "ជ្រើសរើស​ថត ឬ​ឈ្មោះ​ឯកសារ​ដើម្បី​រក្សាទុក​កំណត់ត្រា ។"
 
-#: modules/gui/macosx/simple_prefs.m:1419
+#: modules/gui/macosx/simple_prefs.m:1422
 msgid ""
 "Press new keys for\n"
 "\"%@\""
@@ -18046,16 +18051,16 @@ msgstr ""
 "ចុង​គ្រាប់ចុច​ថ្មី​សម្រាប់\n"
 "\"%@\""
 
-#: modules/gui/macosx/simple_prefs.m:1496
+#: modules/gui/macosx/simple_prefs.m:1499
 msgid "Invalid combination"
 msgstr "បន្សំ​មិនត្រឹមត្រូវ"
 
-#: modules/gui/macosx/simple_prefs.m:1497
+#: modules/gui/macosx/simple_prefs.m:1500
 msgid "Regrettably, these keys cannot be assigned as hotkey shortcuts."
 msgstr "គួរ​ឲ្យ​ស្ដាយ គ្រាប់ចុច​ទាំងនេះ​មិន​អាច​កំណត់​ជា​គ្រាប់ចុច​​ផ្លូវ​កាត់រហ័ស​បានទេ ។"
 
-#: modules/gui/macosx/simple_prefs.m:1507
-#: modules/gui/macosx/simple_prefs.m:1511
+#: modules/gui/macosx/simple_prefs.m:1510
+#: modules/gui/macosx/simple_prefs.m:1514
 msgid "This combination is already taken by \"%@\"."
 msgstr "ការ​បន្សំ​នេះ​គឺ​ត្រូវ​បាន​ជ្រើស​រួចហើយ​ដោយ \"%@\" ។"
 
@@ -20086,20 +20091,20 @@ msgstr "លុប​ទម្រង់​ដែល​បានជ្រើស"
 msgid "Create a new profile"
 msgstr "បង្កើត​ទម្រង់​ថ្មី"
 
-#: modules/gui/qt4/components/sout/profile_selector.cpp:432
+#: modules/gui/qt4/components/sout/profile_selector.cpp:424
 #: modules/gui/qt4/dialogs/bookmarks.cpp:47
 msgid "Create"
 msgstr "បង្កើត"
 
-#: modules/gui/qt4/components/sout/profile_selector.cpp:610
+#: modules/gui/qt4/components/sout/profile_selector.cpp:602
 msgid "This muxer is not provided directly by VLC: It could be missing."
 msgstr "ឧបករណ៍​ទ្វេ​ទិស​នេះ​មិន​ត្រូវ​បាន​ផ្ដល់​ដោយ VLC ៖ វា​ប្រហែលជា​បាត់។"
 
-#: modules/gui/qt4/components/sout/profile_selector.cpp:754
+#: modules/gui/qt4/components/sout/profile_selector.cpp:746
 msgid " Profile Name Missing"
 msgstr " បាត់​ឈ្មោះ​ទម្រង់"
 
-#: modules/gui/qt4/components/sout/profile_selector.cpp:755
+#: modules/gui/qt4/components/sout/profile_selector.cpp:747
 msgid "You must set a name for the profile."
 msgstr "អ្នក​ត្រូវ​តែ​កំណត់​ឈ្មោះ​សម្រាប់​ទម្រង់ ។"
 
@@ -23576,23 +23581,23 @@ msgstr "បម្លែង​ត្រឡប់​លទ្ធផល​ស្ទ
 msgid "Overlays/Subtitles"
 msgstr "ត្រួត​គ្នា/​ចំណងជើង​រង"
 
-#: modules/text_renderer/freetype.c:155
+#: modules/text_renderer/freetype.c:156
 msgid "Monospace Font"
 msgstr "ពុម្ពអក្សរ Monospace"
 
-#: modules/text_renderer/freetype.c:157
+#: modules/text_renderer/freetype.c:158
 msgid "Font family for the font you want to use"
 msgstr "គ្រួសារពុម្ពអក្សរ​សម្រាប់​ពុម្ពអក្សរ​ដែល​អ្នក​ចង់​ប្រើ"
 
-#: modules/text_renderer/freetype.c:158
+#: modules/text_renderer/freetype.c:159
 msgid "Font file for the font you want to use"
 msgstr "ឯកសារពុម្ពអក្សរ​សម្រាប់​ពុម្ពអក្សរ​ដែល​អ្នក​ចង់​ប្រើ"
 
-#: modules/text_renderer/freetype.c:160 modules/text_renderer/win32text.c:61
+#: modules/text_renderer/freetype.c:161 modules/text_renderer/win32text.c:61
 msgid "Font size in pixels"
 msgstr "ទំហំ​ពុម្ព​អក្សរ​គិត​ជា​ភីកសែល"
 
-#: modules/text_renderer/freetype.c:161 modules/text_renderer/win32text.c:62
+#: modules/text_renderer/freetype.c:162 modules/text_renderer/win32text.c:62
 msgid ""
 "This is the default size of the fonts that will be rendered on the video. If "
 "set to something different than 0 this option will override the relative "
@@ -23601,11 +23606,11 @@ msgstr ""
 "នេះ​ជា​ទំហំ​​ពុម្ព​អក្សរ​លំនាំដើម ដែល​នឹង​ត្រូវ​បង្ហាញ​នៅ​លើ​វីដេអូ ។ ប្រសិនបើ​កំណត់​អ្វី​ផ្សេង​ក្រៅ​ពី ០ នោះ​ជម្រើស​"
 "នេះ​នឹង​បដិសេធ​ទំហំ​ពុម្ព​អក្សរ​ដែល​ទាក់ទង ។"
 
-#: modules/text_renderer/freetype.c:165
+#: modules/text_renderer/freetype.c:166
 msgid "Text opacity"
 msgstr "ភាព​ស្រអាប់​របស់​អត្ថបទ"
 
-#: modules/text_renderer/freetype.c:166 modules/text_renderer/win32text.c:67
+#: modules/text_renderer/freetype.c:167 modules/text_renderer/win32text.c:67
 msgid ""
 "The opacity (inverse of transparency) of the text that will be rendered on "
 "the video. 0 = transparent, 255 = totally opaque. "
@@ -23613,12 +23618,12 @@ msgstr ""
 "ភាព​ស្រអាប់ (ច្រាស​ពី​ភាព​ថ្លា) របស់​អត្ថបទ​ដែល​នឹង​ត្រូវ​បង្ហាញ​នៅ​លើ​វីដេអូ ។ ០ = ថ្លា ២៥៥ = ស្រអាប់​ទាំង​"
 "ស្រុង ។"
 
-#: modules/text_renderer/freetype.c:169 modules/text_renderer/quartztext.c:98
+#: modules/text_renderer/freetype.c:170 modules/text_renderer/quartztext.c:98
 #: modules/text_renderer/win32text.c:70
 msgid "Text default color"
 msgstr "ពណ៌​អត្ថបទ​លំនាំដើម"
 
-#: modules/text_renderer/freetype.c:170 modules/text_renderer/quartztext.c:99
+#: modules/text_renderer/freetype.c:171 modules/text_renderer/quartztext.c:99
 #: modules/text_renderer/win32text.c:71
 msgid ""
 "The color of the text that will be rendered on the video. This must be an "
@@ -23630,12 +23635,12 @@ msgstr ""
 "ពីរ​តួ​ដំបូង​គឺ​សម្រាប់​ពណ៌​ក្រហម បន្ទាប់មក​ពណ៌​បៃតង និង​បន្ទាប់​មក​ទៀត​គឺ​ពណ៌​ខៀវ ។ #000000 = ពណ៌​ខ្មៅ "
 "#FF0000 = ពណ៌​ក្រហម #00FF00 = បៃតង #FFFF00 = ពណ៌​លឿង (ក្រហម + បៃតង) #FFFFFF = ពណ៌​ស"
 
-#: modules/text_renderer/freetype.c:174 modules/text_renderer/quartztext.c:94
+#: modules/text_renderer/freetype.c:175 modules/text_renderer/quartztext.c:94
 #: modules/text_renderer/win32text.c:75
 msgid "Relative font size"
 msgstr "ទំហំ​ពុម្ព​អក្សរ​ដែល​ពាក់ព័ន្ធ"
 
-#: modules/text_renderer/freetype.c:175 modules/text_renderer/quartztext.c:95
+#: modules/text_renderer/freetype.c:176 modules/text_renderer/quartztext.c:95
 #: modules/text_renderer/win32text.c:76
 msgid ""
 "This is the relative default size of the fonts that will be rendered on the "
@@ -23644,59 +23649,59 @@ msgstr ""
 "នេះ​ជា​ទំហំ​ពុម្ព​អក្សរ​ពាក់ព័ន្ធ​លំនាំដើម ដែល​នឹង​ត្រូវ​បង្ហាញ​នៅ​លើ​វីដេអូ ។ ប្រសិនបើ​បាន​កំណត់​ទំហំ​ពុម្ពអក្សរ​"
 "ជាក់លាក់ ទំហំ​ដែល​ពាក់ព័ន្ធ​នឹង​ត្រូវ​បាន​បដិសេធ​ ។"
 
-#: modules/text_renderer/freetype.c:180
+#: modules/text_renderer/freetype.c:181
 msgid "Background opacity"
 msgstr "ផ្ទៃខាងក្រោយ​ស្រអាប់"
 
-#: modules/text_renderer/freetype.c:181
+#: modules/text_renderer/freetype.c:182
 msgid "Background color"
 msgstr "ពណ៌​ផ្ទៃខាងក្រោយ"
 
-#: modules/text_renderer/freetype.c:183
+#: modules/text_renderer/freetype.c:184
 msgid "Outline opacity"
 msgstr "គ្រោង​ស្រអាប់"
 
-#: modules/text_renderer/freetype.c:187
+#: modules/text_renderer/freetype.c:188
 msgid "Shadow opacity"
 msgstr "​ស្រមោល​ស្រអាប់"
 
-#: modules/text_renderer/freetype.c:188
+#: modules/text_renderer/freetype.c:189
 msgid "Shadow color"
 msgstr "ពណ៌​​ស្រមោល"
 
-#: modules/text_renderer/freetype.c:189
+#: modules/text_renderer/freetype.c:190
 msgid "Shadow angle"
 msgstr "​ស្រមោល​មុំ"
 
-#: modules/text_renderer/freetype.c:190
+#: modules/text_renderer/freetype.c:191
 msgid "Shadow distance"
 msgstr "ចម្ងាយ​​ស្រមោល"
 
-#: modules/text_renderer/freetype.c:195 modules/text_renderer/quartztext.c:121
+#: modules/text_renderer/freetype.c:196 modules/text_renderer/quartztext.c:121
 #: modules/text_renderer/win32text.c:82
 msgid "Smaller"
 msgstr "តូចជាង"
 
-#: modules/text_renderer/freetype.c:195 modules/text_renderer/quartztext.c:121
+#: modules/text_renderer/freetype.c:196 modules/text_renderer/quartztext.c:121
 #: modules/text_renderer/win32text.c:82
 msgid "Small"
 msgstr "តូច"
 
-#: modules/text_renderer/freetype.c:195 modules/text_renderer/quartztext.c:121
+#: modules/text_renderer/freetype.c:196 modules/text_renderer/quartztext.c:121
 #: modules/text_renderer/win32text.c:82
 msgid "Large"
 msgstr "ធំ"
 
-#: modules/text_renderer/freetype.c:195 modules/text_renderer/quartztext.c:121
+#: modules/text_renderer/freetype.c:196 modules/text_renderer/quartztext.c:121
 #: modules/text_renderer/win32text.c:82
 msgid "Larger"
 msgstr "ធំ​ជាង"
 
-#: modules/text_renderer/freetype.c:196
+#: modules/text_renderer/freetype.c:197
 msgid "Use YUVP renderer"
 msgstr "ប្រើ​កម្មវិធី​បង្ហាញ YUVP"
 
-#: modules/text_renderer/freetype.c:197
+#: modules/text_renderer/freetype.c:198
 msgid ""
 "This renders the font using \"paletized YUV\". This option is only needed if "
 "you want to encode into DVB subtitles"
@@ -23704,23 +23709,23 @@ msgstr ""
 "វា​បង្ហាញ​ពុម្ពអក្សរ​ដោយ​ប្រើ \"paletized YUV\" ។ ជម្រើស​នេះ​គឺ​ចាំបាច់​តែ​នៅ​ពេល​ដែល​អ្នក​ចង់​អ៊ិនកូដ​ទៅ​"
 "ក្នុង​ចំណងជើង​រង DVB"
 
-#: modules/text_renderer/freetype.c:214
+#: modules/text_renderer/freetype.c:215
 msgid "Thin"
 msgstr "ស្ដើង"
 
-#: modules/text_renderer/freetype.c:214
+#: modules/text_renderer/freetype.c:215
 msgid "Thick"
 msgstr "ក្រាស់"
 
-#: modules/text_renderer/freetype.c:218 modules/text_renderer/win32text.c:94
+#: modules/text_renderer/freetype.c:219 modules/text_renderer/win32text.c:94
 msgid "Text renderer"
 msgstr "កម្មវិធី​បង្ហាញ​អត្ថបទ"
 
-#: modules/text_renderer/freetype.c:219
+#: modules/text_renderer/freetype.c:220
 msgid "Freetype2 font renderer"
 msgstr "កម្មវិធី​បង្ហាញ​ពុម្ពអក្សរ Freetype2"
 
-#: modules/text_renderer/freetype.c:499
+#: modules/text_renderer/freetype.c:500
 msgid ""
 "Please wait while your font cache is rebuilt.\n"
 "This should take less than a few minutes."

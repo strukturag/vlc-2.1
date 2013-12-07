@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2013-11-11 19:12+0100\n"
+"POT-Creation-Date: 2013-12-07 17:17+0100\n"
 "PO-Revision-Date: 2013-10-27 08:40+0000\n"
 "Last-Translator: nesterow <nestserau@me.com>\n"
 "Language-Team: Belarusian (http://www.transifex.com/projects/p/vlc-trans/"
@@ -141,7 +141,7 @@ msgstr "Іншыя гукавыя настаўленні і модулі."
 #: src/libvlc-module.c:1510 modules/access/imem.c:64
 #: modules/gui/macosx/ConvertAndSave.m:175 modules/gui/macosx/MainMenu.m:390
 #: modules/gui/macosx/output.m:151 modules/gui/macosx/playlistinfo.m:102
-#: modules/gui/macosx/simple_prefs.m:273 modules/gui/macosx/simple_prefs.m:409
+#: modules/gui/macosx/simple_prefs.m:273 modules/gui/macosx/simple_prefs.m:410
 #: modules/gui/macosx/wizard.m:378
 #: modules/gui/qt4/components/info_panels.cpp:552
 #: modules/gui/qt4/components/simple_preferences.cpp:224
@@ -482,10 +482,10 @@ msgid "&About"
 msgstr "&Пра праграму"
 
 #: include/vlc_intf_strings.h:65 modules/control/rc.c:72
-#: modules/gui/macosx/ControlsBar.m:404 modules/gui/macosx/MainMenu.m:350
+#: modules/gui/macosx/ControlsBar.m:438 modules/gui/macosx/MainMenu.m:350
 #: modules/gui/macosx/MainMenu.m:457 modules/gui/macosx/MainMenu.m:464
-#: modules/gui/macosx/MainMenu.m:1189 modules/gui/macosx/MainMenu.m:1190
-#: modules/gui/macosx/MainMenu.m:1191 modules/gui/macosx/playlist.m:517
+#: modules/gui/macosx/MainMenu.m:1194 modules/gui/macosx/MainMenu.m:1195
+#: modules/gui/macosx/MainMenu.m:1196 modules/gui/macosx/playlist.m:517
 #: modules/gui/qt4/components/controller.hpp:115
 #: modules/gui/qt4/dialogs/vlm.cpp:550 modules/gui/qt4/ui/open.h:243
 msgid "Play"
@@ -524,17 +524,17 @@ msgid "Save..."
 msgstr "Захаваць..."
 
 #: include/vlc_intf_strings.h:77 modules/gui/macosx/CoreInteraction.m:404
-#: modules/gui/macosx/MainMenu.m:364 modules/gui/macosx/MainMenu.m:1470
+#: modules/gui/macosx/MainMenu.m:364 modules/gui/macosx/MainMenu.m:1475
 msgid "Repeat All"
 msgstr "Паўтараць усё"
 
 #: include/vlc_intf_strings.h:78 modules/gui/macosx/CoreInteraction.m:424
-#: modules/gui/macosx/MainMenu.m:363 modules/gui/macosx/MainMenu.m:1465
+#: modules/gui/macosx/MainMenu.m:363 modules/gui/macosx/MainMenu.m:1470
 msgid "Repeat One"
 msgstr "Паўтараць адзін"
 
 #: include/vlc_intf_strings.h:79 src/libvlc-module.c:1398
-#: modules/gui/macosx/MainMenu.m:362 modules/gui/macosx/MainMenu.m:1460
+#: modules/gui/macosx/MainMenu.m:362 modules/gui/macosx/MainMenu.m:1465
 #: modules/gui/qt4/components/controller.hpp:119
 #: modules/gui/qt4/components/controller.hpp:132
 msgid "Random"
@@ -641,7 +641,7 @@ msgstr "Дасягнута максімальная колькасць філь�
 
 #: src/audio_output/output.c:220 src/audio_output/output.c:267
 #: src/config/core.c:407 src/input/es_out.c:902 src/libvlc-module.c:540
-#: modules/gui/macosx/MainWindow.m:967 modules/video_filter/postproc.c:234
+#: modules/gui/macosx/MainWindow.m:1000 modules/video_filter/postproc.c:234
 msgid "Disable"
 msgstr "Адключыць"
 
@@ -1348,20 +1348,20 @@ msgstr "Частата кадраў"
 msgid "Decoded format"
 msgstr "Дэкадаваны фармат"
 
-#: src/input/input.c:2426
+#: src/input/input.c:2427
 msgid "Your input can't be opened"
 msgstr "Гэты ўвод немагчыма адкрыць"
 
-#: src/input/input.c:2427
+#: src/input/input.c:2428
 #, c-format
 msgid "VLC is unable to open the MRL '%s'. Check the log for details."
 msgstr "VLC не можа адкрыць MRL \"%s\". Падрабязнасці ў часапісе."
 
-#: src/input/input.c:2548
+#: src/input/input.c:2549
 msgid "VLC can't recognize the input's format"
 msgstr "VLC не можа вызначыць фармат даных уводу"
 
-#: src/input/input.c:2549
+#: src/input/input.c:2550
 #, c-format
 msgid ""
 "The format of '%s' cannot be detected. Have a look at the log for details."
@@ -1787,7 +1787,7 @@ msgstr ""
 #: modules/audio_output/kai.c:106 modules/codec/x264.c:434
 #: modules/gui/macosx/simple_prefs.m:110
 #: modules/gui/qt4/components/simple_preferences.cpp:125
-#: modules/gui/qt4/components/sout/profile_selector.cpp:566
+#: modules/gui/qt4/components/sout/profile_selector.cpp:558
 #: modules/video_output/kva.c:62 modules/video_output/xcb/xvideo.c:878
 #: modules/gui/qt4/ui/profiles.h:727 modules/gui/qt4/ui/profiles.h:730
 msgid "Auto"
@@ -1874,7 +1874,7 @@ msgstr ""
 #: modules/gui/macosx/ConvertAndSave.m:204 modules/gui/macosx/open.m:252
 #: modules/gui/macosx/open.m:278 modules/gui/macosx/open.m:279
 #: modules/gui/qt4/components/interface_widgets.cpp:429
-#: modules/text_renderer/freetype.c:214
+#: modules/text_renderer/freetype.c:215
 #: share/lua/http/dialogs/create_stream.html:196
 msgid "None"
 msgstr "Няма"
@@ -1904,7 +1904,7 @@ msgstr ""
 "Метад вываду відэа, што ўжывае VLC. Аўтаматычна выбіраецца найлепшы даступны "
 "метад, калі не зададзена іншае."
 
-#: src/libvlc-module.c:249 modules/gui/macosx/simple_prefs.m:395
+#: src/libvlc-module.c:249 modules/gui/macosx/simple_prefs.m:396
 #: modules/stream_out/display.c:42 modules/gui/qt4/ui/sprefs_video.h:340
 msgid "Enable video"
 msgstr "Уключыць відэа"
@@ -2110,7 +2110,7 @@ msgstr ""
 "карыстацца гэтай функцыяй."
 
 #: src/libvlc-module.c:311 src/video_output/vout_intf.c:274
-#: modules/gui/macosx/simple_prefs.m:398 modules/gui/qt4/ui/sprefs_video.h:347
+#: modules/gui/macosx/simple_prefs.m:399 modules/gui/qt4/ui/sprefs_video.h:347
 msgid "Always on top"
 msgstr "Заставацца наверсе"
 
@@ -2165,7 +2165,7 @@ msgstr ""
 
 #: src/libvlc-module.c:338 src/libvlc-module.c:340
 #: src/video_output/interlacing.c:180 modules/gui/macosx/MainMenu.m:406
-#: modules/gui/macosx/MainMenu.m:407 modules/gui/macosx/simple_prefs.m:407
+#: modules/gui/macosx/MainMenu.m:407 modules/gui/macosx/simple_prefs.m:408
 #: modules/gui/qt4/dialogs/convert.cpp:95
 #: modules/video_filter/deinterlace/deinterlace.c:97
 #: share/lua/http/dialogs/create_stream.html:346
@@ -2174,7 +2174,7 @@ msgstr "Лікв. празрадковасці"
 
 #: src/libvlc-module.c:348 src/video_output/interlacing.c:196
 #: modules/gui/macosx/MainMenu.m:408 modules/gui/macosx/MainMenu.m:409
-#: modules/gui/macosx/simple_prefs.m:408
+#: modules/gui/macosx/simple_prefs.m:409
 #: modules/video_filter/deinterlace/deinterlace.c:53
 msgid "Deinterlace mode"
 msgstr "Рэжым ліквідавання"
@@ -2232,7 +2232,7 @@ msgstr ""
 "Адключаць кіраванне сілкаваннем падчас прайгравання відэа, каб прадухіліць "
 "пераход камп'ютара ў рэжым чакання праз неактыўнасць."
 
-#: src/libvlc-module.c:374 modules/gui/macosx/simple_prefs.m:397
+#: src/libvlc-module.c:374 modules/gui/macosx/simple_prefs.m:398
 #: modules/gui/qt4/ui/sprefs_video.h:343
 msgid "Window decorations"
 msgstr "Аздабленне акна"
@@ -2427,7 +2427,7 @@ msgstr ""
 "(1:1). Для экрана 16:9, магчыма, варта выставіць гэты параметр у 4:3 дзеля "
 "захавання прапорцый."
 
-#: src/libvlc-module.c:468 modules/gui/macosx/simple_prefs.m:400
+#: src/libvlc-module.c:468 modules/gui/macosx/simple_prefs.m:401
 msgid "Skip frames"
 msgstr "Прапускаць кадры"
 
@@ -2571,12 +2571,12 @@ msgstr ""
 #: src/libvlc-module.c:540 src/video_output/vout_intf.c:96
 #: src/video_output/vout_intf.c:114 modules/access/dshow/dshow.cpp:92
 #: modules/access/dshow/dshow.cpp:99 modules/access/dshow/dshow.cpp:119
-#: modules/access/dshow/dshow.cpp:2032 modules/audio_output/directx.c:830
+#: modules/access/dshow/dshow.cpp:2032 modules/audio_output/directx.c:834
 #: modules/gui/macosx/AudioEffects.m:86 modules/gui/macosx/MainMenu.m:601
 #: modules/gui/macosx/prefs_widgets.m:1214
 #: modules/gui/macosx/prefs_widgets.m:1287
-#: modules/gui/macosx/simple_prefs.m:519 modules/gui/macosx/simple_prefs.m:672
-#: modules/gui/macosx/simple_prefs.m:922 modules/gui/macosx/VideoEffects.m:57
+#: modules/gui/macosx/simple_prefs.m:520 modules/gui/macosx/simple_prefs.m:674
+#: modules/gui/macosx/simple_prefs.m:923 modules/gui/macosx/VideoEffects.m:57
 #: modules/gui/qt4/components/preferences_widgets.cpp:545
 #: modules/video_filter/marq.c:60 modules/video_filter/rss.c:71
 #: modules/video_filter/rss.c:184 modules/video_output/msw/directx.c:1458
@@ -2584,7 +2584,7 @@ msgid "Default"
 msgstr "Стандартна"
 
 #: src/libvlc-module.c:540 modules/gui/macosx/AudioEffects.m:112
-#: modules/gui/macosx/MainWindow.m:965 modules/gui/macosx/wizard.m:351
+#: modules/gui/macosx/MainWindow.m:998 modules/gui/macosx/wizard.m:351
 #: modules/gui/qt4/components/extended_panels.cpp:1024
 #: modules/gui/qt4/ui/equalizer.h:133 modules/gui/qt4/ui/vlm.h:289
 msgid "Enable"
@@ -2929,7 +2929,7 @@ msgid "You can completely disable the sub-picture processing."
 msgstr "Можна цалкам адключыць апрацоўку слаёў."
 
 #: src/libvlc-module.c:703 src/libvlc-module.c:1634 src/text/iso-639_def.h:145
-#: modules/gui/macosx/simple_prefs.m:384
+#: modules/gui/macosx/simple_prefs.m:385
 #: modules/stream_out/transcode/transcode.c:219
 #: modules/gui/qt4/ui/sprefs_subtitles.h:286
 msgid "On Screen Display"
@@ -3874,7 +3874,7 @@ msgid "These settings are the global VLC key bindings, known as \"hotkeys\"."
 msgstr ""
 "Гэтыя настаўленні задаюць агульныя спалучэнні клавіш (вядомых як скароты)."
 
-#: src/libvlc-module.c:1197 modules/gui/macosx/intf.m:1923
+#: src/libvlc-module.c:1197 modules/gui/macosx/intf.m:1938
 msgid "Ignore"
 msgstr "Нічым"
 
@@ -3900,8 +3900,8 @@ msgstr ""
 
 #: src/libvlc-module.c:1203 src/video_output/vout_intf.c:284
 #: modules/gui/macosx/MainMenu.m:395 modules/gui/macosx/MainMenu.m:471
-#: modules/gui/macosx/MainMenu.m:1497 modules/gui/macosx/MainMenu.m:1507
-#: modules/gui/macosx/simple_prefs.m:396
+#: modules/gui/macosx/MainMenu.m:1502 modules/gui/macosx/MainMenu.m:1512
+#: modules/gui/macosx/simple_prefs.m:397
 #: modules/gui/qt4/components/controller.hpp:116
 #: modules/gui/qt4/ui/sprefs_video.h:342
 msgid "Fullscreen"
@@ -3981,10 +3981,10 @@ msgid "Slower (fine)"
 msgstr "Крыху павольней"
 
 #: src/libvlc-module.c:1223 modules/control/hotkeys.c:208
-#: modules/gui/macosx/about.m:274 modules/gui/macosx/ControlsBar.m:726
-#: modules/gui/macosx/ControlsBar.m:727 modules/gui/macosx/fspanel.m:420
+#: modules/gui/macosx/about.m:274 modules/gui/macosx/ControlsBar.m:760
+#: modules/gui/macosx/ControlsBar.m:761 modules/gui/macosx/fspanel.m:420
 #: modules/gui/macosx/MainMenu.m:361 modules/gui/macosx/MainMenu.m:459
-#: modules/gui/macosx/MainMenu.m:467 modules/gui/macosx/MainMenu.m:1456
+#: modules/gui/macosx/MainMenu.m:467 modules/gui/macosx/MainMenu.m:1461
 #: modules/gui/macosx/wizard.m:306 modules/gui/macosx/wizard.m:318
 #: modules/gui/macosx/wizard.m:1559
 #: modules/gui/qt4/components/controller.hpp:120 modules/notify/notify.c:339
@@ -3997,10 +3997,10 @@ msgid "Select the hotkey to use to skip to the next item in the playlist."
 msgstr "Задайце скарот для пераходу на наступны аб'екта плэйлісту."
 
 #: src/libvlc-module.c:1225 modules/control/hotkeys.c:212
-#: modules/gui/macosx/about.m:275 modules/gui/macosx/ControlsBar.m:715
-#: modules/gui/macosx/ControlsBar.m:716 modules/gui/macosx/fspanel.m:416
+#: modules/gui/macosx/about.m:275 modules/gui/macosx/ControlsBar.m:749
+#: modules/gui/macosx/ControlsBar.m:750 modules/gui/macosx/fspanel.m:416
 #: modules/gui/macosx/MainMenu.m:360 modules/gui/macosx/MainMenu.m:460
-#: modules/gui/macosx/MainMenu.m:466 modules/gui/macosx/MainMenu.m:1455
+#: modules/gui/macosx/MainMenu.m:466 modules/gui/macosx/MainMenu.m:1460
 #: modules/gui/qt4/components/controller.hpp:120 modules/notify/notify.c:337
 msgid "Previous"
 msgstr "Папярэдні"
@@ -4009,9 +4009,9 @@ msgstr "Папярэдні"
 msgid "Select the hotkey to use to skip to the previous item in the playlist."
 msgstr "Задайце скарот для пераходу на папярэдні аб'ект плэйлісту."
 
-#: src/libvlc-module.c:1227 modules/gui/macosx/ControlsBar.m:436
+#: src/libvlc-module.c:1227 modules/gui/macosx/ControlsBar.m:470
 #: modules/gui/macosx/MainMenu.m:351 modules/gui/macosx/MainMenu.m:458
-#: modules/gui/macosx/MainMenu.m:465 modules/gui/macosx/MainMenu.m:1451
+#: modules/gui/macosx/MainMenu.m:465 modules/gui/macosx/MainMenu.m:1456
 #: modules/gui/qt4/components/controller.hpp:115
 #: modules/gui/qt4/dialogs/vlm.cpp:556 modules/gui/qt4/ui/streampanel.h:180
 msgid "Stop"
@@ -4246,9 +4246,9 @@ msgid "Select the key to decrease audio volume."
 msgstr "Задайце скарот для памяншэння гучнасці."
 
 #: src/libvlc-module.c:1296 modules/access/v4l2/v4l2.c:181
-#: modules/gui/macosx/ControlsBar.m:455 modules/gui/macosx/MainMenu.m:380
+#: modules/gui/macosx/ControlsBar.m:489 modules/gui/macosx/MainMenu.m:380
 #: modules/gui/macosx/MainMenu.m:461 modules/gui/macosx/MainMenu.m:470
-#: modules/gui/macosx/MainMenu.m:1488
+#: modules/gui/macosx/MainMenu.m:1493
 msgid "Mute"
 msgstr "Адключыць гук"
 
@@ -4672,7 +4672,7 @@ msgstr "Цыклічна пераключаць даступныя аўдыёп�
 
 #: src/libvlc-module.c:1560 src/video_output/vout_intf.c:290
 #: modules/gui/macosx/MainMenu.m:397 modules/gui/macosx/MainMenu.m:472
-#: modules/gui/macosx/MainMenu.m:1496
+#: modules/gui/macosx/MainMenu.m:1501
 #: modules/gui/qt4/components/controller.hpp:117
 msgid "Snapshot"
 msgstr "Здымак"
@@ -4879,12 +4879,12 @@ msgstr "Сцягваецца ..."
 #: modules/gui/macosx/MainWindow.m:179 modules/gui/macosx/MainWindow.m:184
 #: modules/gui/macosx/open.m:128 modules/gui/macosx/open.m:190
 #: modules/gui/macosx/prefs.m:208 modules/gui/macosx/simple_prefs.m:324
-#: modules/gui/macosx/simple_prefs.m:352 modules/gui/macosx/simple_prefs.m:413
-#: modules/gui/macosx/simple_prefs.m:840 modules/gui/macosx/VideoEffects.m:879
+#: modules/gui/macosx/simple_prefs.m:352 modules/gui/macosx/simple_prefs.m:414
+#: modules/gui/macosx/simple_prefs.m:842 modules/gui/macosx/VideoEffects.m:879
 #: modules/gui/macosx/VideoEffects.m:943 modules/gui/macosx/wizard.m:317
 #: modules/gui/qt4/components/open_panels.cpp:1343
 #: modules/gui/qt4/components/preferences_widgets.cpp:1424
-#: modules/gui/qt4/components/sout/profile_selector.cpp:435
+#: modules/gui/qt4/components/sout/profile_selector.cpp:427
 msgid "Cancel"
 msgstr "Скасаваць"
 
@@ -5647,7 +5647,7 @@ msgstr "Кадраванне"
 #: modules/access/linsys/linsys_hdsdi.c:78
 #: modules/access/linsys/linsys_sdi.c:73 modules/demux/rawvid.c:59
 #: modules/gui/macosx/MainMenu.m:400 modules/gui/macosx/MainMenu.m:401
-#: modules/gui/macosx/MainMenu.m:1310
+#: modules/gui/macosx/MainMenu.m:1315
 msgid "Aspect ratio"
 msgstr "Стасунак бакоў"
 
@@ -8132,7 +8132,7 @@ msgstr "Увод з экрана"
 #: modules/access/screen/screen.c:98 modules/access/screen/xcb.c:69
 #: modules/gui/macosx/MainMenu.m:609 modules/gui/macosx/open.m:207
 #: modules/gui/macosx/open.m:211 modules/gui/macosx/open.m:495
-#: modules/gui/macosx/open.m:1348 modules/gui/macosx/simple_prefs.m:677
+#: modules/gui/macosx/open.m:1348 modules/gui/macosx/simple_prefs.m:679
 msgid "Screen"
 msgstr "Экран"
 
@@ -8883,7 +8883,7 @@ msgstr "Макс. частка #"
 msgid "Volume Set"
 msgstr "Набор частак"
 
-#: modules/access/vcdx/info.c:69 modules/gui/macosx/ControlsBar.m:452
+#: modules/access/vcdx/info.c:69 modules/gui/macosx/ControlsBar.m:486
 #: modules/gui/macosx/fspanel.m:463 modules/gui/qt4/dialogs/toolbar.cpp:365
 #: modules/stream_out/raop.c:150 modules/gui/qt4/ui/sprefs_audio.h:413
 msgid "Volume"
@@ -10058,7 +10058,7 @@ msgstr "Гук 7.1"
 msgid "ALSA audio output"
 msgstr "Вывад гуку цераз ALSA"
 
-#: modules/audio_output/alsa.c:368 modules/audio_output/auhal.c:380
+#: modules/audio_output/alsa.c:368 modules/audio_output/auhal.c:395
 msgid "Audio output failed"
 msgstr "Памылка вываду гуку"
 
@@ -10091,7 +10091,7 @@ msgstr "Вывад гуку цераз Audio Queue (iOS / Mac OS)"
 msgid "Android AudioTrack audio output"
 msgstr "Вывад гуку цераз Android AudioTrack"
 
-#: modules/audio_output/audiounit_ios.c:89
+#: modules/audio_output/audiounit_ios.c:93
 msgid "AudioUnit output for iOS"
 msgstr "Вывад цераз AudioUnit для iOS"
 
@@ -10099,22 +10099,22 @@ msgstr "Вывад цераз AudioUnit для iOS"
 msgid "Last audio device"
 msgstr "Апошняя аўдыёпрылада"
 
-#: modules/audio_output/auhal.c:166
+#: modules/audio_output/auhal.c:164
 msgid "HAL AudioUnit output"
 msgstr "Вывад цераз HAL AudioUnit"
 
-#: modules/audio_output/auhal.c:381
+#: modules/audio_output/auhal.c:396
 msgid ""
 "The selected audio output device is exclusively in use by another program."
 msgstr ""
 "Выбраная прылада вываду гуку знаходзіцца ў выключным карыстанні іншай "
 "праграмы."
 
-#: modules/audio_output/auhal.c:578
+#: modules/audio_output/auhal.c:591
 msgid "Audio device is not configured"
 msgstr "Аўдыёпрылада не сканфігуравана"
 
-#: modules/audio_output/auhal.c:579
+#: modules/audio_output/auhal.c:592
 msgid ""
 "You should configure your speaker layout with \"Audio Midi Setup\" in /"
 "Applications/Utilities. VLC will output Stereo only."
@@ -10122,11 +10122,11 @@ msgstr ""
 "Трэба наставіць схему дынамікаў цераз Audio Midi Setup у /Applications/"
 "Utilities. Пакуль гук выводзіцца толькі ў рэжыме стэрэа."
 
-#: modules/audio_output/auhal.c:1139
+#: modules/audio_output/auhal.c:1149
 msgid "System Sound Output Device"
 msgstr "Сістэмная прылада вываду гуку"
 
-#: modules/audio_output/auhal.c:1214
+#: modules/audio_output/auhal.c:1224
 #, c-format
 msgid "%s (Encoded Output)"
 msgstr "%s (Закадаваны вывад)"
@@ -11418,46 +11418,46 @@ msgstr "Цень"
 msgid "Outline"
 msgstr "Контур"
 
-#: modules/codec/kate.c:210 modules/text_renderer/freetype.c:206
+#: modules/codec/kate.c:210 modules/text_renderer/freetype.c:207
 #: modules/text_renderer/quartztext.c:115 modules/text_renderer/win32text.c:89
 #: modules/video_filter/marq.c:60 modules/video_filter/rss.c:71
 msgid "Black"
 msgstr "Чорны"
 
-#: modules/codec/kate.c:210 modules/text_renderer/freetype.c:206
+#: modules/codec/kate.c:210 modules/text_renderer/freetype.c:207
 #: modules/text_renderer/quartztext.c:115 modules/text_renderer/win32text.c:89
 #: modules/video_filter/marq.c:60 modules/video_filter/rss.c:72
 msgid "Gray"
 msgstr "Шэры"
 
-#: modules/codec/kate.c:210 modules/text_renderer/freetype.c:206
+#: modules/codec/kate.c:210 modules/text_renderer/freetype.c:207
 #: modules/text_renderer/quartztext.c:115 modules/text_renderer/win32text.c:89
 #: modules/video_filter/marq.c:61 modules/video_filter/rss.c:72
 msgid "Silver"
 msgstr "Срэбны"
 
-#: modules/codec/kate.c:210 modules/text_renderer/freetype.c:206
+#: modules/codec/kate.c:210 modules/text_renderer/freetype.c:207
 #: modules/text_renderer/quartztext.c:115 modules/text_renderer/win32text.c:89
 #: modules/video_filter/ball.c:120 modules/video_filter/marq.c:61
 #: modules/video_filter/rss.c:72
 msgid "White"
 msgstr "Белы"
 
-#: modules/codec/kate.c:210 modules/text_renderer/freetype.c:206
+#: modules/codec/kate.c:210 modules/text_renderer/freetype.c:207
 #: modules/text_renderer/quartztext.c:115 modules/text_renderer/win32text.c:89
 #: modules/video_filter/marq.c:61 modules/video_filter/rss.c:72
 msgid "Maroon"
 msgstr "Бардовы"
 
 #: modules/codec/kate.c:211 modules/gui/macosx/MainMenu.m:427
-#: modules/gui/macosx/MainMenu.m:1001 modules/text_renderer/freetype.c:207
+#: modules/gui/macosx/MainMenu.m:1006 modules/text_renderer/freetype.c:208
 #: modules/text_renderer/quartztext.c:116 modules/text_renderer/win32text.c:90
 #: modules/video_filter/ball.c:119 modules/video_filter/colorthres.c:64
 #: modules/video_filter/marq.c:61 modules/video_filter/rss.c:72
 msgid "Red"
 msgstr "Чырвоны"
 
-#: modules/codec/kate.c:211 modules/text_renderer/freetype.c:207
+#: modules/codec/kate.c:211 modules/text_renderer/freetype.c:208
 #: modules/text_renderer/quartztext.c:116 modules/text_renderer/win32text.c:90
 #: modules/video_filter/colorthres.c:64 modules/video_filter/marq.c:62
 #: modules/video_filter/rss.c:73
@@ -11465,61 +11465,61 @@ msgid "Fuchsia"
 msgstr "Ружовы"
 
 #: modules/codec/kate.c:211 modules/gui/macosx/MainMenu.m:429
-#: modules/gui/macosx/MainMenu.m:1005 modules/text_renderer/freetype.c:207
+#: modules/gui/macosx/MainMenu.m:1010 modules/text_renderer/freetype.c:208
 #: modules/text_renderer/quartztext.c:116 modules/text_renderer/win32text.c:90
 #: modules/video_filter/colorthres.c:64 modules/video_filter/marq.c:62
 #: modules/video_filter/rss.c:73
 msgid "Yellow"
 msgstr "Жоўты"
 
-#: modules/codec/kate.c:211 modules/text_renderer/freetype.c:207
+#: modules/codec/kate.c:211 modules/text_renderer/freetype.c:208
 #: modules/text_renderer/quartztext.c:116 modules/text_renderer/win32text.c:90
 #: modules/video_filter/marq.c:62 modules/video_filter/rss.c:73
 msgid "Olive"
 msgstr "Аліўкавы"
 
 #: modules/codec/kate.c:211 modules/gui/macosx/MainMenu.m:428
-#: modules/gui/macosx/MainMenu.m:1003 modules/text_renderer/freetype.c:207
+#: modules/gui/macosx/MainMenu.m:1008 modules/text_renderer/freetype.c:208
 #: modules/text_renderer/quartztext.c:116 modules/text_renderer/win32text.c:90
 #: modules/video_filter/ball.c:119 modules/video_filter/marq.c:62
 #: modules/video_filter/rss.c:73
 msgid "Green"
 msgstr "Зялёны"
 
-#: modules/codec/kate.c:211 modules/text_renderer/freetype.c:207
+#: modules/codec/kate.c:211 modules/text_renderer/freetype.c:208
 #: modules/text_renderer/quartztext.c:116 modules/text_renderer/win32text.c:90
 #: modules/video_filter/marq.c:63 modules/video_filter/rss.c:74
 msgid "Teal"
 msgstr "Бірузовы"
 
-#: modules/codec/kate.c:212 modules/text_renderer/freetype.c:208
+#: modules/codec/kate.c:212 modules/text_renderer/freetype.c:209
 #: modules/text_renderer/quartztext.c:117 modules/text_renderer/win32text.c:91
 #: modules/video_filter/colorthres.c:64 modules/video_filter/marq.c:63
 #: modules/video_filter/rss.c:74
 msgid "Lime"
 msgstr "Ярка-зялёны"
 
-#: modules/codec/kate.c:212 modules/text_renderer/freetype.c:208
+#: modules/codec/kate.c:212 modules/text_renderer/freetype.c:209
 #: modules/text_renderer/quartztext.c:117 modules/text_renderer/win32text.c:91
 #: modules/video_filter/marq.c:63 modules/video_filter/rss.c:74
 msgid "Purple"
 msgstr "Пурпуровы"
 
-#: modules/codec/kate.c:212 modules/text_renderer/freetype.c:208
+#: modules/codec/kate.c:212 modules/text_renderer/freetype.c:209
 #: modules/text_renderer/quartztext.c:117 modules/text_renderer/win32text.c:91
 #: modules/video_filter/marq.c:63 modules/video_filter/rss.c:74
 msgid "Navy"
 msgstr "Цёмна-сіні"
 
 #: modules/codec/kate.c:212 modules/gui/macosx/MainMenu.m:430
-#: modules/gui/macosx/MainMenu.m:1007 modules/text_renderer/freetype.c:208
+#: modules/gui/macosx/MainMenu.m:1012 modules/text_renderer/freetype.c:209
 #: modules/text_renderer/quartztext.c:117 modules/text_renderer/win32text.c:91
 #: modules/video_filter/ball.c:120 modules/video_filter/colorthres.c:64
 #: modules/video_filter/marq.c:63 modules/video_filter/rss.c:74
 msgid "Blue"
 msgstr "Сіні"
 
-#: modules/codec/kate.c:212 modules/text_renderer/freetype.c:208
+#: modules/codec/kate.c:212 modules/text_renderer/freetype.c:209
 #: modules/text_renderer/quartztext.c:117 modules/text_renderer/win32text.c:91
 #: modules/video_filter/colorthres.c:64 modules/video_filter/marq.c:64
 #: modules/video_filter/rss.c:75
@@ -11671,7 +11671,7 @@ msgstr "Субтытры (пашыраныя)"
 msgid "Subtitle renderers using libass"
 msgstr "Візуалізатары субтытраў, што ўжываюць libass"
 
-#: modules/codec/libass.c:225 modules/text_renderer/freetype.c:498
+#: modules/codec/libass.c:225 modules/text_renderer/freetype.c:499
 msgid "Building font cache"
 msgstr "Стварэнне кэшу шрыфтоў"
 
@@ -13678,10 +13678,10 @@ msgid "Fast"
 msgstr "Хуткі"
 
 #: modules/codec/x264.c:429 modules/gui/macosx/MainMenu.m:357
-#: modules/gui/macosx/simple_prefs.m:709
+#: modules/gui/macosx/simple_prefs.m:711
 #: modules/gui/qt4/components/simple_preferences.cpp:671
-#: modules/misc/gnutls.c:64 modules/text_renderer/freetype.c:195
-#: modules/text_renderer/freetype.c:214 modules/text_renderer/quartztext.c:121
+#: modules/misc/gnutls.c:64 modules/text_renderer/freetype.c:196
+#: modules/text_renderer/freetype.c:215 modules/text_renderer/quartztext.c:121
 #: modules/text_renderer/win32text.c:82
 msgid "Normal"
 msgstr "Звычайн."
@@ -13791,8 +13791,8 @@ msgid "D-Bus control interface"
 msgstr "Інтэрфейс кіравання D-Bus"
 
 #: modules/control/dbus/dbus_root.c:81 modules/gui/macosx/MainWindow.m:202
-#: modules/gui/macosx/MainWindow.m:679 modules/gui/macosx/MainWindow.m:685
-#: modules/gui/macosx/MainWindow.m:1246 modules/gui/ncurses.c:1030
+#: modules/gui/macosx/MainWindow.m:705 modules/gui/macosx/MainWindow.m:711
+#: modules/gui/macosx/MainWindow.m:1279 modules/gui/ncurses.c:1030
 #: modules/gui/qt4/dialogs/help.cpp:91 modules/gui/qt4/main_interface.cpp:1013
 #: modules/gui/qt4/main_interface.cpp:1017
 #: modules/gui/qt4/main_interface.cpp:1056
@@ -14147,9 +14147,9 @@ msgstr "Ініцыялізацыя"
 msgid "Opening"
 msgstr "Адкрыццё"
 
-#: modules/control/rc.c:73 modules/gui/macosx/ControlsBar.m:397
-#: modules/gui/macosx/MainMenu.m:1196 modules/gui/macosx/MainMenu.m:1197
-#: modules/gui/macosx/MainMenu.m:1198 modules/gui/qt4/menus.cpp:817
+#: modules/control/rc.c:73 modules/gui/macosx/ControlsBar.m:431
+#: modules/gui/macosx/MainMenu.m:1201 modules/gui/macosx/MainMenu.m:1202
+#: modules/gui/macosx/MainMenu.m:1203 modules/gui/qt4/menus.cpp:817
 msgid "Pause"
 msgstr "Паўза"
 
@@ -16103,7 +16103,7 @@ msgid "MPEG Transport Stream demuxer"
 msgstr "Дэмультыплексар MPEG TS"
 
 #: modules/demux/ts.c:171 modules/gui/macosx/MainMenu.m:424
-#: modules/gui/macosx/MainMenu.m:1533 modules/gui/qt4/dialogs/toolbar.cpp:429
+#: modules/gui/macosx/MainMenu.m:1538 modules/gui/qt4/dialogs/toolbar.cpp:429
 msgid "Teletext"
 msgstr "Тэлетэкст"
 
@@ -16292,7 +16292,7 @@ msgid "VLC media player Help"
 msgstr "Даведка медыяплэера VLC"
 
 #: modules/gui/macosx/about.m:276 modules/gui/macosx/MainMenu.m:426
-#: modules/gui/macosx/MainMenu.m:999
+#: modules/gui/macosx/MainMenu.m:1004
 msgid "Index"
 msgstr "Індэкс"
 
@@ -16380,9 +16380,9 @@ msgstr "Увядзіце назву новага профілю:"
 #: modules/gui/macosx/ConvertAndSave.m:369
 #: modules/gui/macosx/ConvertAndSave.m:401 modules/gui/macosx/output.m:457
 #: modules/gui/macosx/playlist.m:716 modules/gui/macosx/prefs.m:207
-#: modules/gui/macosx/simple_prefs.m:351 modules/gui/macosx/simple_prefs.m:415
+#: modules/gui/macosx/simple_prefs.m:351 modules/gui/macosx/simple_prefs.m:416
 #: modules/gui/macosx/VideoEffects.m:880
-#: modules/gui/qt4/components/sout/profile_selector.cpp:432
+#: modules/gui/qt4/components/sout/profile_selector.cpp:424
 #: modules/gui/qt4/ui/vlm.h:301
 msgid "Save"
 msgstr "Захаваць"
@@ -16526,7 +16526,7 @@ msgid "The stream must be playing or paused for bookmarks to work."
 msgstr ""
 "Каб працавалі закладкі, паток павінен прайгравацца альбо стаяць на паўзе."
 
-#: modules/gui/macosx/controls.m:53 modules/gui/macosx/MainMenu.m:1482
+#: modules/gui/macosx/controls.m:53 modules/gui/macosx/MainMenu.m:1487
 msgid "Jump To Time"
 msgstr "Перайсці да часу"
 
@@ -16547,7 +16547,7 @@ msgstr ""
 msgid "Backward"
 msgstr "Назад"
 
-#: modules/gui/macosx/ControlsBar.m:57 modules/gui/macosx/ControlsBar.m:831
+#: modules/gui/macosx/ControlsBar.m:57 modules/gui/macosx/ControlsBar.m:181
 msgid ""
 "Click to go to the previous playlist item. Hold to skip backward through the "
 "current media."
@@ -16559,7 +16559,7 @@ msgstr ""
 msgid "Forward"
 msgstr "Наперад"
 
-#: modules/gui/macosx/ControlsBar.m:61 modules/gui/macosx/ControlsBar.m:832
+#: modules/gui/macosx/ControlsBar.m:61 modules/gui/macosx/ControlsBar.m:182
 msgid ""
 "Click to go to the next playlist item. Hold to skip forward through the "
 "current media."
@@ -16583,15 +16583,23 @@ msgstr "Укл./выкл. поўнаэкранны рэжым"
 msgid "Click to enable fullscreen video playback."
 msgstr "Пстрыкніце, каб актывізаваць поўнаэкранны рэжым прайгравання."
 
-#: modules/gui/macosx/ControlsBar.m:437
+#: modules/gui/macosx/ControlsBar.m:173 modules/gui/macosx/fspanel.m:417
+msgid "Click and hold to skip backward through the current media."
+msgstr "Пстрыкніце і ўтрымлівайце, каб пераматаць назад бягучы медыяаб'ект."
+
+#: modules/gui/macosx/ControlsBar.m:174 modules/gui/macosx/fspanel.m:419
+msgid "Click and hold to skip forward through the current media."
+msgstr "Пстрыкніце і ўтрымлівайце, каб пераматаць наперад бягучы медыяаб'ект."
+
+#: modules/gui/macosx/ControlsBar.m:471
 msgid "Click to stop playback."
 msgstr "Пстрыкніце, каб спыніць прайграванне."
 
-#: modules/gui/macosx/ControlsBar.m:440
+#: modules/gui/macosx/ControlsBar.m:474
 msgid "Show/Hide Playlist"
 msgstr "Паказаць/схаваць плэйліст"
 
-#: modules/gui/macosx/ControlsBar.m:441
+#: modules/gui/macosx/ControlsBar.m:475
 msgid ""
 "Click to switch between video output and playlist. If no video is shown in "
 "the main window, this allows you to hide the playlist."
@@ -16599,12 +16607,12 @@ msgstr ""
 "Дазваляе пераключацца паміж відэа і плэйлістом. Калі асноўнае акно не "
 "паказвае відэа, гэтай кнопкай можна схаваць плэйліст."
 
-#: modules/gui/macosx/ControlsBar.m:444 modules/gui/qt4/dialogs/vlm.cpp:560
+#: modules/gui/macosx/ControlsBar.m:478 modules/gui/qt4/dialogs/vlm.cpp:560
 #: share/lua/http/index.html:241
 msgid "Repeat"
 msgstr "Паўтор"
 
-#: modules/gui/macosx/ControlsBar.m:445
+#: modules/gui/macosx/ControlsBar.m:479
 msgid ""
 "Click to change repeat mode. There are 3 states: repeat one, repeat all and "
 "off."
@@ -16612,16 +16620,16 @@ msgstr ""
 "Пстрыкніце, каб змяніць рэжым паўтору. Усяго рэжымаў 3: паўтараць адзін "
 "медыяаб'ект, паўтараць усе і выкл."
 
-#: modules/gui/macosx/ControlsBar.m:448 share/lua/http/index.html:239
+#: modules/gui/macosx/ControlsBar.m:482 share/lua/http/index.html:239
 msgid "Shuffle"
 msgstr "Перамяшаць"
 
-#: modules/gui/macosx/ControlsBar.m:450
+#: modules/gui/macosx/ControlsBar.m:484
 msgid "Click to enable or disable random playback."
 msgstr ""
 "Пстрыкніце, каб уключыць альбо адключыць прайграванне ў выпадковым парадку."
 
-#: modules/gui/macosx/ControlsBar.m:453 modules/gui/macosx/fspanel.m:464
+#: modules/gui/macosx/ControlsBar.m:487 modules/gui/macosx/fspanel.m:464
 msgid ""
 "Click and move the mouse while keeping the button pressed to use this slider "
 "to change the volume."
@@ -16629,24 +16637,24 @@ msgstr ""
 "Пстрыкніце і, утрымліваючы кнопку мышы, перасоўвайце паўзунок, каб змяніць "
 "гучнасць."
 
-#: modules/gui/macosx/ControlsBar.m:456
+#: modules/gui/macosx/ControlsBar.m:490
 msgid "Click to mute or unmute the audio."
 msgstr "Пстрыкніце, каб выключыць альбо ўключыць гук."
 
-#: modules/gui/macosx/ControlsBar.m:458
+#: modules/gui/macosx/ControlsBar.m:492
 msgid "Full Volume"
 msgstr "Максімальная гучнасць"
 
-#: modules/gui/macosx/ControlsBar.m:459
+#: modules/gui/macosx/ControlsBar.m:493
 msgid "Click to play the audio at maximum volume."
 msgstr "Пстрыкніце, каб выставіць максімальную гучнасць."
 
-#: modules/gui/macosx/ControlsBar.m:462 modules/gui/macosx/simple_prefs.m:309
+#: modules/gui/macosx/ControlsBar.m:496 modules/gui/macosx/simple_prefs.m:309
 #: modules/gui/qt4/ui/sprefs_audio.h:420
 msgid "Effects"
 msgstr "Эфекты"
 
-#: modules/gui/macosx/ControlsBar.m:463
+#: modules/gui/macosx/ControlsBar.m:497
 msgid ""
 "Click to show an Audio Effects panel featuring an equalizer and further "
 "filters."
@@ -16654,21 +16662,13 @@ msgstr ""
 "Пстрыкніце, каб адкрыць панэль Аўдыёэфектаў, што ўключае эквалайзер і іншыя "
 "фільтры."
 
-#: modules/gui/macosx/ControlsBar.m:717 modules/gui/macosx/fspanel.m:416
+#: modules/gui/macosx/ControlsBar.m:751 modules/gui/macosx/fspanel.m:416
 msgid "Click to go to the previous playlist item."
 msgstr "Пстрыкніце, каб перайсці на папярэдняга аб'екта плэйліста."
 
-#: modules/gui/macosx/ControlsBar.m:728 modules/gui/macosx/fspanel.m:420
+#: modules/gui/macosx/ControlsBar.m:762 modules/gui/macosx/fspanel.m:420
 msgid "Click to go to the next playlist item."
 msgstr "Пстрыкніце, каб перайсці да наступнага аб'екта плэйліста."
-
-#: modules/gui/macosx/ControlsBar.m:744 modules/gui/macosx/fspanel.m:417
-msgid "Click and hold to skip backward through the current media."
-msgstr "Пстрыкніце і ўтрымлівайце, каб пераматаць назад бягучы медыяаб'ект."
-
-#: modules/gui/macosx/ControlsBar.m:745 modules/gui/macosx/fspanel.m:419
-msgid "Click and hold to skip forward through the current media."
-msgstr "Пстрыкніце і ўтрымлівайце, каб пераматаць наперад бягучы медыяаб'ект."
 
 #: modules/gui/macosx/ConvertAndSave.m:152
 msgid "Convert & Stream"
@@ -16705,7 +16705,7 @@ msgstr "Выберыце адрас прызначэння"
 #: modules/gui/macosx/ConvertAndSave.m:161 modules/gui/macosx/open.m:138
 #: modules/gui/macosx/open.m:367 modules/gui/macosx/output.m:136
 #: modules/gui/macosx/prefs_widgets.m:1114
-#: modules/gui/macosx/simple_prefs.m:333 modules/gui/macosx/simple_prefs.m:402
+#: modules/gui/macosx/simple_prefs.m:333 modules/gui/macosx/simple_prefs.m:403
 #: modules/gui/qt4/components/preferences_widgets.cpp:263
 #: modules/gui/qt4/components/simple_preferences.cpp:421
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:98
@@ -16892,8 +16892,8 @@ msgid "A SDP export is requested, but no URL is provided."
 msgstr "Запытаны SDP-экспарт, але не зададзены URL."
 
 #: modules/gui/macosx/ConvertAndSave.m:1052
-#: modules/gui/macosx/simple_prefs.m:708 modules/gui/macosx/simple_prefs.m:732
-#: modules/gui/macosx/simple_prefs.m:1290
+#: modules/gui/macosx/simple_prefs.m:710 modules/gui/macosx/simple_prefs.m:734
+#: modules/gui/macosx/simple_prefs.m:1293
 #: modules/gui/qt4/components/simple_preferences.cpp:668
 msgid "Custom"
 msgstr "Іншае"
@@ -16995,36 +16995,36 @@ msgstr ""
 msgid "Don't ask again"
 msgstr "Больш не пытаць"
 
-#: modules/gui/macosx/intf.m:1498 modules/gui/macosx/intf.m:1515
+#: modules/gui/macosx/intf.m:1501 modules/gui/macosx/intf.m:1518
 msgid "VLC media playback"
 msgstr "Прайграванне медыяаб'ектаў у VLC"
 
-#: modules/gui/macosx/intf.m:1877
+#: modules/gui/macosx/intf.m:1880
 msgid "No CrashLog found"
 msgstr "Часапіс збояў не знойдзены"
 
-#: modules/gui/macosx/intf.m:1877 modules/gui/macosx/simple_prefs.m:841
+#: modules/gui/macosx/intf.m:1880 modules/gui/macosx/simple_prefs.m:843
 #: modules/gui/qt4/dialogs/firstrun.cpp:109
 msgid "Continue"
 msgstr "Працягнуць"
 
-#: modules/gui/macosx/intf.m:1877
+#: modules/gui/macosx/intf.m:1880
 msgid "Couldn't find any trace of a previous crash."
 msgstr "Ніякіх прыкмет папярэдняга збою не выяўлена."
 
-#: modules/gui/macosx/intf.m:1921
+#: modules/gui/macosx/intf.m:1936
 msgid "Remove old preferences?"
 msgstr "Выдаліць старыя настаўленні?"
 
-#: modules/gui/macosx/intf.m:1922
+#: modules/gui/macosx/intf.m:1937
 msgid "We just found an older version of VLC's preferences files."
 msgstr "Знойдзена старэйшая версія файлаў настаўленняў VLC."
 
-#: modules/gui/macosx/intf.m:1923
+#: modules/gui/macosx/intf.m:1938
 msgid "Move To Trash and Relaunch VLC"
 msgstr "Перасунуць у сметніцу і перазапусціць VLC"
 
-#: modules/gui/macosx/intf.m:2049
+#: modules/gui/macosx/intf.m:2065
 #, c-format
 msgid "VLC Debug Log (%s).rtf"
 msgstr "Часапіс адладкі VLC (%s).rtf"
@@ -17200,7 +17200,7 @@ msgid ""
 msgstr ""
 "Гэты параметр дазваляе VLC мяняць значок інтэрфейсу ў розных сітуацыях."
 
-#: modules/gui/macosx/macosx.m:110 modules/gui/macosx/MainMenu.m:1312
+#: modules/gui/macosx/macosx.m:110 modules/gui/macosx/MainMenu.m:1317
 msgid "Lock Aspect Ratio"
 msgstr "Фіксаваны стасунак бакоў"
 
@@ -17333,7 +17333,7 @@ msgstr "Схаваць VLC"
 msgid "Hide Others"
 msgstr "Схаваць астатнія"
 
-#: modules/gui/macosx/MainMenu.m:317 modules/gui/macosx/simple_prefs.m:412
+#: modules/gui/macosx/MainMenu.m:317 modules/gui/macosx/simple_prefs.m:413
 msgid "Show All"
 msgstr "Паказаць усё"
 
@@ -17418,15 +17418,15 @@ msgstr "Сінхранізацыя дарожак"
 msgid "A→B Loop"
 msgstr "Цыкл A→B"
 
-#: modules/gui/macosx/MainMenu.m:366 modules/gui/macosx/MainMenu.m:1475
+#: modules/gui/macosx/MainMenu.m:366 modules/gui/macosx/MainMenu.m:1480
 msgid "Quit after Playback"
 msgstr "Выйсці пасля прайгравання"
 
-#: modules/gui/macosx/MainMenu.m:367 modules/gui/macosx/MainMenu.m:1480
+#: modules/gui/macosx/MainMenu.m:367 modules/gui/macosx/MainMenu.m:1485
 msgid "Step Forward"
 msgstr "Наперад"
 
-#: modules/gui/macosx/MainMenu.m:368 modules/gui/macosx/MainMenu.m:1481
+#: modules/gui/macosx/MainMenu.m:368 modules/gui/macosx/MainMenu.m:1486
 msgid "Step Backward"
 msgstr "Назад"
 
@@ -17442,30 +17442,30 @@ msgstr "Зменшыць гучнасць"
 msgid "Audio Device"
 msgstr "Аўдыёпрылада"
 
-#: modules/gui/macosx/MainMenu.m:391 modules/gui/macosx/MainMenu.m:1492
+#: modules/gui/macosx/MainMenu.m:391 modules/gui/macosx/MainMenu.m:1497
 msgid "Half Size"
 msgstr "Палавінны памер"
 
-#: modules/gui/macosx/MainMenu.m:392 modules/gui/macosx/MainMenu.m:1493
-#: modules/gui/macosx/MainMenu.m:1532
+#: modules/gui/macosx/MainMenu.m:392 modules/gui/macosx/MainMenu.m:1498
+#: modules/gui/macosx/MainMenu.m:1537
 msgid "Normal Size"
 msgstr "Нармальны памер"
 
-#: modules/gui/macosx/MainMenu.m:393 modules/gui/macosx/MainMenu.m:1494
+#: modules/gui/macosx/MainMenu.m:393 modules/gui/macosx/MainMenu.m:1499
 msgid "Double Size"
 msgstr "Двайны памер"
 
-#: modules/gui/macosx/MainMenu.m:394 modules/gui/macosx/MainMenu.m:1495
+#: modules/gui/macosx/MainMenu.m:394 modules/gui/macosx/MainMenu.m:1500
 msgid "Fit to Screen"
 msgstr "Падагнаць пад экран"
 
-#: modules/gui/macosx/MainMenu.m:396 modules/gui/macosx/MainMenu.m:1498
-#: modules/gui/macosx/MainMenu.m:1504
+#: modules/gui/macosx/MainMenu.m:396 modules/gui/macosx/MainMenu.m:1503
+#: modules/gui/macosx/MainMenu.m:1509
 msgid "Float on Top"
 msgstr "Па-над усімі вокнамі"
 
 #: modules/gui/macosx/MainMenu.m:404 modules/gui/macosx/MainMenu.m:405
-#: modules/gui/macosx/simple_prefs.m:393
+#: modules/gui/macosx/simple_prefs.m:394
 msgid "Fullscreen Video Device"
 msgstr "Прылада поўнаэкраннага відэа"
 
@@ -17474,7 +17474,7 @@ msgstr "Прылада поўнаэкраннага відэа"
 msgid "Post processing"
 msgstr "Постапрацоўка"
 
-#: modules/gui/macosx/MainMenu.m:414 modules/gui/macosx/MainMenu.m:1517
+#: modules/gui/macosx/MainMenu.m:414 modules/gui/macosx/MainMenu.m:1522
 msgid "Add Subtitle File..."
 msgstr "Дадаць файл субтытраў..."
 
@@ -17714,7 +17714,7 @@ msgid "Play another media synchronously"
 msgstr "Сінхронна граць іншы медыяаб'ект"
 
 #: modules/gui/macosx/open.m:143 modules/gui/macosx/open.m:365
-#: modules/gui/macosx/simple_prefs.m:378 modules/gui/macosx/wizard.m:343
+#: modules/gui/macosx/simple_prefs.m:379 modules/gui/macosx/wizard.m:343
 #: modules/gui/macosx/wizard.m:411 modules/gui/qt4/ui/sprefs_interface.h:530
 msgid "Choose..."
 msgstr "Выбраць..."
@@ -17901,7 +17901,7 @@ msgstr "к/сек"
 msgid "Subtitle encoding"
 msgstr "Кадзіроўка субтытраў"
 
-#: modules/gui/macosx/open.m:376 modules/gui/macosx/simple_prefs.m:380
+#: modules/gui/macosx/open.m:376 modules/gui/macosx/simple_prefs.m:381
 #: modules/gui/qt4/ui/sprefs_subtitles.h:296
 msgid "Font size"
 msgstr "Памер шрыфту"
@@ -18130,12 +18130,12 @@ msgstr "Памылка пры захаванні метаданых"
 msgid "VLC was unable to save the meta data."
 msgstr "VLC не можа захаваць гэтыя метаданыя"
 
-#: modules/gui/macosx/prefs.m:206 modules/gui/macosx/simple_prefs.m:416
+#: modules/gui/macosx/prefs.m:206 modules/gui/macosx/simple_prefs.m:417
 #: modules/gui/qt4/dialogs/preferences.cpp:52
 msgid "Preferences"
 msgstr "Настаўленні"
 
-#: modules/gui/macosx/prefs.m:209 modules/gui/macosx/simple_prefs.m:414
+#: modules/gui/macosx/prefs.m:209 modules/gui/macosx/simple_prefs.m:415
 msgid "Reset All"
 msgstr "Скінуць ўсё"
 
@@ -18314,125 +18314,130 @@ msgstr "Уключыць паведамленні Growl (пры змене аб'
 msgid "Lua HTTP"
 msgstr "HTTP"
 
-#: modules/gui/macosx/simple_prefs.m:376
+#: modules/gui/macosx/simple_prefs.m:374
+#, fuzzy
+msgid "Control iTunes during playback"
+msgstr "Ставіць iTunes на паўзу на час грання VLC"
+
+#: modules/gui/macosx/simple_prefs.m:377
 msgid "Default Encoding"
 msgstr "Стандартная кадзіроўка"
 
-#: modules/gui/macosx/simple_prefs.m:377
+#: modules/gui/macosx/simple_prefs.m:378
 msgid "Display Settings"
 msgstr "Настаўленні адлюстравання"
 
-#: modules/gui/macosx/simple_prefs.m:379
+#: modules/gui/macosx/simple_prefs.m:380
 #: modules/gui/qt4/ui/sprefs_subtitles.h:297
 msgid "Font color"
 msgstr "Колер шрыфту"
 
-#: modules/gui/macosx/simple_prefs.m:381 modules/text_renderer/freetype.c:154
+#: modules/gui/macosx/simple_prefs.m:382 modules/text_renderer/freetype.c:155
 #: modules/text_renderer/quartztext.c:92 modules/text_renderer/win32text.c:59
 #: modules/video_filter/marq.c:167 modules/video_filter/rss.c:206
 #: modules/gui/qt4/ui/sprefs_subtitles.h:295
 msgid "Font"
 msgstr "Шрыфт"
 
-#: modules/gui/macosx/simple_prefs.m:382
+#: modules/gui/macosx/simple_prefs.m:383
 msgid "Subtitle languages"
 msgstr "Мовы субтытраў"
 
-#: modules/gui/macosx/simple_prefs.m:383
+#: modules/gui/macosx/simple_prefs.m:384
 #: modules/gui/qt4/ui/sprefs_subtitles.h:292
 msgid "Preferred subtitle language"
 msgstr "Пажаданая мова субтытраў"
 
-#: modules/gui/macosx/simple_prefs.m:385
+#: modules/gui/macosx/simple_prefs.m:386
 msgid "Enable OSD"
 msgstr "Уключыць экранную індыкацыю"
 
-#: modules/gui/macosx/simple_prefs.m:386 modules/text_renderer/win32text.c:66
+#: modules/gui/macosx/simple_prefs.m:387 modules/text_renderer/win32text.c:66
 #: modules/video_filter/marq.c:118 modules/video_filter/rss.c:146
 msgid "Opacity"
 msgstr "Непразрыстасць"
 
-#: modules/gui/macosx/simple_prefs.m:387 modules/text_renderer/freetype.c:178
+#: modules/gui/macosx/simple_prefs.m:388 modules/text_renderer/freetype.c:179
 msgid "Force bold"
 msgstr "Тоўсты"
 
-#: modules/gui/macosx/simple_prefs.m:388 modules/text_renderer/freetype.c:184
+#: modules/gui/macosx/simple_prefs.m:389 modules/text_renderer/freetype.c:185
 #: modules/gui/qt4/ui/sprefs_subtitles.h:299
 msgid "Outline color"
 msgstr "Колер контуру"
 
-#: modules/gui/macosx/simple_prefs.m:389 modules/text_renderer/freetype.c:185
+#: modules/gui/macosx/simple_prefs.m:390 modules/text_renderer/freetype.c:186
 #: modules/gui/qt4/ui/sprefs_subtitles.h:298
 msgid "Outline thickness"
 msgstr "Таўшчыня контуру"
 
-#: modules/gui/macosx/simple_prefs.m:392
+#: modules/gui/macosx/simple_prefs.m:393
 msgid "Black screens in Fullscreen mode"
 msgstr "Зачарніць экран у поўнаэкранным рэжыме"
 
-#: modules/gui/macosx/simple_prefs.m:394 modules/stream_out/display.c:53
+#: modules/gui/macosx/simple_prefs.m:395 modules/stream_out/display.c:53
 #: modules/gui/qt4/ui/sprefs_video.h:341
 msgid "Display"
 msgstr "Адлюстраванне"
 
-#: modules/gui/macosx/simple_prefs.m:399
+#: modules/gui/macosx/simple_prefs.m:400
 msgid "Output module"
 msgstr "Модуль вываду"
 
-#: modules/gui/macosx/simple_prefs.m:401 modules/gui/qt4/ui/sprefs_video.h:357
+#: modules/gui/macosx/simple_prefs.m:402 modules/gui/qt4/ui/sprefs_video.h:357
 msgid "Video snapshots"
 msgstr "Відэаздымкі"
 
-#: modules/gui/macosx/simple_prefs.m:403 modules/meta_engine/folder.c:63
+#: modules/gui/macosx/simple_prefs.m:404 modules/meta_engine/folder.c:63
 msgid "Folder"
 msgstr "Папка"
 
-#: modules/gui/macosx/simple_prefs.m:404 modules/gui/qt4/ui/sprefs_video.h:362
+#: modules/gui/macosx/simple_prefs.m:405 modules/gui/qt4/ui/sprefs_video.h:362
 msgid "Format"
 msgstr "Фармат"
 
-#: modules/gui/macosx/simple_prefs.m:405 modules/gui/qt4/ui/sprefs_video.h:360
+#: modules/gui/macosx/simple_prefs.m:406 modules/gui/qt4/ui/sprefs_video.h:360
 msgid "Prefix"
 msgstr "Прэфікс"
 
-#: modules/gui/macosx/simple_prefs.m:406 modules/gui/qt4/ui/sprefs_video.h:363
+#: modules/gui/macosx/simple_prefs.m:407 modules/gui/qt4/ui/sprefs_video.h:363
 msgid "Sequential numbering"
 msgstr "Паслядоўная нумарацыя"
 
-#: modules/gui/macosx/simple_prefs.m:588
+#: modules/gui/macosx/simple_prefs.m:589
 msgid "Last check on: %@"
 msgstr "Апошняя праверка: %@"
 
-#: modules/gui/macosx/simple_prefs.m:590
+#: modules/gui/macosx/simple_prefs.m:591
 msgid "No check was performed yet."
 msgstr "Праверка яшчэ не выконвалася."
 
-#: modules/gui/macosx/simple_prefs.m:708
+#: modules/gui/macosx/simple_prefs.m:710
 #: modules/gui/qt4/components/simple_preferences.cpp:669
 msgid "Lowest latency"
 msgstr "Найніжэйшая латэнтнасць"
 
-#: modules/gui/macosx/simple_prefs.m:709
+#: modules/gui/macosx/simple_prefs.m:711
 #: modules/gui/qt4/components/simple_preferences.cpp:670
 msgid "Low latency"
 msgstr "Нізкая латэнтнасць"
 
-#: modules/gui/macosx/simple_prefs.m:709
+#: modules/gui/macosx/simple_prefs.m:711
 #: modules/gui/qt4/components/simple_preferences.cpp:672
 msgid "High latency"
 msgstr "Вялікая латэнтнасць"
 
-#: modules/gui/macosx/simple_prefs.m:709
+#: modules/gui/macosx/simple_prefs.m:711
 #: modules/gui/qt4/components/simple_preferences.cpp:673
 msgid "Higher latency"
 msgstr "Найбольшая латэнтнасць"
 
-#: modules/gui/macosx/simple_prefs.m:840
+#: modules/gui/macosx/simple_prefs.m:842
 #: modules/gui/qt4/dialogs/preferences.cpp:326
 msgid "Reset Preferences"
 msgstr "Скінуць настаўленні"
 
-#: modules/gui/macosx/simple_prefs.m:843
+#: modules/gui/macosx/simple_prefs.m:845
 msgid ""
 "This will reset VLC media player's preferences.\n"
 "\n"
@@ -18454,20 +18459,20 @@ msgstr ""
 "\n"
 "Напраўду жадаеце працягнуць?"
 
-#: modules/gui/macosx/simple_prefs.m:1209
+#: modules/gui/macosx/simple_prefs.m:1212
 msgid "Choose the folder to save your video snapshots to."
 msgstr "Выберыце каталог для захавання відэаздымкаў"
 
-#: modules/gui/macosx/simple_prefs.m:1211
-#: modules/gui/macosx/simple_prefs.m:1302
+#: modules/gui/macosx/simple_prefs.m:1214
+#: modules/gui/macosx/simple_prefs.m:1305
 msgid "Choose"
 msgstr "Выбраць"
 
-#: modules/gui/macosx/simple_prefs.m:1300
+#: modules/gui/macosx/simple_prefs.m:1303
 msgid "Choose the directory or filename where the records will be stored."
 msgstr "Назва каталога або файла для захавання запісаў"
 
-#: modules/gui/macosx/simple_prefs.m:1419
+#: modules/gui/macosx/simple_prefs.m:1422
 msgid ""
 "Press new keys for\n"
 "\"%@\""
@@ -18475,16 +18480,16 @@ msgstr ""
 "Націсніце спалучэнне клавіш для\n"
 "\"%@\""
 
-#: modules/gui/macosx/simple_prefs.m:1496
+#: modules/gui/macosx/simple_prefs.m:1499
 msgid "Invalid combination"
 msgstr "Хібная камбінацыя"
 
-#: modules/gui/macosx/simple_prefs.m:1497
+#: modules/gui/macosx/simple_prefs.m:1500
 msgid "Regrettably, these keys cannot be assigned as hotkey shortcuts."
 msgstr "Гэтыя клавішы не могуць быць ужыты ў якасці скаротаў."
 
-#: modules/gui/macosx/simple_prefs.m:1507
-#: modules/gui/macosx/simple_prefs.m:1511
+#: modules/gui/macosx/simple_prefs.m:1510
+#: modules/gui/macosx/simple_prefs.m:1514
 msgid "This combination is already taken by \"%@\"."
 msgstr "Гэтая камбінацыя ўжо прызначана для \"%@\"."
 
@@ -20550,20 +20555,20 @@ msgstr "Выдаліць выбраны профіль"
 msgid "Create a new profile"
 msgstr "Стварыць новы профіль"
 
-#: modules/gui/qt4/components/sout/profile_selector.cpp:432
+#: modules/gui/qt4/components/sout/profile_selector.cpp:424
 #: modules/gui/qt4/dialogs/bookmarks.cpp:47
 msgid "Create"
 msgstr "Стварыць"
 
-#: modules/gui/qt4/components/sout/profile_selector.cpp:610
+#: modules/gui/qt4/components/sout/profile_selector.cpp:602
 msgid "This muxer is not provided directly by VLC: It could be missing."
 msgstr "Мультыплексар не пастаўляецца разам з VLC: ён можа адсутнічаць."
 
-#: modules/gui/qt4/components/sout/profile_selector.cpp:754
+#: modules/gui/qt4/components/sout/profile_selector.cpp:746
 msgid " Profile Name Missing"
 msgstr "Няма назвы профілю"
 
-#: modules/gui/qt4/components/sout/profile_selector.cpp:755
+#: modules/gui/qt4/components/sout/profile_selector.cpp:747
 msgid "You must set a name for the profile."
 msgstr "Профіль павінен мець назву."
 
@@ -24083,23 +24088,23 @@ msgstr "Перакадаванне выходнага патоку"
 msgid "Overlays/Subtitles"
 msgstr "Пласты/Субтытры"
 
-#: modules/text_renderer/freetype.c:155
+#: modules/text_renderer/freetype.c:156
 msgid "Monospace Font"
 msgstr "Роўнашырокі шрыфт"
 
-#: modules/text_renderer/freetype.c:157
+#: modules/text_renderer/freetype.c:158
 msgid "Font family for the font you want to use"
 msgstr "Назва сямейства шрыфту, які вы жадаеце выкарыстоўваць"
 
-#: modules/text_renderer/freetype.c:158
+#: modules/text_renderer/freetype.c:159
 msgid "Font file for the font you want to use"
 msgstr "Файл шрыфту, які вы жадаеце выкарыстоўваць"
 
-#: modules/text_renderer/freetype.c:160 modules/text_renderer/win32text.c:61
+#: modules/text_renderer/freetype.c:161 modules/text_renderer/win32text.c:61
 msgid "Font size in pixels"
 msgstr "Памер шрыфту ў пікселях"
 
-#: modules/text_renderer/freetype.c:161 modules/text_renderer/win32text.c:62
+#: modules/text_renderer/freetype.c:162 modules/text_renderer/win32text.c:62
 msgid ""
 "This is the default size of the fonts that will be rendered on the video. If "
 "set to something different than 0 this option will override the relative "
@@ -24108,11 +24113,11 @@ msgstr ""
 "Стандартны памер шрыфтоў, якія будуць выводзіцца паўзверх відэа. Калі "
 "значэнне гэтага параметра не 0, то яно замесціць адносны памер шрыфту."
 
-#: modules/text_renderer/freetype.c:165
+#: modules/text_renderer/freetype.c:166
 msgid "Text opacity"
 msgstr "Празрыстасць тэксту"
 
-#: modules/text_renderer/freetype.c:166 modules/text_renderer/win32text.c:67
+#: modules/text_renderer/freetype.c:167 modules/text_renderer/win32text.c:67
 msgid ""
 "The opacity (inverse of transparency) of the text that will be rendered on "
 "the video. 0 = transparent, 255 = totally opaque. "
@@ -24120,12 +24125,12 @@ msgstr ""
 "Празрыстасць тэксту, які будзе выводзіцца паўзверх відэа (0 = празрысты, 255 "
 "= цалкам непразрысты)."
 
-#: modules/text_renderer/freetype.c:169 modules/text_renderer/quartztext.c:98
+#: modules/text_renderer/freetype.c:170 modules/text_renderer/quartztext.c:98
 #: modules/text_renderer/win32text.c:70
 msgid "Text default color"
 msgstr "Колер тэксту"
 
-#: modules/text_renderer/freetype.c:170 modules/text_renderer/quartztext.c:99
+#: modules/text_renderer/freetype.c:171 modules/text_renderer/quartztext.c:99
 #: modules/text_renderer/win32text.c:71
 msgid ""
 "The color of the text that will be rendered on the video. This must be an "
@@ -24138,12 +24143,12 @@ msgstr ""
 "сіні. #000000=чорны, #FF0000=чырвоны, #00FF00=зялёны, #FFF00=жоўты (чырвоны "
 "+ зялёны), #FFFFFF=белы"
 
-#: modules/text_renderer/freetype.c:174 modules/text_renderer/quartztext.c:94
+#: modules/text_renderer/freetype.c:175 modules/text_renderer/quartztext.c:94
 #: modules/text_renderer/win32text.c:75
 msgid "Relative font size"
 msgstr "Адносны памер шрыфту"
 
-#: modules/text_renderer/freetype.c:175 modules/text_renderer/quartztext.c:95
+#: modules/text_renderer/freetype.c:176 modules/text_renderer/quartztext.c:95
 #: modules/text_renderer/win32text.c:76
 msgid ""
 "This is the relative default size of the fonts that will be rendered on the "
@@ -24152,59 +24157,59 @@ msgstr ""
 "Адносны памер шрыфтоў, якія будуць выводзіцца паўзверх відэа. Калі вызначаны "
 "абсалютны памер шрыфту, адносны будзе праігнараваны."
 
-#: modules/text_renderer/freetype.c:180
+#: modules/text_renderer/freetype.c:181
 msgid "Background opacity"
 msgstr "Празрыстасць фону"
 
-#: modules/text_renderer/freetype.c:181
+#: modules/text_renderer/freetype.c:182
 msgid "Background color"
 msgstr "Колер фону"
 
-#: modules/text_renderer/freetype.c:183
+#: modules/text_renderer/freetype.c:184
 msgid "Outline opacity"
 msgstr "Празрыстасць контуру"
 
-#: modules/text_renderer/freetype.c:187
+#: modules/text_renderer/freetype.c:188
 msgid "Shadow opacity"
 msgstr "Празрыстасць ценю"
 
-#: modules/text_renderer/freetype.c:188
+#: modules/text_renderer/freetype.c:189
 msgid "Shadow color"
 msgstr "Колер ценю"
 
-#: modules/text_renderer/freetype.c:189
+#: modules/text_renderer/freetype.c:190
 msgid "Shadow angle"
 msgstr "Вугал ценю"
 
-#: modules/text_renderer/freetype.c:190
+#: modules/text_renderer/freetype.c:191
 msgid "Shadow distance"
 msgstr "Зрух ценю"
 
-#: modules/text_renderer/freetype.c:195 modules/text_renderer/quartztext.c:121
+#: modules/text_renderer/freetype.c:196 modules/text_renderer/quartztext.c:121
 #: modules/text_renderer/win32text.c:82
 msgid "Smaller"
 msgstr "Найменшы"
 
-#: modules/text_renderer/freetype.c:195 modules/text_renderer/quartztext.c:121
+#: modules/text_renderer/freetype.c:196 modules/text_renderer/quartztext.c:121
 #: modules/text_renderer/win32text.c:82
 msgid "Small"
 msgstr "Малы"
 
-#: modules/text_renderer/freetype.c:195 modules/text_renderer/quartztext.c:121
+#: modules/text_renderer/freetype.c:196 modules/text_renderer/quartztext.c:121
 #: modules/text_renderer/win32text.c:82
 msgid "Large"
 msgstr "Вялікі"
 
-#: modules/text_renderer/freetype.c:195 modules/text_renderer/quartztext.c:121
+#: modules/text_renderer/freetype.c:196 modules/text_renderer/quartztext.c:121
 #: modules/text_renderer/win32text.c:82
 msgid "Larger"
 msgstr "Найбольшы"
 
-#: modules/text_renderer/freetype.c:196
+#: modules/text_renderer/freetype.c:197
 msgid "Use YUVP renderer"
 msgstr "Выкарыстоўваць візуалізатар YUVP"
 
-#: modules/text_renderer/freetype.c:197
+#: modules/text_renderer/freetype.c:198
 msgid ""
 "This renders the font using \"paletized YUV\". This option is only needed if "
 "you want to encode into DVB subtitles"
@@ -24212,23 +24217,23 @@ msgstr ""
 "Візуалізацыя шрыфту з выкарыстаннем \"палітры YUV\". Гэты параметр неабходны "
 "толькі калі вы жадаеце закадаваць у DVB-субтытры"
 
-#: modules/text_renderer/freetype.c:214
+#: modules/text_renderer/freetype.c:215
 msgid "Thin"
 msgstr "Тонкі"
 
-#: modules/text_renderer/freetype.c:214
+#: modules/text_renderer/freetype.c:215
 msgid "Thick"
 msgstr "Тоўсты"
 
-#: modules/text_renderer/freetype.c:218 modules/text_renderer/win32text.c:94
+#: modules/text_renderer/freetype.c:219 modules/text_renderer/win32text.c:94
 msgid "Text renderer"
 msgstr "Візуалізатар тэксту"
 
-#: modules/text_renderer/freetype.c:219
+#: modules/text_renderer/freetype.c:220
 msgid "Freetype2 font renderer"
 msgstr "Візуалізатар шрыфтоў Freetype2"
 
-#: modules/text_renderer/freetype.c:499
+#: modules/text_renderer/freetype.c:500
 msgid ""
 "Please wait while your font cache is rebuilt.\n"
 "This should take less than a few minutes."
