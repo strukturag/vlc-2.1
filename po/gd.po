@@ -1,4 +1,4 @@
-# Gaelic Scottish translation
+# Scottish Gaelic translation
 # Copyright (C) 2013 VideoLAN
 # This file is distributed under the same license as the VLC package.
 #
@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-11-11 19:12+0100\n"
-"PO-Revision-Date: 2013-05-04 07:53+0000\n"
-"Last-Translator: Christoph Miebach <christoph.miebach@web.de>\n"
+"PO-Revision-Date: 2013-11-11 23:50+0000\n"
+"Last-Translator: Michael Bauer <fios@akerbeltz.org>\n"
 "Language-Team: Gaelic, Scottish (http://www.transifex.com/projects/p/vlc-"
 "trans/language/gd/)\n"
 "Language: gd\n"
@@ -232,7 +232,7 @@ msgstr "Video codecs"
 #: include/vlc_config_cat.h:112
 msgid "Settings for the video, images or video+audio decoders and encoders."
 msgstr ""
-"Roghainnean airson dì-chòdaichearan is còdaichearan video, deilbh no video ┐ "
+"Roghainnean airson dì-chòdaichearan is còdaichearan video, deilbh no video ⁊ "
 "deilbh."
 
 #: include/vlc_config_cat.h:114
@@ -995,7 +995,7 @@ msgstr "F9"
 
 #: src/config/keys.c:83
 msgid "Home"
-msgstr ""
+msgstr "Dhachaigh"
 
 #: src/config/keys.c:84
 msgid "Insert"
@@ -1684,7 +1684,7 @@ msgstr ""
 
 #: src/libvlc-module.c:138
 msgid "Audio gain"
-msgstr ""
+msgstr "Tarbhachd fuaime"
 
 #: src/libvlc-module.c:140
 msgid "This linear gain will be applied to outputted audio."
@@ -2207,7 +2207,7 @@ msgstr ""
 
 #: src/libvlc-module.c:383
 msgid "Video filter module"
-msgstr ""
+msgstr "Mòideal criathradh a' video"
 
 #: src/libvlc-module.c:385
 msgid ""
@@ -2245,7 +2245,7 @@ msgstr "Seall ro-shealladh a' snapshot ann an oisean clì aig barr na sgrìn."
 
 #: src/libvlc-module.c:405
 msgid "Use sequential numbers instead of timestamps"
-msgstr ""
+msgstr "Cleachd àireamhan sreath-leanmhainneach seach stampaichean-ama"
 
 #: src/libvlc-module.c:407
 msgid "Use sequential numbers instead of timestamps for snapshot numbering"
@@ -2566,7 +2566,7 @@ msgstr ""
 
 #: src/libvlc-module.c:583 modules/gui/qt4/ui/open_disk.h:313
 msgid "Subtitle track"
-msgstr ""
+msgstr "Traca nam fo-thiotalan"
 
 #: src/libvlc-module.c:585
 msgid "Stream number of the subtitle track to use (from 0 to n)."
@@ -2610,7 +2610,7 @@ msgstr "ID an t-srutha aig traca na fuaime a chleachdar. "
 
 #: src/libvlc-module.c:603
 msgid "Subtitle track ID"
-msgstr ""
+msgstr "ID traca nam fo-thiotalan"
 
 #: src/libvlc-module.c:605
 msgid "Stream ID of the subtitle track to use."
@@ -2771,7 +2771,7 @@ msgstr ""
 
 #: src/libvlc-module.c:680
 msgid "Change title according to current media"
-msgstr ""
+msgstr "Atharraich an tiotal a-rèir a' mheadhain làithrich"
 
 #: src/libvlc-module.c:681
 msgid ""
@@ -3457,6 +3457,8 @@ msgstr ""
 #: src/libvlc-module.c:1085 modules/gui/qt4/ui/sprefs_interface.h:538
 msgid "Use only one instance when started from file manager"
 msgstr ""
+"Na cleachd ach aon ionstans nuair a chaidh a thòiseachadh o mhanaidsear nam "
+"faidhlichean"
 
 #: src/libvlc-module.c:1087
 msgid "Increase the priority of the process"
@@ -3474,7 +3476,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1097 modules/gui/qt4/ui/sprefs_interface.h:534
 msgid "Enqueue items into playlist in one instance mode"
-msgstr ""
+msgstr "Cuir nithean air an liosta-chluich ma bhios e sa mhodh aon-ionstans"
 
 #: src/libvlc-module.c:1099
 msgid ""
@@ -4368,7 +4370,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1395
 msgid "Normal/Loop/Repeat"
-msgstr ""
+msgstr "Àbhaisteach/Lùbadh/Ath-chluich"
 
 #: src/libvlc-module.c:1396
 msgid "Toggle Normal/Loop/Repeat playlist modes"
@@ -5494,34 +5496,37 @@ msgstr "BD"
 
 #: modules/access/bd/bd.c:55
 msgid "Blu-ray Disc Input"
-msgstr ""
+msgstr "Ion-chur diosga Blu-ray"
 
 #: modules/access/bluray.c:60
 msgid "Blu-ray menus"
-msgstr ""
+msgstr "Clàran-taice Blu-ray"
 
 #: modules/access/bluray.c:61
 msgid "Use Blu-ray menus. If disabled, the movie will start directly"
 msgstr ""
+"Cleachd clàran-taice Blu-ray. Ma tha seo à comas, tòisichidh am film sa bhad."
 
 #: modules/access/bluray.c:69 modules/services_discovery/udev.c:596
 #: modules/gui/qt4/ui/open_disk.h:299
 msgid "Blu-ray"
-msgstr ""
+msgstr "Blu-ray"
 
 #: modules/access/bluray.c:70
 msgid "Blu-ray Disc support (libbluray)"
-msgstr ""
+msgstr "Taic le diosga Blu-ray (libbluray)"
 
 #: modules/access/bluray.c:263
 msgid ""
 "This Blu-ray Disc needs a library for AACS decoding, and your system does "
 "not have it."
 msgstr ""
+"Feumaidh an diosga Blu-ray seo leabharlann airson dì-chòdachadh AACS ach "
+"chan eil sin aig an t-siostam agad."
 
 #: modules/access/bluray.c:272
 msgid "Blu-ray Disc is corrupted."
-msgstr ""
+msgstr "Tha an diosga Blu-ray coirbte."
 
 #: modules/access/bluray.c:275
 msgid "Missing AACS configuration file!"
@@ -5557,6 +5562,8 @@ msgid ""
 "This Blu-ray Disc needs a library for BD+ decoding, and your system does not "
 "have it."
 msgstr ""
+"Feumaidh an diosga Blu-ray seo leabharlann airson dì-chòdachadh BD+ ach chan "
+"eil sin aig an t-siostam agad."
 
 #: modules/access/bluray.c:308
 msgid "Your system BD+ decoding library does not work. Missing configuration?"
@@ -5566,7 +5573,7 @@ msgstr ""
 
 #: modules/access/bluray.c:370
 msgid "Blu-ray error"
-msgstr ""
+msgstr "Mearachd Blu-ray"
 
 #: modules/access/cdda.c:62 modules/gui/macosx/open.m:162
 #: modules/gui/qt4/ui/open_disk.h:300
@@ -6885,11 +6892,11 @@ msgstr ""
 
 #: modules/access/jack.c:67
 msgid "JACK audio input"
-msgstr ""
+msgstr "Ion-chur fuaime JACK"
 
 #: modules/access/jack.c:69
 msgid "JACK Input"
-msgstr ""
+msgstr "Ion-chur JACK"
 
 #: modules/access/linsys/linsys_hdsdi.c:72
 #: modules/access/linsys/linsys_sdi.c:67
@@ -6955,11 +6962,11 @@ msgstr ""
 
 #: modules/access/linsys/linsys_sdi.c:92
 msgid "SDI Input"
-msgstr ""
+msgstr "Ion-chur SDI"
 
 #: modules/access/linsys/linsys_sdi.c:113
 msgid "SDI Demux"
-msgstr ""
+msgstr "SDI Demux"
 
 #: modules/access/live555.cpp:78
 msgid "Kasenna RTSP dialect"
@@ -7113,20 +7120,20 @@ msgstr ""
 
 #: modules/access/mtp.c:57
 msgid "MTP input"
-msgstr ""
+msgstr "Ion-chur MTP"
 
 #: modules/access/mtp.c:58
 msgid "MTP"
-msgstr ""
+msgstr "MTP"
 
 #: modules/access/mtp.c:203 modules/access/vdr.c:368
 msgid "VLC could not read the file."
-msgstr ""
+msgstr "Cha b' urrainn dha VLC am faidhle a leughadh."
 
 #: modules/access/mtp.c:292 modules/access/vdr.c:536
 #, c-format
 msgid "VLC could not open the file \"%s\". (%m)"
-msgstr ""
+msgstr "Cha b' urrainn dha VLC am mòideal \"%s\" fhosgladh. (%m)"
 
 #: modules/access/oss.c:66
 msgid "Capture the audio stream in stereo."
@@ -7147,11 +7154,11 @@ msgstr ""
 
 #: modules/access/oss.c:76
 msgid "OSS"
-msgstr ""
+msgstr "OSS"
 
 #: modules/access/oss.c:77
 msgid "OSS input"
-msgstr ""
+msgstr "Ion-chur OSS"
 
 #: modules/access_output/dummy.c:45 modules/stream_out/dummy.c:51
 msgid "Dummy stream output"
@@ -7159,7 +7166,7 @@ msgstr ""
 
 #: modules/access_output/file.c:65
 msgid "Overwrite existing file"
-msgstr ""
+msgstr "Sgrìobh thairis air an fhaidhle làithreach"
 
 #: modules/access_output/file.c:67
 msgid "If the file already exists, it will be overwritten."
@@ -7167,15 +7174,15 @@ msgstr ""
 
 #: modules/access_output/file.c:68
 msgid "Append to file"
-msgstr ""
+msgstr "Cuir ris an fhaidhle"
 
 #: modules/access_output/file.c:69
 msgid "Append to file if it exists instead of replacing it."
-msgstr ""
+msgstr "Cuir ris an fhaidhle, ma tha gin ann, seach a chur 'na àite."
 
 #: modules/access_output/file.c:71
 msgid "Format time and date"
-msgstr ""
+msgstr "Fòrmataich an t-àm is an ceann-là"
 
 #: modules/access_output/file.c:72
 msgid "Perform ISO C time and date formatting on the file path"
@@ -7201,16 +7208,16 @@ msgstr ""
 
 #: modules/access_output/file.c:203
 msgid "Keep existing file"
-msgstr ""
+msgstr "Glèidh am faidhle làithreach"
 
 #: modules/access_output/file.c:204
 msgid "Overwrite"
-msgstr ""
+msgstr "Sgrìobh thairis air"
 
 #: modules/access_output/http.c:51 modules/access/vnc.c:46
 #: modules/misc/audioscrobbler.c:114 modules/stream_out/rtp.c:177
 msgid "Username"
-msgstr ""
+msgstr "Ainm-cleachdaiche"
 
 #: modules/access_output/http.c:52 modules/stream_out/rtp.c:178
 msgid "User name that will be requested to access the stream."
@@ -10298,7 +10305,7 @@ msgstr ""
 
 #: modules/codec/cc.c:55
 msgid "CC 608/708"
-msgstr ""
+msgstr "CC 608/708"
 
 #: modules/codec/cc.c:56
 msgid "Closed Captions decoder"
@@ -10366,7 +10373,7 @@ msgstr ""
 
 #: modules/codec/dirac.c:74 modules/codec/schroedinger.c:134
 msgid "Prefilter"
-msgstr ""
+msgstr "Ro-chriathraich"
 
 #: modules/codec/dirac.c:75 modules/codec/schroedinger.c:135
 msgid "Enable adaptive prefiltering"
@@ -11015,7 +11022,7 @@ msgstr ""
 
 #: modules/codec/libass.c:56
 msgid "Subtitles (advanced)"
-msgstr ""
+msgstr "Fo-thiotalan (adhartach)"
 
 #: modules/codec/libass.c:57
 msgid "Subtitle renderers using libass"
@@ -11088,9 +11095,8 @@ msgid "PNG video decoder"
 msgstr ""
 
 #: modules/codec/qsv.c:56
-#, fuzzy
 msgid "Enable software mode"
-msgstr "Cuir an comas modh a' phàipeir-bhalla "
+msgstr ""
 
 #: modules/codec/qsv.c:57
 msgid ""
@@ -11099,9 +11105,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/qsv.c:61
-#, fuzzy
 msgid "Codec Profile"
-msgstr "Pròifil"
+msgstr ""
 
 #: modules/codec/qsv.c:63
 msgid ""
@@ -11111,9 +11116,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/qsv.c:67
-#, fuzzy
 msgid "Codec Level"
-msgstr "Mion-fhiosrachadh mun chodec"
+msgstr ""
 
 #: modules/codec/qsv.c:69
 msgid ""
@@ -11154,9 +11158,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/qsv.c:90
-#, fuzzy
 msgid "IDR interval"
-msgstr "Eadaramh geàird"
+msgstr ""
 
 #: modules/codec/qsv.c:92
 msgid ""
@@ -11220,9 +11223,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/qsv.c:122
-#, fuzzy
 msgid "Maximum Bitrate"
-msgstr "An ìre as motha"
+msgstr ""
 
 #: modules/codec/qsv.c:123
 msgid ""
@@ -11254,9 +11256,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/qsv.c:139
-#, fuzzy
 msgid "Number of slices per frame"
-msgstr "Àireamh de chlònaichean"
+msgstr ""
 
 #: modules/codec/qsv.c:140
 msgid ""
@@ -11270,9 +11271,8 @@ msgid "Number of reference frames"
 msgstr ""
 
 #: modules/codec/qsv.c:148
-#, fuzzy
 msgid "Number of parallel operations"
-msgstr "Àireamh de chlònaichean"
+msgstr ""
 
 #: modules/codec/qsv.c:149
 msgid ""
@@ -11684,7 +11684,7 @@ msgstr ""
 
 #: modules/codec/spudec/spudec.c:51
 msgid "DVD subtitles"
-msgstr ""
+msgstr "Fo-thiotalan DVD"
 
 #: modules/codec/spudec/spudec.c:60
 msgid "DVD subtitles packetizer"
@@ -12004,7 +12004,7 @@ msgstr ""
 
 #: modules/codec/twolame.c:59
 msgid "Stereo mode"
-msgstr ""
+msgstr "Modh stereo"
 
 #: modules/codec/twolame.c:60
 msgid "Handling mode for stereo streams"
@@ -12812,7 +12812,7 @@ msgstr ""
 
 #: modules/codec/x264.c:429
 msgid "Fast"
-msgstr ""
+msgstr "Luath"
 
 #: modules/codec/x264.c:429 modules/gui/macosx/MainMenu.m:357
 #: modules/gui/macosx/simple_prefs.m:709
@@ -12825,7 +12825,7 @@ msgstr "Àbhaisteach"
 
 #: modules/codec/x264.c:429
 msgid "Slow"
-msgstr ""
+msgstr "Slaodach"
 
 #: modules/codec/x264.c:434
 msgid "Spatial"
@@ -13003,17 +13003,17 @@ msgstr ""
 
 #: modules/control/hotkeys.c:188
 msgid "One"
-msgstr ""
+msgstr "Aon"
 
 #: modules/control/hotkeys.c:195
 #, c-format
 msgid "Loop: %s"
-msgstr ""
+msgstr "Lùb: %s"
 
 #: modules/control/hotkeys.c:202
 #, c-format
 msgid "Random: %s"
-msgstr ""
+msgstr "Air thuaiream: %s"
 
 #: modules/control/hotkeys.c:331
 #, c-format
@@ -13034,7 +13034,7 @@ msgstr ""
 
 #: modules/control/hotkeys.c:424 modules/control/hotkeys.c:493
 msgid "No active subtitle"
-msgstr ""
+msgstr "Chan eil fo-thiotal sam bith gnìomhach"
 
 #: modules/control/hotkeys.c:430
 msgid "Sub sync: bookmarked subtitle time"
@@ -13129,7 +13129,7 @@ msgstr ""
 #: modules/control/hotkeys.c:1168
 #, c-format
 msgid "Volume %ld%%"
-msgstr ""
+msgstr "Àirde na fuaime %ld%%"
 
 #: modules/control/hotkeys.c:1173
 #, c-format
@@ -13148,7 +13148,7 @@ msgstr ""
 
 #: modules/control/lirc.c:58
 msgid "Infrared"
-msgstr ""
+msgstr "Fo-dhearg"
 
 #: modules/control/lirc.c:61
 msgid "Infrared remote control interface"
@@ -15285,7 +15285,7 @@ msgstr "Mu chluicheadair mheadhanan VLC"
 
 #: modules/gui/macosx/about.m:95 modules/gui/qt4/dialogs/help.cpp:125
 msgid "Credits"
-msgstr ""
+msgstr "Creideasan"
 
 #: modules/gui/macosx/about.m:98 modules/gui/macosx/MainMenu.m:450
 #: modules/gui/qt4/dialogs/help.cpp:119
@@ -15644,7 +15644,7 @@ msgstr ""
 
 #: modules/gui/macosx/ControlsBar.m:456
 msgid "Click to mute or unmute the audio."
-msgstr ""
+msgstr "Briog air gus an fhuaim a mhùchadh no a tilleadh."
 
 #: modules/gui/macosx/ControlsBar.m:458
 msgid "Full Volume"
@@ -15683,7 +15683,7 @@ msgstr ""
 
 #: modules/gui/macosx/ConvertAndSave.m:152
 msgid "Convert & Stream"
-msgstr ""
+msgstr "Iompaich ⁊ sruthaich"
 
 #: modules/gui/macosx/ConvertAndSave.m:153
 msgid "Go!"
@@ -16191,7 +16191,7 @@ msgstr "Glais co-mheas an deilbh"
 
 #: modules/gui/macosx/macosx.m:112 modules/gui/macosx/MainMenu.m:338
 msgid "Show Previous & Next Buttons"
-msgstr ""
+msgstr "Seall na putanan \"Air ais\" ⁊ \"Air adhart\""
 
 #: modules/gui/macosx/macosx.m:113
 msgid "Shows the previous and next buttons in the main window."
@@ -16199,7 +16199,7 @@ msgstr ""
 
 #: modules/gui/macosx/macosx.m:115 modules/gui/macosx/MainMenu.m:340
 msgid "Show Shuffle & Repeat Buttons"
-msgstr ""
+msgstr "Seall na putanan \"Air thuaiream\" ⁊ \"Ath-chluich\""
 
 #: modules/gui/macosx/macosx.m:116
 msgid "Shows the shuffle and repeat buttons in the main window."
@@ -16207,7 +16207,7 @@ msgstr ""
 
 #: modules/gui/macosx/macosx.m:118 modules/gui/macosx/MainMenu.m:342
 msgid "Show Audio Effects Button"
-msgstr ""
+msgstr "Seall putan nam èifeachdan fuaime"
 
 #: modules/gui/macosx/macosx.m:119
 msgid "Shows the audio effects button in the main window."
@@ -16215,7 +16215,7 @@ msgstr ""
 
 #: modules/gui/macosx/macosx.m:121 modules/gui/macosx/MainMenu.m:344
 msgid "Show Sidebar"
-msgstr ""
+msgstr "Seall am bàr-taoibh"
 
 #: modules/gui/macosx/macosx.m:122
 msgid "Shows a sidebar in the main window listing media sources."
@@ -16223,7 +16223,7 @@ msgstr ""
 
 #: modules/gui/macosx/macosx.m:124
 msgid "Pause iTunes during VLC playback"
-msgstr ""
+msgstr "Cuir iTunes 'na stad nuair a tha VLC a' cluich rud"
 
 #: modules/gui/macosx/macosx.m:125
 msgid ""
@@ -16233,15 +16233,15 @@ msgstr ""
 
 #: modules/gui/macosx/macosx.m:130
 msgid "Do nothing"
-msgstr ""
+msgstr "Na dèan dad"
 
 #: modules/gui/macosx/macosx.m:130
 msgid "Pause iTunes"
-msgstr ""
+msgstr "Cuir iTunes 'na stad"
 
 #: modules/gui/macosx/macosx.m:130
 msgid "Pause and resume iTunes"
-msgstr ""
+msgstr "Cuir 'na stad agus lean air iTunes"
 
 #: modules/gui/macosx/macosx.m:133 modules/gui/qt4/qt4.cpp:178
 msgid "Maximum Volume displayed"
@@ -16253,11 +16253,11 @@ msgstr "Eadar-aghaidh Mac OS X"
 
 #: modules/gui/macosx/macosx.m:146
 msgid "Appearance"
-msgstr ""
+msgstr "Dreach"
 
 #: modules/gui/macosx/macosx.m:156
 msgid "Behavior"
-msgstr ""
+msgstr "Giùlan"
 
 #: modules/gui/macosx/macosx.m:166
 msgid "Apple Remote and media keys"
@@ -16265,11 +16265,11 @@ msgstr ""
 
 #: modules/gui/macosx/macosx.m:181
 msgid "Video output"
-msgstr ""
+msgstr "Às-chur a' video"
 
 #: modules/gui/macosx/MainMenu.m:68
 msgid "Track Number"
-msgstr ""
+msgstr "Àireamh an traca"
 
 #: modules/gui/macosx/MainMenu.m:70 modules/gui/macosx/playlist.m:165
 #: modules/gui/macosx/wizard.m:347 modules/gui/qt4/dialogs/plugins.cpp:557
@@ -16356,7 +16356,7 @@ msgstr "Draoidh sruthaidh/às-phortaidh..."
 
 #: modules/gui/macosx/MainMenu.m:328
 msgid "Convert / Stream..."
-msgstr ""
+msgstr "Iompaich / Struthaich..."
 
 #: modules/gui/macosx/MainMenu.m:331
 msgid "Cut"
@@ -16376,11 +16376,11 @@ msgstr "Tagh a h-uile"
 
 #: modules/gui/macosx/MainMenu.m:337
 msgid "View"
-msgstr ""
+msgstr "Sealladh"
 
 #: modules/gui/macosx/MainMenu.m:346 modules/gui/macosx/MainMenu.m:347
 msgid "Playlist Table Columns"
-msgstr ""
+msgstr "Colbhan clàr na liosta-cluiche"
 
 #: modules/gui/macosx/MainMenu.m:349
 msgid "Playback"
@@ -16397,7 +16397,7 @@ msgstr "Sioncronachadh an traca"
 
 #: modules/gui/macosx/MainMenu.m:365
 msgid "A→B Loop"
-msgstr ""
+msgstr "Lùb A→B"
 
 #: modules/gui/macosx/MainMenu.m:366 modules/gui/macosx/MainMenu.m:1475
 msgid "Quit after Playback"
@@ -16457,7 +16457,7 @@ msgstr "Giullachd an dèidh làimh"
 
 #: modules/gui/macosx/MainMenu.m:414 modules/gui/macosx/MainMenu.m:1517
 msgid "Add Subtitle File..."
-msgstr ""
+msgstr "Cuir faidhle le fo-thiotalan ris..."
 
 #: modules/gui/macosx/MainMenu.m:415 modules/gui/macosx/MainMenu.m:416
 msgid "Subtitles Track"
@@ -16465,11 +16465,11 @@ msgstr "Traca nam fo-thiotalan"
 
 #: modules/gui/macosx/MainMenu.m:417
 msgid "Text Size"
-msgstr ""
+msgstr "Meud an teacsa"
 
 #: modules/gui/macosx/MainMenu.m:418
 msgid "Text Color"
-msgstr ""
+msgstr "Dath an teacsa"
 
 #: modules/gui/macosx/MainMenu.m:419
 msgid "Outline Thickness"
@@ -16477,11 +16477,11 @@ msgstr "Tighead na h-oir-loidhne"
 
 #: modules/gui/macosx/MainMenu.m:421 modules/gui/macosx/MainMenu.m:422
 msgid "Background Opacity"
-msgstr ""
+msgstr "Trìd-dhoilleireachd a' chùlaibh"
 
 #: modules/gui/macosx/MainMenu.m:423
 msgid "Background Color"
-msgstr ""
+msgstr "Dath a' chùlaibh"
 
 #: modules/gui/macosx/MainMenu.m:425
 msgid "Transparent"
@@ -16513,7 +16513,7 @@ msgstr "Èifeachdan fuaime..."
 
 #: modules/gui/macosx/MainMenu.m:438
 msgid "Video Effects..."
-msgstr ""
+msgstr "Èifeachdan video..."
 
 #: modules/gui/macosx/MainMenu.m:439
 msgid "Bookmarks..."
@@ -16848,7 +16848,7 @@ msgstr ""
 
 #: modules/gui/macosx/open.m:361
 msgid "Add Subtitle File:"
-msgstr ""
+msgstr "Cuir faidhle le fo-thiotalan ris:"
 
 #: modules/gui/macosx/open.m:366
 msgid "Click to setup subtitle playback in full detail."
@@ -17283,7 +17283,7 @@ msgstr ""
 #: modules/gui/macosx/simple_prefs.m:372 modules/lua/vlc.c:96
 #: modules/lua/vlc.c:103
 msgid "Lua HTTP"
-msgstr ""
+msgstr "Lua HTTP"
 
 #: modules/gui/macosx/simple_prefs.m:376
 msgid "Default Encoding"
@@ -17307,12 +17307,12 @@ msgstr "Cruth-clò"
 
 #: modules/gui/macosx/simple_prefs.m:382
 msgid "Subtitle languages"
-msgstr ""
+msgstr "Cànain nam fo-thiotalan"
 
 #: modules/gui/macosx/simple_prefs.m:383
 #: modules/gui/qt4/ui/sprefs_subtitles.h:292
 msgid "Preferred subtitle language"
-msgstr ""
+msgstr "An cànan as fhearr leat airson fo-thiotalan"
 
 #: modules/gui/macosx/simple_prefs.m:385
 msgid "Enable OSD"
@@ -18437,7 +18437,7 @@ msgstr " a, z                   Àirde na fuaime suas/sìos"
 
 #: modules/gui/ncurses.c:892
 msgid " m                      Mute"
-msgstr ""
+msgstr "m Mùch"
 
 #. xgettext: You can use ↑ and ↓ characters
 #: modules/gui/ncurses.c:894
@@ -18557,7 +18557,7 @@ msgstr " Ionad : %s/%s"
 
 #: modules/gui/ncurses.c:1099
 msgid " Volume   : Mute"
-msgstr ""
+msgstr "Àirde na fuaime: Mùch"
 
 #: modules/gui/ncurses.c:1100
 #, c-format
@@ -19375,7 +19375,7 @@ msgstr "Iuchair: "
 #: modules/gui/qt4/components/simple_preferences.cpp:228
 #: modules/gui/qt4/components/simple_preferences.cpp:597
 msgid "Input & Codecs Settings"
-msgstr "Roghainnean ion-chuir ┐ codec"
+msgstr "Roghainnean ion-chuir ⁊ codec"
 
 #: modules/gui/qt4/components/simple_preferences.cpp:230
 #: modules/gui/qt4/components/simple_preferences.cpp:884
@@ -20240,7 +20240,7 @@ msgstr "&Fo-thiotal"
 
 #: modules/gui/qt4/menus.cpp:335 modules/gui/qt4/menus.cpp:1068
 msgid "T&ools"
-msgstr ""
+msgstr "I&nnealan"
 
 #: modules/gui/qt4/menus.cpp:338 modules/gui/qt4/menus.cpp:1103
 msgid "V&iew"
@@ -20364,15 +20364,15 @@ msgstr "Taghadair nam fear-clis"
 
 #: modules/gui/qt4/menus.cpp:583
 msgid "&Increase Volume"
-msgstr ""
+msgstr "Cu&ir an àirde an fhuaim"
 
 #: modules/gui/qt4/menus.cpp:586
 msgid "&Decrease Volume"
-msgstr ""
+msgstr "Ìslich àir&de na fuaime"
 
 #: modules/gui/qt4/menus.cpp:589
 msgid "&Mute"
-msgstr ""
+msgstr "&Mùch"
 
 #: modules/gui/qt4/menus.cpp:606
 msgid "Audio &Track"
@@ -20384,7 +20384,7 @@ msgstr "&Inneal fuaime"
 
 #: modules/gui/qt4/menus.cpp:608
 msgid "&Stereo Mode"
-msgstr ""
+msgstr "Modh &stereo"
 
 #: modules/gui/qt4/menus.cpp:611
 msgid "&Visualizations"
@@ -20392,11 +20392,11 @@ msgstr "&Fir chlis"
 
 #: modules/gui/qt4/menus.cpp:637
 msgid "Add &Subtitle File..."
-msgstr ""
+msgstr "Cuir faidhle le fo-thiotalan ri&s..."
 
 #: modules/gui/qt4/menus.cpp:639
 msgid "Sub &Track"
-msgstr ""
+msgstr "&Traca nam fo-thiotalan"
 
 #: modules/gui/qt4/menus.cpp:662
 msgid "Video &Track"
@@ -20724,15 +20724,15 @@ msgstr ""
 
 #: modules/gui/qt4/qt4.cpp:184
 msgid "Never"
-msgstr ""
+msgstr "Chan ann idir"
 
 #: modules/gui/qt4/qt4.cpp:184
 msgid "When minimized"
-msgstr ""
+msgstr "nuair a bhios e fìor-lùghdaichte"
 
 #: modules/gui/qt4/qt4.cpp:184
 msgid "Always"
-msgstr ""
+msgstr "An-còmhnaidh"
 
 #: modules/gui/qt4/qt4.cpp:189
 msgid "Qt interface"
@@ -20920,11 +20920,11 @@ msgstr ""
 
 #: modules/lua/vlc.c:85
 msgid "Lua interpreter"
-msgstr ""
+msgstr "Eadar-theangadair Lua"
 
 #: modules/lua/vlc.c:106
 msgid "Lua CLI"
-msgstr ""
+msgstr "Lua CLI"
 
 #: modules/lua/vlc.c:110
 msgid "Command-line interface"
@@ -20932,11 +20932,11 @@ msgstr ""
 
 #: modules/lua/vlc.c:119 modules/lua/vlc.c:130
 msgid "Lua Telnet"
-msgstr ""
+msgstr "Lua Telnet"
 
 #: modules/lua/vlc.c:134
 msgid "Lua Meta Fetcher"
-msgstr ""
+msgstr "Lua Meta Fetcher"
 
 #: modules/lua/vlc.c:135
 msgid "Fetch meta data using lua scripts"
@@ -20944,15 +20944,15 @@ msgstr ""
 
 #: modules/lua/vlc.c:140
 msgid "Lua Meta Reader"
-msgstr ""
+msgstr "Lua Meta Reader"
 
 #: modules/lua/vlc.c:141
 msgid "Read meta data using lua scripts"
-msgstr ""
+msgstr "Leugh am meata-dàta le sgriobtaichean Lua"
 
 #: modules/lua/vlc.c:147
 msgid "Lua Playlist"
-msgstr ""
+msgstr "Liosta-chluich Lua"
 
 #: modules/lua/vlc.c:148
 msgid "Lua Playlist Parser Interface"
@@ -20960,7 +20960,7 @@ msgstr ""
 
 #: modules/lua/vlc.c:153
 msgid "Lua Art"
-msgstr ""
+msgstr "Obair-ealain Lua"
 
 #: modules/lua/vlc.c:154
 msgid "Fetch artwork using lua scripts"
@@ -20968,15 +20968,15 @@ msgstr ""
 
 #: modules/lua/vlc.c:159 modules/lua/vlc.c:160
 msgid "Lua Extension"
-msgstr ""
+msgstr "Leudachan Lua"
 
 #: modules/lua/vlc.c:166
 msgid "Lua SD Module"
-msgstr ""
+msgstr "Mòideal SD Lua"
 
 #: modules/meta_engine/folder.c:64
 msgid "Folder meta data"
-msgstr ""
+msgstr "Meata-dàta a' phasgain"
 
 #: modules/meta_engine/folder.c:66
 msgid "Album art filename"
@@ -20996,7 +20996,7 @@ msgstr ""
 
 #: modules/misc/audioscrobbler.c:118
 msgid "Scrobbler URL"
-msgstr ""
+msgstr "Scrobbler URL"
 
 #: modules/misc/audioscrobbler.c:119
 msgid "The URL set for an alternative scrobbler engine"
@@ -23082,7 +23082,7 @@ msgstr ""
 
 #: modules/video_filter/anaglyph.c:39
 msgid "Color scheme"
-msgstr ""
+msgstr "Sgeama nan dathan"
 
 #: modules/video_filter/anaglyph.c:40
 msgid "Define the glasses' color scheme"
@@ -23094,11 +23094,11 @@ msgstr ""
 
 #: modules/video_filter/antiflicker.c:50
 msgid "Window size"
-msgstr ""
+msgstr "Meud na h-uinneige"
 
 #: modules/video_filter/antiflicker.c:51
 msgid "Number of frames (0 to 100)"
-msgstr ""
+msgstr "Co mheud frèam (eadar 0 is 100)"
 
 #: modules/video_filter/antiflicker.c:53
 msgid "Softening value"
@@ -23134,7 +23134,7 @@ msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:134
 msgid "Device type"
-msgstr ""
+msgstr "Seòrsa an uidheim"
 
 #: modules/video_filter/atmo/atmo.cpp:135
 msgid ""
@@ -23144,27 +23144,27 @@ msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:152
 msgid "AtmoWin Software"
-msgstr ""
+msgstr "Bathar-bog AtmoWin"
 
 #: modules/video_filter/atmo/atmo.cpp:154
 msgid "Classic AtmoLight"
-msgstr ""
+msgstr "Classic AtmoLight"
 
 #: modules/video_filter/atmo/atmo.cpp:155
 msgid "Quattro AtmoLight"
-msgstr ""
+msgstr "Quattro AtmoLight"
 
 #: modules/video_filter/atmo/atmo.cpp:156
 msgid "DMX"
-msgstr ""
+msgstr "DMX"
 
 #: modules/video_filter/atmo/atmo.cpp:157
 msgid "MoMoLight"
-msgstr ""
+msgstr "MoMoLight"
 
 #: modules/video_filter/atmo/atmo.cpp:158
 msgid "fnordlicht"
-msgstr ""
+msgstr "fnordlicht"
 
 #: modules/video_filter/atmo/atmo.cpp:161
 msgid "Count of AtmoLight channels"
@@ -23906,23 +23906,23 @@ msgstr ""
 
 #: modules/video_filter/bluescreen.c:78
 msgid "Bluescreen"
-msgstr ""
+msgstr "Sgrìn ghorm"
 
 #: modules/video_filter/canvas.c:83
 msgid "Output width"
-msgstr ""
+msgstr "Leud an às-chuir"
 
 #: modules/video_filter/canvas.c:85
 msgid "Output (canvas) image width"
-msgstr ""
+msgstr "Leud an deilbh às-chuir (canabhas)"
 
 #: modules/video_filter/canvas.c:86
 msgid "Output height"
-msgstr ""
+msgstr "Àirde an as-chuir"
 
 #: modules/video_filter/canvas.c:88
 msgid "Output (canvas) image height"
-msgstr ""
+msgstr "Àirde an deilbh às-chuir (canabhas)"
 
 #: modules/video_filter/canvas.c:89
 msgid "Output picture aspect ratio"
@@ -23950,7 +23950,7 @@ msgstr ""
 
 #: modules/video_filter/canvas.c:105
 msgid "Canvas"
-msgstr ""
+msgstr "Canabhas"
 
 #: modules/video_filter/canvas.c:106
 msgid "Canvas video filter"
@@ -23966,7 +23966,7 @@ msgstr ""
 
 #: modules/video_filter/clone.c:43
 msgid "Video output modules"
-msgstr ""
+msgstr "Mòidealan às-chur a' video"
 
 #: modules/video_filter/clone.c:44
 msgid ""
@@ -23980,7 +23980,7 @@ msgstr ""
 
 #: modules/video_filter/clone.c:55
 msgid "Clone video filter"
-msgstr ""
+msgstr "Clònaich criathrag a' video"
 
 #: modules/video_filter/colorthres.c:55
 msgid ""
@@ -24665,7 +24665,7 @@ msgstr ""
 #: modules/video_filter/mosaic.c:124 modules/video_filter/panoramix.c:64
 #: modules/video_filter/wall.c:50
 msgid "Number of rows"
-msgstr ""
+msgstr "Àireamh de ràghan"
 
 #: modules/video_filter/mosaic.c:126
 msgid ""
@@ -24676,7 +24676,7 @@ msgstr ""
 #: modules/video_filter/mosaic.c:129 modules/video_filter/panoramix.c:60
 #: modules/video_filter/wall.c:46
 msgid "Number of columns"
-msgstr ""
+msgstr "Àireamh de cholbhan"
 
 #: modules/video_filter/mosaic.c:131
 msgid ""
@@ -24686,7 +24686,7 @@ msgstr ""
 
 #: modules/video_filter/mosaic.c:134
 msgid "Keep aspect ratio"
-msgstr ""
+msgstr "Glèidh co-mheas an deilbh"
 
 #: modules/video_filter/mosaic.c:136
 msgid "Keep the original aspect ratio when resizing mosaic elements."
@@ -24694,7 +24694,7 @@ msgstr ""
 
 #: modules/video_filter/mosaic.c:138
 msgid "Keep original size"
-msgstr ""
+msgstr "Glèidh am meud tùsail"
 
 #: modules/video_filter/mosaic.c:140
 msgid "Keep the original size of mosaic elements."
@@ -24702,7 +24702,7 @@ msgstr ""
 
 #: modules/video_filter/mosaic.c:142
 msgid "Elements order"
-msgstr ""
+msgstr "Òrdugh nan eileamaidean"
 
 #: modules/video_filter/mosaic.c:144
 msgid ""
@@ -24713,7 +24713,7 @@ msgstr ""
 
 #: modules/video_filter/mosaic.c:148
 msgid "Offsets in order"
-msgstr ""
+msgstr "Offsets ann an òrdugh"
 
 #: modules/video_filter/mosaic.c:150
 msgid ""
@@ -24731,15 +24731,15 @@ msgstr ""
 
 #: modules/video_filter/mosaic.c:166
 msgid "auto"
-msgstr ""
+msgstr "fèin-obrachail"
 
 #: modules/video_filter/mosaic.c:166
 msgid "fixed"
-msgstr ""
+msgstr "socraichte"
 
 #: modules/video_filter/mosaic.c:166
 msgid "offsets"
-msgstr ""
+msgstr "offsets"
 
 #: modules/video_filter/mosaic.c:176
 msgid "Mosaic video sub source"
@@ -25172,7 +25172,7 @@ msgstr ""
 
 #: modules/video_filter/puzzle.c:65
 msgid "Auto shuffle"
-msgstr ""
+msgstr "Air thuaiream gu fèin-obrachail"
 
 #: modules/video_filter/puzzle.c:66
 msgid "Auto shuffle delay during game"
@@ -25180,7 +25180,7 @@ msgstr ""
 
 #: modules/video_filter/puzzle.c:67
 msgid "Auto solve"
-msgstr ""
+msgstr "Fèin-fhuasgladh"
 
 #: modules/video_filter/puzzle.c:68
 msgid "Auto solve delay during game"
@@ -25415,7 +25415,7 @@ msgstr ""
 
 #: modules/video_filter/rss.c:184
 msgid "Always visible"
-msgstr ""
+msgstr "Ri fhaicinn an-còmhnaidh"
 
 #: modules/video_filter/rss.c:184
 msgid "Scroll with feed"
@@ -25480,7 +25480,7 @@ msgstr ""
 
 #: modules/video_filter/scene.c:86
 msgid "Always write to the same file"
-msgstr ""
+msgstr "Sgrìobh san aon fhaidhle an-còmhnaidh"
 
 #: modules/video_filter/scene.c:87
 msgid ""
@@ -25741,7 +25741,7 @@ msgstr "Tonn"
 
 #: modules/video_filter/yuvp.c:47
 msgid "YUVP converter"
-msgstr ""
+msgstr "Iompachair YUVP"
 
 #: modules/video_output/aa.c:56
 msgid "ASCII Art"
@@ -26173,7 +26173,7 @@ msgstr ""
 
 #: modules/video_output/vmem.c:51
 msgid "Chroma"
-msgstr ""
+msgstr "Chroma"
 
 #: modules/video_output/vmem.c:52
 msgid ""
@@ -26186,7 +26186,7 @@ msgstr ""
 
 #: modules/video_output/vmem.c:60
 msgid "Video memory"
-msgstr ""
+msgstr "Cuimhne a' video"
 
 #: modules/video_output/xcb/glx.c:52
 msgid "OpenGL GLX video output (XCB)"
@@ -26194,7 +26194,7 @@ msgstr ""
 
 #: modules/video_output/xcb/window.c:43
 msgid "X11 display"
-msgstr ""
+msgstr "Taisbeanadh X11"
 
 #: modules/video_output/xcb/window.c:45
 msgid ""
@@ -26204,11 +26204,11 @@ msgstr ""
 
 #: modules/video_output/xcb/window.c:48
 msgid "X11 window ID"
-msgstr ""
+msgstr "ID uinneige X11"
 
 #: modules/video_output/xcb/window.c:62
 msgid "X window"
-msgstr ""
+msgstr "Uinneag X"
 
 #: modules/video_output/xcb/window.c:63
 msgid "X11 video window (XCB)"
@@ -26222,22 +26222,22 @@ msgstr ""
 #: modules/video_output/xcb/window.c:282
 msgctxt "ASCII"
 msgid "VLC media player"
-msgstr ""
+msgstr "Cluicheadair mheadhanan VLC"
 
 #. xgettext: This is a plain ASCII spelling of "VLC"
 #. for the ICCCM window name. This must be pure ASCII.
 #: modules/video_output/xcb/window.c:287
 msgctxt "ASCII"
 msgid "VLC"
-msgstr ""
+msgstr "VLC"
 
 #: modules/video_output/xcb/window.c:316
 msgid "VLC"
-msgstr ""
+msgstr "VLC"
 
 #: modules/video_output/xcb/x11.c:48
 msgid "X11"
-msgstr ""
+msgstr "X11"
 
 #: modules/video_output/xcb/x11.c:49
 msgid "X11 video output (XCB)"
@@ -26265,7 +26265,7 @@ msgstr ""
 
 #: modules/video_output/xcb/xvideo.c:62
 msgid "XVideo"
-msgstr ""
+msgstr "XVideo"
 
 #: modules/video_output/xcb/xvideo.c:63
 msgid "XVideo output (XCB)"
@@ -26340,87 +26340,88 @@ msgstr ""
 
 #: modules/visualization/goom.c:57
 msgid "Goom"
-msgstr ""
+msgstr "Goom"
 
 #: modules/visualization/goom.c:58
 msgid "Goom effect"
-msgstr ""
+msgstr "Èifeachd Goom"
 
 #: modules/visualization/projectm.cpp:49
 msgid "projectM configuration file"
-msgstr ""
+msgstr "Faidhle rèiteachadh projectM"
 
 #: modules/visualization/projectm.cpp:50
 msgid "File that will be used to configure the projectM module."
 msgstr ""
+"An t-slighe a thèid a chleachdadh gus a' mhòideal projectM a rèiteachadh."
 
 #: modules/visualization/projectm.cpp:53
 msgid "projectM preset path"
-msgstr ""
+msgstr "Slighe ro-shocrachadh projectM"
 
 #: modules/visualization/projectm.cpp:54
 msgid "Path to the projectM preset directory"
-msgstr ""
+msgstr "An t-slighe gu pasgan ro-shocrachadh projectM"
 
 #: modules/visualization/projectm.cpp:56
 msgid "Title font"
-msgstr ""
+msgstr "Cruth-clò an tiotail"
 
 #: modules/visualization/projectm.cpp:57
 msgid "Font used for the titles"
-msgstr ""
+msgstr "An cruth-clò a thèid a chleachdadh airson tiotalan"
 
 #: modules/visualization/projectm.cpp:59
 msgid "Font menu"
-msgstr ""
+msgstr "Clàr-taice nan cruthan-clò"
 
 #: modules/visualization/projectm.cpp:60
 msgid "Font used for the menus"
-msgstr ""
+msgstr "An cruth-clò a thèid a chleachdadh sna clàran-taice"
 
 #: modules/visualization/projectm.cpp:63 modules/visualization/vsxu.cpp:56
 msgid "The width of the video window, in pixels."
-msgstr ""
+msgstr "Leud uinneag a' video, ann am piogsailean."
 
 #: modules/visualization/projectm.cpp:66 modules/visualization/vsxu.cpp:59
 msgid "The height of the video window, in pixels."
-msgstr ""
+msgstr "Àirde uinneag a' video, ann am piogsailean."
 
 #: modules/visualization/projectm.cpp:68
 msgid "Mesh width"
-msgstr ""
+msgstr "Leud a' mhogail"
 
 #: modules/visualization/projectm.cpp:69
 msgid "The width of the mesh, in pixels."
-msgstr ""
+msgstr "Leud a' mhogail, ann am piogsailean."
 
 #: modules/visualization/projectm.cpp:71
 msgid "Mesh height"
-msgstr ""
+msgstr "Àirde a' mhogail"
 
 #: modules/visualization/projectm.cpp:72
 msgid "The height of the mesh, in pixels."
-msgstr ""
+msgstr "Àirde a' mhogail, ann am piogsailean."
 
 #: modules/visualization/projectm.cpp:74
 msgid "Texture size"
-msgstr ""
+msgstr "Meud an innich"
 
 #: modules/visualization/projectm.cpp:75
 msgid "The size of the texture, in pixels."
-msgstr ""
+msgstr "Meud an innich, ann am piogsailean."
 
 #: modules/visualization/projectm.cpp:98
 msgid "projectM"
-msgstr ""
+msgstr "projectM"
 
 #: modules/visualization/projectm.cpp:99
 msgid "libprojectM effect"
-msgstr ""
+msgstr "Èifeachd libprojectM"
 
 #: modules/visualization/visual/visual.c:45
 msgid "Effects list"
-msgstr ""
+msgstr "Liosta nan èifeachdan"
 
 #: modules/visualization/visual/visual.c:47
 msgid ""
@@ -26737,7 +26738,7 @@ msgstr "Còmhradh"
 
 #: modules/gui/qt4/ui/about.h:288 modules/gui/qt4/ui/about.h:289
 msgid "Update"
-msgstr ""
+msgstr "Ùraich"
 
 #: modules/gui/qt4/ui/equalizer.h:132 modules/gui/qt4/ui/open_disk.h:296
 #: modules/gui/qt4/ui/open_net.h:96 modules/gui/qt4/ui/sprefs_audio.h:411
@@ -27142,7 +27143,7 @@ msgstr "Taghadh ro-sheata is gleusadh x264"
 
 #: modules/gui/qt4/ui/sprefs_input.h:344
 msgid "Hardware-accelerated decoding"
-msgstr ""
+msgstr "Dì-chòdachadh \"hardware accelerated\""
 
 #: modules/gui/qt4/ui/sprefs_input.h:345
 msgid "Skip H.264 in-loop deblocking filter"
@@ -27222,7 +27223,7 @@ msgstr "Cuir a' chluich 'na stad nuair a bhios e lùghdaichte"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:524
 msgid "Show media change popup:"
-msgstr ""
+msgstr "Seall priob-uinneag atharrachadh a' mheadhain:"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:525
 msgid "Start in minimal view mode"
@@ -27246,7 +27247,7 @@ msgstr "Faidhle goireas a' chraicinn:"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:531
 msgid "Playlist and Instances"
-msgstr ""
+msgstr "An liosta-chluich agus ionstansan"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:532
 msgid "Album art download policy:"
@@ -27282,7 +27283,7 @@ msgstr "Cuir an gnìomh caismeachdan mu ùrachaidhean"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:548
 msgid "Operating System Integration"
-msgstr ""
+msgstr "Filleadh a-steach san t-siostam-obrachaidh"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:549
 msgid "File extensions association"
@@ -27302,11 +27303,11 @@ msgstr "Seall tiotal a' mheadhain nuair a thòisicheas video"
 
 #: modules/gui/qt4/ui/sprefs_subtitles.h:290
 msgid "Enable subtitles"
-msgstr ""
+msgstr "Cuir na fo-thiotalan an comas"
 
 #: modules/gui/qt4/ui/sprefs_subtitles.h:291
 msgid "Subtitle Language"
-msgstr ""
+msgstr "Cànan nam fo-thiotalan"
 
 #: modules/gui/qt4/ui/sprefs_subtitles.h:293
 msgid "Default encoding"
@@ -27314,7 +27315,7 @@ msgstr "An còdachadh bunaiteach"
 
 #: modules/gui/qt4/ui/sprefs_subtitles.h:294
 msgid "Subtitle effects"
-msgstr ""
+msgstr "Èifeachdan nam fo-thiotalan"
 
 #: modules/gui/qt4/ui/sprefs_subtitles.h:300
 msgid "Add a shadow"
@@ -27566,32 +27567,12 @@ msgstr "AAAA; "
 msgid "Media Manager List"
 msgstr "Liosta Media Manager"
 
-#~ msgid "Show Details"
-#~ msgstr "Seall am mion-fhiosrachadh"
-
-#~ msgid "Subtitles/OSD"
-#~ msgstr "Fo-thiotalan/OSD"
-
-#~ msgid "Subtitles codecs"
-#~ msgstr "Codecs nam fo-thiotalan"
-
-#~ msgid "Settings for subtitles, teletext and CC decoders and encoders."
-#~ msgstr ""
-#~ "Roghainnean airson dì-chòdaichearan is còdaichearan fho-thiotalan, "
-#~ "teletext is CC."
-
-#~ msgid "General Input"
-#~ msgstr "Ion-chur coitcheann"
-
 #~ msgid ""
 #~ "SAP is a way to publically announce streams that are being sent using "
 #~ "multicast UDP or RTP."
 #~ msgstr ""
 #~ "Tha SAP 'na dhòigh gus sruthan (a tha 'gan cur le ioma-chraoladh UDP no "
 #~ "RTO) a nochdadh gu poblach."
-
-#~ msgid "CPU features"
-#~ msgstr "Feartan CPU"
 
 #~ msgid ""
 #~ "You can choose to disable some CPU accelerations here. Use with extreme "
@@ -27600,75 +27581,13 @@ msgstr "Liosta Media Manager"
 #~ "'S urrainn dhut chuid dhe na gleusan luathachadh a' CPU a chur à comas an-"
 #~ "seo. Bidh air d' fhaiceall!"
 
-#~ msgid "Chroma modules settings"
-#~ msgstr "Roghainnean nam mòidealan Chroma"
-
 #~ msgid "These settings affect chroma transformation modules."
 #~ msgstr ""
 #~ "Tha buaidh aig na roghainnean seo air na mòidealan cruth-atharrachadh "
 #~ "Chroma."
 
-#~ msgid "Packetizer modules settings"
-#~ msgstr "Roghainnean mòidealan a' phacaidiche"
-
-#~ msgid "Encoders settings"
-#~ msgstr "Roghainnean nan còdaichearan"
-
-#~ msgid ""
-#~ "These are general settings for video/audio/subtitles encoding modules."
-#~ msgstr ""
-#~ "Seo na roghainnean coitcheann airson mòidealan còdachadh video/fuaime/fho-"
-#~ "thiotalan."
-
-#~ msgid "Dialog providers settings"
-#~ msgstr "Roghainnean solaraichean nan còmhradh"
-
-#~ msgid "Subtitle demuxer settings"
-#~ msgstr "Roghainnean demuxer nam fo-thiotalan"
-
-#~ msgid ""
-#~ "In this section you can force the behavior of the subtitle demuxer, for "
-#~ "example by setting the subtitles type or file name."
-#~ msgstr ""
-#~ "'S urrainn dhut giùlan demuxer nam fo-thiotalan èigneachadh an-seo, mar "
-#~ "eisimpleir le bhith a' suidheachadh seòrsa nam fo-thiotalan no ainm an "
-#~ "fhaidhle an-seo."
-
-#~ msgid "No help available"
-#~ msgstr "Chan eil cobhair ri fhaighinn"
-
 #~ msgid "There is no help available for these modules."
 #~ msgstr "Chan eil cobhair ri fhaighinn airson nam mòidealan seo."
-
-#~ msgid "Quick &Open File..."
-#~ msgstr "F&osgail faidhle gu luath..."
-
-#~ msgid "&Bookmarks"
-#~ msgstr "&Comharran-leabhair"
-
-#~ msgid "Fetch Information"
-#~ msgstr "Faigh am fiosrachadh"
-
-#~ msgid "Sort"
-#~ msgstr "Seòrsaich"
-
-#~ msgid "No Repeat"
-#~ msgstr "Na ath-dhèan"
-
-#~ msgid "Add to Media Library"
-#~ msgstr "Cuir ri leabharlann nam meadhanan"
-
-#~ msgid "Advanced Open..."
-#~ msgstr "Fosgladh adhartach..."
-
-#~ msgid "Open Play&list..."
-#~ msgstr "Fosgail &liosta-chluich..."
-
-#~ msgid "Search Filter"
-#~ msgstr "Criathrag luirg"
-
-#~ msgid "&Services Discovery"
-#~ msgstr "&Mothachadh do sheirbheisean"
 
 #~ msgid ""
 #~ "Some options are available but hidden. Check \"Advanced options\" to see "
@@ -27676,15 +27595,6 @@ msgstr "Liosta Media Manager"
 #~ msgstr ""
 #~ "Tha roghainnean ri fhaighinn ach tha iad falaichte. Thoir sùil air na "
 #~ "roghainnean adhartach air an son."
-
-#~ msgid "Image clone"
-#~ msgstr "Clòn dhen dealbh"
-
-#~ msgid "Clone the image"
-#~ msgstr "Dèan clòn dhen dealbh"
-
-#~ msgid "Magnification"
-#~ msgstr "Meudachadh"
 
 #~ msgid ""
 #~ "Magnify a part of the video. You can select which part of the image "
@@ -27734,14 +27644,8 @@ msgstr "Liosta Media Manager"
 #~ "Tha %d mòideal(an) ann nach deach an sealltainn seach nach eil aca ach "
 #~ "roghainnean adhartach.\n"
 
-#~ msgid "Force mono audio"
-#~ msgstr "Èignich fuaim mono"
-
 #~ msgid "This will force a mono audio output."
 #~ msgstr "Èignichidh seo às-chur fuaime mono."
-
-#~ msgid "Default audio volume"
-#~ msgstr "Àirde fuaime bhunaiteach"
 
 #~ msgid ""
 #~ "You can set the default audio output volume here, in a range from 0 to "
@@ -27757,9 +27661,6 @@ msgstr "Liosta Media Manager"
 #~ "'S urrainn dhut na ceuman air an dèid an fhuaim a chur air gleus "
 #~ "atharrachadh an-seo mar rainse eadar 0 is 1024."
 
-#~ msgid "Audio output frequency (Hz)"
-#~ msgstr "Tricead às-chur na fuaime (hZ)"
-
 #~ msgid ""
 #~ "You can force the audio output frequency here. Common values are 0 "
 #~ "(undefined), 48000, 44100, 32000, 22050, 16000, 11025, 8000."
@@ -27771,47 +27672,11 @@ msgstr "Liosta Media Manager"
 #~ msgid "High quality audio resampling"
 #~ msgstr "Ath-shamplachadh fuaime de chàileachd àrd"
 
-#~ msgid "Audio visualizations "
-#~ msgstr "Fir chlis fuaime "
-
-#~ msgid "Subtitles track"
-#~ msgstr "Traca nam fo-thiotalan"
-
-#~ msgid "Subtitles track ID"
-#~ msgstr "ID traca nam fo-thiotalan"
-
-#~ msgid "Low definition (320 lines)"
-#~ msgstr "Deifinisean ìseal (320 loidhne)"
-
-#~ msgid "Leave fullscreen"
-#~ msgstr "Fàg an làn-sgrìn"
-
-#~ msgid "Select the hotkey to use to leave fullscreen state."
-#~ msgstr "Tagh an hotkey airson an làn-sgrìn no fhàgail."
-
-#~ msgid "Increase scale factor."
-#~ msgstr "Cuir factar an sgèilidh an àirde."
-
-#~ msgid "Decrease scale factor."
-#~ msgstr "Cuir factar an sgèilidh an lughad."
-
-#~ msgid "Cycle through deinterlace modes."
-#~ msgstr "Cuairtich tro na modhan deinterlace."
-
-#~ msgid "Show interface"
-#~ msgstr "Seall an eadar-aghaidh"
-
 #~ msgid "Raise the interface above all other windows."
 #~ msgstr "Àrdaich an eadar-aghaidh os cionn gach uinneig eile."
 
-#~ msgid "Hide interface"
-#~ msgstr "Falaich an eadar-aghaidh"
-
 #~ msgid "Lower the interface below all other windows."
 #~ msgstr "Ìslich an eadar-aghaidh fo gach uinneag eile."
-
-#~ msgid "Normal/Repeat/Loop"
-#~ msgstr "Àbhaisteach/Ath-chluich/Lùbadh"
 
 #~ msgid "Display OSD menu on top of video output"
 #~ msgstr "Seall an clàr-taice OSD air uachdar às-chur a' video"
@@ -27846,9 +27711,6 @@ msgstr "Liosta Media Manager"
 #~ msgid "Move OSD menu highlight to the widget below"
 #~ msgstr "Gluais soillseachadh clàr-taice OSD dhan widget foidhe"
 
-#~ msgid "Select current widget"
-#~ msgstr "Tagh am widget làithreach"
-
 #~ msgid "Selecting current widget performs the associated action."
 #~ msgstr ""
 #~ "Ma thaghar am widget làithreach, thèid an gnìomh co-cheangailte a "
@@ -27857,17 +27719,8 @@ msgstr "Liosta Media Manager"
 #~ msgid "CPU"
 #~ msgstr "CPU"
 
-#~ msgid "Greek, Modern ()"
-#~ msgstr "Nua-Ghreugais"
-
 #~ msgid "Kalaallisut (Greenlandic)"
 #~ msgstr "Kalaallisut (Graolannais)"
-
-#~ msgid "Occitan (post 1500); Provencal"
-#~ msgstr "Ogsatanais (an dèidh 1500); Provençal"
-
-#~ msgid "Aspect-ratio"
-#~ msgstr "Co-mheas an deilbh"
 
 #~ msgid "3D Now! memcpy"
 #~ msgstr "3D Now! memcpy"
@@ -27875,17 +27728,11 @@ msgstr "Liosta Media Manager"
 #~ msgid "Capture format (default s16l)"
 #~ msgstr "Fòrmat a' ghlacaidh ('s e s16l a' bhun-roghainn)"
 
-#~ msgid "Capture format of audio stream."
-#~ msgstr "Am fòrmat glacaidh airson sruth na fuaime."
-
 #~ msgid "PCM U8"
 #~ msgstr "PCM U8"
 
 #~ msgid "PCM S8"
 #~ msgstr "PCM S8"
-
-#~ msgid "GSM Audio"
-#~ msgstr "Fuaim GSM"
 
 #~ msgid "PCM U16 LE"
 #~ msgstr "PCM U16 LE"
@@ -27935,57 +27782,8 @@ msgstr "Liosta Media Manager"
 #~ msgid "PCM F64 BE"
 #~ msgstr "PCM F64 BE"
 
-#~ msgid "ALSA audio capture input"
-#~ msgstr "Ion-chur glacadh fuaime ALSA"
-
-#~ msgid "Blu-Ray Disc Input"
-#~ msgstr "Ion-chur diosga Blu-ray"
-
-#~ msgid "Bluray menus"
-#~ msgstr "Clàir-thaice Blu-ray"
-
-#~ msgid "Use bluray menus. If disabled, the movie will start directly"
-#~ msgstr ""
-#~ "Cleachd clàir-thaice Blu-ray. Ma tha seo à comas, tòisichidh am film sa "
-#~ "bhad."
-
 #~ msgid "BluRay"
 #~ msgstr "Blu-ray"
-
-#~ msgid "Blu-Ray Disc support (libbluray)"
-#~ msgstr "Taic le diosga Blu-ray (libbluray)"
-
-#~ msgid ""
-#~ "This Blu-Ray Disc needs a library for AACS decoding, and your system does "
-#~ "not have it."
-#~ msgstr ""
-#~ "Feumaidh an diosga Blu-ray seo leabharlann airson dì-chòdachadh AACS ach "
-#~ "chan eil sin aig an t-siostam agad."
-
-#~ msgid "BluRay Disc is corrupted."
-#~ msgstr "Tha an diosga Blu-ray coirbte."
-
-#~ msgid ""
-#~ "This Blu-Ray Disc needs a library for BD+ decoding, and your system does "
-#~ "not have it."
-#~ msgstr ""
-#~ "Feumaidh an diosga Blu-ray seo leabharlann airson dì-chòdachadh BD+ ach "
-#~ "chan eil sin aig an t-siostam agad."
-
-#~ msgid "Blu-Ray error"
-#~ msgstr "Mearachd Blu-ray"
-
-#~ msgid "dc1394 input"
-#~ msgstr "Ion-chur dc1394"
-
-#~ msgid "Refresh list"
-#~ msgstr "Ath-nuadhaich an liosta"
-
-#~ msgid "Norm"
-#~ msgstr "Nòrm"
-
-#~ msgid "Subtitles text encoding"
-#~ msgstr "Còdachadh teacsa nam fo-thiotalan"
 
 #~ msgid ""
 #~ "Because this AVI file index is broken or missing, seeking will not work "
@@ -28002,41 +27800,11 @@ msgstr "Liosta Media Manager"
 #~ "Dh'fhaoidte gun doir seo ùine fhada mas e faidhle mòr a tha ann.\n"
 #~ "Dè bu mhath leat dèanamh?"
 
-#~ msgid "Classic rock"
-#~ msgstr "Roc clasaigeach"
-
-#~ msgid "Death metal"
-#~ msgstr "Death Metal"
-
-#~ msgid "Sound clip"
-#~ msgstr "Cliop fuaime"
-
-#~ msgid "Alternative rock"
-#~ msgstr "Alternative Rock"
-
-#~ msgid "Instrumental pop"
-#~ msgstr "Pop ionnsramaideach"
-
-#~ msgid "Instrumental rock"
-#~ msgstr "Roc ionnsramaideach"
-
-#~ msgid "Southern rock"
-#~ msgstr "Southern Rock"
-
 #~ msgid "Christian rap"
 #~ msgstr "Rap Crìostail"
 
 #~ msgid "Pop/funk"
 #~ msgstr "Pop/Funk"
-
-#~ msgid "New wave"
-#~ msgstr "New Wave"
-
-#~ msgid "Acid punk"
-#~ msgstr "Acid Punk"
-
-#~ msgid "Acid jazz"
-#~ msgstr "Acid Jazz"
 
 #~ msgid "Rock & roll"
 #~ msgstr "Rock & Roll"
@@ -28047,19 +27815,10 @@ msgstr "Liosta Media Manager"
 #~ msgid "Make"
 #~ msgstr "Make"
 
-#~ msgid "Video aspect ratio"
-#~ msgstr "Co-mheas deilbh video"
-
-#~ msgid "Image file"
-#~ msgstr "Faidhle deilbh"
-
 #~ msgid "Filename of image file to use on the overlay framebuffer."
 #~ msgstr ""
 #~ "Ainm faidhle dhen fhaidhle deilbh a chleachdar air tar-chòmhdachadh a' "
 #~ "bhufair fhrèamaichean."
-
-#~ msgid "Transparency of the image"
-#~ msgstr "Trìd-shoilleireachd an deilbh"
 
 #~ msgid "Text to display on the overlay framebuffer."
 #~ msgstr "An teacsa a sheallar air tar-chòmhdachadh a' bhufair fhrèamaichean."
@@ -28081,38 +27840,14 @@ msgstr "Liosta Media Manager"
 #~ "Dèan reandaradh air an teacsa no an dealbh san tar-chòmhdachadh bhufair "
 #~ "làithreach."
 
-#~ msgid "Display on overlay framebuffer"
-#~ msgstr "Seall air tar-chòmhdachadh a' bhufair fhrèamaichean"
-
-#~ msgid "Commands"
-#~ msgstr "Àitheantan"
-
 #~ msgid "GNU/Linux osd/overlay framebuffer interface"
 #~ msgstr "Eadar-aghaidh tar-chòmhdachadh/osd bufair fhrèamaichean GNU/Linux"
-
-#~ msgid "Maemo hildon interface"
-#~ msgstr "Eadar-aghaidh Maemo hildon"
-
-#~ msgid "Compiled by %@ with %@"
-#~ msgstr "Air a thional le %@ le %@"
 
 #~ msgid "VLC Debug Log (%s).rtfd"
 #~ msgstr "Loga dì-bhugachaidh VLC (%s).rtfd"
 
-#~ msgid "Automatically save the volume on exit"
-#~ msgstr "Sàbhail àirde na fuaime nuair a dhùinear am prògram"
-
-#~ msgid "Capture Device"
-#~ msgstr "An t-inneal glacaidh"
-
-#~ msgid "Frames per Second:"
-#~ msgstr "Frèamaichean gach diog:"
-
 #~ msgid "Subscreen left:"
 #~ msgstr "Fo-sgrìn air an taobh chlì:"
-
-#~ msgid "Subscreen top:"
-#~ msgstr "Fo-sgrìn aig a' bharr:"
 
 #~ msgid "Subscreen width:"
 #~ msgstr "Leud na fo-sgrìn:"
@@ -28120,32 +27855,11 @@ msgstr "Liosta Media Manager"
 #~ msgid "Subscreen height:"
 #~ msgstr "Àirde na fo-sgrìn:"
 
-#~ msgid "Image width:"
-#~ msgstr "Leud an deilbh:"
-
-#~ msgid "Image height:"
-#~ msgstr "Àirde an deilbh:"
-
-#~ msgid "Load subtitles file:"
-#~ msgstr "Luchdaich faidhle nam fo-thiotalan:"
-
-#~ msgid "Subtitles encoding"
-#~ msgstr "Còdachadh nam fo-thiotalan"
-
-#~ msgid "Subtitles alignment"
-#~ msgstr "Co-thaobhadh nam fo-thiotalan"
-
 #~ msgid "SAP announce"
 #~ msgstr "Èigheach SAP"
 
 #~ msgid "RTSP announce"
 #~ msgstr "Èigheach RTSP"
-
-#~ msgid "HTTP announce"
-#~ msgstr "Èigheach HTTP"
-
-#~ msgid "HTML Playlist"
-#~ msgstr "Liosta-chluich HTML"
 
 #~ msgid ""
 #~ "Beware this will reset the VLC media player preferences.\n"
@@ -28155,62 +27869,8 @@ msgstr "Liosta Media Manager"
 #~ "mheadhanan VLC.\n"
 #~ "A bheil thu cinnteach gu bheil thu airson leantainn air adhart?"
 
-#~ msgid "General Audio Settings"
-#~ msgstr "Roghainnean coitcheann na fuaime"
-
-#~ msgid "General Video Settings"
-#~ msgstr "Roghainnean coitcheann a' video"
-
-#~ msgid "Subtitles & OSD"
-#~ msgstr "Fo-thiotalan ┐ OSD"
-
-#~ msgid "Subtitles & On Screen Display Settings"
-#~ msgstr "Roghainnean nam fo-thiotalan ┐ sealladh air sgrìn"
-
-#~ msgid "Input & Codecs"
-#~ msgstr "Ion-chur ┐ codecs"
-
-#~ msgid "Input & Codec settings"
-#~ msgstr "Roghainnean ion-chuir ┐ codec"
-
-#~ msgid "Enable Audio"
-#~ msgstr "Cuir an fhuaim an comas"
-
-#~ msgid "HTTP Proxy"
-#~ msgstr "Progsaidh HTTP"
-
 #~ msgid "Password for HTTP Proxy"
 #~ msgstr "Am facal-faire airson progsaidh HTTP"
-
-#~ msgid "Font Color"
-#~ msgstr "Dath a' chruth-chlò"
-
-#~ msgid "Font Size"
-#~ msgstr "Meud a' chruth-chlò"
-
-#~ msgid "Subtitle Languages"
-#~ msgstr "Cànain nam fo-thiotalan"
-
-#~ msgid "Preferred Subtitle Language"
-#~ msgstr "An cànan as fhearr leat airson fo-thiotalan"
-
-#~ msgid "Force Bold"
-#~ msgstr "Èignich clò trom"
-
-#~ msgid "Outline Color"
-#~ msgstr "Dath na h-oir-loidhne"
-
-#~ msgid "Enable Video"
-#~ msgstr "Cuir video an comas"
-
-#~ msgid "Subtitle track syncronization:"
-#~ msgstr "Sioncronachadh traca nam fo-thiotal:"
-
-#~ msgid "Subtitles speed:"
-#~ msgstr "Astar nam fo-thiotal:"
-
-#~ msgid "Subtitles duration factor:"
-#~ msgstr "Factor faid nam fo-thiotal:"
 
 #~ msgid ""
 #~ "Extend subtitles duration by this value.\n"
@@ -28235,9 +27895,6 @@ msgstr "Liosta Media Manager"
 #~ "an cuid susbaint is an luach seo.\n"
 #~ "Tagh 0 gus a chur à comas."
 
-#~ msgid "SAP Announce"
-#~ msgstr "Èigheach SAP"
-
 #~ msgid "Minimal Mac OS X OpenGL video output (opens a borderless window)"
 #~ msgstr ""
 #~ "Às-chur video OpenGL as lugha airson Mac OS X (fosglaidh seo uinneag gun "
@@ -28258,9 +27915,6 @@ msgstr "Liosta Media Manager"
 #~ msgid "      demux bitrate    :   %6.0f kb/s"
 #~ msgstr "      bitrate demux    :   %6.0f kb/s"
 
-#~ msgid "  [Video Decoding]"
-#~ msgstr "  [Video 'ga dhì-chòdachadh]"
-
 #~ msgid "      video decoded    :    %<PRId64>"
 #~ msgstr "      video air a dhì-chòdachadh    :    %<PRId64>"
 
@@ -28269,9 +27923,6 @@ msgstr "Liosta Media Manager"
 
 #~ msgid "      frames lost      :    %<PRId64>"
 #~ msgstr "      frèamaichean air an call :    %<PRId64>"
-
-#~ msgid "  [Audio Decoding]"
-#~ msgstr "  [Fuaim 'ga dì-chòdachadh]"
 
 #~ msgid "      audio decoded    :    %<PRId64>"
 #~ msgstr "      fuaim air a dhì-chòdachadh    :    %<PRId64>"
@@ -28282,9 +27933,6 @@ msgstr "Liosta Media Manager"
 #~ msgid "      buffers lost     :    %<PRId64>"
 #~ msgstr "      bufaran air an call :    %<PRId64>"
 
-#~ msgid "  [Streaming]"
-#~ msgstr "  ['Ga shruthadh]"
-
 #~ msgid "      packets sent     :    %5i"
 #~ msgstr "      pacaidean air an cur     :    %5i"
 
@@ -28294,79 +27942,15 @@ msgstr "Liosta Media Manager"
 #~ msgid "      sending bitrate  :   %6.0f kb/s"
 #~ msgstr "      bitrate a' chuir    :   %6.0f kb/s"
 
-#~ msgid " m                      Show/Hide metadata box"
-#~ msgstr " m                      Seall/Falaich bogsa a' mhetadata"
-
-#~ msgid " Volume   : %u%%"
-#~ msgstr " Àirde na fuaime   : %u%%"
-
-#~ msgid "Previous media in the playlist, skip backward when keep-pressed"
-#~ msgstr ""
-#~ "Am meadhan roimhe air an liosta-chluich, gearr leuman air ais ma chumar "
-#~ "shìos e"
-
-#~ msgid "Next media in the playlist, skip forward when keep-pressed"
-#~ msgstr ""
-#~ "An ath-mheadhan air an liosta-chluich, gearr leuman air adhart ma chumar "
-#~ "shìos e"
-
-#~ msgid "Show playlist"
-#~ msgstr "Seall no falaich an liosta-chluich"
-
-#~ msgid "Open subtitles file"
-#~ msgstr "Fosgail faidhle nam fo-thiotalan"
-
-#~ msgid "Preamp\n"
-#~ msgstr "Preamp\n"
-
-#~ msgid " dB"
-#~ msgstr " dB"
-
-#~ msgid "Enable spatializer"
-#~ msgstr "Cuir an comas an spatializer"
-
-#~ msgid "Radio device name"
-#~ msgstr "Ainm an inneil rèidio"
-
 #~ msgid "TV (digital)"
 #~ msgstr "TBh (digiteach)"
-
-#~ msgid "Add to playlist"
-#~ msgstr "Cuir ris an liosta-chluich"
-
-#~ msgid "Clear playlist"
-#~ msgstr "Falamhaich an liosta-chluich"
-
-#~ msgid "Icon View"
-#~ msgstr "Sealladh nan ìomhaigheagan"
-
-#~ msgid "Detailed View"
-#~ msgstr "An sealladh mionaideach"
-
-#~ msgid "List View"
-#~ msgstr "Sealladh nan liosta"
 
 #~ msgid "PictureFlow View "
 #~ msgstr "Sealladh PictureFlow"
 
-#~ msgid "Select an action to change the associated hotkey"
-#~ msgstr "Tagh gnìomh gus an hotkey ud atharrachadh"
-
-#~ msgid "Hotkey for "
-#~ msgstr "An hotkey airson"
-
-#~ msgid "Press the new keys for "
-#~ msgstr "Brùth na h-iuchraichean ùra airson"
-
 #~ msgid "Warning: the key is already assigned to \""
 #~ msgstr ""
 #~ "Rabhadh: chaidh an iuchair sin a cheangal ris na leanas mu thràth: \""
-
-#~ msgid "Subtitles && OSD"
-#~ msgstr "Fo-thiotalan ┐ OSD"
-
-#~ msgid "Input && Codecs"
-#~ msgstr "Ion-chur ┐ codecs"
 
 #~ msgid ""
 #~ "<p><i>VLC media player</i> does <b>not</b> send or collect any "
@@ -28386,16 +27970,6 @@ msgstr "Liosta Media Manager"
 #~ "<p>Feumaidh <i>VideoLAN</i> (na h-ùghdaran) cead follaiseach uat mus dèan "
 #~ "am bathar-bog seo ceangal ris an eadar-lìon.</p>\n"
 #~ "<p>Cuir cromag ris na roghainnean a leanas a-rèir do thoil fhèin:</p>\n"
-
-#~ msgid "Allow downloading media information"
-#~ msgstr ""
-#~ "Tha mi a' toirt cead dha fiosrachadh mu mheadhanan a luchdadh a-nuas"
-
-#~ msgid "Allow checking for VLC updates"
-#~ msgstr "Tha mi a' toirt cead dha ùrachaidhean airson VLC a lorg"
-
-#~ msgid "Save and Continue"
-#~ msgstr "Sàbhail is lean air adhart"
 
 #~ msgid ""
 #~ "VLC media player is a free media player, encoder and streamer that can "
@@ -28417,9 +27991,6 @@ msgstr "Liosta Media Manager"
 #~ " "
 #~ msgstr "Chaidh an tionndadh seo de VLC a thrusadh le:"
 
-#~ msgid "Compiler: "
-#~ msgstr "Trusaiche: "
-
 #~ msgid ""
 #~ "You are using the Qt4 Interface.\n"
 #~ "\n"
@@ -28427,81 +27998,15 @@ msgstr "Liosta Media Manager"
 #~ "Tha thu a' cleachdadh eadar-aghaidh Qt4.\n"
 #~ "\n"
 
-#~ msgid "Copyright (C) "
-#~ msgstr "Còir-lethbhric (C)"
-
 #~ msgid " by the VideoLAN Team.\n"
 #~ msgstr " le sgioba VideoLAN.\n"
-
-#~ msgid "&Codec"
-#~ msgstr "&Codec"
-
-#~ msgid "&Convert"
-#~ msgstr "&Iompaich"
-
-#~ msgid "&Convert / Save"
-#~ msgstr "&Iompaich / Sàbhail"
 
 #~ msgid "Please enter the URL or path to the media you want to play"
 #~ msgstr ""
 #~ "Cuir a-steach an URL no an t-slighe dhan mheadhan a tha thu airson cluich"
 
-#~ msgid "Subtitles Files"
-#~ msgstr "Faidhlichean fho-thiotalan"
-
-#~ msgid "&Tools"
-#~ msgstr "&Innealan"
-
-#~ msgid "&Open (advanced)..."
-#~ msgstr "&Fosgail (air dòigh adhartach)..."
-
-#~ msgid "Audio &Channels"
-#~ msgstr "&Seanailean fuaime"
-
-#~ msgid "&Subtitles Track"
-#~ msgstr "Traca &nam fo-thiotalan"
-
-#~ msgid "&Navigation"
-#~ msgstr "&Seòladaireachd"
-
-#~ msgid "Tools"
-#~ msgstr "Innealan"
-
-#~ msgid "Hide VLC media player in taskbar"
-#~ msgstr "Falaich cluicheadair mheadhanan VLC o bhàr nan saothair"
-
-#~ msgid "Show VLC media player"
-#~ msgstr "Seall cluicheadair mheadhanan VLC"
-
-#~ msgid "Advanced options"
-#~ msgstr "Roghainnean adhartach"
-
-#~ msgid "Show all the advanced options in the dialogs."
-#~ msgstr "Seall gach roghainn adhartach sna còmhraidhean."
-
-#~ msgid "Blu-Ray"
-#~ msgstr "Blu-Ray"
-
-#~ msgid "File Name"
-#~ msgstr "Ainm an fhaidhle"
-
-#~ msgid "Rows:"
-#~ msgstr "Ràghan:"
-
-#~ msgid "width"
-#~ msgstr "leud"
-
-#~ msgid "Columns:"
-#~ msgstr "Colbhan:"
-
-#~ msgid "height"
-#~ msgstr "àirde"
-
 #~ msgid "Are you sure you wish to create the stream ?"
 #~ msgstr "A bheil thu cinnteach gu bheil thu airson an sruth a chruthachadh?"
-
-#~ msgid "Preamp: "
-#~ msgstr "Preamp: "
 
 #~ msgid ""
 #~ "We would like to thank the whole VLC community, the testers, our users "
@@ -28512,21 +28017,6 @@ msgstr "Liosta Media Manager"
 #~ "muinntir nan deuchainnean, an luchd-cleachdaidh againn agus na daoine a "
 #~ "leanas (agus càch nach eil air ainmeachadh...) airson na chum iad rinn de "
 #~ "thaic a' cruthachadh gràinne-mullaich nam prògraman."
-
-#~ msgid "Licence"
-#~ msgstr "Ceadachas"
-
-#~ msgid "Verbosity:"
-#~ msgstr "Briathrachas:"
-
-#~ msgid "Add a subtitles file"
-#~ msgstr "Cuir faidhle fho-thiotalan ris"
-
-#~ msgid "Use a sub&titles file"
-#~ msgstr "Cleach &faidhle fho-thiotalan"
-
-#~ msgid "Select the subtitles file"
-#~ msgstr "Tagh faidhle nam fo-thiotalan"
 
 #~ msgid ""
 #~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
@@ -28562,44 +28052,724 @@ msgstr "Liosta Media Manager"
 #~ msgid "00000; "
 #~ msgstr "00000; "
 
-#~ msgid "Destinations"
-#~ msgstr "Cinn-uidhe"
-
-#~ msgid "Group name"
-#~ msgstr "Ainm a' bhuidhinn"
-
-#~ msgid "Use GPU accelerated decoding"
-#~ msgstr "Cleachd dì-chòdachadh le luathachadh GPU"
-
-#~ msgid "Instances"
-#~ msgstr "Ionstansan"
-
-#~ msgid "Enqueue files when in one instance mode"
-#~ msgstr "Cuir faidhlichean sa chiutha ma bhios e sa mhodh aon-instans"
-
-#~ msgid "Systray popup when minimized"
-#~ msgstr "Priob-uinneag ann an treighe an t-siostaim ma bhios e lùghdaichte"
-
-#~ msgid "Subtitles Language"
-#~ msgstr "Cànain nam fo-thiotalan"
-
-#~ msgid "Preferred subtitles language"
-#~ msgstr "An cànan as fhearr leat airson fo-thiotalan"
-
-#~ msgid "Subtitles effects"
-#~ msgstr "Èifeachdan nam fo-thiotalan"
-
 #~ msgid "Do you want to download it ?"
 #~ msgstr "A bheil thu airson a luchdadh a-nuas?"
-
-#~ msgid "Black slot"
-#~ msgstr "Slot dubh"
 
 #~ msgid "Error when sending the Crash Report"
 #~ msgstr "Thachair mearachd nuair a chuir sinn aithisg an tuislidh"
 
 #~ msgid "Advance of audio over video:"
 #~ msgstr "Adhartas dhen fhuaim thairis air a' video:"
+
+#, fuzzy
+#~ msgid "Show Details"
+#~ msgstr "Mion-fhiosrachadh mun chodec"
+
+#, fuzzy
+#~ msgid "Subtitles/OSD"
+#~ msgstr "Fo-thiotalan / OSD"
+
+#, fuzzy
+#~ msgid "Subtitles codecs"
+#~ msgstr "Codecs nam fo-thiotalan"
+
+#, fuzzy
+#~ msgid "Settings for subtitles, teletext and CC decoders and encoders."
+#~ msgstr ""
+#~ "Roghainnean airson dì-chòdaichearan is còdaichearan fho-thiotalan, "
+#~ "teletext is CC."
+
+#, fuzzy
+#~ msgid "General Input"
+#~ msgstr "Coitcheann"
+
+#, fuzzy
+#~ msgid "CPU features"
+#~ msgstr "Glac"
+
+#, fuzzy
+#~ msgid "Chroma modules settings"
+#~ msgstr "Roghainnean coitcheann a' video"
+
+#, fuzzy
+#~ msgid "Packetizer modules settings"
+#~ msgstr "Roghainnean coitcheann a' video"
+
+#, fuzzy
+#~ msgid "Encoders settings"
+#~ msgstr "Roghainnean deasachaidh"
+
+#, fuzzy
+#~ msgid ""
+#~ "These are general settings for video/audio/subtitles encoding modules."
+#~ msgstr ""
+#~ "Seo na roghainnean coitcheann airson mòidealan còdachadh video/fuaime/fho-"
+#~ "thiotalan."
+
+#, fuzzy
+#~ msgid "Dialog providers settings"
+#~ msgstr "Roghainnean coitcheann a' video"
+
+#, fuzzy
+#~ msgid "Subtitle demuxer settings"
+#~ msgstr "Èifeachdan nam fo-thiotalan"
+
+#, fuzzy
+#~ msgid ""
+#~ "In this section you can force the behavior of the subtitle demuxer, for "
+#~ "example by setting the subtitles type or file name."
+#~ msgstr ""
+#~ "'S urrainn dhut giùlan demuxer nam fo-thiotalan èigneachadh an-seo, mar "
+#~ "eisimpleir le bhith a' suidheachadh seòrsa nam fo-thiotalan no ainm an "
+#~ "fhaidhle an-seo."
+
+#, fuzzy
+#~ msgid "No help available"
+#~ msgstr "An tè as fhearr a tha ri làimh"
+
+#, fuzzy
+#~ msgid "Quick &Open File..."
+#~ msgstr "Fosg&ail faidhle..."
+
+#, fuzzy
+#~ msgid "&Bookmarks"
+#~ msgstr "Comharran-leabhair"
+
+#, fuzzy
+#~ msgid "Fetch Information"
+#~ msgstr "Fiosrachadh mun &chodec"
+
+#, fuzzy
+#~ msgid "Sort"
+#~ msgstr "Seòrsaich a-rèir"
+
+#, fuzzy
+#~ msgid "No Repeat"
+#~ msgstr "Ath-chluich"
+
+#, fuzzy
+#~ msgid "Add to Media Library"
+#~ msgstr "Luchdaich leabhar-lann nam meadhanan"
+
+#, fuzzy
+#~ msgid "Advanced Open..."
+#~ msgstr "&Fosgladh faidhle adhartach..."
+
+#, fuzzy
+#~ msgid "Open Play&list..."
+#~ msgstr "Fosgail liosta-chluich..."
+
+#, fuzzy
+#~ msgid "Search Filter"
+#~ msgstr "Criathragan srutha"
+
+#, fuzzy
+#~ msgid "&Services Discovery"
+#~ msgstr "Mothachadh do sheirbheisean"
+
+#, fuzzy
+#~ msgid "Image clone"
+#~ msgstr "Dealbh"
+
+#, fuzzy
+#~ msgid "Clone the image"
+#~ msgstr "Clònaich criathrag a' video"
+
+#, fuzzy
+#~ msgid "Magnification"
+#~ msgstr "Meudachadh/Sùm"
+
+#, fuzzy
+#~ msgid "Force mono audio"
+#~ msgstr "Èignich clò trom"
+
+#, fuzzy
+#~ msgid "Default audio volume"
+#~ msgstr "Cuimhnich àirde na fuaime"
+
+#, fuzzy
+#~ msgid "Audio output frequency (Hz)"
+#~ msgstr "Mòideal às-chur na fuaime"
+
+#, fuzzy
+#~ msgid "Audio visualizations "
+#~ msgstr "Fir chlis fuaime"
+
+#, fuzzy
+#~ msgid "Subtitles track"
+#~ msgstr "Traca nam fo-thiotalan"
+
+#, fuzzy
+#~ msgid "Subtitles track ID"
+#~ msgstr "ID traca nam fo-thiotalan"
+
+#, fuzzy
+#~ msgid "Low definition (320 lines)"
+#~ msgstr "Deifinisean ìseal (360 loidhne)"
+
+#, fuzzy
+#~ msgid "Leave fullscreen"
+#~ msgstr "Fàg an làn-sgrìn"
+
+#, fuzzy
+#~ msgid "Select the hotkey to use to leave fullscreen state."
+#~ msgstr "Tagh an hotkey airson a dhol dhan làn-sgrìn no fhàgail."
+
+#, fuzzy
+#~ msgid "Increase scale factor."
+#~ msgstr "Cuir factar an sgèilidh an àirde"
+
+#, fuzzy
+#~ msgid "Decrease scale factor."
+#~ msgstr "Cuir factar an sgèilidh an lughad"
+
+#, fuzzy
+#~ msgid "Cycle through deinterlace modes."
+#~ msgstr "Cuairtich tro na modhan deinterlace"
+
+#, fuzzy
+#~ msgid "Show interface"
+#~ msgstr "Eadar-aghaidh Qt"
+
+#, fuzzy
+#~ msgid "Hide interface"
+#~ msgstr "Eadar-aghaidh Qt"
+
+#, fuzzy
+#~ msgid "Normal/Repeat/Loop"
+#~ msgstr "Àbhaisteach/Lùbadh/Ath-chluich"
+
+#, fuzzy
+#~ msgid "Select current widget"
+#~ msgstr "Ath-chluich an nì làithreach"
+
+#, fuzzy
+#~ msgid "Greek, Modern ()"
+#~ msgstr "Nua-Ghreugais"
+
+#, fuzzy
+#~ msgid "Occitan (post 1500); Provencal"
+#~ msgstr "Ogsatanais; Provençal"
+
+#, fuzzy
+#~ msgid "Aspect-ratio"
+#~ msgstr "Co-mheas an deilbh"
+
+#, fuzzy
+#~ msgid "Capture format of audio stream."
+#~ msgstr "Glac sruth na fuaime ann an stereo."
+
+#, fuzzy
+#~ msgid "GSM Audio"
+#~ msgstr "Fuaim"
+
+#, fuzzy
+#~ msgid "ALSA audio capture input"
+#~ msgstr "Glacadh fuaime ALSA"
+
+#, fuzzy
+#~ msgid "Blu-Ray Disc Input"
+#~ msgstr "Ion-chur diosga Blu-ray"
+
+#, fuzzy
+#~ msgid "Bluray menus"
+#~ msgstr "Clàran-taice Blu-ray"
+
+#, fuzzy
+#~ msgid "Use bluray menus. If disabled, the movie will start directly"
+#~ msgstr ""
+#~ "Cleachd clàran-taice Blu-ray. Ma tha seo à comas, tòisichidh am film sa "
+#~ "bhad."
+
+#, fuzzy
+#~ msgid "Blu-Ray Disc support (libbluray)"
+#~ msgstr "Taic le diosga Blu-ray (libbluray)"
+
+#, fuzzy
+#~ msgid ""
+#~ "This Blu-Ray Disc needs a library for AACS decoding, and your system does "
+#~ "not have it."
+#~ msgstr ""
+#~ "Feumaidh an diosga Blu-ray seo leabharlann airson dì-chòdachadh AACS ach "
+#~ "chan eil sin aig an t-siostam agad."
+
+#, fuzzy
+#~ msgid "BluRay Disc is corrupted."
+#~ msgstr "Tha an diosga Blu-ray coirbte."
+
+#, fuzzy
+#~ msgid ""
+#~ "This Blu-Ray Disc needs a library for BD+ decoding, and your system does "
+#~ "not have it."
+#~ msgstr ""
+#~ "Feumaidh an diosga Blu-ray seo leabharlann airson dì-chòdachadh BD+ ach "
+#~ "chan eil sin aig an t-siostam agad."
+
+#, fuzzy
+#~ msgid "Blu-Ray error"
+#~ msgstr "Mearachd Blu-ray"
+
+#, fuzzy
+#~ msgid "dc1394 input"
+#~ msgstr "Gun ion-chur"
+
+#, fuzzy
+#~ msgid "Refresh list"
+#~ msgstr "Liosta nan èifeachdan"
+
+#, fuzzy
+#~ msgid "Norm"
+#~ msgstr "Àbhaisteach"
+
+#, fuzzy
+#~ msgid "Subtitles text encoding"
+#~ msgstr "Codecs nam fo-thiotalan"
+
+#, fuzzy
+#~ msgid "Classic rock"
+#~ msgstr "Clasaigeach"
+
+#, fuzzy
+#~ msgid "Death metal"
+#~ msgstr "Metadata a' chinn-là"
+
+#, fuzzy
+#~ msgid "Sound clip"
+#~ msgstr "Soundtrack"
+
+#, fuzzy
+#~ msgid "Alternative rock"
+#~ msgstr "Alternative"
+
+#, fuzzy
+#~ msgid "Instrumental pop"
+#~ msgstr "Ionnsramaideach"
+
+#, fuzzy
+#~ msgid "Instrumental rock"
+#~ msgstr "Ionnsramaideach"
+
+#, fuzzy
+#~ msgid "Southern rock"
+#~ msgstr "Roc sèimh"
+
+#, fuzzy
+#~ msgid "New wave"
+#~ msgstr "New Age"
+
+#, fuzzy
+#~ msgid "Acid punk"
+#~ msgstr "Acid"
+
+#, fuzzy
+#~ msgid "Acid jazz"
+#~ msgstr "Acid"
+
+#, fuzzy
+#~ msgid "Video aspect ratio"
+#~ msgstr "Glèidh co-mheas an deilbh"
+
+#, fuzzy
+#~ msgid "Image file"
+#~ msgstr "Dealbh"
+
+#, fuzzy
+#~ msgid "Transparency of the image"
+#~ msgstr "Trìd-shoilleireachd"
+
+#, fuzzy
+#~ msgid "Display on overlay framebuffer"
+#~ msgstr "Frèamaichean 'gan sealltainn"
+
+#, fuzzy
+#~ msgid "Commands"
+#~ msgstr "Command+"
+
+#, fuzzy
+#~ msgid "Maemo hildon interface"
+#~ msgstr "Prìomh eadar-aghaidhean"
+
+#, fuzzy
+#~ msgid "Compiled by %@ with %@"
+#~ msgstr "Air a thrusadh le %s %s (%s)\n"
+
+#, fuzzy
+#~ msgid "Automatically save the volume on exit"
+#~ msgstr "Luchdaich mòideal nan leudachan gu fèin-obrachail aig an toiseach"
+
+#, fuzzy
+#~ msgid "Capture Device"
+#~ msgstr "&An t-inneal glacaidh"
+
+#, fuzzy
+#~ msgid "Frames per Second:"
+#~ msgstr "Frèamaichean gach diog"
+
+#, fuzzy
+#~ msgid "Subscreen top:"
+#~ msgstr "Fo-sgrìobh gu pod-chraoladh"
+
+#, fuzzy
+#~ msgid "Image width:"
+#~ msgstr "Gleusadh an deilbh"
+
+#, fuzzy
+#~ msgid "Image height:"
+#~ msgstr "Àirde a' mhogail"
+
+#, fuzzy
+#~ msgid "Load subtitles file:"
+#~ msgstr "Cuir faidhle le fo-thiotalan ris:"
+
+#, fuzzy
+#~ msgid "Subtitles encoding"
+#~ msgstr "Codecs nam fo-thiotalan"
+
+#, fuzzy
+#~ msgid "Subtitles alignment"
+#~ msgstr "Co-thaobhadh a' video"
+
+#, fuzzy
+#~ msgid "HTTP announce"
+#~ msgstr "Ion-chur HTTP"
+
+#, fuzzy
+#~ msgid "HTML Playlist"
+#~ msgstr "Liosta-chluich HTML"
+
+#, fuzzy
+#~ msgid "General Audio Settings"
+#~ msgstr "Roghainnean coitcheann na fuaime"
+
+#, fuzzy
+#~ msgid "General Video Settings"
+#~ msgstr "Roghainnean coitcheann a' video"
+
+#, fuzzy
+#~ msgid "Subtitles & OSD"
+#~ msgstr "Fo-thiotalan / OSD"
+
+#, fuzzy
+#~ msgid "Subtitles & On Screen Display Settings"
+#~ msgstr "Cuir an comas On Screen Display (OSD)"
+
+#, fuzzy
+#~ msgid "Input & Codecs"
+#~ msgstr "Ion-chur/Codecs"
+
+#, fuzzy
+#~ msgid "Input & Codec settings"
+#~ msgstr "Roghainnean ion-chuir ⁊ codec"
+
+#, fuzzy
+#~ msgid "Enable Audio"
+#~ msgstr "Cuir an fhuaim an comas"
+
+#, fuzzy
+#~ msgid "HTTP Proxy"
+#~ msgstr "Progsaidh HTTP"
+
+#, fuzzy
+#~ msgid "Font Color"
+#~ msgstr "Dath a' chruth-chlò"
+
+#, fuzzy
+#~ msgid "Font Size"
+#~ msgstr "Meud a' chruth-chlò"
+
+#, fuzzy
+#~ msgid "Subtitle Languages"
+#~ msgstr "Cànan nam fo-thiotalan"
+
+#, fuzzy
+#~ msgid "Preferred Subtitle Language"
+#~ msgstr "An cànan as fhearr leat airson fo-thiotalan"
+
+#, fuzzy
+#~ msgid "Force Bold"
+#~ msgstr "Èignich clò trom"
+
+#, fuzzy
+#~ msgid "Outline Color"
+#~ msgstr "Dath na h-oir-loidhne"
+
+#, fuzzy
+#~ msgid "Enable Video"
+#~ msgstr "Cuir video an comas"
+
+#, fuzzy
+#~ msgid "Subtitle track syncronization:"
+#~ msgstr "Sioncronachadh traca na fuaime:"
+
+#, fuzzy
+#~ msgid "Subtitles speed:"
+#~ msgstr "Fo-thiotalan"
+
+#, fuzzy
+#~ msgid "Subtitles duration factor:"
+#~ msgstr "Traca nam fo-thiotalan"
+
+#, fuzzy
+#~ msgid "SAP Announce"
+#~ msgstr "Èigheach srutha"
+
+#, fuzzy
+#~ msgid "  [Video Decoding]"
+#~ msgstr "Bearradh video"
+
+#, fuzzy
+#~ msgid "  [Audio Decoding]"
+#~ msgstr "Roghainnean na fuaime"
+
+#, fuzzy
+#~ msgid "  [Streaming]"
+#~ msgstr "'Ga shruthadh"
+
+#, fuzzy
+#~ msgid " m                      Show/Hide metadata box"
+#~ msgstr " L                      Seall/Falaich bogsa nan teachdaireachd"
+
+#, fuzzy
+#~ msgid " Volume   : %u%%"
+#~ msgstr "Àirde na fuaime: Mùch"
+
+#, fuzzy
+#~ msgid "Previous media in the playlist, skip backward when keep-pressed"
+#~ msgstr "Am meadhan roimhe air an liosta-chluich"
+
+#, fuzzy
+#~ msgid "Next media in the playlist, skip forward when keep-pressed"
+#~ msgstr "An ath-mheadhan air an liosta-chluich"
+
+#, fuzzy
+#~ msgid "Show playlist"
+#~ msgstr "Seall/Falaich an liosta-chluich"
+
+#, fuzzy
+#~ msgid "Open subtitles file"
+#~ msgstr "Fosgail na fo-thiotalan"
+
+#, fuzzy
+#~ msgid "Preamp\n"
+#~ msgstr "Preamp"
+
+#, fuzzy
+#~ msgid " dB"
+#~ msgstr "dB"
+
+#, fuzzy
+#~ msgid "Enable spatializer"
+#~ msgstr "Cuir an comas an spatializer"
+
+#, fuzzy
+#~ msgid "Radio device name"
+#~ msgstr "Ainm an inneil fhuaime"
+
+#, fuzzy
+#~ msgid "Add to playlist"
+#~ msgstr "Cuir ris an liosta-chluich"
+
+#, fuzzy
+#~ msgid "Clear playlist"
+#~ msgstr "Falamhaich an liosta-chluich"
+
+#, fuzzy
+#~ msgid "Icon View"
+#~ msgstr "Sealladh"
+
+#, fuzzy
+#~ msgid "Detailed View"
+#~ msgstr "Meadhan ─ Seall"
+
+#, fuzzy
+#~ msgid "List View"
+#~ msgstr "Meadhan ─ Seall"
+
+#, fuzzy
+#~ msgid "Select an action to change the associated hotkey"
+#~ msgstr "Tagh gnìomh gus an hotkey ud atharrachadh:"
+
+#, fuzzy
+#~ msgid "Hotkey for "
+#~ msgstr "Hotkey"
+
+#, fuzzy
+#~ msgid "Press the new keys for "
+#~ msgstr ""
+#~ "Brùth iuchraichean ùra airson\n"
+#~ "\"%@\""
+
+#, fuzzy
+#~ msgid "Subtitles && OSD"
+#~ msgstr "Fo-thiotalan / OSD"
+
+#, fuzzy
+#~ msgid "Input && Codecs"
+#~ msgstr "Ion-chur/Codecs"
+
+#, fuzzy
+#~ msgid "Allow downloading media information"
+#~ msgstr "Dèan briogadh dùbailte airson fiosrachadh mun mheadhan"
+
+#, fuzzy
+#~ msgid "Allow checking for VLC updates"
+#~ msgstr "Thoir sùil airson ùrachaidhean VLC"
+
+#, fuzzy
+#~ msgid "Save and Continue"
+#~ msgstr "Lean air adhart"
+
+#, fuzzy
+#~ msgid "Compiler: "
+#~ msgstr "Trusaiche: %s\n"
+
+#, fuzzy
+#~ msgid "Copyright (C) "
+#~ msgstr "Còir-lethbhreac"
+
+#, fuzzy
+#~ msgid "&Codec"
+#~ msgstr "Codec"
+
+#, fuzzy
+#~ msgid "&Convert"
+#~ msgstr "Iompaich"
+
+#, fuzzy
+#~ msgid "&Convert / Save"
+#~ msgstr "&Iompaich / Sàbhail..."
+
+#, fuzzy
+#~ msgid "Subtitles Files"
+#~ msgstr "Faidhle nam fo-thiotalan"
+
+#, fuzzy
+#~ msgid "&Tools"
+#~ msgstr "I&nnealan"
+
+#, fuzzy
+#~ msgid "&Open (advanced)..."
+#~ msgstr "Fosg&ail faidhle..."
+
+#, fuzzy
+#~ msgid "Audio &Channels"
+#~ msgstr "Seanailean fuaime"
+
+#, fuzzy
+#~ msgid "&Subtitles Track"
+#~ msgstr "Traca nam fo-thiotalan"
+
+#, fuzzy
+#~ msgid "&Navigation"
+#~ msgstr "Seòladaireachd"
+
+#, fuzzy
+#~ msgid "Tools"
+#~ msgstr "I&nnealan"
+
+#, fuzzy
+#~ msgid "Hide VLC media player in taskbar"
+#~ msgstr "Ùraich cluicheadair mheadhanan VLC"
+
+#, fuzzy
+#~ msgid "Show VLC media player"
+#~ msgstr "Cluicheadair mheadhanan VLC"
+
+#, fuzzy
+#~ msgid "Advanced options"
+#~ msgstr "Roghainnean adhartach"
+
+#, fuzzy
+#~ msgid "Show all the advanced options in the dialogs."
+#~ msgstr "Seall na roghainnean adhartach"
+
+#, fuzzy
+#~ msgid "Blu-Ray"
+#~ msgstr "Blu-ray"
+
+#, fuzzy
+#~ msgid "File Name"
+#~ msgstr "Ainm an fhaidhle"
+
+#, fuzzy
+#~ msgid "Rows:"
+#~ msgstr "Ràghan"
+
+#, fuzzy
+#~ msgid "width"
+#~ msgstr "Leud"
+
+#, fuzzy
+#~ msgid "Columns:"
+#~ msgstr "Colbhan"
+
+#, fuzzy
+#~ msgid "height"
+#~ msgstr "Àirde"
+
+#, fuzzy
+#~ msgid "Preamp: "
+#~ msgstr "Preamp:"
+
+#, fuzzy
+#~ msgid "Licence"
+#~ msgstr "Ceadachas"
+
+#, fuzzy
+#~ msgid "Verbosity:"
+#~ msgstr "Briathrachas (0,1,2)"
+
+#, fuzzy
+#~ msgid "Add a subtitles file"
+#~ msgstr "Cuir faidhle le fo-thiotalan ris:"
+
+#, fuzzy
+#~ msgid "Use a sub&titles file"
+#~ msgstr "Faidhle nam fo-thiotalan"
+
+#, fuzzy
+#~ msgid "Select the subtitles file"
+#~ msgstr "Tagh am faidhle"
+
+#, fuzzy
+#~ msgid "Destinations"
+#~ msgstr "Ceann-uidhe"
+
+#, fuzzy
+#~ msgid "Group name"
+#~ msgstr "Buidheann"
+
+#, fuzzy
+#~ msgid "Use GPU accelerated decoding"
+#~ msgstr "Dì-chòdachadh \"hardware accelerated\""
+
+#, fuzzy
+#~ msgid "Instances"
+#~ msgstr "Stàlaich"
+
+#, fuzzy
+#~ msgid "Enqueue files when in one instance mode"
+#~ msgstr "Cuir nithean air an liosta-chluich ma bhios e sa mhodh aon-ionstans"
+
+#, fuzzy
+#~ msgid "Systray popup when minimized"
+#~ msgstr "Cuir a' chluich 'na stad nuair a bhios e lùghdaichte"
+
+#, fuzzy
+#~ msgid "Subtitles Language"
+#~ msgstr "Cànan nam fo-thiotalan"
+
+#, fuzzy
+#~ msgid "Preferred subtitles language"
+#~ msgstr "An cànan as fhearr leat airson fo-thiotalan"
+
+#, fuzzy
+#~ msgid "Subtitles effects"
+#~ msgstr "Èifeachdan nam fo-thiotalan"
+
+#, fuzzy
+#~ msgid "Black slot"
+#~ msgstr "Slot dubh"
 
 #, fuzzy
 #~ msgid "Video Filters..."
@@ -28611,4 +28781,4 @@ msgstr "Liosta Media Manager"
 
 #, fuzzy
 #~ msgid "Speed of the subtitles:"
-#~ msgstr "Tagh faidhle nam fo-thiotalan"
+#~ msgstr "Fosgail na fo-thiotalan"
