@@ -4,14 +4,15 @@
 #
 # Translators:
 # Thanakrit Chomphuming <jernghan@gmail.com>, 2011-3013.
+# rigelenrique <d.chalermpon@gmail.com>, 2013
 # <develop5@datawiz.co.th>, 2006.
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-11-11 19:12+0100\n"
-"PO-Revision-Date: 2013-09-26 04:58+0000\n"
-"Last-Translator: jerng <jernghan@gmail.com>\n"
+"PO-Revision-Date: 2013-12-07 11:41+0000\n"
+"Last-Translator: rigelenrique <d.chalermpon@gmail.com>\n"
 "Language-Team: Thai (http://www.transifex.com/projects/p/vlc-trans/language/"
 "th/)\n"
 "Language: th\n"
@@ -100,7 +101,7 @@ msgstr "ค่าตั้งเสียงทั่วไป"
 #: include/vlc_config_cat.h:58 include/vlc_config_cat.h:80
 #: modules/gui/qt4/ui/profiles.h:733 modules/gui/qt4/ui/profiles.h:743
 msgid "Filters"
-msgstr "ตัวผันค่า"
+msgstr "ตัวกรอง"
 
 #: include/vlc_config_cat.h:59
 msgid "Audio filters are used to process the audio stream."
@@ -838,7 +839,7 @@ msgstr "เติม --advanced ลงในคอมมานด์ไลน์
 msgid "%u module was not displayed because it only has advanced options.\n"
 msgid_plural ""
 "%u modules were not displayed because they only have advanced options.\n"
-msgstr[0] ""
+msgstr[0] "โมดูล %u ไม่ถูกแสดงผลเนื่องจากมีเพียงตัวเลือกขั้นสูงเท่านั้น\n"
 
 #: src/config/help.c:704 src/config/help.c:708
 msgid ""
@@ -867,6 +868,8 @@ msgid ""
 "\n"
 "Dumped content to vlc-help.txt file.\n"
 msgstr ""
+"\n"
+"ถ่ายข้อมูลไปยังไฟล์ vlc-help.txt\n"
 
 #: src/config/help.c:841
 msgid ""
@@ -3589,13 +3592,13 @@ msgstr ""
 
 #: src/libvlc-module.c:1175 modules/gui/qt4/ui/sprefs_interface.h:533
 msgid "Display playlist tree"
-msgstr "แสดงโครงข่ายผังเล่น"
+msgstr "แสดงผังเล่นแบบแผนผังต้นไม้"
 
 #: src/libvlc-module.c:1177
 msgid ""
 "The playlist can use a tree to categorize some items, like the contents of a "
 "directory."
-msgstr ""
+msgstr "ผังเล่นสามารถแสดงรายการเป็นหมวดหมู่แบบแผนผังต้นไม้ ตามที่เก็บแฟ้มของรายการต่างๆ ได้"
 
 #: src/libvlc-module.c:1186
 msgid "These settings are the global VLC key bindings, known as \"hotkeys\"."
@@ -3611,7 +3614,7 @@ msgstr "การควบคุมระดับเสียง"
 
 #: src/libvlc-module.c:1197
 msgid "Position Control"
-msgstr "ควบคุมตำแหน่งเวลาการเล่น"
+msgstr "ควบคุมตำแหน่งการแสดง"
 
 #: src/libvlc-module.c:1199
 msgid "MouseWheel up-down axis Control"
@@ -3622,7 +3625,7 @@ msgid ""
 "The MouseWheel up-down (vertical) axis can control volume, position or "
 "mousewheel event can be ignored"
 msgstr ""
-"การเลื่อนปุ่มล้อเลื่อนเมาส์ขึ้น-ลงตามแนว(ตั้ง) สามารถใช้ควบคุม ระดับเสียง ตำแหน่งเวลาการเล่น "
+"การเลื่อนปุ่มล้อเลื่อนเมาส์ขึ้น-ลงตามแนว(ตั้ง) สามารถใช้ควบคุม ระดับเสียง ตำแหน่งการแสดง "
 "หรือมองข้ามการใช้งานของมันไปก็ได้"
 
 #: src/libvlc-module.c:1203 src/video_output/vout_intf.c:284
@@ -3755,11 +3758,11 @@ msgstr "เลือกปุ่มที่จะใช้หยุดการ
 #: modules/video_filter/rss.c:200 modules/gui/qt4/ui/sprefs_subtitles.h:289
 #: modules/gui/qt4/ui/video_effects.h:1367
 msgid "Position"
-msgstr "ตำแหน่งเวลาการเล่น"
+msgstr "ตำแหน่งการแสดง"
 
 #: src/libvlc-module.c:1230
 msgid "Select the hotkey to display the position."
-msgstr "เลือกปุ่มที่จะใช้แสดงตำแหน่งเวลาการเล่น"
+msgstr "เลือกปุ่มที่จะเลือกตำแหน่งการแสดง"
 
 #: src/libvlc-module.c:1232
 msgid "Very short backwards jump"
@@ -8896,7 +8899,7 @@ msgstr ""
 
 #: modules/audio_filter/chorus_flanger.c:91
 msgid "Wet mix"
-msgstr "Wet mix"
+msgstr "เว็ตมิกซ์"
 
 #: modules/audio_filter/chorus_flanger.c:91
 msgid "Level of delayed signal"
@@ -8904,7 +8907,7 @@ msgstr ""
 
 #: modules/audio_filter/chorus_flanger.c:93
 msgid "Dry Mix"
-msgstr "Dry Mix"
+msgstr "ไดรย์มิกซ์"
 
 #: modules/audio_filter/chorus_flanger.c:93
 msgid "Level of input signal"
@@ -9028,11 +9031,11 @@ msgstr "ตัวอ่านรหัสเสียง MPEG "
 
 #: modules/audio_filter/equalizer.c:58
 msgid "Equalizer preset"
-msgstr "ค่าสำเร็จรูปตัวปรับสมดุล"
+msgstr "ชุดค่าตั้งตัวปรับสมดุล"
 
 #: modules/audio_filter/equalizer.c:59
 msgid "Preset to use for the equalizer."
-msgstr "ค่าสำเร็จรูปที่จะใช้สำหรับตัวปรับสมดุล"
+msgstr "ชุดค่าตั้งที่จะใช้สำหรับตัวปรับสมดุล"
 
 #: modules/audio_filter/equalizer.c:61
 msgid "Bands gain"
@@ -9368,13 +9371,13 @@ msgstr "ระยะของห้องจำลอง"
 #: modules/gui/macosx/AudioEffects.m:132
 #: modules/gui/qt4/components/extended_panels.cpp:1403
 msgid "Wet"
-msgstr "Wet"
+msgstr "เว็ต"
 
 #: modules/audio_filter/spatializer/spatializer.cpp:64
 #: modules/gui/macosx/AudioEffects.m:133
 #: modules/gui/qt4/components/extended_panels.cpp:1404
 msgid "Dry"
-msgstr "Dry"
+msgstr "ไดรย์"
 
 #: modules/audio_filter/spatializer/spatializer.cpp:67
 #: modules/gui/macosx/AudioEffects.m:134
@@ -9423,7 +9426,7 @@ msgstr ""
 
 #: modules/audio_filter/stereo_widen.c:70
 msgid "Dry mix"
-msgstr ""
+msgstr "ไดรย์มิกซ์"
 
 #: modules/audio_filter/stereo_widen.c:71
 msgid "Level of input signal of original channel."
@@ -9559,7 +9562,7 @@ msgstr ""
 #: modules/audio_output/auhal.c:1214
 #, c-format
 msgid "%s (Encoded Output)"
-msgstr "%s (ผลลัพธ์ที่ลงรหัส)"
+msgstr "%s (ที่ลงรหัสแล้ว)"
 
 #: modules/audio_output/directx.c:108
 msgid "Output device"
@@ -9613,7 +9616,7 @@ msgstr ""
 #: modules/audio_output/file.c:105
 #: share/lua/http/dialogs/create_stream.html:382
 msgid "Output file"
-msgstr "แฟ้มผลลัพธ์"
+msgstr "แฟ้มที่ได้"
 
 #: modules/audio_output/file.c:106
 msgid "File to which the audio samples will be written to. (\"-\" for stdout"
@@ -11024,7 +11027,7 @@ msgstr "ตัวอ่านรหัสวีดิทัศน์ PNG"
 
 #: modules/codec/qsv.c:56
 msgid "Enable software mode"
-msgstr ""
+msgstr "เปิดใช้รูปแบบซอร์ฟแวร์"
 
 #: modules/codec/qsv.c:57
 msgid ""
@@ -12712,7 +12715,7 @@ msgstr ""
 
 #: modules/codec/x264.c:410
 msgid "Default preset setting used"
-msgstr "ค่าตั้งปริยายของค่าสำเร็จรูปที่ใช้"
+msgstr "ค่าตั้งปริยายของชุดค่าตั้งที่ใช้"
 
 #: modules/codec/x264.c:412
 msgid "x264 advanced options."
@@ -15218,7 +15221,7 @@ msgstr "เกี่ยวกับโปรแกรมเล่นสื่อ
 
 #: modules/gui/macosx/about.m:95 modules/gui/qt4/dialogs/help.cpp:125
 msgid "Credits"
-msgstr "เคดิต"
+msgstr "เครดิต"
 
 #: modules/gui/macosx/about.m:98 modules/gui/macosx/MainMenu.m:450
 #: modules/gui/qt4/dialogs/help.cpp:119
@@ -15355,12 +15358,12 @@ msgstr "บันทึก"
 #: modules/gui/macosx/AudioEffects.m:399 modules/gui/macosx/AudioEffects.m:738
 #: modules/gui/macosx/VideoEffects.m:940
 msgid "Remove a preset"
-msgstr "ลบค่าสำเร็จรูปออก"
+msgstr "ลบชุดค่าตั้งออก"
 
 #: modules/gui/macosx/AudioEffects.m:400 modules/gui/macosx/AudioEffects.m:739
 #: modules/gui/macosx/VideoEffects.m:941
 msgid "Select the preset you would like to remove:"
-msgstr "เลือกค่าสำเร็จรูปที่คุณต้องการลบออก:"
+msgstr "เลือกชุดค่าตั้งที่คุณต้องการลบออก:"
 
 #: modules/gui/macosx/AudioEffects.m:401 modules/gui/macosx/AudioEffects.m:740
 #: modules/gui/macosx/bookmarks.m:95 modules/gui/macosx/ConvertAndSave.m:381
@@ -15370,7 +15373,7 @@ msgstr "เอาออก"
 
 #: modules/gui/macosx/AudioEffects.m:461
 msgid "Add new Preset..."
-msgstr "เพิ่มค่าสำเร็จรูปตัวใหม่..."
+msgstr "เพิ่มชุดค่าตั้งตัวใหม่..."
 
 #: modules/gui/macosx/AudioEffects.m:466
 msgid "Organize Presets..."
@@ -15378,7 +15381,7 @@ msgstr "จัดการโพรไฟล์..."
 
 #: modules/gui/macosx/AudioEffects.m:639
 msgid "Save current selection as new preset"
-msgstr "บันทึกค่าที่กำลังใช้อยู่เป็นค่าสำเร็จรูปตัวใหม่"
+msgstr "บันทึกค่าที่กำลังใช้อยู่เป็นชุดค่าตั้งตัวใหม่"
 
 #: modules/gui/macosx/AudioEffects.m:640
 msgid "Enter a name for the new preset:"
@@ -16144,7 +16147,7 @@ msgstr "แสดงปุ่มควบคุมลูกเล่นเสี
 
 #: modules/gui/macosx/macosx.m:119
 msgid "Shows the audio effects button in the main window."
-msgstr ""
+msgstr "แสดงปุ่มลูกเล่นเสียงในส่วนหน้าต่างหลัก"
 
 #: modules/gui/macosx/macosx.m:121 modules/gui/macosx/MainMenu.m:344
 msgid "Show Sidebar"
@@ -17225,7 +17228,7 @@ msgstr "ภาษาบทบรรยาย"
 #: modules/gui/macosx/simple_prefs.m:383
 #: modules/gui/qt4/ui/sprefs_subtitles.h:292
 msgid "Preferred subtitle language"
-msgstr ""
+msgstr "ภาษาบทบรรยายที่ควรเลือกใช้"
 
 #: modules/gui/macosx/simple_prefs.m:385
 msgid "Enable OSD"
@@ -17761,11 +17764,12 @@ msgstr "รูปแบบเสียง DVD (สามารถใช้ได
 
 #: modules/gui/macosx/wizard.m:198
 msgid "Vorbis is a free audio codec (useable with OGG)"
-msgstr ""
+msgstr "Vorbis เป็นตัวลง-อ่านรหัสเสียงแบบเปิดฟรี (สามารถใช้กับ OGG ได้)"
 
 #: modules/gui/macosx/wizard.m:201
 msgid "FLAC is a lossless audio codec (useable with OGG and RAW)"
 msgstr ""
+"FLAC เป็นตัวลง-อ่านรหัสเสียงที่ปราศจากการสูญเสียคุณภาพเสียง (สามารถใช้กับ OGG และ RAW ได้)"
 
 #: modules/gui/macosx/wizard.m:204
 msgid "A free audio codec dedicated to compression of voice (useable with OGG)"
@@ -18301,7 +18305,7 @@ msgstr " <, >                   ตอน ถัดไป/ก่อนหน้�
 #: modules/gui/ncurses.c:890
 #, c-format
 msgid " <left>,<right>         Seek -/+ 1%%"
-msgstr ""
+msgstr " <ซ้าย>,<ขวา>         ปรับค่า -/+ 1%%"
 
 #: modules/gui/ncurses.c:891
 msgid " a, z                   Volume Up/Down"
@@ -18360,7 +18364,7 @@ msgstr " /                      ตรวจหารายการ"
 
 #: modules/gui/ncurses.c:911
 msgid " ;                      Look for the next item"
-msgstr ""
+msgstr " ;                      มองหารายการถัดไป"
 
 #: modules/gui/ncurses.c:912
 msgid " A                      Add an entry"
@@ -18399,7 +18403,7 @@ msgstr "[ตัวเล่น]"
 #: modules/gui/ncurses.c:930
 #, c-format
 msgid " <up>,<down>            Seek +/-5%%"
-msgstr ""
+msgstr " <ขึ้น>,<ลง>            ปรับค่า +/-5%%"
 
 #: modules/gui/ncurses.c:1050
 msgid "[Repeat] "
@@ -18997,7 +19001,7 @@ msgstr ""
 
 #: modules/gui/qt4/components/open_panels.cpp:900
 msgid "TV - digital"
-msgstr ""
+msgstr "โทรทัศน์ - ดิจิทัล"
 
 #: modules/gui/qt4/components/open_panels.cpp:903
 msgid "Tuner card"
@@ -19021,7 +19025,7 @@ msgstr "แบนด์วิดท์"
 
 #: modules/gui/qt4/components/open_panels.cpp:1021
 msgid "TV - analog"
-msgstr ""
+msgstr "โทรทัศน์ - แอนะล็อก"
 
 #: modules/gui/qt4/components/open_panels.cpp:1024
 msgid "Device name"
@@ -19260,7 +19264,7 @@ msgstr "ค่าปริยายระบบ"
 
 #: modules/gui/qt4/components/simple_preferences.cpp:1242
 msgid "File associations"
-msgstr ""
+msgstr "การเข้าใช้แฟ้ม"
 
 #: modules/gui/qt4/components/simple_preferences.cpp:1251
 #: modules/gui/qt4/dialogs_provider.hpp:42
@@ -19484,7 +19488,7 @@ msgstr "&ล&้าง"
 
 #: modules/gui/qt4/dialogs/errors.cpp:54
 msgid "Hide future errors"
-msgstr ""
+msgstr "ซ่อนข้อขัดข้อง"
 
 #: modules/gui/qt4/dialogs/extended.cpp:49
 msgid "Adjustments and Effects"
@@ -19523,6 +19527,14 @@ msgid ""
 "entities. Therefore the <i>VLC</i> developers require your express consent "
 "for the media player to access the Internet automatically.</p>\n"
 msgstr ""
+"<p>ในกรณีที่ต้องการปกป้องความเป็นส่วนตัว โปรแกรมเล่นสื่อ <i>VLC</i> จะ <b>ไม่</b> "
+"เก็บหรือส่งข้อมูลส่วนบุคคล รวมถึงแบบฟอร์มที่ไม่ระบุตัวตนด้วย</p>\n"
+"<p>แต่ถึงอย่างไร <i>VLC</i> "
+"ยังคงสามารถรับข้อมูลเกี่ยวกับสื่อในรายการเพลลิสต์จากบริการระบบอินเตอร์เน็ตของบุคคลที่สามได้ "
+"ได้แก่หน้าปก ชื่อเพลง ผู้แต่งและอื่นๆ</p>\n"
+"เหล่านี้อาจนำมาซึ่งการระบุเอกลักษณ์ของไฟล์ข้อมูลสื่อไปยังบริการของบุคคลที่สาม ดังนั้น "
+"นักพัฒนาโปรแกรม <i>VLC</i> "
+"จึงขอความยินยอมเพื่อให้โปรแกรมเล่นสื่อสามารถเข้าถึงอินเตอร์เน็ตได้อัตโนมัติ<p>\n"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:91
 msgid "Network Access Policy"
@@ -19530,11 +19542,11 @@ msgstr "ข้อกำหนดการเข้าใช้งานเคร
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:98
 msgid "Automatically retrieve media info"
-msgstr ""
+msgstr "รับข้อมูลสื่อโดยอัตโนมัติ"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:103
 msgid "Regularly check for VLC updates"
-msgstr ""
+msgstr "ตรวจหารุ่นปรับปรุ่งของ VLC อย่างสม่ำเสมอ"
 
 #: modules/gui/qt4/dialogs/gototime.cpp:42
 msgid "Go to Time"
@@ -20103,7 +20115,7 @@ msgstr "เปิดแ&ผ&่น"
 
 #: modules/gui/qt4/menus.cpp:361
 msgid "Open &Network Stream..."
-msgstr "เปิด&กระแสเครือข่าย..."
+msgstr "เปิดสตรีมผ่านเครือข่าย"
 
 #: modules/gui/qt4/menus.cpp:363 modules/gui/qt4/menus.cpp:924
 msgid "Open &Capture Device..."
@@ -20934,15 +20946,15 @@ msgstr ""
 
 #: modules/misc/gnutls.c:294 modules/misc/gnutls.c:311
 msgid "Insecure site"
-msgstr ""
+msgstr "ไซต์ไม่ปลอดภัย"
 
 #: modules/misc/gnutls.c:295 modules/misc/gnutls.c:314
 msgid "Abort"
-msgstr ""
+msgstr "ยกเลิกการเข้า"
 
 #: modules/misc/gnutls.c:295
 msgid "View certificate"
-msgstr ""
+msgstr "ดูใบรับรอง"
 
 #: modules/misc/gnutls.c:312
 #, c-format
@@ -20952,14 +20964,18 @@ msgid ""
 "\n"
 "If in doubt, abort now.\n"
 msgstr ""
+"ใบรับรองนี้ออกโดย %s:\n"
+"%s\n"
+"\n"
+"หากสงสัยว่าไม่ปลอยภัย ให้ยกเลิกการเข้าโดยทันที\n"
 
 #: modules/misc/gnutls.c:314
 msgid "Accept 24 hours"
-msgstr ""
+msgstr "ยอมรับแค่ 24 ชั่วโมง"
 
 #: modules/misc/gnutls.c:315
 msgid "Accept permanently"
-msgstr ""
+msgstr "ยอมรับถาวร"
 
 #: modules/misc/inhibit/dbus.c:129
 msgid "Playing some media."
@@ -20987,7 +21003,7 @@ msgstr "รูปแบบปูม"
 
 #: modules/misc/logger.c:118
 msgid "Specify the logging format."
-msgstr ""
+msgstr "ระบุรูปแบบการทำปูม"
 
 #: modules/misc/logger.c:121
 msgid "Syslog ident"
@@ -21897,7 +21913,7 @@ msgstr "วิธีการเข้าใช้ส่วนแสดงผล
 
 #: modules/stream_out/es.c:52 modules/stream_out/standard.c:44
 msgid "Output muxer"
-msgstr "ตัวรวมกระแสผลลัพธ์"
+msgstr "ตัวรวมกระแสแสดงผล"
 
 #: modules/stream_out/es.c:54
 msgid "This is the default muxer method that will be used."
@@ -21921,11 +21937,11 @@ msgstr "นี่คือตัวรวมกระแสที่จะใช
 
 #: modules/stream_out/es.c:62
 msgid "Output URL"
-msgstr "URL ผลลัพธ์"
+msgstr "URL แสดงผล"
 
 #: modules/stream_out/es.c:64
 msgid "This is the default output URI."
-msgstr "นี่คือ URI ผลลัพธ์ปริยายของคุณ"
+msgstr "นี่คือ URI แสดงผล"
 
 #: modules/stream_out/es.c:65
 msgid "Audio output URL"
@@ -21933,7 +21949,7 @@ msgstr "URL ส่งเสียง"
 
 #: modules/stream_out/es.c:67
 msgid "This is the output URI that will be used for audio."
-msgstr "URI ผลลัพธ์ตัวนี้จะใช้ในส่วนส่งเสียง"
+msgstr "URI แสดงผลตัวนี้จะใช้ในส่วนส่งเสียง"
 
 #: modules/stream_out/es.c:68
 msgid "Video output URL"
@@ -21941,7 +21957,7 @@ msgstr "URL แสดงวีดิทัศน์"
 
 #: modules/stream_out/es.c:70
 msgid "This is the output URI that will be used for video."
-msgstr "URI ผลลัพธ์ตัวนี้จะใช้ในส่วนแสดงวีดิทัศน์"
+msgstr "URI แสดงผลตัวนี้จะใช้ในส่วนแสดงวีดิทัศน์"
 
 #: modules/stream_out/es.c:79
 msgid "Elementary stream output"
@@ -23768,7 +23784,7 @@ msgstr "ความสูง (ขอบ) ภาพที่แสดง"
 
 #: modules/video_filter/canvas.c:89
 msgid "Output picture aspect ratio"
-msgstr "อัตราส่วนภาพผลลัพธ์"
+msgstr "อัตราส่วนภาพที่แสดง"
 
 #: modules/video_filter/canvas.c:91
 msgid ""
@@ -24004,7 +24020,7 @@ msgstr "FIFO ที่จะถูกอ่านในการสั่งค�
 
 #: modules/video_filter/dynamicoverlay/dynamicoverlay.c:63
 msgid "Output FIFO"
-msgstr "FIFO ผลลัพธ์"
+msgstr "FIFO แสดงผล"
 
 #: modules/video_filter/dynamicoverlay/dynamicoverlay.c:64
 msgid "FIFO which will be written to for responses"
@@ -25275,7 +25291,7 @@ msgstr "รูปแบบรูปภาพ"
 
 #: modules/video_filter/scene.c:60
 msgid "Format of the output images (png, jpeg, ...)."
-msgstr "รูปแบบของภาพผลลัพธ์ (png, jpeg, ...)."
+msgstr "ชนิดแฟ้มของรูปภาพที่ทำ (png, jpeg, ...)."
 
 #: modules/video_filter/scene.c:63
 msgid ""
@@ -26197,11 +26213,11 @@ msgstr "แฟ้มที่จะถูกใช้ตั้งค่ามอ
 
 #: modules/visualization/projectm.cpp:53
 msgid "projectM preset path"
-msgstr "พาธค่าสำเร็จรูป projectM"
+msgstr "พาธชุดค่าตั้ง projectM"
 
 #: modules/visualization/projectm.cpp:54
 msgid "Path to the projectM preset directory"
-msgstr "พาธไปยังที่เก็บแฟ้มค่าสำเร็จรูป projectM"
+msgstr "พาธไปยังที่เก็บแฟ้มชุดค่าตั้ง projectM"
 
 #: modules/visualization/projectm.cpp:56
 msgid "Title font"
@@ -26520,7 +26536,7 @@ msgstr "เล่นตัวที่เลือก"
 
 #: share/lua/http/index.html:245
 msgid "Refresh List"
-msgstr ""
+msgstr "ปรับเรียกรายการ"
 
 #: share/lua/http/index.html:252
 msgid "Loading flowplayer..."
@@ -26591,7 +26607,7 @@ msgstr ""
 
 #: modules/gui/qt4/ui/equalizer.h:135
 msgid "Preset"
-msgstr "ค่าสำเร็จรูป"
+msgstr "ชุดค่าตั้ง"
 
 #: modules/gui/qt4/ui/equalizer.h:137
 msgid "0.00 dB"
@@ -26977,11 +26993,11 @@ msgstr "การเลือกระดับและโพรไฟล์ x2
 
 #: modules/gui/qt4/ui/sprefs_input.h:343
 msgid "x264 preset and tuning selection"
-msgstr "การปรับค่าและค่าสำเร็จรูป x264"
+msgstr "การปรับค่าและชุดค่าตั้ง x264"
 
 #: modules/gui/qt4/ui/sprefs_input.h:344
 msgid "Hardware-accelerated decoding"
-msgstr ""
+msgstr "การใช้ฮาร์ดแวร์เพื่อเร่งความเร็วในการอ่านรหัส"
 
 #: modules/gui/qt4/ui/sprefs_input.h:345
 msgid "Skip H.264 in-loop deblocking filter"
@@ -27029,7 +27045,7 @@ msgstr "ข้อกำหนดการทำแคชปริยาย"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:514
 msgid "Menus language:"
-msgstr "ภาษาของเมนู:"
+msgstr "ภาษาเมนู:"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:515
 msgid "Look and feel"
@@ -27405,9 +27421,6 @@ msgstr "AAAA; "
 msgid "Media Manager List"
 msgstr "รายการตัวจัดการสื่อ"
 
-#~ msgid "Show Details"
-#~ msgstr "แสดงรายละเอียด"
-
 #~ msgid ""
 #~ "Magnify a part of the video. You can select which part of the image "
 #~ "should be magnified."
@@ -27652,9 +27665,6 @@ msgstr "รายการตัวจัดการสื่อ"
 
 #~ msgid "Password for HTTP Proxy"
 #~ msgstr "รหัสผ่านของพร็อกซี HTTP "
-
-#~ msgid "TV (digital)"
-#~ msgstr "TV (ดิจิทัล)"
 
 #~ msgid "Warning: the key is already assigned to \""
 #~ msgstr "ขอเตือน: ปุ่มนี้ถูกใช้แล้วในการ \""
@@ -27930,6 +27940,14 @@ msgstr "รายการตัวจัดการสื่อ"
 #~ msgstr "แสดงแต่จอ (ไร้แถบเครื่องมือ)"
 
 #, fuzzy
+#~ msgid "Show Details"
+#~ msgstr "ราบละเอียดตัวอ่าน-ลงรหัส"
+
+#, fuzzy
+#~ msgid "TV (digital)"
+#~ msgstr "โทรทัศน์ - ดิจิทัล"
+
+#, fuzzy
 #~ msgid "Greek, Modern ()"
 #~ msgstr "กรีก (ปัจจุบัน)"
 
@@ -27955,7 +27973,7 @@ msgstr "รายการตัวจัดการสื่อ"
 
 #, fuzzy
 #~ msgid "Refresh"
-#~ msgstr "ปุ่มเรียกซ้ำ (Browser Refresh)"
+#~ msgstr "ปรับเรียกรายการ"
 
 #, fuzzy
 #~ msgid "Subtitles/OSD"
@@ -28204,7 +28222,7 @@ msgstr "รายการตัวจัดการสื่อ"
 
 #, fuzzy
 #~ msgid "Refresh list"
-#~ msgstr "รายการลูกเล่น"
+#~ msgstr "ปรับเรียกรายการ"
 
 #, fuzzy
 #~ msgid "VLC cannot open ANY capture device.Check the error log for details."
@@ -28544,7 +28562,7 @@ msgstr "รายการตัวจัดการสื่อ"
 
 #, fuzzy
 #~ msgid "Preferred Subtitle Language"
-#~ msgstr "ภาษาของเสียงที่ควรเลือกใช้"
+#~ msgstr "ภาษาบทบรรยายที่ควรเลือกใช้"
 
 #, fuzzy
 #~ msgid "Force Bold"
@@ -28708,7 +28726,7 @@ msgstr "รายการตัวจัดการสื่อ"
 
 #, fuzzy
 #~ msgid "Allow checking for VLC updates"
-#~ msgstr "ตรวจหาการปรับปรุงของ VLC"
+#~ msgstr "ตรวจหารุ่นปรับปรุ่งของ VLC อย่างสม่ำเสมอ"
 
 #, fuzzy
 #~ msgid "Save and Continue"
@@ -28880,7 +28898,7 @@ msgstr "รายการตัวจัดการสื่อ"
 
 #, fuzzy
 #~ msgid "Enable desktop mode "
-#~ msgstr "ใช้รูปแบบพื้นหลัง"
+#~ msgstr "เปิดใช้รูปแบบซอร์ฟแวร์"
 
 #, fuzzy
 #~ msgid "Stream Name"
@@ -28932,7 +28950,7 @@ msgstr "รายการตัวจัดการสื่อ"
 
 #, fuzzy
 #~ msgid "Output File"
-#~ msgstr "แฟ้มผลลัพธ์"
+#~ msgstr "แฟ้มที่ได้"
 
 #, fuzzy
 #~ msgid "Input Media"
@@ -29020,7 +29038,7 @@ msgstr "รายการตัวจัดการสื่อ"
 
 #, fuzzy
 #~ msgid "Preferred subtitles language"
-#~ msgstr "ภาษาของเสียงที่ควรเลือกใช้"
+#~ msgstr "ภาษาบทบรรยายที่ควรเลือกใช้"
 
 #, fuzzy
 #~ msgid "Subtitles effects"
@@ -29200,7 +29218,7 @@ msgstr "รายการตัวจัดการสื่อ"
 
 #, fuzzy
 #~ msgid "Refresh Streams"
-#~ msgstr "จัดการกระแส"
+#~ msgstr "ปรับเรียกรายการ"
 
 #, fuzzy
 #~ msgid "Enqueue"
