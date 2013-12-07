@@ -4,13 +4,13 @@
 #
 # Translators:
 # Aled Powell <aled@aledpowell.com>, 2013
-# Huw Waters <huwwaters@gmail.com>, 2012
+# Huw Waters <huwwaters@gmail.com>, 2012-2013
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-11-11 19:12+0100\n"
-"PO-Revision-Date: 2013-06-27 13:17+0000\n"
+"PO-Revision-Date: 2013-12-06 13:14+0000\n"
 "Last-Translator: Cymrodor <cymrodor@gmail.com>\n"
 "Language-Team: Welsh (http://www.transifex.com/projects/p/vlc-trans/language/"
 "cy/)\n"
@@ -183,12 +183,11 @@ msgstr "Mewnbwn / Codecs"
 
 #: include/vlc_config_cat.h:94
 msgid "Settings for input, demultiplexing, decoding and encoding"
-msgstr ""
-"Gosodiadau ar gyfer mewnbwn, didoli signalau amlblecs, datgodio ac amgodio"
+msgstr "Gosodiadau ar gyfer mewnbwn, dadamlblecsio, datgodio ac amgodio"
 
 #: include/vlc_config_cat.h:97
 msgid "Access modules"
-msgstr ""
+msgstr "Modiwlau cyrchu"
 
 #: include/vlc_config_cat.h:99
 msgid ""
@@ -208,11 +207,11 @@ msgstr ""
 
 #: include/vlc_config_cat.h:108
 msgid "Demuxers"
-msgstr "Datblecsydd"
+msgstr "Dadamlblecsyddion"
 
 #: include/vlc_config_cat.h:109
 msgid "Demuxers are used to separate audio and video streams."
-msgstr "Defnyddir datblecsyddion i wahanu ffrydiau sain a fideo."
+msgstr "Defnyddir dadamlblecsyddion i wahanu ffrydiau sain a fideo."
 
 #: include/vlc_config_cat.h:111
 msgid "Video codecs"
@@ -267,7 +266,7 @@ msgstr "Gosodiadau cyffredin allanbwn ffrwd"
 
 #: include/vlc_config_cat.h:135
 msgid "Muxers"
-msgstr "Plecswyr"
+msgstr "Amlblecsyddion"
 
 #: include/vlc_config_cat.h:137
 msgid ""
@@ -305,8 +304,9 @@ msgid ""
 "not do that.\n"
 "You can also set default parameters for each packetizer."
 msgstr ""
-"Defnyddir pecynyddion i ragbrosesu'r ffrydiau cyn eu plecsu. Mae'r opsiwn "
-"hwn yn galluogi gorfodi pecynnydd, ond mae'n debyg na ddylech gwneud hyn.\n"
+"Defnyddir pecynyddion i ragbrosesu'r ffrydiau cyn eu hamlblecsu. Mae'r "
+"opsiwn hwn yn galluogi gorfodi pecynnydd, ond mae'n debyg na ddylech gwneud "
+"hyn.\n"
 "Mae hefyd yn bosib gosod paramedrau rhagosodedig ar gyfer pob pecynnydd."
 
 #: include/vlc_config_cat.h:158
@@ -1669,7 +1669,7 @@ msgstr ""
 
 #: src/libvlc-module.c:157
 msgid "Audio resampler"
-msgstr ""
+msgstr "Ailsamplwr sain"
 
 #: src/libvlc-module.c:159
 msgid "This selects which plugin to use for audio resampling."
@@ -3289,7 +3289,7 @@ msgstr "Mae hyn yn caniatau dewis y drefn mae VLC yn dewis y pecynyddion"
 
 #: src/libvlc-module.c:962
 msgid "Mux module"
-msgstr "Modiwl amlplecsu"
+msgstr "Modiwl amlblecsu"
 
 #: src/libvlc-module.c:964
 msgid "This is a legacy entry to let you configure mux modules"
@@ -3327,7 +3327,7 @@ msgstr ""
 
 #: src/libvlc-module.c:989
 msgid "Access module"
-msgstr ""
+msgstr "Modiwl cyrchu"
 
 #: src/libvlc-module.c:991
 msgid ""
@@ -3346,7 +3346,7 @@ msgstr ""
 
 #: src/libvlc-module.c:999
 msgid "Demux module"
-msgstr "Modiwl Datblecsu"
+msgstr "Modiwl Dadamlblecsu"
 
 #: src/libvlc-module.c:1001
 msgid ""
@@ -3444,7 +3444,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1053
 msgid "Log to file"
-msgstr ""
+msgstr "Cofnodi i ffeil"
 
 #: src/libvlc-module.c:1055
 msgid "Log all VLC messages to a text file."
@@ -4781,15 +4781,15 @@ msgstr "Arabeg"
 
 #: src/text/iso-639_def.h:46
 msgid "Armenian"
-msgstr ""
+msgstr "Armeneg"
 
 #: src/text/iso-639_def.h:47
 msgid "Assamese"
-msgstr ""
+msgstr "Asameg"
 
 #: src/text/iso-639_def.h:48
 msgid "Avestan"
-msgstr ""
+msgstr "Afesteg"
 
 #: src/text/iso-639_def.h:49
 msgid "Aymara"
@@ -4805,7 +4805,7 @@ msgstr ""
 
 #: src/text/iso-639_def.h:52
 msgid "Basque"
-msgstr ""
+msgstr "Basgeg"
 
 #: src/text/iso-639_def.h:53
 msgid "Belarusian"
@@ -5057,7 +5057,7 @@ msgstr ""
 
 #: src/text/iso-639_def.h:115
 msgid "Kurdish"
-msgstr ""
+msgstr "Cwrdeg"
 
 #: src/text/iso-639_def.h:116
 msgid "Lao"
@@ -5401,7 +5401,7 @@ msgstr "Xhosa"
 
 #: src/text/iso-639_def.h:202
 msgid "Yiddish"
-msgstr ""
+msgstr "Iddew-Almaeneg"
 
 #: src/text/iso-639_def.h:203
 msgid "Yoruba"
@@ -6039,7 +6039,7 @@ msgstr ""
 
 #: modules/access/dtv/access.c:45
 msgid "Do not demultiplex"
-msgstr "Peidio â datblecsu"
+msgstr "Peidio â dadamlblecsu"
 
 #: modules/access/dtv/access.c:47
 msgid ""
@@ -6995,7 +6995,7 @@ msgstr "Mewnbwn SDI"
 
 #: modules/access/linsys/linsys_sdi.c:113
 msgid "SDI Demux"
-msgstr "Datblecsiad SDI"
+msgstr "Dadamlblecsio SDI"
 
 #: modules/access/live555.cpp:78
 msgid "Kasenna RTSP dialect"
@@ -7054,7 +7054,7 @@ msgstr ""
 
 #: modules/access/live555.cpp:110
 msgid "RTSP/RTP access and demux"
-msgstr "Cyrchu a datblecsu RTSP/RTP"
+msgstr "Cyrchu a dadamlblecsio RTSP/RTP"
 
 #: modules/access/live555.cpp:115 modules/access/live555.cpp:116
 #: modules/gui/macosx/simple_prefs.m:343
@@ -7435,7 +7435,7 @@ msgstr ""
 
 #: modules/access_output/shout.c:101
 msgid "Ogg Vorbis Quality"
-msgstr ""
+msgstr "Ansawdd Ogg Vorbis"
 
 #: modules/access_output/shout.c:102
 msgid "Ogg Vorbis Quality information of the transcoded stream. "
@@ -8682,7 +8682,7 @@ msgstr ""
 
 #: modules/access/vnc.c:63
 msgid "Image quality"
-msgstr ""
+msgstr "Ansawdd delwedd"
 
 #: modules/access/vnc.c:64
 msgid "Image quality 1 to 9 (max)"
@@ -8690,11 +8690,11 @@ msgstr ""
 
 #: modules/access/vnc.c:78
 msgid "VNC"
-msgstr ""
+msgstr "VNC"
 
 #: modules/access/vnc.c:82
 msgid "VNC client access"
-msgstr ""
+msgstr "Cyrchiad cleient VNC"
 
 #: modules/access/zip/zipstream.c:38
 msgid "Media in Zip"
@@ -9309,55 +9309,55 @@ msgstr ""
 
 #: modules/audio_filter/param_eq.c:58
 msgid "Low freq (Hz)"
-msgstr ""
+msgstr "Amledd isel (Hz)"
 
 #: modules/audio_filter/param_eq.c:60
 msgid "Low freq gain (dB)"
-msgstr ""
+msgstr "Cynnydd amledd isel (dB)"
 
 #: modules/audio_filter/param_eq.c:61
 msgid "High freq (Hz)"
-msgstr ""
+msgstr "Amledd uchel (Hz)"
 
 #: modules/audio_filter/param_eq.c:63
 msgid "High freq gain (dB)"
-msgstr ""
+msgstr "Cynnydd amledd uchel (dB)"
 
 #: modules/audio_filter/param_eq.c:64
 msgid "Freq 1 (Hz)"
-msgstr ""
+msgstr "Amledd 1 (Hz)"
 
 #: modules/audio_filter/param_eq.c:66
 msgid "Freq 1 gain (dB)"
-msgstr ""
+msgstr "Cynnydd amledd 1 (dB)"
 
 #: modules/audio_filter/param_eq.c:68
 msgid "Freq 1 Q"
-msgstr ""
+msgstr "Q amledd 1"
 
 #: modules/audio_filter/param_eq.c:69
 msgid "Freq 2 (Hz)"
-msgstr ""
+msgstr "Amledd 2 (Hz)"
 
 #: modules/audio_filter/param_eq.c:71
 msgid "Freq 2 gain (dB)"
-msgstr ""
+msgstr "Cynnydd amledd 2 (dB)"
 
 #: modules/audio_filter/param_eq.c:73
 msgid "Freq 2 Q"
-msgstr ""
+msgstr "Q amledd 2"
 
 #: modules/audio_filter/param_eq.c:74
 msgid "Freq 3 (Hz)"
-msgstr ""
+msgstr "Amledd 3 (Hz)"
 
 #: modules/audio_filter/param_eq.c:76
 msgid "Freq 3 gain (dB)"
-msgstr ""
+msgstr "Cynnydd amledd 3 (dB)"
 
 #: modules/audio_filter/param_eq.c:78
 msgid "Freq 3 Q"
-msgstr ""
+msgstr "Q amledd 3"
 
 #: modules/audio_filter/resampler/bandlimited.c:89
 msgid "Audio filter for band-limited interpolation resampling"
@@ -9365,7 +9365,7 @@ msgstr ""
 
 #: modules/audio_filter/resampler/speex.c:32
 msgid "Resampling quality"
-msgstr ""
+msgstr "Ansawdd ailsamplu"
 
 #: modules/audio_filter/resampler/speex.c:34
 msgid "Resampling quality (0 = worst and fastest, 10 = best and slowest)."
@@ -11133,9 +11133,8 @@ msgid "PNG video decoder"
 msgstr "Datgodiwr fideo PNG"
 
 #: modules/codec/qsv.c:56
-#, fuzzy
 msgid "Enable software mode"
-msgstr "Galluogi modd cefndir bwrdd gwaith"
+msgstr ""
 
 #: modules/codec/qsv.c:57
 msgid ""
@@ -11144,9 +11143,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/qsv.c:61
-#, fuzzy
 msgid "Codec Profile"
-msgstr "Dewis Proffil"
+msgstr ""
 
 #: modules/codec/qsv.c:63
 msgid ""
@@ -11156,9 +11154,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/qsv.c:67
-#, fuzzy
 msgid "Codec Level"
-msgstr "Enw'r codec"
+msgstr ""
 
 #: modules/codec/qsv.c:69
 msgid ""
@@ -11199,9 +11196,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/qsv.c:90
-#, fuzzy
 msgid "IDR interval"
-msgstr "Datgydblethu"
+msgstr ""
 
 #: modules/codec/qsv.c:92
 msgid ""
@@ -11224,9 +11220,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/qsv.c:105
-#, fuzzy
 msgid "Quantization parameter"
-msgstr "Paramedrau amgodio"
+msgstr ""
 
 #: modules/codec/qsv.c:106
 msgid ""
@@ -11266,9 +11261,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/qsv.c:122
-#, fuzzy
 msgid "Maximum Bitrate"
-msgstr "Didradd Uchaf"
+msgstr ""
 
 #: modules/codec/qsv.c:123
 msgid ""
@@ -11300,9 +11294,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/qsv.c:139
-#, fuzzy
 msgid "Number of slices per frame"
-msgstr "Nifer o segmentau"
+msgstr ""
 
 #: modules/codec/qsv.c:140
 msgid ""
@@ -11316,9 +11309,8 @@ msgid "Number of reference frames"
 msgstr ""
 
 #: modules/codec/qsv.c:148
-#, fuzzy
 msgid "Number of parallel operations"
-msgstr "Nifer o rhesi pos"
+msgstr ""
 
 #: modules/codec/qsv.c:149
 msgid ""
@@ -11968,7 +11960,7 @@ msgstr "Datgodiwr isdeitlau testun"
 #: modules/codec/subsdec.c:295 modules/demux/avi/avi.c:96
 msgctxt "GetACP"
 msgid "CP1252"
-msgstr "CP1252 [ GetACP ]"
+msgstr "CP1252"
 
 #: modules/codec/subsusf.c:46
 msgid "USFSubs"
@@ -13644,17 +13636,17 @@ msgstr "| didradd mewnbwn    :   %6.0f kb/e"
 #: modules/control/rc.c:1752 modules/gui/ncurses.c:811
 #, c-format
 msgid "| demux bytes read : %8.0f KiB"
-msgstr "| beitiau datblecsu wedi'u darllen : %8.0f KiB"
+msgstr "| beitiau dadamlblecsio wedi'u darllen : %8.0f KiB"
 
 #: modules/control/rc.c:1754 modules/gui/ncurses.c:813
 #, c-format
 msgid "| demux bitrate    :   %6.0f kb/s"
-msgstr "| didradd datblecsu    :   %6.0f kb/e"
+msgstr "| didradd dadamlblecsio    :   %6.0f kb/e"
 
 #: modules/control/rc.c:1756
 #, c-format
 msgid "| demux corrupted  :    %5<PRIi64>"
-msgstr "| datblecsiad wedi'i difrodi  :    %5<PRIi64>"
+msgstr "| dadamlblecsiad wedi'i ddifrodi  :    %5<PRIi64>"
 
 #: modules/control/rc.c:1758
 #, c-format
@@ -13720,15 +13712,15 @@ msgstr "| didradd anfon  :   %6.0f kb/e"
 
 #: modules/demux/aiff.c:49
 msgid "AIFF demuxer"
-msgstr "Datblecsydd AIFF"
+msgstr "Dadamlblecsydd AIFF"
 
 #: modules/demux/asf/asf.c:56
 msgid "ASF/WMV demuxer"
-msgstr "Datblecsydd ASF/WMV"
+msgstr "Dadamlblecsydd ASF/WMV"
 
 #: modules/demux/asf/asf.c:180
 msgid "Could not demux ASF stream"
-msgstr "Methwyd datblecsu'r ffrwd ASF"
+msgstr "Methwyd dadamlblecsu'r ffrwd ASF"
 
 #: modules/demux/asf/asf.c:181
 msgid "VLC failed to load the ASF header."
@@ -13736,11 +13728,11 @@ msgstr ""
 
 #: modules/demux/au.c:50
 msgid "AU demuxer"
-msgstr "Datblecsydd AU"
+msgstr "Dadamlblecsydd AU"
 
 #: modules/demux/avformat/avformat.c:41
 msgid "Avformat demuxer"
-msgstr "Datblecsydd avformat"
+msgstr "Dadamlblecsydd AVformat"
 
 #: modules/demux/avformat/avformat.c:42
 msgid "Avformat"
@@ -13748,19 +13740,19 @@ msgstr "Avformat"
 
 #: modules/demux/avformat/avformat.c:55
 msgid "Avformat muxer"
-msgstr "Plecsydd Avformat"
+msgstr "Amlblecsydd AVformat"
 
 #: modules/demux/avformat/avformat.c:57 modules/stream_out/rtp.c:87
 msgid "Muxer"
-msgstr "Plecsydd"
+msgstr "Amlblecsydd"
 
 #: modules/demux/avformat/avformat.h:35
 msgid "Avformat mux"
-msgstr "Plecs avformat"
+msgstr "Amlblecsio AVformat"
 
 #: modules/demux/avformat/avformat.h:36
 msgid "Force use of a specific avformat muxer."
-msgstr "Gorfodi defnydd plecsydd avformat penodol"
+msgstr "Gorfodi defnydd amlblecsydd AVformat penodol"
 
 #: modules/demux/avformat/avformat.h:37
 msgid "Format name"
@@ -13802,7 +13794,7 @@ msgstr "Cywiro pan bo angen"
 
 #: modules/demux/avi/avi.c:72
 msgid "AVI demuxer"
-msgstr "Datblecsydd AVI"
+msgstr "Dadamlblecsydd AVI"
 
 #: modules/demux/avi/avi.c:673
 msgid "Broken or missing AVI Index"
@@ -13836,7 +13828,7 @@ msgstr ""
 
 #: modules/demux/cdg.c:43
 msgid "CDG demuxer"
-msgstr "Datblecsydd CDG"
+msgstr "Dadamlblecsydd CDG"
 
 #: modules/demux/demuxdump.c:32
 msgid "Dump module"
@@ -13868,11 +13860,11 @@ msgstr "Gwerth i addasu dts gan"
 
 #: modules/demux/dirac.c:54
 msgid "Dirac video demuxer"
-msgstr "Datblecsydd fideo Dirac"
+msgstr "Dadamlblecsydd fideo Dirac"
 
 #: modules/demux/flac.c:50
 msgid "FLAC demuxer"
-msgstr "Datblecsydd FLAC"
+msgstr "Dadamlblecsydd FLAC"
 
 #: modules/demux/image.c:44
 msgid "ES ID"
@@ -13884,7 +13876,7 @@ msgstr "Datgodio"
 
 #: modules/demux/image.c:54
 msgid "Decode at the demuxer stage"
-msgstr "Datgodio yn y cam datblecsu"
+msgstr "Datgodio yn y cam dadamlblecsu"
 
 #: modules/demux/image.c:56
 msgid "Forced chroma"
@@ -13922,7 +13914,7 @@ msgstr ""
 
 #: modules/demux/image.c:76
 msgid "Image demuxer"
-msgstr "Datblecsydd delweddau"
+msgstr "Dadamlblecsydd delweddau"
 
 #: modules/demux/image.c:77
 msgid "Image"
@@ -13945,7 +13937,7 @@ msgstr ""
 
 #: modules/demux/mjpeg.c:53
 msgid "M-JPEG camera demuxer"
-msgstr "Datblecsydd camera M-JPEG"
+msgstr "Dadamlblecsydd camera M-JPEG"
 
 #: modules/demux/mkv/chapter_command.cpp:143
 msgid "---  DVD Menu"
@@ -13965,7 +13957,7 @@ msgstr "----- Teitl"
 
 #: modules/demux/mkv/mkv.cpp:47
 msgid "Matroska stream demuxer"
-msgstr "Datblecsydd ffrwd Matroska"
+msgstr "Dadamlblecsydd ffrwd Matroska"
 
 #: modules/demux/mkv/mkv.cpp:54
 msgid "Respect ordered chapters"
@@ -14050,7 +14042,7 @@ msgstr ""
 
 #: modules/demux/mod.c:74
 msgid "MOD demuxer (libmodplug)"
-msgstr "Datblecsydd MOD (libmodplug)"
+msgstr "Dadamlblecsydd MOD (libmodplug)"
 
 #: modules/demux/mod.c:85
 msgid "Reverberation level"
@@ -14636,7 +14628,7 @@ msgstr ""
 
 #: modules/demux/mp4/mp4.c:52
 msgid "MP4 stream demuxer"
-msgstr "Datblecsydd ffrwd MP4"
+msgstr "Dadamlblecsydd ffrwd MP4"
 
 #: modules/demux/mp4/mp4.c:53
 msgid "MP4"
@@ -14775,7 +14767,7 @@ msgstr "Uwch Gynhyrchydd"
 
 #: modules/demux/mpc.c:62
 msgid "MusePack demuxer"
-msgstr "Datblecsydd MusePack"
+msgstr "Dadamlblecsydd MusePack"
 
 #: modules/demux/mpeg/es.c:51
 msgid ""
@@ -14801,11 +14793,11 @@ msgstr "Cyflymder fframiau ar gyfer y ffrwd H264"
 
 #: modules/demux/mpeg/h264.c:51
 msgid "H264 video demuxer"
-msgstr "Datblecsydd fideo H264"
+msgstr "Dadamlblecsydd fideo H264"
 
 #: modules/demux/mpeg/mpgv.c:46
 msgid "MPEG-I/II video demuxer"
-msgstr "Datblecsydd fideo MPEG-I/II"
+msgstr "Dadamlblecsydd fideo MPEG-I/II"
 
 #: modules/demux/nsc.c:47
 msgid "Windows Media NSC metademux"
@@ -14813,15 +14805,15 @@ msgstr ""
 
 #: modules/demux/nsv.c:49
 msgid "NullSoft demuxer"
-msgstr "Datblecsydd NullSoft"
+msgstr "Dadamlblecsydd NullSoft"
 
 #: modules/demux/nuv.c:49
 msgid "Nuv demuxer"
-msgstr "Datblecsydd Nuv"
+msgstr "Dadamlblecsydd Nuv"
 
 #: modules/demux/ogg.c:55
 msgid "OGG demuxer"
-msgstr "Datblecsydd OGG"
+msgstr "Dadamlblecsydd OGG"
 
 #: modules/demux/playlist/gvp.c:208
 msgid "Google Video"
@@ -14895,7 +14887,7 @@ msgstr "Mewnforiwr rhestr chwarae Google Video"
 
 #: modules/demux/playlist/playlist.c:129
 msgid "Dummy IFO demux"
-msgstr "Datblecsiad Dummy IFO"
+msgstr "Dadamlblecsio Dummy IFO"
 
 #: modules/demux/playlist/playlist.c:134
 msgid "iTunes Music Library importer"
@@ -14992,7 +14984,7 @@ msgstr ""
 
 #: modules/demux/ps.c:56 modules/demux/ps.c:69
 msgid "MPEG-PS demuxer"
-msgstr "Datblecsydd MPEG-PS"
+msgstr "Dadamlblecsydd MPEG-PS"
 
 #: modules/demux/ps.c:57
 msgid "PS"
@@ -15000,7 +14992,7 @@ msgstr "PS"
 
 #: modules/demux/pva.c:43
 msgid "PVA demuxer"
-msgstr "Datblecsydd PVA"
+msgstr "Dadamlblecsydd PVA"
 
 #: modules/demux/rawaud.c:44
 msgid "Audio sample rate in Hertz. Default is 48000 Hz."
@@ -15035,7 +15027,7 @@ msgstr ""
 
 #: modules/demux/rawaud.c:64
 msgid "Raw audio demuxer"
-msgstr "Datblecsydd sain craidd"
+msgstr "Dadamlblecsydd sain craidd"
 
 #: modules/demux/rawdv.c:43
 msgid ""
@@ -15044,7 +15036,7 @@ msgstr ""
 
 #: modules/demux/rawdv.c:51
 msgid "DV (Digital Video) demuxer"
-msgstr "Datblecsydd FD (Fideo Digidol)"
+msgstr "Dadamlblecsydd FD (Fideo Digidol)"
 
 #: modules/demux/rawvid.c:45
 msgid ""
@@ -15072,19 +15064,19 @@ msgstr ""
 
 #: modules/demux/rawvid.c:65
 msgid "Raw video demuxer"
-msgstr "Datblecsydd fideo craidd"
+msgstr "Dadamlblecsydd fideo craidd"
 
 #: modules/demux/real.c:70
 msgid "Real demuxer"
-msgstr "Datblecsydd Real"
+msgstr "Dadamlblecsydd Real"
 
 #: modules/demux/sid.cpp:56
 msgid "C64 sid demuxer"
-msgstr "Datblecsydd C64 sid"
+msgstr "Dadamlblecsydd C64 sid"
 
 #: modules/demux/smf.c:41
 msgid "SMF demuxer"
-msgstr "Datblecsydd SMF"
+msgstr "Dadamlblecsydd SMF"
 
 #: modules/demux/stl.c:43
 msgid "EBU STL subtitles parser"
@@ -15208,7 +15200,7 @@ msgstr ""
 
 #: modules/demux/ts.c:137
 msgid "MPEG Transport Stream demuxer"
-msgstr "Datblecsydd MPET Transport Sream (TS)"
+msgstr "Dadamlblecsydd MPET Transport Sream (TS)"
 
 #: modules/demux/ts.c:171 modules/gui/macosx/MainMenu.m:424
 #: modules/gui/macosx/MainMenu.m:1533 modules/gui/qt4/dialogs/toolbar.cpp:429
@@ -15249,7 +15241,7 @@ msgstr ""
 
 #: modules/demux/tta.c:45
 msgid "TTA demuxer"
-msgstr "Datblecsydd TTA"
+msgstr "Dadamlblecsydd TTA"
 
 #: modules/demux/ty.c:59
 msgid "TY"
@@ -15257,7 +15249,7 @@ msgstr ""
 
 #: modules/demux/ty.c:60
 msgid "TY Stream audio/video demux"
-msgstr "Datblecsiad sain/fideo TY Stream"
+msgstr "Dadamlblecsio sain/fideo TY Stream"
 
 #: modules/demux/ty.c:776
 msgid "Closed captions 1"
@@ -15281,7 +15273,7 @@ msgstr "Cyflymder fframiau ar gyfer ffrwd VC-1"
 
 #: modules/demux/vc1.c:50
 msgid "VC1 video demuxer"
-msgstr "Datblecsydd fideo VC1"
+msgstr "Dadamlblecsydd fideo VC1"
 
 #: modules/demux/vobsub.c:49
 msgid "Vobsub subtitles parser"
@@ -15289,15 +15281,15 @@ msgstr ""
 
 #: modules/demux/voc.c:43
 msgid "VOC demuxer"
-msgstr "Datblecsydd VOC"
+msgstr "Dadamlblecsydd VOC"
 
 #: modules/demux/wav.c:45
 msgid "WAV demuxer"
-msgstr "Datblecsydd WAV"
+msgstr "Dadamlblecsydd WAV"
 
 #: modules/demux/xa.c:43
 msgid "XA demuxer"
-msgstr "Datblecsydd XA"
+msgstr "Dadamlblecsydd XA"
 
 #: modules/demux/xiph_metadata.h:46
 msgid "Closed captions"
@@ -16847,7 +16839,7 @@ msgstr ""
 
 #: modules/gui/macosx/open.m:192
 msgid "Open RTP/UDP Stream"
-msgstr ""
+msgstr "Agor Ffrwd RTP/UDP"
 
 #: modules/gui/macosx/open.m:194
 #: share/lua/http/dialogs/stream_config_window.html:24
@@ -17132,7 +17124,7 @@ msgstr "Didradd mewnbwn"
 
 #: modules/gui/macosx/playlistinfo.m:99
 msgid "Demuxed"
-msgstr "Datblecswyd"
+msgstr "Dadamlblecswyd"
 
 #: modules/gui/macosx/playlistinfo.m:100
 msgid "Stream bitrate"
@@ -17301,7 +17293,7 @@ msgstr ""
 
 #: modules/gui/macosx/simple_prefs.m:339
 msgid "Codecs / Muxers"
-msgstr "Codecs / Plecswyr"
+msgstr "Codecs / Amlblecsyddion"
 
 #: modules/gui/macosx/simple_prefs.m:341
 msgid "Hardware Acceleration"
@@ -17952,7 +17944,7 @@ msgstr ""
 
 #: modules/gui/macosx/wizard.m:234
 msgid "MPEG Program Stream"
-msgstr ""
+msgstr "Ffrwd Rhaglen MPEG"
 
 #: modules/gui/macosx/wizard.m:235
 msgid "MPEG Transport Stream"
@@ -19025,7 +19017,7 @@ msgstr "Maint o ddata'r eitem"
 
 #: modules/gui/qt4/components/info_panels.cpp:562
 msgid "Demuxed data size"
-msgstr "Maint o ddata a datblecswyd"
+msgstr "Maint o ddata a dadamlblecswyd"
 
 #: modules/gui/qt4/components/info_panels.cpp:563
 msgid "Content bitrate"
@@ -19509,8 +19501,8 @@ msgstr "Creu"
 #: modules/gui/qt4/components/sout/profile_selector.cpp:610
 msgid "This muxer is not provided directly by VLC: It could be missing."
 msgstr ""
-"Dyw'r plecsydd hwn ddim yn cael ei darparu yn uniongyrchol gan VLC. Fe all "
-"fod ar goll."
+"Dyw'r amlblecsydd hwn ddim yn cael ei darparu yn uniongyrchol gan VLC. Fe "
+"all fod ar goll."
 
 #: modules/gui/qt4/components/sout/profile_selector.cpp:754
 msgid " Profile Name Missing"
@@ -19745,7 +19737,7 @@ msgstr "Polisi Mynediad Rhwydwaith"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:98
 msgid "Automatically retrieve media info"
-msgstr "Cael gwybodaeth eitemau cyfryngol o'r we yn awtomatig"
+msgstr ""
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:103
 msgid "Regularly check for VLC updates"
@@ -20965,7 +20957,7 @@ msgstr ""
 #: share/lua/http/dialogs/stream_config_window.html:28
 #: share/lua/http/dialogs/stream_window.html:87
 msgid "Host"
-msgstr ""
+msgstr "Gwesteiwr"
 
 #: modules/lua/vlc.c:62
 msgid ""
@@ -21382,7 +21374,7 @@ msgstr ""
 
 #: modules/mux/asf.c:73
 msgid "ASF muxer"
-msgstr "Plecsydd ASF"
+msgstr "Amlblecsydd ASF"
 
 #: modules/mux/asf.c:565
 msgid "Unknown Video"
@@ -21390,7 +21382,7 @@ msgstr "Fideo Anhysbys"
 
 #: modules/mux/avi.c:47
 msgid "AVI muxer"
-msgstr "Plecsydd AVI"
+msgstr "Amlblecsydd AVI"
 
 #: modules/mux/dummy.c:45
 msgid "Dummy/Raw muxer"
@@ -21409,7 +21401,7 @@ msgstr ""
 
 #: modules/mux/mp4.c:58
 msgid "MP4/MOV muxer"
-msgstr "Plecsydd MP4/MOV"
+msgstr "Amlblecsydd MP4/MOV"
 
 #: modules/mux/mpeg/ps.c:48 modules/mux/mpeg/ts.c:148
 msgid "DTS delay (ms)"
@@ -21435,7 +21427,7 @@ msgstr "Gosoda'r maint uchaf o PES i'w ganiatáu wrth greu ffrydiau MPEG PS."
 
 #: modules/mux/mpeg/ps.c:64
 msgid "PS muxer"
-msgstr "Plecsydd PS"
+msgstr "Amlblecsydd PS"
 
 #: modules/mux/mpeg/ts.c:88
 msgid "Video PID"
@@ -21629,19 +21621,19 @@ msgstr ""
 
 #: modules/mux/mpeg/ts.c:181
 msgid "TS muxer (libdvbpsi)"
-msgstr "Plecsydd TS (libdvbpsi)"
+msgstr "Amlblecsydd TS (libdvbpsi)"
 
 #: modules/mux/mpjpeg.c:47
 msgid "Multipart JPEG muxer"
-msgstr "Plecsydd JPEG amlran"
+msgstr "Amlblecsydd JPEG amlran"
 
 #: modules/mux/ogg.c:51
 msgid "Ogg/OGM muxer"
-msgstr "Plecsydd Ogg/OGM"
+msgstr "Amlblecsydd Ogg/OGM"
 
 #: modules/mux/wav.c:46
 msgid "WAV muxer"
-msgstr "Plecsydd WAV"
+msgstr "Amlblecsydd WAV"
 
 #: modules/notify/growl.m:104
 msgid "Growl Notification Plugin"
@@ -22133,28 +22125,27 @@ msgstr ""
 
 #: modules/stream_out/es.c:52 modules/stream_out/standard.c:44
 msgid "Output muxer"
-msgstr "Plecsydd yr allbwn"
+msgstr "AmlbPlecsydd yr allbwn"
 
 #: modules/stream_out/es.c:54
 msgid "This is the default muxer method that will be used."
-msgstr "Hwn yw'r dull plecsydd rhagosodedig caiff ei ddefnyddio."
+msgstr "Hwn yw'r dull amlblecsu rhagosodedig i'w ddefnyddio."
 
 #: modules/stream_out/es.c:55
 msgid "Audio output muxer"
-msgstr "Plecsydd allbwn sain"
+msgstr "Amlblecsydd allbwn sain"
 
 #: modules/stream_out/es.c:57
 msgid "This is the muxer that will be used for audio."
-msgstr "Hwn yw'r dull plecsydd rhagosodedig caiff ei ddefnyddio ar gyfer sain."
+msgstr "Hwn yw'r dull amlblecsu rhagosodedig i'w ddefnyddio ar gyfer sain."
 
 #: modules/stream_out/es.c:58
 msgid "Video output muxer"
-msgstr "Plecsydd allbwn fideo"
+msgstr "Amlblecsydd allbwn fideo"
 
 #: modules/stream_out/es.c:60
 msgid "This is the muxer that will be used for video."
-msgstr ""
-"Hwn yw'r dull plecsydd rhagosodedig caiff ei ddefnyddio ar gyfer fideo."
+msgstr "Hwn yw'r dull amlblecsu rhagosodedig i'w ddefnyddio ar gyfer fideo."
 
 #: modules/stream_out/es.c:62
 msgid "Output URL"
@@ -22369,8 +22360,8 @@ msgid ""
 "This allows you to specify the muxer used for the streaming output. Default "
 "is to use no muxer (standard RTP stream)."
 msgstr ""
-"Mae'n bosib dewis y plecsydd i'w ddefnyddio ar gyfer allbwn y ffrwd. Yn "
-"rhagosodedig does dim defnydd plecsydd (ffrwd RTP safonol)."
+"Mae'n bosib dewis yr amlblecsydd i'w ddefnyddio ar gyfer allbwn y ffrwd. Yn "
+"rhagosodedig, ni ddefnyddir amlblecsydd, ond ffrwd RTP safonol."
 
 #: modules/stream_out/rtp.c:92 modules/stream_out/standard.c:58
 msgid "Session name"
@@ -22467,7 +22458,7 @@ msgstr ""
 
 #: modules/stream_out/rtp.c:134
 msgid "RTP/RTCP multiplexing"
-msgstr "Amlblecsu RTP/RTCP"
+msgstr "Dadamlblecsio RTP/RTCP"
 
 #: modules/stream_out/rtp.c:136
 msgid ""
@@ -22639,7 +22630,7 @@ msgstr ""
 
 #: modules/stream_out/standard.c:46
 msgid "Muxer to use for the stream."
-msgstr "Y plecsydd i'w ddefnyddio ar gyfer y ffrwd"
+msgstr "Yr amlblecsydd i'w ddefnyddio ar gyfer y ffrwd"
 
 #: modules/stream_out/standard.c:47
 #: share/lua/http/dialogs/create_stream.html:334
@@ -25357,27 +25348,27 @@ msgstr "Pos"
 
 #: modules/video_filter/remoteosd.c:70
 msgid "VNC Host"
-msgstr ""
+msgstr "Gwesteiwr VNC"
 
 #: modules/video_filter/remoteosd.c:72
 msgid "VNC hostname or IP address."
-msgstr ""
+msgstr "Enw gwesteiwr neu gyfeiriad IP VNC"
 
 #: modules/video_filter/remoteosd.c:74
 msgid "VNC Port"
-msgstr ""
+msgstr "Porth VNC"
 
 #: modules/video_filter/remoteosd.c:76
 msgid "VNC port number."
-msgstr ""
+msgstr "Rhif porth VNC."
 
 #: modules/video_filter/remoteosd.c:78
 msgid "VNC Password"
-msgstr ""
+msgstr "Cyfrinair VNC"
 
 #: modules/video_filter/remoteosd.c:80
 msgid "VNC password."
-msgstr ""
+msgstr "Cyfrinair VNC."
 
 #: modules/video_filter/remoteosd.c:82
 msgid "VNC poll interval"
@@ -26692,7 +26683,7 @@ msgstr "Ff/e Fideo"
 
 #: share/lua/http/dialogs/create_stream.html:297
 msgid "MUX options"
-msgstr "Dewisiadau MUX"
+msgstr "Dewisiadau Amlblecsu"
 
 #: share/lua/http/dialogs/create_stream.html:303
 msgid "Video scale"
@@ -27328,9 +27319,8 @@ msgid "Default caching policy"
 msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:514
-#, fuzzy
 msgid "Menus language:"
-msgstr "Iaith sain"
+msgstr "Iaith rhyngwyneb:"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:515
 msgid "Look and feel"
@@ -27692,11 +27682,11 @@ msgstr "Rheolydd Amser"
 
 #: modules/gui/qt4/ui/vlm.h:295
 msgid "Mux Control"
-msgstr "Rheolydd Amlblecs"
+msgstr "Rheoli Amlblecsio"
 
 #: modules/gui/qt4/ui/vlm.h:296
 msgid "Muxer:"
-msgstr "Plecsydd:"
+msgstr "Amlblecsydd:"
 
 #: modules/gui/qt4/ui/vlm.h:297
 msgid "AAAA; "
@@ -27705,12 +27695,6 @@ msgstr "AAAA; "
 #: modules/gui/qt4/ui/vlm.h:302
 msgid "Media Manager List"
 msgstr "Rhestr Rheolwyr Cyfryngau"
-
-#~ msgid "Show Details"
-#~ msgstr "Dangos Manylion"
-
-#~ msgid "Add a subtitle file"
-#~ msgstr "Ychwanegu ffeil isdeitlau"
 
 #~ msgid ""
 #~ "You can choose to disable some CPU accelerations here. Use with extreme "
@@ -27962,6 +27946,14 @@ msgstr "Rhestr Rheolwyr Cyfryngau"
 #~ msgstr "00000; "
 
 #, fuzzy
+#~ msgid "Show Details"
+#~ msgstr "Manylion Codec"
+
+#, fuzzy
+#~ msgid "Add a subtitle file"
+#~ msgstr "Defnyddio ffeil &isdeitlau"
+
+#, fuzzy
 #~ msgid "Image colors inversion"
 #~ msgstr "Gwrthdroad lliwiau"
 
@@ -28053,7 +28045,7 @@ msgstr "Rhestr Rheolwyr Cyfryngau"
 
 #, fuzzy
 #~ msgid "Audio output frequency (Hz)"
-#~ msgstr "Plecsydd allbwn sain"
+#~ msgstr "Amlblecsydd allbwn sain"
 
 #, fuzzy
 #~ msgid "Audio visualizations "
@@ -28133,7 +28125,7 @@ msgstr "Rhestr Rheolwyr Cyfryngau"
 
 #, fuzzy
 #~ msgid "Load subtitles file:"
-#~ msgstr "Ychwanegu ffeil isdeitlau"
+#~ msgstr "Defnyddio ffeil isdeitlau"
 
 #, fuzzy
 #~ msgid "Subtitles encoding"
@@ -28243,11 +28235,11 @@ msgstr "Rhestr Rheolwyr Cyfryngau"
 
 #, fuzzy
 #~ msgid "      demux bytes read : %8.0f KiB"
-#~ msgstr "| beitiau datblecsu wedi'u darllen : %8.0f KiB"
+#~ msgstr "| beitiau dadamlblecsio wedi'u darllen : %8.0f KiB"
 
 #, fuzzy
 #~ msgid "      demux bitrate    :   %6.0f kb/s"
-#~ msgstr "| didradd datblecsu    :   %6.0f kb/e"
+#~ msgstr "| didradd dadamlblecsio    :   %6.0f kb/e"
 
 #, fuzzy
 #~ msgid "  [Video Decoding]"
@@ -28455,7 +28447,7 @@ msgstr "Rhestr Rheolwyr Cyfryngau"
 
 #, fuzzy
 #~ msgid "MUX Options"
-#~ msgstr "Dewisiadau MUX"
+#~ msgstr "Dewisiadau Amlblecsu"
 
 #, fuzzy
 #~ msgid "Video Scale"
@@ -28523,7 +28515,7 @@ msgstr "Rhestr Rheolwyr Cyfryngau"
 
 #, fuzzy
 #~ msgid "Add a subtitles file"
-#~ msgstr "Ychwanegu ffeil isdeitlau"
+#~ msgstr "Defnyddio ffeil &isdeitlau"
 
 #, fuzzy
 #~ msgid "Use a sub&titles file"
