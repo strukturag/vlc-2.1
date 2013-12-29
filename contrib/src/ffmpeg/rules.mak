@@ -2,7 +2,7 @@
 
 #Uncomment the one you want
 #USE_LIBAV ?= 1
-#USE_FFMPEG ?= 1
+USE_FFMPEG ?= 1
 
 ifdef USE_FFMPEG
 HASH=9aa053ceded5550b2e538578af383fd89d82364c
