@@ -201,7 +201,6 @@ fi
     --disable-samplerate \
     --disable-goom \
     --disable-vncserver \
-    --enable-gnutls \
     --disable-orc \
     --disable-schroedinger \
     --disable-libmpeg2 \
