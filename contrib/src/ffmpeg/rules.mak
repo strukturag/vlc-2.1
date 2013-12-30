@@ -5,10 +5,10 @@
 USE_FFMPEG ?= 1
 
 ifdef USE_FFMPEG
-HASH=9aa053ceded5550b2e538578af383fd89d82364c
+HASH=74a9c92840d3494393938874c1cdd5bdb95cc918
 FFMPEG_SNAPURL := http://git.videolan.org/?p=ffmpeg.git;a=snapshot;h=$(HASH);sf=tgz
 else
-HASH=b6a971994187e87fcc8811108e144f15c1652728
+HASH=9a4c10e3af011dd84d3135090d3ca4212cbad127
 FFMPEG_SNAPURL := http://git.libav.org/?p=libav.git;a=snapshot;h=$(HASH);sf=tgz
 endif
 
