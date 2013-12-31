@@ -213,7 +213,8 @@ fi
     --disable-fontconfig \
     --disable-gpg-error \
     --disable-lua \
-    --enable-taglib > ${out}
+    --enable-taglib \
+    --disable-gnutls > ${out}
 
 echo "EXTRA_CFLAGS += ${EXTRA_CFLAGS}" >> config.mak
 echo "EXTRA_LDFLAGS += ${EXTRA_LDFLAGS}" >> config.mak
