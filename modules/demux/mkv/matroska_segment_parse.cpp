@@ -1706,7 +1706,6 @@ int32_t matroska_segment_c::TrackInit( mkv_track_t * p_tk )
                 else
                 {
                     msg_Warn( &sys.demuxer, "reading original frame size for vobsub failed" );
-                    return 1;
                 }
 
                 psz_start = strstr( psz_buf, "palette:" );
