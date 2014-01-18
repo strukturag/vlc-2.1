@@ -6,20 +6,22 @@
 # Calixte, 2013
 # Christophe Lherieau <skimpax@gmail.com>, 2013
 # Eramdam <damien.erambert@me.com>, 2013
+# Emmanuel Sd <emanwebdev@gmail.com>, 2013
 # Éric Lassauge <lassauge {AT} users {dot} sourceforge {dot} net>, 2013
+# Loys, 2013
 # sebasthug <sebhug@free.fr>, 2013
+# Tubuntu, 2013-2014
 # Previous Translators
 #  Samuel Hocevar <sam@zoy.org>
 #  Jean-Pierre Kuypers <Kuypers@sri.ucl.ac.be>
 #  Probably other french VLC developers, look at the AUTHORS files
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-12-07 17:17+0100\n"
-"PO-Revision-Date: 2013-12-02 20:57+0000\n"
-"Last-Translator: Christophe Lherieau <skimpax@gmail.com>\n"
+"PO-Revision-Date: 2014-01-15 14:29+0000\n"
+"Last-Translator: Tubuntu\n"
 "Language-Team: French (http://www.transifex.com/projects/p/vlc-trans/"
 "language/fr/)\n"
 "Language: fr\n"
@@ -37,9 +39,9 @@ msgid ""
 msgstr ""
 "Ce programme est fourni SANS AUCUNE GARANTIE, tel que permis par la loi.\n"
 "Vous pouvez le redistribuer selon les termes de la Licence Publique Générale "
-"GNU ;\n"
+"GNU;\n"
 "voir le fichier COPYING pour plus de détails.\n"
-"Écrit par l'équipe VideoLAN ; voir le fichier AUTHORS.\n"
+"Écrit par l'équipe VideoLAN; voir le fichier AUTHORS.\n"
 
 #: include/vlc_config_cat.h:33
 msgid "VLC preferences"
@@ -3899,6 +3901,8 @@ msgid ""
 "If pending audio communication is detected, playback will be paused "
 "automatically."
 msgstr ""
+"Si une communication audio en attente est détectée, la lecture sera mise en "
+"pause automatiquement."
 
 #: src/libvlc-module.c:1166
 msgid "Use media library"
@@ -5360,7 +5364,7 @@ msgstr "Japonais"
 
 #: src/text/iso-639_def.h:104
 msgid "Greenlandic, Kalaallisut"
-msgstr ""
+msgstr "Groenlandais, Kalaallisut"
 
 #: src/text/iso-639_def.h:105
 msgid "Kannada"
@@ -5918,18 +5922,22 @@ msgstr "Fichier de configuration AACS manquant !"
 #: modules/access/bluray.c:278
 msgid "No valid processing key found in AACS config file."
 msgstr ""
+"Aucune clé de traitement valide n'a été trouvée dans le fichier de "
+"configuration d'AACS."
 
 #: modules/access/bluray.c:281
 msgid "No valid host certificate found in AACS config file."
 msgstr ""
+"Aucun certificat d'hôte valide n'a été trouvé dans le fichier de "
+"configuration d'AACS."
 
 #: modules/access/bluray.c:284
 msgid "AACS Host certificate revoked."
-msgstr ""
+msgstr "Certificat hôte AACS révoqué."
 
 #: modules/access/bluray.c:287
 msgid "AACS MMC failed."
-msgstr ""
+msgstr "AACS MMC échoué"
 
 #: modules/access/bluray.c:293
 msgid "Your system AACS decoding library does not work. Missing keys?"
@@ -6462,6 +6470,8 @@ msgid ""
 "TV channels are grouped by transponder (a.k.a. multiplex) on a given "
 "frequency. This is required to tune the receiver."
 msgstr ""
+"Les chaines de TV sont regroupées par transpondeur (a.k.a multiplex) sur une "
+"fréquence donnée. Cela requière d'accorder le récepteur."
 
 #: modules/access/dtv/access.c:61
 #: modules/gui/qt4/components/open_panels.cpp:953
@@ -6486,6 +6496,10 @@ msgid ""
 "(depending on the delivery system). If the demodulator cannot detect the "
 "constellation automatically, it needs to be configured manually."
 msgstr ""
+"Le signal digital peut être modulé en fonction des différentes "
+"constellations (selon le système de délivrance). Si le démodulateur ne peut "
+"détecter la constellation automatiquement, il est nécessaire de le "
+"configurer manuellement."
 
 #: modules/access/dtv/access.c:81
 msgid "Symbol rate (bauds)"
@@ -6496,6 +6510,8 @@ msgid ""
 "The symbol rate must be specified manually for some systems, notably DVB-C, "
 "DVB-S and DVB-S2."
 msgstr ""
+"Le taux de symbole doit être spécifié manuellement pour certains systèmes, "
+"notamment DVB-C, DVB-S et DVB-S2."
 
 #: modules/access/dtv/access.c:86
 msgid "Spectrum inversion"
@@ -6506,6 +6522,8 @@ msgid ""
 "If the demodulator cannot detect spectral inversion correctly, it needs to "
 "be configured manually."
 msgstr ""
+"Si le démodulateur ne peut détecter le spectre d'inversion correctement, il "
+"doit être configuré manuellement."
 
 #: modules/access/dtv/access.c:94
 msgid "FEC code rate"
@@ -10077,7 +10095,7 @@ msgstr ""
 
 #: modules/audio_filter/stereo_widen.c:66
 msgid "Crossfeed"
-msgstr ""
+msgstr "Crossfeed"
 
 #: modules/audio_filter/stereo_widen.c:67
 msgid ""
@@ -10085,6 +10103,9 @@ msgid ""
 "the mono. If the value is 1 it will cancel all the signal common to both "
 "channels."
 msgstr ""
+"Echange de la voie gauche vers droite ou inversement avec inversion de "
+"phase. Ceci aide a supprimer le mono. Si la valeur est à 1, les signaux "
+"communs aux deux canaux seront supprimés."
 
 #: modules/audio_filter/stereo_widen.c:70
 msgid "Dry mix"
@@ -10991,11 +11012,11 @@ msgstr "Video accélérée « (VA) API »"
 
 #: modules/codec/avcodec/vda.c:47
 msgid "420YpCbCr8Planar"
-msgstr ""
+msgstr "420YpCbCr8Planar"
 
 #: modules/codec/avcodec/vda.c:47
 msgid "422YpCbCr8"
-msgstr ""
+msgstr "422YpCbCr8"
 
 #: modules/codec/avcodec/vda.c:50
 msgid "Video Decode Acceleration Framework (VDA)"
@@ -11832,7 +11853,7 @@ msgstr ""
 
 #: modules/codec/qsv.c:61
 msgid "Codec Profile"
-msgstr ""
+msgstr "Profil du codec"
 
 #: modules/codec/qsv.c:63
 msgid ""
@@ -11843,7 +11864,7 @@ msgstr ""
 
 #: modules/codec/qsv.c:67
 msgid "Codec Level"
-msgstr ""
+msgstr "Niveau du codec"
 
 #: modules/codec/qsv.c:69
 msgid ""
@@ -11885,7 +11906,7 @@ msgstr ""
 
 #: modules/codec/qsv.c:90
 msgid "IDR interval"
-msgstr ""
+msgstr "Intervalle IDR"
 
 #: modules/codec/qsv.c:92
 msgid ""
@@ -11998,7 +12019,7 @@ msgstr "Nombre d'images de référence"
 
 #: modules/codec/qsv.c:148
 msgid "Number of parallel operations"
-msgstr ""
+msgstr "Nombre d'opérations en parallèle"
 
 #: modules/codec/qsv.c:149
 msgid ""
@@ -12010,6 +12031,7 @@ msgstr ""
 #: modules/codec/qsv.c:193
 msgid "Intel QuickSync Video encoder for MPEG4-Part10/MPEG2 (aka H.264/H.262)"
 msgstr ""
+"Encodeur vidéo Intel QuickSync pour MPEG4-Part10/MPEG2 (càd H.264/H.262)"
 
 #: modules/codec/quicktime.c:66
 msgid "QuickTime library decoder"
@@ -12230,7 +12252,7 @@ msgstr ""
 
 #: modules/codec/schroedinger.c:287
 msgid "Size of code blocks in each subband"
-msgstr ""
+msgstr "Taille des blocs de code dans chaque sous-bande"
 
 #: modules/codec/schroedinger.c:298
 msgid "small - use small code blocks"
@@ -12246,7 +12268,7 @@ msgstr "petit - Utilise des blocs de codes larges"
 
 #: modules/codec/schroedinger.c:301
 msgid "full - One code block per subband"
-msgstr ""
+msgstr "complet - Un bloc de code par sous-bande"
 
 #: modules/codec/schroedinger.c:306
 msgid "Enable hierarchical Motion Estimation"
@@ -12259,6 +12281,8 @@ msgstr "Nombre de niveaux de sous-échantillonnage"
 #: modules/codec/schroedinger.c:311
 msgid "Number of levels of downsampling in hierarchical motion estimation mode"
 msgstr ""
+"Nombre de niveaux de sous-échantillonnage en mode d'estimation de mouvement "
+"hiérarchique"
 
 #: modules/codec/schroedinger.c:315
 msgid "Enable Global Motion Estimation"
@@ -12978,13 +13002,16 @@ msgstr ""
 
 #: modules/codec/x264.c:125
 msgid "Use fullrange instead of TV colorrange"
-msgstr ""
+msgstr "Utiliser la palette complète au lieu de la palette de couleurs TV"
 
 #: modules/codec/x264.c:126
 msgid ""
 "TV-range is usually used colorrange, defining this to true will enable "
 "libx264 to use full colorrange on encoding"
 msgstr ""
+"La palette de couleurs TV est celle généralement utilisée. Définir ceci à "
+"vrai va activer libx264 pour utiliser la palette de couleurs complète pour "
+"l'encodage."
 
 #: modules/codec/x264.c:129
 msgid "CABAC"
@@ -13650,7 +13677,7 @@ msgstr "information de durée HDR"
 
 #: modules/codec/x264.c:409
 msgid "Default tune setting used"
-msgstr ""
+msgstr "Configuration par défaut utilisée"
 
 #: modules/codec/x264.c:410
 msgid "Default preset setting used"
@@ -16266,7 +16293,7 @@ msgstr ""
 msgid "Compiled by %s with %@"
 msgstr ""
 "Compilé par %s avec %@\n"
-"Traduction : Éric Lassauge - Team français traduction VLC "
+"Traductions © 2008-2013 Éric Lassauge - Team français traduction VLC"
 
 #: modules/gui/macosx/about.m:132 modules/gui/qt4/dialogs/help.cpp:94
 msgid ""
@@ -16543,7 +16570,7 @@ msgstr "Aller à"
 
 #: modules/gui/macosx/ControlsBar.m:53 modules/gui/macosx/fspanel.m:418
 msgid "Click to play or pause the current media."
-msgstr ""
+msgstr "Cliquez pour jouer ou mettre le média en pause."
 
 #: modules/gui/macosx/ControlsBar.m:56 modules/gui/macosx/fspanel.m:417
 msgid "Backward"
@@ -16554,6 +16581,8 @@ msgid ""
 "Click to go to the previous playlist item. Hold to skip backward through the "
 "current media."
 msgstr ""
+"Cliquez pour aller à l'élément précédent de la liste de lecture. Gardez "
+"enfoncé pour se déplacer en arrière dans le média courant."
 
 #: modules/gui/macosx/ControlsBar.m:60 modules/gui/macosx/fspanel.m:419
 msgid "Forward"
@@ -16564,12 +16593,16 @@ msgid ""
 "Click to go to the next playlist item. Hold to skip forward through the "
 "current media."
 msgstr ""
+"Cliquez pour aller à l'élément suivant de la liste de lecture. Gardez "
+"enfoncé pour se déplacer en avant dans le média courant."
 
 #: modules/gui/macosx/ControlsBar.m:65 modules/gui/macosx/fspanel.m:445
 msgid ""
 "Click and move the mouse while keeping the button pressed to use this slider "
 "to change current playback position."
 msgstr ""
+"Cliquez et déplacez la souris en gardant le bouton enfoncé pour utiliser ce "
+"curseur et se déplacer dans le média courant."
 
 #: modules/gui/macosx/ControlsBar.m:68 modules/gui/macosx/fspanel.m:421
 msgid "Toggle Fullscreen mode"
@@ -16600,6 +16633,8 @@ msgid ""
 "Click to switch between video output and playlist. If no video is shown in "
 "the main window, this allows you to hide the playlist."
 msgstr ""
+"Cliquez pour basculer entre la vidéo et la liste de lecture. S'il n'y a pas "
+"de vidéo, alors ceci permet de cacher la liste de lecture."
 
 #: modules/gui/macosx/ControlsBar.m:478 modules/gui/qt4/dialogs/vlm.cpp:560
 #: share/lua/http/index.html:241
@@ -16611,6 +16646,8 @@ msgid ""
 "Click to change repeat mode. There are 3 states: repeat one, repeat all and "
 "off."
 msgstr ""
+"Cliquer pour changer de mode de répétition. Il y a 3 états : répéter un "
+"seul, tout répéter, aucune répétition."
 
 #: modules/gui/macosx/ControlsBar.m:482 share/lua/http/index.html:239
 msgid "Shuffle"
@@ -16618,7 +16655,7 @@ msgstr "Aléatoire"
 
 #: modules/gui/macosx/ControlsBar.m:484
 msgid "Click to enable or disable random playback."
-msgstr ""
+msgstr "Cliquer pour activer ou désactiver la lecture aléatoire."
 
 #: modules/gui/macosx/ControlsBar.m:487 modules/gui/macosx/fspanel.m:464
 msgid ""
@@ -16828,7 +16865,7 @@ msgstr "Exporter un fichier SDP"
 
 #: modules/gui/macosx/ConvertAndSave.m:284
 msgid "Invalid container format for HTTP streaming"
-msgstr ""
+msgstr "Format de conteneur invalide pour le streaming HTTP"
 
 #: modules/gui/macosx/ConvertAndSave.m:286
 msgid ""
@@ -18290,9 +18327,8 @@ msgid "Lua HTTP"
 msgstr "Interface Lua HTTP"
 
 #: modules/gui/macosx/simple_prefs.m:374
-#, fuzzy
 msgid "Control iTunes during playback"
-msgstr "Pause de iTunes pendant la lecture VLC"
+msgstr "Contrôler iTunes pendant la lecture"
 
 #: modules/gui/macosx/simple_prefs.m:377
 msgid "Default Encoding"
@@ -22004,6 +22040,9 @@ msgid ""
 "password, or set a password in </p><p>Preferences &gt; All &gt; Main "
 "interfaces &gt; Lua &gt; Lua HTTP &gt; Password.</p>"
 msgstr ""
+"<p>Pas de mot de passe configuré pour l'interface Web.</p><p>Utilisez --http-"
+"password, ou choisissez un mot de passe dans </p><p>Préférences &gt; Tout "
+"&gt; Interfaces principales &gt; Lua &gt; Lua HTTP &gt; Mot de Passe.</p>"
 
 #: modules/lua/vlc.c:48
 msgid "Lua interface"
