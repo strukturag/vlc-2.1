@@ -5,14 +5,16 @@
 # Translators:
 # Thanakrit Chomphuming <jernghan@gmail.com>, 2011-3013.
 # rigelenrique <d.chalermpon@gmail.com>, 2013
+# jerng <jernghan@gmail.com>, 2013
+# Theppitak Karoonboonyanan <thep@linux.thai.net>, 2013
 # <develop5@datawiz.co.th>, 2006.
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-12-07 17:17+0100\n"
-"PO-Revision-Date: 2013-12-07 11:41+0000\n"
-"Last-Translator: rigelenrique <d.chalermpon@gmail.com>\n"
+"PO-Revision-Date: 2013-12-26 07:50+0000\n"
+"Last-Translator: theppitak <theppitak@gmail.com>\n"
 "Language-Team: Thai (http://www.transifex.com/projects/p/vlc-trans/language/"
 "th/)\n"
 "Language: th\n"
@@ -28,9 +30,9 @@ msgid ""
 "see the file named COPYING for details.\n"
 "Written by the VideoLAN team; see the AUTHORS file.\n"
 msgstr ""
-"โปรแกรมนี้ \"ไม่รับกัน\" ข้ออนุญาตการใช้งานตามทางกฎหมาย \n"
-"คุณเผยแพร่มันได้ โดยต้องปฏิบัติตามข้อตกลงของ GNU GPL \n"
-"ดูรายละเอียดได้ที่แฟ้ม COPYING \n"
+"โปรแกรมนี้ \"ไม่มีการรับประกัน\" จนสุดขอบเขตที่กฎหมายอนุญาต\n"
+"คุณสามารถเผยแพร่ต่อได้ ภายใต้เงื่อนไขของ GNU General Public License\n"
+"ดูรายละเอียดได้ที่แฟ้ม COPYING\n"
 "เขียนโดยทีมงาน VideoLAN ดูรายชื่อได้ที่แฟ้ม AUTHORS\n"
 
 #: include/vlc_config_cat.h:33
@@ -101,7 +103,7 @@ msgstr "ค่าตั้งเสียงทั่วไป"
 #: include/vlc_config_cat.h:58 include/vlc_config_cat.h:80
 #: modules/gui/qt4/ui/profiles.h:733 modules/gui/qt4/ui/profiles.h:743
 msgid "Filters"
-msgstr "ตัวกรอง"
+msgstr "ตัวผันค่า"
 
 #: include/vlc_config_cat.h:59
 msgid "Audio filters are used to process the audio stream."
@@ -193,8 +195,7 @@ msgid ""
 "Settings related to the various access methods. Common settings you may want "
 "to alter are HTTP proxy or caching settings."
 msgstr ""
-"ค่าตั้งเกี่ยวกับการเข้าใช้ส่วนต่าง ๆ ปรับแก้การตั้งค่าทั่วไปจำพวกพร็อกซี HTTP และค่าตั้งการทำแคช "
-"ที่คุณอาจต้องการปรับค่า"
+"ค่าตั้งเกี่ยวกับการเข้าใช้ส่วนต่างๆ ค่าพื้นๆ ที่คุณอาจต้องการปรับแก้ได้แก่พร็อกซี HTTP หรือการทำแคช"
 
 #: include/vlc_config_cat.h:103
 msgid "Stream filters"
@@ -579,27 +580,27 @@ msgid ""
 msgstr ""
 "<html><head><meta http-equiv=\"Content-Type\" content=\"text/html; "
 "charset=utf-8\" /></head><body><h2>ยินดีต้อนรับสู่คู่มือการใช้งานโปรแกรมเล่นสื่อ VLC</"
-"h2><h3>เอกสาร (ภาษาอังกฤษ)</h3><p>คุณสามารหาเอกสารการใช้งาน VLC ได้จากเว็บไซต์ <a "
-"href=\"http://wiki.videolan.org\">วิกิ </a>ของ VideoLAN</"
-"p><p>หากคุณพึ่งจะเคยเริ่มใช้งานโปรแกรมส่นสื่อ VLC โปรดอ่าน <br><a href=\"http://wiki."
+"h2><h3>เอกสาร (ภาษาอังกฤษ)</h3><p>คุณสามารถหาเอกสารการใช้งาน VLC ได้จากเว็บไซต์ <a "
+"href=\"http://wiki.videolan.org\">วิกิ</a> ของ VideoLAN</"
+"p><p>หากคุณพึ่งจะเคยเริ่มใช้งานโปรแกรมส่นสื่อ VLC โปรดอ่าน<br><a href=\"http://wiki."
 "videolan.org/Documentation:VLC_for_dummies\"><em>การใช้โปรแกรมเล่นสื่อ VLC "
-"เบื้องต้น</em></a></p><p>คุณอาจจะหาข้อมูลการใช้งานโปรแกรมได้ที่ <br>เอกสาร<a href="
+"เบื้องต้น</em></a></p><p>คุณอาจจะหาข้อมูลการใช้งานโปรแกรมได้จาก<br>เอกสาร<a href="
 "\"http://wiki.videolan.org/Documentation:Play_HowTo"
-"\"><em>การใช้งานโปรแกรมเล่นสื่อ VLC</em></a></p><p>สำหรับการใช้งานด้าน การบันทึกข้อมูล "
+"\"><em>การใช้งานโปรแกรมเล่นสื่อ VLC</em></a></p><p>สำหรับการใช้งานด้านการบันทึกข้อมูล "
 "การแปลงข้อมูล การแปลงรหัส การลงรหัส การรวมกระแส และการทำกระแส "
 "คุณน่าจะหาข้อมูลที่เป็นประโยชน์ได้ที่ <a href=\"http://wiki.videolan.org/Documentation:"
 "Streaming_HowTo\">เอกสารการใช้งานกระแสข้อมูล</a></p><p>ถ้าคุณไม่เข้าใจคำศัพท์เฉพาะทาง "
-"โปรดศึกษา <a href=\"http://wiki.videolan.org/Knowledge_Base\">พื้นฐานความรู้</a></"
-"p><p>ในการใช้งานปุ่มลัดหลักๆ ของแป้นพิมพ์ อ่านหน้า <a href=\"http://wiki.videolan.org/"
+"โปรดศึกษา <a href=\"http://wiki.videolan.org/Knowledge_Base\">คลังความรู้</a></"
+"p><p>เกี่ยวกับใช้งานปุ่มลัดหลักๆ ของแป้นพิมพ์ อ่านหน้า <a href=\"http://wiki.videolan.org/"
 "Hotkeys\">ปุ่มลัดต่างๆ</a></p><h3>วิธีใช้ (ภาษาอังกฤษ)</h3><p>ก่อนที่จะถามคำถามใดก็ตาม "
 "โปรดค้นคว้าที่ <a href=\"http://www.videolan.org/support/faq.html\">FAQ</a> ก่อน</"
-"p><p>แล้วจึงรับ(และให้)ความช่วยเหลือการใช้งานได้ที่ <a href=\"http://forum.videolan.org"
-"\">กระดานสนทนา</a><a href=\"http://www.videolan.org/vlc/lists.html"
-"\">บัญชีผู้รับอีเมล์ข่าวสาร</a> หรือแชนเนล IRC ของพวกเรา (<em>#videolan</em> ที่ irc."
-"freenode.net).</p><h3>การมีส่วนร่วมต่อโครงการ</h3><p>คุณสามารถช่วยโครงการ VideoLAN "
-"โดยสละเวลาของคุณ ในการช่วยเหลือชุมชุน ในการออกแบบหน้ากาก การแปลเอกสาร "
-"ทดสอบใช้งานรหัสโปรแกรม อีกทั้งคุณยังสามารถสมทบทุนและเครื่องมืออุปกรณ์ ในการช่วยเหลือพวกเรา "
-"และคุณยังสามารถช่วย <b>โฆษณา</b> โปรแกรมเล่นสือ VLC ได้อีกด้วย</p></body></html>"
+"p><p>แล้วจึงรับ (และให้) ความช่วยเหลือการใช้งานได้ที่ <a href=\"http://forum.videolan."
+"org\">กระดานสนทนา</a><a href=\"http://www.videolan.org/vlc/lists.html"
+"\">กลุ่มเมล</a> หรือห้องสนทนา IRC ของพวกเรา (<em>#videolan</em> ที่ irc.freenode."
+"net).</p><h3>การมีส่วนร่วมกับโครงการ</h3><p>คุณสามารถช่วยโครงการ VideoLAN "
+"โดยสละเวลาของคุณในการช่วยเหลือชุมชน ออกแบบหน้ากาก แปลเอกสาร ทดสอบโปรแกรม "
+"และเขียนโปรแกรม นอกจากนี้ คุณยังสามารถสมทบทุนและเครื่องมืออุปกรณ์เพื่อช่วยเหลือพวกเรา "
+"และแน่นอนว่าคุณสามารถช่วย <b>โฆษณา</b> โปรแกรมเล่นสื่อ VLC ได้อีกด้วย</p></body></html>"
 
 #: src/audio_output/filters.c:247
 msgid "Audio filtering failed"
@@ -704,7 +705,7 @@ msgstr "อัตโนมัติ"
 
 #: src/config/file.c:458
 msgid "boolean"
-msgstr "ตรรกะ "
+msgstr "ตรรกะ"
 
 #: src/config/file.c:458 src/config/help.c:468
 msgid "integer"
@@ -869,7 +870,7 @@ msgid ""
 "Dumped content to vlc-help.txt file.\n"
 msgstr ""
 "\n"
-"ถ่ายข้อมูลไปยังไฟล์ vlc-help.txt\n"
+"ถ่ายข้อมูลไปยังแฟ้ม vlc-help.txt\n"
 
 #: src/config/help.c:841
 msgid ""
@@ -1180,7 +1181,7 @@ msgstr "การทำกระแส / การแปลงรหัส ล�
 #: src/input/decoder.c:277
 #, c-format
 msgid "VLC could not open the %s module."
-msgstr "VLC ไม่สามารถเปิดมอดูล %s "
+msgstr "VLC ไม่สามารถเปิดมอดูล %s"
 
 #: src/input/decoder.c:468
 msgid "VLC could not open the decoder module."
@@ -1430,7 +1431,7 @@ msgstr "ที่ขั้น"
 
 #: src/input/var.c:172 src/libvlc-module.c:570
 msgid "Programs"
-msgstr "รายการต่าง ๆ"
+msgstr "รายการต่างๆ"
 
 #: src/input/var.c:182 modules/gui/macosx/MainMenu.m:374
 #: modules/gui/macosx/MainMenu.m:375 modules/gui/macosx/open.m:175
@@ -1528,7 +1529,7 @@ msgstr ""
 #: src/libvlc.h:134 src/libvlc-module.c:1401 src/libvlc-module.c:1402
 #: src/libvlc-module.c:2539 src/video_output/vout_intf.c:184
 msgid "Zoom"
-msgstr "แสดงย่อ-ขยาย "
+msgstr "แสดงย่อ-ขยาย"
 
 #: src/libvlc.h:135 src/libvlc-module.c:1319 src/video_output/vout_intf.c:85
 msgid "1:4 Quarter"
@@ -1599,7 +1600,7 @@ msgstr "เงียบเชียบ"
 
 #: src/libvlc-module.c:92
 msgid "Turn off all warning and information messages."
-msgstr "ปิดการเตือนรวมและการให้ข้อมูล"
+msgstr "ปิดคำเตือนและการแจ้งข้อมูลทั้งหมด"
 
 #: src/libvlc-module.c:94
 msgid "Default stream"
@@ -2792,7 +2793,7 @@ msgstr "การแสดงผ่านทางจอภาพ"
 msgid ""
 "VLC can display messages on the video. This is called OSD (On Screen "
 "Display)."
-msgstr "VLC สามารถแสดงข้อความบนวีดิทัศน์ได้ ซึ่งเรียกว่า OSD (การแสดงผลทางจอภาพ) "
+msgstr "VLC สามารถแสดงข้อความบนวีดิทัศน์ได้ ซึ่งเรียกว่า OSD (การแสดงผลบนจอภาพ)"
 
 #: src/libvlc-module.c:708
 msgid "Text rendering module"
@@ -2873,11 +2874,11 @@ msgstr ""
 
 #: src/libvlc-module.c:748
 msgid "DVD device"
-msgstr "อุปกรณ์เล่น DVD "
+msgstr "อุปกรณ์เล่น DVD"
 
 #: src/libvlc-module.c:749
 msgid "VCD device"
-msgstr "อุปกรณ์เล่น VCD "
+msgstr "อุปกรณ์เล่น VCD"
 
 #: src/libvlc-module.c:750
 msgid "Audio CD device"
@@ -2915,7 +2916,7 @@ msgstr "นี่คืออุปกรณ์เล่น CD เสียง�
 
 #: src/libvlc-module.c:788
 msgid "TCP connection timeout"
-msgstr "หมดเวลาการเชื่อมต่อ TCP "
+msgstr "หมดเวลาการเชื่อมต่อ TCP"
 
 #: src/libvlc-module.c:790
 msgid "Default TCP connection timeout (in milliseconds). "
@@ -2934,7 +2935,7 @@ msgstr ""
 
 #: src/libvlc-module.c:798
 msgid "RTSP server address"
-msgstr "ที่อยู่เซิร์ฟเวอร์ RTSP "
+msgstr "ที่อยู่เซิร์ฟเวอร์ RTSP"
 
 #: src/libvlc-module.c:800
 msgid ""
@@ -2947,7 +2948,7 @@ msgstr ""
 
 #: src/libvlc-module.c:806
 msgid "HTTP server port"
-msgstr "พอร์ตเซิร์ฟเวอร์ HTTP "
+msgstr "พอร์ตเซิร์ฟเวอร์ HTTP"
 
 #: src/libvlc-module.c:808
 msgid ""
@@ -2958,7 +2959,7 @@ msgstr ""
 
 #: src/libvlc-module.c:813
 msgid "HTTPS server port"
-msgstr "พอร์ตเซิร์ฟเวอร์ HTTP "
+msgstr "พอร์ตเซิร์ฟเวอร์ HTTP"
 
 #: src/libvlc-module.c:815
 msgid ""
@@ -3016,7 +3017,7 @@ msgstr ""
 
 #: src/libvlc-module.c:845
 msgid "SOCKS server"
-msgstr "เซิร์ฟเวอร์ SOCKS "
+msgstr "เซิร์ฟเวอร์ SOCKS"
 
 #: src/libvlc-module.c:847
 msgid ""
@@ -3034,7 +3035,7 @@ msgstr ""
 
 #: src/libvlc-module.c:854
 msgid "SOCKS password"
-msgstr "รหัสผ่าน SOCKS "
+msgstr "รหัสผ่าน SOCKS"
 
 #: src/libvlc-module.c:856
 msgid "Password to be used for connection to the SOCKS proxy."
@@ -3186,7 +3187,7 @@ msgstr ""
 
 #: src/libvlc-module.c:941
 msgid "Enable SPU stream output"
-msgstr "เปิดใช้ส่วนส่งกระแส SPU "
+msgstr "เปิดใช้ส่วนส่งกระแส SPU"
 
 #: src/libvlc-module.c:943
 msgid ""
@@ -3482,7 +3483,7 @@ msgstr "ข้อตกลงเกี่ยวกับหน้าปกอั
 
 #: src/libvlc-module.c:1118
 msgid "Choose how album art will be downloaded."
-msgstr "เลือกการดาวน์โหลดหน้าปกอัลบั้ม"
+msgstr "เลือกการดาวน์โหลดหน้าปกอัลบัม"
 
 #: src/libvlc-module.c:1124
 msgid "Manual download only"
@@ -4340,7 +4341,7 @@ msgstr "เปิด/ปิด การเล่นสุ่มรายกา�
 
 #: src/libvlc-module.c:1404 src/libvlc-module.c:1405
 msgid "Un-Zoom"
-msgstr "เลิกแสดงย่อ-ขยาย "
+msgstr "เลิกแสดงย่อ-ขยาย"
 
 #: src/libvlc-module.c:1407 src/libvlc-module.c:1408
 msgid "Crop one pixel from the top of the video"
@@ -4573,7 +4574,7 @@ msgid ""
 "Downloading... %s/%s %.1f%% done"
 msgstr ""
 "%s\n"
-"กำลังโหลด... %s/%s โหลดแล้ว %.1f%% "
+"กำลังดาวน์โหลด... %s/%s โหลดแล้ว %.1f%%"
 
 #: src/misc/update.c:584
 msgid "Downloading ..."
@@ -4607,7 +4608,7 @@ msgid ""
 "Downloading... %s/%s - %.1f%% done"
 msgstr ""
 "%s\n"
-"กำลังโหลด... %s/%s - โหลดแล้ว %.1f%% "
+"กำลังดาวน์โหลด... %s/%s - โหลดแล้ว %.1f%%"
 
 #: src/misc/update.c:637
 msgid "File could not be verified"
@@ -4726,7 +4727,7 @@ msgstr "แบชเคียร์"
 
 #: src/text/iso-639_def.h:52
 msgid "Basque"
-msgstr "แบ็ซค์ "
+msgstr "แบ็ซค์"
 
 #: src/text/iso-639_def.h:53
 msgid "Belarusian"
@@ -4902,11 +4903,11 @@ msgstr "ไอซ์แลนด์"
 
 #: src/text/iso-639_def.h:96
 msgid "Inuktitut"
-msgstr ""
+msgstr "อินุกติตุต"
 
 #: src/text/iso-639_def.h:97
 msgid "Interlingue"
-msgstr ""
+msgstr "อินเทอร์ลิงก์"
 
 #: src/text/iso-639_def.h:98
 msgid "Interlingua"
@@ -4918,7 +4919,7 @@ msgstr "อินโดนีเซีย"
 
 #: src/text/iso-639_def.h:100
 msgid "Inupiaq"
-msgstr ""
+msgstr "อินุเปียก"
 
 #: src/text/iso-639_def.h:101
 msgid "Italian"
@@ -4946,7 +4947,7 @@ msgstr "กัศมีรี"
 
 #: src/text/iso-639_def.h:107
 msgid "Kazakh"
-msgstr ""
+msgstr "คาซัคสถาน"
 
 #: src/text/iso-639_def.h:108
 msgid "Khmer"
@@ -4958,11 +4959,11 @@ msgstr ""
 
 #: src/text/iso-639_def.h:110
 msgid "Kinyarwanda"
-msgstr "รวันดา"
+msgstr "คินยารวันดา"
 
 #: src/text/iso-639_def.h:111
 msgid "Kirghiz"
-msgstr "คีร์กีซ"
+msgstr "คีร์กีซสถาน"
 
 #: src/text/iso-639_def.h:112
 msgid "Komi"
@@ -4978,7 +4979,7 @@ msgstr ""
 
 #: src/text/iso-639_def.h:115
 msgid "Kurdish"
-msgstr "เคิร์ด "
+msgstr "เคิร์ด"
 
 #: src/text/iso-639_def.h:116
 msgid "Lao"
@@ -4986,15 +4987,15 @@ msgstr "ลาว"
 
 #: src/text/iso-639_def.h:117 modules/demux/mp4/id3genres.h:118
 msgid "Latin"
-msgstr "ลาติน"
+msgstr "ละติน"
 
 #: src/text/iso-639_def.h:118
 msgid "Latvian"
-msgstr "ลัตเวีย "
+msgstr "ลัตเวีย"
 
 #: src/text/iso-639_def.h:119
 msgid "Lingala"
-msgstr ""
+msgstr "ลิงกาลา"
 
 #: src/text/iso-639_def.h:120
 msgid "Lithuanian"
@@ -5002,7 +5003,7 @@ msgstr "ลิทัวเนีย"
 
 #: src/text/iso-639_def.h:121
 msgid "Letzeburgesch"
-msgstr ""
+msgstr "ลักเซมเบิร์ก"
 
 #: src/text/iso-639_def.h:122
 msgid "Macedonian"
@@ -5010,11 +5011,11 @@ msgstr "มาซิโดเนีย"
 
 #: src/text/iso-639_def.h:123
 msgid "Marshall"
-msgstr ""
+msgstr "มาร์แชลล์"
 
 #: src/text/iso-639_def.h:124
 msgid "Malayalam"
-msgstr "มลยาฬัม "
+msgstr "มลยาฬัม"
 
 #: src/text/iso-639_def.h:125
 msgid "Maori"
@@ -5026,11 +5027,11 @@ msgstr "มาราฐี"
 
 #: src/text/iso-639_def.h:127
 msgid "Malay"
-msgstr "มาเลเซีย"
+msgstr "มลายู"
 
 #: src/text/iso-639_def.h:128
 msgid "Malagasy"
-msgstr ""
+msgstr "มาลากาซี"
 
 #: src/text/iso-639_def.h:129
 msgid "Maltese"
@@ -5038,7 +5039,7 @@ msgstr "มอลตา"
 
 #: src/text/iso-639_def.h:130
 msgid "Moldavian"
-msgstr ""
+msgstr "มอลโดวา"
 
 #: src/text/iso-639_def.h:131
 msgid "Mongolian"
@@ -5074,11 +5075,11 @@ msgstr "นอร์เวย์"
 
 #: src/text/iso-639_def.h:139
 msgid "Norwegian Nynorsk"
-msgstr ""
+msgstr "นอร์เวย์ (นีนอร์สก์)"
 
 #: src/text/iso-639_def.h:140
 msgid "Norwegian Bokmaal"
-msgstr ""
+msgstr "นอร์เวย์ (บุคมอล)"
 
 #: src/text/iso-639_def.h:141
 msgid "Chichewa; Nyanja"
@@ -5086,15 +5087,15 @@ msgstr ""
 
 #: src/text/iso-639_def.h:142
 msgid "Occitan; Provençal"
-msgstr ""
+msgstr "ออกซิตัน"
 
 #: src/text/iso-639_def.h:143
 msgid "Oriya"
-msgstr "โอริยา "
+msgstr "โอริยา"
 
 #: src/text/iso-639_def.h:144
 msgid "Oromo"
-msgstr ""
+msgstr "โอโรโม"
 
 #: src/text/iso-639_def.h:146
 msgid "Ossetian; Ossetic"
@@ -5102,7 +5103,7 @@ msgstr ""
 
 #: src/text/iso-639_def.h:147
 msgid "Panjabi"
-msgstr "ปัญจาบ"
+msgstr "ปัญจาบี"
 
 #: src/text/iso-639_def.h:148
 msgid "Persian"
@@ -5110,11 +5111,11 @@ msgstr "เปอร์เซีย"
 
 #: src/text/iso-639_def.h:149
 msgid "Pali"
-msgstr "บาลี (อินเดีย)"
+msgstr "บาลี"
 
 #: src/text/iso-639_def.h:150
 msgid "Polish"
-msgstr "โปแลนด์ "
+msgstr "โปแลนด์"
 
 #: src/text/iso-639_def.h:151
 msgid "Portuguese"
@@ -5122,11 +5123,11 @@ msgstr "โปรตุเกส"
 
 #: src/text/iso-639_def.h:152
 msgid "Pushto"
-msgstr ""
+msgstr "พาชโต"
 
 #: src/text/iso-639_def.h:153
 msgid "Quechua"
-msgstr ""
+msgstr "เกชัว"
 
 #: src/text/iso-639_def.h:154
 msgid "Original audio"
@@ -5142,7 +5143,7 @@ msgstr "โรมาเนีย"
 
 #: src/text/iso-639_def.h:157
 msgid "Rundi"
-msgstr ""
+msgstr "รุนดี"
 
 #: src/text/iso-639_def.h:158
 msgid "Russian"
@@ -5150,19 +5151,19 @@ msgstr "รัสเซีย"
 
 #: src/text/iso-639_def.h:159
 msgid "Sango"
-msgstr ""
+msgstr "ซังโก"
 
 #: src/text/iso-639_def.h:160
 msgid "Sanskrit"
-msgstr "สันสกฤต (อินเดีย)"
+msgstr "สันสกฤต"
 
 #: src/text/iso-639_def.h:161
 msgid "Serbian"
-msgstr "เซิร์บ"
+msgstr "เซอร์เบีย"
 
 #: src/text/iso-639_def.h:162
 msgid "Croatian"
-msgstr "โครเอเชีย "
+msgstr "โครเอเชีย"
 
 #: src/text/iso-639_def.h:163
 msgid "Sinhalese"
@@ -5178,11 +5179,11 @@ msgstr "สโลวีเนีย"
 
 #: src/text/iso-639_def.h:166
 msgid "Northern Sami"
-msgstr ""
+msgstr "ซามิเหนือ"
 
 #: src/text/iso-639_def.h:167
 msgid "Samoan"
-msgstr ""
+msgstr "ซามัว"
 
 #: src/text/iso-639_def.h:168
 msgid "Shona"
@@ -5194,11 +5195,11 @@ msgstr "สินธี"
 
 #: src/text/iso-639_def.h:170
 msgid "Somali"
-msgstr "โซมาเลีย "
+msgstr "โซมาเลีย"
 
 #: src/text/iso-639_def.h:171
 msgid "Sotho, Southern"
-msgstr ""
+msgstr "ซูทูใต้"
 
 #: src/text/iso-639_def.h:172
 msgid "Spanish"
@@ -5210,39 +5211,39 @@ msgstr ""
 
 #: src/text/iso-639_def.h:174
 msgid "Swati"
-msgstr ""
+msgstr "สวาตี"
 
 #: src/text/iso-639_def.h:175
 msgid "Sundanese"
-msgstr ""
+msgstr "ซุนดา"
 
 #: src/text/iso-639_def.h:176
 msgid "Swahili"
-msgstr "สวาฮีลี "
+msgstr "สวาฮีลี"
 
 #: src/text/iso-639_def.h:177
 msgid "Swedish"
-msgstr "สวีเดน "
+msgstr "สวีเดน"
 
 #: src/text/iso-639_def.h:178
 msgid "Tahitian"
-msgstr ""
+msgstr "ตาฮิติ"
 
 #: src/text/iso-639_def.h:179
 msgid "Tamil"
-msgstr "ภาษาทมิฬ"
+msgstr "ทมิฬ"
 
 #: src/text/iso-639_def.h:180
 msgid "Tatar"
-msgstr ""
+msgstr "ตาด"
 
 #: src/text/iso-639_def.h:181
 msgid "Telugu"
-msgstr "เตลุคู "
+msgstr "เตลุคู"
 
 #: src/text/iso-639_def.h:182
 msgid "Tajik"
-msgstr "ทาจิก"
+msgstr "ทาจิกิสถาน"
 
 #: src/text/iso-639_def.h:183
 msgid "Tagalog"
@@ -5258,19 +5259,19 @@ msgstr "ทิเบต"
 
 #: src/text/iso-639_def.h:186
 msgid "Tigrinya"
-msgstr ""
+msgstr "ทีกรินยา"
 
 #: src/text/iso-639_def.h:187
 msgid "Tonga (Tonga Islands)"
-msgstr ""
+msgstr "ตองกา (หมู่เกาะตองกา)"
 
 #: src/text/iso-639_def.h:188
 msgid "Tswana"
-msgstr ""
+msgstr "เซตสวานา"
 
 #: src/text/iso-639_def.h:189
 msgid "Tsonga"
-msgstr ""
+msgstr "ซองกา"
 
 #: src/text/iso-639_def.h:190
 msgid "Turkish"
@@ -5278,11 +5279,11 @@ msgstr "ตุรกี"
 
 #: src/text/iso-639_def.h:191
 msgid "Turkmen"
-msgstr ""
+msgstr "เติร์กเมนิสถาน"
 
 #: src/text/iso-639_def.h:192
 msgid "Twi"
-msgstr ""
+msgstr "จวี"
 
 #: src/text/iso-639_def.h:193
 msgid "Uighur"
@@ -5290,15 +5291,15 @@ msgstr "อุยกูร์"
 
 #: src/text/iso-639_def.h:194
 msgid "Ukrainian"
-msgstr "ยูเครน "
+msgstr "ยูเครน"
 
 #: src/text/iso-639_def.h:195
 msgid "Urdu"
-msgstr "อูรดู "
+msgstr "อูรดู"
 
 #: src/text/iso-639_def.h:196
 msgid "Uzbek"
-msgstr "อุซเบกิสถาน "
+msgstr "อุซเบกิสถาน"
 
 #: src/text/iso-639_def.h:197
 msgid "Vietnamese"
@@ -5314,7 +5315,7 @@ msgstr "เวลส์"
 
 #: src/text/iso-639_def.h:200
 msgid "Wolof"
-msgstr ""
+msgstr "โวลอฟ"
 
 #: src/text/iso-639_def.h:201
 msgid "Xhosa"
@@ -5326,7 +5327,7 @@ msgstr "ยิดดิช"
 
 #: src/text/iso-639_def.h:203
 msgid "Yoruba"
-msgstr ""
+msgstr "โยรูบา"
 
 #: src/text/iso-639_def.h:204
 msgid "Zhuang"
@@ -5438,7 +5439,7 @@ msgstr "FFmpeg"
 
 #: modules/access/avio.h:40
 msgid "FFmpeg access"
-msgstr "การเข้าใช้ FFmpeg "
+msgstr "การเข้าใช้ FFmpeg"
 
 #: modules/access/avio.h:50
 msgid "libavformat access output"
@@ -5515,7 +5516,7 @@ msgstr ""
 
 #: modules/access/bluray.c:370
 msgid "Blu-ray error"
-msgstr "บลูเรย์ขัดข้อง"
+msgstr "บลูเรย์ผิดพลาด"
 
 #: modules/access/cdda.c:62 modules/gui/macosx/open.m:162
 #: modules/gui/qt4/ui/open_disk.h:300
@@ -5540,7 +5541,7 @@ msgstr "ที่อยู่ของเซิร์ฟเวอร์ CDDB ท
 
 #: modules/access/cdda.c:80
 msgid "CDDB port"
-msgstr "พอร์ต CDDB "
+msgstr "พอร์ต CDDB"
 
 #: modules/access/cdda.c:81
 msgid "CDDB Server port to use."
@@ -5655,7 +5656,7 @@ msgstr "AES/EBU"
 
 #: modules/access/decklink.cpp:89 modules/video_output/decklink.cpp:120
 msgid "Analog"
-msgstr "แอนะล็อก "
+msgstr "แอนะล็อก"
 
 #: modules/access/decklink.cpp:94 modules/demux/rawvid.c:61
 msgid "Aspect ratio (4:3, 16:9). Default assumes square pixels."
@@ -5687,11 +5688,11 @@ msgstr "โทรทัศน์"
 
 #: modules/access/dshow/dshow.cpp:101
 msgid "FM radio"
-msgstr "วิทยุ FM "
+msgstr "วิทยุ FM"
 
 #: modules/access/dshow/dshow.cpp:102
 msgid "AM radio"
-msgstr "วิทยุ AM "
+msgstr "วิทยุ AM"
 
 #: modules/access/dshow/dshow.cpp:103
 msgid "DSS"
@@ -5933,7 +5934,7 @@ msgstr ""
 
 #: modules/access/dtv/access.c:41
 msgid "DVB device"
-msgstr "อุปกรณ์เล่น DVB "
+msgstr "อุปกรณ์เล่น DVB"
 
 #: modules/access/dtv/access.c:43
 msgid ""
@@ -6023,7 +6024,7 @@ msgstr ""
 
 #: modules/access/dtv/access.c:94
 msgid "FEC code rate"
-msgstr "อัตรารหัส FEC "
+msgstr "อัตรารหัส FEC"
 
 #: modules/access/dtv/access.c:95
 msgid "High-priority code rate"
@@ -6355,7 +6356,7 @@ msgstr "DV"
 
 #: modules/access/dvdnav.c:72 modules/access/dvdread.c:70
 msgid "DVD angle"
-msgstr "มุมกล้อง DVD "
+msgstr "มุมกล้อง DVD"
 
 #: modules/access/dvdnav.c:74 modules/access/dvdread.c:72
 msgid "Default DVD angle."
@@ -6519,19 +6520,19 @@ msgstr "ที่เก็บแฟ้ม"
 
 #: modules/access/ftp.c:58
 msgid "FTP user name"
-msgstr "ชื่อผู้ใข้ FTP "
+msgstr "ชื่อผู้ใข้ FTP"
 
 #: modules/access/ftp.c:59 modules/access/smb.c:57
 msgid "User name that will be used for the connection."
-msgstr "ชื่อผู้ใช้ที่จะถูกใช้ในการเชื่อมต่อ"
+msgstr "ชื่อผู้ใช้ที่จะใช้ในการเชื่อมต่อ"
 
 #: modules/access/ftp.c:61
 msgid "FTP password"
-msgstr "รหัสผ่าน FTP "
+msgstr "รหัสผ่าน FTP"
 
 #: modules/access/ftp.c:62 modules/access/smb.c:60
 msgid "Password that will be used for the connection."
-msgstr "รหัสผ่านที่จะถูกใช้ในการเชื่อมต่อ"
+msgstr "รหัสผ่านที่จะใช้ในการเชื่อมต่อ"
 
 #: modules/access/ftp.c:64
 msgid "FTP account"
@@ -6539,11 +6540,11 @@ msgstr "บัญชี FTP"
 
 #: modules/access/ftp.c:65
 msgid "Account that will be used for the connection."
-msgstr ""
+msgstr "บัญชีที่จะใช้ในการเชื่อมต่อ"
 
 #: modules/access/ftp.c:70
 msgid "FTP input"
-msgstr "ส่วนนำเข้า FTP "
+msgstr "ส่วนนำเข้า FTP"
 
 #: modules/access/ftp.c:85
 msgid "FTP upload output"
@@ -6576,38 +6577,40 @@ msgstr ""
 
 #: modules/access/gnomevfs.c:47
 msgid "GnomeVFS input"
-msgstr "ส่วนนำเข้า GnomeVFS "
+msgstr "ส่วนนำเข้า GnomeVFS"
 
 #: modules/access/http.c:64 modules/access/mms/mms.c:58
 msgid "HTTP proxy"
-msgstr "พร็อกซี HTTP "
+msgstr "พร็อกซี HTTP"
 
 #: modules/access/http.c:66
 msgid ""
 "HTTP proxy to be used It must be of the form http://[user@]myproxy.mydomain:"
 "myport/ ; if empty, the http_proxy environment variable will be tried."
 msgstr ""
+"พร็อกซี HTTP ที่จะใช้ โดยต้องอยู่ในรูป http://[ผู้ใช้@]โฮสต์.โดเมน:พอร์ต/ ถ้าเว้นว่างไว้ "
+"ก็จะลองใช้ค่าจากตัวแปรสภาพแวดล้อม http_proxy"
 
 #: modules/access/http.c:70
 msgid "HTTP proxy password"
-msgstr "รหัสผ่านพร็อกซี HTTP "
+msgstr "รหัสผ่านพร็อกซี HTTP"
 
 #: modules/access/http.c:72
 msgid "If your HTTP proxy requires a password, set it here."
-msgstr ""
+msgstr "ถ้าพร็อกซี HTTP ต้องใช้รหัสผ่าน ก็กำหนดที่นี่"
 
 #: modules/access/http.c:74
 msgid "Auto re-connect"
-msgstr "เชื่อมต่อเองโดยอัตโนมัติ"
+msgstr "เชื่อมต่อใหม่เองโดยอัตโนมัติ"
 
 #: modules/access/http.c:76
 msgid ""
 "Automatically try to reconnect to the stream in case of a sudden disconnect."
-msgstr ""
+msgstr "พยายามเชื่อมต่อใหม่โดยอัตโนมัติกับกระแสในกรณีที่การเชื่อมต่อถูกตัดโดยกะทันหัน"
 
 #: modules/access/http.c:79
 msgid "Continuous stream"
-msgstr ""
+msgstr "กระแสต่อเนื่อง"
 
 #: modules/access/http.c:80
 msgid ""
@@ -6615,6 +6618,9 @@ msgid ""
 "server). You should not globally enable this option as it will break all "
 "other types of HTTP streams."
 msgstr ""
+"อ่านแฟ้มที่มีการปรับเปลี่ยนอย่างต่อเนื่อง (ตัวอย่างเช่น แฟ้ม JPG บนเซิร์ฟเวอร์) "
+"คุณไม่ควรกำหนดตัวเลือกนี้ให้มีผลทั้งโปรแกรม เนื่องจากจะทำให้กระแส HTTP "
+"แบบอื่นทั้งหมดทำงานผิดพลาด"
 
 #: modules/access/http.c:85
 msgid "Forward Cookies"
@@ -6825,11 +6831,11 @@ msgstr ""
 
 #: modules/access/jack.c:67
 msgid "JACK audio input"
-msgstr "ส่วนนำเข้าเสียง JACK "
+msgstr "ส่วนนำเข้าเสียง JACK"
 
 #: modules/access/jack.c:69
 msgid "JACK Input"
-msgstr "ส่วนนำเข้า JACK "
+msgstr "ส่วนนำเข้า JACK"
 
 #: modules/access/linsys/linsys_hdsdi.c:72
 #: modules/access/linsys/linsys_sdi.c:67
@@ -6924,7 +6930,7 @@ msgstr ""
 
 #: modules/access/live555.cpp:88
 msgid "RTSP user name"
-msgstr "ชื่อผู้ใช้ RTSP "
+msgstr "ชื่อผู้ใช้ RTSP"
 
 #: modules/access/live555.cpp:89
 msgid ""
@@ -6934,7 +6940,7 @@ msgstr ""
 
 #: modules/access/live555.cpp:91
 msgid "RTSP password"
-msgstr "รหัสผ่าน RTSP "
+msgstr "รหัสผ่าน RTSP"
 
 #: modules/access/live555.cpp:92
 msgid ""
@@ -7312,7 +7318,7 @@ msgstr "ประเภทเนื้อหา"
 
 #: modules/access_output/shout.c:85
 msgid "URL description"
-msgstr "รายละเอียด URL "
+msgstr "รายละเอียด URL"
 
 #: modules/access_output/shout.c:86
 msgid "URL with information about the stream or your channel. "
@@ -7705,7 +7711,7 @@ msgstr ""
 
 #: modules/access/sftp.c:51
 msgid "SFTP port"
-msgstr "พอร์ต SFTP "
+msgstr "พอร์ต SFTP"
 
 #: modules/access/sftp.c:52
 msgid "SFTP port number to use on the server"
@@ -7721,7 +7727,7 @@ msgstr ""
 
 #: modules/access/sftp.c:58
 msgid "SFTP input"
-msgstr "ส่วนนำเข้า SFTP "
+msgstr "ส่วนนำเข้า SFTP"
 
 #: modules/access/sftp.c:130
 msgid "SFTP authentication"
@@ -7734,27 +7740,27 @@ msgstr ""
 
 #: modules/access/shm.c:45 modules/access/vnc.c:57
 msgid "Frame buffer depth"
-msgstr "ความลึกเฟรมบัฟเฟอร์ "
+msgstr "จำนวนบิตสีของเฟรมบัฟเฟอร์"
 
 #: modules/access/shm.c:47
 msgid "Pixel depth of the frame buffer, or zero for XWD file"
-msgstr ""
+msgstr "จำนวนบิตสีของพิกเซลในเฟรมบัฟเฟอร์ หรือเป็นค่าศูนย์สำหรับแฟ้ม XWD"
 
 #: modules/access/shm.c:49
 msgid "Frame buffer width"
-msgstr "ความกว้างเฟรมบัฟเฟอร์"
+msgstr "ความกว้างของเฟรมบัฟเฟอร์"
 
 #: modules/access/shm.c:51
 msgid "Pixel width of the frame buffer (ignored for XWD file)"
-msgstr ""
+msgstr "ความกว้างเป็นพิกเซลของเฟรมบัฟเฟอร์ (ไม่สนใจสำหรับแฟ้ม XWD)"
 
 #: modules/access/shm.c:53
 msgid "Frame buffer height"
-msgstr "ความสูงเฟรมบัฟเฟอร์ "
+msgstr "ความสูงของเฟรมบัฟเฟอร์"
 
 #: modules/access/shm.c:55
 msgid "Pixel height of the frame buffer (ignored for XWD file)"
-msgstr ""
+msgstr "ความสูงเป็นพิกเซลของเฟรมบัฟเฟอร์ (ไม่สนใจสำหรับแฟ้ม XWD)"
 
 #: modules/access/shm.c:57
 msgid "Frame buffer segment ID"
@@ -7768,15 +7774,15 @@ msgstr ""
 
 #: modules/access/shm.c:62
 msgid "Frame buffer file"
-msgstr "แฟ้มเฟรมบัฟเฟอร์ "
+msgstr "แฟ้มเฟรมบัฟเฟอร์"
 
 #: modules/access/shm.c:64
 msgid "Path of the memory mapped file of the frame buffer"
-msgstr ""
+msgstr "พาธของแฟ้มผังหน่วยความจำของเฟรมบัฟเฟอร์"
 
 #: modules/access/shm.c:74
 msgid "XWD file (autodetect)"
-msgstr ""
+msgstr "แฟ้ม XWD (ตรวจหาโดยอัตโนมัติ)"
 
 #: modules/access/shm.c:75 modules/access/vnc.c:68
 msgid "8 bits"
@@ -7812,11 +7818,11 @@ msgstr "ชื่อผู้ใช้ SMB"
 
 #: modules/access/smb.c:59
 msgid "SMB password"
-msgstr "รหัสผ่าน SMB "
+msgstr "รหัสผ่าน SMB"
 
 #: modules/access/smb.c:62
 msgid "SMB domain"
-msgstr "โดเมน SMB "
+msgstr "โดเมน SMB"
 
 #: modules/access/smb.c:63
 msgid "Domain/Workgroup that will be used for the connection."
@@ -7828,7 +7834,7 @@ msgstr ""
 
 #: modules/access/smb.c:69
 msgid "SMB input"
-msgstr "ส่วนนำเข้า SMB "
+msgstr "ส่วนนำเข้า SMB"
 
 #: modules/access/tcp.c:45
 msgid "TCP"
@@ -7836,7 +7842,7 @@ msgstr "TCP"
 
 #: modules/access/tcp.c:46
 msgid "TCP input"
-msgstr "ส่วนนำเข้า TCP "
+msgstr "ส่วนนำเข้า TCP"
 
 #: modules/access/timecode.c:43
 msgid "Time code"
@@ -7852,7 +7858,7 @@ msgstr "UDP"
 
 #: modules/access/udp.c:54
 msgid "UDP input"
-msgstr "ส่วนนำเข้า UDP "
+msgstr "ส่วนนำเข้า UDP"
 
 #: modules/access/v4l2/controls.c:784
 msgid "Reset defaults"
@@ -8360,7 +8366,7 @@ msgstr "แผ่น"
 
 #: modules/access/vcdx/info.c:62
 msgid "VCD Format"
-msgstr "รูปแบบ VCD "
+msgstr "รูปแบบ VCD"
 
 #: modules/access/vcdx/info.c:64 modules/gui/qt4/dialogs/messages.cpp:264
 msgid "Application"
@@ -9027,7 +9033,7 @@ msgstr ""
 
 #: modules/audio_filter/converter/mpgatofixed32.c:76
 msgid "MPEG audio decoder"
-msgstr "ตัวอ่านรหัสเสียง MPEG "
+msgstr "ตัวอ่านรหัสเสียง MPEG"
 
 #: modules/audio_filter/equalizer.c:58
 msgid "Equalizer preset"
@@ -9648,7 +9654,7 @@ msgstr ""
 
 #: modules/audio_output/jack.c:97
 msgid "JACK audio output"
-msgstr "ส่วนส่งเสียง JACK "
+msgstr "ส่วนส่งเสียง JACK"
 
 #: modules/audio_output/kai.c:93
 msgid "Device"
@@ -9690,7 +9696,7 @@ msgstr ""
 
 #: modules/audio_output/pulse.c:45
 msgid "Pulseaudio audio output"
-msgstr "ส่วนส่งเสียง Pulseaudio "
+msgstr "ส่วนส่งเสียง Pulseaudio"
 
 #: modules/audio_output/sndio.c:39
 msgid "OpenBSD sndio audio output"
@@ -9724,7 +9730,7 @@ msgstr ""
 
 #: modules/audio_output/windows_audio_common.h:147
 msgid "Use float32 output"
-msgstr "ใช้ส่วนแสดงผล float32 "
+msgstr "ใช้ส่วนแสดงผล float32"
 
 #: modules/audio_output/windows_audio_common.h:149
 msgid ""
@@ -9742,7 +9748,7 @@ msgstr "ตัวทำแพ็กเก็ตเสียง A/52"
 
 #: modules/codec/adpcm.c:47
 msgid "ADPCM audio decoder"
-msgstr "ตัวอ่านรหัสเสียง ADPCM "
+msgstr "ตัวอ่านรหัสเสียง ADPCM"
 
 #: modules/codec/aes3.c:47
 msgid "AES3/SMPTE 302M audio decoder"
@@ -9793,7 +9799,7 @@ msgstr ""
 
 #: modules/codec/avcodec/avcodec.c:94
 msgid "FFmpeg audio/video decoder"
-msgstr "ตัวอ่านรหัสเสียง/วีดิทัศน์ FFmpeg "
+msgstr "ตัวอ่านรหัสเสียง/วีดิทัศน์ FFmpeg"
 
 #: modules/codec/avcodec/avcodec.c:97
 #: modules/codec/omxil/android_mediacodec.c:166 modules/codec/omxil/omxil.c:75
@@ -9807,7 +9813,7 @@ msgstr "การลงรหัส"
 
 #: modules/codec/avcodec/avcodec.c:155
 msgid "FFmpeg audio/video encoder"
-msgstr "ตัวลงรหัสเสียง/วีดิทัศน์ FFmpeg "
+msgstr "ตัวลงรหัสเสียง/วีดิทัศน์ FFmpeg"
 
 #: modules/codec/avcodec/avcodec.h:69
 msgid "Direct rendering"
@@ -10242,15 +10248,15 @@ msgstr "ตัวอ่านรหัสส่วนรับที่ปิด
 
 #: modules/codec/cdg.c:87
 msgid "CDG video decoder"
-msgstr "ตัวอ่านรหัสวีดิทัศน์ CDG "
+msgstr "ตัวอ่านรหัสวีดิทัศน์ CDG"
 
 #: modules/codec/crystalhd.c:90
 msgid "Crystal HD hardware video decoder"
-msgstr "ตัวอ่านรหัสวีดิทัศน์ Theora "
+msgstr "ตัวอ่านรหัสวีดิทัศน์ HD ด้วยฮาร์ดแวร์ Crystal"
 
 #: modules/codec/cvdsub.c:50
 msgid "CVD subtitle decoder"
-msgstr "ตัวอ่านรหัสบทบรรยาย CVD "
+msgstr "ตัวอ่านรหัสบทบรรยาย CVD"
 
 #: modules/codec/cvdsub.c:55
 msgid "Chaoji VCD subtitle packetizer"
@@ -10542,13 +10548,11 @@ msgstr ""
 
 #: modules/codec/dvbsub.c:120
 msgid "DVB subtitles decoder"
-msgstr "ตัวอ่านรหัสบทบรรยาย DVB "
+msgstr "ตัวอ่านรหัสบทบรรยาย DVB"
 
 #: modules/codec/dvbsub.c:121 modules/demux/ts.c:3532 modules/demux/ts.c:3589
 msgid "DVB subtitles"
-msgstr ""
-"บทบรรยาย\n"
-"DVB "
+msgstr "บทบรรยาย DVB"
 
 #: modules/codec/dvbsub.c:135
 msgid "DVB subtitles encoder"
@@ -10644,7 +10648,7 @@ msgstr "ตัวอ่านรหัสเสียง FLAC"
 
 #: modules/codec/flac.c:119
 msgid "Flac audio encoder"
-msgstr "ตัวลงรหัสเสียง Flac "
+msgstr "ตัวลงรหัสเสียง Flac"
 
 #: modules/codec/fluidsynth.c:45
 msgid "Sound fonts"
@@ -10800,7 +10804,7 @@ msgstr "เขียว"
 #: modules/text_renderer/quartztext.c:116 modules/text_renderer/win32text.c:90
 #: modules/video_filter/marq.c:63 modules/video_filter/rss.c:74
 msgid "Teal"
-msgstr "สีน้ำเงินอมเขียว "
+msgstr "สีน้ำเงินอมเขียว"
 
 #: modules/codec/kate.c:212 modules/text_renderer/freetype.c:209
 #: modules/text_renderer/quartztext.c:117 modules/text_renderer/win32text.c:91
@@ -10834,7 +10838,7 @@ msgstr "น้ำเงิน"
 #: modules/video_filter/colorthres.c:64 modules/video_filter/marq.c:64
 #: modules/video_filter/rss.c:75
 msgid "Aqua"
-msgstr "สีฟ้าน้ำทะเล "
+msgstr "สีฟ้าน้ำทะเล"
 
 #: modules/codec/kate.c:214
 msgid "Use Tiger for rendering"
@@ -10991,7 +10995,7 @@ msgstr ""
 
 #: modules/codec/mpeg_audio.c:107
 msgid "MPEG audio layer I/II/III decoder"
-msgstr "ตัวอ่านรหัส MPEG audio layer I/II/III "
+msgstr "ตัวอ่านรหัส MPEG audio layer I/II/III"
 
 #: modules/codec/mpeg_audio.c:114
 msgid "MPEG audio layer I/II/III packetizer"
@@ -11218,7 +11222,7 @@ msgstr ""
 
 #: modules/codec/quicktime.c:66
 msgid "QuickTime library decoder"
-msgstr "ตัวอ่านรหัสไลบรารี QuickTime "
+msgstr "ตัวอ่านรหัสไลบรารี QuickTime"
 
 #: modules/codec/rawvideo.c:72
 msgid "Pseudo raw video decoder"
@@ -11547,7 +11551,7 @@ msgstr ""
 
 #: modules/codec/speex.c:75 modules/codec/vorbis.c:181
 msgid "CBR encoding"
-msgstr "การลงรหัส CBR "
+msgstr "การลงรหัส CBR"
 
 #: modules/codec/speex.c:77
 msgid ""
@@ -11615,9 +11619,7 @@ msgstr "ตัวอ่านรหัสบทบรรยาย DVD"
 
 #: modules/codec/spudec/spudec.c:51
 msgid "DVD subtitles"
-msgstr ""
-"บทบรรยาย\n"
-"DVD "
+msgstr "บทบรรยาย DVD"
 
 #: modules/codec/spudec/spudec.c:60
 msgid "DVD subtitles packetizer"
@@ -11867,9 +11869,7 @@ msgstr "ตัวอ่านรหัส Philips OGT (บทบรรยาย 
 
 #: modules/codec/svcdsub.c:48
 msgid "SVCD subtitles"
-msgstr ""
-"บทบรรยาย\n"
-"SVCD "
+msgstr "บทบรรยาย SVCD"
 
 #: modules/codec/svcdsub.c:57
 msgid "Philips OGT (SVCD subtitle) packetizer"
@@ -11877,7 +11877,7 @@ msgstr "ตัวทำแพ็กเก็ต Philips OGT (บทบรรย�
 
 #: modules/codec/t140.c:35
 msgid "T.140 text encoder"
-msgstr "ตัวลงรหัสข้อความ T.140 "
+msgstr "ตัวลงรหัสข้อความ T.140"
 
 #: modules/codec/telx.c:54
 msgid "Override page"
@@ -11921,7 +11921,7 @@ msgstr ""
 
 #: modules/codec/theora.c:112
 msgid "Theora video decoder"
-msgstr "ตัวอ่านรหัสวีดิทัศน์ Theora "
+msgstr "ตัวอ่านรหัสวีดิทัศน์ Theora"
 
 #: modules/codec/theora.c:118
 msgid "Theora video packetizer"
@@ -11929,7 +11929,7 @@ msgstr "ตัวทำแพกเก็จวีดิทัศน์ Theora"
 
 #: modules/codec/theora.c:125
 msgid "Theora video encoder"
-msgstr "ตัวลงรหัสวีดิทัศน์ Theora "
+msgstr "ตัวลงรหัสวีดิทัศน์ Theora"
 
 #: modules/codec/twolame.c:56
 msgid ""
@@ -11947,7 +11947,7 @@ msgstr ""
 
 #: modules/codec/twolame.c:61
 msgid "VBR mode"
-msgstr "รูปแบบ VBR "
+msgstr "โหมด VBR"
 
 #: modules/codec/twolame.c:63
 msgid "Use Variable BitRate. Default is to use Constant BitRate (CBR)."
@@ -11967,7 +11967,7 @@ msgstr ""
 
 #: modules/codec/twolame.c:75
 msgid "Libtwolame audio encoder"
-msgstr "ตัวลงรหัสเสียง Libtwolame "
+msgstr "ตัวลงรหัสเสียง Libtwolame"
 
 #: modules/codec/uleaddvaudio.c:41
 msgid "Ulead DV audio decoder"
@@ -11997,7 +11997,7 @@ msgstr ""
 
 #: modules/codec/vorbis.c:187
 msgid "Vorbis audio decoder"
-msgstr "ตัวอ่านรหัสเสียง Vorbis "
+msgstr "ตัวอ่านรหัสเสียง Vorbis"
 
 #: modules/codec/vorbis.c:198
 msgid "Vorbis audio packetizer"
@@ -12005,7 +12005,7 @@ msgstr ""
 
 #: modules/codec/vorbis.c:205
 msgid "Vorbis audio encoder"
-msgstr "ตัวลงรหัสเสียง Vorbis "
+msgstr "ตัวลงรหัสเสียง Vorbis"
 
 #: modules/codec/wmafixed/wma.c:82
 msgid "WMA v1/v2 fixed point audio decoder"
@@ -12168,7 +12168,7 @@ msgstr ""
 
 #: modules/codec/x264.c:148
 msgid "H.264 level"
-msgstr "ระดับ H.264 "
+msgstr "ระดับ H.264"
 
 #: modules/codec/x264.c:149
 msgid ""
@@ -12180,7 +12180,7 @@ msgstr ""
 
 #: modules/codec/x264.c:154
 msgid "H.264 profile"
-msgstr "โพรไฟล์ H.264 "
+msgstr "โพรไฟล์ H.264"
 
 #: modules/codec/x264.c:155
 msgid "Specify H.264 profile which limits are enforced over other settings"
@@ -13183,7 +13183,7 @@ msgstr ""
 
 #: modules/control/ntservice.c:66
 msgid "NT Service"
-msgstr "บริการ NT "
+msgstr "บริการ NT"
 
 #: modules/control/ntservice.c:67
 msgid "Windows Service interface"
@@ -13205,7 +13205,7 @@ msgstr "พักก&ารเล่น"
 
 #: modules/control/rc.c:75
 msgid "Error"
-msgstr "ขัดข้อง"
+msgstr "ผิดพลาด"
 
 #: modules/control/rc.c:161
 msgid "Show stream position"
@@ -13324,7 +13324,7 @@ msgstr "| status . . . . . . . . . . . สถานะผังเล่นป�
 
 #: modules/control/rc.c:798
 msgid "| title [X]  . . . . . . set/get title in current item"
-msgstr "| title [X]  . . . . . . ตั้ง/เลือก ชื่อเรื่องของรายการปัจจุบัน"
+msgstr "| title [X]  . . . . . . ตั้ง/อ่าน ชื่อเรื่องของรายการปัจจุบัน"
 
 #: modules/control/rc.c:799
 msgid "| title_n  . . . . . . . .  next title in current item"
@@ -13336,7 +13336,7 @@ msgstr "| title_p  . . . . . .  เรื่องก่อนหน้าใน
 
 #: modules/control/rc.c:801
 msgid "| chapter [X]  . . . . set/get chapter in current item"
-msgstr "| chapter [X]  . . . . ตั้ง/เลือก ตอนของรายการปัจจุบัน"
+msgstr "| chapter [X]  . . . . ตั้ง/อ่าน ตอนของรายการปัจจุบัน"
 
 #: modules/control/rc.c:802
 msgid "| chapter_n  . . . . . .  next chapter in current item"
@@ -13368,7 +13368,7 @@ msgstr "| faster . . . . . . . . . .  เล่นกระแสเร็วข
 
 #: modules/control/rc.c:810
 msgid "| slower . . . . . . . . . .  slower playing of stream"
-msgstr "| slower . . . . . . . . . .  เล่นกระแสอย่างช้า ๆ"
+msgstr "| slower . . . . . . . . . .  เล่นกระแสอย่างช้าๆ"
 
 #: modules/control/rc.c:811
 msgid "| normal . . . . . . . . . .  normal playing of stream"
@@ -13408,7 +13408,7 @@ msgstr "| get_length . . . .  ความยาวระยะเวลาข�
 
 #: modules/control/rc.c:821
 msgid "| volume [X] . . . . . . . . . .  set/get audio volume"
-msgstr "| volume [X] . . . . . . . . . .  ตั้ง/ใช้ระดับเสียง "
+msgstr "| volume [X] . . . . . . . . . .  ตั้ง/อ่าน ระดับเสียง"
 
 #: modules/control/rc.c:822
 msgid "| volup [X]  . . . . . . .  raise audio volume X steps"
@@ -13420,31 +13420,31 @@ msgstr "| voldown [X]  . . . . . .  ลดระดับเสียง X ร�
 
 #: modules/control/rc.c:824
 msgid "| adev [device]  . . . . . . . .  set/get audio device"
-msgstr "| adev [device]  . . . . . . . .  ตั้ง/ใช้ อุปกรณ์เล่นเสียง"
+msgstr "| adev [device]  . . . . . . . .  ตั้ง/อ่าน อุปกรณ์เล่นเสียง"
 
 #: modules/control/rc.c:825
 msgid "| achan [X]. . . . . . . . . .  set/get audio channels"
-msgstr "| achan [X]. . . . . . . . . .  ตั้ง/เลือก ช่องเสียง"
+msgstr "| achan [X]. . . . . . . . . .  ตั้ง/อ่าน ช่องเสียง"
 
 #: modules/control/rc.c:826
 msgid "| atrack [X] . . . . . . . . . . . set/get audio track"
-msgstr "| atrack [X] . . . . . . . . . . . ตั้ง/เลือก ร่องเสียง"
+msgstr "| atrack [X] . . . . . . . . . . . ตั้ง/อ่าน ร่องเสียง"
 
 #: modules/control/rc.c:827
 msgid "| vtrack [X] . . . . . . . . . . . set/get video track"
-msgstr "| vtrack [X] . . . . . . . . . . . ตั้ง/เลือก ร่องวีดิทัศน์"
+msgstr "| vtrack [X] . . . . . . . . . . . ตั้ง/อ่าน ร่องวีดิทัศน์"
 
 #: modules/control/rc.c:828
 msgid "| vratio [X]  . . . . . . . set/get video aspect ratio"
-msgstr "| vratio [X]  . . . . . . . ตั้ง/เลือก อัตราส่วนภาพวีดิทัศน์"
+msgstr "| vratio [X]  . . . . . . . ตั้ง/อ่าน อัตราส่วนภาพวีดิทัศน์"
 
 #: modules/control/rc.c:829
 msgid "| vcrop [X]  . . . . . . . . . . .  set/get video crop"
-msgstr "| vcrop [X]  . . . . . . . . . . .  ตั้ง/ใช้ การตัดขอบวีดิทัศน์"
+msgstr "| vcrop [X]  . . . . . . . . . . .  ตั้ง/อ่าน การตัดขอบวีดิทัศน์"
 
 #: modules/control/rc.c:830
 msgid "| vzoom [X]  . . . . . . . . . . .  set/get video zoom"
-msgstr "| vzoom [X]  . . . . . . . . . . .  ตั้ง/เลือก การแสดงย่อ-ขยายวีดิทัศน์"
+msgstr "| vzoom [X]  . . . . . . . . . . .  ตั้ง/อ่าน การแสดงย่อ-ขยายวีดิทัศน์"
 
 #: modules/control/rc.c:831
 msgid "| snapshot . . . . . . . . . . . . take video snapshot"
@@ -13452,7 +13452,7 @@ msgstr "| snapshot . . . . . . . . . . . . จับภาพวีดิทั�
 
 #: modules/control/rc.c:832
 msgid "| strack [X] . . . . . . . . .  set/get subtitle track"
-msgstr "| strack [X] . . . . . . . . .  ตั้ง/ใช้ ร่องบทบรรยาย"
+msgstr "| strack [X] . . . . . . . . .  ตั้ง/อ่าน ร่องบทบรรยาย"
 
 #: modules/control/rc.c:833
 msgid "| key [hotkey name] . . . . . .  simulate hotkey press"
@@ -13489,7 +13489,7 @@ msgstr "พิมพ์ 'menu select' หรือ 'pause' เพื่อทำ
 
 #: modules/control/rc.c:1285
 msgid "Error: `goto' needs an argument greater than zero."
-msgstr "ขัดข้อง: คำสั่ง `goto' ต้องมีค่ามากกว่าศูนย์"
+msgstr "ผิดพลาด: คำสั่ง `goto' ต้องมีค่ามากกว่าศูนย์"
 
 #: modules/control/rc.c:1296
 #, c-format
@@ -13590,7 +13590,7 @@ msgstr "| อัตราการส่งถ่ายบิต  :   %6.0f kb/s
 
 #: modules/demux/aiff.c:49
 msgid "AIFF demuxer"
-msgstr "ตัวแยกกระแส AIFF "
+msgstr "ตัวแยกกระแส AIFF"
 
 #: modules/demux/asf/asf.c:56
 msgid "ASF/WMV demuxer"
@@ -13606,7 +13606,7 @@ msgstr ""
 
 #: modules/demux/au.c:50
 msgid "AU demuxer"
-msgstr "ตัวแยกกระแส AU "
+msgstr "ตัวแยกกระแส AU"
 
 #: modules/demux/avformat/avformat.c:41
 msgid "Avformat demuxer"
@@ -13672,7 +13672,7 @@ msgstr ""
 
 #: modules/demux/avi/avi.c:72
 msgid "AVI demuxer"
-msgstr "ตัวแยกกระแส AVI "
+msgstr "ตัวแยกกระแส AVI"
 
 #: modules/demux/avi/avi.c:673
 msgid "Broken or missing AVI Index"
@@ -13706,7 +13706,7 @@ msgstr ""
 
 #: modules/demux/cdg.c:43
 msgid "CDG demuxer"
-msgstr "ตัวแยกกระแส CDG "
+msgstr "ตัวแยกกระแส CDG"
 
 #: modules/demux/demuxdump.c:32
 msgid "Dump module"
@@ -13742,7 +13742,7 @@ msgstr ""
 
 #: modules/demux/flac.c:50
 msgid "FLAC demuxer"
-msgstr "ตัวแยกกระแส FLAC "
+msgstr "ตัวแยกกระแส FLAC"
 
 #: modules/demux/image.c:44
 msgid "ES ID"
@@ -13817,7 +13817,7 @@ msgstr ""
 
 #: modules/demux/mkv/chapter_command.cpp:143
 msgid "---  DVD Menu"
-msgstr "---  เมนู DVD "
+msgstr "---  เมนู DVD"
 
 #: modules/demux/mkv/chapter_command.cpp:149
 msgid "First Played"
@@ -14655,7 +14655,7 @@ msgstr ""
 
 #: modules/demux/mpeg/es.c:57
 msgid "MPEG-I/II/4 / A52 / DTS / MLP audio"
-msgstr "เสียง MPEG-I/II/4 / A52 / DTS / MLP "
+msgstr "เสียง MPEG-I/II/4 / A52 / DTS / MLP"
 
 #: modules/demux/mpeg/es.c:58
 msgid "Audio ES"
@@ -14663,7 +14663,7 @@ msgstr "ES เสียง"
 
 #: modules/demux/mpeg/es.c:70
 msgid "MPEG-4 video"
-msgstr "วีดิทัศน์ MPEG-4 "
+msgstr "วีดิทัศน์ MPEG-4"
 
 #: modules/demux/mpeg/h264.c:44
 msgid "Desired frame rate for the H264 stream."
@@ -14691,11 +14691,11 @@ msgstr "ตัวแยกกระแส Nuv"
 
 #: modules/demux/ogg.c:55
 msgid "OGG demuxer"
-msgstr "ตัวแยกกระแส OGG "
+msgstr "ตัวแยกกระแส OGG"
 
 #: modules/demux/playlist/gvp.c:208
 msgid "Google Video"
-msgstr "วีดิทัศน์ Google "
+msgstr "วีดิทัศน์ Google"
 
 #: modules/demux/playlist/playlist.c:46
 msgid "Show shoutcast adult content"
@@ -14717,23 +14717,23 @@ msgstr ""
 
 #: modules/demux/playlist/playlist.c:67
 msgid "M3U playlist import"
-msgstr "นำเข้าผังเล่น M3U "
+msgstr "นำเข้าผังเล่น M3U"
 
 #: modules/demux/playlist/playlist.c:72
 msgid "RAM playlist import"
-msgstr "นำเข้าผังเล่น RAM "
+msgstr "นำเข้าผังเล่น RAM"
 
 #: modules/demux/playlist/playlist.c:77
 msgid "PLS playlist import"
-msgstr "นำเข้าผังเล่น PLS "
+msgstr "นำเข้าผังเล่น PLS"
 
 #: modules/demux/playlist/playlist.c:82
 msgid "B4S playlist import"
-msgstr "นำเข้าผังเล่น B4S "
+msgstr "นำเข้าผังเล่น B4S"
 
 #: modules/demux/playlist/playlist.c:87
 msgid "DVB playlist import"
-msgstr "นำเข้าผังเล่น DVB "
+msgstr "นำเข้าผังเล่น DVB"
 
 #: modules/demux/playlist/playlist.c:92
 msgid "Podcast parser"
@@ -14741,7 +14741,7 @@ msgstr ""
 
 #: modules/demux/playlist/playlist.c:97
 msgid "XSPF playlist import"
-msgstr "นำเข้าผังเล่น XSPF "
+msgstr "นำเข้าผังเล่น XSPF"
 
 #: modules/demux/playlist/playlist.c:102
 msgid "New winamp 5.2 shoutcast import"
@@ -14749,7 +14749,7 @@ msgstr ""
 
 #: modules/demux/playlist/playlist.c:109
 msgid "ASX playlist import"
-msgstr "นำเข้าผังเล่น ASX "
+msgstr "นำเข้าผังเล่น ASX"
 
 #: modules/demux/playlist/playlist.c:114
 msgid "Kasenna MediaBase parser"
@@ -14773,7 +14773,7 @@ msgstr "ตัวช่วยนำเข้าเพลงจากคลัง
 
 #: modules/demux/playlist/playlist.c:139
 msgid "WPL playlist import"
-msgstr "นำเข้าผังเล่น WPL "
+msgstr "นำเข้าผังเล่น WPL"
 
 #: modules/demux/playlist/playlist.c:144
 msgid "ZPL playlist import"
@@ -14862,7 +14862,7 @@ msgstr ""
 
 #: modules/demux/ps.c:56 modules/demux/ps.c:69
 msgid "MPEG-PS demuxer"
-msgstr "ตัวแยกกระแส MPEG-PS "
+msgstr "ตัวแยกกระแส MPEG-PS"
 
 #: modules/demux/ps.c:57
 msgid "PS"
@@ -14870,7 +14870,7 @@ msgstr ""
 
 #: modules/demux/pva.c:43
 msgid "PVA demuxer"
-msgstr "ตัวแยกกระแส PVA "
+msgstr "ตัวแยกกระแส PVA"
 
 #: modules/demux/rawaud.c:44
 msgid "Audio sample rate in Hertz. Default is 48000 Hz."
@@ -14905,7 +14905,7 @@ msgstr ""
 
 #: modules/demux/rawaud.c:64
 msgid "Raw audio demuxer"
-msgstr "ตัวแยกกระแสเสียง Raw "
+msgstr "ตัวแยกกระแสเสียง Raw"
 
 #: modules/demux/rawdv.c:43
 msgid ""
@@ -14914,7 +14914,7 @@ msgstr ""
 
 #: modules/demux/rawdv.c:51
 msgid "DV (Digital Video) demuxer"
-msgstr "ตัวแยกกระแส DV (วีดิทัลดิจิทัล) "
+msgstr "ตัวแยกกระแส DV (วีดิทัศน์ดิจิทัล)"
 
 #: modules/demux/rawvid.c:45
 msgid ""
@@ -14944,7 +14944,7 @@ msgstr "ตัวแยกกระแสวีดิทัศน์ Raw"
 
 #: modules/demux/real.c:70
 msgid "Real demuxer"
-msgstr "ตัวแยกกระแส Real "
+msgstr "ตัวแยกกระแส Real"
 
 #: modules/demux/sid.cpp:56
 msgid "C64 sid demuxer"
@@ -15117,7 +15117,7 @@ msgstr ""
 
 #: modules/demux/tta.c:45
 msgid "TTA demuxer"
-msgstr "ตัวแยกกระแส TTA "
+msgstr "ตัวแยกกระแส TTA"
 
 #: modules/demux/ty.c:59
 msgid "TY"
@@ -15149,7 +15149,7 @@ msgstr ""
 
 #: modules/demux/vc1.c:50
 msgid "VC1 video demuxer"
-msgstr "ตัวแยกกระแสวีดิทัศน์ VC1 "
+msgstr "ตัวแยกกระแสวีดิทัศน์ VC1"
 
 #: modules/demux/vobsub.c:49
 msgid "Vobsub subtitles parser"
@@ -15161,11 +15161,11 @@ msgstr "ตัวแยกกระแส VOC"
 
 #: modules/demux/wav.c:45
 msgid "WAV demuxer"
-msgstr "ตัวแยกกระแส WAV "
+msgstr "ตัวแยกกระแส WAV"
 
 #: modules/demux/xa.c:43
 msgid "XA demuxer"
-msgstr "ตัวแยกกระแส XA "
+msgstr "ตัวแยกกระแส XA"
 
 #: modules/demux/xiph_metadata.h:46
 msgid "Closed captions"
@@ -15850,7 +15850,7 @@ msgstr "ชื่อผู้ใข้"
 
 #: modules/gui/macosx/coredialogs.m:243
 msgid "Errors and Warnings"
-msgstr "ข้อขัดข้องและการเตือน"
+msgstr "ข้อผิดพลาดและคำเตือน"
 
 #: modules/gui/macosx/coredialogs.m:244
 msgid "Clean up"
@@ -16087,7 +16087,7 @@ msgstr ""
 #: modules/gui/macosx/macosx.m:97 modules/gui/macosx/simple_prefs.m:370
 #: modules/gui/qt4/qt4.cpp:86
 msgid "Resize interface to the native video size"
-msgstr "ปรับขนาดส่วนติดต่อตามวีดิทัศน์"
+msgstr "ปรับขนาดส่วนติดต่อตามขนาดปกติของวีดิทัศน์"
 
 #: modules/gui/macosx/macosx.m:98 modules/gui/qt4/qt4.cpp:87
 msgid ""
@@ -16096,30 +16096,30 @@ msgid ""
 " - The video will fit to the interface size\n"
 " By default, interface resize to the native video size."
 msgstr ""
-"คุณมีสองตัวเลือก:\n"
-" 1. ปรับขนาดของส่วนติดต่อตามค่าตั้งขนาดของวีดิทัศน์ (ค่าปริยาย)\n"
+"คุณมีสองทางเลือก:\n"
+" 1. ปรับขนาดของส่วนติดต่อตามขนาดปกติของวีดิทัศน์ (ค่าปริยาย)\n"
 " 2. ปรับขนาดของวีดิทัศน์ให้เหมาะสมกับขนาดส่วนติดต่อ (เอาเครื่องหมายถูกออก)\n"
 " "
 
 #: modules/gui/macosx/macosx.m:103 modules/gui/macosx/simple_prefs.m:371
 #: modules/gui/qt4/qt4.cpp:170
 msgid "Pause the video playback when minimized"
-msgstr ""
+msgstr "พักการเล่นวีดิทัศน์เมื่อย่อเก็บ"
 
 #: modules/gui/macosx/macosx.m:104 modules/gui/qt4/qt4.cpp:172
 msgid ""
 "With this option enabled, the playback will be automatically paused when "
 "minimizing the window."
-msgstr "การเปิดใช้ตัวเลือกนี้ การเล่นจะถูกพักไว้โดยอัตโนมัติ เมื่อย่อเก็บหน้าต่าง"
+msgstr "เมื่อเปิดใช้ตัวเลือกนี้ การเล่นจะถูกพักไว้โดยอัตโนมัติเมื่อย่อเก็บหน้าต่าง"
 
 #: modules/gui/macosx/macosx.m:107 modules/gui/qt4/qt4.cpp:174
 msgid "Allow automatic icon changes"
-msgstr ""
+msgstr "เปิดใช้การเปลี่ยนไอคอนอัตโนมัติ"
 
 #: modules/gui/macosx/macosx.m:108 modules/gui/qt4/qt4.cpp:176
 msgid ""
 "This option allows the interface to change its icon on various occasions."
-msgstr ""
+msgstr "ตัวเลือกนี้จะทำให้ส่วนติดต่อมีการเปลี่ยนไอคอนตามวาระโอกาสต่างๆ"
 
 #: modules/gui/macosx/macosx.m:110 modules/gui/macosx/MainMenu.m:1317
 msgid "Lock Aspect Ratio"
@@ -16185,7 +16185,7 @@ msgstr ""
 
 #: modules/gui/macosx/macosx.m:137
 msgid "Mac OS X interface"
-msgstr "ส่วนติดต่อ Mac OS X "
+msgstr "ส่วนติดต่อ Mac OS X"
 
 #: modules/gui/macosx/macosx.m:146
 msgid "Appearance"
@@ -16469,7 +16469,7 @@ msgstr "ข้อความ..."
 
 #: modules/gui/macosx/MainMenu.m:443
 msgid "Errors and Warnings..."
-msgstr "ข้อผิดพลาดและการเตือน..."
+msgstr "ข้อผิดพลาดและคำเตือน..."
 
 #: modules/gui/macosx/MainMenu.m:445
 msgid "Bring All to Front"
@@ -16518,30 +16518,30 @@ msgstr ""
 #: modules/gui/macosx/MainWindow.m:175 modules/gui/macosx/MainWindow.m:180
 #: modules/gui/qt4/components/playlist/selector.cpp:591
 msgid "Subscribe"
-msgstr "บอกรับ "
+msgstr "บอกรับ"
 
 #: modules/gui/macosx/MainWindow.m:176 modules/gui/macosx/MainWindow.m:183
 #: modules/gui/qt4/components/playlist/selector.cpp:608
 msgid "Unsubscribe"
-msgstr "ไม่ได้บอกรับ "
+msgstr "เลิกบอกรับ"
 
 #: modules/gui/macosx/MainWindow.m:177
 #: modules/gui/qt4/components/playlist/selector.cpp:286
 msgid "Subscribe to a podcast"
-msgstr ""
+msgstr "บอกรับพอดคาสต์"
 
 #: modules/gui/macosx/MainWindow.m:178
 #: modules/gui/qt4/components/playlist/selector.cpp:592
 msgid "Enter URL of the podcast to subscribe to:"
-msgstr ""
+msgstr "กรุณาป้อน URL ของพอดคาสต์ที่จะบอกรับ:"
 
 #: modules/gui/macosx/MainWindow.m:181
 msgid "Unsubscribe from a podcast"
-msgstr ""
+msgstr "เลิกบอกรับพอดคาสต์"
 
 #: modules/gui/macosx/MainWindow.m:182
 msgid "Select the podcast you would like to unsubscribe from:"
-msgstr ""
+msgstr "เลือกพอดคาสต์ที่คุณต้องการเลิกบอกรับ:"
 
 #: modules/gui/macosx/MainWindow.m:219
 msgid "LIBRARY"
@@ -16557,11 +16557,11 @@ msgstr "อุปกรณ์ต่างๆ"
 
 #: modules/gui/macosx/MainWindow.m:226
 msgid "LOCAL NETWORK"
-msgstr "เครือข่ายท้องถิ่น"
+msgstr "เครือข่ายเฉพาะที่"
 
 #: modules/gui/macosx/MainWindow.m:227
 msgid "INTERNET"
-msgstr "อินเทอร์เน็ต "
+msgstr "อินเทอร์เน็ต"
 
 #: modules/gui/macosx/open.m:57
 msgid "No device is selected"
@@ -16648,11 +16648,11 @@ msgstr "ใส่แผ่นดิสก์"
 
 #: modules/gui/macosx/open.m:167
 msgid "Disable DVD menus"
-msgstr "ไม่ใช้เมนู DVD "
+msgstr "ไม่ใช้เมนู DVD"
 
 #: modules/gui/macosx/open.m:171
 msgid "Enable DVD menus"
-msgstr "เปิดใช้เมนู DVD "
+msgstr "เปิดใช้เมนู DVD"
 
 #: modules/gui/macosx/open.m:184
 msgid "IP Address"
@@ -16689,7 +16689,7 @@ msgstr "เปิดกระแส RTP/UDP"
 #: share/lua/http/dialogs/stream_config_window.html:24
 #: share/lua/http/dialogs/stream_window.html:83
 msgid "Protocol"
-msgstr "โพรโทคอล "
+msgstr "โพรโทคอล"
 
 #: modules/gui/macosx/open.m:197 modules/gui/macosx/open.m:1229
 #: modules/gui/macosx/open.m:1278
@@ -17013,7 +17013,7 @@ msgstr "บัฟเฟอร์ที่สูญเสีย"
 
 #: modules/gui/macosx/playlistinfo.m:359
 msgid "Error while saving meta"
-msgstr "เกิดข้อขัดข้องขณะบันทึกข้อลมูลกำกับ"
+msgstr "เกิดข้อผิดพลาดขณะบันทึกข้อมูลกำกับ"
 
 #: modules/gui/macosx/playlistinfo.m:360
 msgid "VLC was unable to save the meta data."
@@ -17119,7 +17119,7 @@ msgstr "ปุ่มลัด"
 
 #: modules/gui/macosx/simple_prefs.m:335
 msgid "Repair AVI Files"
-msgstr "ซ่อมแซมแฟ้ม AVI "
+msgstr "ซ่อมแซมแฟ้ม AVI"
 
 #: modules/gui/macosx/simple_prefs.m:336
 msgid "Default Caching Level"
@@ -17202,9 +17202,8 @@ msgid "Lua HTTP"
 msgstr "Lua HTTP"
 
 #: modules/gui/macosx/simple_prefs.m:374
-#, fuzzy
 msgid "Control iTunes during playback"
-msgstr "พัก iTunes ระหว่างที่เล่น VLC"
+msgstr ""
 
 #: modules/gui/macosx/simple_prefs.m:377
 msgid "Default Encoding"
@@ -17542,7 +17541,7 @@ msgstr "พลิกกลับแนวตั้ง"
 
 #: modules/gui/macosx/VideoEffects.m:122
 msgid "Magnification/Zoom"
-msgstr "ขยาย/แสดงย่อ-ขยาย "
+msgstr "ขยาย/แสดงย่อ-ขยาย"
 
 #: modules/gui/macosx/VideoEffects.m:123
 #: modules/gui/qt4/ui/video_effects.h:1351
@@ -18523,7 +18522,7 @@ msgstr "พาเนลเพิ่มเติม"
 
 #: modules/gui/qt4/components/controller.hpp:118
 msgid "A->B Loop"
-msgstr "เล่นวน A->B "
+msgstr "เล่นวน A->B"
 
 #: modules/gui/qt4/components/controller.hpp:118
 msgid "Frame By Frame"
@@ -18900,7 +18899,7 @@ msgstr "เล่น"
 #: modules/gui/qt4/components/info_panels.cpp:586
 #: modules/gui/qt4/components/info_panels.cpp:587
 msgid "buffers"
-msgstr "บัฟเฟอร์ "
+msgstr "บัฟเฟอร์"
 
 #: modules/gui/qt4/components/info_panels.cpp:609
 msgid "Last 60 seconds"
@@ -18964,7 +18963,7 @@ msgstr ""
 
 #: modules/gui/qt4/components/open_panels.cpp:57
 msgid "Select a device or a VIDEO_TS directory"
-msgstr "เลือกอุปกรณ์เล่นหรือที่เก็บแฟ้ม VIDEO_TS "
+msgstr "เลือกอุปกรณ์เล่นหรือที่เก็บแฟ้ม VIDEO_TS"
 
 #: modules/gui/qt4/components/open_panels.cpp:58
 msgid "Select a device or a VIDEO_TS folder"
@@ -19075,7 +19074,7 @@ msgstr "อุปกรณ์"
 
 #: modules/gui/qt4/components/playlist/selector.cpp:252
 msgid "Local Network"
-msgstr "เครือข่ายท้องถิ่น"
+msgstr "เครือข่ายเฉพาะที่"
 
 #: modules/gui/qt4/components/playlist/selector.cpp:253
 msgid "Internet"
@@ -19087,7 +19086,7 @@ msgstr ""
 
 #: modules/gui/qt4/components/playlist/selector.cpp:605
 msgid "Do you really want to unsubscribe from %1?"
-msgstr ""
+msgstr "ยืนยันที่จะเลิกบอกรับ %1 หรือไม่?"
 
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:47
 msgid "Create Directory"
@@ -19257,11 +19256,11 @@ msgstr ""
 
 #: modules/gui/qt4/components/simple_preferences.cpp:721
 msgid "This is VLC's skinnable interface. You can download other skins at"
-msgstr "นี่คือหน้ากากที่สามารถใช้กับส่วนติดต่อของ VLC ได้ ซึ่งคุณสามารถดาวน์โหลดแบบอื่น ๆ ได้ที่"
+msgstr "นี่คือหน้ากากที่สามารถใช้กับส่วนติดต่อของ VLC ได้ ซึ่งคุณสามารถดาวน์โหลดแบบอื่นๆ ได้ที่"
 
 #: modules/gui/qt4/components/simple_preferences.cpp:723
 msgid "VLC skins website"
-msgstr "เว็บไซต์แฟ้มกากของ VLC"
+msgstr "เว็บไซต์แฟ้มหน้ากากของ VLC"
 
 #: modules/gui/qt4/components/simple_preferences.cpp:752
 msgid "System's default"
@@ -19493,7 +19492,7 @@ msgstr "&ล&้าง"
 
 #: modules/gui/qt4/dialogs/errors.cpp:54
 msgid "Hide future errors"
-msgstr "ซ่อนข้อขัดข้อง"
+msgstr "ซ่อนข้อผิดพลาด"
 
 #: modules/gui/qt4/dialogs/extended.cpp:49
 msgid "Adjustments and Effects"
@@ -19509,7 +19508,7 @@ msgstr "การประสาน"
 
 #: modules/gui/qt4/dialogs/extended.cpp:92
 msgid "v4l2 controls"
-msgstr "ควบคุม v4l2 "
+msgstr "เครื่องควบคุม v4l2"
 
 #: modules/gui/qt4/dialogs/extended.cpp:101
 msgid "&Write changes to config"
@@ -19583,7 +19582,7 @@ msgstr "&ไม่"
 
 #: modules/gui/qt4/dialogs/help.cpp:222 modules/gui/qt4/ui/update.h:147
 msgid "VLC media player updates"
-msgstr "การปรับปรุงของโปรแกรมเล่นสื่อ VLC "
+msgstr "การปรับรุ่นของโปรแกรมเล่นสื่อ VLC"
 
 #: modules/gui/qt4/dialogs/help.cpp:294
 msgid "A new version of VLC (%1.%2.%3%4) is available."
@@ -19595,7 +19594,7 @@ msgstr "โปรแกรมเล่นสื่อ VLC ที่คุณใ�
 
 #: modules/gui/qt4/dialogs/help.cpp:326
 msgid "An error occurred while checking for updates..."
-msgstr ""
+msgstr "เกิดข้อผิดพลาดขณะตรวจสอบการปรับรุ่น..."
 
 #: modules/gui/qt4/dialogs/mediainfo.cpp:52
 msgid "Current Media Information"
@@ -19615,7 +19614,7 @@ msgstr ""
 
 #: modules/gui/qt4/dialogs/mediainfo.cpp:71
 msgid "S&tatistics"
-msgstr "&สถิติ "
+msgstr "&สถิติ"
 
 #: modules/gui/qt4/dialogs/mediainfo.cpp:77
 msgid "&Save Metadata"
@@ -19828,11 +19827,11 @@ msgstr "เปิดผังเล่น..."
 
 #: modules/gui/qt4/dialogs_provider.cpp:579
 msgid "XSPF playlist"
-msgstr "ผังเล่น XSPF "
+msgstr "ผังเล่น XSPF"
 
 #: modules/gui/qt4/dialogs_provider.cpp:580
 msgid "M3U playlist"
-msgstr "ผังเล่น M3U "
+msgstr "ผังเล่น M3U"
 
 #: modules/gui/qt4/dialogs_provider.cpp:581
 msgid "M3U8 playlist"
@@ -19983,7 +19982,7 @@ msgstr "ระดับเสียง(เล็ก)"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:407
 msgid "DVD menus"
-msgstr "เมนู DVD "
+msgstr "เมนู DVD"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:436
 msgid "Advanced Buttons"
@@ -20120,7 +20119,7 @@ msgstr "เปิดแ&ผ&่น"
 
 #: modules/gui/qt4/menus.cpp:361
 msgid "Open &Network Stream..."
-msgstr "เปิดสตรีมผ่านเครือข่าย"
+msgstr "เปิดกระ&แสเครือข่าย..."
 
 #: modules/gui/qt4/menus.cpp:363 modules/gui/qt4/menus.cpp:924
 msgid "Open &Capture Device..."
@@ -20276,7 +20275,7 @@ msgstr "ตั้งเป็น&ภาพพื้นหลัง"
 
 #: modules/gui/qt4/menus.cpp:673
 msgid "&Zoom"
-msgstr "แสดงย่อ-&ขยาย "
+msgstr "แสดงย่อ-&ขยาย"
 
 #: modules/gui/qt4/menus.cpp:674
 msgid "&Aspect Ratio"
@@ -20432,15 +20431,15 @@ msgstr ""
 
 #: modules/gui/qt4/qt4.cpp:96
 msgid "Show notification popup on track change"
-msgstr "ผุดการเตือนขึ้นเมื่อร่องข้อมูลเปลี่ยน"
+msgstr "ผุดการแจ้งเหตุเมื่อร่องสื่อเปลี่ยน"
 
 #: modules/gui/qt4/qt4.cpp:98
 msgid ""
 "Show a notification popup with the artist and track name when the current "
 "playlist item changes, when VLC is minimized or hidden."
 msgstr ""
-"ผุดการเตือนขึ้นเมื่อมีการเปลี่ยนรายการเล่น โดยแจ้งชื่อศิลปินและชื่อร่องสื่อที่จะเล่นถัดไปในถาดระบบ "
-"เมื่อ VLC ถูกย่อเก็บหรือถูกซ่อน "
+"ผุดการแจ้งเหตุเมื่อมีการเปลี่ยนรายการเล่น โดยแจ้งชื่อศิลปินและชื่อร่องสื่อที่จะเล่นถัดไป เมื่อ VLC "
+"ถูกย่อเก็บหรือถูกซ่อน"
 
 #: modules/gui/qt4/qt4.cpp:101
 msgid "Windows opacity between 0.1 and 1"
@@ -20466,7 +20465,7 @@ msgstr ""
 
 #: modules/gui/qt4/qt4.cpp:114
 msgid "Show unimportant error and warnings dialogs"
-msgstr "แสดงกล่องโต้ตอบของ ข้อขัดข้องและการเตือนที่ไม่สำคัญ"
+msgstr "แสดงกล่องโต้ตอบของข้อผิดพลาดและคำเตือนที่ไม่สำคัญ"
 
 #: modules/gui/qt4/qt4.cpp:116
 msgid "Activate the updates availability notification"
@@ -20492,15 +20491,15 @@ msgstr "บันทึกรายการต่างๆ ที่พึ่�
 
 #: modules/gui/qt4/qt4.cpp:126
 msgid "List of words separated by | to filter"
-msgstr ""
+msgstr "รายการคำที่จะกรอง คั่นด้วย |"
 
 #: modules/gui/qt4/qt4.cpp:127
 msgid "Regular expression used to filter the recent items played in the player"
-msgstr ""
+msgstr "นิพจน์เรกิวลาร์ที่จะใช้กรองรายการที่พึ่งเล่นไปในโปรแกรมเล่นสื่อ"
 
 #: modules/gui/qt4/qt4.cpp:130
 msgid "Define the colors of the volume slider "
-msgstr ""
+msgstr "กำหนดเฉดสีของตัวเลื่อนปรับความดังเสียง"
 
 #: modules/gui/qt4/qt4.cpp:131
 msgid ""
@@ -20509,10 +20508,14 @@ msgid ""
 "Default is '255;255;255;20;226;20;255;176;15;235;30;20'\n"
 "An alternative can be '30;30;50;40;40;100;50;50;160;150;150;255' "
 msgstr ""
+"กำหนดเฉดสีของตัวเลื่อนปรับความดังเสียง\n"
+"โดยกำหนดตัวเลข 12 ตัว คั่นด้วย ';'\n"
+"ค่าปริยายคือ '255;255;255;20;226;20;255;176;15;235;30;20'\n"
+"ค่าที่เป็นไปได้เช่น '30;30;50;40;40;100;50;50;160;150;150;255'"
 
 #: modules/gui/qt4/qt4.cpp:136
 msgid "Selection of the starting mode and look "
-msgstr ""
+msgstr "เลือกโหมดและรูปลักษณ์เมื่อเริ่มทำงาน "
 
 #: modules/gui/qt4/qt4.cpp:137
 msgid ""
@@ -20521,14 +20524,14 @@ msgid ""
 " - a zone always present to show information as lyrics, album arts...\n"
 " - minimal mode with limited controls"
 msgstr ""
-"-\"เริ่มงาน VLC โดย:\n"
+"เริ่มทำงาน VLC ด้วย:\n"
 " - รูปแบบปกติ\n"
-" - บริเวณ a แสดงข้อมูลเช่น เนื้อร้อง ภาพปก... เสมอๆ\n"
+" - กันบริเวณหนึ่งไว้เสมอเพื่อแสดงข้อมูล เช่น เนื้อร้อง ภาพปก...\n"
 " - แสดงแต่จอ"
 
 #: modules/gui/qt4/qt4.cpp:143
 msgid "Show a controller in fullscreen mode"
-msgstr "แสดงส่วนควบคุมในรูปแบบส่วนแสดงผลเต็มหน้าจอ"
+msgstr "แสดงส่วนควบคุมในโหมดเต็มจอ"
 
 #: modules/gui/qt4/qt4.cpp:144
 msgid "Embed the file browser in open dialog"
@@ -20536,19 +20539,19 @@ msgstr "แนบตัวเรียกดูแฟ้มไปในกล่
 
 #: modules/gui/qt4/qt4.cpp:146
 msgid "Define which screen fullscreen goes"
-msgstr ""
+msgstr "กำหนดหน้าจอที่จะใช้แสดงโหมดเต็มจอ"
 
 #: modules/gui/qt4/qt4.cpp:147
 msgid "Screennumber of fullscreen, instead of same screen where interface is"
-msgstr ""
+msgstr "หมายเลขหน้าจอที่จะใช้แสดงโหมดเต็มจอ แทนการใช้หน้าจอเดียวกับส่วนติดต่อ"
 
 #: modules/gui/qt4/qt4.cpp:150
 msgid "Load extensions on startup"
-msgstr "ติดใช้ส่วนขยายเมื่อเริ่มโปรแกรม"
+msgstr "โหลดส่วนขยายเมื่อเริ่มโปรแกรม"
 
 #: modules/gui/qt4/qt4.cpp:151
 msgid "Automatically load the extensions module on startup"
-msgstr ""
+msgstr "โหลดมอดูลส่วนขยายต่างๆ โดยอัตโนมัติเมื่อเริ่มโปรแกรม"
 
 #: modules/gui/qt4/qt4.cpp:154
 msgid "Start in minimal view (without menus)"
@@ -20556,25 +20559,26 @@ msgstr "เริ่มโปรแกรมโดยแสดงแต่จอ
 
 #: modules/gui/qt4/qt4.cpp:156
 msgid "Display background cone or art"
-msgstr ""
+msgstr "แสดงกรวยหรือภาพพื้นหลัง"
 
 #: modules/gui/qt4/qt4.cpp:157
 msgid ""
 "Display background cone or current album art when not playing. Can be "
 "disabled to prevent burning screen."
 msgstr ""
+"แสดงกรวยหรือภาพปกอัลบัมปัจจุบันเป็นภาพพื้นหลังเมื่อไม่ได้เล่น สามารถปิดได้เพื่อป้องกันการเผาจอ"
 
 #: modules/gui/qt4/qt4.cpp:160
 msgid "Expanding background cone or art."
-msgstr ""
+msgstr "ยืดภาพกรวยหรือภาพพื้นหลัง"
 
 #: modules/gui/qt4/qt4.cpp:161
 msgid "Background art fits window's size"
-msgstr ""
+msgstr "ยืดภาพพื้นหลังให้พอดีหน้าต่าง"
 
 #: modules/gui/qt4/qt4.cpp:163
 msgid "Ignore keyboard volume buttons."
-msgstr ""
+msgstr "ไม่สนใจปุ่มปรับความดังบนแป้นพิมพ์"
 
 #: modules/gui/qt4/qt4.cpp:165
 msgid ""
@@ -20583,6 +20587,10 @@ msgid ""
 "unchecked, the volume buttons will change VLC's volume when VLC is selected "
 "and change the system volume when VLC is not selected."
 msgstr ""
+"หากเลือกตัวเลือกนี้ ปุ่มเพิ่มเสียง ลดเสียง "
+"และปิดเสียงบนแป้นพิมพ์จะเปลี่ยนความดังเสียงของระบบโดยตรง หากปิดตัวเลือกนี้ "
+"ปุ่มปรับความดังเสียงดังกล่าวจะเปลี่ยนความดังเสียงของ VLC เมื่อเลือกหน้าต่าง VLC "
+"และจะเปลี่ยนความดังเสียงของระบบเมื่อไม่ได้เลือกหน้าต่าง VLC"
 
 #: modules/gui/qt4/qt4.cpp:184
 msgid "Never"
@@ -20598,11 +20606,11 @@ msgstr "ตลอด"
 
 #: modules/gui/qt4/qt4.cpp:189
 msgid "Qt interface"
-msgstr "ส่วนติดต่อแบบ Qt "
+msgstr "ส่วนติดต่อแบบ Qt"
 
 #: modules/gui/qt4/util/customwidgets.cpp:80
 msgid "errors"
-msgstr "ขัดข้อง"
+msgstr "ผิดพลาด"
 
 #: modules/gui/qt4/util/customwidgets.cpp:81
 msgid "warnings"
@@ -20646,14 +20654,14 @@ msgstr "พาธไปยังหน้ากากที่จะใช้"
 
 #: modules/gui/skins2/src/skin_main.cpp:468
 msgid "Config of last used skin"
-msgstr "การตั้งค่าของหน้ากากที่พึ่งใช้ไป"
+msgstr "การตั้งค่าของหน้ากากที่ใช้ล่าสุด"
 
 #: modules/gui/skins2/src/skin_main.cpp:469
 msgid ""
 "Windows configuration of the last skin used. This option is updated "
 "automatically, do not touch it."
 msgstr ""
-"การตั้งค่าหน้าต่างของหน้ากากที่พึ่งใช้ไป !การปรับแต่งจะถูกบันทึกโดยอัตโนมัติ อย่ายุ่งกับมันจะดีกว่า"
+"การตั้งค่าหน้าต่างของหน้ากากที่ใช้ล่าสุด ตัวเลือกนี้มีการปรับเปลี่ยนโดยอัตโนมัติ อย่าแตะต้องจะดีกว่า"
 
 #: modules/gui/skins2/src/skin_main.cpp:472
 msgid "Show a systray icon for VLC"
@@ -20677,7 +20685,7 @@ msgstr ""
 #: modules/gui/skins2/src/skin_main.cpp:479
 #: modules/gui/skins2/src/skin_main.cpp:480
 msgid "Use a skinned playlist"
-msgstr "ใช้ผังเล่นของหน้ากาก"
+msgstr "ใช้รูปแบบผังเล่นของหน้ากาก"
 
 #: modules/gui/skins2/src/skin_main.cpp:481
 msgid "Display video in a skinned window if any"
@@ -20695,7 +20703,7 @@ msgstr "หน้ากาก"
 
 #: modules/gui/skins2/src/skin_main.cpp:508
 msgid "Skinnable Interface"
-msgstr "ส่วนติดต่อที่ใช้เป็นหน้ากากได้"
+msgstr "ส่วนติดต่อที่เปลี่ยนหน้ากากได้"
 
 #: modules/gui/skins2/src/theme_repository.cpp:62
 msgid "Select skin"
@@ -21012,37 +21020,39 @@ msgstr "ระบุรูปแบบการทำปูม"
 
 #: modules/misc/logger.c:121
 msgid "Syslog ident"
-msgstr ""
+msgstr "ชื่อใน syslog"
 
 #: modules/misc/logger.c:122
 msgid "Set the ident that VLC would use when logging to syslog."
-msgstr ""
+msgstr "กำหนดชื่อที่ VLC จะใช้ระบุตัวตนเมื่อบันทึกปูมลงใน syslog"
 
 #: modules/misc/logger.c:125
 msgid "Syslog facility"
-msgstr ""
+msgstr "หมวดของ syslog"
 
 #: modules/misc/logger.c:126
 msgid "Select the syslog facility where logs will be forwarded."
-msgstr ""
+msgstr "เลือกหมวดของ syslog ที่จะส่งปูมไปบันทึกลง"
 
 #: modules/misc/logger.c:153
 msgid "Verbosity"
-msgstr "ชั้นรายละเอียด"
+msgstr "ระดับรายละเอียด"
 
 #: modules/misc/logger.c:154
 msgid ""
 "Select the verbosity to use for log or -1 to use the same verbosity given by "
 "--verbose."
 msgstr ""
+"เลือกระดับรายละเอียดที่จะใช้ในปูม หรือใช้ค่า -1 เพื่อใช้ระดับรายละเอียดตามที่กำหนดในตัวเลือก --"
+"verbose"
 
 #: modules/misc/logger.c:158
 msgid "Logging"
-msgstr "ปูม "
+msgstr "ปูม"
 
 #: modules/misc/logger.c:159
 msgid "File logging"
-msgstr "ปูมแฟ้ม "
+msgstr "การบันทึกปูมลงแฟ้ม"
 
 #: modules/misc/logger.c:165
 msgid "Log filename"
@@ -21050,11 +21060,11 @@ msgstr "ชื่อแฟ้มปูม"
 
 #: modules/misc/logger.c:165
 msgid "Specify the log filename."
-msgstr ""
+msgstr "ระบุชื่อแฟ้มปูม"
 
 #: modules/misc/playlist/export.c:50
 msgid "M3U playlist export"
-msgstr "ส่งออกผังเล่น M3U "
+msgstr "ส่งออกผังเล่น M3U"
 
 #: modules/misc/playlist/export.c:56
 msgid "M3U8 playlist export"
@@ -21062,11 +21072,11 @@ msgstr "ส่งออกผังเล่น M3U8"
 
 #: modules/misc/playlist/export.c:62
 msgid "XSPF playlist export"
-msgstr "ส่งออกผังเล่น XSPF "
+msgstr "ส่งออกผังเล่น XSPF"
 
 #: modules/misc/playlist/export.c:68
 msgid "HTML playlist export"
-msgstr "ส่งออกผังเล่น HTML "
+msgstr "ส่งออกผังเล่น HTML"
 
 #: modules/misc/rtsp.c:61
 msgid "Maximum number of connections"
@@ -21171,7 +21181,7 @@ msgstr ""
 
 #: modules/mux/asf.c:73
 msgid "ASF muxer"
-msgstr "ตัวรวมกระแส ASF "
+msgstr "ตัวรวมกระแส ASF"
 
 #: modules/mux/asf.c:565
 msgid "Unknown Video"
@@ -21198,7 +21208,7 @@ msgstr ""
 
 #: modules/mux/mp4.c:58
 msgid "MP4/MOV muxer"
-msgstr "ตัวรวมกระแส MP4/MOV "
+msgstr "ตัวรวมกระแส MP4/MOV"
 
 #: modules/mux/mpeg/ps.c:48 modules/mux/mpeg/ts.c:148
 msgid "DTS delay (ms)"
@@ -21422,11 +21432,11 @@ msgstr ""
 
 #: modules/mux/ogg.c:51
 msgid "Ogg/OGM muxer"
-msgstr "ตัวรวมกระแส Ogg/OGM "
+msgstr "ตัวรวมกระแส Ogg/OGM"
 
 #: modules/mux/wav.c:46
 msgid "WAV muxer"
-msgstr "ตัวรวมกระแส WAV "
+msgstr "ตัวรวมกระแส WAV"
 
 #: modules/notify/growl.m:104
 msgid "Growl Notification Plugin"
@@ -21450,11 +21460,11 @@ msgstr ""
 
 #: modules/notify/notify.c:59
 msgid "Notify"
-msgstr "การเตือน"
+msgstr "การแจ้งเหตุ"
 
 #: modules/notify/notify.c:60
 msgid "LibNotify Notification Plugin"
-msgstr ""
+msgstr "ปลั๊กอินแจ้งเหตุโดยใช้ LibNotify"
 
 #: modules/packetizer/copy.c:48
 msgid "Copy packetizer"
@@ -21500,7 +21510,7 @@ msgstr "ตัสทำแพกเกจวีดิทัศน์ MPEG-I/II"
 
 #: modules/packetizer/mpegvideo.c:72
 msgid "MPEG Video"
-msgstr "วีดิทัศน์ MPEG "
+msgstr "วีดิทัศน์ MPEG"
 
 #: modules/packetizer/vc1.c:51
 msgid "VC-1 packetizer"
@@ -22293,7 +22303,7 @@ msgstr "ส่วนส่งกระแส RTP"
 
 #: modules/stream_out/rtp.c:250
 msgid "RTSP VoD server"
-msgstr "เซิร์ฟเวอร์ RTSP VoD "
+msgstr "เซิร์ฟเวอร์ RTSP VoD"
 
 #: modules/stream_out/setid.c:45
 msgid "New ES ID"
@@ -23486,11 +23496,11 @@ msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:426
 msgid "DMX options"
-msgstr "ตัวเลือก DMX "
+msgstr "ตัวเลือก DMX"
 
 #: modules/video_filter/atmo/atmo.cpp:432
 msgid "MoMoLight options"
-msgstr "ตัวเลือก MoMoLight "
+msgstr "ตัวเลือก MoMoLight"
 
 #: modules/video_filter/atmo/atmo.cpp:439
 msgid "fnordlicht options"
@@ -24672,11 +24682,11 @@ msgstr "แสดงเฉพาะข้อผิดพลาด"
 
 #: modules/video_filter/opencv_wrapper.c:70
 msgid "Show errors and warnings"
-msgstr "แสดงข้อขัดข้องและการเตือน"
+msgstr "แสดงข้อผิดพลาดและคำเตือน"
 
 #: modules/video_filter/opencv_wrapper.c:70
 msgid "Show everything including debug messages"
-msgstr "แสดงการเตือนทุกอย่างที่มีข้อความดีบั๊ก"
+msgstr "แสดงการเตือนทุกอย่างรวมถึงข้อความดีบั๊ก"
 
 #: modules/video_filter/opencv_wrapper.c:73
 msgid "OpenCV video filter wrapper"
@@ -25113,11 +25123,11 @@ msgstr "จำนวนพอร์ต VNC"
 
 #: modules/video_filter/remoteosd.c:78
 msgid "VNC Password"
-msgstr "รหัสผ่าน VNC "
+msgstr "รหัสผ่าน VNC"
 
 #: modules/video_filter/remoteosd.c:80
 msgid "VNC password."
-msgstr "รหัสผ่าน VNC "
+msgstr "รหัสผ่าน VNC"
 
 #: modules/video_filter/remoteosd.c:82
 msgid "VNC poll interval"
@@ -26053,13 +26063,13 @@ msgstr ""
 
 #: modules/video_output/xcb/window.c:43
 msgid "X11 display"
-msgstr "แสดง X11 "
+msgstr "ดิสเพลย์ของ X11"
 
 #: modules/video_output/xcb/window.c:45
 msgid ""
 "Video will be rendered with this X11 display. If empty, the default display "
 "will be used."
-msgstr ""
+msgstr "จะแสดงวีดิทัศน์โดยใช้ดิสเพลย์นี้ของ X11 ถ้าเว้นว่างไว้ ก็จะใช้ดิสเพลย์ปริยาย"
 
 #: modules/video_output/xcb/window.c:48
 msgid "X11 window ID"
@@ -26081,7 +26091,7 @@ msgstr "หน้าต่างวีดิทัศน์ X11 (XCB)"
 #: modules/video_output/xcb/window.c:282
 msgctxt "ASCII"
 msgid "VLC media player"
-msgstr "โปรแกรมเล่นสื่อ VLC "
+msgstr "VLC media player"
 
 #. xgettext: This is a plain ASCII spelling of "VLC"
 #. for the ICCCM window name. This must be pure ASCII.
@@ -26451,7 +26461,7 @@ msgstr "สื่อนำเข้า"
 
 #: share/lua/http/dialogs/create_stream.html:367
 msgid "Error:"
-msgstr "ขัดข้อง:"
+msgstr "ผิดพลาด:"
 
 #: share/lua/http/dialogs/create_stream.html:367
 msgid "Sample ui-state-error style."
@@ -26756,7 +26766,7 @@ msgstr "เลือกแฟ้ม"
 
 #: modules/gui/qt4/ui/open_file.h:152
 msgid "You can select local files with the following list and buttons."
-msgstr "คุณสามารถเลือกและกดปุ่มเพื่อเพิ่มแฟ้มในที่ต่าง ๆ เข้าไปในรายการได้"
+msgstr "คุณสามารถเลือกและกดปุ่มเพื่อเพิ่มแฟ้มในเครื่องเข้าไปในรายการได้"
 
 #: modules/gui/qt4/ui/open_file.h:153
 msgid "Add..."
@@ -26764,7 +26774,7 @@ msgstr "เพิ่ม..."
 
 #: modules/gui/qt4/ui/open_net.h:97
 msgid "Network Protocol"
-msgstr "โพรโทคอลเครือข่าย "
+msgstr "โพรโทคอลเครือข่าย"
 
 #: modules/gui/qt4/ui/open_net.h:98
 msgid "Please enter a network URL:"
@@ -26970,7 +26980,7 @@ msgstr "ลูกเล่นรอบทิศทางหูฟัง"
 
 #: modules/gui/qt4/ui/sprefs_audio.h:426
 msgid "Normalize volume to:"
-msgstr ""
+msgstr "เกลี่ยความดังเสียงให้เป็น:"
 
 #: modules/gui/qt4/ui/sprefs_audio.h:428
 msgid "Preferred audio language:"
@@ -26986,7 +26996,7 @@ msgstr "ชื่อผู้ใช้:"
 
 #: modules/gui/qt4/ui/sprefs_audio.h:431
 msgid "Submit played tracks stats to Last.fm"
-msgstr ""
+msgstr "ส่งสถิติร่องสื่อที่เล่นไปยัง Last.fm"
 
 #: modules/gui/qt4/ui/sprefs_input.h:341
 msgid "Codecs"
@@ -27030,7 +27040,7 @@ msgstr "แฟ้ม AVI เสียหายหรือไม่สมบู�
 
 #: modules/gui/qt4/ui/sprefs_input.h:355
 msgid "HTTP proxy URL"
-msgstr "URL พร็อกซี HTTP "
+msgstr "URL พร็อกซี HTTP"
 
 #: modules/gui/qt4/ui/sprefs_input.h:356
 msgid "HTTP (default)"
@@ -27082,7 +27092,7 @@ msgstr "พักการเล่นเมื่อย่อเก็บหน
 
 #: modules/gui/qt4/ui/sprefs_interface.h:524
 msgid "Show media change popup:"
-msgstr "แสดงการผุดเตือนเมื่อสื่อเปลี่ยน:"
+msgstr "ผุดแจ้งเหตุเมื่อสื่อเปลี่ยน:"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:525
 msgid "Start in minimal view mode"
@@ -27102,7 +27112,7 @@ msgstr "แสดงไอคอนในถาดระบบ"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:529
 msgid "Skin resource file:"
-msgstr ""
+msgstr "แฟ้มหน้ากาก:"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:531
 msgid "Playlist and Instances"
@@ -27130,7 +27140,7 @@ msgstr "ทุกๆ "
 
 #: modules/gui/qt4/ui/sprefs_interface.h:544
 msgid "Separate words by | (without space)"
-msgstr ""
+msgstr "แยกคำด้วย | (โดยไม่ใช้การเว้นวรรค)"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:546
 msgid "Save recently played items"
@@ -27593,15 +27603,6 @@ msgstr "รายการตัวจัดการสื่อ"
 #~ msgid "cbr"
 #~ msgstr "cbr"
 
-#~ msgid "Pixel width of the frame buffer"
-#~ msgstr "ความกว้างเฟรมบัฟเฟอร์เป็นพิกเซล"
-
-#~ msgid "Pixel height of the frame buffer"
-#~ msgstr "ความสูงเฟรมบัฟเฟอร์เป็นพิกเซล"
-
-#~ msgid "Pixel depth of the frame buffer"
-#~ msgstr "ความลึกเฟรมบัฟเฟอร์เป็นพิกเซล"
-
 #~ msgid "Use libv4l2"
 #~ msgstr "ใช้ libv4l2"
 
@@ -27945,6 +27946,18 @@ msgstr "รายการตัวจัดการสื่อ"
 #~ msgstr "แสดงแต่จอ (ไร้แถบเครื่องมือ)"
 
 #, fuzzy
+#~ msgid "Pixel width of the frame buffer"
+#~ msgstr "ความกว้างเป็นพิกเซลของเฟรมบัฟเฟอร์ (ไม่สนใจสำหรับแฟ้ม XWD)"
+
+#, fuzzy
+#~ msgid "Pixel height of the frame buffer"
+#~ msgstr "ความสูงเป็นพิกเซลของเฟรมบัฟเฟอร์ (ไม่สนใจสำหรับแฟ้ม XWD)"
+
+#, fuzzy
+#~ msgid "Pixel depth of the frame buffer"
+#~ msgstr "จำนวนบิตสีของพิกเซลในเฟรมบัฟเฟอร์ หรือเป็นค่าศูนย์สำหรับแฟ้ม XWD"
+
+#, fuzzy
 #~ msgid "Show Details"
 #~ msgstr "ราบละเอียดตัวอ่าน-ลงรหัส"
 
@@ -28070,7 +28083,7 @@ msgstr "รายการตัวจัดการสื่อ"
 
 #, fuzzy
 #~ msgid "Magnification"
-#~ msgstr "ขยาย/แสดงย่อ-ขยาย "
+#~ msgstr "ขยาย/แสดงย่อ-ขยาย"
 
 #, fuzzy
 #~ msgid "Image colors inversion"
@@ -28149,11 +28162,11 @@ msgstr "รายการตัวจัดการสื่อ"
 
 #, fuzzy
 #~ msgid "Show interface"
-#~ msgstr "ส่วนติดต่อแบบ Qt "
+#~ msgstr "ส่วนติดต่อแบบ Qt"
 
 #, fuzzy
 #~ msgid "Hide interface"
-#~ msgstr "ส่วนติดต่อแบบ Qt "
+#~ msgstr "ส่วนติดต่อแบบ Qt"
 
 #, fuzzy
 #~ msgid "Normal/Repeat/Loop"
@@ -28219,7 +28232,7 @@ msgstr "รายการตัวจัดการสื่อ"
 
 #, fuzzy
 #~ msgid "Blu-Ray error"
-#~ msgstr "บลูเรย์ขัดข้อง"
+#~ msgstr "บลูเรย์ผิดพลาด"
 
 #, fuzzy
 #~ msgid "dc1394 input"
@@ -28275,15 +28288,15 @@ msgstr "รายการตัวจัดการสื่อ"
 
 #, fuzzy
 #~ msgid "RTMP input"
-#~ msgstr "ส่วนนำเข้า FTP "
+#~ msgstr "ส่วนนำเข้า FTP"
 
 #, fuzzy
 #~ msgid "SFTP user name"
-#~ msgstr "ชื่อผู้ใข้ FTP "
+#~ msgstr "ชื่อผู้ใข้ FTP"
 
 #, fuzzy
 #~ msgid "SFTP password"
-#~ msgstr "รหัสผ่าน FTP "
+#~ msgstr "รหัสผ่าน FTP"
 
 #, fuzzy
 #~ msgid "Tuner id"
@@ -28307,7 +28320,7 @@ msgstr "รายการตัวจัดการสื่อ"
 
 #, fuzzy
 #~ msgid "OSS DSP device"
-#~ msgstr "อุปกรณ์เล่น DVD "
+#~ msgstr "อุปกรณ์เล่น DVD"
 
 #, fuzzy
 #~ msgid "PORTAUDIO audio output"
@@ -28323,7 +28336,7 @@ msgstr "รายการตัวจัดการสื่อ"
 
 #, fuzzy
 #~ msgid "RealVideo library decoder"
-#~ msgstr "ตัวอ่านรหัสไลบรารี QuickTime "
+#~ msgstr "ตัวอ่านรหัสไลบรารี QuickTime"
 
 #, fuzzy
 #~ msgid "Subtitles text encoding"
@@ -28355,11 +28368,11 @@ msgstr "รายการตัวจัดการสื่อ"
 
 #, fuzzy
 #~ msgid "| adev [X] . . . . . . . . . . .  set/get audio device"
-#~ msgstr "| adev [device]  . . . . . . . .  ตั้ง/ใช้ อุปกรณ์เล่นเสียง"
+#~ msgstr "| adev [device]  . . . . . . . .  ตั้ง/อ่าน อุปกรณ์เล่นเสียง"
 
 #, fuzzy
 #~ msgid "| strack [X] . . . . . . . . . set/get subtitles track"
-#~ msgstr "| strack [X] . . . . . . . . .  ตั้ง/ใช้ ร่องบทบรรยาย"
+#~ msgstr "| strack [X] . . . . . . . . .  ตั้ง/อ่าน ร่องบทบรรยาย"
 
 #, fuzzy
 #~ msgid "| @name mosaic-height #. . . . . . . . . . . . . .height"
@@ -28551,7 +28564,7 @@ msgstr "รายการตัวจัดการสื่อ"
 
 #, fuzzy
 #~ msgid "HTTP Proxy"
-#~ msgstr "พร็อกซี HTTP "
+#~ msgstr "พร็อกซี HTTP"
 
 #, fuzzy
 #~ msgid "Font Color"
@@ -28939,7 +28952,7 @@ msgstr "รายการตัวจัดการสื่อ"
 
 #, fuzzy
 #~ msgid "MUX Options"
-#~ msgstr "ตัวเลือก DMX "
+#~ msgstr "ตัวเลือก DMX"
 
 #, fuzzy
 #~ msgid "Video Scale"
@@ -29003,7 +29016,7 @@ msgstr "รายการตัวจัดการสื่อ"
 
 #, fuzzy
 #~ msgid "Verbosity:"
-#~ msgstr "ชั้นรายละเอียด"
+#~ msgstr "ระดับรายละเอียด"
 
 #, fuzzy
 #~ msgid "Add a subtitles file"
@@ -29103,11 +29116,11 @@ msgstr "รายการตัวจัดการสื่อ"
 
 #, fuzzy
 #~ msgid "IPv6 will be used by default for all connections."
-#~ msgstr "รหัสผ่านที่จะถูกใช้ในการเชื่อมต่อ"
+#~ msgstr "รหัสผ่านที่จะใช้ในการเชื่อมต่อ"
 
 #, fuzzy
 #~ msgid "IPv4 will be used by default for all connections."
-#~ msgstr "รหัสผ่านที่จะถูกใช้ในการเชื่อมต่อ"
+#~ msgstr "รหัสผ่านที่จะใช้ในการเชื่อมต่อ"
 
 #, fuzzy
 #~ msgid "&Update"
@@ -29135,7 +29148,7 @@ msgstr "รายการตัวจัดการสื่อ"
 
 #, fuzzy
 #~ msgid "ALSA device"
-#~ msgstr "อุปกรณ์เล่น DVD "
+#~ msgstr "อุปกรณ์เล่น DVD"
 
 #, fuzzy
 #~ msgid "Open a Media"
@@ -29199,7 +29212,7 @@ msgstr "รายการตัวจัดการสื่อ"
 
 #, fuzzy
 #~ msgid "Error!"
-#~ msgstr "ขัดข้อง"
+#~ msgstr "ผิดพลาด"
 
 #, fuzzy
 #~ msgid "Create Mosaic"
@@ -29271,11 +29284,11 @@ msgstr "รายการตัวจัดการสื่อ"
 
 #, fuzzy
 #~ msgid "XSPF playlist (*.xspf)"
-#~ msgstr "ส่งออกผังเล่น XSPF "
+#~ msgstr "ส่งออกผังเล่น XSPF"
 
 #, fuzzy
 #~ msgid "M3U playlist (*.m3u)"
-#~ msgstr "ผังเล่น M3U "
+#~ msgstr "ผังเล่น M3U"
 
 #, fuzzy
 #~ msgid "&Streaming..."
@@ -29323,7 +29336,7 @@ msgstr "รายการตัวจัดการสื่อ"
 
 #, fuzzy
 #~ msgid "UDP port"
-#~ msgstr "พอร์ต SFTP "
+#~ msgstr "พอร์ต SFTP"
 
 #, fuzzy
 #~ msgid "Force IPv6"
@@ -29331,19 +29344,19 @@ msgstr "รายการตัวจัดการสื่อ"
 
 #, fuzzy
 #~ msgid "Enable CPU MMX support"
-#~ msgstr "เปิดใช้ส่วนส่งกระแส SPU "
+#~ msgstr "เปิดใช้ส่วนส่งกระแส SPU"
 
 #, fuzzy
 #~ msgid "Enable CPU 3D Now! support"
-#~ msgstr "เปิดใช้ส่วนส่งกระแส SPU "
+#~ msgstr "เปิดใช้ส่วนส่งกระแส SPU"
 
 #, fuzzy
 #~ msgid "Enable CPU SSE support"
-#~ msgstr "เปิดใช้ส่วนส่งกระแส SPU "
+#~ msgstr "เปิดใช้ส่วนส่งกระแส SPU"
 
 #, fuzzy
 #~ msgid "Enable CPU AltiVec support"
-#~ msgstr "เปิดใช้ส่วนส่งกระแส SPU "
+#~ msgstr "เปิดใช้ส่วนส่งกระแส SPU"
 
 #, fuzzy
 #~ msgid ""
@@ -29359,7 +29372,7 @@ msgstr "รายการตัวจัดการสื่อ"
 
 #, fuzzy
 #~ msgid "HTTP password"
-#~ msgstr "รหัสผ่าน FTP "
+#~ msgstr "รหัสผ่าน FTP"
 
 #, fuzzy
 #~ msgid "CRL file"
@@ -29399,7 +29412,7 @@ msgstr "รายการตัวจัดการสื่อ"
 
 #, fuzzy
 #~ msgid "FFmpeg demuxer"
-#~ msgstr "ตัวแยกกระแส AIFF "
+#~ msgstr "ตัวแยกกระแส AIFF"
 
 #, fuzzy
 #~ msgid "Don't repair"
