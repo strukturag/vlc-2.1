@@ -6,18 +6,19 @@
 # Alexander Jansen <bornxlo@gmail.com>, 2013
 # Olav Dahlum <odahlum@gmail.com>, 2011
 # Sigmund Augdal <sigmunau@idi.ntnu.no>, 2002
-# bobbaluba <bobbaluba@gmail.com>, 2013
-# Stian Jørgensrud <stianahj@gmail.com>, 2012-2013
+# thomhov <naglfar@gmail.com>, 2014
+# bobbaluba <bobbaluba@gmail.com>, 2013-2014
+# Stian Jørgensrud <stianahj@gmail.com>, 2012-2014
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-12-07 17:17+0100\n"
-"PO-Revision-Date: 2013-09-22 08:17+0000\n"
-"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"PO-Revision-Date: 2014-01-09 14:54+0000\n"
+"Last-Translator: thomhov <naglfar@gmail.com>\n"
 "Language-Team: Norwegian Bokmål (Norway) (http://www.transifex.com/projects/"
 "p/vlc-trans/language/nb_NO/)\n"
-"Language: nb\n"
+"Language: nb_NO\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -34,7 +35,7 @@ msgstr ""
 "Du kan distribuere det i henhold til vilkårene i GNU General Public "
 "License;\n"
 "se filen COPYING for mer informasjon om dette.\n"
-"Programmet er skrevet av VideoLAN-gruppen ved Ecole Centrale, Paris.\n"
+"Programmet er skrevet av VideoLAN-gruppen; se AUTHORS-filen.\n"
 
 #: include/vlc_config_cat.h:33
 msgid "VLC preferences"
@@ -287,6 +288,10 @@ msgid ""
 "always force a specific muxer. You should probably not do that.\n"
 "You can also set default parameters for each muxer."
 msgstr ""
+"Muxere lager kapselformatet som brukes for å putte alle de grunnleggende "
+"strømningene (video, lyd...) sammen. Denne innstillingen tillater deg å "
+"alltid bruke en spesiell muxer. Du burde sannsynligvis ikke gjøre det.\n"
+"Du kan også bestemme parametrene for hver muxer."
 
 #: include/vlc_config_cat.h:143
 msgid "Access output"
@@ -658,7 +663,7 @@ msgstr ""
 #: src/audio_output/output.c:377 modules/gui/macosx/MainMenu.m:383
 #: modules/gui/macosx/MainMenu.m:384
 msgid "Stereo audio mode"
-msgstr ""
+msgstr "Stereolydmodus"
 
 #: src/audio_output/output.c:412 src/libvlc-module.c:189
 msgid "Dolby Surround"
@@ -958,71 +963,71 @@ msgstr ""
 
 #: src/config/keys.c:87
 msgid "Media Audio Track"
-msgstr ""
+msgstr "Media lydspor"
 
 #: src/config/keys.c:88
 msgid "Media Forward"
-msgstr ""
+msgstr "Media forover"
 
 #: src/config/keys.c:89
 msgid "Media Menu"
-msgstr ""
+msgstr "Media meny"
 
 #: src/config/keys.c:90
 msgid "Media Next Frame"
-msgstr ""
+msgstr "Medie neste ramme"
 
 #: src/config/keys.c:91
 msgid "Media Next Track"
-msgstr ""
+msgstr "Media neste spor"
 
 #: src/config/keys.c:92
 msgid "Media Play Pause"
-msgstr ""
+msgstr "Media spill av/pause"
 
 #: src/config/keys.c:93
 msgid "Media Prev Frame"
-msgstr ""
+msgstr "Media forrige ramme"
 
 #: src/config/keys.c:94
 msgid "Media Prev Track"
-msgstr ""
+msgstr "Media forrige spor"
 
 #: src/config/keys.c:95
 msgid "Media Record"
-msgstr ""
+msgstr "Media ta opp"
 
 #: src/config/keys.c:96
 msgid "Media Repeat"
-msgstr ""
+msgstr "Media gjenta"
 
 #: src/config/keys.c:97
 msgid "Media Rewind"
-msgstr ""
+msgstr "Media spol bakover"
 
 #: src/config/keys.c:98
 msgid "Media Select"
-msgstr ""
+msgstr "Media velg"
 
 #: src/config/keys.c:99
 msgid "Media Shuffle"
-msgstr ""
+msgstr "Media tilfeldig"
 
 #: src/config/keys.c:100
 msgid "Media Stop"
-msgstr ""
+msgstr "Media stopp"
 
 #: src/config/keys.c:101
 msgid "Media Subtitle"
-msgstr ""
+msgstr "Media undertekst"
 
 #: src/config/keys.c:102
 msgid "Media Time"
-msgstr ""
+msgstr "Media tid"
 
 #: src/config/keys.c:103
 msgid "Media View"
-msgstr ""
+msgstr "Media visning"
 
 #: src/config/keys.c:104 modules/gui/qt4/components/controller.cpp:541
 msgid "Menu"
@@ -1654,7 +1659,7 @@ msgstr ""
 
 #: src/libvlc-module.c:142
 msgid "Audio output volume step"
-msgstr ""
+msgstr "Lyd ut volumsteg"
 
 #: src/libvlc-module.c:144
 msgid "The step size of the volume is adjustable using this option."
@@ -1662,12 +1667,13 @@ msgstr ""
 
 #: src/libvlc-module.c:147
 msgid "Remember the audio volume"
-msgstr ""
+msgstr "Husk lydnivået"
 
 #: src/libvlc-module.c:149
 msgid ""
 "The volume can be recorded and automatically restored next time VLC is used."
 msgstr ""
+"Lydnivået kan bli tatt opp og automatisk lagret neste gang VLC startes."
 
 #: src/libvlc-module.c:152
 msgid "Audio desynchronization compensation"
@@ -1747,7 +1753,7 @@ msgstr "Av"
 
 #: src/libvlc-module.c:182
 msgid "Stereo audio output mode"
-msgstr ""
+msgstr "Stereo lyd ut modus"
 
 #: src/libvlc-module.c:194
 msgid "This adds audio post processing filters, to modify the sound rendering."
@@ -1795,13 +1801,15 @@ msgstr "Beskytt mot lydklipping"
 
 #: src/libvlc-module.c:221
 msgid "Enable time stretching audio"
-msgstr ""
+msgstr "Aktiver strekking av lyd"
 
 #: src/libvlc-module.c:223
 msgid ""
 "This allows playing audio at lower or higher speed without affecting the "
 "audio pitch"
 msgstr ""
+"Dette lar deg spille lyd raskere eller tregere uten å gjøre lyden lysere "
+"eller mørkere."
 
 #: src/libvlc-module.c:230 modules/access/dshow/dshow.cpp:2034
 #: modules/access/dtv/access.c:107 modules/access/dtv/access.c:141
@@ -2077,7 +2085,7 @@ msgstr "Skjul musepeker og fullskjermkontroll etter x millisekunder"
 
 #: src/libvlc-module.c:335
 msgid "Hide mouse cursor and fullscreen controller after n milliseconds."
-msgstr ""
+msgstr "Skjul musepeker og fullskjermkontroll etter n millisekunder"
 
 #: src/libvlc-module.c:338 src/libvlc-module.c:340
 #: src/video_output/interlacing.c:180 modules/gui/macosx/MainMenu.m:406
@@ -2086,7 +2094,7 @@ msgstr ""
 #: modules/video_filter/deinterlace/deinterlace.c:97
 #: share/lua/http/dialogs/create_stream.html:346
 msgid "Deinterlace"
-msgstr ""
+msgstr "Fjern linjesprang/linjesamlefletting"
 
 #: src/libvlc-module.c:348 src/video_output/interlacing.c:196
 #: modules/gui/macosx/MainMenu.m:408 modules/gui/macosx/MainMenu.m:409
@@ -2407,7 +2415,7 @@ msgstr ""
 
 #: src/libvlc-module.c:513
 msgid "Network caching (ms)"
-msgstr ""
+msgstr "Nettverksbuffer (ms)"
 
 #: src/libvlc-module.c:515
 msgid "Caching value for network resources, in milliseconds."
@@ -2425,7 +2433,7 @@ msgstr ""
 
 #: src/libvlc-module.c:522
 msgid "Clock synchronisation"
-msgstr ""
+msgstr "Klokkesynkronisering"
 
 #: src/libvlc-module.c:524
 msgid ""
@@ -2574,7 +2582,7 @@ msgstr ""
 
 #: src/libvlc-module.c:603
 msgid "Subtitle track ID"
-msgstr ""
+msgstr "Undertekstspor-ID"
 
 #: src/libvlc-module.c:605
 msgid "Stream ID of the subtitle track to use."
@@ -2582,7 +2590,7 @@ msgstr ""
 
 #: src/libvlc-module.c:607
 msgid "Preferred video resolution"
-msgstr ""
+msgstr "Ønsket videooppløsning"
 
 #: src/libvlc-module.c:609
 msgid ""
@@ -2591,6 +2599,10 @@ msgid ""
 "option if you don't have enough CPU power or network bandwidth to play "
 "higher resolutions."
 msgstr ""
+"Når flere video formater er tilgjengelig, velg en hvor oppløsningen er "
+"nærmest (men ikke høyere enn) denne innstillingen, i linjenummer. Bruk dette "
+"alternativet hvis du ikke har nok prosessorkraft eller båndbredde til å "
+"spille av høyere oppløsning. "
 
 #: src/libvlc-module.c:615
 msgid "Best available"
@@ -2606,15 +2618,15 @@ msgstr "HD (720p)"
 
 #: src/libvlc-module.c:616
 msgid "Standard Definition (576 or 480 lines)"
-msgstr ""
+msgstr "Standard oppløsning (576 eller 480 linjer)"
 
 #: src/libvlc-module.c:617
 msgid "Low Definition (360 lines)"
-msgstr ""
+msgstr "Lav oppløsning (360 linjer)"
 
 #: src/libvlc-module.c:618
 msgid "Very Low Definition (240 lines)"
-msgstr ""
+msgstr "Veldig lav oppløsning (240 linjer)"
 
 #: src/libvlc-module.c:621
 msgid "Input repetitions"
@@ -2699,7 +2711,7 @@ msgstr ""
 #: src/libvlc-module.c:662 modules/gui/macosx/simple_prefs.m:332
 #: modules/gui/qt4/ui/sprefs_input.h:350
 msgid "Record directory or filename"
-msgstr ""
+msgstr "Opptaksmappe eller filnavn"
 
 #: src/libvlc-module.c:664 modules/gui/macosx/simple_prefs.m:334
 msgid "Directory or filename where the records will be stored"
@@ -2909,7 +2921,7 @@ msgstr "Dette er standard VCD-enhet som brukes."
 
 #: src/libvlc-module.c:771
 msgid "This is the default Audio CD device to use."
-msgstr ""
+msgstr "Dette er standard Lyd CD-enhet som brukes."
 
 #: src/libvlc-module.c:788
 msgid "TCP connection timeout"
@@ -2945,7 +2957,7 @@ msgstr ""
 
 #: src/libvlc-module.c:806
 msgid "HTTP server port"
-msgstr ""
+msgstr "HTTP-tjenerport"
 
 #: src/libvlc-module.c:808
 msgid ""
@@ -2956,7 +2968,7 @@ msgstr ""
 
 #: src/libvlc-module.c:813
 msgid "HTTPS server port"
-msgstr ""
+msgstr "HTTPS-tjenerport"
 
 #: src/libvlc-module.c:815
 msgid ""
@@ -2978,7 +2990,7 @@ msgstr ""
 
 #: src/libvlc-module.c:827
 msgid "HTTP/TLS server certificate"
-msgstr ""
+msgstr "HTTP/TLS-tjenersertifikat"
 
 #: src/libvlc-module.c:829
 msgid "This X.509 certicate file (PEM format) is used for server-side TLS."
@@ -3036,11 +3048,11 @@ msgstr "Passord"
 
 #: src/libvlc-module.c:856
 msgid "Password to be used for connection to the SOCKS proxy."
-msgstr ""
+msgstr "Passord som skal brukes for SOCKS proxy tilkoblingen."
 
 #: src/libvlc-module.c:858
 msgid "Title metadata"
-msgstr ""
+msgstr "Tittel metadata"
 
 #: src/libvlc-module.c:860
 msgid "Allows you to specify a \"title\" metadata for an input."
@@ -3048,7 +3060,7 @@ msgstr ""
 
 #: src/libvlc-module.c:862
 msgid "Author metadata"
-msgstr ""
+msgstr "Forfatter metadata"
 
 #: src/libvlc-module.c:864
 msgid "Allows you to specify an \"author\" metadata for an input."
@@ -3056,7 +3068,7 @@ msgstr ""
 
 #: src/libvlc-module.c:866
 msgid "Artist metadata"
-msgstr ""
+msgstr "Artist metadata"
 
 #: src/libvlc-module.c:868
 msgid "Allows you to specify an \"artist\" metadata for an input."
@@ -3064,7 +3076,7 @@ msgstr ""
 
 #: src/libvlc-module.c:870
 msgid "Genre metadata"
-msgstr ""
+msgstr "Sjanger metadata"
 
 #: src/libvlc-module.c:872
 msgid "Allows you to specify a \"genre\" metadata for an input."
@@ -3088,7 +3100,7 @@ msgstr ""
 
 #: src/libvlc-module.c:882
 msgid "Date metadata"
-msgstr ""
+msgstr "Dato metadata"
 
 #: src/libvlc-module.c:884
 msgid "Allows you to specify a \"date\" metadata for an input."
@@ -3294,7 +3306,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1006
 msgid "VoD server module"
-msgstr ""
+msgstr "VoD-tjener modul"
 
 #: src/libvlc-module.c:1008
 msgid ""
@@ -3372,7 +3384,7 @@ msgstr "Kjører VLC i bakgrunnen som en systemtjeneste."
 
 #: src/libvlc-module.c:1049
 msgid "Write process id to file"
-msgstr ""
+msgstr "Skriv prosess-id til fil"
 
 #: src/libvlc-module.c:1051
 msgid "Writes process id into specified file."
@@ -3559,7 +3571,7 @@ msgstr "Automatisk avspilling av innholdet så fort det er lastet inn."
 
 #: src/libvlc-module.c:1161
 msgid "Pause on audio communication"
-msgstr ""
+msgstr "Pause ved lydkommunikasjon"
 
 #: src/libvlc-module.c:1163
 msgid ""
@@ -3581,7 +3593,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1171
 msgid "Load Media Library"
-msgstr ""
+msgstr "Last Mediabilbiotek"
 
 #: src/libvlc-module.c:1173
 msgid "Enable this option to load the SQL-based Media Library at VLC startup"
@@ -4032,7 +4044,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1310
 msgid "Subtitle position up"
-msgstr ""
+msgstr "Undertekst posisjon opp"
 
 #: src/libvlc-module.c:1311
 msgid "Select the key to move subtitles higher."
@@ -4040,7 +4052,7 @@ msgstr "Velg hurtigtasten for å undertekster høyere."
 
 #: src/libvlc-module.c:1312
 msgid "Subtitle position down"
-msgstr ""
+msgstr "Undertekst posisjon ned"
 
 #: src/libvlc-module.c:1313
 msgid "Select the key to move subtitles lower."
@@ -4064,43 +4076,43 @@ msgstr "Velg hurtigtasten for å minske forsinkelsen til lyden."
 
 #: src/libvlc-module.c:1324
 msgid "Play playlist bookmark 1"
-msgstr ""
+msgstr "Spill spillelistebokmerke 1"
 
 #: src/libvlc-module.c:1325
 msgid "Play playlist bookmark 2"
-msgstr ""
+msgstr "Spill spillelistebokmerke 2"
 
 #: src/libvlc-module.c:1326
 msgid "Play playlist bookmark 3"
-msgstr ""
+msgstr "Spill spillelistebokmerke 3"
 
 #: src/libvlc-module.c:1327
 msgid "Play playlist bookmark 4"
-msgstr ""
+msgstr "Spill spillelistebokmerke 4"
 
 #: src/libvlc-module.c:1328
 msgid "Play playlist bookmark 5"
-msgstr ""
+msgstr "Spill spillelistebokmerke 5"
 
 #: src/libvlc-module.c:1329
 msgid "Play playlist bookmark 6"
-msgstr ""
+msgstr "Spill spillelistebokmerke 6"
 
 #: src/libvlc-module.c:1330
 msgid "Play playlist bookmark 7"
-msgstr ""
+msgstr "Spill spillelistebokmerke 7"
 
 #: src/libvlc-module.c:1331
 msgid "Play playlist bookmark 8"
-msgstr ""
+msgstr "Spill spillelistebokmerke 8"
 
 #: src/libvlc-module.c:1332
 msgid "Play playlist bookmark 9"
-msgstr ""
+msgstr "Spill spillelistebokmerke 9"
 
 #: src/libvlc-module.c:1333
 msgid "Play playlist bookmark 10"
-msgstr ""
+msgstr "Spill spillelistebokmerke 10"
 
 #: src/libvlc-module.c:1334
 msgid "Select the key to play this bookmark."
@@ -4157,7 +4169,7 @@ msgstr "Tøm spillelisten"
 
 #: src/libvlc-module.c:1347
 msgid "Select the key to clear the current playlist."
-msgstr ""
+msgstr "Velg hurtigtasten for å blanke ut gjeldende spilleliste."
 
 #: src/libvlc-module.c:1349
 msgid "Playlist bookmark 1"
@@ -22955,7 +22967,7 @@ msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:134
 msgid "Device type"
-msgstr ""
+msgstr "Enhetstype"
 
 #: modules/video_filter/atmo/atmo.cpp:135
 msgid ""
@@ -23184,7 +23196,7 @@ msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:244
 msgid "White Red"
-msgstr ""
+msgstr "Hvit Rød"
 
 #: modules/video_filter/atmo/atmo.cpp:245
 msgid "Red value of a pure white on your LED stripes."
@@ -23192,7 +23204,7 @@ msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:247
 msgid "White Green"
-msgstr ""
+msgstr "Hvit Grønn"
 
 #: modules/video_filter/atmo/atmo.cpp:248
 msgid "Green value of a pure white on your LED stripes."
@@ -23200,7 +23212,7 @@ msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:250
 msgid "White Blue"
-msgstr ""
+msgstr "Hvit Blå"
 
 #: modules/video_filter/atmo/atmo.cpp:251
 msgid "Blue value of a pure white on your LED stripes."
@@ -23319,19 +23331,19 @@ msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:305
 msgid "Channel 1: left"
-msgstr ""
+msgstr "Kanal 1: venstre"
 
 #: modules/video_filter/atmo/atmo.cpp:306
 msgid "Channel 2: right"
-msgstr ""
+msgstr "Kanal 2: høyre"
 
 #: modules/video_filter/atmo/atmo.cpp:307
 msgid "Channel 3: top"
-msgstr ""
+msgstr "Kanal 3: topp"
 
 #: modules/video_filter/atmo/atmo.cpp:308
 msgid "Channel 4: bottom"
-msgstr ""
+msgstr "Kanal 4: Bunn"
 
 #: modules/video_filter/atmo/atmo.cpp:310
 msgid "Maps the hardware channel X to logical zone Y to fix wrong wiring :-)"
@@ -23347,23 +23359,23 @@ msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:323
 msgid "Zone 3:left"
-msgstr ""
+msgstr "Sone 3:venstre"
 
 #: modules/video_filter/atmo/atmo.cpp:324
 msgid "Zone 1:right"
-msgstr ""
+msgstr "Sone 1:høyre"
 
 #: modules/video_filter/atmo/atmo.cpp:325
 msgid "Zone 0:top"
-msgstr ""
+msgstr "Sone 0:topp"
 
 #: modules/video_filter/atmo/atmo.cpp:326
 msgid "Zone 2:bottom"
-msgstr ""
+msgstr "Sone 2:bunn"
 
 #: modules/video_filter/atmo/atmo.cpp:328
 msgid "Channel / Zone Assignment"
-msgstr ""
+msgstr "Kanal / Sone Tildeling"
 
 #: modules/video_filter/atmo/atmo.cpp:329
 msgid ""
@@ -23727,7 +23739,7 @@ msgstr ""
 
 #: modules/video_filter/bluescreen.c:78
 msgid "Bluescreen"
-msgstr ""
+msgstr "Blåskjerm"
 
 #: modules/video_filter/canvas.c:83
 msgid "Output width"
@@ -23771,11 +23783,11 @@ msgstr ""
 
 #: modules/video_filter/canvas.c:105
 msgid "Canvas"
-msgstr ""
+msgstr "Lerret"
 
 #: modules/video_filter/canvas.c:106
 msgid "Canvas video filter"
-msgstr ""
+msgstr "Lerret video filter"
 
 #: modules/video_filter/chain.c:43
 msgid "Video filtering using a chain of video filter modules"
@@ -23801,7 +23813,7 @@ msgstr ""
 
 #: modules/video_filter/clone.c:55
 msgid "Clone video filter"
-msgstr ""
+msgstr "Klon video filter"
 
 #: modules/video_filter/colorthres.c:55
 msgid ""
@@ -23918,15 +23930,15 @@ msgstr ""
 
 #: modules/video_filter/deinterlace/algo_phosphor.h:56
 msgid "Low"
-msgstr ""
+msgstr "Lav"
 
 #: modules/video_filter/deinterlace/algo_phosphor.h:57
 msgid "Medium"
-msgstr ""
+msgstr "Medium"
 
 #: modules/video_filter/deinterlace/algo_phosphor.h:58
 msgid "High"
-msgstr ""
+msgstr "Høy"
 
 #: modules/video_filter/deinterlace/deinterlace.c:55
 msgid "Streaming deinterlace mode"
@@ -23991,13 +24003,13 @@ msgstr ""
 
 #: modules/video_filter/dynamicoverlay/dynamicoverlay.c:67
 msgid "Dynamic video overlay"
-msgstr ""
+msgstr "Dynamisk video overlegg"
 
 #: modules/video_filter/dynamicoverlay/dynamicoverlay.c:68
 #: share/lua/http/dialogs/create_stream.html:245
 #: modules/gui/qt4/ui/video_effects.h:1376
 msgid "Overlay"
-msgstr ""
+msgstr "Overlegg"
 
 #: modules/video_filter/erase.c:56
 msgid "Image mask. Pixels with an alpha value greater than 50% will be erased."
@@ -24228,7 +24240,7 @@ msgstr ""
 
 #: modules/video_filter/logo.c:64
 msgid "Opacity of the logo"
-msgstr ""
+msgstr "Logoens gjennomsiktighet"
 
 #: modules/video_filter/logo.c:65
 msgid ""
@@ -24255,7 +24267,7 @@ msgstr ""
 
 #: modules/video_filter/logo.c:93
 msgid "Logo overlay"
-msgstr ""
+msgstr "Logo overlegg"
 
 #: modules/video_filter/logo.c:111
 msgid "Logo video filter"
@@ -24284,7 +24296,7 @@ msgstr ""
 
 #: modules/video_filter/marq.c:104
 msgid "Text file"
-msgstr ""
+msgstr "Tekstfil"
 
 #: modules/video_filter/marq.c:105
 msgid "File to read the marquee text from."
@@ -24505,7 +24517,7 @@ msgstr ""
 
 #: modules/video_filter/mosaic.c:134
 msgid "Keep aspect ratio"
-msgstr ""
+msgstr "Behold størrelsesforhold"
 
 #: modules/video_filter/mosaic.c:136
 msgid "Keep the original aspect ratio when resizing mosaic elements."
@@ -25353,7 +25365,7 @@ msgstr ""
 
 #: modules/video_filter/subsdelay.c:45
 msgid "Change subtitle delay"
-msgstr ""
+msgstr "Endre undertekstforsinkelse"
 
 #: modules/video_filter/subsdelay.c:47
 msgid "Delay calculation mode"
@@ -25476,7 +25488,7 @@ msgstr "Nærmeste nabo (dårlig kvalitet)"
 
 #: modules/video_filter/swscale.c:63
 msgid "Area"
-msgstr ""
+msgstr "Område"
 
 #: modules/video_filter/swscale.c:63
 msgid "Luma bicubic / chroma bilinear"
@@ -25564,7 +25576,7 @@ msgstr ""
 
 #: modules/video_output/aa.c:56
 msgid "ASCII Art"
-msgstr ""
+msgstr "ASCII Kunst"
 
 #: modules/video_output/aa.c:59
 msgid "ASCII-art video output"
@@ -25740,23 +25752,23 @@ msgstr ""
 
 #: modules/video_output/gl.c:40
 msgid "OpenGL extension"
-msgstr ""
+msgstr "OpenGL utvidelse"
 
 #: modules/video_output/gl.c:41
 msgid "OpenGL ES 2 extension"
-msgstr ""
+msgstr "OpenGL ES 2 utvidelse"
 
 #: modules/video_output/gl.c:42
 msgid "OpenGL ES extension"
-msgstr ""
+msgstr "OpenGL ES utvidelse"
 
 #: modules/video_output/gl.c:44
 msgid "Extension through which to use the Open Graphics Library (OpenGL)."
-msgstr ""
+msgstr "Utvidelse for å bruke Open Graphics Library (OpenGL)."
 
 #: modules/video_output/gl.c:50
 msgid "OpenGL ES2"
-msgstr ""
+msgstr "OpenGL ES2"
 
 #: modules/video_output/gl.c:51
 msgid "OpenGL for Embedded Systems 2 video output"
@@ -25764,7 +25776,7 @@ msgstr ""
 
 #: modules/video_output/gl.c:61
 msgid "OpenGL ES"
-msgstr ""
+msgstr "OpenGL ES"
 
 #: modules/video_output/gl.c:62
 msgid "OpenGL for Embedded Systems video output"
@@ -25772,7 +25784,7 @@ msgstr ""
 
 #: modules/video_output/gl.c:71
 msgid "OpenGL"
-msgstr ""
+msgstr "OpenGL"
 
 #: modules/video_output/gl.c:72
 msgid "OpenGL video output (experimental)"
@@ -26351,11 +26363,11 @@ msgstr ""
 
 #: share/lua/http/dialogs/batch_window.html:28
 msgid "#paste your VLM commands here"
-msgstr ""
+msgstr "#lim inn dine VLM kommandoer her"
 
 #: share/lua/http/dialogs/batch_window.html:30
 msgid "#separate commands with a new line or a semi-colon"
-msgstr ""
+msgstr "#skill kommandoer med en ny linje eller semi-kolon"
 
 #: share/lua/http/dialogs/browse_window.html:41
 #: share/lua/http/mobile_browse.html:48
@@ -27382,9 +27394,6 @@ msgstr "AAAA; "
 msgid "Media Manager List"
 msgstr "Mediabehandlerliste"
 
-#~ msgid "Show Details"
-#~ msgstr "Vis detaljer"
-
 #~ msgid ""
 #~ "You can choose to disable some CPU accelerations here. Use with extreme "
 #~ "care!"
@@ -27612,9 +27621,6 @@ msgstr "Mediabehandlerliste"
 #~ msgid "Playlist has only %d elements"
 #~ msgstr "Spillelista har bare %d elementer"
 
-#~ msgid "Death metal"
-#~ msgstr "Death metal"
-
 #~ msgid "Christian rap"
 #~ msgstr "Kristen rap"
 
@@ -27642,12 +27648,6 @@ msgstr "Mediabehandlerliste"
 
 #~ msgid "Icon View"
 #~ msgstr "Ikonvisning"
-
-#~ msgid "Detailed View"
-#~ msgstr "Detaljert visning"
-
-#~ msgid "List View"
-#~ msgstr "Listevisning"
 
 #~ msgid "Select an action to change the associated hotkey"
 #~ msgstr "Velg en handling for å endre den tilhørende hurtigtasten"
@@ -27790,10 +27790,6 @@ msgstr "Mediabehandlerliste"
 #~ msgstr ""
 #~ "Oppgi hvilket Qt Embedded hardware skjerm du ønsker å bruke. "
 #~ "Standardvalget til VLC er å bruke verdien fra miljøvariabelen DISPLAY."
-
-#~ msgid "This is the default port used for UDP streams. Default is 1234."
-#~ msgstr ""
-#~ "Dette er standardporten for kringkasting over UDP. Standardvalget er 1234."
 
 #, fuzzy
 #~ msgid "IPv4 multicast output interface address"
@@ -28056,10 +28052,6 @@ msgstr "Mediabehandlerliste"
 #~ msgstr "Standard output:"
 
 #, fuzzy
-#~ msgid "Color of the video input."
-#~ msgstr "Åpne spilleliste-vinduet"
-
-#, fuzzy
 #~ msgid "Tuner to use, if there are several ones."
 #~ msgstr "Naviger gjennom strømmen"
 
@@ -28135,10 +28127,6 @@ msgstr "Mediabehandlerliste"
 #~ msgid "Roku HD1000 audio output"
 #~ msgstr "Lydeksport volum"
 
-#, fuzzy
-#~ msgid "UNIX OSS audio output"
-#~ msgstr "Standard grensesnitt: "
-
 #~ msgid "Simple DirectMedia Layer audio output"
 #~ msgstr "Simple DirectMedia Layer lydmodul"
 
@@ -28152,10 +28140,6 @@ msgstr "Mediabehandlerliste"
 #, fuzzy
 #~ msgid "Deinterlace the image after loading it."
 #~ msgstr "Du kan fastsette videoinnkoding her"
-
-#, fuzzy
-#~ msgid "Unlock function"
-#~ msgstr "Varighet"
 
 #~ msgid "Subpage"
 #~ msgstr "Underside"
@@ -28177,9 +28161,6 @@ msgstr "Mediabehandlerliste"
 
 #~ msgid "Repair"
 #~ msgstr "Reparer"
-
-#~ msgid "Rewind"
-#~ msgstr "Spol tilbake"
 
 #~ msgid "Apply the equalizer filter twice. The effect will be sharper."
 #~ msgstr "Bruk tonekontrollfiltret to ganger. Effekten vil bli skarpere."
@@ -28682,10 +28663,6 @@ msgstr "Mediabehandlerliste"
 #~ msgstr "Standard grensesnitt: "
 
 #, fuzzy
-#~ msgid "EsounD audio output"
-#~ msgstr "Lydeksport volum"
-
-#, fuzzy
 #~ msgid "Esound server"
 #~ msgstr "Ingen tjener"
 
@@ -28710,10 +28687,6 @@ msgstr "Mediabehandlerliste"
 #~ msgstr "velg en utstrøm"
 
 #, fuzzy
-#~ msgid "Minimal View..."
-#~ msgstr "Grensesnitt"
-
-#, fuzzy
 #~ msgid "RRD output file"
 #~ msgstr "Neste fil"
 
@@ -28732,10 +28705,6 @@ msgstr "Mediabehandlerliste"
 #, fuzzy
 #~ msgid "Sphere"
 #~ msgstr "Valgte"
-
-#, fuzzy
-#~ msgid "MusicBrainz meta data"
-#~ msgstr "Varighet"
 
 #, fuzzy
 #~ msgid ""
@@ -29761,10 +29730,6 @@ msgstr "Mediabehandlerliste"
 #~ msgid "Indicate here the address of the VideoLAN Channel Server."
 #~ msgstr "Her skriver du VideoLAN Channel Server-adressen."
 
-#, fuzzy
-#~ msgid "channel server port"
-#~ msgstr "Kanaltjener:"
-
 #~ msgid "Indicate here the port on which the VideoLAN Channel Server runs."
 #~ msgstr "Her skriver du porten der VideoLAN Channel Server kjører."
 
@@ -29904,18 +29869,6 @@ msgstr "Mediabehandlerliste"
 #~ msgid ""
 #~ "Allow you to specify a SOCKS server to use. It must be of the form "
 #~ "address:port . It will be used for all TCP connections"
-#~ msgstr "Du kan fastsette lydinnkoding her"
-
-#, fuzzy
-#~ msgid ""
-#~ "Allows you to modify the user name that will be used for the connection "
-#~ "to the SOCKS server."
-#~ msgstr "Du kan fastsette lydinnkoding her"
-
-#, fuzzy
-#~ msgid ""
-#~ "Allows you to modify the password that will be used for the connection to "
-#~ "the SOCKS server."
 #~ msgstr "Du kan fastsette lydinnkoding her"
 
 #, fuzzy
@@ -30340,6 +30293,70 @@ msgstr "Mediabehandlerliste"
 #~ "Dette er den lokale visningsporten som X11 tegner til, for eksempel :0.1"
 
 #, fuzzy
+#~ msgid "Show Details"
+#~ msgstr "Kodekdetaljer"
+
+#, fuzzy
+#~ msgid "Death metal"
+#~ msgstr "Dato metadata"
+
+#, fuzzy
+#~ msgid "Detailed View"
+#~ msgstr "Media visning"
+
+#, fuzzy
+#~ msgid "List View"
+#~ msgstr "Media visning"
+
+#, fuzzy
+#~ msgid "This is the default port used for UDP streams. Default is 1234."
+#~ msgstr "Dette er standard Lyd CD-enhet som brukes."
+
+#, fuzzy
+#~ msgid "Color of the video input."
+#~ msgstr "Klon video filter"
+
+#, fuzzy
+#~ msgid "UNIX OSS audio output"
+#~ msgstr "Stereo lyd ut modus"
+
+#, fuzzy
+#~ msgid "Unlock function"
+#~ msgstr "Klokkesynkronisering"
+
+#, fuzzy
+#~ msgid "Rewind"
+#~ msgstr "Media spol bakover"
+
+#, fuzzy
+#~ msgid "EsounD audio output"
+#~ msgstr "Stereo lyd ut modus"
+
+#, fuzzy
+#~ msgid "Minimal View..."
+#~ msgstr "Media visning"
+
+#, fuzzy
+#~ msgid "MusicBrainz meta data"
+#~ msgstr "Forfatter metadata"
+
+#, fuzzy
+#~ msgid "channel server port"
+#~ msgstr "HTTP-tjenerport"
+
+#, fuzzy
+#~ msgid ""
+#~ "Allows you to modify the user name that will be used for the connection "
+#~ "to the SOCKS server."
+#~ msgstr "Passord som skal brukes for SOCKS proxy tilkoblingen."
+
+#, fuzzy
+#~ msgid ""
+#~ "Allows you to modify the password that will be used for the connection to "
+#~ "the SOCKS server."
+#~ msgstr "Passord som skal brukes for SOCKS proxy tilkoblingen."
+
+#, fuzzy
 #~ msgid "Subtitles/OSD"
 #~ msgstr "Undertekster / OSD"
 
@@ -30393,7 +30410,7 @@ msgstr "Mediabehandlerliste"
 
 #, fuzzy
 #~ msgid "Add to Media Library"
-#~ msgstr "Mediabibliotek"
+#~ msgstr "Last Mediabilbiotek"
 
 #, fuzzy
 #~ msgid "Advanced Open..."
@@ -30421,7 +30438,7 @@ msgstr "Mediabehandlerliste"
 
 #, fuzzy
 #~ msgid "Default audio volume"
-#~ msgstr "Standard bakgrunnsfarge"
+#~ msgstr "Husk lydnivået"
 
 #, fuzzy
 #~ msgid "Audio output frequency (Hz)"
@@ -30441,7 +30458,7 @@ msgstr "Mediabehandlerliste"
 
 #, fuzzy
 #~ msgid "Subtitles track ID"
-#~ msgstr "Underteksspor"
+#~ msgstr "Undertekstspor-ID"
 
 #, fuzzy
 #~ msgid "Memory copy module"
@@ -30819,7 +30836,7 @@ msgstr "Mediabehandlerliste"
 
 #, fuzzy
 #~ msgid "Clear Menu"
-#~ msgstr "Tøm"
+#~ msgstr "Media meny"
 
 #, fuzzy
 #~ msgid "Video Filters..."
@@ -30883,7 +30900,7 @@ msgstr "Mediabehandlerliste"
 
 #, fuzzy
 #~ msgid "Media Browser"
-#~ msgstr "Media: %s"
+#~ msgstr "Media forover"
 
 #, fuzzy
 #~ msgid "No"
@@ -30899,7 +30916,7 @@ msgstr "Mediabehandlerliste"
 
 #, fuzzy
 #~ msgid "Seek Time"
-#~ msgstr "Starttid"
+#~ msgstr "Media tid"
 
 #, fuzzy
 #~ msgid "Graphical Equalizer"
@@ -30991,13 +31008,13 @@ msgstr "Mediabehandlerliste"
 
 #, fuzzy
 #~ msgid "Audio output saved volume"
-#~ msgstr "Lydeksportmodul"
+#~ msgstr "Lyd ut volumsteg"
 
 #, fuzzy
 #~ msgid ""
 #~ "Hide mouse cursor and fullscreen controller after n milliseconds, default "
 #~ "is 3000 ms (3 sec.)"
-#~ msgstr "Skjul musepeker og fullskjermkontroll etter x millisekunder"
+#~ msgstr "Skjul musepeker og fullskjermkontroll etter n millisekunder"
 
 #, fuzzy
 #~ msgid "Video output filter module"
@@ -31217,7 +31234,7 @@ msgstr "Mediabehandlerliste"
 
 #, fuzzy
 #~ msgid "About the video filters"
-#~ msgstr "Logo"
+#~ msgstr "Klon video filter"
 
 #, fuzzy
 #~ msgid "Controller..."
@@ -31478,7 +31495,7 @@ msgstr "Mediabehandlerliste"
 
 #, fuzzy
 #~ msgid "Default port (server mode)"
-#~ msgstr "Standard kringkasting"
+#~ msgstr "VoD-tjener modul"
 
 #, fuzzy
 #~ msgid "Embed video in interface"
@@ -31586,7 +31603,7 @@ msgstr "Mediabehandlerliste"
 
 #, fuzzy
 #~ msgid "CDDB server timeout"
-#~ msgstr "CDDB-tjener"
+#~ msgstr "VoD-tjener modul"
 
 #, fuzzy
 #~ msgid "Max level"
@@ -31610,7 +31627,7 @@ msgstr "Mediabehandlerliste"
 
 #, fuzzy
 #~ msgid "Deinterlace mode: %s"
-#~ msgstr "Brukerflatemodul"
+#~ msgstr "Fjern linjesprang/linjesamlefletting"
 
 #, fuzzy
 #~ msgid "Unknown command!"
@@ -32105,7 +32122,7 @@ msgstr "Mediabehandlerliste"
 
 #, fuzzy
 #~ msgid "aRts audio output"
-#~ msgstr "videoeksport i gråtoner"
+#~ msgstr "Stereo lyd ut modus"
 
 #, fuzzy
 #~ msgid "Cinepak video decoder"
@@ -32249,7 +32266,7 @@ msgstr "Mediabehandlerliste"
 
 #, fuzzy
 #~ msgid "Seam Carving video filter"
-#~ msgstr "Logo"
+#~ msgstr "Lerret video filter"
 
 #, fuzzy
 #~ msgid "Seam Carving"
@@ -32425,7 +32442,7 @@ msgstr "Mediabehandlerliste"
 
 #, fuzzy
 #~ msgid "Disc type"
-#~ msgstr "Disco"
+#~ msgstr "Enhetstype"
 
 #, fuzzy
 #~ msgid "RTSP"
@@ -32995,7 +33012,7 @@ msgstr "Mediabehandlerliste"
 
 #, fuzzy
 #~ msgid "CD-Text Title"
-#~ msgstr "Neste tittel"
+#~ msgstr "Tekstfil"
 
 #, fuzzy
 #~ msgid "ISO-9660 Application ID"
@@ -33033,7 +33050,7 @@ msgstr "Mediabehandlerliste"
 
 #, fuzzy
 #~ msgid "Preferred codecs list"
-#~ msgstr "Innstillinger"
+#~ msgstr "Ønsket videooppløsning"
 
 #, fuzzy
 #~ msgid "Demux number"
@@ -33716,7 +33733,7 @@ msgstr "Mediabehandlerliste"
 
 #, fuzzy
 #~ msgid "HTTP interface bind port"
-#~ msgstr "HTTP-tunnelport"
+#~ msgstr "HTTP-tjenerport"
 
 #, fuzzy
 #~ msgid "HTTP interface bind address"
@@ -33925,7 +33942,7 @@ msgstr "Mediabehandlerliste"
 
 #, fuzzy
 #~ msgid "Preferred audio output channels mode"
-#~ msgstr "Foretrukket lydspråk:"
+#~ msgstr "Stereo lyd ut modus"
 
 #, fuzzy
 #~ msgid ""
