@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the VLC package.
 #
 # Translators:
-# Marian Hikanik <mhikanik@users.sourceforge.net>, 2012-2013
+# Marian Hikanik <mhikanik@users.sourceforge.net>, 2012-2014
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-12-07 17:17+0100\n"
-"PO-Revision-Date: 2013-10-27 13:16+0000\n"
+"PO-Revision-Date: 2014-01-09 11:00+0000\n"
 "Last-Translator: mhikanik <mhikanik@users.sourceforge.net>\n"
 "Language-Team: Slovak (http://www.transifex.com/projects/p/vlc-trans/"
 "language/sk/)\n"
@@ -176,8 +176,8 @@ msgstr "Titulky / OSD"
 msgid ""
 "Settings related to On-Screen-Display, subtitles and \"overlay subpictures\""
 msgstr ""
-"Rôzne nastavenia, ktoré sa vzťahujú k OSD ovládaniu, titulkom alebo k  "
-"\"obrázkom používaným pri prekrývaní \""
+"Rôzne nastavenia vzťahujúce sa k OSD ovládaniu, titulkom a k  \"obrázkom "
+"používaným pri prekrývaní\""
 
 #: include/vlc_config_cat.h:93
 msgid "Input / Codecs"
@@ -196,9 +196,9 @@ msgid ""
 "Settings related to the various access methods. Common settings you may want "
 "to alter are HTTP proxy or caching settings."
 msgstr ""
-"Toto sú nastavenia, ktoré sa nejakým spôsobom vzťahujú k rôznym metódam "
-"prístupu. K nastaveniam, ktoré treba častokrát zmeniť patria najmä "
-"nastavenia HTTP proxy alebo nastavenia ukladania do vyrovnávacej pamäti."
+"Toto sú nastavenia, ktoré sa vzťahujú k rôznym metódam prístupu. K "
+"nastaveniam, ktoré treba častokrát zmeniť patria nastavenia HTTP proxy alebo "
+"nastavenia ukladania do vyrovnávacej pamäti."
 
 #: include/vlc_config_cat.h:103
 msgid "Stream filters"
@@ -246,8 +246,7 @@ msgstr "Nastavenia pre titulky, teletext a dekodéry či kodéry CC. "
 
 #: include/vlc_config_cat.h:120
 msgid "General input settings. Use with care..."
-msgstr ""
-"Nastavenia všeobecného vstupu. Týmto nastaveniam venujte zvýšenú pozornosť..."
+msgstr "Všeobecné nastavenia vstupu. Venujte im zvýšenú pozornosť..."
 
 #: include/vlc_config_cat.h:123 src/libvlc-module.c:1897
 #: modules/access/avio.h:56
@@ -365,8 +364,9 @@ msgid ""
 "Settings related to playlist behaviour (e.g. playback mode) and to modules "
 "that automatically add items to the playlist (\"service discovery\" modules)."
 msgstr ""
-"Nastavenia vplývajúce na správanie sa playlistu (napr. v playback-režime) a "
-"modulov, ktoré dokážu automaticky pridávať do playlistu nové položky."
+"Nastavenia vplývajúce na správanie sa playlistu (napr. v režime prehrávania) "
+"a modulov, ktoré automaticky pridávajú do playlistu nové položky (zisťovacie "
+"moduly)."
 
 #: include/vlc_config_cat.h:174
 msgid "General playlist behaviour"
@@ -391,8 +391,7 @@ msgstr "Pokročilé"
 
 #: include/vlc_config_cat.h:181
 msgid "Advanced settings. Use with care..."
-msgstr ""
-"Pokročilé nastavenia. Zmene týchto nastavení venujte zvýšenú pozornosť..."
+msgstr "Pokročilé nastavenia. Ich zmene venujte zvýšenú pozornosť..."
 
 #: include/vlc_config_cat.h:183
 msgid "Advanced settings"
@@ -406,7 +405,7 @@ msgstr "Sieť"
 
 #: include/vlc_config_cat.h:189
 msgid "These modules provide network functions to all other parts of VLC."
-msgstr "Tieto moduly zabezpečujú v programe VLC fungovanie siete."
+msgstr "Tieto moduly zabezpečujú fungovanie siete pre ostatné časti VLC."
 
 #: include/vlc_config_cat.h:196
 msgid "These are general settings for video/audio/subtitle encoding modules."
@@ -760,7 +759,7 @@ msgstr "reťazec / príkaz"
 
 #: src/config/help.c:127
 msgid "To get exhaustive help, use '-H'."
-msgstr "Pre získanie úplného pomocníka použite príkaz '-H'."
+msgstr "Na získanie úplného pomocníka použite príkaz '-H'."
 
 #: src/config/help.c:131
 #, c-format
@@ -835,11 +834,11 @@ msgstr ""
 
 #: src/config/help.c:514
 msgid " (default enabled)"
-msgstr "(v predvolenom nastavení: zapnuté)"
+msgstr "(predvolene: zapnuté)"
 
 #: src/config/help.c:515
 msgid " (default disabled)"
-msgstr "(v predvolenom nastavení: vypnuté)"
+msgstr "(predvolene: vypnuté)"
 
 #: src/config/help.c:680 src/config/help.c:683 src/config/help.c:690
 #: src/config/help.c:692
@@ -849,8 +848,8 @@ msgstr "Poznámka:"
 #: src/config/help.c:681 src/config/help.c:684
 msgid "add --advanced to your command line to see advanced options."
 msgstr ""
-"Do príkazového riadka zadajte príkaz add --advanced a zobrazia sa pokročilé "
-"nastavenia."
+"Na zobrazenie pokročilých nastavení pridajte do príkazového riadka parameter "
+"--advanced."
 
 #: src/config/help.c:694
 #, c-format
@@ -929,19 +928,19 @@ msgstr "Dopredu v prehliadači"
 
 #: src/config/keys.c:62
 msgid "Browser Home"
-msgstr "Prehliadač - Domov"
+msgstr "Na domovskú stránku v prehliadači"
 
 #: src/config/keys.c:63
 msgid "Browser Refresh"
-msgstr "Prehliadač - obnoviť"
+msgstr "Obnovenie v prehliadači"
 
 #: src/config/keys.c:64
 msgid "Browser Search"
-msgstr "Prehliadač - Vyhľadať"
+msgstr "Vyhľadanie v prehliadači"
 
 #: src/config/keys.c:65
 msgid "Browser Stop"
-msgstr "Prehliadač - zastaviť"
+msgstr "Zastavenie v prehliadači"
 
 #: src/config/keys.c:66 modules/gui/macosx/playlist.m:518
 #: modules/gui/qt4/dialogs/bookmarks.cpp:50
@@ -1076,11 +1075,11 @@ msgstr "Výber média"
 
 #: src/config/keys.c:99
 msgid "Media Shuffle"
-msgstr "Náhodné médium"
+msgstr "Médium - náhodne"
 
 #: src/config/keys.c:100
 msgid "Media Stop"
-msgstr "Zastaviť médium"
+msgstr "Médium - zastaviť"
 
 #: src/config/keys.c:101
 msgid "Media Subtitle"
@@ -1124,11 +1123,11 @@ msgstr "O stránku nahor (Page Up)"
 
 #: src/config/keys.c:112 modules/demux/mp4/id3genres.h:76
 msgid "Space"
-msgstr "Space"
+msgstr "Medzerník (Space)"
 
 #: src/config/keys.c:113
 msgid "Tab"
-msgstr "Tab"
+msgstr "Tabulátor"
 
 #: src/config/keys.c:114 src/libvlc-module.c:187
 #: modules/gui/qt4/components/preferences_widgets.cpp:1425
@@ -1199,20 +1198,20 @@ msgstr "dekodér"
 #: modules/codec/avcodec/encoder.c:822 modules/stream_out/es.c:362
 #: modules/stream_out/es.c:377
 msgid "Streaming / Transcoding failed"
-msgstr "Streamovanie a prekódovanie sa nepodarilo"
+msgstr "Streamovanie / prekódovanie sa nepodarilo"
 
 #: src/input/decoder.c:277
 #, c-format
 msgid "VLC could not open the %s module."
-msgstr "Program VLC nedokáže otvoriť dekódovací modul %s."
+msgstr "Program VLC nedokáže otvoriť modul %s."
 
 #: src/input/decoder.c:468
 msgid "VLC could not open the decoder module."
-msgstr "Program VLC nemohol otvoriť dekódovací modul."
+msgstr "Program VLC nemohol otvoriť modul dekodéra."
 
 #: src/input/decoder.c:720
 msgid "No suitable decoder module"
-msgstr "Nie je dostupný žiaden vhodný dekódovací modul"
+msgstr "Nie je dostupný žiadny vhodný modul dekodéra"
 
 #: src/input/decoder.c:721
 #, c-format
@@ -18576,9 +18575,8 @@ msgid "Lua HTTP"
 msgstr "Lua HTTP"
 
 #: modules/gui/macosx/simple_prefs.m:374
-#, fuzzy
 msgid "Control iTunes during playback"
-msgstr "Pozastaviť iTunes počas prehrávania VLC"
+msgstr "Ovládanie iTunes počas prehrávania"
 
 #: modules/gui/macosx/simple_prefs.m:377
 msgid "Default Encoding"
@@ -29650,9 +29648,6 @@ msgstr "AAAA; "
 msgid "Media Manager List"
 msgstr "Zoznam správcov médií"
 
-#~ msgid "Show Details"
-#~ msgstr "Zobraziť podrobnosti"
-
 #~ msgid ""
 #~ "SAP is a way to publically announce streams that are being sent using "
 #~ "multicast UDP or RTP."
@@ -31621,6 +31616,10 @@ msgstr "Zoznam správcov médií"
 #~ msgstr "Vstup pre zvukové záznamy ALSA"
 
 #, fuzzy
+#~ msgid "Show Details"
+#~ msgstr "Podrobnosti o kodeku"
+
+#, fuzzy
 #~ msgid "Add a subtitle file"
 #~ msgstr "Použiť súbor s ti&tulkami"
 
@@ -33373,7 +33372,7 @@ msgstr "Zoznam správcov médií"
 
 #, fuzzy
 #~ msgid "VLC could not open the video output module."
-#~ msgstr "Program VLC nemohol otvoriť dekódovací modul."
+#~ msgstr "Program VLC nemohol otvoriť modul dekodéra."
 
 #, fuzzy
 #~ msgid "Deinterlace method to use for local playback."
