@@ -4,7 +4,8 @@
 #
 # Translators:
 # Marcin Szymański <cysioland@gmail.com>, 2013
-# Gootector <gootector@o2.pl>, 2013
+# Gootector <gootector@o2.pl>, 2013-2014
+# Marcin Szymański <cysioland@gmail.com>, 2013
 # Michał Trzebiatowski <hippie_1968@hotmail.com>, 2007-2013
 # robaks, 2013
 msgid ""
@@ -12,8 +13,8 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-12-07 17:17+0100\n"
-"PO-Revision-Date: 2013-12-08 13:51+0000\n"
-"Last-Translator: M T\n"
+"PO-Revision-Date: 2014-01-17 13:38+0000\n"
+"Last-Translator: Gootector <gootector@o2.pl>\n"
 "Language-Team: Polish (http://www.transifex.com/projects/p/vlc-trans/"
 "language/pl/)\n"
 "Language: pl\n"
@@ -43,7 +44,7 @@ msgstr "Preferencje VLC"
 
 #: include/vlc_config_cat.h:35
 msgid "Select \"Advanced Options\" to see all options."
-msgstr "Wybierz \"Zaawansowane opcje\", żeby wyświetlić wszystkie opcje."
+msgstr "Wybierz \"Opcje zaawansowane\", żeby wyświetlić wszystkie opcje."
 
 #: include/vlc_config_cat.h:38 modules/gui/macosx/simple_prefs.m:269
 #: modules/gui/qt4/components/simple_preferences.cpp:220
@@ -388,11 +389,11 @@ msgstr "Zaawansowane"
 
 #: include/vlc_config_cat.h:181
 msgid "Advanced settings. Use with care..."
-msgstr "Zaawansowane ustawienia. Używaj ostrożnie..."
+msgstr "Ustawienia zaawansowane. Używaj ostrożnie..."
 
 #: include/vlc_config_cat.h:183
 msgid "Advanced settings"
-msgstr "Zaawansowane ustawienia"
+msgstr "Ustawienia zaawansowane"
 
 #: include/vlc_config_cat.h:188 modules/gui/macosx/open.m:133
 #: modules/gui/macosx/open.m:597 modules/gui/macosx/simple_prefs.m:340
@@ -462,11 +463,11 @@ msgstr "Wybierz folder"
 
 #: include/vlc_intf_strings.h:55
 msgid "Media &Information"
-msgstr "&Informacje Pliku"
+msgstr "&Informacje o pliku"
 
 #: include/vlc_intf_strings.h:56
 msgid "&Codec Information"
-msgstr "Informacje &Kodeku"
+msgstr "Informacje o &kodeku"
 
 #: include/vlc_intf_strings.h:57
 msgid "&Messages"
@@ -610,11 +611,11 @@ msgid ""
 "can <b>promote</b> VLC media player.</p></body></html>"
 msgstr ""
 "<html><head><meta http-equiv=\"Content-Type\" content=\"text/html; "
-"charset=utf-8\" /></head><body><h2>Zapraszamy do pomocy VLC media playera</"
-"h2><h3>Dokumentacja</h3><p>Możesz znaleźć dokumentację dotyczącą VLC na "
-"witrynie <a href=\"http://wiki.videolan.org\">wiki</a> strony internetowej "
-"VideoLAN.</p><p>Jeśli jesteś nowicjuszem VLC media playera, proszę "
-"przeczytaj<br><a href=\"http://wiki.videolan.org/Documentation:"
+"charset=utf-8\" /></head><body><h2>Zapraszamy do pomocy przy VLC media "
+"playerze</h2><h3>Dokumentacja</h3><p>Możesz znaleźć dokumentację dotyczącą "
+"VLC na witrynie <a href=\"http://wiki.videolan.org\">wiki</a> strony "
+"internetowej VideoLAN.</p><p>Jeśli jesteś nowicjuszem VLC media playera, "
+"proszę przeczytaj<br><a href=\"http://wiki.videolan.org/Documentation:"
 "VLC_for_dummies\"><em>Wprowadzenie do VLC media playera</em></a>.</"
 "p><p>Informacje o tym, jak używać odtwarzacza znajdziesz w dokumencie<br>"
 "\"<a href=\"http://wiki.videolan.org/Documentation:Play_HowTo\"><em>Jak "
@@ -631,8 +632,8 @@ msgstr ""
 "pomoc na <a href=\"http://forum.videolan.org\">forach</a>, <a href=\"http://"
 "www.videolan.org/vlc/lists.html\">listach mailingowych</a> lub naszym kanale "
 "IRC (<em>#videolan</em></a> na irc.freenode.net).</p><h3>Przyczyń się do "
-"projektu</h3><p>Możesz pomóc projekcie VideoLAN oferując trochę swojego "
-"czasu, aby pomóc społeczności, zaprojektować skóry, przetłumaczyć "
+"projektu</h3><p>Możesz pomóc przy projekcie VideoLAN, oferując trochę "
+"swojego czasu, aby pomóc społeczności, zaprojektować skóry, przetłumaczyć "
 "dokumentację albo przetestować i kodować program. Możesz również podać "
 "fundusz i materiały, które nam pomogą. I oczywiście możesz <b>promować</b> "
 "VLC media playera.</p></body></html>"
@@ -822,7 +823,7 @@ msgstr ""
 "  ekran://\t\t\tZrzut ekranu\n"
 "  dvd://[urządzenie]\turządzenie DVD\n"
 "  vcd://[urządzenie]\t\turządzenie VCD\n"
-"  cdda://[urządzenie]\turządzenie Audio CD\n"
+"  cdda://[urządzenie]\turządzenie CD Audio\n"
 "  udp://[[<adres źródłowy>]@[<adres związania>][:<port związania>]]\n"
 "\t\t\tStrumień UDP wysyłany przez serwer strumieniowy\n"
 "  vlc://pauza:<sekundy>\tWstrzymuje listę odtwarzania przez pewien czas\n"
@@ -852,13 +853,13 @@ msgid "%u module was not displayed because it only has advanced options.\n"
 msgid_plural ""
 "%u modules were not displayed because they only have advanced options.\n"
 msgstr[0] ""
-"%u moduł nie został wyświetlony, ponieważ zawiera tylko zaawansowane opcje.\n"
+"%u moduł nie został wyświetlony, ponieważ zawiera tylko opcje zaawansowane.\n"
 msgstr[1] ""
-"%u moduły nie zostały wyświetlone, ponieważ zawierają tylko zaawansowane "
-"opcje.\n"
+"%u moduły nie zostały wyświetlone, ponieważ zawierają tylko opcje "
+"zaawansowane.\n"
 msgstr[2] ""
-"%u modułów nie zostało wyświetlonych, ponieważ zawierają tylko zaawansowane "
-"opcje.\n"
+"%u modułów nie zostało wyświetlonych, ponieważ zawierają tylko opcje "
+"zaawansowane.\n"
 
 #: src/config/help.c:704 src/config/help.c:708
 msgid ""
@@ -1653,7 +1654,7 @@ msgstr ""
 
 #: src/libvlc-module.c:103
 msgid "Show advanced options"
-msgstr "Pokaż zaawansowane opcje"
+msgstr "Pokaż opcje zaawansowane"
 
 #: src/libvlc-module.c:105
 msgid ""
@@ -2446,7 +2447,7 @@ msgid ""
 "order to keep proportions."
 msgstr ""
 "To wymusza stosunek rozmiaru monitora. Większość monitorów ma kwadratowe "
-"piksele (1:1). Jeśli masz ekran 16:9 to możesz zmienić to na 4:3, żeby "
+"piksele (1:1). Jeśli masz ekran 16:9, to możesz zmienić to na 4:3, żeby "
 "zachować proporcje."
 
 #: src/libvlc-module.c:468 modules/gui/macosx/simple_prefs.m:401
@@ -3070,7 +3071,7 @@ msgstr "Urządzenie VCD"
 
 #: src/libvlc-module.c:750
 msgid "Audio CD device"
-msgstr "Urządzenie Audio CD"
+msgstr "Urządzenie CD Audio"
 
 #: src/libvlc-module.c:754
 msgid ""
@@ -3093,7 +3094,7 @@ msgid ""
 "This is the default Audio CD drive (or file) to use. Don't forget the colon "
 "after the drive letter (e.g. D:)"
 msgstr ""
-"To jest domyślnie używany napęd Audio CD (lub plik). Nie zapomnij o "
+"To jest domyślnie używany napęd CD Audio (lub plik). Nie zapomnij o "
 "dwukropku po literze napędu (np. D:)"
 
 #: src/libvlc-module.c:767
@@ -3106,7 +3107,7 @@ msgstr "Domyślnie używane urządzenie VCD."
 
 #: src/libvlc-module.c:771
 msgid "This is the default Audio CD device to use."
-msgstr "Domyślnie używane urządzenie Audio CD."
+msgstr "Domyślnie używane urządzenie CD Audio."
 
 #: src/libvlc-module.c:788
 msgid "TCP connection timeout"
@@ -5859,7 +5860,7 @@ msgstr "Błąd Blu-ray"
 #: modules/access/cdda.c:62 modules/gui/macosx/open.m:162
 #: modules/gui/qt4/ui/open_disk.h:300
 msgid "Audio CD"
-msgstr "Audio CD"
+msgstr "CD Audio"
 
 #: modules/access/cdda.c:63
 msgid "Audio CD input"
@@ -5888,7 +5889,7 @@ msgstr "Port urzywanego serwera CDDB"
 #: modules/access/cdda.c:491
 #, c-format
 msgid "Audio CD - Track %02i"
-msgstr "Audio CD - Ścieżka %02i"
+msgstr "CD Audio - Ścieżka %02i"
 
 #: modules/access/dc1394.c:51
 msgid "DC1394"
@@ -10456,7 +10457,7 @@ msgid ""
 msgstr ""
 "libavcodec może rozpoznawać błędy.\n"
 "Jednakże z błędnym koderem (np. ISO MPEG-4 od M$) może to wywołać dużo "
-"błędów\n"
+"błędów.\n"
 "Poprawne wartości od 0 do 4 (0 wyłącza jakiekolwiek rozpoznawanie błędów)."
 
 #: modules/codec/avcodec/avcodec.h:79
@@ -11950,7 +11951,7 @@ msgid ""
 "method. If not set, this parameter. is computed from other sources such as "
 "bitrate, profile, level, etc."
 msgstr ""
-"Określa maksymalny bitrate w Kpbs (1000bitów /s) dla funkcji Rate Control "
+"Określa maksymalny bitrate w Kpbs (1000 bitów/s) dla funkcji Rate Control "
 "metodą VBR. Jeśli nie jest ustawiony, parametr zostanie obliczany z innych "
 "źródeł, takich jak bitrate, profil, poziom itd."
 
@@ -12646,7 +12647,7 @@ msgid ""
 "but you can choose to disable all formatting."
 msgstr ""
 "Niektóre formaty napisów pozwalają na formatowanie tekstu. VLC częściowo to "
-"popiera, ale możesz też wyłączyć wszystkie formatowania."
+"realizuje, ale możesz też wyłączyć wszystkie formatowania."
 
 #: modules/codec/subsdec.c:182
 msgid "Text subtitle decoder"
@@ -12926,14 +12927,14 @@ msgstr ""
 "Wartość ta kontroluje wstawianie dodatkowych klatek I do zmiany sceny. Małe "
 "wartości powodują, że kodek często musi wymuszać klatkę I, jeśli przekroczy "
 "wartość keyint. Dobre wartości mogą wyszukać lepszą lokalizację dla klatki "
-"I. Duże wartości używają więcej niż koniecznych klatek I, ale powodują "
+"I. Duże wartości używają więcej klatek I niż to konieczne, ale powodują "
 "utracenie strumienia. -1 wyłącza wykrywanie zmian scen, więc klatki I "
 "wstawiane są tylko co każde inne klatki keyint, co prawdopodobnie prowadzi "
 "do brzydkich artefaktów w kodowaniu. Wartości w zakresie od 1 do 100."
 
 #: modules/codec/x264.c:102
 msgid "B-frames between I and P"
-msgstr "Klatki B między I i P."
+msgstr "Klatki B między I i P"
 
 #: modules/codec/x264.c:103
 msgid "Number of consecutive B-frames between I and P-frames. Range 1 to 16."
@@ -12994,7 +12995,7 @@ msgid ""
 "TV-range is usually used colorrange, defining this to true will enable "
 "libx264 to use full colorrange on encoding"
 msgstr ""
-"Zakres TV zwykle używa zakresu kolorów, ustawienie true włączy libx264 aby "
+"Zakres TV zwykle używa zakresu kolorów, ustawienie true włączy libx264, aby "
 "używał przy kodowaniu pełnego zakresu kolorów"
 
 #: modules/codec/x264.c:129
@@ -18359,7 +18360,7 @@ msgstr "Lua HTTP"
 
 #: modules/gui/macosx/simple_prefs.m:374
 msgid "Control iTunes during playback"
-msgstr "Steruj odtwarzanie w iTunes podczas odtwarzania w VLC"
+msgstr "Steruj odtwarzaniem w iTunes podczas odtwarzania w VLC"
 
 #: modules/gui/macosx/simple_prefs.m:377
 msgid "Default Encoding"
@@ -19865,7 +19866,7 @@ msgstr "Wyłącz tryb pełnoekranowy"
 
 #: modules/gui/qt4/components/controller.hpp:128
 msgid "Show extended settings"
-msgstr "Pokaż zaawansowane opcje"
+msgstr "Pokaż opcje zaawansowane"
 
 #: modules/gui/qt4/components/controller.hpp:128
 msgid "Toggle playlist"
@@ -19877,7 +19878,7 @@ msgstr "Wykonaj zrzut ekranu"
 
 #: modules/gui/qt4/components/controller.hpp:130
 msgid "Loop from point A to point B continuously."
-msgstr "Ciągłe powtarzanie z punktu A do punktu B."
+msgstr "Ciągłe powtarzanie z punktu A do punktu B"
 
 #: modules/gui/qt4/components/controller.hpp:130
 msgid "Frame by frame"
@@ -20345,7 +20346,7 @@ msgstr " klatek na sekundę"
 
 #: modules/gui/qt4/components/open_panels.cpp:1309
 msgid "Advanced Options"
-msgstr "Zaawansowane opcje"
+msgstr "Opcje zaawansowane"
 
 #: modules/gui/qt4/components/playlist/playlist.cpp:76
 msgid "Double click to get media information"
@@ -20844,15 +20845,15 @@ msgid ""
 "for the media player to access the Internet automatically.</p>\n"
 msgstr ""
 "<p>W celu ochrony Twojej prywatności, <i>VLC media player</i> <b>nie</b> "
-"pobiera danych osobistych lub przekazuje je, nawet w anonimowej formie, "
-"każdemu innemu.</p>\n"
-"<p>Jednakże <i>VLC</i> jest w stanie automatycznie pobrać informacje o "
-"mediach ze swojej listy odtwarzania z innych usług internetowych. To zawiera "
-"okładki, nazwy utworów, informacje autorskie i inne metadane.</p>\n"
-"To może oznaczać identyfikację niektórych z Twoich plików multimedialnych w "
-"usługach innych firm. Dlatego deweloperzy <i>VLC</i> wymagają wyraźnej zgody "
-"użytkownika, aby odtwarzacz mógł automatycznie połączyć się z Internetem.</"
-"p>\n"
+"pobiera danych osobistych lub nie przekazuje ich do nikogo, nawet w "
+"anonimowej formie.</p>\n"
+"<p>Niemniej jednak <i>VLC</i> jest w stanie automatycznie pobrać informacje "
+"o mediach ze swojej listy odtwarzania z innych usług internetowych. Obejmuje "
+"to okładki, nazwy utworów, informacje autorskie i inne metadane.</p>\n"
+"Może to wiązać się z identyfikacją niektórych z Twoich plików "
+"multimedialnych w usługach innych firm. Dlatego deweloperzy <i>VLC</i> "
+"wymagają wyraźnej zgody użytkownika, aby odtwarzacz mógł automatycznie "
+"połączyć się z Internetem.</p>\n"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:91
 msgid "Network Access Policy"
@@ -21304,15 +21305,15 @@ msgstr "Suwak czasu"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:370
 msgid "Small Volume"
-msgstr "Nniska głośność"
+msgstr "Niska głośność"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:407
 msgid "DVD menus"
-msgstr "DVD menu"
+msgstr "Menu DVD"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:436
 msgid "Advanced Buttons"
-msgstr "Zaawansowane przyciski"
+msgstr "Przyciski zaawansowane"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:449
 msgid "Playback Buttons"
@@ -21721,14 +21722,14 @@ msgstr "&Wyczyść"
 
 #: modules/gui/qt4/qt4.cpp:72
 msgid "Show advanced preferences over simple ones"
-msgstr "Pokaż zaawansowane preferencje nad podstawowymi"
+msgstr "Pokaż preferencje zaawansowane nad podstawowymi"
 
 #: modules/gui/qt4/qt4.cpp:73
 msgid ""
 "Show advanced preferences and not simple preferences when opening the "
 "preferences dialog."
 msgstr ""
-"Pokazuj zaawansowane preferencje, zamiast podstawowych przy otwieraniu "
+"Pokazuj preferencje zaawansowane, zamiast podstawowych przy otwieraniu "
 "dialogu preferencji."
 
 #: modules/gui/qt4/qt4.cpp:77 modules/gui/skins2/src/skin_main.cpp:471
@@ -25687,7 +25688,7 @@ msgid ""
 "Default: Low."
 msgstr ""
 "Kontroluje to siłę filtra zaciemniania symulującego rozkład światła "
-"fosforowego telewizji CRT dla starego pola w podwójniku fosforu liczby "
+"fosforowego telewizji CRT dla starego pola w podwajaczu fosforu liczby "
 "klatek. Domyślnie: Niski."
 
 #: modules/video_filter/deinterlace/deinterlace.c:96
@@ -26189,11 +26190,11 @@ msgstr ""
 
 #: modules/video_filter/mosaic.c:93
 msgid "Total height of the mosaic, in pixels."
-msgstr "Całkowita wysokość mozaiki, w pikselach."
+msgstr "Całkowita wysokość mozaiki w pikselach."
 
 #: modules/video_filter/mosaic.c:95
 msgid "Total width of the mosaic, in pixels."
-msgstr "Całkowita szerokość mozaiki, w pikselach."
+msgstr "Całkowita szerokość mozaiki w pikselach."
 
 #: modules/video_filter/mosaic.c:97
 msgid "Top left corner X coordinate"
@@ -28113,11 +28114,11 @@ msgstr "Czcionka używana w menu"
 
 #: modules/visualization/projectm.cpp:63 modules/visualization/vsxu.cpp:56
 msgid "The width of the video window, in pixels."
-msgstr "Szerokość okna obrazu, w pikselach."
+msgstr "Szerokość okna obrazu w pikselach."
 
 #: modules/visualization/projectm.cpp:66 modules/visualization/vsxu.cpp:59
 msgid "The height of the video window, in pixels."
-msgstr "Wysokość okna obrazu, w pikselach."
+msgstr "Wysokość okna obrazu w pikselach."
 
 #: modules/visualization/projectm.cpp:68
 msgid "Mesh width"
@@ -28125,7 +28126,7 @@ msgstr "Szerokość siatki"
 
 #: modules/visualization/projectm.cpp:69
 msgid "The width of the mesh, in pixels."
-msgstr "Szerokość siatki, w pikselach."
+msgstr "Szerokość siatki w pikselach."
 
 #: modules/visualization/projectm.cpp:71
 msgid "Mesh height"
@@ -28133,7 +28134,7 @@ msgstr "Wysokość siatki"
 
 #: modules/visualization/projectm.cpp:72
 msgid "The height of the mesh, in pixels."
-msgstr "Wysokość siatki, w pikselach."
+msgstr "Wysokość siatki w pikselach."
 
 #: modules/visualization/projectm.cpp:74
 msgid "Texture size"
@@ -28141,7 +28142,7 @@ msgstr "Rozmiar tekstury"
 
 #: modules/visualization/projectm.cpp:75
 msgid "The size of the texture, in pixels."
-msgstr "Rozmiar tekstury, w pikselach."
+msgstr "Rozmiar tekstury w pikselach."
 
 #: modules/visualization/projectm.cpp:98
 msgid "projectM"
@@ -28165,11 +28166,11 @@ msgstr ""
 
 #: modules/visualization/visual/visual.c:53
 msgid "The width of the effects video window, in pixels."
-msgstr "Szerokość okna efektów obrazu, w pikselach"
+msgstr "Szerokość okna efektów obrazu w pikselach."
 
 #: modules/visualization/visual/visual.c:57
 msgid "The height of the effects video window, in pixels."
-msgstr "Wysokość okna efektów obrazu, w pikselach"
+msgstr "Wysokość okna efektów obrazu w pikselach."
 
 #: modules/visualization/visual/visual.c:59
 msgid "Show 80 bands instead of 20"
@@ -28597,7 +28598,7 @@ msgstr "Dostęp do zaawansowanych opcji, aby dostosować urządzenie"
 
 #: modules/gui/qt4/ui/open_capture.h:106
 msgid "Advanced options..."
-msgstr "Zaawansowane opcje..."
+msgstr "Opcje zaawansowane..."
 
 #: modules/gui/qt4/ui/open_disk.h:297
 msgid "Disc Selection"
@@ -28953,7 +28954,7 @@ msgstr "Użyj własną skórę"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:518
 msgid "This is VLC's default interface, with a native look and feel."
-msgstr "To jest domyślny interfejs VLC, z klasycznym wyglądem i uczuciem."
+msgstr "To jest domyślny interfejs VLC z klasycznym wyglądem i uczuciem."
 
 #: modules/gui/qt4/ui/sprefs_interface.h:520
 msgid "Use native style"
@@ -32084,7 +32085,7 @@ msgstr "Lista menedżera mediów"
 #~ msgstr ""
 #~ "libavcodec może rozpoznawać błędy.\n"
 #~ "Jednakże z błędnym koderem (np. ISO MPEG-4 od M$) może to wywołać dużo "
-#~ "błędów\n"
+#~ "błędów.\n"
 #~ "Poprawne wartości od 0 do 4 (0 wyłącza jakiekolwiek rozpoznawanie błędów)."
 
 #, fuzzy
@@ -32439,7 +32440,7 @@ msgstr "Lista menedżera mediów"
 
 #, fuzzy
 #~ msgid "Fetch Information"
-#~ msgstr "Informacje &Kodeku"
+#~ msgstr "Informacje o &kodeku"
 
 #, fuzzy
 #~ msgid "Sort"
@@ -32489,8 +32490,8 @@ msgstr "Lista menedżera mediów"
 #~ msgid ""
 #~ "%d module(s) were not displayed because they only have advanced options.\n"
 #~ msgstr ""
-#~ "%u moduł nie został wyświetlony, ponieważ zawiera tylko zaawansowane "
-#~ "opcje.\n"
+#~ "%u moduł nie został wyświetlony, ponieważ zawiera tylko opcje "
+#~ "zaawansowane.\n"
 
 #, fuzzy
 #~ msgid "Force mono audio"
@@ -33610,11 +33611,11 @@ msgstr "Lista menedżera mediów"
 
 #, fuzzy
 #~ msgid "Advanced options"
-#~ msgstr "Zaawansowane opcje"
+#~ msgstr "Opcje zaawansowane"
 
 #, fuzzy
 #~ msgid "Show all the advanced options in the dialogs."
-#~ msgstr "Pokaż zaawansowane opcje"
+#~ msgstr "Pokaż opcje zaawansowane"
 
 #, fuzzy
 #~ msgid "French TV"
@@ -34405,7 +34406,7 @@ msgstr "Lista menedżera mediów"
 
 #, fuzzy
 #~ msgid "This is the default port used for UDP streams. Default is 1234."
-#~ msgstr "Domyślnie używane urządzenie Audio CD."
+#~ msgstr "Domyślnie używane urządzenie CD Audio."
 
 #, fuzzy
 #~ msgid "IPv4 multicast output interface address"
@@ -35511,7 +35512,7 @@ msgstr "Lista menedżera mediów"
 
 #, fuzzy
 #~ msgid "Height of the snapshot image."
-#~ msgstr "Wysokość siatki, w pikselach."
+#~ msgstr "Wysokość siatki w pikselach."
 
 #, fuzzy
 #~ msgid ""
@@ -36351,7 +36352,7 @@ msgstr "Lista menedżera mediów"
 
 #, fuzzy
 #~ msgid "Other advanced settings"
-#~ msgstr "Zaawansowane ustawienia"
+#~ msgstr "Ustawienia zaawansowane"
 
 #, fuzzy
 #~ msgid "Media &Information..."
@@ -36363,7 +36364,7 @@ msgstr "Lista menedżera mediów"
 
 #, fuzzy
 #~ msgid "&Extended Settings..."
-#~ msgstr "Pokaż zaawansowane opcje"
+#~ msgstr "Pokaż opcje zaawansowane"
 
 #, fuzzy
 #~ msgid "&Bookmarks..."
