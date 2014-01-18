@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-12-07 17:17+0100\n"
-"PO-Revision-Date: 2013-11-30 08:06+0000\n"
+"PO-Revision-Date: 2013-12-27 14:48+0000\n"
 "Last-Translator: gorkaazk <gorkaazkarate@gmail.com>\n"
 "Language-Team: Basque (http://www.transifex.com/projects/p/vlc-trans/"
 "language/eu/)\n"
@@ -12133,7 +12133,7 @@ msgstr "Zarata-muga konstante moduan erabiltzeko zarata-muga"
 
 #: modules/codec/schroedinger.c:118
 msgid "Target bitrate in kbps when encoding in constant bitrate mode"
-msgstr ""
+msgstr "Xede bit-tasa, kb segundotan, bit tasa konstante batean kodeatzerakoan"
 
 #: modules/codec/schroedinger.c:121
 msgid "Maximum bitrate (kbps)"
@@ -12142,6 +12142,7 @@ msgstr "Gehienezko bit-tasa (kb/s)"
 #: modules/codec/schroedinger.c:122
 msgid "Maximum bitrate in kbps when encoding in constant bitrate mode"
 msgstr ""
+"Bit-tasa maximoa, kb segundoko, bit-tasa modu konstantean kodetzerakoan"
 
 #: modules/codec/schroedinger.c:125
 msgid "Minimum bitrate (kbps)"
@@ -12150,6 +12151,7 @@ msgstr "Gutxieneko bit-tasa (kb/s)"
 #: modules/codec/schroedinger.c:126
 msgid "Minimum bitrate in kbps when encoding in constant bitrate mode"
 msgstr ""
+"Bit-tasa minimoa, kb segundoko, bit-tasa modu konstantean kodetzerakoan"
 
 #: modules/codec/schroedinger.c:129
 msgid "GOP length"
@@ -12160,6 +12162,8 @@ msgid ""
 "Number of pictures between successive sequence headers i.e. length of the "
 "group of pictures"
 msgstr ""
+"Segidan dauden goi-buruen bitarteko irudi kopurua, hau da, irudi taldearen "
+"luzera"
 
 #: modules/codec/schroedinger.c:147
 msgid "No pre-filtering"
@@ -12167,7 +12171,7 @@ msgstr "Aurre-iragazkirik ez"
 
 #: modules/codec/schroedinger.c:149
 msgid "Gaussian Low Pass Filter"
-msgstr ""
+msgstr "Igarotze Txikiko Gaussen Iragazkia"
 
 #: modules/codec/schroedinger.c:150
 msgid "Add Noise"
@@ -12175,7 +12179,7 @@ msgstr "Gehitu zarata"
 
 #: modules/codec/schroedinger.c:151
 msgid "Gaussian Adaptive Low Pass Filter"
-msgstr ""
+msgstr "Igarotze Txikiko Gaussen Iragazki moldagarria"
 
 #: modules/codec/schroedinger.c:152
 msgid "Low Pass Filter"
@@ -12193,31 +12197,31 @@ msgstr ""
 
 #: modules/codec/schroedinger.c:183
 msgid "small - use small motion compensation blocks"
-msgstr ""
+msgstr "txikia - erabili mugimendu orekatze bloke txikiak"
 
 #: modules/codec/schroedinger.c:184
 msgid "medium - use medium motion compensation blocks"
-msgstr ""
+msgstr "ertaina - erabili mugimendu orekatze bloke ertainak"
 
 #: modules/codec/schroedinger.c:185
 msgid "large - use large motion compensation blocks"
-msgstr ""
+msgstr "handia - erabili mugimendu orekatze bloke handiak"
 
 #: modules/codec/schroedinger.c:190
 msgid "Overlap of motion compensation blocks"
-msgstr ""
+msgstr "Blokeen mugitze-orekatzearen gainjartzea"
 
 #: modules/codec/schroedinger.c:200
 msgid "none - Motion compensation blocks do not overlap"
-msgstr ""
+msgstr "ezer ez - Blokeen mugitze-orekatzea gainjartzerik gabe"
 
 #: modules/codec/schroedinger.c:201
 msgid "partial - Motion compensation blocks only partially overlap"
-msgstr ""
+msgstr "partziala - Zatikako blokeen mugitze-orekatze  gainjartzea"
 
 #: modules/codec/schroedinger.c:202
 msgid "full - Motion compensation blocks fully overlap"
-msgstr ""
+msgstr "osoa - Blokeen mugitze-orekatzearen gainjartze osoa"
 
 #: modules/codec/schroedinger.c:207
 msgid "Motion Vector precision"
@@ -12229,55 +12233,56 @@ msgstr "Mugimendu-bektorearen zehaztasuna pixeletan"
 
 #: modules/codec/schroedinger.c:261
 msgid "perceptual weighting method"
-msgstr ""
+msgstr "Pisatzeko  pertzepzio metodoa"
 
 #: modules/codec/schroedinger.c:272
 msgid "perceptual distance"
-msgstr ""
+msgstr "pertzepzio distantzia"
 
 #: modules/codec/schroedinger.c:273
 msgid "perceptual distance to calculate perceptual weight"
-msgstr ""
+msgstr "pertzepzio distantiza pertzepzio pisua kalkulatzeko"
 
 #: modules/codec/schroedinger.c:277
 msgid "Horizontal slices per frame"
-msgstr ""
+msgstr "Atal horizontalak fotograma bakoitzeko "
 
 #: modules/codec/schroedinger.c:278
 msgid "Number of horizontal slices per frame in low delay mode"
 msgstr ""
+"Atal horizontalen kopurua fotograma bakoitzeko atzerapen txikiko moduan"
 
 #: modules/codec/schroedinger.c:282
 msgid "Vertical slices per frame"
-msgstr ""
+msgstr "Atal bertikalak fotograma bakoitzeko"
 
 #: modules/codec/schroedinger.c:283
 msgid "Number of vertical slices per frame in low delay mode"
-msgstr ""
+msgstr "Atal bertikalen kopurua fotograma bakoitzeko atzerapen txikiko moduan"
 
 #: modules/codec/schroedinger.c:287
 msgid "Size of code blocks in each subband"
-msgstr ""
+msgstr "Kode blokeen tamaina azpi-banda bakoitzean"
 
 #: modules/codec/schroedinger.c:298
 msgid "small - use small code blocks"
-msgstr ""
+msgstr "txiki - erabili kode bloke txikiak"
 
 #: modules/codec/schroedinger.c:299
 msgid "medium - use medium sized code blocks"
-msgstr ""
+msgstr "ertain - erabili kode bloke ertainak"
 
 #: modules/codec/schroedinger.c:300
 msgid "large - use large code blocks"
-msgstr ""
+msgstr "handi - erabili kode bloke handiak"
 
 #: modules/codec/schroedinger.c:301
 msgid "full - One code block per subband"
-msgstr ""
+msgstr "osorik - Kode bloke bat azpi-banda bakoitzeko"
 
 #: modules/codec/schroedinger.c:306
 msgid "Enable hierarchical Motion Estimation"
-msgstr ""
+msgstr "Gaitu hierarkiazko 'Mugimendu estimazioa' "
 
 #: modules/codec/schroedinger.c:310
 msgid "Number of levels of downsampling"
@@ -12301,7 +12306,7 @@ msgstr ""
 
 #: modules/codec/schroedinger.c:327
 msgid "Force Profile"
-msgstr ""
+msgstr "Behartu profila"
 
 #: modules/codec/schroedinger.c:339
 msgid "VC2 Low Delay Profile"
@@ -30102,13 +30107,6 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ "Birlaginketa algoritmo ezberdina sostengatua da. Hoberena astiro da, "
 #~ "azkarrak ontasun apala erakusten duen bitartean."
 
-#~ msgid ""
-#~ "Number of pictures between successive sequenence headers i.e. length of "
-#~ "the group of pictures"
-#~ msgstr ""
-#~ "Irudi zenbatekoa idazburu sekuentzia jarraien artean, alegia irudi "
-#~ "multzoen luzera"
-
 #~ msgid "Unique DBUS service id (org.mpris.vlc-<pid>)"
 #~ msgstr "DBUS zerbitzu id bakarra (org.mpris.vlc-<pid>)"
 
@@ -31992,6 +31990,14 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgstr "Berezgaitasunez gorde bolumena irteterakoan"
 
 #, fuzzy
+#~ msgid ""
+#~ "Number of pictures between successive sequenence headers i.e. length of "
+#~ "the group of pictures"
+#~ msgstr ""
+#~ "Segidan dauden goi-buruen bitarteko irudi kopurua, hau da, irudi "
+#~ "taldearen luzera"
+
+#, fuzzy
 #~ msgid "Show Details"
 #~ msgstr "Kodekaren xehetasunak"
 
@@ -33638,7 +33644,7 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 
 #, fuzzy
 #~ msgid "Force IPv6"
-#~ msgstr "Behartu lodia"
+#~ msgstr "Behartu profila"
 
 #, fuzzy
 #~ msgid "IPv6 will be used by default for all connections."
@@ -33646,7 +33652,7 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 
 #, fuzzy
 #~ msgid "Force IPv4"
-#~ msgstr "Behartu lodia"
+#~ msgstr "Behartu profila"
 
 #, fuzzy
 #~ msgid "IPv4 will be used by default for all connections."
