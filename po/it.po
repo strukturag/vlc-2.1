@@ -7,22 +7,23 @@
 # Carlo Calabrò 2003-2004
 # prangel <prangel85@gmail.com>, 2013
 # FranzMari <franzmari@chakra-project.it>, 2013
+# elisa.garufi <garufi.elisa@gmail.com>, 2014
 # ghina90 <ghina8@gmail.com>, 2013
-# Lorenzo Facca <lorenzo.facca@ovi.com>, 2013
+# Lorenzo Facca <lorenzo.facca@gmail.com>, 2013
 # Lorenzo Porta, 2013
 # Vindex17 <vindex17@outlook.it>, 2013
 # Stiffmaister88 <antani125@yahoo.it>, 2013
 # Marco91, 2013
 # polxmod <paolo.velati@gmail.com>, 2013
 # verodigiorgio <verodigiorgio@gmail.com>, 2013
-# Vincenzo Reale <smart2128@baslug.org>, 2006,2008-2013
+# Vincenzo Reale <smart2128@baslug.org>, 2006,2008-2014
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-12-07 17:17+0100\n"
-"PO-Revision-Date: 2013-12-02 14:05+0000\n"
-"Last-Translator: Lorenzo Facca <lorenzo.facca@ovi.com>\n"
+"PO-Revision-Date: 2014-01-16 10:12+0000\n"
+"Last-Translator: elisa.garufi <garufi.elisa@gmail.com>\n"
 "Language-Team: Italian (http://www.transifex.com/projects/p/vlc-trans/"
 "language/it/)\n"
 "Language: it\n"
@@ -3043,8 +3044,8 @@ msgid ""
 "images or text over the video (like a logo, arbitrary text, ...)."
 msgstr ""
 "Questo aggiunge le cosiddette \"sorgenti di immagini secondarie\". Questi "
-"filtri sovrappongono al video alcune immagini o del testo (come un logo, "
-"testo arbitrario, ...)."
+"filtri sovrappongono al video immagini o testo (come un logo, testo "
+"arbitrario, ...)."
 
 #: src/libvlc-module.c:717
 msgid "Subpictures filter module"
@@ -3290,6 +3291,8 @@ msgid ""
 "This file contains an optional CRL to prevent remote clients from using "
 "revoked certificates in TLS sessions."
 msgstr ""
+"Questo file contiene un CRL opzionale per evitare che client remoti "
+"utilizzino certificati revocati in sessioni TLS."
 
 #: src/libvlc-module.c:845
 msgid "SOCKS server"
@@ -4392,8 +4395,8 @@ msgstr "Sincronizzazione dei sottotitoli / data e ora dei segnalibri audio"
 #: src/libvlc-module.c:1303
 msgid "Select the key to bookmark audio timestamp when syncing subtitles."
 msgstr ""
-"Seleziona il tasto alla data e ora del segnalibro audio durante la "
-"sincronizzazione dei sottotitoli."
+"Seleziona il tasto per creare un segnalibro con data e ora dell'audio "
+"durante la sincronizzazione dei sottotitoli."
 
 #: src/libvlc-module.c:1304
 msgid "Subtitle sync / bookmark subtitle timestamp"
@@ -4403,7 +4406,7 @@ msgstr ""
 #: src/libvlc-module.c:1305
 msgid "Select the key to bookmark subtitle timestamp when syncing subtitles."
 msgstr ""
-"Seleziona il tasto per creare un segnalibro della data e dell'ora del "
+"Seleziona il tasto per creare un segnalibro con la data e l'ora del "
 "sottotitolo quando vengono sincronizzati i sottotitoli."
 
 #: src/libvlc-module.c:1306
@@ -4415,8 +4418,8 @@ msgstr ""
 #: src/libvlc-module.c:1307
 msgid "Select the key to synchronize bookmarked audio & subtitle timestamps."
 msgstr ""
-"Seleziona il tasto per sincronizzare audio presente nei segnalibri e data e "
-"ora dei sottotitoli."
+"Seleziona il tasto per sincronizzare l'audio presente nei segnalibri e data "
+"e ora dei sottotitoli."
 
 #: src/libvlc-module.c:1308
 msgid "Subtitle sync / reset audio & subtitle synchronization"
@@ -6290,10 +6293,10 @@ msgid ""
 "will not be changed."
 msgstr ""
 "Seleziona la sorgente di ingresso video, come composito, s-video, o "
-"sintonizzatore. Dal momento che queste impostazioni sono specifiche in base "
-"all'hardware, dovresti trovare le giuste impostazioni nell'area di "
-"\"Configurazione del dispositivo\", e usare quei numeri qui. -1 indica che "
-"le impostazioni non saranno modificate."
+"sintonizzatore. Poiché queste impostazioni sono specifiche all'hardware, è "
+"necessario trovare le impostazioni corrette nell'area di \"Configurazione "
+"del dispositivo\", e usare quei numeri qui. -1 indica che le impostazioni "
+"non saranno modificate."
 
 #: modules/access/dshow/dshow.cpp:182
 msgid "Audio input pin"
@@ -6337,8 +6340,8 @@ msgstr ""
 msgid ""
 "Select audio input format with the given number of audio channels (if non 0)"
 msgstr ""
-"Seleziona il formato di ingresso audio con il dato numero di canali audio "
-"(se diverso da 0)"
+"Seleziona il formato di ingresso audio con il numero di canali audio "
+"specificato (se diverso da 0)"
 
 #: modules/access/dshow/dshow.cpp:201
 #: modules/stream_out/transcode/transcode.c:93
@@ -6350,7 +6353,7 @@ msgstr "Campionamento"
 msgid "Select audio input format with the given sample rate (if non 0)"
 msgstr ""
 "Seleziona il formato di ingresso audio con il campionamento specificato (se "
-"non è 0)"
+"diverso da 0)"
 
 #: modules/access/dshow/dshow.cpp:205
 msgid "Audio bits per sample"
@@ -6516,8 +6519,8 @@ msgid ""
 "If the demodulator cannot detect spectral inversion correctly, it needs to "
 "be configured manually."
 msgstr ""
-"Se il demodulatore non riesce a rilevare l'inversione spettrale "
-"correttamente, allora necessita di essere configurato manualmente."
+"Se il demodulatore non riesce a rilevare correttamente l'inversione "
+"spettrale è necessario configurarlo manualmente."
 
 #: modules/access/dtv/access.c:94
 msgid "FEC code rate"
@@ -6650,8 +6653,8 @@ msgid ""
 "To select the polarization of the transponder, a different voltage is "
 "normally applied to the low noise block-downconverter (LNB)."
 msgstr ""
-"Per selezionare la polarizzazione del transponder, un diverso voltaggio è "
-"normalmente applicato al low noise block-downconverter (LNB)."
+"Per selezionare la polarizzazione del transponder è normalmente applicato un "
+"diverso voltaggio al low noise block-downconverter (LNB)."
 
 #: modules/access/dtv/access.c:171
 msgid "Unspecified (0V)"
@@ -11812,7 +11815,7 @@ msgstr ""
 
 #: modules/codec/kate.c:245
 msgid "Default font alpha"
-msgstr "Carattere predefinito alfa"
+msgstr ""
 
 #: modules/codec/kate.c:246
 msgid ""
@@ -11836,7 +11839,7 @@ msgstr ""
 
 #: modules/codec/kate.c:255
 msgid "Default background alpha"
-msgstr "Sfondo predefinito alfa"
+msgstr ""
 
 #: modules/codec/kate.c:256
 msgid ""
@@ -11873,7 +11876,7 @@ msgstr "Codificatore di sovrapposizione Kate"
 
 #: modules/codec/kate.c:291
 msgid "Tiger rendering defaults"
-msgstr "Tiger rendering predefiniti"
+msgstr ""
 
 #: modules/codec/kate.c:326
 msgid "Kate text subtitles packetizer"
@@ -12406,11 +12409,11 @@ msgstr ""
 
 #: modules/codec/schroedinger.c:315
 msgid "Enable Global Motion Estimation"
-msgstr "Abilita la Stima del Movimento Globale"
+msgstr "Abilita la stima del movimento globale"
 
 #: modules/codec/schroedinger.c:319
 msgid "Enable Phase Correlation Estimation"
-msgstr "Abilita la Stima della Fase di Correlazione"
+msgstr "Abilita la stima della correlazione di fase"
 
 #: modules/codec/schroedinger.c:323
 msgid "Enable Scene Change Detection"
@@ -14820,9 +14823,8 @@ msgstr ""
 "Poiché l'indice del file AVI è danneggiato o mancante, il posizionamento non "
 "funzionerà correttamente.\n"
 "VLC non riparerà il file, ma può correggere temporaneamente questo problema "
-"generando un indice in\n"
-"memoria.\n"
-"Questo passo potrebbe richiedere molto tempo in cado di file grandi.\n"
+"generando un indice in memoria.\n"
+"Questo passo potrebbe richiedere molto tempo in caso di file grandi.\n"
 "Cosa vuoi fare?"
 
 #: modules/demux/avi/avi.c:680
@@ -18446,9 +18448,8 @@ msgid "Lua HTTP"
 msgstr "HTTP Lua"
 
 #: modules/gui/macosx/simple_prefs.m:374
-#, fuzzy
 msgid "Control iTunes during playback"
-msgstr "Sospendi iTunes durante la riproduzione di VLC"
+msgstr "Controlla iTunes durante la riproduzione"
 
 #: modules/gui/macosx/simple_prefs.m:377
 msgid "Default Encoding"
@@ -19122,6 +19123,10 @@ msgid ""
 "that only a small part of the MMS protocol is supported (MMS encapsulated in "
 "HTTP)."
 msgstr ""
+"Utilizza questa opzione per trasmettere a diversi computer con il protocollo "
+"MMS di Microsoft. Questo protocollo è utilizzato come metodo di trasporto da "
+"molti programmi di Microsoft. Nota che è supportata solo una piccola parte "
+"del protocollo MMS (MMS incapsulato in HTTP)."
 
 #: modules/gui/macosx/wizard.m:270 modules/gui/macosx/wizard.m:280
 msgid "Enter the address of the computer to stream to."
@@ -24893,7 +24898,7 @@ msgid ""
 "Name of the serial port where the AtmoLight controller is attached to.\n"
 "On Windows usually something like COM1 or COM2. On Linux /dev/ttyS01 f.e."
 msgstr ""
-"Nome della porta seriale dove il controller AtmoLight è attaccato.\n"
+"Nome della porta seriale a cui è attaccato il controller AtmoLight.\n"
 "Su Windows di solito è qualcosa come COM1 o COM2. Su Linux è per esempio /"
 "dev/ttyS01"
 
@@ -24924,8 +24929,8 @@ msgid ""
 "Pixels with a saturation lower than this will be ignored. Should be greater "
 "than one for letterboxed videos."
 msgstr ""
-"I pixel con una saturazione più bassa di questa saranno ignorati. Dovrebbe "
-"essere maggiore di uno per i video letterbox."
+"I pixel con una saturazione più bassa saranno ignorati. Per i video "
+"letterbox, il valore deve essere maggiore di uno."
 
 #: modules/video_filter/atmo/atmo.cpp:269
 msgid "Hue windowing"
@@ -25178,7 +25183,7 @@ msgid ""
 "Value of the audio level of each channels between 0 and 1. Each level should "
 "be separated with ':'."
 msgstr ""
-"Valore del livello audio di ogni canale tra 0 e 1. Ogni livello dovrebbe "
+"Valore livello audio di ogni canale compreso tra 0 e 1. Ogni livello deve "
 "essere separato da ':'."
 
 #: modules/video_filter/audiobargraph_v.c:51 modules/video_filter/erase.c:58
@@ -25471,9 +25476,9 @@ msgid ""
 "If enabled, video will be padded to fit in canvas after scaling. Otherwise, "
 "video will be cropped to fix in canvas after scaling."
 msgstr ""
-"Se abilitato, il video sarà spostato per adattarlo alla tela dopo la "
-"scalata. Altrimenti, il video sarà ritagliato per adattarsi alla tela dopo "
-"la scalata."
+"Se abilitato, il video sarà spostato per adattarlo alla tela dopo il "
+"ridimensionamento. Altrimenti, il video sarà ritagliato per adattarlo alla "
+"tela dopo il ridimensionamento."
 
 #: modules/video_filter/canvas.c:97
 msgid "Automatically resize and pad a video"
@@ -27083,7 +27088,7 @@ msgstr "Filtro video Seppia"
 
 #: modules/video_filter/sepia.c:66
 msgid "Gives video a warmer tone by applying sepia effect"
-msgstr "Dai al video un tono più alto applicando l'effetto seppia"
+msgstr "Dai una tonalità più calda al video applicando l'effetto seppia"
 
 #: modules/video_filter/sharpen.c:46
 msgid "Sharpen strength (0-2)"
@@ -27145,7 +27150,7 @@ msgstr ""
 
 #: modules/video_filter/subsdelay.c:64
 msgid "Interval between two disappearances"
-msgstr ""
+msgstr "Intervallo tra due scomparse"
 
 #: modules/video_filter/subsdelay.c:66
 msgid ""
@@ -27156,7 +27161,7 @@ msgstr ""
 
 #: modules/video_filter/subsdelay.c:69
 msgid "Interval between disappearance and appearance"
-msgstr ""
+msgstr "Intervallo tra scomparsa e apparizione"
 
 #: modules/video_filter/subsdelay.c:71
 msgid ""
@@ -33212,8 +33217,8 @@ msgstr "Elenco gestore multimediale"
 #~ "This file countains an optional CRL to prevent remote clients from using "
 #~ "revoked certificates in TLS sessions."
 #~ msgstr ""
-#~ "Questo file contiene un CRL opzionale per evitare di rimuovere client "
-#~ "dall'utilizzo di certificati revocati in sessioni TLS."
+#~ "Questo file contiene un CRL opzionale per evitare che client remoti "
+#~ "utilizzino certificati revocati in sessioni TLS."
 
 #, fuzzy
 #~ msgid "Show Details"
@@ -34128,9 +34133,8 @@ msgstr "Elenco gestore multimediale"
 #~ "Poiché l'indice del file AVI è danneggiato o mancante, il posizionamento "
 #~ "non funzionerà correttamente.\n"
 #~ "VLC non riparerà il file, ma può correggere temporaneamente questo "
-#~ "problema generando un indice in\n"
-#~ "memoria.\n"
-#~ "Questo passo potrebbe richiedere molto tempo in cado di file grandi.\n"
+#~ "problema generando un indice in memoria.\n"
+#~ "Questo passo potrebbe richiedere molto tempo in caso di file grandi.\n"
 #~ "Cosa vuoi fare?"
 
 #, fuzzy
