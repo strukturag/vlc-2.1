@@ -7,6 +7,7 @@
 # Circo Radu <circo DOT radusorin AT gmail DOT com>, 2005
 # Cristian Secară <cristi AT secarica DOT ro>, 2007-2013
 # Cristian Silaghi <cristian.silaghi@mozilla.ro>, 2013
+# Sethan <the.sethan@gmail.com>, 2014
 # bogdog <emil_preda2007@yahoo.com>, 2013
 # kuteutza <ileana.vucicovici@gmail.com>, 2013
 msgid ""
@@ -14,8 +15,8 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-12-07 17:17+0100\n"
-"PO-Revision-Date: 2013-12-03 21:24+0000\n"
-"Last-Translator: bogdog <emil_preda2007@yahoo.com>\n"
+"PO-Revision-Date: 2014-01-13 01:29+0000\n"
+"Last-Translator: Sethan <the.sethan@gmail.com>\n"
 "Language-Team: Romanian (http://www.transifex.com/projects/p/vlc-trans/"
 "language/ro/)\n"
 "Language: ro\n"
@@ -97,7 +98,7 @@ msgstr "Audio"
 
 #: include/vlc_config_cat.h:54
 msgid "Audio settings"
-msgstr "Setări audio generale"
+msgstr "Setări audio"
 
 #: include/vlc_config_cat.h:56
 msgid "General audio settings"
@@ -421,7 +422,7 @@ msgstr ""
 
 #: include/vlc_config_cat.h:199
 msgid "Dialog providers can be configured here."
-msgstr "Furnizorii de dialog pot fi configuarați aici."
+msgstr "Furnizorii de dialog pot fi configurați aici."
 
 #: include/vlc_config_cat.h:202
 msgid ""
@@ -1366,7 +1367,7 @@ msgstr "Intrarea nu a putut fi deschisă"
 #: src/input/input.c:2428
 #, c-format
 msgid "VLC is unable to open the MRL '%s'. Check the log for details."
-msgstr "VLC nu a putut deschide MRL-ul „%s”. Verifică jurnalul pentru detalii."
+msgstr "VLC nu a putut deschide MRL-ul '%s'. Verifică jurnalul pentru detalii."
 
 #: src/input/input.c:2549
 msgid "VLC can't recognize the input's format"
@@ -1533,7 +1534,7 @@ msgstr "Web"
 
 #: src/interface/interface.c:98
 msgid "Debug logging"
-msgstr "Logging de depanare"
+msgstr "Jurnal de depanare"
 
 #: src/interface/interface.c:101
 msgid "Mouse Gestures"
@@ -2472,7 +2473,7 @@ msgid ""
 "This avoids flooding the message log with debug output from the video output "
 "synchronization mechanism."
 msgstr ""
-"Aceasta previne inundarea logului de mesaje cu mesaje de depanare de la "
+"Aceasta previne inundarea jurnalului de mesaje cu mesaje de depanare de la "
 "mecanismul de sincronizare al ieșirii video."
 
 #: src/libvlc-module.c:483
@@ -3597,7 +3598,7 @@ msgstr "Scrie ID-ul procesului în fișierul specificat."
 
 #: src/libvlc-module.c:1053
 msgid "Log to file"
-msgstr "Log în fișier"
+msgstr "Jurnal în fișier"
 
 #: src/libvlc-module.c:1055
 msgid "Log all VLC messages to a text file."
@@ -3605,7 +3606,7 @@ msgstr "Înregistrează toate mesajele VLC într-un fișier text."
 
 #: src/libvlc-module.c:1057
 msgid "Log to syslog"
-msgstr "Log în syslog"
+msgstr "Jurnal în syslog"
 
 #: src/libvlc-module.c:1059
 msgid "Log all VLC messages to syslog (UNIX systems)."
@@ -4403,11 +4404,11 @@ msgstr "Selectează tasta pentru a pune acest semn de carte la lista de redare."
 #: src/libvlc-module.c:1346
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:234
 msgid "Clear the playlist"
-msgstr ""
+msgstr "Golește lista de redare"
 
 #: src/libvlc-module.c:1347
 msgid "Select the key to clear the current playlist."
-msgstr ""
+msgstr "Alege tasta pentru a goli listă de redare curentă."
 
 #: src/libvlc-module.c:1349
 msgid "Playlist bookmark 1"
@@ -7543,7 +7544,7 @@ msgstr ""
 
 #: modules/access_output/livehttp.c:89
 msgid "Delete segments"
-msgstr ""
+msgstr "Ştergere segmente"
 
 #: modules/access_output/livehttp.c:90
 msgid "Delete segments when they are no longer needed"
@@ -8966,7 +8967,7 @@ msgstr ""
 
 #: modules/audio_filter/audiobargraph_a.c:40
 msgid "TCP address to use"
-msgstr ""
+msgstr "Adresa TCP de folosit"
 
 #: modules/audio_filter/audiobargraph_a.c:41
 msgid ""
@@ -8976,7 +8977,7 @@ msgstr ""
 
 #: modules/audio_filter/audiobargraph_a.c:44
 msgid "TCP port to use"
-msgstr ""
+msgstr "Portul TCP de folosit"
 
 #: modules/audio_filter/audiobargraph_a.c:45
 msgid ""
@@ -9027,7 +9028,7 @@ msgstr ""
 
 #: modules/audio_filter/audiobargraph_a.c:61
 msgid "Minimum Audio level to raise the alarm"
-msgstr ""
+msgstr "Nivelul audio minim pentru a declanșa alarma"
 
 #: modules/audio_filter/audiobargraph_a.c:62
 msgid ""
@@ -9037,7 +9038,7 @@ msgstr ""
 
 #: modules/audio_filter/audiobargraph_a.c:65
 msgid "Time between two alarm messages in ms"
-msgstr ""
+msgstr "Intervalul între două mesaje de alarmă în ms"
 
 #: modules/audio_filter/audiobargraph_a.c:66
 msgid ""
@@ -13762,7 +13763,7 @@ msgstr ""
 
 #: modules/control/rc.c:796
 msgid "| clear . . . . . . . . . . . . . . clear the playlist"
-msgstr ""
+msgstr "| clear . . . . . . . . . . . . . . golește lista de redare"
 
 #: modules/control/rc.c:797
 msgid "| status . . . . . . . . . . . current playlist status"
@@ -15707,6 +15708,7 @@ msgstr "Autori"
 msgid ""
 "VLC media player and VideoLAN are trademarks of the VideoLAN Association."
 msgstr ""
+"VLC media player și VideoLAN sunt mărci înregistrate ale Asociației VideoLAN."
 
 #: modules/gui/macosx/about.m:115
 msgid "Compiled by %s with %@"
@@ -15723,6 +15725,15 @@ msgid ""
 "\"http://www.videolan.org/contribute/\"><span style=\" text-decoration: "
 "underline; color:#0057ae;\">Help and join us!</span></a>"
 msgstr ""
+"<p>VLC media player este un lector media gratuit și cu sursă liberă, codor, "
+"și streamer făcut de voluntarii din comunitatea <a href=\"http://www."
+"videolan.org/\"><span style=\" text-decoration: underline; color:#0057ae;"
+"\">VideoLAN</span></a>.</p><p>VLC folosește codorii săi interni, "
+"funcționează pe toate platformele populare, și poate citi aproape toate "
+"fișierele, CD-uri, DVD-uri, fluxuri de rețea, plăci de captură și alte "
+"formate de media!</p><p><a href=\"http://www.videolan.org/contribute/"
+"\"><span style=\" text-decoration: underline; color:#0057ae;\">Ajută-ne și "
+"alătură-te nouă!</span></a>"
 
 #: modules/gui/macosx/about.m:273
 msgid "VLC media player Help"
@@ -16409,7 +16420,7 @@ msgstr ""
 
 #: modules/gui/macosx/intf.m:1880
 msgid "No CrashLog found"
-msgstr ""
+msgstr "Nu a fost găsit niciun jurnal de pană"
 
 #: modules/gui/macosx/intf.m:1880 modules/gui/macosx/simple_prefs.m:843
 #: modules/gui/qt4/dialogs/firstrun.cpp:109
@@ -16620,11 +16631,11 @@ msgstr ""
 
 #: modules/gui/macosx/macosx.m:118 modules/gui/macosx/MainMenu.m:342
 msgid "Show Audio Effects Button"
-msgstr ""
+msgstr "Afișează butonul pentru efectele audio"
 
 #: modules/gui/macosx/macosx.m:119
 msgid "Shows the audio effects button in the main window."
-msgstr ""
+msgstr "Afișează butonul pentru efectele audio în fereastra principală."
 
 #: modules/gui/macosx/macosx.m:121 modules/gui/macosx/MainMenu.m:344
 msgid "Show Sidebar"
@@ -16890,11 +16901,11 @@ msgstr ""
 
 #: modules/gui/macosx/MainMenu.m:421 modules/gui/macosx/MainMenu.m:422
 msgid "Background Opacity"
-msgstr ""
+msgstr "Opacitatea fundalului"
 
 #: modules/gui/macosx/MainMenu.m:423
 msgid "Background Color"
-msgstr ""
+msgstr "Culoarea fundalului"
 
 #: modules/gui/macosx/MainMenu.m:425
 msgid "Transparent"
@@ -19670,6 +19681,8 @@ msgid ""
 "Select or double click an action to change the associated hotkey. Use delete "
 "key to remove hotkeys"
 msgstr ""
+"Alege sau dă clic dublu pe o acțiune pentru a schimba tasta rapidă asociată. "
+"Folosește tasta delete pentru a înlătura tastele rapide"
 
 #: modules/gui/qt4/components/preferences_widgets.cpp:1137
 msgid "in"
@@ -20047,7 +20060,7 @@ msgstr "Politica de acces la rețea"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:98
 msgid "Automatically retrieve media info"
-msgstr ""
+msgstr "Descarcă automat informații despre media"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:103
 msgid "Regularly check for VLC updates"
@@ -20135,7 +20148,7 @@ msgstr "Salvează fișierul jurnal ca..."
 
 #: modules/gui/qt4/dialogs/messages.cpp:258
 msgid "Texts / Logs (*.log *.txt);; All (*.*) "
-msgstr "Texte / Jurnale (*.log *.txt);; All (*.*) "
+msgstr "Texte / Jurnale (*.log *.txt);; Toate (*.*)"
 
 #: modules/gui/qt4/dialogs/messages.cpp:265
 msgid ""
@@ -20755,7 +20768,7 @@ msgstr "Adaugă fișier &subtitlu..."
 
 #: modules/gui/qt4/menus.cpp:639
 msgid "Sub &Track"
-msgstr ""
+msgstr "Pistă sub&titlu"
 
 #: modules/gui/qt4/menus.cpp:662
 msgid "Video &Track"
@@ -21517,7 +21530,7 @@ msgstr ""
 
 #: modules/misc/logger.c:117
 msgid "Log format"
-msgstr "Format de log"
+msgstr "Formatul jurnalului"
 
 #: modules/misc/logger.c:118
 msgid "Specify the logging format."
@@ -21551,11 +21564,11 @@ msgstr ""
 
 #: modules/misc/logger.c:158
 msgid "Logging"
-msgstr "Logging"
+msgstr "Jurnal"
 
 #: modules/misc/logger.c:159
 msgid "File logging"
-msgstr "Logging în fișier"
+msgstr "Jurnal în fișier"
 
 #: modules/misc/logger.c:165
 msgid "Log filename"
@@ -21563,7 +21576,7 @@ msgstr "Nume fișier log"
 
 #: modules/misc/logger.c:165
 msgid "Specify the log filename."
-msgstr "Numele fișierului de log."
+msgstr "Numele fișierului de jurnal."
 
 #: modules/misc/playlist/export.c:50
 msgid "M3U playlist export"
@@ -25657,15 +25670,15 @@ msgstr ""
 
 #: modules/video_filter/puzzle.c:59
 msgid "Small preview"
-msgstr ""
+msgstr "Previzualizare mică"
 
 #: modules/video_filter/puzzle.c:60
 msgid "Show small preview."
-msgstr ""
+msgstr "Arată o previzualizare mică."
 
 #: modules/video_filter/puzzle.c:61
 msgid "Small preview size"
-msgstr ""
+msgstr "Dimensiunea previzualizării"
 
 #: modules/video_filter/puzzle.c:62
 msgid "Show small preview size (percent of source)."
@@ -26498,7 +26511,7 @@ msgstr "Ieșire video iOS OpenGL ES (necesită UIView)"
 
 #: modules/video_output/ios2.m:72
 msgid "iOS OpenGL video output"
-msgstr ""
+msgstr "Ieșire video iOS OpenGL"
 
 #: modules/video_output/kva.c:50 modules/gui/qt4/ui/sprefs_video.h:352
 msgid "Enable a workaround for T23"
@@ -26723,7 +26736,7 @@ msgstr "Memorie video"
 
 #: modules/video_output/xcb/glx.c:52
 msgid "OpenGL GLX video output (XCB)"
-msgstr ""
+msgstr "Ieșire video OpenGL GLX (XCB)"
 
 #: modules/video_output/xcb/window.c:43
 msgid "X11 display"
@@ -27068,15 +27081,15 @@ msgstr "Analizor de spectru"
 
 #: modules/visualization/vsxu.cpp:62 modules/visualization/vsxu.cpp:63
 msgid "vsxu"
-msgstr ""
+msgstr "vsxu"
 
 #: share/lua/http/dialogs/batch_window.html:28
 msgid "#paste your VLM commands here"
-msgstr ""
+msgstr "#lipește aici comenzile VLM"
 
 #: share/lua/http/dialogs/batch_window.html:30
 msgid "#separate commands with a new line or a semi-colon"
-msgstr ""
+msgstr "#separă comenzile cu o linie nouă sau cu punct și virgulă"
 
 #: share/lua/http/dialogs/browse_window.html:41
 #: share/lua/http/mobile_browse.html:48
@@ -27094,7 +27107,7 @@ msgstr "Codec subtitlu"
 
 #: share/lua/http/dialogs/create_stream.html:200
 msgid "Output\tmethod"
-msgstr ""
+msgstr "Ieșire\tmetodă"
 
 #: share/lua/http/dialogs/create_stream.html:249
 msgid "Multiplexer"
@@ -27106,20 +27119,20 @@ msgstr "Cadre per secundă (FPS) video"
 
 #: share/lua/http/dialogs/create_stream.html:297
 msgid "MUX options"
-msgstr ""
+msgstr "Opțiuni MUX"
 
 #: share/lua/http/dialogs/create_stream.html:303
 msgid "Video scale"
-msgstr ""
+msgstr "Scalare video"
 
 #: share/lua/http/dialogs/create_stream.html:330
 #: share/lua/http/dialogs/create_stream.html:374
 msgid "Output port"
-msgstr ""
+msgstr "Portul de ieșire"
 
 #: share/lua/http/dialogs/create_stream.html:338
 msgid "Output\tfile"
-msgstr ""
+msgstr "Ieșire\tfișier"
 
 #: share/lua/http/dialogs/create_stream.html:355
 msgid "Input media"
@@ -27164,11 +27177,11 @@ msgstr "Rata de redare"
 
 #: share/lua/http/dialogs/offset_window.html:72
 msgid "Audio Delay"
-msgstr "Întârziere de audio"
+msgstr "Întârziere audio"
 
 #: share/lua/http/dialogs/offset_window.html:76
 msgid "Subtitle Delay"
-msgstr "Întârziere de subtitluri"
+msgstr "Întârziere subtitlu"
 
 #: share/lua/http/dialogs/stream_window.html:65
 msgid "Time:"
@@ -27189,11 +27202,11 @@ msgstr "Ascunde / arată vizualizatorul"
 
 #: share/lua/http/index.html:217
 msgid "Manage Streams"
-msgstr ""
+msgstr "Gestionează fluxuri"
 
 #: share/lua/http/index.html:218
 msgid "Track Synchronisation"
-msgstr ""
+msgstr "Sincronizare pistă"
 
 #: share/lua/http/index.html:220
 msgid "VLM Batch Commands"
@@ -27424,7 +27437,7 @@ msgstr "Selectează fișierul subtitlu"
 
 #: modules/gui/qt4/ui/open_file.h:149
 msgid "Choose one or more media file to open"
-msgstr "Alegeți unul sau mai multe fișiere media de deschis"
+msgstr "Alege unul sau mai multe fișiere media de deschis"
 
 #: modules/gui/qt4/ui/open_file.h:151
 msgid "File Selection"
@@ -27432,7 +27445,7 @@ msgstr "Selecție de fișier"
 
 #: modules/gui/qt4/ui/open_file.h:152
 msgid "You can select local files with the following list and buttons."
-msgstr "Puteți selecta fișiere locale folosind lista și butoanele următoare."
+msgstr "Poți selecta fișiere locale folosind lista și butoanele următoare."
 
 #: modules/gui/qt4/ui/open_file.h:153
 msgid "Add..."
@@ -27444,7 +27457,7 @@ msgstr "Protocol de rețea"
 
 #: modules/gui/qt4/ui/open_net.h:98
 msgid "Please enter a network URL:"
-msgstr "Introduceți un URL de rețea:"
+msgstr "Te rog introdu un URL de rețea:"
 
 #: modules/gui/qt4/ui/profiles.h:686
 msgid "Profile edition"
@@ -27520,7 +27533,7 @@ msgstr "Meniuri"
 
 #: modules/gui/qt4/ui/profiles.h:714
 msgid "Same as source"
-msgstr ""
+msgstr "La fel ca sursa"
 
 #: modules/gui/qt4/ui/profiles.h:716
 msgid " fps"
@@ -27528,7 +27541,7 @@ msgstr " fps"
 
 #: modules/gui/qt4/ui/profiles.h:717
 msgid "Custom options"
-msgstr ""
+msgstr "Opțiuni personalizate"
 
 #: modules/gui/qt4/ui/profiles.h:718
 msgid "Quality"
@@ -27544,7 +27557,7 @@ msgstr " kb/s"
 
 #: modules/gui/qt4/ui/profiles.h:722 modules/gui/qt4/ui/profiles.h:742
 msgid "Encoding parameters"
-msgstr ""
+msgstr "Parametri pentru codare"
 
 #: modules/gui/qt4/ui/profiles.h:725
 msgid "Frame size"
@@ -27588,7 +27601,7 @@ msgstr "Afișează local"
 
 #: modules/gui/qt4/ui/sout.h:212
 msgid "Transcoding Options"
-msgstr ""
+msgstr "Opțiuni de transcodare"
 
 #: modules/gui/qt4/ui/sout.h:213
 msgid "Select and choose transcoding options"
@@ -27660,7 +27673,7 @@ msgstr "Parolă:"
 
 #: modules/gui/qt4/ui/sprefs_audio.h:430
 msgid "Username:"
-msgstr "Nume de utilizator:"
+msgstr "Utilizator:"
 
 #: modules/gui/qt4/ui/sprefs_audio.h:431
 msgid "Submit played tracks stats to Last.fm"
@@ -27761,7 +27774,7 @@ msgstr "Pune redarea în pauză când este minimizat"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:524
 msgid "Show media change popup:"
-msgstr "Arată un popup la schimare media:"
+msgstr "Arată o notificare la schimarea media:"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:525
 msgid "Start in minimal view mode"
@@ -27909,11 +27922,11 @@ msgstr "1"
 
 #: modules/gui/qt4/ui/streampanel.h:171
 msgid "Stuff"
-msgstr ""
+msgstr "Chestii"
 
 #: modules/gui/qt4/ui/streampanel.h:173
 msgid "Edit settings"
-msgstr "Editează setările"
+msgstr "Modifică setările"
 
 #: modules/gui/qt4/ui/streampanel.h:174
 msgid "Control"
@@ -28248,10 +28261,6 @@ msgstr "Lista gestionarului media"
 #~ msgstr "Coboară interfața sub toate celelalte ferestre."
 
 # hm ?
-#~ msgid "Display OSD menu on top of video output"
-#~ msgstr "Afișare meniu OSD deasupra ieșirii video"
-
-# hm ?
 #~ msgid "Do not display OSD menu on top of video output"
 #~ msgstr "Fără afișare meniu OSD deasupra ieșirii video"
 
@@ -28391,9 +28400,6 @@ msgstr "Lista gestionarului media"
 #~ msgid "AltiVec memcpy"
 #~ msgstr "AltiVec memcpy"
 
-#~ msgid "TCP port to use (default 12345)"
-#~ msgstr "Portul TCP de folosit (impicit este 12345)."
-
 #, fuzzy
 #~ msgid "Fixed-point audio mixer"
 #~ msgstr "Mixer audio float32"
@@ -28434,10 +28440,6 @@ msgstr "Lista gestionarului media"
 
 #~ msgid "slow"
 #~ msgstr "arată"
-
-#, fuzzy
-#~ msgid "| @name mosaic-width # . . . . . . . . . . . . . . width"
-#~ msgstr "| adaugă XYZ  . . . . . . . . . . adaugă XYZ la lista de redare"
 
 #, fuzzy
 #~ msgid "| @name mosaic-keep-aspect-ratio {0,1} . . .aspect ratio"
@@ -30044,6 +30046,18 @@ msgstr "Lista gestionarului media"
 #~ msgstr "Stabilește aspectul (gen 4:3) canavalei video"
 
 #, fuzzy
+#~ msgid "Display OSD menu on top of video output"
+#~ msgstr "Ieșire video iOS OpenGL"
+
+#, fuzzy
+#~ msgid "TCP port to use (default 12345)"
+#~ msgstr "Portul TCP de folosit"
+
+#, fuzzy
+#~ msgid "| @name mosaic-width # . . . . . . . . . . . . . . width"
+#~ msgstr "| clear . . . . . . . . . . . . . . golește lista de redare"
+
+#, fuzzy
 #~ msgid "Show Details"
 #~ msgstr "Detalii codec"
 
@@ -30053,28 +30067,23 @@ msgstr "Lista gestionarului media"
 
 #, fuzzy
 #~ msgid "| @name marq-x X . . . . . . . . . . . .offset from left"
-#~ msgstr ""
-#~ "| prev . . . . . . . . . . . .  elementul precedent din lista de redare"
+#~ msgstr "| clear . . . . . . . . . . . . . . golește lista de redare"
 
 #, fuzzy
 #~ msgid "| @name marq-y Y . . . . . . . . . . . . offset from top"
-#~ msgstr ""
-#~ "| prev . . . . . . . . . . . .  elementul precedent din lista de redare"
+#~ msgstr "| clear . . . . . . . . . . . . . . golește lista de redare"
 
 #, fuzzy
 #~ msgid "| @name marq-opacity # . . . . . . . . . . . . . opacity"
-#~ msgstr ""
-#~ "| prev . . . . . . . . . . . .  elementul precedent din lista de redare"
+#~ msgstr "| clear . . . . . . . . . . . . . . golește lista de redare"
 
 #, fuzzy
 #~ msgid "| @name logo-x X . . . . . . . . . . . .offset from left"
-#~ msgstr ""
-#~ "| prev . . . . . . . . . . . .  elementul precedent din lista de redare"
+#~ msgstr "| clear . . . . . . . . . . . . . . golește lista de redare"
 
 #, fuzzy
 #~ msgid "| @name logo-y Y . . . . . . . . . . . . offset from top"
-#~ msgstr ""
-#~ "| prev . . . . . . . . . . . .  elementul precedent din lista de redare"
+#~ msgstr "| clear . . . . . . . . . . . . . . golește lista de redare"
 
 #, fuzzy
 #~ msgid "Enqueue files when in one instance mode"
@@ -30120,7 +30129,7 @@ msgstr "Lista gestionarului media"
 
 #, fuzzy
 #~ msgid "Encoders settings"
-#~ msgstr "Editează setările"
+#~ msgstr "Modifică setările"
 
 #, fuzzy
 #~ msgid "Subtitle demuxer settings"
@@ -30647,7 +30656,7 @@ msgstr "Lista gestionarului media"
 
 #, fuzzy
 #~ msgid "Automatically add new medias to ML"
-#~ msgstr "Adaugă sau șterge fluxuri de intrare automat"
+#~ msgstr "Descarcă automat informații despre media"
 
 #, fuzzy
 #~ msgid "SQLite database module"
@@ -30851,7 +30860,7 @@ msgstr "Lista gestionarului media"
 
 #, fuzzy
 #~ msgid "MUX Options"
-#~ msgstr "Opțiuni DMX"
+#~ msgstr "Opțiuni MUX"
 
 #, fuzzy
 #~ msgid "Output Destination"
@@ -31061,7 +31070,7 @@ msgstr "Lista gestionarului media"
 
 #, fuzzy
 #~ msgid "Create Stream"
-#~ msgstr "Flux implicit"
+#~ msgstr "Gestionează fluxuri"
 
 #, fuzzy
 #~ msgid "Capture Screen"
@@ -31301,7 +31310,7 @@ msgstr "Lista gestionarului media"
 
 #, fuzzy
 #~ msgid "CRL file"
-#~ msgstr "Log în fișier"
+#~ msgstr "Jurnal în fișier"
 
 #, fuzzy
 #~ msgid "Input syntax is deprecated"
