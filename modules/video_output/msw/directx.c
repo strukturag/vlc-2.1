@@ -52,15 +52,12 @@
 
 #include "common.h"
 
-#ifdef UNICODE
-# warning "Unicode mode not tested"
-#endif
-
-#ifdef UNICODE
-# define DIRECTDRAWENUMERATEEX_NAME "DirectDrawEnumerateExW"
-#else
-# define DIRECTDRAWENUMERATEEX_NAME "DirectDrawEnumerateExA"
-#endif
+/* Unicode function "DirectDrawEnumerateExW" has been desactivated
+   since in some cases this function fails and the callbacks are not
+   called. If the Unicode mode is restored, one should modify the
+   prototype of the callbacks and call the FromT conversion function.
+*/
+#define DIRECTDRAWENUMERATEEX_NAME "DirectDrawEnumerateExA"
 
 
 /*****************************************************************************
@@ -439,8 +436,8 @@ static void DirectXClose(vout_display_t *vd)
 }
 
 /* */
-static BOOL WINAPI DirectXOpenDDrawCallback(GUID *guid, LPTSTR desc,
-                                            LPTSTR drivername, VOID *context,
+static BOOL WINAPI DirectXOpenDDrawCallback(GUID *guid, LPSTR desc,
+                                            LPSTR drivername, VOID *context,
                                             HMONITOR hmon)
 {
     vout_display_t *vd = context;
@@ -454,8 +451,8 @@ static BOOL WINAPI DirectXOpenDDrawCallback(GUID *guid, LPTSTR desc,
     if (!hmon)
         return TRUE;
 
-    char *psz_drivername = FromT(drivername);
-    char *psz_desc = FromT(desc);
+    char *psz_drivername = drivername;
+    char *psz_desc = desc;
 
     msg_Dbg(vd, "DirectXEnumCallback: %s, %s", psz_desc, psz_drivername);
 
@@ -494,8 +491,6 @@ static BOOL WINAPI DirectXOpenDDrawCallback(GUID *guid, LPTSTR desc,
             *sys->display_driver = *guid;
     }
 
-    free(psz_drivername);
-    free(psz_desc);
     return TRUE;
 }
 /**
@@ -584,7 +579,7 @@ static int DirectXOpenDDraw(vout_display_t *vd)
     }
 
     /* */
-    HRESULT (WINAPI *OurDirectDrawEnumerateEx)(LPDDENUMCALLBACKEX, LPVOID, DWORD);
+    HRESULT (WINAPI *OurDirectDrawEnumerateEx)(LPDDENUMCALLBACKEXA, LPVOID, DWORD);
     OurDirectDrawEnumerateEx =
       (void *)GetProcAddress(sys->hddraw_dll, DIRECTDRAWENUMERATEEX_NAME);
 
@@ -1427,23 +1422,22 @@ typedef struct
 /*****************************************************************************
  * config variable callback
  *****************************************************************************/
-static BOOL WINAPI DirectXEnumCallback2(GUID *guid, LPTSTR desc,
-                                        LPTSTR drivername, VOID *data,
+static BOOL WINAPI DirectXEnumCallback2(GUID *guid, LPSTR desc,
+                                        LPSTR drivername, VOID *data,
                                         HMONITOR hmon)
 {
     enum_context_t *ctx = data;
 
     VLC_UNUSED(guid); VLC_UNUSED(desc); VLC_UNUSED(hmon);
 
-    char *psz_drivername = FromT(drivername);
+    char *psz_drivername = drivername;
     ctx->values = xrealloc(ctx->values, (ctx->count + 1) * sizeof(char *));
     ctx->descs = xrealloc(ctx->descs, (ctx->count + 1) * sizeof(char *));
 
-    ctx->values[ctx->count] = psz_drivername;
-    ctx->descs[ctx->count] = psz_drivername;
+    ctx->values[ctx->count] = strdup(psz_drivername);
+    ctx->descs[ctx->count] = strdup(psz_drivername);
     ctx->count++;
 
-    free(psz_drivername);
     return TRUE; /* Keep enumerating */
 }
 
@@ -1463,7 +1457,7 @@ static int FindDevicesCallback(vlc_object_t *object, const char *name,
     if (hddraw_dll != NULL)
     {
         /* Enumerate displays */
-        HRESULT (WINAPI *OurDirectDrawEnumerateEx)(LPDDENUMCALLBACKEX,
+        HRESULT (WINAPI *OurDirectDrawEnumerateEx)(LPDDENUMCALLBACKEXA,
                                                    LPVOID, DWORD) =
               (void *)GetProcAddress(hddraw_dll, DIRECTDRAWENUMERATEEX_NAME);
         if (OurDirectDrawEnumerateEx != NULL)
