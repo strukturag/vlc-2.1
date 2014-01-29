@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2013-12-07 17:17+0100\n"
+"POT-Creation-Date: 2014-01-29 20:14+0100\n"
 "PO-Revision-Date: 2013-08-18 11:14+0000\n"
 "Last-Translator: ppanhh <ppanhh@gmail.com>\n"
 "Language-Team: Vietnamese (http://www.transifex.com/projects/p/vlc-trans/"
@@ -44,7 +44,7 @@ msgstr "Chọn\"Tùy chọn nâng cao\" để có thêm các lựa chọn khác.
 
 #: include/vlc_config_cat.h:38 modules/gui/macosx/simple_prefs.m:269
 #: modules/gui/qt4/components/simple_preferences.cpp:220
-#: modules/gui/qt4/menus.cpp:1075
+#: modules/gui/qt4/menus.cpp:1076
 msgid "Interface"
 msgstr "Giao diện"
 
@@ -357,7 +357,7 @@ msgstr "Bản hoàn thiện cho Video Theo Yêu Cầu"
 #: modules/gui/qt4/components/controller.hpp:117
 #: modules/gui/qt4/components/playlist/playlist.cpp:172
 #: modules/gui/qt4/components/playlist/selector.cpp:231
-#: modules/gui/qt4/dialogs/playlist.cpp:40 modules/gui/qt4/menus.cpp:1111
+#: modules/gui/qt4/dialogs/playlist.cpp:40 modules/gui/qt4/menus.cpp:1112
 msgid "Playlist"
 msgstr "Danh sách"
 
@@ -1609,7 +1609,7 @@ msgstr ""
 "cần giao diện đồ họa."
 
 #: src/libvlc.h:134 src/libvlc-module.c:1401 src/libvlc-module.c:1402
-#: src/libvlc-module.c:2539 src/video_output/vout_intf.c:184
+#: src/libvlc-module.c:2548 src/video_output/vout_intf.c:184
 msgid "Zoom"
 msgstr "Phóng to"
 
@@ -1764,7 +1764,7 @@ msgstr ""
 "là tối ưu nhất với đối tượng cần được tác động."
 
 #: src/libvlc-module.c:133 modules/gui/macosx/simple_prefs.m:310
-#: modules/stream_out/display.c:40 modules/gui/qt4/ui/sprefs_audio.h:412
+#: modules/stream_out/display.c:40 modules/gui/qt4/ui/sprefs_audio.h:421
 msgid "Enable audio"
 msgstr "Cho phép bật Audio"
 
@@ -1838,6 +1838,7 @@ msgstr ""
 "luồng audio ở trạng thái hoạt động)."
 
 #: src/libvlc-module.c:166 modules/gui/macosx/simple_prefs.m:316
+#: modules/gui/qt4/ui/sprefs_audio.h:429
 msgid "Use S/PDIF when available"
 msgstr "Sử dụng S/PDIF khi có thể"
 
@@ -2708,7 +2709,7 @@ msgstr ""
 #: modules/gui/macosx/simple_prefs.m:923 modules/gui/macosx/VideoEffects.m:57
 #: modules/gui/qt4/components/preferences_widgets.cpp:545
 #: modules/video_filter/marq.c:60 modules/video_filter/rss.c:71
-#: modules/video_filter/rss.c:184 modules/video_output/msw/directx.c:1458
+#: modules/video_filter/rss.c:184 modules/video_output/msw/directx.c:1452
 msgid "Default"
 msgstr "Mặc định"
 
@@ -4188,11 +4189,11 @@ msgstr "Xếp hạng bình thường"
 msgid "Select the hotkey to set the playback rate back to normal."
 msgstr "Chọn phím tắt để chỉnh tập tin này về dạng bình thường."
 
-#: src/libvlc-module.c:1219 modules/gui/qt4/menus.cpp:864
+#: src/libvlc-module.c:1219 modules/gui/qt4/menus.cpp:865
 msgid "Faster (fine)"
 msgstr "Nhanh hơn (tốt)"
 
-#: src/libvlc-module.c:1221 modules/gui/qt4/menus.cpp:872
+#: src/libvlc-module.c:1221 modules/gui/qt4/menus.cpp:873
 msgid "Slower (fine)"
 msgstr "Chậm hơn (tốt)"
 
@@ -4356,7 +4357,7 @@ msgstr "Chọn thời gian để phát dài, tính bằng giây."
 
 #: src/libvlc-module.c:1270 modules/control/hotkeys.c:159
 #: modules/gui/qt4/components/controller.hpp:119
-#: modules/gui/qt4/components/controller.hpp:131 modules/gui/qt4/menus.cpp:935
+#: modules/gui/qt4/components/controller.hpp:131 modules/gui/qt4/menus.cpp:936
 #: modules/gui/skins2/commands/cmd_quit.cpp:45
 msgid "Quit"
 msgstr "Thoát"
@@ -4972,21 +4973,21 @@ msgstr "Nguồn thời gian"
 msgid "Hot keys"
 msgstr "Phím tắt"
 
-#: src/libvlc-module.c:2549
+#: src/libvlc-module.c:2558
 msgid "Jump sizes"
 msgstr "Kích thước phần nhảy đến"
 
-#: src/libvlc-module.c:2628
+#: src/libvlc-module.c:2637
 msgid "print help for VLC (can be combined with --advanced and --help-verbose)"
 msgstr ""
 "lệnh hiển thị trợ giúp dành cho VLC (có thể được kết hợp với --nâng cao và "
 "-- trợ giúp-verbose)"
 
-#: src/libvlc-module.c:2631
+#: src/libvlc-module.c:2640
 msgid "Exhaustive help for VLC and its modules"
 msgstr "Trợ giúp hoàn chỉnh cho phần sử dụng VLC và module"
 
-#: src/libvlc-module.c:2633
+#: src/libvlc-module.c:2642
 msgid ""
 "print help for VLC and all its modules (can be combined with --advanced and "
 "--help-verbose)"
@@ -4994,19 +4995,19 @@ msgstr ""
 "in ra cac thong tin tro giup danh cho VLC cung cac modul ho tro ( co the ket "
 "hop voi dong lenh --advanced va --help-verbose)"
 
-#: src/libvlc-module.c:2636
+#: src/libvlc-module.c:2645
 msgid "ask for extra verbosity when displaying help"
 msgstr "tang verbosity khi hien thi phan tro giup"
 
-#: src/libvlc-module.c:2638
+#: src/libvlc-module.c:2647
 msgid "print a list of available modules"
 msgstr "in ra danh sach cac module hien co"
 
-#: src/libvlc-module.c:2640
+#: src/libvlc-module.c:2649
 msgid "print a list of available modules with extra detail"
 msgstr "in ra danh sach cac module hien co voi thong tin chi tiet kem theo"
 
-#: src/libvlc-module.c:2642
+#: src/libvlc-module.c:2651
 msgid ""
 "print help on a specific module (can be combined with --advanced and --help-"
 "verbose). Prefix the module name with = for strict matches."
@@ -5015,28 +5016,28 @@ msgstr ""
 "va --help-verbose). Dien vao phia truoc ten module = de gioi han pham vi tim "
 "kiem."
 
-#: src/libvlc-module.c:2646
+#: src/libvlc-module.c:2655
 msgid "no configuration option will be loaded nor saved to config file"
 msgstr ""
 "khong co tuy chon chinh sua nao se duoc nap hoac luu vao tap tin dieu chinh"
 
-#: src/libvlc-module.c:2648
+#: src/libvlc-module.c:2657
 msgid "reset the current config to the default values"
 msgstr "thiet dat lai tuy chinh hien tai ve gia tri mac dinh"
 
-#: src/libvlc-module.c:2650
+#: src/libvlc-module.c:2659
 msgid "use alternate config file"
 msgstr "sử dụng tập tin chỉnh sửa thay thế"
 
-#: src/libvlc-module.c:2652
+#: src/libvlc-module.c:2661
 msgid "resets the current plugins cache"
 msgstr "thiết đặt lại các bộ nhớ đệm cho plugin hiện tại"
 
-#: src/libvlc-module.c:2654
+#: src/libvlc-module.c:2663
 msgid "print version information"
 msgstr "in thông tin về phiên bản"
 
-#: src/libvlc-module.c:2692
+#: src/libvlc-module.c:2701
 msgid "main program"
 msgstr "chương trình chính"
 
@@ -9150,7 +9151,7 @@ msgstr "Chỉnh âm lượng"
 
 #: modules/access/vcdx/info.c:69 modules/gui/macosx/ControlsBar.m:486
 #: modules/gui/macosx/fspanel.m:463 modules/gui/qt4/dialogs/toolbar.cpp:365
-#: modules/stream_out/raop.c:150 modules/gui/qt4/ui/sprefs_audio.h:413
+#: modules/stream_out/raop.c:150 modules/gui/qt4/ui/sprefs_audio.h:422
 msgid "Volume"
 msgstr "Âm lượng"
 
@@ -9162,7 +9163,7 @@ msgstr "Thông tin hệ thống"
 msgid "Entries"
 msgstr "Dòng"
 
-#: modules/access/vcdx/info.c:75 modules/gui/qt4/ui/sprefs_audio.h:427
+#: modules/access/vcdx/info.c:75 modules/gui/qt4/ui/sprefs_audio.h:437
 msgid "Tracks"
 msgstr "Track"
 
@@ -10385,7 +10386,7 @@ msgstr "Định dạng audio đầu ra cho AudioQueue (iOS / Mac OS)"
 msgid "Android AudioTrack audio output"
 msgstr "Định dạng audio đầu ra cho "
 
-#: modules/audio_output/audiounit_ios.c:93
+#: modules/audio_output/audiounit_ios.c:94
 msgid "AudioUnit output for iOS"
 msgstr "Đơn vị audio đầu ra cho iOS"
 
@@ -13984,7 +13985,7 @@ msgstr "Nhan"
 
 #: modules/codec/x264.c:429 modules/gui/macosx/MainMenu.m:357
 #: modules/gui/macosx/simple_prefs.m:711
-#: modules/gui/qt4/components/simple_preferences.cpp:671
+#: modules/gui/qt4/components/simple_preferences.cpp:673
 #: modules/misc/gnutls.c:64 modules/text_renderer/freetype.c:196
 #: modules/text_renderer/freetype.c:215 modules/text_renderer/quartztext.c:121
 #: modules/text_renderer/win32text.c:82
@@ -14096,14 +14097,14 @@ msgstr ""
 #: modules/control/dbus/dbus_root.c:81 modules/gui/macosx/MainWindow.m:202
 #: modules/gui/macosx/MainWindow.m:705 modules/gui/macosx/MainWindow.m:711
 #: modules/gui/macosx/MainWindow.m:1279 modules/gui/ncurses.c:1030
-#: modules/gui/qt4/dialogs/help.cpp:91 modules/gui/qt4/main_interface.cpp:1013
-#: modules/gui/qt4/main_interface.cpp:1017
-#: modules/gui/qt4/main_interface.cpp:1056
-#: modules/gui/qt4/main_interface.cpp:1058
-#: modules/gui/qt4/main_interface.cpp:1158
-#: modules/gui/qt4/main_interface.cpp:1175
-#: modules/gui/qt4/main_interface.cpp:1183
-#: modules/gui/qt4/main_interface.cpp:1206 modules/lua/libs/httpd.c:80
+#: modules/gui/qt4/dialogs/help.cpp:91 modules/gui/qt4/main_interface.cpp:1019
+#: modules/gui/qt4/main_interface.cpp:1023
+#: modules/gui/qt4/main_interface.cpp:1062
+#: modules/gui/qt4/main_interface.cpp:1064
+#: modules/gui/qt4/main_interface.cpp:1164
+#: modules/gui/qt4/main_interface.cpp:1181
+#: modules/gui/qt4/main_interface.cpp:1189
+#: modules/gui/qt4/main_interface.cpp:1212 modules/lua/libs/httpd.c:80
 #: modules/notify/growl.m:281 modules/video_output/xcb/window.c:313
 msgid "VLC media player"
 msgstr "Chương trình VLC"
@@ -14253,56 +14254,56 @@ msgstr "N/A"
 msgid "Program Service ID: %s"
 msgstr ""
 
-#: modules/control/hotkeys.c:769
+#: modules/control/hotkeys.c:773
 #, c-format
 msgid "Aspect ratio: %s"
 msgstr "Tỉ số đồng dạng: %s"
 
-#: modules/control/hotkeys.c:799
+#: modules/control/hotkeys.c:803
 #, c-format
 msgid "Crop: %s"
 msgstr "Cắt bỏ: %s"
 
-#: modules/control/hotkeys.c:847
+#: modules/control/hotkeys.c:851
 msgid "Zooming reset"
 msgstr "Cài đặt lại phần hiển thị phóng to"
 
-#: modules/control/hotkeys.c:854
+#: modules/control/hotkeys.c:858
 msgid "Scaled to screen"
 msgstr "Canh tỉ lệ vừa với màn hình"
 
-#: modules/control/hotkeys.c:856
+#: modules/control/hotkeys.c:860
 msgid "Original Size"
 msgstr "Kích thước ban đầu"
 
-#: modules/control/hotkeys.c:925
+#: modules/control/hotkeys.c:929
 #, c-format
 msgid "Zoom mode: %s"
 msgstr "Chế độ phóng to: %s"
 
-#: modules/control/hotkeys.c:940 modules/control/hotkeys.c:997
+#: modules/control/hotkeys.c:944 modules/control/hotkeys.c:1001
 msgid "Deinterlace off"
 msgstr "Tắt chế độ chống quét mành"
 
-#: modules/control/hotkeys.c:959 modules/control/hotkeys.c:992
+#: modules/control/hotkeys.c:963 modules/control/hotkeys.c:996
 msgid "Deinterlace on"
 msgstr "Mở chế độ chống quét mành"
 
-#: modules/control/hotkeys.c:1022
+#: modules/control/hotkeys.c:1026
 msgid "Subtitle position: no active subtitle"
 msgstr "Vị trí phụ đề: hiện chưa kích hoạt phụ đề"
 
-#: modules/control/hotkeys.c:1034
+#: modules/control/hotkeys.c:1038
 #, c-format
 msgid "Subtitle position %d px"
 msgstr "Vị trí hiển thị phụ đề %d px"
 
-#: modules/control/hotkeys.c:1168
+#: modules/control/hotkeys.c:1172
 #, c-format
 msgid "Volume %ld%%"
 msgstr "Âm lượng %ld%%"
 
-#: modules/control/hotkeys.c:1173
+#: modules/control/hotkeys.c:1177
 #, c-format
 msgid "Speed: %.2fx"
 msgstr "Tốc độ: %.2fx"
@@ -14442,7 +14443,7 @@ msgstr "Đang mở"
 
 #: modules/control/rc.c:73 modules/gui/macosx/ControlsBar.m:431
 #: modules/gui/macosx/MainMenu.m:1201 modules/gui/macosx/MainMenu.m:1202
-#: modules/gui/macosx/MainMenu.m:1203 modules/gui/qt4/menus.cpp:817
+#: modules/gui/macosx/MainMenu.m:1203 modules/gui/qt4/menus.cpp:818
 msgid "Pause"
 msgstr "Tạm dừng"
 
@@ -16926,7 +16927,7 @@ msgid "Click to play the audio at maximum volume."
 msgstr "Click để phát audio ở âm lượng tối đa."
 
 #: modules/gui/macosx/ControlsBar.m:496 modules/gui/macosx/simple_prefs.m:309
-#: modules/gui/qt4/ui/sprefs_audio.h:420
+#: modules/gui/qt4/ui/sprefs_audio.h:430
 msgid "Effects"
 msgstr "Hiệu ứng"
 
@@ -16986,7 +16987,7 @@ msgstr "Chọn một vị trí để xuất dữ liệu ra"
 #: modules/gui/qt4/components/simple_preferences.cpp:421
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:98
 #: modules/gui/qt4/ui/open.h:263 modules/gui/qt4/ui/open_disk.h:307
-#: modules/gui/qt4/ui/open_file.h:147 modules/gui/qt4/ui/sprefs_audio.h:418
+#: modules/gui/qt4/ui/open_file.h:147 modules/gui/qt4/ui/sprefs_audio.h:428
 #: modules/gui/qt4/ui/sprefs_input.h:351 modules/gui/qt4/ui/sprefs_video.h:358
 msgid "Browse..."
 msgstr "Duyệt tìm..."
@@ -17176,7 +17177,7 @@ msgstr ""
 #: modules/gui/macosx/ConvertAndSave.m:1052
 #: modules/gui/macosx/simple_prefs.m:710 modules/gui/macosx/simple_prefs.m:734
 #: modules/gui/macosx/simple_prefs.m:1293
-#: modules/gui/qt4/components/simple_preferences.cpp:668
+#: modules/gui/qt4/components/simple_preferences.cpp:670
 msgid "Custom"
 msgstr "Tự chọn"
 
@@ -17855,7 +17856,7 @@ msgid "Bring All to Front"
 msgstr "Đưa tất cả về phía trước"
 
 #: modules/gui/macosx/MainMenu.m:447 modules/gui/qt4/dialogs/help.cpp:54
-#: modules/gui/qt4/menus.cpp:931
+#: modules/gui/qt4/menus.cpp:932
 msgid "Help"
 msgstr "Trợ giúp"
 
@@ -18455,7 +18456,7 @@ msgstr "Chọn"
 
 #: modules/gui/macosx/simple_prefs.m:269
 #: modules/gui/qt4/components/simple_preferences.cpp:220
-#: modules/gui/qt4/components/simple_preferences.cpp:695
+#: modules/gui/qt4/components/simple_preferences.cpp:697
 msgid "Interface Settings"
 msgstr "Thiết lập giao diện"
 
@@ -18473,7 +18474,7 @@ msgstr "Thiết lập Video"
 
 #: modules/gui/macosx/simple_prefs.m:275
 #: modules/gui/qt4/components/simple_preferences.cpp:226
-#: modules/gui/qt4/components/simple_preferences.cpp:840
+#: modules/gui/qt4/components/simple_preferences.cpp:842
 msgid "Subtitle & On Screen Display Settings"
 msgstr "Thiết lập cho phụ đề & phần hiển thị trên màn hình"
 
@@ -18501,7 +18502,7 @@ msgstr "Hiệu ứng"
 msgid "Keep audio level between sessions"
 msgstr "Giữ mức độ đối với audio giữa các phiên khởi động"
 
-#: modules/gui/macosx/simple_prefs.m:319 modules/gui/qt4/ui/sprefs_audio.h:415
+#: modules/gui/macosx/simple_prefs.m:319 modules/gui/qt4/ui/sprefs_audio.h:424
 msgid "Always reset audio start level to:"
 msgstr "Luôn thiết đặt lại cấp độ audio ở mức:"
 
@@ -18714,22 +18715,22 @@ msgid "No check was performed yet."
 msgstr "Vẫn chưa thực hiện việc kiểm tra."
 
 #: modules/gui/macosx/simple_prefs.m:710
-#: modules/gui/qt4/components/simple_preferences.cpp:669
+#: modules/gui/qt4/components/simple_preferences.cpp:671
 msgid "Lowest latency"
 msgstr "Độ trễ thấp nhất"
 
 #: modules/gui/macosx/simple_prefs.m:711
-#: modules/gui/qt4/components/simple_preferences.cpp:670
+#: modules/gui/qt4/components/simple_preferences.cpp:672
 msgid "Low latency"
 msgstr "Độ trễ thấp"
 
 #: modules/gui/macosx/simple_prefs.m:711
-#: modules/gui/qt4/components/simple_preferences.cpp:672
+#: modules/gui/qt4/components/simple_preferences.cpp:674
 msgid "High latency"
 msgstr "Độ trễ cao"
 
 #: modules/gui/macosx/simple_prefs.m:711
-#: modules/gui/qt4/components/simple_preferences.cpp:673
+#: modules/gui/qt4/components/simple_preferences.cpp:675
 msgid "Higher latency"
 msgstr "Độ trễ cao hơn"
 
@@ -20134,21 +20135,21 @@ msgstr "Mở Tập Tin Phụ Đề"
 msgid "Dock/undock fullscreen controller to/from bottom of screen"
 msgstr "Cố định/không cố định điều khiển toàn màn hình ở phía dưới màn hình"
 
-#: modules/gui/qt4/components/controller_widget.cpp:138
+#: modules/gui/qt4/components/controller_widget.cpp:132
 msgctxt "Tooltip|Unmute"
 msgid "Unmute"
 msgstr "Mở âm thanh"
 
-#: modules/gui/qt4/components/controller_widget.cpp:147
+#: modules/gui/qt4/components/controller_widget.cpp:141
 msgctxt "Tooltip|Mute"
 msgid "Mute"
 msgstr "Tắt âm thanh"
 
-#: modules/gui/qt4/components/controller_widget.cpp:233
+#: modules/gui/qt4/components/controller_widget.cpp:227
 msgid "Pause the playback"
 msgstr "Tạm dừng chế độ phát lại"
 
-#: modules/gui/qt4/components/controller_widget.cpp:242
+#: modules/gui/qt4/components/controller_widget.cpp:236
 msgid ""
 "Loop from point A to point B continuously\n"
 "Click to set point A"
@@ -20156,15 +20157,15 @@ msgstr ""
 "Lặp lại liên tục từ vị trí A đến vị trí B\n"
 "Click để xác định vị trí A"
 
-#: modules/gui/qt4/components/controller_widget.cpp:248
+#: modules/gui/qt4/components/controller_widget.cpp:242
 msgid "Click to set point B"
 msgstr "Click để chọn vị trí B"
 
-#: modules/gui/qt4/components/controller_widget.cpp:253
+#: modules/gui/qt4/components/controller_widget.cpp:247
 msgid "Stop the A to B loop"
 msgstr "Dừng việc lặp lại từ A đến B"
 
-#: modules/gui/qt4/components/controller_widget.cpp:274
+#: modules/gui/qt4/components/controller_widget.cpp:268
 msgid "Aspect Ratio"
 msgstr "Tỉ lệ đồng dạng"
 
@@ -20757,12 +20758,12 @@ msgid "Key: "
 msgstr "Khóa:"
 
 #: modules/gui/qt4/components/simple_preferences.cpp:228
-#: modules/gui/qt4/components/simple_preferences.cpp:597
+#: modules/gui/qt4/components/simple_preferences.cpp:599
 msgid "Input & Codecs Settings"
 msgstr "Thiết lập Nhập dữ liệu & Codec"
 
 #: modules/gui/qt4/components/simple_preferences.cpp:230
-#: modules/gui/qt4/components/simple_preferences.cpp:884
+#: modules/gui/qt4/components/simple_preferences.cpp:886
 msgid "Configure Hotkeys"
 msgstr "Chỉnh sửa phím tắt"
 
@@ -20770,7 +20771,7 @@ msgstr "Chỉnh sửa phím tắt"
 msgid "Device:"
 msgstr "Thiết bị:"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:602
+#: modules/gui/qt4/components/simple_preferences.cpp:604
 msgid ""
 "If this property is blank, different values\n"
 "for DVD, VCD, and CDDA are set.\n"
@@ -20782,44 +20783,44 @@ msgstr ""
 "Bạn có thể tạo một thiết lập cũ và chỉnh sửa nó \n"
 "một cách riêng rẽ trong phần Tùy Chỉnh nâng cao."
 
-#: modules/gui/qt4/components/simple_preferences.cpp:721
+#: modules/gui/qt4/components/simple_preferences.cpp:723
 msgid "This is VLC's skinnable interface. You can download other skins at"
 msgstr ""
 "Đây là giao diện có thể thay đổi bằng cách chỉnh sửa dưới dạng tập tin. Bạn "
 "có thể tải về các tập tin này tại"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:723
+#: modules/gui/qt4/components/simple_preferences.cpp:725
 msgid "VLC skins website"
 msgstr "Website cho giao diện của VLC"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:752
+#: modules/gui/qt4/components/simple_preferences.cpp:754
 msgid "System's default"
 msgstr "Mặc định theo hệ thống"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:1242
+#: modules/gui/qt4/components/simple_preferences.cpp:1246
 msgid "File associations"
 msgstr "Mở các tập tin có định dạng"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:1251
+#: modules/gui/qt4/components/simple_preferences.cpp:1255
 #: modules/gui/qt4/dialogs_provider.hpp:42
 msgid "Audio Files"
 msgstr "Tập tin Audio"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:1252
+#: modules/gui/qt4/components/simple_preferences.cpp:1256
 #: modules/gui/qt4/dialogs_provider.hpp:41
 msgid "Video Files"
 msgstr "Tập tin Video"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:1253
+#: modules/gui/qt4/components/simple_preferences.cpp:1257
 #: modules/gui/qt4/dialogs_provider.hpp:43
 msgid "Playlist Files"
 msgstr "Tập tin danh sách"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:1305
+#: modules/gui/qt4/components/simple_preferences.cpp:1309
 msgid "&Apply"
 msgstr "&Áp dụng"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:1306
+#: modules/gui/qt4/components/simple_preferences.cpp:1310
 #: modules/gui/qt4/dialogs/convert.cpp:109
 #: modules/gui/qt4/dialogs/gototime.cpp:49
 #: modules/gui/qt4/dialogs/open.cpp:108 modules/gui/qt4/dialogs/openurl.cpp:60
@@ -20985,7 +20986,7 @@ msgid "Convert"
 msgstr "Chuyển đổi"
 
 #: modules/gui/qt4/dialogs/convert.cpp:58
-#: modules/gui/qt4/ui/sprefs_audio.h:417
+#: modules/gui/qt4/ui/sprefs_audio.h:427
 msgid "Destination file:"
 msgstr "Đích đến của tập tin:"
 
@@ -21199,7 +21200,7 @@ msgstr "Cập nhật cây"
 msgid "Clear the messages"
 msgstr "Loại bỏ thông báo"
 
-#: modules/gui/qt4/dialogs/open.cpp:78 modules/gui/qt4/menus.cpp:915
+#: modules/gui/qt4/dialogs/open.cpp:78 modules/gui/qt4/menus.cpp:916
 msgid "Open Media"
 msgstr "Mở Tập Tin"
 
@@ -21229,7 +21230,7 @@ msgid "&Enqueue"
 msgstr "&Đặt thứ tự"
 
 #: modules/gui/qt4/dialogs/open.cpp:117 modules/gui/qt4/dialogs/open.cpp:212
-#: modules/gui/qt4/dialogs/openurl.cpp:54 modules/gui/qt4/menus.cpp:809
+#: modules/gui/qt4/dialogs/openurl.cpp:54 modules/gui/qt4/menus.cpp:810
 msgid "&Play"
 msgstr "&Phát"
 
@@ -21625,11 +21626,11 @@ msgstr "Thời khóa biểu:"
 msgid "VOD: "
 msgstr "VOD: "
 
-#: modules/gui/qt4/main_interface.cpp:1159
+#: modules/gui/qt4/main_interface.cpp:1165
 msgid "Control menu for the player"
 msgstr "Menu điều khiển của VLC"
 
-#: modules/gui/qt4/main_interface.cpp:1203
+#: modules/gui/qt4/main_interface.cpp:1209
 msgid "Paused"
 msgstr "Tạm dừng"
 
@@ -21641,23 +21642,23 @@ msgstr "&Tập tin"
 msgid "P&layback"
 msgstr "Chế Đ&ộ Phát"
 
-#: modules/gui/qt4/menus.cpp:331 modules/gui/qt4/menus.cpp:1038
+#: modules/gui/qt4/menus.cpp:331 modules/gui/qt4/menus.cpp:1039
 msgid "&Audio"
 msgstr "&Audio"
 
-#: modules/gui/qt4/menus.cpp:332 modules/gui/qt4/menus.cpp:1045
+#: modules/gui/qt4/menus.cpp:332 modules/gui/qt4/menus.cpp:1046
 msgid "&Video"
 msgstr "&Video"
 
-#: modules/gui/qt4/menus.cpp:333 modules/gui/qt4/menus.cpp:1052
+#: modules/gui/qt4/menus.cpp:333 modules/gui/qt4/menus.cpp:1053
 msgid "Subti&tle"
 msgstr "Phụ đ&ề"
 
-#: modules/gui/qt4/menus.cpp:335 modules/gui/qt4/menus.cpp:1068
+#: modules/gui/qt4/menus.cpp:335 modules/gui/qt4/menus.cpp:1069
 msgid "T&ools"
 msgstr "C&ông cụ"
 
-#: modules/gui/qt4/menus.cpp:338 modules/gui/qt4/menus.cpp:1103
+#: modules/gui/qt4/menus.cpp:338 modules/gui/qt4/menus.cpp:1104
 msgid "V&iew"
 msgstr "C&hế độ hiển thị"
 
@@ -21673,7 +21674,7 @@ msgstr "Mở &Tập Tin..."
 msgid "&Open Multiple Files..."
 msgstr "&Mở Nhiều Tập Tin..."
 
-#: modules/gui/qt4/menus.cpp:359 modules/gui/qt4/menus.cpp:920
+#: modules/gui/qt4/menus.cpp:359 modules/gui/qt4/menus.cpp:921
 msgid "Open &Disc..."
 msgstr "Mở &đĩa"
 
@@ -21681,7 +21682,7 @@ msgstr "Mở &đĩa"
 msgid "Open &Network Stream..."
 msgstr "Mở &Luồng Dữ Liệu từ Mạng..."
 
-#: modules/gui/qt4/menus.cpp:363 modules/gui/qt4/menus.cpp:924
+#: modules/gui/qt4/menus.cpp:363 modules/gui/qt4/menus.cpp:925
 msgid "Open &Capture Device..."
 msgstr "Mở &thiết bị ghi hình..."
 
@@ -21709,7 +21710,7 @@ msgstr "Đóng lại khi danh sách phát đã hoàn tất"
 msgid "Close to systray"
 msgstr "Đóng lại ở khay hệ thống"
 
-#: modules/gui/qt4/menus.cpp:399 modules/gui/qt4/menus.cpp:1166
+#: modules/gui/qt4/menus.cpp:399 modules/gui/qt4/menus.cpp:1167
 msgid "&Quit"
 msgstr "&Thoát"
 
@@ -21797,159 +21798,159 @@ msgstr "Audio &Track"
 msgid "Audio &Device"
 msgstr "Thiết &bị Audio"
 
-#: modules/gui/qt4/menus.cpp:608
+#: modules/gui/qt4/menus.cpp:609
 msgid "&Stereo Mode"
 msgstr "&Chế độ Stereo"
 
-#: modules/gui/qt4/menus.cpp:611
+#: modules/gui/qt4/menus.cpp:612
 msgid "&Visualizations"
 msgstr "&Hiệu ứng"
 
-#: modules/gui/qt4/menus.cpp:637
+#: modules/gui/qt4/menus.cpp:638
 msgid "Add &Subtitle File..."
 msgstr "Thêm T&ập tin Phụ đề..."
 
-#: modules/gui/qt4/menus.cpp:639
+#: modules/gui/qt4/menus.cpp:640
 msgid "Sub &Track"
 msgstr "Track ph&ụ đề"
 
-#: modules/gui/qt4/menus.cpp:662
+#: modules/gui/qt4/menus.cpp:663
 msgid "Video &Track"
 msgstr "Video &Track"
 
-#: modules/gui/qt4/menus.cpp:666
+#: modules/gui/qt4/menus.cpp:667
 msgid "&Fullscreen"
 msgstr "&Toàn màn hình"
 
-#: modules/gui/qt4/menus.cpp:667
+#: modules/gui/qt4/menus.cpp:668
 msgid "Always Fit &Window"
 msgstr "Luôn vừa vặn &màn hình"
 
-#: modules/gui/qt4/menus.cpp:668
+#: modules/gui/qt4/menus.cpp:669
 msgid "Always &on Top"
 msgstr "Luôn ở &trên cùng"
 
-#: modules/gui/qt4/menus.cpp:669
+#: modules/gui/qt4/menus.cpp:670
 msgid "Set as Wall&paper"
 msgstr "Đặt làm Hì&nh Nền"
 
-#: modules/gui/qt4/menus.cpp:673
+#: modules/gui/qt4/menus.cpp:674
 msgid "&Zoom"
 msgstr "&Phóng to"
 
-#: modules/gui/qt4/menus.cpp:674
+#: modules/gui/qt4/menus.cpp:675
 msgid "&Aspect Ratio"
 msgstr "&Tỉ lệ đồng dạng"
 
-#: modules/gui/qt4/menus.cpp:675
+#: modules/gui/qt4/menus.cpp:676
 msgid "&Crop"
 msgstr "&Cắt bỏ"
 
-#: modules/gui/qt4/menus.cpp:679
+#: modules/gui/qt4/menus.cpp:680
 msgid "&Deinterlace"
 msgstr "&Chống quét mành"
 
-#: modules/gui/qt4/menus.cpp:680
+#: modules/gui/qt4/menus.cpp:681
 msgid "&Deinterlace mode"
 msgstr "&Chế độ chống quét mành"
 
-#: modules/gui/qt4/menus.cpp:681
+#: modules/gui/qt4/menus.cpp:682
 msgid "&Post processing"
 msgstr "&Tiền xử lý"
 
-#: modules/gui/qt4/menus.cpp:685
+#: modules/gui/qt4/menus.cpp:686
 msgid "Take &Snapshot"
 msgstr "Chụp &Ảnh màn hình"
 
-#: modules/gui/qt4/menus.cpp:708
+#: modules/gui/qt4/menus.cpp:709
 msgid "T&itle"
 msgstr "Tiê&u đề"
 
-#: modules/gui/qt4/menus.cpp:709
+#: modules/gui/qt4/menus.cpp:710
 msgid "&Chapter"
 msgstr "&Chương"
 
-#: modules/gui/qt4/menus.cpp:711
+#: modules/gui/qt4/menus.cpp:712
 msgid "&Program"
 msgstr "&Chương trình"
 
-#: modules/gui/qt4/menus.cpp:715
+#: modules/gui/qt4/menus.cpp:716
 msgid "&Manage"
 msgstr "&Quản lý"
 
-#: modules/gui/qt4/menus.cpp:771
+#: modules/gui/qt4/menus.cpp:772
 msgid "&Help..."
 msgstr "&Trợ giúp..."
 
-#: modules/gui/qt4/menus.cpp:774
+#: modules/gui/qt4/menus.cpp:775
 msgid "Check for &Updates..."
 msgstr "Kiểm tra cập nhật &phiên bản mới..."
 
-#: modules/gui/qt4/menus.cpp:823
+#: modules/gui/qt4/menus.cpp:824
 msgid "&Stop"
 msgstr "&Dừng lại"
 
-#: modules/gui/qt4/menus.cpp:831
+#: modules/gui/qt4/menus.cpp:832
 msgid "Pre&vious"
 msgstr "L&ùi lại"
 
-#: modules/gui/qt4/menus.cpp:837
+#: modules/gui/qt4/menus.cpp:838
 msgid "Ne&xt"
 msgstr "Tiếp t&heo"
 
-#: modules/gui/qt4/menus.cpp:850
+#: modules/gui/qt4/menus.cpp:851
 msgid "Sp&eed"
 msgstr "Tố&c độ"
 
-#: modules/gui/qt4/menus.cpp:856
+#: modules/gui/qt4/menus.cpp:857
 msgid "&Faster"
 msgstr "Nh&anh hơn"
 
-#: modules/gui/qt4/menus.cpp:868
+#: modules/gui/qt4/menus.cpp:869
 msgid "N&ormal Speed"
 msgstr "Tố&c độ bình thường"
 
-#: modules/gui/qt4/menus.cpp:878
+#: modules/gui/qt4/menus.cpp:879
 msgid "Slo&wer"
 msgstr "Ch&ậm hơn"
 
-#: modules/gui/qt4/menus.cpp:893
+#: modules/gui/qt4/menus.cpp:894
 msgid "&Jump Forward"
 msgstr "Nhảy t&ới phía trước"
 
-#: modules/gui/qt4/menus.cpp:900
+#: modules/gui/qt4/menus.cpp:901
 msgid "Jump Bac&kward"
 msgstr "Nhảy về phía s&au"
 
-#: modules/gui/qt4/menus.cpp:907
+#: modules/gui/qt4/menus.cpp:908
 msgid "Ctrl+T"
 msgstr "Ctrl+T"
 
-#: modules/gui/qt4/menus.cpp:922
+#: modules/gui/qt4/menus.cpp:923
 msgid "Open &Network..."
 msgstr "Mở Mạn&g..."
 
-#: modules/gui/qt4/menus.cpp:1024
+#: modules/gui/qt4/menus.cpp:1025
 msgid "Leave Fullscreen"
 msgstr "Thoát khỏi toàn màn hình"
 
-#: modules/gui/qt4/menus.cpp:1058
+#: modules/gui/qt4/menus.cpp:1059
 msgid "&Playback"
 msgstr "&Chế Độ Phát"
 
-#: modules/gui/qt4/menus.cpp:1147
+#: modules/gui/qt4/menus.cpp:1148
 msgid "&Hide VLC media player in taskbar"
 msgstr "Ẩ&n chương trình VLC vào thanh taskbar"
 
-#: modules/gui/qt4/menus.cpp:1153
+#: modules/gui/qt4/menus.cpp:1154
 msgid "Sho&w VLC media player"
 msgstr "Hiể&n thị chương trình VLC"
 
-#: modules/gui/qt4/menus.cpp:1164
+#: modules/gui/qt4/menus.cpp:1165
 msgid "&Open Media"
 msgstr "&Mở tập tin"
 
-#: modules/gui/qt4/menus.cpp:1628
+#: modules/gui/qt4/menus.cpp:1629
 msgid "&Clear"
 msgstr "Xóa"
 
@@ -23324,7 +23325,7 @@ msgid "Applications"
 msgstr "Ứng dụng"
 
 #: modules/services_discovery/xcb_apps.c:351
-#: modules/video_output/msw/direct3d.c:202
+#: modules/video_output/msw/direct3d.c:208
 msgid "Desktop"
 msgstr "Desktop"
 
@@ -27678,11 +27679,11 @@ msgstr ""
 msgid "Direct3D video output"
 msgstr ""
 
-#: modules/video_output/msw/directx.c:69 modules/gui/qt4/ui/sprefs_video.h:344
+#: modules/video_output/msw/directx.c:66 modules/gui/qt4/ui/sprefs_video.h:344
 msgid "Use hardware YUV->RGB conversions"
 msgstr "Sử dụng chuyển đổi phần cứng YUV->RGB"
 
-#: modules/video_output/msw/directx.c:71
+#: modules/video_output/msw/directx.c:68
 msgid ""
 "Try to use hardware acceleration for YUV->RGB conversions. This option "
 "doesn't have any effect when using overlays."
@@ -27690,11 +27691,11 @@ msgstr ""
 "Cố gắng tăng tốc phần cứng để chuyển hệ YUV->RGB. Lựa chọn này không có hiệu "
 "lực khi đang dùng chế độ che phủ."
 
-#: modules/video_output/msw/directx.c:74
+#: modules/video_output/msw/directx.c:71
 msgid "Use video buffers in system memory"
 msgstr "Sử dụng video đệm trong bộ nhớ hệ thống"
 
-#: modules/video_output/msw/directx.c:76
+#: modules/video_output/msw/directx.c:73
 msgid ""
 "Create video buffers in system memory instead of video memory. This isn't "
 "recommended as usually using video memory allows benefiting from more "
@@ -27702,11 +27703,11 @@ msgid ""
 "doesn't have any effect when using overlays."
 msgstr ""
 
-#: modules/video_output/msw/directx.c:81
+#: modules/video_output/msw/directx.c:78
 msgid "Use triple buffering for overlays"
 msgstr "Sử dụng gấp ba lần bộ nhớ đệm cho overlay."
 
-#: modules/video_output/msw/directx.c:83
+#: modules/video_output/msw/directx.c:80
 msgid ""
 "Try to use triple buffering when using YUV overlays. That results in much "
 "better video quality (no flickering)."
@@ -27715,11 +27716,11 @@ msgstr ""
 "chồng dạng YUV. Điều này sẽ làm cho chất lượng file Video đẹp hơn(không bị "
 "nhòe)."
 
-#: modules/video_output/msw/directx.c:86
+#: modules/video_output/msw/directx.c:83
 msgid "Name of desired display device"
 msgstr "Tên của thiết bị muốn hiển thị"
 
-#: modules/video_output/msw/directx.c:87
+#: modules/video_output/msw/directx.c:84
 msgid ""
 "In a multiple monitor configuration, you can specify the Windows device name "
 "of the display that you want the video window to open on. For example, \"\\"
@@ -27728,17 +27729,17 @@ msgstr ""
 "Trong phần thiết lập của máy tính gồm nhiều màn hình, bạn có thể chọn lựa "
 "tên của thiết bị hiển thị. Ví dụ \"\\\\.\\DISPLAY1\" or \"\\\\.\\DISPLAY2\"."
 
-#: modules/video_output/msw/directx.c:92
+#: modules/video_output/msw/directx.c:89
 msgid ""
 "Recommended video output for Windows XP. Incompatible with Vista's Aero "
 "interface"
 msgstr ""
 
-#: modules/video_output/msw/directx.c:102
+#: modules/video_output/msw/directx.c:99
 msgid "DirectX (DirectDraw) video output"
 msgstr ""
 
-#: modules/video_output/msw/directx.c:212
+#: modules/video_output/msw/directx.c:209
 msgid "Wallpaper"
 msgstr "Hình nền"
 
@@ -28191,7 +28192,7 @@ msgid "Play List"
 msgstr "Danh sách phát"
 
 #: share/lua/http/dialogs/create_stream.html:156
-#: modules/gui/qt4/ui/sprefs_audio.h:416 modules/gui/qt4/ui/sprefs_video.h:346
+#: modules/gui/qt4/ui/sprefs_audio.h:425 modules/gui/qt4/ui/sprefs_video.h:346
 msgid "Output"
 msgstr "Xuất dữ liệu"
 
@@ -28399,7 +28400,7 @@ msgid "Update"
 msgstr "Cập nhật"
 
 #: modules/gui/qt4/ui/equalizer.h:132 modules/gui/qt4/ui/open_disk.h:296
-#: modules/gui/qt4/ui/open_net.h:96 modules/gui/qt4/ui/sprefs_audio.h:411
+#: modules/gui/qt4/ui/open_net.h:96 modules/gui/qt4/ui/sprefs_audio.h:420
 #: modules/gui/qt4/ui/sprefs_input.h:340
 #: modules/gui/qt4/ui/sprefs_interface.h:512
 #: modules/gui/qt4/ui/sprefs_subtitles.h:285
@@ -28742,51 +28743,51 @@ msgstr "Phân luồng tất cả các luồng sơ cấp"
 msgid "Generated stream output string"
 msgstr "Tạo các chuỗi của luồng xuất ra"
 
-#: modules/gui/qt4/ui/sprefs_audio.h:414
+#: modules/gui/qt4/ui/sprefs_audio.h:423
 msgid " %"
 msgstr " %"
 
-#: modules/gui/qt4/ui/sprefs_audio.h:419
+#: modules/gui/qt4/ui/sprefs_audio.h:426
 msgid "Output module:"
 msgstr "Module xuất dữ liệu:"
 
-#: modules/gui/qt4/ui/sprefs_audio.h:421
+#: modules/gui/qt4/ui/sprefs_audio.h:431
 msgid "Visualization:"
 msgstr "Hiêu ứng:"
 
-#: modules/gui/qt4/ui/sprefs_audio.h:422
+#: modules/gui/qt4/ui/sprefs_audio.h:432
 msgid "Enable Time-Stretching audio"
 msgstr "Bật chế độ giãn thời gian với audio"
 
-#: modules/gui/qt4/ui/sprefs_audio.h:423
+#: modules/gui/qt4/ui/sprefs_audio.h:433
 msgid "Dolby Surround:"
 msgstr "Dolby Surround:"
 
-#: modules/gui/qt4/ui/sprefs_audio.h:424
+#: modules/gui/qt4/ui/sprefs_audio.h:434
 msgid "Replay gain mode:"
 msgstr "Chế độ phát lại:"
 
-#: modules/gui/qt4/ui/sprefs_audio.h:425
+#: modules/gui/qt4/ui/sprefs_audio.h:435
 msgid "Headphone surround effect"
 msgstr "Hiệu ứng xung quanh tai nghe"
 
-#: modules/gui/qt4/ui/sprefs_audio.h:426
+#: modules/gui/qt4/ui/sprefs_audio.h:436
 msgid "Normalize volume to:"
 msgstr "Bình thường hóa âm lượng đến khoảng:"
 
-#: modules/gui/qt4/ui/sprefs_audio.h:428
+#: modules/gui/qt4/ui/sprefs_audio.h:438
 msgid "Preferred audio language:"
 msgstr "Ngôn ngữ Audio ưa thích:"
 
-#: modules/gui/qt4/ui/sprefs_audio.h:429
+#: modules/gui/qt4/ui/sprefs_audio.h:439
 msgid "Password:"
 msgstr "Mật khẩu:"
 
-#: modules/gui/qt4/ui/sprefs_audio.h:430
+#: modules/gui/qt4/ui/sprefs_audio.h:440
 msgid "Username:"
 msgstr "Tên người dùng:"
 
-#: modules/gui/qt4/ui/sprefs_audio.h:431
+#: modules/gui/qt4/ui/sprefs_audio.h:441
 msgid "Submit played tracks stats to Last.fm"
 msgstr "Đăng tải các track được phát gần đây lên Last.fm"
 

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2013-12-07 17:17+0100\n"
+"POT-Creation-Date: 2014-01-29 20:14+0100\n"
 "PO-Revision-Date: 2014-01-14 06:24+0000\n"
 "Last-Translator: abuyop <abuyop@gmail.com>\n"
 "Language-Team: Malay (http://www.transifex.com/projects/p/vlc-trans/language/"
@@ -43,7 +43,7 @@ msgstr "Pilih \"Pilihan Lanjutan\" untuk melihat semua pilihan."
 
 #: include/vlc_config_cat.h:38 modules/gui/macosx/simple_prefs.m:269
 #: modules/gui/qt4/components/simple_preferences.cpp:220
-#: modules/gui/qt4/menus.cpp:1075
+#: modules/gui/qt4/menus.cpp:1076
 msgid "Interface"
 msgstr "Antaramuka"
 
@@ -350,7 +350,7 @@ msgstr "Perlaksanaan Video atas Permintaan VLC"
 #: modules/gui/qt4/components/controller.hpp:117
 #: modules/gui/qt4/components/playlist/playlist.cpp:172
 #: modules/gui/qt4/components/playlist/selector.cpp:231
-#: modules/gui/qt4/dialogs/playlist.cpp:40 modules/gui/qt4/menus.cpp:1111
+#: modules/gui/qt4/dialogs/playlist.cpp:40 modules/gui/qt4/menus.cpp:1112
 msgid "Playlist"
 msgstr "Senarai main"
 
@@ -1536,7 +1536,7 @@ msgstr ""
 "antaramuka."
 
 #: src/libvlc.h:134 src/libvlc-module.c:1401 src/libvlc-module.c:1402
-#: src/libvlc-module.c:2539 src/video_output/vout_intf.c:184
+#: src/libvlc-module.c:2548 src/video_output/vout_intf.c:184
 msgid "Zoom"
 msgstr "Zum"
 
@@ -1687,7 +1687,7 @@ msgstr ""
 "adalah automatik pilih kaedah terbaik yang tersedia."
 
 #: src/libvlc-module.c:133 modules/gui/macosx/simple_prefs.m:310
-#: modules/stream_out/display.c:40 modules/gui/qt4/ui/sprefs_audio.h:412
+#: modules/stream_out/display.c:40 modules/gui/qt4/ui/sprefs_audio.h:421
 msgid "Enable audio"
 msgstr "Benarkan audio"
 
@@ -1757,6 +1757,7 @@ msgstr ""
 "dengan strim audio yang diputarkan."
 
 #: src/libvlc-module.c:166 modules/gui/macosx/simple_prefs.m:316
+#: modules/gui/qt4/ui/sprefs_audio.h:429
 msgid "Use S/PDIF when available"
 msgstr "Guna S/PDiF bila tersedia"
 
@@ -2589,7 +2590,7 @@ msgstr ""
 #: modules/gui/macosx/simple_prefs.m:923 modules/gui/macosx/VideoEffects.m:57
 #: modules/gui/qt4/components/preferences_widgets.cpp:545
 #: modules/video_filter/marq.c:60 modules/video_filter/rss.c:71
-#: modules/video_filter/rss.c:184 modules/video_output/msw/directx.c:1458
+#: modules/video_filter/rss.c:184 modules/video_output/msw/directx.c:1452
 msgid "Default"
 msgstr "Lalai"
 
@@ -3992,11 +3993,11 @@ msgstr "Kadar biasa"
 msgid "Select the hotkey to set the playback rate back to normal."
 msgstr "Pilih kekunci panas untuk tetapkan kadar mainbalik ke biasa."
 
-#: src/libvlc-module.c:1219 modules/gui/qt4/menus.cpp:864
+#: src/libvlc-module.c:1219 modules/gui/qt4/menus.cpp:865
 msgid "Faster (fine)"
 msgstr "Lebih pantas (halus)"
 
-#: src/libvlc-module.c:1221 modules/gui/qt4/menus.cpp:872
+#: src/libvlc-module.c:1221 modules/gui/qt4/menus.cpp:873
 msgid "Slower (fine)"
 msgstr "Lebih perlahan (halus)"
 
@@ -4164,7 +4165,7 @@ msgstr "Panjang lompat panjang, dalam saat."
 
 #: src/libvlc-module.c:1270 modules/control/hotkeys.c:159
 #: modules/gui/qt4/components/controller.hpp:119
-#: modules/gui/qt4/components/controller.hpp:131 modules/gui/qt4/menus.cpp:935
+#: modules/gui/qt4/components/controller.hpp:131 modules/gui/qt4/menus.cpp:936
 #: modules/gui/skins2/commands/cmd_quit.cpp:45
 msgid "Quit"
 msgstr "Keluar"
@@ -4773,20 +4774,20 @@ msgstr "Sumber jam"
 msgid "Hot keys"
 msgstr "Kekunci panas"
 
-#: src/libvlc-module.c:2549
+#: src/libvlc-module.c:2558
 msgid "Jump sizes"
 msgstr "Saiz lompat"
 
-#: src/libvlc-module.c:2628
+#: src/libvlc-module.c:2637
 msgid "print help for VLC (can be combined with --advanced and --help-verbose)"
 msgstr ""
 "Bantuan cetak VLC (boleh digabungkan dengan --advanced dan --help-verbose)"
 
-#: src/libvlc-module.c:2631
+#: src/libvlc-module.c:2640
 msgid "Exhaustive help for VLC and its modules"
 msgstr "Bantuan tuntas untuk VLC dan modulnya"
 
-#: src/libvlc-module.c:2633
+#: src/libvlc-module.c:2642
 msgid ""
 "print help for VLC and all its modules (can be combined with --advanced and "
 "--help-verbose)"
@@ -4794,19 +4795,19 @@ msgstr ""
 "Bantuan cetak VLC dan semua modulnya (boleh digabungkan dengan --advanced "
 "dan --help-verbose)"
 
-#: src/libvlc-module.c:2636
+#: src/libvlc-module.c:2645
 msgid "ask for extra verbosity when displaying help"
 msgstr "minta lebih kejekaan bila memaparkan bantuan"
 
-#: src/libvlc-module.c:2638
+#: src/libvlc-module.c:2647
 msgid "print a list of available modules"
 msgstr "cetak senarai modul yang tersedia"
 
-#: src/libvlc-module.c:2640
+#: src/libvlc-module.c:2649
 msgid "print a list of available modules with extra detail"
 msgstr "cetak senarai modul yang tersedia dengan perincian tambahan"
 
-#: src/libvlc-module.c:2642
+#: src/libvlc-module.c:2651
 msgid ""
 "print help on a specific module (can be combined with --advanced and --help-"
 "verbose). Prefix the module name with = for strict matches."
@@ -4814,27 +4815,27 @@ msgstr ""
 "bantuan cetak pada modul tertentu (boleh digabungkan dengan --advanced dan --"
 "help-verbose). Awalan nama modul dengan = untuk padanan ketat."
 
-#: src/libvlc-module.c:2646
+#: src/libvlc-module.c:2655
 msgid "no configuration option will be loaded nor saved to config file"
 msgstr "tiada pilihan konfigurasi akan dimuatkan atau disimpan ke fail konfig"
 
-#: src/libvlc-module.c:2648
+#: src/libvlc-module.c:2657
 msgid "reset the current config to the default values"
 msgstr "Tetap semula konfig semasa ke nilai lalai"
 
-#: src/libvlc-module.c:2650
+#: src/libvlc-module.c:2659
 msgid "use alternate config file"
 msgstr "guna fail konfig gantian"
 
-#: src/libvlc-module.c:2652
+#: src/libvlc-module.c:2661
 msgid "resets the current plugins cache"
 msgstr "tetap semula cache pemalam semasa"
 
-#: src/libvlc-module.c:2654
+#: src/libvlc-module.c:2663
 msgid "print version information"
 msgstr "cetak maklumat versi"
 
-#: src/libvlc-module.c:2692
+#: src/libvlc-module.c:2701
 msgid "main program"
 msgstr "program utama"
 
@@ -8898,7 +8899,7 @@ msgstr "Tetapan Volum"
 
 #: modules/access/vcdx/info.c:69 modules/gui/macosx/ControlsBar.m:486
 #: modules/gui/macosx/fspanel.m:463 modules/gui/qt4/dialogs/toolbar.cpp:365
-#: modules/stream_out/raop.c:150 modules/gui/qt4/ui/sprefs_audio.h:413
+#: modules/stream_out/raop.c:150 modules/gui/qt4/ui/sprefs_audio.h:422
 msgid "Volume"
 msgstr "Volum"
 
@@ -8910,7 +8911,7 @@ msgstr "ID Sistem"
 msgid "Entries"
 msgstr "Masukan"
 
-#: modules/access/vcdx/info.c:75 modules/gui/qt4/ui/sprefs_audio.h:427
+#: modules/access/vcdx/info.c:75 modules/gui/qt4/ui/sprefs_audio.h:437
 msgid "Tracks"
 msgstr "Trek"
 
@@ -10112,7 +10113,7 @@ msgstr "Output audio AudioQueue (iOS / Mac OS)"
 msgid "Android AudioTrack audio output"
 msgstr "Output audio Trek Audio Android"
 
-#: modules/audio_output/audiounit_ios.c:93
+#: modules/audio_output/audiounit_ios.c:94
 msgid "AudioUnit output for iOS"
 msgstr "Output Unit Audio untuk iOS"
 
@@ -13688,7 +13689,7 @@ msgstr "Pantas"
 
 #: modules/codec/x264.c:429 modules/gui/macosx/MainMenu.m:357
 #: modules/gui/macosx/simple_prefs.m:711
-#: modules/gui/qt4/components/simple_preferences.cpp:671
+#: modules/gui/qt4/components/simple_preferences.cpp:673
 #: modules/misc/gnutls.c:64 modules/text_renderer/freetype.c:196
 #: modules/text_renderer/freetype.c:215 modules/text_renderer/quartztext.c:121
 #: modules/text_renderer/win32text.c:82
@@ -13800,14 +13801,14 @@ msgstr "Antaramuka kawalan D-Bus"
 #: modules/control/dbus/dbus_root.c:81 modules/gui/macosx/MainWindow.m:202
 #: modules/gui/macosx/MainWindow.m:705 modules/gui/macosx/MainWindow.m:711
 #: modules/gui/macosx/MainWindow.m:1279 modules/gui/ncurses.c:1030
-#: modules/gui/qt4/dialogs/help.cpp:91 modules/gui/qt4/main_interface.cpp:1013
-#: modules/gui/qt4/main_interface.cpp:1017
-#: modules/gui/qt4/main_interface.cpp:1056
-#: modules/gui/qt4/main_interface.cpp:1058
-#: modules/gui/qt4/main_interface.cpp:1158
-#: modules/gui/qt4/main_interface.cpp:1175
-#: modules/gui/qt4/main_interface.cpp:1183
-#: modules/gui/qt4/main_interface.cpp:1206 modules/lua/libs/httpd.c:80
+#: modules/gui/qt4/dialogs/help.cpp:91 modules/gui/qt4/main_interface.cpp:1019
+#: modules/gui/qt4/main_interface.cpp:1023
+#: modules/gui/qt4/main_interface.cpp:1062
+#: modules/gui/qt4/main_interface.cpp:1064
+#: modules/gui/qt4/main_interface.cpp:1164
+#: modules/gui/qt4/main_interface.cpp:1181
+#: modules/gui/qt4/main_interface.cpp:1189
+#: modules/gui/qt4/main_interface.cpp:1212 modules/lua/libs/httpd.c:80
 #: modules/notify/growl.m:281 modules/video_output/xcb/window.c:313
 msgid "VLC media player"
 msgstr "Pemain media VLC"
@@ -13960,56 +13961,56 @@ msgstr "N/A"
 msgid "Program Service ID: %s"
 msgstr "ID Perkhidmatan Program: %s"
 
-#: modules/control/hotkeys.c:769
+#: modules/control/hotkeys.c:773
 #, c-format
 msgid "Aspect ratio: %s"
 msgstr "Nisbah aspek: %s"
 
-#: modules/control/hotkeys.c:799
+#: modules/control/hotkeys.c:803
 #, c-format
 msgid "Crop: %s"
 msgstr "Pangkas: %s"
 
-#: modules/control/hotkeys.c:847
+#: modules/control/hotkeys.c:851
 msgid "Zooming reset"
 msgstr "Pengezuman ditetap semula"
 
-#: modules/control/hotkeys.c:854
+#: modules/control/hotkeys.c:858
 msgid "Scaled to screen"
 msgstr "Diskala mengikut skrin"
 
-#: modules/control/hotkeys.c:856
+#: modules/control/hotkeys.c:860
 msgid "Original Size"
 msgstr "Saiz Asal"
 
-#: modules/control/hotkeys.c:925
+#: modules/control/hotkeys.c:929
 #, c-format
 msgid "Zoom mode: %s"
 msgstr "Mod Zum: %s"
 
-#: modules/control/hotkeys.c:940 modules/control/hotkeys.c:997
+#: modules/control/hotkeys.c:944 modules/control/hotkeys.c:1001
 msgid "Deinterlace off"
 msgstr "Nyahjalin mati"
 
-#: modules/control/hotkeys.c:959 modules/control/hotkeys.c:992
+#: modules/control/hotkeys.c:963 modules/control/hotkeys.c:996
 msgid "Deinterlace on"
 msgstr "Nyahjalin hidup"
 
-#: modules/control/hotkeys.c:1022
+#: modules/control/hotkeys.c:1026
 msgid "Subtitle position: no active subtitle"
 msgstr "Kedudukan sarikata: tiada sarikata aktif"
 
-#: modules/control/hotkeys.c:1034
+#: modules/control/hotkeys.c:1038
 #, c-format
 msgid "Subtitle position %d px"
 msgstr "Kedudukan sarikata %d px"
 
-#: modules/control/hotkeys.c:1168
+#: modules/control/hotkeys.c:1172
 #, c-format
 msgid "Volume %ld%%"
 msgstr "Volum %ld%%"
 
-#: modules/control/hotkeys.c:1173
+#: modules/control/hotkeys.c:1177
 #, c-format
 msgid "Speed: %.2fx"
 msgstr "Kelajuan: %.2fx"
@@ -14152,7 +14153,7 @@ msgstr "Membuka"
 
 #: modules/control/rc.c:73 modules/gui/macosx/ControlsBar.m:431
 #: modules/gui/macosx/MainMenu.m:1201 modules/gui/macosx/MainMenu.m:1202
-#: modules/gui/macosx/MainMenu.m:1203 modules/gui/qt4/menus.cpp:817
+#: modules/gui/macosx/MainMenu.m:1203 modules/gui/qt4/menus.cpp:818
 msgid "Pause"
 msgstr "Rehat"
 
@@ -16639,7 +16640,7 @@ msgid "Click to play the audio at maximum volume."
 msgstr "Klik untuk main audio pada volum maksimum."
 
 #: modules/gui/macosx/ControlsBar.m:496 modules/gui/macosx/simple_prefs.m:309
-#: modules/gui/qt4/ui/sprefs_audio.h:420
+#: modules/gui/qt4/ui/sprefs_audio.h:430
 msgid "Effects"
 msgstr "Kesan"
 
@@ -16699,7 +16700,7 @@ msgstr "Pilih lokasi output"
 #: modules/gui/qt4/components/simple_preferences.cpp:421
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:98
 #: modules/gui/qt4/ui/open.h:263 modules/gui/qt4/ui/open_disk.h:307
-#: modules/gui/qt4/ui/open_file.h:147 modules/gui/qt4/ui/sprefs_audio.h:418
+#: modules/gui/qt4/ui/open_file.h:147 modules/gui/qt4/ui/sprefs_audio.h:428
 #: modules/gui/qt4/ui/sprefs_input.h:351 modules/gui/qt4/ui/sprefs_video.h:358
 msgid "Browse..."
 msgstr "Lungsur..."
@@ -16884,7 +16885,7 @@ msgstr "Eksport SDP dipinta, tetapi tiada URL disediakan."
 #: modules/gui/macosx/ConvertAndSave.m:1052
 #: modules/gui/macosx/simple_prefs.m:710 modules/gui/macosx/simple_prefs.m:734
 #: modules/gui/macosx/simple_prefs.m:1293
-#: modules/gui/qt4/components/simple_preferences.cpp:668
+#: modules/gui/qt4/components/simple_preferences.cpp:670
 msgid "Custom"
 msgstr "Langganan "
 
@@ -17554,7 +17555,7 @@ msgid "Bring All to Front"
 msgstr "Bawa Semua ke Depan"
 
 #: modules/gui/macosx/MainMenu.m:447 modules/gui/qt4/dialogs/help.cpp:54
-#: modules/gui/qt4/menus.cpp:931
+#: modules/gui/qt4/menus.cpp:932
 msgid "Help"
 msgstr "Bantuan"
 
@@ -18152,7 +18153,7 @@ msgstr "Pilih"
 
 #: modules/gui/macosx/simple_prefs.m:269
 #: modules/gui/qt4/components/simple_preferences.cpp:220
-#: modules/gui/qt4/components/simple_preferences.cpp:695
+#: modules/gui/qt4/components/simple_preferences.cpp:697
 msgid "Interface Settings"
 msgstr "Tetapan Antaramuka"
 
@@ -18170,7 +18171,7 @@ msgstr "Tetapan Video"
 
 #: modules/gui/macosx/simple_prefs.m:275
 #: modules/gui/qt4/components/simple_preferences.cpp:226
-#: modules/gui/qt4/components/simple_preferences.cpp:840
+#: modules/gui/qt4/components/simple_preferences.cpp:842
 msgid "Subtitle & On Screen Display Settings"
 msgstr "Tetapan Sarikata & Paparan Atas Skrin"
 
@@ -18198,7 +18199,7 @@ msgstr "Pengvisualan"
 msgid "Keep audio level between sessions"
 msgstr "Kekalakan aras audio diantara sesi"
 
-#: modules/gui/macosx/simple_prefs.m:319 modules/gui/qt4/ui/sprefs_audio.h:415
+#: modules/gui/macosx/simple_prefs.m:319 modules/gui/qt4/ui/sprefs_audio.h:424
 msgid "Always reset audio start level to:"
 msgstr "Sentiasa tetap semula aras mula audio ke:"
 
@@ -18407,22 +18408,22 @@ msgid "No check was performed yet."
 msgstr "Tiada semakan dibuat lagi."
 
 #: modules/gui/macosx/simple_prefs.m:710
-#: modules/gui/qt4/components/simple_preferences.cpp:669
+#: modules/gui/qt4/components/simple_preferences.cpp:671
 msgid "Lowest latency"
 msgstr "Kependaman terendah"
 
 #: modules/gui/macosx/simple_prefs.m:711
-#: modules/gui/qt4/components/simple_preferences.cpp:670
+#: modules/gui/qt4/components/simple_preferences.cpp:672
 msgid "Low latency"
 msgstr "Kependaman rendah"
 
 #: modules/gui/macosx/simple_prefs.m:711
-#: modules/gui/qt4/components/simple_preferences.cpp:672
+#: modules/gui/qt4/components/simple_preferences.cpp:674
 msgid "High latency"
 msgstr "Kependaman tinggi"
 
 #: modules/gui/macosx/simple_prefs.m:711
-#: modules/gui/qt4/components/simple_preferences.cpp:673
+#: modules/gui/qt4/components/simple_preferences.cpp:675
 msgid "Higher latency"
 msgstr "Kependaman tertinggi"
 
@@ -19844,21 +19845,21 @@ msgstr "Buka fail sarikata"
 msgid "Dock/undock fullscreen controller to/from bottom of screen"
 msgstr "Labuh/tanggalkan pengawal skrin penuh ke/dari bawah skrin"
 
-#: modules/gui/qt4/components/controller_widget.cpp:138
+#: modules/gui/qt4/components/controller_widget.cpp:132
 msgctxt "Tooltip|Unmute"
 msgid "Unmute"
 msgstr "Suarakan"
 
-#: modules/gui/qt4/components/controller_widget.cpp:147
+#: modules/gui/qt4/components/controller_widget.cpp:141
 msgctxt "Tooltip|Mute"
 msgid "Mute"
 msgstr "Bisukan"
 
-#: modules/gui/qt4/components/controller_widget.cpp:233
+#: modules/gui/qt4/components/controller_widget.cpp:227
 msgid "Pause the playback"
 msgstr "Jedakan main balik"
 
-#: modules/gui/qt4/components/controller_widget.cpp:242
+#: modules/gui/qt4/components/controller_widget.cpp:236
 msgid ""
 "Loop from point A to point B continuously\n"
 "Click to set point A"
@@ -19866,15 +19867,15 @@ msgstr ""
 "Gelung dari titik A ke titik B secara berterusan\n"
 "Klik untuk tetapkan titik A"
 
-#: modules/gui/qt4/components/controller_widget.cpp:248
+#: modules/gui/qt4/components/controller_widget.cpp:242
 msgid "Click to set point B"
 msgstr "Klik untuk tetapkan titik B"
 
-#: modules/gui/qt4/components/controller_widget.cpp:253
+#: modules/gui/qt4/components/controller_widget.cpp:247
 msgid "Stop the A to B loop"
 msgstr "Hentikan gelung A ke B"
 
-#: modules/gui/qt4/components/controller_widget.cpp:274
+#: modules/gui/qt4/components/controller_widget.cpp:268
 msgid "Aspect Ratio"
 msgstr "Nisbah Aspek"
 
@@ -20470,12 +20471,12 @@ msgid "Key: "
 msgstr "Kekunci:"
 
 #: modules/gui/qt4/components/simple_preferences.cpp:228
-#: modules/gui/qt4/components/simple_preferences.cpp:597
+#: modules/gui/qt4/components/simple_preferences.cpp:599
 msgid "Input & Codecs Settings"
 msgstr "Tetapan Input & Kodeks"
 
 #: modules/gui/qt4/components/simple_preferences.cpp:230
-#: modules/gui/qt4/components/simple_preferences.cpp:884
+#: modules/gui/qt4/components/simple_preferences.cpp:886
 msgid "Configure Hotkeys"
 msgstr "Konfigur Kekunci Panas"
 
@@ -20483,7 +20484,7 @@ msgstr "Konfigur Kekunci Panas"
 msgid "Device:"
 msgstr "Peranti:"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:602
+#: modules/gui/qt4/components/simple_preferences.cpp:604
 msgid ""
 "If this property is blank, different values\n"
 "for DVD, VCD, and CDDA are set.\n"
@@ -20495,44 +20496,44 @@ msgstr ""
 "Anda boleh takrif yang unik atau konfigur ia\n"
 "secara individu dalam keutamaan lanjutan."
 
-#: modules/gui/qt4/components/simple_preferences.cpp:721
+#: modules/gui/qt4/components/simple_preferences.cpp:723
 msgid "This is VLC's skinnable interface. You can download other skins at"
 msgstr ""
 "Ini adalah antaramuka VLC yang boleh dikulitkan. Anda boleh muat turun kulit "
 "lain di"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:723
+#: modules/gui/qt4/components/simple_preferences.cpp:725
 msgid "VLC skins website"
 msgstr "Laman sesawang kulit VLC"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:752
+#: modules/gui/qt4/components/simple_preferences.cpp:754
 msgid "System's default"
 msgstr "Lalai sistem"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:1242
+#: modules/gui/qt4/components/simple_preferences.cpp:1246
 msgid "File associations"
 msgstr "Perkaitan fail"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:1251
+#: modules/gui/qt4/components/simple_preferences.cpp:1255
 #: modules/gui/qt4/dialogs_provider.hpp:42
 msgid "Audio Files"
 msgstr "Fail audio"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:1252
+#: modules/gui/qt4/components/simple_preferences.cpp:1256
 #: modules/gui/qt4/dialogs_provider.hpp:41
 msgid "Video Files"
 msgstr "Fail Video"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:1253
+#: modules/gui/qt4/components/simple_preferences.cpp:1257
 #: modules/gui/qt4/dialogs_provider.hpp:43
 msgid "Playlist Files"
 msgstr "Fail senarai main"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:1305
+#: modules/gui/qt4/components/simple_preferences.cpp:1309
 msgid "&Apply"
 msgstr "&Terap"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:1306
+#: modules/gui/qt4/components/simple_preferences.cpp:1310
 #: modules/gui/qt4/dialogs/convert.cpp:109
 #: modules/gui/qt4/dialogs/gototime.cpp:49
 #: modules/gui/qt4/dialogs/open.cpp:108 modules/gui/qt4/dialogs/openurl.cpp:60
@@ -20698,7 +20699,7 @@ msgid "Convert"
 msgstr "Tukar"
 
 #: modules/gui/qt4/dialogs/convert.cpp:58
-#: modules/gui/qt4/ui/sprefs_audio.h:417
+#: modules/gui/qt4/ui/sprefs_audio.h:427
 msgid "Destination file:"
 msgstr "Fail destinasi:"
 
@@ -20899,7 +20900,7 @@ msgstr "Kemaskini pepohon"
 msgid "Clear the messages"
 msgstr "Kosongkan mesej"
 
-#: modules/gui/qt4/dialogs/open.cpp:78 modules/gui/qt4/menus.cpp:915
+#: modules/gui/qt4/dialogs/open.cpp:78 modules/gui/qt4/menus.cpp:916
 msgid "Open Media"
 msgstr "Buka Media"
 
@@ -20929,7 +20930,7 @@ msgid "&Enqueue"
 msgstr "Digilir"
 
 #: modules/gui/qt4/dialogs/open.cpp:117 modules/gui/qt4/dialogs/open.cpp:212
-#: modules/gui/qt4/dialogs/openurl.cpp:54 modules/gui/qt4/menus.cpp:809
+#: modules/gui/qt4/dialogs/openurl.cpp:54 modules/gui/qt4/menus.cpp:810
 msgid "&Play"
 msgstr "Mai&n"
 
@@ -21324,11 +21325,11 @@ msgstr "Jadual:"
 msgid "VOD: "
 msgstr "VOD: "
 
-#: modules/gui/qt4/main_interface.cpp:1159
+#: modules/gui/qt4/main_interface.cpp:1165
 msgid "Control menu for the player"
 msgstr "Menu kawalan untuk pemain"
 
-#: modules/gui/qt4/main_interface.cpp:1203
+#: modules/gui/qt4/main_interface.cpp:1209
 msgid "Paused"
 msgstr "Henti sebentar"
 
@@ -21340,23 +21341,23 @@ msgstr "&Media"
 msgid "P&layback"
 msgstr "Mainba&lik"
 
-#: modules/gui/qt4/menus.cpp:331 modules/gui/qt4/menus.cpp:1038
+#: modules/gui/qt4/menus.cpp:331 modules/gui/qt4/menus.cpp:1039
 msgid "&Audio"
 msgstr "Audio"
 
-#: modules/gui/qt4/menus.cpp:332 modules/gui/qt4/menus.cpp:1045
+#: modules/gui/qt4/menus.cpp:332 modules/gui/qt4/menus.cpp:1046
 msgid "&Video"
 msgstr "Video"
 
-#: modules/gui/qt4/menus.cpp:333 modules/gui/qt4/menus.cpp:1052
+#: modules/gui/qt4/menus.cpp:333 modules/gui/qt4/menus.cpp:1053
 msgid "Subti&tle"
 msgstr "Sar&ikata"
 
-#: modules/gui/qt4/menus.cpp:335 modules/gui/qt4/menus.cpp:1068
+#: modules/gui/qt4/menus.cpp:335 modules/gui/qt4/menus.cpp:1069
 msgid "T&ools"
 msgstr "A&latan"
 
-#: modules/gui/qt4/menus.cpp:338 modules/gui/qt4/menus.cpp:1103
+#: modules/gui/qt4/menus.cpp:338 modules/gui/qt4/menus.cpp:1104
 msgid "V&iew"
 msgstr "Lihat"
 
@@ -21372,7 +21373,7 @@ msgstr "Buka &Fail..."
 msgid "&Open Multiple Files..."
 msgstr "&Buka Fail Berbilang..."
 
-#: modules/gui/qt4/menus.cpp:359 modules/gui/qt4/menus.cpp:920
+#: modules/gui/qt4/menus.cpp:359 modules/gui/qt4/menus.cpp:921
 msgid "Open &Disc..."
 msgstr "Buka Cakera..."
 
@@ -21380,7 +21381,7 @@ msgstr "Buka Cakera..."
 msgid "Open &Network Stream..."
 msgstr "Buka Rangkaia&n Strim..."
 
-#: modules/gui/qt4/menus.cpp:363 modules/gui/qt4/menus.cpp:924
+#: modules/gui/qt4/menus.cpp:363 modules/gui/qt4/menus.cpp:925
 msgid "Open &Capture Device..."
 msgstr "Buka Peranti Cekup..."
 
@@ -21408,7 +21409,7 @@ msgstr "Keluar dipenghujung senarai main"
 msgid "Close to systray"
 msgstr "Tutup ke talam sistem"
 
-#: modules/gui/qt4/menus.cpp:399 modules/gui/qt4/menus.cpp:1166
+#: modules/gui/qt4/menus.cpp:399 modules/gui/qt4/menus.cpp:1167
 msgid "&Quit"
 msgstr "&Keluar"
 
@@ -21496,159 +21497,159 @@ msgstr "&Trek Audio"
 msgid "Audio &Device"
 msgstr "&Peranti Audio"
 
-#: modules/gui/qt4/menus.cpp:608
+#: modules/gui/qt4/menus.cpp:609
 msgid "&Stereo Mode"
 msgstr "Mod &Stereo"
 
-#: modules/gui/qt4/menus.cpp:611
+#: modules/gui/qt4/menus.cpp:612
 msgid "&Visualizations"
 msgstr "&Visualisasi"
 
-#: modules/gui/qt4/menus.cpp:637
+#: modules/gui/qt4/menus.cpp:638
 msgid "Add &Subtitle File..."
 msgstr "Tambah Fail &Sarikata..."
 
-#: modules/gui/qt4/menus.cpp:639
+#: modules/gui/qt4/menus.cpp:640
 msgid "Sub &Track"
 msgstr "Sub &Trek"
 
-#: modules/gui/qt4/menus.cpp:662
+#: modules/gui/qt4/menus.cpp:663
 msgid "Video &Track"
 msgstr "&Trek Video"
 
-#: modules/gui/qt4/menus.cpp:666
+#: modules/gui/qt4/menus.cpp:667
 msgid "&Fullscreen"
 msgstr "&Skrin penuh"
 
-#: modules/gui/qt4/menus.cpp:667
+#: modules/gui/qt4/menus.cpp:668
 msgid "Always Fit &Window"
 msgstr "Sentiasa Suai Muat &Tetingkap"
 
-#: modules/gui/qt4/menus.cpp:668
+#: modules/gui/qt4/menus.cpp:669
 msgid "Always &on Top"
 msgstr "Sentias &di Atas"
 
-#: modules/gui/qt4/menus.cpp:669
+#: modules/gui/qt4/menus.cpp:670
 msgid "Set as Wall&paper"
 msgstr "Tetapkan sebagai Ke&rtas Dinding"
 
-#: modules/gui/qt4/menus.cpp:673
+#: modules/gui/qt4/menus.cpp:674
 msgid "&Zoom"
 msgstr "&Zum"
 
-#: modules/gui/qt4/menus.cpp:674
+#: modules/gui/qt4/menus.cpp:675
 msgid "&Aspect Ratio"
 msgstr "Nisbah Aspek"
 
-#: modules/gui/qt4/menus.cpp:675
+#: modules/gui/qt4/menus.cpp:676
 msgid "&Crop"
 msgstr "&Pangkas"
 
-#: modules/gui/qt4/menus.cpp:679
+#: modules/gui/qt4/menus.cpp:680
 msgid "&Deinterlace"
 msgstr "&Nyahjalin"
 
-#: modules/gui/qt4/menus.cpp:680
+#: modules/gui/qt4/menus.cpp:681
 msgid "&Deinterlace mode"
 msgstr "Mod &Nyahjalin"
 
-#: modules/gui/qt4/menus.cpp:681
+#: modules/gui/qt4/menus.cpp:682
 msgid "&Post processing"
 msgstr "Pasca memproses"
 
-#: modules/gui/qt4/menus.cpp:685
+#: modules/gui/qt4/menus.cpp:686
 msgid "Take &Snapshot"
 msgstr "Ambil &Gambar"
 
-#: modules/gui/qt4/menus.cpp:708
+#: modules/gui/qt4/menus.cpp:709
 msgid "T&itle"
 msgstr "&Judul"
 
-#: modules/gui/qt4/menus.cpp:709
+#: modules/gui/qt4/menus.cpp:710
 msgid "&Chapter"
 msgstr "&Bab"
 
-#: modules/gui/qt4/menus.cpp:711
+#: modules/gui/qt4/menus.cpp:712
 msgid "&Program"
 msgstr "&Program"
 
-#: modules/gui/qt4/menus.cpp:715
+#: modules/gui/qt4/menus.cpp:716
 msgid "&Manage"
 msgstr "&Urus..."
 
-#: modules/gui/qt4/menus.cpp:771
+#: modules/gui/qt4/menus.cpp:772
 msgid "&Help..."
 msgstr "&Bantuan..."
 
-#: modules/gui/qt4/menus.cpp:774
+#: modules/gui/qt4/menus.cpp:775
 msgid "Check for &Updates..."
 msgstr "Periksa &Kemaskini..."
 
-#: modules/gui/qt4/menus.cpp:823
+#: modules/gui/qt4/menus.cpp:824
 msgid "&Stop"
 msgstr "&Henti"
 
-#: modules/gui/qt4/menus.cpp:831
+#: modules/gui/qt4/menus.cpp:832
 msgid "Pre&vious"
 msgstr "Terdahulu"
 
-#: modules/gui/qt4/menus.cpp:837
+#: modules/gui/qt4/menus.cpp:838
 msgid "Ne&xt"
 msgstr "Berikut"
 
-#: modules/gui/qt4/menus.cpp:850
+#: modules/gui/qt4/menus.cpp:851
 msgid "Sp&eed"
 msgstr "Ke&lajuan"
 
-#: modules/gui/qt4/menus.cpp:856
+#: modules/gui/qt4/menus.cpp:857
 msgid "&Faster"
 msgstr "&Percepat"
 
-#: modules/gui/qt4/menus.cpp:868
+#: modules/gui/qt4/menus.cpp:869
 msgid "N&ormal Speed"
 msgstr "Kelajuan Normal"
 
-#: modules/gui/qt4/menus.cpp:878
+#: modules/gui/qt4/menus.cpp:879
 msgid "Slo&wer"
 msgstr "&Perlahan"
 
-#: modules/gui/qt4/menus.cpp:893
+#: modules/gui/qt4/menus.cpp:894
 msgid "&Jump Forward"
 msgstr "Lompat Maju"
 
-#: modules/gui/qt4/menus.cpp:900
+#: modules/gui/qt4/menus.cpp:901
 msgid "Jump Bac&kward"
 msgstr "Lompat Undur"
 
-#: modules/gui/qt4/menus.cpp:907
+#: modules/gui/qt4/menus.cpp:908
 msgid "Ctrl+T"
 msgstr "Ctrl+T"
 
-#: modules/gui/qt4/menus.cpp:922
+#: modules/gui/qt4/menus.cpp:923
 msgid "Open &Network..."
 msgstr "Buka Rangkaia&n..."
 
-#: modules/gui/qt4/menus.cpp:1024
+#: modules/gui/qt4/menus.cpp:1025
 msgid "Leave Fullscreen"
 msgstr "Tinggalkan skrin penuh"
 
-#: modules/gui/qt4/menus.cpp:1058
+#: modules/gui/qt4/menus.cpp:1059
 msgid "&Playback"
 msgstr "Tayangan"
 
-#: modules/gui/qt4/menus.cpp:1147
+#: modules/gui/qt4/menus.cpp:1148
 msgid "&Hide VLC media player in taskbar"
 msgstr "S&embunyi pemain media dalam palang tugas"
 
-#: modules/gui/qt4/menus.cpp:1153
+#: modules/gui/qt4/menus.cpp:1154
 msgid "Sho&w VLC media player"
 msgstr "T&unju pemain media VLC"
 
-#: modules/gui/qt4/menus.cpp:1164
+#: modules/gui/qt4/menus.cpp:1165
 msgid "&Open Media"
 msgstr "&Buka Media"
 
-#: modules/gui/qt4/menus.cpp:1628
+#: modules/gui/qt4/menus.cpp:1629
 msgid "&Clear"
 msgstr "Kosongkan"
 
@@ -23066,7 +23067,7 @@ msgid "Applications"
 msgstr "Aplikasi"
 
 #: modules/services_discovery/xcb_apps.c:351
-#: modules/video_output/msw/direct3d.c:202
+#: modules/video_output/msw/direct3d.c:208
 msgid "Desktop"
 msgstr "Desktop"
 
@@ -27639,11 +27640,11 @@ msgstr "Output video disarankan untuk Windows Vista dan versi terkini"
 msgid "Direct3D video output"
 msgstr "Output video Direct3D"
 
-#: modules/video_output/msw/directx.c:69 modules/gui/qt4/ui/sprefs_video.h:344
+#: modules/video_output/msw/directx.c:66 modules/gui/qt4/ui/sprefs_video.h:344
 msgid "Use hardware YUV->RGB conversions"
 msgstr "Guna pertukaran perkakasan YUV->RGB"
 
-#: modules/video_output/msw/directx.c:71
+#: modules/video_output/msw/directx.c:68
 msgid ""
 "Try to use hardware acceleration for YUV->RGB conversions. This option "
 "doesn't have any effect when using overlays."
@@ -27651,11 +27652,11 @@ msgstr ""
 "Cuba gunakan pencepat perkakasan untuk penukaran YUV->RGB. Pilihan ini tidak "
 "meninggalkan sebarang kesan apabila menggunakan lapisan."
 
-#: modules/video_output/msw/directx.c:74
+#: modules/video_output/msw/directx.c:71
 msgid "Use video buffers in system memory"
 msgstr "Guna penimbal memori dalam memori sistem"
 
-#: modules/video_output/msw/directx.c:76
+#: modules/video_output/msw/directx.c:73
 msgid ""
 "Create video buffers in system memory instead of video memory. This isn't "
 "recommended as usually using video memory allows benefiting from more "
@@ -27667,11 +27668,11 @@ msgstr ""
 "pemecutan perkakasan (seperti penskalaan atau penukaran YUV->RGB). Pilihan "
 "ini tidak meninggalkan sebarang kesan apabila menggunakan lapisan."
 
-#: modules/video_output/msw/directx.c:81
+#: modules/video_output/msw/directx.c:78
 msgid "Use triple buffering for overlays"
 msgstr "Guna penimbalan bertiga untuk lapisan"
 
-#: modules/video_output/msw/directx.c:83
+#: modules/video_output/msw/directx.c:80
 msgid ""
 "Try to use triple buffering when using YUV overlays. That results in much "
 "better video quality (no flickering)."
@@ -27679,11 +27680,11 @@ msgstr ""
 "Cuba gunakan penimbal ganda tiga apabila mengunakan lapisan YUV. Ini akan "
 "menghasilkan kualiti video yang lebih baik (tidak berkelip)."
 
-#: modules/video_output/msw/directx.c:86
+#: modules/video_output/msw/directx.c:83
 msgid "Name of desired display device"
 msgstr "Nama peranti paparan yang diingini"
 
-#: modules/video_output/msw/directx.c:87
+#: modules/video_output/msw/directx.c:84
 msgid ""
 "In a multiple monitor configuration, you can specify the Windows device name "
 "of the display that you want the video window to open on. For example, \"\\"
@@ -27693,7 +27694,7 @@ msgstr ""
 "Windows yang anda mahukan tetingkap video membuka di atasnya. Sebagai "
 "contoh, \"\\\\.\\DISPLAY1\" atau \"\\\\.\\DISPLAY2\"."
 
-#: modules/video_output/msw/directx.c:92
+#: modules/video_output/msw/directx.c:89
 msgid ""
 "Recommended video output for Windows XP. Incompatible with Vista's Aero "
 "interface"
@@ -27701,11 +27702,11 @@ msgstr ""
 "Output video disaran untuk Windows XP. Tidak serasi dengan antaramuka Aero "
 "Vista"
 
-#: modules/video_output/msw/directx.c:102
+#: modules/video_output/msw/directx.c:99
 msgid "DirectX (DirectDraw) video output"
 msgstr "Output video DirectX (DirectDraw)"
 
-#: modules/video_output/msw/directx.c:212
+#: modules/video_output/msw/directx.c:209
 msgid "Wallpaper"
 msgstr "Kertas Dinding"
 
@@ -28166,7 +28167,7 @@ msgid "Play List"
 msgstr "Senarai Main"
 
 #: share/lua/http/dialogs/create_stream.html:156
-#: modules/gui/qt4/ui/sprefs_audio.h:416 modules/gui/qt4/ui/sprefs_video.h:346
+#: modules/gui/qt4/ui/sprefs_audio.h:425 modules/gui/qt4/ui/sprefs_video.h:346
 msgid "Output"
 msgstr "Keluaran"
 
@@ -28369,7 +28370,7 @@ msgid "Update"
 msgstr "Kemaskini"
 
 #: modules/gui/qt4/ui/equalizer.h:132 modules/gui/qt4/ui/open_disk.h:296
-#: modules/gui/qt4/ui/open_net.h:96 modules/gui/qt4/ui/sprefs_audio.h:411
+#: modules/gui/qt4/ui/open_net.h:96 modules/gui/qt4/ui/sprefs_audio.h:420
 #: modules/gui/qt4/ui/sprefs_input.h:340
 #: modules/gui/qt4/ui/sprefs_interface.h:512
 #: modules/gui/qt4/ui/sprefs_subtitles.h:285
@@ -28709,51 +28710,51 @@ msgstr "Strim setiap strim elementari"
 msgid "Generated stream output string"
 msgstr "Rentetan output strim dijana"
 
-#: modules/gui/qt4/ui/sprefs_audio.h:414
+#: modules/gui/qt4/ui/sprefs_audio.h:423
 msgid " %"
 msgstr " %"
 
-#: modules/gui/qt4/ui/sprefs_audio.h:419
+#: modules/gui/qt4/ui/sprefs_audio.h:426
 msgid "Output module:"
 msgstr "Modul output:"
 
-#: modules/gui/qt4/ui/sprefs_audio.h:421
+#: modules/gui/qt4/ui/sprefs_audio.h:431
 msgid "Visualization:"
 msgstr "Visualisasi:"
 
-#: modules/gui/qt4/ui/sprefs_audio.h:422
+#: modules/gui/qt4/ui/sprefs_audio.h:432
 msgid "Enable Time-Stretching audio"
 msgstr "Bolehkan audio Memanjang-Masa"
 
-#: modules/gui/qt4/ui/sprefs_audio.h:423
+#: modules/gui/qt4/ui/sprefs_audio.h:433
 msgid "Dolby Surround:"
 msgstr "Dolby Surround:"
 
-#: modules/gui/qt4/ui/sprefs_audio.h:424
+#: modules/gui/qt4/ui/sprefs_audio.h:434
 msgid "Replay gain mode:"
 msgstr "Mod gandaan ulang tayang:"
 
-#: modules/gui/qt4/ui/sprefs_audio.h:425
+#: modules/gui/qt4/ui/sprefs_audio.h:435
 msgid "Headphone surround effect"
 msgstr "Kesan sekeliling fon kepala"
 
-#: modules/gui/qt4/ui/sprefs_audio.h:426
+#: modules/gui/qt4/ui/sprefs_audio.h:436
 msgid "Normalize volume to:"
 msgstr "Menor:malkan volum kepada:"
 
-#: modules/gui/qt4/ui/sprefs_audio.h:428
+#: modules/gui/qt4/ui/sprefs_audio.h:438
 msgid "Preferred audio language:"
 msgstr "Bahasa audio diutamakan:"
 
-#: modules/gui/qt4/ui/sprefs_audio.h:429
+#: modules/gui/qt4/ui/sprefs_audio.h:439
 msgid "Password:"
 msgstr "Katalaluan:"
 
-#: modules/gui/qt4/ui/sprefs_audio.h:430
+#: modules/gui/qt4/ui/sprefs_audio.h:440
 msgid "Username:"
 msgstr "Nama pengguna:"
 
-#: modules/gui/qt4/ui/sprefs_audio.h:431
+#: modules/gui/qt4/ui/sprefs_audio.h:441
 msgid "Submit played tracks stats to Last.fm"
 msgstr "Hantar stats trek dimainkan kepada Last.fm"
 
