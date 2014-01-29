@@ -21,6 +21,7 @@ Demuxers:
  * Avoid an infinite recursion in MKV tags parsing
  * Fix an issue with some Vobsub tracks
  * Fix missing samples at the end of some wav files
+ * Fix divide by 0 on ASF/WMV parsing
 
 Audio output:
  * Fix audio device selection via command line on Mac OS X
@@ -28,14 +29,24 @@ Audio output:
 
 Video Output:
  * Fix selection of DirectDraw as the default output for XP
+ * Fix transform off-by-one issue
+ * Fix screensaver disabling on Windows outputs
+ * Fix DirectDraw device enumeration and multi-display output
+ * Fix a potential crash when playing a fullscreen game at the same time as VLC
 
 Stream output:
  * Fix 24bits audio MTU alignment in RTP
+ * Fix record file names
 
 Qt interface:
  * Fix minimal size possible on start
  * Fix a crash with the simple volume widget
  * Fix a crash in the audio menu building
+ * Fix multimedia keys issues on Windows
+ * Fix opening of DVD and BD folders on Windows
+
+HTTP interface:
+ * Fix album art display on Windows
 
 Translations:
  * Update of Bulgarian, Catalan, Czech, Danish, German, Modern Greek,
