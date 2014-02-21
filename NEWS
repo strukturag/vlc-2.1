@@ -1,9 +1,16 @@
 Changes between 2.1.3 and 2.1.4:
 --------------------------------
 
+Demuxers:
+ * Fix issue in WMV with multiple compressed payload and empty payloads
+
+Video Output:
+ * Fix subtitles size rendering on Windows
+
 Mac OS X:
  * Fix DVD playback regression
  * Fix misleading error message during video playback on OS X 10.9
+ * Fix hardware acceleration memleaks
 
 
 Changes between 2.1.2 and 2.1.3:
