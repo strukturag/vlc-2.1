@@ -128,7 +128,7 @@ static int Open( vlc_va_t *p_external, int i_codec_id )
         break;
     case AV_CODEC_ID_H264:
         i_profile = VAProfileH264High;
-        i_surface_count = 16+1;
+        i_surface_count = 16 + 1 + 2;
         break;
     default:
         return VLC_EGENERIC;

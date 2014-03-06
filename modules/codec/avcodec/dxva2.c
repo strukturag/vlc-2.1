@@ -865,7 +865,7 @@ static int DxCreateVideoDecoder(vlc_va_dxva2_t *va,
     int surface_count;
     switch (codec_id) {
     case AV_CODEC_ID_H264:
-        surface_count = 16 + 1;
+        surface_count = 16 + 1 + 2;
         break;
     default:
         surface_count = 2 + 1;
