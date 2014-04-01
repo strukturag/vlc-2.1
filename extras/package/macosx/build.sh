@@ -116,6 +116,7 @@ mkdir -p build && cd build
 ../bootstrap --build=$TRIPLET --host=$TRIPLET > $out
 if [ ! -e "../$TRIPLET" ]; then
     make prebuilt > $out
+    make .libde265 > $out
 fi
 spopd
 
