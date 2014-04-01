@@ -16,6 +16,6 @@ libde265: libde265-$(LIBDE265_VERSION).tar.gz .sum-libde265
 	$(MOVE)
 
 .libde265: libde265
-	cd $< && $(HOSTVARS) ./configure $(HOSTCONF)
+	cd $< && $(HOSTVARS) ./configure $(HOSTCONF) --disable-dec265 --disable-sherlock265
 	cd $< && $(MAKE) install
 	touch $@
