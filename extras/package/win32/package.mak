@@ -66,7 +66,7 @@ endif
 	IFS=':' ;\
 	for x in $$library_path_list ;\
 	do \
-		cp "$$x/libstdc++-6.dll" "$$x/libgcc_s_sjlj-1.dll" "$(win32_destdir)/" ; true ;\
+		cp "$$x/libstdc++-6.dll" "$$x/libgcc_s_sjlj-1.dll" "$$x/libwinpthread-1.dll" "$(win32_destdir)/" ; true ;\
 	done
 
 # SDK
