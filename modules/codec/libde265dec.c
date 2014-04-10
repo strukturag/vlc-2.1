@@ -71,11 +71,10 @@ static picture_t *Decode(decoder_t *dec, block_t **pp_block)
     if (!block)
         return NULL;
 
-    if (block->i_flags & BLOCK_FLAG_DISCONTINUITY) {
-        de265_reset(ctx);
-    }
-
-    if (block->i_flags & BLOCK_FLAG_CORRUPTED) {
+    if (block->i_flags & (BLOCK_FLAG_DISCONTINUITY|BLOCK_FLAG_CORRUPTED)) {
+        if (block->i_flags & BLOCK_FLAG_DISCONTINUITY) {
+            de265_reset(ctx);
+        }
         goto error;
     }
 
