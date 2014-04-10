@@ -101,7 +101,6 @@ static int Start (audio_output_t *aout, audio_sample_format_t *restrict fmt)
         msg_Err (aout, "cannot open OSS device %s: %m", device);
         return VLC_EGENERIC;
     }
-    sys->fd = fd;
     msg_Dbg (aout, "using OSS device: %s", device);
 
     /* Select audio format */
@@ -210,6 +209,7 @@ static int Start (audio_output_t *aout, audio_sample_format_t *restrict fmt)
     }
     aout_FormatPrepare (fmt);
 
+    sys->fd = fd;
     VolumeSync (aout);
     sys->starting = true;
     sys->format = *fmt;

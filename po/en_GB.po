@@ -20,14 +20,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vlc\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2014-01-29 20:14+0100\n"
-"PO-Revision-Date: 2002-04-22 09:56+0200\n"
-"Last-Translator: Sam Hocevar <sam@zoy.org>\n"
+"POT-Creation-Date: 2013-05-28 11:42+0200\n"
+"PO-Revision-Date: 2014-02-16 11:45-0000\n"
+"Last-Translator: Kieran Kunhya <kieran@kunhya.com>\n"
 "Language-Team: \n"
 "Language: en_GB\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.6.4\n"
 
 #: include/vlc_common.h:922
 msgid ""
@@ -323,6 +325,10 @@ msgid ""
 "not do that.\n"
 "You can also set default parameters for each packetizer."
 msgstr ""
+"Packetisers are used to \"preprocess\" the elementary streams before muxing. "
+"This setting allows you to always force a packetiser. You should probably "
+"not do that.\n"
+"You can also set default parameters for each packetiser."
 
 #: include/vlc_config_cat.h:158
 msgid "Sout stream"
@@ -1201,9 +1207,8 @@ msgid "Bookmark %i"
 msgstr "Bookmark %i"
 
 #: src/input/decoder.c:267
-#, fuzzy
 msgid "packetizer"
-msgstr "Packetisers"
+msgstr "packetiser"
 
 #: src/input/decoder.c:267
 #, fuzzy
@@ -1391,7 +1396,7 @@ msgstr ""
 
 #: src/input/input.c:2549
 msgid "VLC can't recognize the input's format"
-msgstr ""
+msgstr "VLC can't recognise the input's format"
 
 #: src/input/input.c:2550
 #, c-format
@@ -1681,13 +1686,12 @@ msgid "Color messages"
 msgstr "Colour messages"
 
 #: src/libvlc-module.c:100
-#, fuzzy
 msgid ""
 "This enables colorization of the messages sent to the console Your terminal "
 "needs Linux color support for this to work."
 msgstr ""
-"When this option is turned on, the messages sent to the console will be "
-"colourised. Your terminal needs Linux colour support for this to work."
+"This enables colourisation of the messages sent to the console Your terminal "
+"needs Linux colour support for this to work."
 
 #: src/libvlc-module.c:103
 msgid "Show advanced options"
@@ -2160,8 +2164,8 @@ msgid ""
 "Output video in grayscale. As the color information aren't decoded, this can "
 "save some processing power."
 msgstr ""
-"Output video in greyscale. As the colour information aren’t decoded, this "
-"can save some processing power."
+"Output video in greyscale. As the colour information isn't decoded, this can "
+"save some processing power."
 
 #: src/libvlc-module.c:298
 #, fuzzy
@@ -3979,6 +3983,8 @@ msgid ""
 "The playlist can use a tree to categorize some items, like the contents of a "
 "directory."
 msgstr ""
+"The playlist can use a tree to categorise some items, like the contents of a "
+"directory."
 
 #: src/libvlc-module.c:1186
 msgid "These settings are the global VLC key bindings, known as \"hotkeys\"."
@@ -4463,14 +4469,11 @@ msgstr ""
 
 #: src/libvlc-module.c:1306
 msgid "Subtitle sync / synchronize audio & subtitle timestamps"
-msgstr ""
+msgstr "Subtitle sync / synchronise audio & subtitle timestamps"
 
 #: src/libvlc-module.c:1307
-#, fuzzy
 msgid "Select the key to synchronize bookmarked audio & subtitle timestamps."
-msgstr ""
-"Select the key to go back (to the previous media item) in the browsing "
-"history."
+msgstr "Select the key to synchronise bookmarked audio & subtitle timestamps."
 
 #: src/libvlc-module.c:1308
 #, fuzzy
@@ -6186,9 +6189,8 @@ msgid "AES/EBU"
 msgstr ""
 
 #: modules/access/decklink.cpp:89 modules/video_output/decklink.cpp:120
-#, fuzzy
 msgid "Analog"
-msgstr "Disable"
+msgstr "Analogue"
 
 #: modules/access/decklink.cpp:94 modules/demux/rawvid.c:61
 #, fuzzy
@@ -7287,7 +7289,7 @@ msgstr "Genre"
 
 #: modules/access/http.c:89
 msgid "Customize the HTTP referer, simulating a previous document"
-msgstr ""
+msgstr "Customise the HTTP referer, simulating a previous document"
 
 #: modules/access/http.c:91
 #, fuzzy
@@ -8001,7 +8003,7 @@ msgstr ""
 
 #: modules/access_output/livehttp.c:104
 msgid "Use randomized IV for encryption"
-msgstr ""
+msgstr "Use randomised IV for encryption"
 
 #: modules/access_output/livehttp.c:105
 msgid "Generate IV instead using segment-number as IV"
@@ -8373,6 +8375,8 @@ msgid ""
 "Optimize the capture by fragmenting the screen in chunks of predefined "
 "height (16 might be a good value, and 0 means disabled)."
 msgstr ""
+"Optimise the capture by fragmenting the screen in chunks of predefined "
+"height (16 might be a good value, and 0 means disabled)."
 
 #: modules/access/screen/screen.c:54 modules/access/screen/screen.c:58
 #, fuzzy
@@ -8828,7 +8832,7 @@ msgstr ""
 
 #: modules/access/v4l2/v4l2.c:94
 msgid "Hue or color balance."
-msgstr ""
+msgstr "Hue or colour balance."
 
 #: modules/access/v4l2/v4l2.c:95
 #, fuzzy
@@ -8848,6 +8852,8 @@ msgid ""
 "White balance temperature as a color temperation in Kelvin (2800 is minimum "
 "incandescence, 6500 is maximum daylight)."
 msgstr ""
+"White balance temperature as a colour temperation in Kelvin (2800 is minimum "
+"incandescence, 6500 is maximum daylight)."
 
 #: modules/access/v4l2/v4l2.c:102
 msgid "Automatic white balance"
@@ -8988,25 +8994,24 @@ msgid "Picture rotation angle (in degrees)."
 msgstr ""
 
 #: modules/access/v4l2/v4l2.c:152
-#, fuzzy
 msgid "Color killer"
-msgstr "Stereo"
+msgstr "Colour killer"
 
 #: modules/access/v4l2/v4l2.c:154
 msgid ""
 "Enable the color killer, i.e. switch to black & white picture whenever the "
 "signal is weak."
 msgstr ""
+"Enable the colour killer, i.e. switch to black & white picture whenever the "
+"signal is weak."
 
 #: modules/access/v4l2/v4l2.c:156
-#, fuzzy
 msgid "Color effect"
-msgstr "Random Off"
+msgstr "Colour effect"
 
 #: modules/access/v4l2/v4l2.c:157
-#, fuzzy
 msgid "Select a color effect."
-msgstr "Choose directory"
+msgstr "Select a colour effect."
 
 #: modules/access/v4l2/v4l2.c:164
 #, fuzzy
@@ -9983,15 +9988,12 @@ msgid "MPEG audio decoder"
 msgstr "MPEG-I/II audio demuxer"
 
 #: modules/audio_filter/equalizer.c:58
-#, fuzzy
 msgid "Equalizer preset"
-msgstr "visualiser"
+msgstr "Equaliser preset"
 
 #: modules/audio_filter/equalizer.c:59
-#, fuzzy
 msgid "Preset to use for the equalizer."
-msgstr ""
-"Allows you to modify the user name that will be used for the connection."
+msgstr "Preset to use for the equaliser."
 
 #: modules/audio_filter/equalizer.c:61
 msgid "Bands gain"
@@ -10036,9 +10038,8 @@ msgid "Set the global gain in dB (-20 ... 20)."
 msgstr "Set the global gain in dB (-20 … 20)"
 
 #: modules/audio_filter/equalizer.c:80
-#, fuzzy
 msgid "Equalizer with 10 bands"
-msgstr "visualiser"
+msgstr "Equaliser with 10 bands"
 
 #: modules/audio_filter/equalizer_presets.h:40
 #, fuzzy
@@ -10173,16 +10174,17 @@ msgid ""
 "volume will be normalized. This value is a positive floating point number. A "
 "value between 0.5 and 10 seems sensible."
 msgstr ""
+"If the average power over the last N buffers is higher than this value, the "
+"volume will be normalised. This value is a positive floating point number. A "
+"value between 0.5 and 10 seems sensible."
 
 #: modules/audio_filter/normvol.c:78 modules/audio_filter/normvol.c:79
-#, fuzzy
 msgid "Volume normalizer"
-msgstr "Visualisations"
+msgstr "Volume normaliser"
 
 #: modules/audio_filter/param_eq.c:52 modules/audio_filter/param_eq.c:53
-#, fuzzy
 msgid "Parametric Equalizer"
-msgstr "Equaliser"
+msgstr "Parametric Equaliser"
 
 #: modules/audio_filter/param_eq.c:58
 msgid "Low freq (Hz)"
@@ -10372,16 +10374,14 @@ msgid "Damp"
 msgstr "Stream "
 
 #: modules/audio_filter/spatializer/spatializer.cpp:71
-#, fuzzy
 msgid "Audio Spatializer"
-msgstr "visualiser filter"
+msgstr "Audio Spatialiser"
 
 #: modules/audio_filter/spatializer/spatializer.cpp:72
 #: modules/gui/macosx/AudioEffects.m:145
 #: modules/gui/qt4/dialogs/extended.cpp:70
-#, fuzzy
 msgid "Spatializer"
-msgstr "visualiser filter"
+msgstr "Spatialiser"
 
 #: modules/audio_filter/stereo_widen.c:55
 msgid ""
@@ -10781,9 +10781,8 @@ msgid "AES3/SMPTE 302M audio decoder"
 msgstr "MPEG-I/II audio demuxer"
 
 #: modules/codec/aes3.c:52
-#, fuzzy
 msgid "AES3/SMPTE 302M audio packetizer"
-msgstr "A/52 audio packetiser"
+msgstr "AES3/SMPTE 302M audio packetiser"
 
 #: modules/codec/araw.c:50
 #, fuzzy
@@ -10967,10 +10966,12 @@ msgid ""
 "4 - visualize backward predicted MVs of B frames\n"
 "To visualize all vectors, the value should be 7."
 msgstr ""
-"Set motion vectors visualisation mask.\n"
+"You can overlay the motion vectors (arrows showing how the images move) on "
+"the image. This value is a mask, based on these values:\n"
 "1 - visualise forward predicted MVs of P frames\n"
 "2 - visualise forward predicted MVs of B frames\n"
-"4 - visualise backward predicted MVs of B frames"
+"4 - visualise backward predicted MVs of B frames\n"
+"To visualise all vectors, the value should be 7."
 
 #: modules/codec/avcodec/avcodec.h:131 modules/gui/macosx/simple_prefs.m:344
 msgid "Skip the loop filter for H.264 decoding"
@@ -11159,18 +11160,16 @@ msgid "Minimum video quantizer scale"
 msgstr "Minimum video quantiser scale"
 
 #: modules/codec/avcodec/avcodec.h:211
-#, fuzzy
 msgid "Minimum video quantizer scale."
-msgstr "Minimum video quantiser scale"
+msgstr "Minimum video quantiser scale."
 
 #: modules/codec/avcodec/avcodec.h:214
 msgid "Maximum video quantizer scale"
 msgstr "Maximum video quantiser scale"
 
 #: modules/codec/avcodec/avcodec.h:215
-#, fuzzy
 msgid "Maximum video quantizer scale."
-msgstr "Maximum video quantiser scale"
+msgstr "Maximum video quantiser scale."
 
 #: modules/codec/avcodec/avcodec.h:218
 #, fuzzy
@@ -11185,15 +11184,16 @@ msgstr ""
 "coefficients)."
 
 #: modules/codec/avcodec/avcodec.h:222
-#, fuzzy
 msgid "Fixed quantizer scale"
-msgstr "Minimum video quantiser scale"
+msgstr "Fixed quantiser scale"
 
 #: modules/codec/avcodec/avcodec.h:223
 msgid ""
 "A fixed video quantizer scale for VBR encoding (accepted values: 0.01 to "
 "255.0)."
 msgstr ""
+"A fixed video quantiser scale for VBR encoding (accepted values: 0.01 to "
+"255.0)."
 
 #: modules/codec/avcodec/avcodec.h:226
 msgid "Strict standard compliance"
@@ -11210,7 +11210,7 @@ msgstr ""
 
 #: modules/codec/avcodec/avcodec.h:231
 msgid "Raise the quantizer for very bright macroblocks (default: 0.0)."
-msgstr ""
+msgstr "Raise the quantiser for very bright macroblocks (default: 0.0)."
 
 #: modules/codec/avcodec/avcodec.h:234
 msgid "Darkness masking"
@@ -11218,7 +11218,7 @@ msgstr ""
 
 #: modules/codec/avcodec/avcodec.h:235
 msgid "Raise the quantizer for very dark macroblocks (default: 0.0)."
-msgstr ""
+msgstr "Raise the quantiser for very dark macroblocks (default: 0.0)."
 
 #: modules/codec/avcodec/avcodec.h:238
 msgid "Motion masking"
@@ -11229,6 +11229,8 @@ msgid ""
 "Raise the quantizer for macroblocks with a high temporal complexity "
 "(default: 0.0)."
 msgstr ""
+"Raise the quantiser for macroblocks with a high temporal complexity "
+"(default: 0.0)."
 
 #: modules/codec/avcodec/avcodec.h:242
 #, fuzzy
@@ -11240,6 +11242,8 @@ msgid ""
 "Raise the quantizer for macroblocks at the border of the frame (default: "
 "0.0)."
 msgstr ""
+"Raise the quantiser for macroblocks at the border of the frame (default: "
+"0.0)."
 
 #: modules/codec/avcodec/avcodec.h:246
 msgid "Luminance elimination"
@@ -11574,13 +11578,12 @@ msgid "Also known as DWT levels"
 msgstr ""
 
 #: modules/codec/dirac.c:169 modules/codec/schroedinger.c:250
-#, fuzzy
 msgid "Enable multiple quantizers"
-msgstr "visualiser filter"
+msgstr "Enable multiple quantisers"
 
 #: modules/codec/dirac.c:170 modules/codec/schroedinger.c:251
 msgid "Enable multiple quantizers per subband (one per codeblock)"
-msgstr ""
+msgstr "Enable multiple quantisers per subband (one per codeblock)"
 
 #: modules/codec/dirac.c:174
 #, fuzzy
@@ -12044,15 +12047,16 @@ msgid ""
 msgstr ""
 
 #: modules/codec/kate.c:240
-#, fuzzy
 msgid "Default font color"
-msgstr "Audio encoders settings"
+msgstr "Default font colour"
 
 #: modules/codec/kate.c:241
 msgid ""
 "Default font color to use if the Kate stream does not specify a particular "
 "font color to use."
 msgstr ""
+"Default font colour to use if the Kate stream does not specify a particular "
+"font colour to use."
 
 #: modules/codec/kate.c:245
 #, fuzzy
@@ -12064,17 +12068,20 @@ msgid ""
 "Transparency of the default font color if the Kate stream does not specify a "
 "particular font color to use."
 msgstr ""
+"Transparency of the default font colour if the Kate stream does not specify "
+"a particular font colour to use."
 
 #: modules/codec/kate.c:250
-#, fuzzy
 msgid "Default background color"
-msgstr "Next file"
+msgstr "Default background colour"
 
 #: modules/codec/kate.c:251
 msgid ""
 "Default background color if the Kate stream does not specify a background "
 "color to use."
 msgstr ""
+"Default background colour if the Kate stream does not specify a background "
+"colour to use."
 
 #: modules/codec/kate.c:255
 msgid "Default background alpha"
@@ -12085,6 +12092,8 @@ msgid ""
 "Transparency of the default background color if the Kate stream does not "
 "specify a particular background color to use."
 msgstr ""
+"Transparency of the default background colour if the Kate stream does not "
+"specify a particular background colour to use."
 
 #: modules/codec/kate.c:262
 msgid ""
@@ -12112,9 +12121,8 @@ msgid "Tiger rendering defaults"
 msgstr "Text rendering"
 
 #: modules/codec/kate.c:326
-#, fuzzy
 msgid "Kate text subtitles packetizer"
-msgstr "DVD subtitles packetiser"
+msgstr "Kate text subtitles packetiser"
 
 #: modules/codec/libass.c:56
 #, fuzzy
@@ -13393,13 +13401,15 @@ msgstr ""
 
 #: modules/codec/x264.c:125
 msgid "Use fullrange instead of TV colorrange"
-msgstr ""
+msgstr "Use fullrange instead of TV colourrange"
 
 #: modules/codec/x264.c:126
 msgid ""
 "TV-range is usually used colorrange, defining this to true will enable "
 "libx264 to use full colorrange on encoding"
 msgstr ""
+"TV-range is usually used colourrange, defining this to true will enable "
+"libx264 to use full colourrange on encoding"
 
 #: modules/codec/x264.c:129
 msgid "CABAC"
@@ -13536,6 +13546,8 @@ msgid ""
 "This selects the quantizer to use. Lower values result in better fidelity, "
 "but higher bitrates. 26 is a good default value. Range 0 (lossless) to 51."
 msgstr ""
+"This selects the quantiser to use. Lower values result in better fidelity, "
+"but higher bitrates. 26 is a good default value. Range 0 (lossless) to 51."
 
 #: modules/codec/x264.c:194
 msgid "Quality-based VBR"
@@ -13551,16 +13563,15 @@ msgstr ""
 
 #: modules/codec/x264.c:198
 msgid "Minimum quantizer parameter. 15 to 35 seems to be a useful range."
-msgstr ""
+msgstr "Minimum quantiser parameter. 15 to 35 seems to be a useful range."
 
 #: modules/codec/x264.c:201
 msgid "Max QP"
 msgstr ""
 
 #: modules/codec/x264.c:202
-#, fuzzy
 msgid "Maximum quantizer parameter."
-msgstr "Maximum video quantiser scale"
+msgstr "Maximum quantiser parameter."
 
 #: modules/codec/x264.c:204
 msgid "Max QP step"
@@ -13907,9 +13918,8 @@ msgid "Inter luma quantization deadzone"
 msgstr "I quantisation factor"
 
 #: modules/codec/x264.c:365
-#, fuzzy
 msgid "Set the size of the inter luma quantization deadzone. Range 0 to 32."
-msgstr "I quantisation factor"
+msgstr "Set the size of the inter luma quantisation deadzone. Range 0 to 32."
 
 #: modules/codec/x264.c:368
 #, fuzzy
@@ -13917,9 +13927,8 @@ msgid "Intra luma quantization deadzone"
 msgstr "I quantisation factor"
 
 #: modules/codec/x264.c:369
-#, fuzzy
 msgid "Set the size of the intra luma quantization deadzone. Range 0 to 32."
-msgstr "I quantisation factor"
+msgstr "Set the size of the intra luma quantisation deadzone. Range 0 to 32."
 
 #: modules/codec/x264.c:374
 msgid "Non-deterministic optimizations when threaded"
@@ -14648,9 +14657,8 @@ msgid "Remote control interface"
 msgstr "Remote control interface"
 
 #: modules/control/rc.c:353
-#, fuzzy
 msgid "Remote control interface initialized. Type `help' for help."
-msgstr "Remote control interface initialised, `h' for help\n"
+msgstr "Remote control interface initialised. Type `help' for help."
 
 #: modules/control/rc.c:765
 #, c-format
@@ -16907,9 +16915,8 @@ msgid "Threshold"
 msgstr "Enable interlaced encoding"
 
 #: modules/gui/macosx/AudioEffects.m:128
-#, fuzzy
 msgid "Enable Spatializer"
-msgstr "visualiser filter"
+msgstr "Enable Spatialiser"
 
 #: modules/gui/macosx/AudioEffects.m:137
 #, fuzzy
@@ -16995,7 +17002,7 @@ msgstr "Open &File…\tCtrl-F"
 
 #: modules/gui/macosx/AudioEffects.m:466
 msgid "Organize Presets..."
-msgstr ""
+msgstr "Organise Presets..."
 
 #: modules/gui/macosx/AudioEffects.m:639
 msgid "Save current selection as new preset"
@@ -17252,6 +17259,8 @@ msgid ""
 "Click to show an Audio Effects panel featuring an equalizer and further "
 "filters."
 msgstr ""
+"Click to show an Audio Effects panel featuring an equaliser and further "
+"filters."
 
 #: modules/gui/macosx/ControlsBar.m:751 modules/gui/macosx/fspanel.m:416
 #, fuzzy
@@ -17290,9 +17299,8 @@ msgid "Choose Profile"
 msgstr "Choose file"
 
 #: modules/gui/macosx/ConvertAndSave.m:157
-#, fuzzy
 msgid "Customize..."
-msgstr "Add Interface"
+msgstr "Customise..."
 
 #: modules/gui/macosx/ConvertAndSave.m:158
 #, fuzzy
@@ -17792,9 +17800,8 @@ msgstr ""
 
 #: modules/gui/macosx/macosx.m:103 modules/gui/macosx/simple_prefs.m:371
 #: modules/gui/qt4/qt4.cpp:170
-#, fuzzy
 msgid "Pause the video playback when minimized"
-msgstr "Backwards"
+msgstr "Pause the video playback when minimised"
 
 #: modules/gui/macosx/macosx.m:104 modules/gui/qt4/qt4.cpp:172
 msgid ""
@@ -18140,9 +18147,8 @@ msgid "Text Size"
 msgstr "Genre"
 
 #: modules/gui/macosx/MainMenu.m:418
-#, fuzzy
 msgid "Text Color"
-msgstr "ffmpeg demuxer"
+msgstr "Text Colour"
 
 #: modules/gui/macosx/MainMenu.m:419
 #, fuzzy
@@ -18155,9 +18161,8 @@ msgid "Background Opacity"
 msgstr "Backwards"
 
 #: modules/gui/macosx/MainMenu.m:423
-#, fuzzy
 msgid "Background Color"
-msgstr "Backwards"
+msgstr "Background Colour"
 
 #: modules/gui/macosx/MainMenu.m:425
 #, fuzzy
@@ -19073,9 +19078,8 @@ msgstr "Display resolution"
 
 #: modules/gui/macosx/simple_prefs.m:380
 #: modules/gui/qt4/ui/sprefs_subtitles.h:297
-#, fuzzy
 msgid "Font color"
-msgstr "ffmpeg demuxer"
+msgstr "Font colour"
 
 #: modules/gui/macosx/simple_prefs.m:382 modules/text_renderer/freetype.c:155
 #: modules/text_renderer/quartztext.c:92 modules/text_renderer/win32text.c:59
@@ -19112,9 +19116,8 @@ msgstr ""
 
 #: modules/gui/macosx/simple_prefs.m:389 modules/text_renderer/freetype.c:185
 #: modules/gui/qt4/ui/sprefs_subtitles.h:299
-#, fuzzy
 msgid "Outline color"
-msgstr "Codec"
+msgstr "Outline colour"
 
 #: modules/gui/macosx/simple_prefs.m:390 modules/text_renderer/freetype.c:186
 #: modules/gui/qt4/ui/sprefs_subtitles.h:298
@@ -19351,9 +19354,8 @@ msgstr "Spectrum"
 #: modules/video_filter/rss.c:154 modules/gui/qt4/ui/video_effects.h:1328
 #: modules/gui/qt4/ui/video_effects.h:1334
 #: modules/gui/qt4/ui/video_effects.h:1337
-#, fuzzy
 msgid "Color"
-msgstr "Stereo"
+msgstr "Colour"
 
 #: modules/gui/macosx/VideoEffects.m:89
 #, fuzzy
@@ -19403,15 +19405,13 @@ msgstr "Greyscale video output"
 
 #: modules/gui/macosx/VideoEffects.m:107
 #: modules/gui/qt4/ui/video_effects.h:1322
-#, fuzzy
 msgid "Synchronize top and bottom"
-msgstr "Choose audio track"
+msgstr "Synchronise top and bottom"
 
 #: modules/gui/macosx/VideoEffects.m:108
 #: modules/gui/qt4/ui/video_effects.h:1323
-#, fuzzy
 msgid "Synchronize left and right"
-msgstr "Choose audio track"
+msgstr "Synchronise left and right"
 
 #: modules/gui/macosx/VideoEffects.m:110
 #: modules/gui/qt4/ui/video_effects.h:1348
@@ -19486,9 +19486,8 @@ msgstr "Scope"
 
 #: modules/gui/macosx/VideoEffects.m:132 modules/video_filter/colorthres.c:70
 #: modules/gui/qt4/ui/video_effects.h:1336
-#, fuzzy
 msgid "Color threshold"
-msgstr "Enable interlaced encoding"
+msgstr "Colour threshold"
 
 #: modules/gui/macosx/VideoEffects.m:135
 #: modules/gui/qt4/ui/video_effects.h:1340
@@ -19524,24 +19523,21 @@ msgstr "Next file"
 
 #: modules/gui/macosx/VideoEffects.m:150
 #: modules/gui/qt4/ui/video_effects.h:1327
-#, fuzzy
 msgid "Color extraction"
-msgstr "Stereo"
+msgstr "Colour extraction"
 
 #: modules/gui/macosx/VideoEffects.m:152
-#, fuzzy
 msgid "Invert colors"
-msgstr "ffmpeg demuxer"
+msgstr "Invert colours"
 
 #: modules/gui/macosx/VideoEffects.m:153 modules/video_filter/posterize.c:68
 #: modules/gui/qt4/ui/video_effects.h:1331
-#, fuzzy
 msgid "Posterize"
-msgstr "Stereo"
+msgstr "Posterise"
 
 #: modules/gui/macosx/VideoEffects.m:154 modules/video_filter/posterize.c:60
 msgid "Posterize level"
-msgstr ""
+msgstr "Posterise level"
 
 #: modules/gui/macosx/VideoEffects.m:155 modules/video_filter/motionblur.c:59
 #: modules/gui/qt4/ui/video_effects.h:1387
@@ -19602,9 +19598,8 @@ msgid "Transparency"
 msgstr ""
 
 #: modules/gui/macosx/VideoEffects.m:236
-#, fuzzy
 msgid "Organize profiles..."
-msgstr "Opening file…"
+msgstr "Organise profiles..."
 
 #: modules/gui/macosx/wizard.m:116
 #, fuzzy
@@ -19639,11 +19634,12 @@ msgid "DivX third version (useable with MPEG TS, MPEG1, ASF and OGG)"
 msgstr "Destination video codec"
 
 #: modules/gui/macosx/wizard.m:140
-#, fuzzy
 msgid ""
 "H263 is a video codec optimized for videoconference (low rates, useable with "
 "MPEG TS)"
-msgstr "Destination video codec"
+msgstr ""
+"H263 is a video codec optimised for videoconference (low rates, useable with "
+"MPEG TS)"
 
 #: modules/gui/macosx/wizard.m:144
 #, fuzzy
@@ -21098,9 +21094,8 @@ msgid "Bandwidth"
 msgstr "Next file"
 
 #: modules/gui/qt4/components/open_panels.cpp:1021
-#, fuzzy
 msgid "TV - analog"
-msgstr "Disable"
+msgstr "TV - analogue"
 
 #: modules/gui/qt4/components/open_panels.cpp:1024
 #, fuzzy
@@ -21632,9 +21627,8 @@ msgid "Adjustments and Effects"
 msgstr "Video codecs"
 
 #: modules/gui/qt4/dialogs/extended.cpp:64
-#, fuzzy
 msgid "Graphic Equalizer"
-msgstr "Equaliser"
+msgstr "Graphic Equaliser"
 
 #: modules/gui/qt4/dialogs/extended.cpp:87
 #, fuzzy
@@ -22401,9 +22395,8 @@ msgid "Plu&gins and extensions"
 msgstr ""
 
 #: modules/gui/qt4/menus.cpp:436
-#, fuzzy
 msgid "Customi&ze Interface..."
-msgstr "Add Interface"
+msgstr "Customise Interface..."
 
 #: modules/gui/qt4/menus.cpp:439
 #, fuzzy
@@ -22781,7 +22774,7 @@ msgstr ""
 
 #: modules/gui/qt4/qt4.cpp:130
 msgid "Define the colors of the volume slider "
-msgstr ""
+msgstr "Define the colours of the volume slider "
 
 #: modules/gui/qt4/qt4.cpp:131
 msgid ""
@@ -22790,6 +22783,10 @@ msgid ""
 "Default is '255;255;255;20;226;20;255;176;15;235;30;20'\n"
 "An alternative can be '30;30;50;40;40;100;50;50;160;150;150;255' "
 msgstr ""
+"Define the colours of the volume slider\n"
+"By specifying the 12 numbers separated by a ';'\n"
+"Default is '255;255;255;20;226;20;255;176;15;235;30;20'\n"
+"An alternative can be '30;30;50;40;40;100;50;50;160;150;150;255' "
 
 #: modules/gui/qt4/qt4.cpp:136
 msgid "Selection of the starting mode and look "
@@ -22875,9 +22872,8 @@ msgid "Never"
 msgstr "Genre"
 
 #: modules/gui/qt4/qt4.cpp:184
-#, fuzzy
 msgid "When minimized"
-msgstr "Backwards"
+msgstr "When minimised"
 
 #: modules/gui/qt4/qt4.cpp:184
 msgid "Always"
@@ -23217,7 +23213,7 @@ msgstr ""
 
 #: modules/misc/gnutls.c:63
 msgid "Performance (prioritize faster ciphers)"
-msgstr ""
+msgstr "Performance (prioritise faster ciphers)"
 
 #: modules/misc/gnutls.c:65
 msgid "Secure 128-bits (exclude 256-bits ciphers)"
@@ -23225,7 +23221,7 @@ msgstr ""
 
 #: modules/misc/gnutls.c:66
 msgid "Secure 256-bits (prioritize 256-bits ciphers)"
-msgstr ""
+msgstr "Secure 256-bits (prioritise 256-bits ciphers)"
 
 #: modules/misc/gnutls.c:67
 msgid "Export (include insecure ciphers)"
@@ -23539,6 +23535,9 @@ msgid ""
 "downloads and allow the user to start previewing the file while it is "
 "downloading."
 msgstr ""
+"Create \"Fast Start\" files. \"Fast Start\" files are optimised for "
+"downloads and allow the user to start previewing the file while it is "
+"downloading."
 
 #: modules/mux/mp4.c:58
 #, fuzzy
@@ -23828,9 +23827,8 @@ msgid "Copy packetizer"
 msgstr "Copy packetiser"
 
 #: modules/packetizer/dirac.c:87
-#, fuzzy
 msgid "Dirac packetizer"
-msgstr "DTS audio packetiser"
+msgstr "Dirac packetiser"
 
 #: modules/packetizer/flac.c:50
 msgid "Flac audio packetizer"
@@ -23864,6 +23862,8 @@ msgid ""
 "Normally the packetizer would sync on the next full frame. This flags "
 "instructs the packetizer to sync on the first Intra Frame found."
 msgstr ""
+"Normally the packetiser would sync on the next full frame. This flags "
+"instructs the packetiser to sync on the first Intra Frame found."
 
 #: modules/packetizer/mpegvideo.c:71
 msgid "MPEG-I/II video packetizer"
@@ -23875,9 +23875,8 @@ msgid "MPEG Video"
 msgstr "Video encoder"
 
 #: modules/packetizer/vc1.c:51
-#, fuzzy
 msgid "VC-1 packetizer"
-msgstr "Copy packetiser"
+msgstr "VC-1 packetiser"
 
 #: modules/services_discovery/bonjour.c:55
 msgid "Bonjour services"
@@ -24549,6 +24548,8 @@ msgid ""
 "Output volume for analog output: 0 for silence, 1..255 from almost silent to "
 "very loud."
 msgstr ""
+"Output volume for analogue output: 0 for silence, 1..255 from almost silent "
+"to very loud."
 
 #: modules/stream_out/raop.c:155
 msgid "Password for target device."
@@ -24889,9 +24890,8 @@ msgstr ""
 "Give the default type of audio you want to use in a DVD. (Developers only)"
 
 #: modules/stream_out/smem.c:83
-#, fuzzy
 msgid "Time Synchronized output"
-msgstr "Choose audio track"
+msgstr "Time Synchronised output"
 
 #: modules/stream_out/smem.c:84
 msgid ""
@@ -25241,7 +25241,7 @@ msgstr ""
 #: modules/text_renderer/freetype.c:170 modules/text_renderer/quartztext.c:98
 #: modules/text_renderer/win32text.c:70
 msgid "Text default color"
-msgstr ""
+msgstr "Text default colour"
 
 #: modules/text_renderer/freetype.c:171 modules/text_renderer/quartztext.c:99
 #: modules/text_renderer/win32text.c:71
@@ -25251,6 +25251,10 @@ msgid ""
 "then blue. #000000 = black, #FF0000 = red, #00FF00 = green, #FFFF00 = yellow "
 "(red + green), #FFFFFF = white"
 msgstr ""
+"The colour of the text that will be rendered on the video. This must be an "
+"hexadecimal (like HTML colors). The first two chars are for red, then green, "
+"then blue. #000000 = black, #FF0000 = red, #00FF00 = green, #FFFF00 = yellow "
+"(red + green), #FFFFFF = white"
 
 #: modules/text_renderer/freetype.c:175 modules/text_renderer/quartztext.c:94
 #: modules/text_renderer/win32text.c:75
@@ -25271,9 +25275,8 @@ msgid "Background opacity"
 msgstr "Backwards"
 
 #: modules/text_renderer/freetype.c:182
-#, fuzzy
 msgid "Background color"
-msgstr "Backwards"
+msgstr "Background colour"
 
 #: modules/text_renderer/freetype.c:184
 #, fuzzy
@@ -25286,9 +25289,8 @@ msgid "Shadow opacity"
 msgstr "Random Off"
 
 #: modules/text_renderer/freetype.c:189
-#, fuzzy
 msgid "Shadow color"
-msgstr "Random Off"
+msgstr "Shadow colour"
 
 #: modules/text_renderer/freetype.c:190
 #, fuzzy
@@ -25523,13 +25525,12 @@ msgid "Alpha mask"
 msgstr "ffmpeg demuxer"
 
 #: modules/video_filter/anaglyph.c:39
-#, fuzzy
 msgid "Color scheme"
-msgstr "Random Off"
+msgstr "Colour scheme"
 
 #: modules/video_filter/anaglyph.c:40
 msgid "Define the glasses' color scheme"
-msgstr ""
+msgstr "Define the glasses' colour scheme"
 
 #: modules/video_filter/anaglyph.c:72
 msgid "Convert 3D picture to anaglyph image video filter"
@@ -25688,22 +25689,23 @@ msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:199
 msgid "Mark analyzed pixels"
-msgstr ""
+msgstr "Mark analysed pixels"
 
 #: modules/video_filter/atmo/atmo.cpp:200
 msgid "makes the sample grid visible on screen as white pixels"
 msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:203
-#, fuzzy
 msgid "Color when paused"
-msgstr "Enable interlaced encoding"
+msgstr "Colour when paused"
 
 #: modules/video_filter/atmo/atmo.cpp:204
 msgid ""
 "Set the color to show if the user pauses the video. (Have light to get "
 "another beer?)"
 msgstr ""
+"Set the colour to show if the user pauses the video. (Have light to get "
+"another beer?)"
 
 #: modules/video_filter/atmo/atmo.cpp:207
 #, fuzzy
@@ -25711,9 +25713,8 @@ msgid "Pause-Red"
 msgstr "Date"
 
 #: modules/video_filter/atmo/atmo.cpp:208
-#, fuzzy
 msgid "Red component of the pause color"
-msgstr "ffmpeg demuxer"
+msgstr "Red component of the pause colour"
 
 #: modules/video_filter/atmo/atmo.cpp:209
 #, fuzzy
@@ -25722,7 +25723,7 @@ msgstr "Genre"
 
 #: modules/video_filter/atmo/atmo.cpp:210
 msgid "Green component of the pause color"
-msgstr ""
+msgstr "Green component of the pause colour"
 
 #: modules/video_filter/atmo/atmo.cpp:211
 #, fuzzy
@@ -25731,7 +25732,7 @@ msgstr "Date"
 
 #: modules/video_filter/atmo/atmo.cpp:212
 msgid "Blue component of the pause color"
-msgstr ""
+msgstr "Blue component of the pause colour"
 
 #: modules/video_filter/atmo/atmo.cpp:213
 msgid "Pause-Fadesteps"
@@ -25741,6 +25742,8 @@ msgstr ""
 msgid ""
 "Number of steps to change current color to pause color (each step takes 40ms)"
 msgstr ""
+"Number of steps to change current colour to pause colour (each step takes "
+"40ms)"
 
 #: modules/video_filter/atmo/atmo.cpp:217
 #, fuzzy
@@ -25749,7 +25752,7 @@ msgstr "Append to file"
 
 #: modules/video_filter/atmo/atmo.cpp:218
 msgid "Red component of the shutdown color"
-msgstr ""
+msgstr "Red component of the shutdown colour"
 
 #: modules/video_filter/atmo/atmo.cpp:219
 #, fuzzy
@@ -25758,7 +25761,7 @@ msgstr "Genre"
 
 #: modules/video_filter/atmo/atmo.cpp:220
 msgid "Green component of the shutdown color"
-msgstr ""
+msgstr "Green component of the shutdown colour"
 
 #: modules/video_filter/atmo/atmo.cpp:221
 #, fuzzy
@@ -25767,7 +25770,7 @@ msgstr "Title"
 
 #: modules/video_filter/atmo/atmo.cpp:222
 msgid "Blue component of the shutdown color"
-msgstr ""
+msgstr "Blue component of the shutdown colour"
 
 #: modules/video_filter/atmo/atmo.cpp:223
 msgid "End-Fadesteps"
@@ -25778,6 +25781,8 @@ msgid ""
 "Number of steps to change current color to end color for dimming up the "
 "light in cinema style... (each step takes 40ms)"
 msgstr ""
+"Number of steps to change current colour to end colour for dimming up the "
+"light in cinema style... (each step takes 40ms)"
 
 #: modules/video_filter/atmo/atmo.cpp:228
 #, fuzzy
@@ -25875,6 +25880,8 @@ msgid ""
 "Increasing this value will result in color more depending on the border of "
 "the frame."
 msgstr ""
+"Increasing this value will result in colour more depending on the border of "
+"the frame."
 
 #: modules/video_filter/atmo/atmo.cpp:264
 msgid "Overall brightness of your LED stripes"
@@ -25914,6 +25921,7 @@ msgstr ""
 msgid ""
 "Time it takes until a color is completely changed. This prevents flickering."
 msgstr ""
+"Time it takes until a colour is completely changed. This prevents flickering."
 
 #: modules/video_filter/atmo/atmo.cpp:277
 #, fuzzy
@@ -25922,7 +25930,7 @@ msgstr "Enable interlaced encoding"
 
 #: modules/video_filter/atmo/atmo.cpp:278
 msgid "How much a color has to be changed for an immediate color change."
-msgstr ""
+msgstr "How much a colour has to be changed for an immediate colour change."
 
 #: modules/video_filter/atmo/atmo.cpp:280
 #: modules/gui/qt4/ui/video_effects.h:1385
@@ -25935,14 +25943,15 @@ msgid "Filter Smoothness"
 msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:283
-#, fuzzy
 msgid "Output Color filter mode"
-msgstr "Video output muxer"
+msgstr "Output Colour filter mode"
 
 #: modules/video_filter/atmo/atmo.cpp:284
 msgid ""
 "defines the how the output color should be calculated based on previous color"
 msgstr ""
+"defines the how the output colour should be calculated based on previous "
+"colour"
 
 #: modules/video_filter/atmo/atmo.cpp:293
 #, fuzzy
@@ -26071,6 +26080,7 @@ msgstr "Author"
 msgid ""
 "Defines a small bitmap with 64x48 pixels, containing a grayscale gradient"
 msgstr ""
+"Defines a small bitmap with 64x48 pixels, containing a greyscale gradient"
 
 #: modules/video_filter/atmo/atmo.cpp:347
 #, fuzzy
@@ -26110,11 +26120,11 @@ msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:399
 msgid "Illuminate the room with this color on pause"
-msgstr ""
+msgstr "Illuminate the room with this colour on pause"
 
 #: modules/video_filter/atmo/atmo.cpp:415
 msgid "Illuminate the room with this color on shutdown"
-msgstr ""
+msgstr "Illuminate the room with this colour on shutdown"
 
 #: modules/video_filter/atmo/atmo.cpp:426
 #, fuzzy
@@ -26242,9 +26252,8 @@ msgid "Audio Bar Graph Video"
 msgstr "Audio CD device"
 
 #: modules/video_filter/ball.c:98
-#, fuzzy
 msgid "Ball color"
-msgstr "ffmpeg demuxer"
+msgstr "Ball colour"
 
 #: modules/video_filter/ball.c:100
 #, fuzzy
@@ -26390,6 +26399,10 @@ msgid ""
 "weather forecasts). You can choose the \"key\" color for blending (blue by "
 "default)."
 msgstr ""
+"This effect, also known as \"greenscreen\" or \"chroma key\" blends the "
+"\"blue parts\" of the foreground image of the mosaic on the background (like "
+"weather forecasts). You can choose the \"key\" colour for blending (blue by "
+"default)."
 
 #: modules/video_filter/bluescreen.c:42
 #, fuzzy
@@ -26401,6 +26414,8 @@ msgid ""
 "\"U\" value for the bluescreen key color (in YUV values). From 0 to 255. "
 "Defaults to 120 for blue."
 msgstr ""
+"\"U\" value for the bluescreen key colour (in YUV values). From 0 to 255. "
+"Defaults to 120 for blue."
 
 #: modules/video_filter/bluescreen.c:46
 #, fuzzy
@@ -26412,6 +26427,8 @@ msgid ""
 "\"V\" value for the bluescreen key color (in YUV values). From 0 to 255. "
 "Defaults to 90 for blue."
 msgstr ""
+"\"V\" value for the bluescreen key colour (in YUV values). From 0 to 255. "
+"Defaults to 90 for blue."
 
 #: modules/video_filter/bluescreen.c:50
 #, fuzzy
@@ -26423,6 +26440,8 @@ msgid ""
 "Tolerance of the bluescreen blender on color variations for the U plane. A "
 "value between 10 and 20 seems sensible."
 msgstr ""
+"Tolerance of the bluescreen blender on colour variations for the U plane. A "
+"value between 10 and 20 seems sensible."
 
 #: modules/video_filter/bluescreen.c:55
 #, fuzzy
@@ -26434,6 +26453,8 @@ msgid ""
 "Tolerance of the bluescreen blender on color variations for the V plane. A "
 "value between 10 and 20 seems sensible."
 msgstr ""
+"Tolerance of the bluescreen blender on colour variations for the V plane. A "
+"value between 10 and 20 seems sensible."
 
 #: modules/video_filter/bluescreen.c:77
 #, fuzzy
@@ -26536,16 +26557,18 @@ msgid ""
 "green, then blue. #000000 = black, #FF0000 = red, #00FF00 = green, #FFFF00 = "
 "yellow (red + green), #FFFFFF = white"
 msgstr ""
+"Colours similar to this will be kept, others will be greyscaled. This must "
+"be an hexadecimal (like HTML colors). The first two chars are for red, then "
+"green, then blue. #000000 = black, #FF0000 = red, #00FF00 = green, #FFFF00 = "
+"yellow (red + green), #FFFFFF = white"
 
 #: modules/video_filter/colorthres.c:59
-#, fuzzy
 msgid "Select one color in the video"
-msgstr "Destination video codec"
+msgstr "Select one colour in the video"
 
 #: modules/video_filter/colorthres.c:69
-#, fuzzy
 msgid "Color threshold filter"
-msgstr "ffmpeg demuxer"
+msgstr "Colour threshold filter"
 
 #: modules/video_filter/colorthres.c:79
 #, fuzzy
@@ -26866,6 +26889,8 @@ msgid ""
 "Gradient image type (0 or 1). 0 will turn the image to white while 1 will "
 "keep colors."
 msgstr ""
+"Gradient image type (0 or 1). 0 will turn the image to white while 1 will "
+"keep colours."
 
 #: modules/video_filter/gradient.c:69
 #, fuzzy
@@ -26878,7 +26903,7 @@ msgstr ""
 
 #: modules/video_filter/gradient.c:73
 msgid "Apply color gradient or edge detection effects"
-msgstr ""
+msgstr "Apply colour gradient or edge detection effects"
 
 #: modules/video_filter/gradient.c:81
 #, fuzzy
@@ -26967,9 +26992,8 @@ msgid "Invert video filter"
 msgstr "ffmpeg demuxer"
 
 #: modules/video_filter/invert.c:51
-#, fuzzy
 msgid "Color inversion"
-msgstr "Stereo"
+msgstr "Colour inversion"
 
 #: modules/video_filter/logo.c:49
 msgid ""
@@ -27130,6 +27154,10 @@ msgid ""
 "then blue. #000000 = black, #FF0000 = red, #00FF00 = green, #FFFF00 = yellow "
 "(red + green), #FFFFFF = white"
 msgstr ""
+"Colour of the text that will be rendered on the video. This must be an "
+"hexadecimal (like HTML colors). The first two chars are for red, then green, "
+"then blue. #000000 = black, #FF0000 = red, #00FF00 = green, #FFFF00 = yellow "
+"(red + green), #FFFFFF = white"
 
 #: modules/video_filter/marq.c:131
 #, fuzzy
@@ -27734,16 +27762,15 @@ msgstr ""
 
 #: modules/video_filter/posterize.c:61
 msgid "Posterize level (number of colors is cube of this value)"
-msgstr ""
+msgstr "Posterize level (number of colours is cube of this value)"
 
 #: modules/video_filter/posterize.c:67
-#, fuzzy
 msgid "Posterize video filter"
-msgstr "ffmpeg demuxer"
+msgstr "Posterise video filter"
 
 #: modules/video_filter/posterize.c:69
 msgid "Posterize video by lowering the number of colors"
-msgstr ""
+msgstr "Posterize video by lowering the number of colours"
 
 #: modules/video_filter/postproc.c:68
 msgid "Post processing quality"
@@ -28496,9 +28523,8 @@ msgid "Android Surface video output"
 msgstr "Greyscale video output"
 
 #: modules/video_output/caca.c:56
-#, fuzzy
 msgid "Color ASCII art video output"
-msgstr "colour ASCII art video output"
+msgstr "Colour ASCII art video output"
 
 #: modules/video_output/decklink.cpp:69
 #, fuzzy
@@ -29261,7 +29287,7 @@ msgstr ""
 
 #: modules/visualization/visual/visual.c:69
 msgid "Draw peaks in the analyzer"
-msgstr ""
+msgstr "Draw peaks in the analyser"
 
 #: modules/visualization/visual/visual.c:71
 msgid "Enable original graphic spectrum"
@@ -29269,7 +29295,7 @@ msgstr ""
 
 #: modules/visualization/visual/visual.c:73
 msgid "Enable the \"flat\" spectrum analyzer in the spectrometer."
-msgstr ""
+msgstr "Enable the \"flat\" spectrum analyser in the spectrometer."
 
 #: modules/visualization/visual/visual.c:75
 msgid "Draw bands in the spectrometer"
@@ -29317,23 +29343,20 @@ msgid "Additions or subtractions of pixels on the peak width."
 msgstr ""
 
 #: modules/visualization/visual/visual.c:95
-#, fuzzy
 msgid "V-plane color"
-msgstr "ffmpeg demuxer"
+msgstr "V-plane colour"
 
 #: modules/visualization/visual/visual.c:97
 msgid "YUV-Color cube shifting across the V-plane ( 0 - 127 )."
-msgstr ""
+msgstr "YUV-Colour cube shifting across the V-plane ( 0 - 127 )."
 
 #: modules/visualization/visual/visual.c:107
-#, fuzzy
 msgid "Visualizer"
-msgstr "visualiser filter"
+msgstr "Visualiser"
 
 #: modules/visualization/visual/visual.c:110
-#, fuzzy
 msgid "Visualizer filter"
-msgstr "visualiser filter"
+msgstr "Visualiser filter"
 
 #: modules/visualization/visual/visual.c:118
 #, fuzzy
@@ -30019,7 +30042,7 @@ msgstr "Next file"
 
 #: modules/gui/qt4/ui/sprefs_audio.h:436
 msgid "Normalize volume to:"
-msgstr ""
+msgstr "Normalise volume to:"
 
 #: modules/gui/qt4/ui/sprefs_audio.h:438
 #, fuzzy
@@ -30145,9 +30168,8 @@ msgstr ""
 "history."
 
 #: modules/gui/qt4/ui/sprefs_interface.h:523
-#, fuzzy
 msgid "Pause playback when minimized"
-msgstr "Backwards"
+msgstr "Pause playback when minimised"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:524
 msgid "Show media change popup:"
@@ -30401,9 +30423,8 @@ msgid ">HHHHHH;#"
 msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1330
-#, fuzzy
 msgid "Negate colors"
-msgstr "ffmpeg demuxer"
+msgstr "Negate colours"
 
 #: modules/gui/qt4/ui/video_effects.h:1343
 #, fuzzy
@@ -30449,9 +30470,8 @@ msgid "Mask"
 msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1379
-#, fuzzy
 msgid "Output Color Filtermode"
-msgstr "Video output muxer"
+msgstr "Output Colour Filtermode"
 
 #: modules/gui/qt4/ui/video_effects.h:1380
 #, fuzzy
@@ -30460,7 +30480,7 @@ msgstr "Enable interlaced encoding"
 
 #: modules/gui/qt4/ui/video_effects.h:1382
 msgid "Mark analyzed Pixels"
-msgstr ""
+msgstr "Mark analysed Pixels"
 
 #: modules/gui/qt4/ui/video_effects.h:1384
 #, fuzzy

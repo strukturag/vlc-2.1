@@ -2,10 +2,10 @@ dnl Autoconf settings for vlc
 
 AC_COPYRIGHT([Copyright 2002-2014 VLC authors and VideoLAN])
 
-AC_INIT(vlc, 2.1.4)
+AC_INIT(vlc, 2.1.5)
 VERSION_MAJOR=2
 VERSION_MINOR=1
-VERSION_REVISION=4
+VERSION_REVISION=5
 VERSION_EXTRA=0
 VERSION_DEV=
 
@@ -266,7 +266,7 @@ case "${host_os}" in
     ;;
   *os2*)
     SYS=os2
-    LDFLAGS="${LDFLAGS} -Zomf -Zbin-files -Zargs-wild"
+    LDFLAGS="${LDFLAGS} -Zomf -Zbin-files -Zargs-wild -Zhigh-mem"
     ;;
   *)
     SYS="${host_os}"
