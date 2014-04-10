@@ -79,6 +79,8 @@ static picture_t *Decode(decoder_t *dec, block_t **pp_block)
         goto error;
     }
 
+    int drawpicture = !(block->i_flags & BLOCK_FLAG_PREROLL);
+
     de265_error err;
     uint8_t *p_buffer = block->p_buffer;
     size_t i_buffer = block->i_buffer;
@@ -113,35 +115,41 @@ static picture_t *Decode(decoder_t *dec, block_t **pp_block)
 
     int more;
     const struct de265_image *image;
+    // decode (and skip) all available images (e.g. when prerolling
+    // after a seek)
     do {
-        err = de265_decode(ctx, &more);
-        switch (err) {
-        case DE265_OK:
-            break;
-        
-        case DE265_ERROR_IMAGE_BUFFER_FULL:
-        case DE265_ERROR_WAITING_FOR_INPUT_DATA:
-            // not really an error
-            more = 0;
-            break;
-        
-        default:
-            if (!de265_isOK(err)) {
-                msg_Err(dec, "Failed to decode frame: %s (%d)", de265_get_error_text(err), err);
-                return NULL;
-            }
-        }
-        
-        image = de265_get_next_picture(ctx);
-    } while (image == NULL && more);
-    if (!image) {
-        return NULL;
-    }
+        // decode data until we get an image or no more data is
+        // available for decoding
+        do {
+            err = de265_decode(ctx, &more);
+            switch (err) {
+            case DE265_OK:
+                break;
 
-    if (de265_get_chroma_format(image) != de265_chroma_420) {
-        msg_Err(dec, "Unsupported output colorspace %d", de265_get_chroma_format(image));
-        return NULL;
-    }
+            case DE265_ERROR_IMAGE_BUFFER_FULL:
+            case DE265_ERROR_WAITING_FOR_INPUT_DATA:
+                // not really an error
+                more = 0;
+                break;
+
+            default:
+                if (!de265_isOK(err)) {
+                    msg_Err(dec, "Failed to decode frame: %s (%d)", de265_get_error_text(err), err);
+                    return NULL;
+                }
+            }
+
+            image = de265_get_next_picture(ctx);
+        } while (image == NULL && more);
+        if (!image) {
+            return NULL;
+        }
+
+        if (de265_get_chroma_format(image) != de265_chroma_420) {
+            msg_Err(dec, "Unsupported output colorspace %d", de265_get_chroma_format(image));
+            return NULL;
+        }
+    } while (!drawpicture);
 
     video_format_t *v = &dec->fmt_out.video;
     int width = de265_get_image_width(image, 0);
