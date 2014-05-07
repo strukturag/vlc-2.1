@@ -33,6 +33,22 @@
 
 #include <libde265/de265.h>
 
+// Default size of length headers for packetized streams.
+// Should always come from the "extra" data.
+#define DEFAULT_LENGTH_SIZE     4
+
+// Maximum number of threads to use
+#define MAX_THREAD_COUNT        32
+
+// Drop all frames if late frames were available for more than 5 seconds
+#define LATE_FRAMES_DROP_ALWAYS_AGE 5
+
+// Tell decoder to skip decoding if more than 4 late frames
+#define LATE_FRAMES_DROP_DECODER    4
+
+// Don't pass data to decoder if more than 12 late frames
+#define LATE_FRAMES_DROP_HARD       12
+
 /****************************************************************************
  * Local prototypes
  ****************************************************************************/
@@ -45,7 +61,7 @@ static void Close(vlc_object_t *);
 
 vlc_module_begin ()
     set_shortname("libde265dec")
-    set_description(N_("HEVC/H.265 video decoder"))
+    set_description(N_("HEVC/H.265 video decoder using libde265"))
     set_capability("decoder", 200)
     set_callbacks(Open, Close)
     set_category(CAT_INPUT)
@@ -59,6 +75,9 @@ struct decoder_sys_t
 {
     de265_decoder_context *ctx;
 
+    bool check_extra;
+    bool packetized;
+    int length_size;
     int late_frames;
     mtime_t late_frames_start;
 };
@@ -70,8 +89,11 @@ static picture_t *Decode(decoder_t *dec, block_t **pp_block)
 {
     decoder_sys_t *sys = dec->p_sys;
     de265_decoder_context *ctx = sys->ctx;
-    int drawpicture;
-    int prerolling;
+    bool drawpicture;
+    bool prerolling;
+    de265_error err;
+    int can_decode_more;
+    const struct de265_image *image;
 
     block_t *block = *pp_block;
     if (!block)
@@ -85,44 +107,95 @@ static picture_t *Decode(decoder_t *dec, block_t **pp_block)
         goto error;
     }
 
+    if (sys->check_extra) {
+        int extra_length = dec->fmt_in.i_extra;
+        sys->check_extra = false;
+        if (extra_length > 0) {
+            unsigned char *extra = (unsigned char *) dec->fmt_in.p_extra;
+            if (extra_length > 3 && extra != NULL && (extra[0] || extra[1] || extra[2] > 1)) {
+                sys->packetized = true;
+                if (extra_length > 21) {
+                    sys->length_size = (extra[21] & 3) + 1;
+                }
+                msg_Dbg(dec, "Assuming packetized data (%d bytes length)", sys->length_size);
+            } else {
+                sys->packetized = false;
+                msg_Dbg(dec, "Assuming non-packetized data");
+                err = de265_push_data(ctx, extra, extra_length, 0, NULL);
+                if (!de265_isOK(err)) {
+                    msg_Err(dec, "Failed to push extra data: %s (%d)", de265_get_error_text(err), err);
+                    goto error;
+                }
+            }
+#if LIBDE265_NUMERIC_VERSION >= 0x00070000
+            de265_push_end_of_NAL(ctx);
+#endif
+            do {
+                err = de265_decode(ctx, &can_decode_more);
+                switch (err) {
+                case DE265_OK:
+                    break;
+
+                case DE265_ERROR_IMAGE_BUFFER_FULL:
+                case DE265_ERROR_WAITING_FOR_INPUT_DATA:
+                    // not really an error
+                    can_decode_more = 0;
+                    break;
+
+                default:
+                    if (!de265_isOK(err)) {
+                        msg_Err(dec, "Failed to decode extra data: %s (%d)", de265_get_error_text(err), err);
+                        goto error;
+                    }
+                }
+            } while (can_decode_more);
+        }
+    }
+
     if ((prerolling = (block->i_flags & BLOCK_FLAG_PREROLL))) {
         sys->late_frames = 0;
-        drawpicture = 0;
+        drawpicture = false;
     } else {
-        drawpicture = 1;
+        drawpicture = true;
     }
 
     if (!dec->b_pace_control && (sys->late_frames > 0) &&
-        (mdate() - sys->late_frames_start > INT64_C(5000000))) {
+        (mdate() - sys->late_frames_start > INT64_C(LATE_FRAMES_DROP_ALWAYS_AGE*1000000))) {
         sys->late_frames--;
-        msg_Err(dec, "more than 5 seconds of late video -> "
-                "dropping frame (computer too slow ?)");
+        msg_Err(dec, "more than %d seconds of late video -> "
+                "dropping frame (computer too slow ?)", LATE_FRAMES_DROP_ALWAYS_AGE);
         goto error;
     }
 
     if (!dec->b_pace_control &&
-        (sys->late_frames > 4)) {
-        drawpicture = 0;
-        if (sys->late_frames < 12) {
-            // TODO(fancycode): tell decoder to skip frame
+        (sys->late_frames > LATE_FRAMES_DROP_DECODER)) {
+        drawpicture = false;
+        if (sys->late_frames < LATE_FRAMES_DROP_HARD) {
+            // we could tell the decoder to skip frame, this will be
+            // available in a later version of libde265.
+            // for now, pass to decoder...
         } else {
-            /* picture too late, won't decode
-             * but break picture until a new I, and for mpeg4 ...*/
+            // picture too late, won't decode, but break picture until
+            // a new keyframe is available
             sys->late_frames--; /* needed else it will never be decrease */
-            msg_Warn(dec, "More than 4 late frames, dropping frame");
+            msg_Warn(dec, "More than %d late frames, dropping frame", LATE_FRAMES_DROP_DECODER);
             goto error;
         }
     }
 
-    de265_error err;
     uint8_t *p_buffer = block->p_buffer;
     size_t i_buffer = block->i_buffer;
     if (i_buffer > 0) {
-        if (dec->fmt_in.b_packetized) {
-            while (i_buffer >= 4) {
-                uint32_t length = (p_buffer[0]<<24) + (p_buffer[1]<<16) + (p_buffer[2]<<8) + p_buffer[3];
-                p_buffer += 4;
-                i_buffer -= 4;
+        if (sys->packetized) {
+            while (i_buffer >= (size_t) sys->length_size) {
+                int i;
+                uint32_t length = 0;
+                for (i=0; i<sys->length_size; i++) {
+                    length = (length << 8) | p_buffer[i];
+                }
+
+                p_buffer += sys->length_size;
+                i_buffer -= sys->length_size;
                 if (length > i_buffer) {
                     msg_Err(dec, "Buffer underrun while pushing data (%d > %ld)", length, i_buffer);
                     goto error;
@@ -154,8 +227,6 @@ static picture_t *Decode(decoder_t *dec, block_t **pp_block)
     block_Release(block);
     *pp_block = NULL;
 
-    int more;
-    const struct de265_image *image;
     mtime_t pts;
     // decode (and skip) all available images (e.g. when prerolling
     // after a seek)
@@ -163,7 +234,7 @@ static picture_t *Decode(decoder_t *dec, block_t **pp_block)
         // decode data until we get an image or no more data is
         // available for decoding
         do {
-            err = de265_decode(ctx, &more);
+            err = de265_decode(ctx, &can_decode_more);
             switch (err) {
             case DE265_OK:
                 break;
@@ -171,7 +242,7 @@ static picture_t *Decode(decoder_t *dec, block_t **pp_block)
             case DE265_ERROR_IMAGE_BUFFER_FULL:
             case DE265_ERROR_WAITING_FOR_INPUT_DATA:
                 // not really an error
-                more = 0;
+                can_decode_more = 0;
                 break;
 
             default:
@@ -182,7 +253,7 @@ static picture_t *Decode(decoder_t *dec, block_t **pp_block)
             }
 
             image = de265_get_next_picture(ctx);
-        } while (image == NULL && more);
+        } while (image == NULL && can_decode_more);
         if (!image) {
             return NULL;
         }
@@ -276,7 +347,10 @@ static int Open(vlc_object_t *p_this)
         return VLC_EGENERIC;
     }
 
-    int threads = __MIN(vlc_GetCPUCount() * 2, 32);
+    // NOTE: We start more threads than cores for now, as some threads
+    // might get blocked while waiting for dependent data. Having more
+    // threads increases decoding speed by about 10%.
+    int threads = __MIN(vlc_GetCPUCount() * 2, MAX_THREAD_COUNT);
     if (threads > 1) {
         de265_error err;
         err = de265_start_worker_threads(sys->ctx, threads);
@@ -296,6 +370,9 @@ static int Open(vlc_object_t *p_this)
     dec->fmt_out.i_codec = VLC_CODEC_I420;
     dec->b_need_packetized = true;
 
+    sys->check_extra = true;
+    sys->length_size = DEFAULT_LENGTH_SIZE;
+    sys->packetized = dec->fmt_in.b_packetized;
     sys->late_frames = 0;
 
     return VLC_SUCCESS;
