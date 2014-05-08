@@ -60,7 +60,7 @@ static void Close(vlc_object_t *);
  *****************************************************************************/
 
 vlc_module_begin ()
-    set_shortname("libde265dec")
+    set_shortname(N_("libde265dec"))
     set_description(N_("HEVC/H.265 video decoder using libde265"))
     set_capability("decoder", 200)
     set_callbacks(Open, Close)
@@ -75,11 +75,11 @@ struct decoder_sys_t
 {
     de265_decoder_context *ctx;
 
-    bool check_extra;
-    bool packetized;
+    mtime_t late_frames_start;
     int length_size;
     int late_frames;
-    mtime_t late_frames_start;
+    bool check_extra;
+    bool packetized;
 };
 
 /****************************************************************************
@@ -160,7 +160,7 @@ static picture_t *Decode(decoder_t *dec, block_t **pp_block)
     }
 
     if (!dec->b_pace_control && (sys->late_frames > 0) &&
-        (mdate() - sys->late_frames_start > INT64_C(LATE_FRAMES_DROP_ALWAYS_AGE*1000000))) {
+        (mdate() - sys->late_frames_start > LATE_FRAMES_DROP_ALWAYS_AGE*CLOCK_FREQ)) {
         sys->late_frames--;
         msg_Err(dec, "more than %d seconds of late video -> "
                 "dropping frame (computer too slow ?)", LATE_FRAMES_DROP_ALWAYS_AGE);
@@ -317,9 +317,7 @@ static picture_t *Decode(decoder_t *dec, block_t **pp_block)
     return pic;
 
 error:
-    if (*pp_block != NULL) {
-        block_Release(*pp_block);
-    }
+    block_Release(*pp_block);
     *pp_block = NULL;
     return NULL;
 }
@@ -342,7 +340,7 @@ static int Open(vlc_object_t *p_this)
 
     msg_Dbg(p_this, "using libde265 version %s", de265_get_version());
     if ((sys->ctx = de265_new_decoder()) == NULL) {
-        msg_Err(p_this, "Failed to initialize decoder\n");
+        msg_Err(p_this, "Failed to initialize decoder");
         free(sys);
         return VLC_EGENERIC;
     }
@@ -351,15 +349,12 @@ static int Open(vlc_object_t *p_this)
     // might get blocked while waiting for dependent data. Having more
     // threads increases decoding speed by about 10%.
     int threads = __MIN(vlc_GetCPUCount() * 2, MAX_THREAD_COUNT);
-    if (threads > 1) {
-        de265_error err;
-        err = de265_start_worker_threads(sys->ctx, threads);
-        if (!de265_isOK(err)) {
-            // don't report to caller, decoding will work anyway...
-            msg_Err(dec, "Failed to start worker threads: %s (%d)", de265_get_error_text(err), err);
-        } else {
-            msg_Dbg(p_this, "started %d worker threads", threads);
-        }
+    de265_error err = de265_start_worker_threads(sys->ctx, threads);
+    if (!de265_isOK(err)) {
+        // don't report to caller, decoding will work anyway...
+        msg_Err(dec, "Failed to start worker threads: %s (%d)", de265_get_error_text(err), err);
+    } else {
+        msg_Dbg(p_this, "started %d worker threads", threads);
     }
 
     dec->pf_decode_video = Decode;
