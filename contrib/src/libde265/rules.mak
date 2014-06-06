@@ -15,6 +15,7 @@ $(TARBALLS)/libde265-$(LIBDE265_VERSION).tar.gz:
 
 libde265: libde265-$(LIBDE265_VERSION).tar.gz .sum-libde265
 	$(UNPACK)
+	$(APPLY) $(SRC)/libde265/0001-add-stdc++-to-pkg-config.diff
 	$(UPDATE_AUTOCONFIG)
 	$(MOVE)
 
