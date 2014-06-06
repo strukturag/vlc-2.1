@@ -1,5 +1,5 @@
 StrCpy $Name_Section01 "Reprodutor de Mídias (obrigatório)"
-StrCpy $Name_Section02a "Atarlho do Menu Iniciar"
+StrCpy $Name_Section02a "Atalho do Menu Iniciar"
 StrCpy $Name_Section02b "Atalho da Área de Trabalho"
 StrCpy $Name_Section34 "Complementos da Web"
 StrCpy $Name_Section03 "Complemento Mozilla"
