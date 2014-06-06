@@ -78,9 +78,39 @@ struct decoder_sys_t
     mtime_t late_frames_start;
     int length_size;
     int late_frames;
+    int decode_ratio;
     bool check_extra;
     bool packetized;
+    int direct_rendering_used;
 };
+
+/*****************************************************************************
+ * picture_ref_t: an reference to a vlc picture stored in a libde265 image
+ *****************************************************************************/
+struct picture_ref_t
+{
+    decoder_t *decoder;
+    picture_t *picture;
+};
+
+/*****************************************************************************
+ * SetDecodeRation: tell the decoder to decode only a percentage of the framerate
+ *****************************************************************************/
+static void SetDecodeRatio(decoder_sys_t *sys, int ratio)
+{
+    if (ratio != sys->decode_ratio) {
+        de265_decoder_context *ctx = sys->ctx;
+        sys->decode_ratio = ratio;
+        de265_set_framerate_ratio(ctx, ratio);
+        if (ratio < 100) {
+            de265_set_parameter_bool(sys->ctx, DE265_DECODER_PARAM_DISABLE_DEBLOCKING, true);
+            de265_set_parameter_bool(sys->ctx, DE265_DECODER_PARAM_DISABLE_SAO, true);
+        } else {
+            de265_set_parameter_bool(sys->ctx, DE265_DECODER_PARAM_DISABLE_DEBLOCKING, false);
+            de265_set_parameter_bool(sys->ctx, DE265_DECODER_PARAM_DISABLE_SAO, false);
+        }
+    }
+}
 
 /****************************************************************************
  * Decode: the whole thing
@@ -100,6 +130,7 @@ static picture_t *Decode(decoder_t *dec, block_t **pp_block)
         return NULL;
 
     if (block->i_flags & (BLOCK_FLAG_DISCONTINUITY|BLOCK_FLAG_CORRUPTED)) {
+        SetDecodeRatio(sys, 100);
         sys->late_frames = 0;
         if (block->i_flags & BLOCK_FLAG_DISCONTINUITY) {
             de265_reset(ctx);
@@ -127,9 +158,7 @@ static picture_t *Decode(decoder_t *dec, block_t **pp_block)
                     goto error;
                 }
             }
-#if LIBDE265_NUMERIC_VERSION >= 0x00070000
             de265_push_end_of_NAL(ctx);
-#endif
             do {
                 err = de265_decode(ctx, &can_decode_more);
                 switch (err) {
@@ -153,6 +182,7 @@ static picture_t *Decode(decoder_t *dec, block_t **pp_block)
     }
 
     if ((prerolling = (block->i_flags & BLOCK_FLAG_PREROLL))) {
+        SetDecodeRatio(sys, 100);
         sys->late_frames = 0;
         drawpicture = false;
     } else {
@@ -171,9 +201,8 @@ static picture_t *Decode(decoder_t *dec, block_t **pp_block)
         (sys->late_frames > LATE_FRAMES_DROP_DECODER)) {
         drawpicture = false;
         if (sys->late_frames < LATE_FRAMES_DROP_HARD) {
-            // we could tell the decoder to skip frame, this will be
-            // available in a later version of libde265.
-            // for now, pass to decoder...
+            // tell the decoder to skip frames
+            SetDecodeRatio(sys, 0);
         } else {
             // picture too late, won't decode, but break picture until
             // a new keyframe is available
@@ -276,38 +305,47 @@ static picture_t *Decode(decoder_t *dec, block_t **pp_block)
                 sys->late_frames_start = mdate();
             }
         } else {
+            SetDecodeRatio(sys, 100);
             sys->late_frames = 0;
         }
     } while (!drawpicture);
 
-    video_format_t *v = &dec->fmt_out.video;
-    int width = de265_get_image_width(image, 0);
-    int height = de265_get_image_height(image, 0);
+    picture_t *pic;
+    struct picture_ref_t *ref = (struct picture_ref_t *) de265_get_image_plane_user_data(image, 0);
+    if (ref != NULL) {
+        // using direct rendering
+        pic = ref->picture;
+        decoder_LinkPicture(dec, pic);
+    } else {
+        video_format_t *v = &dec->fmt_out.video;
+        int width = de265_get_image_width(image, 0);
+        int height = de265_get_image_height(image, 0);
 
-    if (width != (int) v->i_width || height != (int) v->i_height) {
-        v->i_width = width;
-        v->i_height = height;
-    }
-    if (width != (int) v->i_visible_width || height != (int) v->i_visible_height) {
-        v->i_visible_width = width;
-        v->i_visible_height = height;
-    }
+        if (width != (int) v->i_width || height != (int) v->i_height) {
+            v->i_width = width;
+            v->i_height = height;
+        }
+        if (width != (int) v->i_visible_width || height != (int) v->i_visible_height) {
+            v->i_visible_width = width;
+            v->i_visible_height = height;
+        }
 
-    picture_t *pic = decoder_NewPicture(dec);
-    if (!pic)
-        return NULL;
+        pic = decoder_NewPicture(dec);
+        if (!pic)
+            return NULL;
 
-    for (int plane = 0; plane < pic->i_planes; plane++ ) {
-        int src_stride;
-        const uint8_t *src = de265_get_image_plane(image, plane, &src_stride);
-        int dst_stride = pic->p[plane].i_pitch;
-        uint8_t *dst = pic->p[plane].p_pixels;
+        for (int plane = 0; plane < pic->i_planes; plane++ ) {
+            int src_stride;
+            const uint8_t *src = de265_get_image_plane(image, plane, &src_stride);
+            int dst_stride = pic->p[plane].i_pitch;
+            uint8_t *dst = pic->p[plane].p_pixels;
 
-        int size = __MIN( src_stride, dst_stride );
-        for( int line = 0; line < pic->p[plane].i_visible_lines; line++ ) {
-            memcpy( dst, src, size );
-            src += src_stride;
-            dst += dst_stride;
+            int size = __MIN( src_stride, dst_stride );
+            for( int line = 0; line < pic->p[plane].i_visible_lines; line++ ) {
+                memcpy( dst, src, size );
+                src += src_stride;
+                dst += dst_stride;
+            }
         }
     }
 
@@ -320,6 +358,156 @@ error:
     block_Release(*pp_block);
     *pp_block = NULL;
     return NULL;
+}
+
+/*****************************************************************************
+ * ReleasePictureRef: release a reference to a vlc picture
+ *****************************************************************************/
+static void ReleasePictureRef(struct picture_ref_t *ref)
+{
+    decoder_UnlinkPicture(ref->decoder, ref->picture);
+    free(ref);
+}
+
+/*****************************************************************************
+ * GetPicture: create a vlc picture that can be used for direct rendering
+ *****************************************************************************/
+static picture_t *GetPicture(decoder_t *dec, struct de265_image_spec* spec)
+{
+    int width = spec->width;
+    int height = spec->height;
+
+    if (width % spec->alignment) {
+        width += spec->alignment - (width % spec->alignment);
+    }
+    if (width == 0 || height == 0 || width > 8192 || height > 8192) {
+        msg_Err(dec, "Invalid frame size %dx%d.", width, height);
+        return NULL;
+    }
+
+    dec->fmt_out.video.i_width = width;
+    dec->fmt_out.video.i_height = height;
+
+    if (width != spec->visible_width || height != spec->visible_height) {
+        dec->fmt_out.video.i_x_offset = spec->crop_left;
+        dec->fmt_out.video.i_y_offset = spec->crop_top;
+        dec->fmt_out.video.i_visible_width = spec->visible_width;
+        dec->fmt_out.video.i_visible_height = spec->visible_height;
+    } else {
+        dec->fmt_out.video.i_visible_width = width;
+        dec->fmt_out.video.i_visible_height = height;
+    }
+
+    picture_t *pic = decoder_NewPicture(dec);
+    if (pic == NULL) {
+        return NULL;
+    }
+
+    decoder_sys_t *sys = dec->p_sys;
+    if (pic->p[0].i_pitch < width * pic->p[0].i_pixel_pitch) {
+        if (sys->direct_rendering_used != 0) {
+            msg_Dbg(dec, "plane 0: pitch too small (%d/%d*%d)",
+                    pic->p[0].i_pitch, width, pic->p[0].i_pixel_pitch);
+        }
+        goto error;
+    }
+
+    if (pic->p[0].i_lines < height) {
+        if (sys->direct_rendering_used != 0) {
+            msg_Dbg(dec, "plane 0: lines too few (%d/%d)",
+                    pic->p[0].i_lines, height);
+        }
+        goto error;
+    }
+
+    for (int i = 0; i < pic->i_planes; i++) {
+        if (pic->p[i].i_pitch % spec->alignment) {
+            if (sys->direct_rendering_used != 0) {
+                msg_Dbg(dec, "plane %d: pitch not aligned (%d%%%d)",
+                        i, pic->p[i].i_pitch, spec->alignment);
+            }
+            goto error;
+        }
+        if (((uintptr_t)pic->p[i].p_pixels) % spec->alignment) {
+            if (sys->direct_rendering_used != 0) {
+                msg_Warn(dec, "plane %d not aligned", i);
+            }
+            goto error;
+        }
+    }
+    return pic;
+
+error:
+    decoder_DeletePicture(dec, pic);
+    return NULL;
+}
+
+/*****************************************************************************
+ * GetBuffer: libde265 callback to create images
+ *****************************************************************************/
+static int GetBuffer(de265_decoder_context* ctx, struct de265_image_spec* spec, struct de265_image* img, void* userdata)
+{
+    decoder_t *dec = (decoder_t *) userdata;
+    decoder_sys_t *sys = dec->p_sys;
+
+    picture_t *pic = GetPicture(dec, spec);
+    if (pic == NULL) {
+        if (sys->direct_rendering_used != 0) {
+            msg_Warn(dec, "disabling direct rendering");
+            sys->direct_rendering_used = 0;
+        }
+        return de265_get_default_image_allocation_functions()->get_buffer(ctx, spec, img, userdata);
+    }
+
+    if (sys->direct_rendering_used != 1) {
+        msg_Dbg(dec, "enabling direct rendering");
+        sys->direct_rendering_used = 1;
+    }
+    for (int i = 0; i < pic->i_planes; i++) {
+        struct picture_ref_t *ref = (struct picture_ref_t *) malloc(sizeof (*ref));
+        if (ref == NULL) {
+            goto error;
+        }
+        ref->decoder = dec;
+        ref->picture = pic;
+        decoder_LinkPicture(dec, pic);
+
+        uint8_t *data = pic->p[i].p_pixels;
+        int stride = pic->p[i].i_pitch;
+        de265_set_image_plane(img, i, data, stride, ref);
+    }
+    decoder_UnlinkPicture(dec, pic);
+    return 1;
+
+error:
+    for (int i=0; i<3; i++) {
+        struct picture_ref_t *userdata = (struct picture_ref_t *) de265_get_image_plane_user_data(img, i);
+        if (userdata) {
+            ReleasePictureRef(userdata);
+        }
+    }
+    decoder_DeletePicture(dec, pic);
+    return de265_get_default_image_allocation_functions()->get_buffer(ctx, spec, img, userdata);
+}
+
+/*****************************************************************************
+ * ReleaseBuffer: libde265 callback to release images
+ *****************************************************************************/
+static void ReleaseBuffer(de265_decoder_context* ctx, struct de265_image* img, void* userdata)
+{
+    int release_default = 1;
+    for (int i=0; i<3; i++) {
+        struct picture_ref_t *ref = (struct picture_ref_t *) de265_get_image_plane_user_data(img, i);
+        if (ref) {
+            ReleasePictureRef(ref);
+            release_default = 0;
+        }
+    }
+
+    if (release_default) {
+        // image was created from default allocator
+        de265_get_default_image_allocation_functions()->release_buffer(ctx, img, userdata);
+    }
 }
 
 /*****************************************************************************
@@ -345,6 +533,11 @@ static int Open(vlc_object_t *p_this)
         return VLC_EGENERIC;
     }
 
+    struct de265_image_allocation allocators;
+    allocators.get_buffer = GetBuffer;
+    allocators.release_buffer = ReleaseBuffer;
+    de265_set_image_allocation_functions(sys->ctx, &allocators, dec);
+
     // NOTE: We start more threads than cores for now, as some threads
     // might get blocked while waiting for dependent data. Having more
     // threads increases decoding speed by about 10%.
@@ -369,6 +562,8 @@ static int Open(vlc_object_t *p_this)
     sys->length_size = DEFAULT_LENGTH_SIZE;
     sys->packetized = dec->fmt_in.b_packetized;
     sys->late_frames = 0;
+    sys->decode_ratio = 100;
+    sys->direct_rendering_used = -1;
 
     return VLC_SUCCESS;
 }
