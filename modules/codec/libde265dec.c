@@ -49,6 +49,23 @@
 // Don't pass data to decoder if more than 12 late frames
 #define LATE_FRAMES_DROP_HARD       12
 
+#define THREADS_TEXT N_("Threads")
+#define THREADS_LONGTEXT N_("Number of threads used for decoding, 0 meaning auto")
+
+#define DISABLE_DEBLOCKING_TEXT N_("Disable deblocking?")
+#define DISABLE_DEBLOCKING_LONGTEXT N_("Disabling the deblocking filter " \
+    "usually has a detrimental effect on quality. However it provides a big " \
+    "speedup for high definition streams.")
+
+#define DISABLE_SAO_TEXT N_("Disable SAO filter?")
+#define DISABLE_SAO_LONGTEXT N_("Disabling the sample adaptive offset filter " \
+    "usually has a detrimental effect on quality. However it provides a big " \
+    "speedup for high definition streams.")
+
+#ifndef VLC_CODEC_HEV1
+#define VLC_CODEC_HEV1 VLC_FOURCC('h','e','v','1')
+#endif
+
 /****************************************************************************
  * Local prototypes
  ****************************************************************************/
@@ -60,12 +77,16 @@ static void Close(vlc_object_t *);
  *****************************************************************************/
 
 vlc_module_begin ()
-    set_shortname(N_("libde265dec"))
+    set_shortname(N_("HEVC/H.265"))
     set_description(N_("HEVC/H.265 video decoder using libde265"))
     set_capability("decoder", 200)
     set_callbacks(Open, Close)
     set_category(CAT_INPUT)
     set_subcategory(SUBCAT_INPUT_VCODEC)
+    add_shortcut("libde265dec")
+    add_integer("libde265-threads", 0, THREADS_TEXT, THREADS_LONGTEXT, true);
+    add_bool("libde265-disable-deblocking", false, DISABLE_DEBLOCKING_TEXT, DISABLE_DEBLOCKING_LONGTEXT, false)
+    add_bool("libde265-disable-sao", false, DISABLE_SAO_TEXT, DISABLE_SAO_LONGTEXT, false)
 vlc_module_end ()
 
 /*****************************************************************************
@@ -81,6 +102,8 @@ struct decoder_sys_t
     int decode_ratio;
     bool check_extra;
     bool packetized;
+    bool disable_deblocking;
+    bool disable_sao;
     int direct_rendering_used;
 };
 
@@ -106,8 +129,8 @@ static void SetDecodeRatio(decoder_sys_t *sys, int ratio)
             de265_set_parameter_bool(sys->ctx, DE265_DECODER_PARAM_DISABLE_DEBLOCKING, true);
             de265_set_parameter_bool(sys->ctx, DE265_DECODER_PARAM_DISABLE_SAO, true);
         } else {
-            de265_set_parameter_bool(sys->ctx, DE265_DECODER_PARAM_DISABLE_DEBLOCKING, false);
-            de265_set_parameter_bool(sys->ctx, DE265_DECODER_PARAM_DISABLE_SAO, false);
+            de265_set_parameter_bool(sys->ctx, DE265_DECODER_PARAM_DISABLE_DEBLOCKING, sys->disable_deblocking);
+            de265_set_parameter_bool(sys->ctx, DE265_DECODER_PARAM_DISABLE_SAO, sys->disable_sao);
         }
     }
 }
@@ -144,9 +167,41 @@ static picture_t *Decode(decoder_t *dec, block_t **pp_block)
         if (extra_length > 0) {
             unsigned char *extra = (unsigned char *) dec->fmt_in.p_extra;
             if (extra_length > 3 && extra != NULL && (extra[0] || extra[1] || extra[2] > 1)) {
+                // encoded in "hvcC" format (assume version 0)
                 sys->packetized = true;
-                if (extra_length > 21) {
+                if (extra_length > 22) {
+                    if (extra[0] != 0) {
+                        msg_Warn(dec, "Unsupported extra data version %d, decoding may fail", extra[0]);
+                    }
                     sys->length_size = (extra[21] & 3) + 1;
+                    int num_param_sets = extra[22];
+                    int pos = 23;
+                    for (int i=0; i<num_param_sets; i++) {
+                        if (pos + 3 > extra_length) {
+                            msg_Err(dec, "Buffer underrun in extra header (%d >= %d)", pos + 3, extra_length);
+                            goto error;
+                        }
+                        // ignore flags + NAL type (1 byte)
+                        int nal_count  = extra[pos+1] << 8 | extra[pos+2];
+                        pos += 3;
+                        for (int j=0; j<nal_count; j++) {
+                            if (pos + 2 > extra_length) {
+                                msg_Err(dec, "Buffer underrun in extra nal header (%d >= %d)", pos + 2, extra_length);
+                                goto error;
+                            }
+                            int nal_size = extra[pos] << 8 | extra[pos+1];
+                            if (pos + 2 + nal_size > extra_length) {
+                                msg_Err(dec, "Buffer underrun in extra nal (%d >= %d)", pos + 2 + nal_size, extra_length);
+                                goto error;
+                            }
+                            err = de265_push_NAL(ctx, extra + pos + 2, nal_size, 0, NULL);
+                            if (!de265_isOK(err)) {
+                                msg_Err(dec, "Failed to push data: %s (%d)", de265_get_error_text(err), err);
+                                goto error;
+                            }
+                            pos += 2 + nal_size;
+                        }
+                    }
                 }
                 msg_Dbg(dec, "Assuming packetized data (%d bytes length)", sys->length_size);
             } else {
@@ -212,6 +267,13 @@ static picture_t *Decode(decoder_t *dec, block_t **pp_block)
         }
     }
 
+    mtime_t pts = block->i_pts;
+    bool use_decoder_pts = true;
+    if (pts == 0 || pts == VLC_TS_INVALID) {
+        pts = block->i_dts;
+        use_decoder_pts = false;
+    }
+
     uint8_t *p_buffer = block->p_buffer;
     size_t i_buffer = block->i_buffer;
     if (i_buffer > 0) {
@@ -230,7 +292,7 @@ static picture_t *Decode(decoder_t *dec, block_t **pp_block)
                     goto error;
                 }
 
-                err = de265_push_NAL(ctx, p_buffer, length, block->i_pts, NULL);
+                err = de265_push_NAL(ctx, p_buffer, length, pts, NULL);
                 if (!de265_isOK(err)) {
                     msg_Err(dec, "Failed to push data: %s (%d)", de265_get_error_text(err), err);
                     goto error;
@@ -240,7 +302,7 @@ static picture_t *Decode(decoder_t *dec, block_t **pp_block)
                 i_buffer -= length;
             }
         } else {
-            err = de265_push_data(ctx, p_buffer, i_buffer, block->i_pts, NULL);
+            err = de265_push_data(ctx, p_buffer, i_buffer, pts, NULL);
             if (!de265_isOK(err)) {
                 msg_Err(dec, "Failed to push data: %s (%d)", de265_get_error_text(err), err);
                 goto error;
@@ -256,7 +318,6 @@ static picture_t *Decode(decoder_t *dec, block_t **pp_block)
     block_Release(block);
     *pp_block = NULL;
 
-    mtime_t pts;
     // decode (and skip) all available images (e.g. when prerolling
     // after a seek)
     do {
@@ -283,6 +344,17 @@ static picture_t *Decode(decoder_t *dec, block_t **pp_block)
 
             image = de265_get_next_picture(ctx);
         } while (image == NULL && can_decode_more);
+
+        // log warnings
+        for (;;) {
+            de265_error warning = de265_get_warning(ctx);
+            if (warning == DE265_OK) {
+                break;
+            }
+
+            msg_Warn(dec, "%s", de265_get_error_text(warning));
+        }
+
         if (!image) {
             return NULL;
         }
@@ -292,7 +364,9 @@ static picture_t *Decode(decoder_t *dec, block_t **pp_block)
             return NULL;
         }
 
-        pts = de265_get_image_PTS(image);
+        if (use_decoder_pts) {
+            pts = de265_get_image_PTS(image);
+        }
 
         mtime_t display_date = 0;
         if (!prerolling) {
@@ -310,6 +384,19 @@ static picture_t *Decode(decoder_t *dec, block_t **pp_block)
         }
     } while (!drawpicture);
 
+    video_format_t *v = &dec->fmt_out.video;
+    int width = de265_get_image_width(image, 0);
+    int height = de265_get_image_height(image, 0);
+
+    if (width != (int) v->i_width || height != (int) v->i_height) {
+        v->i_width = width;
+        v->i_height = height;
+    }
+    if (width != (int) v->i_visible_width || height != (int) v->i_visible_height) {
+        v->i_visible_width = width;
+        v->i_visible_height = height;
+    }
+
     picture_t *pic;
     struct picture_ref_t *ref = (struct picture_ref_t *) de265_get_image_plane_user_data(image, 0);
     if (ref != NULL) {
@@ -317,19 +404,6 @@ static picture_t *Decode(decoder_t *dec, block_t **pp_block)
         pic = ref->picture;
         decoder_LinkPicture(dec, pic);
     } else {
-        video_format_t *v = &dec->fmt_out.video;
-        int width = de265_get_image_width(image, 0);
-        int height = de265_get_image_height(image, 0);
-
-        if (width != (int) v->i_width || height != (int) v->i_height) {
-            v->i_width = width;
-            v->i_height = height;
-        }
-        if (width != (int) v->i_visible_width || height != (int) v->i_visible_height) {
-            v->i_visible_width = width;
-            v->i_visible_height = height;
-        }
-
         pic = decoder_NewPicture(dec);
         if (!pic)
             return NULL;
@@ -374,6 +448,7 @@ static void ReleasePictureRef(struct picture_ref_t *ref)
  *****************************************************************************/
 static picture_t *GetPicture(decoder_t *dec, struct de265_image_spec* spec)
 {
+    decoder_sys_t *sys = dec->p_sys;
     int width = spec->width;
     int height = spec->height;
 
@@ -385,6 +460,19 @@ static picture_t *GetPicture(decoder_t *dec, struct de265_image_spec* spec)
         return NULL;
     }
 
+    const vlc_chroma_description_t *dsc = vlc_fourcc_GetChromaDescription(dec->fmt_out.video.i_chroma);
+    for (unsigned int i=0; dsc && i<dsc->plane_count; i++) {
+        int alignment = spec->alignment * dsc->p[i].w.den;
+        int aligned_width = (width + alignment - 1) / alignment * alignment;
+        if (width != aligned_width) {
+            if (sys->direct_rendering_used != 0) {
+                msg_Dbg(dec, "plane %d: aligned width doesn't match (%d/%d)",
+                        i, width, aligned_width);
+            }
+            return NULL;
+        }
+    }
+
     dec->fmt_out.video.i_width = width;
     dec->fmt_out.video.i_height = height;
 
@@ -394,6 +482,8 @@ static picture_t *GetPicture(decoder_t *dec, struct de265_image_spec* spec)
         dec->fmt_out.video.i_visible_width = spec->visible_width;
         dec->fmt_out.video.i_visible_height = spec->visible_height;
     } else {
+        dec->fmt_out.video.i_x_offset = 0;
+        dec->fmt_out.video.i_y_offset = 0;
         dec->fmt_out.video.i_visible_width = width;
         dec->fmt_out.video.i_visible_height = height;
     }
@@ -403,7 +493,6 @@ static picture_t *GetPicture(decoder_t *dec, struct de265_image_spec* spec)
         return NULL;
     }
 
-    decoder_sys_t *sys = dec->p_sys;
     if (pic->p[0].i_pitch < width * pic->p[0].i_pixel_pitch) {
         if (sys->direct_rendering_used != 0) {
             msg_Dbg(dec, "plane 0: pitch too small (%d/%d*%d)",
@@ -517,7 +606,7 @@ static int Open(vlc_object_t *p_this)
 {
     decoder_t *dec = (decoder_t *)p_this;
 
-    if (dec->fmt_in.i_codec != VLC_CODEC_HEVC) {
+    if (dec->fmt_in.i_codec != VLC_CODEC_HEVC && dec->fmt_in.i_codec != VLC_CODEC_HEV1) {
         return VLC_EGENERIC;
     }
 
@@ -538,21 +627,31 @@ static int Open(vlc_object_t *p_this)
     allocators.release_buffer = ReleaseBuffer;
     de265_set_image_allocation_functions(sys->ctx, &allocators, dec);
 
-    // NOTE: We start more threads than cores for now, as some threads
-    // might get blocked while waiting for dependent data. Having more
-    // threads increases decoding speed by about 10%.
-    int threads = __MIN(vlc_GetCPUCount() * 2, MAX_THREAD_COUNT);
-    de265_error err = de265_start_worker_threads(sys->ctx, threads);
-    if (!de265_isOK(err)) {
-        // don't report to caller, decoding will work anyway...
-        msg_Err(dec, "Failed to start worker threads: %s (%d)", de265_get_error_text(err), err);
+    int threads = var_InheritInteger(dec, "libde265-threads");
+    if (threads <= 0) {
+        threads = vlc_GetCPUCount();
+        // NOTE: We start more threads than cores for now, as some threads
+        // might get blocked while waiting for dependent data. Having more
+        // threads increases decoding speed by about 10%.
+        threads = threads * 2;
+    }
+    if (threads > 1) {
+        threads = __MIN(threads, MAX_THREAD_COUNT);
+        de265_error err = de265_start_worker_threads(sys->ctx, threads);
+        if (!de265_isOK(err)) {
+            // don't report to caller, decoding will work anyway...
+            msg_Err(dec, "Failed to start worker threads: %s (%d)", de265_get_error_text(err), err);
+        } else {
+            msg_Dbg(p_this, "Started %d worker threads", threads);
+        }
     } else {
-        msg_Dbg(p_this, "started %d worker threads", threads);
+        msg_Dbg(p_this, "Using single-threaded decoding");
     }
 
     dec->pf_decode_video = Decode;
 
     dec->fmt_out.i_cat = VIDEO_ES;
+    dec->fmt_out.video.i_chroma = VLC_CODEC_I420;
     dec->fmt_out.video.i_width = dec->fmt_in.video.i_width;
     dec->fmt_out.video.i_height = dec->fmt_in.video.i_height;
     dec->fmt_out.i_codec = VLC_CODEC_I420;
@@ -564,6 +663,8 @@ static int Open(vlc_object_t *p_this)
     sys->late_frames = 0;
     sys->decode_ratio = 100;
     sys->direct_rendering_used = -1;
+    sys->disable_deblocking = var_InheritBool(dec, "libde265-disable-deblocking");
+    sys->disable_sao = var_InheritBool(dec, "libde265-disable-sao");
 
     return VLC_SUCCESS;
 }
