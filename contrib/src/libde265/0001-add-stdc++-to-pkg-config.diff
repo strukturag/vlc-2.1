@@ -1,8 +1,0 @@
---- own/libde265/libde265.pc.in	2014-02-25 16:42:21.000000000 +0100
-+++ libde265/libde265.pc.in	2014-06-06 15:25:13.000000000 +0200
-@@ -9,4 +9,5 @@
- Version: @VERSION@
- Requires: 
- Libs: -lde265 -L@libdir@
-+Libs.private: @LIBS@ -lstdc++
- Cflags: -I@includedir@
