@@ -2669,7 +2669,7 @@ PKG_ENABLE_MODULES_VLC([SCHROEDINGER], [], [schroedinger-1.0 >= 1.0.10], [dirac 
 dnl
 dnl  libde265 decoder plugin (for hevc/h.265 video)
 dnl
-PKG_ENABLE_MODULES_VLC([DE265], [], [libde265 >= 0.6], [hevc/h.265 decoder using libde265], [auto])
+PKG_ENABLE_MODULES_VLC([DE265], [], [libde265 >= 0.9], [hevc/h.265 decoder using libde265], [auto])
 
 dnl
 dnl  PNG decoder module
